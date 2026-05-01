@@ -16,6 +16,7 @@ SCRIPTS = [
     "07_performance",
     "08_mechanism_effort",
     "09_consort",
+    "10_payoffs",
 ]
 
 for name in SCRIPTS:
