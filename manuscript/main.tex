@@ -1,0 +1,102 @@
+\documentclass[12pt,english]{article}
+\usepackage{todonotes}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper]{geometry}
+\geometry{verbose,tmargin=2cm,bmargin=2cm,lmargin=2cm,rmargin=2cm}
+\usepackage{color}
+\usepackage{amsmath}
+\usepackage{tabularx}
+\usepackage{layouts}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{pdflscape}
+\usepackage{setspace}
+\usepackage[authoryear]{natbib}
+\usepackage[unicode=true,pdfusetitle, bookmarks=true,bookmarksnumbered=false,bookmarksopen=false, breaklinks=false,pdfborder={0 0 0},pdfborderstyle={},backref=false,colorlinks=true]{hyperref}
+\hypersetup{citecolor=purple, urlcolor=green, linkcolor=red}
+\usepackage{pgf,tikz,setspace,array}
+\usepackage[official]{eurosym}
+\usepackage{comment}
+\onehalfspacing
+
+\makeatletter
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.5em}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+\providecommand{\tabularnewline}{\\}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Textclass specific LaTeX commands.
+\theoremstyle{plain}
+\newtheorem{thm}{\protect\theoremname}
+\theoremstyle{plain}
+\newtheorem{prop}{\protect\propositionname}
+\theoremstyle{definition}
+\newtheorem{example}{\protect\examplename}
+\theoremstyle{plain}
+\newtheorem{lem}{\protect\lemmaname}
+\theoremstyle{definition}
+\newtheorem{defn}{\protect\definitionname}
+\theoremstyle{plain}
+\newtheorem{cor}{\protect\corollaryname}
+\theoremstyle{plain}
+\newtheorem{rp}{\protect\rpname}
+
+\makeatother
+
+\usepackage{babel}
+\providecommand{\corollaryname}{Corollary}
+\providecommand{\definitionname}{Definition}
+\providecommand{\examplename}{Example}
+\providecommand{\lemmaname}{Lemma}
+\providecommand{\propositionname}{Proposition}
+\providecommand{\theoremname}{Theorem}
+\providecommand{\rpname}{Theorem}
+
+\renewcommand*{\therp}{\Alph{rp}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\title{Algorithms and Responsibility}
+\author{Felix B\"{o}nisch\thanks{WZB Berlin Social Science Center. Email: \texttt{felix.boenisch@wzb.eu}. Acknowledgements to be added at submission.}}
+\maketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{abstract}
+\noindent A long line of experimental work suggests that decision-makers can---and do---use delegation to shift responsibility for unwelcome outcomes onto an intermediary. We ask whether the same logic carries over to delegation to algorithms. In a preregistered online experiment ($N=322$ UK Prolific participants, $161$ in each role), a decision-maker makes a payoff-relevant prediction for a third party with the option to delegate to an algorithm calibrated, at the individual level, to perform as well as she does. We manipulate, between subjects, whether the third party can punish her for the decision. Two findings emerge. First, contrary to the preregistered prediction of the responsibility-avoidance literature, the \textit{prospect} of punishment \textit{reduces} rather than increases the likelihood of delegating to the algorithm (a $17$~percentage-point gap, two-sided $p=0.033$). Second, conditional on outcome, we cannot reject equal punishment of delegated and self-made decisions; the point estimate runs in the predicted direction but the test is underpowered to rule out moderate insulation effects. We discuss several candidate mechanisms for the headline reversal and argue that, among those we can evaluate, a process-ownership account---in which the moral salience introduced by the punishment possibility raises the value of being the proximate cause of a good outcome---is the most consistent with the data, while flagging that the supporting evidence is exploratory and the design cannot rule out experimenter demand. Within the bounds of the setting we study, our results offer a behavioural complement to regulatory frameworks that hold human users accountable for algorithm-mediated decisions: such frameworks may discipline algorithmic adoption rather than merely allocate post-hoc responsibility.
+\end{abstract}
+\medskip{}
+
+\noindent \textit{JEL Classification}: C91, D81, D91, O33
+
+\noindent \textit{Keywords}: algorithms; delegation; responsibility; punishment; experiment
+
+\newpage{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{introduction.tex}
+
+\input{literature.tex}
+
+\input{design.tex}
+
+\input{results.tex}
+
+\input{conclusion.tex}
+
+\pagebreak
+
+\bibliographystyle{aer}
+\bibliography{ProjectAlgorithm}
+\newpage{}
+
+\setcounter{page}{1}
+\renewcommand{\thepage}{A-\arabic{page}}
+
+\input{appendix.tex}
+
+\end{document}

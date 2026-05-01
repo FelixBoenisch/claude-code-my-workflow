@@ -79,3 +79,25 @@ scripts/R/_outputs/
 # Output artifacts — uncomment lines below based on your preference
 # *.rds
 # output/**/*.rds
+
+# Python venv
+.venv/
+
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ==============================================================================
+# Data — PII risk (Prolific IDs link to participant identity off-platform)
+# ==============================================================================
+# Raw exports include Prolific Participant IDs and oTree session metadata;
+# interim/clean files are derived from raw and inherit identifiers.
+# Code lives in data/code_legacy/ and is tracked.
+data/raw/
+data/interim/
+data/clean/
+*.parquet
+
+# Pilot bonus payment list contains Prolific IDs paired with payment amounts
+master_supporting_docs/payments/pilot_bonuses.txt
+

@@ -1,0 +1,151 @@
+\section*{Appendix} \label{appendix}
+
+\appendix
+
+\section{Additional Tables} \label{appendix:tables}
+
+\subsection{Condition balance --- Player A} \label{appendix:sum_stats}
+
+\input{../tables/balance_player_a.tex}
+
+\subsection{Condition balance --- Player B} \label{appendix:sum_stats_B}
+
+\input{../tables/balance_player_b.tex}
+
+\subsection{Full regression results --- delegation decision} \label{appendix:regs}
+
+\input{../tables/reg_delegation_full.tex}
+
+\subsection{Determinants of Player~B's chosen punishment} \label{appendix:reg_punishment}
+
+\input{../tables/reg_punishment.tex}
+
+\section{Preregistration and deviations} \label{appendix:pap}
+
+The experiment was preregistered prior to data collection. The preregistration document specifies the two hypotheses (H1 and H2 in the body), the sample-size target ($80$ subjects per role per condition, motivated by an ex-ante power calculation reproduced in the registry), the randomisation procedure, the attention-check exclusion rule, and the test direction for each preregistered comparison.
+
+For full transparency, the table below summarises every analysis reported in the body of the paper, the corresponding preregistered specification, and any deviation. We treat the H1 reversal in Section~\ref{sec:result1} as a confirmatory test of the preregistered direction (which it rejects), and all subsequent mechanism analyses (Section~\ref{sec:mechanism}) as exploratory.
+
+\begin{table}[!htbp]
+\centering
+\caption{Preregistered tests, reported tests, and deviations}
+\label{tab:pap_deviations}
+\begin{tabular}{p{0.32\textwidth}|p{0.32\textwidth}|p{0.30\textwidth}}
+\hline
+\hline
+Preregistered specification & As reported & Deviation / rationale \\ \hline
+H1: between-subject test of \textit{Punishment} vs \textit{No-Punishment} delegation rates; one-sided in the H1 direction (more delegation under \textit{Punishment}) & Two-sided Chi-squared and Fisher's exact, $p=0.049$ / $0.041$ & Direction reversed; one-sided test in H1 direction is non-significant by construction. We report two-sided to be transparent about what the data show. \\[0.3cm]
+H2: paired test of Player~B punishment in the bad-outcome cell, delegated vs non-delegated, attention-check passers only & Paired $t$-test, $p=0.153$; Wilcoxon signed-rank, $p=0.533$ & As preregistered. \\[0.3cm]
+Logit of delegation on condition + controls (Table~\ref{tab:del_decision_determinants}, Cols (1)--(2)) & As reported & As preregistered. \\[0.3cm]
+Logit on \textit{Punishment} sub-sample with belief differences (Col (3)) & As reported & Specification preregistered; sample restriction follows the preregistered attention-check rule. \\[0.3cm]
+Mechanism analyses M1--M4 (Section~\ref{sec:mechanism}) & As reported & \textit{Not preregistered.} Treated as exploratory throughout. \\[0.3cm]
+Effort-comparison statistics among non-delegators (Section~\ref{sec:mechanism}, M2) & As reported & \textit{Not preregistered.} Treated as exploratory. \\
+\hline
+\hline
+\multicolumn{3}{p{0.95\textwidth}}{\footnotesize \textit{Note:} The preregistration document is available at \textit{[registry link to be added at submission]}. The registry ID is \textit{[ID to be added at submission]}.}
+\end{tabular}
+\end{table}
+
+\section{CONSORT-style flow diagram} \label{appendix:attrition}
+
+A CONSORT-style flow diagram showing recruitment, attrition, attention-check exclusion, and final analysis sample size by condition and role is in preparation and will appear here once the analysis pipeline produces the underlying counts. The structure of the diagram is sketched below; cell counts pending.
+
+\begin{figure}[!htbp]
+\centering
+\caption{Flow of participants through the experiment --- structure (counts pending)}
+\label{fig:consort}
+\begin{tikzpicture}[node distance=0.6cm and 0.6cm, every node/.style={draw, rectangle, align=center, font=\footnotesize, inner sep=4pt}]
+\node (rand) {Completed experiment ($N=322$)\\Recruitment-funnel counts (invited / consented) pending Prolific audit log};
+\node (pun) [below left=of rand, xshift=-0.4cm] {\textit{Punishment} condition\\Player A: $80$\\Player B: $80$};
+\node (nopun) [below right=of rand, xshift=0.4cm] {\textit{No-Punishment} condition\\Player A: $81$\\Player B: $81$};
+\node (att_p) [below=of pun] {Attention-check exclusion\\Player A: $19$\\Player B: $13$};
+\node (att_np) [below=of nopun] {Attention-check exclusion\\Player A: $11$\\Player B: $13$};
+\node (final_p) [below=of att_p] {Analysis sample\\Player A: $61$\\Player B: $67$};
+\node (final_np) [below=of att_np] {Analysis sample\\Player A: $70$\\Player B: $68$};
+\draw[->] (rand) -- (pun);
+\draw[->] (rand) -- (nopun);
+\draw[->] (pun) -- (att_p);
+\draw[->] (nopun) -- (att_np);
+\draw[->] (att_p) -- (final_p);
+\draw[->] (att_np) -- (final_np);
+\end{tikzpicture}
+\end{figure}
+
+\section{Additional Figures} \label{appendix:figures}
+
+\subsection{Experimental timelines}
+
+\begin{figure}[!htbp]
+    \centering
+    \caption{Experimental timeline --- Player A}
+    \label{fig:design_playerA}
+    \scalebox{0.85}{
+    \begin{tikzpicture}[node distance=0.55cm and 0.4cm, every node/.style={draw, rectangle, align=center, font=\scriptsize, minimum width=2.4cm, minimum height=0.7cm, inner sep=2pt}, ac/.style={fill=red!15}]
+    \node (consent) {Consent};
+    \node (rounds) [right=of consent] {10 prediction\\rounds (incentivised)};
+    \node (match) [right=of rounds] {Matching\\with Player B};
+    \node (deleg) [below=of match] {Delegation\\decision};
+    \node (predict) [below=of deleg] {(if not delegated)\\11th prediction\\\& confidence};
+    \node (beliefs) [left=of predict, ac] {Beliefs about\\punishment\\\textit{(attention check)}};
+    \node (selfperf) [left=of beliefs] {Self-performance\\assessment};
+    \node (popperf) [below=of selfperf] {Population-performance\\assessment};
+    \node (risk) [right=of popperf] {Risk preferences\\(MPL)};
+    \node (qx) [right=of risk] {Questionnaire};
+    \node (payoff) [right=of qx] {Payoff};
+    \draw[->] (consent) -- (rounds);
+    \draw[->] (rounds) -- (match);
+    \draw[->] (match) -- (deleg);
+    \draw[->] (deleg) -- (predict);
+    \draw[->] (predict) -- (beliefs);
+    \draw[->] (beliefs) -- (selfperf);
+    \draw[->] (selfperf) -- (popperf);
+    \draw[->] (popperf) -- (risk);
+    \draw[->] (risk) -- (qx);
+    \draw[->] (qx) -- (payoff);
+    \end{tikzpicture}
+    }
+    \begin{minipage}{0.95\linewidth}
+    \footnotesize
+    \textit{Note:} Screen sequence presented to Player~A. The shaded screen carries the preregistered attention check used to identify subjects excluded from belief-related analyses. The 11th-prediction-and-confidence screen is skipped if Player~A delegates to the algorithm.
+    \end{minipage}
+\end{figure}
+
+\begin{figure}[!htbp]
+    \centering
+    \caption{Experimental timeline --- Player B}
+    \label{fig:design_playerB}
+    \scalebox{0.85}{
+    \begin{tikzpicture}[node distance=0.55cm and 0.5cm, every node/.style={draw, rectangle, align=center, font=\scriptsize, minimum width=2.7cm, minimum height=0.8cm, inner sep=2pt}, ac/.style={fill=red!15}]
+    \node (consent) {Consent};
+    \node (match) [right=of consent] {Matching with Player A\\\& task description};
+    \node (pun) [right=of match, ac] {Punishment elicitation\\(\textit{Punishment} cond.)\\or hypothetical-punishment\\(\textit{No-Punishment} cond.)\\\textit{(attention check)}};
+    \node (diff) [below=of pun] {Task-difficulty\\perception};
+    \node (risk) [left=of diff] {Risk preferences\\(MPL)};
+    \node (qx) [left=of risk] {Questionnaire};
+    \node (payoff) [below=of qx] {Payoff};
+    \draw[->] (consent) -- (match);
+    \draw[->] (match) -- (pun);
+    \draw[->] (pun) -- (diff);
+    \draw[->] (diff) -- (risk);
+    \draw[->] (risk) -- (qx);
+    \draw[->] (qx) -- (payoff);
+    \end{tikzpicture}
+    }
+    \begin{minipage}{0.95\linewidth}
+    \footnotesize
+    \textit{Note:} Screen sequence presented to Player~B. The shaded screen carries the preregistered attention check used to identify subjects excluded from punishment-related analyses. In the \textit{No-Punishment} condition, no actual punishment is implemented; the elicitation is hypothetical and serves to maintain comparability of the screen sequence across conditions.
+    \end{minipage}
+\end{figure}
+
+\subsection{Punishment frequencies} \label{appendix:figs:punishment}
+
+\begin{figure}[!htbp]
+    \centering
+    \caption{Frequencies of punishment and beliefs about punishment}
+    \includegraphics[width=0.6\linewidth]{figures/punishment_shares.png}
+    \label{fig:punishment_frequencies}
+    \begin{minipage}{0.85\linewidth}
+    \footnotesize
+    \textit{Note:} Share of Player~Bs choosing strictly positive punishment in each of the four scenarios (solid bars) and share of Player~As assigning a strictly positive expected punishment in each scenario (hollow bars).
+    \end{minipage}
+\end{figure}
