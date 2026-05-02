@@ -17,6 +17,14 @@ SCRIPTS = [
     "08_mechanism_effort",
     "09_consort",
     "10_payoffs",
+    "11_hypo_delegation",
+    "12_order_effects",
+    "13_belief_distributions",
+    "14_player_b_beliefs",
+    "15_player_b_attitudes",
+    "16_power",
+    "17_logit_extended",
+    "18_punishment_robustness",
 ]
 
 for name in SCRIPTS:

@@ -83,7 +83,7 @@ artefacts is implemented in [`../scripts/python/`](../scripts/python/).
 | `confidence0`..`confidence10` | int | Probability mass (in %) Player A placed on the corresponding score (0..10). Should sum to 100. |
 | `wa_confidence` | float | Weighted-average confidence: $\sum_{k} k \cdot \text{confidence}_k / 100$. |
 | `highest_confidence` | float | Mode score: the value of $k$ at which `confidence_k` is largest. |
-| `error_confidence` | int | Deviation between predicted and actual score (used in the belief incentive: `\pounds 0.30` if within 5pp). |
+| `error_confidence` | int | **Number of failed submission attempts** on the confidence-elicitation screen (the oTree form rejects the submission when the percentages over `confidence0..10` don't sum to 100). A UI / data-quality counter, not a belief-accuracy measure. |
 | `overconfidence` | float | `wa_confidence − overall_score`. Positive = overconfident in own performance. |
 | `overconfidence_to_others` | float | Subject's own predicted score minus the mean of her predicted distribution over others. |
 
@@ -93,7 +93,7 @@ artefacts is implemented in [`../scripts/python/`](../scripts/python/).
 |---|---|---|
 | `difficulty0`..`difficulty10` | int | Player A's estimate of the population share (in %) at each score. Should sum to ≈100. |
 | `wa_difficulty` | float | Weighted-average estimate. |
-| `error_difficulty` | int | Deviation between estimate and true share for the random round drawn for the incentive. |
+| `error_difficulty` | int | **Number of failed submission attempts** on the population-distribution screen (oTree rejects when `difficulty0..10` don't sum to 100). A UI / data-quality counter, not a belief-accuracy measure. |
 
 ### Beliefs about Player B's punishment (the 4 strategy-method cells)
 
@@ -204,7 +204,7 @@ Same as Player A: `code`, `session_code`, `pilot`.
 
 ### Beliefs about population distribution
 
-Same as Player A: `difficulty0..difficulty10`, `wa_difficulty`, `med_difficulty`, `error_difficulty`.
+Same as Player A: `difficulty0..difficulty10`, `wa_difficulty`, `med_difficulty`, `error_difficulty` (failed-submission counter, see Player A note).
 
 ### Post-experiment Likert items (Player B only)
 

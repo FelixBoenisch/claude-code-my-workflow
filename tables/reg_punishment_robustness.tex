@@ -1,0 +1,42 @@
+\begin{table}[!htbp]
+\centering
+\caption{Determinants of Player~B's chosen punishment --- robustness}
+\label{tab:reg_punishment_robustness}
+\begin{tabular}{lcc}
+\\[-1.8ex]\hline
+\hline \\[-1.8ex]
+& \multicolumn{2}{c}{Dependent variable: \textit{Punishment}}\\[0.1cm]
+& \textit{Excl.} & \textit{Incl. att.\ failers} \\
+\\[-1.8ex] & (1) & (2) \\
+\hline \\[-1.8ex]
+ Delegated & $0.001$ & $0.032$ \\
+  & $(0.054)$ & $(0.052)$ \\[0.1cm]
+ Bad outcome & $0.260$ & $0.256$ \\
+  & $(0.080)$ & $(0.071)$ \\[0.1cm]
+ Delegated $\times$ Bad outcome & $-0.078$ & $-0.103$ \\
+  & $(0.052)$ & $(0.058)$ \\[0.1cm]
+ Player B belief about Player A perf. (wa) & $0.001$ & $-0.020$ \\
+  & $(0.037)$ & $(0.032)$ \\[0.1cm]
+ Age & $-0.001$ & $0.002$ \\
+  & $(0.006)$ & $(0.005)$ \\[0.1cm]
+ Female & $-0.064$ & $-0.100$ \\
+  & $(0.140)$ & $(0.128)$ \\[0.1cm]
+ Socio-economic status & $0.072$ & $0.083$ \\
+  & $(0.049)$ & $(0.047)$ \\[0.1cm]
+ Went to uni & $-0.098$ & $-0.196$ \\
+  & $(0.142)$ & $(0.140)$ \\[0.1cm]
+ Technology score & $0.030$ & $0.073$ \\
+  & $(0.059)$ & $(0.053)$ \\[0.1cm]
+ Leadership position & $0.061$ & $0.083$ \\
+  & $(0.164)$ & $(0.142)$ \\[0.1cm]
+ Constant & $0.020$ & $-0.077$ \\
+  & $(0.374)$ & $(0.328)$ \\[0.1cm]
+\hline \\[-1.8ex]
+ Attention-check excl. & yes & no \\
+ N (subject-by-cell) & $268$ & $320$ \\
+ Adj.\ $R^2$ & $0.030$ & $0.077$ \\
+\hline
+\hline \\[-1.8ex]
+\multicolumn{3}{p{0.85\textwidth}}{\footnotesize \textit{Note:} Punishment regression with Player~B's belief about Player~A's performance (\textit{wa\_difficulty}) added as a regressor. Column (1) excludes Player~Bs who failed the punishment-screen attention check (preregistered); Column (2) keeps them. Standard errors clustered at the Player~B level. The delegation, outcome, and interaction coefficients are stable across both specifications, and the belief regressor is not significantly associated with chosen punishment. H2 paired-test on the bad-outcome cell: with exclusion paired-$t$ $p=0.153$, Wilcoxon $p=0.533$ ($n=67$); without exclusion paired-$t$ $p=0.131$, Wilcoxon $p=0.544$ ($n=80$). Following AEA editorial policy, significance stars are not reported.}
+\end{tabular}
+\end{table}
