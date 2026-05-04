@@ -8,9 +8,7 @@
 
 \input{../tables/balance_player_a.tex}
 
-\subsection{Condition balance --- Player B} \label{appendix:sum_stats_B}
-
-\input{../tables/balance_player_b.tex}
+\noindent We do not separately report a balance table for Player~B. Player~B's punishment behavior is identified within-subject across the four scenarios of the strategy method, so balance across conditions is not strictly required for the punishment analysis.
 
 \subsection{Full regression results --- delegation decision} \label{appendix:regs}
 
@@ -28,11 +26,28 @@
 
 \input{../tables/reg_punishment_robustness.tex}
 
-\section{Preregistration and deviations} \label{appendix:pap}
+\section{Bonus computation} \label{appendix:bonus}
 
-The experiment was preregistered prior to data collection. The preregistration document specifies the two hypotheses (H1 and H2 in the body), the sample-size target ($80$ subjects per role per condition, motivated by an ex-ante power calculation reproduced in the registry), the randomisation procedure, the attention-check exclusion rule, and the test direction for each preregistered comparison.
+Player~A spent on average $12$ minutes on the experiment and earned an average bonus of $\pounds 2.49$ on top of the Prolific show-up fee; Player~B spent on average $8$ minutes and earned an average bonus of $\pounds 2.30$. Bonuses are computed deterministically from the cleaned data per the experimental rules: random-round task payoff (expectation over the uniform draw across rounds 1--10); belief-about-own-score payoff ($\pounds 0.30$ times the probability mass placed on the realized score); belief-about-distribution payoff (expectation over the uniform random draw of which score is checked, paying $\pounds 0.30$ if the estimate is within $5$~percentage points of the true population share); and---for Player~A in the \textit{Punishment} condition---expected punishment from the matched Player~B's strategy-method choice in the realized cell, with $\pounds 0.10$ per cell of strategy-method punishment cost for Player~B. The reported bonuses exclude the risk-elicitation MPL payoff (the raw-data column was not retained in the cleaned files); including it would add roughly $\pounds 0.30$--$\pounds 0.50$ per subject.
 
-For full transparency, the table below summarises every analysis reported in the body of the paper, the corresponding preregistered specification, and any deviation. We treat the H1 reversal in Section~\ref{sec:result1} as a confirmatory test of the preregistered direction (which it rejects), and all subsequent mechanism analyses (Section~\ref{sec:mechanism}) as exploratory.
+\section{Ex-ante power calculations} \label{appendix:pap}
+
+The cell size of $80$ subjects per role per condition was set to detect, at conventional power, the effect sizes anticipated from the responsibility-avoidance literature. We report the minimum detectable effect (MDE) for each preregistered test below, computed at $\alpha = 0.05$ (two-sided) and power $= 0.80$. For H1, the relevant test is a two-sample $z$-test of proportions (delegation rate in \textit{Punishment} vs \textit{No-Punishment}); the MDE is approximately invariant to the assumed baseline rate. For H2, the relevant test is a paired-mean-difference test on Player~B's punishment in the bad-outcome cell; because the within-subject standard deviation $\sigma_d$ of the punishment difference is unknown ex ante, we report the MDE for a range of values of $\sigma_d$ expressed as multiples of the equivalence bound used in Result~2 of the body of the paper ($\delta_a = \pounds 0.20$, equal to $10\%$ of the maximum punishment of $\pounds 2$).
+
+\begin{table}[!htbp]
+\centering
+\caption{Minimum detectable effects under the preregistered design}
+\label{tab:power_mde}
+\input{../tables/power_mde.tex}
+\end{table}
+
+\section{Preregistration and deviations} \label{appendix:preregistration}
+
+The experiment was preregistered at AsPredicted~\#133980, available at \href{https://aspredicted.org/hs9az8.pdf}{aspredicted.org/hs9az8.pdf} and registered on $30$ May $2023$ prior to the main wave of data collection. The preregistration commits to the two research questions stated in the body as H1 and H2, the sample-size target ($320$ subjects total, $80$ per role per condition), the desktop-only restriction, the use of the strategy method to elicit Player~B's punishment, and a set of primary statistical tests (parametric $t$-tests and non-parametric MWU and Kolmogorov--Smirnov tests for both comparisons; probit regressions for the delegation decision and linear regressions for punishment behavior with treatment, beliefs, and socio-demographics as predictors).
+
+The preregistration also notes that a pilot of $25$ observations had been collected in the \textit{Punishment} treatment prior to registration; these observations are pooled with the main wave in all analyses, as preregistered. Two secondary analyses are pre-stated in the registry: the role of own-performance and beliefs about own performance (developed as M2 in Section~\ref{sec:mechanism}), and the consistency of Player~A's beliefs about expected punishment with her delegation decision (developed as M3 in Section~\ref{sec:mechanism}).
+
+The table below summarizes every analysis reported in the body of the paper, the corresponding preregistered specification, and any deviation.
 
 \begin{table}[!htbp]
 \centering
@@ -42,25 +57,25 @@ For full transparency, the table below summarises every analysis reported in the
 \hline
 \hline
 Preregistered specification & As reported & Deviation / rationale \\ \hline
-H1: between-subject test of \textit{Punishment} vs \textit{No-Punishment} delegation rates; one-sided in the H1 direction (more delegation under \textit{Punishment}) & Two-sided Chi-squared and Fisher's exact, $p=0.049$ / $0.041$ & Direction reversed; one-sided test in H1 direction is non-significant by construction. We report two-sided to be transparent about what the data show. \\[0.3cm]
-H2: paired test of Player~B punishment in the bad-outcome cell, delegated vs non-delegated, attention-check passers only & Paired $t$-test, $p=0.153$; Wilcoxon signed-rank, $p=0.533$ & As preregistered. \\[0.3cm]
-Logit of delegation on condition + controls (Table~\ref{tab:del_decision_determinants}, Cols (1)--(2)) & As reported & As preregistered. \\[0.3cm]
-Logit on \textit{Punishment} sub-sample with belief differences (Col (3)) & As reported & Specification preregistered; sample restriction follows the preregistered attention-check rule. \\[0.3cm]
-Mechanism analyses M1--M4 (Section~\ref{sec:mechanism}) & As reported & \textit{Not preregistered.} Treated as exploratory throughout. \\[0.3cm]
-Effort-comparison statistics among non-delegators (Section~\ref{sec:mechanism}, M2) & As reported & \textit{Not preregistered.} Treated as exploratory. \\
+H1: between-treatment test of delegation rates (\textit{Punishment} vs \textit{No-Punishment}); preregistered tests are parametric $t$-test, MWU, KS. Direction not specified in the registry. & Pearson Chi-squared and Fisher's exact, two-sided ($p=0.033$ / $p=0.041$). & Test family substituted (Chi-squared and Fisher's exact are the standard tests for a binary outcome; the preregistered $t$-test, MWU and KS tests on a binary outcome are equivalent to the proportion test). The realized direction is opposite to that anticipated by the responsibility-avoidance literature on which we drew. \\[0.3cm]
+H2: paired test of Player~B punishment in the bad-outcome cell, delegated vs non-delegated, attention-check passers only & Paired $t$-test ($p=0.153$); Wilcoxon signed-rank ($p=0.533$). & As preregistered. \\[0.3cm]
+Probit / logit of delegation on condition + controls (Table~\ref{tab:del_decision_determinants}, Cols (1)--(2)) & Logit, as reported. & As preregistered. (Probit and logit are equivalent for our purposes; we report logit for ease of marginal-effect interpretation.) \\[0.3cm]
+Logit on \textit{Punishment} sub-sample with belief differences (Col (3)) & As reported. & Specification preregistered; sample restriction follows the preregistered attention-check rule. \\[0.3cm]
+Pre-stated secondary analysis: own-performance and beliefs about own performance & Reported as M2 in Section~\ref{sec:mechanism}. & As preregistered (secondary). \\[0.3cm]
+Pre-stated secondary analysis: beliefs about expected punishment vs delegation decision & Reported as M3 in Section~\ref{sec:mechanism}. & As preregistered (secondary). \\[0.3cm]
+Mechanism analyses M1 (process ownership) and M4 (experimenter demand) (Section~\ref{sec:mechanism}) & As reported. & \textit{Not preregistered.} Treated as exploratory. \\
 \hline
 \hline
-\multicolumn{3}{p{0.95\textwidth}}{\footnotesize \textit{Note:} The preregistration document is available at \textit{[registry link to be added at submission]}. The registry ID is \textit{[ID to be added at submission]}.}
 \end{tabular}
 \end{table}
 
-\section{CONSORT-style flow diagram} \label{appendix:attrition}
+\section{Flow of participants} \label{appendix:attrition}
 
-A CONSORT-style flow diagram showing recruitment, attrition, attention-check exclusion, and final analysis sample size by condition and role is in preparation and will appear here once the analysis pipeline produces the underlying counts. The structure of the diagram is sketched below; cell counts pending.
+The flow of participants through the experiment, by condition and role, is shown in Figure~\ref{fig:consort}. Recruitment-funnel counts (invited / consented) are pending the Prolific audit log.
 
 \begin{figure}[!htbp]
 \centering
-\caption{Flow of participants through the experiment --- structure (counts pending)}
+\caption{Flow of participants through the experiment}
 \label{fig:consort}
 \begin{tikzpicture}[node distance=0.6cm and 0.6cm, every node/.style={draw, rectangle, align=center, font=\footnotesize, inner sep=4pt}]
 \node (rand) {Completed experiment ($N=322$)\\Recruitment-funnel counts (invited / consented) pending Prolific audit log};
@@ -93,7 +108,7 @@ A CONSORT-style flow diagram showing recruitment, attrition, attention-check exc
     \node (rounds) [right=of consent] {10 prediction\\rounds (incentivised)};
     \node (match) [right=of rounds] {Matching\\with Player B};
     \node (deleg) [below=of match] {Delegation\\decision};
-    \node (predict) [below=of deleg] {(if not delegated)\\11th prediction\\\& confidence};
+    \node (predict) [below=of deleg] {(if not delegated)\\Final prediction\\\& confidence};
     \node (beliefs) [left=of predict, ac] {Beliefs about\\punishment\\\textit{(attention check)}};
     \node (selfperf) [left=of beliefs] {Self-performance\\assessment};
     \node (popperf) [below=of selfperf] {Population-performance\\assessment};
@@ -114,7 +129,7 @@ A CONSORT-style flow diagram showing recruitment, attrition, attention-check exc
     }
     \begin{minipage}{0.95\linewidth}
     \footnotesize
-    \textit{Note:} Screen sequence presented to Player~A. The shaded screen carries the preregistered attention check used to identify subjects excluded from belief-related analyses. The 11th-prediction-and-confidence screen is skipped if Player~A delegates to the algorithm.
+    \textit{Note:} Screen sequence presented to Player~A. The shaded screen carries the attention check used to identify subjects excluded from belief-related analyses. The final-prediction-and-confidence screen is skipped if Player~A delegates to the algorithm.
     \end{minipage}
 \end{figure}
 
@@ -141,7 +156,7 @@ A CONSORT-style flow diagram showing recruitment, attrition, attention-check exc
     }
     \begin{minipage}{0.95\linewidth}
     \footnotesize
-    \textit{Note:} Screen sequence presented to Player~B. The shaded screen carries the preregistered attention check used to identify subjects excluded from punishment-related analyses. In the \textit{No-Punishment} condition, no actual punishment is implemented; the elicitation is hypothetical and serves to maintain comparability of the screen sequence across conditions.
+    \textit{Note:} Screen sequence presented to Player~B. The shaded screen carries the attention check used to identify subjects excluded from punishment-related analyses. In the \textit{No-Punishment} condition, no actual punishment is implemented; the elicitation is hypothetical and serves to maintain comparability of the screen sequence across conditions.
     \end{minipage}
 \end{figure}
 

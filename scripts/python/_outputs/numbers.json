@@ -244,5 +244,14 @@
   "tost_bad_bound_0p20_p": 0.0118,
   "tost_good_bound_0p20_equivalent": true,
   "tost_good_bound_0p20_p": 0.0002,
-  "true_overall_score_mean": 2.925
+  "true_overall_score_mean": 2.925,
+  "power_h1_mde_p0_50": 0.215,
+  "power_h1_mde_p0_30": 0.216,
+  "power_h2_mde_sigma_eq_effect": 0.313,
+  "power_h2_mde_sigma_2x_effect": 0.626,
+  "power_n_per_cell": 80,
+  "power_alpha": 0.05,
+  "power_power": 0.8,
+  "power_h2_mde_sigma_eq_anchor": 0.063,
+  "power_h2_mde_sigma_2x_anchor": 0.125
 }
