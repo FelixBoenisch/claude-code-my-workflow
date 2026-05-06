@@ -1,4 +1,8 @@
-"""Builder for AEA-style multi-column regression tables (no significance stars)."""
+"""Builder for multi-column regression tables.
+
+By default, no significance stars (AEA editorial style). Pass `stars=True` to
+append `*`/`**`/`***` to each coefficient at the 10%/5%/1% thresholds.
+"""
 from __future__ import annotations
 
 from .fmt import num
@@ -8,6 +12,19 @@ def _coef_se(model, name, digits=3):
     if model is None or name not in model.params.index:
         return None, None
     return float(model.params[name]), float(model.bse[name])
+
+
+def stars_for(p: float) -> str:
+    """Return the conventional star annotation for a two-sided p-value."""
+    if p is None:
+        return ""
+    if p < 0.01:
+        return "***"
+    if p < 0.05:
+        return "**"
+    if p < 0.10:
+        return "*"
+    return ""
 
 
 def render_two_block_table(
@@ -23,6 +40,7 @@ def render_two_block_table(
     note: str = "",
     digits: int = 3,
     column_spec: str = "@{\\extracolsep{5pt}}lcc|c",
+    stars: bool = False,
 ) -> str:
     """Render a regression table.
 
@@ -54,7 +72,11 @@ def render_two_block_table(
                 coef_cells.append("")
                 se_cells.append("")
             else:
-                coef_cells.append(f"${num(b, digits)}$")
+                if stars and m is not None and name in m.pvalues.index:
+                    star = stars_for(float(m.pvalues[name]))
+                    coef_cells.append(f"${num(b, digits)}^{{{star}}}$" if star else f"${num(b, digits)}$")
+                else:
+                    coef_cells.append(f"${num(b, digits)}$")
                 se_cells.append(f"$({num(se, digits)})$")
         out.append(f" {label_text} & " + " & ".join(coef_cells) + r" \\")
         out.append(r"  & " + " & ".join(se_cells) + r" \\[0.1cm]")

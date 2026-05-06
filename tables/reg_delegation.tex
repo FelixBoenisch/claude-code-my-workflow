@@ -2,27 +2,40 @@
 \centering
 \caption{Determinants of the delegation decision}
 \label{tab:del_decision_determinants}
-\begin{tabular}{@{\extracolsep{5pt}}lcc|c}
+\begin{tabular}{@{\extracolsep{5pt}}lcccc|c}
 \\[-1.8ex]\hline
 \hline \\[-1.8ex]
-& \multicolumn{3}{c}{Dependent variable: \textit{Delegation}}\\[0.1cm]
-& \multicolumn{2}{c}{\textit{Full sample}} & \textit{Punishment only} \\
-\\[-1.8ex] & (1) & (2) & (3) \\
+& \multicolumn{5}{c}{Dependent variable: \textit{Delegation}}\\[0.1cm]
+& \multicolumn{4}{c}{\textit{Full sample}} & \textit{Passers} \\
+\\[-1.8ex] & (1) & (2) & (3) & (4) & (5) \\
 \hline \\[-1.8ex]
- No-Punishment indicator & $0.677$ & $0.757$ &  \\
-  & $(0.320)$ & $(0.334)$ &  \\[0.1cm]
- Punishment beliefs: bad outcome (no del.~$-$~del.) &  &  & $0.937$ \\
-  &  &  & $(0.751)$ \\[0.1cm]
- Punishment beliefs: good outcome (no del.~$-$~del.) &  &  & $1.579$ \\
-  &  &  & $(0.741)$ \\[0.1cm]
- Task performance &  & $-0.192$ & $-0.609$ \\
-  &  & $(0.128)$ & $(0.236)$ \\[0.1cm]
+ No-Punishment indicator & $0.677^{**}$ & $0.696^{**}$ & $0.757^{**}$ & $0.721^{**}$ & $0.834^{**}$ \\
+  & $(0.320)$ & $(0.329)$ & $(0.334)$ & $(0.333)$ & $(0.376)$ \\[0.1cm]
+ Task performance &  &  & $-0.192$ &  & $-0.254^{*}$ \\
+  &  &  & $(0.128)$ &  & $(0.142)$ \\[0.1cm]
+ Perceived performance &  &  &  & $-0.118$ &  \\
+  &  &  &  & $(0.094)$ &  \\[0.1cm]
+ Age &  & $-0.004$ & $-0.004$ & $-0.003$ & $0.002$ \\
+  &  & $(0.015)$ & $(0.015)$ & $(0.015)$ & $(0.017)$ \\[0.1cm]
+ Female &  & $0.279$ & $0.350$ & $0.332$ & $0.651$ \\
+  &  & $(0.366)$ & $(0.369)$ & $(0.372)$ & $(0.414)$ \\[0.1cm]
+ Socio-economic status &  & $-0.062$ & $-0.058$ & $-0.051$ & $-0.134$ \\
+  &  & $(0.113)$ & $(0.116)$ & $(0.115)$ & $(0.130)$ \\[0.1cm]
+ Went to uni &  & $0.061$ & $0.091$ & $0.047$ & $0.184$ \\
+  &  & $(0.369)$ & $(0.364)$ & $(0.367)$ & $(0.400)$ \\[0.1cm]
+ Technology score &  & $-0.110$ & $-0.078$ & $-0.101$ & $0.021$ \\
+  &  & $(0.149)$ & $(0.153)$ & $(0.148)$ & $(0.174)$ \\[0.1cm]
+ Leadership position &  & $0.647^{*}$ & $0.676^{*}$ & $0.641^{*}$ & $0.413$ \\
+  &  & $(0.364)$ & $(0.367)$ & $(0.365)$ & $(0.412)$ \\[0.1cm]
+ Constant & $-0.302$ & $0.036$ & $0.402$ & $0.449$ & $0.241$ \\
+  & $(0.226)$ & $(0.862)$ & $(0.930)$ & $(0.945)$ & $(1.062)$ \\[0.1cm]
 \hline \\[-1.8ex]
- Controls & no & yes & yes \\
- N & $161$ & $159$ & $60$ \\
- Pseudo $R^2$ & $0.020$ & $0.049$ & $0.246$ \\
+ AME of No-Punishment (pp) & $16.4^{**}$ & $16.5^{**}$ & $17.7^{**}$ & $16.9^{**}$ & $19.1^{**}$ \\
+  & $(p=0.025)$ & $(p=0.026)$ & $(p=0.016)$ & $(p=0.022)$ & $(p=0.017)$ \\
+ N & $161$ & $159$ & $159$ & $159$ & $130$ \\
+ Pseudo $R^2$ & $0.020$ & $0.039$ & $0.049$ & $0.047$ & $0.063$ \\
 \hline
 \hline \\[-1.8ex]
-\multicolumn{4}{p{0.85\textwidth}}{\footnotesize \textit{Note:} Coefficients from a Logit regression of the delegation decision on the condition indicator, task performance, and socio-demographic controls. Robust (HC1) standard errors in parentheses. Two-sided $p$-values for the headline coefficients: \textit{No-Punishment indicator} Col~(1) $p=0.034$; Col~(2) $p=0.023$; \textit{Task performance} Col~(3) $p=0.010$; \textit{Punishment beliefs: good outcome} Col~(3) $p=0.033$. Controls in Columns (2) and (3) include age, gender, self-reported socio-economic status, university education, technology affinity, and leadership experience; full results in Appendix Table~\ref{tab:reg_delegation}. Two subjects are dropped in Column~(2) due to missing socio-demographic data. Column~(3) restricts to the \textit{Punishment} condition and includes within-subject differences in expected punishment between non-delegated and delegated decisions for each outcome; subjects who failed the belief-screen attention check are excluded, as preregistered. Following AEA editorial policy, significance stars are not reported in the table; exact $p$-values are stated in this note.}
+\multicolumn{6}{p{0.85\textwidth}}{\footnotesize \textit{Note:} Coefficients from a Logit regression of the delegation decision on the No-Punishment indicator and the controls listed in each column. Robust (HC1) standard errors in parentheses. Significance: $^{*}\,p<0.10$; $^{**}\,p<0.05$; $^{***}\,p<0.01$ (two-sided). Column~(2) adds a vector of socio-demographic and technology-affinity controls. Column~(3) further adds Player~A's actual task performance (number of correct predictions in the first ten rounds). Column~(4) instead adds her perceived performance, defined as the weighted-average belief about own performance over score values 0--10. Column~(5) replicates Column~(3) restricted to subjects who passed the attention check on the belief-elicitation screen, as preregistered. Two subjects are dropped in Columns~(2)--(4) due to missing socio-demographic data. The \textit{AME of No-Punishment} row reports the average marginal effect of the No-Punishment indicator on the probability of delegation, in percentage points.}
 \end{tabular}
 \end{table}
