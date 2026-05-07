@@ -1,0 +1,62 @@
+% =============================================================================
+% Improved version of the Player B / Punishment Behavior subsection.
+%
+% Improvements vs the current results.tex L28-62:
+%   - Fix "(\ref{fig:punishment})" → "Figure~\ref{...}, panel~A"
+%   - Fix subject-verb agreement: "correlations ... are essentially zero"
+%   - Fix the C4 footnote per the user's [Comment: the smallest is relevant]:
+%     count subjects by their MIN non-zero per-cell punishment, not max.
+%   - Drop the redundant in-line redefinition of (punish_nodel - punish_del)
+%     in the predictors paragraph (defined two paragraphs above).
+%   - Drop "confirming the bivariate result" sentence in the predictors
+%     paragraph: same diff-in-diff, repeated.
+%   - Update column references: full sample is cols 2 (and 3 with controls);
+%     passer parallels are cols 5 (and 6 with controls).
+%   - Drop the standalone "What predicts punishment?" paragraph and fold its
+%     belief-check argument into the H2-finding paragraph (where the
+%     regression table is already cited). The regression table is now
+%     introduced once.
+%   - Move the preregistered-exclusion footnote next to the actual robustness
+%     check, so it doesn't appear two paragraphs before the check itself.
+%   - Move the Result 2 box to immediately follow the conclusion paragraph.
+%   - Tighten the conclusion / H1<->H2 bridge so the parallelism reads cleanly.
+%   - Unify "scenario" and "cell" → "cell" throughout the body for consistency.
+%   - Repair "punsihment" typo in figure caption.
+%   - Drop stale [Comment: ...] markers that are now resolved or moved here.
+%
+% Note: the figure caption is rewritten to match the current 2-panel figure
+% (Panel A actual, Panel B hypothetical, both dual y-axis).
+% =============================================================================
+
+\subsection*{Player~B -- Punishment behavior} \label{sec:result2}
+
+We turn to Player~B's punishment behavior in the \textit{Punishment} condition, in which Player~B was given a real, payoff-relevant punishment choice. The default sample throughout is the full $N=80$ Punishment-condition sample; we report a robustness check on the $67$ subjects who passed the preregistered attention check on the punishment-elicitation screen below.
+
+Punishment in all four (delegation, outcome) cells of the strategy method is significantly greater than zero (one-sample $t$-test $p<10^{-5}$ in every cell). Player~B punishes more for bad outcomes than for good outcomes---a within-subject mean difference of about $\pounds 0.21$, significant at the $1\%$ level under both paired $t$- and Wilcoxon signed-rank tests---an indication that punishment carries informational content rather than being random.\footnote{\citet{coffman_intermediation_2011} similarly documents non-trivial punishment in scenarios where the decision-maker's action could not have been improved upon. Positive punishment in the good-outcome cells therefore need not reflect noise: Player~Bs may hold ex-post views about whether the \textit{delegation choice itself} was appropriate, independent of the realised outcome, and can punish accordingly.} $45.0\%$ of Player~Bs do not punish in any cell.\footnote{Among the $44$ Player~Bs who do punish in at least one cell, the punishment levels are predominantly non-trivial: only $6$ ever choose a strictly positive cell punishment of at most $\pounds 0.10$, $14$ at most $\pounds 0.20$, and $19$ at most $\pounds 0.30$ (cumulative, smallest non-zero cell per subject). Conversely, $15$ punishers choose the maximum $\pounds 2$ in at least one cell. The costly punishment option is therefore being used as a substantive sanction rather than as tokenistic enforcement.}
+
+Conditional on the outcome, Player~A is not significantly differently punished depending on the delegation decision (Figure~\ref{fig:punishment}, panel~A). When Player~B receives the high payoff, average punishment is $\pounds 0.329$ for delegated decisions and $\pounds 0.297$ for self-made decisions. When Player~B receives the low payoff, average punishment is $\pounds 0.482$ for delegated decisions and $\pounds 0.553$ for self-made decisions; this difference points in the direction of H2 but is not significant (paired $t$-test $p=0.131$; Wilcoxon signed-rank $p=0.544$). Equivalently, regressing the within-subject difference in punishment (self-made minus delegated) on a bad-outcome indicator yields $-\pounds 0.03$ in the good cell and $+\pounds 0.07$ in the bad cell, with the diff-in-diff between the two cells of $+\pounds 0.10$ borderline at $p=0.07$ (Table~\ref{tab:reg_punishment}, column~2; column~3 adds socio-demographic controls and Player~B's belief about Player~A's performance, leaving the diff-in-diff unchanged at $+\pounds 0.10$, $p=0.08$). The same picture arises for punishment frequencies (Figure~\ref{fig:punishment}, panel~A, right axis): Player~B neither punishes delegated decisions substantially less harshly, nor less frequently. One alternative driver of cell-level punishment we can also rule out is heterogeneity in Player~B's beliefs about Player~A's absolute performance: although Player~A and the algorithm are calibrated to perform identically and this calibration is common knowledge, Player~Bs hold heterogeneous absolute-level beliefs about Player~A's score, and those beliefs are uncorrelated with chosen punishment in every cell (Pearson $|r|\le 0.03$, all $p>0.8$).
+
+The result is essentially identical when we restrict to the $67$ Player~Bs who passed the punishment-screen attention check (mean difference $\pounds 0.077$ vs $\pounds 0.071$; paired $t$-test $p=0.153$ vs $p=0.131$; Table~\ref{tab:reg_punishment}, columns~5--6).
+
+In our experimental setting, Player~A therefore cannot reduce her expected punishment by delegating to the algorithm: punishment is determined almost entirely by the realised outcome and not by the delegation decision. This non-result also bears on \textit{Result~1}: a treatment difference in delegation rates motivated by responsibility avoidance would require Player~B to differentially punish delegated decisions, which we do not observe.
+
+\medskip
+\noindent\textbf{Result~2.} \textit{Player~A cannot avoid punishment by delegating the decision to the algorithm.}
+\medskip
+
+\begin{figure}[!htbp]
+    \centering
+    \caption{Player~B punishment by delegation and outcome cell}
+    \includegraphics[width=\linewidth]{figures/punishment.png}
+    \label{fig:punishment}
+    \begin{minipage}{0.95\linewidth}
+    \footnotesize
+    \textit{Note:} Both panels report, for each of the four (delegation, outcome) cells of the strategy method, the average punishment chosen by Player~B (left $y$-axis, in pounds, error bars are standard errors of the mean) and the share of Player~Bs choosing zero punishment (right $y$-axis, in percent). In each panel, the full sample is shown at full opacity; the attention-check passers are overlaid at lower opacity. Panel~A reports the actual punishment in the \textit{Punishment} condition (full sample $n=80$, passers $n=67$). Panel~B reports the hypothetical punishment in the \textit{No-Punishment} condition (full sample $n=81$, passers $n=68$), where Player~Bs answered the same questions but could not impose punishment in practice.
+    \end{minipage}
+\end{figure}
+
+\input{../tables/reg_punishment.tex}
+
+% =============================================================================
+% End of subsection.
+% =============================================================================
