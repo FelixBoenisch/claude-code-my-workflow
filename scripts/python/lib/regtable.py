@@ -41,6 +41,7 @@ def render_two_block_table(
     digits: int = 3,
     column_spec: str = "@{\\extracolsep{5pt}}lcc|c",
     stars: bool = False,
+    col_subheaders: list[str] | None = None,
 ) -> str:
     """Render a regression table.
 
@@ -61,9 +62,13 @@ def render_two_block_table(
         r"\hline \\[-1.8ex]",
         f"& \\multicolumn{{{n_cols}}}{{c}}{{Dependent variable: \\textit{{{block_label}}}}}\\\\[0.1cm]",
         "& " + " & ".join(col_headers) + r" \\",
+    ]
+    if col_subheaders:
+        out.append("& " + " & ".join(col_subheaders) + r" \\")
+    out.extend([
         r"\\[-1.8ex] & " + " & ".join(f"({i + 1})" for i in range(n_cols)) + r" \\",
         r"\hline \\[-1.8ex]",
-    ]
+    ])
     for label_text, name in rows:
         coef_cells, se_cells = [], []
         for m in models:

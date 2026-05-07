@@ -1,0 +1,59 @@
+% =============================================================================
+% LaTeX draft of the rewritten Player B / Punishment Behavior subsection.
+% Replaces results.tex lines 28-65 wholesale. Save / paste as you see fit.
+%
+% Implementation status (relative to the P05 plan):
+%   C1, C9 (sample default) - applied: full sample N=80 is the headline.
+%   C2 - resolved (no change to body).
+%   C3 (Coffman) - one footnote added.
+%   C4 (forgo 10p) - one footnote added with the 3/4/9 cumulative breakdown.
+%   C5 (figure)   - applied: figures/punishment.png is now Panels A+B+C
+%                   (avg, zero-share, actual vs hypothetical).
+%   C6 - applied: numbers swapped to full-sample values.
+%   C7 - one bridging sentence added.
+%   C8 - applied: the Appendix Figure ref is gone (frequencies are in main fig.).
+%   C10 - applied: the appendix-table parenthetical is gone (Option A).
+%   C11 - applied in "What predicts punishment?" paragraph.
+%   C12 - applied in tables/reg_punishment.tex (cols 2 and 3 added).
+% =============================================================================
+
+\subsection*{Player~B -- Punishment behavior} \label{sec:result2}
+
+We turn to Player~B's punishment behavior in the \textit{Punishment} condition. Player~Bs in this condition were given a real, payoff-relevant punishment choice; we describe their elicited values throughout this subsection. (Player~Bs in the \textit{No-Punishment} condition answered the same questions hypothetically; we use those responses only as a comparison in Figure~\ref{fig:punishment}, panel~C, and never as the basis for a hypothesis test.) The default sample throughout is the full $N=80$ Player~B Punishment-condition sample. Subjects who fail the attention check on the punishment-elicitation screen were preregistered for exclusion; we report the corresponding $N=67$ analysis sample as a robustness comparison at the end of the subsection.
+
+Punishment in all four (delegation, outcome) cells of the strategy method is significantly greater than zero (one-sample $t$-test $p<10^{-5}$ in every cell).\footnote{Positive punishment in the good-outcome cells need not reflect noise. Player~Bs may hold ex-post views about whether the \textit{delegation choice itself} was appropriate, independent of the realised outcome, and can punish accordingly. \citet{coffman_intermediation_2011} similarly documents non-trivial punishment in scenarios where the decision-maker's action could not have been improved upon.} Player~Bs punish more for low-payoff outcomes than for high-payoff outcomes---a within-subject mean difference of about $\pounds 0.21$, significant at the $1\%$ level under both paired $t$- and Wilcoxon signed-rank tests---an indication that punishment carries informational content rather than being random.
+
+$45.0\%$ of Player~Bs nonetheless do not punish in any of the four scenarios.\footnote{Among the $44$ Player~Bs who do punish in at least one cell, the punishment levels are non-trivial: only $3$ subjects choose at most $\pounds 0.10$ in their largest cell, $4$ at most $\pounds 0.20$, and $9$ at most $\pounds 0.30$. The remaining $35$ punishers use the mechanism more substantively, including $15$ who choose the maximum $\pounds 2$ in at least one cell. The costly punishment option is therefore being used as a substantive sanction rather than as tokenistic enforcement.}
+
+Conditional on the outcome, Player~A is not significantly differently punished depending on the delegation decision (Figure~\ref{fig:punishment}, panel~A). When Player~B receives the high payoff, average punishment is $\pounds 0.329$ for delegated decisions and $\pounds 0.297$ for self-made decisions. When Player~B receives the low payoff, average punishment is $\pounds 0.482$ when Player~A delegated versus $\pounds 0.553$ when she made the decision herself; this difference points in the H2 direction but is far from significant (paired $t$-test $p=0.131$; Wilcoxon signed-rank $p=0.544$). Equivalently, regressing the within-subject delegation insulation $\textit{punish\_nodel}-\textit{punish\_del}$ on a bad-outcome indicator yields an insulation of $-\pounds 0.03$ in the good cell and $+\pounds 0.07$ in the bad cell, with the diff-in-diff between the two cells of $+\pounds 0.10$ borderline at $p=0.07$ (Table~\ref{tab:reg_punishment}, columns~2--3). The same picture obtains when measuring punishment frequencies rather than amounts: Player~Bs neither punish delegated decisions substantially less harshly, nor do they punish them less frequently (Figure~\ref{fig:punishment}, panel~B).
+
+The result is essentially identical when we further restrict to the $67$ Player~Bs in the \textit{Punishment} condition who passed the attention check (mean difference $\pounds 0.077$ vs $\pounds 0.071$; paired $t$-test $p=0.153$ vs $p=0.131$).
+
+Therefore, in our experimental setting Player~A cannot avoid punishment by delegating the decision to the algorithm; punishment is determined almost entirely by the realised outcome. This non-result also bears on Result~1: a responsibility-avoidance motive of the kind H1 anticipates would require Player~B to differentially punish delegated decisions, which we do not observe.
+
+\medskip
+\noindent\textbf{Result~2.} \textit{Player~A cannot avoid punishment by delegating the decision to the algorithm.}
+\medskip
+
+\begin{figure}[!htbp]
+    \centering
+    \caption{Player~B punishment by (delegation, outcome) cell}
+    \includegraphics[width=\linewidth]{figures/punishment.png}
+    \label{fig:punishment}
+    \begin{minipage}{0.95\linewidth}
+    \footnotesize
+    \textit{Note:} Panel~A reports the average punishment chosen by Player~B (in pounds, error bars are standard errors of the mean) for each of the four (delegation, outcome) cells of the strategy method, on the full $N=80$ Player~B Punishment-condition sample. Panel~B reports the share of Player~Bs choosing zero punishment in each cell on the same sample. Panel~C contrasts the actual (Punishment, $n=80$) and hypothetical (No-Punishment, $n=81$) cell means; the hypothetical responses were elicited from Player~Bs in the \textit{No-Punishment} condition who could not impose punishment in practice.
+    \end{minipage}
+\end{figure}
+
+\paragraph{What predicts punishment?} Table~\ref{tab:reg_punishment} reports a regression of chosen punishment on a delegation indicator, an outcome indicator, their interaction, Player~B's belief about Player~A's performance, and a vector of socio-demographic controls (column~1), as well as the corresponding regression of the within-subject insulation (\textit{punish\_nodel}\ $-$ \textit{punish\_del}) on the outcome indicator and controls (columns~2 and~3). The level-DV interaction term and the difference-DV outcome coefficient both deliver the same diff-in-diff: the insulation effect is borderline larger in the bad-outcome cell than in the good-outcome cell ($p=0.07$--$0.08$), but the level of insulation is small relative to the maximum punishment of $\pounds 2$ in either cell. Even though the algorithm and Player~A are calibrated to perform identically, Player~Bs hold heterogeneous beliefs about Player~A's \textit{absolute} performance. One concern is that this heterogeneity could itself drive punishment patterns---for example, a Player~B who believes Player~A is highly capable might sanction her self-made decisions more harshly because she ``should have'' produced the high payoff. Empirically, this is not what we see: across all four cells, the Pearson correlation between Player~B's weighted-average belief about Player~A's score and chosen punishment is essentially zero ($|r|\le 0.03$, all $p>0.8$). The within-subject pattern documented above is therefore not the average of two opposing belief-driven patterns.
+
+% =============================================================================
+% End of subsection. Notes on what changed elsewhere:
+%
+% - figures/punishment.png   (rebuilt by scripts/python/20_punishment_figure.py)
+% - tables/reg_punishment.tex (rebuilt by scripts/python/06_logit_punishment.py
+%                              with full-sample default + diff-DV cols 2 & 3)
+% - The reference to fig:punishment_frequencies in old line 44 is gone;
+%   the appendix figure can either be deleted or kept as a passers-only mirror.
+% =============================================================================

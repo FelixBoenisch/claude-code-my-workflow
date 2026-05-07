@@ -40,6 +40,10 @@ def main() -> None:
     p03_with_controls_table(d.loc[d["pass_att2"] == 1].copy(), sample_label="ATTENTION-CHECK PASSERS (pass_att2==1)")
     # --- P03c: focused 5-column table as described in results.tex L24 ------
     p03c_with_controls_focused(d)
+    # --- P04: average punishment in the four cells, full vs passers --------
+    p04_punishment_cells(e)
+    # --- P05: extra Player B analyses for the subsection plan ---------------
+    p05_punishment_subsection(d, e)
 
 
 def p03c_with_controls_focused(d):
@@ -219,6 +223,177 @@ def p03_with_controls_table(d, sample_label="FULL SAMPLE"):
     print("| " + " | ".join(n_row) + " |")
     print("| " + " | ".join(r2_row) + " |")
     print("| " + " | ".join(ame_row) + " |")
+
+
+def p04_punishment_cells(e):
+    """Average punishment in the four (delegation, outcome) cells.
+
+    Punishment-condition only (treat==0), since No-Punishment values are
+    hypothetical. Reports cell means / SDs / share of zeros / N for the
+    full sample and for the pass_att2==1 subsample.
+    """
+    import numpy as np
+    from scipy import stats
+
+    pun = e.loc[e["treat"] == 0].copy()
+    pun_pass = pun.loc[pun["pass_att2"] == 1].copy()
+    cells = [
+        ("Delegated, good outcome",   "punish_del_good"),
+        ("Delegated, bad outcome",    "punish_del_bad"),
+        ("Self-decided, good outcome","punish_nodel_good"),
+        ("Self-decided, bad outcome", "punish_nodel_bad"),
+    ]
+
+    def summarize(df, label):
+        print("\n" + "-" * 70)
+        print(f"P04: punishment cells — {label} (N = {len(df)})")
+        print("-" * 70)
+        print(f"{'Cell':<32}  {'Mean':>7}  {'SD':>6}  {'Median':>7}  {'%zero':>6}  {'t vs 0 p':>10}")
+        rows = []
+        for name, col in cells:
+            x = df[col].dropna()
+            mean = float(x.mean())
+            sd = float(x.std())
+            med = float(x.median())
+            zero_share = float((x == 0).mean()) * 100
+            t_stat, t_p = stats.ttest_1samp(x, 0.0)
+            wilcox = stats.wilcoxon(x - 0.0) if (x != 0).any() else (None, None)
+            print(f"  {name:<30}  {mean:7.3f}  {sd:6.3f}  {med:7.3f}  {zero_share:5.1f}%  {t_p:10.4g}")
+            rows.append({
+                "cell": name, "col": col, "mean": mean, "sd": sd, "median": med,
+                "zero_share_pct": zero_share, "n": int(x.notna().sum()),
+                "t_p_vs_zero": float(t_p),
+            })
+        return rows
+
+    full_rows = summarize(pun, "Full sample (Punishment, treat==0)")
+    pass_rows = summarize(pun_pass, "Attention-check passers (treat==0 & pass_att2==1)")
+
+    # Within-subject comparisons (delegation effect, conditional on outcome)
+    print("\n" + "-" * 70)
+    print("Within-subject delegation effect, conditional on outcome (paired tests)")
+    print("-" * 70)
+    for label, df in [("Full (N=80)", pun), ("Passers (N=67)", pun_pass)]:
+        for outcome, c_del, c_self in [
+            ("good outcome", "punish_del_good",  "punish_nodel_good"),
+            ("bad outcome",  "punish_del_bad",   "punish_nodel_bad"),
+        ]:
+            x = df[[c_del, c_self]].dropna()
+            diff = x[c_self] - x[c_del]  # self minus delegated; positive => H2 (self punished more)
+            t_p = stats.ttest_rel(x[c_self], x[c_del]).pvalue
+            try:
+                w_p = stats.wilcoxon(x[c_self], x[c_del], zero_method="wilcox").pvalue
+            except ValueError:
+                w_p = float("nan")
+            print(f"  {label:<14}  {outcome:<12}  mean(self - del) = {diff.mean():+.4f}  "
+                  f"paired t-test p={t_p:.4f}  Wilcoxon p={w_p:.4f}  N={len(x)}")
+
+    # Markdown table
+    print("\n--- Cell means (markdown) ---")
+    print("| Cell | Full (N=80) | Passers (N=67) |")
+    print("|---|---:|---:|")
+    for f, p in zip(full_rows, pass_rows):
+        print(f"| {f['cell']} | £{f['mean']:.3f} (SD {f['sd']:.3f}, {f['zero_share_pct']:.1f}% zero) "
+              f"| £{p['mean']:.3f} (SD {p['sd']:.3f}, {p['zero_share_pct']:.1f}% zero) |")
+
+
+def p05_punishment_subsection(d, e):
+    """Extra analyses for the Player-B subsection plan (results.tex L28-65)."""
+    import numpy as np
+    import pandas as pd
+    import statsmodels.api as sm
+    from scipy import stats
+
+    SES = ["age", "female", "socio_status", "went_to_uni", "technology_score", "leader"]
+
+    pun_full = e.loc[e["treat"] == 0].copy()
+    pun_pass = pun_full.loc[pun_full["pass_att2"] == 1].copy()
+
+    print("\n" + "=" * 70)
+    print("P05a: outcome effect (bad - good) within subject")
+    print("=" * 70)
+    for label, df in [("Full (N=80)", pun_full), ("Passers (N=67)", pun_pass)]:
+        for delegated, c_good, c_bad in [
+            ("delegated", "punish_del_good",  "punish_del_bad"),
+            ("self-made", "punish_nodel_good","punish_nodel_bad"),
+        ]:
+            x = df[[c_good, c_bad]].dropna()
+            diff = x[c_bad] - x[c_good]
+            t_p = stats.ttest_rel(x[c_bad], x[c_good]).pvalue
+            try:
+                w_p = stats.wilcoxon(x[c_bad], x[c_good], zero_method="wilcox").pvalue
+            except ValueError:
+                w_p = float("nan")
+            print(f"  {label:<14}  {delegated:<10}  mean(bad-good)={diff.mean():+.4f}  "
+                  f"t={t_p:.4f}  Wilcoxon={w_p:.4f}  N={len(x)}")
+
+    print("\n" + "=" * 70)
+    print("P05b: never-punish breakdown")
+    print("=" * 70)
+    for label, df in [("Full (N=80)", pun_full), ("Passers (N=67)", pun_pass)]:
+        cells = ["punish_del_good", "punish_del_bad", "punish_nodel_good", "punish_nodel_bad"]
+        zeros_per_subject = (df[cells] == 0).sum(axis=1)
+        n_total = len(df)
+        for k in range(5):
+            n_k = (zeros_per_subject == k).sum()
+            print(f"  {label:<14}  exactly {k} cells punished zero: {n_k:3d}  ({100*n_k/n_total:5.1f}%)")
+        any_pos = (df[cells].max(axis=1) > 0).sum()
+        all_zero = (df[cells].max(axis=1) == 0).sum()
+        small_max = ((df[cells].max(axis=1) > 0) & (df[cells].max(axis=1) <= 0.10)).sum()
+        nonzero_min = df[cells].apply(lambda r: r[r > 0].min() if (r > 0).any() else np.nan, axis=1)
+        small_min = (nonzero_min <= 0.10).sum()
+        print(f"  {label:<14}  any-cell positive: {any_pos}; all-zero: {all_zero}; "
+              f"max <= 0.10 across cells (forgo 10c for tiny pun.): {small_max}; "
+              f"smallest non-zero <= 0.10: {small_min}")
+
+    print("\n" + "=" * 70)
+    print("P05c: difference-DV regressions (stacked panel, 2 obs per subject)")
+    print("=" * 70)
+    print("DV = punish_nodel_X - punish_del_X (positive = self punished more than delegated, H2)")
+    for label, df in [("Full sample", pun_full), ("Passers", pun_pass)]:
+        rows = []
+        for outcome, c_del, c_self in [("good", "punish_del_good", "punish_nodel_good"),
+                                       ("bad",  "punish_del_bad",  "punish_nodel_bad")]:
+            sub = df[[c_del, c_self, "wa_difficulty", "code"] + SES].dropna()
+            sub = sub.assign(diff=sub[c_self] - sub[c_del], bad_outcome=int(outcome == "bad"))
+            rows.append(sub[["diff", "bad_outcome", "wa_difficulty", "code"] + SES])
+        long = pd.concat(rows, ignore_index=True)
+        regs_a = ["bad_outcome"]
+        regs_b = ["bad_outcome", "wa_difficulty"] + SES
+        for name, regs in [("(diff ~ bad_outcome)", regs_a),
+                           ("(diff ~ bad_outcome + wa_difficulty + SES)", regs_b)]:
+            X = sm.add_constant(long[regs].astype(float), has_constant="add")
+            y = long["diff"].astype(float)
+            m = sm.OLS(y, X).fit(cov_type="cluster", cov_kwds={"groups": long["code"].astype(str)})
+            int_p = float(m.pvalues["const"])
+            bo_p  = float(m.pvalues["bad_outcome"])
+            sum_coef = float(m.params["const"] + m.params["bad_outcome"])
+            # Test sum (intercept + bad_outcome) = 0
+            from numpy import asarray
+            R = asarray([[1.0] + [0.0] * (len(m.params) - 1)])
+            R[0, list(m.params.index).index("bad_outcome")] = 1.0
+            ftest = m.f_test(R)
+            sum_p = float(ftest.pvalue)
+            print(f"  {label:<10}  {name}")
+            print(f"    intercept (= diff in good outcome)   = {float(m.params['const']):+.4f}  p={int_p:.4f}")
+            print(f"    bad_outcome (extra diff in bad)       = {float(m.params['bad_outcome']):+.4f}  p={bo_p:.4f}")
+            print(f"    intercept + bad_outcome (= diff bad)  = {sum_coef:+.4f}  p={sum_p:.4f}")
+            if "wa_difficulty" in m.params.index:
+                print(f"    wa_difficulty                          = {float(m.params['wa_difficulty']):+.4f}  p={float(m.pvalues['wa_difficulty']):.4f}")
+
+    print("\n" + "=" * 70)
+    print("P05d: inconsistency check — A delegates LESS under punishment, B does NOT differentially punish")
+    print("=" * 70)
+    a_pun_rate = float(d.loc[d["treat"] == 0, "delegation"].mean())
+    a_nopun_rate = float(d.loc[d["treat"] == 1, "delegation"].mean())
+    print(f"  Player A delegation rate, Punishment   : {a_pun_rate:.3f} ({100*a_pun_rate:.1f}%)")
+    print(f"  Player A delegation rate, No-Punishment: {a_nopun_rate:.3f} ({100*a_nopun_rate:.1f}%)")
+    diff_bad_pass = (pun_pass["punish_nodel_bad"] - pun_pass["punish_del_bad"]).mean()
+    diff_good_pass = (pun_pass["punish_nodel_good"] - pun_pass["punish_del_good"]).mean()
+    print(f"  Player B insulation (passers) — bad outcome:  £{diff_bad_pass:+.3f}")
+    print(f"  Player B insulation (passers) — good outcome: £{diff_good_pass:+.3f}")
+    print("  Implication: H1's responsibility-avoidance prediction (delegation should rise under "
+          "punishment) does not match what Player B actually does to delegated decisions.")
 
 
 if __name__ == "__main__":
