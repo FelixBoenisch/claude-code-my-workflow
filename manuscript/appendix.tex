@@ -22,11 +22,37 @@
 
 \subsection{Determinants of Player~B's chosen punishment} \label{appendix:reg_punishment}
 
-\input{../tables/reg_punishment.tex}
+
 
 \subsection{Robustness --- Player~B's chosen punishment} \label{appendix:reg_punishment_robustness}
 
 \input{../tables/reg_punishment_robustness.tex}
+
+\subsection{Punishment beliefs and task performance}
+\label{appendix:beliefs_vs_performance}
+
+In the main text we claim that Player~A's punishment beliefs do not vary systematically with her own task performance, and that Player~As do not expect a relatively larger punishment penalty for delegation in good-outcome states than in bad-outcome states. This appendix documents the supporting analyses, restricted to the \textit{Punishment} condition and attention-check passers ($n=61$) for consistency with the main within-subject regression.
+
+\paragraph{Difference-of-differences in the expected delegation penalty.} Define the expected punishment penalty for delegation in each outcome as $\Delta^{\text{good}} \equiv \beta^{\text{del,high}} - \beta^{\text{self,high}}$ and analogously $\Delta^{\text{bad}}$. A within-subject paired $t$-test of $H_0: \Delta^{\text{good}} = \Delta^{\text{bad}}$ yields $\bar\Delta^{\text{good}}-\bar\Delta^{\text{bad}} = +0.075$ ($t=+0.99$, $p=0.325$) on the full Punishment sample and $+0.085$ ($t=+0.89$, $p=0.376$) on the passers. We cannot reject equality of the two delegation penalties.
+
+\paragraph{Independence of beliefs from task performance.} Figure~\ref{fig:beliefs_vs_performance} plots each of the four cell-level punishment beliefs and the two outcome-conditional belief differences against Player~A's task performance in the first ten rounds. Pearson correlations are reported in each panel; all six are small ($|r| \leq 0.21$) and statistically insignificant at conventional levels. In particular, the two belief differences that enter the regression in Table~\ref{tab:reg_belief_specs} are uncorrelated with task performance ($r=+0.12$, $p=0.37$ for the good-outcome difference; $r=-0.15$, $p=0.24$ for the bad-outcome difference). The within-subject correlation between beliefs and delegation reported in the main text therefore cannot be attributed to a shared dependence on task performance.
+
+\begin{figure}[!htbp]
+    \centering
+    \caption{Player~A punishment beliefs are independent of task performance}
+    \includegraphics[width=\linewidth]{figures/beliefs_vs_performance.png}
+    \label{fig:beliefs_vs_performance}
+    \begin{minipage}{0.95\linewidth}
+    \footnotesize
+    \textit{Note:} Each panel plots one belief variable against
+    Player~A's score in the first ten rounds, restricted to the
+    \textit{Punishment} condition and attention-check passers ($n=61$).
+    Points are jittered horizontally for legibility. Lines are OLS fits;
+    annotations report Pearson $r$ and its two-sided $p$-value. Top row:
+    good-outcome beliefs (delegation, self, and the difference
+    \textit{self}~$-$~\textit{delegation}). Bottom row: low-outcome beliefs.
+    \end{minipage}
+\end{figure}
 
 \section{Bonus computation} \label{appendix:bonus}
 
