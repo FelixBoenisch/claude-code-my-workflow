@@ -55,6 +55,7 @@ def render_two_block_table(
     out = [
         r"\begin{table}[!htbp]",
         r"\centering",
+        r"\scriptsize",
         f"\\caption{{{caption}}}",
         f"\\label{{{label}}}",
         f"\\begin{{tabular}}{{{column_spec}}}",
