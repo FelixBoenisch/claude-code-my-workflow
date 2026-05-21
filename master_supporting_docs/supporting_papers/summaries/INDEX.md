@@ -13,7 +13,7 @@ Depth scaled by relevance:
 
 ---
 
-## Tier 1 — Closest precedents (8)
+## Tier 1 — Closest precedents (9)
 
 The papers the manuscript engages with most directly. Full design-level comparison tables.
 
@@ -27,8 +27,9 @@ The papers the manuscript engages with most directly. Full design-level comparis
 | [`oexl_shifting_2013`](oexl_shifting_2013.md) | Shifting blame to a powerless intermediary |
 | [`kobis_delegation_2025`](kobis_delegation_2025.md) | Delegation to AI can increase dishonest behaviour (Nature) |
 | [`tontrup_strategic_2025`](tontrup_strategic_2025.md) | Strategic Delegation of Moral Decisions to AI (closest 2025 sibling) |
+| [`hueholt_trusting_2026`](hueholt_trusting_2026.md) | Trusting Machines with Morality — moral-decision delegation to AI (EER 2026) |
 
-## Tier 2 — Substantive precedents (21)
+## Tier 2 — Substantive precedents (22)
 
 The substantive literature the manuscript builds on or contrasts with.
 
@@ -55,6 +56,11 @@ The substantive literature the manuscript builds on or contrasts with.
 | [`erat_avoiding_2013`](erat_avoiding_2013.md) | Avoiding Lying — delegated deception |
 | [`falk_morals_2013`](falk_morals_2013.md) | Morals and Markets — diffusion of responsibility |
 | [`benabou_identity_2011`](benabou_identity_2011.md) | Identity, Morals, and Taboos — theoretical foundation for M3 |
+| [`fershtman_gneezy_2001`](fershtman_gneezy_2001.md) | Strategic Delegation — ultimatum bargaining via hired agent |
+| [`bartling_fischbacher_schudy_2015`](bartling_fischbacher_schudy_2015.md) | Pivotality and responsibility attribution — sequential voting |
+| [`argenton_potters_yang_2023`](argenton_potters_yang_2023.md) | Receiving Credit — credit-side complement of responsibility-shifting |
+| [`freer_friedman_weidenholzer_2024`](freer_friedman_weidenholzer_2024.md) | Motives for Delegating Financial Decisions — applied blame-shifting test |
+| [`chen_ai_2026`](chen_AI_2026.md) | AI as the Phantom Limb — attribution asymmetry in human vs AI delegation (CHI 2026) |
 
 ## Tier 3 — Algorithm aversion / appreciation literature (12)
 
@@ -75,7 +81,7 @@ The broader algorithm-preference literature that situates the manuscript.
 | [`goldbach_geht_2019`](goldbach_geht_2019.md) | Route-choice algorithm delegation |
 | [`normann_delegate_2025`](normann_delegate_2025.md) | Pricing delegation to a Q-learning algorithm (DICE WP) |
 
-## Tier 4 — Background, reviews, framing (10)
+## Tier 4 — Background, reviews, framing (12)
 
 Foundational political-science / public-choice references and systematic reviews.
 
@@ -91,6 +97,8 @@ Foundational political-science / public-choice references and systematic reviews
 | [`burton_systematic_2020`](burton_systematic_2020.md) | Systematic review of algorithm aversion (5-theme framework) |
 | [`chugunova_we_2022`](chugunova_we_2022.md) | We and It — interdisciplinary review |
 | [`mahmud_what_2022`](mahmud_what_2022.md) | What influences algorithmic decision-making? (4-level framework) |
+| [`bonnefon_moral_2024`](bonnefon_the_2024.md) | The Moral Psychology of AI — Annual Review of Psychology (moral-proxy framing) |
+| [`sunstein_anatomy_2024`](sunstein_anatomy_2024.md) | An Anatomy of Algorithm Aversion — five-mechanism taxonomy (law-review essay) |
 
 ## Tier 5 — Tools, infrastructure, secondary (6)
 
