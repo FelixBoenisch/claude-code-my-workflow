@@ -1,0 +1,1145 @@
+Journal of Business Ethics (2026) 203:405­424
+https://doi.org/10.1007/s10551-025-06034-5
+
+ ORIGINAL PAPER
+
+It's Not My Responsibility: Working with AutonomyRestricting
+Algorithms Facilitates Unethical Behavior and Displacement
+of Responsibility
+
+Anupama A. Jolly1 · Patrick D. Dunlop2 · Sharon K. Parker2 · Lisette Kanse1
+
+Received: 18 December 2024 / Accepted: 13 May 2025 / Published online: 7 June 2025
+© The Author(s) 2025
+
+Abstract
+While algorithmic decision-making technology can greatly improve efficiency at work, it has the potential to promote unethi-
+cal decision making in humans who work with the technology. In this paper, we test how the moral disengagement mecha-
+nism, displacement of responsibility arises, as an outcome of working with autonomy-restrictive algorithmic decision-making
+(ADM) technology. We draw upon the tenets of the job characteristics model and moral disengagement theory to test how
+job autonomy-restrictive ADM affects moral disengagement through displacing an individual's responsibility for unethical
+behavior. We experimentally manipulated the level of job autonomy afforded by an algorithmic ADM system across two
+realistic work simulations. In Study 1 (N=276), we first showed that participants working with autonomy-restricting ADM
+engaged in higher rates of unethical behavior that disadvantages customers to the benefit of the organization, compared to
+those who work with autonomy-affording ADM. In Study 2 (N=256), we used a novel measure of the cognitions associated
+with displacement of responsibility to show that working with an autonomy-restricting ADM system leads individuals to
+experience subjectively lower levels of personal responsibility for the negative consequences of their decisions and leads
+them to displace this responsibility onto a figure of authority, which can be a human or the technology itself. Altogether,
+our findings provide new insights into how the cognitive process of moral disengagement unfolds, and indicate that job
+autonomy, as afforded or restricted in an algorithmic decision-making context, is an important consideration when imple-
+menting ADM technology.
+
+Keywords Algorithms · Moral disengagement · Work design · Unethical behavior · Responsibility
+
+Introduction                                                 being adopted in sectors such as health, customer service,
+                                                             and finance (Huang & Rust, 2018). In organizational set-
+We have witnessed the accelerated use of digital technolo-   tings, algorithmic decision making (ADM) involves using
+gies in work. One of the major attractions of introducing    algorithms to support, inform, or govern decisions pertain-
+such technologies into organizations is that work tasks can  ing to organizational functioning (Leicht-Deobald et al.,
+be completed with improved efficiency (Bader & Kaiser,       2019). A burgeoning area of research focuses on how indi-
+2019; Gombolay et al., 2015; Huang & Rust, 2018). Algo-      viduals think about the moral consequences of working with
+rithmically aided decision making, which refers to "auto-    ADM (Ebrahimi & Matt, 2023; Nichol et al., 2024; Shank
+mated decision making based on predefined rules and/or       et al., 2019). There is a growing focus on understanding
+goals" (Lindenbaum et al., 2020, p. 247) is increasingly     how employees might morally disengage from unethical
+                                                             consequences arising from working with ADM technology
+* Anupama A. Jolly                                           (Ebrahimi & Matt, 2023; Nichol et al., 2024).
+     anu.jolly@uwa.edu.au
+                                                                Moral disengagement refers to the deactivation of self-
+1 School of Psychological Science, University of Western     regulatory processes that typically keep unethical behav-
+     Australia, Perth, WA, Australia                         ior `in check,' and in doing so, individuals can rationalize
+                                                             their unethical behavior as acceptable (Bandura, 1986).
+2 Future of Work Institute, Curtin University, Perth, WA,    Meta-analytic research has shown moral disengagement
+     Australia                                               to be associated with unethical behavior in organizations
+
+                                                             Vol.:(0123456789)
+406                                                              A. A. Jolly et al.
+
+(Newman et al., 2020; Ogunfowora et al., 2021). Yet, further     that is detrimental (as opposed to helpful) to their organiza-
+research is needed to better understand how moral disen-         tion. We second investigate how--having behaved unethi-
+gagement unfolds under particular organizational contexts,       cally--moral disengagement might then occur. To allow
+including those in which employees are asked to work with        strong internal validity, we investigate these questions in
+ADM. Despite much-lauded advantages of ADM, there is             two simulation studies in which we vary the degree to which
+now agreement among scholars that its implementation has         an ADM system offers autonomy to participants, and then
+the potential to result in negative consequences (Gratch &       investigate whether variations in this autonomy shape par-
+Fast, 2022; Sullivan & Fosso Wamba, 2022; Wesche & Son-          ticipants' unethical behavior, as well as how people react
+deregger, 2019). Recent research shows that humans tend          after being unethical.
+to endorse unethical ADM recommendations and they can
+morally disengage from these decisions by using the moral           We draw upon work design theory and moral disengage-
+disengagement mechanism, displacement of responsibility          ment theories to conduct our investigation. Work design
+(Ebrahimi & Matt, 2023), which refers to shifting moral          refers to the content and organization of one's work tasks,
+responsibility for unethical decisions from the self to a more   relationships, roles, and responsibilities (Parker, 2014).
+plausible figure of authority (Bandura, 1986). This phenom-      Over 100 years of research has shown work design to play
+enon is important to understand because it can explain why       a crucial role in fostering many important work-related out-
+individuals continue with unethical behavior over time. In a     comes such as wellbeing, performance (Parker et al., 2017),
+nutshell, moral disengagement disrupts processes that might      learning, and cognition (Parker et al., 2021). Specifically, we
+otherwise have led an individual to behave ethically by self-    focus on an individual's level of job autonomy, or the extent
+regulating their actions, and it is important to understand      to which one has control over their work and can decide
+how a potential breakdown in this process of self-regulation     when and how to perform it (Hackman & Oldham, 1976).
+occurs.                                                          Job autonomy is a central concept in the classic Job Char-
+                                                                 acteristics Model (Hackman & Oldham, 1976) that is con-
+   Despite the importance of this phenomenon, previ-             cerned with creating psychologically motivating work roles.
+ous research empirically examining moral disengagement           Autonomy has several positive psychological consequences,
+(within or beyond the context of working with ADM) has           such as fostering a sense of ownership and allowing people
+not actually unpacked how the process of responsibility actu-    to more actively manage work demands (Parker, 2014).
+ally shifts from the self to another entity, such as a human
+supervisor or the technology itself. Our goal in this paper is      Altogether, therefore, we propose that, in the context of
+to examine this process. We first investigate how the auton-     working with ADM, a critical consequence of reducing job
+omy of employees who use ADM can affect the incidence            autonomy is that individuals feel less personally responsi-
+of unethical behavior, defined as engaging in behavior that      ble for the work they do, and its outcomes (Hackman &
+is contrary to accepted moral norms in society (Treviño          Oldham, 1976; Humphrey et al., 2007). Under conditions
+et al., 2014). Unethical behavior in the context of ADM can      of low autonomy, employees are not in a strong position
+include disadvantaging particular groups of people like an       to choose the methods by which they complete their work,
+organisation's clients/customers, to meet the goals of organi-   when they complete specific tasks at work, or engage in sig-
+zational efficiency (Marabelli et al., 2021). These types of     nificant decision making. Individuals will experience lower
+acts are examples of unethical pro-organizational behavior,      personal responsibility for their actions, which can in turn
+which is defined as "actions that are intended to promote        predict unethical behavior. From a technological perspec-
+the effective functioning of the organization or its members     tive, our prediction aligns with scholars who have advocated
+(e.g., leaders) and violate core societal values, mores, laws,   for workers to be able to control and influence technology.
+or standards of proper conduct" (Umphress & Bingham,             For example, in their analysis of algorithmic management
+2011, p. 622). To the best of our knowledge, only one (cross-    impact on human workers, Parent-Rocheleau and Parker
+sectional) study examined the role of job autonomy in facil-     (2022) recommended that some of the negative motivational
+itating unethical pro-organizational behavior (Kalshoven         impacts of algorithmic management on workers might be
+et al., 2016). Here, low levels of autonomy were positively      reduced if workers had some degree of control and influ-
+associated with employees' willingness to engage in unethi-      ence over the system. A laboratory study by Dietvorst et al.
+cal pro-organizational behavior. However, this study did not     (2018) supports this reasoning, showing that even a small
+examine a causal relationship, nor did it investigate moral      amount of empowerment can overcome the aversive effects
+disengagement as a variable of interest. Furthermore, prior      of some algorithmic systems.
+research examining autonomy and unethical behavior has
+focused on counterproductive work behavior or employee              Crucially, as well as examining the role of job autonomy
+deviance (e.g., Fida et al., 2015; Fox et al., 2001; Lu et al.,  in predicting unethical behavior, we also draw on moral
+2017), which centers on employees engaging in behavior           disengagement theory to theorize what happens after an
+                                                                 individual has engaged in unethical behavior. Specifically,
+                                                                 we argue that individuals who experience low personal
+It's Not My Responsibility: Working with AutonomyRestricting Algorithms Facilitates...                                      407
+
+responsibility for the outcomes of their actions are more       lens of work design. Furthermore, several recent reviews
+likely to engage in unethical behavior because they per-        examining the antecedents of moral disengagement (New-
+ceive that individuals who have greater control than them       man et al., 2020; Ogunfowora et al., 2021) and unethical
+are directing their behavior (Bandura, 1986). In other words,   pro-organizational behavior (Luan et al., 2023; Mishra et al.,
+under the conditions of working with autonomy-restricting       2021) have neglected explicitly considering work design as
+ADM, which we expect to lead to a sense of low personal         contextual antecedent for either outcome. This is surprising
+responsibility, individuals who behave unethically may sub-     given that research has identified work design theory as one
+sequently be more likely to displace responsibility for their   of the most well-supported and practical theories of all time
+unethical acts, or the consequences, onto a figure of author-   (Miner, 2003) and work design is core feature of an employ-
+ity (e.g., the employee's boss or the technology itself) who    ees' immediate work context (Johns, 2006). Work redesign
+is perceived to have greater control over the individual's      is also an important organizational intervention strategy for
+actions (Bandura, 1986). Indeed, if employees feel that         improving work outcomes (Nielsen, 2013). We therefore add
+other individuals--in this case, those in positions of greater  to understanding about the causes of moral disengagement
+power than themselves--may have some role in facilitating       through a unique focus on work design as an antecedent.
+the employee's unethical behavior, the employee may be less     Should it be shown to be important, this research will poten-
+likely to take ownership or responsibility for that unethical   tially stimulate new avenues for both research and practice.
+act and instead perceive that the more powerful entity in the
+organization should take greater responsibility.                   Finally, we contribute more specifically to understand-
+                                                                ing the process of displacement of responsibility--much
+   Altogether, the relationships we hypothesize in this paper   discussed, but rarely operationalized (Schaefer & Bouw-
+are shown in Fig. 1.                                            meester, 2021). We provide a novel approach to measur-
+                                                                ing moral disengagement by using a unique experimental
+   Our research contributes to the literature on the moral      paradigm and a theoretically-driven approach to examine
+consequences of using ADM in several ways. First, we theo-      the cognitions associated with the displacement of respon-
+rize and empirically test how the autonomy of employees         sibility. In so doing, our research answers several calls for
+who use ADM can affect the incidence of unethical behavior.     a deeper understanding of process moral disengagement,
+In so doing, our research puts work design on the agenda as     which requires investigations that allow researchers to iso-
+a possible intervention strategy to reduce or prevent unethi-   late the components of each specific moral disengagement
+cal behavior in an increasingly digital world. In essence, a    mechanism (Moore, 2015; Newman et al., 2020; Schaefer
+work design lens could help scholars and practitioners to       & Bouwmeester, 2021).
+proactively engage with technology designers to facilitate
+the ethical design and implementation of technology like        Theoretical Framework and Hypothesis
+ADM (Shilton & Anderson, 2017).
+                                                                Development
+   Second, although studies to date have shown how spe-
+cific work contexts lead employees to use moral disengage-      Algorithms are frequently used to improve the efficiency of
+ment (Barsky, 2011; Huang et al., 2019; Kish-Gephart            decision making. By processing relevant data available to the
+et al., 2014; Moore et al., 2019), researchers have rarely      algorithm and using those data to quickly present employees
+systematically examined moral disengagement through the
+
+Fig.1Research model tested across experimental studies. - indicate negative relationships,+indicate positive relationships
+408                                                             A. A. Jolly et al.
+
+with choices on how to respond to a situation, algorithmic      (JCM; Hackman & Oldham, 1976). The JCM posits that
+recommending reduces or eliminates the need for employees       employees who experience sufficient levels of positive
+to think through decisions and their implications, thereby      work characteristics will subsequently experience criti-
+fostering efficiency (Kellogg et al., 2020, p. 372). However,   cal psychological states that lead to desirable outcomes
+not all ADM-based recommendations are necessarily ethi-         for the employee and organization (e.g., job satisfaction
+cal (Martin, 2019)--they can provide recommendations that       and performance). Within the JCM, job autonomy fosters
+discriminate or unfairly disadvantage individuals (Ebrahimi     the psychological state of personal responsibility for the
+& Hassanein, 2021; Ebrahimi & Matt, 2023). Well-known           outcomes or consequences of one's work (here onwards
+examples include the `Robodebt' scandal in Australia which      we refer to this state as `personal responsibility'). In other
+involved hundreds of thousands of welfare recipients being      words, individuals will recognize that outcomes of the
+deemed to owe a debt to the government that was calcu-          job "depend increasingly on the individual's own efforts,
+lated by an algorithmic decision-making system with little      initiatives, and decisions rather than on the adequacy of
+to no human oversight (Holmes, 2023; Lewis, 2023). The          instructions from the boss or on a manual of job proce-
+Robodebt system has been the subject of the highest form        dures," leading to "strong personal responsibility for the
+of public inquiry in Australia, a Royal Commission. Another     success and failures that occur on the job" (Hackman &
+example is that of rideshare companies, such as Uber or         Oldham, 1976, p. 258). This greater personal responsibility
+Lyft, which use algorithmic management systems to per-          and sense of ownership of outcomes means that individu-
+form multiple functions, from task allocation to contract       als are likely to think more widely about any repercussions
+termination. In recent years, the algorithmically managed       of their action, and, in line with moral disengagement the-
+food delivery company, Deliveroo, was successfully sued         ory, be more likely to activate their self-sanctions against
+for unfair dismissal of an employee based on the algorithm's    unethical behavior (i.e., choose a more ethical course of
+decision that the driver in question delivered food too slowly  action) because they perceive they are responsible for the
+(Veen et al., 2021).                                            consequences of their own actions (Bandura, 1986). On
+                                                                the other side of the coin, employees who experience low
+   As multiple authors have discussed, technology does          levels of job autonomy will experience low levels of per-
+not have a deterministic impact on outcomes (e.g., Parent-      sonal responsibility. As such, they will be less likely to
+Rocheleau & Parker, 2022; Strohmeier, 2009). Rather, the        take ownership or responsibility for any unethical behavior
+impact depends on how that technology is designed and           because they do not see themselves as the agent respon-
+implemented, and the choices made by various stakehold-         sible for suggesting an unethical course of action. This
+ers. If the way in which the technology is implemented into     argument is consistent with Parker (2014) who speculated
+the organization affords employees the autonomy to decide       that low job autonomy might deter employees from taking
+whether they respond to a situation using the suggestion pro-   moral responsibility at work because of their narrow "not
+vided by the software, they would be working with what we       my job" role orientation means they do not feel ownership
+call autonomy-affording ADM. These employees are able to        of the situation. We therefore hypothesize:
+choose whether to comply entirely with the recommended
+suggestion, take on board aspects of the suggestion, or to      Hypothesis 2 The positive association between autonomy-
+disregard the suggestion entirely, especially if it does not    restrictive ADM and unethical behavior is mediated by a low
+represent the best option for their clients. Under such a sce-
+nario, we would expect that employees will be more likely       level of personal responsibility.
+to avoid actioning recommendations that might harm clients.
+In contrast, we expect that employees who are not actively         The JCM's focus on personal responsibility provides
+encouraged to exercise their autonomy, that is work with        a theoretical basis for understanding whether and why an
+autonomy-restrictive ADM, may opt for the easier and more       unethical behavior occurs in the first place. We go further
+efficient option of accepting the recommendation decision       in this research and apply moral disengagement theory to
+from the algorithm, irrespective of its consequences for cli-   understand what happens when a decision to behave unethi-
+ents. We therefore propose:                                     cally has been enacted (Bandura, 1986). That is, whereas
+                                                                Hypothesis 2 focused on low personal responsibility as an
+Hypothesis 1Autonomy-restrictive ADM is positively asso-        antecedent of unethical behavior, here we focus on how peo-
+ciated with unethical behavior, whereas autonomy-affording      ple explain their actions to themselves after they make an
+ADM is negatively associated with unethical behavior.           unethical decision. This focus is important because, as we
+                                                                elaborate below, empirical research that explicitly tests the
+   To explain why autonomy-affording ADM is likely              core theoretical assumptions of how moral disengagement
+to lead to more ethical behavior compared to autonomy-          unfolds when individuals actually engage in unethical behav-
+restrictive ADM, we turn to the Job Characteristics Model       ior is very scarce.
+It's Not My Responsibility: Working with AutonomyRestricting Algorithms Facilitates...  409
+
+   According to moral disengagement theory, people are            of an authority figure was not considered, which we suggest
+intrinsically motivated to maintain a positive moral self-        is essential to do, given how displacement of responsibility
+image that adheres to personal and social standards of moral      is conceptualized.
+behavior, which is achieved through internal self-regula-
+tion. Behaving in ways contrary to one's personal or social          According to Bandura's conceptualization, there are three
+standards (i.e., unethically) leads to unpleasant emotional       necessary ingredients for displacing responsibility to have
+or cognitive consequences. Yet, people are often faced with       occurred. First, the individual must either perceive some
+opportunities to behave unethically and, when the moti-           imperative and opportunity to commit an unethical act
+vation to do so is strong enough, Bandura suggested that          or have already committed an unethical act. If there is no
+people can deactivate their self-regulatory processes using       unethical act, there is no need to displace responsibility. Sec-
+moral disengagement. By morally disengaging, individuals          ond, the individual should experience low levels of personal
+rationalize their behavior as acceptable in relation to their     responsibility for the consequences of their actions, such that
+internal standards or social context using specific cognitive     they do not feel they are the true agent or controller of their
+mechanisms. Moral disengagement is said to occur "most            actions. Third, the individual should direct the responsibil-
+prominently in patterns of behavior that serve the user in        ity for the unethical behavior or its adverse outcomes onto
+some way but injure others" (Bandura, 1986, p. 375). Ban-         some figure of authority that creates an imperative (implic-
+dura described eight moral disengagement strategies, how-         itly or explicitly conveyed) for that individual to engage in
+ever, only one strategy need be available to the individual.      unethical behavior. Displacement of responsibility is said to
+In this research, for reasons we outline below, we focus on       occur when individuals who do not feel in control of their
+the specific strategy of displacing responsibility.               behavior perceive that a figure of authority is responsible for
+                                                                  their behavior and that behavior's effects on others. Thus, to
+   The role of displacement of responsibility in relation         the extent that technologies such as ADM `blur' the entity
+to employee unethical behavior when working with ADM              that should be ultimately responsible for negative outcomes
+technology has been of increasing interest to researchers in      of a decision made (Kellogg et al., 2020; Martin, 2019),
+recent years. This is unsurprising given the scale at which       displacement of responsibility for consequences of that deci-
+algorithms are being deployed to oversee or influence the         sion becomes more cognitively plausible. As we explain
+work of human employees, which by design influences               next, in the present research, we propose that employees who
+workers' sense of control (Bankins & Formosa, 2023; Par-          work under autonomy-restricting ADM are more likely to
+ent-Rocheleau & Parker, 2022; Parker & Grote, 2022). In           subsequently reconcile their actual unethical behavior if they
+general, studies show displacement of responsibility to play      feel that a figure of authority is responsible for it, and conse-
+an influential role in influencing unethical behavior in the      quently may be more likely to engage in it more frequently.
+context of ADM. There is some emerging research on how
+software developers perceive the ethical implications of the         There are at least three candidate figures of authority in
+algorithmic technology they develop. In a qualitative sample      the context of working with ADM that could plausibly be
+of healthcare AI developers, Nichol et al. (2024) found that      perceived by employees as having more control over their
+while some developers do understand that their technology         work than themselves. First, a human higher-level man-
+has the potential to cause harm, there can be uncertainty         ager, with the unethical agent focusing on how manager/
+about who is responsible for preventing harm when working         executives had decided how to implement the ADM into
+in development companies that prioritize profits. In another      an organization (Kellogg et al., 2020). Second, the ADM
+study, Gao et al. (2024) found in a time-lagged survey that       technology itself might be perceived as a proverbial figure of
+gig workers who reported higher perceptions of algorithmic        authority, given that the role of this technology is to provide
+monitoring were more likely to engage in unethical behav-         employees with ostensibly legitimate courses of action to
+iors like careless deliveries, and this was mediated by a trait-  take in response to a situation. Third, the ADM designers (or
+like tendency to displace responsibility at work. When exam-      developers) might be considered responsible because they
+ining how workers make decisions when working with ADM            had programmed the ADM suggestions, without adequately
+technology in an experimental study, Ebrahimi and Matt            accounting for any consequences (Mittelstadt et al., 2016;
+(2023) found that employees faced with making complex             Sullivan & Fosso Wamba, 2022). Thus, if an employee
+decisions are can use displacement of responsibility as a key     working with autonomy-restricting ADM feels they should
+moral disengagement mechanism when intending to approve           enact an ADM recommendation that constitutes unethical
+the unethical recommendation of data analytics algorithms.        behavior, that employee might displace responsibility for the
+In both these quantitative studies, humans experienced low        unethical behavior and its consequences onto a manager, the
+levels of control over their work, which activated a contex-      ADM technology per se, and/or its designers.
+tually-relevant tendency to displace responsibility, however,
+the explicit role of personal responsibility in relation to that     Capturing the process of moral disengagement in situ
+                                                                  has proven difficult for researchers (Moore, 2015). To
+                                                                  date, researchers have used various methods including
+410                                                               A. A. Jolly et al.
+
+contextualized measures of the trait-like tendency to             some improvements to the core experimental paradigm and
+morally disengage (e.g., Huang et al., 2018), asking par-         our measures in order to test all three hypotheses.
+ticipants post hoc why they made unethical choices in the
+contexts of experimental tasks (Reynolds et al., 2014), or        Study 1
+observing individuals engaging in unethical behaviors that
+contradict their prosocial values (Shepherd et al., 2013).        Method
+However, none of these approaches specifically speak to
+the individual cognitive components of displacement of            All studies received approval from the university's institu-
+responsibility. There is some research that tries to cap-         tional Human Research Ethics Committee (approval number:
+ture contextually activated displacement of responsibility        RA/4/20/4433). To mask the purpose of this research, we
+(Antunez et al., 2024; Barsky, 2011; Hinrichs et al., 2012;       advertised all studies to participants under the title "Under-
+Thiel et al., 2023) but these studies use adapted propensity      standing Customer Service Jobs." The online supplement
+measures of moral disengagement and do not unpack the             contains three `mini-studies' for the validation of the novel
+shift in responsibility from oneself to figures of authority.     manipulations and stimuli that were used in all our experi-
+Thus, here, we develop a novel work-simulation paradigm           mental studies. All recruitment/task instructions, materi-
+that is designed to activate and capture all three compo-         als, data, and analysis syntax, for the studies conducted in
+nents of displacement of responsibility--and to experi-           this paper are available on the Open Science Framework
+mentally test the causal relation between autonomy and            (link: https://osf.io/phg82/?view_only=4f847ddbc31d490
+displacement of responsibility. We hypothesize that:              b90917809c4e07c38). This study was pre-registered on the
+                                                                  Open Science Framework. The preregistration for Study 1
+Hypothesis 3 When an individual has engaged in unethical          is available here: https://osf.io/kw9bg/?view_only=0f118
+                                                                  32d566 d4966 839bc 95e03 15e0e 4 and the online supplement
+behavior under conditions of low autonomy, they are less          details where and why deviations occurred.
+likely to experience subsequent personal responsibility for
+                                                                     The sample size for both studies was estimated via a pri-
+the outcomes of one's work (3a), and more likely to subse-        ori power analyses (see online supplement) using GPower
+quently attribute responsibility onto a figure of authority       3.1 (Faul et al., 2007), which indicated a required sample of
+                                                                  210 participants. However, we intended to operationalize our
+(i.e., displace responsibility) for the outcomes of one's work    dependent variable as a count variable for hypothesis testing
+(3b).                                                             and Coxe and MacKinnon (2010) suggest that mediation
+                                                                  analyses using a count-dependent variable may yield biased
+   Importantly, we adopt an experimental approach to test-        parameter estimates. They recommend increasing the sample
+ing our hypotheses as it allowed sufficient internal validity     size slightly to attenuate potential biases hence, we aimed
+to isolate the causal role of work design. Participants com-      recruit at least 50 additional individuals.
+pleted a realistic email inbox task (Barsky, 2011; Treviño &
+Youngblood, 1990) as customer service officers in a ficti-           A total of 289 individuals (57% female) from Amazon's
+tious hotel either under autonomy-affording or autonomy-          MTurk platform were recruited via CloudResearch (Litman
+restricting ADM. The context of the service industry also         et al., 2017). All participants were residents of the United
+adds realism to the task as ADM has been used in the service      States of America. Using our pre-registered data screening
+industry for a number of years now (Huang & Rust, 2018).          criteria (details in online supplement), we excluded 13 par-
+Participants engaged in the task under randomly assigned          ticipants, leaving a final sample of 276. In the final sample,
+conditions with either autonomy-affording or autonomy-            participants' mean age was 39.6 years (SD=11.60) and 88%
+restricting ADM. Our experimental approach circumvents            of participants were in either full-time, part-time, or casual
+many of the challenges of investigating our focal constructs      work.
+of interest in a field context, including difficulty in control-
+ling for extraneous contextual factors that could influence          We designed and hosted on the university's Qualtrics
+participants' perception of job autonomy or ambiguity over        platform; see Fig. 2 for a flowchart of the procedure. Fol-
+cause and effect relationships over time (Podsakoff & Pod-        lowing informed consent, participants answered a pre-exper-
+sakoff, 2019). We further answer multiple calls to undertake      iment questionnaire before commencing the main study,
+experimental research when studying moral disengagement           which measured demographics and personality. Participants
+(Newman et al., 2020; Schaefer & Bouwmeester, 2021), not          were asked to play the role of a Customer Services Officer
+just to understand causal relationships, but to reduce the        (CSO) working at the (fictional) Paradise Point Hotel, where
+social desirability that is often associated with self-report     they would respond to a series of emails pertaining to cus-
+field study measures of unethical decision making. Study 1        tomer booking enquiries, requests for information, or billing
+aims to test the first two hypotheses. In Study 2, we made        issues. As part of their role, participants would work using
+It's Not My Responsibility: Working with AutonomyRestricting Algorithms Facilitates...  411
+
+Fig.2Flowchart of the
+Procedure for Studies 1 and
+2. R1 and R2 refer to each
+response option; R2 in Red font
+represents an unethical response
+option. Yellow star represents
+a "top reply" response option
+corresponding to each respec-
+tive email
+
+a fictitious ADM system called "SmartAnswerTM." ADM              Point Hotel. Participants were informed that at various times
+is being increasingly deployed in the service sector (Huang      during the task, we would ask them how they were finding
+& Rust, 2018) and responding to emails from past or future       the job of a CSO.
+guests is common in the hospitality sector in the twenty-
+first century. Thus, this task allowed us to create a situation     At the beginning of the task, participants reviewed a
+where we expected to observe unethical behavior in a highly      worked example showing how to respond to customers
+naturalistic setting, while maintaining experimental control.    using the SmartAnswerTM ADM software. The example
+To create a realistic work context, an organizational chart      explained that each customer email would be `analyzed' by
+showed participants' job role in relation to others in Paradise  the SmartAnswerTM software, and that the software would
+                                                                 present participants with two possible response options. One
+412                                                              A. A. Jolly et al.
+
+of the two options would be marked as a "top reply" with         rating of 2.5. Additionally, the ethical target responses must
+a yellow star next to it, to signify the company-preferred       have received a mean unethical rating of 2 or lower, and
+ADM-selected answer. Participants needed to choose which         the KPI effectiveness rating must be lower than that of the
+of the two options they would like to use to respond to the      unethical target response for a dilemma stimulus. Alto-
+customer's query. The chosen response was then "pasted"          gether, all unethical dilemma responses were deemed1 to
+into a formatted email with the Paradise Point Hotel sig-        have met the criteria for signaling unethical behavior relative
+nature, which participants could examine before "sending"        to the alternative response. For the distractor emails, the
+the email to the customer. After the worked example, the         "top reply" response usually described a response that logi-
+survey software randomly assigned participants to either         cally would help to meet key performance indicators (KPIs),
+the high- or low-autonomy condition to complete the inbox        while the alternative either did the same, or did not meet
+task. The manipulation took the form of an email from the        KPIs as clearly as the "top reply." In addition to serving as
+Guest Services Manager Riley Watson (i.e., the participants'     distractors, the distractor emails also afforded credibility to
+hypothetical boss); see the Materials section. After reading     the "top reply," in that the suggested response would gener-
+the email, participants were asked to type a short reply to      ally seem to serve the organization's goals well. The order in
+Riley Watson, and complete two multiple-choice attention         which response options for each email were presented was
+check questions.                                                 also randomized. Participants in both conditions were free
+                                                                 to deviate from the SmartAnswerTM-suggested responses.
+   All participants worked through 12 customer emails (the
+stimuli used in our study) across four email blocks, with           After the first four distractor emails--and again after
+each block comprising three emails from customers. The           working through all 12 emails--participants were asked to
+situations that were selected for the emails were based on       assess their experience in the job of a CSO. We use "T1"
+typical traveler experiences seen on websites such as reddit     and "T2" labels to distinguish between these two measure-
+or TripAdvisor, where travelers provide reviews or discuss       ment points. The assessment contained a measure of per-
+their experiences. Four emails contained an ethical dilemma      sonal responsibility along with other `distractor' measures
+(`dilemma' emails) and the remaining eight emails served as      (see below). At the end of the task, participants answered
+distractors (i.e., had no ethical valence). The emails within    manipulation check questions and a more attention check
+each block were presented in a random order by the survey        questions. Participants were then thanked for their time and
+software, but the blocks were presented in a fixed order.        paid US$6.
+
+   The first email block comprised three distractor emails to    Materials
+familiarize participants with the task. The next three blocks
+each contained either one or two dilemma emails. The algo-       Control Variables
+rithmically recommended "top reply" response option for
+the dilemma emails was always associated with an unethical       Participants completed the 60-item HEXACO Personality
+response, whereas the alternative to the top reply option was    Inventory (Ashton & Lee, 2009). We measured two person-
+not unethical. An unethical response was one that allowed        ality traits as control variables, honesty-humility and consci-
+the participant as the CSO to engage in behavior consistent      entiousness, as they were identified as potential confounders
+with unethical pro-organizational behavior; that is, the CSO     of the mediator personal responsibility­unethical behavior
+was able to choose a response that would prioritize revenue      relation. Previous research shows honesty-humility is nega-
+for the organization by disadvantaging the customer finan-       tively associated with unethical behavior (Zettler & Hilbig,
+cially. Our online supplement details the validation of each     2010), while conscientiousness is positively associated with
+email stimulus scenario and corresponding ethical/unethical      feeling responsible for work (Ashton & Lee, 2007).
+option. This included a separate set of participants rating
+the extent to which each response option for an email was        Manipulation of Autonomy
+perceived as the CSO to be meeting their organization-set
+key performance indicators (KPIs), while appearing to be         In both the autonomy-restricting and autonomy-restricting
+unethical by disadvantaging the customer. We calculated          conditions, Guest Services Manager Riley Watson first
+mean scores of unethicalness (rated on a Likert Scale of         informs CSOs of Paradise Point Hotel's recent investment
+1--not unethical at all; 2--somewhat unethical; 3--very          in an artificial intelligence system for the purposes of lifting
+unethical; 4--extremely unethical) and KPI effectiveness
+(using a three-point categorical scale: negative effect on per-  1The unethical target response to the dilemma stimulus "Surprise
+formance indicators, No effect on performance indicators,        check-out fee" was rated slightly below the cut-off criterion for
+Positive effect on performance indicators). For unethical tar-   unethicalness (mean of 2.33), however, we decided to include this
+get responses to be retained, we specified a minimum mean        response in the final study given that it had a high KPI effectiveness
+unethicalness rating of 2.5, and a mean KPI effectiveness        rating, and that the corresponding ethical target response was rated to
+                                                                 be low on unethicalness and KPI effectiveness.
+It's Not My Responsibility: Working with AutonomyRestricting Algorithms Facilitates...  413
+
+Table1Specific wording of autonomy condition manipulation for    Attention and Manipulation Checks
+Study 1
+                                                                 Two attention check items were placed in the HEXACO-60
+Condition          Wording                                       section of the pre-experiment questionnaire (e.g., "This is an
+                                                                 attention check. Please select Disagree"). Three more were
+Autonomy-affording When responding to customer emails, Smart-    presented after Riley Watson's email; participants wrote a
+                                                                 short response to Riley's email then answered two multiple-
+ADM condition      AnswerTM will recommend a "top reply" to      choice questions about: (1) their role in the company and (2)
+                                                                 how they were told to response to customer emails (i.e., use
+                   use (denoted by:     ) but you can always     their personal judgment, or advised against deviating from
+                                                                 the recommended answer).
+                   use your personal initiative and judgment in
+                                                                    At the end of the task, participants answered manipula-
+                   choosing a response. You are free to make     tion and a final attention check. For the manipulation check,
+                                                                 participants indicated the extent to which they felt they were
+                   your own decisions                            able to make their own decisions in responding to custom-
+                                                                 ers using a five-point Likert scale, ranging from 1 (Strongly
+Autonomy-          When responding to customer emails it is in   Disagree) to 5 (Strongly Agree). The attention checks asked
+  restrictive ADM                                                participants to choose which out of four statements reflected
+  condition        your best interests to use the "Top Reply"    the study's purpose (e.g., "some questions referred to hotel
+                                                                 bookings" and "I was provided information about physical
+                   option (denoted by:  ) out of what            activities that help women to stay healthy"). Finally, partici-
+                                                                 pants were asked to write a very brief description of the task.
+                   SmartAnswerTM provides you with. Your
+                                                                 Results
+                   management team advises against deviating
+                                                                 An independent-samples t-test on the manipulation check
+                   from the top reply                            item indicated that participants in the autonomy-restricting
+                                                                 condition (N=136, mean=2.72, SD=1.20), reported sig-
+the rankings of the hotels in customer service, booking suc-     nificantly lower levels of autonomy compared to those in
+cess, and revenue. Riley Watson reminds the CSOs that their      the autonomy-affording condition (N=140, mean=4.10,
+performance ratings depend on their booking success and          SD=0.72), (Mdiff=1.38, t(220)=- 11.51, p<0.001,
+bringing in revenue; this statement was included to create       Cohen's d=1.39).2
+some sense of self-interested incentive to behave unethically,
+while still benefiting the organization. Autonomy affordance        We created an `unethical behavior' count variable using
+was manipulated in the second part of Riley Watson's email       the number of times (out of the four opportunities) that
+by informing participants in each condition on the extent        participants chose the unethical response option (i.e., the
+to which they can make their own decisions (see Table 1)         SmartAnswerTM "top reply") when responding to dilemma
+about choosing a response to the customer emails. We based       emails. Table 2 provides the percentage of participants that
+the manipulation text on the wording used in Morgeson and        chose the "top reply" option in each condition. The table
+Humphrey's (2006) measure of job autonomy. In the auton-         shows that participants in the autonomy-restricting condi-
+omy-affording condition, participants were told that they        tion were roughly two to four times more likely than those
+can use their personal initiative and judgment to answer the     in the autonomy-affording condition to choose the SmartAn-
+queries, while in the autonomy-restrictive condition, partici-   swerTM option for the dilemma email stimuli. However, for
+pants were not instructed to use their personal initiative and   most of the distractor stimuli, participants in the autonomy-
+judgment, but instead told that it was in their best interests   restricting condition were almost equally likely to choose the
+to use the "top reply" option when responding to customer        "top reply" as those in the autonomy-affording condition;
+emails. Both emails had a similar word count to ensure cog-      the variation between conditions for some distractor stimuli
+nitive load in terms of reading was similar in both instances.   likely reflects the nature of the autonomy-affording manipu-
+                                                                 lation whereby participants could make their own decisions
+Personal Responsibility and Distractor Measures                  about email responses.
+
+We adapted four items from the Hackman and Oldham's              2Levene's test of equality of variances was violated (F=84.90,
+(1980) `experienced responsibility' measure. Participants        p<.001), hence, we report the t-test that accounts for the violation.
+were asked to rate the items with respect to their role as
+CSO at Paradise Point Hotel using a five-point Likert scale
+(1--Strongly Disagree to 5--Strongly Agree). The items
+were "I feel I should personally take the credit or blame
+for any consequences of our decisions in this job," "I feel
+responsible for ensuring that revenue is brought in for the
+hotel," "I feel a high degree of personal responsibility for
+the work I do on this job," and "I feel responsible for ensur-
+ing that the customers' needs are met." The distractors were
+single items that asked about task enjoyment, self-efficacy,
+task difficulty, and job meaningfulness.
+414                                                                                                                            A. A. Jolly et al.
+
+Table2Percentage of             Type of email        Summary of email              % of participants in low-     % of participants in
+participants choosing the "Top                                                     autonomy condition that       high-autonomy condi-
+Reply" option in each Study,                                                       chose Top Reply               tion that chose Top
+grouped by autonomy condition                                                                                    Reply
+
+                                                                                   Study 1  Study 2              Study 1       Study 2
+                                                                                   N=136    N=132                N=140         N=124
+
+                                Dilemma 1            Loyalty points not applied    48       39                   12            5
+
+                                Dilemma 2            Not given the right room      44       33                   11            7
+
+                                Dilemma 3            Surprise booking fee          55       53                   25            22
+
+                                Dilemma 4            Surprise check-out fee        70       58                   45            22
+
+                                Distractor 1         Asking for baby crib          88       79                   71            43
+
+                                Distractor 2         Extending stay at hotel       99       97                   100           96
+
+                                Distractor 3         Loyalty program sign up       91       88                   62            53
+
+                                Distractor 4         Pre-check-in luggage storage  93       83                   64            47
+
+                                Distractor 5         Query about breakfast *       95       14                   86            6
+
+                                Distractor 6         Refund not received *         88       9                    61            2
+
+                                Distractor 7         Shuttle Booking Ticket        96       94                   94            91
+
+                                Distractor 8         Website booking error         99       96                   97            91
+
+                                *denotes that a nonsensical "Top reply" was associated with the distractor stimuli in Study 2
+
+Table3Descriptive statistics    Variable                Mean SD 1                      2       3              4       5           6
+and correlations among Study 1
+variables                       1. Autonomy conditiona  NA             NA
+
+                                2. Unethical behavior count 1.54       1.49 - .41**
+
+                                3. Personal responsibilityT1 3.88      0.77 0.31** - 0.22** (0.75)
+
+                                4. Personal responsibilityT2 3.87      0.81 0.31** - 0.36** 0.81** (0.81)
+
+                                5. Conscientiousness    3.93           0.56 0.10       - 0.02 0.25** 0.21** (0.80)
+
+                                6. Honesty-humility     3.60           0.72 0.09       - 0.13* 0.13* 0.12* 0.22* (0.81)
+
+                                N=276. *p<.05, **p<.01. Cronbach's coefficient alpha is provided along the diagonal in parentheses.
+                                aAutonomy-restrictive ADM=0, autonomy-affording ADM=1
+
+   Table 3 shows the descriptive statistics and correlations       Fig.3Path model evaluating the indirect effect of autonomy condi-
+among study variables. Of note, autonomy-restrictive ADM           tion on unethical behavior through personal responsibilityT1. Path
+was associated with higher counts of unethical behavior and        coefficients are unstandardized, accompanied by standard errors in
+lower levels of personal responsibility. Further, only, hon-       parentheses. *denotes p<.001; all other paths are non-significant.
+esty-humility (not conscientiousness) was negatively associ-       aAutonomy-restrictive ADM=0, autonomy-affording ADM=1
+ated with both unethical behavior and personal responsibil-
+ity; hence, we only controlled for honesty-humility in the         controlled for the effects of honesty-humility on unethical
+hypothesis tests.                                                  behavior.
+
+   To test whether autonomy-restricting ADM was associ-               Before testing our model, we tested the assumption
+ated with higher levels of unethical behavior (Hypothesis          of equidispersion to investigate the appropriateness of
+1) and whether this relationship was mediated by low lev-
+els of personal responsibility (Hypothesis 2), we speci-
+fied the path model shown in Fig. 3, using Mplus version
+8.3. The model incorporates the following paths: (a) the
+regression of unethical behavior on autonomy condition
+and personal responsibility at T1 and (b) the indirect
+path of autonomy to unethical behavior, through personal
+responsibility at T1. The indirect path was estimated by
+obtaining 95% bias-corrected confidence intervals derived
+from 10,000 bootstrapped samples (Hayes, 2018). We also
+It's Not My Responsibility: Working with AutonomyRestricting Algorithms Facilitates...  415
+
+estimating the unethical behavior (a count-dependent vari-          authority figures, as responsible for customers' feelings of
+able) pathways using Poisson regression (Coxe et al., 2009).        being disadvantaged by participants' email responses. The
+The assumption was violated, as the overall mean (µ=1.54)           more specific measure of responsibility also helps us exam-
+and variance (2=2.24) of the unethical behavior count vari-         ine whether autonomy-restricting ADM facilitates the moral
+able in the final sample indicated overdispersion of the data.      disengagement mechanism of displacement of responsibility.
+Accordingly, we specified the unethical behavior regression
+paths to be estimated using a negative binomial distribution,          We further highlight a possible limitation with the word-
+a recommended alternative to test a model with overdis-             ing of the autonomy-restrictive manipulation. Specifically,
+persed count-dependent variables (Hilbe, 2011).                     being told that it was in participants' best interests to use
+                                                                    the Top Reply, may have facilitated feelings of coercion or
+   Overall, Hypothesis 1 was supported, but Hypothesis 2            a sense that failing to follow bureaucratic processes may
+was not. Results showed a direct negative relationship from         lead to the individual being punished in some way for lack
+autonomy condition to unethical behavior (B=- 0.78,                 of compliance (Barker, 1993). To safeguard against signal-
+SE=0.12, p<0.001) and that autonomy condition was                   ing coercion, there were no signals included about punitive
+positively associated with personal responsibility (B=0.48,         actions should participants deviate from the ADM-recom-
+SE=0.09, p<0.001) yet personal responsibility was not,              mended answers. Furthermore, we do not suspect coercion
+in turn, associated with unethical behavior (B=- 0.09,              played a strong role because many participants selected the
+SE=0.071, p=0.195). The confidence intervals for the indi-          more ethical alternative to the Top reply than one would
+rect pathway from autonomy to unethical behavior crossed            expect had the manipulation been highly coercive (see
+zero (indirect effect estimate=- 0.044, 95% CI=- 0.101,             Table 2 that the percentage of participants in the low-auton-
+0.015). The raw unstandardized path coefficients are dis-           omy condition choosing a Top reply for unethical dilemma
+played in Fig. 3.3                                                  emails ranges from 48% to 70%). Nevertheless, in Study
+                                                                    2, we revised our manipulation of autonomy-restriction to
+Study 1 Discussion                                                  further reduce risks of inducing a feeling of coercion by sof-
+                                                                    tening the tone of the low-autonomy manipulation to include
+While we found that participants in the autonomy-restricting        focused language from Morgeson and Humphrey's (2006)
+ADM condition engaged in higher levels of unethical behav-          measure of job autonomy.
+ior, our results did not support that personal responsibility
+mediated this relationship. One reason for this could be a          Study 2
+lack of specificity of the personal responsibility measure.
+That is, the measure of personal responsibility used in the         This study was pre-registered on aspredicted.org, available
+current study referred to responsibility for the work partici-      here: https://aspredicted.org/blind.php?x=pt7k4s, with
+pants did on the job, any consequences of the decisions of          deviations detailed in supplementary materials. The online
+their job, whether customers' needs are met, and whether            supplement also contains information about our validation
+revenue was brought in for the hotel. It did not refer, spe-        of the modified autonomy manipulation.
+cifically, to the responsibility for any negative outcomes
+associated with unethical behavior, such as disadvantaging          Method
+the customer. Thus, we were concerned that this measure
+may be masking whether and how participants experience              The methodology of Study 2 was identical to that of Study 1
+responsibility for a very specific negative outcome. Indeed,        (see Fig. 2) in terms of sequence, with three minor changes
+unethical behavior negatively affects others, and people            to the content. Firstly, in the preamble of Riley Watson's
+are less likely to want to feel responsible for outcomes that       email to CSOs, Riley frames the investment in SmartAn-
+they know adversely affect others (Jones, 1991). Thus, to           swerTM as a useful tool that aims to help CSOs do their
+gain a clearer picture of whether and how personal respon-          job more efficiently and help them meet their performance
+sibility might explain the relationship between autonomy            indicators (see Table 4). The email also requests CSOs to
+and unethical behavior in Study 2, we incorporated a more           stay alert for SmartAnswerTM recommended top replies that
+focused measure of responsibility, which aimed to specifi-          seemed nonsensical or unrelated to the query of the cus-
+cally gauge how participants perceived themselves, versus           tomer. This new instruction aimed to enhance the task's real-
+                                                                    ism and provides participants (particularly in the autonomy-
+3 Conventional fit indices cannot be computed in Mplus when a path  restrictive condition) a reason to carefully examine the "top
+model includes count variables as dependent variables. Therefore,   reply" content. In two distractor emails, the original "top
+we ran the same model again while treating unethical behavior as a  reply" response from Study 1 was replaced by a nonsensical
+continuous dependent variable; the results suggested the model was  response option that did not directly address the customer's
+likely well-fitting: 2 (1, N=276)=3.48, p=.06.
+416                                                                   A. A. Jolly et al.
+
+Table4Specific wording of autonomy condition manipulation for         either full-time, part-time, or casual work. Participants were
+Study 2                                                               paid US$5 for their time.
+
+Condition          Wording                                               All measures were the same as per Study 1 except that
+                                                                      instead of using the personal responsibility measure from
+Autonomy-          To help you efficiently respond to customer        Study 1, we created a measure of participants' "attribution
+  affording ADM      emails, SmartAnswerTM will recommend a           of responsibility."
+  condition
+                   "top reply" to use (denoted by:        ). You      Attribution of Responsibility
+Autonomy-
+  restrictive ADM  can choose this top reply, or you can use your     Participants were asked to imagine that they had been working
+  condition                                                           as a CSO for a while, and that they recently learned that some
+                   personal initiative and judgment to choose         customers contacted the hotel to complain about the responses
+                                                                      to emails, which had made these customers feel unfairly disad-
+                   an alternative response. We encourage you          vantaged. Participants rated the extent to which they attributed
+                                                                      responsibility for how those customers were feeling to four
+                   to make your own decisions about how you           agents. These agents were: the participant themselves (i.e., the
+                                                                      CSO), the managers/executives at Paradise Point Hotel (i.e.,
+                     respond to customers                             the human figures of authority), the SmartAnswerTM software,
+                                                                      and the designers of the SmartAnswerTM software. All enti-
+                   You might have to deviate from the top reply       ties were rated using a five-point Likert scale ranging from 1
+                     if SmartAnswerTM presents responses that         (should not be held responsible at all) to 5 (should be held
+                     are unrelated to queries posed by a cus-         completely responsible). This method of rating responsibility
+                     tomer. Please stay alert for such instances.     is in line with the previous research that aims to measure task-
+                     The SmartAnswerTM software is still in a         specific levels of responsibility (Erlandsson et al., 2015) or
+                     trial stage and you can help maximize its        blame (Ames & Fisk, 2013; Sullivan & Fosso Wamba, 2022).
+                     efficiency by picking up these errors in these   Personal responsibility was operationalized as the responsibil-
+                     early stages                                     ity rating in relation to the self. Attribution of responsibility
+                                                                      to authority was operationalized as whichever rating among
+                   To help you efficiently respond to customer        the three figures of authority was highest. Thus, in effect, this
+                                                                      measure is indifferent to who the responsible agent was and
+                   emails, SmartAnswerTM will recommend a             reflects the level of responsibility assigned to any agent, other
+                                                                      than the self.
+                   "top reply" to use (denoted by:        ). You
+
+                   should choose this top reply, rather than
+
+                   using your personal initiative and judgment
+
+                   when responding to emails. We advise against
+
+                   making your own decisions about how you
+
+                   respond to customers
+
+                   You should deviate from the top reply if Smart-
+
+                   AnswerTM presents responses that are unre-
+
+                   lated to queries posed by a customer. Please
+
+                   stay alert for such instances. The SmartAn-
+
+                   swerTM software is still in a trial stage and you
+
+                   can help maximize its efficiency by picking
+
+                   up these errors in these early stages
+
+query, while the alternative was sensible and aimed to posi-          Results
+tively meet KPIs. Secondly, we amended the wording of
+both autonomy manipulations to be more consistent with the            An independent-samples t-test on the manipulation check
+language used to define and measure job autonomy in the               item indicated a successful manipulation. Participants in
+Work Design Questionnaire (Morgeson & Humphrey, 2006).                the autonomy-restrictive condition (N=132, mean=2.87,
+A final content change from Study 1 was a change made to              SD=1.26) experienced significantly lower levels of
+the responsibility measure, explained below.                          autonomy than to those in the autonomy-affording con-
+                                                                      dition (N=123, mean=4.06, SD=0.78), (Mdiff=1.19,
+   We recruited 268 individuals (49% female) from Ama-                t(221)=- 9.11, p<0.001, Cohen's d=1.13).4
+zon's MTurk platform via CloudResearch. All participants
+were residents of the United States of America. Using our                As previously, unethical behavior was operationalized
+pre-registered data screening and exclusion criteria, we              as a count variable, as per Study 1. Table 2 provides the
+excluded 12 participants, leaving a final sample of 256. In           percentage of participants that chose the "top reply" option
+the final sample, participants' mean age was 38.74 years              in each condition; the response patterns in this Study are
+(SD=12.20) and 82% of participants were employed in                   similar to those of Study 1. Table 2 shows that participants
+                                                                      in the autonomy-restrictive condition were roughly two to
+
+                                                                      4Levene's test of equality of variances was violated (F=83.79,
+                                                                      p<.001), hence we report the t-test that accounts the for the violation.
+It's Not My Responsibility: Working with AutonomyRestricting Algorithms Facilitates...                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         417
+
+eight times more likely than those in the autonomy-affording                                                                             14         NA                                                                                                                                                                                                                                                                                                                                                                                                                                                                         N=256. Significant correlations (p<.05) are indicated in bold. Cronbach's coefficient alpha, where applicable, is provided along the diagonal in parentheses. All responsibility measures except
+condition to choose the SmartAnswerTM "top reply" option                                                                                                1.46 - 0.44                                                                                                                                                                                                                                                                                                                                                                                                                                                              for Attributing Responsibility to Authority are single-item measures. aAutonomy-restrictive ADM=0, autonomy-affording ADM=1
+for the dilemma email stimuli. However, for most of the                                                                                  13                 1.13 0.25 - 0.24
+distractor stimuli, participants in the autonomy-restrictive                                                                                                     1.14 0.29 - 0.32 0.71
+condition were almost equally likely to choose the "top                                                                                  12                          1.12 - 0.22 0.12 - 0.17 - 0.11
+reply" as those in the autonomy-affording condition. A very                                                                                                               1.12 - 0.29 0.19 - 0.16 - 0.18 0.76
+low proportion of participants in either condition chose the                                                                             10 11                                1.16 - 0.28 0.16 - 0.03 - 0.08 0.32 0.32
+nonsensical top replies corresponding to two of the distrac-                                                                                                                       1.18 - 0.27 0.21 - 0.10 - 0.12 0.30 0.35 .74
+tor dilemmas.                                                                                                                            9                                             1.13 - 0.28 0.20 - 0.16 - 0.12 0.44 0.41 0.64 0.61
+                                                                                                                                                                                           1.12 - 0.31 0.22 - 0.22 - 0.22 0.45 0.54 0.57 0.70 0.77
+   Table 5 shows the descriptive statistics and correla-                                                                                 8                                                      1.02 - 0.30 0.16 - 0.18 - 0.14 0.79 0.67 0.61 0.51 0.68 0.61 (0.73)
+tions for Study 2. The table shows a negative relationship                                                                                                                                          1.03 - 0.35 0.24 - 0.17 - 0.21 0.65 0.80 0.52 0.62 0.57 0.68 0.80 (0.77)
+between assigned job autonomy condition and unethical                                                                                    7                                                               0.69 - 0.13 0.03 - 0.09 - 0.05 - 0.03 - 0.05 0.05 0.10 0.02 0.08 0.01 0.06 (0.77)
+behavior count, and personal responsibilityT1 was nega-                                                                                                                                                      0.60 - 0.07 0.05 - 0.03 0.05 0.03 0.00 - 0.08 - 0.03 0.04 0.01 - 0.01 - 0.01 0.33 (0.81)
+tively correlated with unethical behavior. Autonomy condi-                                                                               6
+tion and personal responsibility were negatively correlated
+with attributing responsibility to authority, suggesting that                                                                            5
+autonomy-restrictive ADM was associated with higher levels
+of attribution of responsibility to an authority figure. Neither                                                                         4
+honesty-humility nor conscientiousness were associated with
+both the mediator (personal responsibilityT1) and dependent                                                                              3
+variables (unethical behavior, personal responsibilityT2, and
+attribution of responsibilityT2), therefore, neither variable                                                                            2
+was controlled for in the hypotheses tests.
+                                                                  Table5Descriptive statistics and correlations among Study 2 variables  Mean SD 1  NA                      1.21                         3.07                          3.07                          3.29                         3.37                         2.91                          3.06                          3.06                                   3.05                                    11. Attributing responsibility to authorityT1 3.70  12. Attributing responsibility to authorityT2 3.71  3.46                  3.82
+   To test Hypotheses 1 and 2, we specified the path model
+shown in Fig. 4, using Mplus version 8.3, which incorpo-                                                                                 Variable   1. Autonomy conditiona  2. Unethical behavior count  3. Personal responsibilityT1  4. Personal responsibilityT2  5. Manager responsibilityT1  6. Manager responsibilityT2  7. Software responsibilityT1  8. Software responsibilityT2  9. Software designer responsibilityT1  10. Software designer responsibilityT2                                                                                                          13. Honesty-humility  14. Conscientiousness
+rates (a) the regression of unethical behavior on job auton-
+omy condition and personal responsibilityT1 and (b) the
+indirect path of autonomy condition on unethical behavior,
+via personal responsibilityT1. The indirect path was esti-
+mated by obtaining 95% bias-corrected confidence intervals
+derived from 10,000 bootstrapped samples (Hayes, 2018).
+We again discovered that the assumption of equidispersion
+of unethical behavior was violated (µ=1.21 being lower than
+2=2.12) and thus estimated the unethical behavior regres-
+sion paths using a negative binomial distribution.
+
+   Hypotheses 1 and 2 were supported. The results revealed
+a direct negative relationship between assigned autonomy
+condition on unethical behavior (B=- 1.10, SE=0.17,
+p<0.001), and evidence of an indirect effect from auton-
+omy condition to unethical behavior through personal
+responsibilityT1. The confidence intervals for the indirect
+pathway from autonomy to unethical behavior did not cross
+zero (indirect effect estimate=- 0.083, 95% CI=- 0.172,
+- 0.029). In other words, participants who experienced
+autonomy-restriction (autonomy-affordance) subsequently
+experienced low (high) levels of personal responsibilityT1
+for the negative outcomes of their work, and in turn engaged
+in high (low) levels of unethical behavior. The raw unstand-
+ardized path coefficients from this analysis are displayed in
+Fig. 4. In contrast to Study 1 (in which personal responsi-
+bility did not mediate the relationship between autonomy
+condition and unethical behavior) in Study 2, personal
+418                                                                    A. A. Jolly et al.
+
+Fig.4Path model evaluating the indirect effect of autonomy condi-      changes in the level of personal responsibility attributable
+tion on unethical behavior through personal responsibilityT1. Path     to unethical behavior.
+coefficients are unstandardized, accompanied by standard errors in
+parentheses. *denotes p<.05; **denotes p<.001. aAutonomy-restric-         In this analysis, unethical behavior was an outcome and
+tive ADM=0, autonomy-affording ADM=1                                   predictor variable, hence, we treated the unethical behavior
+                                                                       variable as a continuous variable in the path model. How-
+                                                                       ever, to ensure that the test of the path estimates in the final
+                                                                       model were robust, we also conducted a separate analysis
+                                                                       where we specified a negative binomial regression of unethi-
+                                                                       cal behavior on responsibility and autonomy. The two esti-
+                                                                       mates were very similar to those obtained in the final model,
+                                                                       suggesting that treating unethical behavior as a continuous
+                                                                       variable for the purposes of these final analyses was not
+                                                                       leading to misleading conclusions.5
+
+                                                                          The final model was an excellent fit for the data, 2 (6,
+
+Fig.5Path model and unstandardized coefficients evaluating the         All other paths non-significant. Gray lines and font indicate relation-
+causal effect of autonomy condition on displacement of responsibility  ships or variables included for control purposes. aAutonomy-restric-
+onto a figure of authority. Note. *denotes p<.05; **denotes p<.01.     tive ADM=0, autonomy-affording ADM=1
+
+responsibility for the negative outcomes of one's work par-            N=256)=8.79, p=0.186; CFI=0.99; RMSEA=0.04;
+tially mediated this relationship.                                     SRMR=0.04, and the path estimates, shown in Fig. 5, also
+                                                                       supported Hypothesis 3. Engaging in unethical behavior
+   To test Hypothesis 3, which focuses on what happens                 when working with autonomy-restrictive ADM was nega-
+after unethical behavior has occurred, we specified the fol-           tively associated with subsequent perceptions of personal
+lowing path model (see Fig. 5) in Mplus version 8.3: (a) the           responsibilityT2 (B=- 0.12, SE=0.04, p<0.001) and
+regressions of personal responsibilityT1 and unethical behav-          positively associated with subsequent attributing responsi-
+ior on autonomy condition; (b) the regression of unethical             bility to a uthorityT2 (B=0.08, SE=0.03, p=0.002). These
+behavior on personal responsibilityT1 and Autonomy con-                findings indicate autonomy-restriction led individuals to
+dition; and (c) the regressions of personal responsibilityT2           displace responsibility from themselves onto a figure of
+and attributing responsibility to a uthorityT2 on unethical            authority for the negative outcomes of their work, consist-
+behavior. We also controlled for attributing responsibility to         ent with Hypothesis 3.
+authorityT1 in the regression of attributing responsibility to
+authorityT2 to enable capturing any changes in the extent to           5 The unstandardized estimate for the regression of unethical behav-
+which participants attributed responsibility for negative out-         ior onto personal responsibilityT1 when treating unethical behavior as
+comes to others, after having engaged in unethical behavior.           a count variable was .03 lower here than in the final model, but the
+Similarly, we also controlled for personal responsibilityT1            estimate was still significant (p=.02).
+in the regression of personal responsibilityT2 to capture
+It's Not My Responsibility: Working with AutonomyRestricting Algorithms Facilitates...  419
+
+General Discussion                                              any potential harms should be made explicit to the employ-
+                                                                ees. Further, Grote et al., (2024) argued that if the technol-
+In this paper, we explored how individuals perceive respon-     ogy has been designed to limit human input or autonomy,
+sibility for the ethical consequences of working with tech-     then the designer of the ADM should be held accountable
+nology implemented in a way that either affords or restricts    for negative consequences arising from its use. Managers or
+human job autonomy. Across our studies, we found that indi-     executives who choose to implement autonomy-restrictive
+viduals working with autonomy-restricting ADM were more         ADM technologies that aim to prioritize organizational effi-
+likely to engage in unethical behavior than those working       ciency at the expense of customers' best interests (like in the
+with autonomy-affording ADM. Our research represented           Australian Robodebt scandal; Holmes, 2023) perhaps need
+one of the first attempts we are aware of to capture the cog-   to be willing to hold themselves responsible for outcomes
+nitions associated with displacement of responsibility and      that are beyond their employees' control. Indeed, ultimately,
+thus how this mechanism of moral disengagement might            technology cannot itself comprehend or feel responsibility
+unfold in the context of working with ADM. Our findings         towards humans. Additionally, it would be critical to ensure
+are consistent with Bandura's (1986) propositions that sug-     that the technology design does not prioritize organizational
+gest individuals are more likely to displace responsibility     efficiency over the interests of customers.
+to figures of authority that are perceived to have the most
+legitimate control over the individual's actions. Further,      Implications for Understanding Moral Disengagement
+we showed unethical behavior to be an outcome of the
+autonomy­responsibility relation in the Job Characteristics     We further contribute to a critical gap in the research on the
+Model. Specifically, in Study 2, we found that autonomy-        measurement of specific moral disengagement mechanisms
+restrictive ADM predicted unethical behavior via low levels     (Schaefer & Bouwmeester, 2021). Indeed, our studies were
+of personal responsibility for negative outcomes of one's       the first that we know of to have systematically examined
+work. The results of Study 2 further provided empirical sup-    how working with ADM systems can facilitate moral disen-
+port for the causal role of autonomy-restrictive ADM in trig-   gagement, also having `unpacked' and examined the indi-
+gering cognitions associated with the moral disengagement       vidual theoretical cognitive components of displacement of
+displacement of responsibility mechanism. We encourage          responsibility. We add to a growing body of literature show-
+future researchers to continue to examine unethical behavior    ing that specific contexts can facilitate specific mechanisms
+and cognition through the lens of work design, especially as    of moral disengagement (Barsky, 2011; Huang et al., 2018;
+work redesign could be an effective intervention for unethi-    Kish-Gephart et al., 2014). By focusing on job autonomy
+cal behavior.                                                   as an antecedent of moral disengagement and unethical
+                                                                pro-organizational behavior through the lens of Hackman
+Theoretical and Practical Implications                          and Oldham's (1976) classic Job Characteristics Model,
+                                                                this research has important implications for further delv-
+Implications for the Moral Consequences of Working              ing into work design theory to examine moral disengage-
+                                                                ment in organizations. Indeed, research has not considered
+with ADM                                                        work design to function as a core facilitator of moral dis-
+                                                                engagement, despite ample evidence that the way in which
+Our studies add to existing schools of thought that under-      employees experience autonomy at work can uniquely affect
+score the importance of carefully considering how new tech-     their sense of responsibility at work (e.g., Fuller et al., 2006;
+nology is designed and implemented into the workplace by        Humphrey et al., 2007).
+organizations (e.g., Grote et al., 2024; Kellogg et al., 2020;
+Martin, 2019; Parker & Grote, 2022). We add to emerging            Applied organizational research on work redesign inter-
+empirical evidence that aims to understand how individuals      ventions has also shown job autonomy to be a key vehicle
+experience responsibility when working with (Sullivan &         for improving employee outcomes such as job performance,
+Fosso Wamba, 2022) or designing ADM systems (Nichol             psychological contract fulfillment, and employee wellbeing
+et al., 2024). Our finding that employees will experience       (Holman & Axtell, 2016; Holman et al., 2010). Drawing
+lower levels of personal responsibility for negative impacts    upon work design theory may therefore help organizations
+on customers when working with autonomy-restrictive ADM         understand how they can prevent or intervene on employees
+suggests that these technologies should be designed to pro-     morally disengaging from unethical behavior. For exam-
+vide employees with appropriate levels of control over the      ple, future research could test how and why improving job
+ADM (so that they can override unethical recommenda-            autonomy (from existing low levels of job autonomy) as
+tions). If employees are required to work with autonomy-        an organizational intervention or implementing autonomy-
+restrictive ADM, then the party considered responsible for      affording technologies from the outset can facilitate ethical
+                                                                decision making.
+420                                                              A. A. Jolly et al.
+
+Limitations and Further Research                                 of moral emotions like shame and guilt along with personal
+                                                                 responsibility. That is, moral disengagement alleviates indi-
+While we went beyond existing research that uses adapted         viduals from feeling unpleasant emotions associated with
+trait-based measures to examine displacement of responsi-        unethical behavior like shame and guilt. We would expect
+bility (by using an externally valid experimental design), our   that along with the cognitive aspect of shifting personal
+research design still focuses on hypothetical opportunities to   responsibility from the self to a figure of authority, individu-
+engage in unethical behavior in a hypothetical implementa-       als who experience low job autonomy would also feel low
+tion of ADM. We recognize that the laboratory approach           levels of guilt or shame after engaging in unethical behavior.
+raises questions about the extent that participants' sense of
+responsibility would be activated to the same extent that it        Additionally, the way that we measured displacement of
+would be in organizational settings. That is, participants'      responsibility in Study 2 cannot be assumed to completely
+perceptions of responsibility for the hypothetical adverse       capture the components of this moral disengagement mecha-
+consequences for customers in the simulation may not be          nism. That is, we could not isolate exactly when participants
+equivalent to, and perhaps weaker compared to the analo-         felt that responsibility for the negative outcomes of their
+gous perceptions of responsibility employees might feel if       work should shift away from themselves and onto a figure of
+in a similar job in a real organization. Although the experi-    authority. In an inbox task like that employed in this study,
+ments were designed to simulate working with ADM as              the closest one might get to measure the moment this shift
+closely as possible to the `real world' and provide partici-     occurs would likely require asking participants about their
+pants with targeted information about customers' hypothet-       perceptions of responsibility after each email they work
+ical reactions to the CSO's email replies, future research       through. Doing so, however, would risk creating demand
+should examine the relationships investigated here within        characteristics for participants and may bias their responses
+organizations, using real technologies, and across job sec-      during the task. Further, in a review of moral disengagement
+tors. We must acknowledge, however, that such an approach        and its measurement, Moore (2015) acknowledged that for
+may introduce practical and ethical challenges such as hav-      researchers to capture moral disengagement "in the moment"
+ing people report on unethical behavior, which is known to       (p. 202) brain imaging technologies like functional magnetic
+be susceptible to socially desirable responding (Fernandes       resonance imaging may be required to provide research-
+& Randall, 1992) and therefore care should be taken to           ers with a more complete picture of the process of moral
+encourage honest responses (e.g., emphasizing participant        disengagement.
+and organization confidentiality or anonymity). Another
+limitation regarding generalizability is that our studies were      The persistent direct effect between autonomy-restrictive
+conducted with a western demographic sample, and there-          ADM and unethical behavior across both studies suggests
+fore the relationships that emerged cannot be assumed to be      that future research should investigate other explanatory
+universal. Prior research shows that the effects of work char-   mechanisms in the relationship between autonomy and
+acteristics (including job autonomy) on work outcomes can        unethical behavior; one such mechanism may be self-effi-
+be moderated by culture; that is, employees in non-western       cacy. Self-efficacy refers to an individual's belief that they
+countries may not perceive high job autonomy to be as ben-       can carry out actions effectively (Bandura, 1986) and stud-
+eficial for their work as those in western countries (Erez,      ies have shown that job autonomy can positively influence
+2010). Therefore, future research should seek to examine         employees' sense of self-efficacy (e.g., Parker, 1998). Parker
+the relationships investigated here in cross-cultural contexts,  (2014) and Hannah et al. (2011) suggested may influence
+particularly as ADM technology is being implemented into         individuals' motivation to engage in moral behaviors. In
+workplaces globally.                                             the context of ADM, the technology relieves humans of the
+                                                                 opportunity to reason through decisions themselves (Kel-
+   Although our study used a novel method to unpack the          logg et al., 2020). Thus, using ADM technology could make
+cognitions associated with displacement of responsibility,       employees feel that they are not as capable of making moral
+moral disengagement also occurs in part to avoid feeling         decisions or deviating from ostensibly unethical directives
+negative emotions associated with unethical behavior such        from figures of authority.
+as guilt or shame (Bandura, 1986). However, we did not
+measure the affective component of displacement of respon-          Another explanatory mechanism could be employees'
+sibility, hence, we suggest that future researchers investigate  role orientation, which refers to how employees "define their
+the interplay of the affective and cognitive components of       work role, including what types of and breadth of tasks,
+displacement of responsibility. Our method of measuring          goals and problems they see as within their set of respon-
+displacement of responsibility could be adapted in future        sibilities, and how they believe they should approach those
+research to better understand the affective components of        tasks, goals, and problems to be effective" (Parker, 2007, p.
+displacement of responsibility, by including measurements        404). Prior research shows lower job autonomy is associ-
+                                                                 ated with narrower role orientations and thinking that cer-
+                                                                 tain tasks and responsibilities are beyond the scope of one's
+It's Not My Responsibility: Working with AutonomyRestricting Algorithms Facilitates...  421
+
+job (Parker et al., 1997). Autonomy-restricting ADM could                      Open Access This article is licensed under a Creative Commons Attri-
+facilitate unethical behavior if employees perceive that their                 bution 4.0 International License, which permits use, sharing, adapta-
+job involves only doing what they are told to perform effec-                   tion, distribution and reproduction in any medium or format, as long
+tively (i.e., adhere to recommendations of ADM), or that                       as you give appropriate credit to the original author(s) and the source,
+dealing with the (short and long term) outcomes of unethical                   provide a link to the Creative Commons licence, and indicate if changes
+behavior are beyond their job scope.                                           were made. The images or other third party material in this article are
+                                                                               included in the article's Creative Commons licence, unless indicated
+   Finally, we encourage researchers to examine moderators                     otherwise in a credit line to the material. If material is not included in
+to understand what could buffer against unethical behavior                     the article's Creative Commons licence and your intended use is not
+when humans work with autonomy-restrictive ADM, such as                        permitted by statutory regulation or exceeds the permitted use, you will
+transparency of the algorithm or humans' moral awareness                       need to obtain permission directly from the copyright holder. To view a
+that they may be actioning an unethical recommendation                         copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.
+(e.g., Ebhrahimi & Matt, 2023). If an algorithm is designed
+in a way that has to provide humans with their reasoning                       References
+of why a particular course of action is suggested, and the
+reasoning is not entirely justifiable, employees with lower                    Ames, D. L., & Fiske, S. T. (2013). Intentional harms are worse, even
+levels of job autonomy may be more inclined to exercise                              when they're not. Psychological Science, 24(9), 1755­1762.
+their choice and deviate from the algorithm's recommended                            https://doi.org/10.1177/0956797613480507
+action.
+                                                                               Antunez, M., Ramalho, N., & Marques, T. M. G. (2024). Context mat-
+Conclusion                                                                           ters less than leadership in preventing unethical behaviour in inter-
+                                                                                     national business. Journal of Business Ethics, 192(2), 307­322.
+The use of algorithmic decision making in organization can                           https://doi.org/10.1007/s10551-023-05520-y
+have significant ethical consequences for the organization's
+clients, as demonstrated by the Robodebt scandal (Holmes,                      Ashton, M. C., & Lee, K. (2007). Empirical, theoretical, and practical
+2023); these technologies need to be implemented in a way                            advantages of the HEXACO model of personality structure. Per-
+that supports, not hinders ethical decision making. The stud-                        sonality and Social Psychology Review, 11(2), 150­166. https://
+ies presented here highlight the importance of implementing                          doi.org/10.1177/1088868306294907
+autonomy-affording ADM for employees to reduce the like-
+lihood of unethical behavior and displacement responsibility                   Ashton, M. C., & Lee, K. (2009). The HEXACO-60: A short measure
+when working with algorithmic technology. Altogether, we                             of the major dimensions of personality. Journal of Personality
+hope our research encourages further lines of inquiry into                           Assessment, 91(4), 340­345. https://d oi.o rg/1 0.1 080/0 02238 9090
+leveraging good work design to facilitate ethical behavior                           2935878
+and cognitions, as organizations increasingly implement
+technology into the workplace.                                                 Bader, V., & Kaiser, S. (2019). Algorithmic decision-making? The
+                                                                                     user interface and its role for human involvement in decisions
+Supplementary Information The online version contains supplemen-                     supported by artificial intelligence. Organization, 26(5), 655­672.
+tary material available at https://d oi.o rg/1 0.1 007/s 10551-0 25-0 6034-5.        https://doi.org/10.1177/1350508419855714
+
+Funding Open Access funding enabled and organized by CAUL and                  Bandura, A. (1986). Social foundations of thought and action: A social
+its Member Institutions. Preparation of this article was partly facilitated          cognitive theory. Prentice-Hall.
+through funds from the Australian Government Research Training Pro-
+gram (RTP) awarded to the first author.                                        Bankins, S., & Formosa, P. (2023). The ethical implications of artificial
+                                                                                     intelligence (AI) for meaningful work. Journal of Business Ethics,
+Declarations                                                                         185(4), 725­740. https://doi.org/10.1007/s10551-023-05339-7
+
+Conflict of interest The authors have no conflict of interest to declare       Barker, J. R. (1993). Tightening the iron cage: Concertive control in
+that could influence this work.                                                      self-managing teams. Administrative Science Quarterly, 38(3),
+                                                                                     408­437. https://doi.org/10.2307/2393374
+Ethical Approval All studies conducted for this research received
+approval from the University of Western Australia's Human Research             Barsky, A. (2011). Investigating the effects of moral disengagement
+Ethics Committee (approval number RA/4/20/4433).                                     and participation on unethical work behavior. Journal of Business
+                                                                                     Ethics, 104(1), 59­75. https://d oi.o rg/1 0.1 007/s 10551-0 11-0 889-7
+Informed Consent All participants involved in this research provided
+informed consent to participate.                                               Coxe, S., & MacKinnon, D. P. (2010). Abstract: Mediation analysis
+                                                                                     of poisson distributed count outcomes. Multivariate Behavioral
+                                                                                     Research, 45(6), 1022­1022. https://doi.org/10.1080/00273171.
+                                                                                     2010.534375
+
+                                                                               Coxe, S., West, S. G., & Aiken, L. S. (2009). The analysis of count
+                                                                                     data: A gentle introduction to poisson regression and its alterna-
+                                                                                     tives. Journal of Personality Assessment, 91(2), 121­136. https://
+                                                                                     doi.org/10.1080/00223890802634175
+
+                                                                               Dietvorst, B. J., Simmons, J. P., & Massey, C. (2018). Overcoming
+                                                                                     algorithm aversion: People will use imperfect algorithms if they
+                                                                                     can (even slightly) modify them. Management Science, 64(3),
+                                                                                     1155­1170. https://doi.org/10.1287/mnsc.2016.2643
+
+                                                                               Ebrahimi, S., & Hassanein, K. (2021). Decisional guidance for detect-
+                                                                                     ing discriminatory data analytics recommendations. Information
+                                                                                     and Management, 58(7), 1­15. https://d oi.o rg/1 0.1016/j.i m.2 021.
+                                                                                     103520
+
+                                                                               Ebrahimi, S., & Matt, C. (2023). Not seeing the (moral) forest for the
+                                                                                     trees? How task complexity and employees' expertise affect moral
+422                                                                            A. A. Jolly et al.
+
+      disengagement with discriminatory data analytics recommenda-             Hinrichs, K. T., Wang, L., Hinrichs, A. T., & Romero, E. J. (2012).
+      tions. Journal of Information Technology, 39(3), 477­502. https://             Moral disengagement through displacement of responsibility: The
+      doi.org/10.1177/02683962231181148                                              role of leadership beliefs. Journal of Applied Social Psychology,
+Erez, M. (2010). Culture and job design. Journal of Organizational                   42(1), 62­80. https://doi.org/10.1111/j.1559-1816.2011.00869.x
+      Behavior, 31(2/3), 389­400. http://w ww.j stor.o rg/s table/4 16839 16
+Erlandsson, A., Björklund, F., & Bäckström, M. (2015). Emotional               Holman, D., & Axtell, C. (2016). Can job redesign interventions influ-
+      reactions, perceived impact and perceived responsibility medi-                 ence a broad range of employee outcomes by changing multiple
+      ate the identifiable victim effect, proportion dominance effect                job characteristics? A quasi-experimental study. Journal of Occu-
+      and in-group effect respectively. Organizational Behavior and                  pational Health Psychology, 21(3), 284. https://doi.org/10.1037/
+      Human Decision Processes, 127, 1­14. https://doi.org/10.                       a0039962
+      1016/j.obhdp.2014.11.003
+Faul, F., Ederfelder, E., Lang, A.-G., & Buchner, A. (2007). G*Power           Holman, D. J., Axtell, C. M., Sprigg, C. A., Totterdell, P., & Wall, T.
+      3: A flexible statistical power analysis program for the social,               D. (2010). The mediating role of job characteristics in job rede-
+      behavioral, and biomedical sciences. Behavior Research Meth-                   sign interventions: A serendipitous quasi-experiment. Journal of
+      ods, 39(2), 175­191. https://doi.org/10.3758/BF03193146                        Organizational Behavior, 31(1), 84­105. https://doi.org/10.1002/
+Fernandes, M. F., & Randall, D. M. (1992). The nature of social                      job.631
+      desirability response effects in ethics research. Business Ethics
+      Quarterly. https://doi.org/10.2307/3857570                               Holmes, C. (2023). Royal Commission into the Robodebt Scheme.
+Fida, R., Paciello, M., Tramontano, C., Fontaine, R. G., Barbaranelli,         Huang, M. H., & Rust, R. T. (2018). Artificial intelligence in service.
+      C., & Farnese, M. L. (2015). An integrative approach to under-
+      standing counterproductive work behavior: The roles of stress-                 Journal of Service Research, 21(2), 155­172. https://doi.org/10.
+      ors, negative emotions, and moral disengagement. Journal of                    1177/1094670517752459
+      Business Ethics, 130(1), 131­144. https://doi.org/10.1007/               Huang, Y. S., Greenbaum, R. L., Bonner, J. M., & Wang, C. S. (2018).
+      s10551-014-2209-5                                                              Why sabotage customers who mistreat you? Activated hostility
+Fox, S., Spector, P. E., & Miles, D. (2001). Counterproductive work                  and subsequent devaluation of targets as a moral disengagement
+      behavior (CWB) in response to job stressors and organizational                 mechanism. Journal of Applied Psychology. https://doi.org/10.
+      justice: Some mediator and moderator tests for autonomy and                    1037/apl0000359
+      emotions. Journal of Vocational Behavior, 59(3), 291­309.                Huang, Y. S., Greenbaum, R. L., Bonner, J. M., & Wang, C. S. (2019).
+      https://doi.org/10.1006/jvbe.2001.1803                                         Why sabotage customers who mistreat you? Activated hostility
+Fuller, J. B., Marler, L. E., & Hester, K. (2006). Promoting felt                    and subsequent devaluation of targets as a moral disengagement
+      responsibility for constructive change and proactive behavior:                 mechanism. Journal of Applied Psychology, 104(4), 495­510.
+      Exploring aspects of an elaborated model of work design. Jour-                 https://doi.org/10.1037/apl0000359
+      nal of Organizational Behavior, 27, 1089­1120. https://doi.org/          Humphrey, S. E., Nahrgang, J. D., & Morgeson, F. P. (2007). Inte-
+      10.1002/job.408                                                                grating motivational, social, and contextual work design features:
+Gao, S., Jia, Y., Liu, B., & Mu, W. (2024). Algorithmic monitoring                   A meta-analytic summary and theoretical extension of the work
+      increases unethical behavior in gig workers: The mediating role                design literature. Journal of Applied Psychology, 92(5), 1332­
+      of moral disengagement. Information Technology and People.                     1356. https://doi.org/10.1037/0021-9010.92.5.1332
+      https://doi.org/10.1108/ITP-07-2023-0693                                 Johns, G. (2006). The essential impact of context on organizational
+Gombolay, M. C., Gutierrez, R. A., Clarke, S. G., Sturla, G. F., &                   behavior. Academy of Management Review, 31(2), 386­408.
+      Shah, J. A. (2015). Decision-making authority, team efficiency                 https://doi.org/10.2307/20159208
+      and human worker satisfaction in mixed human­robot teams.                Jones, T. M. (1991). Ethical decision making by individuals in organi-
+      Autonomous Robots, 39(3), 293­312. https://doi.org/10.1007/                    zations: An issue-contingent model. Academy of Management
+      s10514-015-9457-9                                                              Review, 16(2), 366­395.
+Gratch, J., & Fast, N. J. (2022). The power to harm: AI assistants pave        Kalshoven, K., van Dijk, H., & Boon, C. (2016). Why and when does
+      the way to unethical behavior. Current Opinion in Psychology,                  ethical leadership evoke unethical follower behavior? Journal of
+      47, Article 101382. https://d oi.o rg/1 0.1 016/j.c opsyc.2 022.1 01382        Managerial Psychology, 31(2), 500­515. https://d oi.org/1 0.1 108/
+Grote, G., Parker, S. K., & Crowston, K. (2024). Taming artificial intel-            JMP-10-2014-0314
+      ligence: A theory of control-acountability alignment among AI            Kellogg, K. C., Valentine, M. A., & Christin, A. (2020). Algorithms
+      developers and users. Academy of Management Review. https://                   at work: The new contested terrain of control. Academy of Man-
+      doi.org/10.5465/amr.2023.0117                                                  agement Annals, 14(1), 366­410. https://doi.org/10.5465/annals.
+Hackman, J. R., & Oldham, G. R. (1976). Motivation through the                       2018.0174
+      design of work: test of a theory, organizational behaviour and           Kish-Gephart, J., Detert, J., Treviño, L. K., Baker, V., & Martin, S.
+      human performance. Organizational Behavior and Human Per-                      (2014). Situational moral disengagement: Can the effects of self-
+      formance, 16(170), 250­279.                                                    interest be mitigated? Journal of Business Ethics, 125(2), 267­
+Hackman, J. R., & Oldham, G. R. (1980). Work redesign.                               285. https://doi.org/10.1007/s10551-013-1909-6
+      Addison-Wesley.                                                          Leicht-Deobald, U., Busch, T., Schank, C., Weibel, A., Schafheitle,
+Hannah, S. T., Avolio, B. J., & May, D. R. (2011). Moral maturation                  S., Wildhaber, I., & Kasper, G. (2019). The challenges of algo-
+      and moral conation: A capacity approach to explaining moral                    rithm-based HR decision-making for personal integrity. Jour-
+      thought and action. Academy of Management Review, 36(4),                       nal of Business Ethics, 160, 377­392. https://doi.org/10.1007/
+      663­685. https://doi.org/10.5465/amr.2010.0128                                 s10551-019-04204-w
+Hayes, A. F. (2018). Introduction to mediation, moderation, and con-           Lewis, A. (2023). What we've learnt from nine weeks of Robodeby
+      ditional process analysis: A regression-based approach (2nd ed.).              royal commission hearings. ABC News. Retrieved from https://
+      The Guildford Press.                                                           www.a bc.n et.a u/n ews/2 023-0 3-1 1/r obode bt-s cheme-g overn ment-
+Hilbe, J. (2011). Negative binomial regression (Second). Cambridge                   royal-commission-fraud/102074840
+      University Press.                                                        Lindenbaum, D., Vesa, M., & den Hond, H. (2020). Insights from "the
+                                                                                     machine stops" to better understand rational assumptions in algo-
+                                                                                     rithmic decision making and its implications for organizations.
+                                                                                     Academy of Management Review, 45(1), 247­263. https://d oi.o rg/
+                                                                                     10.5465/amr.2018.0181
+It's Not My Responsibility: Working with AutonomyRestricting Algorithms Facilitates...  423
+
+Litman, L., Robinson, J., & Abberbock, T. (2017). TurkPrime.com: A            Parker, S. K. (2007). "That is my job": How employees' role orien-
+      versatile crowdsourcing data acquisition platform for the behav-              tation affects their job performance. Human Relations, 60(3),
+      ioral sciences. Behavior Research Methods, 49, 433­442. https://              403­434. https://doi.org/10.1177/0018726707076684
+      doi.org/10.3758/s13428-016-0727-z
+                                                                              Parker, S. K. (2014). Beyond motivation: Job and work design for
+Lu, J. G., Brockner, J., Vardi, Y., & Weitz, E. (2017). The dark side               development, health, ambidexterity, and more. Annual Review
+      of experiencing job autonomy: Unethical behavior. Journal of                  of Psychology, 65, 661­691. https://doi.org/10.1146/annur
+      Experimental Social Psychology, 73, 222­234. https://doi.org/                 ev-psych-010213-115208
+      10.1016/j.jesp.2017.05.007
+                                                                              Parker, S. K., & Grote, G. (2022). Automation, algorithms, and beyond:
+Luan, Y., Zhao, K., Wang, Z., & Hu, F. (2023). Exploring the ante-                  Why work design matters more than ever in a digital world.
+      cedents of unethical pro-organizational behavior (UPB): A meta-               Applied Psychology, 71(4), 1171­1204. https://doi.org/10.1111/
+      analysis. Journal of Business Ethics, 187(1), 119­136. https://d oi.          apps.12241
+      org/10.1007/s10551-022-05269-w
+                                                                              Parker, S. K., Morgeson, F. P., & Johns, G. (2017). One hundred years
+Marabelli, M., Newell, S., & Handunge, V. (2021). The lifecycle of                  of work design research: Looking back and looking forward. Jour-
+      algorithmic decision-making systems: Organizational choices                   nal of Applied Psychology, 102(3), 403­420. https://doi.org/10.
+      and ethical challenges. Journal of Strategic Information Systems.             1037/apl0000106
+      https://doi.org/10.1016/j.jsis.2021.101683
+                                                                              Parker, S. K., Wall, T. D., & Jackson, P. R. (1997). "That's not my
+Martin, K. (2019). Ethical implications and accountability of algo-                 job": Developing flexible employee work orientations. Academy
+      rithms. Journal of Business Ethics, 160(4), 835­850. https://doi.             of Management Journal, 40(4), 899­929. https://d oi.o rg/1 0.2 307/
+      org/10.1007/s10551-018-3921-3                                                 256952
+
+Miner, J. B. (2003). The rated importance, scientific validity, and prac-     Parker, S. K., Ward, M. K., & Fisher, G. G. (2021). Can high-quality
+      tical usefulness of organizational behavior theories: A quantitative          jobs help workers learn new tricks? A multidisciplinary review
+      review. Management Learning & Education. https://doi.org/10.                  of work design for cognition. Academy of Management Annals,
+      5465/amle.2003.10932132                                                       15(2), 406­454. https://doi.org/10.5465/annals.2019.0057
+
+Mishra, M., Ghosh, K., & Sharma, D. (2021). Unethical pro-organiza-           Podsakoff, P. M., & Podsakoff, N. P. (2019). Experimental designs in
+      tional behavior: A systematic review and future research agenda.              management and leadership research: Strengths, limitations, and
+      Journal of Business Ethics, 179, 63­87. https://doi.org/10.1007/              recommendations for improving publishability. Leadership Quar-
+      s10551-021-04764-w                                                            terly, 30(1), 11­33. https://doi.org/10.1016/j.leaqua.2018.11.002
+
+Mittelstadt, B. D., Allo, P., Taddeo, M., Wachter, S., & Floridi, L.          Reynolds, S. J., Dang, C. T., Yam, K. C., & Leavitt, K. (2014). The role
+      (2016). The ethics of algorithms: Mapping the debate. Big Data                of moral knowledge in everyday immorality: What does it matter
+      & Society, 3(2), 1­21. https://d oi.o rg/1 0.1 177/2 05395 17166 79679        if I know what is right? Organizational Behavior and Human
+                                                                                    Decision Processes, 123(2), 124­137. https://doi.org/10.1016/j.
+Moore, C. (2015). Moral disengagement. Current Opinion in Psychol-                  obhdp.2013.10.008
+      ogy, 6, 199­204. https://doi.org/10.1016/j.copsyc.2015.07.018
+                                                                              Schaefer, U., & Bouwmeester, O. (2021). Reconceptualizing moral dis-
+Moore, C., Mayer, D. M., Chiang, F. F. T., Crossley, C., Karlesky, M.               engagement as a process: Transcending overly liberal and overly
+      J., & Birtch, T. A. (2019). Leaders matter morally: The role of               conservative practice in the field. Journal of Business Ethics,
+      ethical leadership in shaping employee moral cognition and mis-               172(3), 525­543. https://doi.org/10.1007/s10551-020-04520-6
+      conduct. Journal of Applied Psychology, 104(1), 123­145. https://
+      doi.org/10.1037/apl0000341                                              Shank, D. B., DeSanti, A., & Maninger, T. (2019). When are artificial
+                                                                                    intelligence versus human agents faulted for wrongdoing? Moral
+Morgeson, F. P., & Humphrey, S. E. (2006). The work design ques-                    attributions after individual and joint decisions. Information Com-
+      tionnaire (WDQ): Developing and validating a comprehensive                    munication and Society, 22(5), 648­663. https://doi.org/10.1080/
+      measure for assessing job design and the nature of work. Journal              1369118X.2019.1568515
+      of Applied Psychology, 91(6), 1321­1339. https://d oi.o rg/1 0.1 037/
+      0021-9010.91.6.1321                                                     Shepherd, D. A., Patzelt, H., & Baron, R. A. (2013). "I care about
+                                                                                    nature, but ...": Disengaging values in assessing opportunities that
+Newman, A., Le, H., North-Samardzic, A., & Cohen, M. (2020). Moral                  cause harm. Academy of Management Journal, 56(5), 1251­1273.
+      Disengagement at work: A review and research agenda. Journal                  https://doi.org/10.5465/amj.2011.0776
+      of Business Ethics. https://doi.org/10.1007/s10551-019-04173-0
+                                                                              Shilton, K., & Anderson, S. (2017). Blended, not bossy: Ethics roles,
+Nichol, A. A., Halley, M., Federico, C., Cho, M. K., & Sankar, P. L.                responsibilities and expertise in design. Interacting with Comput-
+      (2024). Moral engagement and disengagement in health care AI                  ers, 29(1), 71­79. https://doi.org/10.1093/iwc/iww002
+      development. AJOB Empirical Bioethics, 15(4), 291­300. https://
+      doi.org/10.1080/23294515.2024.2336906                                   Strohmeier, S. (2009). Concepts of e-HRM consequences: A catego-
+                                                                                    risation, review and suggestion. International Journal of Human
+Nielsen, K. (2013). Review article: How can we make organizational                  Resource Management., 20(3), 528­543. https://d oi.org/10.1080/
+      interventions work? Employees and line managers as actively                   09585190802707292
+      crafting interventions. Human Relations, 66(8), 1029­1050.
+      https://doi.org/10.1177/0018726713477164                                Sullivan, Y. W., & Fosso Wamba, S. (2022). Moral judgments in the
+                                                                                    age of artificial intelligence. Journal of Business Ethics, 178(4),
+Ogunfowora, B., Nguyen, V. Q., Steel, P., & Hwang, C. C. (2021). A                  917­943. https://doi.org/10.1007/s10551-022-05053-w
+      Meta-analytic investigation of the antecedents, theoretical corre-
+      lates, and consequences of moral disengagement at work. Journal         Thiel, C. E., Bonner, J., Bush, J. T., Welsh, D. T., & Garud, N. (2023).
+      of Applied Psychology, 107(5), 746­775. https://doi.org/10.1037/              Stripped of agency: The paradoxical effect of employee monitor-
+      apl0000912                                                                    ing on deviance. Journal of Management. https://d oi.o rg/1 0.1 177/
+                                                                                    01492063211053224
+Parent-Rocheleau, X., & Parker, S. K. (2022). Algorithms as work
+      designers: How algorithmic management influences the design             Treviño, L. K., Den Nieuwenboer, N. A., & Kish-Gephart, J. J.
+      of jobs. Human Resource Management Review. https://doi.org/                   (2014). Unethical behavior in organizations. Annual Review
+      10.1016/j.hrmr.2021.100838                                                    of Psychology, 65, 635­640. https://doi.org/10.1146/annur
+                                                                                    ev-psych-113011-143745
+Parker, S. K. (1998). Enhancing role breadth self-efficacy: The roles
+      of job enrichment and other organizational interventions. The           Treviño, L. K., & Youngblood, S. A. (1990). Bad apples in bad barrels:
+      Journal of Applied Psychology, 83(6), 835­852. https://doi.org/               A causal analysis of ethical decision-making behavior. Journal
+      10.1037/0021-9010.83.6.835
+424                                                                      A. A. Jolly et al.
+
+      of Applied Psychology, 75(4), 378­385. https://doi.org/10.1037/          Behavior, 101, 197­209. https://doi.org/10.1016/j.chb.2019.07.
+      0021-9010.75.4.378                                                       027
+Umphress, E. E., & Bingham, J. B. (2011). When employees do bad          Zettler, I., & Hilbig, B. E. (2010). Honesty-humility and a person-
+      things for good reasons: Examining unethical pro-organizational          situation interaction at work. European Journal of Personality,
+      behaviors. Organization Science, 22(3), 621­640. https://doi.org/        24, 569­582. https://doi.org/10.1002/per.757
+      10.1287/orsc.1100.0559
+Veen, A., Goods, C., Sullivan, R., & Barratt, T. (2021). An employee,    Publisher's NoteSpringer Nature remains neutral with regard to
+      not a contractor: unfair dismissal ruling against Deliveroo is a   jurisdictional claims in published maps and institutional affiliations.
+      big deal for Australia's gig workers. The Conversation. Retrieved
+      from: https://theconversation.com/an-employee-not-a-contractor-
+      unfair-dismissal-ruling-against-deliveroo-is-a-big-deal-for-austr
+      alias-gig-workers-161173
+Wesche, J. S., & Sonderegger, A. (2019). When computers take
+      the lead: The automation of leadership. Computers in Human
+

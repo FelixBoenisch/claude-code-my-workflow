@@ -1,0 +1,1241 @@
+Accepted Manuscript
+
+Sharing Responsibility with a Machine
+
+Oliver Kirchkamp, Christina Strobel
+
+PII:            S2214-8043(18)30436-1
+DOI:            https://doi.org/10.1016/j.socec.2019.02.010
+Reference:      JBEE 1409
+
+To appear in:   Journal of Behavioral and Experimental Economics
+
+Received date:  11 September 2018
+Revised date:   9 January 2019
+Accepted date:  21 February 2019
+
+Please cite this article as: Oliver Kirchkamp, Christina Strobel, Sharing Responsibil-
+ity with a Machine, Journal of Behavioral and Experimental Economics (2019), doi:
+https://doi.org/10.1016/j.socec.2019.02.010
+
+This is a PDF file of an unedited manuscript that has been accepted for publication. As a service
+to our customers we are providing this early version of the manuscript. The manuscript will undergo
+copyediting, typesetting, and review of the resulting proof before it is published in its final form. Please
+note that during the production process errors may be discovered which could affect the content, and
+all legal disclaimers that apply to the journal pertain.
+ACCEPTED MANUSCRIPT                           ACCEPTED MANUSCRIPT
+
+                   Highlights
+
+                       ∑ More and more o en the partner in a decision is not another human but a machine
+                       ∑ We nd sharing a decision with a computer has an in uence on human decisions
+                       ∑ When decision makers decide on their own, the number of sel sh choices is rather
+
+                          small
+                       ∑ When the decision is shared with a computer the number of sel sh choices increases
+                       ∑ Humans behave quite similar when deciding with a computer than when deciding
+
+                          together with another human
+
+                                                                          1
+ACCEPTED MANUSCRIPT                           ACCEPTED MANUSCRIPT
+
+                   Sharing Responsibility with a Machine
+
+                                   Oliver Kirchkamp, Christina Strobel
+                                                 March 4, 2019
+
+                             Humans make decisions jointly with others. ey share responsibility for the
+                          outcome with their interaction partners. Today, more and more o en the part-
+                          ner in a decision is not another human but, instead, a machine. Here we ask
+                          whether the type of the partner, machine or human, a ects our responsibility,
+                          our perception of the choice and the choice itself. As a workhorse we use a mod-
+                          i ed dictator game with two joint decision makers: either two humans or one
+                          human and one machine. We nd no treatment e ect on perceived responsibility
+                          or guilt. We also nd only a small and insigni cant e ect on actual choices.
+                   Keywords: Human-computer interaction; Experiment; Shared responsibility; Moral wiggle
+                   room.
+                     JEL Classi cations: C91, D63, D80
+
+                      is document has been generated on March 4, 2019, with R version 3.5.2 (2018-12-20), on amd64-portbld-
+                       freebsd12.0. We thank the Max Planck Society for nancial support through the International Max Planck
+                       Research School on Adapting Behavior in a Fundamentally Uncertain World (IMPRS Uncertainty). We also
+                       thank the audience of IMPRS Uncertainty doctoral seminars and an anonymous referee for useful com-
+                       ments and suggestions. We use R (2018) for the statistical analysis. Data and methods are available at
+                       https://www.kirchkamp.de/research/shareMachine.html or http://christina-strobel.de/
+                       share_responsibility.html.
+
+                    FSU Jena, School of Economics, Carl-Zeiss-Str. 3, 07737 Jena, oliver@kirchkamp.de.
+                    FSU Jena, School of Economics, Bachstraﬂe 18k, 07737 Jena, Christina.Strobel@uni-jena.de.
+
+                                                                          2
+                 ACCEPTED MANUSCRIPT
+
+1. Introduction
+
+In more and more areas of life decisions are the result of interactions between humans and
+
+machines. We encounter automated systems no longer only in a supportive capacity but,
+
+more frequently, as systems taking actions on their own. Computer-assisted cars drive au-
+tonomously on roads.1 Surgical systems conduct surgeries independently.2 We stand no
+
+longer on the precipice of a technological change; we are right in the middle of that change.
+
+To an average person this becomes easily visible in the area of self-driving cars. e large
+
+research investments by car manufacturers as well as tech companies in the last years are
+
+only one clear signal for the rapid development of automated system technologies. In 2015
+Toyota built a new research institute in Silicon Valley for $1 billion.3 In 2017 Intel performed
+
+its second largest acquisition in the companies history by spending $15.3 billion to buy a
+company producing camera systems to detect speed limits and potential collisions.4 In the
+
+same year, Ford put $1 billion on the table to acquire Argo AI, an arti cial intelligence start
+up.5 In 2018, Honda invested $2.75 billion to take a stake in GM Cruise, General Motor's
+self-driving company.6 In addition, the jurisdiction is taking an interest in the development
+
+of autonomous vehicles. e number of states in the U.S. giving the nod to test self-driving
+cars on the roads in constantly increasing.7 In Germany, the government has passed leg-
+islation to allow the deployment of automated driving systems in tra c in 2017.8 Even if
+
+the technology has not reached market maturity yet, the top 11 global car manufacturers
+expect self-driving cars on the highway by 2020 and in urban areas by 2030.9 A recent report
+
+by Navigant Research, a market research institute, forecasts that from 2020 to 2035 around
+129 million autonomous vehicles will be sold.10 Another study on the autonomous vehicle
+
+market by Allied Market Research concludes that in 2019 the global market for autonomous
+
+vehicles will be worth $54.23 billion and increase by a factor of 10 up to $556.67 billion by
+2026.11
+
+      e next step towards fully autonomous-capable vehicles will be the launch of partly au-
+
+tomated driving systems, i.e. cars where the driver hands over the steering or acceleration
+
+functions to the vehicle occasionally but can still take control over the vehicle. In all these
+ACCEPTED MANUSCRIPT
+1See for example, the Tesla car with full self-driving hardware or the NVIDIA AI car that learns from human
+
+behavior by using an machine learning approach.
+
+2Shademan et al. (2016) also reports a so tissue surgery conducted by an autonomous system.
+
+3See https://newsroom.toyota.co.jp/en/detail/10171645.
+
+4See https://newsroom.intel.com/news-releases/intel-mobileye-acquisition/.
+
+5See https://media.ford.com/content/fordmedia/fna/us/en/news/2017/02/10/ford-invests-
+
+in-argo-ai-new-artificial-intelligence-company.html.
+
+6See https://global.honda/newsroom/news/2018/c181003eng.html.
+
+7See https://www.brookings.edu/blog/techtank/2018/05/01/the-state-of-self-driving-
+
+car-laws-across-the-u-s/.
+
+8See https://www.freshfields.com/en-gb/our-thinking/campaigns/digital/internet-of-
+
+things/connected-cars/automated-driving-law-passed-in-germany/.
+
+9See  https://www.techemergence.com/self-driving-car-timeline-themselves-top-11-
+
+automakers/.
+
+10See https://www.navigantresearch.com/news-and-views/129-million-autonomous-capable-
+
+vehicles-are-expected-to-be-sold-from-2020-to-2035.
+
+11See https://www.alliedmarketresearch.com/autonomous-vehicle-market.
+
+                                                 3
+ACCEPTED MANUSCRIPT                           ACCEPTED MANUSCRIPT
+
+                   environments humans nd themselves confronted with a new situation: they share decisions
+                   with a machine. We call such a situation a hybrid decision situation.12
+
+                     In this paper, we investigate human decision-making in a hybrid decision situation. More
+                   speci cally, we investigate whether sharing a decision with a computer instead of with an-
+                   other human in uences the perception of the situation, thus a ecting human decisions. Hu-
+                   man decision-making in groups with other humans has been researched extensively. Fischer
+                   et al. (2011) show in their meta-study on the so-called bystander e ect that the perceived
+                   personal responsibility is lower when others are around.13 eoretical work from Ba igalli
+                   and Dufwenberg (2007) and Rothenha®usler et al. (2015) also suggests that people feel less
+                   guilty for an outcome when a decision is shared. Furthermore, a meta-study by Engel (2011),
+                   including 255 experimental papers on behavior in Dictator Games14 shows that people be-
+                   have more sel shly if a decision is shared. So far, however, the literature has only focused on
+                   decisions shared between humans. Here we ask whether humans also perceive themselves
+                   to be less responsible and guilty and behave more sel shly when the decision is shared with
+                   a computer.
+
+                     As a workhorse, we use a binary Dictator Game. We compare three treatments: a Dicta-
+                   tor Game with a single human dictator, a Dictator Game with two human dictators, and a
+                   Dictator Game with one human dictator and a computer.
+
+                         e remainder of the paper is organized as follows: Section 2 provides a literature review
+                   focusing on experimental evidence from economics and social psychological research. We
+                   especially discuss the literature on individual behavior in groups as well as ndings from
+                   research on human-computer interactions. In Section 3 we present our experimental design
+                   and explain our treatments in more detail. Section 4 relates the experiment to the theoretical
+                   background and derives behavioral predictions. Results are presented in Section 5. e last
+                   section o ers a discussion and some concluding remarks.
+
+                   2. Review of the literature
+
+                   In Section 2.1 below, we present previous research on individual decision-making in groups
+                   most similar to our experiment. We point out studies explaining why humans behave more
+                   sel shly when deciding with other humans. In Section 2.2, we turn to research on human-
+                   computer interactions. We outline what is already known about how machines are perceived
+
+                   12However, machines do not always perform be er than humans and are also susceptible to errors. e 2016
+                       Disengagement Reports, reports of autonomous vehicle incidents on California public road that all manu-
+                       facturers in California have to provide to the State of California Department of Motor Vehicles, state 2665
+                       cases in which the test driver had to disengage the autonomous mode (see https://www.dmv.ca.gov/
+                       portal/dmv/detail/vr/autonomous/disengagement_report_2016) In an international survey about
+                       an automized urological surgery by Kaushik et al. (2010) 56.8% of 176 responding surgeons reported to have
+                       experienced an irrecoverable intraoperative malfunction of the robotic system.
+
+                   13 e bystander e ect, rst described by Latane¥ and Nida (1981), is a social psychological phenomenon that
+                       individuals are less likely to help a victim if others are present.
+
+                   14 e standard Dictator Game consists of two individuals. One individual ≠ known as the dictator ≠ is given
+                       some money. e dictator then has to decide how much of this money he/she wants to share with the other
+                       individual. e other individual ≠ called the recipient ≠ has to accept any amount of money the dictator
+                       proposes.
+
+                                                                          4
+ACCEPTED MANUSCRIPT                           ACCEPTED MANUSCRIPT
+
+                   and how humans behave towards them.
+
+                   2.1. Shared decision-making with humans
+
+                   People frequently have to make decisions in situations wherein the outcome not only de-
+                   pends on their choice but also the choices of others. In a number of experimental games,
+                   such as the Trust Game (Kugler et al., 2007), the Ultimatum Game (Bornstein and Yaniv,
+                   1998), the Coordination Game (Bland and Nikiforakis, 2015), the Signaling Game (Cooper
+                   and Kagel, 2005), the Prisoners Dilemma (McGlynn et al., 2009), the Gi Exchange Game
+                   (Kocher and Su er, 2007), the Public Good Games (Andreoni and Petrie, 2004) as well as
+                   in lo eries (Rockenbach et al., 2007) and Beauty Contests (Kocher and Su er, 2005; Su er,
+                   2005), people have been found to behave more sel sh, less trustworthy and less altruistic
+                   towards an outsider when deciding together with others.
+
+                     Even in a game as simple as the Dictator Game, where one person ≠ the dictator ≠ decides
+                   how to split an endowment between herself and another person ≠ the recipient ≠ who has no
+                   say, people behave in a more strategic and sel sh way when deciding in groups compared to
+                   individual decision-making. For example, Dana et al. (2007) nd that in a situation where two
+                   dictators decide simultaneously and the sel sh outcome is implemented only if both dictators
+                   agree on it, 65% of all dictators choose the sel sh option, while only 26% of all dictators choose
+                   the sel sh option when deciding alone. is observation is con rmed by Luhan et al. (2009).
+                   In their experiment 23.4% of a dictator's endowment is sent to the recipient team consisting
+                   of three subjects when the dictator decides alone but only 10.8% is sent to the recipients
+                   when the dictator acts as a members of a three-person team. A similar pa ern is found by
+                   Panchanathan et al. (2013). In their experiment 27.8% of a dictator's endowment is sent to
+                   a recipient when the dictator decides alone but only 11.61% of the endowment is sent to a
+                   recipient in a two dictator condition and only 8.8% of the endowment in a three dictator
+                   condition.
+
+                     Although experimental evidence shows that people behave more sel shly in shared de-
+                   cisions, we do not know much about the driving forces behind it. Falk and Szech (2013)
+                   and Bartling et al. (2015) presume that individuals behave more sel shly when deciding in
+                   groups as the pivotality for the nal outcome is di used. is di usion lowers the individual
+                   decisiveness for the nal outcome and makes it easier to choose the self-interested option.
+
+                     Engl (2018) builds upon the idea of pivotality and distinguishes between an ex-post and
+                   an ex-ante causal responsibility. Engl calls an agent ex-post causally responsible if, given
+                   the choices of all other decision makers, that agent's action turned out to be pivotal for
+                   the implementation of an outcome. If, prior to a decision, there is no uncertainty about
+                   choices of other decision makers and no uncertainty about other factors which could a ect
+                   the outcome, then causal responsibility should be the same ex-post and ex-ante. It could be,
+                   however, that prior to a decision agents face uncertainty about the other decision makers'
+                   choices. Depending on what the other decision makers choose, the own action might or
+                   might not be pivotal. Engl, hence, de nes ex-ante causal responsibility as the expected level
+                   of ex-post causal responsibility at the time when a decision is being made. Ex-ante causal
+                   responsibility takes into account the uncertainty about the pivotality of one's own decision.
+                   Adding another player to a decision and giving that player the power to prevent an outcome
+
+                                                                          5
+ACCEPTED MANUSCRIPT                           ACCEPTED MANUSCRIPT
+
+                   may, hence, lower ex-ante causal responsibility for that outcome.
+                     According to Ba igalli and Dufwenberg (2007), humans might aim at reducing the feeling
+
+                   of guilt caused by a decision. Building on this idea, Rothenha®usler et al. (2015) conclude that
+                   group-decisions allow to share the guilt for an individual decision and thus makes it easier to
+                   choose a sel sh option in a group. In a similar spirit, Inderst et al. (2017) study an experiment
+                   where the causal a ribution of guilt shi s from an advisor to a customer. Inderst et al. predict
+                   this shi by a model of shared guilt.
+
+                         ere are also concepts in social psychology explaining more sel sh decision-making in
+                   groups than in individual decision situations. Darley and Latane¥ (1968) propose the concept
+                   of di usion of responsibility: sel sh decisions in groups are caused by the possibility to share
+                   the responsibility for the outcome among group members. Several studies in social psychol-
+                   ogy con rm this idea. In a study by Forsyth et al. (2002) participants were asked to allocate
+                   100 responsibility points among the members of the group (group size either 2, 4, 6, or 8
+                   participants) a er a group task was performed. e personal perceived responsibility for
+                   the group outcome was signi cantly lower the bigger the group. Freeman et al. (1975) study
+                   tipping behavior in restaurants. ey show that people in groups tip on average less than
+                   individuals. Freeman et al. explain this nding with the di used responsibility for tipping.
+                   Further possible mechanisms driving sel sh decision-making in groups are suggested by re-
+                   search on the so-called interindividual-intergroup discontinuity e ect by Insko et al. (1990), an
+                   e ect that describes the tendency of individuals to be more competitive and less cooperative
+                   in groups than in one-on-one relations. According to this research, there are four moder-
+                   ators promoting sel sh decisions in groups. First, the social-support-for-shared-self-interest
+                   hypothesis claims that group members can perceive active support for a self-interested choice
+                   by other group members. Second, the identi ability hypothesis proposes that deciding in
+                   groups provides a shield of anonymity that could also drive sel sh decision-making. ird,
+                   according to the ingroup-favoring norm, decision makers could perceive some pressure to
+
+                    rst bene t the own group before taking into account the interests of others. Finally, the
+                   altruistic-rationalization hypothesis suggests that deciding in a group enables individuals to
+                   justify their sel sh behavior by arguing that the other group members will also bene t from
+                   it. According to a meta-study of 48 experiments on the interindividual-intergroup discon-
+                   tinuity e ect by Wildschut et al. (2003) intergroup interactions are indeed in general more
+                   competitive than interindividual interactions.
+
+                     To sum up, more sel sh decision-making in groups seems to be driven by the di used
+                   pivotality for the decision, a lower level of perceived responsibility and guilt for the outcome,
+                   the increased anonymity of the decision and the feeling that a sel sh decision also favors the
+                   group and is supported or even demanded by the members of the group.
+
+                   2.2. Perception of and behavior towards computers
+
+                   A number of studies nd that people treat computers in much the same way they treat people.
+                   For instance, Katagiri et al. (2001) show that people apply social norms from their own culture
+                   to a computer. Reeves and Nass (2003) found that people are as polite to computers as they
+                   are to humans in laboratory experiments. Nass et al. (1994) shows that people seem to use
+                   social rules in addressing computer behavior. Nass and Moon (2000) observe that people
+
+                                                                          6
+ACCEPTED MANUSCRIPT                           ACCEPTED MANUSCRIPT
+
+                   ascribe human-like a ributes to computers. In a laboratory experiment by Nass et al. (1996),
+                   where subjects were told to be interdependent with a computer a liate, the computer was
+                   perceived just like a human teammate. Moon and Nass (1998) even observe that humans tend
+                   to blame a computer for failure and take the credit for success when they feel dissimilar to it
+                   while blaming themselves for failure and crediting the computer for success when they feel
+                   similar to it. Other studies nd that computers are held at least partly responsible for actions.
+                   Friedman (1995) reports in an interview on computer agency and moral responsibility for
+                   computer errors that 83% of the computer science major students a ributed aspects of agency
+                   such as decision-making and/or intention to the computer, 21% of the students even held
+                   the computer moral responsible for wrongdoing. Moon (2003) shows that the self-serving
+                   tendency for the a ribution of responsibility to a computer in a purchase decision experiment
+                   mitigates when the subjects have a history of intimate self-disclosure with a computer. In
+                   short, subjects' willingness to assign more responsibility to a computer for a positive outcome
+                   and less responsibility to the computer in a negative outcome increased, when the subjects
+                   shared some private information with the computer before the computer-aided purchase
+                   decision.
+
+                     Although humans seem to treat computers and humans o en in a similar way, di erences
+                   remain: de Melo and Gratch (2015) nd that recipients in a Dictator Game expect more money
+                   from a machine than from another human, and that proposers in an Ultimatum Game o er
+                   more money to a human recipient than to an arti cial counterpart. de Melo and Gratch also
+                   show that people are more likely to perceive guilt when interacting with a human counterpart
+                   than when interacting with machines. Gogoll and Uhl (2016) nd that people seem to dislike
+                   the usage of computers in situations where decisions a ect a third party. In their experiment,
+                   people could delegate a decision in a trust game either to a human or to a computer algorithm
+                   that exactly resembles the human behavior in a previous trust game. Gogoll and Uhl observe
+                   that only 26.52% of all subjects delegate their decision to the computer instead of to a human.
+                   Gogoll and Uhl also allowed impartial observers to reward or to punish actors depending on
+                   their delegation decision. ey nd that, independent of the outcome, impartial observers
+                   reward delegations to a human more than delegation to a computer.
+
+                     Consequently, especially in domains in which fundamental human properties such as
+                   moral considerations and ethical norms are of importance, ndings from human-human in-
+                   teractions cannot necessarily be directly transferred to human-computer interactions. Al-
+                   though research in economics and social psychology analyses shared decision-making be-
+                   tween humans extensively there seems to be a gap when it comes to shared decision-making
+                   with arti cial systems such as computers.
+
+                   3. Experimental design
+
+                   We implemented an experiment with the following elements: (i) a binary Dictator Game in
+                   which participants were able to choose between an equal and an unequal split, (ii) a ques-
+                   tionnaire to measure the perceived responsibility and guilt, and (iii) a manipulation check in
+                   which participants were confronted with a hypothetical decision situation. e decision in
+                   the binary Dictator Game was made either by a single human dictator, by two, so to speak
+
+                                                                          7
+ACCEPTED MANUSCRIPT                           ACCEPTED MANUSCRIPT
+
+                   multiple, human dictators, or by a computer together with a human dictator.
+
+                   3.1. General procedures
+
+                   In each experimental session, the following procedure was used: upon arrival at the labora-
+                   tory, participants were randomly seated and randomly assigned a role (Player X, Player Z,
+                   and, depending on the treatment, Player Y). All participants were informed that they would
+                   be playing a game with one or two other participants in the room and that the matching
+                   would be random and anonymous. ey were also told that all members of all groups would
+                   be paid according to the choices made in that group. Payo s were explained using a generic
+                   payo table. A short quiz ensured that the task and the payo representation was under-
+                   stood. A er the quiz, the actual payo s were shown to participants together with any other
+                   relevant information for the treatment.
+
+                     All treatments were one-shot dictator games with a binary choice between an equal and
+                   an unequal (socially ine cient) wealth allocation. A er making a choice and before being
+                   informed about the nal outcome, subjects answered a questionnaire to determine their per-
+                   ceived level of responsibility and guilt. Each participant was paid in private at the end of
+                   the experiment. All experimental stimuli, as well as instructions, were presented through a
+                   computer interface. We framed the game as neutrally as possible, avoiding any loaded terms.
+                   Payo s were displayed in Experimental Currency Units (ECU's) with an exchange rate from
+                   1 ECU equals 2 Euro. e entire experiment was computerized using z-Tree (Fischbacher,
+                   2007). All subjects were recruited via ORSEE (Greiner, 2004).
+
+                   3.2. Treatments
+
+                   We had three di erent treatments in total. One treatment, the so-called Single Dictator Treat-
+                   ment or SDT, involved two players, one dictator and a recipient. Two more treatments in-
+                   volved three players, two dictators and one recipient. In one of these treatments, the so called
+                   Multiple Dictator Treatment or MDT, all players were humans. In the other treatment, the so-
+                   called Computer Dictator Treatment or CDT, the decision of one of the dictators was not made
+                   by him/herself but instead of by a computer. To compare the three di erent treatments we
+                   used a between-subject design.
+
+                   3.2.1. Single dictator treatment (SDT)
+
+                   Payo s for the SDT are shown in the le part of Table 1. e dictator ≠ Player X ≠ had to
+                   decide between an unequal allocation (Option A) and an equal allocation (Option B). When
+                   the dictator chose Option A (Option B) then (s)he received a payo of 6 ECU (5 ECU) and the
+                   recipient ≠ Player Z ≠ received a payo of 1 ECU (5 ECU).
+
+                   3.2.2. Multiple dictator treatment (MDT)
+
+                   Payo s for the MDT are shown in the right part of Table 1. Dictators ≠ Player X and Player
+                   Y ≠ both made a choice that determined the payo for both dictators and the recipient. e
+
+                                                                          8
+                                     ACCEPTED MANUSCRIPT
+
+                               SDT:                         MDT and CDT:
+
+                                                            Player Y's choices
+
+                                           Y:≠              A                       B
+                               A X:6 Z:1
+                   Player X's                   Player X's              Y:6              Y:5
+                    choices                Y:≠   choices    A X:6 Z:1               X:5 Z:5
+                               B X:5 Z:5
+                                                                        Y:5              Y:5
+                                                            B X:5 Z:5               X:5 Z:5
+
+                                     Table 1: Payo s in the Binary Dictator Games.
+ACCEPTED MANUSCRIPT
+                   unequal payo was only implemented if both dictators chose Option A. In all other cases the
+                   equal allocation was implemented. For example, if both dictators chose Option A then both
+                   dictators received a payo of 6 ECUs while the recipient ≠ Player Z ≠ received a payo of 1
+                   ECU, however, if at least one of the two dictators chose Option B then the dictators as well
+                   as the recipient received a payo of 5 ECU.
+
+                     When choosing payo s for the MDT we have to keep in mind that there are only two
+                   players in the SDT, but three players in the MDT (and in the CDT below). How should we
+                   make payo s in the di erent treatments comparable? Should we keep individual payo s
+                   constant (thus having more money on the table in MDT and CDT) or should we keep total
+                   payo s constant (thus having smaller individual incentives in MDT and CDT)? Here we
+                   follow the literature (e.g. Dana et al., 2007) and keep individual incentives constant between
+                   all treatments. We are aware that, as a result, relative e ciency losses as unequal allocations
+                   are not constant between the treatments.
+
+                   3.2.3. Computer dictator treatment (CDT)
+
+                      e CDT was identical to the MDT with one exception: One of the two dictators ≠ Player Y
+                   ≠ acted as a so-called "passive dictator". While still receiving payo s for Player Y as given in
+                   Table 1, the passive dictator had no in uence on the choice as a computer made the choice.
+
+                      e frequency with which the computer chose options A or B followed the frequency of
+                   choices in an earlier MDT. Participants in the CDT were informed that frequencies were the
+                   same as in an earlier MDT treatment. Hence, all Players X in the CDT had the same beliefs
+                   (and the same uncertainty) about the other players' behavior as in the MDT. Furthermore,
+                   since payo rules for Player Y in CDT were the same as in MDT, social concerns should not
+                   di er between CDT and MDT.
+
+                   3.3. Measurement of perceived responsibility and guilt
+
+                   A er the dictators made their choices but before participants were informed about the nal
+                   outcome and payo , dictators completed a questionnaire. ey had to state their perceived
+                   personal responsibility for the outcome. ey also described their feeling of guilt if the un-
+                   equal payo allocation were to be implemented.15 Dictator(s) were also asked to state their
+
+                   15 e wording of the questionnaire is provided in Appendix A.1.2.
+
+                                                9
+ACCEPTED MANUSCRIPT                           ACCEPTED MANUSCRIPT
+
+                   perceived responsibility for the payo of the recipient, and, depending on the treatment, for
+                   the payo of the co-dictator. Similar to Forsyth et al. (2002) the perceived and allocated re-
+                   sponsibility was measured on a scale from 0 to 100 using a slider. We used these questions
+                   as a proxy for the perceived responsibility and guilt for the nal outcome and the perceived
+                   responsibility for the other participants. Subjects could also explain why they had chosen
+                   a speci c option. Furthermore, in MDT and CDT, dictators were asked to state what they
+                   expected the other human co-dictator, alternatively the computer, to choose and how re-
+                   sponsible and guilty they would perceive the human co-dictator or the computer to be if the
+                   unequal payo allocation was implemented.
+
+                     Recipients and, depending on the treatment, passive dictators were asked how they would
+                   assess the responsibility and guilt felt by the dictators if the unequal payo allocation was
+                   implemented. ey were also asked about their expectation how the dictator(s) decide and
+                   could state why they expected the dictator(s) to choose a speci c option.
+
+                     In a manipulation we asked how participants (dictators, recipients and, if present, passive
+                   dictators) would evaluate the situation used in the other treatment. We also collected some
+                   demographic data. Data and methods are available online.16
+
+                   4. Theoretical framework and behavioral hypotheses
+
+                   A purely sel sh participant would take into account neither the welfare of others nor situa-
+                   tional circumstances. In particular, for a sel sh participant it should not ma er whether the
+                   decision was made alone, with another person or with a computer. Similarly, for a partici-
+                   pant with xed social preferences the type of interaction partner, human or computer, should
+                   not ma er. However, we know that social preferences depend on the salience of the link be-
+                   tween actions and consequences. Chen and Schonger (2016) as well as Haisley and Weber
+                   (2010) show that certainty or ambiguity of the outcome ma ers. Grossman and van der
+                   Weele (2016), Grossman (2014) and Ma hey and Regner (2011) argue that social preferences
+                   are a ected by the availability of excuses which allow individuals to justify a sel sh behav-
+                   ior. ese ndings can be supported with the help of models of social image concerns (e.g.,
+                   Andreoni and Bernheim, 2009; Be¥nabou and Tirole, 2006; Ellingsen and Johannesson, 2008;
+                   Grossman, 2015) and models on self-perception maintenance (e.g., Aronson, 2009; Beauvois
+                   and Joule, 1996; Bodner and Prelec, 2003; Konow, 2000; Mazar et al., 2008; Murnighan et al.,
+                   2001; Rabin, 1995). According to these models, individuals not only maximize their own out-
+                   put but also want to be perceived by others as kind and fair and want to see themselves in
+                   a positive light. However, if these two goals are at odds, choosing an option that maximizes
+                   own output causes an unpleasant tension for the individual that can only be reduced by low-
+                   ering the perceived con ict of interest between the two goals.17 erefore, as research in
+                   social psychology has shown, people seem to act selectively and in a self-serving way when
+                   determining whether a self-interested behavior will have a positive or negative impact on
+
+                   16https://www.kirchkamp.de/research/shareMachine.html or http://christina-strobel.de/
+                       share_responsibility.html.
+
+                   17 e unpleasant tension (or in a more formal speech "disutility") is o en described as nothing else than the
+                       feeling of guilt (e.g., Berndsen and Manstead, 2007; de Hooge et al., 2011; Stice, 1992).
+
+                                                                          10
+ACCEPTED MANUSCRIPT                           ACCEPTED MANUSCRIPT
+
+                   their self-concept or social image and use situational excuses, if available, to justify their de-
+                   cision (e.g., Rabin, 1995; Haidt and Kesebir, 2010). In this way, individuals can blame sel sh
+                   actions on the context in which they were made rather than on themselves, thus preserving
+                   a comfortable self-image.
+
+                     Falk and Szech (2013) as well as Bartling et al. (2015) argue that in a situation where a
+                   decision is shared, decision makers are only responsible for a fraction of that decision as
+                   the pivotality for the decision is di used. is di usion provides an excuse to reduce re-
+                   sponsibility for the nal outcome. In short, sharing a decision with another human reduces
+                   the perceived negative consequences for the self- and social-image which makes it easier to
+                   choose a self-serving option.
+
+                     According to the causal responsibility theory by Engl (2018), it is ex-ante, not ex-post
+                   causal responsibility that ma ers here. If a decision is shared each agent faces uncertainty
+                   about the behavior of the other agent. is uncertainty about behavior implies uncertainty
+                   about the nal pivotality of the own decision. Uncertainty about own pivotality implies
+                   a lower perceived causal responsibility. More precisely, dictators can not be seen as less
+                   responsible for the outcome when choosing the fair option in the MDT than in the SDT
+                   as each dictator can ensure the implementation of the fair option independent of the other
+                   dictator. However, when choosing the unfair option dictators are less responsible for a nal
+                   unfair outcome in the MDT than in the SDT as the nal outcome is not only determined by
+                   one's individual choice but also by another person's decision. us, the ex-ante perceived
+                   causal responsibility in joint decision situations is lower compared to situations where a
+                   decision is not shared as the impact of one's decision has not yet been set.
+
+                     Responsibility is also closely linked to interpersonal guilt. According to research in psy-
+                   chology, for example by Baumeister et al. (1994), Gilbert (1998), Tangney (1995), Tangney and
+                   Dearing (2003) and Hauge (2016), guilt is intimately tied to a person's recognition of being
+                   responsible for some wrongdoing. Whereby, guilty feelings may rise when a person feels
+                   responsible for or refraining from an action resulting in the in iction of harm or damage to
+                   another person or for failing to meet another persons expectations or moral standards.18
+
+                         e theoretical arguments are supported by experimental evidence. Berndsen and Manstead
+                   (2007) show that the less responsible an individual feels, the less guilty the individual feels
+                   for making a sel sh decision.
+
+                     In our experiment, Option B leads to an equal payo for all participants. However, if
+                   all decision makers choose Option A, the recipient receives much less than the dictator(s).
+                   Option A, hence, might cause more harm to the social and self-image than Option B. Dictators
+                   who value a positive perception by others and themselves more than their monetary gain will
+                   have a preference for Option B. Dictators who value mainly the monetary gain will prefer
+                   Option A.
+
+                     In the SDT, the nal payo s only depend on the choice of a single dictator. e game o ers
+                   no situational excuse to reduce the negative impact on the self- and social image caused by
+                   a sel sh decision. Sharing a decision with another decision maker, however, provides the
+
+                   18While the emotion of guilt can be evoked by various causes, the economic literature on guilt aversion mainly
+                       focuses on guilt caused by failing to meet others' expectations (e.g. Ba igalli and Dufwenberg, 2007; Char-
+                       ness and Dufwenberg, 2006; Balafoutas and Su er, 2017; Bellemare et al., 2018).
+
+                                                                          11
+ACCEPTED MANUSCRIPT                           ACCEPTED MANUSCRIPT
+
+                   possibility to share the responsibility for the decision. In addition, deciding together with
+                   another dictator also creates room for the interpretation of a sel sh choice as also bene cial
+                   for the other decider and creates complicity. is allows the dictator to a ribute a sel sh
+                   decision to the situation or circumstance rather than to his/her self-concept.19 Furthermore,
+                   Bartling and Fischbacher (2012) show that people perceive others to be less responsible and
+                   blame them less for a negative outcome the less their decision in uences the nal decision.
+
+                      us, based on the shared responsibility for the decision as well as the anticipated lower
+                   blame by others for a sel sh decision dictators in the MDT should be expected to experience
+                   less blame and thus to feel less guilty for a sel sh choice compared to dictators in the SDT.
+
+                     Hence, we expect that dictators in the MDT perceive themselves to be less responsible for
+                   the nal outcome (Hypothesis 1.i) and to feel less guilty for a sel sh decision (Hypothesis
+                   2.i) than dictators in the SDT. As a result we expect more sel sh decisions in the MDT than
+                   in the SDT (Hypothesis 3.i).
+
+                     Turning to the CDT we must ask whether computer dictators are as responsible as human
+                   dictators. Can computers be in the same way responsible for an action? e concept of causal
+                   responsibility by Engl (2018) does not distinguish between human and computer opponents.
+                   In our experiment choices of computers follow the frequencies of choices of humans. Hence,
+                   both ex-ante and ex-post causal responsibility should be identical in MDT and in CDT.
+
+                     In the literature we nd the following three conditions required to be held responsible:
+                   First, an agent needs to have action power. Action power requires a causal relationship
+                   between own actions and the outcome (e.g., Lipinski et al., 2002; May, 1992; Moore, 1999;
+                   Nissenbaum, 1994; Scheines, 2002). Second, the agent must be able to choose freely. Free
+                   choice includes the competence to act on the basis of own authentic thoughts and motivations
+                   as well as the capability to control one's behavior (e.g., Fischer, 1999; Johnson, 2006). ird,
+                   to be held responsible requires the ability to consider the possible consequences an action
+                   might cause (e.g., Bechel, 1985; Friedman and Kahn, 1992). Furthermore, some researchers
+                   argue that it is necessary to be capable of su ering or gaining from possible blame or praise
+                   and thus to be culpable for wrongdoing (e.g., Moor, 1985; Sherman, 1999; Wallace, 1994).
+
+                      ese conditions would also have to be satis ed by a computer in order for it to be held
+                   responsible. While the causal responsibility of a computer for an outcome cannot be denied,
+                   a computer neither has a free will nor the freedom of action. A computer is also not able to
+                   consider possible consequences of its actions in the same way as a human. Furthermore, a
+                   computer is not capable of any kind of emotions. Hence, a computer does not ful ll several
+                   of the conditions under which one could hold the computer responsible to the same extent as
+                   a human.20 Research in machine and roboter ethics a ributes only operational responsibility
+                   to the most advanced machines today but denies any higher form of (moral) responsibility
+                   as today's machines still have a relatively low level of own autonomy and ethical sensitivity
+                   (e.g., Allen et al., 2000; DeBaets, 2014; Denne , 1997; Sullins, 2006).
+
+                     Based on these considerations, the responsibility for a sel sh outcome cannot be shared
+
+                   19However, as either dictator can independently implemented the equal outcome by choosing Option B the
+                       addition of a second dictator does not impede subjects from ensuring a fair outcome if they prefer it.
+
+                   20For the discussion on the responsibility of computers see Bechel (1985), Friedman and Kahn (1992), Snapper
+                       (1985), and, more recently, Asaro (2011), Floridi and Sanders (2004), Johnson and Powers (2005), Sparrow
+                       (2007), and Stahl (2006).
+
+                                                                          12
+ACCEPTED MANUSCRIPT                           ACCEPTED MANUSCRIPT
+
+                   with a computer to the same extent as it can with a human. us, upholding a positive self-
+                   and social image while deciding sel shly together with a computer should not be as easy as
+                   when deciding with another human. e same holds true for the perceived guilt for an unfair
+                   outcome. Others cannot blame a computer for causing damage to a person in the same way
+                   as a human can be blamed. Hence, the guilt for harming another person cannot be shared
+                   with a computer to the same extent as with another human.21
+
+                     For these reasons, we expect dictators to perceive more personal responsibility for the nal
+                   outcome in the CDT than in the MDT (Hypothesis 1.ii). We also expect them to perceive more
+                   guilt when choosing the unfair option (Hypothesis 2.ii) in the CDT than in the MDT.
+
+                     In addition, as sel sh decision-making is in uenced by the individual's perception of be-
+                   ing responsible or feeling guilty for a decision, signi cantly more people should choose the
+                   sel sh option if they are deciding with another human (MDT) than when deciding with a
+                   computer (CDT) (Hypothesis 3.ii).
+
+                   Hypothesis 1 (responsibility) In MDT participants a ribute less responsibility to an indi-
+                   vidual dictator for the outcome resulting from choosing the sel sh option than
+
+                     (i) in SDT, or
+                    (ii) in CDT.
+
+                   Hypothesis 2 (guilt) In MDT participants a ribute less guilt to an individual dictator for the
+                   outcome resulting from choosing the sel sh option than
+
+                     (i) in SDT, or
+                    (ii) in CDT.
+
+                   Hypothesis 3 (sel shness) In MDT the sel sh option is chosen more frequently than
+                     (i) in SDT, or
+                    (ii) in CDT.
+
+                   5. Results
+
+                   All sessions were run in July, October and November 2016 at the Friedrich Schiller Universita®t
+                   Jena. ree treatments were conducted with a total of 399 subjects (65.2% female).22 Most of
+                   our subjects were students with an average age of 25 years. Participants earned on average
+
+                   21 e beliefs about the choice of the computer or human co-dictator should also not di er as the frequency
+                       with which the computer chose options A or B followed the frequency of choices in an earlier MDT. Hence,
+                       the dictator's choice cannot be in uenced by di erent beliefs about the frequency of unequal choices by
+                       humans or the computer.
+
+                   22In total 124 subjects (62.9% female) participated in the SDT, 92 subjects (68.5% female) in the MDT and 183
+                       subjects (65% female) in the CDT. us, we have almost the same number of actively deciding dictators in
+                       each treatment.
+
+                                                                          13
+                                 ACCEPTED MANUSCRIPT
+
+                            MDT                    CDT                SDT
+
+                                                   0 20 40 60 80 100
+
+                                          outcome  payo co-dictator   payo recipient
+
+                       1.0
+
+        Empirical CDF  0.8
+
+                       0.6
+
+                       0.4
+
+                       0.2                         MANUSCRIPT
+
+                       0.0
+
+                            0 20 40 60 80 100                         0 20 40 60 80 100
+
+                                                   Responsibility
+
+"Outcome" is estion 9 from Appendix A.1.2, "payo co-dictator" is estion 7 from Appendix A.1.2, "payo
+recipient" is from estion 6 from Appendix A.1.2.
+
+                                 Figure 1: Dictators' responsibility.
+
+ACCEPTED9.43. We use a between-subject design, hence, the data for all statistical tests is independent
+        for the di erent treatments.
+
+          We rst analyze how the perceived responsibility for the nal outcome as well as the
+        feeling of guilt for a self-serving decision varied between the treatments before presenting
+        the ndings regarding the choices made by the dictators.
+
+        5.1. Hypothesis 1: responsibility
+
+        To assess perceived responsibility for a sel sh decision we ask dictators to state their per-
+        ceived level of responsibility for three di erent items: for the nal outcome, for the recipient's
+        payo , and (in treatments MDT and CDT) for their co-dictator's payo .23 For all questions
+        the level of responsibility was measured by a continuous scale from "Not responsible at all"
+        (0) to "Very responsible" (100).
+
+          Figure 1 shows the distribution of personal responsibility for the three measures: outcome,
+        payo of the co-dictator, and payo of the recipient. Figure 1 seems to con rm Hypothesis
+        1.i. According to this hypothesis, responsibility should be smaller in MDT than in SDT.
+        Indeed, this seems to be the case for all three measures.
+
+          We nd weaker support for Hypothesis 1.ii. According to this hypothesis, responsibility
+        should be smaller in MDT than in CDT. is is clearly the case for responsibility for payo
+        of co-dictator. For the other two measures, however, the gure shows no clear di erence
+        between MDT and CDT.
+
+        23For the exact wording of the question for outcome see estion 9 from Appendix A.1.2. For the exact wording
+            of the question for the recipient's payo and the co-dictator's payo see estions 6 and 7 from Appendix
+            A.1.2.
+
+                                                   14
+                  ACCEPTED MANUSCRIPT
+
+responsibility for. . . SDT≠MDT (Hyp. 1.i)      CDT≠MDT (Hyp. 1.ii)
+
+outcome            = 14.05  CI=[7.627, 20.47]    = -2.35   CI=[-8.855, 4.155]
+                               (p = 0.0000)                    (p = 0.4771)
+
+payo co-dictator                                 = 18.7   CI=[6.574, 30.82]
+                                                             (p = 0.0028)
+
+payo recipient     = 5.544  CI=[-4.033, 15.12]   = -3.097  CI=[-13.66, 7.466]
+                                (p = 0.2538)                   (p = 0.5627)
+
+   e table shows di erences between treatments ( = . . .), con dence intervals for this di erence (CI=[. . . ]), and
+p-values for a two sided test whether this di erence could be zero. Each line shows the result for one measure:
+responsibility for outcome, responsibility for the co-dictator's payo , responsibility for the recipient's payo .
+Required e ect sizes to reach signi cance are shown in Table 9 in Appendix A.12.
+
+                   Table 2: Treatment di erence in the dictator's responsibility.
+ACCEPTED MANUSCRIPT
+  Table 2 provides con dence intervals and p-values for treatment di erences between the
+three measures. According to Hypothesis 1.i the di erence in responsibility between SDT
+and MDT should be positive. Indeed, both the outcome measure and the payo recipient
+measures are positive, however, only the outcome measure signi cantly so.24
+
+  According to Hypothesis 1.ii the di erence in responsibility between CDT and MDT should
+be positive. We do observe a signi cant positive di erence for the payo co-dictator measure.
+However, we nd insigni cant negative di erences for the other two measures.
+
+  Further analysis showing how responsible the dictators perceived their co-dictators to be
+can be found in Appendix A.4 (see Table 6 and Figure 8). It shows that dictators perceive their
+fellow (human) dictator in the MDT as signi cantly more responsible than (computerized)
+dictators in the CDT. is di erence is mainly driven by dictators who chose Option B.
+
+5.2. Hypothesis 2: guilt
+
+In all treatments dictators were asked to state their perceived guilt in case Option A was
+implemented. e level of guilt was measured by a continuous scale from "not guilty" (0)
+to "totally guilty" (100). Figure 2 shows the distribution of guilt. According to Hypothesis
+2.i, we expect dictators to feel less guilty for an unequal payo in the MDT than in the SDT.
+Furthermore, according to Hypothesis 2.ii we expect a lower level of guilt in MDT than in
+CDT. Table 3 provides con dence intervals and p-values for treatment di erences. According
+to Hypothesis 2.i the di erence in guilt between SDT and MDT should be positive. According
+to Hypothesis 2.ii the di erence in guilt between CDT and MDT should be positive. Indeed,
+both di erences are positive, however, not signi cantly so. us, neither Hypothesis 2.i
+nor Hypothesis 2.ii can be con rmed for dictators. e level of guilt felt by dictators is not
+signi cantly a ected by the treatment, whether dictators decide on their own, together with
+a computer or with another human.
+
+  In Appendix A.10 we provide additional information about the guilt that recipients and
+
+24Since in the SDT treatment there is no other dictator, we do not observe responsibility for the co-dictator's
+    payo .
+
+                                            15
+                         ACCEPTED MANUSCRIPT
+
+                    MDT      CDT                               SDT
+
+Empirical CDF  1.0           MANUSCRIPT
+               0.8
+               0.6
+               0.4
+               0.2
+               0.0
+
+                    0    20  40                            60  80   100
+
+                                                    Guilt
+
+For the question see estion 8 from Appendix A.1.2.
+
+                         Figure 2: Dictators' perceived guilt.
+
+ACCEPTED       SDT≠MDT                              CDT≠MDT
+
+                = 4.982  CI=[-6.093, 16.06]          = 0.9439  CI=[-10.35, 12.23]
+                             (p = 0.3749)                          (p = 0.8688)
+
+   e table shows di erences between treatments ( = . . .), con dence intervals for this di erence (CI=[. . . ]), and
+p-values for a two sided test whether this di erence could be zero. Each line shows the result for one measure:
+responsibility for outcome, responsibility for the passive dictator's payo , responsibility for the recipient's
+payo . Required e ect sizes to reach signi cance are shown in Table 10 in Appendix A.12.
+
+                                 Table 3: Treatment di erence in guilt.
+
+                                             16
+           ACCEPTED MANUSCRIPT
+
+ SDT
+CDT
+MDT
+
+      0.3  0.4      0.5  0.6
+
+ACCEPTED MANUSCRIPTe graph shows 95%-con dence intervals around the observed frequency. For the question see Figure 4 in
+Appendix A.1.
+
+                   Figure 3: Relative frequency of sel sh choices by treatments.
+
+passive dictators a ribute to dictators (see Figure 18). We nd that recipients in the MDT
+and in the CDT did not expect the dictators to feel signi cantly more guilty than recipients
+when choosing Option A.
+
+5.3. Hypothesis 3: choices
+
+Figure 3 presents, for each treatment, the relative frequency of self-interested choices made
+by dictators.25 According to Hypothesis 3.i sel sh choices should be more frequent in the
+MDT than in the SDT. Indeed, this is what we see in the gure. e di erence is, however,
+not signi cant. According to Hypothesis 3.ii sel sh choices should also be more frequent in
+the MDT than in the CDT. Again, this is what we see in the gure. Still, the di erence is not
+signi cant.
+
+6. Conclusion
+
+   e number of decisions made by human-computer teams has risen substantially in the past.
+Here, we study whether humans perceive a decision shared with a computer di erently than
+a decision shared with another human. More speci cally, we focus on the perceived personal
+responsibility and guilt for a sel sh decision when a decision is shared with a computer
+instead of with another human.
+
+  Previous studies have established that humans behave more sel shly if they share respon-
+sibility with other humans. We do nd a similar pa ern in our experiment, even for human-
+computer interactions. When decision makers decide on their own, the number of sel sh
+choices is rather small. When the decision is shared with a computer the number of sel sh
+choices increases. e frequency of sel sh choices is highest when the decision is shared
+with another human. However, these di erences are not very large and, in our study, not
+
+25For the binary Dictator Game interface shown to the dictators and to the recipients see Appendix A.1.1.
+
+                17
+ACCEPTED MANUSCRIPT                           ACCEPTED MANUSCRIPT
+
+                   signi cant.26 We also measure perceived responsibility for the nal outcome, the recipient's
+                   payo and the co-dictator's payo . In line with our hypotheses, we nd that responsibility
+                   for the outcome is perceived signi cantly stronger when a decision is not shared at all than
+                   when it is shared with a human. Also in line with our hypotheses, responsibility for the
+                   co-dictator's payo is perceived stronger when the decision is shared with a computer than
+                   when the decision is shared with a human. Guilt, however seems to be perceived rather sim-
+                   ilarly ≠ regardless whether a decision is shared with a human, with a machine or whether it
+                   is not shared at all. Participants did not perceive more guilt when deciding on their own or
+                   together with the computer than when deciding together with another human.
+
+                     In our experiment we use a very small manipulation. e way the computers decided
+                   was fully transparent and could be easily linked to human choices. In the experiment the
+                   advantage of such a transparent design is that we can clearly communicate to participants
+                   what computers do. Sharing a choice with a computer in our experiment is as foreseeable as
+                   sharing a choice with with a human. We did, on purpose, not model the unpredictability of
+                   a complex computerized choice. is would be a next step which we have to leave to future
+                   research.
+
+                     For the future, an open discussion of hybrid-decision situations would be desirable. It
+                   might not only be important to address the technical question of what we can achieve by
+                   using arti cial decision making systems such as computer but also how humans perceive
+                   them in di erent situations and how this in uences human decision-making.
+
+                   References
+
+                   Allen, C., Varner, G., and Zinser, J. (2000). Prolegomena to any future arti cial moral agent.
+                     Journal of Experimental & eoretical Arti cial Intelligence, 12(3):251≠261.
+
+                   Andreoni, J. and Bernheim, B. D. (2009). Social image and the 50-50 norm: A theoretical and
+                     experimental analysis of audience e ects. Econometrica, 77(5):1607≠1636.
+
+                   Andreoni, J. and Petrie, R. (2004). Public goods experiments without con dentiality: A
+                     glimpse into fund-raising. Journal of Public Economics, 88(7-8):1605≠1623.
+
+                   Aronson, E. (2009). e return of the repressed: Dissonance theory makes a comeback.
+                     Psychological Inquiry, 3(4):303≠311.
+
+                   Asaro, P. M. (2011). A body to kick, but still no soul to damn: Legal perspectives on robotics. In
+                     Lin, P., Abney, K., and Bekey, G. A., editors, Robot Ethics: e Ethical and Social Implications
+                     of Robotics, pages 169≠186. MIT Press, Cambridge, MA.
+
+                   26While the e ect size for shared decision-making with another human was very large in the studies by Dana
+                       et al. (2007) (n = 20), Luhan et al. (2009) (n = 30) and Panchanathan et al. (2013) (n = 44), we found a
+                       medium sized e ect (n = 61) when comparing decisions made by a single dictator to decisions made by a
+                       team of two human dictators.
+
+                                                                          18
+ACCEPTED MANUSCRIPT                           ACCEPTED MANUSCRIPT
+
+                   Balafoutas, L. and Su er, M. (2017). On the nature of guilt aversion: Insights from a new
+                     methodology in the dictator game. Journal of Behavioral and Experimental Finance, 13:9≠
+                     15.
+
+                   Bartling, B. and Fischbacher, U. (2012). Shi ing the blame: On delegation and responsibility.
+                        e Review of Economic Studies, 79(1):67≠87.
+
+                   Bartling, B., Fischbacher, U., and Schudy, S. (2015). Pivotality and responsibility a ribution
+                     in sequential voting. Journal of Public Economics, 128:133≠139.
+
+                   Ba igalli, P. and Dufwenberg, M. (2007). Guilt in games. American Economic Review,
+                     97(2):170≠176.
+
+                   Baumeister, R. F., Stillwell, A. M., and Heatherton, T. F. (1994). Guilt: an interpersonal ap-
+                     proach. Psychological Bulletin, 115(2):243≠267.
+
+                   Beauvois, J.-L. and Joule, R. (1996). A radical dissonance theory. Taylor & Francis, London;
+                     Bristol, PA.
+
+                   Bechel, W. (1985). A ributing responsibility to computer systems. Metaphilosophy,
+                     16(4):296≠306.
+
+                   Bellemare, C., Sebald, A., and Suetens, S. (2018). Heterogeneous guilt sensitivities and incen-
+                     tive e ects. Experimental Economics, 21(2):316≠336.
+
+                   Be¥nabou, R. and Tirole, J. (2006). Incentives and prosocial behavior. American Economic
+                     Review, 96(5):1652≠1678.
+
+                   Berndsen, M. and Manstead, A. S. R. (2007). On the relationship between responsibility and
+                     guilt: Antecedent appraisal or elaborated appraisal? European Journal of Social Psychology,
+                     37(4):774≠792.
+
+                   Bland, J. and Nikiforakis, N. (2015). Coordination with third-party externalities. European
+                     Economic Review, 80:1≠15.
+
+                   Bodner, R. and Prelec, D. (2003). Self-signaling and diagnostic utility in everyday decision
+                     making. e psychology of economic decisions, 1:105≠126.
+
+                   Bornstein, G. and Yaniv, I. (1998). Individual and group behavior in the ultimatum game: Are
+                     groups more "rational" players? Experimental Economics, 1(1):101≠108.
+
+                   Bo i, S. and McGill, A. L. (2006). When choosing is not deciding: e e ect of perceived
+                     responsibility on satisfaction. Journal of Consumer Research, 33(2):211≠219.
+
+                   Burne e, J. L. and Forsyth, D. R. (2008). 'i didn't do it:' responsibility biases in open and
+                     closed groups. Group Dynamics: eory, Research, and Practice, 12(3):210≠222.
+
+                   Charness, G. and Dufwenberg, M. (2006). Promises and partnership. Econometrica,
+                     74(6):1579≠1601.
+
+                                                                          19
+ACCEPTED MANUSCRIPT                           ACCEPTED MANUSCRIPT
+
+                   Chen, D. L. and Schonger, M. (2016). Social preferences or sacred values? eory and evi-
+                     dence of deontological motivations. TSE Working Papers 16-714, Toulouse School of Eco-
+                     nomics (TSE).
+
+                   Cooper, D. J. and Kagel, J. H. (2005). Are two heads be er than one? Team versus individual
+                     play in signaling games. American Economic Review, 95(3):477≠509.
+
+                   Dana, J., Weber, R. A., and Kuang, J. X. (2007). Exploiting moral wiggle room: Experiments
+                     demonstrating an illusory preference for fairness. Economic eory, 33(1):67≠80.
+
+                   Darley, J. and Latane¥, B. (1968). Bystander intervention in emergencies: Di usion of respon-
+                     sibility. Journal of Personality and Social Psychology, 8(4, Pt.1):377≠383.
+
+                   de Hooge, I. E., Nelissen, R. M. A., Breugelmans, S. M., and Zeelenberg, M. (2011). What is
+                     moral about guilt? Acting "prosocially" at the disadvantage of others. Journal of Personality
+                     and Social Psychology, 100(3):462≠473.
+
+                   de Melo, C. M. and Gratch, J. (2015). People show envy, not guilt, when making decisions
+                     with machines. In 2015 International Conference on A ective Computing and Intelligent
+                     Interaction (ACII), pages 315≠321. IEEE.
+
+                   de Melo, C. M., Marsella, S., and Gratch, J. (2016). People do not feel guilty about exploiting
+                     machines. ACM Transactions on Computer-Human Interaction, 23(2):1≠17.
+
+                   DeBaets, A. M. (2014). Can a robot pursue the good? Exploring arti cial moral agency.
+                     Journal of Evolution and Technology, 24:76≠86.
+
+                   Denne , D. C. (1997). When HAL kills, who's to blame?: Computer ethics. Rethinking
+                     responsibility in science and technology, pages 203≠214.
+
+                   Ellingsen, T. and Johannesson, M. (2008). Pride and prejudice: e human side of incentive
+                     theory. American Economic Review, 98(3):990≠1008.
+
+                   Engel, C. (2011). Dictator games: A meta study. Experimental Economics, 14(4):583≠610.
+
+                   Engl, F. (2018). A theory of causal responsibility a ribution. Available at SSRN, 2932769.
+                   Falk, A. and Szech, N. (2013). Morals and markets. Science, 340(6133):707≠711.
+                   Fischbacher, U. (2007). z-Tree: Zurich toolbox for ready-made economic experiments. Ex-
+
+                     perimental Economics, 10(2):171≠178.
+                   Fischer, J. M. (1999). Recent work on moral responsibility. Ethics, 110(1):93≠139.
+
+                   Fischer, P., Krueger, J. I., Greitemeyer, T., Vogrincic, C., Kastenmu®ller, A., Frey, D., Heene,
+                     M., Wicher, M., and Kainbacher, M. (2011). e bystander-e ect: A meta-analytic review
+                     on bystander intervention in dangerous and non-dangerous emergencies. Psychological
+                     Bulletin, 137(4):517≠537.
+
+                                                                          20
+ACCEPTED MANUSCRIPT                           ACCEPTED MANUSCRIPT
+
+                   Floridi, L. and Sanders, J. W. (2004). On the morality of arti cial agents. Minds and Machines,
+                     14(3):349≠379.
+
+                   Forsyth, D. R., Zyzniewski, L. E., and Giammanco, C. A. (2002). Responsibility di usion in
+                     cooperative collectives. Personality and Social Psychology Bulletin, 28(1):54≠65.
+
+                   Freeman, S., Walker, M. R., Borden, R., and Latane, B. (1975). Di usion of responsibility
+                     and restaurant tipping: Cheaper by the bunch. Personality and Social Psychology Bulletin,
+                     1(4):584≠587.
+
+                   Friedman (1995). "It's the computer's fault"--Reasoning about computers as moral agents.
+                     In Conference companion on Human factors in computing systems (CHI 95), pages 226≠227.
+                     Association for Computing Machinery, New York, NY.
+
+                   Friedman, B. and Kahn, P. H. (1992). Human agency and responsible computing: Implications
+                     for computer system design. Journal of Systems and So ware, 17(1):7≠14.
+
+                   Gilbert, P. (1998). What is shame? some core issues and controversies. In Kremer, K. and
+                     Macho, V., editors, Shame:Interpersonal Behavior, Psychopathology and Cultures, pages 3≠
+                     38. Oxford University Press, New York.
+
+                   Gogoll, J. and Uhl, M. (2016). Automation and morals -- eliciting folk intuitions. Peter
+                     Lo®scher-Sti ungslehrstuhl fu®r Wirtscha sethik Working Paper Series, TU Mu®nchen.
+
+                   Gosling, P., Denizeau, M., and Oberle¥, D. (2006). Denial of responsibility: a new mode of
+                     dissonance reduction. Journal of personality and social psychology, 90(5):722≠733.
+
+                   Greiner, B. (2004). An online recruitment system for economic experiments. In Kremer,
+                     K. and Macho, V., editors, Forschung und wissenscha liches Rechnen 2003, volume 63 of
+                     GWDG Bericht, pages 79≠93. Gesellscha fu®r wissenscha liche Datenverarbeitung mbH
+                     Go® ingen, Go® ingen.
+
+                   Grossman, Z. (2014). Strategic ignorance and the robustness of social preferences. Manage-
+                     ment Science, 60(11):2659≠2665.
+
+                   Grossman, Z. (2015). Self-signaling and social-signaling in giving. Journal of Economic Be-
+                     havior & Organization, 117:26≠39.
+
+                   Grossman, Z. and van der Weele, J. J. (2016). Self-Image and Willful Ignorance in Social
+                     Decisions. Journal of the European Economic Association, 15(1):173≠217.
+
+                   Haidt, J. and Kesebir, S. (2010). Morality. In Fiske, S. T., Gilbert, D. T., Lindzey, G., and
+                     Jongsma, Jr., A. E., editors, Handbook of social psychology. Wiley, Hoboken, N.J.
+
+                   Haisley, E. C. and Weber, R. A. (2010). Self-serving interpretations of ambiguity in other-
+                     regarding behavior. Games and Economic Behavior, 68(2):614≠625.
+
+                   Hauge, K. E. (2016). Generosity and guilt: e role of beliefs and moral standards of others.
+                     Journal of Economic Psychology, 54:35≠43.
+
+                                                                          21
+ACCEPTED MANUSCRIPT                           ACCEPTED MANUSCRIPT
+
+                   Inderst, R., Khalmetski, K., and Ockenfels, A. (2017). Sharing guilt: How be er access to
+                     information may back re. Working Paper Series in Economics 90, University of Cologne,
+                     Ko®ln.
+
+                   Insko, C. A., Schopler, J., Hoyle, R. H., Dardis, G. J., and Graetz, K. A. (1990). Individual-group
+                     discontinuity as a function of fear and greed. Journal of Personality and Social Psychology,
+                     58(1):68≠79.
+
+                   Johnson, D. G. (2006). Computer systems: Moral entities but not moral agents. Ethics and
+                     Information Technology, 8(4):195≠204.
+
+                   Johnson, D. G. and Powers, T. M. (2005). Computer systems and responsibility: A normative
+                     look at technological complexity. Ethics and Information Technology, 7(2):99≠107.
+
+                   Katagiri, Y., Nass, C., Takeuchi, and Yugo (2001). Cross-cultural studies of the computers are
+                     social actors paradigma: e case of reciprocity. In Smith, M. J., Koubek, R. J., Salvendy,
+                     G., and Harris, D., editors, Usability evaluation and interface design, volume 1 of Human
+                     factors and ergonomics, pages 1558≠1562. Lawrence Erlbaum, Mahwah, N.J. and London.
+
+                   Kaushik, D., High, R., Clark, C. J., and LaGrange, C. A. (2010). Malfunction of the Da Vinci
+                     robotic system during robot-assisted laparoscopic prostatectomy: an international survey.
+                     Journal of endourology, 24(4):571≠575.
+
+                   Kocher, M. G. and Su er, M. (2005). e decision maker ma ers: Individual versus group
+                     behaviour in experimental beauty-contest games. e Economic Journal, 115(500):200≠223.
+
+                   Kocher, M. G. and Su er, M. (2007). Individual versus group behavior and the role of the
+                     decision making procedure in gi -exchange experiments. Empirica, 34(1):63≠88.
+
+                   Konow, J. (2000). Fair shares: Accountability and cognitive dissonance in allocation decisions.
+                     American Economic Review, 90(4):1072≠1092.
+
+                   Kugler, T., Bornstein, G., Kocher, M. G., and Su er, M. (2007). Trust between individuals
+                     and groups: Groups are less trusting than individuals but just as trustworthy. Journal of
+                     Economic Psychology, 28(6):646≠657.
+
+                   Latane¥, B. and Nida, S. (1981). Ten years of research on group size and helping. Psychological
+                     Bulletin, 89(2):308≠324.
+
+                   Lipinski, T. A., Buchanan, E. A., and Britz, J. J. (2002). Sticks and stones and words that harm:
+                     Liability vs. responsibility, section 230 and defamatory speech in cyberspace. Ethics and
+                     Information Technology, 4(2):143≠158.
+
+                   Luhan, W., Kocher, M., and Su er, M. (2009). Group polarization in the team dictator game
+                     reconsidered. Experimental Economics, 12(1):26≠41.
+
+                   Ma hey, A. and Regner, T. (2011). Do I really want to know? A cognitive dissonance-based
+                     explanation of other-regarding behavior. Games, 2(4):114≠135.
+
+                                                                          22
+ACCEPTED MANUSCRIPT                           ACCEPTED MANUSCRIPT
+
+                   May, L. (1992). Sharing responsibility. University of Chicago Press, Chicago.
+
+                   Mazar, N., Amir, O., and Ariely, D. (2008). e dishonesty of honest people: A theory of
+                     self-concept maintenance. Journal of Marketing Research, 45(6):633≠644.
+
+                   McGlynn, R. P., Harding, D. J., and Co le, J. L. (2009). Individual-group discontinuity in
+                     group-individual interactions: Does size ma er? Group Processes & Intergroup Relations,
+                     12(1):129≠143.
+
+                   Moon, Y. (2003). Don't blame the computer: When self-disclosure moderates the self-serving
+                     bias. Journal of Consumer Psychology, 13(1-2):125≠137.
+
+                   Moon, Y. and Nass, C. (1998). Are computers scapegoats? A ributions of responsibility in
+                     human≠computer interaction. International Journal of Human-Computer Studies, 49(1):79≠
+                     94.
+
+                   Moor, J. H. (1985). Are there decisions computers should never make? In Johnson, D. G. and
+                     Snapper, J. W., editors, Ethical issues in the use of computers, pages 120≠130. Wadsworth
+                     Publ. Co., Belmont, CA.
+
+                   Moore, M. S. (1999). Causation and responsibility. Social Philosophy and Policy, 16(2):1≠51.
+
+                   Murnighan, J., Oesch, J. M., and Pillutla, M. (2001). Player types and self-impression manage-
+                     ment in dictatorship games: Two experiments. Games and Economic Behavior, 37(2):388≠
+                     414.
+
+                   Myna , C. and Sherman, S. J. (1975). Responsibility a ribution in groups and individuals: A
+                     direct test of the di usion of responsibility hypothesis. Journal of Personality and Social
+                     Psychology, 32(6):1111≠1118.
+
+                   Nass, C., Fogg, B. J., and Moon, Y. (1996). Can computers be teammates? International Journal
+                     of Human-Computer Studies, 45(6):669≠678.
+
+                   Nass, C. and Moon, Y. (2000). Machines and mindlessness: Social responses to computers.
+                     Journal of Social Issues, 56(1):81≠103.
+
+                   Nass, C., Steuer, J., and Tauber, E. R. (1994). Computers are social actors. In Adelson, B.,
+                     Dumais, S., and Olson, J., editors, Proceedings of the SIGCHI conference on Human factors
+                     in computing systems, pages 72≠78, New York. Association for Computing Machinery.
+
+                   Nissenbaum, H. (1994). Computing and accountability. Communications of the ACM,
+                     37(1):72≠80.
+
+                   Panchanathan, K., Frankenhuis, W. E., and Silk, J. B. (2013). e bystander e ect in an n-
+                     person dictator game. Organizational Behavior and Human Decision Processes, 120(2):285≠
+                     297.
+
+                   R Development Core Team (2018). R: A Language and Environment for Statistical Computing.
+                     R Foundation for Statistical Computing, Vienna, Austria. ISBN 3-900051-07-0.
+
+                                                                          23
+ACCEPTED MANUSCRIPT                           ACCEPTED MANUSCRIPT
+
+                   Rabin, M. (1995). Moral preferences, moral constraints, and self-serving biases. Department
+                     of Economics UCB (unpublished manuscript).
+
+                   Reeves, B. and Nass, C. (2003). e media equation: How people treat computers, television, and
+                     new media like real people and places. CSLI Publ, Stanford CA, 1. paperback ed., 3. [print.]
+                     edition.
+
+                   Reuben, E. and van Winden, F. (2010). Fairness perceptions and prosocial emotions in the
+                     power to take. Journal of Economic Psychology, 31(6):908≠922.
+
+                   Rockenbach, B., Sadrieh, A., and Mathauschek, B. (2007). Teams take the be er risks. Journal
+                     of Economic Behavior & Organization, 63(3):412≠422.
+
+                   Rothenha®usler, D., Schweizer, N., and Szech, N. (2015). Institutions, shared guilt, and moral
+                     transgression. CESifo Working Paper Series 5525, CESifo Group Munich.
+
+                   Savitsky, K., Van Boven, L., Epley, N., and Wight, W. M. (2005). e unpacking e ect in
+                     allocations of responsibility for group tasks. Journal of Experimental Social Psychology,
+                     41(5):447≠457.
+
+                   Scheines, R. (2002). Computation and causation. Metaphilosophy, 33(1/2):158≠180.
+                   Shademan, A., Decker, R. S., Opfermann, J. D., Leonard, S., Krieger, A., and Kim, P. C. W.
+
+                     (2016). Supervised autonomous robotic so tissue surgery. Science translational medicine,
+                     8(337):337ra64.
+                   Sherman, N. (1999). Taking responsibility for our emotions. Social Philosophy and Policy,
+                     16(02):294≠323.
+                   Snapper, J. W. (1985). Responsibility for computer≠based errors. Metaphilosophy, 16(4):289≠
+                     295.
+                   Sparrow, R. (2007). Killer robots. Journal of Applied Philosophy, 24(1):62≠77.
+                   Stahl, B. C. (2006). Responsible computers? A case for ascribing quasi-responsibility to com-
+                     puters independent of personhood or agency. Ethics and Information Technology, 8(4):205≠
+                     213.
+
+                   Stice, E. (1992). e similarities between cognitive dissonance and guilt: Confession as a
+                     relief of dissonance. Current Psychology, 11(1):69≠77.
+
+                   Sullins, J. P. (2006). When is a robot a moral agent? In Adelson, M. and Anderson, S., editors,
+                     Machine Ethics, pages 151≠160, New York, NY. Association for Computing Machinery.
+
+                   Su er, M. (2005). Are four heads be er than two? An experimental beauty-contest game
+                     with teams of di erent size. Economics Le ers, 88(1):41≠46.
+
+                                                                          24
+ACCEPTED MANUSCRIPT                           ACCEPTED MANUSCRIPT
+
+                   Tangney, J. P. (1995). Shame and guilt in interpersonal relationships. In Tangney, J. P. and
+                     Fischer, K. W., editors, Self-conscious emotions: Shame, guilt, embarrassment, and pride,
+                     pages 114≠139, New York. Guilford Press.
+
+                   Tangney, J. P. and Dearing, R. L. (2003). Shame and guilt. Guilford Press.
+                   Wallace, R. J. (1994). Responsibility and the moral sentiments. Harvard University Press,
+
+                     Cambridge, Mass.
+                   Whyte, G. (1991). Di usion of responsibility: E ects on the escalation tendency. Journal of
+
+                     Applied Psychology, 76(3):408≠415.
+                   Wildschut, T., Pinter, B., Vevea, J. L., Insko, C. A., and Schopler, J. (2003). Beyond the group
+
+                     mind: a quantitative review of the interindividual-intergroup discontinuity e ect. Psycho-
+                     logical Bulletin, 129(5):698≠722.
+
+                                                                          25
+

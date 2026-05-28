@@ -1,0 +1,1981 @@
+Normann, Hans-Theo; Rulié, Nina; Stypa, Olaf; Werner, Tobias
+
+Conference Paper
+
+Delegate Pricing Decisions to an Algorithm? Experimental
+Evidence
+
+Beiträge zur Jahrestagung des Vereins für Socialpolitik 2025: Revival of Industrial Policy
+
+Provided in Cooperation with:
+Verein für Socialpolitik / German Economic Association
+
+Suggested Citation: Normann, Hans-Theo; Rulié, Nina; Stypa, Olaf; Werner, Tobias (2025) : Delegate
+Pricing Decisions to an Algorithm? Experimental Evidence, Beiträge zur Jahrestagung des Vereins
+für Socialpolitik 2025: Revival of Industrial Policy, ZBW - Leibniz Information Centre for Economics,
+Kiel, Hamburg
+
+This Version is available at:                                          Terms of use:
+https://hdl.handle.net/10419/325417.2
+                                                                       Documents in EconStor may be saved and copied for your personal
+ Standard-Nutzungsbedingungen:                                         and scholarly purposes.
+
+ Die Dokumente auf EconStor dürfen zu eigenen wissenschaftlichen       You are not to copy documents for public or commercial purposes, to
+ Zwecken und zum Privatgebrauch gespeichert und kopiert werden.        exhibit the documents publicly, to make them publicly available on the
+                                                                       internet, or to distribute or otherwise use the documents in public.
+ Sie dürfen die Dokumente nicht für öffentliche oder kommerzielle
+ Zwecke vervielfältigen, öffentlich ausstellen, öffentlich zugänglich  If the documents have been made available under an Open Content
+ machen, vertreiben oder anderweitig nutzen.                           Licence (especially Creative Commons Licences), you may exercise
+                                                                       further usage rights as specified in the indicated licence.
+ Sofern die Verfasser die Dokumente unter Open-Content-Lizenzen
+ (insbesondere CC-Lizenzen) zur Verfügung gestellt haben sollten,
+ gelten abweichend von diesen Nutzungsbedingungen die in der dort
+ genannten Lizenz gewährten Nutzungsrechte.
+Delegate Pricing Decisions to an Algorithm?
+            Experimental Evidence
+
+Hans-Theo Normann  Nina Ruli´e Olaf Stypa  Tobias Werner§
+                        2025-11-05
+
+                                                          Abstract
+
+        We analyze the delegation of pricing by participants, representing firms, to a collusive,
+        self-learning algorithm in a repeated Bertrand experiment. In the baseline treatment,
+        participants set prices themselves. In the other treatments, participants can either
+        delegate pricing to the algorithm at the beginning of each supergame or receive al-
+        gorithmic recommendations that they can override. Participants delegate more when
+        they can override the algorithm's decisions. In both algorithmic treatments, prices
+        are lower than in the baseline. Our results indicate that while self-learning pricing
+        algorithms can be collusive, they can foster competition rather than collusion with
+        humans-in-the-loop.
+
+Keywords: Artificial Intelligence, Algorithm Aversion, Collusion, Experiment, Human-
+Machine Interaction
+
+JEL Codes: C90, D43, L12
+
+     normann@hhu.de. Du¨sseldorf Institute for Competition Economics (DICE) at Heinrich-Heine-
+Universita¨t Du¨sseldorf, Max Planck Institute for Research on Collective Goods, Bonn
+
+     nina.rulie@just.fgov.be. Service d'appui du Coll`ege des cours et tribunaux / Steundienst van het College
+van hoven en rechtbanken, Belgium
+
+     stypa@dice.hhu.de. Du¨sseldorf Institute for Competition Economics (DICE) at Heinrich-Heine-
+Universita¨t Du¨sseldorf
+
+     §tobias.felix.werner@soton.ac.uk. University of Southampton
+   ¶We are grateful to Zach Brown, Emilio Calvano, and Ed Hopkins for valuable comments. Seminar
+participants and conference audiences at the following venues gave useful feedback on the paper: Aarhus
+University, BSE Summer Forum Workshop on Computational and Experimental Economics (Barcelona),
+LEE Workshop on Human-AI Interaction, University of Michigan, VfS Annual Conference 2025 (Cologne).
+We thank Maximilian Andres, Juri Nithammer, and Lisa Bruttel for their support in running sessions in
+Potsdam. The pre-registration can be found here https://osf.io/fh89u/. Ethical approval was granted by
+the German Association for Experimental Economic Research (no. Cmvrj3oD).
+
+                   1
+1 Introduction
+
+The increasing use of pricing algorithms across different markets is sparking significant an-
+titrust concerns. Pricing algorithms are used by traditional businesses, such as gas stations
+(Assad et al., 2024) and supermarkets (Competera, 2024), and are particularly relevant in the
+growing e-commerce sector (Chen et al., 2016b, European Commission, 2017). This grow-
+ing reliance on algorithms has raised concerns among regulators and legal scholars about
+potential anti-competitive effects. Algorithms may tacitly learn to collude without explicit
+instruction or enable hub-and-spoke collusion when supplied by a common provider (e.g.,
+Bundeskartellamt and Autorit´e de la concurrence, 2019, Competition & Markets Authority,
+2021, Ezrachi and Stucke, 2020). These concerns are supported by empirical and theoreti-
+cal work showing that algorithm adoption can facilitate coordination and raise prices (see,
+for instance, Brown and MacKay, 2023, Banchio and Mantegazza, 2022, Assad et al., 2024,
+Musolff, 2024). Furthermore, simulation studies demonstrate that reinforcement learning
+algorithms can autonomously learn to sustain supra-competitive pricing strategies (Calvano
+et al., 2020, Klein, 2021).
+
+    This paper considers the decision-making process of individuals when adopting such
+pricing algorithms. In contrast to previous studies, we do not treat algorithm adoption as
+an exogenous experimental condition, but as a strategic choice made by humans, such as
+pricing managers. Humans can often be reluctant to rely on algorithms, even when they are
+superior. This well-documented phenomenon, known as "algorithm aversion" may inhibit
+the adoption of pricing algorithms (Dietvorst et al., 2015, 2018). Moreover, in a repeated
+pricing setting, the decision not to adopt an algorithm could itself be a profitable deviation,
+which may in turn provide an incentive to price manually and not use a possibly collusive
+algorithm. The role of human adoption in shaping the effects of pricing algorithms has
+received limited attention, and overlooking this dimension may lead to overestimating the
+risk of algorithmic collusion. Our study addresses this gap by explicitly modeling adoption
+as a strategic choice and examining how it affects market outcomes.
+
+    We conduct laboratory experiments to answer two research questions: First, are par-
+ticipants more likely to adopt a pricing algorithm when they retain the ability to override
+its recommendations? Second, how does the option to use a price algorithm affect market
+prices when adoption is left to human decision-makers? The algorithm used in our exper-
+iment has been trained through extensive simulations with popular reinforcement learning
+algorithms, similar to those studied by Calvano et al. (2020) and Klein (2021). It learns
+a collusive strategy and is capable of sustaining tacit collusion when matched against it-
+self or other reinforcement learning algorithms. In algorithmic self-play, it colludes at the
+
+                                                          2
+monopoly price and cannot be profitably exploited. Participants are made aware of these
+potential profit-increasing effects of the algorithm throughout the experiment.1 In our labo-
+ratory experiment, participants play five indefinitely repeated supergames. We vary whether
+participants can adopt an algorithm at the start of each of these supergames and how much
+control they must relinquish to it if they adopt it. In the Baseline treatment, partici-
+pants set prices themselves. In the Recommendation treatment, participants can adopt
+an algorithm that suggests prices, but its advice can be overridden. In the Outsourcing
+treatment, adoption entails full delegation and participants hand over all pricing decisions to
+the algorithm for the duration of the supergame.2 Our design allows us to analyze how the
+anti-competitive effects of pricing algorithms depend on endogenous adoption choices and
+the degree of control participants retain. It also enables us to investigate algorithm aversion
+in a pricing context and test whether participants are more inclined to adopt an algorithm
+when they can override its recommendations, as discussed by Dietvorst et al. (2018) for
+non-strategic environments.
+
+    Our results show that adoption of the algorithm is substantial. Across treatments and
+supergames, adoption rates range from 45% to 86%. Consistent with prior findings in non-
+strategic environments on algorithm aversion, we find that adoption is significantly higher
+in the Recommendation treatment than in Outsourcing, suggesting that participants
+are more willing to rely on the algorithm when they retain the ability to override its sugges-
+tions. However, adoption declines over time in both treatments, indicating that participants
+reassess the value of using the algorithm as they gain experience and learn from repeated
+market interactions.
+
+    We find only limited evidence that pricing algorithms are pro-collusive with endogenous
+adoption. While these algorithms are collusive among themselves, this pattern does not carry
+over when adoption is left to human participants. While market prices are higher in Out-
+sourcing than in the other treatments in the initial supergame, prices in both algorithmic
+treatments decline in later supergames. We identify repeated override decisions and strate-
+gic undercutting of algorithmic prices as key channels that drive those trends and, in turn,
+discourage further adoption. In the final supergame, market prices in the Baseline treat-
+
+    1Our setup reflects a scenario where firms knowingly outsource pricing to an algorithm capable of sus-
+taining collusion. From a policy perspective, this may be viewed as a lower bound on the anti-competitive
+risk of algorithmic pricing, since one would expect adoption rates and potential harms to be higher when
+firms believe such algorithms are collusive and profitable.
+
+    2In practice, both full delegation and algorithmic recommendations are commonly used. For instance,
+Huelden et al. (2024) and Li et al. (2021) report on a pricing system at a large e-commerce firm in which
+algorithms are fully responsible for pricing decisions by default, while humans can only intervene to overwrite
+them. On the other hand, for instance Garcia et al. (2024) describe algorithms for hotel room pricing that
+only serve as recommendations to human pricing managers. As such, both delegation treatments are also
+relevant from a practical perspective.
+
+                                                          3
+ment, where no algorithm is available, are significantly higher than in both Outsourcing
+and Recommendation. This reversal highlights the importance of endogenizing adoption.
+Algorithms that foster collusion when used by all firms can even lead to more competitive
+outcomes when adoption is selective and humans retain control.
+
+    These results highlight the importance of treating algorithm adoption as an endogenous
+decision influenced by both strategic and behavioral factors, which the existing literature
+has largely overlooked. Empirical studies show that algorithmic pricing can raise prices,
+increase markups, or support coordination in markets such as fuel retailing, e-commerce,
+and rental housing (e.g., Assad et al., 2024, Calder-Wang and Kim, 2024, Musolff, 2024).
+Simulation studies show that reinforcement learning algorithms can learn collusive strate-
+gies even without being explicitly programmed to do so (Waltman and Kaymak, 2008, Klein,
+2021, Johnson et al., 2023, Martin et al., 2025), and similar results hold for more advanced
+algorithms that use neural networks or large language models (Deng et al., 2024, Hettich,
+2021, Fish et al., 2024). However, most of this work assumes that firms adopt algorithms
+automatically and does not consider the human decision to use them. Theoretical models
+also often ignore this human element, with a few exceptions that include managerial over-
+sight (e.g., Leisten, 2024). A few theoretical contributions have begun to formalize related
+issues, focusing on algorithmic commitment rather than adoption behavior (e.g., Brown and
+MacKay, 2023, 2025, Leisten, 2024). Our findings instead highlight how human oversight
+and delegation choices affect pricing outcomes directly and show that once human adoption
+and control is taken into account, the potential for algorithmic pricing to raise market prices
+can be significantly reduced, and in some cases, even reversed.
+
+    Our experiment lets participants choose whether to use a pricing algorithm and whether
+they keep control over its decisions. It allows us to study how algorithm aversion works in a
+strategic market setting, where choices affect both profits and market outcomes (Dietvorst
+et al., 2015, 2018, Ivanova-Stenzel and Tolksdorf, 2024). It also enables us to observe how
+the ability to override the algorithm shapes adoption. Prior research has shown that pricing
+algorithms can raise prices in markets with human participants (Hunold and Werner, 2025,
+Normann and Sternberg, 2023, Schauer and Schnurr, 2023, Werner, 2024), but in those
+studies, algorithm use was fixed by design. In our study, participants decide for themselves
+whether and how to use the algorithm.
+
+    The remainder of the paper is structured as follows. Section 2 outlines the experimental
+design, including the treatment conditions, the algorithm, and the hypothesis. Section 3
+presents the main results, and Section 4 explores the mechanisms that help explain these
+findings. Section 5 concludes.
+
+                                                          4
+2 Experimental design
+
+2.1 Market game and equilibria
+
+The market consists of two firms producing a homogeneous good facing perfectly inelastic
+demand.3 They have no (marginal) cost of production. The firms' action sets are the integer
+prices {0, 1, 2, ..., 5}. Total demand is given by m = 60 computerized consumers who are
+willing to purchase one unit of the good in each round as long as the price does not exceed
+the maximum willingness to pay, p¯ = 4. Consumers buy the good from the firm offering
+the lowest price. The market is divided equally if both firms offer the same price in a given
+period. Depending on the treatment, a human or an algorithm may set the price. This
+market environment is the same across all experimental treatments.
+
+    Subjects play five infinitely repeated supergames using the above Bertrand duopoly as
+the stage game. In each period, there is a 95% probability that the supergame will continue
+for another round, mimicking the infinite time horizons and discount factors inherent in
+repeated-game analyses as first implemented by Roth and Murnighan (1978). This informa-
+tion is known to the participants. Compared to other experiments (see the meta study of
+Dal Bo´ and Fr´echette, 2018), the continuation probability is relatively high. This was done
+to maintain comparability to studies that investigate the collusive potential of self-learning
+algorithm where simulations are typically conducted with a continuation probability of at
+least 0.9. In order to have experimental sessions with the same supergame lengths, the
+round numbers are pre-drawn with a random number generator and are not provided to
+participants.
+
+    The equilibria of the market game are as follows. In the one-shot game, the set of pure-
+strategy Nash equilibrium prices is {0, 1, 2}. In the repeated game, more subgame perfect
+equilibria can occur. Next to the static Nash equilibria, both firms charging a price of 3
+or 4 are subgame perfect equilibria with grim trigger strategies. The collusive price of 4
+maximizes the joint profits: When both firms charge this price, the profit is 4 × 30 = 120
+each. The deviation profit is 3 × 60 = 180 and the Nash threat profits for pNE = 0 (the
+most severe credible punishment) are zero. Adhering to the collusive price of 4 is better than
+deviating if and only if 120/(1 - )  180    1/3. Similar calculations for the collusive
+price of 3 show that adhering is better than deviating if and only if   1/4. Since our
+algorithm colludes at a price of 4 but only triggers a one-period punishment (see below), we
+must also demonstrate that this strategy is a subgame-perfect Nash equilibrium. This is the
+case if and only if it is not profitable to deviate in the current period and jointly play the
+
+    3This Bertrand market experiment was first proposed by Dufwenberg and Gneezy (2000) in a static
+environment and is commonly used in collusion experiments (see, for example, Fonseca and Normann, 2012).
+
+                                                          5
+stage game Nash equilibrium for one period afterwards. Formally, this condition is fulfilled
+if and only if 120 + 120  180 + 30    6/9.
+
+    We conclude that the prices 0, 1 and 2 can be interpreted as (Nash-)competitive price
+levels. Prices 3 and 4 are supra-competitive and may indicate tacit collusion. A price of 5
+would imply zero demand, and thus probably indicates an error. The termination probability
+in the experiment is sufficiently high for tacit collusion to be a subgame perfect equilibrium.
+
+2.2 Treatments
+
+We consider three experimental treatments in which we modify whether and how participants
+can use the help of an algorithmic pricing agent. We call these treatments Baseline,
+Outsourcing and Recommendation.
+
+    In the Baseline treatment, participants do not have the option of using a pricing algo-
+rithm in any way. They set the prices themselves, as in a standard Bertrand experiment.
+
+    In the Outsourcing treatment, participants can delegate the pricing decision to the
+algorithm or play the supergame themselves. This decision is made once, at the beginning
+of each supergame. If subjects choose the algorithm, they are fully committed to the al-
+gorithm's decisions for the entire supergame. Importantly, even if participants choose to
+delegate pricing to the algorithm, they still proceed through each period of the supergame
+using the same interface as in Baseline. If the algorithm is adopted, its price is pre-selected
+and displayed on the decision screen. Participants then move through each round individ-
+ually. This ensures that the time spent and interaction structure remain consistent across
+treatments.
+
+    In the Recommendation treatment, subjects can choose to get support from the algo-
+rithm, also once at the beginning of each supergame. Unlike Outsourcing, the algorithm's
+choices are only recommendations. Participants can still set prices as they wish, that is, they
+can overwrite the recommendation in each round of the supergame. If they decide to adopt
+it, the algorithm's suggested price is pre-filled in the price selection field and clearly indicated
+as a recommendation, allowing participants to either accept it or enter a different value.4
+
+2.3 Algorithm
+
+We use Q-learning algorithms that belong to the class of reinforcement learning algorithms
+(Watkins, 1989, Watkins and Dayan, 1992). Q-learning algorithms are designed to solve
+Markov decision processes with an ex-ante unknown environment. In other words, the algo-
+rithm learns everything by itself without being instructed to follow a particular strategy and
+
+    4We provide screenshots of the decision screens in online appendix Figures B.3 and B.4.
+
+                                                          6
+without having prior knowledge of the market environment. Its objective is to maximize the
+stream of future discounted rewards. The algorithms learn how to price the product in a
+given market environment by interacting with other algorithms in a simulated market envi-
+ronment. It is the primary building block of the popular reinforcement learning algorithms
+that learn to play video games or beat humans at the game of Go (e.g., Mnih et al., 2015,
+Silver et al., 2016). Also, there is evidence that companies use those algorithms for their
+pricing systems (see, for instance, Liu et al., 2019, Chen et al., 2023).5
+
+    Q-learning has been used to study the behavior of pricing algorithms (see, for instance,
+Calvano et al., 2020, Abada and Lambin, 2023, Klein, 2021, Johnson et al., 2023, Martin et
+al., 2025). These studies show that the algorithms can learn to collude on non-competitive
+prices tacitly. A firm that wants to outsource its pricing decision to an algorithm might
+be incentivized to use such algorithms, as it can facilitate market coordination and thereby
+increase profits. As such, it is a natural choice for our experiment. We follow the approach
+by Werner (2024) to train the algorithm. As the market environment we consider is the
+same as in this paper, the algorithms also converge to the same collusive outcomes. Thus,
+we consider the exact same algorithm in our experiment.
+
+    The algorithm learns a win-stay lose-shift strategy (WSLS) or perfect tit-for-tat, popu-
+larized for the iterated prisoners' dilemma by Nowak and Sigmund (1993). It cooperates at
+the monopoly price if both firms picked the monopoly in the previous round. If the competi-
+tor deviates, it punishes this deviation by playing the stage game Nash equilibrium price of
+one. If both firms play the Nash equilibrium in a given round, the algorithm reverts to the
+monopoly price of pM = 4. For any other combination of prices from the previous period, it
+chooses the stage game Nash equilibrium price of 1 again.
+
+    While humans rarely adopt win-stay lose-shift strategies in strategically similar environ-
+ments (see, for instance, Wright, 2013, Dal Bo´ and Fr´echette, 2019), the strategy has several
+advantages. By adopting it, firms gain a tool that actively promotes collusion rather than
+simply imitating the behavior they would otherwise follow. First, the algorithm punishes
+deviations and makes collusion incentives compatible. Competitors are better off collud-
+ing with the algorithm than deviating in the current round for some immediate additional
+profit, but at the expense of punishment afterward. Furthermore, the algorithm is forgiving.
+Strategies like the grim trigger can also make collusion incentive compatible, but they can
+never return to the collusive price level. This outcome is undesirable for an algorithm in a
+pricing environment because competitors may explore the action space or make mistakes,
+
+    5Similarly, self-learning algorithms are increasingly popular among third-party algorithm providers, which
+offer pricing software to less sophisticated sellers on e-commerce platforms like Amazon. For instance,
+Calzolari and Hanspach (2025) document that 27% of repricer companies report that their algorithms are
+self-learning.
+
+                                                          7
+and a trigger strategy would perceive these actions as deviations. While the algorithm has
+these advantages, it is important to highlight that they arise from the learning process of
+the algorithm and were not designed by us as the experimenter.
+
+    The algorithm is the same for all participants, and we only use its limiting strategy after
+convergence in a simulated training environment. That is, the algorithm does not learn
+during the experiment but applies the strategy it previously developed through self-play
+against other algorithms. This design choice reflects how reinforcement learning is often
+deployed in practice. Q-learning learns slowly, which makes real-time learning in actual
+market settings impractical. Moreover, training through self-play is a standard and effective
+method in reinforcement learning, as it yields robust strategies that generalize well across a
+variety of opponents, which is particularly important when firms do not know whether their
+competitors are humans or algorithms (see also Calvano et al., 2020).
+
+    Importantly, our design is not specific to the use of self-learning algorithms. The strategy
+to which it converges is a one-period punishment rule that rewards mutual cooperation and
+punishes a deviation for a single period. This is the same kind of rule a firm might program
+directly to sustain collusion. In this sense, our setup captures a broader class of algorithmic
+behavior where firms either discover or explicitly implement strategies that make collusion
+incentive-compatible. What matters is not how the strategy is found, but that it reflects a
+credible threat to punish deviations and a willingness to return to cooperation.
+
+    While in practice, the algorithms used by competing firms do not necessarily have to be
+the same, it can often be the case. For instance, Harrington (2022, 2024) argues that pricing
+algorithms are frequently supplied by a common intermediary, meaning that competing
+firms often rely on the same or very similar algorithms.6 As such, the setup of firms using
+the same algorithm reflects real-world scenarios. Moreover, the strategy learned by the
+pricing algorithm is a type commonly learned by reinforcement learning algorithms, as shown
+by Kasberger et al. (2023), Schaefer (2022), Barfuss and Meylahn (2023). Hence, it is
+reasonable to assume that firms using reinforcement learning-based algorithms ultimately
+rely on algorithms that share a similar strategy.
+
+2.4 Procedures
+
+The experiment was programmed in oTree (Chen et al., 2016a), and a total of 19 sessions
+were conducted. Of these, thirteen were conducted at the DICELab in Du¨sseldorf, and six
+
+    6For example, in Cornish-Adebiyi v. Caesars, the U.S. Department of Justice argued that competing ho-
+tels delegated their pricing to the same algorithmic provider (U.S. Department of Justice, Antitrust Division
+& Federal Trade Commission, 2024).
+
+                                                          8
+sessions at PLEx in Potsdam.7 Overall, 100 participants were assigned to each treatment,
+totaling 300 participants in the experiment.
+
+    At the beginning of the session, participants receive neutrally framed instructions on
+the computer screen.8 The instructions and additional information are also available at any
+time during the experiment.9 After reading the instructions, participants answer a series
+of control questions. If a participant gives an incorrect answer three times, we provide the
+correct answer and explain the question.
+
+    The sessions in all treatments had five supergames. At the beginning of each session,
+two participants are matched for the duration of the supergames. At the start of the next
+supergame, participants are randomly rematched into new markets within a matching group
+of ten participants. The random rematching reduces the likelihood of potential reputation
+effects across supergames.
+
+    Participants in the Outsourcing and Recommendation treatments receive informa-
+tion about the algorithm at the beginning of the session and at each supergame. They know
+that the algorithm is self-learned and that its objective is to maximize the participant's
+long-run profit. To further align expectations on the possible performance of the algorithm,
+participants receive a comprehensive overview of the algorithm's past performance in differ-
+ent market compositions from the previous experiment by Werner (2024).10 The algorithm's
+past performance is presented as a 2 × 2 payoff matrix, showing the outcomes when no firm,
+one firm, or both used the algorithm.
+
+    Right after the control questions, all participants play three trial supergames with a to-
+tal of 15 periods against the algorithm. This allows every participant to understand how a
+supergame works and, in the case of participants of treatments Outsourcing and Rec-
+ommendation, also to comprehend the algorithm strategy better.11 These three simulation
+supergames were not payoff relevant.
+
+    7We aimed to balance session sizes across treatments. Most sessions had 20 participants, but some were
+split into smaller sessions of 10 due to no-shows, resulting in a mix of 20- and 10-participant sessions at both
+locations.
+
+    8We do not label pricing choices as (un)ethical. Related work shows that machine delegation can raise
+unethical behavior under explicit moral framing (K¨obis et al., 2025). How such framing would interact with
+adoption and pricing in our setting is an open question for future research.
+
+    9See online appendix A for the instructions.
+  10The experimental design in Werner (2024) differs in that the participants were assigned to a condition
+and did not have the choice to adopt an algorithm. We inform our participants of this fact. We also emphasize
+that past performance is not indicative of future profits, particularly because the use of the algorithm was
+predetermined, unlike having the additional choice of delegating to the algorithm initially.
+  11To keep the learning experience the same across treatments, also in the Baseline treatment, participants
+engage in the simulation against the algorithm. Despite this additional learning opportunity, market prices
+in Baseline are similar to previous experiments that use similar environments (see, for instance, Horstmann
+et al., 2018). While in Recommendation and Outsourcing we explicitly tell participants that they play
+against the algorithm, we do not provide those details in Baseline to avoid any confusion.
+
+                                                          9
+    At the end of each period, participants receive information about prices and profits. At
+the end of each supergame, we elicit participants' beliefs in Recommendation and Out-
+sourcing. Participants are asked to state how much confidence, in percentages, they have
+that their opponent used the pricing algorithm in the previous supergame (see Figure B.5 in
+the online appendix for the elicitation screen). They can receive an additional reward of 180
+experimental currency units (ECU) for guessing correctly. We incentivize belief elicitation
+using the binarized scoring rule (Hossain and Okui, 2013) with a framing similar to Danz et
+al. (2022).
+
+    At the end of the session, participants answer an end-of-study survey regarding demo-
+graphics and algorithm trust. They are then informed of the reward they earn in euros,
+including their profit in one selected supergame, the correctness of their belief in algorithm
+use, a 6 Euro show-up fee, and information about how it is computed. One Euro corre-
+sponded to 140 ECU. On average, participants earned 18.61 Euro.
+
+2.5 Hypotheses
+
+Previous experiments in non-strategic environments have shown that algorithm trust is in-
+creased when participants have some control over the final decision (Dietvorst et al., 2018).
+Furthermore, in Outsourcing, using the algorithm is possibly associated with some cost.
+While the algorithm can foster collusion, participants lose the ability to implement their own
+strategy, which might be important to them. Conversely, using the algorithm is costless in
+Recommendation. Participants can choose a price different from the one the algorithm
+recommends. Furthermore, besides recommending a pricing strategy, it also allows them
+to anticipate how their competitor might behave if they also use the algorithm. Therefore,
+participants are more likely to delegate to pricing algorithms when they can override the
+algorithm's pricing decision than when they must completely delegate it.
+
+Hypothesis 1. Participants are more likely to delegate in Recommendation than in Out-
+sourcing.
+
+    The algorithm has the potential to increase prices and profits through its deterministic
+collusive strategy, which incorporates a one-period punishment. Furthermore, the algorithm
+cannot be exploited: Any strategy other than colluding with the algorithm at p = 4 results
+in a lower profit. Participants know this both implicitly from the instructions and through
+practice rounds before the first supergame. If subjects delegate their decisions to the algo-
+rithm or follow its recommendations, prices will be higher. In turn, a propensity to delegate
+or follow recommendations will likely stem from an intention to maximize payoffs. Thus, we
+
+                                                         10
+expect prices to be higher in Outsourcing and Recommendation than in the baseline
+treatment.
+
+Hypothesis 2. In Outsourcing and Recommendation, prices are higher compared to
+Baseline.
+
+    An open question is whether the ability to override the algorithms leads to higher
+prices (Recommendation) compared to fully delegating pricing decisions to an algorithm
+(Outsourcing). On the one hand, we hypothesize that participants delegate more when
+they can override the pricing decision. On the other hand, conditional on the decision to
+use an algorithm, the opportunity to override the recommendation of the collusive algorithm
+may lead to lower market prices compared to fully outsourcing the pricing decision. As an
+exploratory research question, we ask which of these two effects dominates.
+
+    Further, comparison between and across treatments allows us to determine whether the
+level of commitment to the algorithm decision comes into play when deciding whether to
+use it. While the Baseline treatment includes only humans, in the case of Outsourcing
+and Recommendation, there may exist three types of markets: fully human markets (HH),
+fully algorithmic markets (AA), and mixed markets (AH). Comparison between market types
+helps determine whether one of them is more collusive.
+
+3 Results
+
+3.1 Algorithm adoption
+
+Figure 1 shows how often participants delegate their decisions to the algorithm. Since the
+decision to adopt the algorithm was made once at the beginning of each supergame in
+Recommendation and Outsourcing, we report the average for the five supergames sep-
+arately. Algorithm adoption rates range from 45% to 86%, depending on the treatment and
+supergame, indicating substantial adoption of the algorithm. Algorithm adoption rates are
+consistently higher in Recommendation compared to Outsourcing. While we observe
+high adoption rates at the start of the experiment, these decline, particularly in Outsourc-
+ing across supergames.
+
+    Table 1 presents the results of linear regressions that test for the statistical significance
+of these findings. Recommendation has significantly higher adoption rate than Out-
+sourcing (represented by the constant).12 The data thus reject the null hypothesis and are
+
+  12In line with our pre-registration (https://osf.io/fh89u/), we refer to results as statistically significant
+when p < 0.05 and as weakly significant when p < 0.1.
+
+                                                         11
+               1.0
+
+               0.8
+
+Adoption Rate  0.6
+
+               0.4
+
+               0.2                  Recommendation
+               0.0 1                Outsourcing
+
+                      2  3          4                                      5
+                         Supergame
+
+                    Figure 1: Algorithm adoption rates across supergames.
+
+consistent with Hypothesis 1, that participants are more likely to adopt an algorithm for
+pricing decisions in the Recommendation than in the Outsourcing.13 This pattern holds
+consistently across all supergames. Regression (3) shows a statistically significant decline in
+adoption rates across supergames. The Supergame coefficient applies to Outsourcing and
+is significant. The trend in Recommendation is also significant (Wald test, Supergame +
+Recommendation × Supergame, p < 0.05).
+
+Result 1. Participants frequently delegate to the algorithm, but adoption declines across
+supergames. The adoption rate is higher in Recommendation than in Outsourcing.
+
+    Figure 2 illustrates how market composition varies depending on whether none, one, or
+both participants adopt the algorithm ("market type"). The right panel presents the data
+for Recommendation and the left panel for Outsourcing. In Outsourcing, mixed
+human-algorithmic markets dominate, accounting for around half of all observations. Fully
+algorithmic markets (and hence perfectly collusive ones) constitute only around one quarter
+of the outcomes after supergame 1. In Recommendation, markets in which both partici-
+pants choose algorithmic support dominate with 62% to 72% with a moderate decline across
+supergames.
+
+  13The main regression results are corroborated by Mann-Whitney U tests in Table C.2 in the online
+appendix.
+
+                                                         12
+Table 1: Algorithm adoption by treatment
+
+                                     Algorithm Adoption
+
+                                (1)    (2)               (3)
+
+Recommendation              0.29        0.29       0.20
+Supergame                   (0.05)      (0.05)     (0.06)
+Recommendation × Supergame             -0.04      -0.05
+(Intercept)                 0.53        (0.01)     (0.01)
+                            (0.04)                 0.03
+                                        0.64       (0.01)
+                                        (0.05)     0.69
+                                                   (0.04)
+
+Sub-sample                  Out & Rec  Out & Rec  Out & Rec
+# observations                  1000       1000       1000
+# cluster                        20         20         20
+R2                              0.10       0.11       0.11
+
+Data restricted to Outsourcing and Recommendation treatments. Results are based on linear regres-
+sion with clustered standard errors at the matching group level. Significance levels: *** p < 0.01; **
+p < 0.05; * p < 0.1 .
+
+    Figure 2 highlights a trivial but important fact: not all markets involve algorithms acting
+on behalf of both players. This emphasizes the importance of human­algorithmic interaction
+in mixed markets.
+
+    Concluding this section, we analyze participants' beliefs about their counterparts' al-
+gorithm use. The belief was elicited after every supergame, and we compare them to the
+actual delegation decisions. The accuracy of beliefs differs noticeably across treatments. In
+Recommendation, the mean belief conditional on the opponent choosing the algorithm is
+59%, while the belief when the opponent did not is 46.4%. In contrast, the Outsourcing
+treatment yields a pronounced gap, with beliefs at 80.6% when the opponent used the algo-
+rithm and 38% when the opponent did not. Table C.3 reports a metric for the accuracy of
+beliefs as well as tests showing that stated beliefs are better than random guesses.
+
+Result 2. Participants' beliefs about their opponent's algorithm use are significantly more
+accurate than chance in both treatments. Beliefs in the Outsourcing treatment are signif-
+icantly more accurate than those in the Recommendation treatment.
+
+                            13
+       1.0                                                   0.02            0.08
+
+                   0.08  0.18
+
+                               0.30  0.20  0.30              0.28 0.28 0.28 0.38
+                                                                                                   0.30
+       0.8
+
+            0.44
+
+       0.6               0.54
+
+Share                          0.50 0.60 0.46
+
+       0.4                                                   0.72 0.70 0.72
+
+                                                                             0.62 0.62
+
+       0.2  0.48                                 MTayrpkeet
+
+                         0.28 0.20 0.20 0.24         AA
+                                                     AH
+                                                     HH
+
+       0.0 SG 1 SG 2 SG 3 SG 4 SG 5                          SG 1 SG 2 SG 3 SG 4 SG 5
+
+                         Outsourcing                                 Recommendation
+
+Figure 2: Distribution of market types across treatments and supergames. AA refers to fully
+algorithmic, AH to mixed human-algorithm, and HH to fully human markets.
+
+3.2 Prices
+
+3.2.1 Market prices across supergames and treatment comparison
+
+Figure 3 presents the average market price across all rounds, separately for each supergame
+and treatment, where the market price is defined as the lower of the two prices. Average
+market prices range from 2.2 to 3.2, depending on the treatment and supergame. Prices in
+Baseline are higher than in the other two treatments, except in the first supergame, and
+market prices in Outsourcing are higher than in Recommendation.
+
+    The regressions in the top panel of Table 2 analyze the market prices for treatment dif-
+ferences. Regression (1) confirms that the average market price in Baseline is significantly
+higher than in Recommendation (p < 0.01) and not significantly different from Out-
+sourcing. These results remain robust when we weight the data by supergame length in
+regression (2). In supergame 1, market prices in Outsourcing are significantly higher than
+in Baseline while prices in Recommendation are significantly lower, see regression (3).
+
+    By supergame 5, this pattern is reversed. As shown in regression (4), there is a significant
+difference in market prices between Baseline and Outsourcing in supergame 5 (p < 0.05).
+Extending regressions (1) and (2), regressions (5) and (6) add a supergame time trend and
+treatment×supergame interactions while keeping the same sample and weighting schemes,
+
+                                                 14
+                      4.0                  Baseline
+
+                      3.5                  Outsourcing
+                                           Recommendation
+
+Average Market Price  3.0
+
+                      2.5
+
+                      2.0
+
+                      1.5
+
+                      1.0 1  2      3      4                                   5
+                                Supergame
+
+                             Figure 3: Average market price across supergames
+
+respectively. The positive and significant supergame coefficient confirms the upward trend
+in Baseline, whereas the negative and significant interaction terms for Outsourcing
+and Recommendation indicate no or declining price trends in the algorithmic treatments.
+The difference in market prices between Outsourcing and Recommendation is highly
+significant in the full sample (regression (1), p < 0.01, Wald test), weakly significant in
+the weighted model (regression (2), p < 0.1, Wald test), highly significant in supergame 1
+(regression (3), p < 0.01, Wald test), significant in supergame 5 (regression (4), p < 0.05,
+Wald test), and again highly significant in the specifications with treatment × supergame
+interactions (regressions (5) and (6), p < 0.01, Wald tests).
+
+    Market prices increase in the Baseline treatment across supergames, decline in Out-
+sourcing, and follow no statistically significant trend in Recommendation. For Base-
+line, we find a highly significant and positive supergame coefficient (p < 0.01) in regressions
+(5) and (6), suggesting a trend toward greater cooperation as participants learn over su-
+pergames.14
+
+  14This pattern is similar to results from other experiments with strategically similar environments with
+two players (see, for instance, Dal Bo´ and Fr´echette, 2018).
+
+                                15
+Table 2: Market prices and first-round market prices by treatment
+
+                                       Market Prices
+
+                     (1)      (2)      (3)      (4)            (5)   (6)
+
+Outsourcing            0.18    -0.16   0.64     -0.40     0.82        0.49
+Recommendation        (0.15)   (0.15)   (0.20)   (0.18)   (0.23)      (0.21)
+Supergame            -0.56    -0.55    -0.43    -0.90     -0.30       -0.17
+Outsourcing × SG      (0.18)   (0.18)   (0.21)   (0.22)   (0.23)      (0.21)
+Recommendation × SG                                       0.16        0.13
+(Intercept)           2.77     2.95    2.52      3.12     (0.04)      (0.04)
+                      (0.08)   (0.08)   (0.11)   (0.11)  -0.28       -0.22
+                                                          (0.06)      (0.05)
+                                                          -0.11      -0.13
+                                                          (0.06)      (0.05)
+                                                          2.40        2.56
+                                                          (0.14)      (0.14)
+
+Supergame             All      All     SG 1     SG 5      All         All
+# observations       15300    15300    8400     3150     15300       15300
+# cluster                               30       30
+R2                     30       30     0.10     0.07       30          30
+                      0.05     0.03                       0.07        0.04
+
+                                    First Round Market Prices
+
+                     (1)      (2)      (3)      (4)            (5)   (6)
+
+Outsourcing          0.33      0.21    0.92      0.12     0.93        0.69
+Recommendation       (0.17)   (0.17)   (0.28)   (0.17)    (0.28)      (0.29)
+Supergame            0.39      0.32    0.92      0.16     0.97        0.83
+                     (0.18)   (0.18)   (0.25)   (0.19)    (0.25)      (0.26)
+                                                          0.18        0.16
+Outsourcing × SG              2.94     2.38     3.08      (0.05)      (0.04)
+                              (0.14)   (0.21)   (0.15)   -0.20       -0.16
+Recommendation × SG                                       (0.06)      (0.06)
+                                                         -0.19       -0.17
+(Intercept)          2.85                                 (0.06)      (0.06)
+                     (0.14)                               2.31        2.43
+                                                          (0.22)      (0.21)
+
+Supergame            All      All      SG 1 SG 5               All   All
+# observations
+# cluster            750      750      150      150            750   750
+R2
+                     30       30       30       30             30    30
+
+                     0.03     0.02     0.16     0.01           0.05  0.03
+
+Results are based on linear regression with standard errors clustered at the matching group level. Models (2) and (6) are
+weighted by supergame length. Significance levels: *** p < 0.01; ** p < 0.05; * p < 0.1.
+
+                                   16
+    In contrast, average market prices in the algorithmic treatments fluctuate across su-
+pergames, with an overall negative trend across supergames in Outsourcing (regressions
+(5) and (6), Supergame + Supergame × Outsourcing, p < 0.01, Wald tests), and no
+statistically significant trend in Recommendation (regressions (5) and (6), Supergame +
+Supergame × Recommendation, p > 0.1, Wald tests).
+
+Result 3. Market prices are higher in Baseline than in Recommendation and Out-
+sourcing in the final supergame.
+
+    Result 3 stands in sharp contrast to Hypothesis 2. Even though the algorithm available to
+participants implements highly collusive strategies and makes collusion incentive compatible,
+it does not foster collusion. Only in the first supergame Outsourcing has a pro-collusive
+effect. In the last supergame, access to the algorithm even has a pro-competitive effect and
+leads to lower prices than when no algorithm can be used at all.
+
+3.2.2 Market prices in the initial periods
+
+Next, we examine the market prices in the first periods of the supergames, which are central
+to many collusive strategies and often predictive of cooperative outcomes (see, for instance,
+Dal Bo´ and Fr´echette, 2018). The algorithm either sets or recommends a price of 4 in the first
+round for adopters, while participants in the Baseline treatment and non-adopters freely
+choose their initial market price. The three solid lines in Figure 4 visualize the average
+first-round market prices across supergames.
+
+    The bottom panel of Table 2 analyzes the first-round market prices for treatment dif-
+ferences. Regression (3) shows that first-round market prices in both Outsourcing and
+Recommendation are higher than in Baseline (p < 0.01). By supergame 5, these differ-
+ences are no longer significant (regression (4), p > 0.1). In the full sample, first-round prices
+in the algorithmic treatments exceed Baseline (regression (1)), and the effects weaken un-
+der weighting (regression (2)). Adding a time trend and interactions in regressions (5)­(6)
+yields a positive Supergame coefficient and negative treatment × supergame terms, indi-
+cating convergence toward similar initial prices. Wald tests do not reject equality between
+Outsourcing and Recommendation in any specification (regressions (1)­(6), p > 0.1),
+nor do they reject equality of the interaction effects (regressions (5) and (6), p > 0.1).
+Within-treatment trends are positive in Baseline but not statistically different from zero
+in the algorithmic treatments (regressions (5) and (6), p > 0.1).
+
+    The three dashed lines in Figure 4 show the market price change from period 1 to period
+2. This change is negligible in Baseline across all supergames, whereas prices drop by a sub-
+stantial amount (on average 0.5 to 1) in the algorithmic treatments. That is, participants in
+
+                                                         17
+Baseline maintain the initial price level, unlike in Outsourcing and Recommendation,
+where prices quickly decline.15
+
+             4
+
+Price Change / Market Price  3
+
+                             2
+
+                             1
+
+                             0
+
+                             1  1              2  Super3game      4        5
+
+                             Outsourcing P1       Recommendation  P1P2  1  Baseline  P1P2  1
+                             Outsourcing P2 1     Recommendation           Baseline
+
+Figure 4: Average first round market price P1 and difference between second and first round
+P2-1
+
+    The pattern of failed coordination in the algorithmic treatments versus improved co-
+ordination in Baseline is also evident in Figure 5. It shows the frequency of outcomes,
+where both firms choose the monopoly price, across the first three rounds of supergames 1
+and 5. In Baseline, the frequency of these collusive outcomes increases steadily, especially
+by supergame 5, indicating successful learning and coordination. In contrast, the share of
+fully collusive outcomes in Outsourcing remains flat, and in Recommendation it even
+declines across the first three rounds. This suggests that while humans in Baseline learn
+to coordinate on fully collusive outcomes over time, algorithms fail to improve this pattern,
+and in the case of Recommendation, may actively hinder it.16
+
+Result 4. While first-round market prices in Outsourcing and Recommendation are
+higher than in Baseline, they increase in Baseline and are not statistically significantly
+different across treatments by the last supergame.
+
+  15This sharp decline in prices is not limited to the first two rounds but reflects a broader pattern. Average
+Market prices are generally below first-round market prices in the algorithmic treatments. By contrast, in
+the Baseline treatment, we do not find a significant difference as shown in Table C.4 in the online appendix.
+
+  16See Figure C.4 in the online appendix for the frequency broken down by other price states.
+
+                                                         18
+           1.0                                            Baseline
+
+                                                          Outsourcing
+                                                          Recommendation
+                                                          Supergame 1
+           0.8                                            Supergame 5
+
+Frequency  0.6
+
+           0.4
+
+           0.2                    III  I I II II III III  I I II II III III
+                          II
+                   I
+
+                I  II III
+
+           0.0     Baseline            Outsourcing        Recommendation
+
+Figure 5: Frequency of joint monopoly pricing outcomes (p1 = p2 = 4) in the first three
+rounds (I, II, III) of Supergames 1 (solid bars) and 5 (hatched bars), by treatment.
+
+    Result 4 suggests that while algorithms help establish initially high price levels, they also
+introduce immediate downward pressure, often leading to declining prices across rounds, in
+particular in Recommendation. This contrasts with the Baseline treatment, where we
+observe rising prices over time. The pattern is intuitive. Perfect collusion is rare in early
+rounds, triggering algorithmic punishment, which participants tend to follow. However,
+participants do not seem to sufficiently learn to return to the collusive path after punishment,
+which is recommended by the algorithm.
+
+4 Discussion
+
+While subjects choose the algorithm, they do so only partially and at a decreasing rate. Fur-
+thermore, contrary to Hypothesis 2, after learning, market prices are higher in the Baseline
+treatment, where two humans interact without the assistance of an algorithm. While the
+initial prices in Recommendation and Outsourcing are indeed collusive, they decrease
+in the following periods. In the following, we discuss some of the mechanisms that drive
+
+                                       19
+those results.
+
+4.1 Coordination failure at the stage of algorithm choice
+
+If both participants choose the algorithm or follow its recommendations, they automatically
+monopolize the market. However, Section 3.1 documents that participants do not always
+coordinate on using an algorithm. In this section, we discuss the consequences of this coor-
+dination failure.
+
+    The different market compositions seen in Figure 2 lead to distinct price outcomes across
+treatments seen in Figure C.1 in the online appendix. In Outsourcing, AA markets con-
+sistently achieve the monopoly price of 4, as the algorithm starts by colluding and never
+deviates. Mixed markets show lower prices, despite the fact that participants could main-
+tain collusion by also choosing the monopoly price in each round. Prices in HH markets are
+the lowest, even lower than in Baseline, although both involve two humans freely choosing
+prices. In Recommendation, prices in AA markets are lower than in Outsourcing, aver-
+aging around 2.5. This suggests that participants do not consistently follow the algorithm's
+recommendations. Market prices in AH are slightly lower still, indicating limited coordi-
+nation. Overall, market composition strongly shapes pricing outcomes, with algorithmic
+coordination failing to match the stability and collusion observed in Outsourcing.
+
+Table 3: Per-period profits, average across five supergames, Outsourcing and Recom-
+mendation treatments
+
+                                                 Outsourcing
+                                                    Algorithm No Algorithm
+
+                             Algorithm 120.00, 120.00 57.46, 95.22
+                             No Algorithm 95.22, 57.46 50.34, 50.34
+
+                           Recommendation
+                                 Algorithm No Algorithm
+
+                Algorithm  68.66, 68.66 60.77, 61.49
+
+                No Algorithm 61.49, 60.77 70.00, 70.00
+
+    Table 3 summarizes how algorithm adoption and subsequent pricing decisions affect prof-
+its. It reports the (ex-post realized) average profits per round across the five supergames,
+conditional on the own adoption decision and the adoption decision of the market opponent.
+For Outsourcing (top panel of Table 3), choosing the algorithm is the dominant action,
+and mutual adoption would be the Nash equilibrium of this reduced game. In Recommen-
+dation (bottom panel), both mutual adoption and mutual non-adoption would be Nash
+
+                                                         20
+equilibria of the reduced game, although the latter is based on relatively few observations.17
+Hence, adoption would be a Nash equilibrium outcome in both treatments and should be in
+the participants' best interest.
+
+    It is important to recognize, however, that the averages reported in Table 3 mask
+individual-level heterogeneity. In particular, some participants may have been better off
+deviating from algorithm use, especially when they were matched with a human in mixed
+markets.18 For example, in Outsourcing, 59.1% of algorithm adopters paired with a hu-
+man in the first supergame earned profits below the average human-human payoff. In later
+supergames, this share remains high, ranging from 43.5% to 76.0%. Even when not strictly
+worse off, adopters may have been discouraged by seeing their opponent earn significantly
+more, up to two-thirds more, which could reduce their willingness to adopt again. These
+patterns indicate that mixed markets involve considerable heterogeneity in individual pay-
+offs, which can shape adoption incentives in ways not captured by aggregate averages. In the
+following, we investigate what drives this individual-level heterogeneity in mixed markets,
+starting with a closer look at the Outsourcing treatment.
+
+4.2 Failure to collude in Outsourcing
+
+The large payoff differences between adopters and non-adopters in asymmetric markets in
+Outsourcing (see Table 3) can be traced to a cyclic-deviation strategy used by many
+non-adopters. Recall that the participants had the opportunity to explore the algorithm in
+advance, so they understand its behavior and can recognize when it is being used. Some
+participants start by checking whether their opponent has chosen the algorithm, and if so, use
+a strategy that involves undercutting the algorithm's collusive price once, then immediately
+switching to the punishment price of 1 to reset cooperation. By repeating this pattern of
+triggering punishment by deviating, and then playing p = 1, participants attempt to extract
+short-term gains while staying synchronized with the algorithm's punishment strategy. As
+shown in Figure C.2 in the online appendix, this leads to a distinct zig-zag pattern in
+supergame 5 in the Outsourcing treatment.19
+
+    In mixed AH markets, human participants behave as follows. Only 26.6% of non-adopters
+consistently cooperate with the algorithm, whereas the cyclic-deviation strategy is used in
+34.6% (44) out of 127 mixed markets. When followed consistently, this strategy yields a
+
+  17We provide the same analysis split by the first and last supergame in Table C.5 in the online appendix.
+  18In their analysis of the price algorithms in German gas stations, Assad et al. (2024) find significantly
+higher margins when both firms in a duopoly use an algorithm. When only one station employs an algorithm,
+margins are similar to those under human pricing.
+  19The zig-zag pattern is still visible, even though Figure C.2 is based on average prices from all interactions,
+including duopolies that do not employ this strategy, or that employ it one period later.
+
+                                                         21
+theoretical average payoff of 15 per round for the algorithm adopter, alternating between
+0 in the undercutting round and 30 during the punishment phase. Empirically, algorithm
+adopters facing such cycles earned just 21.1 per round on average, compared to 90.4 for those
+in markets where the strategy was not used.
+
+    The prevalence of this cyclic-deviation strategy, in turn, deters subjects from adopting the
+algorithm in subsequent supergames. While both players are worse off than if both players
+adopted, the adopter of the algorithm suffers greater losses compared to the undercutter.
+In such cases, a participant who experiences being undercut can earn significantly less than
+they would in a human-human market, making non-adoption appear rational from an ex-post
+perspective.
+
+    Of course, using the seemingly exploitative strategy is not profitable. Collusion at the
+monopoly price is incentive compatible, and the punishment strategy of the algorithm makes
+it impossible to achieve higher profits from deviating than from consistently colluding.20 For
+ = 0.95, the deviation payoff (3 · 60) plus punishment payoff ( · 1 · 30) is strictly smaller
+than the collusive payoff (30 · 4 · (1 + )).
+
+    Participants know that colluding with the algorithm is in their best interest. They
+receive detailed information in the instructions about the algorithm's purpose to maximize
+their profits and its performance in previous experiments. In addition, they are trained
+against the algorithm's strategy in trial rounds. Despite this, many participants are willing
+to forego profits to repeatedly undercut the algorithm and make the other participant who
+chooses to use it worse off. In other words, we argue that this behavior is not driven by
+myopic decision-making but by a preference for outperforming the opponent.21
+
+    While the price decline in mixed markets in Outsourcing can be attributed to the
+cyclic-deviation strategy, this mechanism alone cannot explain why profits are also substan-
+tially lower in the fully human (HH) markets of Outsourcing. These lower profits are
+presented in Table 3, and they persist across supergames. There are three complementary
+explanations for the low prices and payoffs in HH markets. First, there are selection effects.
+Even in the first supergame, prices in HH markets are significantly lower than the levels ob-
+served in Baseline, despite being structurally identical in setup (p < 0.05, OLS).22 Second,
+
+  20Duffy et al. (2023) observe similar patterns in the context of a repeated Prisoner's Dilemma even when
+participants fully understand the algorithm and its strategy (a known grim trigger opponent). Their design
+eliminates strategic uncertainty and other-regarding preferences, yet most subjects make systematically
+suboptimal choices and deviate too frequently, similar to our results in mixed markets.
+
+  21The pattern that humans express spiteful preferences towards algorithms or humans that use algorithms
+in strategic games has also been reported for other environments (see, for instance, Karpus et al., 2021,
+March, 2021).
+
+  22See Figure C.1 for a comparison of the different market types to the Baseline. Table C.9 in the
+online appendix provides a comparison of market prices in supergame 1 of the Baseline and Outsourcing
+treatments, with a focus on human-human markets.
+
+                                                         22
+and as previously mentioned, non-adopters in Outsourcing often begin a supergame by
+checking whether the rival has chosen the algorithm. This may spoil the scope for further col-
+lusion during the remainder of the supergame. Third, prior exposure to the cyclic-deviation
+strategy, whether as the initiator or the counterpart, can reduce willingness to cooperate
+and result in more competitive pricing.
+
+4.3 Failure to follow recommendations of the algorithm
+
+In Recommendation, a substantial share of participants adopt the algorithm. However,
+prices remain consistently lower than in Baseline. This is striking: If recommendations
+were followed, markets would collude, and if ignored, prices should resemble those in Base-
+line. To investigate the mechanism behind this pro-competitive effect, we analyze the length
+of the punishment recommendations and the extent to which participants follow or deviate
+from them.
+
+    The algorithm recommends punishment until both players jointly play the price of p = 1.
+If participants generally follow recommendations with only occasional mistakes, punishment
+phases would last approximately one round. However, we observe that they often persist
+substantially longer.23 Across all market compositions, the average recommended punish-
+ment length in Recommendation is 1.91. This pattern is especially pronounced in AH
+markets, where the average punishment phase lasts 3.06 rounds (See Table C.6 in the online
+appendix). The first punishment phase recommendation is particularly long, with a mean
+of 2.01 rounds and a heavily right-skewed distribution, with markets that remain with a
+punishment recommendation for up to 21 rounds (See Table C.7 in the online appendix).24
+
+    These prolonged punishment phases are driven by frequent deviations from the algo-
+rithm's price recommendations in Recommendation, with downward deviations occurring
+more often than upward ones. To illustrate this asymmetry, we divide the data by the only
+two recommendations the algorithm gives: either p = 1 or p = 4. When p = 1 is recom-
+mended, participants frequently deviate upward, with rates between 32% and 43% across
+supergames. In contrast, when p = 4 is recommended, adherence is higher, ranging from 50%
+to 79% (See Figure C.3 in the online appendix). These patterns help explain the prolonged
+punishment phases. Repeated upward deviations from p = 1 delay the algorithm's return
+to recommending p = 4. The same holds in terms of magnitude: downward deviations from
+
+  23We define a punishment phase as the number of consecutive rounds in which the algorithm recommends
+the price of 1. The phase ends when players set a price of p = 1 and the algorithm subsequently recommends
+or plays 4. It is not required to actually switch back to a price of 4 for the recommended punishment phase
+to conclude.
+
+  24We also find that most participants in the Recommendation treatment do not follow the first recom-
+mendation after a punishment phase ends as shown in online appendix Table C.8
+
+                                                         23
+p = 4 average -2.21, while upward deviations from p = 1 average 1.66, for an absolute
+difference of 0.56 (see Table 4). Overall, the recommendations appear to effectively push
+prices down rather than resume the collusion after a deviation.
+
+Table 4: Mean deviations from algorithmic recommendation per supergame and overall
+
+Supergame  Recommendation  Recommendation  Absolute
+                   of 1            of 4    Difference
+
+1          1.52            -2.55           1.03
+
+2          1.88            -1.92           0.04
+
+3          1.73            -1.77           0.04
+
+4          1.67            -2.23           0.56
+
+5          1.49            -2.61           1.12
+
+Overall    1.66            -2.21           0.56
+
+    It is helpful to make a comparison to Baseline. In Baseline, participants gradually
+learn to collude, causing prices to rise across the initial rounds of a supergame and, ulti-
+mately, across supergames (see Section 3.2.2 and Figure 5). The algorithmic recommendation
+seems to counteract the learning effect in Baseline. As a result, market prices in Recom-
+mendation are lower than in Baseline, despite the fact that the algorithm is collusive and
+adoption rates are high.
+
+    The tendency to override recommendations, especially those involving punishment, may
+reflect a form of algorithm aversion. Prahl and Van Swol (2017) show in a forecasting exper-
+iment that a single visible error significantly reduces reliance on algorithmic advice, while a
+similar human error has little effect. In our setting, when a recommendation is perceived as
+unprofitable (for example, when a competitor undercuts and wins the market), it appears
+to trigger a similar loss of trust. Although algorithm adoption remains high, participants
+often discount its specific recommendations, override them, and prolong punishment phases.
+Evidence from Dietvorst et al. (2018) supports this interpretation. They find that allowing
+users to adjust an algorithm's output leads to frequent changes that lower forecast accuracy,
+even as usage increases. This suggests users may trust the algorithm overall but still reject
+individual suggestions. This pattern mirrors the behavior observed in Recommendation,
+where participants adopt the algorithm but frequently override its advice. These selective
+overrides prolong punishment phases and intensify downward price pressure. The result is
+a form of advice-specific algorithm aversion in which participants accept the algorithm in
+principle but reject its unadjusted recommendations in practice, especially when following
+them appears costly.
+
+                 24
+5 Conclusion
+
+Although recent studies have shown that reinforcement learning algorithms can learn to
+collude in repeated pricing games (Calvano et al., 2021, Klein, 2021), little attention has
+been given to the fact that using such algorithms is a strategic decision made by humans.
+This omission is significant because humans may be reluctant to adopt such algorithms, even
+when they perform well. The well-documented aversion to the use of algorithms in other
+contexts (Dietvorst et al., 2015) could offset or even reverse the anti-competitive effects of
+algorithmic pricing, which is a growing concern among regulators and researchers.
+
+    We address this gap by analyzing participants' decisions to adopt a self-learned pricing
+algorithm that is highly collusive when matched against itself in a laboratory experiment.
+Participants interact in a repeated Bertrand pricing game. We vary whether participants
+can adopt the algorithm, and whether adoption entails full delegation or manual override.
+Our design enables us to examine algorithm adoption and its effect on market prices.
+
+    Our results show that the adoption of algorithms is substantial and consistently higher
+when participants can override them. However, adoption rates decline over time in both
+algorithmic treatments. We find no evidence that access to a collusive algorithm leads to
+higher market prices. In fact, prices in both treatments fall across supergames, and by the
+final supergame, they are significantly lower than in the human-only baseline. The mere
+presence of a collusive algorithm can result in more competitive outcomes when the use of
+an algorithm is endogenous.
+
+    We identify distinct behavioral mechanisms for our two treatments. In the condition
+where subjects are fully committed to the algorithm's decisions (Outsourcing), not all
+participants adopt the algorithm. Those who retain manual control often respond with
+aggressive pricing strategies that reduce the earnings of algorithm users, even though ex-
+ploiting the algorithm is not profitable. This reduces algorithm users' profits, discourages
+further adoption, and pushes market prices down over time. Due to the ample learning op-
+portunities and feedback provided throughout the experiment, these effects are unlikely to
+result from a misunderstanding of the algorithm. Nor can they be easily avoided by alterna-
+tive algorithms with similar collusive capabilities, as frequent deviations are also observed in
+settings where algorithms use harsher punishment strategies, such as grim trigger strategies
+(Duffy et al., 2023). Instead, our results suggest that the observed pattern reflects a prefer-
+ence for outperforming others rather than short-sighted decision-making, as documented in
+other experiments (Karpus et al., 2021, March, 2021), where participants are also willing to
+incur losses to exploit an algorithm.
+
+    In the treatment where the participants can override the algorithm's decisions (Rec-
+
+                                                         25
+ommendation), adoption rates are high. However, participants frequently override the
+algorithm's collusive suggestions. These deviations trigger punishment phases that often
+persist due to insufficient coordination or reluctance to return to the recommended path.
+This creates sustained downward pressure on prices. Here, too, an algorithm that can sustain
+collusion in self-play ends up reinforcing competition when interacting with human users.
+
+    Overall, our results are surprising. Since the algorithm fosters collusion and its use is
+optional, one might expect its availability to raise prices or have little effect. For example,
+participants may choose not to adopt it or ignore its advice. Contrary to this expectation,
+the reverse occurs. Systems that reliably collude with each other can behave very differently
+when humans make adoption and execution decisions. In our setting, this not only weak-
+ens collusion but also reverses it. Ultimately, algorithm availability leads to lower prices.
+This shows the importance of studying hybrid human­algorithm environments rather than
+simulations involving only fully autonomous agents (Tsvetkova et al., 2024).
+
+    From a competition policy perspective, our findings suggest caution in assuming that
+pricing algorithms necessarily facilitate collusion. In our experiment, we give collusion every
+opportunity to succeed by using a highly collusive, non-exploitable algorithm that has already
+learned how to sustain supra-competitive prices. Algorithms that would need to learn from
+scratch during the experiment are likely to perform worse, not better. The absence of
+collusion in our setting is not due to insufficient strategic sophistication or slow convergence.25
+Instead, it stems from behavioral factors on the human side. These dynamics, such as
+algorithm aversion, strategic undercutting, or spite, deserve more attention in future research
+to better inform both competition policy and regulation when discussing algorithmic pricing.
+
+  25A common critique of reinforcement learning in pricing is that it requires too much time to learn collusive
+strategies, making this form of algorithmic collusion unlikely in practice (see, for example, den Boer et al.,
+2022).
+
+                                                         26
+References
+
+Abada, Ibrahim and Xavier Lambin, "Artificial Intelligence: Can Seemingly Collusive
+  Outcomes Be Avoided?," Management Science, 2023, 69 (9), 5042­5065.
+
+Assad, Stephanie, Robert Clark, Daniel Ershov, and Lei Xu, "Algorithmic Pricing
+  and Competition: Empirical Evidence from the German Retail Gasoline Market," Journal
+  of Political Economy, 2024, 132 (3), 723­771.
+
+Banchio, Martino and Giacomo Mantegazza, "Artificial Intelligence and Spontaneous
+  Collusion," arXiv preprint arXiv:2202.05946, 2022.
+
+Barfuss, Wolfram and Janusz M Meylahn, "Intrinsic Fluctuations of Reinforcement
+  Learning Promote Cooperation," Scientific reports, 2023, 13 (1), 1309.
+
+Brown, Zach Y and Alexander MacKay, "Competition in Pricing Algorithms," Amer-
+  ican Economic Journal: Microeconomics, 2023, 15 (2), 109­156.
+
+    and , "Algorithmic Coercion with Faster Pricing," Technical Report, National Bureau
+  of Economic Research 2025.
+
+Bundeskartellamt and Autorit´e de la concurrence, "Algorithms and Competition,"
+  2019.
+
+Calder-Wang, Sophie and Gi Heung Kim, "Algorithmic Pricing in Multifamily Rentals:
+  Efficiency Gains or Price Coordination?," Available at SSRN 4403058, 2024.
+
+Calvano, Emilio, Giacomo Calzolari, Vincenzo Denicol`o, and Sergio Pastorello,
+  "Artificial Intelligence, Algorithmic Pricing, and Collusion," American Economic Review,
+  2020, 110 (10), 3267­3297.
+
+  , , , and , "Algorithmic Collusion with Imperfect Monitoring," International Jour-
+  nal of Industrial Organization, 2021, 79, 102712.
+
+Calzolari, Giacomo and Philip Hanspach, "Pricing Algorithms Out of the Box: A
+  Study of the Repricing Industry," Journal of Competition Law & Economics, 2025.
+
+Chen, Daniel L., Martin Schonger, and Chris Wickens, "oTree--An Open-Source
+  Platform for Laboratory, Online, and Field Experiments," Journal of Behavioral and Ex-
+  perimental Finance, 2016, 9, 88­97.
+
+                                                         27
+Chen, Ji, Yifan Xu, Peiwen Yu, and Jun Zhang, "A Reinforcement Learning Ap-
+  proach for Hotel Revenue Management with Evidence from Field Experiments," Journal
+  of Operations Management, 2023, 69 (7), 1176­1201.
+
+Chen, Le, Alan Mislove, and Christo Wilson, "An Empirical Analysis of Algorith-
+  mic Pricing on Amazon Marketplace," WWW '16: Proceedings of the 25th International
+  Conference on World Wide Web, 2016, pp. 1339­1349.
+
+Competera, "How the Supermarket Chain Increased Profits by 7%," https://competera.
+  ai/resources/case-studies/supermarket-chain-pricing 2024. Accessed: 2024-10-29.
+
+Competition & Markets Authority, "Algorithms: How They Can Reduce Competition
+  and Harm Consumers," 2021.
+
+Dal B´o, Pedro and Guillaume R. Fr´echette, "On the Determinants of Cooperation in
+  Infinitely Repeated Games: A Survey," Journal of Economic Literature, March 2018, 56
+  (1), 60­114.
+
+    and Guillaume R Fr´echette, "Strategy Choice in the Infinitely Repeated Prisoner's
+  Dilemma," American Economic Review, 2019, 109 (11), 3929­52.
+
+Danz, David, Lise Vesterlund, and Alistair J. Wilson, "Belief Elicitation and Behav-
+  ioral Incentive Compatibility," American Economic Review, 2022, 112 (9), 2851­2883.
+
+den Boer, Arnoud V, Janusz M Meylahn, and Maarten Pieter Schinkel, "Artificial
+  Collusion: Examining Supracompetitive Pricing by Q-Learning Algorithms," Technical
+  Report, Tinbergen Institute Discussion Paper 2022.
+
+Deng, Shidi, Maximilian Schiffer, and Martin Bichler, "Algorithmic Collusion in
+  Dynamic Pricing with Deep Reinforcement Learning," arXiv preprint arXiv:2406.02437,
+  2024.
+
+Dietvorst, Berkeley J., Joseph P. Simmons, and Cade Massey, "Algorithm Aversion:
+  People Erroneously Avoid Algorithms After Seeing Them Err.," Journal of Experimental
+  Psychology: General, 2015, 144 (1), 114­126.
+
+Dietvorst, Berkeley J, Joseph P Simmons, and Cade Massey, "Overcoming Al-
+  gorithm Aversion: People Will Use Imperfect Algorithms If They Can (Even Slightly)
+  Modify Them," Management Science, 2018, 64 (3), 1155­1170.
+
+Duffy, John, Ed Hopkins, and Tatiana Kornienko, "Facing the Grim Truth: Repeated
+  Prisoner's Dilemma against Robot Opponents," 2023.
+
+                                                         28
+Dufwenberg, Martin and Uri Gneezy, "Price Competition and Market Concentration:
+  An Experimental Study," International Journal of Industrial Organization, 2000, 18 (1),
+  7­22.
+
+European Commission, "Final Report on the E-Commerce Sector Inquiry," 2017.
+
+Ezrachi, Ariel and Maurice E. Stucke, "Sustainable and Unchallenged Algorithmic
+  Tacit Collusion," Northwestern Journal of Technology and Intellectual Property, 2020, 17,
+  217­260.
+
+Fish, Sara, Yannai A Gonczarowski, and Ran I Shorrer, "Algorithmic Collusion by
+  Large Language Models," arXiv preprint arXiv:2404.00806, 2024.
+
+Fonseca, Miguel A and Hans-Theo Normann, "Explicit vs. Tacit Collusion--The
+  Impact of Communication in Oligopoly Experiments," European Economic Review, 2012,
+  56 (8), 1759­1772.
+
+Garcia, Daniel, Juha Tolvanen, and Alexander K Wagner, "Strategic Responses
+  to Algorithmic Recommendations: Evidence from Hotel Pricing," Management Science,
+  2024.
+
+Harrington, Joseph E, "The Effect of Outsourcing Pricing Algorithms on Market Com-
+  petition," Management Science, 2022, 68 (9), 6889­6906.
+
+Harrington, Joseph E., "Hub-and-Spoke Collusion with a Third-Party Pricing Algo-
+  rithm," Available at SSRN 5010894, 2024.
+
+Hettich, Matthias, "Algorithmic Collusion: Insights from Deep Learning," Available at
+  SSRN 3785966, 2021.
+
+Horstmann, Niklas, Jan Kr¨amer, and Daniel Schnurr, "Number Effects and Tacit
+  Collusion in Experimental Oligopolies," The Journal of Industrial Economics, 2018, 66
+  (3), 650­700.
+
+Hossain, Tanjim and Ryo Okui, "The Binarized Scoring Rule," The Review of Economic
+  Studies, 2013, 80 (3), 984­1001.
+
+Huelden, Tobias, Vitalijs Jascisens, Lars Roemheld, and Tobias Werner, Human-
+  Machine Interactions in Pricing: Evidence from Two Large-Scale Field Experiments num-
+  ber 412, DICE Discussion Paper, 2024.
+
+                                                         29
+Hunold, Matthias and Tobias Werner, "Algorithmic Price Recommendations and Col-
+  lusion: Experimental Evidence," Experimental Economics, 2025, 28 (2), 298­316.
+
+Ivanova-Stenzel, Radosveta and Michel Tolksdorf, "Measuring Preferences for Algo-
+  rithms--How Willing Are People to Cede Control to Algorithms?," Journal of Behavioral
+  and Experimental Economics, 2024, 112, 102270.
+
+Johnson, Justin P., Andrew Rhodes, and Matthijs R. Wildenbeest, "Platform
+  Design When Sellers Use Pricing Algorithms," Econometrica, 2023, 91 (5), 1841­1879.
+
+Karpus, Jurgis, Adrian Kru¨ger, Julia Tovar Verba, Bahador Bahrami, and Ophe-
+  lia Deroy, "Algorithm Exploitation: Humans Are Keen to Exploit Benevolent AI,"
+  iScience, 2021, 24 (6).
+
+Kasberger, Bernhard, Simon Martin, Hans-Theo Normann, and Tobias Werner,
+  "Algorithmic Cooperation," Available at SSRN 4389647, 2023.
+
+Klein, Timo, "Autonomous Algorithmic Collusion: Q-Learning under Sequential Pricing,"
+  The RAND Journal of Economics, 2021, 52 (3), 538­558.
+
+Ko¨bis, Nils, Zoe Rahwan, Raluca Rilla, Bramantyo Ibrahim Supriyatno, Clara
+  Bersch, Tamer Ajaj, Jean-Fran¸cois Bonnefon, and Iyad Rahwan, "Delegation to
+  Artificial Intelligence Can Increase Dishonest Behaviour," Nature, 2025, pp. 1­9.
+
+Leisten, Matthew, "Algorithmic Competition, with Humans," Available at SSRN 4733318,
+  2024.
+
+Li, Hanwei, David Simchi-Levi, Rui Sun, Michelle Xiao Wu, Vladimir Fux,
+  Torsten Gellert, Thorsten Greiner, and Andrea Taverna, "Large-Scale Price Op-
+  timization for an Online Fashion Retailer," in "Innovative Technology at the Interface of
+  Finance and Operations: Volume II," Springer, 2021, pp. 191­224.
+
+Liu, Jiaxi, Yidong Zhang, Xiaoqing Wang, Yuming Deng, and Xingyu Wu, "Dy-
+  namic Pricing on E-Commerce Platform with Deep Reinforcement Learning: A Field
+  Experiment," arXiv preprint arXiv:1912.02572, 2019.
+
+March, Christoph, "Strategic Interactions between Humans and Artificial Intelligence:
+  Lessons from Experiments with Computer Players," Journal of Economic Psychology,
+  2021, 87, 102426.
+
+                                                         30
+Martin, Simon, Hans-Theo Normann, Paul Pu¨plichhuisen, and Tobias Werner,
+  "The Spoils of Algorithmic Collusion: Profit Allocation Among Asymmetric Firms," arXiv
+  preprint arXiv:2501.07178, 2025.
+
+Mnih, Volodymyr, Koray Kavukcuoglu, David Silver, Andrei A Rusu, Joel Ve-
+  ness, Marc G Bellemare, Alex Graves, Martin Riedmiller, Andreas K Fid-
+  jeland, Georg Ostrovski et al., "Human-Level Control through Deep Reinforcement
+  Learning," Nature, 2015, 518 (7540), 529­533.
+
+Musolff, Leon, "Algorithmic Pricing, Price Wars and Tacit Collusion: Evidence from E-
+  Commerce," 2024.
+
+Normann, Hans-Theo and Martin Sternberg, "Human-Algorithm Interaction: Algo-
+  rithmic Pricing in Hybrid Laboratory Markets," European Economic Review, 2023, 152,
+  104347.
+
+Nowak, Martin and Karl Sigmund, "A Strategy of Win-Stay, Lose-Shift That Outper-
+  forms Tit-for-Tat in the Prisoner's Dilemma Game," Nature, 1993, 364 (6432), 56­58.
+
+Prahl, Andrew and Lyn Van Swol, "Understanding Algorithm Aversion: When Is Ad-
+  vice from Automation Discounted?," Journal of Forecasting, 2017, 36 (6), 691­702.
+
+Roth, Alvin E. and J. Keith Murnighan, "Equilibrium Behavior and Repeated Play of
+  the Prisoner's Dilemma," Journal of Mathematical Psychology, 1978, 17 (2), 189­198.
+
+Schaefer, Maximilian, "On the Emergence of Cooperation in the Repeated Prisoner's
+  Dilemma," arXiv preprint arXiv:2211.15331, 2022.
+
+Schauer, Andreas and Daniel Schnurr, "Competition and Collaboration Between Hu-
+  man and Artificial Intelligence in Digital Markets," Available at SSRN 4565678, 2023.
+
+Silver, David, Aja Huang, Chris J Maddison, Arthur Guez, Laurent Sifre, George
+  Van Den Driessche, Julian Schrittwieser, Ioannis Antonoglou, Veda Panneer-
+  shelvam, Marc Lanctot et al., "Mastering the Game of Go with Deep Neural Networks
+  and Tree Search," Nature, 2016, 529 (7587), 484­489.
+
+Tsvetkova, Milena, Taha Yasseri, Niccolo Pescetelli, and Tobias Werner, "A New
+  Sociology of Humans and Machines," Nature Human Behaviour, 2024, 8 (10), 1864­1876.
+
+U.S. Department of Justice, Antitrust Division & Federal Trade Commission,
+  "Statement of Interest of the United States: Karen CornishAdebiyi v. Caesars Entertain-
+  ment," https://www.justice.gov/d9/2024-04/420931.pdf 2024. Filed March 28, 2024.
+
+                                                         31
+Waltman, Ludo and Uzay Kaymak, "Q-Learning Agents in a Cournot Oligopoly Model,"
+  Journal of Economic Dynamics and Control, 2008, 32 (10), 3275­3293.
+
+Watkins, Christopher John Cornish Hellaby, "Learning from Delayed Rewards." PhD
+  dissertation, King's College, Cambridge 1989.
+    and Peter Dayan, "Q-Learning," Machine Learning, 1992, 8, 279­292.
+
+Werner, Tobias, "Algorithmic and Human Collusion," Available at SSRN 3960738, 2024.
+Wright, Julian, "Punishment Strategies in Repeated Games: Evidence from Experimental
+
+  Markets," Games and Economic Behavior, 2013, 82, 91­102.
+
+                                                         32
+Online Appendix A: Instructions
+
+Instructions - English translation
+
+In this experiment, you will make repeated decisions. These decisions allow you to earn real
+money. How much you earn depends on your decisions and those of the other participants.
+Independently of this, you will receive 6 euros for participating.
+In the experiment, we use a fictitious currency called talers. After the experiment, the talers
+will be converted into euros and paid out to you. Here, 140 talers correspond to one
+euro.
+In this experiment, you represent a firm in a virtual product market. In each market, one
+other firm sells the same product as you. This firm is represented by another participant.
+All firms offer 60 units of the comparable product. Producing the product entails no costs
+for the firms. The experiment consists of several periods. A period comprises several rounds,
+with the exact number determined randomly. You play the game for five periods. In each
+round of a period, you face the same firm (i.e., one participant). After each period, you are
+randomly paired with a new firm.
+
+Round: A round is a part within a period in which you interact with the same participant.
+In every round you make price decisions and receive information about your profit and the
+prices of the other firms.
+
+Period: A period consists of several rounds and represents a complete repetition of the
+game. Before a new period begins, the market is randomly reassembled so that you interact
+with different participants.
+The market has 60 identical customers. In every round of a period, each customer wishes to
+buy one unit of the product at the lowest possible price. Each customer is willing to pay
+at most 4 for this unit of the product.
+All firms decide anew and simultaneously in every round for how many talers they want
+to sell their product. You can sell your product for a price of 1, 1 taler, . . . or 5 (whole
+talers only). Your profit is the price multiplied by the number of units sold.
+
+                                      Profit = Price × Units sold
+
+The firm with the lowest price in the respective round sells its products as long as the
+price is not greater than 4. Firms with a higher price do not sell their product. The lowest
+price is the market price in the respective round. Firms with a price higher than
+
+                                                         33
+the market price do not sell their products in that round. If both firms offer their
+products at the same market price, the demand is divided equally between the two firms.
+
+Example 1: Firm A sets a price of 3 talers, Firm B sets a price of 3 talers. Firm A and B
+thus jointly set the lowest price. They each sell the same number of products (30 each) and
+therefore obtain the same profit of 90 talers.
+
+                            Firm A Firm B
+
+Prices                      3   3
+
+Profits 90                      90
+
+Example 2: Firm A sets a price of 1 taler, Firm B sets a price of 2 talers. Firm A sells
+the product to all 60 customers, Firm B sells nothing.
+
+                            Firm A Firm B
+
+Prices                      1   2
+
+Profits 60                      0
+
+Example 3: Firm A sets a price of 5 talers, Firm B sets a price of 5 talers. Customers are
+only willing to pay 4 talers. No firm sells a product.
+
+                            Firm A Firm B
+
+Prices                      5   5
+
+Profits 0                       0
+
+Delegating to an Algorithm
+
+In this experiment, you can set the price for your firm's product in two ways: first, you can
+set the price yourself.
+
+Only in the Recommendation treatment:
+Alternatively, you and the other participants have the option to receive a price recom-
+mendation from an algorithm. This decision is made at the beginning of each period
+and applies to all rounds of that period.
+Important: Even if you decide to use algorithmic price setting, you can override it at
+any time. The algorithm's recommendation is therefore not binding and you retain full
+control.
+
+                            34
+Only in the Outsourcing treatment:
+Alternatively, you and the other participants have the option to let an algorithm set the
+price for you. This decision is made at the beginning of each period and applies to
+all rounds of that period.
+Important: If you choose the algorithm, it takes over all price decisions for you.
+
+If you choose the algorithm, you will still receive the profit your firm earns.
+Using the algorithm is free of charge and aims to maximize your profits throughout
+the entire period. You decide before each period whether you want to use the
+algorithm. Below we explain how the algorithm works.
+
+Description of the Algorithm
+
+In this experiment, a pricing algorithm is available to you that has been tested in sim-
+ulated scenarios.
+The algorithm uses the prices from the previous round in your market to determine
+a suitable price for each round. The algorithm has already learned in simulated scenarios
+and its behavior will not change during the experiment.
+This version of the algorithm was selected for its performance in two key areas: maximizing
+your profit and adaptability to different market strategies.
+
+    · It is designed to set prices that, on average, maximize your profits across all rounds of
+       a period.
+
+    · It is designed to respond to different strategies of competitors and not be exploitable.
+
+The decision to use this algorithm is yours. The algorithm is available to you in every period.
+You can decide anew before the start of each period whether you want to use it
+or not.
+
+Instructions - German
+
+In diesem Experiment treffen Sie wiederholt Entscheidungen. Diese erm¨oglichen es Ihnen,
+echtes Geld zu verdienen. Wie viel Sie verdienen, ist abha¨ngig von Ihren Entscheidungen
+und denen der anderen Teilnehmerinnen und Teilnehmer. Unabh¨angig davon erhalten
+Sie 6 Euro fu¨r die Teilnahme.
+
+                                                         35
+Im Experiment verwenden wir eine fiktive Geldeinheit namens Taler. Im Anschluss an
+das Experiment werden die Taler in Euro umgerechnet und Ihnen ausgezahlt. Dabei
+entsprechen 140 Taler einem Euro.
+
+In diesem Experiment repra¨sentieren Sie eine Firma in einem virtuellen Produktmarkt. In
+jedem Markt verkauft eine weitere Firma das gleiche Produkt wie Sie. Diese Firma wird
+von einer anderen Experimentteilnehmerin bzw. einem Experimentteilnehmer repra¨sentiert.
+Alle Firmen bieten 60 Einheiten des vergleichbaren Produktes an. Bei der Produktion des
+Produktes entstehen fu¨r die Firmen keine Kosten. Das Experiment hat mehrere Durchg¨ange.
+Ein Durchgang hat mehrere Runden, wobei die genaue Anzahl durch einen Zufallsmecha-
+nismus entschieden wird. Sie spielen das Spiel fu¨r fu¨nf Durchg¨ange. Sie treffen in jeder
+Runde eines Durchgangs auf dieselbe Firma (also eine Experimentteilnehmerin bzw. einen
+Experimentteilnehmer). Nach jedem Durchgang werden Sie zuf¨allig erneut mit einer Firma
+gepaart.
+
+Runde: Eine Runde ist ein Teil innerhalb eines Durchgangs, in dem Sie mit der gle-
+ichen Teilnehmerin bzw. dem gleichen Teilnehmer interagieren. In jeder Runde treffen
+Sie Preisentscheidungen und erhalten Informationen zu Ihrem Gewinn und den Preisen der
+anderen Firmen.
+
+Durchgang: Ein Durchgang besteht aus mehreren Runden und stellt eine vollst¨andige
+Wiederholung des Spiels dar. Vor dem Beginn eines neuen Durchgangs wird der Markt
+zufa¨llig neu zusammengestellt, sodass Sie mit unterschiedlichen Teilnehmerinnen/Teilnehmern
+interagieren.
+Der Markt hat 60 identische Kunden. Jeder Kunde mo¨chte in jeder Runde eines Durchgangs
+eine Einheit des Produkts m¨oglichst gu¨nstig kaufen. Jeder Kunde ist bereit, maximal 4
+fu¨r diese Einheit des Produkts auszugeben.
+Alle Firmen entscheiden in jeder Runde erneut gleichzeitig, fu¨r wie viele Taler sie ihr
+Produkt verkaufen m¨ochten. Sie ko¨nnen Ihr Produkt fu¨r einen Preis von 1, 1 Taler, . . . oder
+5 verkaufen (nur ganze Taler). Ihr Gewinn ist der Preis multipliziert mit der Anzahl an
+verkauften Einheiten.
+
+                              Gewinn = Preis × verkaufte Einheiten
+
+Die Firma mit dem niedrigsten Preis in der jeweiligen Runde verkauft ihre Produkte,
+solange der Preis nicht gr¨oßer als 4 ist. Firmen mit einem h¨oheren Preis verkaufen ihr
+Produkt nicht. Der niedrigste Preis ist der Marktpreis in der jeweiligen Runde.
+
+                                                         36
+Firmen mit einem Preis, der gro¨ßer als der Marktpreis ist, verkaufen ihre Produkte
+in der jeweiligen Runde nicht. Sollten beide Firmen ihre Produkte fu¨r den gleichen
+Marktpreis verkaufen wollen, teilt sich die Nachfrage gleichm¨aßig auf die zwei Firmen auf.
+
+Beispiel 1: Firma A setzt einen Preis von 3 Taler, Firma B setzt einen Preis von 3 Taler.
+Somit haben Firma A und B gemeinsam den niedrigsten Preis gesetzt. Sie verkaufen beide
+die gleiche Anzahl an Produkten (jeweils 30) und bekommen damit den gleichen Gewinn von
+90 Talern.
+
+                                 Firma A Firma B
+
+Preise                           3   3
+
+Gewinne 90                           90
+
+Beispiel 2: Firma A setzt einen Preis von 1 Taler, Firma B setzt einen Preis von 2 Taler.
+Firma A verkauft das Produkt an alle 60 Kunden, Firma B verkauft nichts.
+
+                                 Firma A Firma B
+
+Preise                           1   2
+
+Gewinne 60                           0
+
+Beispiel 3: Firma A setzt einen Preis von 5 Taler, Firma B setzt einen Preis von 5 Taler.
+Kunden sind nur bereit 4 Taler zu zahlen. Keine Firma verkauft ein Produkt.
+
+                                 Firma A Firma B
+
+Preise                           5   5
+
+Gewinne                          0   0
+
+Delegieren an einen Algorithmus
+
+In diesem Experiment ko¨nnen Sie den Preis fu¨r das Produkt Ihrer Firma auf zwei Arten
+festlegen: Zum einen ko¨nnen Sie selbst den Preis setzen.
+
+Nur im Recommendation Treatment:
+Alternativ haben Sie und die anderen Teilnehmerin und Teilnehmer die Mo¨glichkeit, eine
+Preisempfehlung von einem Algorithmus zu erhalten. Diese Entscheidung wird zu
+Beginn jedes Durchgangs getroffen und gilt fu¨r alle Runden dieses Durchgangs.
+Wichtig ist: Auch wenn Sie sich entscheiden, die algorithmische Preissetzung zu nutzen,
+so k¨onnen Sie diese jederzeit u¨berschreiben. Die Empfehlung des Algorithmus ist also
+
+                                 37
+nicht binden und Sie behalten die volle Kontrolle.
+
+Nur im Outsourcing Treatment:
+Alternativ haben Sie und die anderen Teilnehmerinnen und Teilnehmer die Mo¨glichkeit,
+einen Algorithmus den Preis fu¨r Sie festlegen zu lassen. Diese Entscheidung wird
+zu Beginn jedes Durchgangs getroffen und gilt fu¨r alle Runden dieser Durchgangs.
+Wichtig ist: Wenn Sie sich fu¨r den Algorithmus entscheiden, u¨bernimmt dieser alle
+Preisentscheidungen fu¨r Sie.
+
+Falls Sie sich fu¨r den Algorithmus entscheiden, erhalten Sie weiterhin den Gewinn,
+den Ihre Firma erzielt. Die Verwendung des Algorithmus ist kostenlos und zielt da-
+rauf ab, Ihre Gewinne u¨ber den gesamten Durchgang zu maximieren. Sie treffen
+vor jedem Durchgang erneut die Entscheidung, ob Sie den Algorithmus nutzen
+wollen. Im Folgenden erkla¨ren wir Ihnen, wie der Algorithmus funktioniert.
+
+Beschreibung des Algorithmus
+
+In diesem Experiment steht Ihnen ein Preisalgorithmus zur Verfu¨gung, der in simulierten
+Szenarien getestet wurde.
+Der Algorithmus verwendet die Preise aus der vorherigen Runde aus Ihrem Markt,
+um einen geeigneten Preis fu¨r jede Runde zu ermitteln. Der Algorithmus hat bereits in
+simulierten Szenarien gelernt und das Verhalten des Algorithmus wird sich im Experiment
+nicht a¨ndern.
+Diese Version des Algorithmus wurde aufgrund seiner Leistung in zwei Schlu¨sselbereichen
+ausgewa¨hlt: Maximierung Ihres Gewinns und Anpassungsf¨ahigkeit an verschiedene
+Marktstrategien.
+
+    · Er ist darauf ausgelegt, Preise festzulegen, die im Durchschnitt Ihre Gewinne u¨ber alle
+       Runden eines Durchgangs maximieren.
+
+    · Er ist darauf ausgelegt, auf unterschiedliche Strategien von Wettbewerbern reagieren
+       zu k¨onnen und nicht ausnutzbar zu sein.
+
+Die Entscheidung, diesen Algorithmus zu verwenden, liegt bei Ihnen. Der Algorithmus
+steht Ihnen in jedem Durchgang zur Verfu¨gung. Sie ko¨nnen vor dem Beginn jedes
+Durchgangs neu entscheiden, ob Sie ihn verwenden mo¨chten oder nicht.
+
+                                                         38
+Online Appendix B: Experimental design
+
+Experimental design - English translation
+
+              Figure B.1: Decision screen for algorithm adoption in Outsourcing
+                                                         39
+Figure B.2: Decision screen for algorithm adoption in Recommendation
+                                              40
+   Figure B.3: Decision screen in Outsourcing with algorithm adoption
+Figure B.4: Decision screen in Recommendation with algorithm adoption
+
+                                               41
+Figure B.5: Belief elicitation screen in algorithmic treatments
+                                      42
+Experimental Design - German
+
+              Figure B.6: Decision screen for algorithm adoption in Outsourcing
+                                                         43
+Figure B.7: Decision screen for algorithm adoption in Recommendation
+                                              44
+   Figure B.8: Decision screen in Outsourcing with algorithm adoption
+Figure B.9: Decision screen in Recommendation with algorithm adoption
+
+                                               45
+Figure B.10: Belief elicitation screen in algorithmic treatments
+                                       46
+Online Appendix C: Results section
+
+Table C.1: Sample composition across treatments: Means or proportions and test p-values
+
+Statistic and Level        Baseline Outsourcing Recommendation p-value
+
+Age and Experiment Participation
+
+Age                        25.24      23.61  23.85  0.9772
+                                      5.03   4.12   0.3075
+Number of Experiments      5.41
+                                      0.01   0.02   0.2739
+Gender                                0.00   0.01
+                                      0.42   0.32
+Diverse                    0.00       0.57   0.65
+
+No Answer                  0.02
+
+Male                       0.43
+
+Female                     0.55
+
+Educational Attainment                                        0.6061
+                                             0.74
+Secondary School (Abitur)  0.65       0.65   0.18
+                                             0.02
+Bachelor's Degree          0.24       0.22   0.06
+                                             0.00
+Vocational Qualification   0.01       0.03
+
+Master's Degree            0.08       0.10
+
+PhD                        0.02       0.00
+
+Values report means (for continuous variables: age and number of experiments) or column proportions (for categorical
+variables: gender, education level) by treatment group. The p-values are computed using Kruskal-Wallis rank-sum
+tests for continuous variables and Pearson's chi-squared tests for categorical variables (or Fisher's exact test where
+appropriate). Each observation corresponds to a unique participant.
+
+                                  47
+Table C.2: Non-parametric tests: Adoption and average market prices
+
+Statistic and Level Baseline Outsourcing Recommendation p-value
+
+Algorithm Adoption (MWU; no Baseline)
+
+ALL (O vs R)    ­     0.53             0.83          0.0013
+                                                     0.0232
+SG1 (O vs R)    ­     0.70             0.86          0.0010
+
+SG5 (O vs R)    ­     0.47             0.77
+
+Average Market Prices (MWU)
+
+ALL (O vs R)    2.95  2.79             2.40          0.1212
+
+ALL (B vs O)    2.95  2.79             2.40          0.1859
+
+ALL (B vs R)    2.95  2.79             2.40          0.0757
+
+SG1 (O vs R)    2.52  3.16             2.09          0.0013
+
+SG1 (B vs O)    2.52  3.16             2.09          0.0140
+
+SG1 (B vs R)    2.52  3.16             2.09          0.0538
+
+SG5 (O vs R)    3.12  2.72             2.22          0.0820
+
+SG5 (B vs O)    3.12  2.72             2.22          0.1123
+
+SG5 (B vs R)    3.12  2.72             2.22          0.0017
+
+Means and Mann­Whitney U (MWU) tests are computed at the matching-group level and compare
+treatment pairs.
+
+Table C.3: Belief accuracy by Treatment × Opponent Adoption
+
+Recommendation × Opponent No-Adopt  Belief Accuracy  H0 : Belief = 0.5
+Recommendation × Opponent Adopt                         p = 0.3510
+Outsourcing × Opponent No-Adopt            0.54         p = 0.0045
+Outsourcing × Opponent Adopt              (0.04)        p = 0.0000
+                                           0.59         p = 0.0000
+                                          (0.03)
+                                           0.62
+                                          (0.03)
+                                           0.81
+                                          (0.03)
+
+Sub-sample                          Out & Rec
+# observations                          1000
+# cluster                                20
+R2                                      0.07
+
+Results are based on linear regressions without an intercept, estimated with standard errors clustered at the
+
+matching-group level. Belief accuracy is defined as 1 - |bis - dis|, where bis  [0, 1] is the participant's stated
+belief and dis  {0, 1} is the realized opponent-adoption indicator in a given supergame; the index equals 1
+for a perfectly accurate belief and tends toward 0 as the belief diverges from the outcome. Each coefficient
+
+equals the subgroup mean. The second column reports two-sided p-values for H0 : µ = 0.5 (not better than
+chance). Wald tests of treatment differences: Outsourcing × Opp. No­Adopt - Recommendation × Opp.
+No­Adopt = 0: p < 0.1; Outsourcing × Opp. Adopt - Recommendation × Opp. Adopt = 0: p < 0.01.
+
+                      48
+Table C.4: Market price difference: Round 1 vs. subsequent rounds
+
+                          Market Prices
+
+                          (1)     (2)
+
+Round 1 × Baseline        -0.11   -0.11
+Round 1 × Outsourcing     (0.12)  (0.08)
+Round 1 × Recommendation  0.45    0.55
+                          (0.08)  (0.09)
+                          0.96    0.86
+                          (0.10)  (0.11)
+
+FE                         Yes     Yes
+# observations            15300   15300
+# cluster
+R2                          30      30
+                           0.78    0.80
+
+Results are from linear regressions estimated without an intercept. De-
+pendent variable: market price. Standard errors are clustered at the
+matching-group level. All specifications include market and supergame
+fixed effects, so coefficients on Round 1 × treatment are identified
+from within-market, within-supergame variation in prices between the
+first and later rounds of the same treatment. Model (2) is weighted
+by supergame lengths. The differences in first-round effects among
+Outsourcing, Recommendation, and Baseline are highly signifi-
+cant in the unweighted specification (regression (1), p < 0.01, Wald
+tests). In the weighted specification (regression (2)), the differences
+between Outsourcing and Baseline and between Recommendation
+and Baseline are highly significant (p < 0.01, Wald tests), while the
+difference between Outsourcing and Recommendation is significant
+(p < 0.05, Wald test). Significance levels: *** p < 0.01; ** p < 0.05; *
+p < 0.1.
+
+                49
+                              Recommendation         Outsourcing
+
+                      4
+
+Average Market Price  3
+
+                      2
+
+                           Market Type
+                           Baseline (HH)
+                           AA
+                           AH
+                           HH
+                      1
+                         1 2 3 4 51 2 3 4 5
+                               Supergame             Supergame
+
+                         Figure C.1: Average market price per market type and supergame
+
+                      4.0      Supergame 1           Supergame 5
+
+                      3.5
+
+Average Market Price  3.0
+
+                      2.5
+
+                      2.0
+
+                      1.5      Baseline
+                               Outsourcing
+                               Recommendation
+
+                      1.0 1 5 10 15 20 25 30 35 40 45 50 55 1 5 10 15 20
+                                          Round      Round
+
+                           Figure C.2: Average market prices by round and supergame
+
+                                                 50
+           1.0        Recommendation = 1                                               Recommendation = 4
+
+                                             upwards                                                          upwards
+                                                           adhered                                            adhered
+                                                 downwards                                                    downwards
+           0.8           0.37          0.32    0.43 0.41
+                   0.43
+                                                                                   0.50
+                                                                                                                       0.58
+                                                                                         0.79 0.75 0.69
+           0.6
+
+Share      0.4
+
+                   0.56 0.63 0.67 0.57 0.57                                        0.50                                0.42
+
+           0.2                                                                           0.21 0.25 0.31
+
+           0.0 1 2 Super3game 4 5                                                  1 2 Super3game 4 5
+
+Figure C.3: Adherence and deviations by type of algorithmic recommendations
+
+           1.0                                             Main Outcomes
+
+Frequency  0.8                                                                                 Baseline
+                                                                                               Outsourcing
+           0.6                                                                                 Recommendation
+                                                                                               Supergame 1
+           0.4                                                                                 Supergame 5
+           0.2
+                I  I   II III       I I II II IIIIII       I I II II IIIIII              III    II II IIIIII           II II IIIIII
+                      II III                                                              III
+           0.0                                                                     II          (1, 1)
+                                       (4, 4)
+
+           1.0                                             Other Outcomes
+
+Frequency  0.8
+
+           0.6
+
+           0.4                         I                                     I  I  II          I I II II IIIIII        II II IIIIII
+           0.2                                                                      II IIIIII
+           0.0  II    II II IIIIII  I  (4II,  I3I I)IIIII  II  II II IIIIII                     Other            I  I
+
+Figure C.4: Outcome distribution in the first three rounds across treatments
+
+                                                                    51
+Table C.5: Per-period profits, in supergames 1 and 5 for Outsourcing and Recommen-
+dation treatments.
+
+                                               Outsourcing (SG1)
+                                                       Algorithm No Algorithm
+
+                               Algorithm (120.00, 120.00) (54.74, 95.99)
+                               No Algorithm (95.99, 54.74) (49.15, 49.15)
+
+                                                Outsourcing (SG5)
+                                                       Algorithm No Algorithm
+
+                               Algorithm (120.00, 120.00) (72.11, 101.30)
+                               No Algorithm (101.30, 72.11) (42.67, 42.67)
+
+                                           Recommendation (SG1)
+                                                      Algorithm No Algorithm
+
+                               Algorithm (64.91, 64.91) (56.17, 56.79)
+                               No Algorithm (56.79, 56.17) (--, --)
+
+                                           Recommendation (SG5)
+                                                      Algorithm No Algorithm
+
+                               Algorithm (66.18, 66.18) (68.95, 66.67)
+                               No Algorithm (66.67, 68.95) (65.71, 65.71)
+
+           Table C.6: Punishment durations in AH/AA markets
+
+Treatment    Market Type n mean median sd min max
+
+Outsourcing  AH             618 1.25   1 0.71                17
+                           1022 1.68   1 2.08                1 39
+Recommendation AA           203 3.06   2 3.30                1 25
+
+Recommendation AH
+
+Table C.7: First punishment phase duration in Recommendation by supergame
+
+             SG n mean median sd min max
+
+             All 234 2.01      1 2.00  1 21
+               1 70 2.00       1 2.57  1 21
+               2 45 1.82       1 1.19  16
+               3 15 1.00       1 0.00  11
+               4 48 2.44       2 2.31  1 10
+
+             5 56 2.09         2 1.59 1 9
+
+                           52
+Table C.8: Adherence with first recommendation after punishment phase
+
+SG Adherence n Share
+
+All             No 147 0.63
+
+                Yes 87 0.37
+
+1               No 44 0.63
+
+                Yes 26 0.37
+
+2               No 26 0.58
+
+                Yes 19 0.42
+
+3               No 12 0.80
+
+                Yes 3 0.20
+
+4               No 32 0.67
+
+                Yes 16 0.33
+
+5               No 33 0.59
+
+                Yes 23 0.41
+
+Note: Adherence indicates whether
+participants followed the first algo-
+rithmic recommendation to cooperate
+after exiting the punishment phase in
+the Recommendation treatment.
+
+Table C.9: Market prices in SG1: Baseline vs. Outsourcing-HH markets
+
+                    Market Price
+
+Outsourcing-HH      -0.88
+(Intercept)          (0.40)
+                    2.52
+                     (0.12)
+
+Sub-sample      Base & Out-HH (SG1)
+# observations             3024
+# cluster                    14
+R2                          0.03
+
+Results are based on linear regression with standard errors clus-
+tered at the matching-group level. We use a sub-sample of Base-
+line and Outsourcing-HH in Supergame 1 to assess the market
+price difference. Significance levels: *** p < 0.01; ** p < 0.05;
+* p < 0.1.
+
+                53
+

@@ -1,0 +1,1852 @@
+arXiv:2309.03419v3 [econ.GN] 15 Apr 2024      Motives for Delegating Financial Decisions
+
+                                                                             Mikhail Freer
+
+                                                                           Daniel Friedman
+
+                                                                        Simon Weidenholzer§
+
+                                                                             14 April 2024
+
+                                                                                             Abstract
+                                                      Why do some investors delegate financial decisions to supposed experts?
+                                                  We report a laboratory experiment designed to disentangle four possible
+                                                  motives. Almost 600 investors drawn from the Prolific subject pool choose
+                                                  whether or not to delegate a real-stakes choice among lotteries to a previous
+                                                  investor (an "expert") after seeing information on the performance of several
+                                                  available experts. We find that a surprisingly large fraction of investors del-
+                                                  egate even trivial choice tasks, suggesting a major role for the blame shifting
+                                                  motive. A larger fraction of investors delegate our more complex tasks, sug-
+                                                  gesting that decision costs play a role for some investors. Some investors
+                                                  who delegate choose a low quality expert with high earnings, suggesting a
+                                                  role for chasing past performance. We find no evidence for a fourth possible
+                                                  motive, that delegation makes risk more acceptable.
+
+                                          Keywords: delegation, experimental finance
+                                          JEL: C93, G11, G41.
+
+                                              We are indebted to Maximilian Germann, Marco Lambrecht, Lukas Mertes, J¨org Oechssler,
+                                          Christoph Siemroth, Matthias Stefan and audiences at the Southern Europe Experimental
+                                          Team's Meeting in Valencia and the meeting of the Society for Experimental Finance in Sofia for
+                                          helpful comments and suggestions. This work was supported by the Economic and Social Re-
+                                          search Council [grant number ES/T015357/1]. The experimental protocol was approved by the
+                                          Ethics Committee of the University of Essex, ETH2122-0711. For the purpose of Open Access,
+                                          the authors have applied a CC BY public copyright licence to any Author Accepted Manuscript
+                                          (AAM) version arising from this submission.
+
+                                              University of Essex, email: m.freer@essex.ac.uk
+                                              University of Essex and University of California Santa Cruz, email: dan@ucsc.edu
+                                              §University of Essex, email: sweide@essex.ac.uk
+1 Introduction
+
+Traditionally the delegation of financial decisions incurred substantial fees and was
+used only by a few wealthy investors. However, the recent rise of trading platforms
+such as eToro and ZuluTrade encourages a much larger set of investors to delegate
+their financial decisions by designating another investor (referred to below as an
+"expert," without prejudging actual expertise) whose trades will be copied. See
+e.g. Pelster and Hofmann (2018) and Apesteguia et al. (2020) for discussion of the
+scope and operational details of such platforms.
+
+    Such recent innovations make it imperative to understand better why investors
+delegate and which experts they choose. For example, investors may gain substan-
+tially if they delegate at low cost to high quality experts, but can be harmed if
+they chase the past performance of recently lucky but low quality experts, or if
+they choose an expert who maintains an excessively risky portfolio.
+
+    In this paper we seek to disentangle possible motives for delegation, and to
+investigate investors' responsiveness to delegation cost. It is quite difficult to do
+so using field data, which do not permit us to observe investors' and experts' char-
+acteristics such as risk preferences, and have little variation in key variables such
+as delegation costs, the nature of the delegated task or the available information
+on experts. Therefore we conduct a human subject laboratory experiment that
+controls and systematically varies those key variables.
+
+    As elaborated below in our survey of previous literature, we identify four pos-
+sible motives for delegation: (i) chasing past performance; (ii) blame shifting,
+or more generally, aversion to personally making decisions; (iii) reducing decision
+costs, which may be excessive for less knowledgeable investors facing complex deci-
+sions; and (iv) increasing risk tolerance when delegating, either because delegation
+reduces the investor's subjective utility cost for risk or else because it reduces her
+perception of the riskiness of the expert's choice.
+
+    These motives differ sharply in their implications for investor welfare. Chas-
+
+                                                    1
+ing past performance is a belief distortion that tends to reduce investors' wealth,
+and blame shifting will incur unproductive costs when there is a fee associated
+with delegation. On the other hand, reducing decision costs may be rational and
+beneficial for an investor, and (to the extent that it is consistent with investor
+well-being) increasing risk tolerance may also be beneficial.
+
+    In our experiment, human subjects make a series of real-stakes investment
+decisions, and have the option to delegate some of those decisions to an expert. We
+pre-selected a small panel of experts from participants in preliminary sessions that
+included all the choice tasks faced by participants in the experiment. Delegation
+means that the investor is assigned the lottery chosen by the selected expert. Of
+course, the realized lottery outcome may differ from the outcome that the expert
+experienced in the preliminary session.
+
+    The experiment varies the information available when an investor selects an
+expert. In the AllInfo treatment, investors see each expert's realized final payoff
+(a very noisy signal of expertise), quality rating (a less noisy signal) and risk rat-
+ing (based on the expert's revealed risk preferences). In sessions with the NoPay
+treatment, investors see the other two expert characteristics but not realized pay-
+off, and in the NoQual treatment they see the experts' characteristics except the
+quality rating. We also vary the cost of delegating across sessions; it is either low
+(10 pence, about 1.5% of average earnings) or high (100 pence, about 15%).
+
+    Each investor faces three different levels of investment task complexity. A
+trivial task is choice between two binary lotteries with identical expected payoff
+and variance. A simple task is choice among several lotteries that differ in expected
+payoff and variance, some of which are dominated by others. Finally, a complex
+task in our experiment is portfolio allocation over the set of simple lotteries. Thus,
+while success in the trivial task is purely driven by luck, there is a role for skill
+in the simple task and even more so in the complex task. Moreover, while risk
+preferences are irrelevant for choice in the trivial task, they are important for
+choice in the simple and complex tasks.
+
+                                                    2
+    Those treatments enable us to identify the different motives for delegation: we
+compare across treatments the fraction of investors who choose to delegate and
+compare the attributes of the selected experts when investors choose to delegate. In
+the trivial task, for example, reducing decision costs and increasing risk tolerance
+can play no role. Hence the surprisingly high frequency of delegation we observe in
+the trivial task with NoPay (thus eliminating chasing past performance) is evidence
+of blame shifting.
+
+    We also find evidence of decision costs, in that delegation is significantly more
+frequent in the complex task than in the simple and trivial tasks. Evidence for
+chasing past performance comes from the disproportionate tendency of investors
+who delegate to choose an expert with a high realized final payoff. We see little
+evidence of the risk tolerance motive.
+
+    In the next section we summarize previous literature, with a focus on the pos-
+sible motives for delegation and how they can be identified. The third section lays
+out our laboratory procedures and experiment design, and spells out the hypothe-
+ses on delegation motives that we will test. Results are collected in the following
+section, beginning with an overview using descriptive summary statistics. Later
+subsections present inferential statistics to identify the strength and significance of
+the various motives for delegation, and to analyze which characteristics matter for
+the selection of experts. We were surprised to discover that the decision to delegate
+is quite sensitive to conflicts among reported characteristics of experts. We also
+were surprised by some null results, e.g., own risk preferences and decision quality
+play no detectable role in the delegation decision. In the final section we discuss
+such matters and suggest directions for future research. Online Appendices collect
+supplementary data analysis, technical details, and instructions to subjects.
+
+                                                    3
+2 Literature
+
+We first discuss literature that is closest to the present paper, and then review
+literature that proposes motives for delegation.
+
+2.1 Nearest neighbors
+
+Our work is closely related to recent work on delegation in financial decision mak-
+ing. Apesteguia et al. (2020), like the present paper, report an experiment where
+investors may decide to delegate financial decisions to their peers. They show that
+a substantial fraction of investors does so by either directly copying previously
+successful investors by the click of a button or manually implementing investment
+strategies which are similar to those of the most successful peers. Since success
+is mainly driven by luck and since investors who previously took on a lot of risk
+appear on top of the earning rankings, Apesteguia et al. (2020) find that copy
+trading may lead to a substantial increase in risk taking.
+
+    The present study extends the design of Apesteguia et al. (2020) by varying the
+complexity of the underlying task and the information investors receive about the
+experts. When our investors do not have access to information on experts' decision
+quality, we confirm that a substantial fraction of subjects chooses to delegate to
+experts with previously high earnings.1 However, we find that the share of investors
+choosing high earning experts substantially decreases when earnings information
+is augmented by information on decision quality.
+
+    Holzmeister et al. (2022) study delegation in a more traditional setting using
+a subject pool of finance professionals and members of the general public, both
+drawn from the Swedish population. Each investor is matched with an expert
+who is either a human with fixed or aligned incentives or a robo-advisor, i.e.,
+
+    1Other studies besides Apesteguia et al. (2020) finding an important role for previous earnings
+in the choice of "experts" include Huck et al. (1999), Offerman et al. (2002), Apesteguia et al.
+(2010) and Huber et al. (2010).
+
+                                                    4
+an appropriately programmed algorithm.2 In contrast to our work, they offer no
+information on earnings or decision quality, nor do their investors choose among
+experts. Their investors indicate i) whether they want to delegate their decision
+to their expert, ii) their maximum willingness to pay for delegation and iii) how
+much risk they want the expert to take on their behalf. Holzmeister et al. (2022)
+find that investors delegate most frequently to the algorithm, and least frequently
+to experts with fixed preferences. Moreover, delegation is positively correlated
+with general trust and blame shifting tendencies as elicited in a survey. (Our
+experiment uses observed behavior to confirm the importance of blame shifting.)
+Moreover, Holzmeister et al. (2022) find that investors ask the expert to take more
+risk than they believe themselves to have taken, consistent with the increasing risk
+tolerance motive.3 By contrast, we find that the fraction of delegation does not
+increase as we move from a task where there is no scope for risk communication
+to one where risk communication matters. This suggests that while the increasing
+risk tolerance motive may matter in the decision of how much risk investors ask
+the expert to take, that motive does not appear to explain why investors choose
+to delegate in the first place.
+
+2.2 Motives for Delegation
+
+Existing literature suggests four possible motives for delegating financial decisions.
+Firstly, under chasing past performance (see e.g. Sirri and Tufano, 1998), investors
+believe that by delegating they will be able to realize high profits, as the expert
+did in the past. That is, the choice is rational given possibly distorted beliefs.4
+
+    2Germann and Merkle (2023), Gaudeul and Giannetti (2023) and Lambrecht et al. (2023)
+also report experiments where investors can delegate to an algorithm.
+
+    3Analysing the same data-set as Holzmeister et al. (2022), Stefan et al. (2022) identify a sig-
+nificant problem with risk communication in the sense that while finance professionals in general
+take into account the client's desired risk level, the constructed portfolios show considerably
+overlap across the different requested risk levels.
+
+    4E.g., a fallacious belief in an expert's "hot streak" as in Huber et al. (2010). More generally,
+chasing past performance in financial decisions is a form of success-based imitation. Of course,
+depending on the link between an action's current earnings and future earnings, such imitation
+
+                                                    5
+However, in environments where success is purely driven by luck -- so skill plays no
+role -- chasing past performance may be detrimental to welfare (see e.g. Offerman
+and Schotter, 2009). Note that chasing past performance as a motive for delegation
+can be eliminated by blocking information on experts' previous payoff success.
+Conversely, when previous payoff information is available, the fraction of investors
+delegating to experts with high earnings compared to the fractions for experts
+with other desirable characteristics can help isolate the chasing past performance
+motive.
+
+    Secondly, investors may delegate to save on decision costs or to make better
+decisions in a complex environment; see Conlisk 1980; Pingle and Day 1996 and
+the survey of Alos-Ferrer and Schlag 2009. That is, investors believe that the en-
+vironment is too complex for them to make optimal decisions, except perhaps by
+incurring excessively large subjective decision costs.5 Such investors may be ratio-
+nal in the usual neoclassical sense, but recognize their own cognitive limitations.
+If true expertise is available at moderate cost, it is rational for them to hire it.
+Thus, while the decision cost motive allows no role for delegation in transparently
+simple tasks or those purely driven by luck, it offers an increasing role for dele-
+gation in cognitively more complex environments. Also, the decision cost motive
+should cause investors who delegate to choose high quality experts.6
+
+    Thirdly, under the blame shifting motive, agents delegate because they want
+somebody to blame in case things don't work out; see for example Bartling and
+Fischbacher (2012) or Gurdal et al. (2013). Blame shifting may be seen as an form
+of decision avoidance (Anderson, 2003) where individuals shy away from decisions
+
+may actually decrease payoffs (see e.g. Vega-Redondo, 1997; Huck et al., 1999; Offerman et al.,
+2002) as well as possibly increase them (see e.g. Schlag, 1998; Apesteguia et al., 2018).
+
+    5Similarly, individuals may choose to delegate to save on information-gathering costs behind
+the observed choices as in Sinclair (1990).
+
+    6The importance of the decision cost motive is documented in Mertes and Weber (2023) who
+present an experiment where subjects may adjust their own actions after receiving objective
+information on their peers' performance. In this setting peers with higher expertise are more
+likely to be followed and subjects who have low confidence in their own decisions are more inclined
+to follow.
+
+                                                    6
+to avoid regret. Shifting blame to a delegatee may also allow investors to resolve
+cognitive dissonance; as Chang et al. (2016) emphasizes, realizing losses based
+on personal decisions forces investors to admit that their own past choices were
+mistakes. The literature suggests that the blame shifting motive is as present in
+simple and pure luck tasks as it is in complex tasks. Nor does the blame shifting
+motive per se suggest a role for experts' characteristics in the selection of an expert
+when delegating.
+
+    Finally, according to the increasing risk tolerance motivation (see e.g. Gennaioli
+et al., 2015), trust in the expert may reduce an investor's utility cost of taking risk.
+Thus, delegating to experts may encourage the investor to take on greater risk.7
+Foerster et al. (2018) confirm empirically that higher trust in advisers results
+in higher risk-taking by investors. This motive has no observable implications in
+settings where all actions have the same degree of risk. In other settings, it implies
+that investors will tend to choose experts whose risk tolerance equals or exceeds
+their own.
+
+3 Design
+
+The experiment involves a sequence of individual decision-making tasks. The
+sequence consists of three blocks, each proceeding as in Figure 1. Our human
+subject investors start each block with four different investment decisions. The
+block concludes with a fifth and final decision that can be delegated to a chosen
+expert or, if the investor prefers, can instead be taken by the investor herself. The
+level of complexity is constant within each block but differs across the three blocks
+as detailed below.
+
+    At the end of the experiment, one of the blocks is randomly selected for pay-
+ment. For that block, one out of the first four investment decisions is randomly
+
+    7The importance of trust is echoed by Germann et al. (2022) who provide experimental
+evidence that the higher the level of trust in a given advisor is, the more risk clients ask this
+advisor to take.
+
+                                                    7
+selected for payment, and the fifth decision is always also selected. Thus the fifth
+
+(delegation) decision is for higher stakes because its realized (state dependent)
+
+outcome  will  be  paid  with  probability  1  ,  versus  payment  probability  1   for  the
+                                            3                                   12
+
+other four decisions in the block. There is no feedback until the end of the experi-
+
+ment where investors observe the resolution of uncertainty only for the two rounds
+
+of the randomly selected block. This design choice rules out path dependency by
+
+making sure that observations do not depend on previous idiosyncratic realizations
+
+of payoffs.
+
+Investment Investment Investment Investment               Investment  Yes
+                                                           No                Next block
+
+                                                          Delegate?
+
+t=1            t=2             t=3          t=4           t=5
+
+Figure 1: Timeline for each block. The first 4 Investment decisions must be made
+by the investor. The fifth decision can be delegated to a chosen expert.
+
+3.1 Investment Decision
+
+All investment decisions involve lotteries with two equally likely states of the world,
+denoted Heads and Tails. Menus of lotteries have three levels of complexity, as
+illustrated in Figure 2; see Appendix C for the complete set of menus.
+
+    Investors in a trivial task, exemplified in Figure 2a, choose between a given
+lottery and an identical lottery that switches Heads and Tails. Here the investor's
+choice has no impact on the ex-ante payoff distribution, and the realized earnings
+depend only on blind luck. A simple task as illustrated in Figure 2b is similar
+to popular risk-preference elicitation tasks involving choice from a finite menu of
+lotteries (e.g., Binswanger, 1980; Eckel and Grossman, 2002). Here our investors
+have six options, four of which are optimal for some range of risk preferences. Each
+of the other two options (lines 1 and 5 in the Figure) is first-order stochastically
+
+                                                    8
+ (a) Trivial Decision Task
+ (b) Simple Decision Task
+(c) Complex Decision Task
+
+Figure 2: Investment Decision. Investor clicks a radio button for tasks (a) and
+
+(b), and clicks or drags to adjust portfolio weights wi in task (c). The blue Submit
+
+button appears only when Leftover Units = 100 -  6    wi  =  0.
+                                                 i=1
+
+9
+dominated by another option, since Heads and Tails are equally likely. The in-
+vestor's choice therefore can either reveal a range for her risk preferences or else
+can reveal poor decision quality.
+
+    In a complex task as illustrated in Figure 2c, investors choose a portfolio of risky
+assets; the user interface is a variant on the "budget jars" interface of Friedman
+et al. (2022). The menu of pure assets is the same as for the simple task, but here
+investors use sliders to pick a particular portfolio from the five-dimensional simplex
+of mixtures. This task is cognitively complex in that it is high dimensional and
+makes it easy to select a dominated option. The user interface is also mechanically
+more complex in that it uses sliders rather than radio buttons.
+
+    For each subject, we independently randomize the presentation order of lotter-
+ies within a task menu, as well as the sequence of five tasks within a block, and
+the sequence of three blocks.
+
+3.2 Delegation Decision
+
+As noted earlier, the fifth and final task in each block has higher probability of
+being chosen for payment and allows the investor to delegate. Here the investor
+either opts to make the choice on her own, or else selects one expert from the
+given panel of five experts. In the latter case, the selected expert's choice from
+that menu will then be employed, although the realization (Heads or Tails) and
+the resulting payment may be different. See Figure 3 for the user interface.
+
+    The panel of five experts is constructed as follows. In preliminary sessions, 60
+subjects completed three blocks of 5 tasks each, exactly like the main sessions just
+described except that the fifth task was a direct investment task no different from
+the other four.
+
+    From the choices in the simple and complex blocks of each of those 60 poten-
+tial experts, we construct a quality rating using the Afriat (1973) Critical Cost
+Efficiency Index, as detailed in Online Appendix B. Roughly speaking, the CCEI
+is "money left on the table," measured as the minimal share of the wealth taken
+
+                                                   10
+                             Figure 3: Delegation Decision Task
+
+from a subject that would make their choices consistent with maximizing the ex-
+pectation of some utility function. We assign a High quality rating to those in
+the lowest CCEI quartile among the 60 potential experts and a Low quality rating
+to those in the top CCEI quartile. We also assign a risk rating to each potential
+expert based on their average coefficient of relative risk aversion implied by each
+non-dominated choice in the simple and complex blocks. A potential expert is
+rated as High, Medium or Low risk tolerance according to whether that average
+is in the lowest, middle or upper third of the distribution across the 60 potential
+experts.
+
+    In addition, we note the realized payment of each potential expert. As we point
+out in the instructions to subjects,8 payment is a very noisy signal of experts' skill.
+For example, with probability 1/3, the earnings depend on the expert's choice in
+a trivial task where skill is irrelevant, and earnings in the other tasks depend
+sensitively on the riskiness of the expert's choice and/or on the realized state (H
+or T). Hence, objectively speaking, earnings add little if any useful information
+
+    8The instructions read, "Their final payments, like yours, come from the last round and one
+of the other four rounds in a single randomly chosen block. Please note that it is often from a
+different block (and round) than that for which you delegate."
+
+                                                   11
+about experts when quality and risk ratings are known.
+    From among those 60 subjects, we selected 5 to designate as experts in the
+
+main sessions. We did not include anyone dominated by any of the other four in
+terms of earnings and risk and quality ratings. Three of the selected experts had
+High quality rating and different Risk ratings (L, M, H). The other two selected
+experts had Low quality rating and Medium or High risk tolerance. Given our
+elimination of dominated subjects, it is not surprising to see that the two Low
+quality experts have the highest realized earnings. (We will later see that that
+contrast is helpful for investigating the "chasing past performance" motive.) To
+those five experts we randomly assign the labels A, B, C, D, and E when presenting
+them to an investor.
+
+    Investors are aware that the experts are other human subjects recruited on the
+same platform who previously completed the same set of investment tasks. To
+avoid implicit endorsement, the instructions and interface refer to experts only as
+"previous investors." Investors understand that delegation means that their choice
+will be the chosen expert's choice on that task, but their payoff is typically different
+because the randomly selected task is usually different and the realized state may
+also be different.
+
+    Delegation is costly. Each investor is endowed with £1 at the beginning of
+the experiment. If an investor chooses to delegate their decision in a block chosen
+for payment, then they pay the cost, which (to avoid the possibility of negative
+earnings) does not exceed £1.
+
+3.3 Between-Subject Treatments
+
+As mentioned above, each subject faced three blocks, one for each level of the com-
+plexity treatment. Between subjects we varied two other treatments: delegation
+cost and information on experts.
+
+                                                   12
+Delegation cost. In the Low cost condition, the subject has to pay £0.1 (10
+pence) to delegate the decision. This small positive cost will ensure that a neo-
+classically rational subject would not delegate their decision in the trivial invest-
+ment task. In the High cost condition, the subject has to pay £1 to delegate.
+Of course, this cost is deducted from realized earnings only when the investor
+delegates in the block randomly selected for payment.
+
+Information on experts. In the AllInfo condition, subjects see all three char-
+acteristics for each expert on the panel: risk rating, quality rating, and earnings.
+In the NoPay condition, subjects see only the risk and quality ratings of the ex-
+perts but not their earnings. In the NoQual condition, subjects see experts' risk
+rating and earnings but not their quality rating.
+
+    Thus the experiment uses a 3 × 3 × 2 factorial design, with three complexity
+conditions within subjects, three information conditions between subjects, and two
+delegation cost conditions between subjects.
+
+3.4 Experimental Procedures
+
+All experiments were conducted online using the Prolific platform. The sample
+consists of UK residents no older than 50 who are native English speakers. The
+experimental software is coded using oTree (Chen et al., 2016). The experiments
+were conducted from September 2022 to February 2023. Preliminary sessions had
+60 participants (no delegation). We had 589 participants with the delegation
+option in the experiment analyzed in the next section, with between 97 and 99
+participants in each of the 6 between-subject treatments. The experiment lasted
+on average 15 minutes and subjects' earnings are about £7 on average.
+
+                                                   13
+3.5 Testable Hypotheses
+
+Our design leads to natural tests of the various motives for delegation discussed
+in the literature review section, as follows.
+
+Hypothesis 1 (Chasing Past Performance). (a) The delegation rate will be
+significantly lower in the treatment NoPay where experts' payoffs are not observed.
+(b) In treatments where experts' payoffs are observed, delegation will be dispro-
+portionately to those with highest payoffs.
+
+Hypothesis 2 (Blame Shifting). The delegation rate will be substantially greater
+than zero even in the Trivial task, in all information conditions.
+
+Hypothesis 3 (Reducing Decision Costs). The delegation rate will be (a)
+higher in Simple tasks than in Trivial tasks and (b) considerably higher in Complex
+tasks than in Simple tasks. (c) In treatments where experts' quality is observed,
+delegation will be disproportionately to those with high quality.
+
+Hypothesis 4 (Increased Risk Tolerance). (a) The delegation rate will be
+considerably higher in simple tasks than in trivial tasks, but not appreciably higher
+in complex than simple tasks. (b) In simple and complex tasks, delegation will
+disproportionately be to experts whose risk rating exceeds the investor's.
+
+    Hypotheses 1 and 2 follow directly from the discussion in the literature review,
+bearing in mind that, in testing Hypothesis 2, we use the term "blame shifting"
+in a broad sense to include other forms of decision avoidance. Nuances of Hy-
+pothesis 3 and Hypothesis 4, however, may deserve additional comment. As the
+names suggest, the Complex task seems much more cognitively (and mechanically)
+demanding than the other two tasks, so parts (a) and (b) of the decision costs Hy-
+pothesis 3 suggest that the contrast between Complex and Simple could be more
+dramatic than the contrast between Simple and Trivial. On the other hand, risk
+attitudes play a role only in the Complex and Simple tasks. (If anything, we'd
+expect risk to be at least as salient in Simple as in Complex, since the latter offers
+
+                                                   14
+diversification opportunities.) Hence Hypothesis 4a suggests a less dramatic con-
+trast (with ambiguous sign) between Simple and Complex than between Trivial
+and the other two tasks.
+
+    Although not directly relevant to our main concern, distinguishing among mo-
+tives for delegation, it is also natural for economists to examine price elasticity.
+Therefore we will also test the following.
+
+Hypothesis 5 (Price Elasticity). Delegation rates will be lower in the High
+Cost treatment.
+
+4 Results
+
+1                                                                          1
+
+                                                                                                    Low Cost
+
+0.8                                                                        0.8                      High Cost
+
+Frequency0.6                                                               0.6
+                                                                Frequency
+0.4                                                                        0.4
+
+0.2                                                                        0.2
+
+0              Simple Complex                                              0                NoQual  NoPay
+      Trivial
+                                                                                   AllInfo
+
+(a) Delegation by complexity   (b) Delegation by information and costs
+
+               Figure 4: Delegation frequencies.
+
+    Before presenting the evidence pertaining to our main questions, we first offer
+an overview of the data and treatment effects. Figure 4a pools across cost and
+information treatments, and shows that there is a high delegation rate in each com-
+plexity condition. About half of our investors delegate even the trivial and simple
+choice tasks. About 60% delegate the complex task; later we will see that this
+increase is statistically significant. Figure 4b pools across complexity and shows
+that delegation is insensitive to cost in the AllInfo and NoQual conditions. We
+
+                                                   15
+will see later that the reduction in delegation frequency is statistically significant
+in the NoPay (experts' realized earnings not shown) condition.
+
+4.1 Whether to delegate?
+
+We now take a deeper look at the delegation process. Table 1 reports a regression
+of the dummy variable for delegation (three observations per subject) on treatment
+variables. This linear probability model indicates that our investors delegate in
+almost exactly half of the available opportunities in the baseline treatment (Trivial
+task, third task, AllInfo, Low cost). The estimated effects of seeing the task sooner
+(in the first or second block) or withholding information on experts (NoPay or No-
+Qual) are all negligible and statistically insignificant. Contrary to Hypotheses 3(a)
+and 4(a), the effect of changing the task from Trivial to Simple is also negligible.
+Since the delegation rate is so high in the Trivial task even in the NoPay condi-
+tion, we conclude that, consistent with Hypothesis 2, blame shifting is a primary
+motivation for many of our investors.
+
+    The Table also shows that changing the task to Complex increases the delega-
+tion rate by 11 percentage points. That increase is highly significant, indicating
+that, consistent with Hypothesis 3(b), complexity-related decision cost is an im-
+portant motivation for some investors. The first column of the Table indicates
+that increasing the cost of delegation by 90 pence decreases delegation by only an
+insignificant 4 percentage points in the baseline. The second column indicates that
+price sensitivity is much greater in the NoPay condition, and that the decrease of
+1 + 13 = 14 percentage points is significant. A more detailed analysis of the dele-
+gation decision in the next subsection will suggest an interpretation of this mixed
+evidence for Hypothesis 5.
+
+    Some nuance can be gleaned from looking at the intensity of delegation. Table
+2 reports regressions of information and personal variables on the frequency of
+delegation (0, 1, 2 or 3 times) across our 589 investors. The first column confirms
+that our investors delegate on average about half the time (1.57 of 3 opportunities).
+
+                                                   16
+                               (1)            (2)
+
+Constant                       0.50 ±0.04 () 0.48 ±0.05 ()
+
+First block                    0.01 ±0.03     0.01 ±0.03
+
+Second block                   0.00 ±0.03     0.00 ±0.03
+Simple task                    0.01 ±0.03     0.01 ±0.03
+                               0.11 ±0.03 ()  0.11 ±0.03 ()
+Complex task
+
+NoPay                          0.03 ±0.03     0.10 ±0.05
+
+NoQual                         0.04 ±0.03     0.03 ±0.05
+
+High Costs (of delegation) -0.04 ±0.02        -0.01 ±0.05
+NoPay × High Costs                            -0.13 ±0.06 ()
+
+NoQual × High Costs                           0.03 ±0.06
+
+Num. obs.                      1767           1767
+
+p < 0.001; p < 0.01; p < 0.05
+
+Table 1: Linear probability model coefficient estimates (± std error) for delegation
+decision. Standard errors are clustered at the individual subject level.
+
+It also shows that, with low cost, the delegation frequency is 0.29 higher when
+investors don't see experts' realized payoff, but with high cost that increase is
+more than offset (-0.39); both impacts are significant at the 5% level. Again, we
+defer interpretation until the next subsection.
+
+    Supplementary data analysis in the Appendix shows that these results are
+robust to changing the baseline and to using logit instead of a linear probability
+model. That analysis finds no impact of subjects' own risk preferences or decision
+quality on the delegation decision. Additional subject-level variables (revealed
+risk preferences and decision quality, and responses to Big 5 personality questions)
+have almost no explanatory power for the delegation decision, nor impact on the
+coefficients just reported.
+
+    To summarize, we find strong evidence for blame shifting (Hypothesis 2) in Ta-
+bles 1 and 2; almost half of subjects delegate even trivial (and simple) tasks. We
+also find significant evidence for complexity-based decision costs when we move
+
+                                                   17
+                               (1)              (2)
+
+Constant                       1.57 ±(0.09) () 2.09 ±(0.31) ()
+
+NoPay                          0.29 ±(0.13) ()  0.31 ±(0.13) ()
+
+NoQual                         0.08 ±(0.13)     0.09 ±(0.13)
+
+High Costs (of delegation) -0.02 ±(0.13)        0.01 ±(0.13)
+
+NoPay × High Costs             -0.39 ±(0.13) () -0.40 ±(0.13) ()
+
+NoQual × High Costs            0.08 ±(0.13)     0.06 ±(0.13)
+
+Efficiency (CCEI)                               -0.01 ±(0.13)
+
+Relative Risk Aversion                          -0.07 ±(0.13)
+
+Num. obs.                      589              589
+
+p < 0.001; p < 0.01; p < 0.05
+
+Table 2: OLS regression coefficient estimates (± standard error) for delegation
+intensity. The dependent variable is the number of times a subject delegated (0,
+1, 2, or 3).
+
+from either the trivial or the simple task to the complex task (supporting Hy-
+pothesis 3(b)) but find no significant increase when moving from trivial to simple
+(contrary to Hypothesis 3(a)).
+
+    So far, we see no evidence for distorted beliefs that lead to chasing past per-
+formance (Hypothesis 1(a)), nor for increasing risk tolerance (Hypothesis 4(a)).
+Delegation shows significant price sensitivity only when investors can't see ex-
+perts' realized payoffs. Investigating how investors choose experts will shed more
+light on such matters.
+
+                                            min 25% 50% 75% max mean
+           Simple × Low Costs 0.00 0.04 0.25 0.48 1.09 0.30
+           Complex × Low Costs 0.00 0.05 0.08 0.11 0.43 0.09
+           Simple × High Costs 0.00 0.00 0.14 0.37 1.60 0.37
+           Complex × High Costs 0.00 0.05 0.07 0.09 0.39 0.08
+
+                           Table 3: Costs of Inefficiency (in GBP)
+
+    One important question remains before turning to that investigation: is del-
+egation potentially cost-effective? More specifically, how does the fixed cost of
+
+                                                   18
+delegation (10p or 100p) compare to typical amounts of money left on the table
+due to suboptimal decision?
+
+    Define the inefficiency cost, or money left on the table, as 1- CCEI converted to
+pounds. This can be regarded as an upper bound on the usefulness of delegation,
+since a human expert may still leave some money on the table. Table 3 summa-
+rizes the quartiles (and min and max) of observed inefficiency costs for individual
+subjects by treatment. Recall that inefficiency is not possible in the trivial task,
+and that it is more frequent (but mechanically less costly) in complex (portfolio
+allocation) tasks than in our simple (lottery selection) tasks. The Table shows
+that the median investor can potentially recoup the low (10p) cost of delegation
+for simple tasks, and almost recoup it for complex tasks. For high cost (100p),
+however, delegation is potentially cost-effective only for the very most inefficient
+investors in the simple task, and for no investor in the complex task. We conclude
+that delegation is generally not cost effective except perhaps for simple tasks with
+low delegation costs.
+
+4.2 To Whom to delegate?
+
+Figure 5 shows the fraction of delegations going to each expert, i.e., their market
+shares, by information condition. Experts are arbitrarily labelled A through E,
+with their ratings shown below the label. With AllInfo, low quality expert E with
+highest realized payoff (£8.5) and high risk tolerance has the largest share, about
+30%, but even the smallest share (for expert A, whose low realized payoff seems
+not fully offset by high quality and low risk tolerance) is about 8%. When quality
+information is suppressed (pink bars), only the two experts with highest realized
+payoffs get substantial shares. When instead payment information is suppressed
+(blue bars), these experts' shares almost vanish while the High quality experts
+split the market.
+
+    Several conclusions are suggested by Figure 5 and confirmed by a more detailed
+analysis in Appendix A. Given the information they have, our investors very seldom
+
+                                                   19
+           1
+
+                                AllInfo
+
+           0.8                  NoQual
+
+                                NoPay
+
+Frequency  0.6
+
+           0.4
+
+           0.2
+
+           0
+
+                A  B      C  D  E
+
+                2.5HL 2.9HM 3.5HH 4.6LM 8.5LH
+
+Figure 5: Relative frequency that each expert is chosen in each information condi-
+tion. The ratings code in the bottom row indicates the expert's realized earnings,
+the quality of their decision making (Low or High), and their risk tolerance (Low,
+Medium, High). E.g., expert A earned £2.5 and exhibited High quality and Low
+risk tolerance.
+
+choose experts that are dominated. When investors don't see experts' realized
+payoffs, they go for high quality experts (consistent with Hypothesis 3(c)), and
+they go for high realized payoff experts when they don't see quality (consistent
+Hypothesis 1(b)). However, in the AllInfo treatment, there is a conflict between
+experts' reported quality and payoffs. Savvy investors realize that reported payoff
+is mostly random and so they rely mainly on reported quality, but many other
+investors rely more on reported payoffs, i.e., they chase past performance.
+
+    The conflicting information about experts' quality and payoff itself has an im-
+pact on delegation. Recall that in the AllInfo treatment, high quality experts have
+lower realized payoff than low quality experts. We saw in the previous section that
+with low cost, delegation is considerably higher when the quality/payoff conflict
+disappears in the NoPay information condition. Also, we saw that investors re-
+spond strongly to delegation cost only in the NoPay condition. Perhaps that is
+because there investors are less distracted by the conflict and by the wide range of
+
+                      20
+reported payoffs. Experts' realized payoff varies from 250p to 850p, which might
+seem to dwarf even the high delegation cost of 100p, but of course that is an illu-
+sion and distraction since the variability is driven mainly by the random choice of
+pay period. As we saw in the last subsection, the potential benefit of delegation is
+typically on the order of 10p. Qualitatively similar but smaller impacts are seen
+in the NoQual information condition.
+
+    Appendix A offers supplementary analysis on which experts investors choose.
+It shows that choice of experts is independent of task complexity (and even of
+the investor's own decision quality), but that with full information it is less likely
+when the price of delegation is high. Moreover, as also documented in Appendix
+A, there is no correlation between the risk preferences of the investor and the risk
+tolerance of the expert they have chosen, contrary to Hypothesis 4(b).
+
+    We conclude that the motive of chasing past performance is important for
+many of our investors, who give more weight than warranted to experts' realized
+payoffs. In general, however, our investors tend to respond sensibly to changes in
+our information treatments, especially when the cost of delegation is high.
+
+4.3 Consistent Subjects
+
+To check the robustness of our results we now restrict attention to the subsample
+of consistent subjects, i.e., those who are sensitive to the complexity of the task.
+A subject who delegated in the trivial task is deemed consistent if they delegate in
+simple and complex tasks as well. A subject who did not delegate in the trivial task
+but did delegate in simple task is deemed consistent if they delegate in complex
+task. A subject who delegates in neither the trivial nor simple tasks is deemed
+consistent whether or not they delegate in the complex task.
+Overall, 57% (340 of 589) of our subjects are deemed consistent. Table 4 breaks it
+down across treatment conditions. The distribution is not too different from that
+in overall data set. The frequency of delegation in trivial task remains fairly high
+for consistent subjects, about 30%, and it rises to 56% in the simple task and to
+
+                                                   21
+AllInfo  NoPay  NoQual
+
+Low Costs 72/98 (73%) 59/98 (60%) 49/97 (51% )
+High Costs 48/99 (49%) 57/98 (58%) 55/99 (56%)
+
+Table 4: Distribution of consistent subjects across treatments
+
+81% in complex.
+    As shown in on-line Appendix Table A.7, regression coefficients for this re-
+
+stricted sample have a similar but stronger pattern than corresponding coefficients
+for the overall sample. The constant coefficient is somewhat lower (indicating a
+0.32 vs 0.56 delegation rate in trivial task) and the incremental impacts of simple
+and complex are somewhat larger. This provides additional support for the con-
+clusions that blame-shifting is indeed a primary motive for delegation, and that
+decision cost is also an important motive. The regression coefficients also suggest
+that consistent subjects are more price sensitive, i.e., they tend to delegate less
+frequently in high costs treatment than inconsistent subjects.
+
+5 Discussion
+
+Our experiment is intended to assess four different motives for delegating invest-
+ment decisions to experts. To distinguish among the motives, the experiment con-
+trols for the cost of delegation and for task complexity, as well as for the available
+information about experts.
+
+    Table 5 very briefly summarizes our assessment. Section 4.1 reports that the
+delegation rate is not lower when experts' payoffs are not shown, contrary to Hy-
+pothesis 1(a) on the chasing past performance motive, while Section 4.2 reports
+that, consistent with Hypothesis 1(b), delegation is indeed disproportionately to
+experts with highest payoffs when those payoffs are shown. The high delegation
+rates reported in Section 4.1 for Trivial tasks support our blame shifting Hypothe-
+sis 2. The even higher delegation rates for Complex tasks but not for Simple tasks
+
+                                                   22
+                                 Delegation Evidence from
+
+                                 Whether? To Whom?
+
+Chasing Past Performance  H1(a)  
+                          H1(b)
+                                    
+
+Blame Shifting            H2     
+
+                          H3(a)  
+
+Reducing Decision Costs H3(b)    
+
+                          H3(c)     
+
+Increased Risk Tolerance  H4(a)  
+                          H4(b)
+                                    
+
+Price Elasticity          H5     /
+
+Table 5: Hypothesis Test Summary. A  (or ) in the first column indicates
+favorable (or unfavorable) evidence presented in Section 4.1; those marks in the
+second column similarly refer to Section 4.2.
+
+contradict Hypothesis 3(a) but support Hypothesis 3(b). The disproportionate
+choice of high quality experts reported in Section 4.2 supports Hypothesis 3(c).
+We found no evidence that would support Hypothesis 4 on risk tolerance. Regard-
+ing the supplementary Hypothesis 5, the evidence is mixed: delegation rates are
+price-sensitive only when experts' payoffs are not reported.
+
+    For us, the biggest surprise was how many of our investors delegated--roughly
+half of them. The delegation frequencies are higher than those found elsewhere in
+the literature, e.g., 35% in Apesteguia et al. 2020 and 17-38% in Holzmeister et al.
+(2022). We speculate that, in addition to other differences in the design and subject
+pool, our delegation frequencies arise in part from a fortuitous number of experts
+to choose from. In contrast to our five experts, in Apesteguia et al. (2020) subjects
+could choose among 80 leaders and in Holzmeister et al. (2022) there was no choice.
+Perhaps having no choice or too much choice may suppress delegation frequencies.
+Indeed, such an inverse U-shaped relationship is documented for different choice
+domains; see e.g. Iyengar and Lepper (2000).
+
+    Our experiment also uncovered some unexpected regularities. We saw very lit-
+
+                                                   23
+tle sensitivity to the cost of delegation except when experts' own realized payment
+is not shown. Our interpretation is that showing realized payment distracts many
+of our investors, who give those payments more weight than they deserve and/or
+see even high cost as minor compared to payment variability.
+
+    Some null results also surprised us. Despite extensive specification search, we
+were unable to detect any connection between investors' characteristics (such as
+revealed risk aversion, choice quality and personality profile) and their decisions
+whether to delegate and if so, to whom. Evidently the propensity to delegate is
+less related to standard economic characteristics than one might have supposed.
+
+    Several caveats are in order. First, our results come from a specific subject
+pool. The on-line Prolific pool possibly resembles the subset of the investors who
+use social trading platforms, but it is not clear how closely it resembles the broader
+universe of investors, nor how much that matters. We are encouraged by the size
+and diversity of our Prolific subject pool, and by the fact that delegation decisions
+seem unrelated to subjects' demographic and psychological characteristics.
+
+    A further caveat is that our study was designed to investigate four specific
+motives for delegation. Unsought findings -- e.g., that delegation propensity seems
+unrelated to revealed risk preferences or to standard personality traits -- should
+be considered tentative until confirmed by new studies aimed at testing them.
+
+    Moreover, in our experiment investors were only presented with a selected
+sample of experts, showcasing a conflict between low decision quality and high
+earnings on one hand and high decision quality and low earnings on the other.
+However, we believe that this selection is representative of experts in a more general
+population. While in real world settings there may be a significant number of high
+quality experts, there surely is a much larger number of low quality potential
+experts and a few of them will have a lucky streak. Thus, one should expect to
+see low quality experts among the top earners.
+
+    Delegation in our experiment entails replicating the decision of the chosen ex-
+
+                                                   24
+pert, in some ways reminiscent of copy trading.9 In many field settings, delegation
+entails asking an expert to act on clients' behalf, tailoring choices to particular
+clients' circumstances rather than replicating (or even approximating) the expert's
+personal portfolio. Nonetheless experts often advise their clients to invest as they
+do personally (Linnainmaa et al. 2021).10 However, our focus is on how available
+information on experts systematically influences investors' choices of whether to
+delegate and if so to whom. For our purposes, such tailored delegation would be
+counterproductive because we could no longer keep constant across investors the
+relevant attributes of experts.
+
+    The current experiment gave investors little opportunity to learn from personal
+experience, since they saw their payoffs only at the very end. Future work might
+investigate whether the high fraction of investors who choose to delegate is stable
+over time as investors learn from experience about the pros and cons of delegation.
+
+    Another potential avenue for further research is to dissect blame shifting. For
+us, that motive is broadly construed to cover all sorts of non-instrumental de-
+cision avoidance. Besides narrowly construed blame shifting, that motive might
+include potentially separable motives such as cognitive dissonance, regret aversion
+and perhaps others. Since broadly construed blame shifting turned out to be so
+important in our data, it might be worthwhile in future work to try to partition
+it into identifiable components that can be studied theoretically and empirically.
+
+    From a policy point of view, the high fraction of investors who choose to del-
+egate for seemingly welfare reducing motives (especially blame shifting) appears
+alarming and raises questions about the optimal regulatory approach towards so-
+cial trading platforms. On a more positive note, it is encouraging that a large frac-
+
+    9Copy trading in the field commits the follower to a leader's future trades which may or may
+not resemble observed previous trades. In contrast, our delegation decision commits the follower
+to replicate a past decision of the leader, with a possibly different realized outcome.
+
+  10An interesting sidelight: Bottasso et al. (2022) and Holm´en et al. (2023) show that finance
+professionals differ significantly in their risk preferences from the general population. Moreover,
+whilst they have superior decision quality compared to their clients when they are trading on
+their own, they are no better than their clients when choosing on their behalf (Stefan et al.,
+2022).
+
+                                                   25
+tion of investors chooses high quality experts when decision quality information
+is available. That fact suggests that copy trading and other delegation platforms
+may wish to display more prominently information on experts' decision quality.11
+
+  11We acknowledge that it is a challenge to find appropriate quality measures in a field envi-
+ronment and to present them in a transparent manner.
+
+                                                   26
+References
+
+Sydney N Afriat. On a system of inequalities in demand analysis: an extension of
+  the classical method. International Economic Review, pages 460­472, 1973.
+
+Carlos Alos-Ferrer and Karl H Schlag. Imitation and learning. In The Handbook
+  of Rational and Social Choice. Oxford University Press, 2009.
+
+Christopher J Anderson. The psychology of doing nothing: forms of decision
+  avoidance result from reason and emotion. Psychological Bulletin, 129(1):139,
+  2003.
+
+Jose Apesteguia, Steffen Huck, Jo¨rg Oechssler, and Simon Weidenholzer. Imitation
+  and the evolution of walrasian behavior: Theoretically fragile but behaviorally
+  robust. Journal of Economic Theory, 145(5):1603­1617, 2010.
+
+Jose Apesteguia, Steffen Huck, Jo¨rg Oechssler, Elke Weidenholzer, and Simon
+  Weidenholzer. Imitation of peers in children and adults. Games, 9(1):11, 2018.
+
+Jose Apesteguia, Jo¨rg Oechssler, and Simon Weidenholzer. Copy trading.
+  Management Science, 66(12):5608­5622, 2020.
+
+Bjo¨rn Bartling and Urs Fischbacher. Shifting the blame: On delegation and re-
+  sponsibility. The Review of Economic Studies, 79(1):67­87, 2012.
+
+Hans P Binswanger. Attitudes toward risk: Experimental measurement in rural
+  india. American Journal of Agricultural Economics, 62(3):395­407, 1980.
+
+Anna Bottasso, S´ebastien Duch^ene, Eric Guerci, Nobuyuki Hanaki, and Charles N
+  Noussair. Higher order risk attitudes of financial experts. Journal of Behavioral
+  and Experimental Finance, 34:100658, 2022.
+
+Marco Castillo and Mikhail Freer. Revealed differences. Journal of Economic
+  Behavior & Organization, 145:202­217, 2018.
+
+                                                   27
+Tom Y Chang, David H Solomon, and Mark M Westerfield. Looking for someone to
+  blame: Delegation, cognitive dissonance, and the disposition effect. The Journal
+  of Finance, 71(1):267­302, 2016.
+
+Daniel L Chen, Martin Schonger, and Chris Wickens. otree--an open-source plat-
+  form for laboratory, online, and field experiments. Journal of Behavioral and
+  Experimental Finance, 9:88­97, 2016.
+
+John Conlisk. Costly optimizers versus cheap imitators. Journal of Economic
+  Behavior & Organization, 1(3):275­293, 1980.
+
+Catherine C Eckel and Philip J Grossman. Sex differences and statistical stereo-
+  typing in attitudes toward financial risk. Evolution and Human Behavior, 23
+  (4):281­295, 2002.
+
+Daniel Friedman, Sameh Habib, Duncan James, and Brett Williams. Varieties of
+  risk preference elicitation. Games and Economic Behavior, 133:58­76, 2022.
+
+Alexia Gaudeul and Caterina Giannetti. Trade-offs in the design of financial algo-
+  rithms. Available at SSRN 4432707, 2023.
+
+Nicola Gennaioli, Andrei Shleifer, and Robert Vishny. Money doctors. The Journal
+  of Finance, 70(1):91­114, 2015.
+
+M. Germann, B. Loos, and M Weber. Trust and delegated investing: A money
+  doctors experiment. 2022.
+
+Maximilian Germann and Christoph Merkle. Algorithm aversion in delegated
+  investing. Journal of Business Economics, 93(9):1691­1727, 2023.
+
+Mehmet Y Gurdal, Joshua B Miller, and Aldo Rustichini. Why blame? Journal
+  of Political Economy, 121(6):1205­1247, 2013.
+
+Jan Heufer. Nonparametric comparative revealed risk aversion. Journal of
+  Economic Theory, 153:569­616, 2014.
+
+                                                   28
+Martin Holm´en, Felix Holzmeister, Michael Kirchler, Matthias Stefan, and Erik
+  Wengstr¨om. Economic preferences and personality traits among finance profes-
+  sionals and the general population. The Economic Journal, 133(656):2949­2977,
+  2023.
+
+Felix Holzmeister, Martin Holm´en, Michael Kirchler, Matthias Stefan, and Erik
+  Wengstr¨om. Delegation decisions in finance. Management Science, 2022.
+
+Ju¨rgen Huber, Michael Kirchler, and Thomas Sto¨ckl. The hot hand belief and the
+  gambler's fallacy in investment decisions under risk. Theory and decision, 68:
+  445­462, 2010.
+
+Steffen Huck, Hans-Theo Normann, and Jorg Oechssler. Learning in cournot
+  oligopoly­an experiment. The Economic Journal, 109(454):80­95, 1999.
+
+Sheena S Iyengar and Mark R Lepper. When choice is demotivating: Can one
+  desire too much of a good thing? Journal of Personality and Social Psychology,
+  79(6):995, 2000.
+
+Marco Lambrecht, Jo¨rg Oechssler, and Simon Weidenholzer. On the benefits of
+  robo-advice in financial markets. 2023.
+
+Juhani T Linnainmaa, Brian T Melzer, and Alessandro Previtero. The misguided
+  beliefs of financial advisors. The Journal of Finance, 76(2):587­621, 2021.
+
+Lukas Mertes and Martin Weber. Information processing: The role of expertise
+  within peer effects. Available at SSRN 4442980, 2023.
+
+Theo Offerman and Andrew Schotter. Imitation and luck: an experimental study
+  on social sampling. Games and Economic Behavior, 65(2):461­502, 2009.
+
+Theo Offerman, Jan Potters, and Joep Sonnemans. Imitation and belief learning
+  in an oligopoly experiment. The Review of Economic Studies, 69(4):973­997,
+  2002.
+
+                                                   29
+Matthias Pelster and Annette Hofmann. About the fear of reputational loss: Social
+  trading and the disposition effect. Journal of Banking & Finance, 94:75­88, 2018.
+
+Mark Pingle and Richard H Day. Modes of economizing behavior: Experimental
+  evidence. Journal of Economic Behavior & Organization, 29(2):191­209, 1996.
+
+Karl H Schlag. Why imitate, and if so, how?: A boundedly rational approach to
+  multi-armed bandits. Journal of Economic Theory, 78(1):130­156, 1998.
+
+Peter JN Sinclair. The economics of imitation. Scottish Journal of Political
+  Economy, 37(2):113­144, 1990.
+
+Erik R Sirri and Peter Tufano. Costly search and mutual fund flows. The Journal
+  of Finance, 53(5):1589­1622, 1998.
+
+Matthias Stefan, Martin Holm´en, Felix Holzmeister, Michael Kirchler, and Erik
+  Wengstr¨om. You can't always get what you want: An experiment on finance
+  professionals' decisions for others. Available at SSRN 4018654, 2022.
+
+Hal R Varian. The nonparametric approach to demand analysis. Econometrica:
+  Journal of the Econometric Society, pages 945­973, 1982.
+
+Fernando Vega-Redondo. The evolution of walrasian behavior. Econometrica:
+  Journal of the Econometric Society, pages 375­384, 1997.
+
+                                                   30
+A Supplementary Data Analysis (Online)
+
+Here we offer additional empirical analysis, paralleling the material presented in
+Section 4 and its subsections.
+
+A.1 Whether to delegate?
+
+                               logit model             linear probability model
+
+                       (1)     (2)     (3)       (4)   (5)     (6)     (7)     (8)
+                     -0.01                     -0.05
+Constant             (0.15)    0.02 -0.09      (0.18)  0.50 0.51 0.48 0.49
+Trivial task                                   -0.03
+Simple task           0.03     (0.15) (0.18)   (0.12)  (0.04) (0.04) (0.05) (0.05)
+Complex task         (0.11)
+First block          0.46      -0.03           0.43            -0.01           -0.01
+Second block         (0.12)                    (0.12)
+NoPay                 0.04     (0.11)           0.04           (0.03)          (0.03)
+NoQual               (0.11)                    (0.11)
+High Costs            0.01             0.03     0.01   0.01            0.01
+NoPay × High Costs   (0.12)                    (0.12)
+NoQual × High Costs   0.12             (0.12)   0.39   (0.03)          (0.03)
+                     (0.12)                    (0.20)
+                      0.16     0.43 0.46        0.11   0.11 0.10 0.11 0.10
+                     (0.12)                    (0.19)
+                     -0.16     (0.12) (0.12)   -0.02   (0.03) (0.03) (0.03) (0.03)
+                     (0.10)                    (0.19)
+                               0.04 0.04       -0.54   0.01 0.01 0.01 0.01
+                                               (0.26)
+                               (0.11) (0.11)    0.11   (0.03) (0.03) (0.03) (0.03)
+                                               (0.25)
+                               0.01 0.01               0.00 0.00 0.00 0.00
+
+                               (0.12) (0.12)           (0.03) (0.03) (0.03) (0.03)
+
+                               0.12 0.39               0.03 0.03 0.10 0.10
+
+                               (0.12) (0.20)           (0.03) (0.03) (0.05) (0.05)
+
+                               0.16 0.11               0.04 0.04 0.03 0.03
+
+                               (0.12) (0.19)           (0.03) (0.03) (0.05) (0.05)
+
+                               -0.16 -0.02             -0.04 -0.04 -0.01 -0.01
+
+                               (0.10) (0.19)           (0.02) (0.02) (0.05) (0.05)
+
+                                       -0.54                           -0.13 -0.13
+
+                                       (0.26)                          (0.06) (0.06)
+
+                                       0.11                            0.03 0.03
+
+                                       (0.25)                          (0.06) (0.06)
+
+Num. obs.            1767 1767 1767 1767 1767 1767 1767 1767
+
+p < 0.001; p < 0.01; p < 0.05
+
+Table A.1: Regression results for delegation decision coefficients with standard
+errors in parenthesis. Observation level: delegation decision (3 per subject). All
+standard errors are clustered at the individual level.
+
+Table A.1 presents an extended version of Table 1, including alternative specifica-
+tions of the linear probability model as well as a logit model. We again use both
+trivial and simple tasks as the baseline to ensure that the difference is significant
+
+                                                   31
+between delegation in simple and complex tasks as well as between trivial and
+complex tasks. The columns of the Table all confirm the robustness of results
+presented in Section 4.
+
+    Table A.2 extends Table 2 from Section 4. The table includes an additional
+measure of risk preferences, risk tolerance, which is constructed exactly as in the
+expert risk ratings. That is, risk tolerance takes values of Low, Medium, and High
+based on where an investor's average implied coefficient of risk aversion falls in
+the distribution of the 60 potential experts. To control for the possible impact of
+personality traits, the Table also includes responses to standard "Big 5" questions.
+However, we detect no significant correlation between delegation intensity and
+efficiency, risk, or Big 5 traits.
+
+A.2 Whom to delegate?
+
+In this section, we focus on two (out of three) characteristics of the experts: qual-
+ity and risk. Recall that experts are chosen such that the earnings of Low quality
+experts are higher than those of High quality, and earnings increasing with in-
+creasing risk tolerance. Along the dimension of quality, we separate experts into
+High (A, B, C) and Low (D,E) quality experts. We are in particular, interested
+whether/when investors would like to delegate their decisions to the experts with
+Low quality ratings. We code Low quality as 0 and High quality as 1. For the
+analysis of the risk tolerance of experts, we code Low as 1 (expert A), Medium as
+2 (experts B and D), and High as 3 (experts C and E).
+
+    Table A.3 presents the results of regression analysis of whether the investors
+choose to delegate their choice to the experts of Low quality rating. Regression
+analysis confirms the findings evident from Figure 5. That is, we see that the
+investors take the decision based on the information available. Recall that the low-
+quality experts are those with higher earnings. In particular, if they do not have a
+quality rating for the expert, then they are significantly more likely to delegate their
+decision to the low-quality experts, and if they don't have the earnings information,
+
+                                                   32
+Constant                  (1)         (2)     (3)     (4)     (5)     (6)
+NoPay                               2.09    2.08    1.68
+NoQual                  1.57        (0.31)  (0.31)  (0.29)  2.24    2.21
+High Costs              (0.09)       0.31    0.31    0.29   (0.41)  (0.41)
+NoPay × High Costs       0.29       (0.13)  (0.13)  (0.13)   0.31    0.31
+NoQual × High Costs     (0.13)                              (0.13)  (0.13)
+Efficiency (CCEI)        0.08        0.09    0.10    0.08    0.09    0.10
+                        (0.13)      (0.13)  (0.13)  (0.13)  (0.13)  (0.13)
+                        -0.02        0.01    0.02    0.01    0.04    0.05
+                        (0.13)      (0.13)  (0.13)  (0.13)  (0.13)  (0.13)
+                        -0.39       -0.40   -0.40   -0.39   -0.40   -0.39
+                        (0.18)      (0.18)  (0.18)  (0.18)  (0.18)  (0.18)
+                         0.08        0.06    0.04    0.07    0.05    0.03
+                        (0.18)      (0.18)  (0.18)  (0.18)  (0.18)  (0.18)
+                                    -0.01   -0.01           -0.01   -0.01
+Risk Tolerance                      (0.00)  (0.00)  -0.02   (0.00)  (0.00)
+                                    -0.07           (0.04)  -0.06
+Relative Risk Aversion              (0.04)   0.02   -0.04   (0.04)   0.02
+                                            (0.02)  (0.04)          (0.02)
+Big 5 (trusting)                      589            0.04   -0.02   -0.02
+                                              589   (0.03)  (0.04)  (0.04)
+Big 5 (blameshifting)                               -0.02   -0.05   -0.05
+                                                    (0.04)  (0.04)  (0.04)
+Big 5 (lazy)                                         0.01    0.04    0.04
+                                                    (0.04)  (0.03)  (0.03)
+Big 5 (outgoing)                                            -0.01   -0.02
+                                                      589   (0.04)  (0.04)
+Big 5 (reserved)                                             0.01    0.01
+                                                            (0.04)  (0.04)
+Num. obs.                      589
+                                                              589     589
+
+p < 0.001; p < 0.01; p < 0.05
+
+Table A.2: OLS regression for delegation intensity coefficients with standard errors
+in parenthesis. Observation level: delegated 0 to 3 times in the experiment (1 per
+subject).
+
+                                    33
+                                    OLS                                     logit
+
+                               (1)  (2)      (3)      (4)     (5)      (6)         (7)   (8)
+
+Constant               0.52          0.57     0.05     0.03     0.18     0.34   -3.01    -3.18
+Trivial task           (0.04)        (0.06)  (0.03)   (0.03)   (0.26)   (0.28)   (0.33)   (0.39)
+Simple task                                   0.02     0.02                       0.17     0.18
+Complex task           -0.02         -0.02   (0.03)   (0.03)   -0.17    -0.18    (0.22)   (0.22)
+First block            (0.03)        (0.03)                    (0.22)   (0.22)
+Second block           -0.03         -0.03   -0.00    -0.00    -0.21    -0.21    -0.03    -0.02
+AllInfo                (0.03)        (0.03)  (0.03)   (0.03)   (0.21)   (0.21)   (0.21)   (0.21)
+NoQual                  0.02          0.02    0.02     0.02     0.17     0.16     0.17     0.16
+NoPay                  (0.03)        (0.03)  (0.03)   (0.03)   (0.22)   (0.22)   (0.22)   (0.22)
+High Costs             -0.00         -0.00   -0.00    -0.00    -0.02    -0.03    -0.02    -0.03
+NoQual × High Costs    (0.03)        (0.03)  (0.03)   (0.03)   (0.22)   (0.22)   (0.22)   (0.22)
+NoPay × High Costs                           0.45     0.52                       3.02     3.34
+AllInfo × High Costs   0.43          0.34    (0.04)   (0.05)   2.46     1.95     (0.30)   (0.41)
+                       (0.04)        (0.06)  0.87     0.86     (0.25)   (0.35)   5.48     5.29
+                      -0.45         -0.52    (0.02)   (0.03)  -3.02    -3.34     (0.34)   (0.44)
+                       (0.04)        (0.05)                    (0.30)   (0.41)
+                       -0.03         -0.14   -0.03     0.01    -0.26    -0.57    -0.26     0.13
+                       (0.02)        (0.07)  (0.02)   (0.02)   (0.21)   (0.27)   (0.21)   (0.50)
+                                      0.18             0.03              1.04              0.34
+                                     (0.07)           (0.04)            (0.50)            (0.66)
+                                      0.15                               0.70
+                                     (0.07)           -0.15             (0.57)            -0.70
+                                                      (0.07)                              (0.57)
+
+Num. obs.                      962  962      962 962          962      962         962   962
+
+p < 0.001; p < 0.01; p < 0.05
+
+Table A.3: Choosing low-quality expert. Results from OLS and logit regressions,
+coefficients with standard errors in parenthesis.
+
+                                                  34
+then they are significantly less likely to delegate the decision to the low-quality
+experts. We also see that investors treat both quality and payment information
+as relevant since even in the AllInfo condition they are still likely to delegate their
+decision to low-quality experts. For the complexity and cost dimensions, we do
+not see robust effects.
+
+Consntant                  (1)         (2)      (3)      (4)      (5)      (6)
+Risk tolerance (task)    2.45        2.53     2.44     2.44     2.47     2.47
+Complex task             (0.08)      (0.29)   (0.08)   (0.08)   (0.08)   (0.08)
+First block
+Second block              0.02        0.02     0.03     0.10     0.03     0.08
+NoQual                   (0.04)      (0.04)   (0.05)   (0.32)   (0.05)   (0.32)
+NoPay                     0.00        0.01    -0.01    -0.00    -0.01    -0.01
+High costs               (0.05)      (0.07)   (0.06)   (0.06)   (0.06)   (0.06)
+NoQual × high costs      -0.05       -0.04     0.01     0.01     0.01     0.01
+NoPay × high cost        (0.07)      (0.07)   (0.05)   (0.05)   (0.05)   (0.05)
+CCEI                     -0.01       -0.01    -0.05    -0.05    -0.06    -0.06
+                         (0.06)      (0.06)   (0.07)   (0.07)   (0.07)   (0.07)
+                         -0.05       -0.05   -0.45    -0.45    -0.45    -0.45
+                         (0.07)      (0.07)   (0.09)   (0.09)   (0.09)   (0.09)
+                        -0.34       -0.34     -0.09    -0.09    -0.09    -0.09
+                         (0.09)      (0.09)   (0.09)   (0.09)   (0.09)   (0.09)
+                         -0.01       -0.01     0.05     0.05     0.06     0.06
+                         (0.10)      (0.10)   (0.10)   (0.10)   (0.10)   (0.10)
+                          0.03        0.02     0.16     0.16     0.16     0.16
+                         (0.11)      (0.11)   (0.12)   (0.12)   (0.12)   (0.12)
+                         -0.02       -0.02             -0.00             -0.00
+                         (0.14)      (0.14)    0.03    (0.00)    0.02    (0.00)
+                                     -0.00    (0.03)    0.03    (0.05)
+Risk tolerance (total)               (0.00)    0.03    (0.03)   -0.01     0.07
+                                              (0.05)    0.09    (0.01)   (0.28)
+Simple task                            665             (0.28)            -0.01
+                                                962               962    (0.01)
+Relative Risk Aversion                                   962
+                                                                           962
+Num. obs.                      665
+
+p < 0.001; p < 0.01; p < 0.05
+
+Table A.4: Risk tolerance of the expert. Results of OLS regression, coefficient
+with standard errors in parenthesis.
+
+    Table A.4 presents the results of regression analysis for the risk tolerance of ex-
+perts chosen in simple and complex tasks (tasks where risk communication might
+be a channel). In addition to the risk preference measures used before we also
+include the task-level risk tolerance estimated since we restrict our attention to
+
+                                                   35
+simple and complex tasks. However, we find no correlation between the risk pref-
+erences of the investor and the risk tolerance of the expert they have chosen. The
+investor's risk tolerance is also independent of the complexity of the task and the
+cost of delegation.
+
+    We do confirm a finding illustrated by Figure 5 that subjects prefer experts of
+at least Medium risk tolerance since the constant is about 2.5, that is subjects do
+not tend to choose the low-quality expert. Another relevant finding is that is that
+in NoPay condition, subjects are choosing experts of lower risk tolerance. Recall
+that, among the chosen experts, higher risk tolerance is associated with higher
+displayed earnings. However, even in NoPay condition, the average risk tolerance
+of the expert is still about 2 (corresponding to Medium risk tolerance). That is,
+even when we eliminate the chasing past performance motive, subjects still prefer
+to delegate to at least Medium risk tolerant experts. The Table also confirms that
+subjects are sensitive to earnings information when choosing whom to delegate.
+
+A.3 Who delegates?
+
+To investigate the difference between investors who decided to delegate and those
+who didn't, we construct a variable that is equal to 1 if the investor decided to
+delegate at least once (among three tasks). Table A.5 presents regression results
+for this dependent variable. All results presented are robust to changing the spec-
+ification to logit or probit. There is no significant correlation with efficiency, risk,
+or personality traits. Thus in conjunction with the results from Table A.2 none of
+the individual characteristics can explain whether the investor wants to delegate
+the decision or how frequently they would like to delegate the decision.
+
+    However, we do observe the effects of informational conditions on the delega-
+tion. In particular, we see that the presence of conflicting information reduces the
+delegation. If we remove either the information about the quality or about earn-
+ings of the experts, then the investor 18 percentage points is more likely to delegate
+in the case of low costs of delegation. For the high costs treatment, even in the
+
+                                                   36
+Constant                   (1)         (2)      (3)      (4)      (5)      (6)
+NoPay                    0.77        0.91     0.90     0.87     1.02     1.02
+NoQual                   (0.03)      (0.11)   (0.11)   (0.10)   (0.14)   (0.14)
+High costs               0.18        0.19     0.19     0.18     0.19     0.19
+NoPay × High costs       (0.04)      (0.04)   (0.04)   (0.04)   (0.04)   (0.04)
+NoQual × High costs      0.18        0.19     0.19     0.18     0.18     0.19
+Efficiency               (0.04)      (0.04)   (0.04)   (0.04)   (0.04)   (0.04)
+                         0.14        0.15     0.15     0.15     0.16     0.16
+                         (0.04)      (0.04)   (0.04)   (0.04)   (0.04)   (0.04)
+                        -0.24       -0.24    -0.24    -0.23    -0.23    -0.23
+                         (0.06)      (0.06)   (0.06)   (0.06)   (0.06)   (0.06)
+                        -0.18       -0.19    -0.19    -0.18    -0.19    -0.19
+                         (0.06)      (0.06)   (0.06)   (0.06)   (0.06)   (0.06)
+                                     -0.00    -0.00             -0.00    -0.00
+Risk tolerance                       (0.00)   (0.00)    0.01    (0.00)   (0.00)
+                                     -0.01             (0.01)   -0.01
+Relative Risk Aversion               (0.02)    0.00    -0.02    (0.02)    0.00
+                                              (0.01)   (0.01)            (0.01)
+Big 5 (trusting)                       589              0.01     0.01     0.01
+                                                589    (0.01)   (0.01)   (0.01)
+Big 5 (blameshifting)                                  -0.02    -0.02    -0.02
+                                                       (0.01)   (0.01)   (0.01)
+Big 5 (lazy)                                           -0.01     0.01     0.01
+                                                       (0.01)   (0.01)   (0.01)
+Big 5 (outgoing)                                                -0.02    -0.02
+                                                         589    (0.01)   (0.01)
+Big 5 (reserved)                                                -0.01    -0.01
+                                                                (0.01)   (0.01)
+Num. obs.                      589
+                                                                  589      589
+
+p < 0.001; p < 0.01; p < 0.05
+
+Table A.5: OLS regression for delegated at least once, coefficient with standard
+errors in parenthesis. Observation level: delegated at least one in the experiment
+(1 per subject).
+
+presence of conflicting information investors are more likely to delegate at least
+once. Note that these results cannot be translated to the intensity of delegation.
+
+A.4 Consistency of Decisions
+
+Table A.6 presents the results correlating different measures of decision-making
+quality. Efficiency is the Afriat efficiency in the investment task. Low Quality
+Expert is a dummy variable for the subject choosing a low quality expert. Weak
+
+                                                   37
+                  Efficiency Low Quality Expert Strong Consistency Weak Consistency
+
+Efficiency        1.00   0.02      0.16  0.21
+
+Low Quality Expert 0.02  1.00      0.00  0.09
+
+Strong Consistency 0.16  0.00      1.00  0.53
+
+Weak Consistency  0.21   0.09      0.53  1.00
+
+Table A.6: Correlation between different quality indicators. Data from simple and
+complex tasks of all information treatment.
+
+Consistency is a dummy variable that a subject who delegated in trivial or simple
+task also delegated in the complex task. Strong Consistency indicates that if
+subject delegated in trivial task, then they delegated in simple and complex task,
+and if they delegated in simple task, then they delegated in complex task. We
+do see that none of the efficiency or consistency measures is correlated with the
+choice of the low quality expert. However, we do see the correlation between the
+investment-related and delegated-related efficiency measures.
+
+A.5 Robustness: Consistent Subjects
+
+In this section we present the regression analysis related to the analysis of consis-
+tent subjects. That is subjects who delegated in simple and complex tasks if they
+delegated in trivial task and who delegated in complex task if they delegated in
+the simple task.
+
+    Table A.7 presents the regression analysis for the consistent subjects. Note that
+the increase in delegation with complexity is highly significant in this case due to
+the construction of the consistent subjects. The main difference (not induced by
+construction) we get is the significance of the High Costs. That is, consistent
+subjects are price sensitive while we do not observe this in the general sample.
+However, this price sensitivity is not robust to controlling for the product of High
+costs with the information conditions.
+
+    Table A.8 presents the regression analysis for whether consistent subjects dele-
+gated at least once. Models (1)-(3) are linear probability, models (4)-(6) are logits.
+
+                               38
+                                     logit model              linear probability model
+
+                        (1)          (2)     (3)        (4)   (5)     (6)     (7) (8)
+                     -0.78                             0.21
+Constant                             0.31 -0.90       (0.26)  0.32 0.57 0.30 0.56
+Trivial task          (0.22)                         -1.11
+                                     (0.22) (0.27)    (0.11)  (0.05) (0.05) (0.06) (0.05)
+
+                                     -1.09            1.24            -0.26
+                                                      (0.12)
+                                     (0.11)            0.10           (0.02)
+                                                      (0.13)
+Simple task          1.09                    1.11     -0.09   0.26            0.26
+Complex task         (0.11)                           (0.13)
+First block          2.31                    (0.11)    0.62   (0.02)          (0.02)
+Second block         (0.15)                           (0.35)
+NoPay                 0.08           1.22 2.34         0.13   0.51 0.25 0.51
+NoQual               (0.13)                           (0.34)
+High Costs           -0.09           (0.12) (0.15)    -0.22   (0.03) (0.02) (0.03)
+NoPay × High Costs   (0.12)                           (0.35)
+                      0.19           0.08    0.10     -0.90   0.02 0.02 0.02 -0.00
+                     (0.24)                           (0.48)
+                      0.28           (0.13) (0.13)     0.21   (0.03) (0.03) (0.03) (0.03)
+                     (0.24)                           (0.47)
+                     -0.46           -0.09 -0.09       1020   -0.02 -0.02 -0.02 -0.03
+                     (0.19)
+                                     (0.12) (0.13)            (0.03) (0.03) (0.03) (0.03)
+
+                                     0.19    0.62             0.04 0.04 0.12 0.12
+
+                                     (0.24) (0.35)            (0.05) (0.05) (0.07) (0.07)
+
+                                     0.28    0.13             0.06 0.06 0.03 0.03
+
+                                     (0.24) (0.34)            (0.05) (0.05) (0.07) (0.07)
+
+                                     -0.46 -0.22              -0.09 -0.09 -0.04 -0.04
+
+                                     (0.19) (0.35)            (0.04) (0.04) (0.07) (0.07)
+
+                                             -0.90                            -0.18 -0.18
+
+                                             (0.48)                           (0.10) (0.10)
+
+NoQual × High Costs                          0.21                             0.04 0.04
+
+                                             (0.47)                           (0.10) (0.10)
+
+Num. obs.                      1020  1020 1020                1020 1020 1020 1020
+
+p < 0.001; p < 0.01; p < 0.05
+
+Table A.7: Regression results for delegation decision for restricted sample of "con-
+sistent" subjects. Standard errors in parenthesis. Observation level: delegation
+decision (3 per subject). All standard errors are clustered at the individual level.
+
+We do see that the results are consistent with those observed for the general sam-
+ple.
+
+    Table A.9 presents the results for choosing low quality experts focusing on the
+subsample of consistent subjects. The results are consistent with those of the
+general sample. The only difference is that we observe that in one of the specifi-
+cations consistent subjects are less likely to choose low-quality expert in complex
+task. However, this results is not robust to alternative regression specifications.
+
+                                             39
+Constant        (1)                        (2)      (3)      (4)      (5)      (6)
+              0.70                      0.69     0.67      0.85     0.79     0.67
+                                         (0.06)   (0.05)   (0.33)   (0.33)   (0.32)
+              (0.05)                     -0.01             -0.40    -0.05     0.62
+                                         (0.05)    0.08    (0.33)   (0.36)   (0.38)
+First block   -0.07                      -0.01    (0.05)    0.36    -0.04    -0.23
+                                         (0.05)   -0.04    (0.39)   (0.35)   (0.33)
+              (0.05)                    0.23      (0.05)   1.52     1.62     1.58
+                                         (0.07)   0.22     (0.54)   (0.53)   (0.53)
+Second block                   0.04      0.22     (0.07)   1.36     1.42     1.45
+                                         (0.07)   0.22     (0.54)   (0.54)   (0.54)
+NoPay         (0.05)                              (0.07)    0.71     0.71     0.78
+              0.22                        0.13     0.14    (0.45)   (0.45)   (0.45)
+                                         (0.07)   (0.07)  -1.94    -1.96    -1.97
+NoQual        (0.07)                    -0.29    -0.29     (0.72)   (0.72)   (0.73)
+              0.21                       (0.10)   (0.10)   -1.23    -1.26    -1.41
+                                         -0.19   -0.21     (0.75)   (0.75)   (0.75)
+              (0.07)                     (0.11)   (0.10)             340      340
+                                                            340
+High Costs                     0.13       340      340
+
+                                (0.07)
+NoPay × High Costs -0.29
+
+              (0.10)
+
+Noqual × High Costs -0.19
+
+              (0.10)
+
+Num. obs.                      340
+
+p < 0.001; p < 0.01; p < 0.05
+
+Table A.8: Whether subject delegated in at least one of the tasks.
+
+                                        40
+                                       OLS                                     logit
+
+                        (1)            (2)     (3)        (4)      (5)   (6)          (7)      (8)
+                      0.56                               0.03     0.18                      -3.18
+Constant              (0.06)           0.61 0.05        (0.03)   (0.26)  0.34 -3.01
+Simple Task           -0.05                                      -0.17                       (0.39)
+Complex Task          (0.04)           (0.07) (0.03)    -0.03    (0.22)  (0.28) (0.32)
+Trivial Task          -0.08                             (0.03)   -0.21                       -0.02
+                      (0.04)           -0.04             0.04    (0.21)  -0.18               (0.22)
+                                                        (0.04)                                0.18
+                                       (0.04)            0.03     0.17   (0.22)              (0.22)
+                                                        (0.03)   (0.21)                       0.16
+                                       -0.07 -0.03       0.02    -0.02   -0.21 -0.03         (0.21)
+                                                        (0.03)   (0.22)                      -0.03
+                                       (0.04) (0.03)    0.54             (0.21) (0.22)       (0.22)
+                                                        (0.06)   2.46                        3.34
+                                               0.05     0.86     (0.25)               0.17   (0.41)
+                                                        (0.04)  -3.02                        5.29
+                                               (0.04)            (0.29)          (0.22)      (0.44)
+                                                         0.02    -0.26
+First block                     0.03   0.03 0.03        (0.03)   (0.21)  0.16         0.17    0.13
+Second Block                   (0.03)                    0.04                                (0.51)
+AllInfo                         0.02   (0.03) (0.03)    (0.05)     962   (0.21) (0.21)        0.34
+                               (0.03)                                                        (0.67)
+                                       0.02 0.02        -0.21            -0.03 -0.02
+                                                        (0.08)                               -0.70
+                                       (0.03) (0.03)                     (0.22) (0.22)       (0.58)
+                                                          568
+                                               0.46                              3.02          962
+
+                                               (0.04)                            (0.29)
+
+NoQual                 0.43            0.31 0.89                         1.95 5.48
+NoPay                  (0.05)
+High Costs            -0.46            (0.07) (0.03)                     (0.35) (0.34)
+NoQual × High Costs    (0.04)
+                       -0.04           -0.54                             -3.34
+                       (0.03)
+                                       (0.06)                            (0.41)
+
+                                       -0.20 -0.04                       -0.57 -0.26
+
+                                       (0.08) (0.03)                     (0.27) (0.21)
+
+                                       0.26                              1.04
+
+                                       (0.09)                            (0.50)
+
+NoPay × High Costs                     0.21                              0.70
+
+                                       (0.08)                            (0.58)
+
+AllInfo × High Costs
+
+Num. obs.                      568     568     568                       962          962
+
+p < 0.001; p < 0.01; p < 0.05
+
+Table A.9: Choosing low-quality expert. Results from OLS and logit regressions,
+coefficients with standard errors in parenthesis.
+
+                                                    41
+B Details on CCEI (Online)
+
+We now explain how we adapt the Afriat (1973) Critical Cost Efficiency Index
+(CCEI) to our setting. Recall that we have a finite set of observations for each
+subject. A subject is choosing from a finite budget set Bt, which is defined by the
+constant price vector pt, such that
+
+                                 x  Bt if and only if ptx  1.
+
+(Figure 6 illustrates all budget sets used in the experiment.) Denote by xt the
+allocation chosen from the budget Bt. Then, under the Generalized Axiom
+of Revealed Preferences (GARP) for every sequence t = 1, . . . , n such that
+pt+1xt  1, it holds that pnx1  1. It is well known (see Varian, 1982) that GARP
+is equivalent to the existence of a locally non-satiated continuous and concave
+utility function that generated the data. Since we consider preferences consistent
+with stochastic dominance and we consider assets with only two equally likely
+states of the world, we can use a simplified version of FSD-GARP (see Heufer,
+2014; Castillo and Freer, 2018). Let ((x1, x2)) = (x2, x1) be the permutation of
+the choice x. A data set satisfies FSD-GARP if for every sequence t = 1, . . . , n
+such that pt+1xt  1 or pt+1(xt)  1 it holds that pnx1  1 and pn(x1)  1.
+FSD-GARP is then equivalent to the existence of a utility function that satisfies
+stochastic dominance and generated the data. Finally, given the axiom we can
+define CCEI as the maximum e  [0, 1] such that for every sequence t = 1, . . . , n
+with pt+1xt  e or pt+1(xt)  e, it holds that pnx1  e and pn(x1)  e.
+
+    Intuitively, a CCEI of e means that the chosen bundle is only better than
+everything in the reduced budget set ptx  e instead of the full budget set ptx  1,
+i.e., she is maximizing her preferences as if her income were only e < 1. In that
+sense, she is leaving a 1 - e share of income on the table, and could have attained
+a better bundle if she rationally deployed the 1 - e share.
+
+                                                   42
+C Experimental Details (Online)
+
+C.1 Budget Specifications
+
+                              Budgets for trivial investment task
+
+100                      100                  100                  100                  100
+ 80                                                                                      80
+ 60                      80                   80                   80                    60
+ 40                                                                                      40
+ 20                      60                   60                   60                    20
+  0                                                                                       0
+                         40                   40                   40
+     0                                                                                       0
+                         20                   20                   20
+
+        20 40 60 80 100  0                    0                    0                            20 40 60 80 100
+                           0 20 40 60 80 100    0 20 40 60 80 100    0 20 40 60 80 100
+
+                              Budgets for simple investment task
+
+100                      100                  100                  100                  100
+ 80                                                                                      80
+ 60                      80                   80                   80                    60
+ 40                                                                                      40
+ 20                      60                   60                   60                    20
+  0                                                                                       0
+                         40                   40                   40
+     0                                                                                       0
+                         20                   20                   20
+
+        20 40 60 80 100  0                    0                    0                            20 40 60 80 100
+                           0 20 40 60 80 100    0 20 40 60 80 100    0 20 40 60 80 100
+
+                              Budgets for complex investment task
+
+100                      100                  100                  100                  100
+ 80                                                                                      80
+ 60                      80                   80                   80                    60
+ 40                                                                                      40
+ 20                      60                   60                   60                    20
+  0                                                                                       0
+                         40                   40                   40
+     0                                                                                       0
+                         20                   20                   20
+
+        20 40 60 80 100  0                    0                    0                            20 40 60 80 100
+                           0 20 40 60 80 100    0 20 40 60 80 100    0 20 40 60 80 100
+
+        Figure 6: Budget specifications used in the experiment
+
+Figures 6 presents the entire set of budgets for Trivial, Simple and Complex tasks.
+Recall that Trivial and Simple tasks are menu choices, while the Complex task is
+the portfolio choice. Thus, for the Complex task we also present the comprehensive
+closure of the budget set. Every budget for Simple and Complex task contains two
+points that are dominated if subject is consistent with maximizing a utility function
+that satisfies first-order stochastic dominance. These points are marked with red.
+One dominated point for every budget set is strictly inside the budget set, so it
+is dominanted as long as subject has monotone utility. Second dominated point
+for every budget set is on the "short side", that is, this choice is not dominated
+if subject has only monotone utility, but is dominated if subject has utility that
+
+                                                   43
+satisfies first-order stochastic dominance.
+
+C.2 Experimental Instructions
+
+Below we present the full set of experimental instructions. General instructions
+been shown to every subject prior to the beginning of the experiment. Investment
+tasks were shown in random order of "Blocks".
+
+                                                   44
+                        General Instrucitons:
+
+                               Overview
+
+In this experiment you will face three blocks of five tasks each. Each task
+involves an economic decision. At the end of the experiment, one of the blocks
+will be randomly (with equal likelihood) selected for payment. Out of this
+block you will be paid for one out of your first four decisions (with equal
+likelihood), and you also will be paid for your last decision in that block.
+
+You will certainly receive £1.5 for participation. You will also earn an
+additional £0-11 depending on the decisions you make and on the random
+events, as described below. Throughout the experiment we use tokens as
+currency. At the end of the experiment tokens will be converted at the rate
+of 20 tokens per £1. In the beginning of the experiment you are given
+the endowment of 20 tokens (£1) and further earnings (and losses) will be
+added to the initial endowment.
+
+Before making decisions in each block, you will receive instructions for that
+block and a couple of questions to check your understanding. Please read the
+instructions carefully because fully understanding them will help you make
+better decisions and take home more money.
+                      Trivial Investment Task:
+
+                   Instructions (Block 2 out of 3)
+
+In this block, you will make five decisions. In each of these decisions, you will
+choose one of two investment options.
+
+The table on the decision screen shows how the payoff of each option depends
+on the state of the world. There are two equally likely states of the world:
+Heads and Tails. The actual state will be determined by a virtual coin flip (using
+the computer's random number generator).
+
+In the example decision below, if you choose Option 1, then you will receive
+100 tokens if the coin comes up Heads, and will receive 0 tokens if the coin
+comes up Tails. If you choose Option 2, then you will receive 0 tokens if the
+coin comes up Heads, and 100 tokens if Tails.
+                      Simple Investment Task:
+
+                   Instructions (Block 3 out of 3)
+
+In this block, you will make five decisions. In each of these decisions, you will
+choose one of six investment options.
+
+The table on the decision screen shows how the payoff of each option depends
+on the state of the world. There are two equally likely states of the world:
+Heads and Tails. The actual state will be determined by a virtual coin flip (using
+the computer's random number generator).
+
+In the example decision below, if you choose Option 1, then you will receive 55
+tokens if the coin comes up Heads, and will receive 15 tokens if the coin comes
+up Tails. If instead you choose Option 3, then you will receive 40 tokens if the
+coin comes up Heads, and 30 tokens if Tails. Likewise, if you choose Option 4,
+then you will receive 88 tokens if the coin comes up Heads, and 6 tokens if
+Tails.
+                     Complex Investment Task:
+
+                  Instructions I (Block 1 out of 3)
+
+In this block, you will make five decisions. In each of these decisions, you will
+distribute 100 units among six investment options. At the end of the
+experiment, one of the decisions will be randomly chosen and it will determine
+your payment.
+
+The table on the decision screen shows how the payoff of each option depends
+on the state of the world. There are two equally likely states of the world:
+Heads and Tails. The actual state will be determined by a virtual coin flip (using
+the computer's random number generator).
+                 Instructions II (Block 1 out of 3)
+
+Your payoff each round will depend on how you choose to allocate 100 units
+among the available options, and also on the outcome of a virtual coin flip. In
+the example below, if you choose to allocate all 100 units in Option 1, then you
+would receive 100*100 = 10,000 mini-tokens = 100 tokens if the coin comes up
+Heads, and would receive 0 tokens if the coin comes up Tails. If you choose
+instead to invest 50 units in Option 2 and 50 units in Option 4, then you would
+receive 50*50+50*30 = 4000 mini-tokens = 40 tokens if the coin comes up
+Heads, and you would receive 50*10+50*14 = 1200 mini-tokens = 12 tokens if
+the coin comes up Tails.
+                 Instructions III (Block 1 out of 3)
+
+To distribute your 100 units, use your mouse to move the blue bars in the
+fourth column, or use the -/+ buttons in the last column. If you want to start
+over, just click the "Reset" button.
+
+To finalize your distribution, first check that you have distributed all 100 units.
+(To avoid unnecessary waste, the program will not let you proceed if there are
+leftover units.) Then click the "Submit" button and, provided there are no
+leftover units, a "Next" button will appear. Clicking it will finalize your
+distribution on that task.
+          Delegation instructions: All Info Treatment
+
+                      Instructions: Delegation
+
+You can now choose to either delegate the task to a previous investor or else you can
+continue making your own choices as in the previous four rounds. If you delegate to a
+previous investor, then the computer will automatically choose for you exactly the same
+asset as that investor chose in that round.
+
+As usual, your screen will display information you will need if you decide to make your
+own choices. It will also display a list of five investors who have previously played this
+game. The display also tells you something about each of those previous investors: the
+final payments they received, their risk ratings and their quality ratings.
+
+Their final payments, like yours, come from the last round and one of the other four
+rounds in a single randomly chosen block. Please note that it is often from a different
+block (and round) than that for which you delegate.
+
+Their risk rating --- High, Medium, or Low --- is based on all their choices during their
+session. High risk rating means they often made choices that result in a very high
+payment in one state and a very low payment in the other state, while low risk rating
+indicates mostly choices that give a moderate payout no matter what the state turns out
+to be.
+
+Their quality rating --- High or Low --- indicates the "efficiency" of the investor's
+choices. A low rating indicates that they often could have obtained higher payments in
+both states if they had made different choices.
+    Delegation instructions: No Payment Info Treatment
+
+                      Instructions: Delegation
+
+You can now choose to either delegate the task to a previous investor or else you can
+continue making your own choices as in the previous four rounds. If you delegate to a
+previous investor, then the computer will automatically choose for you exactly the same
+asset as that investor chose in that round.
+
+As usual, your screen will display information you will need if you decide to make your
+own choices. It will also display a list of five investors who have previously played this
+game. The display also tells you something about each of those previous investors: their
+risk ratings and their quality ratings.
+
+Their risk rating --- High, Medium, or Low --- is based on all their choices during their
+session. High risk rating means they often made choices that result in a very high
+payment in one state and a very low payment in the other state, while low risk rating
+indicates mostly choices that give a moderate payout no matter what the state turns out
+to be.
+
+Their quality rating --- High or Low --- indicates the "efficiency" of the investor's
+choices. A low rating indicates that they often could have obtained higher payments in
+both states if they had made different choices.
+     Delegation instructions: No Quality Info Treatment
+
+You can now choose to either delegate the task to a previous investor or else you can
+continue making your own choices as in the previous four rounds. If you delegate to a
+previous investor, then the computer will automatically choose for you exactly the same
+asset as that investor chose in that round.
+
+As usual, your screen will display information you will need if you decide to make your
+own choices. It will also display a list of five investors who have previously played this
+game. The display also tells you something about each of those previous investors: the
+final payments they received and their risk ratings.
+
+Their final payments, like yours, come from the last round and one of the other four
+rounds in a single randomly chosen block. Please note that it is often from a different
+block (and round) than that for which you delegate.
+
+Their risk rating --- High, Medium, or Low --- is based on all their choices during their
+session. High risk rating means they often made choices that result in a very high
+payment in one state and a very low payment in the other state, while low risk rating
+indicates mostly choices that give a moderate payout no matter what the state turns out
+to be.
+

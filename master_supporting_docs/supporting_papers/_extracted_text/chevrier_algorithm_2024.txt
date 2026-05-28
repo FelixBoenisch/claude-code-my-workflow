@@ -1,0 +1,1631 @@
+ALGORITHM DELEGATION AND
+RESPONSIBILITY: SHIFTING BLAME TO THE
+PROGRAMMER?
+
+Documents de travail GREDEG
+GREDEG Working Papers Series
+
+Mathieu Chevrier
+Vincent Teixeira
+
+GREDEG WP No. 2024-04
+
+https://ideas.repec.org/s/gre/wpaper.html
+Les opinions exprimées dans la série des Documents de travail GREDEG sont celles des auteurs et ne reflèlent pas nécessairement celles de l'institution.
+Les documents n'ont pas été soumis à un rapport formel et sont donc inclus dans cette série pour obtenir des commentaires et encourager la discussion.
+Les droits sur les documents appartiennent aux auteurs.
+The views expressed in the GREDEG Working Paper Series are those of the author(s) and do not necessarily reflect those of the institution. The Working
+Papers have not undergone formal review and approval. Such papers are included in this series to elicit feedback and to encourage debate. Copyright belongs
+to the author(s).
+Algorithm Delegation and Responsibility:
+   Shifting Blame to the Programmer ?
+
+Mathieu Chevrier  Vincent Teixeira
+
+GREDEG Working Paper No. 2024-04
+
+                                                Abstract
+    In a lab experiment, we investigate whether individuals delegate allocation deci-
+sions to an intermediary in order to shift blame. The intermediary can be a human,
+a rule-based algorithm (RA), or an artificial intelligence algorithm (AI), depending
+on the treatment condition. Behind these algorithms, a programmer fully controls
+the decisions of the RA and partially controls the decisions of the AI. We find that
+participants delegate regardless of the type of intermediary (human, RA, or AI).
+While human intermediaries and RA programmers are perceived as more respon-
+sible for inegalitarian decisions, the delegator is perceived as less responsible. AI
+programmers and the delegator are not perceived as responsible for the inegalitar-
+ian allocations made by the AI. This allows AI programmers to exploit the moral
+wiggle room and select inegalitarian allocations more frequently.
+
+    JEL Codes: C92, D63
+
+    Keywords: Artificial Intelligence, Delegation, Responsibility, Moral Wiggle Room,
+Punishment, Laboratory Experiment
+
+ This work has been financially supported by the BETA and the GREDEG laboratories.
+Université Côte d'Azur, CNRS, GREDEG, France. Email: mathieu.chevrier@univ-cotedazur.fr
+Université de Lorraine, CNRS, BETA, France. Email: vincent.teixeira@univ-lorraine.fr
+
+                                                     1
+1 Introduction
+
+In an era where algorithms shape everything from our social media feeds to the finan-
+cial markets, understanding our interactions with these digital decision-makers is more
+important than ever. As algorithms evolve to become our advisors, employees and even
+our managers, the lines between human judgement and machine calculation are blurring,
+raising profound questions about trust, responsibility, and ethics in our increasingly auto-
+mated world. Organizations are being transformed to welcome these algorithms (Shrestha
+et al., 2019; Langer and Landers, 2021; Agrawal et al., 2024). At the same time, a growing
+number of studies are discussing the pros and cons of these autonomous algorithms in
+different tasks and domains such as autonomous vehicles (Bonnefon et al., 2016; Shariff
+et al., 2017; Awad et al., 2020).1 What all algorithms have in common is that there is
+always a principal (also referred to as "the user") behind them who chooses to delegate
+her decision to the algorithm. This algorithm is linked to "a programmer" who manipu-
+lates and develops it.
+
+A principal may choose to delegate a decision for several reasons, including the expertise
+of the agent, the inability to manage everything, to save time, or simply because she does
+not want to do it herself. Bartling and Fischbacher (2012) also show that a principal can
+delegate to a human intermediary to avoid being blamed. Here, our first research ques-
+tion is: "Do users try to shift the blame to the programmer behind the algorithm?". The
+issue is that an algorithm itself has no personal stake in monetary losses, cannot be sent
+to prison, and cannot regret its actions. Thus, it cannot be held responsible for its deci-
+sions (Martin, 2019; Coeckelbergh, 2020). Therefore, either the user, the programmer, or
+both, could be held responsible instead of the algorithm. In light of this uncertainty, we
+must ask: "Who is perceived as responsible for an inegalitarian algorithmic decision: the
+programmer or the user?". Delegating the decision is not advisable if the user believes
+that the programmer will not be perceived as responsible.
+
+    1Here are some other examples of algorithms: matching algorithms are used to identify compatible
+profiles based on preferences (Manlove, 2013), hire employees (Dietvorst et al., 2015; Lee, 2018; Van Esch
+et al., 2019; Bigman et al., 2023; Dargnies et al., 2024), admit candidates to colleges (Kleinberg et al.,
+2018), and dismiss employees (Bartosiak and Modlinski, 2022; Corgnet, 2023). Algorithms also help
+detect spam, saving millions annually (Rao and Reiley, 2012), assess credit scores for banks (Lessmann
+et al., 2015), and detect deception through facial expressions (von Schenk et al., 2022; Leib et al.,
+2024). Public policies, too, use algorithms to optimize resource allocation and citizen utility (Meijer and
+Wessels, 2019; Papachristou et al., 2024; Chugunova and Luhan, 2024) and to manage intergenerational
+redistribution (Klockmann et al., 2022).
+
+                                                        1
+It is important to note that programmers can have different levels of influence on the
+outcome of an algorithm. As a result, they should not be perceived with the same degree
+of responsibility. A Rule-Based Algorithm (RA) is fundamentally different from an Arti-
+ficial Intelligence Algorithm (AI). The RA follows logical rules created by a programmer,
+usually based on expert decisions. For example, MYCIN is one of the earliest rule-based
+expert algorithms used in medicine. Created in the 1970s, it consists of nearly 600 logical
+rules that allow it to make diagnoses and predict which drugs to prescribe.2 Unlike RA,
+AIs make decisions based on a database and can work autonomously. A well known ex-
+ample is ChatGPT, a chat-bot developed by OpenAI. This algorithm makes predictions
+based on a database containing information from the internet up to a certain date.3
+The processes behind AI and RA differ significantly. Unlike RA systems, where the pro-
+grammer maintains complete control over the algorithmic decisions, AI operates with
+significantly greater autonomy. For example, in January 2023, the creator of Game of
+Thrones sued OpenAI for copyright infringement after ChatGPT reproduced sections of
+his work, despite OpenAI's policies against violating copyright laws (Gerken and McMa-
+hon, 2023). Similarly, Microsoft's Twitter chat-bot Tay had to be shut down just eight
+hours after its launch in the U.S. due to it adopting offensive behaviors influenced by
+user interactions, a problem not seen in China, likely due to stricter social media cen-
+sorship (Goolsbee, 2018). In both cases, if the algorithms had been RA rather than AI,
+the programmers - and their organizations - would have had more control over the out-
+comes, potentially avoiding these problems. By generating its own rules, AI reduces the
+programmer's control and makes decisions less predictable.
+
+The unpredictability of AI outcomes makes it difficult to determine whether the algo-
+rithm is following the programmer's intentions or is acting independently. This ambiguity
+inherent in AI provides programmers with the opportunity to exploit moral wiggle room
+(Dana et al., 2007). By making an inegalitarian decision, the AI programmer increases
+the likelihood that an inegalitarian allocation is selected by the AI. This brings us to our
+
+    2Others RAs exist in medicine, such as CADUCEUS and DxPlain. In finance, notable examples
+include Charles River Investment Management Solution and AML. In law, Thomson Reuters offers
+several products, including UltraTax CS, Practical Law, and Westlaw Edge.
+
+    3Currently, for ChatGPT 3.5 and 4, the database includes information from the internet up to
+September 2021.
+
+                                                        2
+last research question: "Does an AI programmer exploit the moral wiggle room afforded
+by an AI?"
+
+To answer these questions, we use the experimental design outlined by Bartling and
+Fischbacher (2012). This design proposes a simple measure of perceived responsibility
+based on monetary punishment. In this one-shot economic game, a group of four par-
+ticipants, designated as A (the "dictator"), B (the "intermediary"), and C and D (the
+"recipients"), participate in the allocation of a given endowment. The participant A faces
+a tripartite choice: an egalitarian distribution, an inegalitarian distribution, or delegating
+this decision to an intermediary B. If A delegates, B must choose between the two distri-
+butions proposed to A (egalitarian or inegalitarian). After that the allocation is made,
+two recipients may choose to administer punishment depending on the choice made by A
+and B. This can be done by sacrificing a portion of their respective payoffs. This exper-
+imental design allows us to observe the perception of responsibility through monetary
+punishment. We introduce two new treatments, in which A can delegate decision-making
+to an algorithm under the control of B. In these treatments, participant A is referred to
+as "the dictator" or "the user", who can delegate the decision to the algorithm. Participant
+B is referred to as "the intermediary" or "the programmer" who developed the algorithm.
+In the "RA" treatment, B has full control over the algorithm. In the "AI" treatment, the
+programmer's control over the algorithm's decisions is reduced to 50%, meaning that
+there is a 50% chance that the decision of participant B will be applied by the algorithm.
+In the other 50%, the algorithm makes the decision autonomously, based on its database.
+
+This research primarily contributes to the literature on algorithm delegation, perceived
+responsibility, and moral wiggle room.
+
+To the best of our knowledge, this paper is the first to consider the role of the algo-
+rithm programmer into an economic game. This paves the way for new research that will
+examine the role of the programmer in depth. (i) We show that individuals are equally
+likely to delegate an allocation decision to a human or an algorithm (AI, RA) when
+there is a programmer linked to the algorithm. (ii) We validate the theory developed
+by Matthias (2004) highlighting that the AI programmer is perceived as less respon-
+
+                                                        3
+sible than the RA programmer when the algorithm makes an inegalitarian allocation
+decision. (iii) Recipients are less likely to pay e1 to punish other participants when the
+intermediary is an AI. However, recipients who decide to pay e1 punish AI users more
+severely than RA users. This opposite effect leads AI users to receive a similar average
+punishment and payoff as those who delegate to a human or an RA. Thus, regardless of
+the nature of the intermediary, delegators still have an incentive to delegate in order to
+be perceived as less responsible. (iv) AI programmer exploits the moral wiggle room and
+therefore makes more inegalitarian choices.
+
+We proceed as follows: In Section 2, we review the literature, then introduce our be-
+havioral conjectures. In Section 3, we explain the framework of our experimental design
+and process. The results are presented in Section 4, and we conclude and discuss them
+in Section 5.
+
+2 Related literature and conjectures
+
+2.1 Related literature
+
+To investigate whether participants decide to delegate an allocation decision to an RA
+or an AI, and to provide evidence of differences between these algorithms and a human
+intermediary, we review the relevant literature on algorithmic delegation, perceived re-
+sponsibility, and moral wiggle room. We use this literature review and logical reasoning
+to formulate behavioral conjectures in the second part.
+
+2.1.1 Algorithmic appreciation
+Although algorithms often outperform humans in many tasks, people tend to prefer to
+delegate tasks to humans rather than algorithms (Meehl, 1954; Dawes, 2008; Sanders
+and Manrodt, 2003; Fildes and Goodwin, 2007; Dietvorst et al., 2015; Jung and Seiter,
+2021; Dargnies et al., 2024). However, a preference for algorithmic delegation may emerge
+depending on whether the algorithm acts as an advisor (Logg et al., 2019; You et al., 2022;
+Daschner and Obermaier, 2022), the objectivity of the task (Castelo et al., 2019; Hertz
+and Wiese, 2019) and the perceived complexity of the algorithm (Lehmann et al., 2022;
+Chevrier et al., 2024). These findings underscore the growing importance of algorithms
+
+                                                        4
+in a variety of areas in economics.4 However, research on algorithmic responsibility and
+delegation remains limited. Gazit et al. (2023) found that humans are perceived as more
+responsible than algorithms in financial and medical advice, preferring human advisors
+because other humans can be held accountable. Kirchkamp and Strobel (2019) observed
+that humans and algorithms can be perceived as equally responsible in joint decisions
+leading to unequal outcomes.
+
+2.1.2 Switching the blame to an algorithm
+
+Prior literature suggests that principals strategically delegate decisions to agents to re-
+duce their perceived responsibility, a phenomenon referred to as strategic delegation
+(Sengul et al., 2012). This allows principals to maximize payoffs (Fershtman and Gneezy,
+2001; Sutan and Vranceanu, 2016), maintain their social image (Bénabou and Tirole,
+2005; Hamman et al., 2010), or shift the blame (Coffman, 2011; Bartling and Fischbacher,
+2012; Oexl and Grossman, 2013; Argenton et al., 2023). These practices can be traced
+back to Machiavellian principles, where unpopular measures are delegated to others while
+leaders retain the means of distributing favors (Gawn and Innes, 2021).
+
+In this context, this study examines whether individuals also delegate tasks to algo-
+rithms in order to reduce their perceived responsibility. Feier et al. (2022) conducted
+an experiment in which principals could delegate tasks to either a human or an artifi-
+cial agent. The results show that participants are indifferent between delegating to both
+agents. However, when mistakes occur, principals who delegate to human agents are
+perceived as more responsible than those who delegate to artificial agents. Awad et al.
+(2020) found that users of autonomous vehicles are held responsible for accidents, rather
+than the companies that produce the faulty algorithms. This finding contrasts with the
+results of Feier et al. (2022), possibly due to the framing of the algorithms. Indeed, Hou
+and Jung (2021) showed that when algorithms were framed as "AI", participants tended
+to value them more, whereas framing them as following logical rules increased algorithm
+aversion. This discrepancy in framing may explain the differences between studies.
+We believe that individual perceive algorithms - RA and AI - differently, depending
+on how much control the programmer has. This is why we compare these two types of
+
+    4For a more comprehensive review, see Jussupow et al. (2020); Burton et al. (2020); Chugunova and
+Sele (2022); Mahmud et al. (2022).
+
+                                                        5
+algorithms in this paper.
+
+2.1.3 Perceived responsibility: RA vs. AI
+
+Matthias (2004) argues that it is not always possible to establish a direct link between
+the programmer's decision and an algorithm's output, especially in AI. Programmers
+can choose AI models and databases, but their influence is limited. If an RA makes
+an inequitable decision, it is a direct result of the programmer's conscious choices. In
+contrast, when an AI makes an inegalitarian decision, the outcome may be the result
+of either the programmer's input or biases present in the underlying database (Zhang
+et al., 2020). AI databases, often reflecting societal biases, have produced sexist and
+racist outcomes (Rahwan et al., 2019; Cowgill and Tucker, 2019; Kassam and Marino,
+2022), and individuals can manipulate AI to their advantage (Klockmann et al., 2022;
+Cao et al., 2023).
+This ambiguity, often referred to as the "responsibility gap" (Matthias, 2004), makes
+it difficult to assign responsibility for decisions made by AI. Because RA programmers
+retain more control over the decisions of their algorithms, the causal link between the
+programmer's actions and outcomes is stronger than in AI, where the algorithm can
+make autonomous decisions beyond the programmer's direct input (May, 1992; Fischer,
+1999; Lipinski et al., 2002).
+Previous research suggests that AI programmers may exploit ambiguity surrounding AI
+outcomes to manipulate AI to produce more inegalitarian decision.
+
+2.1.4 AI and moral wiggle room
+
+Moral wiggle room refers to the phenomenon where individuals exploit ambiguity or
+uncertainty to justify self-serving decisions. By using ambiguity, individuals can make
+choices under the guise of uncertainty, often leading to more inegalitarian decisions. For
+example, Dana et al. (2007) has shown that in a dictator game, dictators were more likely
+to choose an inegalitarian distribution when the recipient was unaware of the dictator's
+decision. Larson and Capra (2009), Feiler (2014) and Grossman and Van Der Weele
+(2017) conducted control checks and expanded Dana et al. (2007)'s design, showing that
+participants preferred to remain ignorant about their actions' effects on other partici-
+pants' payoffs. Moral wiggle room allows participants to avoid information about the
+
+                                                        6
+consequences of their actions. All of these studies show that moral wiggle room enables
+participants to make more self-serving decisions. Based on this logic, Garcia et al. (2020)
+showed that participants act strategically by avoiding information about others' payoffs
+as an excuse to be less generous in charitable giving without feeling guilty.
+
+As we have seen, exploiting moral wiggle room is well known in the literature. To the
+best of our knowledge, no paper has yet demonstrated that, due to the ambiguous out-
+comes delivered by AI, participants may also exploit moral wiggle room to make more
+inegalitarian allocation decisions.
+
+2.2 Behavioral conjectures
+
+Our behavioral conjectures are based on the idea that participants can delegate an al-
+location decision to an intermediary. The intermediary can be a human, an RA, or an
+AI. Recipients can also decide to punish another participant by sacrificing a portion of
+their respective payoff to reduce another participant's payoff. We thus distinguish two
+variables: the likelihood of being punished, which is reflected in the recipient's decision
+to sacrifice their payoff. And the severity of the punishment, which is captured by the
+amount of euros deducted from other participants (the design is described in detail in
+the next section).
+
+2.2.1 Delegation
+
+In this game, if all participants are rational and want to maximize their payoff, the dicta-
+tor will choose the inegalitarian decision directly, and no recipient will choose to sacrifice
+their payoff to punish. However, several studies have shown that the empirical results
+do not match the theory (Fehr and Schmidt, 2006). Thus, the dictator may anticipate a
+possible punishment. Strategically, if the dictator assumes that the intermediary is driven
+by the objective of maximizing profit and the recipient has a preference for fairness and
+will punish, the dictator should delegate to the intermediary to let him/her be punished
+instead. For the "switching the blame" strategy to be effective, the intermediary must be
+perceived as responsible (Bartling and Fischbacher, 2012; Argenton et al., 2023). Previ-
+ous studies, similar to our baseline, have already shown that the "switching the blame"
+strategy is used. In our RA treatment, participants are well aware that the programmer
+
+                                                        7
+completely controls the decisions made by the algorithm. The only difference between
+the Human and the RA treatment is the framing. In the RA treatment, we say that the
+"algorithm has selected" instead of "another participant has selected" a certain allocation.
+However, it is always the programmer who makes all the algorithm's decisions and can
+be held accountable. Participants know this, so we expect no difference.5 Regarding the
+AI treatment, we assume that the AI programmer will be perceived as less responsible
+because the algorithm can make decisions autonomously. The question is whether the
+dictator will anticipate this. In Bartling and Fischbacher (2012), a similar experiment
+was conducted with delegation to a die. Behind the die, a participant assumed responsi-
+bility for the random draw. There was no difference in the number of delegations between
+delegating to another human and delegating to the die. Feier et al. (2022) found no signif-
+icant difference in the tendency to delegate tasks between humans and algorithms. This
+suggests that individuals who delegate tasks do not anticipate that algorithms cannot
+assume responsibility in the same way as humans. They assume that participants cannot
+anticipate that the artificial agent will be less punished.6 Based on these two papers, we
+assume that the dictator will not anticipate that the AI intermediary will be less blamed
+and that the blame will fall on them.
+
+Conjecture 1: Participants' delegation decisions are not influenced by the type of in-
+termediary (human, RA, or AI).
+
+2.2.2 Perceived responsibility
+
+May (1992) and Lipinski et al. (2002) showed that for an individual to be judged respon-
+sible, it is necessary for the judge to see the causal link between an individual decision
+and the resulting outcome. The stronger the causal link between making the decision and
+the outcome, the more participants can judge the decision maker as being responsible
+for their actions. If there is a delegation to an intermediary, such as another participant
+or an RA, the direct link between the outcome and the decision-maker is quite easy
+to draw. The recipients should perceive the intermediary as responsible (Bartling and
+Fischbacher, 2012; Oexl and Grossman, 2013). In the case of AI, due to the ambiguity
+
+    5As mentioned in the design section, we implement the RA treatment to isolate the effect of the
+algorithmic framing.
+
+    6"However, when negative outcomes occurred, delegators fared significantly better if a machine agent
+caused the failure. Interestingly, participants did not seem to anticipate this pattern as we did not find
+significant differences regarding delegation decisions themselves." Feier et al. (2022)
+
+                                                        8
+about who makes the choice (the AI programmer or the AI), the direct link between the
+AI programmer and the AI decision is less strong. This main difference between RA and
+AI is the key factor to understand our following conjectures.
+
+Bartling and Fischbacher (2012) used a punishment pattern benchmark to determine
+who is perceived as responsible for the outcome. The harsher a participant is punished,
+the more responsible they are perceived. To administer punishment, the recipient must
+pay to be allowed to reduce another participant's payoff. Recipients who have a prefer-
+ence for fairness and are willing to pay to punish others should be sure about who is truly
+responsible for the decision. The risk of punishing an innocent participant emerges in
+the AI condition. Therefore, the willingness of the recipients to punish should diminish
+due to this ambiguity. Recipients should thus less frequently pay to punish others in the
+AI treatment because they have difficulty determining who should be held responsible
+in this treatment condition.Due to the lack of control that AI programmers have over
+the AI decision, our conjecture 2.1 highlights that AI programmers should be perceived
+as less responsible than RA programmers (Matthias, 2004).
+
+Conjecture 2: It is less likely that recipients will decide to punish other participants
+when an inegalitarian allocation is selected by an AI.
+
+AI programmers have much less control over the algorithm's decision-making, which re-
+sults in them being perceived as less responsible than RA programmers who directly
+determine the algorithm's decisions. The direct link between the decision made by an
+RA and its programmer is stronger than the direct link between the decision made by an
+AI and its programmer. The AI makes an autonomous decision without considering the
+programmer in 50% of cases. Therefore, we assume that participants will perceive an RA
+programmer as more responsible for the decision-making by the algorithm than an AI
+programmer, who cannot completely control it. According to Bartling and Fischbacher
+(2012), being perceived as more responsible leads to harsher punishment. Therefore, RA
+programmer punishment should be harsher than AI programmer punishment.
+
+Those who are willing to pay should perceive the AI user as more responsible, given that
+the AI user has fully decided to delegate to the AI rather than making an egalitarian
+decision. Conjecture 2.2 aligns with findings from Awad et al. (2020), who demonstrated
+
+                                                        9
+that people perceive autonomous vehicle users as more responsible than the firm that
+produces them. Bartling and Fischbacher (2012) demonstrated that when an individual
+delegates a decision to a dice roll, she is perceived as significantly more responsible for
+the outcome than the mechanism itself. Similarly, Oexl and Grossman (2013) conducted
+an experiment in which the intermediary is permitted to select only an inegalitarian
+allocation. When the dictator delegates to an intermediary who is compelled to make
+an inegalitarian choice, the recipient perceives the dictator who delegates to the inter-
+mediary as more responsible. In a firing context, Corgnet (2023) showed that a manager
+is perceived more negatively by the dismissed worker when the manager delegates the
+decision to an algorithm than in the absence of delegation. These papers highlight that
+when intermediaries are limited in their decision-making abilities or lack control over
+the decision, the individual delegating the decision is perceived as responsible for the
+outcome. Thus, we assume that the AI user will be punished more harshly than the RA
+user.
+Conjecture 2.1: It is more likely that an RA programmer will be punished more severely
+for an inegalitarian decision made by the algorithm than an AI programmer.
+
+Conjecture 2.2: It is more likely that an AI users will be punished more severely for
+an inegalitarian decision made by the algorithm than an RA users.
+
+According to our conjectures 2 and 2.1, the AI programmer will be less blamed and
+punished less severely than the RA programmer. Therefore, the expected utility of an AI
+programmer should be higher than that of an RA programmer if the algorithm selects
+the inegalitarian allocation. Concerning the AI user, there is a confounding factor due to
+conjectures 2, and 2.2. The AI user will be punished less often, but the punishment will
+be more severe when it occurs. Depending on which effect is stronger, the AI user may
+receive a monetary payment equal to or different from that of the RA user. We cannot
+predict which of these opposing effects will be stronger. Therefore we cannot determine
+whether delegating to an AI can really protect the user from punishment.
+
+2.3 AI, moral wiggle room and welfare
+
+Finally, conjecture 2.1 suggests that AI programmers are less likely to be punished when
+the AI algorithm selects the inegalitarian allocation. Conjecture 2 indicates that par-
+
+                                                        10
+ticipants from AI treatment are less frequently subjected to punishment. Thus, it is
+possible for AI programmers to exploit the moral wiggle room left by the AI's decision.
+For example, Dana et al. (2007) used a dictator game with two choices, egalitarian and
+inegalitarian. They showed that when the choice is certain, 26% of the dictators choose
+the inequitable choice. But when the choice is ambiguous, allowing the use of moral
+wiggle room, 63% of them choose the inequitable option. Similarly, it is possible that AI
+programmers use the moral wiggle room to select the inegalitarian allocation because
+they assume that they will be perceived as less responsible, and thus be punished less
+harshly.
+
+Conjecture 3: AI programmers are more likely to select the inegalitarian allocation
+compared to the human intermediary and the RA programmer.
+
+3 Design
+
+Based on the literature, we designed an experiment that allows us to measure the per-
+ceived responsibility for an inegalitarian decision made by different types of intermedi-
+aries. It also provides information about the decisions made by the participants, allowing
+us to answer our research questions.
+
+3.1 Human intermediary
+
+The baseline of this study is a derivative of the designs of Bartling and Fischbacher
+(2012). This game involves the formation of a group of four participants, designated as
+A (the "dictator"), B (the "intermediary"), and C and D (the "recipients"), engaged in
+the division of a e20 endowment. The baseline is referred to as the Human treatment.
+
+Participant A faces a choice between two different allocations: an egalitarian allocation,
+where each participant receives e5, and an inegalitarian allocation, where participants
+A and B receive e9 and participants C and D e1. A key aspect of our design is that
+participant A can delegate the decision-making to the intermediary, B, who then faces
+the same allocation choices. Regardless of participant A's decision, participant B has
+to choose between an egalitarian and an inegalitarian distribution.7 Meanwhile, partic-
+
+    7Compared to the original design, we decided to use the strategy method for the decisions made by
+the intermediary participant (B) in order to obtain more observations and answer our third research
+question.
+
+                                                        11
+ipants C and D express their decisions in all possible situations. This step allows us
+to elicit 4 distinct situations depending on the choices made by A and B, with respect
+to the allocation type.8 In each situation, participants C and D have the possibility to
+punish other participants by spending e1 of their own allocation. They can then reduce
+other participants payments by up to e7 in total. The recipients choose the amount they
+want to deduct from participants A, B, and/or the other recipient.9 The four potential
+situations faced by C and D occur in a random order. At the end of the experiment, one
+recipient - either C or D - is randomly selected, and one situation is chosen based on the
+choices made by A and B. The non-selected recipient does not incur an expenditure cost
+of e1. This punitive mechanism allows for the elicitation of the responsibility perceived
+by C and D towards A and B (Bartling and Fischbacher, 2012).
+
+3.2 RA and AI programmer
+
+The baseline is extended through two new treatments that redefine the role of participant
+B as a programmer exerting control over a decision-making algorithm (see Figure 1). In
+the RA treatment, the RA programmer has full control over the algorithm, allowing par-
+ticipant A - the RA user - to either directly select an allocation or delegate the decision
+to the RA, fully controlled by participant B - the RA programmer. It should be noted
+that the sole distinction between the Human and the RA treatment is the framing of the
+algorithm. The AI treatment introduces a variation wherein the AI algorithm applies the
+AI programmer's decision in 50% of the cases. In this treatment, participant B - the AI
+programmer - controls the AI algorithm's decision in 50% of the cases. When participant
+A - the AI user - delegates to an algorithm, there is a 50% chance that the AI algorithm
+will apply the choice made by the AI programmer. In the remaining 50% of cases, the
+AI algorithm chooses autonomously. The AI algorithm is presented to participants as
+an algorithm that makes decisions based on previous human decision (see Appendix A).
+To achieve this, we calibrate our AI algorithm by conducting a pre-study.10 Participants
+are not informed of the distribution used by the AI algorithm to make its decision. Par-
+
+    8There are 4 different scenarios: A chooses egalitarian (5,5,5,5); A chooses inegalitarian (9,9,1,1); A
+delegates and B chooses inegalitarian (9,9,1,1); A delegates and B chooses egalitarian (5,5,5,5).
+
+    9The other recipient can be punished to avoid the demand effect (Zizzo, 2010).
+  10In this pre-study, we only formed groups of two participants. Only the roles of participants B and C
+were retained. The payoffs and punishments were identical to those in our main experiment. Participants
+B could choose between two distributions: an egalitarian allocation (5,5) or an inegalitarian allocation
+(9,1). Recipients C had the option to deduct up to e7 as a punishment by sacrificing e1. 48% of
+participants B chose the inegalitarian allocation.
+
+                                                        12
+ticipants C and D do not know the choice of the decision made by the AI programmer.
+They can just observe the outcomes of the algorithm's decisions. During the experiment,
+we use generic terms to refer to our participants. For all experiments, we designate them
+as participant A, B, C, or D, depending on their role (see Appendix A).
+
+These three treatments were implemented using a between-subject design. To avoid any
+learning effect, it was a one-shot experiment.
+
+             Figure 1: Experimental design ­ Three decisions across treatments
+
+     "Human" treatment is represented by the full black arrow. "RA" treatment is represented by the
+full black and dash arrow. "AI" treatment is represented by the full black, dash, and full grey
+arrow. In all treatments, the Dictator (A) can choose between 2 allocations or can delegate to the
+intermediary. Egalitarian allocation means that all players earn e5. Inegalitarian allocation means that
+the dictator and the intermediary earn e9, while recipients C and D earn e1. If the dictator delegates,
+the decision taken by the intermediary is retained. In the "RA" and "AI" treatments, the intermediary is
+respectively the RA programmer and the AI programmer. The "RA" programmer controls the decision
+applied by the algorithm. The "AI" programmer has a 50% chance that the algorithm applies his decision
+and a 50% chance that the AI algorithm makes the decision itself. If the AI algorithm makes the decision
+itself, there is a 48% chance that it selects the inegalitarian decision and a 52% chance that it selects
+the egalitarian decision.
+
+3.3 Experimental process
+
+We used the ORSEE database (Greiner, 2015) of the Laboratory of Experimental Eco-
+nomics of Nice (LEEN) to recruit participants for both our pre-study and main study.
+The experiments were conducted at the LEEN. The experimental tasks were programmed
+
+                                                        13
+using the oTree software (Chen et al., 2016) and deployed through the Heroku cloud plat-
+form.11
+
+Upon arrival at LEEN, participants were randomly assigned to a seat by drawing a
+ball from an urn to eliminate any potential role allocation bias within the experiment.
+This initial step was followed by a comprehensive oral briefing of the experimental in-
+structions, delivered by the same experimenter. Participants were then subjected to a
+comprehension test to ensure a clear understanding of the experimental procedure. Those
+who were unable to demonstrate understanding of the experiment's rules, as evidenced
+by more than three errors in the comprehension test, were excluded from participation.12
+
+Participants were compensated with a show-up fee of e5. The main game of the ex-
+periment yielding an additional average earning of e4.59, resulting in an average total
+remuneration of e9.59 per participant. The pre-study sessions were more concise due
+to the reduced group size, lasting approximately 15 minutes. The main experimental
+sessions lasted approximately 30 minutes.
+
+A component of our methodology was the calibration of the AI algorithm, achieved
+through a pre-study conducted in December 2023 with 46 participants. This prelimi-
+nary phase was mandatory to calibrate the AI algorithm. The main study took place
+in January 2024. Participants who took part in the pre-study were excluded to avoid
+contamination of the results. Each treatment involved 120 participants, for a total of 360
+participants across all treatments, spread over 25 experimental sessions.
+
+Upon the completion of the main experimental game, participants completed a post-
+experiment questionnaire. This session included an adapted version of the Cognitive
+Reflection Test, based on the works of Frederick (2005), Toplak et al. (2014), and Primi
+et al. (2016), to assess participants' cognitive processing and decision-making styles. Ad-
+ditionally, the interaction scale of the Negative Attitudes toward Robots Scale (NARS)
+(Nomura et al., 2006; Dinet and Vivian, 2014), risk preference scale (Dohmen et al.,
+2011), and the Control Attitude Scale (Wolff et al., 2022) were administered to glean
+
+  11The study was pre-registered on As Predicted at this link: https://aspredicted.org/vi74k.pdf.
+  12We excluded 11 participants out of 371.
+
+                                                        14
+insights into participants' predispositions towards robot and their perceptions of risk,
+ambiguity and control.13
+
+4 Results
+
+4.1 Dependent variables
+
+Our results section is divided into four parts. First, we compare the likelihood that a
+dictator delegates the decision to an intermediary using a proportion test. Then, we
+compare the proportion of times that recipients paid to punish across treatments and
+how they allocated punishment within their group. Wilcoxon rank-sum tests are used to
+compare patterns of punishment.14 To control for individual factors, we conduct an OLS
+regression. Intermediary preferences are analyzed in our third section using a proportion
+test and probit analysis.
+
+4.2 Delegation
+
+Table 1 shows the percentage of times participant A chooses a particular option per
+treatment. For Human and RA programmer treatments, participants A demonstrate an
+identical choice distribution. No significant difference with a proportion test is observed
+between Human (or RA)15 and AI in terms of inegalitarian allocation (20% vs 33%, 2 =
+0.76, p = 0.38), egalitarian allocation (57% vs. 50%, 2 = 0.06, p = 0.79), and delegation
+(23% vs 17%, 2 = 0.10, p = 0.74). However, compared to the findings of Bartling and
+Fischbacher (2012), our replication indicates that participants are less likely to delegate
+decisions and more inclined towards choosing the egalitarian option.
+
+The likelihood that the dictator decides to delegate is not different between treatments.
+Indeed, the decision to delegate remains the same, which suggests that in every case, the
+expectation of participant A regarding the ability of the intermediary to take the blame
+is similar. Participants A's decisions are not sensitive to the type of algorithm they can
+delegate to. Bartling and Fischbacher (2012) observe a similar result in their die treat-
+ment, where participants continue to delegate the decision to a die. Feier et al. (2022)
+
+  13All experimental materials are available in the Appendix and described in Table 5.
+  14We only report the results of the Wilcoxon signed rank test, but the t-tests give a similar result.
+  15For the sake of simplicity, we did not report the p-values for Human vs RA programmer as the
+distributions are identical (see Table 1).
+
+                                                        15
+elicit the same tendency by showing that between human and artificial treatments, the
+likelihood that the agent delegates the task to an artificial or human agent is similar.
+
+These results support Conjecture 1. Indeed, we observe no difference in delegation be-
+tween the treatments.16
+
+Result 1: The decision to delegate is not influenced by the type of inter-
+mediary (human or algorithm) nor the type of algorithm (RA or AI).
+
+Table 1: Delegation and allocation choices of dictator per conditions.
+
+               A inegalitarian (%) A egalitarian (%) A delegation (%)
+
+Human          33  50  17
+
+RA programmer  33  50  17
+
+AI programmer  20  57  23
+
+     "A" is the dictator; "Human" means the intermediary is a human; "RA programmer" means
+the intermediary is an algorithm controlled at 100% by participant B; "AI programmer" means
+the intermediary is an algorithm controlled at 50% by the participant.
+
+4.3 Pay to Punish and Punishment Pattern
+
+In the column "obs" of Table 2, the proportion of participants C and D that decide to
+pay e1 to punish another participant is not statistically different when the allocation
+decision selected is egalitarian.17 When player A delegates the decision to an AI that
+makes an inegalitarian decision, participants C and D choose to pay 1 to punish in 36%
+of cases. Recipients are much more likely to pay 1 to punish when player A delegates to
+an RA or a human, resulting in an inegalitarian allocation, according to the proportion
+test (AI = 36% vs RA = 63%, 2 = 7.5, p = 0.006),(AI = 36% vs Hum. = 58%, 2 =
+7.5, p = 0.02). These results support Conjecture 2, the likelihood of being punished is
+lower when the decision is made by an AI rather than an RA. This result is explained
+by the ambiguity left by the AI. Since the participants do not know whether the result
+was generated by participant B or by the AI, they do not know who should be held
+
+  16This is confirmed by our probit regressions in Appendix 6
+  17Statistical differences across treatments when the egalitarian decision is selected without delegation
+(See "Obs" value in Table 2) : (AI = 1% vs RA = 11% , 2 = 3.3482, p = 0.07); (AI = 1% vs Hum. =
+5%, 2 = 0.2586, p = 0.61); (RA = 11% vs Hum. = 5%, 2 = 0.9818, p = 0.32), when the egalitarian
+decision is selected with delegation (AI = 5% vs RA = 8%, 2 = 0.13393, p = 0.7144); (AI = 5% vs
+Hum. = 6%, 2 < 0.00001, p = 1); (RA = 8% vs Hum. = 6%, 2 < 0.00001, p = 1).
+
+                                                        16
+responsible and decide not to pay e1.
+
+Result 2: Delegating the task to an AI reduces the chance of being pun-
+ished.
+
+In the following analysis, we will focus on punishment patterns in inegalitarian deci-
+sions as shown in Table 2 and Figure 2. We start the first subsection with the analysis
+of the programmer, followed by user responsibility.
+
+ Table 2: Punishment pattern and Number of punishment observation per treatment.
+
+Punishment on:       A inegalitarian        B inegalitarian
+Human           Obs A B C|D            Obs A B C|D
+RA programmer
+AI programmer     32 5.00 1.56 0.06      35 1.77 4.54 0.14
+                  34 4.65 2.00 0.12      38 2.21 4.45 0.13
+                  31 5.03 1.71 0.00      22 3.91 2.50 0.14
+
+Punishment on:         A egalitarian          B egalitarian
+Human           Obs A B C|D            Obs A B C|D
+RA programmer
+AI programmer      3 1.67 2.33 0.00       4 2.00 3.00 1.50
+                   7 2.14 2.14 0.71       5 1.40 2.60 0.60
+                   1 2.00 2.00 3.00       3 2.00 1.67 0.00
+
+     "Obs" refers to the number of times that participants C and D decide to punish depending on
+the situation. 60 participants C and D were Participant A is "the dictator", participant B is "the
+intermediary", and participant C/D are "the other recipient". The upper table shows situations where
+A and B (when A delegates), select the inegalitarian decision. The lower table shows situations where
+A and B (when A delegates), selecting the egalitarian decision. "Human" means the intermediary is B
+(a human); "RA programmer" means the intermediary is an algorithm fully controlled by participant
+B; "AI programmer" means the intermediary is an algorithm controlled at 50% by the participant.
+
+4.3.1 Punishment pattern: programmer
+
+As shown in Table 2 and Figure 2, the punishment distributions follow the same ten-
+dency between our Human and RA treatments. The punishment level of participant A
+is not significantly different between Human and RA treatments.18 Thus, programmers
+who perfectly control the algorithm's allocation decisions are perceived as responsible,
+as if they had made the decision themselves.
+
+  18When participant A chooses an inegalitarian allocation (Hum. = e5.00 vs RA = e4.64, Rank Sum
+Test, p-value = 0.47), an egalitarian allocation (Hum. = e0.06 vs RA = e0.20, Rank Sum Test, p-value
+= 0.64), and delegates the decision, participant B chooses an inegalitarian allocation (Hum. = e1.77 vs
+RA = e2.21, Rank Sum Test, p-value = 0.10) and an egalitarian allocation (Hum. = e0.11 vs RA =
+e0.10, Rank Sum Test, p-value = 0.73)
+
+                                                        17
+Figure 2: Punishment pattern per treatment when an inegalitarian allocation is selected
+and participants C and D decide to punish.
+
+ "A" is the dictator, "B" is the intermediary; "Human" means the intermediary is B (a human); "RA
+programmer" means the intermediary is an algorithm fully controlled by participant B; "AI programmer"
+means the intermediary is an algorithm controlled at 50% by the participant. The probability that a
+participants C and D decides to punish when player A (or when player A delegates and player B) chooses
+an inegalitarian decision is 53% (58%) for a human, 56% (63%) for a rule-based algorithm (RA), and
+51% (36%) for an AI.
+
+Nevertheless, an algorithm that selects an inegalitarian distribution results in a sig-
+nificantly lower punishment for the AI programmer compared to the RA programmer
+(AI = e2.50 vs RA = e4.45, Rank Sum Test, W = 170, p < 0.00001) (Figure 2). The AI
+programmer is perceived as less responsible than the AI user (AI: Prog. = e2.50 vs User
+= e3.90, Rank Sum Test, W = 364, p = 0.003), and the RA programmer is perceived
+as more responsible than the RA user (RA: Prog. = e4.45 vs User = e2.21, Rank Sum
+Test, W = 187, p < 0.00001).
+
+Table 4 uses ordinary least squares (columns 1 to 4) to analyze the pattern of pun-
+ishment chosen by participants C and D. Columns (1) and (2) represent the number of
+punishment points received by the principal and columns (3) and (4) represent the pun-
+ishment received by the intermediary. Our OLS regressions give support to conjectures
+2, and 2.1. Indeed, regressions (3) and (4) of Table 4 report a significant reduction in
+the amount of punishment for the AI programmer treatment (coef = -0.868, p<0.001).19
+This finding aligns with the "responsibility gap" theorized by Matthias (2004), and our
+
+  19With control for individual factors (coef = -0.759, p<0.001).
+
+                                                        18
+Conjecture 2.1 according to which the AI programmers will be perceived as less respon-
+sible than the RA programmers.
+
+Result 2.1: The AI programmer is punished less severely than the RA pro-
+grammer.
+
+4.3.2 Punishment pattern: user
+As indicated by Figure 2 , when the user delegates the allocation decision to an algorithm
+that selects the inegalitarian allocation, the participant A (user) from AI condition is
+punished more harshly than the participant A (user) from RA condition (Users : AI =
+3.91 vs. RA = 2.21, Rank Sum Test, W = 692.5, p < 0.00001). Regressions (1) and (2)
+of Table 4 also support our Conjecture 2.2. The AI user is significantly more severely
+punished in our AI Programmer treatment both with and without controls (coef= 0.938,
+p <0.001; coef=0.879, p<0.001).
+
+Result 2.2: The AI user is punished more severely than the RA users.
+
+According to previous results 2, 2.1, and 2.2, participants A are less punished if they
+delegate the allocation decision to a human or an RA who selects the inegalitarian al-
+location, than by selecting this allocation themselves. Participant A, who delegates the
+allocation decision to an AI that makes the inegalitarian decision, is less likely to be
+blamed, but if they are blamed, the punishment is harsher than in the Human or RA
+treatments. To construct Figure 3, we consider that if participants C and D chose not
+to punish, the amount of punishment is equal to 0. We thus obtain the expected pun-
+ishment. In the event that Participant A delegates the decision to an AI or an RA,
+the expected punishment is similar if the selected decision is inegalitarian (Users : AI =
+e1.43 vs RA = e1.40, Rank Sum Test, W = 1880, p = 0.6431). Participant A's expected
+punishment is lower when delegating to an AI than when selecting the inegalitarian deci-
+sion themselves (AI: user = e1.43 vs prog. = e2.60, Rank Sum Test, W = 2214, p-value
+= 0.01). Thus, delegating a decision to an AI allows participant A to be perceived as
+less responsible for the algorithm's actions, similar to the RA or human treatment.
+
+                                                        19
+Result 2.3: Delegating the decision results in the delegator being perceived
+as less responsible.
+
+Figure 3: Expected Punishment pattern per treatment when an Inegalitarian allocation
+is selected.
+
+ "A" is the dictator, "B" is the intermediary; "Human" means the intermediary is B (a human); "RA
+programmer" means the intermediary is an algorithm fully controlled by participant B; "AI programmer"
+means the intermediary is an algorithm controlled at 50% by the participant. Participants C and D,
+who decide not to pay e1 to punish, are recorded in the table as participants who give e0 of monetary
+punishment.
+
+4.4 AI and moral wiggle room
+
+The introduction of the algorithm in the RA treatment does not cause a deviation in
+RA programmer decision-making from the Human treatment as shown in Table 3. This
+is supported by our probit regressions in Table 4 columns (5) and (6). In these regres-
+sions, the variable of interest equals 1 if player B chooses the inegalitarian outcome and
+0 otherwise. However, the AI programmer increases the probability of choosing the ine-
+galitarian allocation (60%), compared to RA programmer (47%) and the intermediary in
+our Human treatment (30%) (Table 3). The proportion test shows a difference between
+AI and Human treatments in the decision made by B, i.e the programmer (AI = 60% vs
+Hum. = 30%, Proportion Test, 2 = 3.28, p = 0.03). Furthermore, our probit regressions
+(5) and (6) of table 4 confirm the robustness of this result (with and without the control
+variable), as the probability of an inegalitarian decision increases in the AI treatment
+
+                                                        20
+(coef= 0.684, p<0.05; coef=0.844, p<0.05). These results confirm Conjecture 3, which
+shows that the AI programmer selects the inegalitarian distribution significantly more
+often than the human intermediary.
+
+Result 3: AI programmer exploits the moral wiggle room and selects the
+inegalitarian decision more frequently.
+
+Table 3: Allocation choices of the intermediary by treatment.
+
+               B inegalitarian (%) B egalitarian (%)
+
+Human          33  67
+
+RA programmer  47  53
+
+AI programmer  60  40
+
+     For the AI programmer treatment, we report the choice made by the programmer and not
+the outcome of the algorithm. "B" is the intermediary; "Human" means the intermediary is
+B (a human); "RA programmer" means the intermediary is an algorithm fully controlled by
+participant B; "AI programmer" means the intermediary is an algorithm controlled at 50% by
+the participant.
+
+4.5 Extended Results: Risk Attitude
+
+These results were not expected in our pre-registration and were not initially included
+in our hypothesis.
+
+Regressions (5) and (6) in Table 4 show that subjects who are more willing to take
+risks in their daily lives are more likely to choose the inegalitarian option. Indeed, the
+variable Risk is equal to 0 for a risk-averse subject and 10 for a risk-lover subject.20
+This finding is consistent with our design, as a risk-averse agent would fear punishment
+more than a risk-taking agent. Indeed, by choosing the inegalitarian distribution, they
+maximize their payoff before the punishment. But they also accept an increased risk of
+being punished by players C and D. By choosing the egalitarian outcome, they maximize
+the payoff of C and D, which should significantly reduce C and D's willingness to punish.
+But at the same time, they accept a reduction in their pre-punishment payoff from 9 to
+5. This trivially explains the significance of risk attitudes in our regressions.
+
+  20For mor detail please refer to Appendix C
+
+                                                        21
+Result 4: Risk lover intermediaries are more likely to choose the inegalitarian
+distribution.
+
+5 Discussion and conclusion
+
+In this paper, we use the original experimental design created by Bartling and Fis-
+chbacher (2012) to address three research questions. (1) "Do users try to shift the blame
+to the programmer behind the algorithm? ". (2) "Who is perceived as responsible for an ine-
+galitarian algorithmic decision, the programmer or the user? ". (3) "Does an AI program-
+mer exploit the moral wiggle room afforded by an AI? ". To respond to these questions,
+we reproduce the "Delegation & Punishment" condition from Bartling and Fischbacher
+(2012) and add two new treatments where the intermediary is either an RA or an AI.
+
+Compared to the original paper, 50% of our participants A selected the egalitarian alloca-
+tion in our Human treatment, compared to 28% in the original paper. Similar differences
+are found concerning the inegalitarian allocation (33%) and the delegation (17%), against
+17% for the inegalitarian allocation and 55% for delegation in the original paper. In our
+study, participants delegate much less compared to the original study. We may perhaps
+explain this by suggesting that dictators have a greater preference for control (Donnel-
+lan and Robins, 2010). Alternatively, individuals with a Cognitive Reflection Test (CRT)
+score lower than the average may be less inclined to engage in strategic reasoning, thus
+ignoring the delegation option because they fail to perceive its benefits.21
+Due to the use of the strategy method, we are able to observe the punishment patterns
+that recipients are willing to apply, even if the delegation rate between Bartling and Fis-
+chbacher (2012) and our paper differs. In the Human treatment we found a similar ten-
+dency as in Bartling and Fischbacher (2012) concerning the punishment pattern. When
+participants A choose the inegalitarian allocation, they receive a punishment equivalent
+
+  21Participants in our study had an average CRT score (Frederick, 2005) of 0.94 (SD = 1.05), which is
+significantly lower than the score observed in other studies such as Otero and Alonso (2023), based on the
+average European population (n = 602), which shows a score of 1.27 (SD = 1.12)(0.94 vs 1.27, Z-test, p
+< 0.00001).Stieger and Reips (2016) conducted a study in Austria and Germany (n = 2272), which shows
+a significantly higher average score of 1.16 (SD = 1.08) (0.94 vs 1.16n Z-test, p < 0.00001) compared
+to our study. Among students with university degrees, the average score is 1.55 (SD = 1.07) (0.94 vs
+1.55, Z-test, p < 0.00001). In the original paper of Frederick (2005), the CRT score was performed in 11
+universities in the USA; the average score was about 1.24. At the top of this ranking was MIT with an
+average of 2.18, and at the lower end was the University of Toledo with 0.57. Those pieces of evidence
+indicate that, on average, our participants scored lower than average.
+
+                                                        22
+Table 4: Regressions for "Punishment Pattern" and "Pay to Punish" when the allocation
+is inegalitarian.
+
+                    (1)                 (2)       (3)       (4)       (5)      (6)
+
+Dependant Variable                      Punishment Pattern            Pay to Punish
+     Player's role
+                        Principal                 Intermediary
+  RA Programmer
+                    0.0503 0.0901                 0.107     0.0979    0.347 0.657
+                                                                      (1.05) (1.73)
+                    (0.25)              (0.50)    (0.46)    (0.42)
+
+AI Programmer       0.938*** 0.879*** -0.868*** -0.759*** 0.684*               0.844*
+ A egalitarian                                                                 (2.17)
+B inegalitarian     (3.79)              (3.56) (-3.09) (-2.62) (2.05)
+
+                    -2.686*** -2.721*** 0.190               0.240
+                     (-6.54) (-6.37) (0.45)                 (0.54)
+
+                    -2.364*** -2.393*** 2.187*** 2.202***
+
+                    (-8.87) (-8.86) (8.18)                  (8.07)
+
+B egalitarian       -3.075*** -3.071*** 0.670               0.662
+                     (-8.18) (-7.51) (1.32)                 (1.37)
+
+   Male                                  -0.321               0.107              0.107
+    Risk                                 (-1.36)             (0.45)             (0.33)
+Ambiguity
+ Control                                 0.0710             -0.00271           0.244***
+                                         (1.50)              (-0.05)            (3.27)
+
+                                        -0.00832            0.00503             -0.0243
+                                         (-0.20)             (0.12)             (-0.49)
+
+                                        -0.00354            -0.0602             -0.0372
+                                         (-0.05)             (-0.92)            (-0.50)
+
+CRT True                                0.0962              -0.0178            -0.0371
+                                        (1.42)              (-0.25)            (-0.40)
+
+Nars                                    0.00381             -0.0172            -0.0181
+                                         (0.17)             (-0.70)            (-0.57)
+
+Control             No                  Yes       No        Yes       No       Yes
+
+  Constant          4.569***            4.024***  2.003***  2.449***  -0.431   -0.814
+                     (19.93)             (7.45)    (9.14)    (3.56)   (-1.81)  (-0.96)
+      R2             0.4310              0.4504    0.3407    0.3515   0.0349   0.2329
+Observations                               215       215       215
+                       215                                              90       90
+
+t statistics in parentheses
+* p < 0.05, ** p < 0.01, *** p < 0.001
+
+"Punishment Pattern" is a variable ranging from 0 to 7. Participants C and D allocate
+punishment between the Principal and the Intermediary. In our table, we control for
+the amount of punishment allocated to the Principal or the Intermediary. The table
+presents the results of OLS regressions (1) to (4) concerning the "Punishment Pattern".
+"Pay to Punish" for the inegalitarian decision is a binary variable: 1 if the participant
+pays e1 to punish, and e0 if not. We use a probit model in regressions (5) and (6). For
+each regression, robust standard errors are reported in parentheses, clustered at the
+individual level. See C for the description of variable.
+
+                                                        23
+to 4.27 points in the original paper, compared to e5 in our Human treatment. When
+they choose to delegate to B, and B selects the inegalitarian choice, the same similarity
+appears. In the original paper, under that condition, A (B) receives 1.31 (3.96) points of
+punishment, while in our replication A (B) loses e1.77 (e4.54).22
+
+Comparing our baseline to the RA and AI conditions allows us to validate our behavioral
+conjecture. We do not observe any significant difference in the decision to delegate across
+our treatments. This indicates that the delegator is indifferent between delegating to a
+human or an algorithm, and between a fully controlled RA and an AI. However, when
+the intermediary chooses an inegalitarian allocation, different results emerge. There is
+no difference in the punishment decision between a human intermediary and an RA; in
+both cases, the intermediary is perceived more responsible than the delegator. But when
+an AI is introduced, this result is reversed. When the programmer loses control over the
+algorithm, she is perceived as less responsible, and the user who delegated the task is
+seen as responsible for the algorithm's outcome. Finally, the programmer exploits the
+moral wiggle room provided by the AI and chooses the inegalitarian distribution more
+frequently.
+
+We address a number of contributions from a variety of disciplines in order to provide a
+comprehensive overview. The practice of delegating a decision in order to be perceived as
+less responsible is a common occurrence in both corporate and political environments. In
+this context, we would like to introduce the idea that participants can also use an algo-
+rithm to shift responsibility. In terms of public policy, if companies are aware of this shift
+in perceived responsibility, it may create an opportunity for them to develop profitable
+algorithms regardless of the consequences for the population. This allows companies to
+shift responsibility for the decisions made by algorithms onto users while reaping the
+profits, thereby increasing inequality between users, programmers and recipients. This
+reinforces the need for a robust regulatory framework. In particular, legal liability laws
+play a crucial role in protecting individuals from such situations.
+
+This study represents an initial exploration that can be expanded. Firstly, we posit
+
+  22Refer to Appendix D to see Bartling and Fischbacher (2012) figure of punishment patterns compared
+to ours
+
+                                                        24
+a critical assumption: the AI programmer exerts 50% control over the algorithm. This
+theoretical assumption, however, does not reflect real-world scenarios and varies sig-
+nificantly among AI programmers. Prior research by Bartling and Fischbacher (2012)
+indicates that when control is absent (0%), human intermediaries are not perceived as
+responsible. Responsibility is fully attributed to the dictator, suggesting a decrease in
+responsibility proportional to the intermediary's level of control. A first extension for fur-
+ther research would be to investigate whether the reduction in punishment is monotonic
+depending on the percentage of control the programmer has on the AI. The second major
+assumption is that individuals are aware that AI learning algorithms work autonomously
+and that AI programmers have limited influence over these systems. Third, our model
+assumes that participant B cannot select their role, either as an AI or RA programmer.
+Another limitation of this laboratory experiment is that we assume students, selected
+from various fields, will act as programmers. A field experiment to obtain natural data
+could be conducted to compare lab data with field data. Another aspect that we neglect
+in this experiment is that a firm's strategy and the programmer's preferences may con-
+flict. Finally, algorithms are evolving rapidly. Five years ago, only humans were using
+algorithms; now, some algorithms are also using other algorithms. This spillover can
+have serious consequences in terms of diluting liability, highlighting the importance of
+this topic.
+
+                                                        25
+Declarations
+Conflicts of interest: The authors declare that they have no conflict of interest.
+
+                                                        26
+Bibliography
+
+Agrawal, A., Gans, J. S., and Goldfarb, A. (2024). Artificial intelligence adoption and
+   system-wide change. Journal of Economics & Management Strategy, 33(2):327­337.
+
+Argenton, C., Potters, J., and Yang, Y. (2023). Receiving credit: On delegation and
+   responsibility. European Economic Review, page 104522.
+
+Awad, E., Levine, S., Kleiman-Weiner, M., Dsouza, S., Tenenbaum, J. B., Shariff, A.,
+   Bonnefon, J.-F., and Rahwan, I. (2020). Drivers are blamed more than their automated
+   cars when both make mistakes. Nature human behaviour, 4(2):134­143.
+
+Bartling, B. and Fischbacher, U. (2012). Shifting the blame: On delegation and respon-
+   sibility. The Review of Economic Studies, 79(1):67­87.
+
+Bartosiak, M. L. and Modlinski, A. (2022). Fired by an algorithm? exploration of con-
+   formism with biased intelligent decision support systems in the context of workplace
+   discipline. Career Development International, 27(6/7):601­615.
+
+Bénabou, R. and Tirole, J. (2005). Self-confidence and personal motivation. Psychology,
+   Rationality and Economic Behaviour: Challenging Standard Assumptions, pages 19­
+   57.
+
+Bigman, Y. E., Wilson, D., Arnestad, M. N., Waytz, A., and Gray, K. (2023). Algorith-
+   mic discrimination causes less moral outrage than human discrimination. Journal of
+   Experimental Psychology: General, 152(1):4.
+
+Bonnefon, J.-F., Shariff, A., and Rahwan, I. (2016). The social dilemma of autonomous
+   vehicles. Science, 352(6293):1573­1576.
+
+Burton, J. W., Stein, M.-K., and Jensen, T. B. (2020). A systematic review of algo-
+   rithm aversion in augmented decision making. Journal of behavioral decision making,
+   33(2):220­239.
+
+Cao, S., Jiang, W., Yang, B., and Zhang, A. L. (2023). How to talk when a machine
+   is listening: Corporate disclosure in the age of ai. The Review of Financial Studies,
+   36(9):3603­3642.
+
+                                                        27
+Castelo, N., Bos, M. W., and Lehmann, D. R. (2019). Task-dependent algorithm aversion.
+   Journal of Marketing Research, 56(5):809­825.
+
+Chen, D. L., Schonger, M., and Wickens, C. (2016). otree--an open-source platform
+   for laboratory, online, and field experiments. Journal of Behavioral and Experimental
+   Finance, 9:88­97.
+
+Chevrier, M., Corgnet, B., Guerci, E., and Rosaz, J. (2024). Algorithm Credulity: Human
+   and Algorithmic Advice in Prediction Experiments. GREDEG Working Papers 2024-
+   03, Groupe de REcherche en Droit, Economie, Gestion (GREDEG CNRS), Université
+   Côte d'Azur, France.
+
+Chugunova, M. and Luhan, W. J. (2024). Ruled by robots: Preference for algorithmic
+   decision makers and perceptions of their choices. Public Choice, pages 1­24.
+
+Chugunova, M. and Sele, D. (2022). We and it: An interdisciplinary review of the
+   experimental evidence on how humans interact with machines. Journal of Behavioral
+   and Experimental Economics, 99:101897.
+
+Coeckelbergh, M. (2020). AI ethics. Mit Press.
+
+Coffman, L. C. (2011). Intermediation reduces punishment (and reward). American
+   Economic Journal: Microeconomics, 3(4):77­106.
+
+Corgnet, B. (2023). An experimental test of algorithmic dismissals.
+
+Cowgill, B. and Tucker, C. E. (2019). Economics, fairness and algorithmic bias.
+   preparation for: Journal of Economic Perspectives.
+
+Dana, J., Weber, R. A., and Kuang, J. X. (2007). Exploiting moral wiggle room: exper-
+   iments demonstrating an illusory preference for fairness. Economic Theory, 33:67­80.
+
+Dargnies, M.-P., Hakimov, R., and Kübler, D. (2024). Aversion to hiring algorithms:
+   Transparency, gender profiling, and self-confidence. Management Science.
+
+Daschner, S. and Obermaier, R. (2022). Algorithm aversion? on the influence of advice
+   accuracy on trust in algorithmic advice. Journal of Decision Systems, 31(sup1):77­97.
+
+Dawes, R. M. (2008). The robust beauty of improper linear models in decision making.
+   In Rationality and Social Responsibility, pages 321­344. Psychology Press.
+
+                                                        28
+Dietvorst, B. J., Simmons, J. P., and Massey, C. (2015). Algorithm aversion: people er-
+   roneously avoid algorithms after seeing them err. Journal of experimental psychology:
+   General, 144(1):114.
+
+Dinet, J. and Vivian, R. (2014). Exploratory investigation of attitudes towards assistive
+   robots for future users. Le travail humain, 77(2):105­125.
+
+Dohmen, T., Falk, A., Huffman, D., Sunde, U., Schupp, J., and Wagner, G. G. (2011).
+   Individual risk attitudes: Measurement, determinants, and behavioral consequences.
+   Journal of the european economic association, 9(3):522­550.
+
+Donnellan, M. B. and Robins, R. W. (2010). Resilient, overcontrolled, and undercon-
+   trolled personality types: Issues and controversies. Social and Personality Psychology
+   Compass, 4(11):1070­1083.
+
+Fehr, E. and Schmidt, K. M. (2006). The economics of fairness, reciprocity and altruism­
+   experimental evidence and new theories. Handbook of the economics of giving, altruism
+   and reciprocity, 1:615­691.
+
+Feier, T., Gogoll, J., and Uhl, M. (2022). Hiding behind machines: Artificial agents may
+   help to evade punishment. Science and Engineering Ethics, 28(2):19.
+
+Feiler, L. (2014). Testing models of information avoidance with binary choice dictator
+   games. Journal of Economic Psychology, 45:253­267.
+
+Fershtman, C. and Gneezy, U. (2001). Strategic delegation: An experiment. RAND
+   Journal of Economics, pages 352­368.
+
+Fildes, R. and Goodwin, P. (2007). Against your better judgment? how organizations can
+   improve their use of management judgment in forecasting. Interfaces, 37(6):570­576.
+
+Fischer, J. M. (1999). Recent work on moral responsibility. Ethics, 110(1):93­139.
+
+Frederick, S. (2005). Cognitive reflection and decision making. Journal of Economic
+   perspectives, 19(4):25­42.
+
+Garcia, T., Massoni, S., and Villeval, M. C. (2020). Ambiguity and excuse-driven be-
+   havior in charitable giving. European Economic Review, 124:103412.
+
+                                                        29
+Gawn, G. and Innes, R. (2021). Machiavelli preferences without blame: Delegating selfish
+   vs. generous decisions in dictator games. Journal of Behavioral and Experimental
+   Economics, 90:101615.
+
+Gazit, L., Arazy, O., and Hertz, U. (2023). Choosing between human and algorithmic
+   advisors: The role of responsibility sharing. Computers in Human Behavior: Artificial
+   Humans, 1(2):100009.
+
+Gerken and McMahon (21 September 2023). Game of thrones author sues chatgpt owner
+   openai. BBC, pages 1­14.
+
+Goolsbee, A. (2018). Public Policy in an AI Economy, pages 309­316. University of
+   Chicago Press.
+
+Greiner, B. (2015). Subject pool recruitment procedures: organizing experiments with
+   orsee. Journal of the Economic Science Association, 1(1):114­125.
+
+Grossman, Z. and Van Der Weele, J. J. (2017). Self-image and willful ignorance in social
+   decisions. Journal of the European Economic Association, 15(1):173­217.
+
+Hamman, J. R., Loewenstein, G., and Weber, R. A. (2010). Self-interest through delega-
+   tion: An additional rationale for the principal-agent relationship. American Economic
+   Review, 100(4):1826­1846.
+
+Hertz, N. and Wiese, E. (2019). Good advice is beyond all price, but what if it comes
+   from a machine? Journal of Experimental Psychology: Applied, 25(3):386.
+
+Hou, Y. T.-Y. and Jung, M. F. (2021). Who is the expert? reconciling algorithm aversion
+   and algorithm appreciation in ai-supported decision making. Proceedings of the ACM
+   on Human-Computer Interaction, 5(CSCW2):1­25.
+
+Jung, M. and Seiter, M. (2021). Towards a better understanding on mitigating algo-
+   rithm aversion in forecasting: An experimental study. Journal of Management Control,
+   32(4):495­516.
+
+Jussupow, E., Benbasat, I., and Heinzl, A. (2020). Why are we averse towards algorithms?
+   a comprehensive literature review on algorithm aversion.
+
+Kassam, A. and Marino, P. (2022). Algorithmic racial discrimination: A social impact
+   approach. Feminist Philosophy Quarterly, 8(3/4).
+
+                                                        30
+Kirchkamp, O. and Strobel, C. (2019). Sharing responsibility with a machine. Journal
+   of Behavioral and Experimental Economics, 80:25­33.
+
+Kleinberg, J., Ludwig, J., Mullainathan, S., and Sunstein, C. R. (2018). Discrimination
+   in the age of algorithms. Journal of Legal Analysis, 10:113­174.
+
+Klockmann, V., von Schenk, A., and Villeval, M. C. (2022). Artificial intelligence, ethics,
+   and intergenerational responsibility. Journal of Economic Behavior & Organization,
+   203:284­317.
+
+Langer, M. and Landers, R. N. (2021). The future of artificial intelligence at work: A
+   review on effects of decision automation and augmentation on workers targeted by
+   algorithms and third-party observers. Computers in Human Behavior, 123:106878.
+
+Larson, T. and Capra, C. M. (2009). Exploiting moral wiggle room: Illusory preference
+   for fairness? a comment. Judgment and decision Making, 4(6):467­474.
+
+Lee, M. K. (2018). Understanding perception of algorithmic decisions: Fairness,
+   trust, and emotion in response to algorithmic management. Big Data & Society,
+   5(1):2053951718756684.
+
+Lehmann, C. A., Haubitz, C. B., Fügener, A., and Thonemann, U. W. (2022). The risk
+   of algorithm transparency: How algorithm complexity drives the effects on the use of
+   advice. Production and Operations Management, 31(9):3419­3434.
+
+Leib, M., Köbis, N., Rilke, R. M., Hagens, M., and Irlenbusch, B. (2024). Corrupted
+   by algorithms? how ai-generated and human-written advice shape (dis) honesty. The
+   Economic Journal, 134(658):766­784.
+
+Lessmann, S., Baesens, B., Seow, H.-V., and Thomas, L. (2015). Benchmarking state-of-
+   the-art classification algorithms for credit scoring: An update of research. European
+   Journal of Operational Research, (doi:10.1016/j.ejor.2015.05.030).
+
+Lipinski, T. A., Buchanan, E. A., and Britz, J. J. (2002). Sticks and stones and words that
+   harm: Liability vs. responsibility, section 230 and defamatory speech in cyberspace.
+   Ethics and Information Technology, 4:143­158.
+
+                                                        31
+Logg, J. M., Minson, J. A., and Moore, D. A. (2019). Algorithm appreciation: People
+   prefer algorithmic to human judgment. Organizational Behavior and Human Decision
+   Processes, 151:90­103.
+
+Mahmud, H., Islam, A. N., Ahmed, S. I., and Smolander, K. (2022). What influences
+   algorithmic decision-making? a systematic literature review on algorithm aversion.
+   Technological Forecasting and Social Change, 175:121390.
+
+Manlove, D. (2013). Algorithmics of matching under preferences, volume 2. World
+   Scientific.
+
+Martin, K. (2019). Ethical implications and accountability of algorithms. Journal of
+   business ethics, 160:835­850.
+
+Matthias, A. (2004). The responsibility gap: Ascribing responsibility for the actions of
+   learning automata. Ethics and information technology, 6:175­183.
+
+May, L. (1992). Sharing responsibility. University of Chicago Press.
+Meehl, P. E. (1954). Clinical versus statistical prediction: A theoretical analysis and a
+
+   review of the evidence.
+Meijer, A. and Wessels, M. (2019). Predictive policing: Review of benefits and drawbacks.
+
+   International Journal of Public Administration.
+Nomura, T., Kanda, T., and Suzuki, T. (2006). Experimental investigation into influence
+
+   of negative attitudes toward robots on human­robot interaction. Ai & Society, 20:138­
+   150.
+Oexl, R. and Grossman, Z. J. (2013). Shifting the blame to a powerless intermediary.
+   Experimental Economics, 16:306­312.
+Otero, I. and Alonso, P. (2023). Cognitive reflection test: The effects of the items sequence
+   on scores and response time. PLOS ONE, 18(1):1­15.
+Papachristou, M., Banerjee, S., and Kleinberg, J. (2024). Optimal resource allocation
+   for remediating networked contagions. Available at SSRN 4880536.
+
+                                                        32
+Primi, C., Morsanyi, K., Chiesi, F., Donati, M. A., and Hamilton, J. (2016). The de-
+   velopment and testing of a new version of the cognitive reflection test applying item
+   response theory (irt). Journal of Behavioral Decision Making, 29(5):453­469.
+
+Rahwan, I., Cebrian, M., Obradovich, N., Bongard, J., Bonnefon, J.-F., Breazeal, C.,
+   Crandall, J. W., Christakis, N. A., Couzin, I. D., Jackson, M. O., et al. (2019). Machine
+   behaviour. Nature, 568(7753):477­486.
+
+Rao, J. M. and Reiley, D. H. (2012). The economics of spam. Journal of Economic
+   Perspectives, 26(3):87­110.
+
+Sanders, N. R. and Manrodt, K. B. (2003). The efficacy of using judgmental versus
+   quantitative forecasting methods in practice. Omega, 31(6):511­522.
+
+Sengul, M., Gimeno, J., and Dial, J. (2012). Strategic delegation: A review, theoretical
+   integration, and research agenda. Journal of Management, 38(1):375­414.
+
+Shariff, A., Bonnefon, J.-F., and Rahwan, I. (2017). Psychological roadblocks to the
+   adoption of self-driving vehicles. Nature Human Behaviour, 1(10):694­696.
+
+Shrestha, Y. R., Ben-Menahem, S. M., and Von Krogh, G. (2019). Organizational
+   decision-making structures in the age of artificial intelligence. California management
+   review, 61(4):66­83.
+
+Stieger, S. and Reips, U.-D. (2016). A limitation of the cognitive reflection test: Famil-
+   iarity. PeerJ, 4:e2395.
+
+Sutan, A. and Vranceanu, R. (2016). Lying about delegation. Journal of Economic
+   Behavior & Organization, 121:29­40.
+
+Toplak, M. E., West, R. F., and Stanovich, K. E. (2014). Assessing miserly informa-
+   tion processing: An expansion of the cognitive reflection test. Thinking & reasoning,
+   20(2):147­168.
+
+Van Esch, P., Black, J. S., and Ferolie, J. (2019). Marketing ai recruitment: The next
+   phase in job application and selection. Computers in Human Behavior, 90:215­222.
+
+von Schenk, A., Klockmann, V., Bonnefon, J.-F., Rahwan, I., and Köbis, N. (2022).
+   Lie detection algorithms attract few users but vastly increase accusation rates. arXiv
+   preprint arXiv:2212.04277.
+
+                                                        33
+Wolff, W., Bieleke, M., Englert, C., Bertrams, A., Schüler, J., and Martarelli, C. S.
+   (2022). A single item measure of self-control­validation and location in a nomological
+   network of self-control, boredom, and if-then planning. Social Psychological Bulletin,
+   17:1­22.
+
+You, S., Yang, C. L., and Li, X. (2022). Algorithmic versus human advice: does presenting
+   prediction performance matter for algorithm appreciation? Journal of Management
+   Information Systems, 39(2):336­365.
+
+Zhang, Y., Liao, Q. V., and Bellamy, R. K. (2020). Effect of confidence and explanation
+   on accuracy and trust calibration in ai-assisted decision making. In Proceedings of the
+   2020 conference on fairness, accountability, and transparency, pages 295­305.
+
+Zizzo, D. J. (2010). Experimenter demand effects in economic experiments. Experimental
+   Economics, 13:75­98.
+
+A Instructions
+
+Instructions translated from French.
+
+Welcome instructions (for every experiment conducted at LEEN):
+
+    Welcome to the Experimental Economics Laboratory of Nice (the LEEN). By agree-
+ing to participate in this experiment, you express your full agreement with the Labo-
+ratory's regulations, available on the website or upon request. You will participate in
+an experiment where your decisions will be anonymous and will partly determine your
+final payment. Therefore, we invite you to read the following instructions carefully. In
+addition to earnings collected in the experiment and regardless of your decisions, a fixed
+amount of 5 euros will be given to you to cover your travel expenses. A variable amount
+will be added based on your decisions during the experiment. Your earnings will be paid
+individually and confidentially at the end of the experiment.In order not to alter the
+results of the experiment, we ask that you do not communicate with other participants.
+We also ask that you kindly turn off your mobile phones and refrain from using them
+throughout the duration of the experiment. If these rules are breached, the experiment
+
+                                                        34
+will be interrupted, and earnings will be forfeited. If you encounter a technical problem,
+please simply raise your hand, and wait for the experimenter to come to you. Everybody
+in this room has access to the same instructions and will participate in the same exper-
+iment.
+
+Experiment starting :
+
+    The decisions you make during this experimental session will be anonymous and con-
+fidential. Our accounting sheet, which certifies your payment, is the only form where your
+name and payment will be recorded (example given verbally). You will never be asked
+to reveal your identity to anyone during the experiment. To maintain the confidentiality
+of decisions, please do not disclose your choices to other participants.
+
+    In this experiment, you will be anonymously grouped with three other participants.
+Your earnings will be calculated based on your decision and the decisions made by the
+other participants.
+
+    At the end of the experiment, you will receive a variable amount in addition to the
+e5 participation fee. You will not know the identities of the other participants, and they
+will not know yours. Each group will consist of four types of participants: participant A,
+participant B, participant C, and participant D.
+
+    Decisions of participants A and B:
+
+    Participant A starts. She has the option to choose the distribution of e20 among the
+four participants. Participant A chooses between three options:
+
+   · Distribution 1: Participant A and participant B each receive e9, participants C and
+      D receive e1 each (i.e., A = e9, B = e9, C = e1, D = e1).
+
+   · Distribution 2: Each participant receives e5 (i.e., A = e5, B = e5, C = e5, D =
+      e5).
+
+   · Delegation: Participant A can choose to let participant B decide.
+      [RA/AI Programmer]Participant A can choose to let an algorithm decide.
+
+                                                        35
+    Regardless of participant A's choice, participant B chooses between the first two
+distributions:
+
+   · Distribution 1: Participant A and participant B each receive e9, participants C and
+      D receive e1 each (i.e., A = e9, B = e9, C = e1, D = e1).
+
+   · Distribution 2: Each participant receives e5 (i.e., A = e5, B = e5, C = e5, D =
+      e5).
+
+    If participant A opts for distribution 1 or 2, participant B's decision will not be
+considered. If A lets participant B decide, the distribution chosen by B is the one that
+will be applied.
+[RA/AI Programmer] If A delegates, it is the algorithm that will decide. This decision
+will be based on B choice.
+ [RA Programmer] In 100% of cases, the algorithm will apply participant B's decision.
+In 0% of cases, the algorithm makes the decision itself.
+ [AI Programmer] In 50% of cases, the algorithm will apply participant B's decision. In
+50% of cases, the algorithm makes the decision itself.
+The algorithm bases its decision on data collected from subjects who have taken part in
+an experiment similar to this one.
+The algorithm uses this data to make its decision and choose between option 1 and
+option 2. The algorithm simply reproduces the decisions made by individuals.
+For example, if the individuals in the database have chosen distribution 1 90% of the
+time, then the algorithm has a 90% chance of choosing distribution 1 and a 10% chance
+of choosing decision 2.
+
+    Decisions of participants C and D:
+
+    Participants C and D have the option to reduce the earnings of the other participants
+by agreeing to pay e1. If they agree, they can reduce the earnings of one participant by
+up to e7 or distribute it among all other participants. It is not mandatory to distribute
+the entire e7. The participant can decide to distribute only part of the e7. It is impor-
+tant to note that participants C and D cannot subtract more than what a participant
+has earned from the chosen distribution (each participant will receive at least the e5
+
+                                                        36
+participation fee).
+
+    In total, 4 scenarios are possible:
+  1. Participant A chooses distribution 1.
+  2. Participant A chooses distribution 2.
+  3. Participant A delegates to B, and B chooses distribution 1.
+
+      [RA/AI Programmer] Participant A delegates to the algorithm, algorithm chooses
+      distribution 1
+  4. Participant A delegates to B, and B chooses distribution 2.
+      [RA/AI Programmer] Participant A delegates to the algorithm, algorithm chooses
+      distribution 2
+    Participants C and D must make their decision based on each of these 4 scenarios.
+Depending on the decisions made by participants A and B [RA/AI Programmer]the al-
+gorithm, one of these scenarios will be selected. Consequently, the same scenario will be
+selected for C and D. At the end of the experiment, either participant C or D will be
+randomly chosen. Only the decision of the participant (C or D) who was selected will be
+applied.
+
+    For example:
+Imagine participant A chooses to delegate to participant B. And participant B decides to
+choose distribution 1 (A = e9, B = e9, C = e1, and D = e1). Meanwhile, participants
+C and D make their choices based on the 4 different scenarios. They are asked to indicate
+if they want to reduce the payment of the other participants, in the case where:
+-Participant A chose distribution 1
+-Participant A chose distribution 2
+-Participant A delegates, and B chose distribution 1
+[RA/AI Programmer]Participant A delegates to the algorithm, algorithm chooses distri-
+bution 1
+ -Participant A delegates, and B chose distribution 2
+[RA/AI Programmer]Participant A delegates to the algorithm, algorithm chooses distri-
+bution 2
+
+                                                        37
+    The decisions made by participant A and B [RA/AI Programmer] the algorithm
+correspond to a scenario, here scenario 3. For scenario 3, participants C and D chose:
+Participant C decides to pay e1 to reduce the earnings of the other participants. Their
+decision is to reduce participant A's earnings by e2, participant B's earnings by e4, and
+participant D's earnings by e0. Participant D decides to pay e1 to reduce the earnings
+of the other participants. Their decision is to reduce participant A's earnings by e7,
+participant B's and C's earnings by e0.
+
+    Let's assume participant C was chosen by random draw. As a result, participant A
+earns e7 (e9 - e2), participant B earns e5 (e9 - e4), participant D earns e1, and partic-
+ipant C earns e0 (e1 - e1 cost). Let's assume participant D was chosen by random draw.
+
+    As a result, participant participant A earns e2 (e9 - e7), participant B earns e9
+(e9 - e0), participant D earns e0 (e1 - e1 cost), and participant C earns e1.
+
+    Note that the participant whose decision was not drawn will not have to bear the e1
+deduction.
+
+    Continuation of the Experiment:
+
+    Once you have understood the instructions, you will be asked to answer some com-
+prehension questions. Failure to pass this questionnaire will result in exclusion from the
+session. Once completed, a screen displaying "please wait" will appear, indicating that
+you must wait for the other participants to make their choices. Once finished, your role
+(A, B, C, or D) will be assigned to you, and you will be asked to make your choice. After
+completing the last two questionnaires, you will be informed of your earnings. You will
+then be asked to wait for the experimenter to come and ask you to leave to proceed with
+the payment.
+
+    Please remain in your seat while waiting.
+
+                                                        38
+B Post-experimental questionnaire
+
+B.1 Modify Cognitive Reflection Test 6 items (Primi et al., 2016;
+        Toplak et al., 2014)
+
+Subjects had fives minutes to answer the following questions:
+   · There's an area of water lilies in a lake. Every day, the area doubles in size. It takes
+      100 days for the area to cover the whole lake. How long would it take for the area
+      to cover a quarter of the lake? (Example: 2 days, 10 days, 120 days, ...)
+   · If three elves can pack 6 toys in an hour, how many elves are needed to pack 12
+      toys in 2 hours? (Expected form of answer: 2 elves, 10 elves, 120 elves, ...)
+   · A coffee and an apple cost a total of e4.50. The coffee costs e4.00 more than the
+      apple. How much does the apple cost? (Example: 0.50; 1.00; 3.00; ...)
+   · Jerry received both the 20th highest mark and the 20th lowest mark in the class.
+      How many pupils are there in the class? (Expected form of answer: 2 pupils, 10
+      pupils, 120 pupils, ...)
+   · In an athletics team, tall members are three times more likely to win a medal than
+      short members. This year, the team has won 80 medals so far. How many of these
+      medals have been won by short athletes? (Expected form of answer: 2 medals, 10
+      medals, 120 medals, ...)
+
+B.2 Negative Attitude Toward Robot (Nomura et al., 2006)
+
+The following questions measure the subjects' level of sociability with robots. Subjects
+could choose from 5 levels of response from "Strongly disagree" to "Strongly agree"
+
+   · I would feel uncomfortable if I were given an activity in which I had to use a robot.
+   · The word "robot" means nothing to me.
+   · I'd feel nervous if I had to use a robot in front of other people.
+   · I hate the idea of robots making judgements about things.
+   · I'd feel nervous if I just had to stand up to a robot.
+   · I'd feel very uncomfortable talking to a robot.
+
+                                                        39
+B.3 Risk, ambiguity and control preferences (Dohmen et al., 2011;
+        Wolff et al., 2022)
+
+Licker scale from 0 to 10 voir Table 5
+   · Would you say that you tend to take risks in your life in general?
+      (0 means "I never take risks" and 10 means "I take risks all the time").
+   · When you have no information about a situation, would you say that you tend to
+      be extremely cautious or extremely reckless in your life in general?
+      (0 means "I am extremely cautious" and 10 means "I am extremely reckless").
+   · When you have no information about a situation, do you consider yourself extremely
+      pessimistic or extremely optimistic about the outcome?
+      (0 means "I am extremely pessimistic" and 10 means "I am extremely optimistic").
+   · On a scale of 1 to 10, how would you rate your attitude to ambiguity?
+      When faced with a lottery, would you prefer not to have any information about the
+      probabilities (1) or would you prefer to know the exact probability of winning or
+      losing (10)?
+   · Estimate your level of self-control.
+      (0 means "I have no self-control" and 10 means "I have very high self-control").
+   · Can you let go?
+      (0 means "I never let go" and 10 means "I let go easily").
+
+B.4 Socio-demographic
+
+The name of the variable used in Table 4 are in brackets.
+   · Your age: 18-21; 22-25;26-29 23 [Age]
+   · Your gender: Male; Female [Male]
+   · Level of education: Baccalaureate; Bachelor; Master; PhD.
+   · Field : "Biology, Health, Sports";
+      "Law, Political Science, Economics and Management" ;
+      "Education, Teaching, Training";
+      "Letters, Languages, Arts and Communication";
+
+  23To preserve the anonymity of our participants, the Côte d'Azur University Research Ethics Com-
+mittee recommends avoiding asking for precise ages and instead using age ranges.
+
+                                                        40
+"Sciences, Engineering, Technology, Environment";
+"Human and Social Sciences"
+
+C Supplementary
+
+                 Table 5: Description of variables used in table 4
+
+Variables        Definition                                                         Mean (std. dev)
+RA Programmer    1 if the treatment is RA                                           0.33(0.51)
+AI programmer    0 otherwise                                                        0.33(0.51)
+A egalitarian    1 if the treatment is AI                                           -
+B inegalitarian  0 otherwise                                                        -
+B egalitarian    1 if player was playing the hypothetical scenario                  -
+                 where A chose fair 0 otherwise
+                 1 if player was playing the hypothetical scenario
+                 where A delegates and B chose unfair 0 otherwise
+                 1 if player was playing the hypothetical scenario
+                 where A delegates and B chose fair 0 otherwise
+
+Socio-demographic variables
+
+Age              Age of subject                                                     18-22
+Male             1 if subject is male; 0 otherwise                                  0.425(0.49)
+Risk             Answer from an 11-point Likert scale:                              6.07(2.15)
+                 0 for a risk averse person and 10 for a person who is risk lover
+Ambiguity        Answer from an 11-point Likert scale:                              7.47(2.92)
+                 0 for a person that prefers to play a lottery without knowing
+Control          probabilities and 10 for perfect information preference.           7.14(1.75)
+NARS             Answer from an 11-point Likert scale:                              9.10(4.45)
+                 0 for a perfect self-control and 10 for absence of self-control
+Positive         Score from 0 to 7 resulting for their answer to 7 questions        5.9(2.55)
+                 A high score meaning that the subject is averse to robots.
+CRT True         Answer from an 11-point Likert scale:                              2.15(1.69)
+                 0 for a pessimistic person and 10 for a
+                 person who is optimistic.
+                 Number of correct answers obtained by the participant on the CRT6
+                 Variable ranges between 0 and 6.
+
+D Comparison
+
+                             41
+Figure 4: Punishment pattern in Delegation & Punishment (D&P) in Bartling and Fis-
+chbacher (2012) an punishment pattern for our baseline (Human treatment)
+
+In the upper figure squared by the black rectangle, we observe the original treatment.
+"A Unfair" is represented in our study by "A egalitarian". "A Unfair" is represented by
+"A Inegalitarian" and so on. Their result and our result show the same tendency.
+
+                                                        42
+               Table 6: Probit regression on the decision to delegate
+
+                         Principal                                     Principal
+RA Programmer -0.001                                                     -0.614
+                                                                        (-1.13)
+                           (-0.00)
+                                                                         0.192
+AI Programmer  0.240                                                     (0.38)
+               (0.64)
+
+Age                                                                    -1.339*
+
+                                                                       (-2.29)
+
+Male                                                                   1.053***
+Risk                                                                     (2.63)
+
+                                                                       -0.303***
+                                                                        (-2.78)
+
+Ambiguity                                                              -0.149*
+                                                                       (-2.17)
+
+Control                                                                0.0964
+CRT True                                                               (0.93)
+
+                                                                       0.283*
+                                                                       (2.21)
+
+Nars                                                                   -0.151***
+                                                                        (-3.08)
+
+Control        No                                                      Yes
+
+Constant       -0.967***                                               0.762
+Observations    (-3.53)                                                (0.70)
+                   90
+                                                                         90
+
+t statistics in parentheses
+* p < 0.05, ** p < 0.01, *** p < 0.001
+The delegation decision is a binary variable: 1 if the participant decides to delegate, and 0 if not. Robust standard errors are
+
+                                    43
+         DOCUMENTS DE TRAVAIL GREDEG PARUS EN 2024
+                  GREDEG Working Papers Released in 2024
+
+2024-01  Davide Antonioli, Alberto Marzucchi, Francesco Rentocchini & Simone
+
+Vannuccini
+
+Robot Adoption and Product Innovation
+
+2024-02  Frédéric Marty
+
+Valorisation des droits audiovisuels du football et équilibre économique des clubs professionnels :
+
+         impacts d'une concurrence croissante inter-sports et intra-sport pour la Ligue 1 de football
+
+2024-03  Mathieu Chevrier, Brice Corgnet, Eric Guerci & Julie Rosaz
+
+Algorithm Credulity: Human and Algorithmic Advice in Prediction Experiments
+
+2024-04  Mathieu Chevrier & Vincent Teixeira
+
+Algorithm Delegation and Responsibility: Shifting Blame to the Programmer?
+

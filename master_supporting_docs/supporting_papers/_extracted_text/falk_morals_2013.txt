@@ -1,0 +1,424 @@
+                                                                                                     RESEARCH ARTICLES
+
+                                                                                                                           a few other mice. For illustrative purposes, we
+
+                                                                                                                           presented to subjects the picture of a mouse on
+
+Morals and Markets                                                                                                         an instruction screen (fig. S1). The instructions
+                                                                                                                           informed subjects explicitly about the killing pro-
+
+                                                                                                                           cess, in case they decided to kill their mouse. The
+
+Armin Falk1* and Nora Szech2*                                                                                              killing process was also shown in a short video
+
+                                                                                                                           that was presented to subjects (17).
+
+The possibility that market interaction may erode moral values is a long-standing, but                                     The mice used in the experiment were so-
+
+controversial, hypothesis in the social sciences, ethics, and philosophy. To date, empirical                               called "surplus" mice: They were bred for animal
+
+evidence on decay of moral values through market interaction has been scarce. We present                                   experiments, but turned out to be unsuited for
+
+controlled experimental evidence on how market interaction changes how human subjects value study, e.g., because some specific gene manipu-
+
+harm and damage done to third parties. In the experiment, subjects decide between either                                   lation had failed. They were perfectly healthy, but
+
+saving the life of a mouse or receiving money. We compare individual decisions to those made keeping them alive would have been costly. Al-
+
+in a bilateral and a multilateral market. In both markets, the willingness to kill the mouse is                            though it was true that the mice would live or be
+
+substantially higher than in individual decisions. Furthermore, in the multilateral market, prices killed based on the decisions of subjects in the
+
+for life deteriorate tremendously. In contrast, for morally neutral consumption choices,                                   experiment, the default for this population of
+
+differences between institutions are small.                                                                                mice was to be killed, as is common practice in
+
+                                                                                                                           laboratories conducting animal experiments. Sub-          Downloaded from www.sciencemag.org on May 10, 2013
+
+It is a pervasive feature of market interaction              Our evidence shows that market interaction caus-              jects were informed explicitly about the default
+    to impose costs on uninvolved third parties.             ally affects the willingness to accept severe, neg-           in a postexperimental debriefing (18). Mice that
+    Producing and trading goods often creates                ative consequences for a third party.                         were chosen to survive because of subjects' de-
+
+negative externalities, such as detrimental work-                                                                          cisions were purchased by the experimenters and
+
+ing conditions for workers, possibly associated The Mouse Paradigm                                                         kept in an appropriate, enriched environment.
+
+with reduced life expectancy, child labor, suffer- Our paradigm for studying moral values and Thus, these mice survived precisely as stated in
+
+ing of animals, or environmental damage. People detrimental effects on third parties is the trade-off the instructions. As a consequence of our exper-
+
+who participate in markets by buying such goods between a mouse life and money. In our main iment, many mice that would otherwise have been
+
+often seem to act against their own moral stan- treatments, human subjects faced the decision to killed right away were allowed to live for roughly
+
+dards. The risk of moral decay through market either receive no money and to save the life of a 2 years.
+
+interaction has been discussed in politics, ethics, mouse, or to earn money and to accept the killing                      Markets are institutions where sellers and
+
+and in the social sciences (1­7). Observing that of a mouse. This paradigm involves a drastic and buyers interact and can trade items. Trade occurs
+
+with technological progress and the increasing irreversible decision and is well suited for study- whenever a seller and a buyer agree on a price.
+
+ubiquity of market ideas, markets continue to en- ing moral conflict: Although the content of morality For our main result, we analyzed three different
+
+ter further and further into domains of our social is culturally determined and time and space conditions (see table S1): an individual treatment
+
+life (8), political philosopher Michael Sandel has contingent, there exists a basic consensus that in which subjects decided between the life of
+
+recently reemphasized this critique, stating that harming others in an unjustified and intentional their mouse and a given monetary amount, a bi-
+
+"we have to ask where markets belong--and way is considered as immoral (15).                                               lateral trading market, and a multilateral trading
+
+where they don't. And we can't answer this ques-             In all treatments of the experiment (16), which market. Treatment assignment was random. The
+
+tion without deliberating about the meaning and was approved by the Ethics Committee of the individual treatment serves as a benchmark and
+
+purpose of goods, and the values that should University of Bonn, subjects were explicitly in- comparison standard for decisions made in mar-
+
+govern them" (9). The relationship between mar- formed about the consequences of their decision. kets. The bilateral market is the most basic form
+
+kets and values has received attention both in They knew that their mouse was a young and of a market situation with one buyer and one
+
+theoretical work (10, 11) and in empirical cross- healthy mouse, which in case it survived would seller bargaining over prices in order to trade. In
+
+sectional studies that compare the level of pro- in expectation live for about 2 years in an ap- the multilateral market, many buyers and sellers
+
+sociality across different market societies and propriate, enriched environment, jointly with potentially trade with each other. In comparing
+
+cultures (12­14). Identifying a causal effect of
+
+markets on values is difficult with cross-sectional
+
+or historical data, however, simply because in-              Fig. 1. Market interaction erodes                        100
+stitutions and values coevolve. Moreover, com-               moral values, relative to individ-
+paring values across societies implies comparing             ually stated preferences: fractions                      80
+a set of multiple institutions at the same time with         of subjects who are willing to kill
+unknown and possibly interacting features. For               a mouse for monetary amounts            Fraction (in %)  60
+example, markets are observed in very different              below or equal to 10 euros in the
+legal systems, which renders the isolation of the            individual treatment, the bilat-                         40
+effects of "markets" across societies extremely              eral market, and the multilateral
+difficult. For these reasons, we implemented a               market. For both markets, fractions                      20
+controlled environment by randomly assigning                 are calculated using the lowest prices
+subjects to different institutions. This allows iden-        accepted by sellers in actually
+tifying a causal effect of institutions on outcomes.         concluded trades. Error bars show
+                                                             standard deviations at the means.
+
+1Center for Economics and Neuroscience, University of Bonn,  Differences between the individual
+Bonn, Germany. 2Department of Economics, University of
+Bamberg, Bamberg, Germany.                                   treatment and markets are signifi-                       0
+                                                             cant at the 1% level. Individual ver-
+*Both authors contributed equally to this work.                                                                            Individual  Bilateral market  Multilateral market
+Corresponding author. E-mail: armin.falk@uni-bonn.de
+(A.F.); nora.szech@uni-bamberg.de (N.S.)                     sus bilateral market: P < 0.01, n =
+
+                                                             160 (two-sample test of proportions). Individual versus multilateral market: P < 0.01, n = 178 (two-sample
+
+                                                             test of proportions). The difference between markets is not statistically significant.
+
+                               www.sciencemag.org SCIENCE VOL 340 10 MAY 2013                                                                                                   707
+RESEARCH ARTICLES
+
+     decisions from the individual treatment to deci-      indifferent between killing and receiving money.      Price                                                                                                                         unchanged. In sum, we therefore expected a
+     sions made in markets, we abstract away from the      To establish a benchmark in terms of how mar-            0 1 2 3 4 5 6 7 8 9 10                                                                                                     higher willingness to kill in the bilateral and the
+     question of whether a good is priced at all. In all   kets affect morally neutral values, we conducted                                                                                                                                    multilateral market compared to individual decision-
+     treatments, subjects could exchange life for money.   an individual price-list treatment and a multi-                                                                                   Downloaded from www.sciencemag.org on May 10, 2013making. In addition, owing to notions of being
+                                                           lateral market treatment analogously to the mouse                                                                                                                                   less pivotal, the killing rate was expected to be
+         In the individual treatment, subjects faced a     treatments, but for a consumption good. Finally,                                                                                                                                    even higher in the multilateral than in the bilateral
+     simple binary choice, labeled option A and op-        we ran two further control treatments based on                                                                                                                                      market. We further hypothesized that the decay
+     tion B. Option A implied that the mouse would         the individual treatment. In sum, we ran nine                                                                                                                                       of moral values would also be reflected in prices,
+     survive and that the subject would receive no         treatments with a total of 787 subjects.                                                                                                                                            such that mice would be killed for lower prices in
+     money. Option B implied the killing of the mouse                                                                                                                                                                                          the market treatments compared to the individual
+     and receiving 10 euros. This treatment informs us         Our key hypothesis was that markets would                                                                                                                                       treatments. Finally, we studied markets where the
+     about the fraction of subjects who are willing to     display a tendency to erode moral standards, rel-                                                                                                                                   cost of trading involves opportunity costs of
+     kill the mouse for 10 euros. One hundred and          ative to individual decision-making, because of                                                                                                                                     consumption rather than moral costs. For these
+     twenty-four subjects participated in this treatment.  three essential features of market interaction. First,                                                                                                                              morally neutral consumption good markets, we
+                                                           in markets, it takes two people who agree on                                                                                                                                        hypothesized no decline of values through mar-
+         To study markets, we implemented the so-          trading to complete a trade, implying that re-                                                                                                                                      ket interaction.
+     called double auction market institution, which is    sponsibility and feelings of guilt may be shared
+     widely used in economics to investigate market        and thus diminished (20, 21). Second, market in-                                                                                                                                    Markets Erode Moral Values
+     outcomes [for an overview, see (19)]. In the bi-      teraction reveals social information about prevail-
+     lateral double auction market, one seller and one     ing norms. Observing others trading and ignoring                                                                                                                                    Figure 1 shows our main result. Given our in-
+     buyer bargained over killing a mouse for a total      moral standards may make the pursuit of self-                                                                                                                                       terest in studying the effects of institutions on
+     gain of 20 euros that the two parties could split up  interest ethically permissible, leading further in-                                                                                                                                 moral valuations in a given population, we com-
+     between themselves. The seller was endowed with       dividuals to engage in trade. In addition, the mere                                                                                                                                 pare the fractions of subjects who are willing to
+     a mouse. As in the individual treatment, he or        existence of a market may provide social infor-                                                                                                                                     agree to the killing in the individual treatment, the
+     she was explicitly told that the "life of the mouse   mation about the appropriateness of trading, ren-                                                                                                                                   bilateral market, and the multilateral market for
+     is entrusted to your care." Bargaining over the       dering the killing of mice more allowable (22, 23).                                                                                                                                 monetary amounts below or equal to 10 euros
+     20 euros was conducted during a continuous            Third, markets provide a strong framing and fo-                                                                                                                                     (26). For both markets, fractions are calculated
+     auction, i.e., buyer and seller could make as         cus on materialistic aspects such as bargaining,                                                                                                                                    with the lowest prices accepted by sellers in ac-
+     many price offers as they liked (16). If a buyer      negotiation, and competition, and may divert at-                                                                                                                                    tually concluded trades. We focus on lowest ac-
+     and a seller agreed on a trade, the buyer received    tention from possible adverse consequences and                                                                                                                                      cepted prices to approximate from above sellers'
+     20 euros minus the price agreed upon. The seller      moral implications of trading (11, 24). In contrast                                                                                                                                 reservation values for killing a mouse.
+     received the price. In addition, the mouse of the     to our market conditions, subjects in the individ-
+     seller was killed, reflecting a situation in which    ual condition do not interact with other subjects                                                                                                                                       In the individual decision treatment, 45.9%
+     trade takes place to the detriment of a third party.  and therefore receive no social information, do                                                                                                                                     of subjects were willing to kill their mouse for
+     If a seller or a buyer did not trade, earnings for    not share responsibility if they trade, and are not                                                                                                                                 10 euros. In contrast, 72.2% of sellers in the bilateral
+     both were zero and the mouse survived. A seller       exposed to a market framing.                                                                                                                                                        market were willing to trade for prices below or
+     in the bilateral market was in the same situation                                                                                                                                                                                         equal to 10 euros. The increase in willingness to
+     as a subject in the individual treatment in that he       These three features are present in all markets,                                                                                                                                kill relative to the individual condition is statis-
+     or she could either refuse a monetary amount or       even in simple bilateral markets. In addition, in                                                                                                                                   tically significant (P < 0.01, n = 160, two-sample
+     accept a monetary amount and kill a mouse. Sub-       the multilateral market with its presence of com-                                                                                                                                   test of proportions) (16). In the multilateral mar-
+     jects were told that no market participant was        peting sellers, the notion of being pivotal may be                                                                                                                                  ket, the willingness to kill was also substantially
+     forced to make price offers or to accept an offer,    diffused as well (25); unless a seller cares specif-                                                                                                                                higher compared to the individual condition: 75.9%
+     that their mouse would be killed only if a trade      ically about his own mouse, he may argue that if                                                                                                                                    of sellers were willing to kill a mouse for less
+     occurred, and that the mouse would survive if         he does not trade his mouse with some buyer,                                                                                                                                        than or equal to 10 euros (P < 0.01, n = 178, two-
+     they decided not to trade. There were 10 trading      another seller may conclude the trade with that                                                                                                                                     sample test of proportions). This is actually a
+     periods. Seventy-two subjects participated in this    buyer, selling and killing his mouse. This com-                                                                                                                                     lower bound because in a given period, only sev-
+     treatment.                                            mon feature of markets may make subjects feel                                                                                                                                       en of the nine sellers could trade at all.
+                                                           less responsible, rendering it more difficult to
+         The multilateral double auction market treat-     sustain moral values even if values per se remain                                                                                                                                       To provide a more detailed understanding of
+     ment was exactly like the bilateral market treat-                                                                                                                                                                                         the effects of markets on morals, we implemented
+     ment, except that in this condition seven buyers
+     and nine sellers bargained over prices (16). The      Fig. 2. Evolution of trading
+     nine sellers were all endowed with one mouse          prices in the multilateral
+     each. Subjects on both sides of the market could      mouse market and the multi-
+     make as many price offers as they liked. All          lateral coupon market (means
+     subjects could accept a price offer from the other    over all trades). The down-
+     side of the market. Available price offers of both    ward trend in prices in the
+     market sides were always shown on a screen.           mouse market is significant
+     Once a price offer of a trader was accepted, trade    (P = 0.006, n = 297, random
+     occurred implying the killing of a mouse. Payoff      effects regression). No signif-
+     consequences were identical to those of the bi-       icant price trend is observed
+     lateral market. There were 10 periods. We ran six     in the coupon market (P =
+     sessions with a total of 96 subjects.                 0.319, n = 233, random ef-
+                                                           fects regression).
+         To allow for further analyses, we ran several
+     additional treatments (for details see below). In                                                           1  2  3                                                                                                                       4  5          6  7  8           9  10
+     the individual price-list treatment, we offered sub-
+     jects a menu of prices to elicit the monetary                                                                                                                                                                                                   Period
+     amount needed to pay subjects to make them
+                                                                                                                                                                                                                                               Mouse market     Coupon market
+
+708                10 MAY 2013 VOL 340 SCIENCE www.sciencemag.org
+                                                                                                             RESEARCH ARTICLES
+
+an additional individual treatment, the individual     predicted fraction of trade (16). Assuming that       Intuitively, observing low trading prices in the            Downloaded from www.sciencemag.org on May 10, 2013
+price-list treatment. This treatment informs us        valuations in the price-list condition and the bi-    market may make it normatively acceptable to
+about how much money subjects would need to            lateral market were the same, we can use valua-       offer or accept low prices as well (16). In contrast
+receive in the individual condition to yield a         tions from the price list to simulate the predicted   to the downward trend in prices in the mouse
+similarly high killing rate as in markets. In this     trade probability in the bilateral market. The sim-   market, no significant price trend is observed in
+treatment, subjects faced an increasing price-         ulated trade fraction is 25.9%, which is in sharp     the coupon market (P = 0.319, n = 233, random
+list, which is a standard procedure for eliciting      contrast to the actually observed trade frequency     fixed effects regression). The analysis thus re-
+individual values and preferences in an incentive-     of 47.7% in the bilateral market (P < 0.01, n =       veals a systematic difference between markets
+compatible way. As in the individual treatment,        168, two-sample test of proportions). This pro-       involving moral versus morally neutral values:
+subjects were shown a list of binary alternatives,     vides a further confirmation that valuations for      When identical procedures, parameters, and mar-
+labeled option A and option B. Option A implied        mice have declined considerably.                      ket institutions are used, moral values decline
+that the mouse would survive and that the subject                                                            significantly more than values that are morally
+would receive no money. Option A was the same          Moral Versus Morally Neutral Values                   neutral.
+in each decision row. Option B implied the kill-
+ing of the mouse and the receipt of a monetary         The final step of the analysis compares decay in          Whereas prices decline in the multilateral
+amount. Monetary amounts associated with kill-         moral versus morally neutral values. We hypoth-       mouse market, trade volumes in both bilateral
+ing the mouse increased from row to row, starting      esized that for moral values the decay is more        and multilateral markets are constant across pe-
+from 2.50 up to 50 euros, in steps of 2.50. Sub-       pronounced than for private consumption values,       riods, suggesting that a number of subjects were
+jects were informed that one choice situation          where trading involves opportunity costs of con-      not tempted to engage in trading. Apparently, mar-
+would be randomly selected after all choices had       sumption rather than costs to third parties. To test  kets did not erode values of all subjects (16). We
+been made. The choice in this situation would be       this, we ran two additional treatments, identical to  speculate that subjects who refused to exchange
+implemented, including payment consequences            the multilateral market and the individual price-     money for mouse life at all may have followed a
+and, in case option B had been chosen, the killing     list treatment but using consumption goods. The       rule-based, e.g., Kantian, ethic: "... everything
+of the mouse. The switching point from option A        good we considered was a coupon that could be         has either price or dignity. Whatever has price can
+to option B informs us about the minimum mon-          used to buy products at the merchandising shop        be replaced by something else which is equivalent;
+etary amount that makes a subject willing to kill      of the University of Bonn (16). In both treat-        whatever, on the other hand, is above all price,
+the mouse, i.e., the moral value attached to the       ments, the price-list and the market treatment,       and therefore admits of no equivalent, has a dig-
+life of the mouse. The earlier a subject switches,     subjects were endowed with a coupon. In case          nity" (16, 28).
+the less he or she values the life of his or her       they accepted a monetary amount (in the price-
+mouse relative to earning money. Despite differ-       list condition) or decided to trade (in the market    Robustness and Discussion
+ences in elicitation procedures, including random-     condition), they had to return their coupon, which
+ness of the selected choice, the fractions of          was then invalidated. Parameters, instructions, and   Three potential concerns may be raised with re-
+subjects willing to kill for 10 euros or less were     procedural details were identical to the mouse        spect to our main finding. First, one could argue
+almost identical between the individual and the        treatments. Thus, consequences were similar in        that we observe the main treatment effect because
+individual price-list treatment (45.9 versus 42.7%     the mouse and the coupon treatments, except that      total surplus was greater in markets than in the
+of subjects, respectively; P = 0.636, n = 220, two-    in the latter, the cost of trading involved oppor-    individual condition (20 versus 10 euros). If traders
+sample test of proportions) (fig. S2). Ninety-six      tunity costs of consumption rather than moral         dispose of social preferences, they may have cared
+subjects participated in the individual price-list     costs, i.e., loss and invalidation of a coupon ver-   not only about their own payoff but also at-
+treatment.                                             sus killing of a mouse.                               tached some value to the payoff of the other
+                                                                                                             trader (buyer). We therefore ran a control con-
+    As shown above, in the bilateral trading mar-          To assess the effect of markets on moral ver-     dition, which was identical to the individual con-
+ket, 72.2% of sellers were willing to trade for        sus private consumption values, we use valua-         dition but in which we introduced a second passive
+prices below or equal to 10 euros. In comparison,      tions from the individual price-list conditions and   participant. One hundred and sixteen subjects
+in the individual price-list treatment, a similarly    compare them to valuations in the respective mul-     took part in this control treatment, with 58 sub-
+high willingness to kill (71.9%) was reached only      tilateral markets (16). The dependent variable        jects participating in the role of active decision-
+for monetary amounts of 47.50 euros. Thus, it is       is a subject's minimum trading price. Running         makers. A passive participant received 10 euros
+necessary for subjects to receive considerably         Tobit and interval regressions, we find that in the   if the active participant decided to kill the mouse
+more money in the individual than in the market        mouse treatments, there is a strong negative and      (such that the death of a mouse generated a total
+condition to observe a comparable willingness to       statistically significant effect of market interac-   surplus of 20 euros as in the market treatments).
+kill. Turning to the multilateral market, a similar    tion. Thus, for a given monetary amount, subjects     The observed fraction of killing among subjects
+picture emerges. Here the killing rate was 75.9%       reveal a higher willingness to kill in markets than   in the active role is 44.8%. This fraction is sig-
+for prices below or equal to 10 euros. A similar       in the individual condition. For coupons, the ef-     nificantly different from fractions in both market
+rate in the individual price-list treatment would      fect of markets is much smaller and insignificant.    conditions (bilateral market, P = 0.009, n = 94,
+require paying subjects monetary amounts above         We also find that the effects of markets differ       and multilateral market, P = 0.001, n = 112, two-
+50 euros. In line with our hypothesis, actual prices   significantly between mice and coupons (16). In       sample test of proportions). Furthermore, this
+in the multilateral market were much lower than        addition, we observe a difference in the price dy-    fraction is remarkably similar to the individual
+10 euros, however (Fig. 2). The overall average        namic between multilateral mouse and coupon           condition (P = 0.890, n = 182, two-sample test
+price level was only 5.1 euros (27). In the indi-      markets (Fig. 2). In the mouse market, average        of proportions).
+vidual price-list condition, the fraction of subjects  prices start at rather low levels (compared to the
+who were willing to kill the mouse for 5 euros         individual condition) and decline from 6.4 euros          Second, subjects may have perceived killing
+was only 34.4%. Thus, for prices that actually         in the first period to levels as low as 4.5 euros in  the mouse as a side-effect of the act of trading in
+evolved in the multilateral market, the willing-       the final period. This decline in prices is statis-   the market treatments, whereas in the individual
+ness to kill was much higher than in the indi-         tically significant (P = 0.006, n = 297, random       treatment subjects may have perceived killing the
+vidual price-list condition.                           fixed effects regression). The downward trend         mouse as a direct means to earn money. If this
+                                                       provides a further indication of moral decay in       were the case, subjects may have found it more
+    The price-list treatment can also be used to       the mouse market and is suggestive of social          difficult to opt for killing in the individual treat-
+illustrate the decay in valuations in terms of the     learning and endogenous social norm formation.        ment. We therefore ran another control treatment
+                                                                                                             identical to the individual treatment but in which
+
+www.sciencemag.org SCIENCE VOL 340 10 MAY 2013                                                                                                                      709
+RESEARCH ARTICLES
+
+     subjects could buy a lottery ticket for 2 euros.       versus not paying money. Yet, introducing a                 Markets have tremendous virtues in their ca-                    Downloaded from www.sciencemag.org on May 10, 2013
+     This renders it more likely that subjects perceive     money prime may already lower moral standards,          pability to generate information about scarcity and
+     the mouse death as a side-effect of a buying de-       as several studies have pointed out. For example,       to allocate resources efficiently. The point of this
+     cision. The lottery paid out either 10 or 15 euros,    it has been shown that material primes or labels        study is not to question market economies in gen-
+     respectively, both with 50% probability. We chose      reduce helpfulness or prosocial behavior and in-        eral. Indeed, other organizational forms of alloca-
+     an expected net value of 12.50 ­ 2 = 10.50 euros       crease competitiveness (29­31) and that an ec-          tion and price determination such as in totalitarian
+     to compensate for possible risk aversion of sub-       onomics background correlates with selfishness          systems or command societies do not generically
+     jects. If subjects bought the lottery ticket, a mouse  (32). Hence, the impact of markets on moral be-         place higher value on moral outcomes (34). Fur-
+     got killed "as another consequence" of the buy-        havior may in general be even more pronounced           thermore, the development of a complex market
+     ing decision, i.e., as a side-effect. Forty-three      than our study suggests.                                structure may require and therefore correlate with
+     subjects participated in this additional control                                                               the prevalence of moral and social values, such as
+     condition. Again, outcomes are very similar to             We have shown that market interaction dis-          trust and cooperativeness. Results confirming this
+     those in the individual condition: 46.5% of sub-       plays a tendency to lower moral values, relative        intuition, in line with the Doux-commerce Thesis
+     jects decided to buy the ticket accepting the kill-    to individually stated preferences. This phenom-        (35), are expressed, e.g., by Kenneth Arrow (36).
+     ing of a mouse. This fraction is significantly         enon is pervasive. Many people express objec-           However, focusing on the causal effects of in-
+     different from fractions in both market conditions     tions against child labor, other forms of exploitation  stitutions, we show that for a given population,
+     (bilateral market, P = 0.021, n = 79 and multi-        of the workforce, detrimental conditions for ani-       markets erode moral values. We therefore agree
+     lateral market, P = 0.003, n = 97, two-sample test     mals in meat production, or environmental dam-          with the statement quoted at the beginning that
+     of proportions). Unsurprisingly, the killing rate      age. At the same time, they seem to ignore their        we as a society have to think about where mar-
+     is not significantly different from the individual     moral standards when acting as market partic-           kets are appropriate--and where they are not.
+     condition (P = 0.946, n = 167, two-sample test         ipants, searching and buying the cheapest elec-
+     of proportions).                                       tronics, fashion, or food, and thereby consciously           References and Notes
+                                                            or subconsciously creating the undesired nega-            1. J. Barnes, Ed., The Complete Works of Aristotle: The
+         Third, let us comment on why we used the           tive consequences to which they generally object.
+     minimum trading price as our main dependent            We have shown that this tendency is prevalent                 Revised Oxford Translation (Princeton Univ. Press,
+     variable to assess a seller's willingness to kill a    already in very simple bilateral trading where                Princeton, NJ, 1984).
+     mouse in markets [see also (16)]. Very likely,         both market sides are fully pivotal in that if they       2. K. Marx, A Contribution to the Critique of Political
+     traders tried to negotiate higher prices than their    refuse to trade, the mouse will stay alive. In mar-           Economy (Kerr, Chicago, 1904).
+     reservation values to realize positive gains from      kets with many buyers and sellers, diffusion of           3. G. Simmel, The Philosophy of Money (Routledge, London
+     trade. This should be the case for any market          being pivotal for outcomes adds to moral decay.               and New York, 1990), chap. 5.
+     situation with information rents in which reser-       This "replacement" logic is a common feature of           4. M. Weber, Economy and Society: An Outline of
+     vation values are private, as in our case. For ex-     markets, and it is therefore not surprising that the          Interpretive Sociology (Univ. of California Press, Berkeley,
+     ample, a seller in the bilateral market with a         rhetoric of traders often appeals to the phrase that          1978), chap. 7.
+     reservation value of 5 euros is unlikely to actually   "if I don't buy or sell, someone else will."              5. K. Polanyi, The Great Transformation: The Political and
+     trade at 5 euros. Instead, he should try to nego-                                                                    Economic Origins of Our Time (Beacon, Boston, 2001).
+     tiate higher prices. We therefore think that con-          In the experiment, subjects were fully aware          6. S. Lukes, in Worlds of Capitalism. Institutions, Economic
+     cluded prices provide an upper bound for the           of the consequences of their decisions in that they           Performance, and Governance in the Era of Globalization,
+     sellers' reservation values. One may also argue        could save the life of a mouse if they refused to             M. Miller, Ed. (Routledge, London, 2005), chap. 12.
+     that using the minimum concluded price could           accept a monetary amount. Our findings there-             7. A. Shleifer, Am. Econ. Rev. 94, 414 (2004).
+     bias results if sellers made mistakes, erroneously     fore suggest that appealing to morality has only a        8. For an example of a new type of market, consider, e.g.,
+     agreeing to trade at prices lower than they would      limited potential for alleviating negative market             Indian surrogate mothers bearing babies for U.S.
+     have actually liked to accept. We believe that it is   externalities. For example, anti­child-labor or en-           families.
+     unlikely that traders made such mistakes, be-          vironmental protection campaigns may not be that          9. M. Sandel, in What Money Can't Buy: The Moral Limits of
+     cause trading involved a deliberate decision to        effective because markets for goods undermine                 Markets (Farrar, Straus and Giroux, New York, 2012),
+     either accept or make offers. Yet, accounting          the relevant social values. The results also sug-             p. 202.
+     for this possibility, we also calculated median        gest why societies do ban markets for certain           10. S. Bowles, J. Econ. Lit. 36, 75 (1998).
+     values of concluded trading prices below or            "repugnant" activities (33). Historically, dispute      11. S. Bowles, Philos. Public Aff. 39, 46 (2011).
+     equal to 10 euros. The corresponding killing frac-     about the marketability and the appropriateness         12. J. Henrich et al., Am. Econ. Rev. 91, 73 (2001).
+     tions are 67% for the bilateral market and 76%         of markets has led to some of the most funda-           13. J. Henrich et al., Science 327, 1480 (2010).
+     for the multilateral market, very similar to the ones  mental upheavals within modern societies. For ex-       14. B. Herrmann, C. Thöni, S. Gächter, Science 319, 1362
+     reported in Fig. 1. These fractions are statistical-   ample, the abolishment of trading human beings                (2008).
+     ly significantly different from the individual         was a major issue in the American Civil War.            15. J. Haidt, S. Kesebir, Morality, in Handbook of Social
+     condition (P = 0.029 for bilateral market and          Martin Luther's critique of the trade of indul-               Psychology S. Fiske, D. Gilbert, G. Lindzey, Eds. (Wiley,
+     P < 0.001 for multilateral market, two-sample          gences, in which buyers and sellers exchanged                 Hobeken, NJ, ed. 5, 2010), chap. 22.
+     test of proportions).                                  money for the freedom from God's punishment             16. See supplementary materials for details.
+                                                            for sin, was a key element of the Protestant Re-        17. Comparable demonstration videos showing the killing
+         We stress another aspect of our results: fol-      formation. Karl Marx's idea that capital stock                process are publicly available at laboratories conducting
+     lowing the methodological standards in experi-         should not be tradable, that it must belong to the            animal research. The video presented to subjects showed
+     mental economic, it was essential to incentivize       workers themselves, is a cornerstone of commu-                how mice are gassed.
+     subjects' decisions in the individual condition,       nist ideology. With the recent financial crisis, dis-   18. This information is irrelevant for the consequences of
+     i.e., subjects needed to receive money according       cussion has arisen about the appropriateness of               subjects' decisions. If they choose to save their mouse,
+     to their decisions. Otherwise, a comparison with       markets for complex financial products like de-               the mouse survives. If they decide to kill it, they
+     market outcomes would have been misleading.            rivatives involving high risks. Stock traders have            receive money and the mouse is killed. We could have
+     For subjects, it would be "cheap" to claim that        been criticized for riding bubbles and for cashing            introduced another framing, informing subjects about
+     they are moral if being moral costs nothing. The       in short-term profits without thinking about pos-             the existence of "surplus" mice. Although this would
+     comparison of the individual treatment with            sible negative long-term impacts on companies,                not have changed any consequences, it may have
+     markets did therefore not involve paying money         as well as on society in general.                             changed the perception of the situation at hand, e.g., in
+                                                                                                                          line with evidence on the so-called omission-commission
+                                                                                                                          bias; see, e.g., (37).
+                                                                                                                    19. C. R. Plott, V. L. Smith, Eds., Handbook of Experimental
+                                                                                                                          Economics Results (Elsevier, Amsterdam, 2008), vol. 1.
+                                                                                                                    20. B. Latané, J. M. Darley, J. Pers. Soc. Psychol. 10, 215
+                                                                                                                          (1968).
+                                                                                                                    21. B. Latané, S. Nida, Psychol. Bull. 89, 308 (1981).
+                                                                                                                    22. U. Fischbacher, S. Gächter, E. Fehr, Econ. Lett. 71, 397
+                                                                                                                          (2001).
+
+710                10 MAY 2013 VOL 340 SCIENCE www.sciencemag.org
+                                                                                                                                       RESEARCH ARTICLES
+
+23. R. B. Cialdini, R. R. Reno, C. A. Kallgren, J. Pers.              32. R. Frank, T. Gilovich, D. Regan, J. Econ. Perspect. 7, 159   K. Albrecht, S. Altmann, J. Costard, T. Dohmen, M. Gabriel,
+     Soc. Psychol. 58, 1015 (1990).                                        (1993).                                                     S. Gächter, H.-M. von Gaudecker, J. von Hagen, D. Harsch,
+                                                                                                                                       P. Heidhues, D. Huffman, S. Jäger, S. Kube, G. Loewenstein,
+24. E. Krupka, R. A. Weber, J. Econ. Psychol. 30, 307 (2009).         33. A. E. Roth, J. Econ. Perspect. 21, 37 (2007).                C. May, A. Oswald, F. Rosar, N. Schweizer, A. Shaked,
+25. J. Sobel, Markets and Other-Regarding Preferences                 34. R. E. Lane, The Market Experience (Cambridge Univ.           G. Wagner, M. Wibral, F. Zimmermann, and participants at
+                                                                                                                                       various seminars for helpful comments. Finally, we thank all
+     (Discussion Paper, Economics Department, Univ. of                     Press, Cambridge, 1991).                                    students, colleagues, and post-docs for helping to run the
+     California, San Diego, 2010).                                    35. Charles-Louis de Montesquieu, Adam Smith, and Thomas         experiments. We acknowledge financial support by the German
+26. Median and modal prices in the bilateral market are                                                                                Science Foundation (Deutsche Forschungsgemeinschaft)
+     10 euros. Of all trades, 80.7% were in the range of 9                 Paine all expressed the view that markets and social        through the Leibniz Program. Data reported in the paper are
+     to 11 euros. In the multilateral market, all prices were below        behavior go hand in hand (Doux-commerce Thesis);            available at www.cens.uni-bonn.de/experiments/falk-szech/.
+     or equal to 10 euros, with one exception of a price of 10.1           see (38).                                                   This study was approved by the Ethics Committee of the
+     euros.                                                           36. K. Arrow (39) points out that markets may require high       University of Bonn (reference no. 066/12).
+27. The average price level in the bilateral market is 4.7                 levels of "professional ethics" (p. 36) to perform complex
+     euros higher than in the multilateral market (P < 0.0001,             transactions under private information.                     Supplementary Materials
+     n = 468, random fixed effects regression, with clustered         37. M. Spranca, E. Minsk, J. Baron, J. Exp. Soc. Psychol. 27,    www.sciencemag.org/cgi/content/full/340/6133/707/DC1
+     standard errors on session level).                                    76 (1991).                                                  Supplementary Text
+28. I. Kant, Groundwork for the Metaphysics of Morals                 38. A. Hirschman, J. Econ. Lit. 20, 1463 (1982).                 Figs. S1 and S2
+     (1785), L. Denis, Ed. (Broadview, Toronto, Canada,               39. K. Arrow, The Limits of Organization (Norton, New York       Tables S1 and S2
+     2005), p. 93.                                                         and London, 1974).                                          References (40, 41)
+29. K. D. Vohs, N. L. Mead, M. R. Goode, Science 314, 1154 (2006).
+30. A. Kay, C. Wheeler, J. Bargh, L. Ross, Organ. Behav. Hum.        Acknowledgments: We thank F. Kosse and S. Walter for              16 October 2012; accepted 14 March 2013
+     Decis. Process. 95, 83 (2004).                                  excellent research assistance. For technical, programming, or     10.1126/science.1231566
+31. V. Liberman, S. M. Samuels, L. Ross, Pers. Soc. Psychol. Bull.   administrative support, we thank in particular M. Antony as
+     30, 1175 (2004).                                                well as T. Deckers, U. Fischbacher, H. Gerhardt, B. Jendrock,
+                                                                     J. Radbruch, S. Schmid, and B. Vogt. We also thank J. Abeler,
+
+Rational HIV Immunogen Design                                                                                                              Vaccine design to induce VRC01-class bNAbs                          Downloaded from www.sciencemag.org on May 10, 2013
+                                                                                                                                       is attractive because VH1-2 genes are estimated
+to Target Specific Germline                                                                                                            to be present in ~2% of the human Ab repertoire
+                                                                                                                                       (16) and, even considering restrictions on light
+B Cell Receptors                                                                                                                       chain usage, suitable precursors should be present
+                                                                                                                                       in the naïve B cell repertoire of most individuals.
+Joseph Jardine,1,2,3,4* Jean-Philippe Julien,2,3,5* Sergey Menis,1,2,3,4* Takayuki Ota,1                                               However, predicted germline (GL) precursors
+Oleksandr Kalyuzhniy,1,2,3,4 Andrew McGuire,6 Devin Sok,1,2,3 Po-Ssu Huang,4                                                           for VRC01-class bNAbs exhibit no detectable
+Skye MacPherson,1,2,3,4 Meaghan Jones,1,2,4 Travis Nieusma,2,3,5 John Mathison,1 David Baker,4                                         affinity for wild-type Env (11, 13) (Table 1 and
+Andrew B. Ward,2,3,5 Dennis R. Burton,1,2,3,7 Leonidas Stamatatos,6,8 David Nemazee,1                                                  table S1), a potential explanation for the rarity
+Ian A. Wilson,2,3,5,9 William R. Schief1,2,3,4                                                                                         of VRC01-class bNAbs in HIV-1 infection (13).
+                                                                                                                                       More important, wild-type Env constructs lacking
+Vaccine development to induce broadly neutralizing antibodies (bNAbs) against HIV-1 is a global                                        GL affinity are poor vaccine candidates to prime
+health priority. Potent VRC01-class bNAbs against the CD4 binding site of HIV gp120 have                                               VRC01-class responses, because they are unlike-
+been isolated from HIV-1­infected individuals; however, such bNAbs have not been induced by                                            ly to reliably stimulate GL precursors to initiate
+vaccination. Wild-type gp120 proteins lack detectable affinity for predicted germline precursors                                       antibody maturation.
+of VRC01-class bNAbs, making them poor immunogens to prime a VRC01-class response. We
+employed computation-guided, in vitro screening to engineer a germline-targeting gp120 outer                                           Immunogen Design Strategy
+domain immunogen that binds to multiple VRC01-class bNAbs and germline precursors, and
+elucidated germline binding crystallographically. When multimerized on nanoparticles, this                                             To address the problem described above, we
+immunogen (eOD-GT6) activates germline and mature VRC01-class B cells. Thus, eOD-GT6                                                   modified the CD4bs on a minimal, engineered
+nanoparticles have promise as a vaccine prime. In principle, germline-targeting strategies could                                       outer domain (eOD) (17) to produce a germline-
+be applied to other epitopes and pathogens.                                                                                            targeting vaccine prime (Fig. 1) with two im-
+                                                                                                                                       portant binding properties: (i) moderate affinity
+Protection against disease by nearly all li-                             High-potency VRC01-class bNAbs against                        for multiple predicted VH1-2*02 GL-Abs to
+       censed vaccines is associated with induc-                     the HIV gp120 CD4 binding site (CD4bs) have                       enhance the ability to activate VH1-2 GL B cells
+       tion of antibodies (1). Viruses with high                     been isolated from several individuals infected                   with appropriate light chains; (ii) high affinity
+antigenic diversity, such as HIV, influenza virus,                   with different strains of HIV-1 (10­12). VRC01-                   for VRC01-class bNAbs to provide an affinity
+and hepatitis C virus, pose major challenges for                     class bNAbs all derive from the human VH1-                        gradient to guide early somatic mutation toward
+vaccine development (2). Most exposed surfaces                       2*02 variable heavy gene but differ substantially
+on the Envelope glycoproteins (Env) of these                         in amino acid sequence and complementarity-                       1Department of Immunology and Microbial Science, The Scripps
+viruses are hypervariable or shielded by gly-                        determining region H3 (CDRH3) length and use                      Research Institute, La Jolla, CA 92037, USA. 2International AIDS
+cans (3), and traditional vaccine approaches                         a few different variable light chain genes (figs.                 Vaccine Initiative Neutralizing Antibody Center, The Scripps
+tend to induce neutralizing antibodies against                       S1 and S2). Structural studies have revealed that                 Research Institute, La Jolla, CA 92037, USA. 3Center for HIV/AIDS
+only a small subset of viral strains (4­6). How-                     VRC01-class bNAbs employ a common mode                            Vaccine Immunology and Immunogen Discovery, The Scripps Re-
+ever, discoveries of bNAbs against each of these                     of gp120 binding in which the VH1-2 frame-                        search Institute, La Jolla, CA 92037, USA. 4Department of Bio-
+viruses have identified conserved epitopes as                        work mimics CD4 and provides additional                           chemistry, University of Washington, Seattle, WA 98195, USA.
+leads for vaccine design (2), and structural anal-                   electrostatic and hydrophobic contacts (Fig. 1A)                  5Department of Integrative Structural and Computational Biology,
+ysis has provided atomic definition for many of                      (12­15). A short CDRL3 loop is also required                      The Scripps Research Institute, La Jolla, CA 92037, USA. 6Seattle
+these epitopes (7, 8). Structure-based approaches                    for interaction with gp120 V5 and Loop D, and a                   Biomedical Research Institute, Seattle, WA 98109, USA. 7Ragon
+are, therefore, needed to reverse-engineer vac-                      CDRL1 deletion in many VRC01-class bNAbs                          Institute of Massachusetts General Hospital, Massachusetts
+cines capable of inducing bNAbs against these                        avoids clashes with a glycan linked to Asn276                     Institute of Technology, and Harvard, Cambridge, MA 02129,
+conserved epitopes (9).                                              (N276) on loop D.                                                 USA. 8Department of Global Health, University of Washington,
+                                                                                                                                       Seattle, WA 98109, USA. 9Skaggs Institute for Chemical Bi-
+                                                                                                                                       ology, The Scripps Research Institute, La Jolla, CA 92037, USA.
+
+                                                                                                                                       *These authors contributed equally to this work.
+                                                                                                                                       Corresponding author. E-mail: schief@scripps.edu
+
+www.sciencemag.org SCIENCE VOL 340 10 MAY 2013                                                                                                                                                            711
+

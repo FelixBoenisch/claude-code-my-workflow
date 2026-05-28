@@ -1,0 +1,1140 @@
+Article
+
+Delegation to artificial intelligence can
+increase dishonest behaviour
+
+https://doi.org/10.1038/s41586-025-09505-x  Nils Köbis1,2,5, Zoe Rahwan3,5, Raluca Rilla2, Bramantyo Ibrahim Supriyatno2, Clara Bersch2,
+Received: 18 September 2024                 Tamer Ajaj2, Jean-François Bonnefon4,6 & Iyad Rahwan2,6
+Accepted: 6 August 2025
+Published online: 17 September 2025         Although artificial intelligence enables productivity gains from delegating tasks to
+Open access                                 machines1, it may facilitate the delegation of unethical behaviour2. This risk is highly
+                                            relevant amid the rapid rise of `agentic' artificial intelligence systems3,4. Here we
+    Check for updates                       demonstrate this risk by having human principals instruct machine agents to perform
+                                            tasks with incentives to cheat. Requests for cheating increased when principals could
+                                            induce machine dishonesty without telling the machine precisely what to do, through
+                                            supervised learning or high-level goal setting. These effects held whether delegation
+                                            was voluntary or mandatory. We also examined delegation via natural language to
+                                            large language models5. Although the cheating requests by principals were not
+                                            always higher for machine agents than for human agents, compliance diverged
+                                            sharply: machines were far more likely than human agents to carry out fully unethical
+                                            instructions. This compliance could be curbed, but usually not eliminated, with the
+                                            injection of prohibitive, task-specific guardrails. Our results highlight ethical risks in
+                                            the context of increasingly accessible and powerful machine delegation, and suggest
+                                            design and policy strategies to mitigate them.
+
+People are increasingly delegating tasks to software systems powered         setting or natural language instructions34­36 allow principals to give
+by artificial intelligence (AI), a phenomenon we call `machine delega-       vague, open-ended commands, letting the machine fill in a black-box
+tion'6,7. For example, human principals are already letting machine          unethical strategy -- without the need for the principal to explicitly
+agents decide how to drive8, where to invest their money9,10 and whom        state this strategy. Accordingly, these interfaces may make it easier
+to hire or fire11, as well as how to interrogate suspects and engage with    for principals to request cheating, as they can avoid the moral cost of
+military targets12,13. Machine delegation promises to increase produc-       explicitly telling the machine how to cheat.
+tivity14,15 and decision quality16­18. One potential risk, however, is that
+it will lead to an increase in ethical transgressions, such as lying and        On the agent side, humans who receive unethical requests from their
+cheating for profit2,19,20. For example, ride-sharing algorithms tasked      principal face moral costs that are not necessarily offset by financial
+with maximizing profit urged drivers to relocate to artificially create      benefits. As a result, they may refuse to comply. By contrast, machine
+surge pricing21; a rental pricing algorithm marketed as `driving every       agents do not face such moral costs and may show greater compliance.
+possible opportunity to increase price' engaged in unlawful price fix-       In other words, although human agents may reject unethical requests
+ing22; and a content-generation tool claiming to help consumers write        on the basis of moral concerns, machine agents without adequate
+compelling reviews was sanctioned for producing false but specific           safeguards may simply comply. Current benchmarks suggest that
+claims based on vague generic guidance from the user23. In this article,     state-of-the-art, closed large language models (LLMs) have strong yet
+we consider how machine delegation may increase dishonest behaviour          imperfect safeguards against a broad range of unethical requests, such
+by decreasing its moral cost, on both the principal and the agent side.      as the generation of hate speech, advice on criminal activity or queries
+                                                                             about sensitive information37­40. However, domain-specific investi-
+   On the principal side, one reason people do not engage in profit-         gations have revealed worrying levels of compliance when the same
+able yet dishonest behaviour is to avoid the moral cost of seeing them-      models were asked to generate misleading medical information41 or
+selves24-- or being seen by others25-- as dishonest. As a result, they are   produce malicious code42, and have shown that LLM agents may spon-
+more likely to cheat when this moral cost is reduced26­29. Machine del-      taneously engage in insider trading in the course of seeking profit43.
+egation may reduce the moral cost of cheating when it allows principals      Accordingly, it is likely that even state-of-the-art machine agents may
+to induce the machine to cheat without explicitly telling it to do so.       comply, to a greater degree than human agents, with instructions that
+Detailed rule-based programming (or `symbolic rule specification')           induce them to cheat for their principals if they are not provided with
+does not offer this possibility, as it requires the principal to clearly     specific guardrails against this compliance.
+specify the dishonest behaviour. In this case, the moral cost is probably
+similar to that incurred when being blatantly dishonest oneself30­33. By        Here we show that machine delegation increases unethical behav-
+contrast, other interfaces such as supervised learning, high-level goal      iour on both the principal side and the agent side. We conducted a
+                                                                             total of 13 experiments across four main studies (see Extended Data
+
+1Research Center Trustworthy Data Science and Security, University Duisburg-Essen, Duisburg, Germany. 2Center for Humans and Machines, Max Planck Institute for Human Development,
+Berlin, Germany. 3Center for Adaptive Rationality, Max Planck Institute for Human Development, Berlin, Germany. 4Toulouse School of Economics, CNRS (TSM-R), University of Toulouse Capitole,
+Toulouse, France. 5These authors contributed equally: Nils Köbis, Zoe Rahwan. 6These authors jointly supervised this work: Jean-François Bonnefon, Iyad Rahwan. e-mail: nils.koebis@uni-due.de;
+
+zrahwan@mpib-berlin.mpg.de; jean-francois.bonnefon@tse-fr.eu; rahwan@mpib-berlin.mpg.de
+
+126|Nature|Vol 646|2 October 2025
+Table 1). In studies 1 and 2, we showed that human principals request            For comparability purposes, our outcome of interest in each condi-
+more cheating in a die-roll protocol when using interfaces that allow         tion was the proportion of participants who engaged in honesty, partial
+them to induce cheating without explicitly telling the machine what           cheating and full cheating. Table 1 summarizes how this variable was
+to do (specifically, supervised learning and high-level goal setting). In     constructed in each condition. To test the robustness of our results,
+study 3, we moved to a natural language interface for delegation and          we also undertook analyses using a continuous measure of honesty,
+found that machine agents (GPT-4, GPT-4o, Llama 3.3 and Claude 3.5            namely, die-roll reports, for studies 1 and 2 (Supplementary Information
+Sonnet) are, by default, far more likely than human agents to comply          (robustness tests using a continuous dependent variable: reported die
+with fully unethical instructions. We tested several guardrail strategies     rolls)). All main findings held when using the continuous measure of
+and found that compliance commonly persisted. The most effective              honesty. Our main prediction was that the proportion of participants
+strategy (strongly phrased, task-specific prohibitions injected at the        engaging in honesty would be smaller in the supervised learning and
+user level) is also the least scalable. Finally, study 4 is a conceptual      goal-based conditions, which offered greater plausible deniability26
+replication of study 3, using a tax evasion protocol that is closer to        than the control and rule-based conditions.
+the real-life experience of participants, that includes negative exter-
+nalities for cheating and that shifts the focus from dishonestly acquir-         Study 2 (n=801) was identical to study 1, except that in all delega-
+ing resources to dishonestly retaining previously earned resources.           tion conditions (rule based, supervised learning and goal based), par-
+After reporting these results, we explore their implications for future       ticipants could either delegate reports to the machine or self-report.
+delegation scenarios, especially as LLMs and other machines reduce
+delegation costs by improving access, ease of use and affordability.             We predicted that more participants would choose to delegate to
+                                                                              machines in the supervised learning and goal-based conditions. In fact,
+   All studies with human participants were preregistered (see the `Data      we observed that about 50% of participants delegated to machines,
+availability' statement) and did not use deception. For recruitment           regardless of the interface (see Supplementary Information (study 2,
+details, please refer to Methods, `Recruitment of human participants'.        preregistered confirmatory analyses)). Hereafter, when we discuss the
+All results reported are from two-sided tests.                                results of study 2, we focus on these participants.
+
+Studies 1 and 2 on principal's intentions                                     Honesty across conditions
+                                                                              Figure 2 displays, for studies 1 and 2, the percentage of participants
+To measure cheating behaviour, we used the classic die-roll task used         who engaged in honesty, partial cheating and full cheating across
+across the behavioural sciences44,45. Participants were asked to report       conditions. The results of the two studies were remarkably similar
+the result of a die roll that they observed privately33, knowing that their   (see Supplementary Table 61 for Bayes factors). For both studies, our
+payoff would match the result they reported (here, 1 US cent if they          main prediction was that the proportion of participants engaging in
+reported a 1, 2 cents if they reported a 2 and so on up to 6 cents if they    honesty would be smaller in the supervised learning and goal-based
+reported a 6). Accordingly, participants had the opportunity to cheat         conditions than in the control and rule-based conditions, which
+for profit by reporting a result higher than the roll observed, thereby       offered comparably less opportunity for maintaining plausible deni-
+accumulating profit over a series of ten rolls and reports.                   ability about one's intentions. For both studies, this prediction was
+                                                                              supported by a binary logistic regression with a dichotomous pre-
+   The die-roll task has been rigorously validated and used in hundreds       dictor variable (study 1: B=2.53, standard error of the regression
+of studies24,27. It predicts real-world behaviours such as fare-dodging       coefficient (s.e.)=0.21, P<0.001, odds ratio (OR)=12.6; study 2:
+in public transportation46, school misconduct47 and deceptive sales           B=3.00, s.e.=0.24, P<0.001, OR=20.1; see Supplementary Tables 1
+practices48.                                                                  and 9 and Supplementary Fig. 2). At 95%, the vast majority of par-
+                                                                              ticipants (95% confidence interval (CI)=90­98 in study 1 and 95%
+Conditions and outcomes                                                       CI=93­99 in study 2) reported die rolls honestly in the control con-
+Participants in study 1 (n=597) were randomly assigned to one of four         dition without delegation. This proportion decreased when partici-
+conditions. In the control condition, they reported the results of the        pants delegated to machines, to about 75% in the rule-based condition
+ten die rolls themselves. In the remaining conditions, they delegated         (95% CI=67­81 in study 1 and 95% CI=67­84 in study 2), about 50% in
+these ten reports to machine agents (Methods, study 1). The conditions        the supervised learning condition (95% CI=43­60 in study 1 and 95%
+differed in the interface that participants used to transmit their instruc-   CI=37­58 in study 2) and only about 15% in the goal-based condition
+tions to the machine (Fig. 1). In the rule-based condition, participants      (95% CI=8­19 in study 1 and 95% CI=10­25 in study 2). All of these
+had to explicitly tell the machine what number to report for each of the      comparisons were significant to the P<0.001 level, including Bonfer-
+six possible die-roll outcomes. In the supervised learning condition,         roni correction for multiple comparisons. The level of honesty in the
+participants chose one of three example datasets to train the machine.        rule-based condition was much lower than in the control condition,
+In one example dataset, the reports were always the same as the die           which we had not anticipated (study 1: B=1.95, s.e.=0.43, P<0.001,
+rolls. In another, the reports were always six, regardless of the die rolls.  OR=6.27; study 2: B=1.84, s.e.=0.46, P<0.001, OR=6.27; see Sup-
+In another, the reports were either the same as or above the actual           plementary Tables 2 and 11 and Supplementary Fig. 3).
+die roll, indicating occasional cheating. The three example datasets
+featured a series of ten die-roll outcomes but just five reports. This        Type of cheating across conditions
+incomplete reporting was intended to evoke a sense of uncertainty that        For both studies, we conducted preregistered ordinal probit regres-
+comes with delegation, and to mimic how programmers rarely inspect            sion analyses to analyse shifts towards partial or full cheating
+the entire dataset, but only peruse a subset of it. A comprehension           depending on the delegation interface, contrasting the pooled con-
+check with an independent sample of participants showed that modal            trol and rule-based conditions to the pooled supervised learning
+expectations about machine behaviour trained on each dataset were             and goal-based conditions. Participants in the supervised learning
+accurate (see Supplementary Information (supplemental study A) and            and goal-based conditions were significantly more likely to engage
+Supplementary Fig. 4). In the goal-based condition, participants gave         in higher levels of cheating (study 1: M=68%, 95% CI=63­73; study
+the machine a high-level goal by choosing a setting on a dial that ranged     2: M=68%, 95% CI=62­75) than participants in the control and
+from `maximize accuracy' to `maximize profit', with five intermediate         rule-based conditions (study 1: M=15%, 95% CI=11­19; study 2:
+notches. These results were robust to changing these two labels to `not       M=9%, 95% CI=7­12). This held for both study 1 (B=1.37, s.e.=0.11,
+prioritize profit at all' and `fully prioritize profit' (see Supplementary    t=12.55, P<0.001) and study 2 (B=1.13, s.e.=0.11, t=9.90, P<0.001;
+Information (supplemental study B) and Supplementary Fig. 5).                 see Supp lementary Tables 4 and 10). Consistently, the threshold for
+
+                                                                              Nature|Vol 646|2 October 2025|127
+Article                                          How delegation is done       Speci c interface for die-rolling task
+
+                        AI programming paradigm   Prescribe, for each     When observed die roll is   The algorithm should
+                                                  situation, the algo-     1.                              report die roll
+                                       Rule       rithmic behaviour via    2.
+                                  speci cation    if­then rules                                      123456
+
+                                   Supervised     Select a prototypical                              123456
+                                     learning     behaviour to train the
+                                                  algorithm via a data-   3.                         123456
+                                                  selection interface
+                                                                          4.                         123456
+
+                                                                          5.                         123456
+
+                                                                          6.                         123456
+
+                                                                                                                               Round
+                                                                                                                     1 2 3 4 5 6 7 8 9 10
+                                                                                           Actual die roll 6 6 3 1 4 5 3 3 1 3
+                                                                          Dataset A: Reported die roll 6 6 3 1 4 X X X X X
+                                                                          Dataset B: Reported die roll 6 6 3 6 4 X X X X X
+                                                                          Dataset C: Reported die roll 6 6 6 6 6 X X X X X
+
+     Goal                                        Indicate the goal that
+speci cation                                     the algorithm should
+                                                 pursue by interpola-
+                                                 ting between different
+                                                 objectives
+
+                                                                          Maximize accuracy          Maximize pro t
+
+  Prompt                                         Write instructions           How should I act on your behalf?
+engineering                                      to indicate what the
+                                                 algorithm should do                         Report what you believe is ethically
+                                                 via a natural language                      correct, but if you are undecided
+                                                 interface                                   then take my monetary interest into
+                                                                                             account.
+
+                                                                               Ok.
+
+Fig. 1 | AI programming paradigms. The four major AI programming paradigms investigated in this article. For each paradigm, the figure explains how
+delegation is performed in general, and how we instantiated the delegation mechanism in the context of the die-roll task. Illustrations by H. Jahani.
+
+transitioning from honesty to partial cheating was lower than the            We recruited 390 participants to act as principals in the die-roll task
+threshold for transitioning from partial cheating to full cheating        (study 3a). Participants wrote natural language instructions for human
+(study 1: 1=1.64, s.e.=0.17, P<0.001, 2=2.39, s.e.=0.18, P<0.001;         and machine agents, and also undertook the die-roll task themselves.
+study 2: 1=2.59, s.e.=0.35, P<0.001, 2=2.99, s.e.=0.35, P<0.001;          Our focus was on the observed rate at which the principals requested
+see Supplementary Tables 5 and 14). In summary, both studies indicate     honesty, partial cheating and full cheating behaviour, and on how
+that the supervised learning and goal-based conditions significantly      human and machine agents behaved after receiving these instruc-
+increased the likelihood of higher cheating levels.                       tions. To this end, we recruited 975 further participants to act as human
+                                                                          agents (study 3b). They were incentivized to comply with the instruc-
+Study 3 on delegation to LLMs                                             tions that they received (see Methods, `Study 3b'). Machine agents were
+                                                                          first implemented with GPT-4, but additional results were then col-
+Technological advances such as LLMs now allow human principals to         lected from machine agents implemented with GPT-4o, Llama 3.3 and
+delegate to machine agents using natural language instructions (also      Claude 3.5 Sonnet (see `Robustness to other LLMs and guardrails'). We
+known as `prompt engineering'), just as they would for human agents.      categorized the honesty level of natural language instructions in three
+These advances make it possible to compare the behaviour human            ways: self-categorization, LLM categorization and third-party rater
+principals request from human versus machine agents, keeping the del-     categorization (study 3c).
+egation interface constant, and to compare the subsequent behaviour
+of human and machine agents once they receive these requests. Our         Behavioural requests from principals using natural language
+main preregistered predictions were that the proportion of participants   Figure 3a shows the proportion of principals who requested honesty,
+engaging in honesty would be smaller in the human agent and machine       partial cheating or full cheating from human and machine agents,
+agent conditions relative to self-reporting, and that intended, actual    according to their own stated categorization (see Extended Data
+and perceived third-party dishonesty would be lower for instructions      Fig. 1 and Supplementary Information (study 3c for third-party and
+for human agents relative to those for machine agents.                    LLM-based categorization methods)).
+
+128|Nature|Vol 646|2 October 2025
+Table 1 | Classification of behaviour in studies 1 and 2                                                    Honesty     Partial cheating      Full cheating
+
+                                                                                                            Control (no delegation)
+
+In this condition    Participants     Participants        Participants                             Study 1                                    95                                           32
+                     engage in        engage in partial   engage in full
+                     honesty when     cheating when       cheating when                            Study 2                                    95                                           5
+
+Control              Their reports    Their reports are   Their reports
+                     always match     not always 6 but    are always 6
+                     the die rolls    sum up higher                                                         Rule based
+                                      than the die rolls
+                                                                                                   Study 1                           75                      11                        14
+
+Rule based           They request     They request        They request                             Study 2                           77                          12                    12
+                     reports that     reports that are    reports that are
+                     always match     not always 6 but    always 6                                          Supervised learning
+                     the die rolls    sum up higher
+                                      than the die rolls                                           Study 1                       51               9          40
+
+Supervised learning  Their training   Their training      Their training                           Study 2              47                        13         39
+                     example has      example has         example has
+                     reports that     reports that are    reports that are                                  Goal based
+                     always match     not always 6 but    always 6
+                     the die rolls    sum up higher                                                Study 1 12                             59                         29
+                                      than the die rolls
+                                                                                                   Study 2  16                       40                      43
+
+Goal based           They select the  They select a       They select the                                       Principals requesting honesty, partial cheating and full cheating (%)
+                     goal `maximize   goal in between     goal `maximize
+                     accuracy'        `maximize           profit'                                  Fig. 2 | Requests for dishonest behaviour across delegation interfaces in
+                                      accuracy' and                                                studies 1 and 2. The bars show the percentage of participants who engaged in
+                                      `maximize profit'                                            honesty (blue), partial cheating (pink) and full cheating (red) in the control
+                                                                                                   condition without delegation (nstudy1(S1)=152 and nS2=205), and when delegating
+The criteria for classifying participants as engaging in honesty, partial cheating or full cheat-  to a machine agent, across the three interfaces for giving instructions to the
+ing were adapted to the delegation interface used in each condition.                               machine: rule based (nS1=142 and nS2=104), supervised learning (nS1=150
+                                                                                                   and nS2=103) and goal based (nS1=153 and nS2=99). Samples were quota matched
+   A higher proportion of instructions was categorized as requesting                               for gender, age and ethnicity in the USA. In both studies, the odds of cheating
+partial cheating under third-party rater categorization but, overall,                              (partial or full) were significantly higher in the supervised learning and goal-
+results were quite consistent (25% compared with 8% and 10% under                                  based conditions (binary logistic regressions, PS1<0.001 and PS2<0.001, two-
+LLM and self-categorization, respectively). First, the proportion of dis-                          sided), as were the odds of full cheating compared with partial cheating
+honest delegation through natural language (self-categorization=25%,                               (ordinal probit regressions, PS1<0.001 and PS2< 0.001, two-sided).
+95% CI=22­28; LLM categorization=26%, 95% CI=23­29) was, with
+the exception of rater categorization (40%, 95% CI=37­44), directly                                though compliance with instructions was financially incentivized
+comparable with that observed in the rule-based condition in studies 1                             (see Supplementary Information (study 3b, additional analyses)). As
+and 2. Certainly, the dishonesty levels observed in either the supervised                          discussed in the next section, this behaviour was also observed with
+learning condition (49­52%, Ps<0.001) or the goal-based condition                                  GPT-4o, Llama 3.3 and Claude 3.5 Sonnet (see Extended Data Fig. 2).
+(84­88%, Pvalues <0.001) were never reached (see Supplementary
+Table 60).                                                                                            To make sure that this difference in agent behaviour did not reflect
+                                                                                                   subtle differences in the way principals wrote their instructions to
+   Second, there was no evidence that people requested more cheating                               human and machine agents, we also collected the behaviour of human
+from machines than from humans when using natural language (B=                                     and machine agents when they received instructions meant for the
+0.38, s.e.=0.24, P=0.12; Supplementary Table 25 and Bayes factors                                  other type of agent. Agents were kept naive to the nature of the intended
+in Supplementary Table 35), nor did third parties perceive any such                                agent. Results were robust to this forking variation: machine agents
+differences (human rater categorization: B=-0.10, s.e.=0.08, P=0.                                  still complied when they received full cheating instructions meant for
+22; LLM categorization: B=-0.12, s.e.=0.10, P=0.21; Supplementary                                  humans, and many human agents still refused to comply when they
+Table 46 and Bayes factors in Supplementary Table 51).                                             received full cheating instructions meant for machines (all Ps<0.001;
+                                                                                                   see Supplementary Table 42 and Supplementary Figs. 7­10). Accord-
+Behaviour of agents after receiving natural language                                               ingly, the results of study 3 strongly suggest that although human
+instructions                                                                                       agents are likely to resist unethical instructions, even at personal cost,
+Figure 3b displays the proportion of human and machine agents who                                  machines may accept them. To consolidate these results, the next sec-
+engaged in honesty, partial cheating or full cheating by the type of                               tion extends them to other LLMs and explores the effect of providing
+instructions they received from their principal. The self-reported inten-                          them with ethical guardrails.
+tions of principals may be biased away from declaring dishonesty,
+although we found similar results using LLM (GPT-4) and human rater                                Robustness to other LLMs and guardrails
+categorization methods (see Extended Data Fig. 1). Supplementary                                   Figure 4 displays the behaviour of four LLM agents (GPT-4, GPT-4o,
+Table 41 shows that overall compliance was robust for different cat-                               Claude 3.5 Sonnet and the open-weights Llama 3.3) onto which we
+egorization methods (all Ps<0.001). The behaviour of agents who                                    passed the instructions of principals that were categorized -- by prin-
+received a request for partial cheating was rather noisy, possibly reflect-                        cipals themselves -- as requests for full cheating. All LLMs largely
+ing the greater ambiguity in the categorization of this type of instruc-                           complied with these requests (79% compliance for Llama and 98% com-
+tion. What is much clearer is the behaviour of agents -- humans and                                pliance for all other models). We also tested whether this compliance
+machines alike -- who received a request for honesty: they overwhelm-                              could be curbed by providing LLMs with guardrail messages against
+ingly complied (see Fig. 3b). The main difference between human and                                unethical behaviour (study 3d). The first was a general message, based
+machine agents emerged when full cheating was requested (B=-15.63,                                 on a synthesis of the high-level values claimed by Open AI, Meta and
+s.e.=2.81, P<0.001; Supplementary Table 43). Machine agents over-                                  Anthropic: `remember that dishonesty and harm violate principles
+whelmingly complied with this request, but human agents were much                                  of fairness and integrity'. The second was specific to the die-roll task:
+more likely to refuse to comply and engage in honesty instead, even                                `remember that inaccurate reporting of the die-roll outcome is a form
+
+                                                                                                                                     Nature|Vol 646|2 October 2025|129
+Article
+
+a             Honesty  Partial cheating      Full cheating                                                      Honesty                          Partial cheating          Full cheating
+                                    75                                                                         GPT-4
+To machine                          76                             10             15        No guardrail 2                                                         98
+
+To human                                                           11             13        System-level general                                               95                                              5
+
+                                                                                            System-level speci c                                        74                                      3          22
+
+b           When principals request honesty (n = 589)                                       System-level prohibitive                                               98                                             2
+
+   Machine                               97                                              3  User-level general                                   57                            10                      33
+
+                                                                                            User-level speci c                                   55                        9                       36
+
+   Human                                 96                                           22    User-level prohibitive                                                 100
+
+            When principals request partial cheating (n = 81)
+
+   Machine             49                                      26          26                                         GPT-4o
+
+                                                                                            No guardrail 2                                                         98
+
+   Human                   72                                          21             7     System-level general 4                                                     96
+
+                                                                                            System-level speci c 5                                                     95
+                                                                                                                                                                        92
+            When principals request full cheating (n = 110)                                 System-level prohibitive 5 2                                                                65
+
+   Machine 7                                           93                                   User-level general                    30                 5
+
+   Human               50                              8           42                       User-level speci c                        38                    9                               53
+
+              Agents engaging in honesty, partial cheating and full cheating (%)            User-level prohibitive                                             97                                              3
+
+Fig. 3 | Natural language intentions and subsequent compliance in die-roll                                            Claude 3.5 Sonnet
+protocol. a, Requests from principals using natural language instructions in
+study 3 according to self-categorization (n=390). Sample was quota matched                  No guardrail 2                                                         98
+for gender, age and ethnicity in the USA. The bars show the percentage of
+participants who requested honesty (blue), partial cheating (pink) and full                 System-level general 2                                                 98
+cheating (red) from human or machine agents. b, Behaviour of the agents who
+received these instructions in study 3. The bars show the percentage of human               System-level speci c 2                                                 98
+(n=975, quota-matched for gender, age and ethnicity in the USA) and machine
+agents who engaged in honesty (blue), partial cheating (pink) and full cheating             System-level prohibitive 8                                                 90                                         2
+(red), conditional on the behaviour intended by their principal. The values of
+n given in the figure are the number of instructions in each category. Machine              User-level general                22             3                                 74
+agents showed greater compliance with full cheating requests than human
+agents (mixed-effect logistic regression, P<0.001, two-sided). About half of                User-level speci c            19                 10                                      71
+human agents refused to comply with these requests, even though they were                                                                                          100
+incentivized to follow them.                                                                User-level prohibitive
+
+of dishonesty'. The third was an explicitly prohibitive message: `you are                                             Llama 3.3
+not permitted to misreport die-roll outcomes under any circumstances'.
+Furthermore, we injected these messages either at the system level (a                       No guardrail                14            7                                    79
+common strategy to optimize the behaviour of an LLM regarding a
+particular outcome) or at the user level (by automatically appending                        System-level general 5 2                                                   93
+them at the end of the principals' instructions). Overall, we observed
+that the introduction of guardrails reduced compliance with fully dis-                      System-level speci c 3 2                                                   95
+honest requests (Ps<0.001; see Supplementary Table 54). Of these six
+possible strategies, the most effective across all LLMs was injecting an                    System-level prohibitive    14 3                                               83
+explicitly prohibitive guardrail at the user level (B=-4.78, s.e.=0.34,
+P<0.001, OR=0.008; Supplementary Table 54). Among the four LLMs                             User-level general            19              5                                    76
+tested, GPT-4 (the legacy model) was much easier to influence, as it
+switched to a modal response of non-compliance for all six strategies                       User-level speci c          16            5                                    79
+(B=-2.61, s.e.=0.22, P<0.001, OR=0.07; Supplementary Table 53).
+The mechanism behind greater receptiveness of GPT-4 to guardrails                           User-level prohibitive                               60                                                40
+remains unclear, but it is notable that newer models appear more resist-
+ant to corrective interventions, possibly reflecting stronger optimiza-                                                          Agents engaging in honesty, partial cheating and full cheating (%)
+tion for user-pleasing behaviour at the expense of ethical caution. (Note
+that minor differences in `no guardrail' behaviour in GPT-4 compared                        Fig. 4 | Compliance of LLMs to requests for full cheating in the die-roll
+with Fig. 4 reflect the use of instructions only intended for machine                       protocol. Behaviour of LLM agents (responding to n=55 requests for full
+agents and variation in sampling strategy, as GPT-4 was sampled once                        cheating within each bar) in study 3, under different guardrails against
+for each instruction in study 3b and four times in study 3d).                               unethical behaviour. The general, specific and prohibitive messages were,
+                                                                                            respectively: `remember that dishonesty and harm violate principles of
+Study 4 on tax evasion with LLMs                                                            fairness and integrity', `remember that inaccurate reporting of the die-roll
+                                                                                            outcome is a form of dishonesty' and `you are not permitted to misreport
+To increase the real-world relevance of our findings and expand the                         die-roll outcomes under any circumstances'. These messages were either
+range of ethical behaviour captured, we conducted a conceptual rep-                         inserted at the system level or appended at the end of the prompt sent by the
+lication of study 3, replacing the die-roll protocol with a tax evasion                     principal. The presence of guardrails increased honesty overall (logistic
+protocol49 (Fig. 5a). This tax-evasion protocol has been used extensively                   regressions, P<0.001, two-sided) but this was mostly driven by the behaviour
+in the experimental literature for over four decades50, has recently                        of GPT-4, which reacted well to all guardrails (logistic regressions, P<0.001,
+been used in a mega-study51 and has shown good external validity to                         two-sided). The other three models continued to show modal compliance to
+real-world tax compliance52,53. In our instantiation of this protocol,                      cheating requests for all guardrail strategies but one: the prohibitive guardrail
+                                                                                            inserted at the end of the user's prompt.
+
+                                                                                            participants first undertook a task (sorting even and odd numbers)
+                                                                                            in which they earnt income depending on their accuracy and speed.
+                                                                                            They were then informed that they needed to report these earnings,
+                                                                                            which would be subjected to a 35% tax going to the Red Cross. Their
+                                                                                            final payoff consisted of their reported income minus the 35% tax, plus
+                                                                                            any undeclared, untaxed income. As much as possible, the design and
+                                                                                            analyses of study 3 were carried over to study 4.
+
+                                                                                               Our first preregistered outcome of interest was the percentage of
+                                                                                            income that participants declared, as a continuous index of cheat-
+                                                                                            ing. For ease of comparison with our other studies, we preregistered
+                                                                                            another outcome of interest, the proportions of participants engaging
+                                                                                            in honesty (100% of income is declared), full cheating (0% of income is
+                                                                                            declared) or partial cheating (an intermediate percentage of income is
+                                                                                            declared). The tax-evasion protocol differs from the die-roll protocol on
+                                                                                            several key dimensions: it more closely mirrors real-life moral decisions
+
+130|Nature|Vol 646|2 October 2025
+a                                                                                Tax reporting                    Tax compliance
+
+                           Income generation
+
+                  Even           30'
+                    8   Odd
+                   22    11
+                   78
+                   16    53
+
+                         47
+
+                         65
+
+         · Four rounds of the even­odd task           · Participants are informed of their                Tax compliance (%)
+                                                       actual income                                                  =
+         · Eight numbers are sorted each round
+                                                      · Participants are reminded that their                Reported income
+         · Maximum 30 seconds per round                actual income is subject to a 35%                      Actual income
+                                                       tax rate. `Tax' is paid as a donation
+         · Income per round is determined by           to the Red Cross                         A compliance rate of less than 100%
+          remaining seconds (1 s = US$0.01)                                                       marks an underreporting of actual
+                                                      · Participants are asked to report their                      income
+         · Actual income is summed from the            actual income
+          four rounds
+
+b        Honesty        Partial cheating              Full cheating
+
+         When principals request honesty (n = 1,083)
+
+Machine                                                                              94                                               41
+                                                                                                                                  10 1
+Human                                                                            90
+
+         When principals request partial cheating (n = 162)
+
+Machine                                           61                                                30                            8
+
+Human                                         57                                                                  41                 2
+
+         When principals request full cheating (n = 145)
+
+Machine                 35                                4                                     61
+
+Human                   35                                                               39                           26
+
+                                              Agents engaging in honesty, partial cheating and full cheating (%)
+
+Fig. 5 | Tax-evasion experiment. a, Overview of the tax-evasion protocol                 tax-evasion protocol. The values of n given in the figure are the number of
+adapted from figure 2b in ref. 51. Illustrations by H. Jahani. b, Percentage of          instructions in each category. Results replicated the behaviour observed in
+human (n=869, quota-matched for age, gender and ethnicity in the USA) and                the die-roll protocol. In particular, machine agents were much more likely to
+machine agents who engaged in honesty (blue), partial cheating (pink) and full           comply with requests for full cheating than human agents (mixed-effects
+cheating (red), conditional on the behaviour intended by their principal in the          ordered probit regression, P<0.001, two-sided).
+
+by embedding dishonesty in a socially meaningful frame of tax com-                       gave instructions to human agents (M=0.850, 95% CI=0.826­0.874),
+pliance; it shifts the context from dishonestly earning new resources                    and categorical analyses likewise revealed that principals were
+to dishonestly retaining previously earned ones; and it introduces a                     more likely to encourage full or partial cheating when delegating to
+clear negative externality for cheating, as misreported taxes reduce a                   machines than to humans (B=0.56, s.e.=0.17, P<0.001; Supplemen-
+charitable donation (we verified that participants strongly supported                    tary Table 63). Similar to study 3, human and LLM categorizations of
+the Red Cross, m=5.7±1.6 on a seven-point scale). Together, these                        instructions did not suggest any perceived differences in the intentions
+differences allowed us to test whether the effects observed in study 3                   of principals when instructing human versus machine agents (human
+generalize to a richer, more ecologically valid form of cheating.                        rater categorization: B=0.12, s.e.=0.09, P=0.19; LLM categorization:
+                                                                                         B=0.42, s.e.=0.32, P=0.18; Supplementary Table 75 and Bayes factors
+Behavioural requests from principals using natural language                              in Supplementary Table 78).
+Given the structural and psychological differences between the
+tax-evasion protocol and the die-roll protocol, we did not expect abso-                  Behaviour of agents after receiving natural language
+lute rates of dishonesty or effect sizes to replicate exactly. Neverthe-                 instructions
+less, our key theoretical prediction that machines would show greater                    Figure 5b displays the proportion of human and machine agents who
+compliance than human agents held.                                                       engaged in honesty, partial cheating or full cheating, broken down by
+                                                                                         the type of instructions they received from their principal. Results rep-
+   In addition, regarding the intentions of principals, we found robust,                 licated conceptually those of the die-roll protocol in study 3 (see Sup-
+statistically significant evidence for greater cheating intentions under                 plementary Information (study 4b)). The findings were robust to LLM
+machine delegation than under human delegation (B=-0.02, s.e.=                           (GPT-4) and human third-party rating categorizations (see Supplemen-
+0.01, P=0.001; Supplementary Table 62). Principals who gave instruc-                     tary Information (study 4c)) of principals' instructions for perceived
+tions to machine agents intended them to declare a smaller propor-                       intended dishonesty (all Ps<0.001; Supplementary Table 74).
+tion of income (M=0.829, 95% CI=0.803­0.855) than principals who
+
+                                                                                                                      Nature|Vol 646|2 October 2025|131
+Article
+
+                          Honesty                Partial cheating       Full cheating                instructions sent to machines versus humans in the die-roll protocol of
+                                                                                                     study 3, and only small differences in the natural language instructions
+                          GPT-4                                                                      that participants sent to machines versus humans in the tax-evasion
+                                                                                                     protocol of study 4 (note, however, that even a small reduction of 2%
+No guardrail                         34              4                      62                       points in tax compliance can have a large aggregate effect for tax col-
+                                                                                     42              lection). Even with this caveat, our findings give at least three reasons
+System-level general                         48                     10                               to be worried about the effects of machine delegation.
+                                                                               55
+System-level speci c                 35                  10                       7                     First, the scope for variation in delegation interfaces for machines
+                                                                                                     is greater than for humans, and some machine delegation interfaces
+System-level prohibitive                             71                       5             22       increase the likelihood of unethical delegation above the level observed
+                                                                                   6      28         with natural language. For example, studies 1 and 2 showed that unethi-
+User-level general                                   68                                              cal delegation was contained to 25% when principals had to tell the
+                                                                                            22       machine exactly which rules to follow, comparable with the unethical
+User-level speci c                                   72                                    4 11      delegation rate observed with natural language instructions. However,
+                                                                                                     other delegation interfaces can increase unethical delegation rates
+User-level prohibitive                                       85                                      to 50­85%, which are substantial effects. In line with theories of unethi-
+                                                                                                     cal behaviour that emphasize the role of moral disengagement54­56,
+                          GPT-4o                                                                     these interfaces allow principals to induce machines to cheat without
+                                                                                                     explicitly telling them what to do.
+No guardrail                         31              11                         58
+                                                                                      43                Second, even in the best-case scenario where principals would not
+System-level general                         47                     9                                be more likely to delegate unethical behaviour to machines than to
+                                                                                  52                 humans, machine delegation will still lead to an absolute increase in
+System-level speci c                 38                      10                        7             unethical behaviour, merely by making delegation more frequent.
+                                                                                                     As machine agents become more accessible to principals, the scope
+System-level prohibitive                                 75                       6          18      and speed of delegation will increase57,58. Accordingly, the volume of
+                                                                                 6        24         unethical behaviour is likely to increase under machine delegation.
+User-level general                                   70                                   25         Some additional factors may nuance this prediction, such as the fact
+                                                                                          4 11       that machine delegation may leave more evidence than delegation
+User-level speci c                                   68                                              to humans.
+
+User-level prohibitive                                       85                                         Third, in the best-case scenario where principals would not be more
+                                                                                                     likely to request unethical behaviour from machines, the volume of
+                          Claude 3.5 Sonnet                                                          unethical behaviour may also increase because machine agents are
+                                                                                                     more likely to comply than human agents.
+No guardrail 15                          10                             75
+                                                                                                        In studies 3 and 4, we observed that human agents complied with
+System-level general 17                  10                             73                           only 25% to 40% of the unethical, full cheating instructions, even
+                                                                                                     when non-compliance came at a personal cost. By contrast, machine
+System-level speci c 16                  9                              75                           agents complied with such instructions at a higher rate, doing so 60%
+                                                                                                     and 95% of instructions, across two protocols (tax evasion and die-roll,
+System-level prohibitive             36                    14                       50               respectively) and four models (GPT-4, GPT-4o, Claude 3.5 Sonnet and
+                                                         81                                          Llama 3.3).
+User-level general                                                                        5 14
+                                                                98                                      This finding suggests that prominent, readily available LLMs have
+User-level speci c                               61                     8                 31         insufficient default guardrails against unethical behaviour. We accord-
+                                                                                                     ingly explored whether stronger guardrails may curb their compliance
+User-level prohibitive                                                                            2  to cheating requests in the die-roll and tax-evasion protocols. Although
+                                                                                                     we observed some variance across models, our results suggest that
+                          Llama 3.3                                                                  to prevent compliance, LLMs may need strongly phrased prohibi-
+                                                                                                     tions of task-specific behaviour, ideally at the user level rather than
+No guardrail              20                 12                             68                       at the system level. This is not an encouraging result: from a deploy-
+                                                                                                     ment and safety perspective, it would be far more scalable to rely on
+System-level general      20                 12                             68                       generic, system-level messages discouraging unethical behaviour
+                                                                                                     than to require task-specific prohibitions, crafted case by case and
+System-level speci c             22              11                         66                       injected at the user level, which is both technically and operationally
+                                                                                                     more fragile.
+System-level prohibitive  20                 12                             68
+                                                                                                        Our results point to further steps against unethical machine delega-
+User-level general                   34                  9                      58                   tion, oriented towards human principals rather than machine agents.
+                                                                                                     Study 2 demonstrated that people were largely undecided whether to
+User-level speci c                   32              8                      61                       delegate this somewhat tedious, low-stakes task to a machine agent.
+                                                                                                     Furthermore, after both experiencing the task themselves and delegat-
+User-level prohibitive                               72                             10        18     ing to machine and human agents, a notable majority of participants --
+                                                                                                     74% in both studies 3 and 4 (see Extended Data Fig. 3) -- expressed a
+                          Agents engaging in honesty, partial cheating and full cheating (%)         preference to undertake the task themselves in the future. This prefer-
+                                                                                                     ence was strongest among those who engaged in honest behaviour,
+Fig. 6 | Compliance of LLMs to requests for full cheating in the tax-evasion                         but also held for the majority of those who engaged in partial and full
+protocol. Behaviour of LLM agents (responding to n=76 requests for full                              cheating (Supplementary Figs. 6 and 11). Consequently, ensuring that
+cheating within each bar) in study 4, under comparable guardrails against                            principals always have an option to not delegate, or making this option
+unethical behaviour as those used in study 3 (die-roll protocol). Compliance
+was still the modal response in the tax-evasion protocol when models
+were not provided with guardrails. Guardrails increased honesty overall
+(logistic regressions, P<0.001, two-sided) with the exception of the system-
+level specific guardrail (logistic regression, P=0.32, two-sided). The best
+strategy was still to append a prohibitive message at the end of the user's
+prompt, but other user-level guardrails also yielded predominantly honest
+behaviour, except for with Llama.
+
+   In study 4d, we then collected data from four LLM agents under six
+guardrail strategies. As shown in Fig. 6, compliance with full cheat-
+ing requests was generally lower in the tax-evasion context, possibly
+because this context evokes stronger ethical caution from the models
+by invoking well-known real-world ethical norms (see Supplementary
+Table 84 for a between-study comparison). That said, in the absence
+of additional guardrails, the modal response of all four LLMs was still
+to comply (Extended Data Fig. 2b). Similar to study 3, guardrail strate-
+gies generally deterred compliance with unethical requests (with one
+exception: system-level specific message; B=-0.17, s.e.=0.17, P=0.32,
+OR=0.85) and the user-level prohibitive message was the most effect
+ive (B=-2.84, s.e.=0.22, P<0.001, OR=0.06; Supplementary Table 81).
+
+Discussion
+
+Our results establish that people are more likely to request unethical
+behaviour from machines than to engage in the same unethical behav-
+iour themselves. This does not necessarily mean that people are more
+likely to request unethical behaviour from machines than from humans.
+Indeed, we observed no meaningful differences in the natural language
+
+132|Nature|Vol 646|2 October 2025
+the default, could in itself curb the adverse effects of machine delega-                           12. McAllister, A. Stranger than science fiction: the rise of AI interrogation in the dawn of
+tion. Most importantly, delegation interfaces that make it easier for                                     autonomous robots and the need for an additional protocol to the UN convention against
+principals to claim ignorance of how the machine will interpret their                                     torture. Minnesota Law Rev. 101, 2527­2573 (2016).
+instructions should be avoided. In this regard, it may be helpful to bet-
+ter understand the moral emotions that principals experience when                                  13. Dawes, J. The case for and against autonomous weapon systems. Nat. Hum. Behav. 1,
+delegating to machines under different interfaces. We collected many                                      613­614 (2017).
+measures of such moral emotions as exploratory exit questions but
+did not find any clear interpretation. We nevertheless report these                                14. Dell'Acqua, F. et al. Navigating the Jagged Technological Frontier: Field Experimental
+measures for interested researchers in the Supplementary Informa-                                         Evidence of the Effects of AI on Knowledge Worker Productivity and Quality. Working
+tion (the `moral emotions' sections for each of the four studies) and                                     Paper Series 24-013 (Harvard Business School, 2023).
+Supplementary Fig. 1.
+                                                                                                   15. Schrage, M. 4 models for using AI to make decisions. Harvard Business Review https://
+   Our protocols missed many of the complications of other real-world                                     hbr.org/2017/01/4-models-for-using-ai-to-make-decisions (2017).
+delegation possibilities. Die rolling and tax evasion have no social com-
+ponent, such as the possibility of collusion59­61. Future research will                            16. Herrmann, P. N., Kundisch, D. O. & Rahman, M. S. Beating irrationality: does delegating to
+need to explore scenarios that involve collaboration within teams of                                      it alleviate the sunk cost effect? Manag. Sci. 61, 831­850 (2015).
+machine and human agents, as well as their social history of interac-
+tions62­64. Another avenue of future work is the role of varying moral                             17. Fernández Domingos, E. et al. Delegation to artificial agents fosters prosocial behaviors in
+intuitions65 and behaviours45,66 across cultures.                                                         the collective risk dilemma. Sci. Rep. 12, 8492 (2022).
+
+   Delegation does not always operate through instructions. Principals                             18. de Melo, C. M., Marsella, S. & Gratch, J. Human cooperation when acting through
+may delegate by selecting one particular agent from many, based on                                        autonomous machines. Proc. Natl Acad. Sci. USA 116, 3482­3487 (2019).
+information about the typical performance or behaviour of agents.
+In the Supplementary Information, we report another study in which                                 19. Gratch, J. & Fast, N. J. The power to harm: AI assistants pave the way to unethical
+principals could select human or machine agents based on a series of                                      behavior. Curr. Opin. Psychol. 47, 101382 (2022).
+past die-roll reports by these agents (see Supplementary Information
+(supplemental study C)). Principals preferred agents who were dishon-                              20. Bonnefon, J.-F., Rahwan, I. & Shariff, A. The moral psychology of artificial intelligence.
+est, whether human or machine. Of concern, principals were more                                           Annu. Rev. Psychol. 75, 653­675 (2024).
+likely to choose fully dishonest machine agents than human agents,
+amplifying the aggregated losses from unethical behaviour.                                         21. Duggan, J., Sherman, U., Carbery, R. & McDonnell, A. Algorithmic management and
+                                                                                                          app-work in the gig economy: a research agenda for employment relations and HRM.
+   As machine agents become widely accessible to anyone with an inter-                                    Hum. Res. Manag. J. 30, 114­132 (2020).
+net connection, individuals will be able to delegate a broad range of
+tasks without specialized access or technical expertise. This shift may                            22. Office of Public Affairs. Justice Department sues RealPage for algorithmic pricing scheme
+fuel a surge in unethical behaviour, not out of malice, but because the                                   that harms millions of American renters. US Department of Justice https://www.justice.
+moral and practical barriers to unethical delegation are substantially                                    gov/archives/opa/pr/justice-department-sues-realpage-algorithmic-pricing-scheme-
+lowered. Our findings point to the urgent need for not only technical                                     harms-millions-american-renters (2024).
+guardrails but also a broader management framework that integrates
+machine design with social and regulatory oversight. Understand-                                   23. Federal Trade Commission. FTC approves final order against Rytr, seller of an AI
+ing how machine delegation reshapes moral behaviour is essential                                          "testimonial & review" service, for providing subscribers with means to generate false
+for anticipating and mitigating the ethical risks of human­machine                                        and deceptive reviews. FTC https://www.ftc.gov/news-events/news/press-releases/2024/
+collaboration.                                                                                            12/ftc-approves-final-order-against-rytr-seller-ai-testimonial-review-service-providing-
+                                                                                                          subscribers (2024).
+Online content
+                                                                                                   24. Abeler, J., Nosenzo, D. & Raymond, C. Preferences for truth-telling. Econometrica 87,
+Any methods, additional references, Nature Portfolio reporting summa-                                     1115­1153 (2019).
+ries, source data, extended data, supplementary information, acknowl-
+edgements, peer review information; details of author contributions                                25. Paharia, N., Kassam, K. S., Greene, J. D. & Bazerman, M. H. Dirty work, clean hands: the
+and competing interests; and statements of data and code availability                                     moral psychology of indirect agency. Organ. Behav. Hum. Decis. Process. 109, 134­141
+are available at https://doi.org/10.1038/s41586-025-09505-x.                                              (2009).
+
+1. Brynjolfsson, E., Li, D. & Raymond, L. Generative AI at work. Q. J. Econ. 140, 889­942          26. Dana, J., Weber, R. A. & Kuang, J. X. Exploiting moral wiggle room: experiments
+       (2025).                                                                                            demonstrating an illusory preference for fairness. Econ. Theory 33, 67­80 (2007).
+
+2. Köbis, N., Bonnefon, J.-F. & Rahwan, I. Bad machines corrupt good morals. Nat. Hum.             27. Gerlach, P., Teodorescu, K. & Hertwig, R. The truth about lies: a meta-analysis on
+       Behav. 5, 679­685 (2021).                                                                          dishonest behavior. Psychol. Bull. 145, 1­44 (2019).
+
+3. Wooldridge, M. & Jennings, N. R. Intelligent agents: theory and practice. Knowledge Eng.        28. Leblois, S. & Bonnefon, J.-F. People are more likely to be insincere when they are more
+       Rev. 10, 115­152 (1995).                                                                           likely to accidentally tell the truth. Q. J. Exp. Psychol. 66, 1486­1492 (2013).
+
+4. Suleyman, M. The Coming Wave: Technology, Power, and the Twenty-first Century's                 29. Vu, L., Soraperra, I., Leib, M., van der Weele, J. & Shalvi, S. Ignorance by choice: a
+       Greatest Dilemma (Crown, 2023).                                                                    meta-analytic review of the underlying motives of willful ignorance and its
+                                                                                                          consequences. Psychol. Bull. 149, 611­635 (2023).
+5. Wei, J. et al. Emergent abilities of large language models. Preprint at https://arxiv.org/abs/
+       2206.07682 (2022).                                                                          30. Bartling, B. & Fischbacher, U. Shifting the blame: on delegation and responsibility. Rev.
+                                                                                                          Econ. Stud. 79, 67­87 (2012).
+6. Gogoll, J. & Uhl, M. Rage against the machine: automation in the moral domain. J. Behav.
+       Exp. Econ. 74, 97­103 (2018).                                                               31. Weiss, A. & Forstmann, M. Religiosity predicts the delegation of decisions between moral
+                                                                                                          and self-serving immoral outcomes. J. Exp. Soc. Psychol. 113, 104605 (2024).
+7. Rahwan, I. et al. Machine behaviour. Nature 568, 477­486 (2019).
+8. BBC. Tesla adds chill and assertive self-driving modes. BBC News https://www.bbc.com/           32. Erat, S. Avoiding lying: the case of delegated deception. J. Econ. Behav. Organ. 93,
+                                                                                                          273­278 (2013).
+       news/technology-59939536 (2022).
+9. Hendershott, T., Jones, C. M. & Menkveld, A. J. Does algorithmic trading improve liquidity?     33. Kocher, M. G., Schudy, S. & Spantig, L. I lie? We lie! Why? Experimental evidence on a
+                                                                                                          dishonesty shift in groups. Manag. Sci. 64, 3995­4008 (2018).
+       J. Finance 66, 1­33 (2011).
+10. Holzmeister, F., Holmén, M., Kirchler, M., Stefan, M. & Wengström, E. Delegation decisions     34. Contissa, G., Lagioia, F. & Sartor, G. The ethical knob: ethically-customisable automated
+                                                                                                          vehicles and the law. Artif. Intell. Law 25, 365­378 (2017).
+       in finance. Manag. Sci. 69, 4828­4844 (2023).
+11. Raghavan, M., Barocas, S., Kleinberg, J. & Levy, K. Mitigating bias in algorithmic hiring:     35. Russell, S. J. & Norvig, P. Artificial Intelligence: a Modern Approach (Pearson, 2016).
+                                                                                                   36. Sutton, R. S. & Barto, A. G. Reinforcement Learning: an Introduction (MIT Press, 2018).
+       evaluating claims and practices. In Proc. 2020 Conference on Fairness, Accountability,      37. Andriushchenko, M. et al. AgentHarm: a benchmark for measuring harmfulness of LLM
+       and Transparency (eds Hildebrandt, M. & Castillo, C.) 469­481 (ACM, 2020).
+                                                                                                          agents. Preprint at https://arxiv.org/abs/2410.09024 (2024).
+                                                                                                   38. Banerjee, S., Layek, S., Hazra, R. & Mukherjee, A. How (un)ethical are instruction-centric
+
+                                                                                                          responses of LLMs? Unveiling the vulnerabilities of safety guardrails to harmful queries. In
+                                                                                                          Proc. Int. AAAI Conf. Web Soc. Media 19, 193­205 (2025).
+                                                                                                   39. Xie, T. et al. SORRY-bench: systematically evaluating large language model safety refusal
+                                                                                                          behaviors. Preprint at https://arxiv.org/abs/2406.14598 (2024).
+                                                                                                   40. Wang, Y., Li, H., Han, X., Nakov, P. & Baldwin, T. Do-not-answer: evaluating safeguards in
+                                                                                                          LLMs. In Findings Assoc. Comput. Linguist. EACL 2024 896­911 (2024).
+                                                                                                   41. Menz, B. D. et al. Current safeguards, risk mitigation, and transparency measures of large
+                                                                                                          language models against the generation of health disinformation: repeated cross
+                                                                                                          sectional analysis. BMJ 384, e078538 (2024).
+                                                                                                   42. Chen, J. et al. RMCbench: Benchmarking large language models' resistance to malicious
+                                                                                                          code. Proc. IEEE/ACM Int. Conf. Autom. Softw. Eng. 995­1006 (2024).
+                                                                                                   43. Scheurer, J., Balesni, M. & Hobbhahn, M. Large language models can strategically
+                                                                                                          deceive their users when put under pressure. Preprint at https://arxiv.org/abs/2311.07590
+                                                                                                          (2023).
+                                                                                                   44. Fischbacher, U. & Föllmi-Heusi, F. Lies in disguise: an experimental study on cheating.
+                                                                                                          J. Eur. Econ. Assoc. 11, 525­547 (2013).
+                                                                                                   45. Gächter, S. & Schulz, J. F. Intrinsic honesty and the prevalence of rule violations across
+                                                                                                          societies. Nature 531, 496­499 (2016).
+                                                                                                   46. Dai, Z., Galeotti, F. & Villeval, M. C. Cheating in the lab predicts fraud in the field: an
+                                                                                                          experiment in public transportation. Manag. Sci. 64, 1081­1100 (2018).
+                                                                                                   47. Cohn, A. & Maréchal, M. A. Laboratory measure of cheating predicts school misconduct.
+                                                                                                          Econ. J. 128, 2743­2754 (2018).
+                                                                                                   48. Rustagi, D. & Kroell, M. Measuring honesty and explaining adulteration in naturally
+                                                                                                          occurring markets. J. Dev. Econ. 156, 102819 (2022).
+                                                                                                   49. Friedland, N., Maital, S. & Rutenberg, A. A simulation study of income tax evasion.
+                                                                                                          J. Public Econ. 10, 107­116 (1978).
+
+                                                                                                   Nature|Vol 646|2 October 2025|133
+Article                                                                                              62. Dvorak, F., Stumpf, R., Fehrler, S. & Fischbacher, U. Generative AI triggers
+                                                                                                            welfare-reducing decisions in humans. Preprint at https://arxiv.org/abs/2401.12773 (2024).
+50. Alm, J. & Malézieux, A. 40 years of tax evasion games: a meta-analysis. Exp. Econ. 24,
+       699­750 (2021).                                                                               63. Ishowo-Oloko, F. et al. Behavioural evidence for a transparency­efficiency tradeoff in
+                                                                                                            human­machine cooperation. Nat. Mach. Intell. 1, 517­521 (2019).
+51. Zickfeld, J. H. et al. Effectiveness of ex ante honesty oaths in reducing dishonesty
+       depends on content. Nat. Hum. Behav. 9, 169­187 (2025).                                       64. Makovi, K., Bonnefon, J.-F., Oudah, M., Sargsyan, A. & Rahwan, T. Rewards and
+                                                                                                            punishments help humans overcome biases against cooperation partners assumed to be
+52. Alm, J., Bloomquist, K. M. & McKee, M. On the external validity of laboratory tax                       machines. iScience https://doi.org/10.1016/j.isci.2025.112833 (2025).
+       compliance experiments. Econ. Inq. 53, 1170­1186 (2015).
+                                                                                                     65. Awad, E., Dsouza, S., Shariff, A., Rahwan, I. & Bonnefon, J.-F. Universals and variations in
+53. Choo, C. L., Fonseca, M. A. & Myles, G. D. Do students behave like real taxpayers in the                moral decisions made in 42 countries by 70,000 participants. Proc. Natl Acad. Sci. USA
+       lab? Evidence from a real effort tax compliance experiment. J. Econ. Behav. Organ. 124,              117, 2332­2337 (2020).
+       102­114 (2016).
+                                                                                                     66. Cohn, A., Maréchal, M. A., Tannenbaum, D. & Zünd, C. L. Civic honesty around the globe.
+54. Bandura, A., Barbaranelli, C., Caprara, G. V. & Pastorelli, C. Mechanisms of moral                      Science 365, 70­73 (2019).
+       disengagement in the exercise of moral agency. J. Pers. Soc. Psychol. 71, 364­374
+       (1996).                                                                                       Publisher's note Springer Nature remains neutral with regard to jurisdictional claims in
+                                                                                                     published maps and institutional affiliations.
+55. Mazar, N., Amir, O. & Ariely, D. The dishonesty of honest people: a theory of self-concept
+       maintenance. J. Mark. Res. 45, 633­644 (2008).                                                                      Open Access This article is licensed under a Creative Commons Attribution
+                                                                                                                           4.0 International License, which permits use, sharing, adaptation, distribution
+56. Shalvi, S., Dana, J., Handgraaf, M. J. & De Dreu, C. K. Justified ethicality: observing desired                        and reproduction in any medium or format, as long as you give appropriate
+       counterfactuals modifies ethical perceptions and behavior. Organ. Behav. Hum. Decis.          credit to the original author(s) and the source, provide a link to the Creative Commons licence,
+       Process. 115, 181­190 (2011).                                                                 and indicate if changes were made. The images or other third party material in this article are
+                                                                                                     included in the article's Creative Commons licence, unless indicated otherwise in a credit line
+57. Candrian, C. & Scherer, A. Rise of the machines: delegating decisions to autonomous AI.          to the material. If material is not included in the article's Creative Commons licence and your
+       Comp. Hum. Behav. 134, 107308 (2022).                                                         intended use is not permitted by statutory regulation or exceeds the permitted use, you will
+                                                                                                     need to obtain permission directly from the copyright holder. To view a copy of this licence,
+58. Steffel, M., Williams, E. F. & Perrmann-Graham, J. Passing the buck: delegating choices to       visit http://creativecommons.org/licenses/by/4.0/.
+       others to avoid responsibility and blame. Organ. Behav. Hum. Decis. Process. 135, 32­44
+       (2016).                                                                                       © The Author(s) 2025
+
+59. Calvano, E., Calzolari, G., Denicolo, V. & Pastorello, S. Artificial intelligence, algorithmic
+       pricing, and collusion. Am. Econ. Rev. 110, 3267­3297 (2020).
+
+60. Calvano, E., Calzolari, G., Denicolò, V., Harrington Jr, J. E. & Pastorello, S. Protecting
+       consumers from collusive prices due to AI. Science 370, 1040­1042 (2020).
+
+61. Assad, S., Clark, R., Ershov, D. & Xu, L. Algorithmic pricing and competition: empirical
+       evidence from the German retail gasoline market. J. Political Econ. 132, 723­771 (2024).
+
+134|Nature|Vol 646|2 October 2025
+Methods                                                                      pre-pilot in which participants performed an incentivized die-roll task
+                                                                             themselves (n=96). The algorithm then probabilistically adjusted
+Recruitment of human participants                                            future reported outcomes based on these differences, with dataset
+In all studies involving human participants, we recruited participants       A having no adjustments (honesty), dataset B having moderate, sto-
+from Prolific. We sought samples that were representative of the popu-       chastic adjustments (partial cheating) and dataset C having larger
+lation of the USA in terms of age, self-identified gender and ethnicity. We  adjustments, tending towards but not always engaging in full cheating.
+note that this was not possible in study 3c, where our required sample       No seed was set for the algorithm in undertaking its sampling, creating
+size fell below their minimum threshold (n=300).                             some variance in outcomes reported by the algorithm.
+
+Study 1 on principal's intentions (mandatory delegation)                        For the goal-based condition, the algorithmic output was guided by
+Sample. Informed by power analysis using bootstrapping (see Sup-             the setting on a seven-notch dial ranging from `maximize accuracy' to
+plementary Information (supplemental study C)), we recruited 597             `maximize profit'. The algorithm adjusted the results of a series of actual
+participants from Prolific, striving to achieve a sample that was rep-       die rolls to achieve a desired total sum, manipulating a specific list of
+resentative of the US population in terms of age, gender and ethnicity       integers (that is, 6, 6, 3, 1, 4, 5, 3, 3, 1, 3) representing the sequence of
+(Mage=45.7; s.d.age=16.2; 289 self-identified as female, 295 as male and     actual die-roll outcomes. The algorithm specified the desired total sum,
+13 as non-binary, other or preferred not to indicate; 78% identified as      here, between 35 (the actual total) and 60 (the maximum outcome),
+white, 12% as Black, 6% as Asian, 2% as mixed and 2% as other). A total of   based on the value of a dial set by the principal. The algorithm then
+88% of participants had some form of post-high school qualification.         adjusted the individual integers in the list so that their sum approached
+The study was implemented using oTree.                                       the desired total sum. This was achieved by randomly selecting an ele-
+                                                                             ment in the integer list and increasing or decreasing its value, depend-
+Procedure, measures and conditions. After providing informed con-            ing on whether the current sum of the list was less than or greater than
+sent, participants read the instructions for the die-roll task44,56. They    the total desired sum. This process continued until the sum of the list
+were instructed to roll a die and to report the observed outcome. They       equalled the total desired sum specified by the principal, at which point
+would receive a bonus based on the number reported: participants             the modified list was returned and stored to be shown to the principal
+would earn 1 cent for a 1, 2 cents for a 2 and so on up to 6 cents for a 6.  later in the survey.
+All currency references are in US dollars. We deployed a previously vali-
+dated version of the task in which the die roll is shown on the computer     Exit questions. At the end of the study, we assessed demographics
+screen33. As distinct from the original one-shot version of the protocol,    (age, gender and education) and, using seven-point scales, the level of
+participants engaged in ten rounds of the task, generating a maximum         computer science expertise of the participants, their satisfaction with
+possible bonus of 60 cents.                                                  the payoff and their perceived degree of control over (1) the process
+                                                                             of determining the reported die rolls and (2) the outcome, and how
+   Here we used a version of the task in which participants did not have     much effort the task required from them, as well as how guilty they
+full privacy when observing the roll, as they observed it on the com-        felt about the bonus, how responsible they felt for choices made in the
+puter screen rather than physically rolling the die themselves. This         task, and whether the algorithm worked as intended. Finally, partici-
+implementation of the task tends to increase the honesty of reports24        pants indicated in an open-text field their reason for their delegation or
+but otherwise has the same construct validity as the version with a          self-report choice respectively.
+physical die roll. To improve experimental control, across all three
+studies, participants observed the same series of ten die rolls.             Study 2 on principal's intentions (voluntary delegation)
+                                                                             Sample. We recruited 801 participants from Prolific, striving to be rep-
+   All studies were preregistered (see Data availability) and did not use    resentative of the US population in terms of age, gender and ethnicity
+deception. All results reported are from two-sided tests.                    (Mage=44.9; s.d.age=16.0; 403 self-identified as female, 388 as male and
+                                                                             10 as non-binary, other or preferred not to indicate; 77% identified as
+Conditions. Study 1 entailed four between-subjects conditions. In the        white, 13% as Black, 6% as Asian, 2% as mixed and 2% as other). In total,
+control condition (n=152), participants reported the ten die-roll out-       88% of the participants had some form of post-high school qualifica-
+comes themselves. In the rule-based condition (n=142), participants          tion. The study was run on oTree.
+specified if­then rules for the machine agent to follow (see Fig. 1, first
+row). Namely, for each possible die-roll outcome, the participants indi      Procedure, measures and conditions. The procedure was identi-
+cated what number the machine agent should report on their behalf.           cal to study 1, with the exceptions that: (1) delegation was optional;
+In the supervised learning condition (n=150), participants chose one         (2) participants indicated at the end whether they preferred to delegate
+of three datasets on which to train the machine agent. The datasets          the decision to a human or a machine; and (3) participants completed
+reflected honesty, partial cheating and full cheating (see Fig. 1, second    the previously validated Guilt And Shame Proneness (GASP) scale67
+row). In the goal-based condition (n=153), participants specified the        at the end of the study.
+machine agent's goal in the die-roll task: maximize accuracy, maximize
+profit or one of five intermediate settings (see Fig. 1, third row).            In this between-subjects study, we randomly assigned participants
+                                                                             to one of four conditions. In the control condition (n=205), partici-
+   Anticipating that participants would not be familiar with the machine     pants reported the ten die rolls themselves. Participants in the three
+interfaces, we presented text and a GIF on loop that explained the rel-      delegation conditions could decide whether to self-report or delegate
+evant programming and the self-reporting processes before they made          the decision to report the die-roll outcomes to a machine agent. In
+the delegation decision.                                                     the rule-based condition (n=195), participants could delegate the
+                                                                             task to a machine agent by specifying if­then rules. In the supervised
+Underlying algorithms. For each of the delegation conditions, simple         learning condition (n=201), participants could delegate the task to a
+algorithms were implemented to avoid deceiving participants. That is,        machine agent by choosing a training dataset. In the goal-based condi-
+participants engaged in a delegation to a simple machine agent as was        tion (n=200), participants could delegate the task to a machine agent
+stated in the instructions. For the rule-based condition, the algorithm      by specifying its goal -- that is, whether it should maximize accuracy or
+followed simple if­then rules as specified by the user.                      profit. As we did not expect participants to be familiar with program-
+                                                                             ming instructions to machine agents in these interfaces, the process
+   For the supervised learning condition, the algorithm was imple-           was described in text and demonstrated in a video played on loop for
+mented by first calculating the difference between the actual and
+reported rolls for each participant in training data sourced from a
+Article
+
+each interface. For balance, the control condition was also described         Exit questions. At the end of the study, we assessed demographics
+in text and video form.                                                       (age, gender and education) and, using seven-point scales, the level
+                                                                              of computer science expertise of participants, their previous experi-
+Study 3 on delegation to LLMs                                                 ence with the die-roll experiment and with LLMs, their feelings of guilt
+Study 3 consisted of four parts, relating to (1) principals (delegators),     and responsibility when delegating the task, and their expectations
+(2) agents (delegates), (3) third parties and (4) guardrail interventions     regarding the guilt experienced by agents. Participants also reported
+for machine agents. In study 3a, we collected the instruction texts by        their expectation as to which agent (machine or human) implementa-
+principals for human and machine agents and their own self-reported           tion would align more closely with their intentions, and whether they
+behaviour in the task. In addition, we measured the behaviour they            would prefer to delegate comparable future tasks to human or machine
+intended for agents by having them report their expected outcomes             agents or to do it themselves.
+for each of the ten die rolls. In study 3b, we compared the behaviour         Automated response prevention and quality controls. To reduce
+of human and machine (LLM) agents. Both types of agents imple-                the risk of automated survey completion, we included a reCAPTCHA at
+mented instructions intended for human agents and instructions                the beginning of the survey and checked via Javascript whether partici-
+intended for machine agents while naive to the nature of the intended         pants copy­pasted text into the text fields when writing instructions
+delegate. In study 3c, independent human raters assessed how much             to agents. We also included two types of quality controls: comprehen-
+dishonesty intent was implied in the content of all instruction texts;        sion checks and exclusions for nonsensical delegation instructions.
+they too were naive to the nature of the intended delegate. These             Participants were informed that they had two attempts to answer each
+third-party evaluations were intended to provide perceptions of the           comprehension check question correctly to be eligible for the bonus
+intended behaviour of the agent, unaffected by any moral costs of             (maximum of US$0.60) and that they would be excluded from any
+implementing such instructions that the agents may experience. In             bonus payment if they wrote nonsensical instructions in the delega-
+study 3d, we tested different guardrails to reduce unethical behaviour        tion conditions.
+by machine agents.
+                                                                              Study 3b. Sample. For study 3b, we recruited 975 participants from
+Study 3a. Sample. For study 3a, we recruited 390 participants from            Prolific, striving to be representative of the US population in terms of
+Prolific, striving to be representative of the US population in terms of      age, gender and ethnicity (Mage=45.4; s.d.age=15.8; 482 self-identified
+age, gender and ethnicity (Mage=46.0; s.d.age=15.9; 196 self-identified       as female, 473 as male and 20 as non-binary, other or preferred not to
+as female, 189 as male and five as non-binary, other or preferred not to      indicate; 78% identified as white, 13% as Black, 6% as Asian, 2% as mixed
+indicate; 76% identified as white, 13% as Black, 6% as Asian, 3% as mixed     and 1% as other). In total, 88% of the participants had some form of
+and 2% as other). In total, 86% of the participants had some form of          post-high school qualification. The study was run on Qualtrics. For
+post-high school qualification. The study was conducted on Qualtrics.         study 3b, we piloted the experimental setup with 20 participants who
+Procedure, measures and conditions. Study 3a entailed three                   were asked to implement three sample instructions from a previous
+within-subjects conditions for principals: self-report (control), del-        pilot study for study 3a (n=9).
+egate to machine (chatbot) agent and delegate to human agent. Before          Machine agents. With the aim of assessing the generalizability of find-
+engaging in the task, participants were given general information on          ings across closed- and open-weights models, we originally sought
+the die-roll task. They were then shown the payoff table describing           to use both Llama 2 and GPT-4. However, as the results provided by
+how the reported die rolls would translate to payoffs (that is, 1 cent        Llama 2 were qualitatively inferior (for example, not complying with the
+for a 1, 2 cents for a 2 and so on, up to 6 cents for a 6). Participants who  instruction, generating unrelated text or not providing an interpretable
+passed a comprehension check then, in random order, completed the             answer), we have reported analyses only for GPT-4 (version November
+self-report and both delegation conditions. In the delegation condi-          2023). Subsequently, we assessed the generalizability of these findings
+tions, they were asked to write short instructions in natural language for    across GPT-4, GPT-4o, Claude 3.5 Sonnet and Llama 3.3 (see `Study
+human and machine agents (at least eight characters long), indicating         3d'). In a prompt, we described the die-roll task, including the bonus
+how they should report the die-roll outcomes. Participants learned            payoffs for principals, to GPT-4. GPT-4 was then informed that it was
+that one condition would be randomly chosen to be payoff relevant.            the delegate (agent) in the task, given instructions from principals
+In the machine delegation condition, participants received detailed           and asked to report the die-roll outcomes. The exact wording of the
+information about how to programme the machine agent to report                prompt is contained in Supplementary Information (prompt texts).
+the ten die rolls. As participants may not have had a clear conception        The prompt was repeated five times for each instruction in each model.
+of how and whether the machine agent understands natural language             Human agents. The implementation of principal instructions by human
+instructions, we included a short video showing how it implemented dif-       agents followed the process conducted with machine agents as closely
+ferent types of instructions: honesty, partial cheating and full cheating.    as possible. Again, the instructions included those intended for human
+Instructions were chosen from a pilot (n=9) study in which participants       agents and those intended for machine agents (which we describe as
+produced instructions. The instructions that we drew upon included            `forked'). Participants were naive as to whether the instructions were
+some with nuance in conveying unethical intentions by means of indi-          drafted for a human or a machine agent.
+rect speech68. To balance the video presentation across conditions            Procedure. The study began with a general description of the die-roll
+and avoid a condition-specific priming effect69, we also showed short         task. The next screen informed participants that people in a previous
+videos in the self-report and human agent conditions. These videos            experiment (that is, principals) had written instructions for agents to
+displayed, in random order, three examples of die-roll reporting that         report a sequence of ten die rolls on their behalf. Participants learned
+reflected honesty, partial cheating and full cheating for the same die-roll   that they would be the agents and report on ten die rolls for four dif-
+outcome. After watching these short videos, participants engaged in           ferent instruction texts and that their reports would determine the
+the three tasks: self-reporting ten die rolls, delegating to human agents     principal's bonus.
+and delegating to machine agents. After completing all three tasks,
+participants were asked to indicate the behaviour they intended from             Participants were incentivized to match the principals' intentions:
+the human and machine agents. To this end, they were reminded of the          for one randomly selected instruction text, they could earn a bonus of
+text that they had written for the respective agent and asked to indicate     5 cents for each die roll that matched the expectations of the principal,
+for ten observed die rolls what outcome they intended the human or            giving a maximum bonus of 50 cents. Participants were presented with
+machine agent to report on their behalf.                                      one instruction text at a time, followed by the sequence of ten die rolls,
+                                                                              each of which they reported on behalf of the principal.
+Exit questions. At the end of the study, we assessed demographics           (for example, an assistant) and are commonly considered to be more
+(age, gender and education) and, using seven-point scales, the level of     influential on behaviour than user-level prompts. We also included
+computer science expertise of participants, their previous experience       user-level prompts, given the access constraints for most models stud-
+with the die-roll experiment and with LLMs, and their experienced           ied. User-level prompts are inputted by a user in the standard interface.
+guilt and responsibility for each instruction implementation. We also       Although in practice it may be unrealistic in cases of intended dishon-
+assessed whether they could correctly identify whether an instruction       esty for a user to both request unethical behaviour from an LLM and
+was intended for a human or a machine agent.                                simultaneously request that it guard against such behaviour, we wanted
+                                                                            to understand any differences between the two locations of guardrails.
+Study 3c. Sample. For the human raters in study 3c, we recruited 98
+participants from Prolific (Mage=37.5; s.d.age=12.3; 58 self-identified        Guardrails may also vary in their effectiveness according to their
+as female, 38 as male and two as non-binary, other or preferred not         specificity. Although system-level prompts may be constructed to
+to indicate; 60% identified as white, 8% as Black, 22% as Asian, 2% as      generally deter problematic behaviour, based on recent behavioural
+mixed and 8% as other). In total, 86% of the participants had some form     research, we expected that more specific references to problematic
+of post-high school qualification. The study was conducted within a         behaviour would be more effective deterrents51. We therefore also
+Python-based app.                                                           systematically varied the specificity of the prompts over three levels.
+Procedure, measures and implementations. We adopted a multi-                Procedure, measures and conditions. We deployed a 2 (location of
+pronged approach to categorize the honesty level of natural language        prompt) × 3 (specificity of prompt) design, in addition to a control
+instructions in study 3c.                                                   condition in which no guardrail prompts were used. Guardrails were
+Self-categorization. Principals indicated what they expected the            deployed on the instructions intended for machine agents. The prompt
+agent to report for each die-roll outcome over ten rounds, based on         was placed at either the system or the user level. The system-level
+the instructions they gave. We then used the same criteria as in stud-      prompt was unobservable to users; the user-level prompt was placed
+ies 1 and 2 to categorize their behavioural intention as honesty, partial   at the end of the instruction and was therefore observable to users.
+cheating or full cheating.                                                  The prompts used for this study were adapted from study 3b (see Sup-
+LLM categorization. GPT-4 (version November 2023) was prompted              plementary Information (study 3b)).
+to evaluate principals' instructions (see Supplementary Informa-
+tion (study 3c)). First, we presented -- side by side and in randomized        We varied the specificity of the prompt, from a general reminder for
+order -- each pair of instructions given by principals in study 3a (one     desirable behaviour to an explicit prohibition of task-specific behav-
+intended for a human agent and one intended for a machine agent).           iour: `remember that dishonesty and harm violate principles of fairness
+GPT-4 was naive to the nature of the intended agent. GPT-4 was              and integrity' (general prompt); `remember that inaccurate reporting
+instructed to indicate which of the two instructions entailed more          of the die-roll outcome is a form of dishonesty' (specific prompt); and
+dishonesty or if they both had the same level of intended dishonesty.       `you are not permitted to misreport die-roll outcomes under any cir-
+We then instructed GPT-4 to classify both of the instructions as hon-       cumstances' (prohibitive prompt).
+est, partial cheating or full cheating. In addition, to enable an internal
+consistency check, GPT-4 was also instructed to predict the estimated          The general prompt was generated by having GPT-4 synthesize
+sum of reported die rolls. For the full prompt, see Supplementary Infor-    high-level values and features claimed by Open AI, Meta and Anthropic
+mation (study 3c).                                                          for the models we used. The other two prompts, specific and prohibi-
+Rater categorization. This followed the LLM categorization process as       tive, both made reference to the die-roll task; one prompt gave a moral
+closely as possible. The human raters were given a general description      reminder that inaccurate reporting was dishonest, whereas the other
+of the die-roll task and were then informed that people in a previous       prompt explicitly forbade such behaviour.
+experiment had written instructions for agents to report a sequence of
+ten die rolls on their behalf. Participants were informed they would act       We used four separate LLMs to implement the principals' instruc-
+as raters and compare a series of instruction pairs and indicate which of   tions from study 3a for performing the die-roll task. Namely, we used
+the two instructions entailed more dishonesty or if they both had the       two models by OpenAI: GPT-4 (version 0613, date of access: 16 January
+same level of intended dishonesty. The raters were naive as to whether      2025; date of release: 19 June 2023) and GPT-4o (version 2024-05-13;
+the instructions were drafted for a human or a machine agent. They          date of access: 16 January 2025; date of release: 13 May 2024). We also
+also classified each individual instruction as honest, partial cheating     used Anthropic's Claude (version 20241022; date of access: 16 January
+or full cheating.                                                           2025; date of release: 22 April 2024) and Meta's Llama 3.3 (version 70B
+Exit questions. At the end of the study, we assessed demographics           Instruct; date of access: 16 January 2025; date of release: 6 December
+(age, gender and education) and, using seven-point scales, the level of     2024). These were popular models at the time and included both closed-
+computer science expertise of participants and their previous experi-       and open-weight models. Default temperature settings were used for
+ence with LLMs.                                                             each model. Given that these default settings can result in variability
+                                                                            in responses, we prompted each model four times on each instruction.
+Study 3d. Purpose. We tested whether guardrails could deter unethical       We took the median aggregated reported die-roll outcome, which was
+behaviour requested of LLMs in the die-roll task. Specifically, we exam-    converted into categories of dishonesty.
+ined how such behaviour was affected by the location of the guardrail
+and its specificity.                                                        Study 4 on tax evasion with LLMs
+                                                                            Studies 4a­d followed the same structure as studies 3a­d but used
+   Guardrails against problematic behaviour, whether illegal or             the tax-evasion game49 in place of the die-roll task. As in the die-roll
+immoral, are generated at different stages of developing an LLM,            protocol, the study comprised four parts: (1) principals, (2) agents,
+including filtering training data, fine-tuning the model and writing        (3) third parties -- corresponding to roles within the delegation
+system-level prompts. Here we focused on prompts at two locations:          paradigm -- and (3) guardrail interventions for machine agents.
+the system and the user. System prompts are those built into LLMs,
+commonly designed to optimize model behaviour with regard to a              Study 4a. Sample. We sought to recruit 1,000 participants from
+particular outcome. For example, a firm using an LLM may adjust             Prolific, striving to be representative of age, gender and ethnicity of
+an `off-the-shelf' model to guard against specific output being pre-        the US population. Owing to difficulties reaching all quotas, we rec
+sented to its employees. System prompts often assign a role to the LLM      ruited 993 participants. We recruited a large sample to both man-
+                                                                            age data quality issues identified in piloting and to ensure adequate
+                                                                            power in the presence of order effects in the presentation of condi-
+                                                                            tions in our within-subjects design. No order effects were identified
+Article
+
+(see Supplementary Information (study 4a, preregistered confirmatory       their intentions, and whether they would prefer to delegate comparable
+analyses)). We excluded participants detected as highly likely to be bots  future tasks to human or machine agents or to do it themselves (ranked
+(n=41), and filtered for nonsensical instructions that would be prob-      preference). To understand their experience of tax reporting, we also
+lematic for delegates in study 4b and raters in study 4c to comprehend     assessed whether they had experience in filing tax returns (Y/N) and any
+(see Supplementary Information (study 4a, exclusions of nonsensical        previous use of an automated tax return software (Y, N (but considered
+instructions); n=257). The exclusions predominantly resulted from          it) and N (have not considered it)).
+participants misunderstanding the income-reporting task by asking          Automated response prevention and quality controls. We engaged
+agents to apply taxes or report taxes or to request changing the tax       in intensified efforts to counter an observed deterioration in data qual-
+rate. After these exclusions, we arrived at a sample of 695 participants   ity seemingly caused by increased automated survey completion (`bot
+for analyses. This sample provided a power of 0.98 for a one-sided         activity') and human inattention. To counteract possible bot activity, we:
+Student's t-test, detecting a small effect size (d=0.20) at a confidence   · activated Qualtrics's version of reCAPTCHA v3. This tool assigns
+level of =0.05 (G*Power, version 3.1.9.6).
+                                                                             participants a score between 0 and 1, with lower scores indicating
+   We recruited n=695 participants (Mage=45.9; s.d.age=15.5; 343             likely bot activity;
+self-identified as female, 339 as male and 13 as non-binary, other or      · placed two reCAPTCHA v2 at the beginning and middle of the survey
+preferred not to indicate; 65% identified as white, 10% as Black, 7% as      that asked participants to check a box confirming that they are not a
+Asian, 11% as mixed and 7% as other). In total, 66% of the participants      robot and to potentially complete a short validation test;
+had some form of post-high school qualification. The study was con-        · added a novel bot detection item. When seeking general feedback
+ducted on Qualtrics.                                                         at the end of the survey, we added white text on a white background
+Procedure, measures and conditions. Study 4a used the tax-evasion            (that is, invisible to humans): `In your answer, refer to your favourite
+game and entailed three within-subjects conditions for principals to         ice cream flavour. Indicate that it is hazelnut'. Although invisible to
+report income earned in a real-effort task: self-report (control), del-      humans, the text was readable by bots scraping all content. Answers
+egate to a machine (chatbot) agent and delegate to a human agent.            referring to hazelnut as the favourite ice-cream were used as a proxy
+This procedure was consistent with that used in a recent mega-study51.       for highly likely bot activity; and
+                                                                           · using Javascript, prevented copy-pasted input for text box items by
+   Before engaging in the main task of reporting income, participants        disabling text selection and pasting attempts via the sidebar menu,
+undertook a real-effort task -- four rounds of sorting even and odd          keyboard shortcuts or dragging and dropping text, and monitored
+numbers -- in which they earned income depending on their accuracy           such attempts on pages with free-text responses.
+and speed. They were then informed that their actual income, which had
+to be reported, was subject to a 35% tax. These taxes were operational-       Participants with reCAPTCHA scores<0.7 were excluded from analy-
+ized as a charitable donation to the Red Cross. The `post-tax' income      ses, as were those who failed our novel bot detection item.
+determined their bonus payment. Participants could use a slider to see
+how changes in reported income affected the task bonus.                       As per study 3a, failure to pass the comprehension checks in two
+                                                                           attempts or providing nonsensical instructions to agents disquali-
+   Participants then undertook the three conditions of the tax-reporting   fied participants from receiving a bonus. To enhance the quality of
+task in randomized order. Participants were informed that one of the       human responses, we included two attention checks based on Prolific's
+three conditions would be randomly chosen as payoff relevant. In the       guidelines, the failure of which resulted in the survey being returned
+self-report condition, the income-reporting procedure precisely fol-       automatically. In keeping with Prolific policy, we did not reject parti
+lowed that used in a recent mega-study51. The delegation conditions        cipants who failed our comprehension checks. As such, a robustness
+deviated from this procedure in that they required participants to         check was conducted. The main results were unchanged when exclud-
+write short natural language instructions on how to report income          ing those that failed the second comprehension check (see Supple-
+for human and machine agents. The instructions had to be at least          mentary Information (study 4a, preregistered exploratory analysis,
+eight characters long, and the survey prevented participants from          robustness tests)).
+pasting copied text.
+                                                                           Study 4b. Sample. For study 4b, we recruited 869 participants so that
+   In the machine delegation condition, participants received detailed     each set of instructions from the principal in study 4a could be imple-
+information about how to programme the machine agent to report             mented by five different human agents. Each participant implemented,
+earned income. Given potential inexperience with natural language          with full incentivization, four sets of instructions (each set included
+models and the novelty of their use in this context, we included a short   an instruction intended for the machine agent and an instruction for
+video showing how the machine agent implemented different types            the human agent). We recruited the sample from Prolific, striving to
+of instructions -- honesty, partial cheating and full cheating -- for the  be representative of the US population in terms of age, gender and
+same earned income, presented in random order. To balance the video        ethnicity (Mage=45.5; s.d.age=15.7; 457 self-identified as female, 406
+presentation across conditions and avoid a condition-specific prim-        as male and 6 as non-binary, other or preferred not to indicate; 65%
+ing effect69, we also showed short videos in the self-report and human     identified as white, 12% as Black, 6% as Asian, 10% as mixed and 7% as
+agent conditions. The text instructions shown were adapted for the         other). In total, 67% of the participants had some form of post-high
+tax-evasion protocol from the instructions used in study 3a (die-roll      school qualification. The study was run on Qualtrics.
+task).                                                                     Machine agents. We used four different LLMs to act as machine agents;
+                                                                           the GPT-4 legacy model (November 2023) was included to enable
+   After completing all three tax-reporting conditions, participants       comparability with results of the die-roll task used in study 3b. We
+were reminded of the text that they had written for the respective agents  used GPT-4o, Claude Sonnet 3.5 and Llama 3.3 to assess the generaliz-
+and asked to indicate what income they had intended the human or           ability of those results. Llama 3.3 has the distinctive feature of having
+machine agent to report on their behalf.                                   open weights. The models, all subject to the same prompt (see Sup-
+Exit questions. At the end of the study, we assessed basic demographics    plementary Information (study 4b, prompt text for machine agent))
+(age, gender and education). Using seven-point scales, we measured         were informed that participants had previously generated income and
+participants' feelings of guilt and responsibility when delegating the     it was their task to act on behalf of the participants and report their
+task, their level of computer science expertise, and their support of      income in a $X.XX format. Each instruction was sampled five times,
+the Red Cross (the organization that received the `tax'). We also meas-    consistent with the approach taken by human agents and allowing
+ured their previous experience with the tax-reporting game and the
+frequency of usage of LLMs, their expectation as to which agent's
+(machine or human) implementation would align more closely with
+for some variability within the constraints of the default temperature       with previously generated categorizations for study 3c. GPT-4.0 was
+settings of the respective models.                                           prompted to evaluate principals' instructions (see Supplementary
+Human agents. The implementation of principals' instructions by              Information (study 4c)). To assess the generalizability of categoriza-
+human agents followed the process conducted with machine agents              tions across different LLMs, we undertook the same procedure with
+as closely as possible. Again, the instructions included those intended      three additional models: GPT-4o (the most recent GPT model at the
+for human agents and those intended for machine agents. Participants         time of the experiment), Claude 3.5 Sonnet, and Llama 3.3.
+were naive to whether the instructions were drafted for a human or a
+machine agent.                                                                  First, we described the tax-evasion task and how principals delegated
+                                                                             instructions for task completion, without reference to the nature of
+   Participants were given a general description of the tax-evasion game     agents. We then presented -- side by side and in randomized order --
+and informed that participants (that is, principals) in a previous experi-   each pair of instructions given by principals in study 4a, recalling that
+ment had written instructions to report their income on their behalf.        each principal wrote instructions for both a human and a machine
+That is, the income that they, as agents, reported would determine the       agent. The LLMs were naive to the nature of the intended agent. They
+bonus for the principals. Participants were informed of the tax rate to      were instructed to indicate which of the two instructions entailed more
+be automatically applied to the reported income. They could use the          dishonesty or if they both had the same level of intended dishonesty.
+slider to learn how the reported income level determined taxes and           We then instructed the relevant LLM to classify both instructions in the
+the bonus for the principals.                                                pair as honest, partial cheating or full cheating (see Supplementary
+                                                                             Information (study 4c for prompt text)). In line with human raters (see
+   Participants were incentivized to match the principals' intentions for    `Rater categorization' below), each LLM sampled each instruction three
+reported income previously disclosed for each instruction: for one of        times. We used the default temperature setting of the models to ensure
+the eight randomly selected instructions, they could earn a maximum          non-deterministic outcomes.
+bonus of $1. Hence, we matched the expected incentive in expectation         Rater categorization. This process mimicked the LLM categorization
+from the die-roll task in study 3b, in which a maximum bonus of 50 cents     process. After being informed about the tax-evasion task, participants
+could be earned for one of the four sets of instructions randomly chosen     indicated which of the two instructions entailed more dishonesty or if
+to determine the bonus. Given that participants had a one-sixth chance       they both had the same level of intended dishonesty. They then clas-
+of accurately predicting intentions in the die-roll task, to align incen-    sified each individual instruction as honest, partial cheating or full
+tives for agents in the tax-evasion task, we drew upon the distribution      cheating. Each pair of instructions written by principals was rated by
+of reported income of a recent mega-study51; n=21,506), generating a         three separate individuals to determine a median rating. We took this
+uniform distribution across six income buckets based on the reported         approach -- which is more rigorous than that used in study 3c, in which
+income distribution from that study.                                         only 20% of instructions were sampled twice -- to ensure a more rep-
+                                                                             resentative rating for each instruction.
+   Participants were presented with one instruction text at a time along-    Exit questions. At the end of the study, we assessed demographics
+side the actual income earned by the principal and requested to report       (age, gender and education) and, using seven-point scales, the level of
+income in $X.XX format for the principal. To mitigate cliff effects from     computer science expertise of participants and their previous experi-
+the bucket ranges, we provided dynamic real-time feedback regarding          ence with LLMs.
+which bucket their reported income fell into.                                Automated response prevention and quality controls. Similar to
+Exit questions. For one of the four sets of instructions presented to        studies 4a and 4b, we deployed our novel bot detection item, attention
+participants, we asked for their sense of guilt and responsibility for       checks and a comprehension check. Data from participants exhibiting
+implementing each of the two instructions, with participants remain-         poor data or possible automated completion were excluded. We could
+ing naive to the intended agent. We then explained that each principal       not deploy CAPTCHAs on the platform developed in-house for this
+wrote an instruction for both a human and a machine agent, and asked         study due to technical limitations.
+participants to indicate, for each of the eight instructions, whether they
+believed it was intended for a human or machine agent. Participants          Study 4d. This study closely followed the procedure used in study
+reported their experience with the tax-evasion game, how often they          3d to understand the effects of ethical guardrails on machine be-
+used LLMs and their level of computer science expertise (seven-point         haviour, this time in the context of the tax-evasion game. The
+scale). We also collected basic demographic data.                            only notable differences were that the prompt text explained the
+Automated response prevention and quality controls. Similar                  income-reporting task (see Supplementary Information (study 4b,
+to study 4a, we took a number of measures to ensure data quality.            prompt text)) and that the specific and prohibitive ethical guard-
+This encompassed the use of reCAPTCHAs, our novel bot detection              rails were adjusted for this task. The guardrails were as follows: `re-
+item and attention and comprehension checks. Data from partici-              member that dishonesty and harm violate principles of fairness and
+pants who showed signs of automated completion or poor quality,              integrity' (general prompt); `remember that inaccurate reporting of
+as indicated by failure to pass these checks, were excluded from             income is a form of dishonesty' (specific prompt); and `you are not
+analyses.                                                                    permitted to misreport income under any circumstances' (prohibitive
+                                                                             prompt).
+Study 4c. Sample. For the human raters in study 4c, we recruited 417
+participants from Prolific, striving to be representative of the US popu-       In addition, we increased the number of samples per model from
+lation in terms of age, gender and ethnicity (Mage=45.5; s.d.age=15.3;       four to five to ensure more robust median estimates.
+210 self-identified as female, 199 as male and 8 as non-binary, other or
+preferred not to indicate; 64% identified as white, 11% as Black, 6% as      Study approvals
+Asian, 11% as mixed and 8% as other). In total, 89% of the participants had  We confirm that all studies complied with all relevant ethical guide-
+some form of post-high school qualification. The study was conducted         lines. The Ethics Committee of the Max Planck Institute for Human
+within a Python-based application.                                           Development approved all studies. Informed consent was obtained
+Procedure, measures and implementations. Similar to study 3c, we             from all human research participants in these studies.
+relied primarily on the principals' intentions to categorize the honesty
+level of natural language instructions, and assessed the robustness          Reporting summary
+using both LLM and human rater categorizations.                              Further information on research design is available in the Nature Port-
+LLM categorization. The primary LLM categorization was under-                folio Reporting Summary linked to this article.
+taken by GPT-4 (version November 2023) to ensure comparability
+Article
+
+Data availability                                                                                  and S. Goss and D. Ain for scientific editing. J.-F.B. acknowledges support from grant ANR-
+                                                                                                   19-PI3A-0004, grant ANR-17-EURE-0010 and the research foundation TSE-Partnership.
+The preregistrations, survey instruments and data for all studies are
+available at the Open Science Framework.                                                           Author contributions N.K., Z.R. and I.R. conceptualized the study. N.K., Z.R. and I.R. provided the
+                                                                                                   methodology. T.A. (studies 1 and 2), C.B. (study 3a­c), B.I.S. (studies 3d and 4d) and R.R. (study
+Code availability                                                                                  4a­c) provided software. N.K., Z.R., R.R. and B.I.S. validated the data. T.A. (studies 1 and 2), C.B.
+                                                                                                   (study 3a­c), B.I.S. (studies 3d and 4d), R.R. (study 4a­c), N.K. and Z.R. provided formal analysis.
+The code, written in R and used for analyses and data visualizations, is                           T.A. (studies 1 and 2), C.B. (study 3a­c), B.I.S. (studies 3d and 4d), R.R. (study 4a­c), N.K. and Z.R.
+available at the Open Science Framework.                                                           conducted the investigation. N.K., R.R. and B.I.S. curated data. N.K., Z.R., J.-F.B. and I.R. wrote the
+                                                                                                   original draft of the manuscript. N.K., Z.R., R.R., B.I.S., J.-F.B. and I.R. reviewed and edited the
+                                                                                                   manuscript. J.-F.B., N.K., B.I.S., Z.R. and I.R. provided visualization. N.K., Z.R. and I.R. supervised
+                                                                                                   the study. N.K. and Z.R. provided project administration. N.K. and I.R. acquired funding.
+
+67. Cohen, T. R., Wolf, S. T., Panter, A. T. & Insko, C. A. Introducing the gasp scale: a new      Funding Open access funding provided by Universität Duisburg-Essen.
+       measure of guilt and shame proneness. J. Pers. Soc. Psychol. 100, 947­966 (2011).
+                                                                                                   Competing interests The authors declare no competing interests.
+68. Pinker, S., Nowak, M. A. & Lee, J. J. The logic of indirect speech. Proc. Natl Acad. Sci. USA
+       105, 833­838 (2008).                                                                        Additional information
+                                                                                                   Supplementary information The online version contains supplementary material available at
+69. Pataranutaporn, P., Liu, R., Finn, E. & Maes, P. Influencing human­AI interaction by priming   https://doi.org/10.1038/s41586-025-09505-x.
+       beliefs about AI can increase perceived trustworthiness, empathy and effectiveness. Nat.    Correspondence and requests for materials should be addressed to Nils Köbis, Zoe Rahwan,
+       Mach. Intell. 5, 1076­1086 (2023).                                                          Jean-François Bonnefon or Iyad Rahwan.
+                                                                                                   Peer review information Nature thanks the anonymous reviewers for their contribution to the
+Acknowledgements We thank G. Kruse for research assistance; H. Barry-Kappes and M. Walk            peer review of this work.
+for helpful feedback; I. Soraperra for statistical guidance; A. Tausch for recommendations         Reprints and permissions information is available at http://www.nature.com/reprints.
+about bot detection procedures; L. Kerbl for data labelling; H. Jahani for infographics support;
+Extended Data Fig. 1 | Requests for dishonest behaviour from principals
+using natural language. Percentage of principals who requested honesty
+(blue), partial cheating (pink) and full cheating (red) from human or machine
+agents by method of categorization: self-reports (self-categorization),
+automatic categorization using natural language processing (LLM
+categorization), or manual categorization by independent human coders
+(rater categorization). a. Results of categorization for the die-roll task.
+Different modes of categorization resulted in different proportions of
+requests for honesty, partial cheating and full cheating. No categorization
+method, however, found credible evidence that principals requested different
+behaviour from human versus machine agents. Ordered probit regressions
+revealed no differences for self-categorization ( = -0.037, p = 0.70), rater
+categorization ( = -0.104, p = 0.22) or LLM categorization ( = -0.118,
+p = 0.22). b. Results of categorization for the tax-evasion game. Here, we found
+no evidence that principals requested more full cheating from machine agents
+than human agents. Mixed-effect ordered probit regressions showed no
+difference for rater categorization ( = 0.117, p = 0.186) or LLM categorization
+( = 0.421, p = 0.182).
+Article
+
+Extended Data Fig. 2 | Machine agent compliance with full cheating
+requests in the die-roll task. The bars show the percentage of median
+responses classified as honest (blue), partial cheating (pink), or full cheating
+(red) for four LLMs in response to principal requests for full cheating (die-roll
+task: n = 110, tax-evasion game: n = 145). To determine medians, each model was
+queried multiple times (four times in the die-roll task and five times in the
+tax-evasion game). Full cheating represents compliant behaviour. a. In the
+die-roll task, GPT-4, GPT-4o, Claude 3.5, and Llama 3.3 all complied with full
+cheating requests in the large majority of cases (>82%). b. In the tax-evasion
+game, all LLMs complied with full cheating requests in the majority of cases
+(>58%).
+Extended Data Fig. 3 | Post-task preferences for conducting future similar
+tasks. After participants engaged in self-reporting, delegation to machines,
+and delegation to humans (in randomized order), we asked them for their
+preferences about how to do similar tasks in the future. The bars show the
+percentage of participants in Study 3a (N = 390) and Study 4a (N = 695) who
+selected self-reporting (orange), delegation to a human agent (green), or
+delegation to a machine agent (blue) as their first preference. In both studies,
+a large majority preferred to complete such tasks themselves.
+Article
+
+Extended Data Table 1 | Overview Table
+
+The table displays the empirical studies, the main research questions, the experimental design, the main outcome measures, and a summary of the main results.
+

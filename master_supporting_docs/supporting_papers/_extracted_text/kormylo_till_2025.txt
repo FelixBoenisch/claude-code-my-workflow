@@ -1,0 +1,1881 @@
+                                                                                Submitted to Management Science
+
+Till Tech Do Us Part: Betrayal Aversion and its Role in Algorithm Use
+
+    Cameron Kormylo        Idris Adjerid   Sheryl Ball  Can Dogan
+University of Notre Dame   Virginia Tech
+                          iadjerid@vt.edu  Virginia Tech Radford University
+    ckormylo@nd.edu
+                                           sball@vt.edu cdogan@radford.edu
+
+                                                           Abstract
+
+Failing to follow expert advice can have real and dangerous consequences. While any number of factors
+may lead a decision maker to refuse expert advice, the proliferation of algorithmic experts has further
+complexified the issue. One potential mechanism that restricts the acceptance of expert advice is betrayal
+aversion, or the strong dislike for the violation of trust norms. This study explores whether the introduction
+of expert algorithms in place of human experts can attenuate betrayal aversion and lead to higher overall
+rates of seeking expert advice. In other words, we ask: are decision makers averse to algorithmic betrayal?
+The answer to this question is uncertain ex ante. We answer this question through an experimental financial
+market where there is an identical risk of betrayal from either a human or algorithmic financial advisor. We
+find that the willingness to delegate to human experts is significantly reduced by betrayal aversion, while
+no betrayal aversion is exhibited towards algorithmic experts. The impact of betrayal aversion towards
+financial advisors is considerable: the resulting unwillingness to take the advice of the human expert leads
+to a 20% decrease in subsequent earnings, while no loss in earnings is observed in the algorithmic expert
+condition. This study has significant implications for firms, policymakers, and consumers, specifically in
+the financial services industry.
+
+Key words: Algorithm Adoption, Artificial Intelligence, Behavioral Decision Making, Betrayal
+Aversions, Experimental Economics
+
+JEL Codes: D91, G41, G51, C91
+1. Introduction
+
+         People often seek expert advice on investing for retirement, choosing a healthcare plan, and
+treating illness. However, individual uptake of expert advice has consistently been found to be sub-
+optimal (Woodhouse and Nieusma 1997). In a number of contexts, including healthcare and financial
+planning, failing to adhere to expert advice can result in significant negative consequences (Seiders et al.
+2015). Further increasing complexity, expert advice is rapidly being augmented by algorithms.
+Consumers are faced with the decision of whether to let an algorithm manage their pension investments
+(Lourenço et al. 2020), suggest potential dating partners (Prahl and Van Swol 2017), or control what
+digital content they read and watch (Prahl and Van Swol 2017; Van Swol 2011). This trend of algorithmic
+advice continues to increase, and likely will for years to come (Tetlock and Gardner 2016). Importantly,
+in many of these instances, evidence-based forecasts made by algorithms outperform those made by their
+human counterparts, making this new form of expert advice even more valuable (Beck et al. 2011; Dawes
+1979; Highhouse 2008).
+
+         One potential mechanism that restricts the acceptance of expert advice is what the economics
+literature has termed betrayal aversion. Betrayal aversion is defined as the strong dislike for violations of
+trust norms implicit in a relationship between two parties (Aimone et al. 2015). The extent of an
+individual's betrayal aversion mirrors the intensity of the emotional discomfort they experience in
+response to a betrayal, or an act of self-interested, non-reciprocated trust. While individuals may discount
+expert advice due to perceived flaws in the advice itself or doubts surrounding the expert's contextual
+understanding, these are practical concerns. Conversely, betrayal aversion operates independently of
+one's judgement of the advice quality or the advisor's expertise and is instead related to one's belief that
+the advisor will abide by the trust norms in place and relay that advice unadulterated to the individual.
+
+         Prior work has shown considerable evidence of betrayal aversion among decision-makers, even
+when controlling for monetary risk (Aimone et al. 2015; Aimone and Houser 2012; Aimone et al. 2014;
+Bohnet et al. 2008; Bohnet and Zeckhauser 2004). One context in which betrayal aversion is often elicited
+is the presence of an incentive misalignment between two parties. Take, for example, an expert financial
+advisor whose incentive structure may encourage them to occasionally make a self-interested financial
+decision: by our definition, a betrayal. Upon being made aware of this incentive structure, an investor
+may choose to not utilize the advisor's suggested investments for a number of reasons. First, the incentive
+misalignment may result in lower advice quality leading to decreased financial returns or increased risk
+and thereby decreasing the investors total utility. In addition to those practical concerns, the investor may
+anticipate the emotional discomfort that they would experience knowing that upon taking the advice, the
+advisor may violate a trust norm implicit between them (e.g., prioritizing the investor's interests over the
+advisor's). This emotional discomfort, while non-monetary, also decreases the total utility realized by the
+investor and may lead to diminished advice adherence or an avoidance of soliciting advice at all.
+
+         Our work aims to address what changes, if any, occur to levels of exhibited betrayal aversion
+when an expert is replaced by an algorithm. Recent work has highlighted the practical consequences of
+incentive misalignments in algorithms (Lee and Hosanagar 2019; Levy 2021; Liu et al. 2023). However,
+to our knowledge, no work has examined the emotional discomfort elicited in conjunction. While
+intuition may imply that an algorithm's lack of agency and intentionality diminishes its ability to truly
+betray, many accounts of betrayal aversion bypass the need for human intentions completely and
+introduce a significant potential for betrayal aversion to persist for non-human advisors. For example,
+Koehler and Gershoff (2003) show that safety products such as airbags or vaccines can elicit feelings of
+betrayal in their users. Other work shows that humans mindlessly attribute social rules and expectations to
+computers, even when they know the computers lack intentionality (Nass and Moon 2000; Nass et al.
+1994). However, no work has examined if betrayal aversion persists when a human expert is augmented
+or replaced by an algorithm. This disconnect is essential to understanding the role of algorithms in
+motivating the acceptance of expert advice. Therefore, we ask: are humans averse to algorithmic
+betrayal?
+         Given the rapid growth of algorithm use in financial market trading1 and its potential to increase
+efficiency, transparency, and capacity in the trading process (Bell and Gana 2012) , we contextualize our
+work within the financial services industry specifically. To answer our central research question, we
+conduct an economic lab experiment in which participants play a 40-round financial trading game using a
+simulated market structure and a real financial trading algorithm designed to give advice that would be
+comparable to what consumers would receive from both human and algorithmic experts in a real-life
+setting. Participants are given the choice in each round to either make their own decision on how much of
+their endowment to use to purchase a risky asset or use the advice of an expert. No deception was used in
+our experiment and all participants were compensated based on their actual investment decisions.
+
+         The experiment employs a two factor (2x3) between-subjects design. The first manipulated factor
+is the presentation of the expert as either human or algorithm; importantly, the underlying algorithm that
+generates the advice is identical for both the human and the algorithm expert. The second manipulated
+factor is the presence of a salient betrayal risk where treated participants are informed that there is a slight
+chance that the human or algorithmic expert may make a self-interested decision on their behalf. To
+isolate the emotional response to the betrayal (betrayal aversion), we include an error condition where
+participants learn that there is a slight chance of an accidental error occurring. Ex ante, one would expect
+the error condition to elicit similar impacts on the perception of the monetary performance of the expert,
+while the lack of intentionality would limit the presence of betrayal aversion. We recruited 275
+participants from Amazon Mechanical Turk (mTurk) to take part in the experiment over a video sharing
+platform in, what we believe to be, one of the first digitally-face-to-face economic experiments conducted
+on mTurk.
+
+         Our analysis captures changes in advisor usage trends in the betrayal risk (both human and
+algorithm), error risk, and no disclaimer (control) groups. When in a human advisor condition, we find a
+
+1 https://therobusttrader.com/what-percentage-of-trading-is-algorithmic/
+roughly 16% decrease (=-0.159, p=0.024) in advisor usage when informed of a betrayal risk but no
+decrease when only informed of a risk of accidental error (=0.007, p=0.924). This result implies that the
+effect we measure is due to betrayal aversion and not a perceived decrease in expected monetary return.
+Interestingly, we do not find this effect in the algorithm conditions (=0.055, p=0.431). These findings
+imply that substituting an algorithmic advisor for a human advisor can significantly attenuate betrayal
+aversion. We also observe that betrayal aversion results in a significant economic loss, resulting in a loss
+of $2.15 (p=0.072), an almost 20% decrease in overall returns for affected participants. Analysis of exit
+questions substantiates that betrayal aversion may be a key aspect of this difference: participants in the
+betrayal condition with a human advisor reported feeling more concerned about being misled (p = 0.006),
+having their trust violated (p = 0.010), and most importantly, feeling betrayed (p = 0.001). We do not find
+these effects when the advisor was an algorithm, nor in the error-risk condition.
+
+         We find similar effects in a second experiment that utilizes the same experimental design while 1)
+drawing from a different population, undergraduate students recruited from an undergraduate economics
+lab and 2) utilizing a different human advisor. We find that risk of betrayal decreased uptake of the
+human advisor by 12% (p = 0.0901) and earnings by $2.13 (p = 0.003). The effects were again attenuated
+when assigned to an algorithm advisor (p = 0.026). Although the smaller sample size resulted in the
+effect of human betrayal aversion on advisor utilization to be significant only at the 10% level, these
+results generally confirm the findings from the main experiment while varying the research platform,
+participant sample, and advisor selection. Note that the lab utilized for this study explicitly prohibits any
+form of deception in experimental procedures, so this experiment reduces concerns about the credibility
+of the information provided to participants when compared to the mTurk sample.
+
+         Our work contributes to the nascent literature exploring the acceptance, or lack thereof, of expert
+algorithms. The majority of the literature (see Logg et al. (2019)) for a notable exception) highlights
+decision-maker's preference towards human experts (Dietvorst et al. 2015; Longoni et al. 2019) and
+identifies traits that algorithms lack that may lead an individual to exhibit "algorithm aversion" (Castelo
+et al. 2019). Proposed solutions to the nonacceptance of algorithmic experts have focused on either
+enhancing the human involvement in the algorithmic decision making by allowing users to add feedback
+(Dietvorst et al. 2018), making an algorithm more human-like by highlighting the affective abilities of the
+tool (Castelo et al. 2019) or anthropomorphizing the algorithms (Schanke et al. 2021). Our results
+highlight an important nuance to the conclusions of prior work: reducing the human element associated
+with algorithmic experts can remove some of the traditional barriers to the acceptance of expert advice.
+
+         We also contribute to this literature by identifying a potential strength of algorithmic experts and
+introducing a novel phenomenon to the algorithmic adoption literature ­ betrayal aversion. This
+phenomenon, largely unstudied by the information systems discipline, has been shown by behavioral and
+experimental economists to significantly influence an individual's decision-making. Given that the
+economics literature has shown the phenomenon to exist even when the betrayal comes from inanimate
+products or objects, its role in the human-algorithm relationship is essential to explore. However, no
+work, in economics or information systems, has explored the extent to which betrayal aversion may
+persist (or not) when a human is replaced by an algorithm. By bridging these two literatures, we show that
+despite prior evidence showing the potential of inanimate objects to elicit betrayal aversion, algorithms
+may attenuate the phenomenon instead.
+
+         We also provide valuable insights to the Financial Technology (FinTech) literature. Algorithmic
+trading services have grown substantially and trading services augmented by artificial intelligence are
+likely in the near future (Gomber et al. 2018). Recent estimates show that between 60 and 75% of the
+total trading volume in the U.S. involves some form of algorithmic trading, but more research is needed to
+understand the implications of this trend (Alt et al. 2018; Cao et al. 2020; Gomber et al. 2018;
+Hendershott et al. 2021; Kou 2019). We specifically respond to Hendershott et al. (2021)) by examining
+the role of algorithmic financial advice and providing a potential solution to a significant barrier to the
+acceptance of expert advice within financial services.
+2. Conceptual Background: Algorithms and Betrayal
+
+         Our work examines two primary areas of the literature. First, we look to previous work on
+algorithm adoption and aversion that focuses on specific drivers of use and disuse to better understand
+predictors of algorithmic acceptance. Then, we explore the betrayal aversion literature in economics and
+introduce it as a previously unexamined factor in algorithm uptake. In the section that follows, we
+contextualize our work to financial technology and examine the theoretical expectations of the effect of
+betrayal aversion on the use of trading algorithms.
+
+2.1 Algorithm Adoption and Aversion
+
+         Prior work considering the use and adoption of information technology has strived to consider
+user's social and emotional beliefs (Benbasat and Wang 2005; Qiu and Benbasat 2005; Venkatesh and
+Davis 2000). This has led to the perception of IT artifacts as "social actors" (Al-Natour and Benbasat 2009;
+Reeves and Nass 1996). In the Computers are Social Actors (CASA) paradigm, humans have the same
+social rules and expectations of technology that they have of other humans (Nass et al. 1994). This paradigm
+now has renewed importance as digital ecosystems built on powerful algorithms are influencing the daily
+lives of their users (Parker et al. 2017). Artificial intelligence and algorithmic decision makers are
+augmenting or replacing their human counterparts, even in domains like medicine (Jussupow et al. 2021),
+and online services are increasingly using algorithms to determine the content users see (Orlikowski and
+Scott 2015). Given the increased prevalence of algorithm-run services and platforms (Ransbotham et al.
+2018), research that considers the complexities of algorithmic use and adoption is of growing importance.
+
+         While algorithm adoption has grown, some research has shown that overall, people still prefer
+human decision makers over algorithmic decision makers (Diab et al. 2011; Eastwood et al. 2012).
+Dietvorst et al. (2015)) terms this algorithm aversion, when individuals avoid using algorithms, after they
+see them make an error (See Burton et al. (2020)) for a review).
+         A number of potential drivers to this phenomenon have been introduced. First, false expectations
+lead to an individual's unwillingness to use and accept an algorithm. This may occur because individuals
+believe that human error is random whereas algorithmic error demonstrates that the entire system is
+flawed instead of a one-time error (Dietvorst et al. 2015; Dietvorst et al. 2018; Highhouse 2008).
+Alternatively, individuals may value forming a professional relationship with those from whom they seek
+advice (Alexander et al. 2018; Önkal et al. 2009; Prahl and Van Swol 2017). Further, Castelo et al.
+(2019)) finds that algorithm aversion is dependent on task type, for example, when a task is perceived as
+subjective, individuals are less inclined to trust an algorithm. More recently, work has highlighted the role
+of incentive misalignment in driving a lack of algorithmic adoption (Lee and Hosanagar 2019; Levy
+2021; Liu et al. 2023), focusing on more practical considerations while leaving the emotional response
+relatively unexplored.
+
+         However, when individuals perceive that an algorithm is able to learn from experience, the effect
+of algorithm aversion is lessened (Berger et al. 2021). Additionally, when an individual gains experience
+with an algorithm, and receives feedback outlining the superior performance of the algorithm, aversion
+decreases over time (Filiz et al. 2021). Research also shows that human decision makers fear
+relinquishing control, thus preferring a certain level of power over an algorithm's advice (Colarelli and
+Thompson 2008; Scherer et al. 2015). Dietvorst et al. (2018)) further explores the integration of human-
+in-the-loop decision making where the human decision maker oversees the algorithm's processes,
+creating a perception of control.
+
+         There is also a small but growing literature considering the opposite effect: that people prefer
+algorithms to humans. Some work has shown that when individuals are asked to remember important
+information, they opt to outsource the task to algorithms, showing a preference towards algorithms over
+their own abilities (Sparrow et al. 2011). Further, Logg et al. (2019)) shows that individuals rely more
+heavily on algorithmic advice than advice from others or their own judgement, a phenomenon they term
+"algorithm appreciation." While most of the past work has proposed solutions to this debate by focusing
+on making algorithms more human (Schanke et al. 2021; Wilson et al. 2017), no work, to our knowledge,
+has considered the potential for algorithms to bypass traditional barriers to the willingness to seek advice
+often faced by human experts. We contribute to this literature by using insights from behavioral
+economics to explore the role of betrayal aversion in algorithm adoption.
+
+2.2 Betrayal Aversion
+
+         Betrayal aversion is defined as the strong dislike for violations of trust norms implicit in a
+relationship between two parties (Aimone et al. 2015). Early explorations of betrayal aversion focused on
+the relationship between a perceived "duty to protect" and the extent of betrayal aversion. For example,
+Koehler and Gershoff (2003) show that participants view a betrayal as more severe when a member of the
+military commits treason than when its committed by an individual in an unrelated career. The same
+phenomenon was shown in criminal punishment where, for example, people believe that day care workers
+who abuse a child should be punished more harshly than a janitor who abuses a child in the same way. This
+has led to demands to revise sentencing guidelines to make them sensitive to the extent to which the
+defendant's role included ensuring an individual's wellbeing (Shnoor 2009).
+
+         Later work expanded on these ideas, focusing on removing elements of risk and trust to isolate
+betrayal aversion in traditional economic trust games. The general method of studying betrayal aversion
+through this lens involves having one group of participants play a trust game with random chance
+determining the player's financial return, instead of another human player. This work shows that
+participants require a higher minimum acceptable probability (MAP) of earning a return in a trust game
+played with a human compared to a similar game involving random chance, providing evidence of non-
+monetary betrayal aversion (Bohnet et al. 2008; Bohnet et al. 2010; Bohnet and Zeckhauser 2004; Hong
+and Bohnet 2007). This phenomenon has expanded beyond economic decision making to other fields as
+well. Some work has shown that managers of are influenced by betrayal aversion when developing
+relationships with their employees (Birnberg and Zhang 2010). The results showed that some managers
+spend more money to prevent betrayal than they could have conceivably lost from the betrayal itself,
+implying that betrayal aversion, not just the betrayal, may lead to a decrease in expected monetary return.
+
+         While the majority of the literature has focused on human-to-human interactions, some work has
+explored the potential for non-human agents to elicit fears of betrayal. Koehler and Gershoff (2003) show
+this phenomenon through the elicitation of opinions on different consumer products. They find that
+individuals often prefer less effective products to products that have a small chance of causing the harm
+they were designed to protect against. For example, when given the option between an airbag with a 2%
+chance of driver death in a serious accident or one with a 1% chance of death plus a 0.01% chance of the
+airbag causing the death when the driver would have otherwise survived, participants strongly prefer the
+former. Other work has shown that consumers who feel betrayed by products punish the firm by way of
+complaints or negative reviews (Grégoire and Fisher 2008).
+
+         Firms are increasingly faced with the choice to adopt algorithmic tools and services into their
+underlying business models and individuals are subsequently tasked with evaluating and deciding to use
+those tools. Given this trend, the presence of betrayal aversion in both consumers and employees has the
+potential to influence levels of algorithmic adoption and use.
+
+3. Theoretical Development
+
+         Betrayal aversion with respect to algorithms has not yet been explored. To lend concreteness to
+our theoretical expectations, we focus on algorithm aversion in the financial services context. As
+mentioned previously, algorithmic trading (AT) has grown substantially in financial markets around the
+world. The use of AT has the ability to increase efficiency, transparency, and capacity in the trading
+process (Bell and Gana 2012). These increases are realized through the rapid collection of public
+information (Chakrabarty et al. 2015) and the ease in converting that information into prices (Brogaard et
+al. 2014). Additionally, AT can enhance liquidity and increase the informativeness of price quotes
+(Hendershott et al. 2011).
+          Although investors and traders have increasingly developed trading algorithms designed to
+mimic the trends and actions of human traders (Hendershott et al. 2021), consumer unwillingness to adopt
+often superior algorithms can result in lower returns (Ge et al. 2021). In addition, if betrayal aversion
+persists in this context, the phenomenon should be considered in the design and marketing of algorithmic
+tools. While we defer to future work for specific design recommendations, we highlight for the first time
+the potential of algorithmic betrayal aversion and open the door for further explorations. In the rest of
+this section, we use the context of trading algorithms to explore the role of betrayal aversion in
+algorithmic use and leverage common assumptions of utility maximizing agents (e.g. Bernard et al.
+(2015))). What follows is not a formal analytical model but rather a conceptual exercise to help organize
+competing dynamics and articulate ex ante expectations around algorithmic betrayal aversion.
+
+Assume that a decision maker has a basic utility function such that:
+
+                                    (, ) =  - 1 !                                         (1)
+
+                                                     2
+
+where E is the expected return or mean outcome of a financial market trade that follows a well-
+
+defined probability distribution function with a variance of !. R is a constant risk aversion parameter
+
+that reflects the decision maker's risk preference (reflective of the Arrow-Pratt risk aversion measure first
+
+introduced by Pratt (1964)) and Arrow (1971))). Assume that the decision maker has a choice between
+
+two financial strategies for the trading decision. They can choose to make their own decision (S), or they
+
+can choose to use the recommendation of a financial advisor (A) such that:
+
+(" ,                           " )  =  "  -  #  "!,  where     [, ]                       (2)
+                                             !
+
+Before making the choice, they are told the following:
+
+                                                $ > %                                     (3)
+
+Therefore, an individual would choose to use the advisor's recommendation over their own
+
+decision if the increase in expected return is higher than the difference in the variance scaled by the risk
+
+aversion parameter such that:
+                                    $  -  %  >  1  ($!  -  %!)                                              (4)
+                                                2
+
+However, they are also told that if A is chosen, there is a small probability of event B, or a
+
+betrayal, also occurring. This probability can be expressed as & (the mean probability of a betrayal
+
+occurring). The betrayal occurs when the advisor makes a self-interested choice that may or may not align
+
+with the ideal trading strategy of the decision maker, with equal probability. In other words, the betrayal
+
+may increase or decrease the investor's return. However, it is classified as a betrayal because the advisor
+
+makes the choice that best suits their own interests with no regards for the investor. If the goals of the
+
+advisor and the investor happen to align when a betrayal occurs, the investor may still financially benefit2.
+
+         While the chance of a betrayal does not decrease the expected monetary return such that
+$|&(# = $|&(), it would necessarily increase the variance. Let us denote $!* = ($!|& > 0) and
+assume that $!* > $!. Given the extensive empirical findings described in the previous section, we also
+posit that the utility function also includes a non-monetary element , or betrayal aversion, in which an
+individual exhibits an emotional cost from a betrayal that is distinct from any consideration of expected
+monetary returns. The difference in utility of choosing A over S would then be:
+
+ =                              8$  -  1  $!*  -  &|$9  -  8%   -  1  %!  -  &|% 9                          (5)
+                                       2                           2
+
+where  represents the level of betrayal aversion the individual exhibits and & is the expected betrayal
+
+outcome [0,1] as described above. We assume that &|% = 0 implying that a betrayal could not occur when
+
+choosing to invest themselves.
+
+         Let us assume that there is an individual with a unique risk aversion parameter, , who, absent
+any risk of betrayal, is indifferent between the two trading strategies assuming $ > % and $! > %!:
+
+2 While a real-world betrayal may come with financial consequences, for the sake of simplicity, we assume here that
+the expected return is constant. This allows us to isolate the betrayal aversion parameter more easily, increasing the
+clarity of our expectations.
+                          $            -  1  $!     =  %  -  1  %!                                 (6)
+                                          2                  2
+
+                                           =     2[$ - %]                                          (7)
+                                                  $! - %!
+
+If this individual also exhibits some level of betrayal aversion and the probability of a betrayal is
+
+non-zero, such that  > 0; &|$ > 0; $!* > $!, they will choose to make their own trading decision over
+
+taking the advisor's, as shown below:
+
+              $  -  1  $!*             -  &|$    <  %  -  1  %!   -     &|%                        (8)
+                    2                                     2
+
+              -&|$     <  (%  -           $)  +  1  2[$   -  %]   ($!*  -  %!)                     (9)
+                                                 2  ($!*  -  %!)
+
+                                             &|$ > 0                                               (10)
+
+Several prior papers that attempt to isolate betrayal aversion in this way (see Section 2.2), found
+
+that participants engaging in games in which their payoff was determined by a human required a higher
+
+minimum acceptable probability of earning a positive return than participants whose payoff was
+
+determined by random chance (Bohnet et al. 2008; Bohnet et al. 2010; Bohnet and Zeckhauser 2004;
+
+Hong and Bohnet 2007). This work provided evidence for the existence of a non-monetary, emotional
+
+disutility that arose from the risk of being betrayed. Therefore, in line with these findings, we
+
+hypothesize:
+
+H1: Holding the objective monetary return constant, the existence of betrayal aversion will decrease the
+willingness to outsource a decision to a human expert when there is a chance of betrayal.
+
+         This hypothesis is consistent with previous research on betrayal aversion towards a human
+counterpart. Since previous work has not examined betrayal aversion within financial investing, we first
+aim to explore whether betrayal aversion exists in this context. We then examine whether levels of
+betrayal aversion differ when a human advisor is replaced with an algorithmic advisor. As stated in
+earlier sections, our formulation of betrayal aversion is "a strong dislike for the violation of trust norms
+implicit in a relationship between two parties." To establish ex ante expectations for the strength of
+betrayal aversion for algorithms compared to humans, we can examine the hypothetical strength of trust
+norms implicit between an individual and an algorithm. Prior work has examined individual's
+expectations of algorithms or non-human agents and have found that assessments of fairness are likely to
+differ between algorithms and humans. For example, Helberger et al. (2020) find that when individuals
+determine if a decision maker is "fair" they utilize a more procedural definition of fairness when the
+decision maker is an algorithm instead of a human.
+
+         Work that examines individual's "mind perception", or the ability to ascribe mental capacities to
+other entities (Gray et al. 2012), find that social robots are viewed as having limited moral agency and
+responsibility compared to human actors. Interestingly, despite ranking very low on experience, the
+capacity to feel and sense, individuals viewed the robot as having slightly more agency than a chimpanzee
+and only slightly less agency than a child. Agency attributions were also highly correlated to deserving
+punishment for wrongdoing. Given the inherent link between agency, moral judgement, and
+responsibility, this leaves open the possibility that algorithms may still elicit some level of betrayal
+aversion from those it interacts it. This aligns with prior work that has shown that, in some instances,
+humans mindlessly apply social rules and expectations to computers, even when they know that the
+computers lack feelings and intentionality (Nass and Moon 2000; Nass et al. 1994).
+
+         Therefore, we anticipate betrayal aversion persisting for algorithmic experts. In other words, our
+expectations imply that:
+
+                            $,-./"012 > 0                                                          (11)
+
+leading us to hypothesize:
+
+H2: Holding the objective monetary return constant, the willingness to outsource a decision to an
+algorithmic expert will decrease when there is a chance of betrayal.
+         However, the work described above, while highlighting that some agency was attributed to
+robots, showed far lower agency attributions towards the robot than towards human adults. Further, Gray
+and Wegner (2012) find that humans have a deep-seated expectation that technological actors (e.g.,
+robots, chatbots) lack in experience, the capacity to feel and sense, and agency. Gray et al. (2012) expand
+on these findings and highlight that the application of moral judgment (labeling actors as good or bad) is
+fundamentally intertwined with dimensions of mind perception, which algorithms inherently lack.
+Relatedly, individuals cast less moral judgement on a drug company that increased the price of an
+essential medication through an intermediate company than when taking the same action directly (Paharia
+et al. 2009). In other words, humans view moral violations less severely when the harm is carried out
+indirectly (Greene and Sinnott-Armstrong 2007; Hauser 2006). This leaves open the possibility that
+organizations that utilize algorithms over human actors may be held less accountable for potential harm
+caused by them.
+
+         The presence of betrayal aversion is fundamentally tied to this same perception of moral
+judgement. This is best highlighted by work in neuroscience showing that the same area of the brain
+(anterior insula) is activated both when individuals are exhibiting betrayal aversion (Aimone et al. 2014)
+and when assigning moral judgement (Moll et al. 2005; Ying et al. 2018) and identifying social norm
+violations (Cheng et al. 2017; Xiang et al. 2013).
+
+         Overall, extensive work shows that humans perceive algorithms to lack in the primary dimensions
+of mind perception. These dimensions serve as the "essence" of moral judgement (Gray et al. 2012) and
+the identification of social norm violations. Betrayal aversion, defined through this same norm violation
+lens, is therefore likely to differ as the ability to assign agency and experience decrease. In other words,
+we expect that levels of betrayal aversion will decrease when human actors are replaced by algorithms
+implying that:
+
+                            34256 > $,-./"012  (12)
+
+Therefore, we hypothesize:
+H3: Holding the objective monetary return constant, there will be a smaller decrease in the willingness to
+outsource a decision to an algorithm compared to a human when there is a chance of betrayal.
+
+4. Financial Investment Game
+
+4.1 Experimental Design
+
+         Our experiment utilized an online financial investment game developed through oTree
+Version 5.9 (Chen et al. 2016), a Python framework commonly used in experimental economics,
+and hosted on a Heroku web server to allow for remote browser-based access to the game. The
+player's performance in the game determined their true financial payout after the game was
+completed.
+
+         Game Design: The game consisted of 40 rounds of investing in a simulated financial
+market that had a single risky asset and two market states: good or bad. The choice was made to
+utilize a high number of rounds in the game in order to increase the likelihood that participants
+would experience various fluctuations in the state of the market. At the beginning of the game,
+the player was given a set endowment of research points. In each round, the player decided how
+many of those points they would invest in the asset. The decision process was intended to
+replicate a simple market transaction in which they decided what proportion of their endowment
+would be invested in the asset, the price of the asset moved, and following the price movement,
+their stake in the asset was sold and their earnings or losses were added back to their endowment.
+
+         The state of the market varied across rounds. In a good market state, the risky asset had a
+higher probability of increasing in price and vice versa for a bad market state. The market state
+was partially dependent on the state of the market in the prior round with a state-switch rate of
+35%. For example, if the immediately preceding round's market was in a bad state, the current
+round's market had a 65% of also being in a bad state. In every round, the game's backend
+tracked the changes in the asset price and used Bayesian probability rules to predict the state of
+the market and derive a recommended investment for the present round. We pilot tested the
+game's recommendation system and found that, on average, it increased participant returns by
+over 60%, making it an effective tool for investing in our simulated market. For a detailed
+mathematical explanation of how the market and the recommendation system operated, see
+Appendix A.
+
+         In every round, the player first made the choice to use the game's recommended
+investment or to make a decision entirely on their own. The recommended investment was not
+shown prior to the decision being made and the player only learned the investment amount after
+the individual round was completed and the returns were distributed back to the player. If a
+player had chosen to invest on their own, they were directed to the investment page (see Figure
+1) where they were shown their current endowment and asked to decide how much of that
+endowment they would invest in the asset. Otherwise, if the player had chosen to use the
+recommended investment, the investment page was bypassed and they were immediately shown
+the results of that round's investment. The results page (see Figure 2) displayed how much they
+had invested, the percentage change that the asset's price had moved, the current round's return
+and cumulative returns across all prior rounds, and two graphs: one that tracked the price
+movement of the asset and one that tracked their total endowment. These graphs were intended
+to increase the realism of the game and allowed participants to compare their own performance
+to the overall price movement of the asset.
+                                            Figure 1: Investment Page
+
+                                              Figure 2: Results Page
+         After completing all 40 rounds, the total research points (both the initial given
+endowment and the earned gains or losses) were converted into real dollars and the player was
+informed of how much they had earned. The experiment is incentivized so that the cumulative
+return from 10 baseline rounds and 30 principal rounds determine a participant's earnings. We
+utilize accumulated payoffs rather than allowing each round's return to be independent in order
+to best mimic a real-world investment context in which a continuous assessment of cumulative
+gains and losses is standard.
+         Treatment ­ Advisor Presentation: The game, as described above, was experimentally
+manipulated in two ways. The first factor differed the way in which the game's recommendation
+system was presented to the player. There were two possible presentations for the system: an
+algorithmic financial advisor or a human financial advisor. In the algorithm condition, after
+playing ten practice rounds to learn how the game worked, the player was told:
+
+         "These rounds will take the same form as the practice rounds with one exception.
+         Instead of only being able to invest yourself, you can now choose to use the
+         recommendation of a financial investment algorithm."
+
+Then, on the following page, they are told:
+
+         "You will be provided with recommendations, generated by the algorithm, based
+         on the market conditions you are presented with in each round. When the
+         algorithm generates recommendations, it does not know with certainty whether
+         the market is good or bad but invests more when it has high confidence that the
+         market is good and invests less when it has high confidence that the market is
+         bad. Historically, participants who followed its recommendations outperformed
+         those who chose to invest themselves."
+
+         Alternatively, the player was told that a human financial advisor, would be generating
+recommendations in each round. To control for the quality of the recommendations, the human
+financial advisor utilized the same backend game system that generated the algorithm's
+recommendations and then submitted the given recommendation to the player. This partially
+mirrors much of the work done by real-life financial advisors in which they utilize a variety of
+statistical tools and algorithms to make recommendations to their clients. The player was not told
+that the human advisor would be using an algorithm to derive their recommendations but the
+presentation of the advisor was left purposefully vague in order to avoid deceiving the player in
+any way. The instructions given to the player were identical to those described in the algorithm
+condition, only changing references of the algorithm to references of the human.
+
+         In either condition, at the beginning of each round, players were directed to a waiting
+page where a short animation of either the human or an algorithm was shown and the player was
+told that their recommendation was currently being generated (see Figure 3). The inclusion of the
+waiting page was intended to ensure that timing between rounds remained consistent and player
+behavior was not impacted by perceptions of the length of time required to make one's own
+decision relative to using the recommended investment (e.g., players choosing to invest
+themselves because they wanted to avoid waiting on the advisor). It also improved the realism of
+the task as the recommendation appeared to take a non-trivial amount of time to be generated.
+
+          Figure 3: Waiting Page (Left ­ Algorithm Condition; Right ­ Human Condition)
+         Treatment ­ Disclaimer: The second experimental factor varied across conditions was the
+inclusion of a disclaimer that came ten rounds after the advisor was introduced. Players were
+either shown no additional disclaimer, a disclaimer that stated that the advisor's
+recommendations were occasionally inflated due to an incentive misalignment that encouraged
+the advisor to overinvest (betrayal risk), or a disclaimer that again stated that the
+recommendations were occasionally inflated but instead due to the advisor accidentally
+overinvesting (error risk).
+
+         The intention of the betrayal risk disclaimer was to increase the likelihood that the
+advisor would violate the trust norms implicit between them and the player. This was meant to
+elicit betrayal aversion from the player. The player's desire to avoid the emotional cost of being
+betrayed would then potentially serve as a barrier to advice. However, betrayal aversion is not
+the sole reason why an individual may not want to take advice in light of an incentive
+misalignment. If the incentive misalignment artificially inflates investment amounts, the quality
+of the advice is lowered and players should similarly perceive a decrease in expected return or an
+increase in their financial risk. In order to isolate only the emotional cost of being betrayed, our
+error risk disclaimer serves as a pseudo-control in which players should perceive a similar
+decrease in the quality of the advice without the emotional toll of being betrayed.
+
+         Additionally, to further isolate the effects of emotional, non-monetary disutility, both
+disclaimers again highlighted to the players that historically, the advisor had outperformed
+participants' own investment decisions, thus ensuring the expected return for the advisor would
+be higher than the expected return of investing themselves, even in light of the increased risk. A
+shortened version of the disclaimer was included on the decision page of each round to ensure
+the saliency of the treatment. The full disclaimers are found in Appendix B. In total, there were
+six potential variations of the investment game: a human advisor with either no disclaimer
+(control), a betrayal disclaimer, or an error disclaimer or an algorithmic advisor with the same
+three disclaimer options.
+         Finally, to avoid deception, we include logic in the game's recommendation system so
+that there truly is a small chance of it overinvesting if the player is in one of the two disclaimer
+conditions. However, in order to control for expected return between conditions, our logic
+ensures that any overinvesting has an equal likelihood of happening in either a good or bad
+market state. If it occurs in a good market state, the overinvestment would earn additional
+revenue for the player. This ensures that the expected return does not change in light of this risk.
+The same underlying mechanism exists for the error disclaimer condition ensuring the expected
+return is consistent for every participant.
+
+4.2 Participants & Procedure
+
+         Our procedure was intended to mimic the standard procedure one might use in an in-
+person economics lab adapted to a remote video conferencing platform (e.g., Zoom). The
+recruitment materials informed potential participants that they would be required to participate in
+the study through Zoom. Utilizing Zoom to execute the experiment served multiple purposes.
+First, to avoid using deception in our experiment, we had a real human take part in the game in
+real-time. Setting up designated time slots with a limited number of participants in each slot
+allowed us to accomplish this. Second, while mTurk is a valuable platform that allows for a rapid
+recruitment of diverse participants unmatched by in-person economics labs, issues of data quality
+and bot accounts limits its value as a research tool. Requiring participants to join via Zoom was a
+safeguard against bot accounts that gave us higher confidence in the quality of our data.
+
+         In total, 460 participants were recruited through Amazon Mechanical Turk (mTurk) to
+take part in a financial investment game. We anticipated a large number of participants would
+not attend their session given the requirement to join via Zoom and the safeguards put in place to
+defend against bot accounts. Of the 460 who signed up, 277 participants subsequently attended
+their session and all but two completed the entirety of the procedure. Therefore, 275 participants
+were included in our final sample. Given that participants were only exposed to their treatment
+assignments after beginning the game, the conditions of the 183 participants who did not attend
+their session should be uncorrelated with their decision to be excluded from the sample.
+
+         Because the completion of face-to-face tasks over Zoom would not be familiar to mTurk
+users and may limit their willingness to take part, we offered enticing earnings potential in the
+experiment. This also increased the stakes of the task for participants, eliciting true decision
+preferences (opposed to hypothetical or low-stake choices which may or may not align with
+reality). The game was advertised to make on average $20-$30 per hour. The average mTurk
+requester offers $11 per hour. After completing our experiment, our average earnings were
+$10.29 plus a $5 show-up fee and the average completion time was 45 minutes. Therefore, our
+average hourly pay was $20.34.
+
+         Participants first completed a screening survey to sign up for a designated time slot.
+Utilizing the mTurk API, automated scripts were sent to participants 2 days prior and 1 hour
+prior to their time slot, the latter of which included the Zoom link that would allow them into
+their session. Prior to taking place, each session was randomly assigned to either the human or
+algorithm condition. Conversely, the disclaimer treatment was randomly assigned after
+participants began playing the game. Each session began with participants joining a Zoom
+meeting room where they were instructed ahead of time to have changed their display name to
+their mTurk ID. The experimenter validated that the mTurk IDs listed in the room aligned with
+those that signed up for the session before providing participants with verbal instructions. In the
+human condition, the research assistant acting as the financial advisor was introduced using the
+following statement, "This is Brandon. He is trained in the financial task you are being asked to
+complete today and will be aiding in the execution of the experiment." The research assistant
+came to each session dressed professionally. Only one individual served in this role for the
+duration of data collection to ensure no effects of advisor appearance influenced our results. The
+procedure was the same for the algorithm sessions except that no advisor was introduced.
+
+         Participants were then sent a private message through Zoom that contained their
+personalized link directing them to the browser-based game. Upon clicking the link, they began
+by going through a brief tutorial that explained the market process and the task that they were
+being asked to complete. Then they were given the opportunity to invest in 10 unpaid practice
+rounds where they only had the ability to make their own investment decisions. Following the
+practice rounds, a short comprehension quiz was completed (see Appendix C). They were then
+informed that they were being given an endowment of 1000 research points with which to play
+the game and that this translated to $5USD.
+
+         At the onset of the 40 payoff determining rounds, participants were told of their ability to
+utilize an advisor as described in the previous section. The human advisor took part in the actual
+experiment beyond being present in the Zoom session. His interface (see Appendix D) would
+report the suggested investment, using the same recommendation system as the algorithm, for
+each participant in each round and would ask him to submit the recommendation to the
+participant. We kept the design as simple as possible to avoid the possibility of human error
+while also avoiding deception. Participants may have believed that the advisor was manually
+developing investment recommendations however they were only ever told that he would be
+submitting recommendations.
+
+         After 10 rounds, they were shown their randomly assigned disclaimer before continuing
+with the remaining 30 rounds. After completing the game, participants answered a short
+demographic survey that asked for their gender, race, ethnicity, education, employment,
+experience with investing, and familiarity with algorithm design. They also answered exit
+questions to measure their perceptions of the advisor (see Appendix E). Their final earnings were
+converted to real dollars and the $5 show-up fee was added to it before participants were shown
+their total compensation. Earnings were sent as a bonus payment through mTurk after each
+session.
+
+4.3 Estimation Approach
+
+         Our main dependent variable for our analyses is the participant's choice to use the advisor's
+recommendation or make their own decision in each round. Given the multi-round repeated structure of
+our experiment and the collinearity between multiple observations from the same experimental
+participant, we estimate a panel random effects model with robust standard errors and round fixed effects.
+
+Use78 = 7 ×  + ! ×  + :( × ) +  ×                                                                       (22)
+
++ 8 + 7 + u7
+
+The dependent variable, Use78, is a binary indicator that equals 1 if participant  chose to use the
+
+advisor in round  and 0 otherwise. Advisor7 is a vector of binary indicators for the advisor treatment
+
+condition assigned to each participant [algorithm vs. human]. Risk7 is a vector of binary indicators for the
+
+risk treatment condition assigned to each participant [no disclaimer vs. error risk vs. betrayal risk]. We
+
+also include interactions between advisor presentation and risk treatments. Demographics7 is a vector of
+controls capturing heterogeneity in individual demographics (e.g., gender, race, ethnicity, education, work
+
+status, experience with algorithms, experience with investing). 8 includes round fixed effects in order to
+ensure that any temporal effects are controlled for (e.g., participant learning) and 7 is the participant-
+specific random effect. The error term, u7, is clustered on participant. Estimates on the randomly assigned
+treatments are assumed unbiased due to the lack of correlation with unobserved individual differences and
+
+the error term. This assumption is tested in Section 5.1. This estimation approach allows for a robust
+account of time trends in our data and corrects for the nonindependence of multiple observations of the
+decision to use the advisor from a single participant.
+
+         Additionally, we estimate treatment effects for total returns. Since the algorithm, on average,
+realizes higher returns than participant decisions, any decrease in advisor usage should be accompanied
+by a decrease in returns as well.
+
+5. Results
+
+         Two hundred and seventy-five individuals took part in our financial trading game. Table 1 shows
+the distribution of participants across treatments in our experiment. We find a roughly equal split for both
+the additional risk dimension (no disclaimer vs. betrayal risk vs. error risk) and the advisor presentation
+dimension (algorithm vs. human). The average advisor usage was 56.44% for our baseline rounds and
+42.59% in the 30 principal rounds.
+
+                                    Algorithm Human Total
+
+           No Disclaimer (Control)  47                       42   89
+
+           Error Disclaimer         51                       42   93
+
+           Betrayal Disclaimer      46                       47   93
+
+           Total                    144                      131  275
+
+           Table 1: Sample Size by Experimental Conditions
+
+         Table 2 provides a description of our variables and summary statistics for each. We have a
+diverse sample of participants with a relatively even split between males and females and racial and
+ethnic statistics that are comparable to the national averages3. Fifteen participants indicated that they had
+extensive investment experience and only 7 indicated that they had extensive experience with algorithms.
+
+Variable          Description                                          Mean   S.D.
+                                                                       (1)    (2)
+Use               The choice to use the advisor in a specific round
+Earnings          The total earnings from the game                     0.461  0.498
+Male              Whether the individual is a male                     9.141  5.292
+Caucasian         Whether the individual is Caucasian                  0.455  0.498
+                                                                       0.749  0.434
+
+3 https://www.census.gov/quickfacts/fact/table/US/PST045221
+African American       Whether the individual is African American                0.0945  0.293
+Asian                  Whether the individual is Asian                           0.124   0.329
+Hispanic               Whether the individual is Hispanic                        0.0655  0.247
+Some College           Completed some college                                    0.0982  0.298
+Bachelor's Degree      Completed bachelor's degree                               0.702   0.457
+Advanced Degree        Completed advanced degree                                 0.200   0.400
+Student                Whether the individual is a student                       0.0473  0.212
+Unemployed             Whether the individual is unemployed                      0.135   0.341
+Full-Time Employed     Whether the individual is employed full-time              0.0255  0.158
+Retired                Whether the individual is retired                         0.578   0.494
+Investment Experience  The participant's experience with investing               1.735   0.551
+Algorithm Experience   The participant's experience with algorithms              1.498   0.549
+
+                     Likert Scale (1 = No Experience, 3 = Extensive Experience)
+                                        Table 2: Summary Statistics
+
+5.1 Balance Checks
+
+         Before estimating our main effects, we evaluate the efficacy of random assignment by examining
+whether we there are differences in demographic characteristics across treatment groups. Table 3 provides
+pair-wise comparisons for all the variables listed in Table 2 across both the advisor presentation factor
+(Algorithm vs. Human) and the additional risk factor (No Disclaimer vs. Betrayal vs. Error). We conduct
+52 pairwise comparisons (13 variables * 4 comparisons) and find that 48 of these comparisons identify
+insignificant differences between conditions. With an alpha of 0.1, we would expect that 5 comparisons
+are significant by random chance. We identify only 4 significant differences between these groups. Even
+so, we control for these variables in our analysis and continue to identify consistent results.
+
+                       No Disclaimer   No Disclaimer   Betrayal vs. Algorithm vs.
+                        (Control) vs.   (Control) vs.
+Variable                                               Error                     Human
+                          Betrayal          Error
+Male                                                   0.238                      0.180
+Caucasian                   0.663           0.109      0.233                      0.810
+African American            0.302           0.882      0.118                      0.327
+Asian                       0.152           0.901      0.268                      0.943
+Hispanic                    0.566           0.600      0.422                      0.780
+Some College               0.087*           0.341      0.176                      0.981
+Bachelor's                  0.408           0.609      0.459                      0.472
+Advanced Degree           0.027**           0.140      0.861                      0.952
+Student                     0.320           0.243      0.250                      0.913
+                            0.132           0.701
+Full-Time Employed     0.109      0.367     0.011**                    0.362
+Other Employment       0.322      0.271     0.034**                    0.328
+Investment Experience  0.989      0.152      0.143                     0.298
+Algorithm Experience   0.900      0.693      0.583                     0.412
+
+               Table 3: Comparison of Demographics between Conditions
+
+         Next, we leverage our first 10 baseline rounds which precede the introduction of any betrayal or
+error risk. We evaluate whether any differences exist across our risk conditions in use of the expert
+advisor and total earnings prior to the introduction of the additional risk. Table 4 estimates the baseline
+effect of the experimental risk conditions, including participant demographics and round fixed effects (in
+columns (2) and (4)). Additionally, Table 4 reports the baseline effect of the advisor presentation (human
+vs. algorithm) for the first 10 rounds.
+
+         We do not find any significant differences between risk conditions during the baseline rounds.
+For example, our primary advisor usage variable sees no significant difference between the betrayal risk
+treatment and the no disclaimer (control) condition (p = 0.878), the betrayal risk treatment and the error
+risk treatment (p = 0.866), or the error risk and the no disclaimer (control) condition (p = 0.996).
+Interestingly, we also see no significant effects on advisor use between the algorithm and human
+conditions (p = 0.770) in these baseline rounds. Those in the algorithm treatment chose to use the advisor,
+on average, 56.9% of the time while those in the human treatment used the advisor 55.6%. Estimating
+treatment effects on total earnings for the first 10 rounds similarly provides no significant results. Overall,
+we find substantial balance across individual characteristics and outcomes prior to the introduction of
+betrayal.
+
+VARIABLES                  (1)       (2)       (3)                        (4)
+Betrayal Risk             Use     Earnings     Use                     Earnings
+Error Risk
+Algorithm               0.00736     0.998    0.0110                     -1.017
+Constant                (0.0482)   (1.663)  (0.0376)                    (1.512)
+                       -0.000203    2.722   0.888***                   20.51***
+                        (0.0447)   (1.900)
+
+                       0.889***   18.75***
+                  (0.127)  (5.146)  (0.125)  (5.191)
+
+Round FE          YES      NO       YES                                           NO
+
+Demographics      YES      YES      YES                                           YES
+
+Observations      2,750    275      2,750                                         275
+
+Number of ID      275      275      275                                           275
+
+                                  Robust standard errors in parentheses
+                                     *** p<0.01, ** p<0.05, * p<0.1
+
+                  Table 4: Baseline Effects ­ Ten Rounds Prior to Risk Treatment
+
+5.2 Main Effects
+
+Absent the presence of betrayal or error, we find no significant difference in uptake between the
+
+human and algorithmic advisor (p=0.566). However, this trend changes when the potential for betrayal is
+
+introduced. Figure 4 graphs the average advisor usage across each of the treatment sets. First, we find a
+
+significant drop in human advisor usage for the betrayal risk treatm ent (No Disclaimer µ=45.1%; Error
+
+µ=45.2%; Betrayal µ=29.1%). However, we see no such drop off in advisor usage for the algorithm
+
+treatments (No Disclaimer µ=40.6%; Error µ=48.9%; Betrayal µ=46.2%). The lack of a negative effect in
+
+the error conditions implies that the betrayal effect for the human advisor is due to betrayal aversion and
+
+not a perceived decrease in expected return or increase in risk generally. Further, this provides
+
+preliminary evidence that substituting a human expert with an algorithm may attenuate betrayal aversion4.
+
+                                     Figure 4: Advisor Usage Across Conditions
+
+4 Our visual results show a small increase in advisor utilization for the algorithm treatment when
+participants are given the error disclaimer. In Table 5, we find that this increase is not statistically
+significant (p = 0.451) and is therefore likely due to random noise.
+Our regression model confirms our summary results. The estimates are reported in Table 5. First,
+
+we find no significant effect of the algorithm presentation, absent additional betrayal or error risk
+
+(p=0.563) (column (1)). On average, our estimates show that in the human conditions, adding betrayal
+
+risk decreases use by roughly 16% (p=0.023) (column (1)). Conversely, introducing risk of an accidental
+
+error has no effect on usage (p=0.924) (column (1)). This implies that betrayal aversion is observed for
+
+the human conditions. Importantly, we find a positive and significant interaction effect of roughly +21%
+
+between betrayal risk and the algorithm treatment (p=0.031) (column (1)). This implies that the betrayal
+
+aversion found in the human treatments is largely attenuated when the human advisor is switched out for
+
+an algorithm. These effects are consistent when controlling for time fixed effects and participant
+
+demographics (columns (2) and (3)).
+
+                                           (1)       (2)              (3)
+
+VARIABLES                                  Use       Use              Use
+
+Betrayal Risk                              -0.159**  -0.159**         -0.155**
+Error Risk                                 (0.0702)  (0.0704)         (0.0706)
+Algorithm                                  0.00714   0.00714          0.00841
+Algorithm × Betrayal                       (0.0753)  (0.0754)         (0.0756)
+Algorithm × Error                           -0.0444   -0.0444          -0.0284
+Constant                                   (0.0768)  (0.0770)         (0.0781)
+                                           0.215**   0.215**           0.178*
+                                           (0.0992)  (0.0994)          (0.101)
+                                            0.0754    0.0754           0.0680
+                                            (0.103)   (0.103)          (0.101)
+                                           0.451***  0.421***         0.600***
+                                           (0.0563)  (0.0602)          (0.146)
+
+Round FE                                    NO       YES              YES
+Demographics                                NO        NO              YES
+Observations                               8,250     8,250            8,250
+Number of ID                                275       275              275
+
+                              Robust standard errors in parentheses
+                                  *** p<0.01, ** p<0.05, * p<0.1
+
+                            Table 5: Main Effect of Treatment on Use
+
+5.2.1 Empirical Extensions
+
+To further enrich our understanding of the impact of algorithmic experts on betrayal aversion, we
+
+explore a number of empirical extensions.
+         Persistence of Treatment Effects: Much of the betrayal aversion literature has utilized one-shot
+trust games to measure its effect. To our knowledge, no work has utilized a repeated game in this way and
+therefore what is known of the persistence of betrayal aversion over time is limited. One potential
+explanation is that participants do experience betrayal aversion towards the algorithm but that aversion
+dissipates quickly, leading to a null effect. Therefore, the following analyses explore heterogeneity across
+time for our treatment effects. Figure 5a and 5b plot average advisor usage across rounds for each
+condition. In Figure 5a, we can clearly see the effect of betrayal for the human conditions. It appears as if
+the effect remains relatively constant across rounds. In Figure 5b, algorithm usage rates for the betrayal
+treatment appear to drop initially before rising by the tenth principal round. This could imply that the
+algorithm experienced some initial betrayal effects but, unlike the human conditions, those effects
+dissipated quickly.
+
+                                 Figure 5a: Human Usage Rates Across Treatments
+                               Figure 5b: Algorithm Usage Rates Across Treatments
+         Table 5 above confirms these results. We estimate our model for the first 10 principal rounds (1-
+10) (column (4)), the next 10 principal rounds (11-20) (column (5)), and the last 10 principal rounds (21-
+
+30) (column (6)). While betrayal aversion towards the human advisor remains consistent across rounds,
+
+we find that in the first 10 treated rounds, substituting the human with an algorithm does not fully
+
+attenuate the betrayal aversion (p=0.266) (column (3)). However, after at least 10 treated rounds, the
+betrayal aversion towards algorithms is completely attenuated (p=0.058) (column (4)). As stated above,
+this provides evidence of some initial, but not persistent, betrayal aversion for algorithms.
+
+                      1-10      11-20     21-30
+
+                      (4)       (5)       (6)
+
+VARIABLES             Use       Use       Use
+
+Betrayal Risk         -0.147**  -0.163**   -0.161*
+Error Risk            (0.0708)  (0.0772)  (0.0823)
+Algorithm              0.0310    0.0466    -0.0492
+Algorithm × Betrayal  (0.0745)  (0.0864)  (0.0866)
+Algorithm × Error      -0.0106   -0.0156   -0.0651
+Constant              (0.0770)  (0.0859)  (0.0885)
+                                 0.206*    0.214*
+Observations            0.141    (0.110)   (0.116)
+                       (0.101)   0.0544
+                      0.00835    (0.115)    0.140
+                       (0.104)  0.618***   (0.117)
+                      0.547***   (0.167)  0.709***
+                      (0.0598)             (0.166)
+                                  2,750
+                        2,750               2,750
+Number of ID          275                                           275       275
+
+              Robust standard errors in parentheses
+                 *** p<0.01, ** p<0.05, * p<0.1
+
+Table 6: Persistence of Treatment Effects
+
+Prior Advisor Performance: While advisor performance is assumed to be randomly distributed
+
+across treatment conditions, we examine the impact of prior performance on advisor utilization to better
+
+understand the relationship that betrayal aversion has with monetary considerations. Table 7 estimates the
+
+same estimation model specified in (22) with the addition of the lagged investment return interacted with
+
+the participant's advisor utilization decision in the prior round.
+
+The estimate on the lagged return is negative and statistically significant (p = 0.000), implying
+
+that if the participant invested without help in the prior round and performed well, they were less likely to
+
+use the advisor in the current round. Likewise, the estimate on the interaction term is positive and
+
+statistically significant (p = 0.000) implying that if the advisor performed well for the participant in the
+
+prior round, they were more likely to utilize the advisor in the current round. Interestingly, while, as one
+
+would expect, financial returns do have an effect on advisor utilization, the effect of betrayal aversion
+
+remains consistent. This implies that the prior performance of the advisor is orthogonal to our central
+
+research question and provides further support for our claim that the effect of betrayal aversion we
+
+measure is not a response to monetary considerations or concerns.
+
+                                                                         (1)
+
+VARIABLES                                                                Use
+
+Betrayal Risk                                                          -0.157**
+Error Risk                                                             (0.0690)
+Algorithm                                                              0.00810
+Algorithm × Betrayal                                                   (0.0741)
+Algorithm × Error                                                      -0.0443
+Prior Round Return                                                     (0.0753)
+Prior Round Return ×                                                   0.212**
+                                                                       (0.0975)
+                                                                        0.0713
+                                                                        (0.101)
+                                                                    -0.000279***
+                                                                      (0.00005)
+                                                                    0.000645***
+                     Prior Round Advisor Use  (0.00008)
+
+                     Constant                 0.463***
+                                              (0.0580)
+
+                     Observations             8,250
+                     Number of ID              275
+
+                               Robust standard errors in parentheses
+                                  *** p<0.01, ** p<0.05, * p<0.1
+
+                               Table 7: Prior Advisor Performance
+
+Further, we estimate the model with the inclusion of all interaction terms to determine if our
+
+betrayal treatment amplifies or diminishes any effects of prior advisor performance. We still find a
+
+statistically significant negative effect of betrayal aversion, although lower in degree, for the human
+
+condition ( = -0.0673,  = 0.032). Similarly, our estimates again confirm that replacing the human
+
+advisor with an algorithm attenuates this betrayal aversion ( = 0.0944,  = 0.034). Interestingly, we
+
+find no statistically significant interactions between our betrayal risk treatment and prior advisor
+
+performance. This again provides further compelling evidence that the effects we measure are non-
+
+monetary in nature.
+
+Finally, we estimate the model with an indicator that reflects whether the participant's first use of
+
+the advisor was positive or negative to determine if a path dependency exists that may differ across
+
+treatments. Our results report no significant interactions between our first exposure indicator and our
+
+treatments. The estimates for both of the preceding two models can be found in Appendix F and
+
+Appendix G respectively.
+
+Financial Consequences of Betrayal Aversion: We estimate betrayal treatment effects for the total
+
+earnings received by each participant (Table 6). Given that the human advisor uses the algorithm to make
+
+decisions and there is no difference in expected return for the betrayal or error conditions, if a participant
+
+chose the advisor over investing themselves in any condition, we would expect the same average returns.
+
+However, given the lack of advisor usage in the human betrayal condition, we analyze the effect of this
+
+decreased uptake on subsequent earnings. Our results indicate a $2.15 decrease in total earnings for those
+in betrayal treatment with a human advisor (p=0.072). We observe no significant effects of the error
+conditions for either advisor (Human p=0.195; Algorithm p=0.281) nor is there an effect of betrayal risk
+for the algorithm treatment (p=0.883). This supports the conclusion that the decrease in earnings is due to
+participants choosing to utilize the advisor less in the human betrayal condition. Given that the average
+earnings for those in the no disclaimer condition with a human advisor was $10.29 (not including the $5
+show up fee), a decrease of $2.15 would equate to a 21% drop in total earnings. These findings highlight
+the real financial consequences of betrayal aversion.
+
+VARIABLES      Human     Algorithm
+Betrayal Risk     (1)        (2)
+Error Risk
+Constant       Earnings  Earnings
+
+                -2.153*    0.180
+                (1.186)   (1.223)
+                -1.502    -1.118
+                (1.153)   (1.032)
+               10.29***  9.577***
+                (0.933)   (0.835)
+
+Observations    131       144
+R-squared      0.030     0.012
+
+   Robust standard errors in parentheses
+      *** p<0.01, ** p<0.05, * p<0.1
+
+Table 8: Betrayal Effect on Total Earnings
+
+Exit Questions: In Table 9 we estimate the effect of our treatments on a number of exit questions
+
+related to feelings of being misled, having trust violated, and feeling betrayed. Each of these questions are
+
+meant to reflect variations in our definition of betrayal (a violation of a trust norm) and therefore aide in
+
+confirming our phenomenon of interest. The questions were answered with a 5-point Likert scale where 1
+
+= strongly disagree and 5 = strongly agree. Positive coefficients imply a stronger trend towards agreeing
+
+with the question. Column 1 reports estimates for responses to the question, "If you chose to invest with
+
+the advisor, you were concerned about being misled." For the human condition, betrayal has a positive
+
+and statistically significant effect (p=0.006). This effect is almost entirely cancelled out by the algorithm
+and betrayal interaction term (p=0.048) implying that feelings of being misled from the betrayal risk were
+not a concern in the algorithm conditions. Column 2 reports estimates to the question asking if
+participants were concerned about their trust being violated. Again, we find similar results to the first
+question with the caveat that the algorithm interaction term is slightly insignificant (p=0.103).
+
+VARIABLES                                      (1)            (2)            (3)
+                                             Misled    Trust Violated  Feel Betrayed
+
+Algorithm                                      0.245    0.0755           0.390
+Betrayal Risk                                 (0.242)   (0.236)         (0.250)
+Error Risk                                   0.671***  0.650**         0.815***
+Algorithm × Betrayal                          (0.240)   (0.252)         (0.254)
+Algorithm × Error                             0.0476    -0.0476          0.214
+Constant                                      (0.256)   (0.249)         (0.264)
+                                             -0.663**   -0.568         -1.095***
+                                              (0.333)   (0.347)         (0.357)
+                                              0.0825     0.164           -0.185
+                                              (0.339)   (0.338)         (0.358)
+                                             3.095***  2.690***        2.738***
+                                              (0.183)   (0.175)         (0.177)
+
+Observations                                  275       275             275
+R-squared                                    0.038     0.038           0.046
+
+                      Robust standard errors in parentheses
+                         *** p<0.01, ** p<0.05, * p<0.1
+
+                      Table 9: Exit Question Analysis
+
+         Finally, participants were asked if they had concerns about feeling betrayed by the advisor. The
+effect of the treatment in Column 3 is the largest coefficient (p=0.001). This implies that our treatment
+worked as intended and elicited feelings of betrayal in participants. Additionally, the interaction term for
+
+the algorithm condition cancels out the treatment effect entirely (p=0.002), again providing evidence that
+
+algorithms can attenuate betrayal aversion.
+
+6. Robustness
+
+6.1 Experiment 2 ­ Robustness to Sample & Advisor
+         To validate the results of our first experiment, we conducted a condensed version of the
+
+investment game with a new sample: undergraduate students. Unlike the main study, we do not include an
+additional error treatment (only a betrayal risk treatment and the no disclaimer condition). Finally, there
+is a within-subjects fee treatment that is introduced after the first 20 rounds which decreased advisor use
+to almost zero across conditions. Therefore, we chose to analyze only the first 20 rounds where there were
+no fees. All other procedures are identical to the main study.
+
+         There are several key benefits to this follow-up study. First, we utilize an undergraduate
+economics lab to recruit our sample. Researchers that recruit through this lab are prohibited from using
+any form of deception in their experiments. This is explicitly highlighted to participants, and they should
+therefore understand that any claims made throughout the experiment are true. This additional confidence
+in the veracity of information provided by the researchers help alleviate concerns around the believability
+of the information provided to participants in the first experiment. Additionally, we utilized a different
+human financial advisor to further provide robustness around advisor appearance and helps alleviate
+concerns of effects specific to a particular individual.
+
+         One hundred and twenty-three participants took part in our experiment. Table 10 shows the
+results of our panel random effects models that we used to estimate our treatment effects. Our effects
+from the main study are replicated here. Column 1 estimates a roughly 12% decrease in advisor usage
+when betrayal risk is introduced (p = 0.091). Conversely, we see no significant decrease in advisor usage
+when betrayal risk is introduced to the algorithm conditions (p = 0.167). Column 3 reports the interaction
+term between betrayal risk and the algorithm, confirming that switching the advisor from a human to an
+algorithm counteracts the measured betrayal aversion (p = 0.026).
+
+         Likewise, Column 4 shows that betrayal aversion decreased total earnings by roughly $2.13 (p =
+0.003), strikingly similar to the decrease found in the main study. Those in the algorithm conditions saw
+no such decrease in earnings (p = 0.387, column (5)). The results from Experiment 2 confirm findings
+from Experiment 1 across the board. This level of robustness is difficult to attain even when replicating
+experimental procedures that draw from the same population. Provided that Experiment 2 drew from an
+entirely new population with large demographic differences (e.g., college-aged students versus a far older
+population), this replication adds confidence to the robustness of our original findings.
+
+                      Human Algorithm          All                            Human        Algorithm
+                                                                                 (4)           (5)
+                      (1)                 (2)  (3)
+                                                                              Earnings     Earnings
+VARIABLES             Use                 Use  Use
+
+Betrayal Risk          -0.123* 0.0774           -0.123*                       -2.128***     -0.566
+Algorithm             (0.0712) (0.0561)        (0.0708)                        (0.709)      (0.651)
+Algorithm × Betrayal                            -0.118*
+Constant              0.423*** 0.305***        (0.0697)                       18.72***     17.62***
+                      (0.0560) (0.0421)        0.201**                         (0.593)      (0.555)
+Number of ID                                   (0.0902)
+                                               0.423***                                        75
+                                               (0.0557)
+
+                      48                  75   123                            48
+
+                      Robust standard errors in parentheses
+                         *** p<0.01, ** p<0.05, * p<0.1
+                         Table 10: Experiment 2 Results
+
+6.2 Experiment 3 ­ Robustness to Context
+
+         To explore the presence of betrayal aversion, and the ability of algorithms to attenuate it, beyond
+the financial trading context, we conducted a follow-up study that presented participants with a series of
+ten scenarios in which a violation of trust norms was apparent (a betrayal). Each scenario presented this
+
+phenomenon in a different context. These included financial investment, product recommendations,
+customer support, recruitment and hiring, education, automotive manufacturing, healthcare, insurance,
+
+social media content moderation, and delivery operations. The full written scenarios can be found in
+
+Appendix H.
+         For each scenario, participants were randomly assigned to read a version of the scenario in which
+
+the actor was either a human or an algorithm. We then ask a series of questions meant to gauge 1) the
+participant's belief on the amount of objective harm inflicted on the impacted party and 2) potential
+
+feelings of betrayal. The full list of questions can be found in Appendix I.
+
+The results are shown in the table below and in Table 11. We regress the algorithm treatment,
+
+context fixed effects, and the interaction between context and the algorithm treatment on the assigned
+amount of damages (a measure of objective harm), the level of blame assigned to the actor (a measure of
+intentionality), and the degree of feeling betrayed (our phenomenon of interest). Column 1 reports the
+assigned amount of damages. These results highlight that perceptions of the objective harm inflicted on
+the impacted party are consistent across contexts irrespective of the actor being a human or an algorithm.
+This is equivalent to our claim in the first experiment that the perceptions of monetary objective returns
+are controlled for.
+
+         Column 2 reports differences in blame attribution. The coefficient for our algorithm treatment is
+indicative of the difference in blame attribution for the first context (financial services). There is a
+statistically significant negative effect of the treatment, implying that when shown the scenario in which
+the actor was an algorithm, the amount of attributed blame was significantly lower. In nine out of ten
+contexts, the interaction terms are insignificant, implying that the difference in blame attribution between
+the human and algorithmic actor are consistent with what was found for the first context. Social media
+content moderation is the only context with a statistically significant interaction term. However, this
+effect is similarly negative, implying that the difference in blame attribution was even wider for this
+context. These results highlight the lack of intentionality, a common precursor to betrayal aversion,
+attributed to algorithms.
+
+         Finally, Column 3 reports differences in reported feelings of betrayal. For the first context, there
+is a negative and statistically significant effect of the algorithm treatment, implying lower feelings of
+betrayal in the algorithm treatment. This effect remains consistent for all but three contexts (customer
+support, education, and insurance). These three contexts have a significant interaction term that cancels
+out the initial attenuation effect. One potential reason for this could be that the harm caused in these
+contexts was severe enough for the participants to see beyond the algorithm and recognize the betrayal
+coming from those responsible for the algorithm's development and use.
+
+         These results provide preliminary evidence that our findings from Experiment 1 may persist
+beyond financial services. We find that participants in a variety of contexts feel less betrayed by an
+algorithm than they do a human who imparts the same degree of harm, despite the fact that the algorithms
+are designed and deployed by humans.
+VARIABLES              (1)      (2)                       (3)
+                    Damage    Blame                    Betrayal
+
+Algorithm             15.72   -8.986**                 -0.515***
+Alg × Retail         (34.61)   (3.647)                  (0.176)
+Alg × Cust Support    33.03     5.320                    0.471
+Alg × Recruitment    (53.59)   (5.453)                  (0.362)
+Alg × Education       62.12     5.017                   0.589**
+Alg × Automotive     (48.53)   (4.172)                  (0.278)
+Alg × Healthcare     -27.02    -3.625                    0.209
+Alg × Insurance      (49.52)   (5.139)                  (0.287)
+Alg × Content Mod    -45.74    -2.039                   0.513**
+Alg × Delivery       (47.88)   (4.852)                  (0.253)
+Constant             -55.35     1.163                    0.314
+                     (46.33)   (4.193)                  (0.260)
+                     -67.66    -0.0312                   0.600*
+                     (45.86)   (4.376)                  (0.315)
+                      41.36     7.142                  0.758***
+                     (45.47)   (4.875)                  (0.256)
+                     -16.44   -9.785**                   0.0953
+                     (58.09)   (4.812)                  (0.268)
+                      0.768     1.246                    0.418
+                     (48.23)   (4.505)                  (0.268)
+                    628.7***  81.79***                 6.095***
+                     (25.04)   (2.736)                  (0.124)
+
+Context FE          Yes        Yes                        Yes
+Observations        1247      1,250                      1,248
+Number of IDs       125        125                        125
+
+               Robust standard errors in parentheses
+                  *** p<0.01, ** p<0.05, * p<0.1
+                  Table 11: Experiment 3 Results
+
+7. Discussion: Implications for Research and Practice
+
+         Our results show that while human experts elicit significant betrayal aversion, substituting those
+experts with algorithms may attenuate most, if not all, of the effect. Additionally, we highlight the real
+financial consequences of betrayal aversion and show a 20% decrease in earnings due to betrayal. Finally,
+we show that while algorithms may experience some initial betrayal aversion, it quickly subsides,
+whereas the aversion persists for human experts.
+         This work is not without limitations. First, our main study only focus on the context of financial
+investing. Future work could explore this avenue by studying contexts with higher stakes and exploring
+the effect that stakes have on betrayal aversion and algorithm aversion. Our third experiment opens the
+door to further exploring betrayal aversion across contexts, providing preliminary evidence for its
+presence in a variety of domains. Additionally, the experiment is not able to measure individual level
+betrayal due to the between-subjects design. Aimone et al. (2015) propose a betrayal aversion elicitation
+task that uses a within-subjects design to determine betrayal aversion at the individual level. Future
+research could adopt this framework to uncover heterogeneity around individual characteristics and their
+impact on betrayal aversion. Further, this paper only considers the role of betrayal aversion as it relates to
+algorithms. In reality, the choice to use an algorithm is likely influenced by a number of other factors
+including familiarity with the algorithm provider, transparency of the algorithm, autonomy over the
+algorithm, and others. Future research could incorporate these ideas and explore their initial effects and
+interactive effects with betrayal aversion on algorithm adoption and use.
+
+         Despite these limitations, our work has significant implications for research. Our findings
+highlight the value in looking to behavioral and experimental economics to uncover potential attributes of
+algorithic tools that drive an individual to utilize an expert advisor. Further, we show that studying the
+adoption of algorithms and the interactions that humans have with them should not be viewed as an
+isolated phenomenon. Instead, by comparing individual behavior with other humans versus an algorithm,
+we can better understand what mechanisms drive adoption. For example, one possible explanation for the
+attenuation of betrayal averison by algorithms is that participants in the human condition were able to
+interact with their advisor. This element of social connection heightens trust, which subsequently
+increases concerns over betrayal. Researchers can use these findings to develop solutions to hestitation
+around accepting algorithmic tools that utilize the inherent stregnths of the algorithm itself. Further, future
+research could extend this potential pathway by varying the levels of social connection that an individual
+has with an algorithm.
+         Finally, our findings highlight the need for behavioral economcis to revisit previously well-
+accepted phenomena in light of advancing technologies. While the majority view of the literature is that
+inanimate objects can elicit betrayal aversion, we provide evidence to the contrary. One potential reason
+for this deviation could be that past work considering inanimate objects and betrayal aversion focused
+exclusively on products meant to protect consumer's physical safety. It may be the case that while
+algorithms can attenuate betrayal aversion in a financial services setting, they may still elicit the fear
+when a consumer's physical outcomes are at risk. Future work can extend this thought by looking for
+instances of betrayal aversion with smart cities and Internet-of-Things devices that direct traffic or deploy
+emergency services, betrayal aversion elicited through online health portals, or the effect of algorithmic
+vaccine deployment on betrayal fears. Each of these pathways would prove fruitful in developing a deeper
+understanding of human decision-making and thought.
+
+         Industry could also benefit from the findings we present. Largely, firms across industries are
+adopting algorithmic solutions and determining which roles within their corporations could be augmented
+by algorithms. While efficiencies and improved operations play a large role in this consideration,
+acceptance from shareholders and customers is equally important. Our work provides valuable insight
+into the relationship humans have with algorithms and how that relationship leads to adoption and
+acceptance. For example, firms that provide face-to-face services that rely on consumer acceptance of
+their output may benefit from enhanced algorithmic participation, given the decrease in social
+expectations of algorithms from the consumer.
+
+         More specifically, financial services can utilize our results to improve uptake of financial
+planning services. While firms are increasingly introducing algorithmic tools to industry customers, there
+is little work showing the value of these tools to individual consumers. By augmenting traditional
+financier involvement in strategic customer planning with advanced algorithmic tools, consumers may be
+more willing to seek expert advice.
+         Overall, our results highlight the potential of algorithms to decrease the trust burden that many
+
+consumers face with "experts" that they encounter. Mitigating betrayal aversion can lead to increased
+
+demand for expert advice and better individual outcomes for consumers. The potential of algorithms from
+
+the perspective of efficiency and accuracy is only one piece of the larger puzzle. Algorithms may make
+
+individuals feel at ease and allow them to overlook some of the less impactful social rules that might have
+
+restricted their previous gains.
+
+8. References
+
+Aimone, J., Ball, S., and King-Casas, B. 2015. "The Betrayal Aversion Elicitation Task: An
+         Individual Level Betrayal Aversion Measure," PLOS ONE (10:9), p. e0137491.
+
+Aimone, J. A., and Houser, D. 2012. "What You Don't Know Won't Hurt You: A Laboratory
+         Analysis of Betrayal Aversion," Experimental Economics (15:4), pp. 571-588.
+
+Aimone, J. A., Houser, D., and Weber, B. 2014. "Neural Signatures of Betrayal Aversion: An
+         Fmri Study of Trust," Proceedings of the Royal Society B: Biological Sciences
+         (281:1782), p. 20132127.
+
+Al-Natour, S., and Benbasat, I. 2009. "The Adoption and Use of It Artifacts: A New Interaction-
+         Centric Model for the Study of User-Artifact Relationships," J. AIS (10).
+
+Alexander, V., Blinder, C., and Zak, P. J. 2018. "Why Trust an Algorithm? Performance,
+         Cognition, and Neurophysiology," Computers in Human Behavior (89), pp. 279-288.
+
+Alt, R., Beck, R., and Smits, M. T. 2018. "Fintech and the Transformation of the Financial
+         Industry." Springer, pp. 235-243.
+
+Arrow, K. J. 1971. "The Theory of Risk Aversion," Essays in the theory of risk-bearing), pp. 90-
+         120.
+
+Beck, A. H., Sangoi, A. R., Leung, S., Marinelli, R. J., Nielsen, T. O., van de Vijver, M. J., West,
+         R. B., van de Rijn, M., and Koller, D. 2011. "Systematic Analysis of Breast Cancer
+         Morphology Uncovers Stromal Features Associated with Survival," Sci Transl Med
+         (3:108), p. 108ra113.
+
+Bell, D., and Gana, L. 2012. "Algorithmic Trading Systems: A Multifaceted View of Adoption,"
+         2012 45th Hawaii International Conference on System Sciences: IEEE, pp. 3090-3099.
+
+Benbasat, I., and Wang, W. 2005. "Trust in and Adoption of Online Recommendation Agents,"
+         J. AIS (6).
+
+Berger, B., Adam, M., Rühr, A., and Benlian, A. 2021. "Watch Me Improve--Algorithm
+         Aversion and Demonstrating the Ability to Learn," Business & Information Systems
+         Engineering (63:1), pp. 55-68.
+
+Bernard, C., Chen, J. S., and Vanduffel, S. 2015. "Rationalizing Investors' Choices," Journal of
+         Mathematical Economics (59), pp. 10-23.
+Birnberg, J., and Zhang, Y. 2010. "When Betrayal Aversion Meets Loss Aversion: The Effects
+         of Changes in Economic Conditions on Internal Control System Choices," Journal of
+         Management Accounting Research (23).
+
+Bohnet, I., Greig, F., Herrmann, B., and Zeckhauser, R. 2008. "Betrayal Aversion: Evidence
+         from Brazil, China, Oman, Switzerland, Turkey, and the United States," American
+         Economic Review (98:1), pp. 294-310.
+
+Bohnet, I., Herrmann, B., and Zeckhauser, R. 2010. "Trust and the Reference Points for
+         Trustworthiness in Gulf and Western Countries," The Quarterly Journal of Economics
+         (125:2), pp. 811-828.
+
+Bohnet, I., and Zeckhauser, R. 2004. "Trust, Risk and Betrayal," Journal of Economic Behavior
+         & Organization (55:4), pp. 467-484.
+
+Brogaard, J., Hendershott, T., and Riordan, R. 2014. "High-Frequency Trading and Price
+         Discovery," The Review of Financial Studies (27:8), pp. 2267-2306.
+
+Burton, J. W., Stein, M.-K., and Jensen, T. B. 2020. "A Systematic Review of Algorithm
+         Aversion in Augmented Decision Making," Journal of Behavioral Decision Making
+         (33:2), pp. 220-239.
+
+Cao, L., Yuan, G., Leung, T., and Zhang, W. 2020. "Special Issue on Ai and Fintech: The
+         Challenge Ahead," IEEE Intelligent Systems (35:2), pp. 3-6.
+
+Castelo, N., Bos, M. W., and Lehmann, D. R. 2019. "Task-Dependent Algorithm Aversion,"
+         Journal of Marketing Research (56:5), pp. 809-825.
+
+Chakrabarty, B., Moulton, P., and Wang, X. 2015. "Attention Effects in a High-Frequency
+         World,").
+
+Chen, D. L., Schonger, M., and Wickens, C. 2016. "Otree--an Open-Source Platform for
+         Laboratory, Online, and Field Experiments," Journal of Behavioral and Experimental
+         Finance (9), pp. 88-97.
+
+Colarelli, S. M., and Thompson, M. 2008. "Stubborn Reliance on Human Nature in Employee
+         Selection: Statistical Decision Aids Are Evolutionarily Novel," Industrial and
+         Organizational Psychology (1:3), pp. 347-351.
+
+Dawes, R. M. 1979. "The Robust Beauty of Improper Linear Models in Decision Making,"
+         American Psychologist (34:7), pp. 571-582.
+
+Diab, D., Pui, S.-Y., Yankelevich, M., and Highhouse, S. 2011. "Lay Perceptions of Selection
+         Decision Aids in Us and Non-Us Samples," International Journal of Selection and
+         Assessment (19).
+
+Dietvorst, B. J., Simmons, J. P., and Massey, C. 2015. "Algorithm Aversion: People Erroneously
+         Avoid Algorithms after Seeing Them Err," Journal of Experimental Psychology: General
+         (144:1), pp. 114-126.
+
+Dietvorst, B. J., Simmons, J. P., and Massey, C. 2018. "Overcoming Algorithm Aversion: People
+         Will Use Imperfect Algorithms If They Can (Even Slightly) Modify Them," Management
+         Science (64:3), pp. 1155-1170.
+
+Eastwood, J., Snook, B., and Luther, K. 2012. "What People Want from Their Professionals:
+         Attitudes toward Decision-Making Strategies," Journal of Behavioral Decision Making
+         (25).
+
+Filiz, I., Judek, J. R., Lorenz, M., and Spiwoks, M. 2021. "Reducing Algorithm Aversion through
+         Experience," Journal of Behavioral and Experimental Finance), p. 100524.
+Ge, R., Zheng, Z., Tian, X., and Liao, L. 2021. "Human­Robot Interaction: When Investors
+         Adjust the Usage of Robo-Advisors in Peer-to-Peer Lending," Information Systems
+         Research).
+
+Gomber, P., Kauffman, R. J., Parker, C., and Weber, B. W. 2018. "Financial Information
+         Systems and the Fintech Revolution." Taylor & Francis, pp. 12-18.
+
+Grégoire, Y., and Fisher, R. J. 2008. "Customer Betrayal and Retaliation: When Your Best
+         Customers Become Your Worst Enemies," Journal of the Academy of Marketing Science
+         (36:2), pp. 247-261.
+
+Hendershott, T., Jones, C. M., and Menkveld, A. J. 2011. "Does Algorithmic Trading Improve
+         Liquidity?," The Journal of Finance (66:1), pp. 1-33.
+
+Hendershott, T., Zhang, X., Zhao, J. L., and Zheng, Z. 2021. "Fintech as a Game Changer:
+         Overview of Research Frontiers," Information Systems Research (32:1), pp. 1-17.
+
+Highhouse, S. 2008. "Stubborn Reliance on Intuition and Subjectivity in Employee Selection,"
+         Industrial and Organizational Psychology: Perspectives on Science and Practice (1:3),
+         pp. 333-342.
+
+Holt, C. A., and Laury, S. K. 2002. "Risk Aversion and Incentive Effects," The American
+         Economic Review (92:5), pp. 1644-1655.
+
+Hong, K., and Bohnet, I. 2007. "Status and Distrust: The Relevance of Inequality and Betrayal
+         Aversion," Journal of Economic Psychology (28:2), pp. 197-213.
+
+Jussupow, E., Spohrer, K., Heinzl, A., and Gawlitza, J. 2021. "Augmenting Medical Diagnosis
+         Decisions? An Investigation into Physicians' Decision-Making Process with Artificial
+         Intelligence," Information Systems Research).
+
+Koehler, J. J., and Gershoff, A. D. 2003. "Betrayal Aversion: When Agents of Protection
+         Become Agents of Harm," Organizational Behavior and Human Decision Processes
+         (90:2), pp. 244-261.
+
+Kou, G. 2019. "Introduction to the Special Issue on Fintech." SpringerOpen, pp. 1-3.
+Logg, J. M., Minson, J. A., and Moore, D. A. 2019. "Algorithm Appreciation: People Prefer
+
+         Algorithmic to Human Judgment," Organizational Behavior and Human Decision
+         Processes (151), pp. 90-103.
+Longoni, C., Bonezzi, A., and Morewedge, C. K. 2019. "Resistance to Medical Artificial
+         Intelligence," Journal of Consumer Research (46:4), pp. 629-650.
+Lourenço, C. J. S., Dellaert, B. G. C., and Donkers, B. 2020. "Whose Algorithm Says So: The
+         Relationships between Type of Firm, Perceptions of Trust and Expertise, and the
+         Acceptance of Financial Robo-Advice," Journal of Interactive Marketing (49), pp. 107-
+         124.
+Nass, C., and Moon, Y. 2000. "Machines and Mindlessness: Social Responses to Computers,"
+         Journal of Social Issues (56:1), pp. 81-103.
+Nass, C., Steuer, J., and Tauber, E. R. 1994. "Computers Are Social Actors," Proceedings of the
+         SIGCHI conference on Human factors in computing systems, pp. 72-78.
+Önkal, D., Goodwin, P., Thomson, M., GönüL, S., and Pollock, A. 2009. "The Relative
+         Influence of Advice from Human Experts and Statistical Methods on Forecast
+         Adjustments," Journal of Behavioral Decision Making (22:4), pp. 390-409.
+Orlikowski, W. J., and Scott, S. V. 2015. "The Algorithm and the Crowd: Considering the
+         Materiality of Service Innovation," MIS Q. (39), pp. 201-216.
+Parker, G., Van Alstyne, M., and Jiang, X. 2017. "Platform Ecosystems:: How Deve/Opers
+         Lnvert the Firm," MIS Quarterly (41:1), pp. 255-266.
+Prahl, A., and Van Swol, L. 2017. "Understanding Algorithm Aversion: When Is Advice from
+         Automation Discounted?," Journal of Forecasting (36:6), pp. 691-702.
+
+Pratt, J. W. 1964. "Risk Aversion in the Small and in the Large," Econometrica (32:1/2), pp.
+         122-136.
+
+Qiu, L., and Benbasat, I. 2005. "Online Consumer Trust and Live Help Interfaces: The Effects of
+         Text-to-Speech Voice and Three-Dimensional Avatars," International Journal of Human-
+         Computer Interaction (19:1), pp. 75-94.
+
+Ransbotham, S., Gerbert, P., Reeves, M., Kiron, D., and Spira, M. 2018. "Artificial Intelligence
+         in Business Gets Real," MIT Sloan Management Review and The Boston Consulting
+         Group.
+
+Reeves, B., and Nass, C. I. 1996. The Media Equation: How People Treat Computers,
+         Television, and New Media Like Real People and Places. New York, NY, US:
+         Cambridge University Press.
+
+Schanke, S., Burtch, G., and Ray, G. 2021. "Estimating the Impact of "Humanizing" Customer
+         Service Chatbots," Information Systems Research (32:3), pp. 736-751.
+
+Scherer, L. D., de Vries, M., Zikmund-Fisher, B. J., Witteman, H. O., and Fagerlin, A. 2015.
+         "Trust in Deliberation: The Consequences of Deliberative Decision Strategies for
+         Medical Decisions," Health Psychol (34:11), pp. 1090-1099.
+
+Seiders, K., Flynn, A. G., Berry, L. L., and Haws, K. L. 2015. "Motivating Customers to Adhere
+         to Expert Advice in Professional Services: A Medical Service Context," Journal of
+         Service Research (18:1), pp. 39-58.
+
+Shnoor, B. 2009. "Loss of Chance: A Behavioral Analysis of the Difference between Medical
+         Negligence and Toxic Torts,").
+
+Sparrow, B., Liu, J., and Wegner Daniel, M. 2011. "Google Effects on Memory: Cognitive
+         Consequences of Having Information at Our Fingertips," Science (333:6043), pp. 776-
+         778.
+
+Tetlock, P. E., and Gardner, D. 2016. Superforecasting: The Art and Science of Prediction.
+         Random House.
+
+Van Swol, L. M. 2011. "Forecasting Another's Enjoyment Versus Giving the Right Answer:
+         Trust, Shared Values, Task Effects, and Confidence in Improving the Acceptance of
+         Advice," International Journal of Forecasting (27:1), pp. 103-120.
+
+Venkatesh, V., and Davis, F. 2000. "A Theoretical Extension of the Technology Acceptance
+         Model: Four Longitudinal Field Studies," Management Science (46), pp. 186-204.
+
+Wilson, H., Daugherty, P., and Bianzino, N. 2017. "When Ai Becomes the New Face of Your
+         Brand," Harvard Business Review (27).
+
+Woodhouse, E. J., and Nieusma, D. 1997. "When Expert Advice Works, and When It Does Not,"
+         IEEE Technology and Society Magazine (16:1), pp. 23-29.
+
+Zhang, X. 2020. "Experiential and Neurobiological Influences on Economic Preferences and
+         Risky Decision Making." Virginia Tech.
+
+9. Appendices
+
+Appendix A: Market & Algorithm Design
+         The risky asset in our experimental market follows a two-state (good or bad) Markov-switching
+Gaussian random walk with a state switching probability of 35%5, adapted from Zhang (2020)). In other
+words, if the previous round was a good state, there is a 35% chance that the following round would be a
+bad state and a 65% that it would be a good state. The expected return of the good state is described by:
+
+                     0 = # + #0                                                             (15)
+
+where # = 0.10, # = 0.10, and 0 is white noise. The expected return of the bad state is described by:
+
+                     0 = ! + !0                                                             (16)
+
+where ! = -0.05 and ! = 0.05. If the asset price increased, participants received the highest profit if
+
+they use their entire endowment to purchase the asset. If the asset price decreased, participants received
+
+the lowest loss by purchasing none of the asset. This allows us to account for the fictive error occurring in
+
+the market process. We can define the fictive error as:
+
+         * = (100%  0*) - (  0*), ; = (0%  0;) - (  0;)                                     (17)
+
+where * is a positive return on the asset and ; is a negative return on the asset,  is the
+
+percentage of the participant's endowment that they used to purchase the risky asset,   0* is
+the experienced gain for the positive return, and   0; is the experienced loss for the negative
+
+return.
+
+         In both the human and algorithm conditions, the suggestion from the advisor was derived using
+the same Bayesian investment model. This allowed for a well-defined probability that the market was in a
+good state. Assume that 0 is a price change of the risky asset that the participant observed in period . We
+then know that the probability that the market is currently in a good state is:
+
+                     0 = Pr(0 = |0, 0;#, ... , !, #)                                        (18)
+
+Therefore, we know:
+
+5 Simulations were run to identify an optimal switch rate that balanced the predictability of market fluctuations with
+the desire for the algorithm to consistently outperform the individual investors.
+             0(0;#, 0)                                                                                                      (19)
+
+             =   Pr(0|0    =            Pr(0|0 = ) Pr(0 = |0;#)                        (0     =    |0;#)
+                              ) Pr(0 = |0;#) + Pr(0|0 = ) Pr
+
+        Further, we know the expected return in a good state from (10). We can define the distribution
+
+function     of  the  expected  return  Pr  (0|0  =  )      as  -..< (0 )  =     #      ;(#$(%)&(!!)( .  Similarly,  in  a  bad
+                                                                              =!!?
+
+state,  the  distribution  function  would  be    @5< (0 )  =     #   ;(#$(*)&((()( .  Given  the  updated  belief   that   the
+                                                               =(!?
+
+previous trial was in a good state 0;#, Pr(0 = |0;#) = (1 - )0;# + (1 - 0;#) and
+
+Pr(0 = |0;#) = 0;# + (1 - )(1 - 0;#) where  is the state switch rate described above ( =
+
+0.35). Therefore, we can rewrite (14) as following:
+
+                 0(0;#, 0)                                                                                                  (20)
+
+                 =                          -..<(0)((1 - )0;# + (1 - 0;#))
+
+                      -..<(0),(1 - )0;# + (1 - 0) + @5<(0)(0;# + (1 - )(1 - 0;#))
+
+         The algorithm then, derives 0(0;#, 0) based on the previous round's return to determine the
+probability of this round being in a good state. We then derive the optimal amount of the endowment to
+
+use using the maximization of the utility function subject to the relationships between expected return and
+
+standard deviation of the risky asset as follows:
+
+                                                     =  0# + (1 - 0)!                                                       (21)
+                                                             0.02!
+
+where A is a measure of risk tolerance for an individual. To simplify the experiment, rather than measure
+
+individual risk preferences in advance we used the average risk aversion level (A=5.17) from Holt and
+
+Laury (2002)) shown in (21).
+
+Appendix B: Risk Disclaimers
+
+Disclaimer for Betrayal Treatments (Verbiage in brackets refers to the human condition):
+         "In the past 10 rounds, you were given the option to use a financial investment algorithm [financial
+advisor, Brandon] to make your investment decisions. Historically, the algorithm [Brandon] has
+outperformed those who choose to invest themselves, where the majority of negative returns it [he] received
+were the result of random market volatility. However, investment algorithms, like the one used in this
+experiment, are designed to earn revenue [he is compensated] based on how frequently it [he] invests.
+Occasionally the algorithm [he] will intentionally over-invest even when the algorithm [he] is not confident
+that it is a good market. This incentive misalignment comes at the expense of increasing your risk and
+accounts for a small proportion of historical negative returns."
+
+Disclaimer for Error Treatments (Verbiage in brackets refers to the human condition)
+
+         "However, investment algorithms, like the one used in this experiment, [his
+recommendations] are not always perfect and [he] has occasionally made accidental errors
+that result in a negative return. These errors come at the expense of increasing your risk and
+account for a small proportion of historical negative returns."
+
+Appendix C: Comprehension Quiz
+
+          Each question had the following possible answers: True, False
+
+Question                                                 Answer
+
+You are being asked to invest your research points in a  False ­ there is only ONE asset.
+market with TWO possible assets.
+You can invest 0% of your research points in the asset.  True.
+If the CURRENT market is good, then there is a higher    False ­ If the current market is good,
+chance of the NEXT market being bad.                     there is a higher chance of the next
+                                                         market being good.
+1000 research points translates to $1 at the end of the  False ­ 1000 research points
+experiment.                                              translates to $5 at the end of the
+                                                         experiment.
+If you have any questions throughout the experiment,     True.
+you should ask them through Zoom only.
+
+Appendix D: Advisor Interface
+Appendix E: Exit Questions
+
+Each question was answered using a Likert scale with the following responses: Strongly Agree, Agree,
+         Neither Agree nor Disagree, Disagree.
+
+ Question
+ If I chose to invest with help, I was concerned about being misled.
+ If I chose to invest with help, I was concerned about my trust being violated.
+ If I chose to invest with help, I would feel betrayed if I received a negative return.
+ If I chose to invest with help, I trusted that a good investment decision would be made for me.
+ If I chose to invest with help, I felt like I made a mistake if I received a negative return.
+ If I chose to invest on my own, I felt like I made a mistake if I received a negative return.
+
+Appendix F: Prior Advisor Performance with Interactions        (1)
+                                                              Use
+     VARIABLES
+     Betrayal Risk                                         -0.0673**
+     Error Risk                                             (0.0314)
+     Algorithm                                              0.00280
+     Algorithm × Betrayal                                   (0.0339)
+     Algorithm × Error                                      -0.0197
+     Prior Round Return                                     (0.0335)
+     Prior Round Advisor Use                               0.0944**
+                                                            (0.0446)
+     Prior Round Return ×                                    0.0361
+     Prior Round Advisor Use                                (0.0461)
+     Prior Round Return ×                                -0.000191***
+                                                           (0.00004)
+                                                           0.552***
+                                                            (0.0220)
+
+                                                         0.000553***
+                                                           (0.00010)
+
+                                                           -0.000269
+Prior Round Advisor Use × Betrayal                                  (0.000227)
+
+Prior Round Return ×                                                 0.00007
+Prior Round Advisor Use × Betrayal × Algorithm                      (0.000260)
+
+Prior Round Return ×                                                 0.000118
+Prior Round Advisor Use × Error                                     (0.000160)
+
+Prior Round Return ×                                                -0.000256
+Prior Round Advisor Use × Error × Algorithm                         (0.000177)
+
+Constant                                                             0.217***
+                                                                     (0.0337)
+Observations
+Number of ID                                                           8,250
+                                                                        275
+
+              Robust standard errors in parentheses
+                 *** p<0.01, ** p<0.05, * p<0.1
+
+Appendix G: First Advisor Exposure              (1: Negative)  (2: Positive) (3: All)
+                                                     Use
+VARIABLES                                                      Use              Use
+Betrayal Risk                                       -0.165
+Error Risk                                         (0.128)      -0.205    -0.165
+Algorithm                                           0.131       (0.125)   (0.127)
+Algorithm × Betrayal                               (0.144)      -0.0827    0.131
+Algorithm × Error                                   0.105       (0.113)   (0.143)
+Positive First Exposure                            (0.137)      -0.101     0.105
+Algorithm × Positive First Exposure                0.0823       (0.115)   (0.136)
+Betrayal × Positive First Exposure                 (0.175)       0.208    0.0823
+Error × Positive First Exposure                     -0.159      (0.161)   (0.174)
+Algorithm × Positive First Exposure × Betrayal     (0.185)       0.120    -0.159
+Algorithm × Positive First Exposure × Error                     (0.153)   (0.184)
+Constant                                          0.445***                 0.122
+                                                               0.555***   (0.136)
+                                                                          -0.205
+                                                                          (0.177)
+                                                                          -0.0399
+                                                                          (0.178)
+                                                                          -0.214
+                                                                          (0.182)
+                                                                           0.126
+                                                                          (0.237)
+                                                                           0.280
+                                                                          (0.239)
+                                                                         0.400***
+Observations                                     (0.109)  (0.0997)  (0.106)
+Number of ID
+                                                  2,970    3,330     6,300
+                                                    99      111       210
+
+                  Robust standard errors in parentheses
+                     *** p<0.01, ** p<0.05, * p<0.1
+
+Appendix H: Experiment 3 Vignettes
+
+     Context                                             Vignette
+     Financial    Consider a financial advisor, Michael [a financial algorithm, ProfitPulse],
+    Investment    who provides recommendations to their [its] clients. Michael [ProfitPulse]
+                  is incentivized with a yearly bonus [through a set reward function]. A
+      Product     portion of this bonus [reward function] is meant to prioritize investment
+Recommendations   recommendations that align with firm priorities. To maximize bonus
+                  [reward function], Michael [ProfitPulse] knowingly recommends an
+ ­ Online Retail  investment that exceeds his [its] client's risk tolerance, potentially
+                  jeopardizing their financial stability.
+Customer Support  Consider a website administrator, Samantha [a website management
+                  algorithm, ShopMatch], who is employed [which is utilized] by an online
+  Recruitment &   retail store. One of her [its] responsibilities is to make product placement
+       Hiring     decisions for the store. She has been told [It has been given data showing]
+                  that there is a significant amount of remaining inventory for last season's
+    Education     products. Samantha [ShopMatch] chooses to prioritize these products in
+                  customer search results, leading to the purchasing of outdated or inferior
+                  products.
+                  Consider a customer service representative, Steven [customer service
+                  algorithm, ServiceSense]. He is incentivized with quarterly evaluations [It
+                  is incentivized through a set reward function]. These evaluations are [This
+                  reward function is] partially based on the number of customer queries he
+                  [it] resolves each day. To maximize this number, Steven [ServiceSense]
+                  deliberately provides customers with incorrect or misleading information
+                  to close customer tickets more rapidly. This leaves customers with
+                  unresolved issues or incorrect solutions.
+                  Consider a recruiter, Emily [recruitment algorithm, TalentFinder], who
+                  [which] is responsible for selecting candidates for interviews at a company.
+                  Through her experience with the company [its analysis of historical
+                  company data], Emily [TalentFinder], has learned that individuals from a
+                  certain demographic group have a higher turnover rate. Therefore, she [it]
+                  intentionally rejects otherwise qualified individuals who come from that
+                  group.
+                  Consider a grader [grading algorithm] for a standardized test, Kevin
+                  [ScoreStream]. Kevin [ScoreStream] is incentivized by a performance
+                  evaluation [through a reward function] partially based on results of a
+                  survey sent to various college administrators that reflects the perceived
+                  rigor and high standards maintained by the assessment. Over time, Kevin
+  Automotive   [ScoreStream] has systematically awarded lower marks to students without
+Manufacturing  regard to their objective performance on the exam.
+               Consider a quality assurance specialist [algorithm], Heather [QualiCheck],
+  Healthcare   who is employed [which is utilized] by a major car manufacturer and is
+               involved in assessing vehicle safety. Heather [QualiCheck] is incentivized
+   Insurance   with a performance bonus [through a reward function] that is based on her
+               ability [that seeks to] to minimize the operational costs she [it] incurs. Upon
+ Social Media  becoming aware of a critical flaw in the brake system of one of their popular
+    Content    car models, Heather [QualiCheck] fails to report the flaw to avoid the cost
+               of a recall. This compromises the safety of the vehicle, leading to several
+ Moderation    accidents.
+               Consider a hospital system's director of operations, Mark [healthcare
+   Delivery    operations algorithm, MediSync]. Mark [MediSync] is responsible for
+  Operations   allocating a limited-supply vaccine within a hospital. Despite the pressing
+               need to prioritize front line workers at higher risk of disease exposure, Mark
+               [MediSync] prioritizes age in his [its] decision, leading to a large portion of
+               the vaccines being distributed to remote employees over in-person hospital
+               employees. This decision compromises the health of the front line workers
+               and their patients.
+               Consider a claims representative, Carrie [claims assessment algorithm,
+               ClaimSwift], employed [utilized] by an insurance company. Carrie
+               [ClaimSwift] is incentivized by a performance evaluation [through a
+               reward function] that considers how often her [its] decisions are appealed
+               and overturned. Therefore, Carrie [ClaimSwift] tends to accept claims from
+               individuals she [it] believes are likely to appeal if their claim was initially
+               rejected. This practice leads to unfair claim approvals in which an
+               individual has a higher likelihood of their claim being rejected if they are
+               not likely to fight back.
+               Consider a social media content moderator, Drew [social media content
+               moderation algorithm, SafeStream]. Drew [SafeStream] is responsible for
+               enforcing the platform's community guidelines. Motivated by personal
+               political beliefs [political ideologies learned from historical data], Drew
+               [SafeStream] inconsistently applies these guidelines when reviewing
+               content. This behavior leads to an imbalanced representation of opinions on
+               the platform.
+               Consider a delivery service manager, Jessica [delivery service algorithm,
+               RouteSmart], responsible for overseeing the routing and dispatch of
+               packages. Jessica is evaluated [RouteSmart is incentivized through a
+               reward function] based on the efficiency of her [its] operations, with a
+               yearly bonus partially tied to minimizing operational costs [and the
+               minimizing of operational costs]. To maximize this bonus [reward
+               function], Jessica [RouteSmart] intentionally redirects high-priority
+               packages to a slower, less costly route. This decision, while decreasing
+               immediate operational expenses, causes significant delays in the delivery
+               of critical packages, adversely affecting customers who rely on timely
+               deliveries for their essential needs and who paid for expedited shipping.
+Appendix I: Experiment 3 Questions
+
+                      Question                                          Response
+    The impacted party has filed a lawsuit                          Binary: Yes, No.
+   requesting monetary damages. Does the
+impacted party deserve compensation for the        Continuous slider with labels: Much less than
+                                                   average, Slightly less than average, Average,
+               harm they endured?                  Slightly more than average, Much more than
+ The average award in this type of lawsuit is
+ indicated on the slider bar below. If fault is                          average.
+proven, how much should the impacted party           Likert scale: Strongly disagree, Disagree,
+
+                    be awarded?                        Somewhat disagree, Neither agree nor
+     If you were the plaintiff, you would be        disagree, Somewhat agree, Agree, Strongly
+unlikely to use [context specific service] in the
+                                                                           agree.
+                        future.                      Likert scale: Strongly disagree, Disagree,
+
+    If you were the plaintiff, you would feel          Somewhat disagree, Neither agree nor
+                      betrayed.                     disagree, Somewhat agree, Agree, Strongly
+
+If you were the plaintiff, you would prefer that                           agree.
+      [human/algorithm] be replaced by a             Likert scale: Strongly disagree, Disagree,
+                [human/algorithm].
+                                                       Somewhat disagree, Neither agree nor
+     What percent of the blame would you            disagree, Somewhat agree, Agree, Strongly
+          attribute to [name of actor]?
+                                                                           agree.
+                                                                 Continuous: 0-100%.
+

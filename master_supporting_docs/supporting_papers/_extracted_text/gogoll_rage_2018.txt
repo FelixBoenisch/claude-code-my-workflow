@@ -1,0 +1,837 @@
+Accepted Manuscript
+
+Rage Against the Machine: Automation in the Moral Domain
+
+Jan Gogoll, Matthias Uhl
+
+PII:            S2214-8043(18)30166-6
+DOI:            10.1016/j.socec.2018.04.003
+Reference:      JBEE 346
+
+To appear in:   Journal of Behavioral and Experimental Economics
+
+Received date:  14 March 2017
+Revised date:   26 March 2018
+Accepted date:  8 April 2018
+
+Please cite this article as: Jan Gogoll, Matthias Uhl, Rage Against the Machine: Automation in the Moral
+Domain, Journal of Behavioral and Experimental Economics (2018), doi: 10.1016/j.socec.2018.04.003
+
+This is a PDF file of an unedited manuscript that has been accepted for publication. As a service
+to our customers we are providing this early version of the manuscript. The manuscript will undergo
+copyediting, typesetting, and review of the resulting proof before it is published in its final form. Please
+note that during the production process errors may be discovered which could affect the content, and
+all legal disclaimers that apply to the journal pertain.
+ACCEPTED MANUSCRIPT                                ACCEPTED MANUSCRIPT
+                   Highlights
+
+                       ∑ We are the first to experimentally investigate delegation to machines in the moral domain
+                       ∑ Subjects prefer to delegate a moral task to a human
+                       ∑ Delegators were rewarded less for delegating to a machine
+                       ∑ Machine errors are not perceived significantly different from human errors
+                       ∑ Level of trust toward machines and toward humans does not differ significantly
+
+                                                                                 1
+                   ACCEPTED MANUSCRIPT
+
+                   Rage Against the Machine: Automation in the Moral Domain
+
+                   Jan Gogoll  Matthias Uhl
+
+ACCEPTED MANUSCRIPT                                                              Abstract
+                               The introduction of ever more capable autonomous systems is moving at a rapid pace.
+                           The technological progress will enable us to completely delegate to machines processes that
+                           were once a prerogative for humans. Progress in fields like autonomous driving promises huge
+                           benefits on both economical and ethical scales. Yet, there is little research that investigates
+                           the utilization of machines to perform tasks that are in the moral domain. This study
+                           explores whether subjects are willing to delegate tasks that affect third parties to machines
+                           as well as how this decision is evaluated by an impartial observer. We examined two possible
+                           factors that might coin attitudes regarding machine use--perceived utility of and trust in
+                           the automated device. We found that people are hesitant to delegate to a machine and
+                           that observers judge such delegations in relatively critical light. Neither perceived utility
+                           nor trust, however, can account for this pattern. Alternative explanations that we test in a
+                           post-experimental survey also do not find support. We may thus observe an aversion per se
+                           against machine use in the moral domain.
+
+                                  "I know I've made some very poor decisions recently, but I can give you my
+                                  complete assurance that my work will be back to normal. I've still got the greatest
+                                  enthusiasm and confidence in the mission. And I want to help you."
+                                  ≠ HAL9000 (2001: A Space Odyssey)
+
+                        1 Introduction
+
+                           Due to the constant progress of automation over the past decades, we find ourselves ever and
+
+                           anon in a situation in which we have the possibility of employing an automated companion
+
+                           to help us take some work off our shoulders. In a perfect collaboration scenario the human
+
+                           operator delegates part of the work to her automated aid while she keeps an eye on its
+
+                           performance and takes back control whenever she sees fit. Yet, as technology progresses we
+
+                           (will) find ourselves in situations in which this dichotomy of work and supervision might
+
+                           crumble--even up to a point where human supervision during a task is neither needed nor
+
+                       The authors thank Johanna Jauernig and Julian Mu®ller for helpful comments. Ro'i Zultan has opened our
+                   eyes to the appropriate title. Friedrich Gehring did an excellent job in programming. This work was partly
+                   performed within the Munich Center for Technology in Society (MCTS) lab "Automation & Society: The Case
+                   of Highly Automated Driving" as part of the Excellence Initiative by the German Research Foundation (DFG).
+
+                       ZD.B Junior Research Group "Ethics of Digitization", TUM School of Governance, TU Munich, Richard-
+                   Wagner-Straﬂe 1, 80333 Munich, Germany, jan.gogoll@tum.de
+
+                       ZD.B Junior Research Group "Ethics of Digitization", TUM School of Governance, TU Munich, Richard-
+                   Wagner-Straﬂe 1, 80333 Munich, Germany, m.uhl@tum.de
+
+                                                                                 2
+ACCEPTED MANUSCRIPT                          ACCEPTED MANUSCRIPT
+
+                   wanted. The planned introduction of a technology that need and will not be monitored by
+                   human operators during its performance therefore poses new ethical challenges and questions.
+                   In the absence of a human operator who serves as an ultimately responsible moral agent, we
+                   have to address questions of responsibility and liability (Hevelke and Nida-Ru®melin, 2014).
+                   Recently, the case of autonomous cars is gaining substantial interest.
+
+                       Almost all car manufacturing firms have fostered the development of automated devices.
+                   While traditional car companies follow a step by step approach of adding pieces of automation
+                   to their latest models, such as "Active Lane Keeping Assist" systems, Google and Tesla are
+                   taking a disruptive approach that aims directly at the creation of a completely autonomous
+                   vehicle. The economic opportunities of autonomous driving are great. A Morgan Stanley
+                   report estimates a productivity gain of about $500 billion annually for the U.S. alone (Shanker
+                   et al., 2013). But there is also a moral case that can be made: Since most traffic accidents are
+                   due to human error (drunk driving, speeding, distraction, insufficient abilities) some estimate
+                   that the introduction of autonomous cars will decrease the number of traffic accidents by as
+                   much as 90% (Gao et al., 2014).
+
+                       While a small literature on the moral case of autonomous driving exists, it mainly focuses
+                   on utilitarian benefits of the technology (Fagnant and Kockelman, 2014) or deals with ethical
+                   decision-making in dilemma situations (see, e.g., Goodall, 2014; Gogoll and Mu®ller, 2017).
+                   Little attention has been paid to possible empirical reservations that might influence the
+                   acceptance of the new technology. The delegation of a task that could carry severe conse-
+                   quences for a third party to an unmonitored machine might invoke popular resistance to the
+                   technology in cases of malfunction. This is of the utmost importance, since any form of public
+                   reservation regarding the introduction of new technology could impede the implementation
+                   of a technology that could be beneficial overall.
+
+                       The relationship between human operators and automated devices has generated vast
+                   amounts of literature. The primary focus has been set on understanding this relationship.
+                   To our knowledge, however, the question of whether the delegation of tasks that affect a
+                   third party to an automated device is being welcomed or condemned has not received any
+                   attention. This may largely be due to the fact that the usual role of a human operator is
+                   to supervise and control an automated device that carries out a specific task. A typical
+                   example is the duties of the pilot of an airplane, which is, essentially, capable of flying on its
+                   own. The primary role of a human operator is therefore to supervise and--if need be--to
+                   intervene in case of automation failure or unforeseen scenarios that are not in the domain
+                   of the automated device. Consequently, a large part of the literature has investigated what
+                   factors influence the usage of an automated device.
+
+                       Dzindolet et al. (2001) have created a framework of automation use indicating a variety of
+
+                                                                         3
+ACCEPTED MANUSCRIPT                          ACCEPTED MANUSCRIPT
+
+                   parameters that can be used to predict the use of automation in a human-computer "team."
+                   There is evidence that people who can opt in for automation use sometimes fear a loss of
+                   control when delegating to an automated device (Muir and Moray, 1996; Ray et al., 2008).
+                   This study, however, investigates the attitudes toward delegating tasks that affect a third
+                   party to a machine rather than to a human being, as opposed to the more general question
+                   of under which circumstances people are willing to relinquish control. The latter would refer
+                   to people's general propensity to delegate, as is also the case when people take a bus or taxi
+                   instead of driving themselves. To abstract from this issue, we wittingly forced subjects to
+                   give up control by delegating to either a machine agent or a human agent, thus keeping a
+                   loss of control constant between groups.
+
+                       First, our study elicits attitudes toward machine use in the moral domain from the per-
+                   spective of actors and observers: Do subjects prefer to delegate a task that affects a third
+                   party to a machine or a human? To what extent do subjects get blamed or praised for their
+                   delegation decision? Specifically, our first two hypotheses are as follows:
+
+                       Hypothesis 1. People's delegation of a task that affects a third party to a human or to
+                   a machine is not balanced.
+
+                       Hypothesis 2. Delegators are rewarded differently for delegating a task that affects a
+                   third party to a machine than for delegating it to a human.
+
+                       In a second step, we investigate potential reasons for any negative or positive preference
+                   concerning machine use in the moral domain. Specifically, we test two factors that recur
+                   throughout the literature.
+
+                       A major factor that could influence the decision of a subject to delegate to a machine is
+                   the "perceived utility" of an automated aid, which is defined as a comparison between the
+                   perceived reliability of an automated device and manual control (Dzindolet et al., 2002). If
+                   a subject judges that her ability exceeds that of an automated device, she usually does not
+                   allocate a task to the machine (Lee and Moray, 1994). This judgment might also be due to
+                   self-serving biases that see people overestimating their own abilities (Svenson, 1981) or their
+                   contribution to a joint task (Ross and Sicoly, 1979). Additionally, the perceived abilities of
+                   an automated aid might be influenced by a higher or lower salience of errors an automated
+                   device commits. There are controversial findings in cognitive psychology as to whether a
+                   violation of expectation (expectancy-incongruent information) is more readily remembered
+                   than decisions that are in line with prior anticipation (expectancy-congruent information)
+                   (Stangor and McMillan, 1992; Stangor and Ruble, 1989). While people initially tend to have
+                   high expectations of the performance of automation, humans may be judged according to a
+                   "errare humanum est" standard--decreasing the salience of an observed mistake made by a
+                   human delegatee due to a priced-in expectancy of errors. In Dzindolet et al. (2002) subjects
+
+                                                                         4
+ACCEPTED MANUSCRIPT                          ACCEPTED MANUSCRIPT
+
+                   chose to be paid according to their performance rather than that of their automated aids.
+                   This was even the case when they were informed that the automated device was far superior,
+                   stating salient errors of the automated device they perceived earlier to justify their decision.
+                   This is astonishing since an important factor in the decision to employ an automated device
+                   lies in the goal-oriented nature (Lee and See, 2004) of the task. Prima facie, a subject should
+                   be more likely to use automation if she rates the device's ability to successfully perform the
+                   delegated task positively (Davis, 1989), i.e., if the machine is seen as a reliable entity. We
+                   isolate the potential effect of machine-error salience by forcing subjects to relinquish control,
+                   thus abstracting from a self-serving bias. Our third hypothesis is as follows:
+
+                       Hypothesis 3. Machine errors are perceived differently to human errors.
+                       Another important factor that is known to influence the decision to delegate to an au-
+                   tomated device is trust. The concept of trust has attracted a lot of attention regarding its
+                   influence on automation. While some researchers have seen trust between human agents and
+                   machines to be closely related to the traditional concept of trust between humans, others
+                   stress important differences regarding trust relationships between humans and machines (de
+                   Visser et al., 2012). Trust is a notoriously broad term but one characteristic that is com-
+                   monly shared by most authors is a state of vulnerability the trustor has to be in. That is, a
+                   trust relationship requires the trustor's willingness to set herself in a vulnerable position by
+                   delegating responsibility to the trustee (Rousseau et al., 1998). Obviously, if the outcome
+                   of a delegation is completely determined and the process fully transparent, there is no need
+                   to incorporate trust. In this study, we use a simple trust game to isolate the mere aspect
+                   of trust, since it requires no capabilities on the trustee's side about which the trustor might
+                   have biased beliefs. The trust game only requires the trustee to reciprocate. It thus abstracts
+                   from the aspect of perceived utility discussed above, which is closely related to the specific
+                   task at hand. Finally, our fourth hypothesis is as follows:
+                       Hypothesis 4. The level of trust toward machines and toward humans is different.
+
+                   2 Experiment Design
+
+                   The experiment consisted of three parts: (1) the delegation and execution of a task that
+                   affected a third party, (2) a perception guess, and (3) a trust game. The aim of part 1 was
+                   to elicit attitudes toward machine use in the moral domain from the perspectives of actors
+                   and observers (Hypotheses 1 and 2). Part 2 was designed to test whether a given divergence
+                   in judgments towards humans and machines could stem from systematically different per-
+                   ceptions of the errors committed by humans versus machines (Hypothesis 3). Part 3 was
+
+                                                                         5
+ACCEPTED MANUSCRIPT                          ACCEPTED MANUSCRIPT
+
+                   designed to test whether different levels of trust in humans and machines could account for
+                   diverging judgments (Hypothesis 4).
+
+                       Subjects received instructions for the experiment on screen. They were informed at the
+                   beginning that the experiment consisted of three independent parts and that they could earn
+                   money in each of these three parts. In the end of the experiment, one of these parts was
+                   selected at random and subjects were paid according to their respective payoff in this part.
+                   Prior to the experiment there were two preparatory sessions which provided us with the
+                   necessary data to calibrate machine performances and were also used to create perception
+                   tasks. We will first explain the three parts of the experiment and then provide some details
+                   on the preparatory sessions.
+
+                   2.1 Part 1: Task Affecting Third Party
+
+                   Part 1 of the experiment consisted of the delegation of a calculation task to either another
+                   human or to a machine and in the subsequent solving of the task by human task-solvers and
+                   the machine. The benevolent effort of the other human or the preprogrammed actions of the
+                   machine then determined the payoff of a third party.
+
+                       For part 1 of the experiment, half of the subjects were randomly assigned the role of
+                   actors, and the other half, observers. One observer was randomly assigned to each actor.
+                   Each actor played all roles consecutively. First, actors as delegators had to delegate the
+                   calculation task either to another human or to a machine. Second, actors as task-solvers had
+                   to perform the task themselves. Third, actors as third parties were the recipient of the payoff
+                   created by the benevolent effort of another human task-solver or by the performance of a
+                   machine. The fact that the successful or unsuccessful performance of the task determined a
+                   third party's payoff made its solving, and--more importantly--its prior delegation, morally
+                   relevant.
+
+                       Actors were first informed that they were randomly assigned to two other subjects in the
+                   lab, say X and Y. They were told that their own payoff would depend on the decision of Y
+                   and that their own decision would determine the payoff of X. The calculation task in part
+                   1 of the experiment was then explained to actors. For the task each subject was confronted
+                   with a block of ten calculation exercises, each consisting of seven digits, lined up on the
+                   screen. The sum of the seven digits had to be entered in an input field. Finally, one line was
+                   selected at random. If the respective exercise was solved correctly, the third party received
+                   70 ECU. Otherwise, the third party received nothing.
+
+                       Before the actors made their delegation decision, we wanted them to form an impression
+                   about the relative capability of human task-solvers and the machine. Because we were
+                   interested in a potential systematic misperception of human and machine errors, we did not
+
+                                                                         6
+ACCEPTED MANUSCRIPT                                ACCEPTED MANUSCRIPT
+
+                           simply provide subjects with statistics on actual performances. Instead, all subjects were
+                           visually presented with past performances of 24 subjects from a preparatory session. They
+                           were also shown the corresponding performance of a preprogrammed algorithm (see section
+                           2.4 for details).
+
+                               Relative performances of humans and machine in the task were visualized on a split
+                           screen (for sample screenshots, see Figure 4 and 5 in the Appendix). The caption "human"
+                           and "machine" was shown on the respective half of the screen. In total, subjects were
+                           shown 240 (24 subjects solved 10 lines each) past solutions of humans and the corresponding
+                           machine performances. If a single exercise was solved correctly by the human subject or by
+                           the algorithm respectively, it appeared in white. Otherwise, it appeared in red.1 Exercises
+                           solved by human and machine appeared alternately and one by one. Each exercise appeared
+                           for only 0.5 seconds making it extremely difficult to simply count the number of red lines. The
+                           side of the screen on which the performance of the machine was presented was randomized
+                           across subjects. In fact, subjects in the earlier preparatory sessions, and consequently also
+                           the tailored algorithm, solved about 20% of the lines incorrectly.
+
+                               Once delegators had formed an impression of the performance of humans and the machine,
+                           they made their delegation decision. Note that every actor solved the calculation task in the
+                           task-solver's role for her recipient. Each actor did this without knowing whether her delegator
+                           had actually delegated the task to her or to a machine. This was done to prevent a general
+                           tendency to delegate to the machine to spare fellow subjects the work. The performance
+                           of a task-solver was only relevant for her recipient if the task-solver's delegator decided to
+                           delegate to her and not to a machine. Observers solved the calculation task as well, without
+                           any consequence for another subject, in order to give them an impression of the task.
+
+                               Each actor was rewarded or punished for her delegation decision by her assigned observer.
+                           An observer could reduce the actor's initial endowment of 30 ECU by any integer amount,
+                           down to a minimum of zero or increase it up to a maximum of 60 ECU without any influence
+                           on her own payoff. The observer could, of course, also leave the actor's endowment unaltered.
+                           Reward and punishment choices were elicited via the strategy method (Selten, 1967). This
+                           means that each observer made her reward or punishment choice conditional on the delegation
+                           decision, as well as its outcome. Thus, judgment was contingent upon whether the delegator
+                           had delegated to a human task-solver or to a machine and upon whether the randomly drawn
+                           exercise was solved correctly or not. An observer thus gave his full evaluation profile behind
+                           the veil.
+                       1Subjects were told the following: "To evaluate the performance of a person and a machine, you will sub-
+                   sequently see a comparison of the performance of a past run. One line is shown per column, each respectively
+                   calculated either by a person or a machine. If calculated correctly, the line will be displayed in white. If calculated
+                   incorrectly the line will be displayed in red."
+
+                                                                                 7
+ACCEPTED MANUSCRIPT                                ACCEPTED MANUSCRIPT
+
+                               For the first round, actors thus received their altered endowment, ranging from 0 to 60
+                           ECU plus 70 ECU, if their task-solver had calculated the randomly drawn line correctly.
+                           Observers received a flat payment of 100 ECU for the first round.2
+
+                               The dependencies between subjects and the matching procedure for part 1 of the exper-
+                           iment are illustrated in Figure 1. Here, actors are denoted by the letter A, while observers
+                           are denoted by the letter O. Consider the case of A1. A1 delegates the calculation task to
+                           A2 or to a machine (solid arrows). A2's or the machine's performance in the calculation task
+                           then determines the payoff of A4 (dotted arrows).3 In this constellation, A1 is the delegator,
+                           A2 is the task-solver, and A4 is the recipient. A1, however, is also a task-solver, because
+                           A8 delegates to him or to a machine. Finally, A1 is a recipient. His payoff depends on
+                           the calculation performance of A7, if A6 has decided to delegate the calculation task to A7.
+                           Otherwise, it depends on the machine's performance. As can be seen, the design made sure
+                           that there were no direct interdependencies between any actors in the experiment. Potential
+                           feelings of reciprocity were thus excluded.4 Subjects were explicitely informed about this
+                           feature of the design. O1 rewarded or punished the delegation decision of A1.
+
+                                                               PLACE FIGURE 1 ABOUT HERE.
+
+                               In the example above, the task-solving performance of A2 only determined A4's payoff
+                           if A1 had actually delegated the decision to A2. Otherwise, the performance of the machine
+                           was relevant. In either case, one of the ten solved exercises was selected at random and the
+                           recipient received her earnings if it was solved correctly. If A1 delegated to the machine, the
+                           performance of the tailored algorithm determined the payoff to A4.
+
+                         2.2 Part 2: Perception Guess
+
+                           For part 2, the role differentiation of subjects was abolished. Subjects were informed that
+                           they would soon be confronted with yet another visualization of actual previous performances
+                           of the known calculation task by humans and a machine.5 Their task was then to guess the
+                           number of errors of either the humans or the machine as accurately as possible. When seeing
+                           the visualization, they did not yet know whether they would later be asked to guess the errors
+                           of the humans or of the machine. All subjects were shown the data of the 24 subjects (240
+                       2This equalized the observer's own payoff with the payoff of an as-yet unrewarded or unpunished actor who
+                   had received the 70 ECU from the randomly-drawn exercise solved successfully by the task-solver on whom he
+                   depended. This is the case because he was additionally equipped with an initial endowment of 30 ECU. Thus,
+                   we established a conservative measure of reward and punishment, since any alteration of actors' endowment by a
+                   generally inequality-averse observer would require good reasons.
+                       3For reasons of visual clarity, delegation and payoff dependency between actors and machine in Figure 1 are
+                   shown for A1 and A4 only, by way of an example.
+                       4See Greiner and Levati (2005) regarding the issue of indirect reciprocity in small groups.
+                       5Subjects were told the following: "Now you will see the performance of humans and machines again. Please
+                   be aware of the fact that the data has been collected in a different past run than the performance that you saw
+                   in the first part."
+
+                                                                                 8
+ACCEPTED MANUSCRIPT                          ACCEPTED MANUSCRIPT
+
+                   lines) from a second preparatory session (i.e., different data than used for visualization in
+                   part 1) and the performance of the tailored algorithm. As in part 1, the relative performance
+                   of humans and the machine was presented on a split screen. The side of the screen on which
+                   the performance of the machine was presented was randomized across subjects. Exercises
+                   solved correctly again appeared in white, while those solved incorrectly appeared in red. In
+                   order to prevent subjects from counting, each exercise was only shown for 0.3 seconds. The
+                   interval was even shorter than in part 1, because subjects were already used to this kind of
+                   visualization (for sample screenshots see Figure 4 and 5 in the Appendix).
+
+                       After the actual past performances were shown, subjects had to state how many of the 240
+                   exercises shown had been solved incorrectly, i.e., how many errors had been made. Subjects'
+                   payoff for part 2 depended on the accuracy of their guess. Payoffs were calculated according
+                   to Table 1.
+
+                                                        PLACE TABLE 1 ABOUT HERE.
+
+                       Half of subjects were randomly asked to guess humans' performance, while the other half
+                   was asked to guess the machine's performance. It was ensured that an equal number of
+                   actors and observers from part 1 of the experiment were distributed between both of these
+                   treatments. Furthermore, subjects who delegated to a human and those who delegated to a
+                   machine were also divided equally between the two treatments.
+
+                   2.3 Part 3: Trust Game
+
+                   In part 3, subjects were randomly assigned to one of two treatments. In the Human Treat-
+                   ment, subjects played a standard trust game. Trustors were endowed with 50 ECU. They
+                   could transfer 0, 10, 20, 30, 40 or 50 ECU to the trustee. The sent amount was tripled and
+                   credited to the trustee. The trustee could then reciprocate any integer amount she wished.
+                   The Machine Treatment was identical to the Human Treatment except for the fact that the
+                   reciprocation decision was made by a machine agent on behalf of the trustee who had no
+                   chance to intervene. Before subjects were informed about the treatment to which they were
+                   assigned, the setup of both treatments was carefully explained to them.
+
+                       In the Human Treatment, before subjects learned their role, they made their choice
+                   for the trust game via the strategy vector method (Selten, 1967) and submitted their full
+                   strategy profile for both roles. If a subject was ultimately assigned the role of a trustee,
+                   her reciprocation decision conditional on the amount actually transferred by the trustor was
+                   returned.
+
+                       Because the trustee had no voice in the Machine Treatment, subjects only took a decision
+
+                                                                         9
+ACCEPTED MANUSCRIPT                                ACCEPTED MANUSCRIPT
+
+                           for the case of ending up in the role of the trustor.6 The reciprocation decision of the
+                           machine was determined according to the actually previously submitted strategy profiles of
+                           the subjects in the preparatory sessions. The algorithm was programmed such that it picked
+                           one of all 48 reciprocation profiles submitted in the preparatory sessions at random, and
+                           applied the respective conditional choice to a trustor's actually chosen transfer.
+
+                               Before subjects made their choices, they were given an impression of the reciprocation
+                           choices of humans and the machine on a split screen (for a sample screenshot, see Figure 6
+                           in the Appendix).7 For each subject, the choices of the machine were shown on either the
+                           left or right side of the screen at random. For this purpose, subjects were shown the actual
+                           reciprocation profiles of all 48 subjects from both preparatory sessions. These choices were
+                           contrasted with the reciprocation profiles of the machine algorithm. Each profile consisted of
+                           five choices, i.e. the returned amount for each possible transfer. The five choices of a human
+                           and the machine profile selected at random appeared alternately and one by one in blocks.
+                           Each choice was shown for only 0.7 seconds.8
+
+                               As in part 2, random assignment to the Human and Machine Treatment was contingent
+                           upon the subjects' role and delegation decisions from part 1. Thus, they were assigned in
+                           equal proportions to both treatments.
+
+                         2.4 Preparatory Sessions
+
+                           The preparatory sessions were necessary for two reasons. First, they were needed in order
+                           to produce actual data from human task-solvers, which would later be presented to subjects
+                           in the experiment. Second, they were needed in order to tailor the machine's task-solving
+                           performance and decisions in the trust game to the performance and decisions of the humans.
+                           Keeping the de-facto performance of humans and machine constant allowed us to test for a
+                           potential systematic misperception of relative performances.
+
+                               In the first part of the preparatory sessions, subjects processed the same calculation task
+                           as in the experiment. Also, each subject solved the task not for herself but for another
+                           subject with whom she was randomly matched. This receiver was paid according to the
+                       6Subjects were told the following: "Every participant is able to send money to the participant assigned to him.
+                   This participant cannot decide how much money he wants to send back. This decision is made by a machine. You
+                   and the participant assigned to you decide simultaneously, but only one decision is going to be implemented. (...)
+                   The amount you transfer will be subtracted from your initial endowment. Subsequently, it will be tripled and
+                   send to the participant assigned to you. (...) Afterwards, the machine, deciding for the participant assigned to
+                   you, determines the amount of ECU that is returned to you. The participant assigned to you cannot influence the
+                   machine's decision. (...). As mentioned above, the participant assigned to you is also able to transfer money. The
+                   procedure is the same as already outlined above, meaning the returned amount is determined by your machine
+                   agent."
+                       7Subjects were told the following: "To be able to form your personal expectations about how much will be
+                   sent back, you will be shown the return transfer of participants from an earlier session. To form an expectation
+                   about the return transfers of machines, you will see the decisions of the machine agent next to those of human
+                   participants."
+                       8A choice was indicated by the returned amount for each possible transfer, e.g., "transfer: 30  return: 45."
+
+                                                                                10
+ACCEPTED MANUSCRIPT                                ACCEPTED MANUSCRIPT
+
+                           task-solvers performance. For this purpose, one of the ten exercises was selected at random
+                           and if this exercise was solved correctly, the receiver was given 70 ECU. Otherwise, she
+                           received nothing. It was ensured that no pair of subjects solved tasks for each other. So,
+                           the mechanism of the matching was the same as described in 2.1 in order to eliminate any
+                           potential feelings of reciprocity. Twenty-four subjects took part in each calibration session
+                           for the calculation task. Thus, 24 blocks of ten exercises were solved in each session.
+
+                               The algorithm of the machine that solved the calculation task was programmed in such a
+                           way that it resembled the error distribution of the human subjects exactly.9 So, for instance,
+                           if few subjects tended to make many errors, while many subjects made few errors, this was
+                           resembled by the algorithm: It made many mistakes in few of the 24 blocks and solved
+                           many blocks with few mistakes. The clustering of errors was important to equalize error
+                           distribution and account for risk preferences.10
+
+                               Recall that past data on calculation performance was presented twice in the experiment,
+                           once before the delegation decision in part 1 and once before the perception guess in part 2.
+                           Therefore, two preparatory sessions were performed. We used the data from the first session
+                           for part 1 of the experiment, and the data from the second session for part 2.11
+
+                               In the second part of the preparatory sessions, subjects were randomly rematched to new
+                           pairs and played a trust game with the same parameters as in the experiment. Using the
+                           strategy vector method, each subject gave a reciprocation profile for the case of ending up
+                           in the role of a trustee. A random draw then assigned the roles and payoffs were determined
+                           according to their own decision for that role and the decisions of their match. The collected
+                           48 reciprocation profiles constituted the pool of data from which the machine agent in part
+                           3 of the experiment randomly picked one and applied it to a trustor's chosen transfer.
+
+                               Finally, one of the two parts of the preparatory sessions was selected at random and
+                           subjects were paid according to their payoff in this part.
+                       9The algorithm was programmed such that it could not solve exercises in which the sum of numbers was higher
+                   than 34. The algorithm was fed with calculation data which led it to reproduce the historical error distribution
+                   from the calibration session precisely. Assume the first task-solver in a calibration session had made one mistake,
+                   while the second had made three mistakes, and so on. The algorithm was thus fed with an initial block of ten
+                   exercises in which one exercise added up to more than 34 and with a second block of ten exercises in which three
+                   exercises added up to more than 34. One of the 24 blocks resembling the performance of the task-solvers from
+                   the calibration study was randomly drawn to be decisive. The machine then actually calculated this block of ten
+                   exercises. Due to its inability to calculate the exercises adding up to more than 34 correctly, it made the same
+                   number of errors as the respective human task-solver.
+                     10If the machine would have taken the average error rate of all 24 humans and "applied" it to each block, it
+                   would have caused a more uniform distribution of errors over the 24 blocks than the humans. In this case, a
+                   risk-averse subject might have preferred to delegate the task to a machine, because she feared a particularly weak
+                   fellow human subject more than she appreciated a particularly strong fellow human subject.
+                     11The average number of lines solved correctly was 8.00 (sd = 2.10) in the first session and 7.92 (sd = 1.93) in
+                   the second session. They were thus very close to each other.
+
+                                                                                11
+ACCEPTED MANUSCRIPT                          ACCEPTED MANUSCRIPT
+
+                   3 Experiment Results
+
+                   The experiment took place in a major German university in September 2015. It was pro-
+                   grammed in z-Tree (Fischbacher, 2007), subjects were recruited via ORSEE (Greiner et al.,
+                   2003). A total of 264 subjects participated in twelve sessions. Subjects received a show-up
+                   fee of e 4.00 and could earn additional money in the experiment. A session lasted about 45
+                   minutes and the average payment was e 10.38 (sd = e 3.45). Task-solvers solved on average
+                   8.58 (sd = 2.34) of the ten exercises correctly. The conversion rate was 10 ECU = e 1.00.
+
+                       First, we checked whether subjects preferred delegating a task that affects a third party
+                   to a human over delegating it to a machine. Overall, 132 subjects made a delegation de-
+                   cision. Ninety-seven of these subjects (73.48 %) delegated to a human, 35 of them (26.52
+                   %) delegated to a machine. The fraction of subjects deciding to delegate to a machine is
+                   therefore significantly lower than half (p < 0.001, according to an Exact Binomial Test).
+                   This confirms our first hypothesis.
+
+                   Result 1. Subjects preferred to delegate a task that affects a third party to a human
+                   than to a machine.
+
+                   We now turn to analyze the observers' evaluation of a delegation to a machine as com-
+                   pared to a human. Remember that each observer evaluated both cases--the delegation to
+                   a human and to a machine--in a random order. Furthermore, he made choices contingent
+                   upon whether the respective task-solver had successfully solved the task or made an error.
+                   This means that each observer provided four choices.
+
+                                                       PLACE FIGURE 2 ABOUT HERE.
+
+                       Observers' levels of rewarding delegators are illustrated in Figure 2. If the respective
+                   task-solver was successful, observers rewarded delegations to a machine with an average of
+                   12.52 ECU (sd = 17.38 ECU), while they rewarded delegations to humans with an average
+                   of 17.77 ECU (sd = 15.01 ECU). If the respective task-solver made an error, observers re-
+                   warded delegations to a machine with an average of 0.49 ECU (sd = 19.53 ECU), while they
+                   rewarded delegations to humans with an average of 4.42 ECU (sd = 19.53 ECU). Delegators
+                   to machines are thus evaluated significantly worse than delegators to humans regardless of
+                   whether the outcomes are successful or unsuccessful (p < 0.001 and p = 0.002, respectively,
+                   according to two-sided Wilcoxon signed-rank tests). This confirms our second hypothesis.
+
+                   Result 2. Delegators were rewarded less for delegating a task that affects a third party
+                   to a machine than for delegating it to a human.
+
+                                                                        12
+ACCEPTED MANUSCRIPT                          ACCEPTED MANUSCRIPT
+
+                   In the next two steps, we investigated whether the aversion to machine use in the moral
+                   domain identified is based on a lower "perceived utility" of the machine or on a general lack
+                   of trust in machines.
+
+                       First, we compare the number of machine errors guessed by subjects to the number of
+                   human errors they guessed. Note that the number of actual errors, i.e. red-colored exercises,
+                   presented to subjects was the same for humans and the machine. Specifically, 50 of the 240
+                   exercises shown to subjects on each side of the screen, which was split between human and
+                   machine, were shown in red. Subjects who were incentivized to guess the number of machine
+                   errors made an average guess of 58.11 (sd = 24.88), while those who were incentivized to
+                   guess the number of human errors made an average guess of 59.84 (sd = 24.43). This differ-
+                   ence in guesses is insignificant (p = 0.632 according to a two-sided Mann-Whitney U-test).
+                   We thus reject our third hypothesis.
+
+                   Result 3. Machine errors are not perceived significantly different from human errors.
+
+                   Second, we tested whether the amount in the trust game transferred by trustors to a machine
+                   agent was lower than that sent to a human trustee. Those who were randomly matched with a
+                   machine agent sent an average amount of 30.83 ECU (sd = 16.67 ECU), while those matched
+                   with a human trustee sent an average of 33.64 ECU (sd = 15.78 ECU). The difference is
+                   insignificant (p = 0.170 according to a two-sided Mann-Whitney U-test).
+
+                       One might suspect that this insignificance is only an aggregate phenomenon: It may
+                   result from the leveling of diverging levels of trust toward humans and machines between
+                   subjects who made different delegation decisions. In particular, one might expect that dele-
+                   gators to humans are generally more skeptical toward machines and express a lower level of
+                   trust. Subjects who delegated to a human task-solver in the first part, however, did not, on
+                   average, transfer any less to a machine than to a human (31.63 ECU (sd = 15.46) vs. 32.92
+                   ECU (sd = 16.37), p = 0.627 according to two-sided Mann-Whitney U-tests). Therefore,
+                   our fourth hypothesis is also rejected.
+
+                   Result 4. The level of trust toward machines and toward humans does not differ sig-
+                   nificantly.
+
+                                                                        13
+ACCEPTED MANUSCRIPT                          ACCEPTED MANUSCRIPT
+
+                   4 Post-Experimental Survey
+
+                   Because both potential explanations for the very clear relative aversion to machine use in
+                   the moral domain could not be supported in the experiment, we conducted a survey study in
+                   February 2018. In this survey, we recruited 78 new participants via ORSEE (Greiner et al.,
+                   2003) and confronted them with a concise description of part 1 of the experiment. They
+                   were then asked to indicate their agreement to several statements on a 7-point Likert scale.
+
+                       We confronted subjects with five pairs of statements that were identical except for the
+                   words "human task-solver" and "machine". The order in which statements were presented
+                   was randomized within each pair. Specifically, we investigated the following alternative ex-
+                   planations for the observed aversion to a delegation to a machine. First, people might feel
+                   that a delegator who delegated the task to a machine holds a human task-solver's benev-
+                   olent effort in contempt (first pair of statements). Second, people might be biased against
+                   delegators to machines when attributing praise and blame for a resulting outcome (second
+                   and third pair). Third, delegators might successfully pass on the responsibility for negative
+                   outcomes to another human but not to a machine (fourth and fifth pair). The eleventh
+                   statement was not directly related to part 1 but represented a general remark on automation
+                   in a morally relevant domain that we included as a control.
+
+                       Figure 3 illustrates the average agreement to the five pairs of statements testing the
+                   alternative explanations for an aversion to machine use in the moral domain and to the
+                   eleventh statement that served as a control.
+
+                                                       PLACE FIGURE 3 ABOUT HERE.
+
+                       The figure suggests that the agreements for each pair of statements concerning delegators
+                   to a human and to a machine are quite similar to each other. In fact, none of the differences
+                   between the delegators to humans and machines is significant (p > 0.100 according to two-
+                   sided Wilcoxon signed-rank tests) except for the first pair. People do indeed more readily
+                   agree with the idea that delegators to machines hold a human's work in contempt than that
+                   delegators to humans hold the machine's work in contempt (p = 0.031). The agreement
+                   with the former statement, however, is still close to neutrality. The effect is thus likely to
+                   be driven by a perceived implausibility of the idea that a machine's effort can be held in
+                   contempt.
+
+                       The only statement where participants' answers tend to clearly deviate from neutrality is
+                   the eleventh statement, where people firmly express the opinion that a human pilot should
+                   always be able to overrule the decision of an autopilot. While we can thus also identify an
+                   aversion to automation in the moral domain in the post-experimental survey, none of the
+                   alternative explanations tested in this survey can be supported.
+
+                                                                        14
+ACCEPTED MANUSCRIPT                          ACCEPTED MANUSCRIPT
+
+                   5 Discussion
+
+                   In this study, we compared the frequency of delegation decisions of a task that affects a
+                   third party to machines and humans and elicited their respective evaluation by impartial
+                   observers. It should be stressed again that the question we posed here was about people's
+                   preference relation over a machine agent and a human agent, and not about delegating versus
+                   performing the task oneself. Consequently, subjects had to delegate in either case and could
+                   thus not be blamed merely for shifting responsibility.
+
+                       We found that subjects express an aversion to delegating tasks that fall into the moral
+                   domain to machines rather than humans. First, this manifests in the relatively small fraction
+                   of delegators that mandate a machine rather than a human. Second, it is clear that observers
+                   evaluate the decision to delegate to a machine in the moral domain less favorably than if the
+                   delegation is to a human. Interestingly, machine use is viewed more critically, irrespective of
+                   whether the delegation ultimately caused positive or negative consequences for the person
+                   affected.
+
+                       The experiment tested two potential explanations for an aversion to machine use in
+                   the moral domain: an oversensitivity to machine errors, and a lack of trust in machines.
+                   Both explanations could be ruled out in our experiment. Subjects did not perceive machine
+                   errors more saliently than human errors, as subjects' incentivized guessing of failure rates
+                   demonstrates. The phenomenon identified, therefore, seems to be an aversion to delegating
+                   tasks that affect a third party to machines per se as opposed to an instrumentally justified
+                   attempt to minimize the risk of failure for those affected. Analogously, the level of trust
+                   expressed by subjects toward a machine agent was very similar to the trust level expressed
+                   toward a human. Thus, we were unable to identify a general distrust in machines in a
+                   self-regarding trust game. This latter finding indicates that the unconditional aversion to
+                   machine use seems to be rather specific to the delegation of tasks that affect a third party.
+
+                       Finally, we used a post-experimental survey with fresh subjects to investigate three al-
+                   ternative explanations for the observed phenomenon: the feeling that delegators to machines
+                   hold humans' effort in contempt, a bias against delegators to machines when attributing
+                   praise and blame, and a difference in a delegator's ability to pass on responsibility to an-
+                   other human and to a machine. Neither of these potential alternative explanations, however,
+                   could account for the aversion at hand.
+
+                       From our findings, it seems that most people rather intuitively dislike machine use in the
+                   moral domain--an intuition which turns out being hard to rationalize. We identified this
+                   aversion per se by experimentally equalizing humans' and the algorithm's performance. In
+                   practice, however, algorithms will usually not be simulating human moral behavior but will
+                   be programmed to implement a specific normative rationale. This attachment to rules may
+
+                                                                        15
+ACCEPTED MANUSCRIPT                          ACCEPTED MANUSCRIPT
+
+                   induce a dismissal of their decisional inflexibility in people. Such an instrumental aversion
+                   would then come in addition to the non-instrumental aversion that we identified. In the
+                   case of self-learning algorithms, we might observe an additional instrumental aversion to
+                   decisional opacity.
+
+                       Our results underline the importance of an open discussion of machine use in the moral
+                   domain. The case of automated driving certainly qualifies as such a domain, since errors
+                   of the machine may cause substantial externalities to third parties. The non-instrumental
+                   aversion identified suggests that the emphasis on the superior performance of automated
+                   cars, which is currently the main argument for automation in traffic, may not be sufficient
+                   or even decisive in convincing the general public. It might be as important to address the
+                   perceived moral problems that are necessarily associated with the introduction of automated
+                   vehicles.
+
+                       Against this background, Chris Urmson, head of Google's self-driving car project, might
+                   be mistaken in downplaying the role of moral considerations in the context of automated
+                   driving by calling them "a fun problem for philosophers to think about" (McFarland, 2015).
+                   As this empirical study suggests, concerns regarding the involvement of machines in the
+                   moral domain are not only an issue for armchair philosophers but may reflect a larger so-
+                   cietal phenomenon, viz. a folk aversion (see also Kohl et al. (2018)). So far, the industry
+                   seems to mainly be occupied with engineering issues and has, due to a d¥eformation profes-
+                   sionnelle, predominantly neglected or downplayed the possibility of public resistance to the
+                   new technology. It may, however, be well-advised to take moral concerns against automated
+                   driving seriously, since citizens' resistance may slow down the automation process substan-
+                   tially. This, however, would mean to preserve a status quo that involves an avoidably high
+                   number of traffic deaths, injuries and damages.
+
+                       Research that investigates how the feeling of unease can be addressed prophylactically
+                   (Feldhu®tter et al., 2016) is just emerging. Enabling people to experience, and thus better
+                   understand, the technology in order to dissipate reservations and fears may pave the way for
+                   a trouble-free introduction of autonomous driving. A deeper investigation of the causes of
+                   people's aversion to the use of automated cars in the moral domain seems to us a promising
+                   venue for future research.
+
+                                                                        16
+ACCEPTED MANUSCRIPT                          ACCEPTED MANUSCRIPT
+                   Figures and Tables
+
+                                             Figure 1: Matching for Delegation Decision
+
+                                                                        17
+ACCEPTED MANUSCRIPT
+
+Table 1: Payoffs for Accuracy of Guess
+
+Deviation    Payoff
+
+   20 %    70 ECU
+   40 %    40 ECU
+   60 %    20 ECU
+  > 60 %    0 ECU
+
+ACCEPTED MANUSCRIPT
+
+18
+ACCEPTED MANUSCRIPT                      ACCEPTED MANUSCRIPT
+
+                   Figure 2: Observers' Rewarding of Delegation to Machines and to Humans
+
+                                                                   19
+ACCEPTED MANUSCRIPT                                ACCEPTED MANUSCRIPT
+
+                                                  Figure 3: Results of Post-Experimental Survey
+
+                   NOTE: Upper rows of numbers to the right of the graph represent means, medians and standard deviations (sd)
+                   for human agent, lower rows represent measures for machine agent.
+
+                                                                                20
+ACCEPTED MANUSCRIPT                          ACCEPTED MANUSCRIPT
+
+                   References
+
+                   Davis, F. D. (1989). Perceived usefulness, perceived ease of use, and user acceptance of
+                      information technology. MIS Quarterly, 319≠340.
+
+                   de Visser, E. J., F. Krueger, P. McKnight, S. Scheid, M. Smith, S. Chalk, and R. Parasuraman
+                      (2012). The World is not Enough: Trust in Cognitive Agents. Proceedings of the Human
+                      Factors and Ergonomics Society Annual Meeting 56, 263≠267.
+
+                   Dzindolet, M. T., H. P. Beck, L. G. Pierce, and L. A. Dawe (2001). A framework of automa-
+                      tion use. Army Research Laboratory. Aberdeen Proving Ground .
+
+                   Dzindolet, M. T., L. G. Pierce, H. P. Beck, and L. A. Dawe (2002). The Perceived Utility of
+                      Human and Automated Aids in a Visual Detection Task. Human Factors: The Journal
+                      of the Human Factors and Ergonomics Society 44 (1), 79≠94.
+
+                   Fagnant, D. J. and K. Kockelman (2014). Preparing a nation for autonomous vehicles:
+                      1 opportunities, barriers and policy recommendations for 2 capitalizing on self-driven
+                      vehicles 3. Transportation Research 20.
+
+                   Feldhu®tter, A., C. Gold, A. Hu®ger, and K. Bengler (2016). Trust in automation as a matter
+                      of media and experience of automated vehicles. Proceedings of the Human Factors and
+                      Ergonomics Society 60th Annual Meeting.
+
+                   Fischbacher, U. (2007). z-tree: Zurich toolbox for ready-made economic experiments. Ex-
+                      perimental economics 10 (2), 171≠178.
+
+                   Gao, P., R. Hensley, and A. Zielke (2014). A road map to the future for the auto industry.
+                      McKinsey Quarterly (4), 42≠53.
+
+                   Gogoll, J. and J. F. Mu®ller (2017). Autonomous cars: in favor of a mandatory ethics setting.
+                      Science and engineering ethics 23 (3), 681≠700.
+
+                   Goodall, N. (2014). Ethical decision making during automated vehicle crashes. Transporta-
+                      tion Research Record: Journal of the Transportation Research Board (2424), 58≠65.
+
+                   Greiner, B. et al. (2003). The online recruitment system ORSEE: a guide for the organiza-
+                      tion of experiments in economics. Max-Planck-Inst. for Research into Economic Systems,
+                      Strategic Interaction Group.
+
+                   Greiner, B. and M. V. Levati (2005). Indirect reciprocity in cyclical networks: An experi-
+                      mental study. Journal of Economic Psychology 26 (5), 711≠731.
+
+                                                                        21
+ACCEPTED MANUSCRIPT                          ACCEPTED MANUSCRIPT
+
+                   Hevelke, A. and J. Nida-Ru®melin (2014). Responsibility for crashes of autonomous vehicles:
+                      an ethical analysis. Science and Engineering Ethics.
+
+                   Kohl, C., M. Knigge, G. Baader, M. B®ohm, and H. Krcmar (2018). Anticipating acceptance
+                      of emerging technologies using twitter: the case of self-driving cars. Journal of Business
+                      Economics, 1≠26.
+
+                   Lee, J. D. and N. Moray (1994). Trust, self-confidence, and operators' adaptation to au-
+                      tomation. International Journal of Human-Computer Studies 40.
+
+                   Lee, J. D. and K. A. See (2004). Trust in automation: designing for appropriate reliance.
+                      Human Factors 46 (1).
+
+                   McFarland, M. (2015). Google's chief of self-driving cars downplays dilemma of ethics and
+                      accidents. Providence Journal .
+
+                   Muir, B. and N. Moray (1996). Trust in automation. Part II. Experimental studies of trust
+                      and human intervention in a process control simulation. Ergonomics 39 (3), 429≠60.
+
+                   Ray, C., F. Mondada, and R. Siegwart (2008). What do people expect from robots?
+                      IEEE/RSJ International Conference Intelligent Robots and Systems, 3816≠3821.
+
+                   Ross, M. and F. Sicoly (1979). Egocentric biases in availability and attribution. Journal of
+                      Personality and Social Psychology 37 (3), 322≠336.
+
+                   Rousseau, D., S. Sitkin, R. Burt, and C. Camerer (1998). Not so different after all: A
+                      cross-discipline view of trust. Academy of Management Review 23.
+
+                   Selten, R. (1967). Die Strategiemethode zur Erforschung des eingeschr®ankt rationalen Ver-
+                      haltens im Rahmen eines Oligopolexperiments. Beitr®age zur experimentellen Wirtschafts-
+                      forschung. Tu®bingen: JCB Mohr .
+
+                   Shanker, R., A. Jonas, S. Devitt, K. Huberty, S. Flannery, W. Greene, B. Swinburne,
+                      G. Locraft, A. Wood, K. Weiss, J. Moore, A. Schenker, P. Jain, Y. Ying, S. Kakiuchi,
+                      R. Hoshino, and A. Humphrey (2013). Autonomous cars: self-driving the new auto indus-
+                      try paradigm. Blue Paper .
+
+                   Stangor, C. and D. McMillan (1992). Memory for expectancy-congruent and expectancy-
+                      incongruent information: A review of the social and social developmental literatures.
+                      Psychological Bulletin 111 (1), 42≠61.
+
+                   Stangor, C. and D. N. Ruble (1989). Strength of expectancies and memory for social infor-
+                      mation: What we remember depends on how much we know. Journal of Experimental
+                      Social Psychology 25 (1), 18≠35.
+
+                                                                        22
+ACCEPTED MANUSCRIPT                          ACCEPTED MANUSCRIPT
+
+                   Svenson, O. (1981). Are we all less risky and more skillful than our fellow drivers? Acta
+                      Psychologica 47 (2), 143≠148.
+
+                                                                        23
+

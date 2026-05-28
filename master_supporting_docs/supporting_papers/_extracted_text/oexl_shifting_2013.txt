@@ -1,0 +1,328 @@
+Exp Econ (2013) 16:306­312
+DOI 10.1007/s10683-012-9335-7
+ MANUSCRIPT
+
+Shifting the blame to a powerless intermediary
+
+Regine Oexl · Zachary J. Grossman
+
+Received: 10 September 2011 / Accepted: 17 July 2012 / Published online: 26 July 2012
+© Economic Science Association 2012
+
+Abstract We extend the results of Bartling and Fischbacher (Rev. Econ. Stud.
+79(1):67­87, 2012) by showing that, by delegating to an intermediary, a dictator fac-
+ing an allocation decision can effectively shift blame onto the delegee even when
+doing so necessarily eliminates the possibility of a fair outcome. Dictators choosing
+selfishly via an intermediary are punished less and earn greater profits than those who
+do so directly. Despite being powerless to influence the fairness of the outcome, an
+intermediary given the choice between two unfair outcomes is punished more than
+when the dictator chooses one directly. This is not the case when the intermediary
+merely can initiate the random selection of one of the outcomes. Our findings rein-
+force and clarify the usefulness of agency as a tool to evade perceived culpability.
+Keywords Intermediation · Punishment · Delegation · Blame shifting
+
+1 Introduction
+Players in experimental dictator games may avoid censure and costly punishment
+by delegating the allocation decision to an intermediary.1 However, it is not clear
+
+1Apart from the research discussed below, Fershtman and Gneezy (2001) and Hamman et al. (2010) pro-
+vide evidence of how dictators may use delegation to avoid negative judgment for harmful or selfish be-
+havior.
+Electronic supplementary material The online version of this article
+(doi:10.1007/s10683-012-9335-7) contains supplementary material, which is available to authorized
+users.
+R. Oexl ( )
+Department of Economics, University of Innsbruck, Universitaetsstrasse 15, 6020 Innsbruck, Austria
+e-mail: regine.oexl@uibk.ac.at
+
+Z.J. Grossman
+Department of Economics, University of California, Santa Barbara, 2127 North Hall, Santa Barbara,
+CA 93106, USA
+Shifting the blame to a powerless intermediary  307
+
+whether the willful choice by the intermediary of a selfish outcome over a less-selfish
+outcome is necessary for blame shifting, or whether the mere presence of a nomi-
+nal intermediary is sufficient, regardless of his power to influence the fairness of the
+outcome. We show that delegating shifts blame away from the dictator and onto the
+intermediary, even when the intermediary only faces unfair outcome choices. How-
+ever, the intermediary escapes further blame if he is completely unable to influence
+the outcome.
+
+   Our experiment is a close adaptation of the delegation and punishment treatment
+of Bartling and Fischbacher (2012) (hereafter, BF), in which a dictator could choose
+between an equal split of $20 among her four-person group2 or an unfair split that
+favors her and a second group member at the expense of the remaining two, who were
+passive recipients. She could also delegate this choice to the group member, enlisting
+him as an intermediary. After observing the choice, one of the two recipients was
+randomly chosen to reduce the earnings of the other players in the group, for a fixed
+cost.3
+
+   We alter the BF design by (1) expanding the set of available allocations to include
+two unfair allocations, both yielding high payoffs for the dictator and the interme-
+diary and differing only in which recipient is harmed more, and (2) having the act
+of delegating necessarily preclude the fair allocation. Thus, despite the elimination
+of the fair allocation, the intermediary still has a choice between two options when
+the dictator passes. In a second treatment, we remove any element of choice from
+the intermediary's role, requiring him, when the dictator passes, to click a button that
+serves to initiate the random selection of one of the two unfair allocations.
+
+   Like BF, we find that--given that the final allocation is unfair--the dictator is
+punished less if she delegates than if she had chosen directly, while the intermediary's
+punishment increases. Thus, we show that the results of BF are robust to altering and
+restricting the intermediary's choice set. The fact that the intermediary is punished,
+even when his choice cannot possibly increase the likelihood of an unfair allocation,
+challenges the responsibility measure proposed by BF, which ties responsibility to
+the extent to which a choice increases the probability of an unfair allocation. If the
+intermediary can merely initiate the random selection of an unfair allocation, the
+effectiveness of delegation as a punishment-avoidance strategy persists, albeit in a
+weaker form, and the intermediary is spared from additional punishment.4
+
+   Coffman (2011) allows a dictator to split money directly with a recipient or to pass
+any part of the surplus to an intermediary, who can share this amount with the recip-
+ient. He allows a fourth party to punish the dictator (without cost) and finds that the
+dictator's punishment is reduced when she implements an unfair outcome through
+the intermediary, even when she keeps the entire surplus, leaving the intermediary
+with nothing to share. Our findings reinforce Coffman's conclusion that sanctions for
+harmful behavior are reduced when the responsible party does not directly interact
+
+2We refer to the dictator as "she" and the intermediators and recipients as "he".
+3Though the experiment instructions avoid all language pertaining to punishment, we follow BF in inter-
+preting the deductions chosen by a recipient as a form of punishment.
+4This is consistent with the results of the BF's random treatment, in which the dictator can only pass to a
+randomization device.
+308  R. Oexl, Z.J. Grossman
+
+with the victim. We extend his results to a context in which the intermediary's inter-
+ests are aligned with those of the dictator and show robustness to a different (costly)
+punishment technology. Furthermore, by allowing punishment of the intermediary,
+we identify the conditions under which blame actually shifts onto him.
+
+2 Experimental design
+
+The design is a close adaptation of the one used in BF, featuring a four-person dictator
+game over a $20 surplus. Available allocations included an equal split ($5 each); an
+unfair option yielding $9 each to the dictator (D) and a second player who was the
+potential intermediary (N), while leaving $2 to one of the remaining recipient players
+(R1) and $0 to the other (R2); and a second unfair option that differed from the
+first only by switching the payoffs of R1 and R2. The dictator could choose one of
+these allocations directly or pass the decision to N. In the first treatment (Choice),
+when the decision was delegated, N could choose either of the two unfair allocations,
+but not the fair allocation. In the second treatment (Random), he could only click a
+single button, which caused the computer to randomly select one of the two unfair
+allocations.5
+
+   Following BF, we randomly selected R1 or R2 to assign punishment. The punisher
+could pay $1 to deduct up to $7 in any combination from any of the other three
+participants, with the restriction that the resulting payoffs must be non-negative.6 At
+the end of the experiment, the deductions specified for the realized outcome by the
+selected punisher were implemented. In ten sessions, after having completed their
+task, we elicited beliefs from the dictators and intermediaries about the deductions
+made by others.7
+
+   The experiment used a z-Tree (Fischbacher 2007) treatment adapted from that
+used by BF. We conducted 22 sessions of 8 or 12 people, each lasting 30­45 minutes,
+with a total of 256 participants.8 We used the online system ORSEE (Greiner 2003)
+to randomly recruit participants from the University of California­Santa Barbara sub-
+ject pool, largely comprised of students and staff. Groups and roles were randomly
+assigned. Participants followed along as preliminary instructions were read out loud.
+Then they learned their roles and received role-specific written instructions which
+included exercises to verify understanding, also adapted from BF. Average payment
+was $11.18, including a $6 show-up fee.9
+
+5We call the split of the $20 an allocation, whereas a terminal history of the decision process, including
+both the allocation and the player choosing it, is called an outcome.
+6Like BF, we used the strategy method to elicit the punishment choices for both R1 and R2; each specified
+a punishment (contingent on him being selected) for each of the five possible outcomes in a randomized
+order. In contrast, the intermediary only made a decision when called upon after the dictator delegated. We
+explained to the participants that we increased the show-up fee to $6 from the usual $5 so that a person who
+received $0 from the dictator game would still have a minimum of $5 if she chose a non-zero deduction.
+7Details and analysis of the belief-elicitations are available in the online Appendix A.4.
+8We dropped observations from two subjects who participated in more than one session in the Choice
+treatment (one dictator, one recipient).
+9Full instructions and the software are available in the online appendix.
+Shifting the blame to a powerless intermediary  309
+
+3 Results
+
+Our primary interest is in how delegation affects the punishment following an unfair
+outcome, with the null hypothesis being that delegation does not affect punishment
+levels and the alternative being that it reduces D's punishment and increases that of
+N. Holding constant whether or not the dictator delegates, average punishment for the
+two unfair allocations is the same, so to test our hypotheses we average the punish-
+ment choices of each recipient for the unfair allocations within two categories: those
+chosen directly and those resulting from delegation.10 Figure 1 and Table 1 show
+expected punishment--averaged across both recipients--for each outcome by treat-
+ment and illustrate our main results. Recipients shift the blame for a delegated unfair
+outcome away from D, but only in the Choice treatment is it redirected onto N.11
+
+   Given an unfair allocation in the Choice treatment, delegation reduces D's average
+punishment from $2.58 to $1.92, a drop that is significant according to both a two-
+sample, one-tailed test of differences in means (t = 1.82, p = 0.04) and a Wilcoxon
+signed-rank test (z = 4.00, p < 0.01). In the Random treatment, D's punishment
+drops from $ 2.01 to $1.59. While a smaller sample undermines the significance level
+in the t-test (t = 0.86, p = 0.20), because the non-parametric Wilcoxon test more
+definitively rejects (z = 1.70, p = 0.04) the null hypothesis of equal punishment, we
+conclude that in both conditions delegating maximizes D's expected profit, though
+the effect is weaker in the Random treatment.
+
+Fig. 1 Average punishment by outcome
+
+10Online Appendix A.1 provides evidence supporting this claim.
+11Although Fig. 1 alone convincingly shows that the fair allocation is punished much less than any of
+the unfair allocations selected by any means, we provide hypothesis tests to support this claim in Ap-
+pendix A.2, available online. Furthermore, in the analysis that follows we do not comment on the pun-
+ishment for the non-punishing recipient, which is negligible. Online Appendix A.3 provides evidence
+supporting this claim.
+310                                                          R. Oexl, Z.J. Grossman
+
+Table 1 Average punishment and punishment frequency
+
+Outcome           Choice (N = 81)                    Random (N = 46)
+
+                  % ded.  Mean deduction             % ded.  Mean deduction
+
+                          from D   from N                    from D   from N
+
+Fair              9       0.20     0.19              7       0.13     0.17
+
+Unfair direct     53      2.58     0.95              40      2.01     0.64
+
+Unfair delegated  55      1.92     1.72              35      1.59     0.72
+
+   Conversely, when D delegates, N's average punishment in the Choice treatment
+increases from $0.95 to $1.72, allowing us to reject the null hypothesis of equal pun-
+ishment (t = 2.91, p < 0.01 and z = 5.41, p < 0.01). In contrast, the increase in N's
+average punishment in the Random treatment from $0.64 to $0.72, only a fraction
+of the jump seen in the Choice treatment, is not significant (t = 0.30, p = 0.38 and
+z = 0.46, p = 0.32). Furthermore, N's average punishment following delegation is
+lower in the Random treatment than in the Choice treatment (t = 3.45, p < 0.01).
+Thus, blame is not shifted onto N when he must randomize.
+
+   Table 1 also displays punishment frequency by outcome for each treatment. A sig-
+nificantly higher fraction of recipients choose to punish the dictator for an unfair out-
+come than for the equal split. In the Choice condition, the punishment rate rises from
+9 % to an average of 54 % (Two-sample test of proportions, z = 6.84, p < 0.01),
+while in the Random condition it rises from 7 % to an average of 38 % (z = 3.86,
+p < 0.01). In neither condition does the punishment rate for directly-chosen unfair
+allocations differ significantly from the punishment rate for delegated allocations
+(z = 0.24, p = 0.81 and z = 0.54, p = 0.59, respectively). Thus, the difference in
+average punishment levels can be attributed mostly to the difference in conditional
+punishment levels.
+
+   Finally, not all dictators choose the profit-maximizing way to implement a selfish
+outcome. Fifteen (38 %) out of 40 dictators in the Choice treatment delegate, while
+12 (30 %) choose fairly and 13 (33 %) choose an unfair allocation directly. In the
+Random treatment, 10 out of 23 (43 %) delegate, 11 (48 %) choose fairly, and 2 (9 %)
+choose an unfair allocation directly. In the Choice treatment we cannot reject the
+hypothesis (z = 0.47, p = 0.64) that dictators directly choose unfairly at the same rate
+at which they delegate, though in the Random treatment we can (z = 2.69, p < 0.01).
+
+4 Conclusion
+
+We find that individuals can avoid the perception of culpability by delegating a harm-
+ful decision to an intermediary powerless to choose a fair outcome. Moreover, even
+when the intermediary is in no way complicit, he may be punished as long as he has
+some degree of choice. This extends the results of BF and of Coffman (2011) and
+highlights the importance of delegation as a blame-shifting tool.
+Shifting the blame to a powerless intermediary  311
+
+   Like BF, neither outcome-based theories of social preferences nor intentions-based
+models of sequential reciprocity explain our findings.12 Yet, because our intermediary
+is powerless, the responsibility measure proposed by BF, which assigns a person re-
+sponsibility for an outcome if and only if her action increases the probability that this
+outcome will result, cannot explain why the dictator is punished less and the inter-
+mediary is punished more. Further research is needed to understand the punishment
+mechanism.
+
+   Not only does delegating maximize the dictator's expected profits, it does not carry
+the risk, present in BF's main treatment, that the intermediary might choose the low-
+paying fair outcome. Furthermore, it avoids possible psychological costs associated
+with having to choose whom to harm most (see Dana et al. 2006, 2007; Grossman
+2010; Lazear et al. 2012). So why do so many dictators in the Choice treatment
+choose an unfair outcome directly?
+
+   Since they bypassed the punishment-minimizing equal split, it is difficult to argue
+that these dictators are being helpful. Even limiting concern to the intermediary, this
+explanation is implausible because the direct choice of an unfair allocation renders
+the dictator an expected payoff lower than that of the intermediary.13 Some dictators
+may have directly chosen an unfair allocation under the belief that the punishment
+savings from delegating would be trivial, perhaps because doing so belies a "dubi-
+ous motive" (Paharia et al. 2009).14 Alternatively, delegating one's harmful action
+to someone else might "feel wrong" or violate a personal rule, imposing a different
+psychological cost.
+
+   While our results illustrate just how easily a person may avoid negative judg-
+ment by delegating, they also highlight an important limitation of using delegation
+for this purpose. An agent who expects to be blamed for someone else's misbehavior
+may demand compensation from the principal. As a consequence, principals will be
+driven to contract with agents who are difficult or costly to punish, whether due to
+skill or punishment technology, or with an agent who would randomize on their be-
+half, who--the results of the Random treatment suggest--would escape punishment.
+Further research with voluntary contracting between the principal and agent, as in
+Hamman et al. (2010), is needed to understand the conditions under which principals
+can successfully avoid the costs of misbehavior in the marketplace.
+
+Acknowledgements We wish to thank Antonio Niocolò for many helpful discussions. We are also grate-
+ful for valuable comments from Gary Charness, Luca Corazzini, John Hamman, Marco Piovesan, two
+anonymous referees and the seminar participants at the International Meeting on Experimental and Be-
+havioral Economics (IMEBE) 2011, Barcelona, 4th Maastricht Behavioral and Experimental Economics
+Symposium (M-BEES 2011), Maastricht and at the Work in Progress Seminar, Dipartimento di Economia
+Politica, Università degli Studi di Milano-Bicocca, May 2011.
+
+12E.g., see Bolton and Ockenfels (2000), Charness and Rabin (2002), Fehr and Schmidt (1999) for the
+former and Dufwenberg and Kirchsteiger (2004) for the latter.
+13Charness and Rabin (2002) find that people have little willingness to sacrifice their own payoff to help
+those who have more than them.
+14In Appendix A.4, we examine dictator beliefs and find little linking delegation to the perceived difference
+in punishment between direct versus delegated unfair allocations.
+312         R. Oexl, Z.J. Grossman
+
+References
+
+Bartling, B., & Fischbacher, U. (2012). Shifting the blame: on delegation and responsibility. Review of
+      Economic Studies, 79(1), 67­87.
+
+Bolton, G. E., & Ockenfels, A. (2000). ERC: a theory of equity, reciprocity, and competition. American
+      Economic Review, 90(1), 166­193.
+
+Charness, G., & Rabin, M. (2002). Understanding social preferences with simple tests. Quarterly Journal
+      of Economics, 117(3), 817­869.
+
+Coffman, L. C. (2011). Intermediation reduces punishment (and reward). American Economic Journal:
+      Microeconomics, 3(4), 77­106.
+
+Dana, J., Cain, D. M., & Dawes, R. M. (2006). What you don't know won't hurt me: costly (but quiet) exit
+      in dictator games. Organizational Behavior and Human Decision Processes, 100(2), 193­201.
+
+Dana, J., Weber, R., & Kuang, J. (2007). Exploiting moral wiggle room: experiments demonstrating an
+      illusory preference for fairness. Economic Theory, 33(1), 67­80.
+
+Dufwenberg, M., & Kirchsteiger, G. (2004). A theory of sequential reciprocity. Games and Economic
+      Behavior, 47(2), 268­298.
+
+Fehr, E., & Schmidt, K. M. (1999). A theory of fairness, competition, and cooperation. Quarterly Journal
+      of Economics, 114(3), 817­868.
+
+Fershtman, C., & Gneezy, U. (2001). Strategic delegation: an experiment. Rand Journal of Economics,
+      32(2), 352­368.
+
+Fischbacher, U. (2007). z-Tree: Zurich toolbox for ready-made economic experiments. Experimental Eco-
+      nomics, 10(2), 171­178.
+
+Greiner, B. (2003). An online recruitment system for economic experiments. Forschung und Wis-
+      senschaftliches Rechnen, 63, 79­93.
+
+Grossman, Z. (2010). Strategic ignorance and the robustness of social preferences (Tech. Rep. 1469100).
+      Economics Working Paper Series, Department of Economics, University of California, Santa Bar-
+      bara.
+
+Hamman, J. R., Loewenstein, G., & Weber, R. A. (2010). Self-interest through delegation: an additional
+      rationale for the principal-agent relationship. American Economic Review, 100(4), 1826­1846.
+
+Lazear, E. P., Malmendier, U., & Weber, R. A. (2012). Sorting in experiments with application to social
+      preferences. American Economic Journal: Applied Economics, 4(1), 136­163.
+
+Paharia, N., Kassam, K. S., Greene, J. D., & Bazerman, M. H. (2009). Dirty work, clean hands: the moral
+      psychology of indirect agency. Organizational Behavior and Human Decision Processes, 109(2),
+      134­141.
+

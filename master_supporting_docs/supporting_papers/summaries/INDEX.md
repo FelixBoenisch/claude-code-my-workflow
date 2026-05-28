@@ -81,7 +81,7 @@ The broader algorithm-preference literature that situates the manuscript.
 | [`goldbach_geht_2019`](goldbach_geht_2019.md) | Route-choice algorithm delegation |
 | [`normann_delegate_2025`](normann_delegate_2025.md) | Pricing delegation to a Q-learning algorithm (DICE WP) |
 
-## Tier 4 — Background, reviews, framing (12)
+## Tier 4 — Background, reviews, framing (13)
 
 Foundational political-science / public-choice references and systematic reviews.
 
@@ -99,6 +99,7 @@ Foundational political-science / public-choice references and systematic reviews
 | [`mahmud_what_2022`](mahmud_what_2022.md) | What influences algorithmic decision-making? (4-level framework) |
 | [`bonnefon_moral_2024`](bonnefon_the_2024.md) | The Moral Psychology of AI — Annual Review of Psychology (moral-proxy framing) |
 | [`sunstein_anatomy_2024`](sunstein_anatomy_2024.md) | An Anatomy of Algorithm Aversion — five-mechanism taxonomy (law-review essay) |
+| [`qin_ai_2025`](qin_ai_2025.md) | AI Aversion or Appreciation? Capability–Personalization meta-analysis (*Psych. Bulletin*) |
 
 ## Tier 5 — Tools, infrastructure, secondary (6)
 

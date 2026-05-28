@@ -1,0 +1,891 @@
+Journal of Experimental Psychology: General                                                        � 2014 American Psychological Association
+2015, Vol. 144, No. 1, 114-126                                                  0096-3445/15/$ 12.00 http://dx.doi.org/10.1037/xge0000033
+
+Algorithm Aversion: People Erroneously Avoid Algorithms
+                        After Seeing Them Err
+
+                Berkeley J. Dietvorst, Joseph P. Simmons, and Cade Massey
+
+                                                   University of Pennsylvania
+
+          Research shows that evidence-based algorithms more accurately predict the future than do human
+          forecasters. Yet when forecasters are deciding whether to use a human forecaster or a statistical
+          algorithm, they often choose the human forecaster. This phenomenon, which we call algorithm aversion,
+          is costly, and it is important to understand its causes. We show that people are especially averse to
+          algorithmic forecasters after seeing them perform, even when they see them outperform a human
+          forecaster. This is because people more quickly lose confidence in algorithmic than human forecasters
+          after seeing them make the same mistake. In 5 studies, participants either saw an algorithm make
+          forecasts, a human make forecasts, both, or neither. They then decided whether to tie their incentives to
+          the future predictions of the algorithm or the human. Participants who saw the algorithm perform were
+          less confident in it, and less likely to choose it over an inferior human forecaster. This was true even
+          among those who saw the algorithm outperform the human.
+
+          Keywords: decision making, decision aids, heuristics and biases, forecasting, confidence
+
+          Supplemental materials: http://dx.doi.org/10.1037/xge0000033.supp
+
+   Imagine that you are an admissions officer for a university and              quently gathered a large body of evidence showing that human
+it is your job to decide which student applicants to admit to your              experts did not perform as well as simple linear models at clinical
+institution. Because your goal is to admit the applicants who will              diagnosis, forecasting graduate students' success, and other prediction
+be most likely to succeed, this decision requires you to forecast               tasks (Dawes, 1979; Dawes, Faust, & Meehl, 1989). Following this
+students' success using the information in their applications. There            work, Grove, Zald, Lebow, Snitz, and Nelson (2000) meta-analyzed
+are at least two ways to make these forecasts. The more traditional             136 studies investigating the prediction of human health and behavior.
+way is for you to review each application yourself and make a                   They found that algorithms outperformed human forecasters by 10%
+forecast about each one. We refer to this as the human method.                  on average and that it was far more common for algorithms to
+Alternatively, you could rely on an evidence-based algorithm' to                outperform human judges than the opposite. Thus, across the vast
+make these forecasts. For example, you might use the data of past               majority of forecasting tasks, algorithmic forecasts are more accurate
+students to construct a statistical model that provides a formula for           than human forecasts (see also Silver, 2012).
+combining each piece of information in the students' applications.
+We refer to this as the algorithm method.                                          If algorithms are better forecasters than humans, then people
+                                                                                should choose algorithmic forecasts over human forecasts. How
+   Research comparing the effectiveness of algorithmic and human                ever, they often don't. In a wide variety of forecasting domains,
+forecasts shows that algorithms consistently outperform humans.                 experts and laypeople remain resistant to using algorithms, often
+In his book Clinical Versus Statistical Prediction: A Theoretical               opting to use forecasts made by an inferior human rather than
+Analysis and Review o f the Evidence, Paul Meehl (1954) reviewed                forecasts made by a superior algorithm. Indeed, research shows
+results from 20 forecasting studies across diverse domains, includ              that people often prefer humans' forecasts to algorithms' forecasts
+ing academic performance and parole violations, and showed that                 (Diab, Pui, Yankelevich, & Highhouse, 2011; Eastwood, Snook, &
+algorithms outperformed their human counterparts. Dawes subse-                  Luther, 2012), more strongly weigh human input than algorithmic
+                                                                                input (Onkal, Goodwin, Thomson, Goniil, & Pollock, 2009; Prom-
+   This article was published Online First November 17, 2014.                   berger & Baron, 2006), and more harshly judge professionals who
+   Berkeley J. Dietvorst, Joseph P. Simmons, and Cade Massey, The               seek out advice from an algorithm rather than from a human
+Wharton School, University of Pennsylvania.                                     (Shaffer, Probst, Merkle, Arkes, & Medow, 2013).
+   We thank Uri Simonsohn and members of The Wharton Decision
+Processes Lab for their helpful feedback. We thank the Wharton Behav               This body of research indicates that people often exhibit what we
+ioral Laboratory and the Wharton Risk Center Ackoff Doctoral Student            refer to as algorithm aversion. However, it does not explain when
+Fellowship for financial support.                                               people use human forecasters instead of superior algorithms, or why
+   Correspondence concerning this article should be addressed to Berkeley       people fail to use algorithms for forecasting. In fact, we know very
+J. Dietvorst, The Wharton School, University of Pennsylvania, 500 Jon M.        little about when and why people exhibit algorithm aversion.
+Huntsman Hall, 3730 Walnut Street, Philadelphia, PA 19104. E-mail:
+diet@wharton.upenn.edu                                                             1We use the term "algorithm" to encompass any evidence-based fore
+                                                                                casting formula or rule. Thus, the term includes statistical models, decision
+                                                                                rules, and all other mechanical procedures that can be used for forecasting.
+
+                                                                           114
+ALGORITHM AVERSION                                                        115
+
+    Although scholars have written about this question, most of the       is not perfect and therefore makes mistakes. Because we expected
+writings are based on anecdotal experience rather than empirical          people to lose confidence in the model after seeing it make
+evidence.2 Some of the cited reasons for the cause of algorithm           mistakes, we expected them to choose the model much less often
+aversion include the desire for perfect forecasts (Dawes, 1979;           in the conditions in which they saw the model perform (the model
+Einhom, 1986; Highhouse, 2008), the inability of algorithms to            and model-and-human conditions) than in those in which they did
+learn (Dawes, 1979), the presumed ability of human forecasters to         not (the control and human conditions). In sum, we predicted that
+improve through experience (Highhouse, 2008), the notion that             people's aversion to algorithms would be increased by seeing them
+algorithms are dehumanizing (Dawes, 1979; Grove & Meehl,                  perform (and therefore err), even when they saw the algorithms
+1996), the notion that algorithms cannot properly consider indi           make less severe errors than a human forecaster.
+vidual targets (Grove & Meehl, 1996), concerns about the ethical-
+ity of relying on algorithms to make important decisions (Dawes,                                  Overview of Studies
+1979), and the presumed inability of algorithms to incorporate
+qualitative data (Grove & Meehl, 1996). On the one hand, these               In this article, we show that people's use of an algorithmic
+writings offer thoughtful and potentially viable hypotheses about         versus a human forecaster hinges on their experience with those
+why algorithm aversion occurs. On the other hand, the absence of          two forecasters. In five studies, we demonstrate that seeing an
+empirical evidence means that we lack real insight into which of          algorithm perform (and therefore err) makes people less likely to
+these (or other) reasons actually drive algorithm aversion and,           use it instead of a human forecaster. We show that this occurs even
+thus, when people are most likely to exhibit algorithm aversion. By       for those who have seen the algorithm outperform the human, and
+identifying an important driver of algorithm aversion, our research       regardless of whether the human forecaster is the participant
+begins to provide this insight.                                           herself or another, anonymous participant.
+
+                A Cause of Algorithm Aversion                                In all of our studies, participants were asked to use real data to
+                                                                          forecast real outcomes. For example, in Studies 1, 2, and 4,
+   Imagine that you are driving to work via your normal route. You        participants were given master's of business administration
+run into traffic and you predict that a different route will be faster.   (MBA) admissions data from past students and asked to predict
+You get to work 20 minutes later than usual, and you learn from a         how well the students had performed in the MBA program. Near
+coworker that your decision to abandon your route was costly; the         the end of the experiment, we asked them to choose which of two
+traffic was not as bad as it seemed. Many of us have made mistakes        forecasting methods to rely on to make incentivized forecasts-- a
+like this one, and most would shrug it off. Very few people would         human judge (either themselves, in Studies 1--3, or another partic
+decide to never again trust their own judgment in such situations.        ipant, in Study 4) or a statistical model that we built using the same
+                                                                          data given to participants. Prior to making this decision, we ma
+   Now imagine the same scenario, but instead of you having wrongly       nipulated whether participants witnessed the algorithm's perfor
+decided to abandon your route, your traffic-sensitive GPS made the        mance, the human's performance, both, or neither.
+error. Upon learning that the GPS made a mistake, many of us would
+lose confidence in the machine, becoming reluctant to use it again in        Because the methods and results of these five studies are similar,
+a similar situation. It seems that the errors that we tolerate in humans  we first describe the methods of all five studies and then reveal the
+become less tolerable when machines make them.                            results. For each study, we report how we determined our sample
+                                                                          size, all data exclusions (if any), all manipulations, and all mea
+   We believe that this example highlights a general tendency for         sures. The exact materials and data are available in the online
+people to more quickly lose confidence in algorithmic than human          supplemental materials.
+forecasters after seeing them make the same mistake. We propose
+that this tendency plays an important role in algorithm aversion. If                                      Method
+this is true, then algorithm aversion should (partially) hinge on
+people's experience with the algorithm. Although people may be            Participants
+willing to trust an algorithm in the absence of experience with it,
+seeing it perform--and almost inevitably err--will cause them to             We conducted Studies 1, 2, and 4 in the Wharton School's
+abandon it in favor of a human judge. This may occur even when            Behavioral Lab. Participants received a $10 show-up fee for an
+people see the algorithm outperform the human.                            hour-long session of experiments, of which ours was a 20-min
+                                                                          component, and they could earn up to an additional $10 for
+   We test this in five studies. In these studies, we asked partici       accurate forecasting performance. In Study 1, we recruited as
+pants to predict real outcomes from real data, and they had to            many participants as we could in 2 weeks; in Study 2 we recruited
+decide whether to bet on the accuracy of human forecasts or the           as many as we could in 1 week; and in Study 4, each participant
+accuracy of forecasts made by a statistical model. We manipulated         was yoked to a different participant from Study 1, and so we
+participants' experience with the two forecasting methods prior to        decided to recruit exactly as many participants as had fully com
+making this decision. In the control condition, they had no expe          pleted every question in Study 1. In Studies 1, 2, and 4, 8, 4, and
+rience with either the human or the model. In the human condition,        0 participants, respectively, exited the survey before completing
+they saw the results of human forecasts but not model forecasts. In       the study's key dependent measure, leaving us with final samples
+the model condition, they saw the results of model forecasts but
+not human forecasts. Finally, in the model-and-human condition,              2 One exception is the work of Arkes, Dawes, and Christensen (1986),
+they saw the results of both the human and model forecasts.               who found that domain expertise diminished people's reliance on algorith
+                                                                          mic forecasts (and led to worse performance).
+   Even though the model is superior to the humans--it outper
+forms the humans in all of the studies-- experience reveals that it
+116                                                 DIETVORST, SIMMONS, AND MASSEY
+
+Table 1
+Studies 1, 2, and 4: Belief and Confidence Measures
+
+                                                                                                                             Study 1 Study 2 Study 4
+
+How much bonus money do you think you would earn if your own estimates determined your bonus? (0-10)                                 /,,
+
+How much bonus money do you think you would earn if the model's estimates determined your bonus? (0-10)                              A
+
+What percent of the time do you think the model's estimates are within 5 percentiles of a student's true score? (0-100) / a                                   'a
+
+What percent of the time do you think your estimates are within 5 percentiles of a student's true score? (0-100)             /a                  A
+
+On average, how many percentiles do you think the model's estimates are away from students' actual percentiles?
+
+(0-100)                                                                                                                              ^a
+
+On average, how many percentiles do you think your estimates are away from students' actual percentiles? (0-100)                     /a
+
+How much confidence do you have in the statistical model's estimates? (1 = none; 5 = a lot)                                  /a      /a
+
+How much confidence do you have in your estimates? (1 = none; 5 = a lot)                                                     /a      /a
+
+How well did the statistical model perform in comparison to your expectations? (1 = much worse; 5 = much better)                     /a
+
+Why did you choose to have your bonus be determined by your [the statistical model's] estimates instead of the
+
+  statistical model's [your] estimates? (open-ended)                                                                         a       /a    /.
+What are your thoughts and feelings about the statistical model? (open-ended)
+                                                                                                                                     ^a
+
+Note. / a = the measure was collected after participants completed the Stage 2 forecasts; / b = the measure was collected before participants completed
+the Stage 2 forecasts. All measures were collected after participants decided whether to tie their bonuses to the model or the human. Questions are listed
+in the order in which they were asked. In Study 4, all questions asking about "your estimates" instead asked about "the lab participant's estimates."
+
+of 361, 206, and 354. These samples averaged 21-24 years of age                Procedures
+and were 58-62% female.
+                                                                                  Overview. This section describes the procedures of each of
+  We conducted Studies 3a and 3b using participants from the                   the five studies, beginning with a detailed description of Study 1
+Amazon.com Mechanical Turk (MTurk) Web site. Participants                      and then briefer descriptions of the ways in which Studies 2-4
+received $1 for completing the study and they could earn up to an              differed from Study 1. For ease of presentation, Tables 1, 2, and 7
+additional $1 for accurate forecasting performance. In Study 3a,               list all measures we collected across the five studies.
+we decided in advance to recruit 400 participants (100 per condi
+tion), and in Study 3b, we decided to recruit 1,000 participants                  Study 1. This experiment was administered as an online sur
+(250 per condition). In both studies, participants who responded to            vey. After giving their consent and entering their Wharton Behav
+the MTurk posting completed a question before they started the                 ioral Lab ID number, participants were introduced to the experi
+survey to ensure that they were reading instructions. We pro                   mental judgment task. Participants were told that they would play
+grammed the survey to exclude any participants who failed this                 the part of an MBA admissions officer and that they would
+check (77 in Study 3a and 217 in Study 3b), and some participants              evaluate real MBA applicants using their application information.
+did not complete the key dependent measure (70 in Study 3a and                 Specifically, they were told that it was their job to forecast the
+187 in Study 3b). This left us with final samples of 410 in Study              actual success of each applicant, where success was defined as an
+3a and 1,036 in Study 3b. These samples averaged 33-34 years of                equal weighting of GPA, respect of fellow students (assessed via
+age and were 46-53% female.                                                    a survey), prestige of employer upon graduation (as measured in an
+
+Table 2
+Studies 3a and 3b: Belief and Confidence Measures
+
+                                                                                                                                 Study 3a  Study 3b
+
+On average, how many ranks do you think the model's estimates are away from states' actual ranks? (0-50)                         /a        /b
+
+On average, how many ranks do you think your estimates are away from states' actual ranks? (0-50)                                /a        Sb
+
+How much confidence do you have in the statistical model's estimates? (1 = none; 5 = a lot)                                      /a        A
+
+How much confidence do you have in your estimates? (1 = none; 5 -- a lot)                                                        /a        /b
+
+How likely is it that the model will predict a state's rank almost perfectly? (1 = certainly not true; 9 = certainly true)*      V&        /b
+
+How likely is it that you will predict a state's rank almost perfectly? (1 = certainly not true; 9 = certainly true)                       A
+
+How many of the 50 states do you think the model would estimate perfectly? (0-50)                                                          /b
+
+How many of the 50 states do you think you would estimate perfectly? (0-50)                                                                /b
+
+How likely is the model to make a really bad estimate? (1 = extremely unlikely; 9 = extremely likely)                                      'b
+
+How well did the statistical model perform in comparison to your expectations? (1 = much worse; 5 = much better)                 A
+
+Why did you choose to have your bonus be determined by your [the statistical model's] estimates instead of the
+
+statistical model's [your] estimates? (open-ended)                                                                               /a        /a
+
+What are your thoughts and feelings about the statistical model? (open-ended)__________________________________                  /a        /a
+
+Note. vQ = the measure was collected after participants completed the Stage 2 forecasts; / b = the measure was collected before participants completed
+the Stage 2 forecasts. All measures were collected after participants decided whether to tie their bonuses to the model or the human. Questions are listed
+
+in the order in which they were asked.
+* In Study 3a, the wording of this question was slightly different: "How likely is it that the model will predict states' ranks almost perfectly?"
+                                                ALGORITHM AVERSION                 117
+
+ annual poll of M BA students around the Unites States), and job                   understood this instruction, participants were required to type the
+ success 2 years after graduation (measured by promotions and                      following sentence into a text box before proceeding: "You will
+raises).                                                                           receive a $1 bonus for each o f your 10 estim ates that is w ithin 5
+                                                                                   percentiles o f a student's true percentile. Therefore, you can earn
+    Participants were then told that the admissions office had cre                 an extra $0 to $10, depending on your perform ance."
+ated a statistical model that was designed to forecast student
+performance. They were told that the m odel was based on hun                           W e then adm inistered the study's key dependent m easure. P ar
+dreds of past students, using the same data that the participants                  ticipants were told that they could choose to have either their own
+would receive, and that the m odel was sophisticated, "put together                forecasts or the m odel's forecasts determ ine their bonuses for the
+by thoughtful analysts."3 Participants were further told that the                  10 incentivized estimates. They were then asked to choose be
+m odel was designed to predict each applicant's percentile am ong                  tween the two methods by answering the question "W ould you like
+his or her classmates according to the success criteria described                  your estim ates or the m odel's estim ates to determ ine your bonuses
+above, and a brief explanation of percentiles was provided to                      for all 10 rounds?" The two response options w ere "U se only the
+ensure that participants understood the prediction task. Finally,                  statistical m odel's estim ates to determ ine m y bonuses fo r all 10
+participants received detailed descriptions of the eight variables                 rounds" and "Use only my estimates to determine my bonuses for
+that they would receive about each applicant (undergraduate de                     all 10 rounds." W e m ade it very clear to participants that their
+gree, GM AT scores, interview quality, essay quality, work expe                    choice o f selecting either the m odel or them selves w ould apply to
+rience, average salary, and parents' education) before making their                all 10 of the forecasts they were about to make.
+forecasts. Figure 1 shows an exam ple of what participants saw
+when making their forecasts.                                                           A fter choosing between them selves and the algorithm, partici
+                                                                                   pants forecasted the success of 10 random ly chosen applicants
+   The rest of the study proceeded in two stages. In the first stage,              (excluding those they were exposed to in the first stage, if any). All
+participants were randomly assigned to one of four conditions,                     participants made a forecast and then saw the m odel's forecast for
+w hich either gave them experience w ith the forecasting perfor                    10 random ly selected M BA applicants.4 They received no feed
+mance o f the model (model condition), themselves (human con                       back about their own or the m odel's perform ance while com plet
+dition), both the model and themselves (model-and-human condi                      ing these forecasts.
+tion), or neither (control condition). The three treatm ent conditions
+(human, model, model-and-human) were informed that they would                          After making these forecasts, participants answered questions
+next m ake (or see) 15 forecasts, and the control condition (n = 91)               designed to assess their confidence in, and beliefs about, the model
+skipped this stage o f the survey altogether. Participants in the                  and them selves (see Table 1 for the list o f questions). Finally,
+m odel-and-hum an condition (n = 90) learned that, for each o f the                participants learned their bonus and reported their age, gender, and
+15 applicants, they w ould m ake th eir ow n forecast, and then get                highest level of education.
+feedback show ing their ow n prediction, the m o d el's prediction,
+and the applicant's true percentile. Participants in the hum an                       Study 2. In Study 2, w e conducted a closer exam ination o f our
+condition (n = 90) learned that they would m ake a forecast and                    m ost interesting experimental condition-- the "m odel-and-hum an"
+then get feedback show ing their ow n prediction and the applicant's               condition in which participants saw both the hum an and the model
+true percentile. Participants in the model condition (n = 90)                      perform before deciding which forecasting m ethod to bet on. W e
+learned that they w ould get feedback show ing the m odel's predic                 w anted to see if the m odel-and-hum an condition's tendency to tie
+tion and the applicant's true percentile. A fter receiving these                   their incentives to their own forecasts would replicate in a larger
+instructions, these participants p roceeded through the 15 forecasts,              sample. W e also wanted to see w hether it w ould be robust to
+receiving feedback after each one. They were not incentivized for                  changes in the incentive structure, and to knowing during the first
+accurately m aking these forecasts. T he 15 forecasted applicants                  stage, w hen getting feedback on both the m odel's and their own
+w ere random ly selected (w ithout replacem ent) from a pool o f 115               perform ance, what the incentive structure would be.
+applicants, and thus varied across participants.
+                                                                                      T his stu d y 's procedure w as the sam e as th at o f S tudy 1, except
+   Next, in the second stage of the survey, all participants learned               for five changes. First, all participants w ere assigned to the model-
+that they w ould m ake 10 "official" incentivized estim ates, earning              and-human condition. Second, participants were randomly as
+an extra $1 each tim e the forecast they used w as w ithin 5 p ercen               signed to one o f three types o f bonuses in the experim ent's second
+tiles o f an M B A student's realized percentile. To be sure they                  stage. Participants were either paid $1 each tim e their forecast was
+                                                                                   w ithin 5 percentiles o f an M B A student's realized percentile
+U n d erg rad u a te D eg ree                                   B u sin ess        (5-percentile condition; n = 70), paid $1 each tim e their forecast
+G M A T - V erb al                                                 4 1 /6 0        w as w ithin 20 percentiles o f an M B A student's realized percen
+G M A T - Q u a n tita tiv e                                       4 7 /6 0        tile (20-percentile condition; n = 69), or paid based on their
+Essay Score                                                        Good            average absolute error (AAE condition; n = 67). Participants who
+in te rv ie w Score                                                Good            were paid based on average absolute error earned $10 if their
+W o rk E x p e rie n c e (y e a rs )                                   5           average absolute error was s 4 , and this bonus decreased by $1 for
+A v e ra g e S a lary                                                              each four additional units of average error. This paym ent rule is
+A v e ra g e o f P a re n ts ' E d u c a tio n                  $ 5 5 ,3 3 3       reproduced in Appendix A.
+                                                U n d e rg ra d u a te deg ree(s)
+                                                                                      3 The statistical model was built using the same data provided to par
+Figure 1. Example of forecasting task stimuli presented in Studies 1, 2,           ticipants and is described in the supplemental materials.
+and 4.
+                                                                                      4 For all five studies, after each Stage 2 trial participants guessed if their
+                                                                                   estimate or the model's was closer to the true value after seeing the model's
+                                                                                   forecast. This measure was exploratory and we do not discuss it further.
+118                                      DIETVORST, SIMMONS, AND MASSEY
+
+   Third, unlike in Study 1, participants learned this payment rule     made a perfect forecast. This bonus decreased by $0.15 for each
+just before making the 15 unincentivized forecasts in the first         additional unit of error associated with their estimate. This pay
+stage. Thus, they were fully informed about the payment rule while      ment rule is reproduced in Appendix B. Fourth, as in Study 2,
+encoding their own and the model's performance during the first         participants learned this payment rule before starting the first stage
+15 trials. We implemented this design feature in Studies 3a and 3b      of unincentivized forecasts instead of after that stage. Finally, as
+as well.                                                                shown in Tables 2 and 7, the measures that we asked participants
+                                                                        to complete were slightly different.
+   Fourth, participants completed a few additional confidence and
+belief measures, some of which were asked immediately before               Study 3b. Study 3b was a higher-powered direct replication of
+they completed their Stage 2 forecasts (see Table 1). Participants      Study 3a.5 Except for some differences in the measures that we
+also answered an exploratory block of questions asking them to          collected, and in the timing of those measures (see Table 2), the
+rate the relative competencies of the model and themselves on a         procedures of Studies 3a and 3b were identical.
+number of specific attributes. This block of questions, which was
+also included in the remaining studies, is listed in Table 7.              Study 4. The previous studies investigated whether people are
+                                                                        more likely to use their own forecasts after seeing an algorithm
+   Study 3a. Study 3a examined whether the results of Study 1           perform. In Study 4, we investigated whether this effect extends to
+would replicate in a different forecasting domain and when the          choices between an algorithm's forecasts and the forecasts of a
+model outperformed participants' forecasts by a much wider mar          different person.
+gin. As in Study 1, participants were randomly assigned to one of
+four conditions--model (n = 101), human (n = 105), model-and-              The procedure for this experiment was identical to that of Study
+human (n = 99), and control (n = 105)--which determined                 1, except that participants chose between a past participant's
+whether, in the first stage of the experiment, they saw the model's     forecasts and the model's instead of between their own forecasts
+forecasts, made their own forecasts, both, or neither.                  and the model's. Each participant was yoked to a unique partici
+                                                                        pant from Study 1 and, thus, assigned to the same condition as that
+   The Study 3a procedure was the same as Study 1 except for a          participant: either control (n = 88), human (n = 87), model (n =
+few changes. Most notably, the forecasting task was different. The      90), or model-and-human (n = 89). Study 4 participants saw
+Study 3a forecasting task involved predicting the rank (1 to 50) of     exactly the same sequence of information that the matched partic
+individual U.S. states in terms of the number of airline passengers     ipant had seen, including the exact same 15 forecasting outcomes
+that departed from that state in 2011. A rank of 1 indicates that the   in Stage 1. For example, Study 4 participants who were matched
+state had the most departing airline passengers, and a rank of 50       with a Study 1 participant who was in the model-and-human
+indicates that it had the least departing airline passengers.           condition saw that participant's Stage 1 forecasts and saw exactly
+                                                                        the same model forecasts that that participant had seen. Following
+   To make each forecast, participants received the following           Stage 1, all participants decided whether to tie their Stage 2
+pieces of information about the state: its number of major airports     forecasting bonuses to the model's forecasts or to the forecasts of
+(as defined by the Bureau of Transportation), its 2010 census           the Study 1 participant they were matched with.
+population rank (1 to 50), its total number of counties rank (1 to
+50), its 2008 median household income rank (1 to 50), and its 2009         As shown in Table 1, Study 4 participants completed the same
+domestic travel expenditure rank (1 to 50). Figure 2 shows an           measures asked in Study 1. In addition, as in Studies 2, 3a, and 3b,
+example of the stimuli used in this study. All of the stimuli that      they also answered the block of questions asking them to compare
+participants saw during the experiment were randomly selected           the human forecaster to the model, though in this study the
+without replacement from a pool of the 50 U.S. states. The statis       questions required a comparison between the model and the par
+tical model was built using airline passenger data from 2006 to         ticipant they were matched with, rather than a comparison between
+2010 and the same variables provided to participants; it is de          the model and themselves (see Table 7).
+ scribed in more detail in the supplemental materials.
+                                                                                              Results and Discussion
+    There were five other procedural differences between Study 3a
+ and Study 1. First, participants who were not in the control           Forecasting Performance
+ condition completed 10 unincentivized forecasts instead of 15 in
+ the first stage of the experiment. Second, in the second stage of the     As expected, the model outperformed participants in all five
+ study, all participants completed one incentivized forecast instead     studies. As shown in Table 3, participants would have earned
+ of 10. Thus, their decision about whether to bet on the model's         significantly larger bonuses if they had tied their bonuses to the
+ forecast or their own pertained to the judgment of a single state.      statistical model's forecasts than if they had tied their bonuses to
+                                                                        the human's forecasts. Moreover, the model's forecasts were much
+    Third, we used a different payment rule to determine partici         more highly correlated with realized outcomes than were humans'
+ pants' bonuses for that forecast. Participants were paid $1 if they     forecasts (r = .53 vs. r = .16, in the MBA student forecasting task;
+                                                                         r = .92 vs. r = .69, in the airline passenger forecasting task). In
+Number of Major Airports                 1                               terms of average absolute error, the human forecasters produced
+
+Census Population Rank - 2010            9                                  5 As described in the supplemental materials, the replication attempt of
+                                                                         Study 3b was motivated by having observed some weaker results in similar
+Num ber o f Counties Rank                2                               studies run prior to Study 3a. This study ensured that the Study 3a findings
+                                                                         were not due to chance.
+Median Household Income Rank - 2008      23
+
+Domestic Travel Expenditure Rank - 2009  9
+
+Figure 2. Example of stimuli presented during the forecasting task of
+Studies 3a and 3b.
+                                      ALGORITHM AVERSION                                                           119
+
+Table 3
+Studies 1-4: Forecasting Performance o f Model Versus Human
+
+          Model                       Human                           Difference                Paired ( test
+
+Bonus if chose model vs. human                                                       ((360) = 4.98, p < .001
+                                                                                     ((204) = 6.26, p < .001
+Study 1   $1.78(1.17)                 $1.38(1.04)                     $0.40(1.52)    ((405) = 7.73, p < .001
+                                      $1.09 (0.99)                    $0.68(1.56)    t( 1,028) = 14.40, p < .001
+Study 2   $1.77(1.13)                 $0.31 (0.36)                    $0.17(0.45)    t(353) = 5.11, p < .001
+                                      $0.30 (0.34)                    $0.20 (0.44)
+Study 3a  $0.48 (0.37)                $1.38 (1.05)                    $0.41 (1.52)   t(89) = -5.52, p < .001
+                                                                                     ((205) = -12.37, p < .001
+Study 3b  $0.49 (0.36)                                                               1(98) = -11.63, p < .001
+                                                                                     ((256) = -17.30, p < .001
+Study 4   $1.79(1.17)                                                                1(88) = -5.51, p < .001
+
+AAE in model-and-human condition (Stage 1 unincentivized forecasts)                  1(360) = -11.52, p < .001
+                                                                                     1(204) = -9 .3 9 , p < .001
+Study 1   23.13 (4.39)                26.67 (5.48)                    -3.53 (6.08)   ((405) = --9.21, p < .001
+                                                                                     ((1,028) = --15.44, p < .001
+Study 2   22.57 (4.08)                29.12(7.30)                     -6.54 (7.60)   ((353) = -11.68, p < .001
+
+Study 3a  4.28(1.10)                  8.45 (3.52)                     -4.17 (3.57)
+
+Study 3b  4.39(1.19)                  8.32 (3.52)                     -3.93 (3.64)
+
+Study 4   23.11 (4.41)                26.68 (5.51)                    -3.56 (6.10)
+
+AAE (Stage 2 incentivized forecasts)
+
+Study 1   22.07 (4.98)                26.61 (6.45)                    -4.54 (7.50)
+                                      28.64 (7.30)                    -6.03 (7.50)
+Study 2   22.61 (5.10)                                                -4.35 (9.52)
+                                       8.89 (8.99)                    --4.03 (8.36)
+Study 3a  4.54 (4.37)                  8.34 (8.16)                    -4.62 (7.44)
+                                      26.64 (6.45)
+Study 3b  4.32 (4.23)
+
+Study 4   22.02 (4.98)
+
+Note. AAE = average absolute error.
+
+15-29% more error than the model in the MBA student forecasting       were, across all studies, among those least likely to choose the
+task of Studies 1, 2, and 4 and 90-97% more error than the model      model.6 In every experiment, participants in the model-and-human
+in the airline passenger forecasting task of Studies 3a and 3b (see   condition were significantly less likely to tie their bonuses to the
+Table 3). This was true in both the stage 1 and stage 2 forecasts.    model than were participants who did not see the model perform.
+Thus, participants in the model-and-human condition, who saw          This result is not limited to the minority who saw the human
+both the model and the human perform in stage 1, were much more       outperform the model, as even those who saw the model outper
+likely to see the model outperform the human than to see the          form the human were less likely to choose the model than were
+opposite, and this was especially true in Studies 3a and 3b. Par      participants who did not see the model perform.7 In addition, the
+ticipants in every condition in every study were better off choosing  results of Study 2, in which all participants were assigned to the
+the model over the human.                                             model-and-human condition, teach us that the aversion to the model
+                                                                      in this condition persists within a large sample, and is not contingent
+Main Analyses                                                         on the incentive structure.
+
+   We hypothesized that seeing the model perform, and therefore          Figure 3 also shows that although seeing the model perform, and
+err, would decrease participants' tendency to bet on it rather the    therefore err, decreased the tendency to choose the model, seeing
+human forecaster, despite the fact that the model was more accu       the human perform, and therefore err, did not significantly de
+rate than the human. As shown in Figure 3, this effect was            crease the tendency to choose the human. This suggests, as hy
+observed, and highly significant, in all four studies in which we     pothesized, that people are quicker to abandon algorithms that
+manipulated experience with the model. In Study 1, we observed        make mistakes than to abandon humans that make mistakes, even
+this effect in lab participants' forecasts of MBA students' perfor    though, as is often the case, the humans' mistakes were larger.
+mance. In Studies 3a and 3b, we learned that this effect generalizes
+to a different forecasting task--predicting states' ranks in number      Figure 3 reveals additional findings of interest. First, although
+of departing airline passengers-- and, importantly, to a context in   all three of the Study 2 incentive conditions showed the hypoth
+which the model dramatically outperforms the human forecasters,       esized aversion to using the algorithm, the magnitude of this
+producing about half as much error in these two studies. Although     aversion did differ across conditions, x2(2, N = 206) = 8.50, p =
+some magnitude of advantage must lead participants who see the
+algorithm perform to be more likely to choose it--for example, if        6 When we say that the model "outperformed" the human, we mean that
+they were to see the algorithm predict all outcomes exactly right--   across the trials in the first stage of the experiment, the average absolute
+the model's large advantage in these studies was not large enough     deviation between the model's forecasts and the true percentiles was
+to get them to do so. Finally, Study 4 teaches us that the effect     smaller than the average absolute deviation between the human's forecasts
+extends to choices between the model and a different human judge.     and the true percentiles.
+In sum, the results consistently support the hypothesis that seeing
+an algorithm perform makes people less likely to choose it.              7 With all model-and-human condition participants included, the statistical
+                                                                      tests are as follows: Study 1, x2(l, N = 271) = 39.94, p < .001; Study 3a,
+   Interestingly, participants in the model-and-human conditions,     X2(l, N = 309) = 4.72, p = .030; Study 3b, x2(l, N = 783) = 16.83, p <
+most of whom saw the model outperform the human in the first          .001; Study 4, x2(l, N = 264) = 13.84, p < .001. Considering only the
+stage of the experiment (610 of 741 [83%] across the five studies),   model-and-human condition participants who saw the model outperform the
+                                                                      human during stage 1, the statistical tests are: Study 1, x2(l, N = 242) =
+                                                                      20.07, p < .001; Study 3a, X2(1,1V= 302) = 2.54, p = .111; Study 3b, x2(l,
+                                                                      N = 758) = 9.92, p = .002; Study 4, x2(l, N = 235) = 5.24, p = .022.
+120                                                                DIETVORST, SIMMONS, AND MASSEY
+
+                  % Choosing Statistical Model to Forecast MBA Students' Performance
+
+     C o n tro l  Saw R esults o f Saw Results o f Saw Results of  Saw Results o f Saw Results o f Saw Results o f  C o n tro l  Saw Results o f Saw Results o f Saw R esults o f
+
+                  H um an's  M odel's   M odel's and               M odel's and M odel's and M odel's and                        H u m a n 's  M odel's   M odel's and
+
+                  Forecasts  Forecasts  Hum an's                   Hum an's   Hum an's   H um a n's                              Forecasts     Forecasts  Hum an's
+
+                                        Forecasts                  Forecasts  Forecasts  Forecasts                                                        Forecasts
+
+     Effect of seeing model: x2( l, N = 361) = 57.48, p < .001     (AAE)      (5-Pct)    (20-Pct)                   Effect o f seeing model: �2(1, N = 354) = 30.52, p < .001
+
+     Effect o f seeing human: * 2(1, N = 361) = 0.14, p = .706                                                      Effect o f seeing human: * 2(1, N = 354) = 3.03, p = .082
+
+     % Choosing Statistical Model to Forecast U.S. States' Number of Airline Passengers
+
+                                                                                                                                 Study 31)
+
+                  Human's     M odel's  M odel's and                                                                             Hum an's       M odel's  M odel's and
+                  Forecasts  Forecasts    Hum an's                                                                               Forecasts     Forecasts    H um a n's
+                                          Forecasts                                                                                                         Forecasts
+
+     Effect of seeing model: * 2(1, N = 410) = 8.82, p = .003                                                       Effect of seeing model: x2( l, N = 1,036) = 21.72, p < .001
+
+     Effect o f seeing human: x2( l, N = 410) = 0.04, p = .844                                                      Effect of seeing human: * 2(1, N - 1,036) = 0.31, p = .576
+
+                  Figure 3. Studies 1-4: Participants who saw the statistical model's results were less likely to choose it. Errors bars
+                  indicate �1 standard error. In Study 2, "AAE," "5-Pct," and "20-Pct" signify conditions in which participants were
+                  incentivized either for minimizing average absolute error, for getting within 5 percentiles of the correct answer, or for
+                  getting within 20 percentiles of the correct answer, respectively. AAE = average absolute error; Pet = percentile.
+
+.014. Participants who were paid for providing forecasts within 20            than in the other payment conditions (M = 2.67, SD = 0.85),
+percentiles of the correct answer were less likely to choose the              t(203) = 4.24, p < .001. Moreover, follow-up analyses revealed
+model than were participants who were paid for providing fore                 that the effect of the 20-percentile incentive on preference for the
+casts within 5 percentiles of the correct answer, x2(l, N = 139) =            model was mediated by confidence in their own forecasts, but not
+3.56, p = .059, as well as participants whose payment was based               by confidence in the model's forecasts.9
+on the average absolute error, x2(l, N = 136) = 8.56, p = .003.8
+As correct predictions were easier to obtain in the 20-percentile               8 The 5-percentile and AAE conditions did not differ, x2(l, N = 137) =
+condition, this effect likely reflects people's greater relative con          1.21, p = .271. AAE = average absolute error.
+fidence in their own forecasts when forecasts are easy than when
+they are difficult (e.g., Heath & Tversky, 1991; Kruger, 1999;                   9 We conducted a binary mediation analysis, in which the dependent vari
+Moore & Healy, 2008). In support of this claim, although partic               able was choice of the model or human, the mediators were confidence in then-
+ipants' confidence in the model's forecasting ability did not differ          own forecasts and confidence in the model's forecasts, and the independent
+between the 20-percentile (M = 2.84, SD = 0.80) and other                     variable was whether or not participants were in the 20-percentile condition.
+payment conditions (M = 2.73, SD = 0.85), f(203) = 0.92, p =                  We then used Preacher and Hayes's (2008) bootstrapping procedure to obtain
+.360, they were significantly more confident in their own forecast            unbiased 95% confidence intervals around the mediated effects. Confidence in
+ing ability in the 20-percentile condition (M = 3.20, SD = 0.85)              their own forecasts significantly mediated the effect of incentive condition on
+                                                                              choice of the model, 95% Cl [-057, -.190], but confidence in the model's
+                                                                              forecasts did not, 95% Cl [-.036, .095].
+                                 ALGORITHM AVERSION                                                          121
+
+Table 4
+Confidence in Model's and Human's Forecasts: Means (and Standard Deviations)
+
+          Control                Human                                   Model          Model-and-human
+
+Confidence in model's forecasts
+
+Study 1   3.04. (0.86)           3.17a (0.82)                            2.49b (0.71)         2.63b (0.68)
+                                                                                              2.77 (0.83)
+Study 2                          3.57a (0.73)                            3-34a (0.79)         3.29. (0.79)
+                                 3.61a (0.76)                            3.34b (0.74)         3.36b (0.69)
+Study 3a  3.40a (0.83)           3.28a (0.75)                            2.86b (0.73)         2.87b (0.86)
+
+Study 3b  3.75. (0.75)
+
+Study 4   3.30. (0.80)
+
+Confidence in human's forecasts
+
+Study 1   2.70a (0.80)           2-47a (0.69)                            2.60a (0.75)         2.66.(0.75)
+                                                                                              2.85 (0.89)
+Study 2                          2.90a (0.95)                            3.07. (1.01)         3.03. (0.90)
+                                 2.78a (0.78)                            2.83.(0.81)          2.90. (0.80)
+Study 3a  2.85a (0.83)           2.1% (0.69)                             3-01ab (0.73)        2-97ab (0.83)
+
+Study 3b  2.92a (0.85)
+
+Study 4   3.11. (0.73)
+
+Note. Within each row, means with different subscripts differ at p < .05 using Tukey's test.
+
+   Additionally, although one must be cautious about making com          and-human conditions were about equally confident in the m odel's
+parisons across experiments, Figure 3 also shows that, across            and hum an's forecasts (see Table 4). Yet, in our studies, they chose
+conditions, participants were more likely to bet on the model            to tie their forecasts to the human most of the time.
+against another participant (Study 4) than against themselves
+(Study 1). This suggests that algorithm aversion may be more                Figure 4 explores this further, plotting the relationship between
+pronounced among those whose forecasts the algorithm threatens           choosing the statistical model and differences in confidence in the
+to replace.                                                              m odel's forecasts versus the hum an's forecasts. There are a few
+                                                                         things to note. First, passing the sanity check, people who were more
+Confidence                                                               confident in the model's forecasts than in the human's forecasts were
+                                                                         more likely to tie their bonuses to the model's forecasts, whereas
+   Participants' confidence ratings show an interesting pattern, one     people who were more confident in the human's forecasts than in the
+that suggests that participants "learned" more from the model's          model's forecasts were more likely to tie their bonuses to the human's
+mistakes than from the hum an's (see Table 4). Whereas seeing the        forecasts. More interestingly, the majority o f people who were
+human perform did not consistently decrease confidence in the            equally confident in the m odel's and hum an's forecasts chose to tie
+hum an's forecasts-- it did so significantly only in Study 4, seeing     their bonuses to the hum an's forecasts, particularly when they had
+the model perform significantly decreased participants' confidence       seen the model perform. It seems that most people will choose the
+in the m odel's forecasts in all four studies.10 Thus, seeing a model    statistical model over the human only when they are more confi
+make relatively small mistakes consistently decreased confidence         dent in the model than in the human.
+in the model, whereas seeing a human make relatively large
+mistakes did not consistently decrease confidence in the human.             Finally, the divergent lines in Figure 4 show that the effect of
+                                                                         seeing the m odel perform on p articipant's choice o f the model
+   W e tested whether confidence in the m odel's or hum an's fore        is not fully accounted for by differences in confidence. Partic
+casts significantly mediated the effect of seeing the model perform      ipants who expressed less confidence in the m odel's forecasts
+on participants' likelihood of choosing the model over the human.        than in the hum an's forecasts were, unsurprisingly, relatively
+We conducted binary mediation analyses, setting choice of the            unlikely to tie their bonuses to the model, but this was more
+model or the human as the dependent variable (0 = chose to tie           pronounced for those saw the model perform. This difference
+their bonus to the human; 1 = chose to tie their bonus to the            may occur because expressions of confidence in the m odel's
+model), w hether or not participants saw the model perform as            forecasts are less meaningful without seeing the model perform,
+the independent variable (0 = control or human condition; 1 =
+model or model-and-human condition), and confidence in the                  10 Seeing the model perform significantly decreased confidence in the
+hum an's forecasts and confidence in the m odel's forecasts as           model's forecasts in every study: Study 1, <(358) = 6.69, p < .001; Study
+m ediators. We used Preacher and H ayes's (2008) bootstrapping           3a, <(403) = 2.19, p = .029; Study 3b, <(1,032) = 7.16, p < .001; Study
+procedure to obtain unbiased 95% confidence intervals around the         4, <(351) = 5.12, p < .001. Seeing the human perform significantly
+mediated effects. In all cases, confidence in the model's forecasts      decreased confidence in the human's forecasts in only one of the four
+significantly mediated the effect, whereas confidence in the human       studies: Study 1, <(358) = 1.12, p = .262; Study 3a, <(403) = -0 .0 6 , p =
+did not.*11                                                              .952; Study 3b, <(1,031) = 0.756, p = .450; Study 4, <(351) = 2.28, p =
+                                                                         .023.
+   It is interesting that reducing confidence in the m odel's forecasts
+seems to have led participants to abandon it, because participants          11 For confidence in the model's forecasts, the 95% confidence intervals
+who saw the model perform were not more confident in the                 were as follows: Study 1, 95% Cl [-.165, -.070]; Study 3a, 95% Cl
+hum an's forecasts than in the m odel's. Whereas participants in the     [-.071, -.004]; Study 3b, 95% Cl [-.112, -.060]; Study 4, 95% Cl
+control and human conditions were more confident in the m odel's         [-174, -.068]. For confidence in the human's forecasts, the 95% confi
+forecasts than in the hum an's, participants in the model and model-     dence intervals were as follows: Study 1, 95% Cl [-029, .013]; Study 3a,
+                                                                         95% Cl [-.073, .004]; Study 3b, 95% Cl [-.033, .027]; Study 4, 95% Cl
+                                                                         [-.043, .026],
+122                            DIETVORST, SIMMONS, AND MASSEY
+
+                                              % C hoosing S ta tistic al M o d e l
+
+                                                                                                                                             (n=.792|
+
+                                                                              D ifferen ce in C onfiden ce in M o d e l's vs. H u m an 's Forecasts
+
+     Figure 4. Most people do not choose the statistical model unless they are more confident in the model's
+     forecasts than in the human's forecasts. Errors bars indicate �1 standard error. The "Did Not See Model
+     Perform" line represents results from participants in the control and human conditions. The "Saw Model
+     Perform" line represents results from participants in the model and model-and-human conditions. Differ
+     ences in confidence between the model's and human's forecasts were computed by subtracting participants'
+     ratings of confidence in the human forecasts from their ratings of confidence in the model's forecasts (i.e.,
+     by subtracting one 5-point scale from the other). From left to right, the five x-axis categories reflect
+     difference scores of: < - l , - I , 0, +1, and >1. The figure includes results from all five studies.
+
+or because the confidence measure may fail to fully capture         who saw the model perform were significantly less likely to
+people's disdain for a model that they see err. Whatever the        believe that the model would be within 5 percentiles of the right
+cause, it is clear that seeing the model perform reduces the        answer than were participants who did not see the model perform.
+likelihood of choosing the model, over and above the effect it      And Study 3b participants who saw the model perform thought it
+has on reducing confidence.                                         would make fewer perfect predictions than participants who did
+                                                                    not see the model perform.
+Beliefs
+                                                                       Table 6 reveals other interesting results. One alternative account
+   In addition to measuring confidence in the model's and human's   for why people find algorithms so distasteful may rest on people's
+forecasts, we also measured beliefs about the model's and human's   desire for perfect predictions. Specifically, people may choose
+forecasts. As shown in Tables 5 and 6, the results of these belief  human over algorithmic forecasts because, although they expect
+measures are similar to the results of the confidence measures:     algorithms to outperform humans on average, they expect a human
+With few exceptions, seeing the model perform made participants     forecast to have a greater chance of being perfect. However, the
+less optimistic about the model. For example, Study 1 participants  data in Table 6 fail to support this. In every condition-- even those
+                                                                    in which people were unlikely to choose the model--participants
+
+     Table 5
+     Estimates o f M odel's and Human's Performance: Means (and Standard Deviations)
+
+               Control         Human                                Model            Model-and-human
+
+     Estimated % of model's estimates within 5 percentiles
+
+     Study 1   46.52a (22.48)  47.63a (23.48)                       28.24b (18.78)   36.73b (22.61)
+                                                                    37.51c (19.88)   43.47b (20.83)
+     Study 4   52.89a (17.50)  50.64ab (20.28)
+
+     Estimated % of human's estimates within 5 percentiles
+
+     Study 1   37.02a (19.35)  27.19,, (18.84)                      32.67ab (21.25)  31.63ab (19.90)
+                                                                    40.63ab (21.22)  40.12ab (18.70)
+     Study 4   45.22a (18.76)  36.80b (19.62)
+
+     Estimated average absolute deviation of model's estimates
+
+     Study 3a  7.51a (8.19)    5.08b (5.75)                         6.18ab (6.06)    6-13ab (6.30)
+                                                                    5.75ab (4.39)    6.53a (5.43)
+     Study 3b  5.09b (6.84)    4.87b (4.29)
+
+     Estimated average absolute deviation of human's estimates
+
+     Study 3a  8.56J8.51)      7.44a (7.51)                         7.36a (8.46)     7.39a (6.87)
+                                                                    1.2% (6.36)      8.28a (6.71)
+     Study 3b  8.1 l a (8.38)  8.73a (7.40)
+
+     Note. Within each row, means with different subscripts differ at p < .05 using Tukey's test.
+                          ALGORITHM AVERSION                                                          123
+
+Table 6
+Beliefs About the Model and Human Forecaster: Means (and Standard Deviations)
+
+          Control         Human                                       Model          Model-and-human
+
+Likelihood the model will make a perfect prediction (9-point scale)
+
+Study 3a  5.35ac(1.61)    5.59a (1.50)                               4.80^(1.71)     4.60b (1.57)
+                                                                                     4.94c (1.61)
+Study 3b  6.14a (1.54)    5.72b (1.59)                               4.89c (1.55)
+
+Likelihood the human will make a perfect prediction (9-point scale)
+
+Study 3b  4.30a (1-84)    3.64b (1.62)                               3.73b (1.61)    3.89b (1.63)
+
+Number of states the model will predict perfectly (0-50)
+
+Study 3b  30.36a (14.01)  25.16b (14.57)                             15.20c (11.83)  15.84c (12.35)
+
+Number of states the human will predict perfectly (0-50)
+
+Study 3b  16.70a (13.14)  8.43b (8.37)                               9.1 l b (9.16)  8.60b (9.08)
+
+Likelihood the model will make a really bad estimate (9-point scale)
+
+Study 3b  3.78b (1.55)    3.80b (1.44)                               4.41a (1.52)    4.36a (1.47)
+
+Performance of model relative to expectations (5-point scale)
+
+Study 3a  3.12ab(0.73)    3.32a (0.69)                               2.99b (0.83)    3.1 l ab (0.78)
+
+Note. Within each row, means with different subscripts differ at p < .05 using Tukey's test.
+
+believed the algorithm to be more likely than the human to yield a   advantages people believe humans to have over models (and vice
+perfect prediction. Moreover, in Study 3b, the effect of seeing the  versa), which could inform future attempts to reduce algorithm
+model err on the likelihood of betting on the model persisted even   aversion.
+among those who thought the model was more perfect than them
+selves (63% vs. 55%), x2(l, N = 795) = 4.92, p = .027. Thus, the        Table 7 shows the results of these measures. Participants right
+algorithm aversion that arises from experience with the model        fully thought that the model was better than human forecasters at
+seems not entirely driven by a belief that the model is less likely  avoiding obvious mistakes, appropriately weighing various attri
+to be perfect. Rather, it seems driven more by people being more     butes, and consistently weighing information. Consistent with re
+likely to learn that the model is bad when they see the model make   search on the adoption of decision aids (see Highhouse, 2008),
+(smaller) mistakes than they are to learn that the human is bad      participants thought that the human forecasters were better than the
+when they see the human make (larger) mistakes.                      model at getting better with practice, learning from mistakes, and
+                                                                     finding underappreciated candidates. These data suggest that one
+   Finally, it is also interesting to consider the responses of par  may attempt to reduce algorithm aversion by either educating
+ticipants in the control condition in Study 3b, who did not see      people of the importance of providing consistent and appropriate
+either the model or themselves make forecasts before making their    weights, or by convincing them that models can learn or that
+judgments. These participants expected a superhuman perfor           humans cannot. We look forward to future research that builds on
+mance from the human--to perfectly predict 16.7 of 50 (33%)          these preliminary findings.
+ranks--and a supermodel12 performance from the model-- to per
+fectly predict 30.4 of 50 (61%) ranks. In reality, the humans and                             General Discussion
+the model perfectly predicted 2.2 (4%) and 6.0 (12%) ranks,
+respectively. Although one may forgive this optimism in light of        The results of five studies show that seeing algorithms err makes
+the control condition's unfamiliarity with the task, those with      people less confident in them and less likely to choose them over
+experience, including those who saw both the model and the           an inferior human forecaster. This effect was evident in two
+human perform, also expressed dramatically unrealistic expecta       distinct domains of judgment, including one in which the human
+tions, predicting the model and human to perfectly forecast many     forecasters produced nearly twice as much error as the algorithm.
+more ranks than was possible (see Table 6). Even those with          It arose regardless of whether the participant was choosing be
+experience may expect forecasters to perform at an impossibly        tween the algorithm and her own forecasts or between the algo
+high level.                                                          rithm and the forecasts of a different participant. And it even arose
+                                                                     among the (vast majority of) participants who saw the algorithm
+Comparing the Model and Human                                        outperform the human forecaster.
+on Specific Attributes
+                                                                        The aversion to algorithms is costly, not only for the partic
+   For purely exploratory purposes, we asked participants in Stud    ipants in our studies who lost money when they chose not to tie
+ies 2 -4 to rate how the human and the model compared at different   their bonuses to the algorithm, but for society at large. Many
+aspects of forecasting. These scale items were inspired by obser     decisions require a forecast, and algorithms are almost always
+vations made by Dawes (1979), Einhom (1986), and Grove and           better forecasters than humans (Dawes, 1979; Grove et al.,
+Meehl (1996), who articulated the various ways in which humans       2000; Meehl, 1954). The ubiquity of computers and the growth
+and algorithms may be perceived to differ. Our aim was to measure
+these perceived differences, in the hope of understanding what          12 Sorry.
+124                                         DIETVORST, SIMMONS, AND MASSEY
+
+Table 7
+Participants' Perceptions o f the Model Versus Human Forecaster on Specific Attributes: Means (and Standard Deviations)
+
+                                            Study 2                      Study 3a      Study 3b                          Study 4
+
+Detecting exceptions                        3.55h (0.99)                 3.02(1.08)    2.98 (1.08)                       3.91h (0.97)
+Finding underappreciated candidates         3.74h (0.96)                                                                 4.04h (0.98)
+Avoiding obvious mistakes                   2.68m (1.10)                 2-64m (1.03)  2-62m (1.02)                      2.55m (1.13)
+Learning from mistakes                      3.91,, (0.81)                3.74h (0.92)  3.67h (0.95)                      3.81h (0.99)
+Appropriately weighing a candidate's
+                                            2.98(1.09)                   2.50m (0.92)  2.34m (0.93)                      2.81m (1.11)
+   qualities (state's attributes)           2.33m (1.10)                 2.49m (1.00)  2.29m (0.98)                      2.05m (1.02)
+Consistently weighing information           3.60h (1.02)                 2.94(1.02)    2.89m (1.02)                      3.48h (1.25)
+Treating each student (state) individually  3.85h (0.82)                 3.66h (0.96)  3.63h (0.98)                      3.77h (1.08)
+Getting better with practice
+
+Note. In Studies 2-3b, participants were asked to "Please indicate how you and the model compare on the following attributes." In Study 4, participants
+were asked to "Please indicate how the lab participant and the model compare on the following attributes." All answers were given on 5-point scales, from
+1 (Model is much better) to 5 (/ am [The participant is] much better). Each mean significantly below the scale midpoint is denoted with an "m" subscript,
+indicating that the model is significantly better than the human; each mean significantly above the scale midpoint is denoted with an "h" subscript, indicating
+that the human is significantly better than the model.
+
+of the "Big Data" movement (Davenport & Harris, 2007) have               shown to be less perfect, as they inevitably will be much of the
+encouraged the growth of algorithms but many remain resistant            time.
+to using them. Our studies show that this resistance at least
+partially arises from greater intolerance for error from algo                          Limitations and Future Directions
+rithms than from humans. People are more likely to abandon an
+algorithm than a human judge for making the same mistake.                   Our studies leave some open questions. First, we did not explore
+This is enormously problematic, as it is a barrier to adopting           all of the boundaries of our effect. For example, we found that
+superior approaches to a wide range of important tasks. It               participants were significantly more likely to use humans that
+means, for example, that people will more likely forgive an              produced 13-97% more error than algorithms after seeing those
+admissions committee than an admissions algorithm for making             algorithms err. However, we do not know if this effect would
+an error, even when, on average, the algorithm makes fewer               persist if the algorithms in question were many times more accu
+such errors. In short, whenever prediction errors are likely--as         rate than the human forecasters. Presumably, there is some level of
+they are in virtually all forecasting tasks--people will be biased       performance advantage that algorithms could exhibit over humans
+against algorithms.                                                      that would lead forecasters to use the algorithms even after seeing
+                                                                         them err. However, in practice, algorithms' advantage over human
+   More optimistically, our findings do suggest that people will be      forecasters is rarely larger than the advantage they had in our
+much more willing to use algorithms when they do not see algo            studies (Grove et al., 2000), and so the question of whether our
+rithms err, as will be the case when errors are unseen, the algo         effects generalize to algorithms that have an even larger advantage
+rithm is unseen (as it often is for patients in doctors' offices), or    may not be an urgent one to answer. Also, although we found this
+when predictions are nearly perfect. The 2012 U.S. presidential          effect on two distinct forecasting tasks, it is possible that our effect
+election season saw people embracing a perfectly performing              is contingent on features that these tasks had in common.
+algorithm. Nate Silver's New York Times blog, Five Thirty Eight:
+Nate Silver's Political Calculus, presented an algorithm for fore           Second, our studies did not explore the many ways in which
+casting that election. Though the site had its critics before the votes  algorithms may vary, and how those variations may affect algo
+were in-- one Washington Post writer criticized Silver for "doing        rithm aversion. For example, algorithms can differ in their com
+little more than weighting and aggregating state polls and com           plexity, the degree to which they are transparent to forecasters, the
+bining them with various historical assumptions to project a future      degree to which forecasters are involved in their construction, and
+outcome with exaggerated, attention-grabbing exactitude" (Ger-           the algorithm designer's expertise, all of which may affect fore
+son, 2012, para. 2)--those critics were soon silenced: Silver's          casters' likelihood of using an algorithm. For example, it is likely
+model correctly predicted the presidential election results in all 50    that forecasters would be more willing to use algorithms built by
+states. Live on MSNBC, Rachel Maddow proclaimed, "You know               experts than algorithms built by amateurs. Additionally, people
+who won the election tonight? Nate Silver," (Noveck, 2012, para.         may be more or less likely to use algorithms that are simple and
+21), and headlines like "Nate Silver Gets a Big Boost From the           transparent--more likely if they feel more comfortable with trans
+Election" (Isidore, 2012) and "How Nate Silver Won the 2012              parent algorithms, but less likely if that transparency makes it
+Presidential Election" (Clark, 2012) followed. Many journalists          obvious that the algorithm will err. We look forward to future
+and popular bloggers declared Silver's success a great boost for         research investigating how algorithms' attributes affect algorithm
+Big Data and statistical prediction (Honan, 2012; McDermott,             aversion.
+2012; Taylor, 2012; Tiku, 2012).
+                                                                            Third, our results show that algorithm aversion is not entirely
+   However, we worry that this is not such a generalizable victory.      driven by seeing algorithms err. In the studies presented in this
+People may rally around an algorithm touted as perfect, but we           paper, nontrivial percentages of participants continued to use an
+doubt that this enthusiasm will generalize to algorithms that are        algorithm after they had seen it err and failed to use an algorithm
+ALGORITHM AVERSION                                                                                      125
+
+when they had not seen it err. This suggests that there are other                                       Highhouse, S. (2008). Stubborn reliance on intuition and subjectivity in
+important drivers of algorithm aversion that we have not uncov                                             employee selection. Industrial and Organizational Psychology: Per
+ered. Finally, our research has little to say about how best to reduce                                     spectives on Science and Practice, 1, 333-342. http://dx.doi.org/
+algorithm aversion among those who have seen the algorithm err.                                            10.111 l/j,1754-9434.2008.00058.x
+This is the next (and great) challenge for future research.
+                                                                                                        Honan, D. (2012, November 7). The 2012 election: A big win for big data.
+                             References                                                                    Big Think. Retrieved from http://bigthink.com/think-tank/the-2012-
+                                                                                                           election-a-big-win-for-big-data
+Arkes, H. R., Dawes, R. M., & Christensen, C. (1986). Factors influencing
+   the use of a decision rule in a probabilistic task. Organizational Behavior                          Isidore, C. (2012, November 7). Nate Silver gets a big boost from the
+   and Human Decision Processes, 37, 93-110. http://dx.doi.org/10.1016/                                    election. CNN Money. Retrieved from http://money.cnn.com/2012/ll/
+   0749-5978(86)90046-4                                                                                    07/news/companies/nate-silver-election/index.html
+
+Clark, D. (2012, November 7). How Nate Silver won the 2012 presidential                                 Kruger, J. (1999). Lake Wobegon be gone! The "below-average effect" and
+   election. Harvard Business Review Blog. Retrieved from http://blogs                                     the egocentric nature of comparative ability judgments. Journal of
+   .hbr.org/cs/2012/1 l/how_nate_silver_won_the_2012_p.html                                                Personality and Social Psychology, 77, 221-232. http://dx.doi.org/
+                                                                                                           10.1037/0022-3514.77.2.221
+Davenport, T. H., & Harris, J. G. (2007). Competing on analytics: The new
+   science o f winning. Boston, MA: Harvard Business Press.                                             McDermott, J. (2012, November 7). Nate Silver's election predictions a
+                                                                                                           win for big data, the New York Times. A d Age. Retrieved from http://
+Dawes, R. M. (1979). The robust beauty of improper linear models in                                        adage.com/article/campaign-trail/nate-silver-s-election-predictions-a-
+   decision making. American Psychologist, 34, 571-582. http://dx.doi.org/                                 win-big-data-y ork-times/238182/
+   10.1037/0003-066X.34.7.571
+                                                                                                        Meehl, P. E. (1954). Clinical versus statistical prediction: A theoretical
+Dawes, R. M., Faust, D., & Meehl, P. E. (1989). Clinical versus actuarial                                  analysis and review o f the literature. Minneapolis, MN: University of
+  judgment. Science, 243, 1668-1674. http://dx.doi.org/10.1126/science                                     Minnesota Press.
+   .2648573
+                                                                                                        Moore, D. A., & Healy, P. J. (2008). The trouble with overconfidence.
+Diab, D. L., Pui, S. Y., Yankelevich, M., & Highhouse, S. (2011). Lay                                      Psychological Review, 115, 502-517. http://dx.doi.org/10.1037/0033-
+   perceptions of selection decision aids in U.S. and non-U.S. samples.                                    295X.115.2.502
+   International Journal o f Selection and Assessment, 19, 209-216. http://
+   dx.doi.org/10.111 l/j,1468-2389.2011.00548.x                                                         Noveck, J. (2012, November 9). Nate Silver, pop culture star: After 2012
+                                                                                                           election, statistician finds celebrity. Hufftngton Post. Retrieved from
+Eastwood, J., Snook, B., & Luther, K. (2012). What people want from their                                  h ttp://w w w .huffingtonpost.eom /2012/l 1/
+   professionals: Attitudes toward decision-making strategies. Journal o f                                 09nate-silver-celebrity_n_2103761 .html
+   Behavioral Decision Making, 25, 458-468. http://dx.doi.org/10.1002/
+   bdm.741                                                                                              Onkal, D., Goodwin, P., Thomson, M., Goniil, S., & Pollock, A. (2009).
+                                                                                                           The relative influence of advice from human experts and statistical
+Einhom, H. J. (1986). Accepting error to make less error. Journal o f                                      methods on forecast adjustments. Journal o f Behavioral Decision Mak
+   Personality Assessment, 50, 387-395. http://dx.doi.org/10.1207/                                         ing, 22, 390-409. http://dx.doi.org/10.1002/bdm.637
+   sl5327752jpa5003_8
+                                                                                                        Preacher, K. J., & Hayes, A. F. (2008). Asymptotic and resampling
+Gerson, M. (2012, November 5). Michael Gerson: The trouble with                                            strategies for assessing and comparing indirect effects in multiple me
+   Obama's silver lining. The Washington Post. Retrieved from http://                                      diator models. Behavior Research Methods, 40, 879-891. http://dx.doi
+   w w w .w as h in g to n p o st.co m /o p in io n s/m ic h ae l-g ers o n -th e -tro u b le -w ith -     .org/10.3758/BRM.40.3.879
+   obam as-silver-lining/2012/1 l/05/6bl058fe-276d-l Ie2-b2a0-
+   ae 18d6159439_story.html                                                                             Promberger, M., & Baron, J. (2006). Do patients trust computers? Journal
+                                                                                                           o f Behavioral Decision Making, 19, 455-468. http://dx.doi.org/10.1002/
+Grove, W. M., & Meehl, P. E. (1996). Comparative efficiency of informal                                    bdm.542
+   (subjective, impressionistic) and formal (mechanical, algorithmic) pre
+   diction procedures: The clinical-statistical controversy. Psychology,                                Shaffer, V. A., Probst, C. A., Merkle, E. C., Arkes, H. R., & Medow, M. A.
+   Public Policy, and Law, 2, 293-323. http://dx.doi.org/10.1037/1076-                                     (2013). Why do patients derogate physicians who use a computer-based
+   8971.2.2.293                                                                                            diagnostic support system? Medical Decision Making, 33, 108-118.
+                                                                                                           http://dx.doi.org/10.1177/0272989X12453501
+Grove, W. M., Zald, D. H., Lebow, B. S., Snitz, B. E., & Nelson, C. (2000).
+   Clinical versus mechanical prediction: A meta-analysis. Psychological                                Silver, N. (2012). The signal and the noise: Why so many predictions
+   Assessment, 12, 19-30. http://dx.doi.org/10.1037/1040-3590.12.L19                                      fa il-b u t some don't. New York, NY: Penguin Press.
+
+Heath, C., & Tversky, A. (1991). Preference and belief: Ambiguity and                                   Taylor, C. (2012, November 7). Triumph of the nerds: Nate Silver wins in
+   competence in choice under uncertainty. Journal o f Risk and Uncer                                      50 states. Mashable. Retrieved from http://mashable.com/2012/ll/07/
+   tainty, 4, 5-28. http://dx.doi.org/10.1007/BF00057884                                                   nate-silver-wins/
+
+                                                                                                        Tiku, N. (2012, November 7). Nate Silver's sweep is a huge win for "Big
+                                                                                                           Data". Beta Beat. Retrieved from http://betabeat.com/2012/ll/nate-
+                                                                                                           silver-predicton-sweep-presidential-election-huge-win-big-data/
+
+{Appendices follow )
+126  DIETVORST, SIMMONS, AND MASSEY
+
+              Appendix A
+     Payment Rule for Study 2
+
+     Participants in the average absolute error condition of Study 2 were paid as follows:
+
+     � $10: within 4 percentiles of student's actual percentile on average
+
+     � $9: within 8 percentiles of student's actual percentile on average
+
+     � $8: within 12percentiles of student's  actual percentile on average
+
+     � $7: within 16percentiles of student's  actual percentile on average
+
+     � $6: within 20percentiles of student's  actual percentile on average
+
+     � $5: within 24percentiles of student'sactual percentile on average
+
+     � $4: within 28percentiles of student's  actual percentile on average
+
+     � $3: within 32percentiles of student's  actual percentile on average
+
+     � $2: within 36percentiles of student's  actual percentile on average
+
+     � $1: Within 40 percentiles of student's actual percentile on average
+
+                     Appendix B
+     Payment Rule for Studies 3a and 3b
+
+     Participants in Studies 3a and 3b were paid as follows:
+     � $1.00: perfectly predict state's actual rank
+     � $0.85: within 1 rank of state's actual rank
+     � $0.70: within 2 ranks of state's actual rank
+     � $0.55: within 3 ranks of state's actual rank
+     � $0.40: within 4 ranks of state's actual rank
+     � $0.25: within 5 ranks of state's actual rank
+     � $0.10: within 6 ranks of state's actual rank
+
+                                                                                               Received July 6, 2014
+                                                                            Revision received September 23, 2014
+
+                                                                                      Accepted September 25, 2014 
+Copyright of Journal of Experimental Psychology. General is the property of American
+Psychological Association and its content may not be copied or emailed to multiple sites or
+posted to a listserv without the copyright holder's express written permission. However, users
+may print, download, or email articles for individual use.
+

@@ -1,0 +1,1002 @@
+                                                        Transportation Research Part F 65 (2019) 402­417
+
+                                                      Contents lists available at ScienceDirect
+
+                                         Transportation Research Part F
+
+                                        journal homepage: www.elsevier.com/locate/trf
+
+Transferring decisions to an algorithm: A simple route choice
+experiment
+
+Carina Goldbach , Deniz Kayar, Thomas Pitz, Jörn Sickmann
+
+Rhine-Waal University of Applied Sciences, Marie-Curie-Straße 1, 47533 Kleve, Germany
+
+article info                            abstract
+
+Article history:                        The future of artificial intelligence is bright and will create new situations in which humans
+Received 16 January 2019                can share or delegate decisions to machines and algorithms ­ as is likely to be the case in
+Received in revised form 5 August 2019  fully autonomous traffic situations. As it is important to understand human-machine inter-
+Accepted 11 August 2019                 actions and acceptance of these new technologies, we took a deeper look into delegation
+                                        behavior to an algorithm and its links to personality measures. To this end, we ran the
+JEL classification:                     route choice game from Selten et al. (2007), in which 18 players had to choose to either
+C88                                     use the main or the side road for 200 periods, but had the opportunity to delegate this deci-
+C91                                     sion to a reinforcement algorithm. Results from 216 participants show that delegation
+C92                                     rates average around 10% but vary greatly between individual players and with the level
+D83                                     of traffic information. Focusing on personality factors, extraverted individuals were
+D91                                     robustly found to be more likely to delegate than introvert players. Altogether, results sug-
+R40                                     gest that there is ­depending on several factors­ hesitation to delegate decisions that affect
+R41                                     both the decision maker and other participants.
+
+Keywords:                                                                                                       Ó 2019 Elsevier Ltd. All rights reserved.
+Route choice
+Travel behavior
+Personality
+Delegations
+Algorithm
+Laboratory experiment
+
+1. Introduction
+
+    The current evolution of artificial intelligence ­for example through advances in deep learning­ will undoubtedly create
+immense potential for innovation, and the development of ever better autonomous systems is moving rapidly. This progress
+enables machines to autonomously transform information and carry out tasks on behalf of their human agents, and it
+enables human agents to delegate decisions to machines and complex algorithms that formerly only had supportive func-
+tions (Schaefer, Chen, Szalma, & Hancock, 2015). The development of technology that does not need to be supervised or mon-
+itored by human agents will create plenty of new situations and possibilities. It especially promises progress on the path to
+autonomous traffic, as artificial intelligence and machine learning algorithms can be used as tools which empower vehicles
+to make decisions without human interventions. The idea of self-driving cars has recently generated great interest, and most
+major car companies are now involved in some kind of research and development of automated vehicles (Gogoll & Uhl,
+2018). The inevitable development of autonomously driving vehicles will undoubtedly change the traffic of the future,
+challenge traditional concepts of mobility and promise substantial gains in human welfare through improved efficiency,
+
+  Corresponding author.
+
+     E-mail address: carina.goldbach@hochschule-rhein-waal.de (C. Goldbach).
+
+https://doi.org/10.1016/j.trf.2019.08.011
+1369-8478/Ó 2019 Elsevier Ltd. All rights reserved.
+C. Goldbach et al. / Transportation Research Part F 65 (2019) 402­417  403
+
+facilitated mobility, increased safety and environmental benefits. Thus, ever-more capable autonomous systems will cer-
+tainly have far-reaching societal implications and challenges.
+
+    It is therefore important to understand individual behaviors in new situations of sharing or delegating decisions to machi-
+nes and algorithms. Several studies have focused on different aspects of behavior towards machines as well as on the rela-
+tionship between human agents and automated systems.
+
+    Several of these studies suggest that in situations of human-machine-interactions computers are actually treated simi-
+larly to humans. Nass and Moon (2000), for example, reviewed a series of experimental studies and concluded that humans
+``mindlessly apply social rules and expectations to computers" (p.81). They found that individuals use human social cate-
+gories and show social behavior towards automated systems. Other studies confirmed that humans tend to behave socially
+towards computers (Katagiri, Nass, & Takeuchi, 2001; Krämer, Von Der Pütten, & Eimler, 2012; Nass, Fogg, & Moon, 1996;
+Reeves & Nass, 1996; Riedl, Mohr, Kenning, Davis, & Heekeren, 2011) and view computers as at least partially responsible
+for their actions (Bechtel, 1985; Eyssel & Kuchenbrandt, 2012; Moon, 2003). Strobel and Kirchkamp (2017), for example,
+drew on a popular economic experiment and tested whether the type of partner ­ human or machine ­ affects the partic-
+ipants' perceptions and choice in a modified dictator game in which the payoff depended on the simultaneous choice of two
+dictators. The second dictator was either a human or an algorithm which resembled human behavior. They found that per-
+ceptions of responsibility differed whereas, just as expected by the theory of mindless application of social rules, actual
+choices did not depend on whether they played with a human or a computerized agent.
+
+    Other studies, however, stress that this observed tendency to apply social norms is weak and depends on many other fac-
+tors, indicating that differences in behavior towards humans and computers remain (see de Melo, Marsella, & Gratch, 2018).
+de Melo, Marsella, and Gratch (2016) found that human agents behave very differently when playing the dictator game with
+a machine than with a human. When playing the ultimatum game, dictators were found to offer substantially more money to
+a human partner than to an automated receiver and were less likely to perceive guilt when interacting with the machine.
+
+    Despite the growing amount of literature on the use of automated aids1 and on human interactions with automated sys-
+tems, studies focusing on delegating decisions to autonomous systems are still comparably scarce, even though the agents' will-
+ingness to leave decisions that impact both the agent and third parties to a complex algorithm (whose mode of operation might
+resemble a black box) will be an important issue in the future, especially in the context of autonomous traffic.2 Reservation to
+accept new technologies could, therefore, hinder their implementation or delay potential benefits. One mentionable study by
+Gogoll and Uhl (2018) has tested whether people would delegate a decision that affects a third party to a human or to an algo-
+rithm that resembles human behavior. They found that the majority of subjects were unwilling to delegate their decision to the
+algorithm and that observers viewed delegations to the machine quite critically.
+
+    Another stream of literature, which is more located in the field of applied psychology, has focused on technology accep-
+tance and its link to different personality factors. Ultimately, factors based on the five-factor model of personality turned out
+to be useful predictors for technology acceptance, which will be further discussed in a later chapter of this paper. The major-
+ity of these studies, however, have focused more on the effect of personality factors on the intention to use a new technology
+and less on actual behavior towards innovations (e.g. Aldás-Manzano, Ruiz-Mafé, & Sanz-Blas, 2009; Devaraj, Easley, &
+Michael Crant, 2008; Svendsen, Johnsen, Almås-Sørensen, & Vittersø, 2013). For these reasons, we include personality factors
+and investigate their link to actual observed delegation behavior in an experimental setting.
+
+    Thus, in order to shed some light on this trending but still underexplored issue of delegating decisions to a machine which
+might be especially prominent in future traffic scenarios, we draw on previous work and replicate a laboratory route choice
+experiment from Selten, Chmura, Pitz, Kube, and Schreckenberg (2007) , which focuses on a generic two-route scenario, has a
+large number of periods and includes different information treatments. While similar route choice experiments have been
+investigated in the literature (see for example Chmura & Pitz, 2006; Hartman, 2012; Helbing et al., 2005; Iida, Akiyama, &
+Uchida, 1992; Mahmassani & Liu, 1999; Schneider & Weimann, 2004), we extend the replicated scenario by including the
+possibility to delegate the route decision, which affects the player as well as other players, to an reinforcement algorithm.
+As information is an important factor in traffic behavior (see for example Avineri & Prashker, 2007; Ben-Elia, Di Pace,
+Bifulco, & Shiftan, 2012; Ben-Elia & Avineri, 2015; Ben-Elia & Shiftan, 2010; Lu, Gao, Ben-Elia, & Pothering, 2014; van
+Essen, Thomas, van Berkum, & Chorus, 2016), this experiment has two treatments with different information in order to
+investigate if and how this difference will influence the observed behavior.
+
+2. Methods
+
+2.1. Experimental setup
+
+    Just as in the original experiment from Selten et al. (2007), participants were instructed to make a choice between a main
+road M and a side road S in order to travel from A to B (see Fig. 1). The participants' payoffs depend on their respective travel
+time needed.
+
+  1 Dzindolet, Pierce, Beck, and Dawe (2002), for example, have created a framework to predict automation use.
+  2 Studies focusing specifically on human-machine interactions in traffic situations are still rare. While some studies focus on the impact of humanlike
+features on the trust in autonomous vehicles (Waytz, Heafner, & Epley, 2014) or on ethical dilemmas in autonomous traffic situations (e.g. Gogoll and Müller,
+2017; Goodall, 2014), not much attention has been paid to an empirical assessment of the road users' acceptance of autonomously driving systems.
+404                 C. Goldbach et al. / Transportation Research Part F 65 (2019) 402­417
+
+                    Fig. 1. Experimental setup (Selten et al., 2007, p. 396).
+
+    This particular route choice game can be viewed as a coordination problem as players have to coordinate their route
+choices in order to reach equilibrium. Yet, it is different to classic coordination games in experimental economics as these
+are characterized by an equilibrium at which every player chooses the same pure strategy. Another kind of similar experi-
+mental games are market entry games (see for example Camerer & Lovallo, 1999; Duffy & Hopkins, 2005; Rapoport, 1995;
+Rapoport et al., 1998) in which players have a choice to enter a market or to stay out and where payoff decreases with the
+number of entering players. Therefore, route choice games can be considered similar to a market entry game with two mar-
+kets instead of one and without the possibility to stay out of both markets. Market entry games, just as this route choice
+game, typically have a large number of Nash equilibria and pure equilibria involve considerable coordination on asymmetric
+outcomes where some agents enter and some stay out, or some take the main road and some the side road, respectively
+(Duffy & Hopkins, 2005). This class of games has typically found a quick learning towards the equilibrium with subjects
+switching between strategies. Continued switching is found to impair performance and payoff. However, previous experi-
+ments, like the replicated Selten et al. (2007), also showed that additional information reduced switching behavior (for an
+extensive review please see Ben-Elia & Avineri, 2015).
+
+    Coordination games and market entry games have been typically played over a small number of periods. As it has been
+shown that games with more than 100 rounds produce different behavior and as traffic situations are best described as fre-
+quently repeating route choices, this experiment runs over a total of 200 periods (see Selten et al., 2007).
+
+    In each session of 200 periods 18 students from the Rhine-Waal University, Germany, were asked to make the above men-
+tioned route choice. They were shown Fig. 1 and explained that if the same number of people travel on the side and on the
+main road, then M is faster than S (for instructions see Appendix A). More specifically, the travel time, tM and tS, depend on
+the number of participants on M, nM, and on S, nS, respectively:
+
+     tM ¼ 6 þ 2nM                                                                          ð1Þ
+
+     tS ¼ 12 þ 3nS                                                                         ð2Þ
+
+The payoff per period was 40 ­ t with t = tM if M was chosen and t = tS if S was chosen. The total payoff per participant was an
+initial lump sum endowment of 200 experimental currency units (ECU), plus the sum of all 200 period payoffs with a fixed
+exchange rate of 0.005 per ECU. Altogether, on average participants earned 2047 ECUs (=10.24) in the experiment. For
+answering a consecutive personality questionnaire participants received another 4. In total, each session took about 1.5 h.
+
+    The pure equilibria of this game are at
+
+        nM ¼ 12 and nS ¼ 6
+
+with a resulting period payoff of 10 ECUs per participant adding up to 180 ECUs per period.3
+    Just as in the original route choice game, two treatments with different information have been investigated as it is
+
+expected that additional information leads to a different travel behavior and possibly even to a different willingness to del-
+egate to the computer. Both treatments consist of six sessions, resulting in a total of 216 different participants. In the control
+treatment, participants received feedback after every period about their last chosen route, the travel time of the chosen
+route, their payoff of the last period in ECUs, their cumulative payoff in ECUs and the number of the current period. In
+the full information treatment, players received additional feedback about the travel time on the non-chosen route in the
+last period.4
+
+    Different to the original experiment and regardless of the treatments, however, subjects had the possibility to delegate
+their decision to the computer C that decided according to a learning algorithm which simulates real human decision making
+in the given situation. The used algorithm can be best described as a reinforcement learning model ­the payoff-sum model­
+that updates the probabilities with which the main or the side road is chosen. These probabilities are proportional to their
+
+  3 This differs from the Pareto-optimum of 181 ECUs. The Pareto-Optimum could be reached with nM = 11,4 and nS = 6,6.This route choice game also has mixed
+equilibria, including one symmetric mixed equilibrium in which players choose the main road with a probability of p = 0.6824. In this symmetric mixed
+
+equilibrium 12.2824 players are expected on the main and 5.7176 on the side road.
+  4 The experiment was programmed in oTree (Chen, Schonger, & Wickens, 2016).
+                          C. Goldbach et al. / Transportation Research Part F 65 (2019) 402­417  405
+
+propensities which are exogenously determined. In period 1, the propensity to choose the main road and the propensity to
+use the side road are equal; thus, the probability to choose the main and side road is 0.5 for each player, respectively. In the
+control treatment, whenever a road is used and the resulting payoff is positive, it is added to that road's propensity. If the
+payoff is negative, however, its absolute value gets added to the other road's propensity. Thus, if all payoffs were positive,
+then the propensity is the sum of all previous payoffs for this road plus its initial propensity. In the full information treat-
+ment, propensities get updated for both roads in each round. This payoff-sum model was chosen as it is straightforward and
+has only a minimum number of exogenous parameters. It was also shown in Selten et al. (2007) that the chosen reinforce-
+ment model gives a good prediction not only of the mean number of participants on the two roads but also of the fluctuations
+and number of road changes, and was found to take decisions in a way that resembles human behavior.
+
+2.2. Explanatory factors
+
+    In order to understand the individual delegations decisions better, all players were asked to answer an additional ques-
+tionnaire which included measures of personality. The personality model is based on the factors Openness, Conscientious-
+ness, Extraversion, Agreeableness and Neuroticism (and thus sometimes called OCEAN) which include a huge variety of
+personality attributes.5 Altogether these five factors ``capture the essence of one's personality" (McElroy, Hendrickson,
+Townsend, & DeMarie, 2007, p. 810). Therefore, we used the 100-item IPIP NEO inventory which is made available on the broad
+and comprehensive International Personality Item Pool (IPIP; Goldberg et al., 2006; Goldberg, 1999). The inventory is based on
+Costa and McCrae (1992) NEO Personality Inventory ­ Revised (NEO PI­R) which is considered by many psychologists to be
+the best inventory for measuring traits within the five-factor model of personality.
+
+    Ultimately, the survey included 20 items per personality factor.6 All items were measured with a five-point Likert scale
+ranging from 1= ``Very Accurate" to 5= ``Very Inaccurate", including a neutral option labelled as ``Neither Inaccurate nor Accu-
+rate", and reverse scored as necessary. As recommended, the individual item scores were summed up to the respective scale. For
+representation purposes we normalized the five scales, resulting in 1 being the highest score and 0 the lowest.
+
+    Reliability of the measures was checked by assessing the internal consistency through Cronbach's alpha and average
+interitem correlations (Briggs & Cheek, 1986) and constructs found to be very reliable (see Table 1). Cronbach's alpha is con-
+sistently high, indicating a very good fit for the use as a research tool (Nunnally, 1978; Streiner, 2010) and the interitem cor-
+relations for this study's scales show acceptable homogeneity7: items are related but not too similar and thus show internal
+consistency without being redundant.
+
+    These five factors were included as they are expected to play a significant role in accepting new technologies. Openness to
+experience, for example, is generally linked to curiosity and originality, the motivation to learn and the appreciation of art
+(Barnett, Pearson, Pearson, & Kellermanns, 2015). Players scoring high on openness to experience generally tend to be
+broad-minded, willing to try out new activities and are more likely to accept and embrace change (Devaraj et al., 2008).
+Therefore, we expect that the individual openness to experience is positively linked to the willingness to delegate to the
+computer as this action typically requires these very attributes.
+
+    Conscientiousness is characterized by responsibility, thoroughness and the eagerness to achieve. Conscientious people are
+typically goal-oriented and strive for success, achievement and knowledge and are more willing to take actions to advance
+(Digman, 1990). Thus, the relationship between conscientiousness and technology adoption depends strongly on whether
+participants expect the technology to increase their performance or achievements significantly (Lane & Manner, 2011). As
+the algorithm in the experiment simulates human behavior, we do not expect that conscientious players expect it to be bet-
+ter achieving and do not use it more often than other participants.
+
+    Extraversion is the degree to which a person is sociable, assertive, initiative, active and enthusiastic. Unlike introverts they
+enjoy social interaction and find energy and reward in spending time with other people. They generally appreciate activity,
+and often behave in order to attract social attention (Ashton, Lee, & Paunonen, 2002). They desire a high social status which is
+often seen as a reason to adapt new technologies (Devaraj et al., 2008). As this algorithm used in the route choice game does
+not generate social interaction ­ different to many other new technologies ­ but rather takes away the only means to interact
+with the players, we do expect a significant negative relationship.
+
+    Agreeableness is the tendency to be kind, trusting, cooperative, tolerant and forgiving (Barrick & Mount, 1991). It is espe-
+cially expected to influence technology use positively when the technology under consideration fosters cooperation and
+increases the opinions of others about one, and negatively when it is less helpful in fostering collaboration or reduces the
+individuals' status (Devaraj et al., 2008). Thus, in our experiment we do expect a direct relationship to the players' delegation
+decision, but are uncertain about the direction it takes.
+
+  5 These five factors have proven to consistently provide a summary of individual personality differences and to be of great reliability and stability across
+different samples (Costa & McCrae, 1992; Digman, 1990). Due to its strong predictive validity the five-factor model has been used extensively in the field of
+psychology (John et al. 2008), also in explaining technology acceptance (Devaraj et al., 2008; Lane & Manner, 2011; McElroy & Townsend, & DeMarie, 2007;
+Svendsen et al., 2013). Accumulated research provides further evidence for the robustness of the five factors (Barrick & Mount, 1991).
+
+  6 Ten of these were positive keyed, the other ten negative keyed. Furthermore, items from one scale were not listed together but distributed throughout the
+questionnaire. This distribution of items and the use of positively and negatively worded items should encourage participants to pay closer attention.
+
+  7 Average interitem correlations - as another indicator for internal consistency reliability - are generally considered to optimally range between 0.2 and 0.4
+(Milfont & Gouveia, 2006; Piedmont, 2014).
+406                       C. Goldbach et al. / Transportation Research Part F 65 (2019) 402­417
+
+Table 1
+Internal consistency reliability measures for the five factors.
+
+Openness           Mean   Standard deviation                     Cronbach's Alpha                Average interitem correlation
+Conscientiousness
+Extraversion       0.535  0.180                                  0.836                           0.219
+Agreeableness      0.535  0.197                                  0.879                           0.271
+Neuroticism        0.521  0.177                                  0.896                           0.356
+                   0.608  0.181                                  0.823                           0.188
+                   0.434  0.181                                  0.877                           0.302
+
+    Neuroticism is commonly associated with the tendency to experience negative feelings like anxiety, depression, worry,
+fear and insecurity (Barrick & Mount, 1991). In general, individuals scoring high on neuroticism are less likely to engage
+in new activities and more likely to perceive a new situation as stressful. The potential effect on technology adaptation, how-
+ever, is twofold: If neurotic respondents perceive the decision-making in the experiment as stressful, then we expect them to
+be more likely to delegate to the computer. If they perceive the delegation to the computer, however, as stressful, then an
+adoption of this technology seems less likely (Devaraj et al., 2008).
+
+    In addition to the personality measures, the survey collected information on age and gender as well as on the self-stated
+willingness to take risks and on individual patience. As trusting an unknown algorithm could be seen as risky, we expect
+risk-averse participants to be less willing to delegate their decision. Participants with less patience are expected to be more
+willing to delegate their decision in order to reduce the time spent on considering the best choice themselves.
+
+3. Experimental results
+
+    In order to assess the results of this route choice game, we look at different factors discussed in Selten et al. (2007), com-
+pare our results with the original paper and extend the findings by analyzing the willingness to delegate decisions and its
+link to other explanatory factors.
+
+3.1. Route choices
+
+    Table 2 shows that the overall mean number of participants on S is extremely close to the equilibrium prediction. On
+average, 6.00 participants used S in the control treatment and 6.02 in the full information treatment.
+
+    Fig. 2 depicts a typical session of the control treatment and demonstrates, together with Table 2, substantial fluctuations
+around the theoretical equilibrium, which can be measured by the standard deviation of the number of participants on S
+which is between 1.27 and 2.04. Table 2 also shows that the observed fluctuations are larger under the control treatment
+than under the full information treatment which turns out to be a significant difference. The null-hypothesis of no difference
+is rejected by a Wilcoxon-Mann-Whitney test on the 1% level.
+
+    These findings are perfectly in line with the original ones by Selten et al. (2007) who argued that the observed fluctuations
+can be easily explained by the multiplicity of pure strategy equilibria which poses a coordination problem.8 However, in this
+paper, a look at the number of participants using the side road does not allow us to draw conclusions about the actual choices of
+participants. The use of the side road could have been a decision by the player or by the algorithm. Therefore, Table 2 also
+depicts the number of players that delegated their decision to the computer.
+
+    When taking a closer look at actual decisions and the possibility to delegate the decision to the learning algorithm, we
+find that on average 1.86 participants per period chose the computer, more precisely 2.73 in the control treatment and
+1.30 in the full information treatment. The Wilcoxon­Mann­Whitney test confirms that, interestingly, participants chose
+the computer C significantly more often in the control treatment than in the full information treatment (see also Table 1).
+Additionally, we find that the number of players willing to delegate the decision to the algorithm decreases slightly over
+periods (see Fig. 3).
+
+    The Spearman-rank-correlation between the number of players choosing C and the number of periods, however, is stron-
+
+ger in the control treatment (q = À0.2959) than in the full information treatment (q = À0.0982) which might result from the
+
+fact that in the latter treatment less players chose to delegate to the computer from the beginning. When looking at it from
+another angle, we find that on average players delegate to the computer in 22 out of 200 rounds. Fig. 4 further emphasizes
+that the distribution of the total number of delegations is heavily right-skewed: a quarter of the participants never delegated
+to the computer, whereas only 4.6% chose the computer in at least half of their rounds. Rather unexpectedly, two players
+trusted the algorithm in every single round.
+
+    Of course, there is also a highly significant difference between the treatments when focusing on the average number of
+delegations to the algorithm: Whereas an average player in the control treatment delegates the decision to the computer in
+30.3 out of 200 periods, an average player in the full information treatment only does so in 14.4 periods.
+
+  8 Even though the equilibrium number of participants on the side road is 6, it could be any set of 6 players which causes the appearance of several equilibria.
+                            C. Goldbach et al. / Transportation Research Part F 65 (2019) 402­417                                 407
+
+Table 2
+Number of players on side road S and number of players delegating to computer C.
+
+                                           Number of players on S                                                    Number of players delegating
+
+                                           Mean                                   std. dev.                          Mean  std. dev.
+
+Control treatment           session I 01   5.95                                   1.558                              2.72  1.294
+                            session I 02   6.01                                   1.779                              2.53  1.081
+                            session I 03   5.91                                   1.875                              2.59  1.460
+                            session I 04   6.06                                   1.774                              2.20  1.460
+                            session I 05   6.03                                   1.565                              3.40  1.385
+                            session I 06   6.08                                   2.037                              2.94  1.337
+
+                            Total          6.00                                   1.774                              2.73  1.345
+
+Full information treatment  session II 01  6.00                                   1.380                              1.51  0.860
+                            session II 02  6.03                                   1.269                              0.71  0.747
+                            session II 03  5.95                                   1.667                              1.84  1.032
+                            session II 04  5.96                                   1.638                              1.21  0.892
+                            session II 05  6.28                                   1.828                              1.74  0.802
+                            session II 06  5.92                                   1.389                              0.78  0.784
+
+                            Total          6.02                                   1.545                              1.30  0.964
+
+                            Fig. 2. Number of players on side road S in a typical session of the control treatment.
+
+                            Fig. 3. Number of players delegating their decision to the computer in a typical session of the control treatment.
+
+3.2. Changes in route choices
+
+    The observed high fluctuations suggest that participants change their decisions, and thus switch roads, quite often. Table 3
+shows the mean and standard deviation of road and choice changes, where `road' is the final road taken (S or M), `choice' is
+the actual decision made by the player (S, M, or C) and `delegation switches' indicates whether the participants switch
+408                             C. Goldbach et al. / Transportation Research Part F 65 (2019) 402­417
+
+                                Fig. 4. Distribution of players' total number of delegations to the computer.
+
+Table 3                                        Number of road   Number of choice                               Number of delegation
+Session overview.                              changes          changes                                        switches
+
+    Control treatment                          Mean  std. dev.  Mean  std. dev.                                Mean  std. dev.
+
+    Full information treatment  session I 01   4.22  1.996      4.70  1.983                                    1.55  1.627
+                                session I 02   5.09  1.750      5.95  1.945                                    2.10  1.717
+                                session I 03   6.57  1.912      7.98  2.237                                    2.98  2.118
+                                session I 04   5.81  2.364      6.33  2.483                                    1.73  1.749
+                                session I 05   4.44  1.930      5.23  2.332                                    2.52  1.990
+                                session I 06   6.20  2.343      7.19  2.421                                    2.46  1.822
+
+                                total          5.39  2.240      6.23  2.503                                    2.22  1.908
+
+                                session II 01  3.27  1.551      3.64  1.707                                    1.66  1.623
+                                session II 02  2.72  1.376      2.92  1.513                                    0.95  1.539
+                                session II 03  5.25  1.846      5.63  1.759                                    1.97  1.565
+                                session II 04  4.12  1.969      4.43  2.118                                    1.52  1.540
+                                session II 05  6.67  2.339      6.25  2.299                                    0.75  1.459
+                                session II 06  4.67  1.937      4.64  1.968                                    0.63  1.464
+
+                                total          4.45  2.271      4.58  2.217                                    1.25  1.611
+
+between delegating and not delegating (C or no C). It reveals significant differences between the treatments. Whereas the
+mean choice change in the control treatment is 6.23 (road change: 5.39, delegation switches: 2.22), it is 4.58 (road change:
+4.45, delegation switches: 1.25) in the full information treatment. Again, the null-hypothesis of no difference is rejected by a
+Wilcoxon­Mann­Whitney test on the significance level of 1%. Our findings again confirm previous results from the original
+paper.
+
+    But not only do the mean numbers of road and choice changes as well as delegation switches, which are inevitably linked
+to each other anyway, differ significantly between the treatments, they also slightly decrease over time. Fig. 5 further shows
+that the number of road changes per period for a typical session of the control treatment decreases over time. Indeed, we find
+a negative trend for all sessions in the control treatment and nearly all sessions in the full information treatment (here two
+sessions show an indifferent trend for both the number of road and choice changes).
+
+    Focusing on delegation behavior, we find that there is a positive link between the player's number of delegations and his
+number of road changes in the full information treatment. This finding, however, could be attributed to the updating mech-
+anism of the algorithm.
+
+3.3. Payoffs
+
+    Average period payoffs were significantly lower in the control than in the full information treatment. Taking a closer look,
+we find that the number of road and choice changes is also negatively correlated with the subject's cumulative payoff in both
+treatments ­ a finding which again confirms original results. Additionally, this correlation is slightly stronger in the full
+information than in the control treatment.9
+
+  9 The Spearman rank correlations between cumulative payoff and the number of road and choice changes are strictly negative (route change: control
+treatment: Spearman's rho= À0.6705, full information treatment: Spearman's rho= À0.7513; choice change: control treatment: Spearman's rho= À0.5730, full
+information treatment: Spearman's rho= À0.7318).
+C. Goldbach et al. / Transportation Research Part F 65 (2019) 402­417  409
+
+                             Fig. 5. Number of participants that changed their choice per period in a typical session of the control treatment.
+
+    Therefore, we can argue that the average period payoff (and thus the cumulative payoff) is higher in the full information
+treatment as people switch the road or change their decision less often. As we focus especially on players' delegations to the
+computer we also look at their relationship to the cumulative payoff (see Fig. 6). Interestingly, we find a slightly negative
+relationship. The more the players delegate, the lower their final payoff is. When looking at the two treatments separately,
+however, this relationship can only be found for the full information treatment and is most likely linked to the finding in 3.2
+that delegations resulted in more road changes and more road changes in a lower payoff.
+
+3.4. Determinants of delegation behavior
+
+    The previous findings suggested that the delegation decision is linked to different factors of the experiment. But when
+exactly do participants decide to delegate or to switch between delegating to the computer and making own decisions
+instead? In order to answer these questions, we take a closer look at two binary dependent variables: whether the partic-
+ipant delegated his decision in the round or not (=1 yes, =0 no), and whether the player ends a sequence of delegating or
+not delegating to the computer (=1 ends a sequence of delegating or not-delegating and switches to the opposite strategy,
+=0 does not switch delegation strategy). Therefore we use basic logistic panel regressions with either of the dependent vari-
+ables and several independent variables (see Table 4).
+
+    Regression results indicate several significant factors: It is found, for example, that the lower the player's period payoff,
+the more likely the player is to end the sequence of delegating or not delegating, thus switching in the next round. Unsur-
+prisingly, players earning zero ECUs are 11% more likely to switch in the next period than players who earned 20 ECUs. Fur-
+thermore, the propensity to switch between delegating and not delegating decreases with the total number of players on the
+side road and increases with the total number of players that delegate the decision to the computer. Previous behavior is also
+a good indicator: the higher the number of the sequence (thus the more often the player has switched before) and the shorter
+the length of the sequence (thus the shorter the time since last switching), the more likely the player is to switch again. A
+look at predicted probabilities suggests that the probability of switching is around 37% higher for a player who has already
+switched 150 times than for one who has previously switched 50 times.
+
+Fig. 6. Individual road changes and cumulative payoff.
+410  C. Goldbach et al. / Transportation Research Part F 65 (2019) 402­417
+
+     Table 4
+     Results from logit regression.
+
+     Time on non-chosen road, previous round  Delegation (i)  Switch delegation strategy (ii)
+     Player payoff, previous round
+     Number of players on S, previous round   0.019           0.005
+     Number of sequence                       (0.021)          (0.00)
+     Length of sequence                       À0.020          À0.080***
+     Full information treatment               (0.013)         (0.00)
+     Constant                                 À0.056*         À0.060***
+                                              (0.033)         (0.01)
+     Pseudo1 R2                               0.018***        0.022***
+     Number of observations                   (0.003)         (0.00)
+                                              À0.016**        À0.035***
+                                              (0.007)         (0.00)
+                                              À0.586**        0.170***
+                                              (0.275)         (0.04)
+                                              À0.974***       À0.578***
+                                              (0.408)         (0.17)
+
+                                              0.117           0.212
+                                              42,984          42,984
+
+     Notes: The dependent variable in (i) is a binary variable (=1 if player delegated to computer, =0
+
+     otherwise). The dependent variable in (ii) indicates whether player switched (either from delegation
+
+     to no delegation or vice versa, =1 if switched, =0 otherwise). Cluster-robust standard errors in
+
+     parenthesis.
+       * p < 0.1.
+       ** p < 0.05.
+
+      *** p < 0.01.
+       1 McFadden's pseudo R2 tend to be considerably lower than those of the R2 index in a standard OLS
+
+     regression and it is argued that values of 0.2­0.4 ``represent an excellent fit" (McFadden, 1978, p. 306).
+
+     Other sources see these values rather as a good fit (e.g. Domencich and McFadden, 1975).
+
+    Furthermore, we investigate whether the effect of the investigated variables depends on other variables. A look at these
+interaction effects shows few significant and relevant interactions. It reveals interesting insights about the effect of gener-
+ated payoffs on individual delegation behavior (see Fig. 7). The left graph, for example, shows that the probability to delegate
+to the computer depends strongly on the payoff received in the previous round in the full information but less so in the con-
+trol treatment.
+
+    The right graph shows that the payoff`s average marginal effect on switching the delegation strategy depends on the
+length of the sequence. This makes sense: the longer a player sticks to her delegation strategy the less sensitive she is to
+different payoffs.
+
+4. External factors and their influence on delegation decisions
+
+    While the previous results have focused on behavior in the experiment only, insights from the consecutively conducted
+questionnaire will be added in order to further investigate the link between personality measures and observed delegation
+behavior.
+
+4.1. Regression results
+
+    In order to get a more comprehensive impression of the link between personality measures and delegation decisions we
+return to logistic panel regressions using the two binary dependent variables from Section 3.4 (see Table 5).10
+
+    Model (i) and (ii) show that the personality factor extraversion is significantly and negatively linked to the player's del-
+egation decision and robust to the inclusion of several control variables. The size of the effect is not negligible: A further look
+at predicted probabilities indicates that a participant in the lowest decile of the extraversion distribution (and thus being
+someone among the most introverted) is 15% more likely to delegate to the computer than someone in the highest decile
+(someone among the most extraverted people). This effect weakens and turns less significant once the switch between del-
+egation decisions becomes the dependent variable in model (iii) and (iv). Here, however, it turns out that there is a signif-
+icant positive link between the personality factor conscientiousness and our dependent variable. The effect is, however, quite
+small as a player in the highest decile of the conscientiousness distribution is only 2% more likely to end a sequence of same
+delegation decisions than a player in the lowest decile.
+
+    Again, we take into consideration that variables might not only directly affect individual delegation decisions but that the
+effect might depend on other variables. We checked for interactions and found that the gender of a participant acted as a
+moderating factor for two personality factors: Fig. 8 highlights that there is no effect of conscientiousness on the probability
+
+ 10 Thus, the players' decision to delegate or not delegate in each round as well as the players' decision to switch between delegating and not delegating.
+                                        C. Goldbach et al. / Transportation Research Part F 65 (2019) 402­417                                      411
+
+Fig. 7. Interaction effects. Left side: Probability to delegate by payoff in previous round and treatment, Right side: Average marginal effects of payoff by
+length of sequence.
+
+Table 5
+Personality measures and delegation decisions.
+
+                                                Delegation                                                     Switch delegation strategy
+                                                (i)
+                                                À0.141      (ii)                                               (iii)                       (iv)
+                                                (0.86)
+Openness                                        1.392       À0.591                                             0.342                       0.145
+Conscientiousness                               (0.96)      (1.00)                                             (0.50)                      (0.21)
+Extraversion                                    À2.026**    1.20                                               0.920                       0.539**
+Agreeableness                                   (1.02)      (1.07)                                             (0.56)                      (0.26)
+Neuroticism                                     À1.179      À1.731**                                           À1.140                      À0.455
+Age                                             (0.93)      (0.92)                                             (0.71)                      (0.27)
+Gender                                          0.207       À0.856                                             À0.415                      À0.110
+Risk                                            (0.97)      (0.68)                                             (0.75)                      (0.30)
+Patience                                                    0.688                                              À0.326                      À0.302
+Player payoff, previous round                   À3.335**    (1.16)                                             (0.67)                      (0.25)
+Number of players on S, previous round          (1.61)      0.028                                                                          À0.015**
+Full information treatment                      0.025       (0.02)                                             À1.947**                    (0.01)
+Number of sequence                              43,200      0.150                                              (0.81)                      À0.008
+Length of sequence                                          (0.26)                                                                         (0.08)
+Constant                                                    À0.000                                                                         À0.024
+                                                            (0.11)                                                                         (0.02)
+Pseudo R2                                                   À0.045*                                                                        0.007
+Number of observations                                      (0.02)                                                                         (0.02)
+                                                            À0.009                                                                         À0.078***
+                                                            (0.01)                                                                         (0.00)
+                                                            À0.026**                                                                       À0.056***
+                                                            (0.01)                                                                         (0.01)
+                                                            À0.462*                                                                        À0.157*
+                                                            (0.25)                                                                         (0.09)
+                                                            0.018***                                                                       0.021***
+                                                            (0.00)                                                                         (0.00)
+                                                            À0.016**                                                                       À0.035***
+                                                            (0.01)                                                                         (0.00)
+                                                            1.081                                                                          0.002
+                                                            (2.09)                                                                         (0.43)
+
+                                                            0.139                                              0.012                       0.2112
+                                                            42,586                                             43,200                      42,586
+
+Notes: The dependent variable in (i) and (ii) is a binary variable (=1 if player delegated to computer, =0 otherwise). The dependent variable in (iii) and (iv)
+
+indicates whether player switched (either from delegation to no delegation or vice versa, =1 if switched, =0 otherwise). Cluster-robust standard errors in
+
+parenthesis.
+  * p < 0.1.
+  ** p < 0.05.
+
+ *** p < 0.01.
+412  C. Goldbach et al. / Transportation Research Part F 65 (2019) 402­417
+
+Fig. 8. Interaction effects. Left: Probability to delegate by gender and conscientiousness score, right: Probability to delegate by gender and agreeableness
+score.
+
+                                                          Fig. 9. Structural equation model . adapted from Bekhor & Albert, 2014
+
+to delegate for male participants, but that the female participants' probability to delegate increases with their conscientious-
+ness score. It also depicts an opposing effect of agreeableness for male and female participants. Whereas the probability to
+delegate increases with the agreeableness score for female participants, it decreases for males.
+
+4.2. Robustness test
+
+    As the five personality factors are latent constructs and not directly measured, we use structural equation modeling (SEM)
+as robustness check of our findings. SEM differs from the previously used traditional regression modeling approach by adopt-
+ing a multivariate technique which incorporates both observed and latent variables (Ben-Akiva et al., 2007; Hoyle, 1995;
+MacCallum & Austin, 2000). The inclusion of latent variables in route choice experiments using SEM has been modeled in
+the literature before, see for a general framework Prato, Bekhor, and Pronello (2012), who have introduced a hybrid discrete
+choice model that integrates a latent variable model and a route choice model, and Bekhor and Albert (2014) for a two-route
+choice experiment.
+
+    We follow this approach using maximum likelihood procedures, but instead of looking at discrete route choices and their
+utilities, we continue to focus on delegation behavior (see Fig. 9).
+
+    Therefore, the latent variable model consists of structural equations (which link latent variables with individual charac-
+teristics) and measurement equations (which link unobservable personality factors with observable items). The delegation
+model consists of structural equations which link observable and latent variables to the observed delegation behavior. The
+simultaneous estimation of the model structure produces consistent and efficient estimates of the parameters and results in
+latent variables that provide the best fit to both the delegation and the latent variables indicators (Ben-Akiva et al., 2007).
+Given the complexity of a dynamic model we look at the aggregated outcomes and report the effects on the aggregated mea-
+sure which has been used before (see for example Fig. 4), the total amount of delegations to the computer. Having a look at
+the latent variable model, we find all 100 items to be significantly11 linked to the respective latent personality measure as well
+
+ 11 All significant at least at the 0.01% level.
+C. Goldbach et al. / Transportation Research Part F 65 (2019) 402­417                    413
+
+Table 6
+Results from SEM.
+
+Openness                                         Total delegation to computer
+Conscientiousness
+Extraversion                                     À0.045
+Agreeableness                                    (0.82)
+Neuroticism                                      0.201**
+Cumulative payoff                                (0.09)
+Full information treatment                       À0.224**
+                                                 (0.09)
+Root Mean Square Error of Approximation (RMSEA)  À0.059
+Standardized Root Mean Square Residual (SRMR)    (0.09)
+Number of individuals                            0.002
+                                                 (0.11)
+                                                 À0.199**
+                                                 (0.07)
+                                                 À0.139**
+                                                 (0.07)
+
+                                                 0.012
+                                                 0.072
+                                                 216
+
+Notes: Measurement model parameters and latent variable model parameters not shown
+due to space limitations (as this dataset contains 100 indicators plus several traveler
+characteristics).
+*p < 0.1.
+***p < 0.01.
+
+  ** p < 0.05.
+
+as significant correlations between certain individual characteristics and latent variables. A look at the delegation choice model
+confirms previous findings (see Table 6).
+
+    The model fit is acceptable. The coefficients of the latent personality factors conscientiousness and extraversion are sig-
+nificant and show the expected sign. Both factors stay significant if we include participant characteristics in the delegation
+instead of the latent variable model. The results confirm the robustness of the previous regressions.
+
+    Altogether, external factors played a minor role in delegation decisions, whereas internal factors like the amount of infor-
+mation, previous experience and the length and number of sequence turned out to be robust and significant predictors of
+delegation behavior. Results nevertheless support that considering latent personality factors alongside traditional variables
+can enrich the comprehension of delegation behavior.
+
+5. Discussion and conclusion
+
+    This study replicated the popular route choice game from Selten et al. (2007), and aimed to extend the game to contribute
+to a newer branch of literature that focuses on human-machine interactions, the willingness to delegate decision making to a
+computer and its link to the five major personality factors. Therefore, we ran a route choice game, in which in each of the
+twelve sessions 18 players had to choose to either use the main or the side road for 200 periods. Their payoff depended
+on their respective travel time which again was determined by the number of people on the chosen road. It can thus be
+regarded as a coordination problem in which all players have to coordinate their route choices to reach the equilibrium. Just
+as in the original paper, two treatments with different information were looked at. The experimental evidence replicates the
+original findings as well and confirms their reliability: despite fluctuations, participants on average played very close to the
+equilibrium. These fluctuations, and thus also the number of road changes, were lower in the full information treatment II
+than in the control treatment, most likely due to the additional feedback given to players in the full information treatment.
+The findings suggest that participants in the control treatment switch more often, as they need to take the other route from
+time to time to receive information about both roads.12 This information seeking is not necessary in the full information treat-
+ment as players already receive information on both roads after every period.
+
+    When focusing on the main objective, namely on analyzing the players' behavior towards delegating decisions to a learn-
+ing algorithm, we find that delegation rates were rather low. On average 2.73 players chose to delegate their decision in the
+control treatment, whereas less than half players chose to do so in the full information treatment. The lack of information
+and the consequent insecurity about route payoffs might have motivated participants to entrust their decision to the com-
+puter. In the full information treatment, on the other hand, participants might have been more confident that they had all the
+necessary information available to make good decisions themselves. This could indicate that players are especially willing to
+delegate their decision to an algorithm in cases of lacking information. The more information players have, the more confi-
+dent they could be to choose the right strategy without the help of a ``black box". Overall, people were more likely to change
+
+ 12 It might have also been the attempt to reduce travel time and generate higher payoffs. However, the negative correlation between payoffs and the number
+of road changes suggests that these attempts were rarely successful.
+414                           C. Goldbach et al. / Transportation Research Part F 65 (2019) 402­417
+
+their delegation strategy whenever payoffs were low ­and thus probably dissatisfying­ when players had switched their
+strategy frequently before and when players did not stick to that strategy for very long.
+
+    The inclusion of personality factors provided evidence that extraversion contributes to individual differences in delegat-
+ing in this experiment whereas other factors were not found to be robustly significant. Extraverted people were found to be
+less likely to delegate their decisions to the algorithm than introverted people, possibly because extraverted players appre-
+ciate activity and enjoy social interaction more than introverts and might have thus been more hesitant to hand over their
+only means to directly participate to a computer which is in line with our initial hypothesis. A look at personality factors also
+showed that conscientious players (those who are more eager to achieve) were more likely to switch strategies than less
+conscientious participants, possibly because they were trying to improve their performance instead of conveniently sticking
+to their previous strategy.
+
+    All in all, results suggest that individuals are hesitant to delegate to an algorithm whose operating principle is not obvi-
+ous. Even though the majority of people use automatic aids like navigation systems, handing over actual decisions that
+impact the whole group involved seems to be less accepted. This acceptance, however, might increase with certain person-
+ality types and with the complexity of the situation. The experimental results suggest that individuals are more likely to del-
+egate to an algorithm, and thus to trust a machine, when they do not have all information about the situation and see thus a
+potential advantage of the artificial intelligence. This willingness to delegate depended significantly on certain personality
+factors.
+
+    Overall, this research contributes significantly to the literature on human-machine interactions by not focusing on behav-
+ior towards computerized agents in certain situations but by analyzing the delegation behavior of individuals. Thus, players
+were not asked to interact with computer controlled players, but to entrust the algorithm with making decisions on their
+behalf which was rarely considered in previous research. Furthermore, the present research analyzes decisions which have
+monetary consequences and are thus more relevant to the players than non-incentivized tasks which are especially common
+in some strands of the literature on human-machine interactions.
+
+    Despite these methodological advantages, the research has some limitations which could lead to possible future exten-
+sions. Firstly, it has to be kept in mind that there is the possibility that a small change in the algorithm will have a dramatic
+effect on the delegation rate. A basic reinforcement algorithm, which resembles real human behavior, was used in this study.
+We could, however, argue that future autonomous systems are likely to perform tasks even better than humans and might
+thus be perceived differently than our basic algorithm. If an algorithm is associated with a high probability of success ­even
+if the algorithm is not fully optimal­ the emergence of higher delegation rates is likely as the research summarized in Erev
+and Roth (2014) suggests. Future research should therefore test whether the specific algorithm or its presentation and expla-
+nation have an influence on behavior towards computerized agents or delegation behavior and how the delegation behavior
+differs with different algorithms.
+
+    Similarly, we would expect that the use of autonomous systems, especially in the context of traffic scenarios, would
+enable individuals to use their time differently. If people delegated the operation of a car to an autonomously driving system,
+they could then use the time formerly used to drive the car for different and probably more enjoyable activities. In the exper-
+iment, however, players who delegated to the algorithm could generally not make use of the saved time in an enjoyable or
+meaningful way. Thinking about the best road from A to B or the best strategy to improve earnings might have been more
+interesting than relying completely on the computer instead. Future research could account for these limitations and
+improve the present findings that, nevertheless, add to the existing literature.
+
+Acknowledgements
+
+    This work was supported by the Rhine-Waal University of Applied Sciences [Seed Fund Forschung 40 1002 G]. We would
+like to thank the participants of the 51st Hohenheimer Oberseminar for valuable comments as well as Prof. Dr. Hamaker and
+her team for advice regarding SEM. We also thank two anonymous reviewers for critically reading earlier drafts of the manu-
+script and providing helpful comments.
+
+Appendix A
+    A1. Definition and summary statistics of used variables
+
+Variable          Definition                                  Min                                    Max Mean  Standard
+                                                                                                               deviation
+Openness          20 items per personality factors. Items were measured with a 0                     1  0.535
+                                                                                                               0.180
+Conscientiousness 5-point Likert scale ranging from 1 to 5. Individual item scores 0                 1  0.535  0.197
+                                                                                                               0.177
+Extraversion      summed up to respective personality factor and normalized for 0                    1  0.521  0.181
+                                                                                                               0.181
+Agreeableness     representation purposes (see Section 2.2).  0                                      1  0.608
+
+Neuroticism                                                   0                                      1  0.434
+                                       C. Goldbach et al. / Transportation Research Part F 65 (2019) 402­417                       415
+
+Discussion and conclusion (continued)
+
+Variable           Definition                                                         Min Max Mean Standard
+                                                                                                                       deviation
+
+Time on non-       Travel time on non-chosen road                                     10                      54    27.82   5.82
+   chosen road                                                                        1590                    2110  1847.1  105.7
+                   Cumulated payoff generated in experiment, without lump-sum         À14                     26    9.24    3.94
+Cumulative payoff  payments                                                           2                       14    6.01    1.66
+                   Payoff generated in round                                          0                       8     2.01    1.37
+Player payoff in
+   round           Total number of players on side road                               0                       200   22.36   38.58
+                                                                                      1                       126   11.64   16.58
+Number of          Total number of players delegating to computer                     1                       200   53.82   56.19
+   players on S                                                                       0                       1     0.5     0.5
+                   A player's total number of delegation to the computer              18                      43    24.73   4.53
+Number of          Number of sequence                                                 0                       1     0.56    0.49
+   players                                                                            0                       10    5.99    2.25
+   choosing C      Length of sequence
+                                                                                      0                       10    5.98    2.55
+Total delegations  =1 If treatment is the full information treatment, =0 if control
+Number of          treatment                                                          0                       191   60.05   43.13
+                   Age of participant in years                                        0                       152   54.63   38.39
+   sequence        =1 if male, =0 otherwise
+Length of          Are you generally a person who is willing to take risks or do you
+                   try to avoid taking risks? Please choose a value on the scale by
+   sequence        using the slider. The value 0 means not at all willing to take
+Full information   risks and the value 10 means very willing to take risks.
+                   Are you generally an impatient person or someone who always
+   treatment       shows great patience? Please choose a value on the scale by
+Age                using the slider.The value 0 means very impatient and the
+Gender             value 10 means very patient.
+Risk               Total number of times a player changed roads
+
+Patience           Total number of times a player changed his choice
+
+Number of road
+   changes
+
+Number of choice
+   changes
+
+Instructions
+
+  Altogether 18 persons are participating in this experiment. The game situation is the same for every participant. The
+    experiment consists of 200 periods.
+
+  In each period you are travelling from a starting point A to an arrival point B. You can either choose a main road or a
+    side road to get from A to B (see drawing).
+416  C. Goldbach et al. / Transportation Research Part F 65 (2019) 402­417
+
+ For the travel time from A to B, the following holds: On both routes, the travel time increases with increasing traffic and
+  decreases with decreasing traffic. If traffic is the same on the main and on the side road, the travel time is shorter on the
+  main road than on the side road.
+
+ In every period, you have the choice between making a route choice yourself or letting the computer make a route
+  choice for you. The computer decides according to a learning algorithm which simulates real human decision making
+  in the given situation.
+
+ Your payoffs per period: After each period you will receive a period payoff P which depends on the travel time T. Hereby
+  holds: P = 40 À T, i.e. the shorter the travel time needed, the higher the payoff.
+
+ Your information per period:
+   o The travel time on the route that you chose in the preceding period
+   o The travel time on the route that you did not choose in the preceding period (only in the full information treatment)
+   o Your route chosen in the preceding period
+   o Your period payoffs in the preceding period in Talers
+   o Your cumulative payoffs before the route choice in Talers
+   o Number of the current period.
+
+ Each participant receives a seed capital of 200 Talers. The exchange rate is 0.5 Cent per Taler.
+
+     Independent of your success in the game, you will receive a 4  lump-sum payment for answering a survey after the game.
+
+References
+
+Aldás-Manzano, J., Ruiz-Mafé, C., & Sanz-Blas, S. (2009). Exploring individual personality factors as drivers of M-shopping acceptance. Industrial Management
+     & Data Systems, 109(6), 739­757. https://doi.org/10.1108/02635570910968018.
+
+Ashton, M. C., Lee, K., & Paunonen, S. V. (2002). What is the central feature of extraversion? Social attention versus reward sensitivity. Journal of Personality
+     and Social Psychology, 83(1), 245­252. https://doi.org/10.1037/0022-3514.83.1.245.
+
+Avineri, E., & Prashker, J. N. (2007). Sensitivity to uncertainty: Need for a paradigm shift. Transportation Research Record: Journal of the Transportation
+     Research Board, 1854(1), 90­98. https://doi.org/10.3141/1854-10.
+
+Barnett, T., Pearson, A. W., Pearson, R., & Kellermanns, F. W. (2015). Five-factor model personality traits as predictors of perceived and actual usage of
+     technology. European Journal of Information Systems, 24(4), 374­390. https://doi.org/10.1057/ejis.2014.10.
+
+Barrick, M. R., & Mount, M. K. (1991). The big five personality dimensions and job performance: A meta-analysis. Personnel Psychology, 44(1), 1­26. https://
+     doi.org/10.1111/j.1744-6570.1991.tb00688.x.
+
+Bechtel, W. (1985). Attributing responsibility to computer systems. Metaphilosophy, 16(4), 296­306.
+Bekhor, S., & Albert, G. (2014). Accounting for sensation seeking in route choice behavior with travel time information. Transportation Research Part F: Traffic
+
+     Psychology and Behaviour, 22, 39­49. https://doi.org/10.1016/j.trf.2013.10.009.
+Ben-Akiva, M., Walker, J., Bernardino, A. T., Gopinath, D. A., Morikawa, T., & Polydoropoulou, A. (2007). Integration of choice and latent variable models. In In
+
+     Perpetual Motion (pp. 431­470). https://doi.org/10.1016/b978-008044044-6/50022-x.
+Ben-Elia, E., & Avineri, E. (2015). Response to travel information: A behavioural review. Transport Reviews, 35(3), 352­377. https://doi.org/10.1080/
+
+     01441647.2015.1015471.
+Ben-Elia, E., Di Pace, R., Bifulco, G. N., & Shiftan, Y. (2012). The impact of travel information ' s accuracy on route -choice. Transportation Research Part C:
+
+     Emerging Technologies, 26, 146­159.
+Ben-Elia, E., & Shiftan, Y. (2010). Which road do I take ? A learning-based model of route- choice behavior with real-time information. Transportation
+
+     Research Part A: Policy and Practice, 44(4), 249­264.
+Briggs, S. R., & Cheek, J. M. (1986). The role of factor analysis in the development and evaluation of personality scales. Journal of Personality, 54(1), 106­148.
+
+     https://doi.org/10.1111/j.1467-6494.1986.tb00391.x.
+Camerer, C., & Lovallo, D. (1999). Overconfidence and excess entry: An experimental approach. The American Economic Review, 89(1), 306­318.
+Chen, D. L., Schonger, M., & Wickens, C. (2016). oTree-An open-source platform for laboratory, online, and field experiments. Journal of Behavioral and
+
+     Experimental Finance, 9, 88­97. https://doi.org/10.1016/j.jbef.2015.12.001.
+Chmura, T., & Pitz, T. (2006). Successful strategies in repeated minority games. Physica A: Statistical Mechanics and its Applications, 363(2), 477­480. https://
+
+     doi.org/10.1016/j.physa.2005.12.053.
+Costa, P. T., & McCrae, R. R. (1992). Neo personality inventory­revised (neo-pi-r) and neo five-factor inventory (neo-ffi) professional manual. Odessa, FL:
+
+     Psychological Assessment Resources. doi: 10.1037//1040-3590.4.1.5.
+de Melo, C. M., Marsella, S., & Gratch, J. (2018). Social decisions and fairness change when people's interests are represented by autonomous agents.
+
+     Autonomous Agents and Multi-Agent Systems, 32(1), 163­187. https://doi.org/10.1007/s10458-017-9376-6.
+de Melo, C., Marsella, S., & Gratch, J. (2016). People Do Not Feel Guilty About Exploiting Machines. ACM Transactions on Computer-Human Interaction, 23(2),
+
+     1­17. https://doi.org/10.1145/2890495.
+Devaraj, U. S., Easley, R. F., & Michael Crant, J. (2008). How does personality matter? Relating the five-factor model to technology acceptance and use.
+
+     Information Systems Research, 19(1), 93­105. https://doi.org/10.1287/isre.1070.0153.
+Digman, J. M. (1990). Personality structure: Emergence of the five-factor model. Annual Review of Psychology, 41(1), 417­440. https://doi.org/10.1146/
+
+     annurev.ps.41.020190.002221.
+Duffy, J., & Hopkins, E. (2005). Learning, information and sorting in market entry games: Theory and evidence. Games and Economic Behavior, 51(1), 31­62.
+Dzindolet, M. T., Pierce, L. G., Beck, H. P., & Dawe, L. A. (2002). The perceived utility of human and automated aids in a visual detection task. Human Factors:
+
+     The Journal of the Human Factors and Ergonomics Society, 44(1), 79­94. https://doi.org/10.1518/0018720024494856.
+Erev, I., & Roth, A. E. (2014). Maximization, learning, and economic behavior. Proceedings of the National Academy of Sciences, 111(Supplement_3),
+
+     10818­10825. https://doi.org/10.1073/pnas.1402846111.
+Eyssel, F., & Kuchenbrandt, D. (2012). Social categorization of social robots: Anthropomorphism as a function of robot group membership. British Journal of
+
+     Social Psychology, 51(4), 724­731. https://doi.org/10.1111/j.2044-8309.2011.02082.x.
+Gogoll, J., & Müller, J. F. (2017). Autonomous cars. In favor of a mandatory ethics setting. Science and Engineering Ethics, 23(3), 681­700. https://doi.org/
+
+     10.1007/s11948-016-9806-x.
+Gogoll, J., & Uhl, M. (2018). Rage against the machine: Automation in the moral domain. Journal of Behavioral and Experimental Economics, 74, 97­103.
+
+     https://doi.org/10.1016/j.socec.2018.04.003.
+Goldberg, L. R. (1999). A broad-bandwidth, public domain, personality inventory measuring the lower-level facets of several five-factor models. Personality
+
+     Psychology in Europe. doi: citeulike-article-id:1856566.
+C. Goldbach et al. / Transportation Research Part F 65 (2019) 402­417  417
+
+Goldberg, L. R., Johnson, J. A., Eber, H. W., Hogan, R., Ashton, M. C., Cloninger, C. R., & Gough, H. G. (2006). The international personality item pool and the
+     future of public-domain personality measures. Journal of Research in Personality, 40(1), 84­96. https://doi.org/10.1016/j.jrp.2005.08.007.
+
+Goodall, N. (2014). Ethical decision making during automated vehicle crashes. Transportation Research Record: Journal of the Transportation Research Board,
+     2424(2424), 58­65. https://doi.org/10.3141/2424-07.
+
+Hartman, John L. (2012). Special issue on transport infrastructure: A route choice experiment with an efficient toll. Networks and Spatial Economics, 12(2),
+     205­222. https://doi.org/10.1007/s11067-009-9111-1.
+
+Helbing, D., Schonhof, M., Stark, H.-U., & Holyst, J. A. (2005). How individuals learn to take turns: Emergence of alternating cooperation in a congestion game
+     and the prisoner's dilemma. Advances in Complex Systems, 8(8), 87­116. https://doi.org/10.1142/S0219525905000361.
+
+Hoyle, R. H. (1995). The structural equation modeling approach: Basic concepts and fundamental issues. In Structural equation modeling: Concepts, issues, and
+     applications (pp. 1­15). Thousand Oaks, CA, US: Sage Publications Inc.
+
+Iida, Y., Akiyama, T., & Uchida, T. (1992). Experimental analysis of dynamic route choice. Transportation Research Part B: Methodological, 26(I), 17­32. https://
+     doi.org/10.1016/0191-2615(92)90017-Q.
+
+John, O. P., Naumann, L. P., Soto, C. J. (2008). Paradigm shift to the integrative big-five trait taxonomy: History, measurement, and conceptual issues. In
+     Handbook of personality: Theory and research (pp. 114­158). https://doi.org/10.1016/S0191-8869(97)81000-8.
+
+Katagiri, Y., Nass, C., & Takeuchi, Y. (2001). Katagiri, Yasuhiro, Clifford Nass, and Yugo Takeuchi. Cross-cultural studies of the computers are social actors
+     paradigm: The case of reciprocity. In M. J. Smith, R. J. Koubek, G. Salvendy, & D. Harris (Eds.), Usability evaluation and interface design, volume 1 of
+     Human factors and ergonomics (pp. 1558­1562). Lawrence Erlbaum Associates.
+
+Krämer, N. C., Von Der Pütten, A. M., & Eimler, C. (2012). Human-Agent and Human-Robot Interaction Theory: Similarities to and Differences from Human-
+     Human Interaction. In M. Zacarias & J. V. de Oliveira (Eds.). Human-Computer Interaction: The Agency Perspective. Studies in Computational Intelligence
+     (Vol. 396, pp. 396). Berlin, Heidelberg: Springer. https://doi.org/10.1007/978-3-642-25691-2.
+
+Lane, W., & Manner, C. (2011). The impact of personality traits on smartphone ownership and use. International Journal of Business & Social Science, 2(17),
+     22­28. https://doi.org/10.1097/WNP.0b013e318246ae5c.
+
+Lu, X., Gao, S., Ben-Elia, E., & Pothering, R. (2014). The Effect of Real-Time Information on Travelers ' Route Choice Behaviors Department of Civil and
+     Environmental Engineering University of Massachusetts Amherst 130 Natural Resources Road , Amherst , MA 01003 Email : xlu@enign.umass.edu
+     Department of Civil. Mathematical Population Studies, 21(4), 205­219.
+
+MacCallum, R. C., & Austin, J. T. (2000). Applications of structural equation modeling in psychological research. Annual Review of Psychology, 51(1), 201­226.
+     https://doi.org/10.1146/annurev.psych.51.1.201.
+
+Mahmassani, H. S., & Liu, Y. H. (1999). Dynamics of commuting decision behaviour under advanced traveller information systems. Transportation Research
+     Part C: Emerging Technologies, 7(2­3), 91­107. https://doi.org/10.1016/S0968-090X(99)00014-5.
+
+McElroy Hendrickson Townsend & DeMarie (2007). Dispositional factors in internet use: Personality versus cognitive style. MIS Quarterly, 31(4), 809.
+     https://doi.org/10.2307/25148821.
+
+Milfont, T. L., & Gouveia, V. V. (2006). Time perspective and values: An exploratory study of their relations to environmental attitudes. Journal of
+     Environmental Psychology, 26(1), 72­82. https://doi.org/10.1016/j.jenvp.2006.03.001.
+
+Moon, Y. (2003). Don't blame the computer: When self-disclosure moderates the self-serving bias. Journal of Consumer Psychology, 13(1­2), 125­137.
+     https://doi.org/10.1207/S15327663JCP13-1&2_11.
+
+Nass, C., Fogg, B. J., & Moon, Y. (1996). Can computers be teammates? International Journal of Human Computer Studies, 45(6), 669­678. https://doi.org/
+     10.1006/ijhc.1996.0073.
+
+Nass, C., & Moon, Y. (2000). Machines and mindlessness: Social responses to computers. Journal of Social Issues, 56(1), 81­103.
+Nunnally, J. C. (1978). Psychometric Theory. McGraw-Hill Series in Psychology. New York: McGraw-Hill.
+Piedmont, R. L. (2014). Inter-item Correlations. In A. C. Michalos (Ed.), Encyclopedia of Quality of Life and Well-Being Research (pp. 3303­3304). Dordrecht:
+
+     Springer, Netherlands. https://doi.org/10.1007/978-94-007-0753-5_1493.
+Prato, C. G., Bekhor, S., & Pronello, C. (2012). Latent variables and route choice behavior. Transportation. https://doi.org/10.1007/s11116-011-9344-y.
+Rapoport, A. (1995). Individual Strategies in a Market Entry Game, 133.
+Rapoport, A., Seale, D. A., Erev, I., Sundali, J. A., Rapoport, A., Seale, D. A., & Sundali, J. A. (1998). Equilibrium play market in large games group entry.
+
+     Management Science, 44(1), 1­148.
+Reeves, B., & Nass, C. (1996). The media equation: How people treat computers, television, and new media like real people and places. Cambridge University Press.
+Riedl, R., Mohr, P. N. C., Kenning, P. H., Davis, F. D., & Heekeren, H. (2011). Trusting humans and avatars: Behavioral and neural e. In Proceedings of 32nd
+
+     international conference on information systems (pp. 1­23).
+Schaefer, K. E., Chen, J. Y. C., Szalma, J. L., & Hancock, P. A. (2015). A meta-analysis of factors influencing the development of trust in automation:
+
+     Implications for understanding autonomy in future systems. Human Factors, 58(3), 377­400. https://doi.org/10.1177/0018720816634228.
+Schneider, K., & Weimann, J. (2004). Against all odds: Nash equilibria in a road pricing experiment. Human Behaviour and Traffic Networks, 133­153, 318.
+Selten, R., Chmura, T., Pitz, T., Kube, S., & Schreckenberg, M. (2007). Commuters route choice behaviour. Games and Economic Behavior, 58(2), 394­406.
+
+     https://doi.org/10.1016/j.geb.2006.03.012.
+Streiner, D. L. (2010). Starting at the beginning : An Introduction to Coefficient Alpha and Internal Consistency Starting at the Beginning : An Introduction to
+
+     Coefficient Alpha and Internal Consistency, 80(August 2012), 37­41. doi: 10.1207/S15327752JPA8001.
+Strobel, C., & Kirchkamp, O. (2017). Sharing responsibility with a machine. Working Paper.
+Svendsen, G. B., Johnsen, J. A. K., Almås-Sørensen, L., & Vittersø, J. (2013). Personality and technology acceptance: The influence of personality factors on the
+
+     core constructs of the Technology Acceptance Model. Behaviour and Information Technology, 32(4), 323­334. https://doi.org/10.1080/
+     0144929X.2011.553740.
+van Essen, M., Thomas, T., van Berkum, E., & Chorus, C. (2016). From user equilibrium to system optimum: A literature review on the role of travel
+     information, bounded rationality and non-selfish behaviour at the network and individual levels. Transport Reviews, 36(4), 527­548. https://doi.org/
+     10.1080/01441647.2015.1125399.
+Waytz, A., Heafner, J., & Epley, N. (2014). The mind in the machine: Anthropomorphism increases trust in an autonomous vehicle. Journal of Experimental
+     Social Psychology, 2, 113­117. https://doi.org/10.1016/j.jesp.2014.01.005.
+

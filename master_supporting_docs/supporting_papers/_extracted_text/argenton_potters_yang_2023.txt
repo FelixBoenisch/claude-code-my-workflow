@@ -1,0 +1,851 @@
+Receiving credit: On delegation and responsibility
+
+Authors           Argenton,Cedric; Potters,Jan; Yang,Yadi
+Published in
+DOI               European Economic Review
+Publication Date
+Document Version  10.1016/j.euroecorev.2023.104522
+Link
+                  2023-09
+Citation
+                  publishersversion
+Download Date
+Rights            https://research.tilburguniversity.edu/en/publications/1d0b8aec-7255-4e81-
+                  a5bc-52ce99764396
+
+                  Argenton, C, Potters, J & Yang, Y 2023, 'Receiving credit: On delegation
+                  and responsibility', European Economic Review, vol. 158, 104522. https://
+                  doi.org/10.1016/j.euroecorev.2023.104522
+
+                  2026-05-13 15:51:18
+
+                  General rights
+                  Copyright and moral rights for the publications made accessible in the public
+                  portal are retained by the authors and/or other copyright owners and it is a
+                  condition of accessing publications that users recognise and abide by the legal
+                  requirements associated with these rights.
+                  - Users may download and print one copy of any publication from the public
+                  portal for the purpose of private study or research.
+                  - You may not further distribute the material or use it for any profit-making
+                  activity or commercial gain
+                  - You may freely distribute the URL identifying the publication in the public
+                  portal"
+                  Take down policy
+                  If you believe that this document breaches copyright please contact us
+                  providing details, and we will remove access to the work immediately and
+                  investigate your claim.
+                                 European Economic Review 158 (2023) 104522
+                                   Contents lists available at ScienceDirect
+
+                             European Economic Review
+
+                            journal homepage: www.elsevier.com/locate/eer
+
+Receiving credit: On delegation and responsibility
+
+Cédric Argenton a, Jan Potters a, Yadi Yang b,
+
+a Department of Economics, CentER, Tilburg University, Tilburg, Netherlands
+b Economics Experimental Lab, Nanjing Audit University, Nanjing, China
+
+ARTICLE INFO                ABSTRACT
+
+JEL classification:         Evidence has shown that blame for a ``bad'' decision can be shifted by delegating the decision to
+C92                         someone else. We conduct experiments using a four-player delegated dictator game to examine
+D90                         whether the reverse is also true: does one receive credit for taking a ``good'' decision as
+                            compared to delegating the decision to someone else? Our results indicate that the answer
+Keywords:                   is affirmative. A person receives higher rewards when she makes a fair decision herself than
+Delegation                  when a delegate does. This indicates that responsibility attribution is a double-edged sword that
+Reward                      applies to both bad and good outcomes.
+Responsibility attribution
+Experiment
+
+1. Introduction
+
+    The notion that the responsibility for unattractive decisions can be shifted to others has a long tradition. ``Princes ought to
+leave affairs of reproach to the management of others,'' Machiavelli (2008) wrote in The Prince (Chapter XIX). The effectiveness of
+blame-shifting is illustrated, inter alia, in economic experiments by Bartling and Fischbacher (2012). They show that decision-makers
+can avoid being punished for an unfair decision by delegating the decision to another person. Machiavelli (2008) also proposed that
+favorable decisions should not be delegated: ``Princes ought to keep affairs of grace in their own hands''. In the current paper, we
+study the effectiveness of this latter strategy. Do decision-makers receive more credit when making favorable decisions themselves
+rather than delegating them to others?
+
+    To address this question, we conduct an economic experiment with a four-player delegated dictator game as implemented
+by Bartling and Fischbacher (2012). The first player (the dictator) can decide between an equal (fair) and an unequal (unfair)
+allocation that determines the payoffs of four players. Instead of making the decision herself, she can also pass the decision to the
+second player (the delegate), who then chooses between the two allocations. The monetary payoffs of the first and second players
+are perfectly aligned. The fair allocation divides the total amount equally among all four players, whereas the unfair allocation gives
+higher payoffs to the dictator and the delegate but lower payoffs to the other two players (the recipients). In Bartling and Fischbacher
+(2012), the recipients can decide to punish the dictator or the delegate, or both. In our experiments, we allow the recipients to choose
+to reward, rather than punish, the dictator or the delegate, or both. This allows us to explore whether credit-taking is symmetric to
+blame avoidance.
+
+   We are grateful for valuable comments received from Alex Possajennikov, Randolph Sloof, Sigrid Suetens, Wieland Müller, as well as from participants
+of the ESA global round-the-clock virtual meeting 2020. We also thank the editorial team for raising a number of criticisms that improved the exposition and
+interpretation of our results. The authors declare that they have no known competing financial interests or personal relationships that could have appeared to
+influence the work reported in the paper. Yadi Yang gratefully acknowledges financial support received through a grant from Qualcomm Inc. to the Tilburg Law
+and Economics Center (TILEC). The ideas and opinions expressed in the paper are exclusively the authors'.
+
+    Correspondence to: Economics Experimental Lab, Nanjing Audit University, Nanjing 211815, China.
+       E-mail address: yadi.yang@nau.edu.cn (Y. Yang).
+
+https://doi.org/10.1016/j.euroecorev.2023.104522
+Received 20 October 2022; Received in revised form 26 May 2023; Accepted 16 June 2023
+Available online 26 June 2023
+0014-2921/© 2023 Elsevier B.V. All rights reserved.
+C. Argenton et al.     European Economic Review 158 (2023) 104522
+
+    Bartling and Fischbacher (2012) propose a model of responsibility attribution to explain how the recipients punish the dictator,
+the delegate, or both, in case the unfair allocation is chosen and how this depends on who made the final decision. We show that the
+model naturally extends to the case of rewards. If the fair allocation is chosen, responsibility is attributed in proportion to which
+player ­ dictator or delegate ­ contributed more to this outcome occurring. Under some conditions, the model predicts that the
+dictator will be rewarded more when choosing the fair allocation herself as compared to the case where the fair allocation is chosen
+by the delegate. The model also predicts that in the latter case the delegate is rewarded more than the dictator. One can say that
+the responsibility-shifting model predicts that the rewards in response to fair allocations are a mirror image of the punishments in
+response to unfair allocations.
+
+    Whether this symmetry (or mirroring) of rewards and punishments will hold empirically is less obvious than it may seem. There
+is evidence that punishment in response to ``bad'' behavior is stronger and more prevalent than rewards in response to ``good''
+behavior (Offerman, 2002; Sefton et al., 2007; Croson and Konow, 2009; Kube et al., 2013). It cannot be ruled out that responsibility
+attribution also exhibits asymmetric patterns and causes the incentives to shift blame to be different from those to take credit. In
+fact, in political science, it is often argued that politicians and legislators have much stronger incentives to avoid blame than to
+claim credit. This is sometimes attributed to a ``negativity bias'' on the part of voters and public opinion which is rooted in the
+asymmetric treatment of gains and losses (Weaver, 1986; Pierson, 1994). Some scholars actually single out blame-shifting as a way
+to organize the entire field of public policy (Hood, 2010; Hinterleitner, 2018). Our experiment allows us to explore any asymmetric
+patterns of responsibility attribution at the individual level.
+
+    We find evidence in support of the responsibility attribution model in the presence of rewards. In our main treatment with
+rewards, the dictator receives a higher reward if the dictator directly chooses the fair allocation than in case the dictator delegates
+and the delegate chooses the fair allocation. Furthermore, the dictator receives a lower reward than the delegate in case the
+dictator delegates and the delegate chooses the fair allocation. Also on other accounts our responsibility model organizes the pattern
+of rewards well. For instance, the dictator receives the same reward when choosing the fair allocation directly as compared to
+delegating the decision to a random device which then happens to choose the fair allocation. This may seem remarkable, but it
+is in line with the assumption of Bartling and Fischbacher (2012) that only people and not nature can be held responsible for an
+outcome.
+
+    Several experimental studies show that individuals often choose to delegate decisions which may be considered unfair. This has
+been documented for allocation decisions in the dictator game (Hamman et al., 2010; Coffman, 2011; Bartling and Fischbacher,
+2012; Choy et al., 2016; Gawn and Innes, 2019b) and the ultimatum game (Fershtman and Gneezy, 2001), but also for other
+types of unfavorable decisions such as communicating bad information (Garofalo and Rott, 2018), lying (Erat, 2013; Kandul and
+Kirchkamp, 2018; Gawn and Innes, 2019a), or bribing (Drugov et al., 2014). Gawn and Innes (2021) compare delegation decisions
+when delegating leads to a selfish allocation and when delegating is equivalent to a fair allocation in a dictator game. They find
+the delegation decision to be roughly 20 percentage points more frequent when it is payoff-equivalent to a selfish decision than
+in case it is payoff-equivalent to a more generous decision. This supports the ``Machiavelli preference'' to retain decision rights for
+generous decisions and delegate them for decisions that are selfish or harmful to others. In Gawn and Innes (2021) there is no role
+for blame or credit. In our paper, we use rewards by the recipients as an indicator of credit and responsibility attribution. We focus
+on recipients' patterns of responses to dictators' delegation and allocation decisions and examine whether these provide a foundation
+for Machiavelli's advice.
+
+    A key finding in previous studies on delegation is that delegation is often effective in diverting punishment. For example, in
+dictator games with a punishment possibility, the principal receives a lower punishment in case an unfair allocation is chosen by
+a delegate rather than by the principal (Coffman, 2011; Bartling and Fischbacher, 2012; Oexl and Grossman, 2013). Similarly, in
+ultimatum games unfair offers are found to be accepted more frequently in case they are made by a delegate than in case they
+are directly made by the principal (Fershtman and Gneezy, 2001; Choy et al., 2016). In a collective decision game where three
+voters sequentially select between a fair and unfair allocation, Bartling et al. (2015) find that the voter whose decision is pivotal in
+choosing the unfair allocation receives the most punishment. Their finding suggests that subjects vote strategically to delegate the
+potentially unfavorable pivotal decision to subsequent voters.
+
+    Our paper contributes to the literature by examining reward behavior in response to the delegation of (fair) decisions. The
+literature has focused on punishments and there are few studies on rewards. One exception is Coffman (2011) who conducts an
+experiment in which participants can donate money to a charity to buy mosquito nets. Coffman (2011) finds that these donations
+are rewarded less by a third party when the intermediary role of the charity is made more salient. Although related, intermediation
+is different from delegation since a delegate is usually granted more decision autonomy. In Coffman (2011), the intermediary does
+not play an active role and cannot be rewarded, whereas we also study how delegation affects the rewards to the delegate.
+
+    Closer to our study, Eisenkopf and Fischbacher (2015) study a variant of the trust (investment) game in which the decision to trust
+can be delegated from one investor to another investor. In their design, delegation also generates an efficiency gain or loss which
+varies across treatments. Eisenkopf and Fischbacher (2015) hypothesize that the trustee will be more reciprocal toward delegation
+that increases efficiency than toward delegation that decreases efficiency. The results show that across treatments the investor who
+makes the actual investment decision is rewarded more by the trustee. Rewards, however, are unaffected by the (in)efficiency of the
+delegation decision indicating that trustees fail to display sophisticated behavior based on responsibility attribution as in Bartling
+and Fischbacher (2012). While Eisenkopf and Fischbacher (2015) study a trust game in which the investment decisions affect both
+efficiency and the payoff of the trustee, we follow Bartling and Fischbacher (2012) and focus on simple dictator games in which
+dictators' decisions only have distributional consequences.
+
+                    2
+C. Argenton et al.      European Economic Review 158 (2023) 104522
+
+    Our paper is also related to experimental papers studying responsibility attribution in gift-exchange games. These studies
+investigate the worker's effort provision in gift-exchange games when the wage-setting decision is made by the employer or delegated
+to either a neutral agent, a random device, or an agent whose payoff is related to the employer's. Charness (2000) finds that
+workers in a gift-exchange game respond to identical levels of wages with lower efforts when the wages are set by a neutral agent
+than when the wages are determined by a random device, suggesting a possible ``responsibility-alleviation'' effect. Charness (2004)
+and Maximiano et al. (2013) find that workers respond with lower efforts when a low wage is ``intentionally'' set by the employer
+than when it is delegated to either a random device or a neutral agent, which is similar to ``punishing'' unfavorable wages when
+they are directly made by the employer than when they are delegated. They also find that workers' effort provision in response to
+high levels of wages is higher when the wage is set by the employer than when it is delegated. Similar results are observed when
+the agent's payoff is proportional to the employer's payoff instead of being purely neutral (Maximiano et al., 2013). Unlike those
+articles, we explore the direct, monetary rewarding behavior of agents.
+
+    The rest of the paper is organized as follows. Section 2 explains the experimental design and procedural details. Section 3 predicts
+reward and punishment patterns based on our responsibility attribution model. Section 4 reports the behavioral patterns in reward
+and punishment as well as the delegation and allocation decisions. Section 5 contains a discussion of our findings. Section 6 provides
+concluding remarks.
+
+2. Experimental design
+
+    In the experiment, we conduct a delegated dictator game with a similar design as in Bartling and Fischbacher (2012). There
+are three roles in the game: dictator (Player A), delegate (Player B), and recipient (Player C). Four players are matched together
+to form a group comprising one A, one B, and two Cs. A decides the allocation of 20 points among the four players by choosing
+between two different allocation options: (1) assigning 5 points to each player (the fair allocation) and (2) assigning 9 points each
+to A and B and 1 point each to both Cs (the unfair allocation). A has the option to delegate the allocation decision to B. If A chooses
+to delegate, B makes the allocation decision on behalf of A. The material interests of A and B are aligned and opposite to Cs'.
+
+    In the baseline treatment (Baseline), we implement the delegated dictator game without reward or punishment. Cs cannot make
+any decisions once A or B has chosen the allocation. In order to study responsibility attribution, we run a treatment with the option
+for Cs to reward A and/or B in the same delegated dictator game (D&R). The design of the D&R treatment is symmetric to the
+punishment set-up in Bartling and Fischbacher (2012): Cs are given the option to increase the payoffs of A and B by assigning extra
+points. They can choose to assign up to a total of seven points to either A, B, or both. One of the two reward plans is then randomly
+selected to be implemented.
+
+    There are two differences from the way punishment is implemented by Bartling and Fischbacher (2012), however. Both were
+aimed at encouraging the use of rewards directed at players A and B.1 We wanted to prevent the rewarding rates from being too
+low to pick up any meaningful differences across conditions.2 First, in Bartling and Fischbacher (2012) Cs pay a fixed cost of one
+point to buy seven punishment points. We decided to give Cs seven reward points for free. Unlike punishments in response to an
+unfair allocation, rewards in response to a fair allocation move the outcome away from an equal distribution, which can already
+be deemed costly even if not in monetary terms, in the presence of inequity aversion or some preferences for fairness. Second, to
+reduce possible demand effects (Bartling and Fischbacher, 2012) allow C players to punish not only A and B but also each other. In
+our experiment, however, we do not allow a C player to assign rewards to the other C player. Given that reward points come free,
+we wanted to rule out that Cs mostly reward each other at the cost of experimenters and would not have any points left to reward
+A and B.
+
+    In order to compare the reward of delegated decisions with that of pure allocation decisions, we include a treatment with the
+reward option but no delegation (NoD&R). In this treatment, A chooses between the two allocations, while B does not make any
+decision. After C players have decided whether and how to assign extra points to either A, B, or both, using the same rewarding
+mechanism as in the D&R treatment, one of them is randomly selected for implementation.
+
+    We conduct two additional variants of the D&R treatment: Asymmetric and Random, which mirror the ones in Bartling and
+Fischbacher (2012). In the Asymmetric treatment, if A chooses not to delegate, she can only choose the unfair allocation. If A delegates
+the decision, B can choose between the fair and the unfair allocations. In this treatment, delegation by A can unambiguously be
+interpreted as a ``kind'' action by A. In the Random treatment, instead of delegating to B, A can choose to delegate to a die which
+selects between the two allocations with the same probability as the Bs do in the D&R treatment. The goal of these two treatments
+is to (1) check whether other reward motives than responsibility attribution might be at play, and (2) offer a parallel comparison
+with the corresponding treatments with punishment in Bartling and Fischbacher (2012). The details are discussed in Section 3.
+
+   1 Bardsley (2008) shows that in dictator games, the structure and size of participants' choice set affect their behavior. In the absence of costs, subjects also tend
+to have a preference for doing something, even if surplus-destroying, than doing nothing, see e.g. Abbink and Sadrieh (2009) or, for an extreme version, Wilson
+et al. (2012). Our design choices were thus likely to lead subjects to reward players rather than not. A design that would have included both punishments an
+rewards would have gone some way toward addressing that issue but would have allowed for less clear a comparison with Bartling and Fischbacher (2012).
+
+   2 There are not many studies that compare the use of rewards and punishments. Andreoni et al. (2003) study versions of dictator games in which the
+recipient can punish, reward, or punish and reward. They find that recipients use both costly rewards and costly punishment, but that punishments are much
+more effective in reducing unfair offers. They also find that the possibility to punish reduces the use of rewards, while the possibility to reward does not reduce
+the use of punishments. Sefton et al. (2007) compare punishments and rewards in public goods games and find that deviations below the average of other group
+members were punished at a magnitude much higher than rewards for allocations above the average of other group members.
+
+                                                                                                             3
+C. Argenton et al.                                                                     European Economic Review 158 (2023) 104522
+
+                    Table 1                                                         A can be fair
+                    Summary of treatments.                                          Yes
+                                                                                    Yes
+                                            Delegate option      C can reward       Yes
+                                                                                    No
+                    Baseline                To B                 No                 Yes
+                    D&R                     To B                 Yes
+                    NoD&R                   No                   Yes                           Total
+                    Asymmetric              To B                 Yes                           202
+                    Random                  To die               Yes                           201
+                                                                                               201
+                    Table 2                                                                    200
+                    Number of subjects in each role.                                           204
+
+                                            A                B                 C
+
+                    Baseline                52               50                100
+
+                    D&R                     51               50                100
+
+                    NoD&R                   50               50                101
+
+                    Asymmetric              50               50                100
+
+                    Random                  50               52                102
+
+    A summary of the different settings in all five treatments is shown in Table 1.3
+    As in Bartling and Fischbacher (2012), the experiment was conducted using the strategy method. In each treatment, Bs have to
+decide which allocation to choose before they know whether A has chosen to delegate or not. Both Cs have to decide on how many
+reward points (if any) to assign for all possible scenarios before they know the decisions of A or B and before they know whether their
+decisions are selected to be implemented. In the NoD&R treatment, there are two possible scenarios: A choosing the fair allocation
+or A choosing the unfair allocation. In treatments with delegation (the D&R, asymmetric, and random treatments), there are up to
+four possible scenarios: A choosing the fair allocation and not delegating, A choosing the unfair allocation and not delegating, A
+choosing to delegate and B choosing the fair allocation, and A choosing to delegate and B choosing the unfair allocation. A summary
+of the number of subjects in each role in all five treatments is shown in Table 2.4 At the end of the experiment, the decisions of one
+A, one B, and two Cs are randomly matched to form an A-B-2C group for payment calculations.5
+    The experiment was pre-registered at the AEA RCT Registry (AEARCTR-0006036) and approved by the Tilburg University
+School of Economics and Management Institution Review Board (IRB EXE 2020­011). The experiment was conducted as an online
+experiment on Prolific (Palan and Schitter, 2018) in June 2020. The Baseline, D&R, and NoD&R treatments were conducted first. The
+asymmetric and random treatments were conducted after we finished collecting data for the above treatments, so that the average
+probability of Bs choosing between the fair and the unfair allocation in the D&R treatment could be implemented for the die in the
+Random treatment. In order to keep the demographic features of subjects as similar as possible to those of Bartling and Fischbacher
+(2012) (who dealt with university students), we imposed the following restrictions on the subject pool: subjects' age should be
+between 18 and 30, subjects should be students, and the highest level of education completed should be at least high school.
+Moreover, we only recruited US residents as subjects. We took measures to minimize the gap in control between an online experiment
+and a lab experiment. To this effect, we implemented an additional recruitment criterion that the subject's past submissions on the
+Prolific platform should receive an approval rate of at least 90%.6 We kept our instructions as close as possible to those of Bartling
+and Fischbacher (2012), with modifications based on design differences and adjustments for the online implementation. Subjects
+were requested to complete the same set of practice questions as in Bartling and Fischbacher (2012) to improve their understanding
+of the instructions. The questions were changed into multiple-choice questions to adapt to online submissions. Subjects were only
+allowed to proceed if they chose the correct answer on the first attempt. The instructions for the three roles in the D&R treatment
+are shown in Section A.3 of the online Appendix. The experiment took around 15 min on average. The experimental points were
+converted to US dollars using the exchange rate of 5 points = $1.7 In addition, each subject also received a fixed participation fee of
+$1.1. For the Baseline, D&R, D&P, and NoD&R treatments, the average payment was around $1.96. For the asymmetric and random
+treatments, the average payment was around $2.03.
+
+   3 We also ran a treatment with punishment options identical to the one in Bartling and Fischbacher (2012). In this D&P treatment, C players can reduce the
+payoffs of the A player, the B player, or both. The punishment patterns we find replicate those in Bartling and Fischbacher (2012) and support the predictions
+of the responsibility attribution model. Details can be found in Section A.1 of the online Appendix.
+
+   4 Due to limitations in the randomization algorithm of the online questionnaire and the presence of control questions, the number of subjects in each role is
+not perfectly balanced. (That is, the total number of subjects in a given treatment need not be a multiple of 4.) This did not affect subjects' choices since they
+made decisions using the strategy method before any matching.
+
+   5 In each unbalanced treatment, there are one or two instances where a particular subject was matched twice to two different groups for payment purposes
+(not for decision-making purposes).
+
+   6 Submissions on the Prolific platform are rejected if the researcher has valid reasons indicating the subject was being negligent, e.g. the completion time
+was exceptionally short, crucial questions were skipped, or the subject failed attention checks.
+
+   7 The payment was transferred to the subjects via the Prolific system. The final payment was in British pounds using the exchange rate automatically adopted
+by the system.
+
+                                                                                                             4
+C. Argenton et al.                                                                                 European Economic Review 158 (2023) 104522
+
+                    Table 3                                                            A delegates B/Die fair
+                    Theoretical responsibility of A and B in treatments with rewards.
+
+                                                                          A fair
+
+                                            + + + < +                                              + + + > +
+
+                    D&R
+
+                    Responsibility of A  1  +1                                                     0
+
+                    Responsibility of B  0  +1                                                     1
+
+                    Asymmetric
+
+                    Responsibility of A  ­  +2                                                     0
+
+                    Responsibility of B  ­  +2                                                     1
+
+                    Random
+
+                    Responsibility of A  1                                             1
+                                                                                       0
+                    Responsibility of B  0
+
+                    Note: +1 > +1 if + < (1 + +)(2 - ); +2 > +2 if + < 1(2 - ); +2 > +1; +2 < +1.
+
+3. Hypotheses
+
+    Our primary interest lies in the reward behavior of the C players. Although there are several ways to interpret and model
+responsibility attribution, we base our hypotheses on the measure of responsibility proposed by Bartling and Fischbacher (2012).
+The measure assigns most responsibility for an outcome to a player whose actions had the largest impact on the probability that the
+outcome occurred. Bartling and Fischbacher (2012) find that this measure is a good predictor for the punishments that C players
+administer to A and B players in case of an unfair outcome. We hypothesize that it also predicts the rewards that C players assign
+to A and B players in case of a fair outcome. Moreover, we hypothesize that C players will not reward A or B in case of an unfair
+outcome.
+
+    In the NoD&R treatment, A is the only player who affects the allocation, and A is assigned full responsibility for a fair outcome.
+In the other three treatments with delegation and reward (D&R, Asymmetric, and Random), a player (A and B) who is perceived to
+have increased the probability that the fair allocation is chosen will be held responsible and will receive a corresponding reward.
+The stronger the responsibility, the higher the reward.
+
+    More precisely, let C's belief about the probability that A and B choose the fair allocation be denoted by + and +, respectively,
+and let the belief about the probability that A delegates be denoted by . In the D&R treatment, the ex ante probability of the fair
+allocation is + ++. If A delegates, the ex post probability of the fair allocation is +. If + ++ < +, both A and B are responsible
+for increasing the probability. A's share of contribution to the probability increase is +1 = (+ - + - +)(1 - + - +) and B's
+share +1 = (1 - +)(1 - + - +). If + < (1 + +)(2 - ), B has a larger impact on the probability increase than A, and vice versa.
+If + + + > +, A reduces the probability of a fair outcome by delegating and should not be held responsible, while B is fully
+responsible since B becomes the only one increasing the probability of the fair outcome.
+
+    In the Asymmetric treatment, since A can only choose the unfair allocation if she does not delegate, the ex ante probability of the
+fair outcome is +. If A delegates and B chooses the fair allocation, A's share in the probability increase is +2 = (+ -+)(1-+)
+and B's responsibility is +2 = (1 - +)(1 - +). If + < 1(2 - ), B is more responsible for the probability increase than A, and
+vice versa. A's responsibility is always no less than the corresponding case in the D&R treatment, while B's responsibility is always
+no more than the corresponding case in the D&R treatment. In the Random treatment, following Bartling and Fischbacher (2012)'s
+assumption that an individual's responsibility is not affected by moves of nature, if A delegates to the die which results in the fair
+allocation, only A takes full responsibility. The predicted responsibility of A and B in the three treatments with delegation and
+reward as represented by their influence on the probability of the fair outcome is shown in Table 3.
+
+    Let (, ) denote the reward for  in the D&R treatment when the direct allocator who chooses the allocation is  and the chosen
+allocation is , with ,   {, },   { , }. Based on how Cs attribute responsibility for the fair outcome, we have the following
+predictions about the reward pattern.
+
+Hypothesis 1. (, ) = (, ) = 0. The reward for both players is zero when the outcome is unfair, independently of who made
+the decision.
+
+Hypothesis 2. (,  ) > (,  ), (,  ) > (,  ). When the chosen allocation is fair, player  receives a higher reward in case
+she is the direct allocator than in case she is not.
+
+Hypothesis 3.
+
+     1. (,  ) > (,  ) = 0. If A does not delegate and directly selects the fair allocation, only A is rewarded.
+     2. (,  )  0, (,  ) > 0; (,  ) > (,  ) if + + + < + and + > (1 + +)(2 - ), (,  ) > (,  ) otherwise. If A
+
+         delegates and B selects the fair allocation, B receives a higher reward than A for some combinations of probabilities.
+     3. (,  )  (,  ), equality holds if + + +  +. Whether delegation completely reduces the reward for A depends on the
+
+         specific combinations of probabilities.
+
+                                                                                                             5
+C. Argenton et al.                                                                      European Economic Review 158 (2023) 104522
+
+Table 4
+Average reward for A and B in treatments with reward.
+
+                                A unfair          B/die unfair          A fair          B/die fair
+
+                                To A      To B    To A          To B    To A    To B    To A        To B
+
+                    D&R         0.53      1.67    1.67          0.57    3.24    2.05    2.13        3.16
+                    NoD&R       (1.19)    (2.33)  (2.21)        (1.17)  (1.90)  (1.43)  (1.36)      (1.86)
+                    Asymmetric  0.63      2.45    ­             ­       3.36    2.28    ­           ­
+                    Random      (1.23)    (2.78)  ­             ­       (1.52)  (1.24)  ­           ­
+                                0.59      2.01    2.36          0.81    ­       ­       2.78        3.1
+                                (1.22)    (2.51)  (2.65)        (1.45)  ­       ­       (1.26)      (1.36)
+                                1.01      1.87    1.24          1.79    3.01    1.89    2.76        2.56
+                                (1.71)    (2.42)  (1.71)        (2.18)  (1.95)  (1.39)  (1.66)      (1.56)
+
+Note: Column 2 (``B/die unfair'') and Column 4 (``B/die fair'') refers to scenarios in which A delegates and B makes the allocation
+decision. In Column 2 and Column 4 of the last two rows, average reward when A delegates and the die gives the unfair/fair
+outcome is shown respectively. Standard errors are shown in parenthesis.
+
+                                                                        Fig. 1. Average reward in NoD&R and D&R treatment.
+
+    Let  (, ) denote the reward for player  in the Asymmetric treatment, and (, ) denote the reward for player  in the Random
+treatment. We have the following additional predictions comparing the three treatments.
+
+Hypothesis 4. (,  ) = (,  ) > 0, (,  ) = (,  ) = 0. In the random treatment, delegating to a die does not affect
+the reward for any of the players.
+
+Hypothesis 5. (,  ) = (,  ) >  (,  )  (,  )  0, the last two equality hold if + + +  +; (,  )   (,  ) >
+(,  ) = 0, the first equality holds if + + +  +. If A delegates and the outcome is fair, A's reward in the Random treatment
+is the highest among all three treatments. A's reward in the Asymmetric treatment is no less than in the D&R treatment. B's reward
+in the D&R treatment is no less than in the Asymmetric treatment.
+
+    Hypotheses 3 and 5 depend on C-subjects' beliefs regarding the actions taken by other players. In our analysis, we will use the
+aggregate empirical frequencies of decisions, at the treatment level, to stand for those beliefs.
+
+    We note that the attribution of responsibility for an outcome to players is not the only possible motive for rewards and
+punishments. Other motives include a preference for an equal payoff distribution (Fehr and Schmidt, 1999; Bolton and Ockenfels,
+2000), or a preference to reciprocate behavior which is perceived to be (un)kind (Rabin, 1993; Charness and Rabin, 2002;
+Dufwenberg and Kirchsteiger, 2004; Falk and Fischbacher, 2006). In some cases the predictions of these alternative models overlap
+with those of our responsibility attribution model; in other cases, they conflict. We will point out specific instances when we go
+over the results.
+
+4. Results
+
+4.1. Reward behavior
+
+    We summarize the average reward for each player under all four possible scenarios in each treatment with reward in Table 4.
+Fig. 1 shows the average reward for A and B in all possible scenarios in the D&R treatment (Fig. 1(a)) and in the no-delegation
+
+                                                                                                             6
+C. Argenton et al.  European Economic Review 158 (2023) 104522
+
+                                                                    Fig. 2. Distribution of individual rewards in D&R treatment.
+
+benchmark NoD&R treatment (Fig. 1(b)). Fig. 2 provides more detailed information about individual reward decisions in the four
+scenarios in the D&R treatment. Fig. 3 shows the average reward for A and B in all possible scenarios in the Asymmetric treatment
+(Fig. 3(a)) and the Random treatment (Fig. 3(b)).
+
+    From Table 4, one sees that the reward for both A and B is typically higher after a fair allocation than after an unfair allocation.
+The only exceptions are the rewards for B in the NoD&R treatment and the Random treatment. At the same time, in all four
+treatments, and contrary to Hypothesis 1, both A and B receive a positive reward in each of the four possible scenarios, that is,
+even if the allocation is unfair and irrespective of whether A or B is the direct allocator. This is not in line with our responsibility
+attribution model, which predicts a reward to occur only when the outcome is fair and when a player has affected the likelihood
+of the fair outcome. We will come back to this in Section 5.
+
+                                                                                                             7
+C. Argenton et al.                                                                          European Economic Review 158 (2023) 104522
+
+                                Fig. 3. Average reward in Asymmetric and Random treatment.
+
+                    Table 5
+                    Delegation and allocation decisions of A and B.
+
+                                Unfair (%)  Fair (%)                 Delegate (%)           Observations
+
+                    Baseline                                         10                     52
+                                                                     ­                      50
+                    A           31          60
+                                                                     16                     51
+                    B           34          66                       ­                      50
+
+                    D&R                                              ­                      50
+
+                    A           31          53                       72                     50
+                                                                     ­                      50
+                    B           34          66
+                                                                     16                     50
+                    NoD&R
+
+                    A           28          72
+
+                    Asymmetric
+
+                    A           28          ­
+
+                    B           24          76
+
+                    Random
+
+                    A           28          56
+
+Result 1. (, ) > 0, (, ) > 0. Both players receive a positive reward if the chosen allocation is unfair, regardless of who is the direct
+allocator.
+
+    This being said, our D&R treatment shows a reward pattern across outcomes which is in line with our responsibility attribution
+model. As predicted by Hypothesis 2, when the outcome is fair, a player receives a significantly higher reward when she is the direct
+allocator than when she is not. As shown in the last two columns of the first panel in Table 4, A receives a reward of 3.24 when A
+directly selects the fair allocation, while she only receives a reward of 2.13 when she delegates and the fair allocation is chosen by
+B. Similarly, B's reward is 2.05 when A directly selects the fair allocation, while it is 3.16 when A delegates and B chooses the fair
+allocation. Both pairwise comparisons are statistically significant, supported by a two-sided Wilcoxon signed-rank tests with  < 0.01
+
+Result 2. (,  ) > (,  ), (,  ) > (,  ). When the outcome is fair, player  receives higher rewards when she is the direct
+allocator than when she is not.
+
+    The comparisons of rewards between A and B in the D&R treatment also exhibit a pattern consistent with Hypothesis 3. If A
+directly selects the fair allocation, A's reward (3.24) is significantly higher than B's reward (2.05); if A delegates and B selects the
+fair allocation, B's reward (3.16) is also significantly higher than A's reward (2.13)( < 0.01 in a two-sided Wilcoxon signed-rank
+test for both comparisons). With our observed delegation and allocation decisions of A and B as shown in Table 5 in Section 4.2, we
+compute the frequency of A being fair to be + = 0.63, the frequency of B being fair to be + = 0.66, and the frequency of delegation
+to be  = 0.16. Since + + + = 0.73 > +, if we assume that C-subjects' beliefs are consistent with empirical frequencies, then the
+comparisons of the corresponding rewards for A and B are consistent with the second point of Hypothesis 3.
+
+    We find that A's average reward (2.13) when A delegates and B selects the fair allocation is not significantly different from B's
+average reward (2.05) when A directly selects the fair allocation ( = 0.94 in a two-sided Wilcoxon signed-rank test). Similarly,
+A's average reward (3.24) when A directly selects the fair allocation is also similar with the reward for B (3.16) when B is the
+direct allocator for the fair allocation. This pattern can be seen more clearly in Fig. 1(a). The reward patterns for A and B when A
+direct selects the fair allocation mirror the reward patterns for B and A when A delegates and B selects the fair allocation. With our
+estimated +, +, and , since + + + = 0.73 > +, these comparisons are consistent with the third point of Hypothesis 3.
+
+                                                                                                             8
+C. Argenton et al.     European Economic Review 158 (2023) 104522
+
+Result 3.
+
+     1. (,  ) > (,  ). If A does not delegate and directly selects the fair allocation, A receives more reward than B.
+     2. (,  ) > (,  ). If A delegates and B selects the fair allocation, B receives more reward than A.
+     3. (,  ) = (,  ). Given the allocation result, the indirect allocator in the two different scenarios receives the same level of reward.
+
+    To summarize our findings in the D&R treatment, when looking at pairwise comparisons, we find confirming evidence for the
+predictions based on our responsibility attribution model. However, in that treatment, A and B subjects receive a positive reward
+even when the outcome is unfair, and B receives a positive reward when A does not delegate and B does not make any (consequential)
+decision.
+
+    That said, in the D&R treatment, these rewards when the outcome is unfair also exhibit a clear and intuitive pattern: (1)
+(, ) < (, ), (, ) < (, ). When the outcome is unfair, a player receives a significantly lower reward when she is
+the direct allocator than when she is not. (2) (, ) < (, ). If A does not delegate and directly selects the unfair allocation, A
+receives less reward than B. (3) (, ) < (, ). If A delegates and B selects the unfair allocation, B receives less reward than
+A. (4) (, ) = (, ). When the outcome is unfair, we also find that the indirect allocator receives similar levels of reward.
+The rewards when the outcome is unfair exhibit a mirror image to the reward pattern when the outcome is fair, as summarized in
+Results 2 and 3.
+
+    To rule out that these average patterns result from some coincidental aggregation of heterogeneous decisions, we also have a brief
+look at the distribution of the individual reward decisions. Fig. 2 shows the distribution of each individual C's reward assignment
+decisions in the D&R treatment. The upper two panels show the two scenarios when the fair allocation is chosen. The horizontal
+axis denotes the reward points assigned to B and the vertical axis denotes the reward points to A. In the upper two panels, a number
+of reward assignments fall on the 45 degree line, indicating that a fraction of Cs assign the same level of reward to both A and B
+as long as the outcome is fair, regardless of who directly makes the final allocation decision. Other than that, most Cs assign more
+rewards to A than to B when A directly selects the fair allocation (Panel 2(a)) and more rewards to B than to A when A delegates
+and B selects the unfair allocation (Panel 2(b)). This confirms that the majority of Cs' decisions when the chosen allocation is fair
+are in line with the predictions of our responsibility attribution model: the direct decision-maker receives a higher reward.
+
+    The lower two panels show the two scenarios when the chosen allocation is unfair. Either when A directly selects the unfair
+allocation (Panel 2(c)) or when A delegates and B selects the unfair outcome (Panel 2(d)), around half of the Cs assign zero reward
+to both A and B. However, another half of Cs still assign a positive reward even when the unfair allocation is chosen. In Panel 2(c),
+when A does not delegate and directly selects the unfair allocation, a considerable fraction of Cs only assigns a positive reward to B,
+as can be seen on the horizontal axis. This can be regarded as a ``bystander'' reward to B for not contributing to the unfair outcome.
+In Panel 2(d), when A delegates and B chooses the unfair allocation, a large fraction of Cs only rewards A with a positive amount,
+as shown on the vertical axis. Apart from the ``bystander'' reward motive, a C player might also reward A if C believes that A could
+reasonably expect B to choose the fair allocation upon delegation.
+
+    Given the high number of choices to be made by subjects, it is hard to classify them by individual types. Among the 100 Cs
+in the D&R treatment, we nonetheless identify a few prominent types, based on their reward patterns across the four scenarios.
+8 always assign 0 reward to both A and B in all four scenarios ((,  ) = (,  ) = (,  ) = (,  ) = (, ) = (, ) =
+(, ) = (, ) = 0). Among the other 92 Cs who assign a positive reward to at least one player in at least one scenario, 45
+assign reward with some responsibility-shifting concerns when the outcome is fair, assigning a higher reward to the direct allocator
+who directly selects the fair allocation ((,  ) > (,  ) and (,  ) < (,  )). Among these 45 Cs, 13 assign 0 reward when
+the outcome is unfair ((, ) = (, ) = (, ) = (, ) = 0), while 22 exhibit a reward pattern in the two unfair scenarios
+that mirrors that in the two fair scenarios, assigning a lower reward to the direct allocator who directly selects the unfair allocation
+((, ) < (,  ) and (, ) > (, )). In addition, 22 Cs do not distinguish the reward to A and to B in each scenario
+((,  ) = (,  ), (,  ) = (,  ), (, ) = (, ), and (, ) = (, )), among which 15 assign 0 reward in the two
+unfair scenarios ((, ) = 0) and a positive reward ((,  ) > 0) in at least one of the two fair scenarios. Thus, it is not the case that
+every subject follows the predictions of the responsibility attribution model. A significant minority of subjects uniformly reward As
+and Bs (if at all). Still, sufficiently many subjects follow some (if not all) the predictions of the model and generate the aggregate
+pattern we have reported about.
+
+    In order to further explore the predictions of the responsibility attribution model, we now turn to the additional treatments we
+implemented. In the Asymmetric treatment (Fig. 3(a)) and the Random treatment (Fig. 3(b)), we observe a pattern reminiscent of
+the one in D&R treatment, as well as some new findings. In the Asymmetric treatment, each player receives a significantly lower
+reward when she directly selects the unfair allocation than when she is not the direct allocator ( < 0.01 in one-sided Wilcoxon
+signed-rank tests). The reward for A and B when A directly selects the unfair allocation mirrors the reward for B and A when A
+delegates and B selects the unfair allocation. A's reward when A delegates and B selects the unfair allocation (2.36) is slightly
+higher than the reward for B when A directly selects the unfair allocation (2.01), but the difference is not statistically significant
+( = 0.18 in a Wilcoxon signed-rank test). Comparing the Asymmetric treatment with the D&R treatment, A receives 2.78 points of
+reward when A delegates and B selects the fair allocation in the Asymmetric treatment, which is significantly higher than in the
+D&R treatment (2.13) ( < 0.01 in a one-sided Mann­Whitney u test). A's reward (2.36) when A delegates and B selects the unfair
+allocation in the Asymmetric treatment is also mildly significantly higher ( < 0.1 in a one-sided Mann­Whitney u test) than in the
+D&R treatment (1.67). This points to the fact that A's action space tends to affect the reward she receives. Cs take into account
+the fact that delegating is the only possibility to reach the fair outcome and raise the reward for A if A delegates. This pattern is
+predicted by our responsibility attribution model. It is also compatible with intention-based reciprocity. However, it clearly violates
+any outcome-based theory of retribution.
+
+                    9
+C. Argenton et al.                        European Economic Review 158 (2023) 104522
+
+Result 4.  (, ) >  (, ).  (, ) > (, ). In the Asymmetric treatment, delegation increases A's reward, compared with the case
+when A does not delegate.
+
+    In the Random treatment, A receives a significantly higher reward when the outcome is fair than when the outcome is unfair,
+both when A directly makes the allocation decision and when A delegates ( < 0.01 in one-sided Wilcoxon signed-rank tests). Being
+the direct allocator does not have a significant impact on the level of rewards in the Random treatment. When the final allocation
+is unfair, the reward for A does not differ significantly if A directly makes the decision (1.01) or if A delegates the decision (1.24)
+( = 0.16 in a two-sided Wilcoxon signed-rank test). When the final allocation is fair, the reward for A if A delegates and B selects the
+fair option is as high as 2.76, also not significantly different from A's reward (3.01) if A directly selects the fair option ( = 0.22 in
+a two-sided Wilcoxon signed-rank test). In addition, when A delegates and the fair allocation is subsequently selected, A receives a
+significantly higher reward in the Random treatment (2.76) than in the D&R treatment (2.13) ( < 0.01 in a one-sided Mann­Whitney
+u test). This provides confirming evidence for our prediction that delegating to a random device does not dilute A's responsibility.
+
+Result 5. (, ) = (, ),  = ,  . Given the allocation result, delegating to a random device does not have a significant impact
+of the level of reward for A.
+
+4.2. Delegation and allocation decisions
+
+    Table 5 summarizes the delegation and allocation decisions of A and B in all treatments. A large proportion of both As and Bs
+choose the fair allocation, which is consistent with the common finding from previous dictator games (Engel, 2011; Grech et al.,
+2022). Compared with previous binary choice dictator games, our subjects exhibit a higher degree of generosity, though. In the
+treatments where B is asked to choose between the two allocations, the fraction of Bs who choose the fair allocation ranges between
+66% and 76%. In the treatments where As are asked to choose among the two allocations and delegation, the fraction of As who
+select the fair allocation ranges between 44% and 60%.
+
+    We do not find a significant effect of adding a reward option on the delegation and allocation decisions. Around 10% of As
+choose to delegate in the Baseline treatment, and this fraction increases to 16% in the D&R treatment. However, this difference is
+not significant ( = 0.62 with a Fisher's exact test). Compared with the delegation rate of 17% in the no punishment treatment and
+55% in the D&P treatment of Bartling and Fischbacher (2012), the rate of delegation is relatively low in our experiment. It is also
+low compared to other studies on delegated dictator games (38% in Oexl and Grossman (2013), 40% in Hamman et al. (2010), and
+22.2% in Gawn and Innes (2019b)) and delegated ultimatum games (73% in Fershtman and Gneezy (2001) and 38% in Choy et al.
+(2016)).
+
+    In the absence of sanction possibilities (punishments or rewards), the delegation option is mainly used by A players who hope
+that the B will choose the unfair option but who are unwilling to do so themselves.8 Moreover, these A players often get their way
+as a large majority of Bs does indeed choose unfair in Bartling and Fischbacher (2012). In our experiments, however, the rate at
+which players choose fair is substantially higher than in Bartling and Fischbacher (2012) This holds for both A and B players. For
+instance, the rate at which B players choose fair in our Baseline treatment (66%) is much higher than in the comparable D&noP
+treatment in Bartling and Fischbacher (2012) (18%). In view of this, it is not surprising that delegation is less prevalent in our
+experiment than in those of Bartling and Fischbacher (2012) and others. It looks like we have a larger fraction of A players with a
+preference for a fair outcome. And even those that do not, are less likely to attain an unfair outcome by delegating the decision to
+the B player. So, they might just as well choose fair themselves and have a shot at a higher reward.
+
+    In our treatments with rewards, the low level of delegation is consistent with our finding that delegation decreases A's reward
+when the outcome is fair and that the majority of A and B choose the fair allocation. Still, on the basis of treatment averages, in
+D&R, A pockets 8.24 if she directly chooses the fair allocation, while she can expect about 8.31 if she delegates. The same applies
+to the Random treatment, where A's expected payoff is 8.01 if she chooses the fair allocation and 8.58 if she delegates. However,
+in all treatments, directly selecting the unfair allocation gives the highest expected payoff for A (9.53 in D&R, 9.59 in Asymmetric,
+10.01 in Random). Thus, it does not look as if the majority of subjects in our experiment were maximizing their expected payoff
+(as, of course, is often found in dictator games). We stress, however, that, in reality, subjects did not know the various empirical
+frequencies with which A, B and C subjects make their decisions.
+
+    In the NoD&R treatment where there is no delegation option and A can only choose between the two allocations, around 72% of
+A chooses the fair allocation. In the Asymmetric treatment where A can only choose between directly selecting the unfair allocation
+and delegating, around 72% of A choose to delegate. This amount coincides with the sum of the fractions of As who directly choose
+the fair allocation and who choose to delegate in the three treatments where the delegation option is available (i.e. Baseline, D&R,
+and Random). This is therefore consistent with the possibility that dictators who delegate are those who would choose the fair
+allocation if that were an option. A similar pattern is observed when comparing a direct dictator game and a delegated dictator
+game in Gawn and Innes (2019b).
+
+   8 This follows from the fact that the introduction of the delegation possibility in Bartling and Fischbacher (2012) does not reduce the percentage of As who
+choose unfair, and only reduces the percentage of As who choose fair. So As who choose to delegate would have chosen fair in the absence of delegation.
+
+                                                                                                             10
+C. Argenton et al.  European Economic Review 158 (2023) 104522
+
+                                                               Fig. 4. Adjusted ``reward'' and ``punishment'' in the D&R treatment.
+
+5. Discussion
+
+    Our findings offer considerable support for the predictions of our responsibility attribution model. In the D&R treatment, the
+direct allocator receives more reward for a fair outcome. Delegation followed by a fair choice by B leads to a higher reward for B,
+but A is still held partially responsible for the outcome. The fact that the reward pattern is affected by the change in A's strategy
+set in our Asymmetric treatment and, in particular, the fact that A gets a higher reward when delegating to an unfair B in that
+treatment than in the D&R treatment, is consistent with both responsibility attribution and intention-based reciprocity. However,
+our observation that the reward for A is similar whether A makes the decision herself or delegates to a random die in the Random
+treatment provides supporting evidence for the responsibility-attribution argument.
+
+    One notable deviation from the predictions of the responsibility model is that, on average, both player A and player B receive
+positive rewards even in case the outcome is unfair (Result 1). Inequality aversion or fairness preferences do not offer an explanation
+for this as rewards only distort the outcome further away from equality. Intention-based reciprocity also cannot account for positive
+rewards in response to an unfair allocation chosen by A or B. A preference for efficiency may explain the use of rewards since
+rewards do indeed increase total payoffs. Surely the fact that rewards are costless in our experiment may have contributed to their
+use in this respect.9 Still, the level of rewards in response to unfair allocations is not uniform across conditions. There are some
+noteworthy patterns which we will now explore in more detail.10
+
+    One interesting observation is that B receives a significantly higher reward than A when A directly selects the unfair allocation.
+When A does not delegate, B is a pure bystander who does not make any (consequential) decision. This seems to indicate that B
+is rewarded as a bystander for doing nothing when A selects the unfair allocation. This cannot be explained by intention-based
+reciprocity (B does not do anything) or outcome-based social preferences (B already enjoys a high payoff when the unfair allocation
+is chosen and rewarding him makes the allocation even more unequal). It seems as if B is rewarded for not being (held) responsible
+for an unfavorable outcome.
+
+    A possible interpretation is that Cs use the different levels of reward as means to implement both rewards and punishments. By
+taking a baseline reward level as a reference point, a reward below this level can be regarded as a punishment while a reward above
+this level can be regarded as a genuine reward.11 A possible candidate for such a baseline level is the average reward for B when
+A does not delegate. Averaged over the cases that A implements a fair or unfair allocation this baseline reward level is 1.91 in our
+D&R treatment.12 Fig. 4 shows the adjusted ``punishment'' with the unfair outcome and the adjusted ``reward'' with the fair outcome
+for each player, subtracting the reference value 1.91 from the average reward as shown in Fig. 1(a). One can see that the direct
+allocator receives a higher ``reward'' than the other player when the outcome is fair and is more severely ``punished'' than the other
+player when the outcome is unfair. The ``reward'' patterns with the fair outcome are a mirror image of the ``punishment'' patterns
+with the unfair outcome. These results indicate that when using the different levels of reward for both punishing and rewarding,
+delegation reduces both punishment and reward in line with our responsibility attribution model.
+
+    To further explore this possibility, we can again use the responsibility attribution model to generate predictions for such rewards
+and ``punishments''. Responsibility for the fair allocation (+) depends on each player's contribution to the increase in the probability
+of the fair allocation being selected, while responsibility for the unfair allocation (-) depends on each player's contribution to the
+increase in the probability of the unfair allocation being selected. We calculate the values for + and - according to the observed
+
+   9 It is notable though that Andreoni et al. (2003) also find positive costly rewarding in response to unfair offers.
+  10 It should be noted that the analysis in this section is exploratory and was not pre-registered.
+  11 This is very similar to Nikiforakis and Mitchell (2014) who find that unaffected third-parties withhold rewards to signal their disapproval with unfair
+proposals by a dictator.
+  12 Admittedly, the selection of this baseline level is quite arbitrary. Another possible candidate would the average reward for B in the NoD&R treatment.
+Choosing alternative baseline reward levels does not alter the main gist of our exercise, however.
+
+                                                                                                             11
+C. Argenton et al.                                                      European Economic Review 158 (2023) 104522
+
+                    Table 6                                  (1)        (2)
+                    Regression of reward on responsibility.  1.109***
+                                                             (0.103)    0.947***
+                      +                                      -1.314***  (0.112)
+                      -                                      (0.0894)   -1.204***
+                      Fair                                              (0.118)
+                      Constant                               2.095***   0.256**
+                                                             (0.0792)   (0.117)
+                                                                        1.985***
+                                                                        (0.115)
+
+                    Observations                             2620       2620
+                    Number of Subjects                       403        403
+
+                    Note: Dependent variable is C's each reward assignment decision. This table presents regression
+                    results using a random-effect model. Random effects are clustered by each individual. Standard
+                    errors are shown in parenthesis. ***p < 0.01, **p < 0.05, *p < 0.1.
+
+share of A and B's choices of fair, unfair, and delegation decisions in each treatment. The calculations can be found in Section A.2
+of the online Appendix.
+
+    We run regressions of C's individual rewards for a player (A or B) on the responsibility measures, pooled across fair and unfair
+outcomes and pooled across treatments. The results are shown in Table 6. Rewards correlate positively with the responsibility of a
+player (A or B) for a fair outcome (+), and negatively with the responsibility for an unfair outcome (-). The constant term can be
+interpreted as the baseline level of reward we discussed above. By construction, the responsibility variables + and - are correlated
+with whether the outcome is fair or unfair. Controlling for the outcome, the results in column (2) show that this reward pattern is
+robust.13
+
+    It is intuitive and appealing to think of C-players as using a baseline level of reward to be able to administer both (extra) rewards
+and punishments. However, this interpretation is speculative and we stress that our experiment was not designed specifically to test
+that hypothesis.
+
+6. Conclusion
+
+    We conduct online experiments implementing a delegated dictator game where recipients can reward the principal or the delegate
+(or both). We find that the dictator receives a higher reward when directly choosing the fair allocation than when the delegate
+does it on her behalf (and conversely). In that sense, delegation in the presence of rewards dilutes credit-taking in the same way as
+delegation in the presence of punishments dilutes blame-taking. The predictions of the extension of a simple responsibility attribution
+model put forward by Bartling and Fischbacher (2012) are confirmed, with one exception: rewards are systematically given, even
+when the outcome is unfair and even to players who do not make any decision and thereby do not contribute to the realization of
+the outcome.
+
+    We find, however, that, once low and high rewards are seen as deviations from a baseline level and re-interpreted as actual
+punishments and actual rewards, respectively, delegation reduces both rewards and punishments for the dictator in the case of a
+fair or unfair outcome, respectively.
+
+    In line with our responsibility attribution model, recipients also take the action space of the principal into account when assigning
+rewards and delegating to a random device does not produce a distancing effect. Our results on delegation decisions are consistent
+with the possibility that subjects who delegate are those who would be fair in the absence of the delegation option.
+
+    Our results indicate that delegation reduces the credit associated with positive outcomes and the blame associated with negative
+outcomes by shifting the responsibility from the indirect allocator to the direct allocator. However, the credit-alleviation and the
+blame-shifting effect of delegation do not lead dictators strategically to use delegation in our experiment.
+
+    We observe a lower proportion of delegation decisions compared with previous studies with delegated allocation games and
+essentially no change in the delegation rate in the presence of rewards or punishments. The high proportion of subjects directly
+choosing the fair allocation in our environment may play a role. However, we think this calls for further investigation of the
+robustness of the strategic blame-shifting delegation phenomenon. In our view, the fact that subjects may use a reward system as a
+way to avail themselves the possibility of (indirectly) punishing other players should also be investigated as a matter of priority.
+
+Declaration of competing interest
+
+    The authors declare that they have no known competing financial interests or personal relationships that could have appeared
+to influence the work reported in this paper.
+
+  13 A regression including additional controls (demographic variables such as age, gender, and education) is shown in Table A6 in Section A.2 of the online
+Appendix. It does not affect the main results.
+
+                                                                                                             12
+C. Argenton et al.                          European Economic Review 158 (2023) 104522
+
+Data availability
+
+Data will be made available on request
+
+Appendix A. Supplementary data
+
+Supplementary material related to this article can be found online at https://doi.org/10.1016/j.euroecorev.2023.104522.
+
+References
+
+Abbink, K., Sadrieh, A., 2009. The pleasure of being nasty. Econom. Lett. 105 (3), 306­308.
+Andreoni, J., Harbaugh, W., Vesterlund, L., 2003. The carrot or the stick: Rewards, punishments, and cooperation. Am. Econ. Rev. 93 (3), 893­902.
+Bardsley, N., 2008. Dictator game giving: altruism or artifact? Exp. Econ. 11 (2), 122­133.
+Bartling, B., Fischbacher, U., 2012. Shifting the blame: On delegation and responsibility. Rev. Econom. Stud. 79 (1), 67­87.
+Bartling, B., Fischbacher, U., Schudy, S., 2015. Pivotality and responsibility attribution in sequential voting. J. Public Econ. 128, 133­139.
+Bolton, G.E., Ockenfels, A., 2000. ERC: A theory of equity, reciprocity, and competition. Amer. Econ. Rev. 90 (1), 166­193.
+Charness, G., 2000. Responsibility and effort in an experimental labor market. J. Econ. Behav. Organ. 42 (3), 375­384.
+Charness, G., 2004. Attribution and reciprocity in an experimental labor market. J. Labor Econ. 22 (3), 665­688.
+Charness, G., Rabin, M., 2002. Understanding social preferences with simple tests. Q. J. Econ. 117 (3), 817­869.
+Choy, A.K., Hamman, J.R., King, R.R., Weber, R.A., 2016. Delegated bargaining in a competitive agent market: an experimental study. J. Econ. Sci. Assoc. 2 (1),
+
+     22­35.
+Coffman, L.C., 2011. Intermediation reduces punishment (and reward). Am. Econ. J. Microecon. 3 (4), 77­106.
+Croson, R., Konow, J., 2009. Social preferences and moral biases. J. Econ. Behav. Organ. 69 (3), 201­212.
+Drugov, M., Hamman, J., Serra, D., 2014. Intermediaries in corruption: an experiment. Exp. Econ. 17 (1), 78­99.
+Dufwenberg, M., Kirchsteiger, G., 2004. A theory of sequential reciprocity. Games Econom. Behav. 47 (2), 268­298.
+Eisenkopf, G., Fischbacher, U., 2015. Naïve responses to kind delegation. Manage. Decis. Econ. 36 (7), 487­498.
+Engel, C., 2011. Dictator games: A meta study. Exp. Econ. 14 (4), 583­610.
+Erat, S., 2013. Avoiding lying: The case of delegated deception. J. Econ. Behav. Organ. 93, 273­278.
+Falk, A., Fischbacher, U., 2006. A theory of reciprocity. Games Econom. Behav. 54 (2), 293­315.
+Fehr, E., Schmidt, K.M., 1999. A theory of fairness, competition, and cooperation. Q. J. Econ. 114 (3), 817­868.
+Fershtman, C., Gneezy, U., 2001. Strategic delegation: An experiment. Rand J. Econ. 32 (2), 352­368.
+Garofalo, O., Rott, C., 2018. Shifting blame? Experimental evidence of delegating communication. Manage. Sci. 64 (8), 3911­3925.
+Gawn, G., Innes, R., 2019a. Lying through others: Does delegation promote deception? J. Econ. Psychol. 71, 59­73.
+Gawn, G., Innes, R., 2019b. Who delegates? Evidence from dictator games. Econom. Lett. 181, 186­189.
+Gawn, G., Innes, R., 2021. Machiavelli preferences without blame: Delegating selfish vs. Generous decisions in dictator games. J. Behav. Exp. Econ. 90, 101615.
+Grech, P.D., Nax, H.H., Soos, A., 2022. Incentivization matters: a meta-perspective on dictator games. J. Econ. Sci. Assoc. 8 (1­2), 34­44.
+Hamman, J.R., Loewenstein, G., Weber, R.A., 2010. Self-interest through delegation: An additional rationale for the principal-agent relationship. Amer. Econ.
+
+     Rev. 100 (4), 1826­1846.
+Hinterleitner, M., 2018. Policy failures, blame games and changes to policy practice. J. Public Policy 38 (2), 221­242.
+Hood, C., 2010. The Blame Game. Spin, Bureaucracy, and Self-Preservation in Government. Princeton University Press, Princeton.
+Kandul, S., Kirchkamp, O., 2018. Do I care if others lie? Current and future effects when lies can be delegated. J. Behav. Exp. Econ. 74, 70­78.
+Kube, S., Marechal, M., Puppe, C., 2013. Do wage cuts damage work morale? Evidence from a natural field experiment. J. Eur. Econom. Assoc. 11 (4), 853­870.
+Machiavelli, N., 2008. The Prince. Hackett Publishing, Indianapolis, 1532.
+Maximiano, S., Sloof, R., Sonnemans, J., 2013. Gift exchange and the separation of ownership and control. Games Econom. Behav. 77 (1), 41­60.
+Nikiforakis, N., Mitchell, H., 2014. Mixing the carrots with the sticks: third party punishment and reward. Exp. Econ. 17 (1), 1­23.
+Oexl, R., Grossman, Z.J., 2013. Shifting the blame to a powerless intermediary. Exp. Econ. 16 (3), 306­312.
+Offerman, T., 2002. Hurting hurts more than helping helps. Eur. Econ. Rev. 46, 1423­1437.
+Palan, S., Schitter, C., 2018. Prolific. ac--A subject pool for online experiments. J. Behav. Exp. Financ. 17, 22­27.
+Pierson, P., 1994. Dismantling the Welfare State? Reagan, Thatcher and the Politics of Retrenchment. Cambridge University Press, Cambridge, UK.
+Rabin, M., 1993. Incorporating fairness into game theory and economics. Amer. Econ. Rev. 83 (5), 1281­1302.
+Sefton, M., Shupp, R., Walker, J., 2007. The effects of rewards and sanctions in provision of public goods. Econ. Inq. 45 (4), 671­690.
+Weaver, R.K., 1986. The politics of blame avoidance. J. Public Policy 6 (4), 371­398.
+Wilson, t.D., Reinhard, D.A., Westgate, E.C., Gilbert, D.T., Ellerbeck, N., Hahn, C., Brown, C.L., Shaked, A., 2012. Just think: The challenges of the disengaged
+
+     mind. Science 345 (6192), 75­77.
+
+                                        13
+

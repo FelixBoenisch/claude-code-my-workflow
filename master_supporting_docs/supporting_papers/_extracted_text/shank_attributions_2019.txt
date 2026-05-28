@@ -1,0 +1,857 @@
+      Information, Communication & Society
+
+           ISSN: 1369-118X (Print) 1468-4462 (Online) Journal homepage: https://www.tandfonline.com/loi/rics20
+
+When are artificial intelligence versus human
+agents faulted for wrongdoing? Moral attributions
+after individual and joint decisions
+
+Daniel B. Shank, Alyssa DeSanti & Timothy Maninger
+
+To cite this article: Daniel B. Shank, Alyssa DeSanti & Timothy Maninger (2019): When are
+artificial intelligence versus human agents faulted for wrongdoing? Moral attributions after individual
+and joint decisions, Information, Communication & Society
+To link to this article: https://doi.org/10.1080/1369118X.2019.1568515
+
+           Published online: 22 Jan 2019.
+           Submit your article to this journal
+           Article views: 23
+           View Crossmark data
+
+                                 Full Terms & Conditions of access and use can be found at
+                    https://www.tandfonline.com/action/journalInformation?journalCode=rics20
+INFORMATION, COMMUNICATION & SOCIETY
+https://doi.org/10.1080/1369118X.2019.1568515
+
+When are artificial intelligence versus human agents faulted
+for wrongdoing? Moral attributions after individual and joint
+decisions
+
+Daniel B. Shank, Alyssa DeSanti and Timothy Maninger
+
+Department of Psychological Science, Missouri University of Science and Technology, Rolla, MO, USA
+
+ABSTRACT                                                              ARTICLE HISTORY
+                                                                      Received 31 August 2018
+Artificial intelligence (AI) agents make decisions that affect        Accepted 24 December 2018
+individuals and society which can produce outcomes traditionally
+considered moral violations if performed by humans. Do people         KEYWORDS
+attribute the same moral permissibility and fault to AIs and          Ethics; attributions;
+humans when each produces the same moral violation outcome?           algorithms; morality;
+Additionally, how do people attribute morality when the AI and        decision-making
+human are jointly making the decision which produces that
+violation? We investigate these questions with an experiment that
+manipulates written descriptions of four real-world scenarios
+where, originally, a violation outcome was produced by an AI. Our
+decision-making structures include individual decision-making ­
+either AIs or humans ­ and joint decision-making ­ either humans
+monitoring AIs or AIs recommending to humans. We find that the
+decision-making structure has little effect on morally faulting AIs,
+but that humans who monitor AIs are faulted less than solo
+humans and humans receiving recommendations. Furthermore,
+people attribute more permission and less fault to AIs compared
+to humans for the violation in both joint decision-making
+structures. The blame for joint AI-human wrongdoing suggests
+the potential for strategic scapegoating of AIs for human moral
+failings and the need for future research on AI-human teams.
+
+Introduction
+
+Humans working together can accomplish amazing things that would be impossible for an
+individual, making human teams invaluable in modern society. Teams, however, possess just
+as great of a potential for morally unacceptable behavior. A long history of social science
+research shows how individuals are attributed responsibility, blame, praise, or wrongness
+(Malle, Guglielmo, & Monroe, 2014; Shaver, 1985; Weiner, 1985) and this has also been
+applied to humans in teams and organizations (Gailey, 2013; Haynes & Lawrence, 2012;
+Shank & Robinson, forthcoming). An emerging question is whether similar attributions
+can be made to non-humans such as intelligent technologies which now routinely collabor-
+ate with humans in joint decision-making, thereby functioning as rudimentary teams.
+
+CONTACT Daniel B. Shank shankd@mst.edu Department of Psychological Science, H-SS Bldg., 500 W. 14th St.,
+Rolla, MO 65409-1270, USA
+
+    Supplemental data for this article can be accessed at http://dx.doi.org/10.1080/1369118X.2019.1568515.
+© 2019 Informa UK Limited, trading as Taylor & Francis Group
+2  D. B. SHANK ET AL.
+
+   Assigning moral fault within a group of humans may involve more than a logical cal-
+culus of determining responsibility, but may depend on relative power and status (Shank
+& Robinson, forthcoming), group identification (Kaiser, Dyrenforth, & Hagiwara, 2006),
+and motives for scapegoating (Rothschild, Landau, Sullivan, & Keefer, 2012). Because
+artificial intelligence (AI) agents will often have little social power and may be thought
+of as tools instead of team members, if people do blame AIs on human-AI teams there
+may be increased scapegoating of moral responsibility. This could have a profound impli-
+cation for our society as AIs continue to join us as teammates at work, while simul-
+taneously being feared for taking our jobs (McClure, 2018).
+
+   Specific situations where AIs are involved in morally significant outcomes that have
+gained media attention include AIs producing lenient parole sentences towards whites,
+selecting disproportionally few dark-skinned winners in a beauty contest, exposing chil-
+dren to violent and obscene videos, and producing derogatory remarks about minority
+groups on Twitter (Shank & DeSanti, 2018). More generally, there is widespread use in
+society of black-box algorithms which routinely discriminate against minority groups
+and the poor (Eubanks, 2018; Noble, 2018; Wachter-Boettcher, 2017) and are used to jus-
+tify their own performance and cutthroat business practices in the name of efficiency
+(Eubanks, 2018; O'Neil, 2016). Some evidence shows that humans attribute some moral
+fault to the AIs (Shank & DeSanti, 2018), although perhaps at a reduced level compared
+to humans (Malle, Magar, & Scheutz, forthcoming; Pizarro, 2014). However, there have
+been few direct comparisons of moral fault attributed to AIs versus humans engaged in
+the exact same real-world moral violations (e.g., Malle et al., forthcoming compares
+humans and machines in a military strike dilemma). Therefore, the first purpose of our
+research is to determine the attribution of moral permissibility and fault of AIs versus
+humans in real-world moral violation situations.
+
+   Humans team up with artificial intelligence to jointly make decisions in several different
+structural arrangements. In situations where an AI functions with relative autonomy, but
+is monitored by a human, such as self-driving cars, it is unclear who would be to blame if
+people are injured in an accident (McManus & Rutchick, 2018). This problem is com-
+pounded when the car can decide to change course and injure one person in a crosswalk
+to avoid injuring many on the side of the road (Bonnefon, Shariff, & Rahwan, 2016;
+Nyholm & Smids, 2016). Aside from autonomous vehicles, AIs make autonomous
+decisions monitored by humans on Twitter, in production lines, in stock trading, in auto-
+matic bids, and with military drones. In other situations, an AI may make recommen-
+dations, such as providing doctors with the most probable diagnoses for patients.
+Would the doctor be at fault if the AI were wrong? While expert systems have been
+able to recommend probable diagnoses of disease for over four decades (Shortliffe et al.,
+1975), the US FDA only recently approved these AIs to be marketed as medical devices
+(US Food & Drug Administration, 2018). Aside from medical recommendations, AIs rec-
+ommend books, movies, people to date, applicants to hire, clients to give loans to, and pro-
+ducts to buy (Willson, 2017). Therefore, studying moral attributions to humans and AIs in
+the form of monitoring and recommending structures mirrors two of the most common
+joint decision-making arrangements in society.
+
+   When humans make decisions resulting in a moral violation, their severity of blame is
+determined primarily by the degree of autonomy with which their decision was made
+(Gailey & Falk, 2008; Malle et al., 2014; Malle & Knobe, 1997). If this idea carries over
+INFORMATION, COMMUNICATION & SOCIETY  3
+
+to human-AI joint decision-making, it would suggest that the AI being monitored would
+be at greater fault than the human doing the monitoring, and that the human receiving
+recommendations would be at greater fault than the AI making the recommendations.
+Therefore, the second purpose of our research is to investigate the attribution of moral
+fault and permissibility in joint-decision making structures of an AI monitored by a
+human and of a human receiving recommendations from an AI.
+
+Distinguishing levels of moral judgement
+
+In situations with AIs acting, it is important to consider different levels at which moral
+judgements may occur. At the level of the situation, there is the question of general wrong-
+ness ­ whether or not any moral wrong occurred. Before one can make attributions to a
+human, AI, or other causal agent, there must first be some judgement or outcome neces-
+sitating a cause (Kelley, 1972; Malle et al., 2014; Weiner, 1986). It is possible that outcomes
+which are generally agreed to be morally wrong if caused by a human will not be seen as
+wrong if caused by an AI. Yet, in situations where moral violations are caused by AIs,
+many people make judgements of general wrongness or fault (Malle et al., forthcoming;
+Shank & DeSanti, 2018) which also reflect a violation of the expected moral foundation
+(Shank & DeSanti, 2018) ­ care, fairness, loyalty, authority, purity, and liberty (Graham
+et al., 2011). However, it is possible those judgements and the moral foundation violated
+differ from those made to humans engaged in the same behavior.
+
+   At the level of specific attributions to specific entities, there is a difference between attri-
+butions of moral permissibility and moral fault. Permissibility attributions typically occur
+before an action and are focused on evaluating options to act, whereas wrongness and
+blame are part of the evaluating fault for a violation after it occurs (Malle et al., 2014).
+Among both humans and robots, some evidence points to permissibility attributions
+being based on the consequences of the action, blame attributions based on mental agency
+factors, and wrongness attributions based on both (Voiklis, Kim, Cusimano, & Malle, 2016).
+Other evidence shows that judgements of general wrongness when AIs are the proximate
+actors in a violation outcome are negatively correlated to perceiving the AI as justified
+(i.e., that it is a permissible behavior) and that the AI is wrong (i.e., that the AI is at fault;
+Shank & DeSanti, 2018). Even in cases where people refuse to fault the AI due to its lack
+of capacity to produce the desired outcome, they may still find that it not morally permissible
+(Malle et al., 2014; Voiklis et al., 2016). Therefore, we primarily focus on fault and permis-
+sibility, but we also consider that other moral attributions such as awareness, responsibility,
+and intentionality which are distinct from fault and permissibility under many circum-
+stances (Gailey & Falk, 2008; Malle et al., 2014; Malle & Knobe, 1997; Shaver, 1985).
+
+Moral attributions to AIs versus humans
+
+Moral attributions are readily made to AIs when they are the proximate cause of an out-
+come that would normatively be considered a moral violation if perpetrated by a human
+(Malle, Scheutz, Arnold, Voiklis, & Cusimano, 2015; Shank & DeSanti, 2018). Further-
+more, mirroring findings about interactions with computer agents in general (Reeves &
+Nass, 1996), neither the organization that owns or uses the AI, the developers who pro-
+grammed it, nor the users that interact with it are attributed moral fault for a moral
+4  D. B. SHANK ET AL.
+
+violation (Shank & DeSanti, 2018). However, there is sufficient evidence to suggest that
+AIs may generally be attributed less fault than humans. Artificial agents are blamed less
+and attributed less wrongness than humans for making the same moral choices in a trol-
+ley-problem ethical dilemma (Voiklis et al., 2016). Similarly, attributions of goodness and
+power are attenuated for computer agents compared to human agents (Shank, 2013,
+2014). In contrast, machines are sometimes blamed more than humans, such as when
+artificial teammates make mistakes (Merritt et al., 2011) or when machines fail to take
+action in a trolley-problem (Malle et al., 2015). These cases of high AI blame seem to pri-
+marily be due to specific expectations about the AIs acting in an efficient, optimal, and
+rational way, at least compared to humans.
+
+Moral attributions in joint decision-making structures
+
+In joint decisions, the nature of the agents, human versus AI, could be definitive in moral
+attribution. However, the structural arrangement of the decision making may also influ-
+ence attributions in three ways. First, the agent that is most proximate to the decision
+may be faulted more than less proximate agents (Lawler, 1992; Lawler, Thye, & Yoon,
+2016; Shank & Robinson, forthcoming). Second, in attribution theory terms the most
+proximate agent would typically be evaluated in terms of the locus of control, and only
+if the cause appeared external to that agent would the attribution be shifted (Weiner,
+1985). Third, moral faults may be more associated with acts of commission verses omis-
+sion. If an agent caused a violation outcome through their inaction or omission, the fault
+assigned to them will generally be less than if they caused it through their action (Malle
+et al., 2015; Voiklis et al., 2016). Therefore, in cases where multiple entities are making
+a joint decision, the one most directly associated with committing the action should
+receive greater moral scrutiny. All three arguments point to AIs in the monitoring struc-
+ture and humans in the recommendation structure being more at fault than their counter-
+part due to their proximate position as the one generating and submitting the decision and
+thereby committing the moral fault.
+
+Experiment
+
+Amazon Mechanical Turk (mturk) participants completed an online experiment where they
+were randomly assigned to one of 32 conditions formed by a full factorial crossing of 4 events
+with 4 decision-making structures and with 2 outcomes (control or violation). The four
+decision-making structures varied the presence and role of humans and AIs with decisions
+made by (1) a solo AI, (2) a solo human, (3) an AI with a human monitoring it (monitoring),
+and (4) a human provided recommendations by an AI (recommending). The control out-
+comes are used to show how the violation outcomes differ in general wrongness, whereas
+the violation outcomes are solely used to investigate attributions of those violations.
+
+Event, structure, and outcome conditions
+
+We presented events that were based on four actual events where an artificial intelligence
+or advanced algorithm produced an outcome which would traditionally constitute a moral
+violation. These events were previously adapted from media coverage into neutral
+INFORMATION, COMMUNICATION & SOCIETY  5
+
+language vignettes that could be used as experimental stimuli (Shank & DeSanti, 2018).
+We selected four of Shank and DeSanti's vignettes that made sense for humans as well
+as AIs and we adapted them to create the human, monitoring, and recommending con-
+ditions. The vignettes also originally included information about the organization which
+controlled the AI software. Shank and DeSanti (2018) found that respondents' familiarity
+with the organization altered their perceptions of moral fault, yet neither the organization,
+the software developers, nor the users were blamed for the wrong. Therefore, we simplified
+the vignettes by removing information about the organization which controlled the AI.
+
+   The parole sentencing event describes predicting recidivism rates of convicts in order to
+determine a parole sentencing. In the violation condition the sentence is unfairly lenient
+for whites and harsh for blacks. The beauty contest event involves determining the winners
+of a beauty pageant. In the violation condition the winners are primarily white and light
+skinned. The children's videos event involves a video-playing mobile app developed
+specifically for children. In the violation condition the videos included obscene and violent
+material. The Twitter event involves tweets from one account. In the violation condition
+the tweets contained hate speech. The control conditions for all events were the expected
+outcome of such an event (see online supplemental data for exact wording). For both con-
+trol and violation outcomes, the wording identified what specifically the outcome was, so
+that the moral attribution questions would be focused specifically on the outcome. The 32
+vignettes ranged from 34­109 words long and a reading grade level from 6.6­11.8.
+
+Participants and procedure
+
+The 453 participants of this study were recruited through a general posting on mturk.
+Amazon Mechanical Turk is an online crowdsourcing micromarket where people can
+post tasks (called human interaction tasks) that others will claim and complete for a
+small payment. The uses of crowdsourcing platforms and crowdsourcing markets are var-
+ied (Shepherd, 2012), but increasingly academics use them to recruit participants for aca-
+demic research surveys and experiments (Buhrmester, Kwang, & Gosling, 2011; Mason &
+Suri, 2012) as well as other types of academic research (Shank, 2016). While they are not
+perfect samples, the sample is often more similar to the US population than studies using
+university students (Buhrmester et al., 2011; Mason & Suri, 2012). In order to minimize
+participants who were inattentive, participants were required to have a positive history
+on mturk, meaning 90%+ of their work accepted and at least 100 tasks completed
+(Mason & Suri, 2012; Shank, 2016). The survey was completed in Qualtrics, took an aver-
+age of 5­6 min to complete, and had a compensation of $0.60. Based on random assign-
+ment to a condition participants were shown one event each. This was followed by
+questions concerning moral attributions, moral foundations, familiarity with the event,
+and general demographic information.
+
+Measures
+
+Moral violation attributions
+Seven items measured moral attributions (Gailey, 2013; Malle et al., 2014), with a four-
+point scale each with specific labels corresponding to none (1), somewhat (2), moderately
+(3), and completely (4) attributing that variable to the agent. For the monitoring and
+6  D. B. SHANK ET AL.
+
+recommending conditions both the human and AI were listed and responded to separ-
+ately, whereas the human and AI condition each had only one respective agent.
+
+(1) Responsibility: How responsible is the following for the outcome?
+(2) Awareness: Was the following aware of the potential for this outcome?
+(3) Intention: Did the following intend for this outcome to occur?
+(4) Justified: Was the following justified in their role in the outcome? (reversed)
+(5) Permissible: How permissible is it for the following to produce this outcome?
+
+     (reversed)
+(6) Blame: How much do you blame the following for the outcome?
+(7) Wrongness: How wrong was the following for their role in the outcome?
+
+We subjected the seven moral attributions items to a factor analyses, considering com-
+ponents with Eigenvalues  1 and items with loadings of over 0.5. For attributions of
+the violation outcome to both humans and AIs two components emerged: moral fault
+is the average of wrongness, blame, responsibility, awareness, intentionality ( = .76 for
+human and  = .78 for AIs) whereas moral permissibility is the average of permissible
+and justified ( = .77 for human and  = .74 for AIs). The attributions of the normatively
+expected control outcomes failed to produce consistent and interpretable scales via factor
+analyses. Many of these moral attributions to individual agents lack coherent meaning in
+the absence of a violation outcome and therefore the control condition is not used for
+analysis of specific attributions (Gailey & Falk, 2008; Malle et al., 2014; Shank & DeSanti,
+2018).
+
+Other measures
+Participants were also asked the degree of moral wrongness occurring in the event by
+responding to a five-point scale ranging from not at all (1) to very much (5) in response
+to For this event, how much did each of the following occur? General wrongness was in
+response to A moral violation or wrong, and the six moral foundations were in response
+to harm or causing pain, unfairness or cheating, disloyalty or betrayal, disrespecting or dis-
+obeying authority, degrading or impure actions, and restriction of liberty or loss of privacy.
+All seven were presented in a random order.
+
+   Participants were asked Have you heard about this scenario before reading it here? and
+answered with yes, unsure, or no. Few people were familiar with the events and prelimi-
+nary analyses indicated including familiarity did not substantively change the results.
+Therefore, familiarity was not reported in the results. Demographic questions were the
+final survey items.
+
+Results
+
+The sample of 453 participants (207 males, 244 women, 2 no response) ranged in age from
+18 to 75 (mean of 36.2), were primarily white (73.4% Caucasian/white; 10.2% African
+American/black; 8.6% Asian/Pacific Islander; 5.5% Hispanic; 2.4% other/no response),
+and were predominately college educated (10.4% no college; 38.4% some college; 51.0%
+at least bachelor's degree; 2 did not respond). Respondents were randomly assigned to
+one of the 32 conditions resulting in 13­16 participants in each. No data was excluded.
+                                                             INFORMATION, COMMUNICATION & SOCIETY    7
+
+Moral perceptions of the situation
+
+How do people perceive the general wrongness across these situations?
+Before examining moral attributions to humans and AIs, we examined the moral wrong-
+ness across experimental conditions. We conducted a full-factorial MANOVA predicting
+whether the event was generally perceived as morally wrong and whether it violated each
+moral foundation (Table 1).
+
+   First, as expected we found that the violation outcomes produce more general wrong-
+ness (3.48; Table 2) than the control (2.30), F(1,415) = 96.43, p  .001, but that the events
+also differ in general wrongness, F(3,415) = 7.89, p  .001. Examining these in more detail,
+we split the control and violation outcome conditions and conducted a MANOVA pre-
+dicting event general wrongness (and moral foundation violations) by event including
+post hoc pairwise comparisons between each pair of events. These indicated that general
+wrongness did not vary by event in the control condition, F(3,222)  2.03, ns (see Table 2
+for significant pairwise comparisons), but did differ by event in the violation condition, F
+(3,217) = 6.11, p  .001. This was due to a violation in the beauty contest event being per-
+ceived as less wrong (2.88) than the other events (3.59­3.84; Table 2). There were no other
+significant effects on general event wrongness (Table 1), therefore there is no evidence that
+the presence or structure of AIs and humans influences the general perceptions of the
+commission of a moral wrong.
+
+How do people perceive moral foundation violations across these situations?
+The violation outcome produced greater violations for five of the six moral foundations, Fs
+(1,415)  18.97, ps  .001; Table 1, and marginally more oppression, F(1,415) = 3.21,
+p = .074. The specific events also differed in all six moral foundation violations, Fs
+(3,415)  3.01, ps  .03, and an interaction effect between event and violation outcome
+influenced unfairness, degradation, and oppression Fs(3,415)  4.80, ps  .003; Table 1.
+Divided by violation and control outcomes, MANOVAs indicate that while there are
+differences in the control outcome conditions on betrayal, F(3,222) = 2.695, p = .047,
+and oppression, F(3,222) = 5.026, p = .002, there are differences in the violation outcome
+conditions for all six moral foundations, Fs(3,217)  3.406, ps  .019; Table 2.
+
+   The specific differences correspond to our face-valid expectations and prior research
+results (Shank & DeSanti, 2018): the parole sentencing violation is perceived as highly
+unfair, and oppressive, the beauty contest violation as unfair, and the children's videos
+and Twitter violations as degrading (Table 2). Mirroring the general wrongness result,
+the beauty contest violation had significantly lower means than most of the other events
+
+Table 1. F-statistics from a MANOVA of the general moral wrong and specific moral foundation wrongs
+by experimental conditions.
+
+                               Wrong Harm Unfair Betrayal Subversion Degradation Oppression
+
+Event                           7.89***   3.01*    11.78***   5.58***   6.04***   5.99***  24.09***
+Violation                      96.43***  59.95***  31.64***  18.97***  20.02***  83.01***   3.21
+Decision-Making Structure       1.00                                    1.43      1.10       .03
+Event * Violation                          .74       .60       .83      1.61      4.80**    5.16**
+Event * Structure                .60      1.02      8.27***   1.79      1.48                 .90
+Violation * Structure            .98      1.10       .80      1.63                 .64       .86
+Event * Violation * Structure    .40       .14       .07       .53       .18       .28      1.60
+                                1.07      1.06      1.06      1.31      1.29       .36
+
+Note: N = 447. ***p  .001, **p  .01, *p  .05.
+8  D. B. SHANK ET AL.
+
+Table 2. Means (standard deviations) by experimental conditions.
+
+                                                                  Events
+
+                                     F-
+                     Total statistic Parole Sentencing Beauty Contest Children's Videos Twitter
+
+Control (N = 226)    2.30 (1.26) 2.03       2.38ab (1.17)  1.96a (1.16)   2.50b (1.40)   2.34ab (1.27)
+   General
+  Wrongness          2.18 (1.23)  3.10      2.21 (1.15)    2.07 (1.23)    2.16 (1.26)    2.27 (1.31)
+   Harm              1.98 (1.13)   .81      2.07 (1.06)    1.96 (1.19)    1.79 (1.07)    2.10 (1.21)
+   Unfair            1.87 (1.16)  2.70*     1.77ab (1.13)  1.57a (0.93)   2.02b (1.27)   2.10b (1.23)
+   Betrayal          1.88 (1.09)  1.03      1.95 (1.11)    1.66 (1.01)    1.93 (1.12)    1.98 (1.11)
+   Subversion        2.11 (1.22)  1.30      1.84 (1.11)    2.21 (1.25)    2.20 (1.29)    2.20 (1.24)
+   Degradation       2.32 (1.33)  5.03**    2.74a (1.19)   1.91b (1.20)   2.07bc (1.33)  2.54ac (1.45)
+   Oppression
+                     3.48 (1.30) 6.11***    3.60a (1.15)   2.88b (1.49)   3.84a (1.11)   3.59a (1.23)
+Violation (N = 221)
+   General           3.12 (1.31)   3.41*    3.38a (1.32)   2.68b (1.44)   3.09ab (1.20)  3.34a (1.20)
+  Wrongness          2.62 (1.39)  17.19***  3.56a (1.26)   2.82b (1.40)   1.95c (1.20)   2.24c (1.16)
+   Harm              2.42 (1.40)   3.81*    2.74a (1.44)   1.91b (1.30)   2.66a (1.40)   2.37ab (1.35)
+   Unfair            2.42 (1.43)   5.23**   2.74a (1.47)   1.84b (1.26)   2.34ab (1.43)  2.78a (1.38)
+   Betrayal          3.25 (1.37)   9.12***  3.10a (1.40)   2.55b (1.45)   3.66c (1.15)   3.64c (1.20)
+   Subversion        2.53 (1.43)  24.48***  3.75a (1.12)   2.09bc (1.38)  1.86b (1.09)   2.47c (1.33)
+   Degradation
+   Oppression
+
+Note: F-statistics is difference among for events per row: ***p  .001, **p  .01, *p  .05. Event means per row that have
+  any superscript in common or no superscripts at all do not significantly differ according to a post hoc pairwise comparison
+  using the least squared difference.
+
+for harm, betrayal, subversion, and degradation (Table 2). We conclude that our selected
+events were perceived as generally wrong and specifically violated the expected moral
+foundation after a violation outcome, but not after the control outcome. Similar to general
+wrongness, there were no differences in moral foundation violations based on human or
+AI presence or structure. This bolsters our confidence that any moral attribution differ-
+ences based on the presence of AIs and humans and their decision-making structure is
+not explainable by people differently interpreting the morality of the entire situation.
+
+Moral attributions of the violation outcomes to humans and AIs
+
+Next, we consider the moral permissibility and moral fault attributed to human and AI
+agents in the different decision-making structures after a violation outcome. Because events
+differ in general levels of moral wrongness as indicated above, we continue to use events as
+factors in our analyses to reveal any attribution-level difference among events.
+
+How do people attribute moral violations to AIs versus humans?
+We compared the moral violation attributions toward the AI in the solo AI conditions to
+the human in the solo human conditions (Table 3 and Figure 1) using an agent (human or
+AI) by event MANOVA (Table 4). There are no significant differences in the moral per-
+missibility between humans and AI agents F(1,108) = 1.79, ns, and among events, F
+(3,108) = 1.36, ns. However, between violation-producing agents, humans are morally
+faulted (3.07) more than AIs (2.00), F(1,108) = 63.82, p  .001. While events do not inde-
+pendently alter moral fault, the agent difference is qualified by an interaction effect with
+events, F(3,108) = 6.20, p  .001. Humans are always faulted more than AIs, but the mag-
+nitude of this difference is situationally dependent based on the event: children's videos
+(.39), parole sentencing (.67), beauty contest (1.33), and Twitter (1.83). Additionally,
+                                                         INFORMATION, COMMUNICATION & SOCIETY   9
+
+Table 3. Means (standard deviations) of moral attributions to AIs by experimental conditions.
+
+Decision-Making    Agent N                    Parole     Beauty       Children's   Twitter All Events
+Structure                                   Sentencing   Contest       Videos
+
+Moral Permissible  AI  58                   1.92 (0.98)  2.39 (1.11)  2.03 (1.06)  2.25 (1.06)  2.16 (1.04)
+Solo AI                                     1.75 (0.78)  2.13 (1.23)  1.64 (0.69)  2.07 (1.03)  1.91 (0.96)
+Solo Human         Human 58                 2.23 (0.83)  2.61 (1.02)  2.18 (1.19)  2.32 (1.17)  2.34 (1.05)
+Monitoring                                  2.12 (1.00)  2.29 (0.97)  1.86 (1.08)  1.75 (0.94)  2.00 (1.00)
+Monitoring         AI  55                   2.58 (0.81)  3.04 (0.97)  1.73 (0.67)  1.82 (1.07)  2.28 (1.03)
+Recommending                                2.62 (0.82)  1.62 (0.89)  1.46 (0.69)  1.54 (0.60)  1.80 (0.87)
+Recommending       Human 55                 2.24 (0.89)  2.67 (1.05)  1.99 (1.00)  2.14 (1.10)  2.26 (1.04)
+All Structures                              2.15 (0.92)  2.02 (1.06)  1.66 (0.84)  1.79 (0.89)  1.90 (0.94)
+All Structures     AI  53
+
+                   Human 53
+
+                   AI  166
+
+                   Human 166
+
+                                                Moral Fault
+
+Solo AI            AI  58                   2.00 (0.73)  1.81 (0.53)  2.51 (0.70)  1.69 (0.79)  2.00 (0.75)
+Solo Human                                                            2.90 (0.61)  3.52 (0.89)  3.07 (0.77)
+Monitoring         Human 58                 2.67 (0.70)  3.15 (0.64)  2.03 (0.75)  1.63 (0.77)  1.95 (0.72)
+Monitoring                                                            3.16 (0.56)  2.69 (0.80)  2.77 (0.72)
+Recommending       AI  55                   2.05 (0.76)  2.11 (0.55)  2.37 (0.72)  1.69 (0.71)  1.96 (0.77)
+Recommending                                                          3.22 (0.40)  3.07 (0.55)  3.08 (0.59)
+All Structures     Human 55                 2.85 (0.78)  2.41 (0.56)  2.30 (0.74)  1.67 (0.74)  1.97 (0.74)
+All Structures                                                        3.09 (0.54)  3.10 (0.82)  2.97 (0.71)
+N                  AI  53                   2.26 (0.90)  1.55 (0.41)
+                                                                          42           44          166
+                   Human 53                 3.17 (0.52)  2.85 (0.82)
+
+                   AI  166                  2.10 (0.79)  1.83 (0.54)
+
+                   Human 166                2.89 (0.69)  2.81 (0.73)
+
+                                            40               42
+
+Note: Violation conditions only (N = 221).
+
+the latter two with the largest difference appear to be caused by both more fault attributed
+to humans and less fault attributed to AIs compared to the other conditions (Figure 2). We
+return to this interesting result in the discussion.
+
+How do people attribute moral violations to AIs in different decision-making
+structures?
+We compared the moral violations attributed to AIs in the three decision-making struc-
+ture conditions that included AI agents (Table 3 and Figure 1). A structure by event MAN-
+OVA (Table 4) indicated that solo AIs, monitored AIs, and recommending AIs do not
+differ in perception of moral permission, F(2,154) = .52, ns, or moral fault, F(2,154)
+= .07, ns. However, the different events did change perception of the AI's moral
+
+Figure 1. Mean moral permissibility and fault by structure and agent for the violation conditions only.
+10         D. B. SHANK ET AL.
+
+Table 4. F-statistics from a MANOVA predicting moral attributions.
+
+             Human versus AIs (Solo      Artificial Intelligence  Humans (N = 168)       Human versus AIs (Joint
+                 Structures Only)              (N = 168)                                 Structures Only) (N = 216)
+                     (N = 116)
+
+             Permissibility Fault Permissibility Fault Permissibility Fault              Permissibility    Fault
+
+Structure                                .52    .07               .61            3.49*        .86          2.90
+                                                                                 1.97      10.21**       110.23***
+Agent        1.79              63.82***                           2.49                       6.26***
+Event                                                                            3.05**                    6.19***
+             1.36              1.39      3.65*  6.79***                                       .36          2.43
+
+Structure ×
+
+  Agent                                  1.35   1.44              2.07                   2.21            .66
+Event ×
+
+Structure
+
+Event ×      .07               6.21***                                                   1.84            1.08
+
+Agent                                                                                                    2.11
+
+Structure ×                                                                              1.57
+
+Agent ×
+
+Event
+
+Note: Violation conditions only (N = 221). ***p  .001, **p  .01, *p  .05,   .1.
+
+permissibility, F(3,154) = 3.65, p = .014, and moral fault, F(3,154) = 6.79, p  .001. Post hoc
+pairwise comparisons between events indicate the AI's role in producing the violation is
+more permissible in the beauty contest event (2.67) compared to the other events (parole
+sentencing: 2.24, marginal difference at p = .061; children's videos: 1.99, p = .002; Twitter:
+2.14, p = .016). The AI is less at fault for the violations in both the beauty contest (1.83) and
+Twitter events (1.67) compared to the parole sentencing (2.10; vs. beauty contest: marginal
+difference at p = .09; vs. Twitter: p = .006) and the children's videos (2.30; vs. beauty con-
+test: p = .003; vs. Twitter: p < .001).
+
+How do people attribute moral violations to humans in different decision-making
+structures?
+
+Parallel to previous analyses, we considered the attributions made to humans in the three
+decision-making structures that included humans (Table 3 and Figure 1). A structure by
+event MANOVA (Table 4) indicates no significant difference in moral permissibility for
+structure, F(2,154) = .61, ns, and a marginally significant difference among events, F
+(3,154) = 2.49, p = .062. A post hoc pairwise comparison on this marginal effect, shows
+
+Figure 2. Mean moral fault by event and agent for the violation conditions only.
+INFORMATION, COMMUNICATION & SOCIETY  11
+
+that it is more permissible for humans to produce a violation in parole sentencing (2.15)
+compared to the children's video event (1.79; p = .017). Humans' structural role in the vio-
+lation change the attribution of moral fault, F(2,154) = 3.49, p = .033. Post hoc pairwise
+comparisons revealed that solo humans (3.07) and humans receiving recommendations
+from AIs (3.08) were more morally culpable than humans monitoring AI decisions
+(2.77; both ps = .021). An interaction effect qualifies this finding, F(6,154) = 3.05, p
+= .008, indicating this difference is most pronounced in the beauty contest and Twitter
+events (monitoring condition is .58 and .61 lower than the others, respectively) and
+near neutral in the parole sentencing and children's videos (monitoring condition is .07
+lower and .10 higher than the others, respectively).
+
+How do people attribute moral violations to AIs versus humans in different
+decision-making structures?
+
+To separate and directly compare the agents from the roles they play in joint decision-
+making structures, we compare moral attributions towards both AIs and humans in
+both the recommendation and monitoring conditions (Table 3 and Figure 1) with an
+agent by structure by event MANOVA (Table 4). The primary finding is that both agents
+and events are significant for both moral permissibility and fault (agent's permissibility:
+F(1,200) = 10.21, p = .002; agent's fault: F(1,200) = 110.21, p  .001; event's permissibility:
+F(3,200) = 6.26, p  .001; event's fault: F(3,200) = 6.19, p  .001). When AIs and humans
+jointly produce a moral violation, this is more permissible for an artificial intelligence
+(2.31) compared to a human (1.90) and the AI is less at fault (1.96) compared to the
+human (2.92). Additionally, it is more permissible for the agents producing the parole
+violation (2.38) and the beauty contest violation (2.39) compared to the children's videos
+violation (1.81) and the Twitter violation (1.86; post hoc pairwise comparison show the
+both of the former are each higher than each of the latter at p  .03). However, the agents
+are more at fault for producing the parole sentencing violation (2.58) and children's video
+violation (2.69) than the beauty contest violation (2.23) and the Twitter violation (2.27;
+post hoc pairwise comparison show the former two are each higher than each of the latter
+two at p  .017). These findings of different AI versus human agent attributions did not
+deviate by event, permissibility: F(3,200) = 1.84, ns; fault: F(3,200) = 1.08, ns.
+
+   Monitoring versus recommending structures do not affect moral permissibility,
+F(1,200) = .86, ns. However, agents producing a violation in the recommending condition
+were marginally more at fault (2.52) than those in the monitoring condition (2.36;
+F(1,200) = 2.90, p = .09). There were no significant interactions between agent and
+decision-making structure, permissibility: F(1,200) = .36, ns; fault: F(1,200) = 2.43, ns.
+
+Discussion
+
+We used real-world events as the stimuli for an experiment investigating humans, artificial
+intelligence, and joint decision-making teams committing moral transgressions. Most
+notably we found that AIs across their roles in these structures do not differ in moral attri-
+butions, whereas humans in structures where they are less proximate to the decision in an
+oversight role are faulted less for the same moral violations. This in itself is an important
+finding in that the moral perceptions of advanced technologies may have more to do with
+taking moral fault away from humans than they do with the blame of the machines
+12  D. B. SHANK ET AL.
+
+themselves. This means that AIs on human-AI teams may have the potential to be used as
+moral scapegoats for human failings (Merritt et al., 2011). If decision-making arrange-
+ments allow, but do not require, humans to monitor machines ­ for example with self-
+driving vehicles ­ it is likely the general population would deny the human is at fault
+for an accident.
+
+   Furthermore, AIs are always perceived to be less at fault than the humans, mirroring
+other research findings (e.g., Malle et al., forthcoming). Even when a human was monitoring
+an AI the human received more blame than the AI, yet there was still some moral fault
+attributed to the AI being monitored. While previous research has shown that individual
+AIs can be attributed blame (Malle et al., 2015; Shank & DeSanti, 2018; Voiklis et al.,
+2016), this data indicates that they can share the blame as well. These conclusions suggest
+strange ideas of the downstream consequences of holding an AI teammate responsible for
+its actions. Will humans involved in crimes with AI `accomplices' receive different sentences
+if blame is truly shared in the mind of the judge or jury? Could coercing an AI into a criminal
+or immoral act be considered similar to coercing a mentally deficient person to do the same?
+Human perception and attribution to AIs has profound impacts on the legal systems and
+implication for those technologies (Jaeger & Levin, 2016). Finally, would people then punish,
+rehabilitate, terminate, or take some action to return an AI teammate to proper and accep-
+table functioning? If AIs are unable to assimilate the blame or consequences into their
+internal belief system, this would appear to be a technically futile exercise simply for show.
+
+   Theoretically this study primarily builds on and contributes to the longstanding
+research tradition of attribution theory (Malle et al., 2014; Shaver, 1985; Weiner, 1985,
+1986), but with technological actors which are not routinely considered in attribution the-
+ory. Additionally a growing body of research on morality of cryptominds ­ entities which
+are perceived to not have the same type of mind as a fully functioning human adult ­ is
+converging on ideas that attributions of moral blame are tied to perceptions of mental abil-
+ities (Gray & Wegner, 2012; Gray, Young, & Waytz, 2012; Rai & Diermeier, 2015; Waytz,
+Heafner, & Epley, 2014). While our study does not consider mind perception per se,
+directly comparing moral attributions to the prototypically minded humans with the cryp-
+tomind AIs adds to the evidence in this emerging research area.
+
+Limitations and future research
+
+Mirroring actual occurrences that people have encountered has the advantage of not being
+artificial, but also leaves room for uncontrolled factors within the scenarios leading to
+different levels of moral fault among the scenarios. Unexpectedly, we found an interesting
+pattern across events when comparing AI solo and human solo decision-making (Figure
+2). While humans are always attributed greater fault than AIs, in situations where a human
+is considered to be greatly at fault, an AI is deemed to be relatively fault-free. In situations
+where the human is attributed less fault, an AI committing the same act is attributed more
+fault than it was in the situations where the human was greatly at fault. This finding
+suggests that the types of moral violations deemed most severely wrong for humans are
+the least wrong for an AI to commit. This dovetails with other research that finds different
+moral prescriptions for AIs compared to humans (Malle et al., 2015; Malle et al., forth-
+coming; Voiklis et al., 2016). Future research should look at a range of situations and mul-
+tiple types of moral transgressions to investigate the validity of this hypothesis and the
+INFORMATION, COMMUNICATION & SOCIETY                            13
+
+conditions and mechanisms that cause it. Another fruitful avenue would be to consider the
+type of AI and the information known about its algorithms, as algorithms differ in pur-
+pose, bias, ability, and complexity (Beer, 2017; Kitchin, 2017).
+
+   This study was limited by only including two of the most common AI-human
+decision-making relationships. These can hardly be considered teams in the fullest
+sense of teamwork, but still model collaborative structures routinely found in our
+world. Future research should broaden its scope to include more complicated
+decision-making and team structures to see how moral attributions function within
+those. AIs manage human inputs and workloads, sometimes for large numbers of
+humans, in company workflows, in navigation routing, and in financial trading.
+Humans-in-the-loop computational models also explicitly take human input as part
+of their system. For recommendations, humans sometimes deal with multiple AIs com-
+peting in their recommendations or decision-making such as various smart home pro-
+ducts trying to optimize different systems, bots in bidding wars online, or viruses and
+antivirus software each trying to keep control.
+
+A concluding note about AI-Human teams
+
+Artificial intelligence systems have influence in many domains in our society, from
+informing, communicating, decision-making, processing, and learning from human
+behavior either explicitly or implicitly. Their moral impact is underwritten by the pos-
+itions they occupy, the actions they take, and humans' perceptions of and response to
+those actions. As AI capabilities increase these interactions transition from humans
+using intelligent tools to humans interacting with artificial teammates. Therefore, under-
+standing the behavioral, moral, and perceptual implications of artificial intelligence is not
+simply key for understanding technology, but for more generally understanding humanity
+and society.
+
+Disclosure statement
+
+No potential conflict of interest was reported by the authors.
+
+Notes on contributors
+
+Dr Daniel B. Shank is an assistant professor in the Department of Psychological Science
+specializing in the area of social psychology. He obtained a BA in Computer Science from Hard-
+ing University, and from the University of Georgia he received an MS in Artificial Intelligence
+and an MA and PhD in Sociology. He served in two postdoctoral research fellowships before
+coming to Missouri S&T, the first in sociology at the University of Alabama Birmingham and
+the second in psychology at the University of Melbourne (Australia). His research interests
+include psychological perception and social interaction with nonhumans including artificial
+intelligence, other technologies, consumer products, and groups of people. He studies perceptions
+of morality, attributions of mind, affective impressions, and emotional and behavioral reactions
+and how these processes differ between human­human interaction and human­nonhuman or
+human­technology interaction.
+
+Alyssa DeSanti has her Bachelor's in Psychology and Master's in Industrial Organizational Psychol-
+ogy from Missouri S&T. Her concentration was in Human Computer Interaction and that is where
+her passion lies. She is pursuing a career in User Experience Research. She has been published in
+14  D. B. SHANK ET AL.
+
+Computers in Human behavior and her works have been presented at various conferences such as
+the Psychology of Technology, American Sociological Association conference, and the Society for
+Industrial and Organizational Psychology.
+
+Timothy Maninger is an undergraduate student at Missouri S&T where he is studying Psychology.
+He is also the Editor in Chief of the campus newspaper, The Missouri Miner. His proposal for an
+undergraduate research project was recently approved, and will be completed over the coming
+school year. His research interests include: the societal implications of automation and AI, the for-
+mation and cessation of prejudice and opinion polarization, and the possibility of low cost auto-
+mated psychotherapy.
+
+References
+
+Beer, D. G. (2017). The social power of algorithms. Information, Communication and Society, 20, 1­13.
+Bonnefon, J.-F., Shariff, A., & Rahwan, I. (2016). The social dilemma of autonomous vehicles.
+
+   Science, 352(6293), 1573­1576.
+Buhrmester, M., Kwang, T., & Gosling, S. D. (2011). Amazon's mechanical turk: A new source of
+
+   inexpensive, yet high-quality, data? Perspectives on Psychological Science, 6(1), 3­5.
+Eubanks, V. (2018). Automating inequality: How high-tech tools profile, police, and punish the poor.
+
+   New York: St. Martin's Press.
+Gailey, J. A. (2013). Attribution of responsibility for organizational wrongdoing: A partial test of an
+
+   integrated model. Journal of Criminology, 2013, 1­10. doi:10.1155/2013/920484
+Gailey, J. A., & Falk, R. F. (2008). Attribution of responsibility as a multidimensional concept.
+
+   Sociological Spectrum, 28(6), 659­680.
+Graham, J., Nosek, B. A., Haidt, J., Iyer, R., Koleva, S., & Ditto, P. H. (2011). Mapping the moral
+
+   domain. Journal of Personality and Social Psychology, 101(2), 366­385.
+Gray, K., & Wegner, D. M. (2012). Feeling robots and human zombies: Mind perception and the
+
+   uncanny valley. Cognition, 125(1), 125­130.
+Gray, K., Young, L., & Waytz, A. (2012). Mind perception is the essence of morality. Psychological
+
+   Inquiry, 23(2), 101­124.
+Haynes, M. C., & Lawrence, J. S. (2012). Who's to blame? Attributions of blame in unsuccessful
+
+   mixed-sex work teams. Basic and Applied Social Psychology, 34(6), 558­564.
+Jaeger, C. B., & Levin, D. T. (2016). If asimo thinks, does roomba feel? The legal implications of
+
+   attributing agency to technology. Journal of Human-Robot Interaction, 5(3), 3­25.
+Kaiser, C. R., Dyrenforth, P. S., & Hagiwara, N. (2006). Why are attributions to discrimination
+
+   interpersonally costly? A test of system-and group-justifying motivations. Personality and
+   Social Psychology Bulletin, 32(11), 1423­1536.
+Kelley, H. H. (1972). Causal schemata and attribution process. In E. E. Jones, D. E. Kanouse, H. H.
+   Kelley, R. E. Nisbett, S. Valins, & B. Weiner (Eds.), Attribution: Perceiving the causes of behavior
+   (pp. 151­174). Morristown, NJ: General Learning Press.
+Kitchin, R. (2017). Thinking critically about and researching algorithms. Information,
+   Communication & Society, 20(1), 14­29.
+Lawler, E. J. (1992). Affective attachments to nested groups: A choice-process theory. American
+   Sociological Review, 57(3), 327­336.
+Lawler, E. J., Thye, S. R., & Yoon, J. (2016). The problem of social order in nested group structures.
+   In Handbook of contemporary sociological theory (pp. 149­166). Basel: Springer.
+Malle, B. F., Guglielmo, S., & Monroe, A. E. (2014). A theory of blame. Psychological Inquiry, 25(2),
+   147­186.
+Malle, B. F., & Knobe, J. (1997). The folk concept of intentionality. Journal of Experimental Social
+   Psychology, 33(2), 101­121.
+Malle, B. F., Magar, S. T., & Scheutz, M. (forthcoming). AI in the sky: How people morally evaluate
+   human and machine decisions in a lethal strike dilemma. In I. A. Ferreira, J. S. Sequeira, G. S.
+   Virk, E. E. Kadar, & O. Tokhi (Eds.), Robots and well-being. Springer Verlag.
+INFORMATION, COMMUNICATION & SOCIETY  15
+
+Malle, B. F., Scheutz, M., Arnold, T., Voiklis, J., & Cusimano, C. (2015). Sacrifice one for the good of
+   many?: People apply different moral norms to human and robot agents. Proceedings of the tenth
+   annual ACM/IEEE international conference on human-robot interaction.
+
+Mason, W., & Suri, S. (2012). Conducting behavioral research on Amazon's mechanical turk.
+   Behavior Research Methods, 44(1), 1­23.
+
+McClure, P. K. (2018). "You're fired," says the robot: The rise of automation in the workplace,
+   technophobes, and fears of unemployment. Social Science Computer Review, 36(2), 139­156.
+
+McManus, R. M., & Rutchick, A. M. (2018). Autonomous vehicles and the attribution of moral
+   responsibility. Social Psychological and Personality Science. doi:1948550618755875
+
+Merritt, T. R., Tan, K. B., Ong, C., Thomas, A., Chuah, T. L., & McGee, K. (2011). Are artificial
+   team-mates scapegoats in computer games. Proceedings of the ACM 2011 conference on computer
+   supported cooperative work.
+
+Noble, S. U. (2018). Algorithms of oppression: How search engines reinforce racism. New York: NYU
+   Press.
+
+Nyholm, S., & Smids, J. (2016). The ethics of accident-algorithms for self-driving cars: An applied
+   trolley problem? Ethical Theory and Moral Practice, 19(5), 1275­1289.
+
+O'Neil, C. (2016). Weapons of math destruction: How big data increases inequality and threatens
+   democracy. New York: Broadway Books.
+
+Pizarro, D. (2014). Androids, algorithms, and the attribution of blame. Psychological Inquiry, 25(2),
+   234­235.
+
+Rai, T. S., & Diermeier, D. (2015). Corporations are cyborgs: Organizations elicit anger but not sym-
+   pathy when they can think but cannot feel. Organizational Behavior and Human Decision
+   Processes, 126, 18­26.
+
+Reeves, B., & Nass, C. (1996). The media equation: How people treat computers, television, and new
+   media like real people and places. New York: Cambridge University.
+
+Rothschild, Z. K., Landau, M. J., Sullivan, D., & Keefer, L. A. (2012). A dual-motive model of sca-
+   pegoating: Displacing blame to reduce guilt or increase control. Journal of Personality and Social
+   Psychology, 102(6), 1148­1163.
+
+Shank, D. B. (2013). Are computers good or bad for business? How mediated customer-computer
+   interaction alters emotion, impressions, and patronage toward organizations. Computers in
+   Human Behavior, 29, 715­725.
+
+Shank, D. B. (2014). Impressions of computer and human agents after interaction: Computer iden-
+   tity weakens power but not goodness impressions. International Journal of Human-Computer
+   Studies, 72(10-11), 747­756.
+
+Shank, D. B. (2016). Using crowdsourcing websites for sociological research: The case of Amazon
+   mechanical turk. The American Sociologist, 47(1), 47­55.
+
+Shank, D. B., & DeSanti, A. (2018). Attributions of morality and mind to artificial intelligence after
+   real-world moral violations. Computers in Human Behavior, 86, 401­411. doi:10.1016/j.chb.
+   2018.05.014
+
+Shank, D. B., & Robinson, D. T. (forthcoming). Who's responsible? How organization representa-
+   tives' level of autonomy alters customers' emotion and repurchase intentions. Journal of
+   Consumer Marketing.
+
+Shaver, K. G. (1985). The attribution of blame: Causality, responsibility, and blameworthiness.
+   New York: Springer-Verlag.
+
+Shepherd, H. (2012). Crowdsourcing. Contexts, 11(2), 10­11.
+Shortliffe, E. H., Davis, R., Axline, S. G., Buchanan, B. G., Green, C. C., & Cohen, S. N. (1975).
+
+   Computer-based consultations in clinical therapeutics: Explanation and rule acquisition capa-
+   bilities of the MYCIN system. Computers and Biomedical Research, 8(4), 303­320.
+US Food & Drug Administration. (2018). FDA permits marketing of artificial intelligence-based
+   device to detect certain diabetes-related eye problems. Retrieved from https://www.fda.gov/
+   NewsEvents/Newsroom/PressAnnouncements/ucm604357.htm
+Voiklis, J., Kim, B., Cusimano, C., & Malle, B. F. (2016). Moral judgments of human vs. robot
+   agents. Robot and human interactive communication (RO-MAN), 2016 25th IEEE international
+   symposium on.
+16  D. B. SHANK ET AL.
+
+Wachter-Boettcher, S. (2017). Technically wrong: Sexist apps, biased algorithms, and other threats of
+   toxic tech. New York: WW Norton & Company.
+
+Waytz, A., Heafner, J., & Epley, N. (2014). The mind in the machine: Anthropomorphism increases
+   trust in an autonomous vehicle. Journal of Experimental Social Psychology, 52, 113­117.
+
+Weiner, B. (1985). An attributional theory of achievement motivation and emotion. Psychological
+   Review, 92, 548­573.
+
+Weiner, B. (1986). An attributional theory of motivation and emotion. New York: Springer-Verlag.
+Willson, M. (2017). Algorithms (and the) everyday. Information, Communication & Society, 20(1),
+
+   137­150.
+

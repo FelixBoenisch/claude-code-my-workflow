@@ -1,0 +1,546 @@
+                                                                         Journal of Public Economics 128 (2015) 133­139
+
+                                                                     Contents lists available at ScienceDirect
+
+                                                           Journal of Public Economics
+
+                                                     journal homepage: www.elsevier.com/locate/jpube
+
+Pivotality and responsibility attribution in sequential voting
+
+Björn Bartling a, Urs Fischbacher b,c, Simeon Schudy d,
+
+a Department of Economics, University of Zurich, Blümlisalpstrasse 10, 8006 Zurich, Switzerland
+b Department of Economics, University of Konstanz, Universitätsstrasse 10, 78457 Konstanz, Germany
+c Thurgau Institute of Economics, Hauptstrasse 90, 8280 Kreuzlingen, Switzerland
+d Department of Economics, University of Munich, Geschwister-Scholl-Platz 1, D-80539 Munich, Germany
+
+article info                                         abstract
+
+Article history:                                     This paper analyzes responsibility attributions for outcomes of collective decision making processes. In particular,
+Received 25 January 2014                             we ask if decision makers are blamed for being pivotal if they implement an unpopular outcome in a sequential
+Received in revised form 29 January 2015             voting process. We conduct an experimental voting game in which decision makers vote about the allocation of
+Accepted 28 March 2015                               money between themselves and recipients without voting rights. We measure responsibility attributions for vot-
+Available online 4 April 2015                        ing decisions by eliciting the monetary punishment that recipients assign to individual decision makers. We find
+                                                     that pivotal decision makers are punished significantly more for an unpopular voting outcome than non-pivotal
+JEL classification:                                  decision makers. Our data also suggest that some voters avoid being pivotal by voting strategically in order to del-
+C91                                                  egate the pivotal vote to subsequent decision makers.
+C92
+D63                                                                                                                                                  © 2015 Elsevier B.V. All rights reserved.
+D71
+D72
+
+Keywords:
+Collective decision making
+Responsibility attribution
+Voting
+Pivotality
+Delegation
+Experiment
+
+    "As soon as a majority has voted for it, it is declared passed, and the              such as workers, shareholders, or electorates, attribute responsibly for
+    member who voted last is given credit for having passed it."--Shapley                the decision outcome to individual members of the collective decision
+    and Shubik1                                                                          making entity. Understanding responsibility attribution for collective
+                                                                                         decisions is of relevance because it can, for example, affect shareholders'
+1. Introduction                                                                          willingness to extend a manager's contract or influence a political
+                                                                                         party's prospects of reelection.
+    Many economic and political decisions are taken collectively. For ex-
+ample, boards commonly make decisions about business strategies in                           Collective decisions are often reached by a vote among the decision
+firms, committees of experts decide on interest rate policies in central                 makers and the voting process is often transparent. For example, the
+banks, and coalition governments often enact laws in democratic coun-                    Bank of England's Monetary Policy Committee reveals its members'
+tries. This paper analyzes how people affected by a collective decision,                 voting decisions and explicitly states that the "decision goes to the ma-
+                                                                                         jority and there is no attempt to arrive at a consensus: members are in-
+  We would like to thank the editor and two anonymous referees for very insightful and   dividually accountable for their decisions" (see also Bank of England,
+constructive suggestions. We would also like to thank Lisa Bruttel, Katharine Bendrick,  2005). The minutes of the U.S. Federal Reserve Open Market Committee
+Fadong Chen, Gerald Eisenkopf, Christina Fong, Konstantin Hesler, Katrin Schmelz, and    are published as well (Levy, 2007).2
+Irenaeus Wolff as well as participants of the International ESA Meeting 2013 at the
+University of Zurich for helpful thoughts and comments.                                      In this paper, we focus on analyzing responsibility attribution for
+                                                                                         outcomes of collective decisions reached by a transparent voting pro-
+   Corresponding author.                                                                 cess. In particular, we ask if decision makers are blamed for being pivotal
+     E-mail addresses: bjoern.bartling@econ.uzh.ch (B. Bartling),
+                                                                                           2 Both the Monetary Policy Committee and the Federal Reserve Open Market Commit-
+Urs.Fischbacher@uni-konstanz.de (U. Fischbacher), simeon.schudy@econ.lmu.de              tee publish individual votes, and the latter also reveal the order of votes, namely: first
+(S. Schudy).                                                                             chairman, than vice chairman, then the other members in alphabetical order (see also
+                                                                                         Gerlach-Kristen and Meade, 2011).
+  1 Shapley and Shubik (1954), p. 788.
+
+http://dx.doi.org/10.1016/j.jpubeco.2015.03.010
+0047-2727/© 2015 Elsevier B.V. All rights reserved.
+134  B. Bartling et al. / Journal of Public Economics 128 (2015) 133­139
+
+if they implement an unpopular outcome in a sequential voting process.                     the decision maker's perception of her own pivotality affects the likeli-
+This question is of interest also in light of the above quotation from                     hood of taking an immoral decision (the decision to kill a mouse) in a
+Shapley and Shubik (1954) who introduced the idea that the pivotal                         trading environment. They find that the likelihood of killing the
+voter in a collective decision making process "is given credit," i.e., is                  mouse is higher if a decision maker's perception of being pivotal is
+held responsible for having passed the decision. Hence, our paper can                      lower and that on the aggregate level, many more mice are killed in a
+also be seen as a test of their proposition.                                               treatment where pivotality is diffused. Our study shows that not only
+                                                                                           the perception of the pivotality of the own decision matters for choice.
+    We employ an incentivized laboratory experiment to address our                         We show that more responsibility and blame are attributed to pivotal
+research question. In the experiment, there are groups of six subjects.                    than to non-pivotal decision makers, which in turn can affect the deci-
+Three subjects have voting rights and decide sequentially and observ-                      sion makers' choices. Bartling and Fischbacher (2012) demonstrate
+ably whether to implement an equal or an unequal allocation of                             that it is possible to shift the blame for an unpopular decision by dele-
+money among themselves and the other three subjects, who have no                           gating the choice to another person, and that many people do so. The
+voting rights. The equal allocation gives the same amount of money to                      main result of our current paper shows that it is also possible in the con-
+all subjects, whereas the unequal allocation increases the monetary                        text of collective decision making to shift some blame by "delegating"
+payoff of the subjects with voting rights at the expense of those without                  the pivotal vote, and the data suggest that some voters make use of
+voting rights. A simple majority rule applies. After the vote, subjects                    that option.
+without voting rights can assign costly punishment points to the voters.
+We interpret the assignment of punishment points as a measure of re-                           The remainder of our paper is organized as follows. Section 2 ex-
+sponsibility attribution.                                                                  plains the experimental design and procedures. We discuss the punish-
+                                                                                           ment predictions of standard social preference models in economics, as
+    Our main finding is that subjects attribute significantly more re-                     well as the role of pivotality for punishment in Section 3. Section 4 re-
+sponsibility to the pivotal voter than to the other voters. The result                     ports our experimental results. Section 5 concludes.
+holds even if we control for standard punishment motives such as
+outcome based fairness (e.g., Fehr and Schmidt, 1999; Bolton and                           2. Experimental design
+Ockenfels, 2000), unkind intentions (e.g., Rabin, 1993; Dufwenberg
+and Kirchsteiger, 2004), or the interaction of outcomes and intentions                         We implemented a sequential voting game with punishment. Three
+(Falk and Fischbacher, 2006). Our data further suggest that about one-                     "voters" and three "receivers" form a group. The voters decide on the al-
+fifth of those voters who reveal their preference for the unequal alloca-                  location of a total of 30 points among the six group members, using a
+tion when their vote as the last voter is decisive vote for the equal                      simple majority rule. There are two possible allocations. The unequal al-
+allocation if it is possible to "delegate" the pivotal vote to the subse-                  location gives 9 points to each of the voters and only 1 point to each of
+quent voter.3                                                                              the receivers (9,9,9;1,1,1). The equal allocation distributes the 30 points
+                                                                                           evenly among the six group members (5,5,5;5,5,5). Importantly, the
+    Our study is closely related to recent experimental work in political                  voters cast their votes sequentially. The other voters and receivers of
+science by Duch et al. (2015), who also examine responsibility attribu-                    the group are able to observe both the sequence of the decisions and
+tions for collective decisions. They consider a setting that, like ours, is                the decisions themselves. First, Voter 1 votes for one of the two alloca-
+akin to a collective dictator game with punishment. Their design, how-                     tions. Then Voter 2 observes Voter 1's action and votes herself. Finally,
+ever, is different in two important ways. First, they consider a                           Voter 3 casts her vote, knowing the choices of Voters 1 and 2. Absten-
+simultaneous voting procedure, while we focus on sequential voting.                        tions are not possible. Fig. 1 illustrates the decision tree.
+Second, one decision maker has proposal power and decision makers
+have weighted votes in their design, while the voters in our design are                        The three receivers first observe the sequence of the votes and thus
+symmetric (apart from the sequential order of voting). Duch et al.'s                       also the voting outcome. One randomly selected receiver then has the
+main finding is that the decision maker with proposal power and the                        option to punish individual voters by deducting points. Punishing is
+one with the largest voting share incur the most punishment in case                        costly for the receivers. A receiver incurs a fixed cost of one point to
+of an unequal allocation. The sequential voting procedure in our exper-                    be able to deduct up to seven points from the voters. The seven punish-
+iment renders the role of pivotality more salient. Our work thus comple-                   ment points can be assigned to a single voter or they can be distributed
+ments Duch et al.'s findings by revealing the importance of the pivotal                    among two or all three voters, but it is not possible to reduce a voter's
+vote for responsibility attribution in collective decision making.                         payoff below zero.
+
+    Our paper also contributes to the political science literature that
+does not focus on collective decision making in particular but on
+responsibility attribution in general. In this literature, the attribution
+of credit or blame has been related to the power of a decision maker
+(see e.g. Banzhaf, 1964; Penrose, 1946; Shapley and Shubik, 1954), the
+number of veto players (Tsebelis, 2011) and governing party size (see
+e.g. Anderson, 1995; Lewis-Beck, 1990), and to the extent to which uni-
+fied control of policymaking by incumbent governments is possible
+(Powell and Whitten, 1993). Similarly, Finer (1975), Alesina (1997),
+Lijphart (2012), and Franzese (2002) argue that coalition governments
+provide less potential for electoral accountability than single party gov-
+ernments, and Duch and Stevenson (2008) report that voters are more
+likely to attribute economic outcomes to single-party majority cabinets
+than to coalition governments.
+
+    Finally, the results of our study contribute to the economics litera-
+ture on the importance of pivotality in markets and organizations
+(see e.g. Falk and Szech, 2013), as well as to the literature on delegation
+of unpopular decisions (e.g., Hamman et al., 2010; Coffman, 2011;
+Bartling and Fischbacher, 2012). Falk and Szech (2013) analyze how
+
+3 A vote by the third voter is decisive if the first two voters fail to reach a majority.  Fig. 1. Voters' choices and resulting allocations for voters and receivers.
+B. Bartling et al. / Journal of Public Economics 128 (2015) 133­139                            135
+
+    The players' payoff functions are summarized as follows. A voter ei-                       3. Punishment motives
+ther receives nine or five points, depending on the chosen allocation;
+furthermore, he might incur punishment points from the randomly                                    If all subjects are purely self-interested, the receivers will not incur
+chosen receiver. The randomly chosen receiver gets either one or five                          the cost of punishment, irrespective of the resulting allocation and the
+points, depending on the chosen allocation, minus the cost of punish-                          voting sequence. It is well known, however, that the pure self-interest
+ment (one point) if she deducts at least one point from the voters. The                        model does not always accurately predict many subjects' behavior. In
+two other receivers get a payoff of either five or one point, depending                        this section, we discuss punishment motives based on the most widely
+on the chosen allocation.                                                                      used economic theories of social preferences. We include punishment
+                                                                                               predictions of social preference models based on outcomes (e.g. Fehr
+    The game was played one-shot and we used the strategy method for                           and Schmidt, 1999; Bolton and Ockenfels, 2000), intentions (Rabin,
+both receivers and voters. Each receiver decided, in a randomized order,                       1993; Dufwenberg and Kirchsteiger, 2004), and the interaction of out-
+for each of the eight possible voting histories (see the eight end-nodes                       comes and intentions (Falk and Fischbacher, 2006). In addition, we con-
+in Fig. 1) how to punish the individual voters. Only after the receivers                       sider "choice" (i.e., vote) as one particular punishment motive because
+made all eight decisions, each receiver learned whether or not she                             it strikes us as a natural heuristic to assign punishment in our context.
+was the randomly selected receiver who could punish, and she knew                              Finally--being the focus of this paper--we discuss the potential punish-
+that her punishment decisions for the realized situation were binding.4                        ment motive "pivotality."6
+Voters decided at seven decision nodes, namely as first as Voter 1, then
+as Voter 2, and finally as Voter 3. In the role of Voters 2 and 3, subjects                    3.1. Outcome-based models of social preferences
+make decisions for every possible pre-play history (see the seven deci-
+sion nodes in Fig. 1). The respective pre-play histories were shown in a                           Outcome based models of social preferences, e.g., Fehr and Schmidt
+randomized order. Voters knew that their choices were binding and                              (1999) or Bolton and Ockenfels (2000), assume that some people dislike
+that they would learn their randomly assigned role as Voter 1, Voter 2,                        unequal allocations. Inequity-averse receivers might thus be willing to
+or Voter 3 only after they decided on all seven decision nodes.5                               incur the cost of punishment to reduce payoff differences. This model
+                                                                                               class predicts no punishment if the equal allocation prevails but predicts
+2.1. General procedures                                                                        positive punishment otherwise. Importantly, the predicted punishment
+                                                                                               neither depends on individual choices (votes) nor on the sequence of
+    Before the subjects entered the lab, they randomly drew a place card                       voting.
+that specified at which computer terminal to sit. The terminal number
+determined both a subject's role (voter or receiver) and the group                             3.2. Choice of the unequal allocation
+matching. After entering the lab, subjects received paper copies of the
+instructions explaining the game at their assigned terminals. The sub-                             Voting for the unequal allocation could be perceived as a stated pref-
+jects' instructions included comprehension questions that had to be                            erence for the unequal allocation and thus as blameworthy. This would
+answered correctly before a session began. We used a neutral framing                           predict no punishment for a voter who opted for the equal allocation
+for voters and receivers (Players A and B), as well as for punishment                          but some punishment for a voter who opted for the unequal allocation
+(deduction points), and for the labeling of the two allocations (Alloca-                       (even if this voter can no longer influence the outcome). The punish-
+tions 1 and 2). An experimenter read a summary of the instructions                             ment motive "unequal choice" can be seen as a naïve version of the pun-
+aloud to ensure common knowledge about the game. An English trans-                             ishment motive "intentionality," which we discuss next.
+lation of the original German instructions can be found in the Online Ap-
+pendix. The experimental data and programs used for data collection                            3.3. Intention-based models of social preferences
+are available on this journal's webpage.
+                                                                                                   Intention-based models of social preferences, e.g., Rabin (1993) or
+    The data were collected in four sessions in two consecutive weeks in                       Dufwenberg and Kirchsteiger (2004), assume that people are willing
+November and December 2012. 144 subjects participated in total. Each                           to incur costs to punish unkind actions, irrespective of the resulting al-
+subject participated only once. The sessions took place at the decision                        location. In these models, the unkindness of an action is measured by
+laboratory of the Department of Economics at the University of Zurich.                         comparing the chosen action with the possible alternative actions. In
+Participants were students from the University of Zurich and the Swiss                         our game, voting for the unequal allocation is an intentionally unkind
+Federal Institute of Technology in Zurich. The experiment was conduct-                         action if a voter is still able to affect the outcome of the voting process.
+ed using z-Tree (Fischbacher, 2007), and we used ORSEE (Greiner,                               If Voters 1 and 2 already decided the vote, Voter 3's vote is irrelevant
+2004) for recruiting.                                                                          and therefore classified as a neutral action, i.e., as neither kind nor un-
+                                                                                               kind. Voting for the equal allocation, while still being able to affect the
+    The experiment took about 75 min. Each experimental point was                              outcome, is a kind action. The notion of intention-based reciprocity pre-
+converted to CHF 3.00 at the end of the experiment. The subjects earned                        dicts no punishment for neutral or kind voters.
+about CHF 26.30 (about $28 at the time of the experiment), which in-
+cluded a show-up fee of CHF 12. Earnings were paid privately to ensure                         3.4. Outcome and intention
+the anonymity of the decisions.
+
+  4 Brandts and Charness (2011) provide a survey of the effect of the use of the strategy          Falk and Fischbacher (2006) combine the punishment motives "out-
+method on punishment decisions in experiments and find no case where a treatment ef-           come" and "intention." In their model, people are willing to punish de-
+fect that is detected using the strategy method vanishes when the direct response method       cision makers who implement unequal allocations, and punishment is
+is used. The use of the strategy method can thus be considered as the more conservative
+test in our context.                                                                             6 The predictions of the formal economic models relate to predictions by concepts in-
+                                                                                               cluded in psychological attribution theories, such as the concept of "controllability"
+  5 Although we used the strategy method, we made the sequential voting procedure              (Weiner, 1979), i.e., the extent to which a person was in control of causing a particular out-
+very clear. For each of the possible situations, each voting decision was reflected by an in-  come. In the Online Appendix, we provide three conceptualizations of Weiner's idea of
+dividual update of the computer screen. For example, the third voter was informed about        controllability and analyze the extent to which these conceptualizations explain the pun-
+the preceding voters' decisions in the sequential order and had to confirm the receipt of      ishment decisions observed in our data. In line with the concept of controllability, we find
+each piece of information by clicking a button. Equivalently, a receiver had to click through  higher punishment if an unfair action is chosen in a situation with higher control. We
+a sequence of screens showing the sequential order of the three voters' decisions (i.e., the   thank an anonymous referee for suggesting this analysis.
+path through the game tree) before making her punishment decision for a given voting
+outcome. See the experimental instructions in the Online Appendix for more details.
+136                                    B. Bartling et al. / Journal of Public Economics 128 (2015) 133­139
+
+Table 1
+Average punishment in the eight possible voting sequences.
+
+                   Average punishment                       Pivotal vs. non-pivotal
+
+Allocation Voting  Voter 1 Voter 2 Voter 3 All voters Unkind voter
+
+         sequence
+
+Unequal  u-u-u     1.5   1.85  0.86                         p b 0.001 p = 0.294
+Equal    u-u-e
+         u-e-u     1.86  1.92  0.26                         p b 0.001 p = 0.960
+         e-u-u
+         u-e-e     1.68  0.07  2.39                         p b 0.001 p = 0.006
+         e-u-e
+         e-e-u     0.11  1.83  2.33                         p b 0.001 p = 0.012
+         e-e-e
+                   1.33  0.10  0.08                         ­  ­
+
+                   0.17  1.43  0.08                         ­  ­
+
+                   0.06  0.03  0.92                         ­  ­
+
+                   0.08  0.07  0.03                         ­  ­
+
+Notes: "u" denotes a vote for the unequal allocation; "e" denotes a vote for the equal allo-     Fig. 2. Average punishment for voters if the unequal allocation results. The bars show the
+cation. The punishment for the pivotal voter is written in boldface. The two rightmost col-      average punishment for (1) voters who voted for the equal allocation, (2) voters who
+umns show p-values of Wilcoxon signed rank tests comparing the punishment for the                voted for the unequal allocation but could not affect the outcome as it was decided already,
+pivotal voter to the punishment for the two other voters ("all voters") and to the punish-       (3) non-pivotal voters who intentionally voted for the unequal allocation, and (4) pivotal
+ment for the other intentionally unkind voter only ("unkind voter").                             voters. The error bars show standard errors of the means.
+
+even stronger if the decision maker's action is intentional. In our con-                             In Fig. 2, we show the average punishment for all voters when the
+text, punishment for a voter is thus predicted only if both the unequal                          unequal outcome occurred. We aggregate punishment based on wheth-
+allocation results and the voter's intention is unkind.                                          er a voter's choice was unequal ("Choice unequal"), whether a voter was
+                                                                                                 revealed to be intentionally unkind, i.e., the voter opts for the unequal
+3.5. Pivotality                                                                                  outcome while the voting outcome is still open ("Intention unkind"),
+                                                                                                 or whether the voter was pivotal, i.e., completed the minimum winning
+    The central hypothesis in our paper is that being pivotal is regarded                        coalition necessary to implement the unequal outcome ("Pivotal"). Note
+as carrying special responsibility for the resulting voting outcome.                             that a voter's intention can only be unkind if her choice is unequal, and a
+Therefore, the prediction of the notion of pivotality is that the pivotal                        voter can only be pivotal for the unequal allocation if she is intentionally
+voter will be punished more than the other voters, given the unequal                             unkind. We thus have four categories of voters, as shown in Fig. 2.
+outcome results.
+                                                                                                   (1): Voters who did not choose the unequal allocation
+4. Results                                                                                         (2): Voters who chose the unequal allocation but could no longer af-
+
+4.1. Pivotality and punishment                                                                            fect the outcome
+                                                                                                   (3): Voters who chose the unequal allocation when they could still af-
+    Our main research question is whether receivers blame the pivotal
+voter more than the non-pivotal voters if the unequal allocation is cho-                                  fect the outcome, so that their action is intentionally unkind, but
+sen. We investigate this question using the punishment pattern as a                                       who were not pivotal
+measure of the assignment of blame. Table 1 shows the average punish-                              (4): Voters who chose the unequal allocation when they could still af-
+ment levels for the first, second, and third voter separately for each of                                 fect the outcome and who were pivotal.
+the eight possible voting outcomes. The table shows that average pun-
+ishment is higher for the pivotal voter (shown in boldface) than for                                 Table 2 summarizes how the voters are placed into these four cate-
+the non-pivotal voters in all four voting sequences in which the unequal                         gories in the four different voting sequences that result in the unequal
+allocation results. For example, the first row of Table 1 shows the voting                       outcome.
+sequence "u-u-u," in which all voters opted for the unequal allocation.
+Voter 2 is the pivotal voter and she is punished by 1.85 points on aver-                             Fig. 2 shows that average punishment is lowest for the voters who
+age. Voter 1, the first intentionally unkind voter, is punished by 1.5                           vote for the equal allocation. It amounts to 0.15 points and is highly sig-
+points and Voter 3, whose vote could not make a difference, is punished                          nificantly different from the other three groups (Wilcoxon signed rank
+by 0.86 points on average. The two rightmost columns in Table 1 show                             tests based on average punishment per subject, N = 72, p-
+the significance levels for the comparisons between the punishment for                           values b 0.001). The voters who chose the unequal allocation but
+the pivotal voter and the non-pivotal voters, either taking the average of                       could no longer affect the outcome (because Voters 1 and 2 opted for
+both other voters as the comparison group ("all voters") or the other in-                        the unequal allocation already) were punished by 0.86 points on
+tentionally unkind voter only ("unkind voter"). The table shows that the
+difference in punishment between the pivotal and the average of the                              Table 2
+two non-pivotal players is significant in all four voting sequences.                             Voting sequences and placement of voters into categories in Fig. 2.
+While average punishment for the pivotal voter is higher than for the
+non-pivotal unkind voter in all four voting sequences, the differences                           Voting sequence  Voter 1  Voter 2                                    Voter 3
+in average punishment between the pivotal voter and the intentionally
+unkind voter are significant only in the two situations in which the piv-                        u-u-u            (3)      (4)                                        (2)
+otal voter is the last voter.7                                                                   u-u-e
+                                                                                                 u-e-u            (3)      (4)                                        (1)
+  7 Throughout the paper, we only consider being pivotal for the unequal allocation and          e-u-u
+thus neglect the fact that the second voter who opts for the equal allocation after the first                     (3)      (1)                                        (4)
+voter opted for the equal allocation is pivotal for the equal allocation. Little punishment oc-
+curs in case of the equal allocation, and we do not find that voters who are pivotal for the                      (1)      (3)                                        (4)
+equal allocation are again punished significantly less than the other voters.
+                                                                                                 Notes: The table shows which voters are placed into the four categories (1)­(4) shown in
+                                                                                                 Fig. 2 for the different voting sequences that result in the unequal allocation. For example,
+                                                                                                 the top row shows the voting sequence in which all voters voted for the unequal allocation
+                                                                                                 (u-u-u). Voter 1 chose the unequal allocation, could still affect the outcome so that the un-
+                                                                                                 equal choice is intentionally unkind, but was not pivotal. Voter 1 thus falls into category
+                                                                                                 (3) in Fig. 2. Voter 2 chose the unequal allocation, was intentionally unkind and pivotal.
+                                                                                                 Voter 2 thus falls into category (4). Voter 3 chose the unequal allocation but could no lon-
+                                                                                                 ger affect the outcome, so she was neither intentionally unkind nor pivotal. Voter 3 thus
+                                                                                                 falls into category (2).
+                             B. Bartling et al. / Journal of Public Economics 128 (2015) 133­139           137
+
+Table 3
+An econometric comparison of different punishment motives.
+
+OLS                 (1)                                     (2)             (3)      (4)          (5)      (6)
+Outcome unequal     1.024
+                    (0.126)                                 1.564           1.604    1.565        1.494    0.048
+Choice unequal                                              (0.154)         (0.161)  (0.169)      (0.180)  (0.070)
+                    0.365                                                                         0.628    0.782
+Intention unkind    (0.067)                                 0.095           0.208    0.355        (0.065)  (0.137)
+                    1728                                    (0.033)         (0.041)  (0.055)      1728     0.517
+Outcome unequal     0.105                                   1728            1728     1728         0.124    (0.196)
+× Intention unkind                                          0.244           0.250    0.217                 0.289
+Pivotal                                                                                                    (0.232)
+                                                                                                           0.403
+Constant                                                                                                   (0.155)
+                                                                                                           0.083
+Observations                                                                                               (0.037)
+R2                                                                                                         1728
+                                                                                                           0.281
+
+Notes: The dependent variable is punishment points for voters. Outcome unequal is a dummy variable which equals 1 if the unequal allocation is chosen. Choice unequal is a dummy variable
+which equals 1 if a voter opts for the unequal allocation. Intention unkind is a dummy variable which equals 1 if a voter opts for the unequal allocation and no majority was reached before
+her vote. Pivotal is a dummy variable which equals 1 if a voter is pivotal for the unequal allocation. Standard errors, clustered on 72 individuals, are in parentheses.  p b 0.01,  p b 0.05,  p
+
+b 0.1.
+
+average, which is also highly significantly different from the other        This is meaningful because all of the models have just one parameter.
+groups (Wilcoxon signed rank tests based on average punishment per          We find that the predictive power of the punishment motive "pivotal"
+subject, N = 72, p-values b 0.001). Finally, non-pivotal but intentionally  (R2 = 0.124 in model 5) is higher than the predictive power of the mo-
+unkind voters are punished on average by 1.72 points, while pivotal         tive "outcome unequal" (R2 = 0.105 in model 1). But the predictive
+voters are punished by 2.12 points on average. This difference, as well,    power of the motives that take "choice" or "intention" into account is
+is statistically significant (Wilcoxon signed rank test based on average    higher, and it is highest for the motive "intention unkind" (R2 = 0.250
+punishment per subject, N = 72, p = 0.032). We summarize our find-          in model 3).
+ings in the following:
+                                                                                Finally, we analyze whether the punishment motive "pivotal" has an
+Result 1. Pivotality and punishment                                         explanatory power on top of the other motives by combining all five
+                                                                            punishment motives in one regression. Regression (6) in Table 3 reveals
+    On average, the pivotal voter is punished the most.                     that the motives "choice unequal," "intention unkind," and "pivotal" all
+                                                                            contribute to the explanation of the punishment pattern. In particular,
+4.2. An econometric comparison of different punishment motives              the dummy variable "pivotal" remains significant, showing that being
+                                                                            pivotal matters for the assignment of blame even when we control for
+    In this subsection, we provide an econometric comparison of the         other punishment motives. We summarize our results in the following:
+punishment motives that we discussed in Section 3. We first compare
+the explanatory power of the different motives in isolation. Then, we       Result 2. Pivotality vs. standard punishment motives
+consider all motives simultaneously to analyze if pivotality has explan-
+atory power on top of the other punishment motives.                             The punishment motive "pivotality" has a significant explanatory power
+                                                                            for average punishment levels even if we control for the standard motives
+    We show the results of the econometric analysis in Table 3. Note        "outcome unequal," "choice unequal," "intention unkind," and the interac-
+that all decisions are always included in this analysis, including the      tion "outcome unequal × intention unkind."
+decision resulting in the equal outcome. Regression (1) shows that the
+punishment for voters is significantly higher if the unequal allocation     4.3. Voting behavior
+results (average punishment of 1.389 points) compared to if the equal
+allocation results (average punishment of 0.365 points). Regression             In this section, we report on the voters' behavior. Overall, we find
+(2) shows that those voters who vote for the unequal allocation are         that the unequal allocation results in 67.4% of the cases. Table 4 provides
+punished significantly more (average punishment of 1.659 points)            a detailed overview of the voting behavior of Voters 1, 2, and 3 at each
+than those voters who vote for the equal allocation (average punish-        decision node and the expected payoffs that resulted from the respec-
+ment of 0.095 points). Regression (3) reveals that a voter with an un-      tive choices.
+kind intention is punished significantly more (average punishment of
+1.812 points) than a voter with a neutral or kind intention (average            The top two rows of Table 4 show that 58.3% of all Voters 1 voted for
+punishment of 0.208 points). Regression (4) shows that the punishment       "unequal" and thus 41.7% for "equal."8 The table further reveals that the
+for intentionally unkind voters whose votes contributed to the final im-    decision between voting for "unequal" and "equal" involves a tradeoff.
+plementation of the unequal allocation (average punishment of 1.920         Voting for "unequal" increases the probability of the unequal allocation
+points) is significantly higher compared to all other voters (average       and thus the expected number of points before punishment, whereas
+punishment of 0.355 points). Finally, regression (5) shows that punish-     voting for "equal" decreases expected punishment. The three rightmost
+ment for voters who are pivotal for the unequal allocation (average         columns report the expected number of allocated points before punish-
+punishment of 2.122 points) is significantly higher than the punishment     ment, the expected punishment, and the expected payoff (allocated
+for all other voters (0.628 points).                                        points minus punishment) of a particular voting choice at a given deci-
+                                                                            sion node. For Voters 1, the gain from increasing the likelihood of
+    The main insight provided by the regression analysis in Table 3 is      implementing the unequal allocation by voting for "unequal" (8.53­
+that all five punishment motives that we discussed in Section 3 make        6.53 = 2) outweighs the loss from increased punishment (1.70­
+the qualitatively correct comparative-static prediction with respect to
+average punishment levels. To compare the explanatory power of the            8 The decisions of a subset of 43 voters, who voted for the unequal allocation as decisive
+different motives, we can directly compare the R2 in models 1 to 5.         Voters 3, are shown in the column to the right of the decisions of all voters. We discuss this
+                                                                            subset later in this section.
+138                              B. Bartling et al. / Journal of Public Economics 128 (2015) 133­139
+
+Table 4
+Voting decisions and expected payoffs at each decision node.
+
+Voter  Voting sequence     Voter decision [%]                                                       Expected points    Expected    Expected
+       (decision in bold)                                                                           before punishment  punishment  payoff
+                           All voters                         Decisive Voters 3 voting
+                           (n = 72)                           for "unequal" (n = 43)                8.53               1.70        6.83
+                                                                                                    6.53               0.11        6.42
+1      u-...               58.3                               76.7                                  9                  1.90        7.10
+                                                                                                    7.83               0.08        7.75
+       e-...               41.7                               23.3                                  7.5                1.68        5.82
+                                                                                                    5                  0.07        4.93
+2      u-u-...             59.7                               79.1                                  9                  0.86        8.14
+                                                                                                    9                  0.26        8.74
+       u-e-...             40.3                               20.9                                  9                  2.39        6.61
+                                                                                                    5                  0.08        4.92
+       e-u-...             61.1                               81.4                                  9                  2.33        6.67
+                                                                                                    5                  0.08        4.92
+       e-e-...             38.9                               18.6                                  5                  0.92        4.08
+                                                                                                    5                  0.03        4.97
+3      u-u-u               22.2                               18.6
+
+       u-u-e               77.8                               81.4
+
+       u-e-u               70.8                               100
+
+       u-e-e               29.2                               0
+
+       e-u-u               62.5                               100
+
+       e-u-e               37.5                               0
+
+       e-e-u               1.4                                2.3
+
+       e-e-e               98.6                               97.7
+
+Notes: "u" denotes a vote for the unequal allocation; "e" denotes a vote for the equal allocation.
+
+0.11 = 1.59), such that the expected payoff of voting for "unequal"           allocation, do some Voters 2 "delegate" the pivotal vote by strategically
+(6.83) is larger than the expected payoff of voting for "equal" (6.42).       opting for the equal allocation?
+
+    Turning to Voters 2, Table 4 shows that 59.7 and 61.1% of all Voters 2        Recall that we used the strategy method for voters. This allows us to
+voted for "unequal" subsequent to Voter 1 voting for "unequal" and            address the question above, as we can compare voters' decisions across
+"equal," respectively. Consider first the situation in which Voter 1          decision nodes. In particular, we are interested in those voters who opt
+voted for "unequal." Voters 2 could then increase their expected payoff       for the unequal allocation as decisive Voter 3 (i.e., in situations in which
+by voting for "equal." Voting for "unequal" in that situation yields 9        Voters 1 and 2 opted for different allocations). Observing a voter's
+points before punishment and an expected punishment of 1.9 points.            choices at these decision nodes provides us with a measure of her
+Voting for "equal" reduces the expected number of points before pun-          preference over the two allocations. Note that a voter is even pivotal
+ishment (7.83) but it also reduces the expected punishment (0.08).            (and thus blamed most) when she votes for the unequal allocation at
+The reduction in punishment (1.9­0.08 = 1.82) thus more than com-             these decision nodes. Among our 72 voters, 43 always chose the un-
+pensates for the reduction of the expected number of points before            equal allocation as Voter 3 when their choice was decisive. 9 The respec-
+punishment (9­7.83 = 1.17). Consider now the situation in which               tive column in Table 4 shows the voting behavior of these 43 voters
+Voter 1 voted for "equal." The expected payoff for Voters 2 is now higher     separately. We find that 20.9% of these voters (9 of 43) opted for the
+when they vote for "unequal." In expectation, voting for "unequal" in         equal allocation as Voter 2 subsequent to Voter 1 voting for the unequal
+this situation yields 7.5 points before punishment, a punishment of           allocation. This means that they delegate the pivotal choice to the sub-
+1.68 points, and thus a payoff of 5.82 points. By voting for "equal," Voters  sequent voter--potentially in the hope that the last voter will secure
+2 implement the equal allocation, i.e., a payoff of 5 points before punish-   the unequal allocation and take the blame.10 We summarize this last ob-
+ment. The expected payoff is thus lower, even though there is almost no       servation in the following:
+punishment (0.07) for Voters 2 in that case.
+                                                                              Result 3. Pivotality and voting behavior
+    We finally turn to Voters 3. Consider first the two cases where Voters
+1 and 2 opted for different allocations, such that Voter 3 has the decisive       About one-fifth of those voters who reveal their preference for the un-
+vote. In these cases, the expected payoff of Voters 3 is higher if they       equal allocation when their vote as the last voter is decisive avoid being piv-
+implement the unequal allocation. The increase in the payoff before           otal for the unequal allocation as the second voter and delegate the pivotal
+punishment (9­5 = 4) is larger than the increase in expected punish-          choice to the subsequent voter.
+ment at the two respective decision nodes (2.39­0.08 = 2.31 and
+2.33­0.08 = 2.25). In both cases, we find that the majority of Voters 3       5. Conclusion
+voted for "unequal" (70.8 and 62.5%). In the two cases where Voters 1
+and 2 already implemented the unequal or equal allocation, Voters 3               In this paper, we addressed the question of responsibility attribution
+maximize their expected payoffs by voting for "equal" because this re-        for individual members of collective decisions making entities, such as
+duces the expected punishment. We find that all but one Voter 3               committees or boards. In particular, we analyzed whether people are
+voted for "equal" when Voters 1 and 2 implemented the equal alloca-           blamed for being pivotal if they implement an unpopular outcome in
+tion. However, 22% of Voters 3 (16 of 72) voted for "unequal" when
+Voters 1 and 2 implemented the unequal allocation. This latter finding          9 Voter 3's choice is decisive at two decision nodes. We consider only those 43 voters
+is surprising, also in light of the low-cost theory of expressive voting      who revealed twice and thus consistently that they prefer the unequal allocation at these
+(see e.g. Brennan and Lomasky, 1993), which would predict that of             decision nodes. Ten voters opted only once for the unequal allocation in the role of the de-
+those Voters 3 whose votes are inconsequential, all opt for the socially      cisive Voter 3. If we took them into account as well, the fraction of voters who delegate
+more desirable equal allocation. Our findings on the behavior of these        would slightly increase to 23% (12 out of 53).
+Voters 3 are more consistent with experimental results by Tyran                10 Table 4 further shows that the 43 voters whom we classify as having a preference for
+(2004), who finds that many voters "bandwagon," i.e., vote for the op-        the unfair allocation based on their decisive vote as Voter 3, also vote more frequently than
+tion that they expect (or know) the majority of other voters to vote for.     the other voters for "unequal" in the roles of Voter 1 and 2. 23.3% of the 43 voters vote for
+                                                                              "equal" as Voter 1, a behavior that is consistent with the idea that these voters prefer to
+    A final question arises as a result of our main finding that pivotality   delegate the vote for the unequal allocation to subsequent voters. 18.6% of the 43 voters
+increases the blame for the unequal allocation: Do those voters who re-       vote for "equal" in the role of Voter 2 if Voter 1 voted for "equal." This behavior could be
+veal their preference for the unequal allocation avoid being pivotal for      interpreted as an aversion for being the first voter to vote for "unequal."
+the unequal allocation? In our game, in case Voter 1 opts for the unequal
+B. Bartling et al. / Journal of Public Economics 128 (2015) 133­139            139
+
+a sequential voting process. We measured responsibility attribution by         party would be held responsible as it typically also has proposal
+assigned punishment points in an experimental voting game. Our                 power. The example shows that it will be interesting to further explore
+main result is that pivotal decision makers are blamed significantly           in future research how people assign responsibility in collective deci-
+more than non-pivotal decision makers. This finding lends support to           sion making contexts, and how this depends on the specific features of
+Shapley and Shubik's (1954) assumption that the pivotal voter in a col-        the voting rules and the nature of the information available.
+lective decision "is given credit" for having passed the decision. Our re-
+sults contribute to a better understanding of responsibility attribution       Appendix A. Supplementary material
+for collective decision making in general and they have specific implica-
+tions for the theoretical work on committee decisions, as they question,           Supplementary material to this article can be found online at http://
+for example, the equivalence of transparent sequential and simulta-            dx.doi.org/10.1016/j.jpubeco.2015.03.010.
+neous voting procedures (see e.g. Levy, 2007).
+                                                                               References
+    Our experiment also showed that about one-fifth of voters who re-
+vealed a preference for the unequal allocation in the situation where          Alesina, A., 1997. Political Cycles and the Macroeconomy. The MIT Press.
+their vote as the last voter is decisive opt for the equal allocation as       Anderson, C., 1995. Blaming the Government: Citizens and the Economy in Five European
+the second voter subsequent to the first voter voting for the unequal al-
+location. This observation suggests that some voters strategically dele-            Democracies. ME Sharpe Inc.
+gate the pivotal decision to subsequent voters. Our study thus extends         Bank of England, 2005. Who sets our interest rates? Inside the Monetary Policy Commit-
+existing experimental results by, e.g., Hamman et al. (2010), Coffman
+(2011), and Bartling and Fischbacher (2012), who show that many sub-                tee. www.bankofengland.co.uk/publications/Documents/other/monetary/inside_
+jects shirk the responsibility for unpopular decisions by delegating the            mpc.pdf (accessed: 2014-01-22).
+decision right.                                                                Banzhaf, J.F., 1964. Weighted voting doesn't work: a mathematical analysis. Rutgers Law
+                                                                                    Rev. 19, 317.
+    The strength, and maybe the weakness, of our experimental design           Bartling, B., Fischbacher, U., 2012. Shifting the blame: on delegation and responsibility.
+is that it reduces the decision-making context to one that renders                  Rev. Econ. Stud. 79, 67­87.
+pivotality very salient. While this helps isolate the effect of pivotality     Bolton, G.E., Ockenfels, A., 2000. ERC: a theory of equity, reciprocity, and competition. Am.
+on responsibility attribution, the voting that actually takes place in col-         Econ. Rev. 90, 166­193.
+lective decision-making entities outside the laboratory has a richer set       Brandts, J., Charness, G., 2011. The strategy versus the direct-response method: a first sur-
+of characteristics than our sequential, simple majority voting game                 vey of experimental comparisons. Exp. Econ. 14, 375­398.
+over two given outcomes. For instance, recent results by Duch et al.           Brennan, G., Lomasky, L., 1993. Democracy and Decision: The Pure Theory of Electoral Pol-
+(2015) indicate that other factors, such as proposal power and voting               itics. Cambridge University Press, Cambridge.
+shares, are also important for responsibility attribution.                     Coffman, L.C., 2011. Intermediation reduces punishment (and reward). Am. Econ.
+                                                                                    J. Microecon. 3, 77­106.
+    Moreover, our study focuses on a sequential voting game, whereas           Duch, R.M., Stevenson, R.T., 2008. The Economic Vote: How Political and Economic Insti-
+many voting processes exist where votes are cast simultaneously. How-               tutions Condition Election Results. Cambridge University Press.
+ever, our results on the effect of pivotality on responsibility attribution    Duch, R., Przepiorka, W., Stevenson, R., 2015. Responsibility Attribution for Collective De-
+might be relevant also for simultaneous voting processes--in particular             cision Makers. Am. J. Polit. Sci. 59, 372­389.
+if decision makers' preferences over proposals are known. In the context       Dufwenberg, M., Kirchsteiger, G., 2004. A theory of sequential reciprocity. Games Econ.
+of our game, consider, for example, a situation where it is publicly                Behav. 47, 268­298.
+known that voter "U" strongly favors the unequal allocation and that           Falk, A., Fischbacher, U., 2006. A theory of reciprocity. Games Econ. Behav. 54, 293­315.
+voter "E" strongly favors the equal allocation. There is also a voter "P",     Falk, A., Szech, N., 2013. Organizations, Diffused Pivotality and Immoral Outcomes. CESifo
+but the only public knowledge is that she has neither a strong prefer-              Working Paper Series No. 4300. Available at SSRN: http://ssrn.com/abstract=
+ence for the equal allocation (like voter type E) nor for the unequal allo-         2290923.
+cation (like voter type U). Suppose further a committee of three voters        Fehr, E., Schmidt, K.M., 1999. A theory of fairness, competition, and cooperation. Q. J. Econ.
+that consists of one U, one E, and one P. Now, even with a secret and si-           114, 817­868.
+multaneous vote, it is clear that P is the pivotal voter who tips the scales.  Finer, S.E., 1975. Adversary Politics and Electoral Reform. Anthony Wigram, London.
+Suppose the unequal allocation results. Then, on the one hand, U might         Fischbacher, U., 2007. z-Tree: Zurich toolbox for ready-made economic experiments. Exp.
+be considered to be the most blameworthy "type" as it is known that she             Econ. 10, 171­178.
+has the strongest preference for the unequal allocation. While the             Franzese Jr., R.J., 2002. Macroeconomic Policies of Developed Democracies. Cambridge
+voting outcome reveals that P tends more towards the unequal than to-               University Press.
+wards the equal allocation, she is nevertheless not type U, and thus po-       Gerlach-Kristen, P., Meade, E., 2011. Is there a limit on FOMC dissents? Evidence from the
+tentially a less blameworthy "type." Hence, on the one hand, behavioral             Greenspan era. Working Paper.
+economics models of "type-based" reciprocity (e.g. Levine, 1998) would         Greiner, B., 2004. An online recruitment system for economic experiments. In: Kremer, K.,
+predict higher punishment for U than for P. Our results, on the other               Macho, V. (Eds.), Forschung und wissenschaftliches Rechnen GWDG Bericht 63.
+hand, predict that P would be punished for being pivotal, which could,              Gesellschaft für Wissenschaftliche Datenverarbeitung, Göttingen, pp. 79­93.
+in principle, lead to higher punishment for P than for U.                      Hamman, J.R., Loewenstein, G., Weber, R.A., 2010. Self-interest through delegation: an ad-
+                                                                                    ditional rationale for the principal-agent relationship. Am. Econ. Rev. 100, 1826­1846.
+    One natural interpretation of the above situation is a left/centrist or    Levine, D.K., 1998. Modeling altruism and spitefulness in experiments. Rev. Econ. Dyn. 1,
+right/centrist coalition in parliament, possibly with a small centrist              593­622.
+party and larger "anchor parties" on the left and the right, each not          Levy, G., 2007. Decision making in committees: transparency, reputation, and voting
+large enough to pass legislation on their own. How would constituents               rules. Am. Econ. Rev. 97, 150­168.
+hold the coalition parties accountable for bad performance? Our result         Lewis-Beck, M.S., 1990. Economics and Elections: The Major Western Democracies.
+on the impact of pivotality on responsibility attribution would suggest             University of Michigan Press.
+that the centrist party, which tips the scales, would be held responsible.     Lijphart, A., 2012. Patterns of Democracy: Government Forms and Performance in Thirty-
+But alternative responsibility attribution heuristics that are discussed in         six Countries. Yale University Press.
+the political science literature, such as proposal power or voting weights     Penrose, L.S., 1946. The elementary statistics of majority voting. J. R. Stat. Soc. 109, 53­57.
+(Duch et al., 2015), would suggest that the respective larger anchor           Powell, G.B., Whitten, G.D., 1993. A cross-national analysis of economic voting: taking ac-
+                                                                                    count of the political context. Am. J. Polit. Sci. 37, 391­414.
+                                                                               Rabin, M., 1993. Incorporating fairness into game theory and economics. Am. Econ. Rev.
+                                                                                    83, 1281­1302.
+                                                                               Shapley, L.S., Shubik, M., 1954. A method for evaluating the distribution of power in a
+                                                                                    committee system. Am. Polit. Sci. Rev. 48, 787­792.
+                                                                               Tsebelis, G., 2011. Veto Players: How Political Institutions Work. Princeton University
+                                                                                    Press.
+                                                                               Tyran, J.-R., 2004. Voting when money and morals conflict: an experimental test of ex-
+                                                                                    pressive voting. J. Public Econ. 88, 1645­1664.
+                                                                               Weiner, B., 1979. A theory of motivation for some classroom experiences. J. Educ. Psychol.
+                                                                                    71, 3­25.
+

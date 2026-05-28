@@ -1,0 +1,907 @@
+                                  Organizational Behavior and Human Decision Processes 135 (2016) 32­44
+
+                                          Contents lists available at ScienceDirect
+
+Organizational Behavior and Human Decision Processes
+
+                         journal homepage: www.elsevier.com/locate/obhdp
+
+Passing the buck: Delegating choices to others to avoid responsibility
+and blame q
+
+Mary Steffel a,, Elanor F. Williams b, Jaclyn Perrmann-Graham c
+
+a Northeastern University, United States
+b Indiana University, United States
+c University of Cincinnati, United States
+
+article info                   abstract
+
+Article history:               Although people prize the ability to choose when making choices for themselves, this right may become a
+Received 30 June 2015          burden when tasked with choosing for others. We show that people are more likely to delegate choices
+Revised 20 April 2016          for others than for themselves, especially choices with potentially negative consequences. This is driven
+Accepted 29 April 2016         by a desire to avoid feeling responsible or being blamed for such decisions rather than a desire to avoid
+Available online 13 June 2016  making difficult choices or a lack of concern for others' outcomes, and is unique to delegation and does
+                               not extend to other methods of choice avoidance, like delaying decisions or flipping a coin, that do not
+Keywords:                      absolve decision makers of responsibility and blame. Moreover, people only delegate to others who
+Choice delegation              can assume responsibility, regardless of their expertise, consistent with the notion that people delegate
+Social decision making         primarily to cede responsibility and blame, not put choices in the hands of more capable decision makers.
+Responsibility
+Blame                                                                                                                      Ó 2016 Elsevier Inc. All rights reserved.
+
+1. Introduction                                                                     decisions because people expect to bear the responsibility for
+                                                                                    others' outcomes and carry the blame if those outcomes are dissat-
+    Choice is among the most challenging (Schwartz, 2004) and                       isfying. We propose that the calculus of whether and how to make
+most prized (Ryan & Deci, 2000) responsibilities a person can have.                 a choice changes when the choice determines not just one's own
+Choosing is effortful and depleting (Vohs et al., 2008), and if the                 fate, but the fates of others. We show that people are more likely
+choice outcomes turn out to be unappealing, choosing can leave                      to delegate when they face decisions that will affect other people
+people feeling more dissatisfied and regretful with the outcomes                    rather than themselves alone, that people delegate choices for
+than if they never had the option to choose at all (Botti &                         others even in situations in which they would opt to retain respon-
+Iyengar, 2004; Botti & McGill, 2006; Botti, Orfali, & Iyengar,                      sibility if those choices were for themselves, and that people
+2009; Iyengar & Lepper, 2000). Yet, when given the option to                        uniquely seek out delegation over other forms of choice avoidance
+relinquish their right to choose, people often refuse. People prefer                as a means of absolving themselves of this responsibility.
+to maintain responsibility for choosing even when they would be
+better off letting others chose on their behalf (Botti & Iyengar,                   2. Choice avoidance
+2004; Botti & McGill, 2006; Botti et al., 2009).
+                                                                                        As much as people may generally prefer to maintain active con-
+    But this preference for choice may only go so far. When the                     trol over their own decisions, they are also well-known to avoid
+burden becomes too great, people may wish to cede decisions to                      choices when they become too difficult by deferring a decision or
+others, preferring to do without the burden of affecting someone                    by choosing by default or omission (see Anderson, 2003, for a
+else with the outcome of a choice that they themselves have made.                   review), and even at times by delegating their choices to others
+Choices for others may often be more daunting than personal                         (Steffel & Williams, in preparation-a). The present research looks
+                                                                                    beyond decision difficulty to the personal and interpersonal
+ q The authors wish to thank Kruti Gandhi for assistance with stimuli creation and  antecedents of delegation. Although much is known about the
+data collection, and Esta Denton Shah and Gia Nardini for assistance with data      antecedents of other forms of choice avoidance, there is at present
+collection.                                                                         little empirical work examining what prompts people to delegate
+                                                                                    choices to others and what differentiates delegation from other
+  Corresponding author at: Department of Marketing, D'Amore-McKim School of         forms of choice avoidance. Research on delegation in organizations
+
+Business, Northeastern University, 202 Hayden Hall, 360 Huntington Avenue,
+Boston, MA 02115, United States.
+
+     E-mail address: m.steffel@neu.edu (M. Steffel).
+
+http://dx.doi.org/10.1016/j.obhdp.2016.04.006
+0749-5978/Ó 2016 Elsevier Inc. All rights reserved.
+M. Steffel et al. / Organizational Behavior and Human Decision Processes 135 (2016) 32­44  33
+
+has largely focused on when managers delegate business decisions          H2. Anticipated responsibility and blame both drive the tendency
+or other tasks to subordinate employees, who tend to be less              for people to delegate choices for others more than choices for
+expert, and has tended to be descriptive in nature, rather than           themselves.
+empirically testing the causes and consequences of delegation
+(e.g., Leana, 1986; Vroom & Yetton, 1973). Most work on delega-           3. Escaping responsibility and blame
+tion in other fields has looked at very specific domains in which
+people pass personal decision making on to paid experts, like per-            Is delegation one of many possible effective routes to handling
+sonal shoppers (e.g., Solomon, 1987) or doctors (e.g., Degner &           the burden of choosing on someone else's behalf, or is delegation
+Sloan, 1992). These research streams have shown that people do            uniquely suited to relieve this burden? When choosing for them-
+sometimes delegate choices for both themselves and for others,            selves, people have many ways other than delegation with which
+but thus far, this past work has not considered the possibility that      to avoid making a decision (Anderson, 2003). For instance, a person
+people's propensity to delegate may differ depending on who will          might opt to simply delay the choice, to think about it longer, or to
+bear the consequences of the decision. We intend to add to the            just buy themselves time, and this is especially likely when facing a
+empirical literature by showing that delegation is a uniquely             decision where all outcomes are negative (Dhar & Nowlis, 1999).
+appealing choice avoidance method when other people will be               However, while delaying a choice puts off the determination of
+affected by a decision.                                                   the eventual outcome, it does not avert it altogether. The decision
+                                                                          maker will still have to make a choice and bear responsibility and
+    The choices that people make on behalf of others--their               blame for the outcome, just at a later date. Delegation might there-
+spouses, children, employees, and friends--come with challenges           fore have an advantage over delay in that a choice gets made faster,
+beyond those that accompany personal choices. We propose that             and the responsibility can be passed to another party. Alterna-
+choices for others carry additional burdens because the people            tively, rather than grapple with the decision at all, a person might
+who make them expect to feel responsible for the outcomes they            escape the effort of choosing by resolving the decision using a
+bring about and thus bear the weight of others' blame if those out-       chance process, like eeny-meeny-miney-mo, a random number
+comes turn out poorly. Of course, people making personal choices          generator, or a coin flip. Importantly, although an inanimate object,
+do at times worry about feeling responsible for a poor choice and         like a computer or a coin, can determine a choice outcome, that
+thus regretting their decision (e.g., Zeelenberg, 1999; Zeelenberg,       object is ultimately not responsible for that outcome. The person
+van Dijk, Manstead, & van der Pligt, 2000), and this in turn can lead     who flipped the coin rather than the coin itself is likely to be held
+them to delegate that choice to someone else (Steffel & Williams, in      responsible for the coin's ``choice," whatever it may be. Thus, while
+preparation-b). However, people tend to feel worse about decisions        a chance process might enable a person to avoid the burden of
+that inflict negative consequences onto others than decisions that        choosing, only delegation can enable a person to avoid the respon-
+inflict those same consequences onto themselves (Morey et al.,            sibility and blame associated with that choice. In sum, the appeal
+2012), and anticipate greater regret when choosing on behalf of           of delegating choices for others goes beyond that of putting off
+others (Beattie, Baron, Hershey, & Spranca, 1994), making delega-         or avoiding the effort associated with choosing. Instead, the appeal
+tion to be an especially appealing method of choosing when the            of delegating choices for others is in its ability to relieve decision
+decision is on behalf of someone else. People feel bad about the          makers of the burdens associated with being responsible for mak-
+prospect of their decision being the cause of someone else's dis-         ing a choice that might turn out poorly. Thus, people who face
+comfort or displeasure, and requesting that instead a third party         choices for others versus choices for themselves may uniquely seek
+be that cause may provide some relief.                                    out delegation over other forms of choice avoidance as a means of
+                                                                          absolving themselves of this responsibility.
+    A choice that one makes on behalf of someone else could either
+go well or it could go poorly, and it is anticipating the possibility of  H3. People avoid choosing for others by delegating but not by
+the latter outcome that is especially likely to prompt delegation.        using other choice avoidance tactics like delaying or deciding by
+Concern about being blamed by others is likely to compound the            chance because only delegation allows them to absolve themselves
+concern people have about feeling personally responsible for              of responsibility and blame.
+bringing about unappealing consequences for someone else, and
+this concern may not be unwarranted. Decision makers are evalu-           4. Passing the buck
+ated negatively for making a ``poor" choice even when the choice
+set is composed entirely of negative options (Kruger, Burrus, &               To whom can one delegate a decision? One possible benefit of
+Kressel, 2009). Furthermore, it is those poor choices that are likely     delegation is that one can put choices in the hands of a more cap-
+to get noticed. Blame avoidance is a popular political tactic because     able decision maker. Delegation may at times result in a better
+people are more sensitive to losses and negative outcomes than to         decision, because someone more knowledgeable ends up deter-
+gains and positive outcomes (Weaver, 1986). When a decision               mining the outcome. Nonetheless, we suspect that the surrogate's
+maker chooses for someone else in a scenario with only positive           ability to shoulder responsibility for the decision is more important
+anticipated outcomes, the individual may not mind having or               than expertise when it comes to deciding for others, especially
+may even prefer to maintain decision control, as they could poten-        when a negative outcome seems possible. Delegating to someone
+tially reap any rewards associated with making a good decision            without special expertise into the decision will be adequate so long
+(Bartling & Fischbacher, 2012). However, when faced with choos-           as that person can assume responsibility and blame for the choice
+ing on behalf of another person in a situation with only negative         outcome. However, delegating to someone without the ability to
+potential outcomes or with the possibility of a negative outcome,         assume responsibility will not suffice, as some people are not cap-
+decision makers may prefer to delegate to someone else in fear            able of being held responsible for a choice. Children, for instance,
+of receiving the punishment or blame associated with making a             legally cannot be held responsible for their actions. Instead, their
+bad decision. Decision makers may expect that delegation will help        parents often are (Siegel, 2014). Similarly, other kinds of power
+them avoid blame from both themselves and from others.                    hierarchies can determine who is fundamentally responsible for a
+                                                                          decision. The phrase, ``the buck stops here," expresses the idea that
+H1. People are more likely to delegate choices for others than
+choices for themselves, especially when it seems likely that those
+choices might have unappealing outcomes.
+34  M. Steffel et al. / Organizational Behavior and Human Decision Processes 135 (2016) 32­44
+
+the person who is ultimately responsible for an organization's         6.1.2. Procedure
+actions is the person at the top of the heap. The person at the            Participants were paired with another participant and com-
+end of the line has no one else to whom they can pass the buck.
+People are likely to feel that those for whom choosing is outside      pleted a get-to-know-you task. Next, participants were assigned
+their purview will make poor surrogates (Feng & MacGeorge,             to either the self or the other condition, and then picked a survey
+2006; Jungermann & Fischer, 2005), in that they may not be able        for themselves or their partner to complete. One survey was about
+to assume responsibility for the decision. People are unlikely to      attention to detail and involved reading a 1000-word passage and
+cede decision control when they risk having their surrogate make       circling the letter ``t" each time it appeared as the third letter of a
+a choice that turns out badly but having to maintain responsibility    word. The other survey was about multi-tasking and involved com-
+for the outcome themselves. Thus, the parties to whom one can          pleting simple multiplication problems while counting backwards
+delegate a choice for other people are likely to be limited to those   from 100 by 3's. Participants were given the option to choose a sur-
+with the authority to assume responsibility and blame.                 vey themselves or delegate the choice to the experimenter.
+
+H4. People delegate choices for others only to surrogates who can      6.2. Results and discussion
+assume responsibility and blame for the choices they make,
+regardless of their expertise in the decision domain.                      This experiment demonstrates that, when faced with choices
+                                                                       with real consequences, people are more likely to delegate choices
+5. Research overview                                                   for others than for themselves. Undergraduates who were asked to
+                                                                       choose which of two surveys they or another student would com-
+    The present research investigates whether people are more          plete were more likely to delegate to the experimenter when the
+likely to delegate choices for others than choices for themselves      choice was for another student (26%) than when it was for them-
+to avoid bearing the responsibility for others' outcomes and carry-
+ing the blame if those outcomes disappoint. Experiment 1 exami-        selves (7%), v2(1, N = 207) = 13.39, p < 0.001, / = 0.25.
+nes, in a choice with real consequences, whether people are
+more likely to delegate choices for others than choices for them-          In this experiment, both of the possible surveys were somewhat
+selves. Experiment 2 shows that this is especially likely when the     tedious and unappealing. We expect that it is choices like these--
+consequences of the decision are potentially negative, and that this   those in which decision makers must make a choice between
+is driven by decision makers' desire to avoid feeling responsible or   unattractive alternatives on behalf of another person, or at least
+being blamed for such decisions more so than a desire to avoid         those where the possibility of a bad outcome seems likely--that
+making choices that feel difficult or a lack of concern for the deci-  people are most prone to delegate. The next experiment explores
+sions' consequences. Experiment 3 demonstrates that both antici-       how the attractiveness of the choice alternatives affects people's
+pated responsibility and blame contribute to the tendency for          likelihood to delegate choices for themselves or for others, and
+people to delegate potentially costly choices for others and that      begins to delve into why people delegate such decisions.
+people care more about avoiding blame for bad outcomes than get-
+ting credit for good outcomes. Experiments 4 and 5 show that this      7. Experiment 2: Choices between attractive or unattractive
+tendency is unique to delegation and does not extend to other          options
+forms of choice avoidance, such as delaying decisions or flipping
+a coin, showing that people care about avoiding responsibility             It is rare to encounter choices in which choosing any option
+and blame and are not just more choice averse for others than          ensures a positive outcome. Instead, most choices entail some risk
+for themselves or prone to seeking an easy way out of making a         of an unappealing outcome or at least some level of disappoint-
+decision. Experiments 6 and 7 further examine the boundaries of        ment. In H1 and H2, we predicted that people are more likely to
+passing the buck, by showing to whom a decision maker can dele-        delegate decisions for others--especially those between unattrac-
+gate. We find that delegation is not predicated on expertise but is    tive alternatives--because they wish to avoid shouldering the
+predicated on authority, consistent with the notion that people        responsibility and assuming the blame for a possible bad outcome.
+delegate, not to put choices in the hands of a more capable decision   Experiment 2 investigated these predictions by varying whether
+maker, but to cede responsibility. In all experiments, we set target   the choice options were all attractive or all unattractive and
+sample sizes before data collection, and we have reported all          whether the decision at hand was for oneself or for one's boss,
+measures, conditions, and data exclusions.                             and then measured whether participants opted to choose them-
+                                                                       selves or delegate the decision to an office manager, as well as
+6. Experiment 1: Choices for self or others                            the extent to which participants wanted to be responsible for the
+                                                                       decision, and the extent to which they wanted to receive the credit
+    In an initial exploration of whether people are more likely to     or blame for the decision. We predict that people will be more
+delegate choices for others than choices for themselves, we invited    likely to delegate a choice for another person than a choice for
+undergraduates to choose which of two surveys they or another          themselves, especially when the potential alternatives are
+participant would complete in order to fulfill a research participa-   unattractive and the likely consequences are unappealing.
+tion requirement. Participants had the option of choosing them-
+selves or delegating the decision to an experimenter. We                   But one might wonder whether choices for others are more also
+predicted that participants would be more likely to delegate when      difficult than personal decisions. Further, this difficulty may be
+the choice would affect another person than when it would affect       intensified when the alternatives are unattractive, and people
+themselves.                                                            may delegate as an easy way out of having to make such difficult
+                                                                       decisions. Another possibility is that people just care less about
+6.1. Method                                                            decisions that affect others than ones in which their own outcomes
+                                                                       are at stake, especially when the alternatives are not especially
+6.1.1. Participants                                                    appealing or exciting. This seems unlikely--past research shows
+    Undergraduates (N = 207) at a large Midwestern university par-     that people take the responsibility of determining others' out-
+                                                                       comes just as seriously, if not more seriously, as determining their
+ticipated in exchange for course credit.                               own outcomes (Beattie et al., 1994; Morey et al., 2012)--but we
+                                                                       examined this counterexplanation here. We also measured the
+                                                                       extent to which they cared about the outcome of the decision
+M. Steffel et al. / Organizational Behavior and Human Decision Processes 135 (2016) 32­44  35
+
+and the extent to which they anticipated that choosing would be              7.2.3. Delegation
+difficult. We predict that the tendency for people to be more likely             A logistic regression with target (self or other) and attractive-
+to delegate choices for others than choices for themselves will be
+driven by the desire to avoid feeling responsible or being blamed            ness of options (attractive or unattractive) as predictors of prefer-
+for choice outcomes rather than anticipated choice difficulty or a           ences for choosing oneself or having the office manager choose
+lack of caring about the other person's outcome.                             indicated that participants were more likely to delegate a decision
+                                                                             when the decision was for someone else rather than themselves,
+7.1. Method
+                                                                             Wald's v2 = 34.24, p < 0.001, Odds Ratio = 4.56. Participants were
+7.1.1. Participants
+    Participants (N = 433; 53% male, Mage = 34) were recruited to fill       also more likely to delegate when the options were unattractive
+
+out an online survey via Amazon.com's Mechanical Turk platform.              versus attractive, Wald's v2 = 24.66, p < 0.001, Odds Ratio = 3.47.
+Only participants who had an approval rate of 95% or higher and
+lived in the United States were invited to participate. Participants         These main effects were qualified by a significant interaction
+received $0.25 Amazon.com credit for completing the survey.
+                                                                             between target and attractiveness of options, Wald's v2 = 7.44,
+7.1.2. Procedure
+    Participants imagined that they were choosing a hotel for a con-         p = 0.006, Odds Ratio = 4.09. When the options were unattractive,
+                                                                             participants were more likely to delegate when the decision was
+ference that either they themselves (in the self conditions) or their        for their boss (61%) than when the decision was for themselves
+boss (in the other conditions) was required to attend. They were
+told that their company had either budgeted for the attendee to              (17%), v2(1, N = 199) = 40.92, p < 0.001, / = 0.45. However, when
+stay in a five-star hotel (attractive conditions) or a two-star hotel
+(unattractive conditions), and they were presented with a descrip-           the options were all attractive, participants were just marginally
+tion of three hotels that were either highly appealing or unappeal-          more likely to delegate if the decision was for their boss (22%) ver-
+ing (see Appendix for the full hotel descriptions used in
+Experiments 2, 3, 5, and 6). In our measure of interest, participants        sus themselves (13%), v2(1, N = 199) = 2.86, p = 0.09, / = 0.12.
+indicated whether they would like to make the hotel reservation
+themselves or have the office manager do it instead.                         7.2.4. Responsibility
+                                                                                 Participants wanted less responsibility for the decision when
+    Additionally, to test the degree to which responsibility, blame,
+decision difficulty, and concern for the decision determined their           they were faced with a choice for their boss (M = 4.20, SD = 2.16)
+interest in delegating the decision, participants rated, ``To what           than a personal choice (M = 5.66, SD = 1.53), F(1, 394) = 74.94,
+extent would you like to be responsible for this decision, whatever
+the outcome?" on a scale from 1 = I would definitely NOT like to be          p < 0.001, g2p = 0.16. They also wanted less responsibility when
+responsible for this decision to 7 = I would definitely like to be respon-
+sible for this decision (responsibility), ``To what extent would you         the available options were unattractive (M = 4.23, SD = 2.25) than
+like to receive the credit or blame for this decision, whatever the          when they were attractive (M = 5.58, SD = 1.48), F(1, 394) = 61.12,
+outcome?" on a scale from 1 = I would definitely NOT like receive
+the credit or blame for this decision to 7 = I would definitely like to      p < 0.001, gp2 = 0.13. Further, there was an interaction, F(1, 394)
+receive the credit or blame for this decision (blame), ``To what extent      = 21.03, p < 0.001, gp2 = 0.05, such that the difference was greater
+do you care whether you have [your boss has] a good or bad expe-
+rience?" on a scale from 1 = I do not care at all to 7 = I care a lot (con-  when the options were unattractive (Mboss = 3.12, SD = 2.12, vs.
+cern), and ``If you were to make this decision yourself, how difficult       Mself = 5.39, SD = 1.75; t(193.11) = 8.27, p < 0.001, d = 1.17, equal
+would this decision feel?" on a scale from 1 = very easy to 7 = very         variances not assumed) than when they were attractive
+difficult (choice difficulty). To verify that our attractiveness manip-      (Mboss = 5.25, SD = 1.60, vs. Mself = 5.95, SD = 1.22; t(192.19) = 3.48,
+ulation had the intended effect, participants also rated, ``How              p = 0.001, d = 0.49, equal variances not assumed).
+attractive were these hotels?" on a scale from 1 = very unattractive
+to 7 = very attractive. Finally, to ensure that participants under-          7.2.5. Blame
+stood for whom the reservation was being made, on a separate                     Participants were also most concerned about getting blamed for
+page, participants indicated whether the reservation was for them-
+selves or their boss.                                                        the outcome when the decision was between unappealing options
+                                                                             and when it was for their boss. They wanted less credit or blame
+7.2. Results                                                                 for the decision when they were faced with a choice for their boss
+                                                                             (M = 4.09, SD = 2.19) than a choice for themselves (M = 5.02,
+7.2.1. Attention check
+    Out of 433 total participants, 35 were excluded because they             SD = 1.84), F(1, 394) = 26.65, p < 0.001, g2p = 0.06, and when the
+
+incorrectly identified for whom the reservation was being made.              available options were unattractive (M = 3.74, SD = 2.11) versus
+The same pattern is obtained if we include all participants.                 when they were attractive (M = 5.32, SD = 1.71), F(1, 394) = 72.11,
+
+7.2.2. Manipulation check                                                    p < 0.001, gp2 = 0.16. Importantly, there was also an interaction, F
+    As expected, participants thought that the hotels were more              (1, 394) = 12.59, p < 0.001, g2p = 0.03, such that there was a signifi-
+
+attractive in the attractive conditions (M = 6.10, SD = 0.94) than           cant self-other difference when the available options were
+in the unattractive conditions (M = 1.80, SD = 1.11), F(1, 394) =            unattractive (Mboss = 2.96, SD = 1.97, vs. Mself = 4.57, SD = 1.95), t
+                                                                             (197) = 5.78, p < 0.001, d = 0.82, but not when they were attractive
+1739.40, p < 0.001, gp2 = 0.82. Hotel ratings did not differ based           (Mboss = 5.18, SD = 1.81, vs. Mself = 5.48, SD = 1.59), t(197) = 1.23,
+                                                                             p = 0.22, d = 0.18.
+on whether the hotel was for themselves or their boss, F(1, 394) =
+                                                                             7.2.6. Difficulty
+1.17, p = 0.28, gp2 = 0.003, or based the interaction between attrac-            Participants anticipated that choosing would be more difficult
+tiveness and target, F(1, 394) = 1.61, p = 0.21, gp2 = 0.004).
+                                                                             when they were faced with a choice for their boss (M = 4.32,
+                                                                             SD = 2.00) than a choice for themselves (M = 3.82, SD = 1.82), F(1,
+
+                                                                             394) = 9.25, p = 0.003, g2p = 0.02, and when the available options
+
+                                                                             were unattractive (M = 4.90, SD = 1.70) compared to when they
+                                                                             were attractive (M = 3.26, SD = 1.79), F(1, 394) = 90.96, p < 0.001,
+
+                                                                             gp2 = 0.19. Furthermore, there was an interaction between the
+                                                                             two factors, F(1, 394) = 9.91, p = 0.002, gp2 = 0.03, such that there
+
+                                                                             was a significant self-other difference when the available options
+                                                                             were unattractive (Mboss = 5.42, SD = 1.48, vs. Mself = 4.36,
+                                                                             SD = 1.76), t(187.87) = À4.60, p < 0.001, d = 0.65, but not when they
+                                                                             were attractive (Mboss = 3.25, SD = 1.85, vs. Mself = 3.27, SD = 1.79), t
+                                                                             (197) = 0.07, p = 0.94, d = 0.01.
+36  M. Steffel et al. / Organizational Behavior and Human Decision Processes 135 (2016) 32­44
+
+7.2.7. Concern                                                           concerns about being responsible and assuming credit or blame
+    The party who would ultimately be affected by the decision had       for such decisions mediated the relationship between delegation
+                                                                         and whether a choice was for the self or another person. This
+no effect on how concerned participants were with the outcome.           was moderated by the attractiveness of the choice options such
+Although participants cared more about whether they or their boss        that the desire to avoid responsibility and blame for choices was
+had a good or bad experience when the available options were             greater when the available options were unattractive, which in
+attractive (M = 6.03, SD = 1.33) rather than unattractive (M = 5.62,     turn led to a greater likelihood of delegation.
+
+SD = 1.46), F(1, 394) = 8.46, p = 0.004, gp2 = 0.02, there was no self-      The greater difficulty of making choices for others may at times
+other difference, F(1, 394) = 0.002, p = 0.96, gp2 < 0.001, nor an       exacerbate the inclination to delegate choices on behalf of others,
+                                                                         but in Experiment 2, neither anticipated choice difficulty nor a lack
+interaction between attractiveness and target, F(1, 394) = 0.002,        of caring accounted for people's tendency to delegate choices for
+                                                                         others more than choices for themselves. Although people thought
+p = 0.97, g2p < 0.001.                                                   that choices for others would be more difficult to make than
+                                                                         choices for the self, that it would be harder to choose between
+7.2.8. Moderated mediation                                               unattractive than attractive options, and that making a choice for
+    We predicted that participants would want to be less responsi-       another person between unattractive options would be especially
+                                                                         difficult, choice difficulty was not a meaningful mediator of self-
+ble and assume less credit or blame for decisions for another per-       other differences in delegation either when the options were
+son than themselves, and this would make them more likely to             attractive or when they were unattractive. And, although people
+delegate choices for others. We predicted that this would espe-          cared more about the expected outcome of their decisions when
+cially be the case the more unattractive the choice options were.        the options were especially attractive than when they were
+We also predicted that, although choice difficulty might contribute      unattractive, people cared equally how they themselves or another
+to the tendency to delegate, it would not be the primary factor          person would be affected by their choices, and this was not mod-
+underlying self-other differences in delegation. We tested these         erated by the attractiveness of the choice options.
+predictions using PROCESS Model 7 (Hayes, 2013) with 1000 boot-
+strapped resamples, so that responsibility, blame, and difficulty            Thus, the desire to avoid the responsibility and blame associ-
+were parallel mediators, and found significant moderated media-          ated with making a choice with a possible bad outcome seems to
+tion for responsibility (95% CI = 0.77 to 2.52) and blame (95%           be the primary reasons why people delegate choices for others
+CI = 0.19 to 1.45), but not choice difficulty (95% CI = À0.004 to        more than choices for themselves. In the next study, we seek to
+0.67). The indirect path from the target of the decision (boss or self)  disentangle whether responsibility and blame independently con-
+through responsibility to delegation was stronger when the               tribute to people's preference to delegate decisions for others more
+options were all unattractive (95% CI = À3.22 to À1.37) than when        than decisions for themselves.
+they were all attractive (95% CI = À1.28 to À0.26), and the indirect
+path through blame was significant when the options were                 8. Experiment 3: Choices with or without anonymity
+unattractive (95% CI = À1.57 to À0.29) but nonsignificant when
+they were attractive (95% CI = À0.48 to 0.08). However, the indirect         One simple way to avoid being blamed for a bad outcome is to
+path through choice difficulty was nonsignificant both when the          not let the person who is affected by a decision know who made it.
+options were unattractive (95% CI = À0.57 to 0.01) and when they         However, this only relieves the decision maker of the possibility of
+were attractive (95% CI = À0.12 to 0.15). See Fig. 1.                    blame, not of their own knowledge that they inflicted the outcome
+                                                                         on the other person. Most decision makers are not heartless, and
+7.3. Discussion                                                          even if they do not expect to get blamed for making a no-win deci-
+                                                                         sion, it is possible that they may still feel bad that they are at fault
+    In support of H1 and H2, this experiment shows that people are       for inflicting negative consequences onto others, and thus will
+more likely to delegate when choosing for others than when choos-        delegate in order to reduce how responsible they feel for that out-
+ing for themselves, especially when the potential consequences are       come. In Experiment 3, to isolate the independent contributing
+unattractive. That is, people seem most prone to passing the buck
+when they risk being responsible and possibly blamed for a bad
+decision, or at least the bad outcome of a good decision. Indeed,
+
+Fig. 1. Relationship between party for whom the decision is being made and choice delegation of choice, as mediated by desire to be responsible for choice, desire to assume
+credit or blame for choice, and anticipated difficulty of choice, moderated by the attractiveness of the choice options (Experiment 2). Notes: *p < 0.10, **p < 0.05, ***p < 0.001.
+
+Index of moderated mediation: 95% CI = 0.02 to 1.69.
+M. Steffel et al. / Organizational Behavior and Human Decision Processes 135 (2016) 32­44                                                                 37
+
+roles of anticipated responsibility and blame, we manipulated                           100%                                          Unattractive
+whether or not the target of a decision would know the identity                          90%                                          Attractive
+of the person who chose on their behalf. Namely, participants in                         80%
+this study made a choice for themselves, for another person who         Delegation (%)   70%
+would know that the participant chose on their behalf, or for                            60%
+another person who would not know who chose on their behalf.                             50%                         Other-Anonymous  Other-Identifiable
+This design allows us to test two other possible explanations for                        40%
+our effect. One is accountability concerns. Past research shows that                     30%
+people are more likely to avoid decisions when they anticipate                           20%
+being accountable to others and having to explain the rationale                          10%
+for those choices (Tetlock & Boettger, 1994). We expect that, to                           0%
+the extent that delegation is motivated at least in part by felt                                               Self
+responsibility, people will delegate choices even if they are unli-
+kely to anticipate needing to justify the decisions in the anony-       Fig. 2. Delegation due to credit seeking (attractive options) or blame avoidance
+mous conditions. Anonymity also allows us to examine whether            (unattractive options) in decisions with or without anonymity (Experiment 3).
+people are as interested in seeking credit for good outcomes as
+they are in avoiding blame for bad ones. Research suggests that         8.2. Results
+choosing for others intensifies concerns about negative outcomes
+more than possible positive outcomes to a greater degree than           8.2.1. Attention check
+when choosing for oneself (Beattie et al., 1994), and that people           Out of 964 total participants, 100 were excluded because they
+are more concerned about blame avoidance than credit seeking
+in public decisions (Weaver, 1986). To explore this, we also manip-     incorrectly identified for whom the reservation was being made.
+ulated whether the choice was between all attractive or all             The pattern is the same and slightly stronger if we include all
+unattractive options.                                                   participants.
+
+    If delegation is being driven solely by anticipated blame or            Overall, delegation varied based on the target (self, other-
+accountability concerns, then we should expect people to be more
+likely to delegate choices between unattractive options for others      anonymous, other-known), Wald's v2 = 55.09, p < 0.001, such that
+than for themselves only when their identities would be known
+and not when they would be anonymous. However, if felt respon-          participants were more likely to delegate when choosing a hotel
+sibility independently contributes to this tendency, then people        for their boss than for themselves (12%), both when their identity
+should be more likely to delegate when choosing for others than
+when choosing for themselves, even when those affected would            would not be known (33%), Wald's v2 = 50.83, p < 0.001, Odds
+not know who chose on their behalf. If some of the story can be
+explained by credit seeking as opposed to merely blame avoidance,       Ratio = 5.00, and when it would be known (39%), Wald's
+then we would expect people to be less likely to delegate choices
+between attractive options when choosing for others who would           v2 = 35.16, p < 001, Odds Ratio = 3.87. Comparing the two deci-
+know their identities than when choosing for themselves or for
+others who would not know who chose on their behalf.                    sions for the boss, participants were equally likely to delegate
+                                                                        when their boss would know their identity as when they would
+8.1. Method
+                                                                        not, Wald's v2 = 0.26, p = 0.16, Odds Ratio = 0.78, suggesting that
+8.1.1. Participants
+    Participants (N = 964; 51% male, Mage = 33) were recruited to fill  people are not delegating choices for others merely to avoid having
+                                                                        to justify those decisions. Participants were also more likely to del-
+out an online survey via Mechanical Turk. Only participants who         egate when the outcomes were unattractive (41%) than attractive
+had an approval rate of 95% or higher and lived in the United States
+were invited to participate. Participants were compensated with         (16%), Wald's v2 = 67.49, p < 0.001, Odds Ratio = 4.09. These main
+$0.20 Amazon.com credit.
+                                                                        effects were qualified by an interaction between target and attrac-
+8.1.2. Procedure
+    Participants imagined that they were responsible for choosing a     tiveness of options, Wald's v2 = 13.31, p = 0.001.
+
+hotel for a conference, as in Experiment 2. They were randomly              Breaking this interaction down, when the options were unattrac-
+assigned to imagine that they were booking the hotel for them-
+selves (self conditions), that they were booking the hotel for their    tive, there was a significant effect of target, Wald's v2 = 57.46,
+boss and that their boss would know who made the reservation
+(other identifiable conditions), or that they were booking a hotel      p < 0.001, such that participants were less likely to delegate the
+for their boss and that their boss would not know who made the          choice of hotel to the office manager when they were choosing a
+reservation (other anonymous conditions). Participants were told        hotel for themselves (14%) than when they were choosing a hotel
+that their company had budgeted for the attendee to stay in a           for their boss, both when their boss would not know who made
+five-star hotel (attractive conditions) or in a two-star hotel
+(unattractive conditions). In our measure of interest, participants     the reservation (48%), Wald's v2 = 35.56, p < 0.001, Odds
+indicated whether they preferred to make the decision themselves
+or whether they would like to delegate the decision to the office       Ratio = 5.78, and when they would know the identity of the decision
+manager. Finally, to ensure that participants understood for whom
+the reservation was being made, they indicated on a separate page       maker (59%), Wald's v2 = 55.94, p < 0.001, Odds Ratio = 8.90, sug-
+whether the reservation was for themselves or their boss.
+                                                                        gesting that blame alone cannot account for self-other differences
+                                                                        in delegation of choices between unattractive options. Participants
+                                                                        were marginally more likely to delegate when their identities would
+
+                                                                        be known than when they would not, Wald's v2 = 3.35, p = 0.067,
+
+                                                                        Odds Ratio = 0.65, indicating that blame does to some degree con-
+                                                                        tribute to the tendency to delegate above and beyond felt responsi-
+                                                                        bility. However, when the options were attractive, delegation did
+                                                                        not depend on the target (self = 11%, other anonymous = 18%, other
+
+                                                                        identifiable = 18%), Wald's v2 = 3.04, p = 0.22, suggesting that peo-
+
+                                                                        ple are not less likely to delegate choices when the potential conse-
+                                                                        quences are attractive in order to seek credit. See Fig. 2.
+
+                                                                        8.3. Discussion
+
+                                                                            Providing additional support for H2, this experiment suggests
+                                                                        that the tendency for people to be more likely to delegate choices
+38  M. Steffel et al. / Organizational Behavior and Human Decision Processes 135 (2016) 32­44
+
+for others than for themselves is rooted in the desire to avoid the      had an approval rate of 95% or higher and lived in the United
+potential responsibility and blame that decision makers expect to        States were invited to participate. Participants received $0.20
+feel, and that each plays an independent role in the decision to del-    Amazon.com credit.
+egate. Participants were more likely to delegate a choice between
+unattractive options for another person than for themselves, both        9.1.2. Procedure
+when the person for whom they were choosing would know their                 Participants imagined that they were planning a catered busi-
+identity and when they would not, suggesting that felt responsibility
+itself is sufficient to motivate people to delegate choices for others,  ness luncheon for their company. They were randomly assigned
+even when they are unlikely to be blamed for the decision. However,      to imagine that they were choosing the main entrée for themselves
+our findings indicate that anticipated blame also contributes to the     (self conditions), or that they were choosing the main entrée for the
+decision to delegate choices for others: participants were more          lunch guests (other conditions). Participants were presented with a
+inclined to delegate when the person for whom they were choosing         menu with 12 different entrée choices (e.g., Beef Strip Steak, Sea
+would know their identity than when they would not. These findings       Salt Crusted Salmon, and Eggplant Parmigiana), with a description
+also speak against the idea that passing the buck is solely driven by    of the ingredients in each. Participants learned that the event was
+concerns about being held accountable. Decision makers in the            occurring a few weeks later and that they could either make the
+anonymous conditions were unlikely to anticipate needing to justify      decision now themselves or wait until the end of the week to make
+their choices, and yet they were still inclined to delegate.             the decision (delay conditions) or that they could either make the
+                                                                         decision now themselves or delegate the decision to the caterer
+    Our findings also suggest that people delegate decisions for         (delegate conditions).
+others because they wish to avoid blame for negative outcomes,
+not because they wish to seek credit for positive outcomes. If           9.2. Results
+credit-seeking were part of the story, then people should be less
+likely to delegate when choosing for others than for themselves from         A logistic regression with target (self or other) and method of
+among attractive options, especially when other people would know        avoidance (delay or delegate) as predictors of choice avoidance
+their identity, and they may be more likely to delegate when they are    indicated that, overall, participants were equally likely to delay
+anonymous, because there would be no credit to receive from the
+choice. Instead, people were equally likely to delegate choices          (40%) as to delegate (41%), Wald's v2 = 0.03, p = 0.85, Odds
+between attractive alternatives regardless of target and anonymity,
+suggesting that credit seeking is not a meaningful driver of             Ratio = 0.96, and they were more likely to avoid a decision when
+delegation.                                                              the decision was for someone else (47%) versus themselves
+
+    Delegation therefore seems like an effective way to transfer         (34%), Wald's v2 = 7.47, p = 0.006, Odds Ratio = 0.57. These main
+responsibility and blame away from the self to a third party.
+Nonetheless, it is possible that this transfer is a merely pleasant      effects were qualified by an interaction between target and
+side effect for participants, and what they truly wish is simply to
+avoid making a choice for the other person in whatever way they          method of avoidance, Wald's v2 = 6.57, p = 0.01, Odds Ratio = 2.89,
+can. Perhaps they would be just as happy to delay choosing, or
+otherwise take a shortcut. Our next two experiments test H3 and          such that participants were more likely to delegate when the deci-
+aim to show that delegation is a uniquely desirable option for           sion was for others (54%) than when the decision was for them-
+avoiding making a choice on someone else's behalf, and that people
+do not use other methods of choice avoidance that do not absolve         selves (28%), v2(1, N = 200) = 13.97, p < 0.001, / = 0.26, but
+them of responsibility and blame to a greater extent when choos-
+ing for others than for themselves.                                      participants were equally likely to delay regardless of whether
+
+9. Experiment 4: Are people just more choice averse when                 the decision was for others (41%) or themselves (40%), v2(1,
+choosing for others?
+                                                                         N = 202) = 0.02, p = 0.89, / = 0.01.
+    If a decision maker wants to avoid making a choice, there are
+other routes besides delegation that can allow that to happen.           9.3. Discussion
+For one, they might opt to defer or delay the choice until a later
+time, something that is especially appealing to consider when                People are more likely to delegate but not delay when faced
+one is faced with a set of unattractive options (Dhar & Nowlis,          with choices for others versus choices for themselves, consistent
+1999). But deferring the choice does not alleviate the responsibility    with H3 and the notion that people are more interested in transfer-
+and blame that accompany choosing for others; it merely delays           ring the responsibility and blame associated with choosing for
+them until later. Experiment 4 tests whether it is more important        others than avoiding choices more generally. Whereas delaying
+to decision makers to avoid responsibility and blame from others         choices for others merely postpones having to assume responsibil-
+than to simply avoid choosing, by giving them the option to either       ity and blame for those decisions, only delegation provides the
+delegate or delay a choice for themselves or someone else. We            benefit of absolving people from the personal and interpersonal
+expect to find that people are more interested in transferring           consequences that make choosing for others so uniquely burden-
+responsibility and blame than avoiding the choice, and that people       some. Yet, perhaps it is not this benefit, but rather the benefit of
+are more likely to delegate but not delay when faced with choices        providing an easy way out of having to invest effort into making
+for others versus choices for themselves                                 a decision for someone else that makes delegation distinctly
+                                                                         appealing relative to deferral. Experiment 5 dives deeper into the
+9.1. Method                                                              unique benefits of delegation by exploring people's willingness to
+                                                                         entrust choices for themselves and others to other people versus
+9.1.1. Participants                                                      chance devices.
+    Participants (N = 402; 58% male, Mage = 33) were recruited to fill
+                                                                         10. Experiment 5: Do people just want an easy way out?
+out an online survey via Mechanical Turk. Only participants who
+                                                                             In informal settings, undesired or challenging choices often get
+                                                                         made with the help of chance or luck--via die rolls, coin flips, or
+                                                                         rocks, papers, and scissors. But do people believe that randomness
+                                                                         can shoulder the responsibility for the outcome it ultimately deci-
+                                                                         des, or do they believe that responsibility stays with the people
+                                                                         who use randomness to settle decisions? And does this affect their
+                                                                         willingness to use devices to resolve choices for themselves and
+M. Steffel et al. / Organizational Behavior and Human Decision Processes 135 (2016) 32­44  39
+
+others? If individuals delegate to avoid responsibility when making      would blame them (N = 110) if they had made the decision them-
+a decision for another person, it seems possible that they could         selves, if they had made the decision by flipping a coin, and if they
+cede decision responsibility to chance as well. After all, it was        had asked the office manager to make the decision. A repeated
+not them who determined the final outcome, it was ``just the luck        measures ANOVA indicated that anticipated felt responsibility var-
+of the draw." Though recent studies (see Bartling & Fischbacher,
+2012) have shown that people on whose behalf a decision was              ied based on condition, F(2, 202) = 47.03, p < 0.001, g2p = 0.32. Pair-
+made will attribute responsibility to luck instead of to the original
+decision maker, it remains unknown if those original decision mak-       wise comparisons indicated that participants anticipated feeling
+ers themselves view passing decision responsibility to chance to be      less responsible if they delegated the decision to the office man-
+a viable option. Thus, in this study, participants chose on behalf of    ager (M = 2.88, SD = 1.75) than if they chose a hotel themselves
+themselves or another person, and were given the option to dele-         (M = 4.46, SD = 1.72), p < 0.001, or if they made the decision by flip-
+gate or the option to flip a coin as the alternative to choosing them-   ping a coin (M = 4.03, SD = 1.97), p < 0.001. Participants also antic-
+selves. We suspected that, given the role of responsibility and          ipated feeling less responsible if they made the decision by flipping
+blame in delegation, that people would be more likely to delegate        a coin than if they chose themselves, p = 0.005. A repeated mea-
+a choice for another person than a choice for themselves but that        sures ANOVA indicated that anticipated blame also varied based
+they would not consider a coin flip to be a viable means of passing
+the buck.                                                                on condition, F(2, 218) = 59.90, p < 0.001, g2p = 0.35. Participants
+
+10.1. Method                                                             anticipated being less blameworthy if they delegated the decision
+                                                                         to the office manager (M = 3.23, SD = 1.69) than if they chose a
+10.1.1. Participants                                                     hotel themselves (M = 4.72, SD = 1.43), p < 0.001, or if they made
+    Participants (N = 403; 55% male, Mage = 31) were recruited to fill   the decision by flipping a coin (M = 4.83, SD = 1.75), p < 0.001. Par-
+                                                                         ticipants anticipated being equally blameworthy if they made the
+out an online survey via Mechanical Turk. Only participants who          decision by flipping a coin or if they chose themselves, p = 0.41.
+had an approval rate of 95% or higher and lived in the United States     Thus, participants thought that delegating to another person would
+were invited to participate. Participants received $0.15 Ama-            more effectively relieve them from responsibility and blame than
+zon.com credit.                                                          choosing themselves or flipping a coin. And, even though partici-
+                                                                         pants anticipated that flipping a coin would lead them to feel less
+                                                                         responsible for their boss' bad experience than choosing them-
+                                                                         selves, they did not believe that it would absolve them from blame.
+
+10.1.2. Procedure                                                        10.3. Discussion
+    Participants imagined that they were choosing a hotel, as in
+                                                                             People are more likely to delegate but not flip a coin to resolve
+Experiments 2 and 3. This hotel was for themselves (self condi-          choices for others versus choices for themselves. These results sug-
+tions) or for their boss (other conditions), and in all cases, partici-  gest that the appeal of delegation goes beyond that of providing an
+pants were told that their company had only budgeted for a two-          easy way out of making an effortful decision on behalf of someone
+star hotel, thus ensuring an unappealing outcome. Participants in        else. Taken together with Experiment 4, these findings support the
+the delegation conditions could either choose a hotel themselves         idea that people use delegation to absolve themselves of the
+or delegate the choice to the office manager, whereas participants       responsibility and blame for making a choice for someone else,
+in the coin flip conditions were given the option to choose a hotel      and that other forms of choice avoidance cannot substitute for del-
+themselves or flip a coin to determine which hotel to choose.            egation because they do not alleviate the burdens associated with
+                                                                         choosing for others versus themselves. These results further imply
+10.2. Results                                                            that people believe that they can only pass the buck to another per-
+                                                                         son, not to an inanimate object or to chance. This is consistent with
+    Flipping a coin does not have the same appeal as a method of         the idea that delegation is in fact bounded such that people believe
+passing the buck as delegation does. A logistic regression with tar-     that only people and not luck, chance, or fate can be held respon-
+get of decision (self or other) and method of avoidance (choose ver-     sible and blameworthy for a negative outcome. People still believe
+sus delegate or choose versus flip a coin) as predictors indicated       that they will be culpable because they chose to leave the decision
+that, as before, participants were more likely to avoid choosing         up to an object rather than another person.
+when the decision was for someone else (33%) than themselves
+                                                                             But can just any other person assume responsibility and blame?
+(15%), Wald's v2 = 18.35, p < 0.001, Odds Ratio = 1.74. Participants     Or are certain people, like the coin, incapable of assuming respon-
+                                                                         sibility and are thus unsuitable surrogates? Having established
+were also more likely to delegate a decision (35%) than flip a coin      that delegating to a person is necessary to garner the benefits of
+                                                                         passing the buck, our next experiments examine exactly which
+(13%), Wald's v2 = 25.94, p < 0.001, Odds Ratio = 1.96. These main       people are appropriate parties to whom decisions may be dele-
+                                                                         gated. Experiment 6 examines whether people only delegate to
+effects were qualified by a significant interaction between target       people with relevant expertise or whether expertise is an appeal-
+                                                                         ing but nonessential attribute of a suitable surrogate, and Experi-
+and method of avoidance, Wald's v2 = 11.11, p = 0.001, Odds              ment 7 examines whether people only delegate to people whose
+                                                                         status within an organization gives them the authority to assume
+Ratio = 0.64. Consistent with our predictions in H3, when the alter-     responsibility and blame for a decision.
+native to choosing was to delegate, participants were more likely
+to avoid choosing when it was for their boss (53%) than when it          11. Experiment 6: Is expertise necessary?
+
+was for themselves (17%), v2(1, N = 204) = 29.58, p < 0.001, /               One benefit of delegating a decision for another person, beyond
+                                                                         ceding responsibility for the choice, is that the person to whom one
+= 0.38. When the alternative to choosing was to flip a coin, how-        delegates may be better equipped to make the choice. Delegation
+ever, participants were equally likely to flip a coin, regardless of     to a more expert decision maker can improve outcomes for all
+whether the reservation was for their boss (13%) or themselves
+
+(13%), v2(1, N = 199) = 0.02, p = 0.89, / = 0.01.
+
+    Do participants believe that delegation will indeed relieve them
+of responsibility and blame? How does this compare to their
+expectations of a coin flip? In a pair of follow-up studies, partici-
+pants recruited through Mechanical Turk were presented with this
+scenario, learned that their boss had a bad experience staying at
+the hotel, and indicated either how personally responsible they
+would feel (N = 102) or the extent to which they thought their boss
+40  M. Steffel et al. / Organizational Behavior and Human Decision Processes 135 (2016) 32­44
+
+parties involved with a choice. However, expertise, while appeal-        than when they did not (29%), Wald's v2 = 6.19, p = 0.01, Odds
+ing, may not be a necessary prerequisite for delegating choices
+for others. We suspect that people care more about transferring          Ratio = 2.08, regardless of whether the choice was for themselves
+responsibility for a decision than they do about putting the deci-       or others. Most importantly, however, the tendency for people to
+sion into more capable hands, and that they may be willing to del-       be more likely to delegate the choice when it was for their team
+egate to someone without special expertise into the decision so          than when it was for themselves was not predicated on their cow-
+long as that person is able and willing to assume responsibility
+and blame for the choice outcome. Thus, to test H4, Experiment           orker's expertise, Wald's v2 = 0.01, p = 0.91, Odds Ratio = 0.95:
+6 examines whether the tendency for people to delegate choices
+for others more than choices for themselves depends on whether           when their coworker had expertise, 67% delegated when the choice
+the potential surrogate has expertise relevant to the decision. In       was for their team and 49% delegated when the choice was for
+this study, participants considered a choice for themselves or for
+their boss that they could either make themselves or delegate to         themselves, v2(1, N = 196) = 6.26, p = 0.01, / = 0.18, and when their
+a coworker who did or did not have expertise into the decision.
+We predict that, although participants will be more likely to dele-      coworker did not have expertise, 36% delegated when the choice
+gate to experts than nonexperts, they will also be more likely to        was for their team and 22% delegated when the choice was for
+delegate choices for others than choices for themselves regardless
+of the expertise of the potential surrogate.                             themselves, v2(1, N = 193) = 4.55, p = 0.03, / = 0.15. This is consis-
+
+11.1. Method                                                             tent with the notion that people pass the buck to avoid responsibil-
+                                                                         ity and blame rather than to put the decision in more capable
+11.1.1. Participants                                                     hands.
+    Participants (N = 389; 56% male, Mage = 33) were recruited to fill
+                                                                         11.3. Discussion
+out an online survey via Amazon.com's Mechanical Turk platform.
+Only participants who had an approval rate of 95% or higher and              Although people are overall more likely to delegate choices to
+lived in the United States were invited to participate. Participants     an expert, they are more likely to delegate choices for others than
+received $0.20 Amazon.com credit for completing the survey.              choices for themselves regardless of the potential surrogate's
+                                                                         expertise. Delegating choices for others does not seem to be
+11.1.2. Procedure                                                        intended to get a more informed person's decision, but instead
+    Participants imagined that they and one of their classmates,         simply another person's decision. In this experiment, however,
+                                                                         the nonexpert was a peer, and thus of equal status to the original
+Jane, were interning at a company for the semester. The team that        decision maker, and by offering to make the choice, appeared will-
+they and Jane worked for would be traveling to Boston for a confer-      ing to shoulder responsibility for the decision. What happens when
+ence, and they had been tasked with choosing a hotel for either          the potential surrogate is of lower status, or will not be officially
+themselves (in the self conditions) or their team (in the other con-     held responsible for the choice? Does delegation depend upon
+ditions). They were told that their company had budgeted for them        whether an organization's rules and a surrogate's relative status
+and their team to stay in a two-star hotel, and they were presented      give them the authority to assume responsibility and blame for
+with a description of two hotels that were highly unappealing. In        the choice?
+our measure of interest, participants indicated whether they would
+like to make the hotel reservation themselves or have Jane do it         12. Experiment 7: Is authority necessary?
+instead. To manipulate Jane's expertise relevant to the decision,
+participants in the nonexpert conditions were told, ``As you discuss         In an organizational setting, there may be multiple people to
+the decision with Jane, she says, `I have never been to this part of     whom one might opt to delegate a decision, some at higher levels
+Boston, but I'd be glad to pick a hotel for you if you would like        of status, some peers, and some of lower status. There may also be
+me to,'" and those in the expert conditions were told, ``As you dis-     rules governing how responsibility may be allocated, shared, or
+cuss the decision with Jane, she says, `I was just in this part of Bos-  transferred. Experiment 7 further tests H4 by examining the
+ton for a conference, and I'd be glad to pick a hotel for you if you     bounds of delegating decisions for others by exploring if delegation
+would like me to.'" Finally, as a manipulation check for expertise,      depends on whether an organization's rules and a potential surro-
+participants indicated on a separate page the extent to which they       gate's status give them the authority to assume responsibility and
+thought that Jane had expertise relevant to the decision.                blame for the decision. In this study, participants imagined that
+                                                                         they worked at a small brokerage firm and that they had been
+11.2. Results                                                            tasked with choosing a stock in which to place an important
+                                                                         client's first investment. They were told that, should they opt to
+11.2.1. Manipulation check                                               delegate, either they themselves or the person to whom they
+    As intended, participants thought that Jane had more expertise       delegated would be held entirely responsible for the outcome of
+                                                                         an investment, good or bad. Additionally, we manipulated whether
+relevant to the decision in the expert conditions (M = 4.68,             the person to whom they could delegate was their boss or one of
+SD = 1.15) than in the nonexpert conditions (M = 3.27, SD = 1.44),       their supervisees. The hierarchical relationship between a person
+t(366.74) = 10.61, p < 0.001, d = 1.08 (equal variances not              and the potential surrogate may influence whether a person feels
+assumed).                                                                that they can truly avoid responsibility for a decision by delegating
+                                                                         to that person. Specifically, a person may feel responsible for a
+11.2.2. Choice method                                                    decision made by an employee whom they oversee, regardless of
+    Although expertise made delegation more likely, it was not nec-      who will be held officially responsible for the decision outcome.
+                                                                         Thus, the only case in which a person may feel that they can truly
+essary for delegation. Regardless of their coworker's expertise, par-    be absolved of responsibility for this decision is when they dele-
+ticipants were more likely to delegate to their coworker when the        gate to someone of equal or higher status who will officially
+choice was for their team (52%) than when it was for themselves          assume responsibility for the decision. We predicted that partici-
+                                                                         pants would be more likely to delegate when they were told that
+(36%), Wald's v2 = 6.19, p = 0.01, Odds Ratio = 2.08. And, they were     the person to whom they delegated would assume responsibility
+                                                                         for the success or failure of the investment than when they were
+more likely to delegate when their coworker had expertise (58%)          told that they themselves would remain responsible. We further
+M. Steffel et al. / Organizational Behavior and Human Decision Processes 135 (2016) 32­44  41
+
+predicted that participants would be most likely to delegate when       of whether they were told that they (23%) or their employee (20%)
+the potential surrogate was a superior who would assume respon-
+sibility for the decision, the one case in which they could truly feel  would be responsible, v2(1, N = 88) = 0.14, p = 0.71, / = 0.01. A con-
+absolved of responsibility.
+                                                                        trast analysis (Rosenthal & Rosnow, 1985) indicated that partici-
+12.1. Method                                                            pants were more likely to delegate if their boss would be
+                                                                        responsible, the one case in which they could be absolved of all
+12.1.1. Participants                                                    responsibility, than in any of the other three conditions (z = 2.88,
+    Undergraduates (N = 181) at a large Southeastern university         p < 0.005).
+
+participated in exchange for extra course credit.                           In a follow-up experiment, 130 participants recruited from the
+                                                                        same population indicated how responsible they would feel for the
+12.1.2. Procedure                                                       outcome of the decision and to what extent they thought they
+    Participants imagined that they were an assistant manager at a      would be blamed for the outcome of the decision in each of the
+                                                                        four conditions, supposing that they decided to delegate their deci-
+small brokerage firm. Participants were told that they had worked       sion. A repeated measures ANOVA indicated that participants
+their way up so that they supervised several junior brokers,            anticipated feeling more responsible when they themselves would
+although they still reported to the owner and founder of the firm.      be officially held responsible for the decision (adjusted M = 5.09,
+They were told that the firm was tasked with choosing a stock in        SE = 0.10) rather than the person to whom they delegated
+which to place an important client's first $1 million investment,       (adjusted M = 3.44, SE = 0.12), F(1, 129) = 189.98, p < 0.001,
+and that the client would decide whether or not to invest more
+money with the firm based on the stock's performance over the           gp2 = 0.60, and when they delegated to one of the brokers they
+next six months. Participants were told that there were three
+stocks that the client would like their firm to choose between.         supervised (adjusted M = 4.78, SE = 0.10) rather than their boss
+The stocks were fictional and balanced for positive and negative        (adjusted M = 3.75, SE = 0.12), F(1, 129) = 74.15, p < 0.001,
+attributes:
+                                                                        gp2 = 0.37. Most importantly, there was a marginally significant
+    Opus. This is a new computer software firm; their stock just
+    went public. Not much is known about them, but some analysts        interaction between surrogate status and responsibility, F(1,
+    think their stock may double in price over the next two years.
+    Others are much less sure of its prospects.                         129) = 3.59, p = 0.06, g2p = 0.03. Pairwise comparisons indicated
+    HTS Services. This wireless communications company has
+    posted reliable stock price increases for the last two years; it    that participants believed that they would feel less responsible
+    has historically made investors a respectable amount of money       when they delegated to their boss and ceded responsibility
+    off their investment. However, there is a good chance that a        (M = 2.84, SD = 1.76) than when they delegated to one of the bro-
+    new competitor in the market could have an impact on their          kers they supervised and retained responsibility (M = 5.52,
+    performance.                                                        SD = 1.20), p < 0.001, when they delegated to one of their brokers
+    Huron Medical. This pharmaceutical company's stock price has        and ceded responsibility (M = 4.04, SD = 1.51), p < 0.001, and when
+    taken a dip over the last few months, but there are occasional      they delegated to their boss and retained responsibility (M = 4.65,
+    rumors that they are about to release a new cholesterol medica-     SD = 1.63), p < 0.001.
+    tion that could earn them billions of dollars.
+                                                                            With regard to anticipated blame, a repeated measures ANOVA
+    Participants were told that they could either choose a stock        indicated that participants believed that they would be blamed
+themselves (and indicate which stock they chose) or delegate the        more when they themselves would be officially held responsible
+choice. They were told that either they (in the self-responsible        for the decision (adjusted M = 5.38, SE = 0.10) rather than the per-
+conditions) or the person to whom they delegated (in the                son to whom they delegated (adjusted M = 3.28, SE = 0.11), F(1,
+other-responsible conditions) would be entirely responsible for
+the success or failure of the investment. They were also told that      129) = 251.87, p < 0.001, g2p = 0.66, and when they delegated to
+the person to whom they could delegate was either their boss
+(superior-surrogate conditions) or one of the brokers they super-       one of the brokers they supervised (adjusted M = 4.85, SE = 0.09)
+vised (subordinate-surrogate conditions).                               rather than their boss (adjusted M = 3.81, SE = 0.12), F(1, 129)
+
+12.2. Results                                                           = 82.12, p < 0.001, gp2 = 0.39. Moreover, there was an interaction
+
+    Participants were more likely to delegate when they were told       between surrogate status and responsibility, F(1, 129) = 6.43,
+that the person to whom they delegated would be responsible
+for the decision outcome (30%) than when they were told that they       p = 0.01, g2p = 0.05. Pairwise comparisons revealed that participants
+
+themselves would be responsible (16%), Wald's v2 = 4.97, p < 0.05,      believed that they would be blamed less when they delegated to
+                                                                        their boss and ceded responsibility (M = 2.66, SD = 1.61) than when
+Odds Ratio = 2.42. The main effect of surrogate status on delegation    they delegated to their boss and retained responsibility (M = 4.96,
+                                                                        SD = 1.67), p < 0.001, when they delegated to one of their brokers
+was not significant, Wald's v2 = 0.40, p = 0.84, Odds Ratio = 1.08,     and ceded responsibility (M = 3.90, SD = 1.46), p < 0.001, and when
+                                                                        they delegated to one of the brokers they supervised and retained
+because, as predicted, there was a significant interaction between      responsibility (M = 5.79, SD = 1.10), p < 0.001. These follow-up
+                                                                        results suggest that the reason why delegation was greatest in
+surrogate status and responsibility, Wald's v2 = 7.36, p < 0.005,       the condition where participants could delegate to their boss and
+                                                                        cede responsibility to him is because it was the only condition in
+Odds Ratio = 2.94, such that participants were more likely to dele-     which participants felt that they could actually be rid of felt
+gate to their boss when they were told that the boss would be           responsibility and blame for the decision outcome if they
+responsible for the decision outcome (40%) than when they were          delegated.
+
+told that they themselves would be responsible (9%), v2(1,              12.3. Discussion
+
+N = 93) = 12.57, p < 0.001, / = 1.30, but they were equally likely          Experiment 7 paints a more complete picture of where exactly
+to delegate to one of the brokers whom they supervised regardless       the buck stops. People's willingness to delegate decisions in an
+                                                                        organizational setting depend on the hierarchical relationship
+                                                                        between them and their potential surrogate as well as the organi-
+                                                                        zational rules governing their ability to transfer responsibility to
+                                                                        that surrogate. Again supporting H4, people readily delegate to
+                                                                        people of equal or higher status who can officially assume respon-
+                                                                        sibility for those choices, but hesitate to cede decision control to
+42  M. Steffel et al. / Organizational Behavior and Human Decision Processes 135 (2016) 32­44
+
+people who lack the institutional authority to assume responsibil-       responsible for negative outcomes (Palmeira, Spassova, & Tat
+ity for the decisions. People avoid delegating if the rules of their     Keh, 2015), delegation does seem to allow people to feel less
+organization dictate that they themselves will still be held respon-     responsible (Steffel & Williams, in preparation-a). Although delega-
+sible for the choice outcomes. They also avoid delegating if the         tion may provide people with some relief, ceding decision control
+potential surrogate is of lower status because, regardless of who        to others and shirking that responsibility may be threatening to
+is deemed officially responsible, they believe that they themselves      people's self-esteem and therefore depleting (Usta & Häubl, 2011).
+will still feel responsible for the decision and be blamed for its out-
+comes should the decision turn out poorly.                                   Additionally, whereas the present research focused on the per-
+                                                                         spective of the person opting to choose themselves or delegate,
+13. General discussion                                                   future research might consider the perspective of the person for
+                                                                         whom the decision was made. When someone delegates a deci-
+    The present research shows that although people are often            sion, how might the person who experiences the consequences of
+reluctant to allow others to make decisions that impact them per-        that decision assign blame to the person who delegated the deci-
+sonally, they are more eager to delegate decisions or ``pass the         sion versus the person who ultimately made the decision? Further-
+buck" when they are faced with decisions that affect other people.       more, how competent would they perceive someone who
+People are more likely to delegate choices for others than choices       delegated a decision to be, and would they be likely to entrust that
+for themselves, especially choices with potentially negative conse-      person with other decisions in the future? There is some evidence
+quences, stemming from a desire to avoid feeling responsible or          in the context of economic games to suggest that those affected by
+being blamed for such decisions rather than a desire to avoid diffi-     a delegated decision are more likely to blame and therefore punish
+cult choices or a lack of concern for the decisions' consequences.       the person who ultimately made the decision as opposed to the
+Although the degree to which decision makers anticipate being            person who delegated (Bartling & Fischbacher, 2012). Future
+blamed by the person for whom they are deciding is predictive            research may explore whether this generalizes beyond the game
+of the tendency to delegate, how much they expect to feel respon-        context, in which the rules of the game may dictate what consti-
+sible for the other person's outcome, even if they do not expect to      tutes fair play, to organizational contexts in which the norms and
+be blamed, increases delegation as well. As evidence of this, people     expectations for appropriate behavior may differ. Finally, although
+were more likely to delegate when choosing for another person            delegators may fear that others may judge them harshly if they
+than for themselves regardless of whether the person for whom            were to delegate choices with which they were entrusted, research
+they were choosing knew who chose on their behalf, and people            from the literature on advice-seeking hints that their chosen surro-
+were especially likely to delegate when that person would know           gates may actually be flattered to be sought out and judge delega-
+their identity. Additionally, people seem to care more about avoid-      tors to be more competent as a result (Brooks, Gino, & Schweitzer,
+ing blame for bad outcomes than getting credit for good outcomes,        2015).
+as evidenced by the fact that people were equally likely to delegate
+a choice between attractive options regardless of whether it was             Another route for future research to take might be to examine
+for themselves, someone who would know their identity as the             other factors that restrict or decrease people's likelihood of passing
+decision maker, or someone who would not know their identity.            the buck. Just as people's relative status and power within an orga-
+Delegation confers benefits that other forms of choice avoidance,        nization may determine whether and to whom they are able to del-
+like delaying the choice or choosing at random, do not, namely,          egate, other social roles may restrict delegation as well. For
+the ability to transfer responsibility for the outcome of the choice     example, it might be more difficult for someone to pass the buck
+to another party. Consequently, people are more likely to delegate       to an outside party (e.g., a consultant or a member of another orga-
+but not delay or flip a coin to resolve decisions for others than deci-  nization) than to another insider. Likewise, a parent might not feel
+sions for themselves. Nonetheless, delegation of choices for others      able or willing to delegate decisions regarding his or her children,
+is constrained--people feel comfortable delegating to someone            as the expectation that a parent will be the responsible party is too
+without expertise relevant to the decision so long as that person        high and the idea of entrusting such decisions to outsiders might
+will assume responsibility for the choice, but they only feel able       be too aversive. In addition to people's current social roles, people's
+to pass the buck to another person who has the authority to truly        aspired social roles and career trajectories may also matter. For
+assume the responsibility for the decision outcome.                      example, a person who aspires to be promoted within a company
+                                                                         might be less inclined to delegate their tasks and decisions as doing
+13.1. Limitations and future directions                                  so might suggest that they want less rather than more responsibil-
+                                                                         ity. Although Experiment 3 suggests that people are not less likely
+    Our studies are designed to examine the decision to pass the         to delegate decisions with positive consequences with the hope of
+buck, and show that the anticipated consequences of the decision         earning credit or praise for such decisions, in cases where people
+determine the likelihood of delegating. One could imagine, how-          are aspiring to a higher position, people may sometimes even seek
+ever, that what people anticipate happening and what really hap-         out decision responsibility so long as the expectation for success is
+pens after the decision might be different. An interesting direction     high so that they can demonstrate their ability to take on addi-
+for future research would be to examine whether delegation actu-         tional responsibility.
+ally allows people to avoid these negative emotional consequences.
+Does it allow people to avoid feelings of responsibility, or do peo-     13.2. Theoretical and practical implications
+ple still feel responsible despite their best efforts to transfer
+responsibility to others? Do they feel relief upon ceding responsi-          Although the term ``passing the buck" is common, there is at
+bility to others? Or do they feel guilt or shame for failing to make     present little research examining when people are likely to do so
+a decision themselves, for burdening another person with the deci-       and to whom they may do so. Understanding the dynamics of del-
+sion, or for the consequences of the ultimate decisions? We suspect      egation generally and buck passing specifically is of theoretical
+that delegation might, in fact, free people from feeling responsible     consequence for researchers in management, marketing, psychol-
+for others' outcomes. At least for personal decisions, even though       ogy, and of practical consequence for managers, marketers, and
+taking others' advice does not allow advice takers to feel less          anyone who bears responsibility for making decisions for others.
+                                                                         For instance, the fact that decision makers are more likely to dele-
+                                                                         gate decisions on behalf of others than ones on their own behalf
+                                                                         suggests that people who are in a position of making decisions
+M. Steffel et al. / Organizational Behavior and Human Decision Processes 135 (2016) 32­44  43
+
+for others may be more amenable to others' input and support than     will have less control over the outcome of the decision, and they
+those making choices for themselves. Likewise, encouraging people     may expect to assume the blame for the decision regardless of
+to think about the other people who may be affected by their deci-    whether or not they make it themselves. Most of all, this research
+sions may make them feel more responsible for the outcome and         identifies choice delegation as a meaningful and relevant topic for
+thus more amenable to seeking counsel from others. Another            study, emphasizing that studying decision making necessitates not
+meaningful contribution is in identifying to whom people can del-     only understanding what people want to choose but how they
+egate in order to successfully pass the buck. The fact that people    wish to make a choice and whether they want take responsibility
+prefer delegation to deferral, that they only delegate to other peo-  for doing so.
+ple rather than opt to have inanimate objects or chance make the
+decision, and that they only delegate to people with the status to    Appendix A
+assume responsibility for the decision, suggests that delegation is
+something more complex and nuanced than simple decision avoid-            In Experiments 2, 3, 5, and 6, participants considered a choice
+ance. Practically, it suggests that automated agents like algorithms  between the following hotels. Participants considered three
+cannot take the place of human agents as potential surrogates. It     unattractive or attractive hotel options in Experiments 2 and 3,
+also points to why managers may sometimes fail to delegate deci-      and they considered the first two unattractive hotels in Experi-
+sions to other employees even when not doing so contributes to        ments 5 and 6.
+organizational inefficiencies--because delegating means that they
+44  M. Steffel et al. / Organizational Behavior and Human Decision Processes 135 (2016) 32­44
+
+References                                                                                Morey, R. A., McCarthy, G., Selgrade, E. S., Seth, S., Nasser, J. D., & LaBar, K. S. (2012).
+                                                                                               Neural systems for guilt from actions affecting self versus others. Neuroimage,
+Anderson, C. J. (2003). The psychology of doing nothing: Forms of decision                     60, 683­692.
+     avoidance result from reason and emotion. Psychological Bulletin, 129, 129­167.
+                                                                                          Palmeira, M., Spassova, G., & Tat Keh, H. (2015). Other-serving bias in advice-taking:
+Bartling, B., & Fischbacher, U. (2012). Shifting the blame: On delegation and                  When advisors receive more credit than blame. Organizational Behavior and
+     responsibility. Review of Economic Studies, 79, 67­87.                                    Human Decision Processes, 130, 13­25.
+
+Beattie, J., Baron, J., Hershey, J. C., & Spranca, M. (1994). Psychological determinants  Rosenthal, R., & Rosnow, R. L. (1985). Contrast analysis: Focused comparisons in the
+     of decision attitude. Journal of Behavioral Decision Making, 7, 129­144.                  analysis of variance.New York, NY: Cambridge.
+
+Botti, S., & Iyengar, S. S. (2004). The psychological pleasure and pain of choosing:      Ryan, R. M., & Deci, E. L. (2000). Self-determination theory and the facilitation of
+     When people prefer choosing at the cost of subsequent outcome satisfaction.               intrinsic motivation, social development, and well-being. American Psychologist,
+     Journal of Personality and Social Psychology, 87, 312­326.                                55, 65­78.
+
+Botti, S., & McGill, A. L. (2006). When choosing is not deciding: The effect of           Schwartz, B. (2004). The tyranny of choice. Scientific American, 290, 70­75.
+     perceived responsibility on satisfaction. Journal of Consumer Research, 33,          Siegel, N. (2014). Should parents be held responsible for children's serious crimes? NPR,
+     211­219.
+                                                                                               December 16 Retrieved from<http://www.npr.org/2014/12/16/371264533/
+Botti, S., Orfali, K., & Iyengar, S. S. (2009). Tragic choices: Autonomy and emotional         should-parents-be-legally-responsible-for-childrens-serious-crimes>.
+     responses to medical decisions. Journal of Consumer Research, 36, 337­352.           Solomon, M. R. (1987). The wardrobe consultant: Exploring the role of a new
+                                                                                               retailing partner. Journal of Retailing, 63, 110­128.
+Brooks, A. W., Gino, F., & Schweitzer, M. E. (2015). Smart people ask for (my) advice:    Steffel, M., & Williams, E. F. (2015). Delegating decisions: Recruiting others to make
+     Seeking advice boosts perceptions of competence. Management Science, 61,                  difficult choices, in preparation-a.
+     1421­1435.                                                                           Steffel, M., & Williams, E. F. (2015). Empowering patients to make their own health
+                                                                                               care choices: Increasing the subjective ease of medical decisions increases
+Degner, L. F., & Sloan, J. A. (1992). Decision making during serious illness: What role        patient participation, in preparation-b.
+     do patients really want to play? Journal of Clinical Epidemiology, 45, 941­950.      Tetlock, P. E., & Boettger, R. (1994). Accountability amplifies the status quo effect
+                                                                                               when change creates victims. Journal of Behavioral Decision Making, 7, 1­23.
+Dhar, R., & Nowlis, S. M. (1999). The effect of time pressure on consumer choice          Usta, M., & Häubl, G. (2011). Self-regulatory strength and consumers'
+     deferral. Journal of Consumer Research, 25, 369­384.                                      relinquishment of decision control: When less effortful decisions are more
+                                                                                               resource depleting. Journal of Consumer Research, 48, 403­412.
+Feng, B., & MacGeorge, E. L. (2006). Predicting receptiveness to advice:                  Vohs, K. D., Baumeister, R. F., Schmeichel, B. J., Twenge, J. M., Nelson, N. M., & Tice, D.
+     Characteristics of the problem, the advice-giver, and the recipient. Southern             M. (2008). Making choices impairs subsequent self-control: A limited-resource
+     Communication Journal, 71, 67­85.                                                         account of decision making, self-regulation, and active initiative. Journal of
+                                                                                               Personality and Social Psychology, 94, 883­898.
+Hayes, A. F. (2013). Introduction to mediation, moderation, and conditional process       Vroom, V. H., & Yetton, P. W. (1973). Leadership and decision making.Pittsburgh, PA:
+     analysis.New York, NY: Guilford Press.                                                    University of Pittsburgh Press.
+                                                                                          Weaver, R. K. (1986). The politics of blame avoidance. Journal of Public Policy, 6,
+Iyengar, S. S., & Lepper, M. R. (2000). When choice is demotivating: Can one desire            371­398.
+     too much of a good thing? Journal of Personality and Social Psychology, 79,          Zeelenberg, M. (1999). Anticipated regret, expected feedback, and behavioral
+     995­1006.                                                                                 decision making. Journal of Behavioral Decision Making, 12, 93­106.
+                                                                                          Zeelenberg, M., van Dijk, W. W., Manstead, A. S. R., & van der Pligt, J. (2000). On bad
+Jungermann, H., & Fischer, K. (2005). Using expertise and experience for giving and            decisions and disconfirmed expectancies: The psychology of regret and
+     taking advice. In T. Betsch & S. Haberstroh (Eds.), The routines of decision making       disappointment. Cognition and Emotion, 14, 521­541.
+     (pp. 157­173). Mahwah, NJ: Lawrence Erlbaum.
+
+Kruger, J., Burrus, J., & Kressel, L. M. (2009). Between a rock and a hard place:
+     Damned if you do, damned if you don't. Journal of Experimental Social Psychology,
+     45, 1286­1290.
+
+Leana, C. R. (1986). Predictors and consequences of delegation. The Academy of
+     Management Journal, 29, 754­774.
+

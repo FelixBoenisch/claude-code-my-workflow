@@ -1,0 +1,533 @@
+                                     Journal of Behavioral and Experimental Economics 112 (2024) 102270
+                                                    Contents lists available at ScienceDirect
+
+                     Journal of Behavioral and Experimental Economics
+
+                                            journal homepage: www.elsevier.com/locate/jbee
+
+Measuring preferences for algorithms -- How willing are people to cede
+control to algorithms?
+
+Radosveta Ivanova-Stenzel, Michel Tolksdorf 
+
+Technische Universität Berlin, Germany
+
+ARTICLE INFO         ABSTRACT
+
+JEL classification:  We suggest a simple method to elicit individual preferences for algorithms. By altering the monetary incentives
+C91                  for ceding control to the algorithm, the menu-based approach allows for measuring in particular the degree
+D83                  of algorithm aversion. Using an experiment, we elicit preferences for algorithms in an environment with
+D91                  measurable performance accuracy under two conditions -- the absence and the presence of information about
+                     the algorithm's performance. Providing such information raises subjects' willingness to rely on algorithms when
+Keywords:            ceding control to the algorithm is more costly than trusting in their own assessment. However, algorithms are
+Algorithm aversion   still underutilized.
+Delegation
+Experiment
+Preferences
+
+1. Introduction                                                           algorithm (Efendi et al., 2020), time pressure (Jung & Seiter, 2021),
+                                                                          learning (Filiz et al., 2021), the illusion of better understanding human
+    Algorithms are omnipresent and have become a fundamental part         than algorithm decision-making (Bonezzi et al., 2022), or consequences
+of our daily life. When solving problems, humans are increasingly         of failure (Filiz et al., 2023). Several factors influencing algorithm ap-
+faced with the choice of whether to delegate decisions to algorithms      preciation have also been identified, such as the nature of the task (Logg
+in business, medicine, public policy, as well as in everyday situations.  et al., 2019), performance feedback (You et al., 2022), and incen-
+Two phenomena dominate the ongoing discussion on the interaction          tives (Greiner et al., 2022), to name a few. An increasing number of pa-
+between humans and algorithms: algorithm aversion and algorithm ap-       pers focus on finding ways to overcome algorithm aversion and increase
+preciation. Algorithm aversion describes the human reluctance to rely     algorithm appreciation. This includes permitting subjects to modify the
+on decisions or recommendations made by an algorithm in favor of re-      decisions produced by an algorithm or to select which information the
+lying on the own judgment (Dietvorst et al., 2015). Algorithm appreci-    algorithm processes (Dietvorst et al., 2018; Jung & Seiter, 2021; Sele &
+ation is defined as the opposite phenomenon: a human decision-maker       Chugunova, 2024), as well as demonstrating the algorithm's ability to
+prefers algorithmic judgment to human judgment (Logg et al., 2019).1      learn and improve (Berger et al., 2021; Reich et al., 2023).2
+
+    The literature has identified a number of factors that influence the      Despite the large body of literature on algorithm aversion and
+presence of algorithm aversion, e.g., performance feedback (Alexander     algorithm appreciation, far too little is known about the strength of
+et al., 2018; Dietvorst et al., 2015; Jung & Seiter, 2021), the charac-   the preferences for algorithms, in particular the degree of algorithm
+teristics of the task (Dietvorst & Bharti, 2020), response time of the    aversion.3 The methodology used so far involves the choice between
+
+   We thank Max Padubrin, Felix Bönisch, and participants of the Berlin Behavioral Economics reading group, the Meeting of the Verein für Socialpolitik
+2023, the Meeting of the CRC ``Rationality and Competition'', and the 2023 European Winter Meeting of the Econometric Society. Financial support by Deutsche
+Forschungsgemeinschaft, Germany through CRC TRR 190 ``Rationality and Competition'' (project number 280092119) as well as by the Berlin Centre for Consumer
+Policies (BCCP), Germany, is gratefully acknowledged. The study was pre-registered at AsPredicted.org (#112129).
+
+   Corresponding author.
+      E-mail addresses: ivanova-stenzel@tu-berlin.de (R. Ivanova-Stenzel), michel.tolksdorf@tu-berlin.de (M. Tolksdorf).
+
+   1 For a comprehensive interdisciplinary review on how humans interact with automated agents, see Chugunova and Sele (2022).
+   2 Jussupow et al. (2020) provide an overview of empirical evidence on algorithm aversion and appreciation. Mahmud et al. (2022) review the factors that
+affect algorithm aversion. Kaufmann et al. (2023) review the task-dependence of algorithm advice acceptance.
+   3 One approach to measure preferences for algorithms is by eliciting the Weight on Advice (WOA) via the Judge Advisor System (JAS) used, e.g., in Logg
+et al. (2019). In the JAS, participants may revise an initial judgment after receiving advice. Participants' algorithm use is then measured as the WOA. The WOA
+ranges from 0% to 100% when a participant revises their judgment toward the advice. WOA is 0% when the advice is ignored or the revised judgment is in the
+opposite direction of the advice. Thus, the JAS allows for a conclusive measurement only of the degree of algorithm appreciation.
+
+https://doi.org/10.1016/j.socec.2024.102270
+Received 31 January 2024; Received in revised form 26 June 2024; Accepted 17 July 2024
+Available online 24 July 2024
+2214-8043/© 2024 The Authors. Published by Elsevier Inc. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).
+R. Ivanova-Stenzel and M. Tolksdorf                                                            Journal of Behavioral and Experimental Economics 112 (2024) 102270
+
+one's own decision and the algorithm's decision when facing a problem               Following Dietvorst et al. (2015), Logg et al. (2019), and Jung and
+on what might be called a ceteris paribus basis. That is, with all things       Seiter (2021), our experiment consisted of 11 rounds. In the first 10
+being equal, which judgment would subjects prefer? This approach                unincentivized rounds, participants were asked to forecast the rank of a
+neither captures the heterogeneity of preferences for algorithms nor            randomly chosen U.S. state in terms of departing air passengers in 2011
+takes the costs of employing algorithms into account. While it allows           based on five pieces of information (number of major airports, rank of
+for measuring the effects of interventions aiming to overcome algorithm         population, rank of county, rank of median household income, rank
+aversion at the extensive margin, it misses the effects at the intensive        of expenditure on domestic travel). In both conditions, participants
+margin. In this paper, we take the investigation a step further and sug-        got feedback comprising this information, their forecast, and the true
+gest a simple method that allows for the measurement of the intensity           rank. In the Human-Algorithm condition, they additionally received
+of the preferences for algorithms.                                              information on what rank an algorithm predicted for this task.4
+
+    Consider a payoff-relevant task that can be performed by an al-                 In the final payoff-relevant round, subjects first had to decide
+gorithm. The method allows for finding an answer to the question:               whether their own forecast or the forecast of the algorithm should be
+``How many monetary benefits are subjects willing to give up to avoid           used to determine their payoff in that round. For each unit of deviation
+the algorithm?'' It involves presenting subjects with a menu of simple          of the forecast from the true rank, the payoff was reduced by the
+choice problems. In each problem, subjects can choose between per-              penalty rate . More precisely, the payment rule was
+forming the task on their own or delegating it to the algorithm. The
+problems differ with respect to the performance-based payoff when the           payoff = 7 -   |forecast - true rank|
+algorithm is chosen. By varying the payoff for employing the algorithm,
+the menu-based approach allows for measuring the degree of algorithm            in EUR. Thus, the unit of deviation in a forecast is the measure for
+aversion.                                                                       forecasting inaccuracy.
+
+    We apply the suggested fine-grained method and elicit subjects' al-             In contrast to the previous studies, where subjects made a single
+gorithm attitudes under two conditions--the absence and the presence            choice between using their own forecast or the algorithm's forecast to
+of information about the algorithm's performance. Our experimental              determine their payoff, participants in our experiment made decisions
+results show the existence of potentially strong preferences for algo-          in nine choice problems, see Table 1. For the case in which the subject's
+rithms. In both conditions, subjects exhibit lower algorithm aversion           own forecast becomes payoff-relevant, the penalty rate own remains
+compared to the incentive-based prediction, i.e., when taking into              constant across all nine problems. For the case that the algorithm's
+account only the size of the payment reduction for inaccurate forecasts.        forecast is used to determine the subject's payoff, the penalty rate alg
+Still, subjects underutilize algorithms compared to a performance-based         increases when going down the list of choice problems. In the first
+prediction, i.e., when taking into account feedback on the subject's            choice problem, the algorithm forecast is payoff-irrelevant (alg = 0).
+own performance and the algorithm's performance. In the presence                In the fifth choice problem, the penalty rate is the same regardless of
+of feedback on the algorithm's performance, we find a correlation of            the type of forecast, human or algorithm (own = alg = 0.12). Hence,
+predicted and observed algorithm choices. This correlation is largely           the fifth choice problem corresponds to the single choice subjects
+driven by beliefs about the algorithm's and the own performance.                usually faced in previous studies (e.g., Dietvorst et al., 2015; Jung &
+Providing information about the algorithm's performance positively              Seiter, 2021; Logg et al., 2019).
+affects the use of algorithms.
+                                                                                    A subject who is only concerned with the size of the payment
+    When applying the binary measure commonly used in previous                  reduction would stop choosing the algorithm when alg > own
+studies to our data, we are unable to detect either the positive effect on      (incentive-based prediction).
+the algorithm's performance or the role of beliefs. This demonstrates
+that the suggested menu-based approach can uncover differences in                   Taking performance feedback into account, it would be optimal to
+algorithm preferences that methods which rely on ceding control to              stop choosing the algorithm for
+algorithms, when the payoff consequences are identical, might miss.
+                                                                                alg  >  own       |own forecast-true rank| ,
+2. Experimental design
+                                                                                               |algorithm's forecast-true rank|
+    We apply the suggested method to elicit preferences for algorithms
+in a forecasting task used in several experimental studies, which gives         where |own forecast - true rank| and |algorithm's forecast - true rank|
+subjects a choice between making a forecast decision themselves or              are the individual averages of the performances in the 10 unincen-
+delegating it to an algorithm (e.g., Dietvorst et al., 2015; Jung & Seiter,
+2021; Logg et al., 2019). Those studies typically report that partici-          tivized rounds (performance-based prediction).
+pants prefer the algorithm's decision over their own in 40 to 60% of
+cases, providing sufficient margins for both algorithm appreciation and         After subjects decided on all nine choice problems, they had to make
+aversion. Moreover, performance in forecasting tasks can be precisely
+measured after observing the realized outcomes. Furthermore, these              a forecast once again. At the end of the round, subjects were asked
+tasks enable the elicitation of algorithm performance on the same scale
+as human performance.                                                           questions that dealt with their confidence regarding their own and
+
+    As performance feedback plays a crucial role in the occurrence of al-       the algorithm's forecasting performance. Furthermore, they were asked
+gorithm aversion (see surveys by Jussupow et al., 2020; Mahmud et al.,
+2022, and the studies cited therein), we used a between-subjects design         about their beliefs regarding the expected error in their own forecast
+and implemented two conditions, which differed with respect to the
+feedback participants received. In the ``Human''-condition, participants        and in the algorithm's forecast (see Table A.1 in the Appendix for the
+only got feedback on their performance. In the ``Human-Algorithm''-
+condition, they saw the algorithm's performance in addition to their            set of questions).
+own performance. By keeping the experience with the task constant
+(i.e., providing feedback on participants' performance) between con-            At the end of the experiment, one of the nine choice problems was
+ditions, we can isolate and measure the effect of feedback on the
+algorithm's performance.                                                        randomly selected and implemented for real payment. Participants had
+
+                                                                                to fill in a post-experimental questionnaire that contained, among other
+
+                                                                                things, a self-assessed, hypothetical measure of risk attitude on a 0­
+
+                                                                                10 scale (SOEP). We also elicit subjects' attitudes toward ambiguity.
+
+                                                                                Altogether, the experiment encompassed a total of 212 subjects (106
+
+                                                                                per condition). The experiment was conducted with students at the
+
+                                                                                Technische Universität Berlin (47%/52% female in the Human/Human-
+
+                                                                                Algorithm condition). Participants were invited to the experiment with
+
+                                                                                ORSEE (Greiner, 2015). All experimental sessions were conducted using
+
+                                                                                z-Tree (Fischbacher, 2007). The average length of a session was 45 min.
+
+                                                                                The average total earnings per participant was 13.68 EUR, including a
+
+                                                                                show-up fee of 6 EUR.5
+
+                                                                                   4 We used the original algorithm employed in Experiment 3A/B by
+                                                                                Dietvorst et al. (2015).
+
+                                                                                   5 See Web Appendix for a translated version of the instructions.
+
+                                                                             2
+R. Ivanova-Stenzel and M. Tolksdorf                                              Journal of Behavioral and Experimental Economics 112 (2024) 102270
+
+Table 1
+The payoff structure of the nine paired choice problems.
+
+Choice                               Payoff (own forecast) in EUR             Payoff (algorithm forecast) in EUR            Penalty rate difference
+problem                              7 - own  |forecast - true rank|          7 - alg  |forecast - true rank|               (alg - own)
+
+1                                    7 - 0.12  | forecast - true rank|        7 - 0  | forecast - true rank|                -0.12
+                                                                              7 - 0.03  | forecast - true rank|             -0.09
+2                                    7 - 0.12  | forecast - true rank|        7 - 0.06  | forecast - true rank|             -0.06
+                                                                              7 - 0.09  | forecast - true rank|             -0.03
+3                                    7 - 0.12  | forecast - true rank|        7 - 0.12  | forecast - true rank|             0
+                                                                              7 - 0.15  | forecast - true rank|             0.03
+4                                    7 - 0.12  | forecast - true rank|        7 - 0.18  | forecast - true rank|             0.06
+                                                                              7 - 0.21  | forecast - true rank|             0.09
+5                                    7 - 0.12  | forecast - true rank|        7 - 0.24  | forecast - true rank|             0.12
+
+6                                    7 - 0.12  | forecast - true rank|
+
+7                                    7 - 0.12  | forecast - true rank|
+
+8                                    7 - 0.12  | forecast - true rank|
+
+9                                    7 - 0.12  | forecast - true rank|
+
+                                     Fig. 1. Relative share of the number of times the algorithm was chosen per condition.
+
+3. Results                                                                           Fig. 2 presents the proportion of algorithm choices for each of the
+                                                                                 nine choice problems per condition for all participants (left graph)
+    Fig. 1 illustrates the heterogeneity of participants' preferences for        and those who exhibit monotonic preferences (right graph). The figure
+algorithms by showing the number of times participants chose the                 includes reference lines representing the incentive-based prediction
+algorithm for each condition. The number of algorithm choices is an              (dotted line) and the performance-based prediction (dashed line) based
+indicator of the degree of algorithm aversion. In Human, the number              on data from both conditions. For the derivation of both predictions, see
+of times the algorithm was chosen peaks at five, while it peaks at both          Section 2. In Human, participants behave close to the incentive-based
+four and five in Human-Algorithm. In Human, 17% of the participants              prediction: the share of algorithm choices drops from 81% in problem 4
+choose the algorithm zero to three times, opposed to 9% in Human-                to 22% in problem 6 (83 to 22% in the case of monotonic preferences).
+Algorithm. In contrast, in Human-Algorithm 38% of the participants               In Human-Algorithm, the proportion of algorithm choices is close to
+choose the algorithm six to nine times, opposed to 23% in Human. The             both (aligned) predictions in problems 1 to 4, particularly in the case
+majority of participants (94% in each condition) are neither completely          of monotonic preferences. In problems 6 to 9, where both predictions
+reliant on the algorithm nor do they fully cede control to the algorithm.        are not aligned, we observe a higher usage of the algorithm compared
+                                                                                 to the incentive-based prediction.
+    Next, we check whether the participants' choices are consistent
+and purposeful. In the first choice problem, where the penalty rate is               Compared to the performance-based prediction participants un-
+zero for the algorithm's forecast, 95%, respectively 93%, of the partic-         derutilize the algorithm in both conditions. Yet, we find a positive
+ipants choose the algorithm in Human, respectively Human-Algorithm.              correlation between the observed and the optimal number of times
+We consider participants as having monotonic preferences when they
+switch at most once from choosing the algorithm to choosing oneself.             85% of the participants in Human and 72% of the participants in Human-
+85% of the participants in Human and 69% of the participants in                  Algorithm switch at most once. A higher number of switches might indicate
+Human-Algorithm exhibit monotonic preferences. Note that for mono-               uncertainty about the point of indifference. Instead of using the number
+tonic preferences the number of algorithm choices designates a unique            of algorithm choices, an alternative way to deal with such non-monotonic
+crossover point from choosing the algorithm to choosing oneself.6                preferences is to consider intervals of penalty rates. The lower (upper) bound
+                                                                                 of an interval is determined by the first (last) switching point. Results do not
+   6 See Fig. A.1 in the Appendix for the distributions of the number of         change when using those intervals as the dependent variable in the regression
+switches. The mode and median number of switches are one in both conditions.     analysis.
+
+                                                                              3
+R. Ivanova-Stenzel and M. Tolksdorf                                          Journal of Behavioral and Experimental Economics 112 (2024) 102270
+
+Fig. 2. Share of algorithm choices by choice problem number (and corresponding ). The incentive-based prediction (dotted line) and the performance-based prediction (dashed
+line) are computed using data from both conditions.
+
+the algorithm was chosen in Human-Algorithm (Spearman's rank cor-            information about the algorithm's performance increases the number
+relation, all participants: (105) = 0.4056,  < 0.01, participants with       of algorithm choices by 0.5 on average.9
+monotonic preferences: (72) = 0.4414,  < 0.01). This is not the case in
+Human, where participants do not receive feedback on the algorithm's             To assess the degree of algorithm aversion in terms of the method-
+performance (all participants: (105) = 0.1154,  = 0.24, participants         ology used so far in previous studies, we reduce our data to a binary
+with monotonic preferences: (89) = 0.1349,  = 0.20).7                        form in two distinct ways. First, we classify participants with less than
+                                                                             five algorithm choices as not choosing the algorithm, and participants
+    In both conditions, participants behave very similarly up to choice      with at least five algorithm choices as choosing the algorithm. The
+problem 5 (own = alg). This changes substantially in choice problems         shares of participants who chose the algorithm obtained in this way
+6 to 9, where own < alg. The proportion of algorithm choices                 are 62% in Human and 65% in Human-Algorithm. The difference
+in Human-Algorithm is larger compared to Human, indicating that              between the two conditions is not statistically significant (two-sided
+algorithm aversion decreases in the presence of feedback on the algo-        Fisher's exact test,  = 0.78).10 Second, we limit our data only to the
+rithm's performance. Indeed, based on a Wilcoxon rank-sum test, we           single choice, where the penalty rate of the own and the algorithm's
+find significant differences between the number of algorithm choices         forecasting errors is equal (choice problem 5). This corresponds to
+in Human ( = 4.86,  = 1.64) and in Human-Algorithm ( = 5.21,                 the choices subjects usually faced in previous studies (e.g., Dietvorst
+ = 1.60), with  = 0.09.8                                                     et al., 2015; Jung & Seiter, 2021; Logg et al., 2019). The shares of
+                                                                             algorithm choices obtained in this way are 60% in Human and 58% in
+    Table 2 presents the OLS regression results on algorithm choices         Human-Algorithm.11 Again, the difference is not statistically significant
+within conditions (specifications 1 to 4) and between conditions (spec-      (two-sided Fisher's exact test,  = 0.89). Using the binary measures as
+ifications 5 and 6). In the even-numbered specifications, we consider        dependent variables in our regressions, we cannot confirm the results
+only participants with monotonic preferences. In all specifications, we      obtained with our fine-grained measure (see Table A.4 in Appendix A).
+utilize belief and confidence measures while controlling for gender,         Providing feedback on the algorithm's performance does not affect the
+risk, and ambiguity attitudes. As shown in specifications (1) and (2),       tendency to choose the algorithm. Moreover, we are not able to detect
+the confidence in both the own and the algorithm's forecast explain the      the role of confidence in the own forecast in the Human condition and
+algorithm choices in the Human condition. An increased (decreased)           the role of beliefs in the Human-Algorithm condition.
+confidence in the algorithm's (own) performance by one step on the 5-
+point Likert scale increases (decreases) the number of algorithm choices         This exercise shows that the suggested menu-based approach is able
+by around 0.5. The OLS regression results in (3) confirm the positive        to reveal differences in algorithm preferences, where the commonly
+correlation between the observed and predicted number of algorithm           used binary measures might fail.
+choices in the Human-Algorithm condition. In the case of monotonic
+preferences, as apparent in (4), this correlation seems to be driven         4. Conclusion
+by beliefs about the own and the algorithm's accuracy of forecasts.
+The larger the belief about the own (algorithm's) forecasting error, the         We suggest a simple method for the fine-grained elicitation of
+larger (lower) the number of algorithm choices. In (5) and (6), the          human preferences for algorithms. We apply it to measure how willing
+effect of the presence of information on the algorithm's performance
+is captured by the ``Human-Algorithm'' dummy variable. Providing                9 Results remain qualitatively unchanged when (i) employing interval
+                                                                             regression (Andersen et al., 2006), see Table A.3 in the Appendix, and
+   7 For the corresponding plots, see Fig. A.2 in Appendix.                  (ii) controlling for learning, i.e., by only using the second half of the 10
+   8  = 0.07, Human (M=4.88, SD=1.67), Human-Algorithm ( = 5.32,             unincentivized rounds to determine the performance-based prediction.
+ = 1.70) in the case of monotonic preferences.
+                                                                               10 See Fig. 1 for the number of times the algorithm was chosen per condition.
+                                                                               11 Note that previous studies report that subjects choose the algorithm in 40
+                                                                             to 60% of the cases.
+
+                                                                          4
+R. Ivanova-Stenzel and M. Tolksdorf                                                                              Journal of Behavioral and Experimental Economics 112 (2024) 102270
+
+Table 2                                                                                                                    Between conditions
+OLS regressions within and between conditions.
+
+                                                                Within conditions
+
+                                     Human                                                      Human-Algorithm            Reference category: Human
+                                     (1)                                                        (3)
+                                                                                   (2)                           (4)       (5)                 (6)
+                                                                                                0.194**
+Performance-based prediction         0.003                                         0.019        (0.080)          0.064     0.091               0.050
+Human-Algorithm                      (0.076)                                       (0.082)                       (0.111)   (0.055)             (0.063)
+                                                                                                                           0.474**             0.516**
+                                                                                                                 -0.365    (0.188)             (0.209)
+                                                                                                                 (0.286)
+Confidence in                        -0.476**                                      -0.538**     -0.266           0.469     -0.395**            -0.467**
+forecast (own)                       (0.208)                                       (0.243)      (0.246)          (0.353)   (0.155)             (0.188)
+forecast (alg.)                      0.556***                                      0.673***     0.416                      0.519***            0.601***
+Belief about                         (0.195)                                       (0.217)      (0.265)          0.178**   (0.156)             (0.185)
+deviation from true rank (own)                                                                                   (0.081)
+deviation from true rank (alg.)      0.011                                         0.006        0.016            -0.209**  0.011               0.036
+perfect prediction (own)             (0.034)                                       (0.037)      (0.019)          (0.104)   (0.015)             (0.037)
+perfect prediction (alg.)            0.004                                         0.020        -0.016           -0.140    0.006               -0.006
+Constant                             (0.042)                                       (0.053)      (0.033)          (0.207)   (0.025)             (0.048)
+                                     -0.394*                                       -0.400       -0.305*          0.399**   -0.379***           -0.396**
+                                     (0.214)                                       (0.242)      (0.179)          (0.172)   (0.136)             (0.158)
+                                     0.389*                                        0.318        0.477***         2.679*    0.473***            0.491***
+                                     (0.233)                                       (0.286)      (0.161)          (1.358)   (0.129)             (0.149)
+                                     4.522***                                      4.426***     2.720*                     2.935***            2.506**
+                                     (1.255)                                       (1.440)      (1.439)          Yes       (1.013)             (1.030)
+                                                                                                                 Yes
+Gender                               Yes                                           Yes          Yes              Yes       Yes                 Yes
+Ambiguity and risk aversion          Yes                                           Yes          Yes              73        Yes                 Yes
+Only monotonic                       No                                            Yes          No               0.526     No                  Yes
+Observations                         106                                           90           106                        212                 163
+2                                    0.380                                         0.422        0.389                      0.373               0.451
+
+Standard errors in parentheses. The dependent variable is the number of algorithm choices.
+* Significance at the 10% level.
+** Significance at the 5% level.
+*** Significance at the 1% level.
+
+people are to cede control to algorithms under two conditions, the ab-                          CRediT authorship contribution statement
+sence and the presence of information on the algorithm's performance.
+                                                                                                    Radosveta Ivanova-Stenzel: Writing ­ review & editing, Writing
+    We find that providing information about the performance of the                             ­ original draft, Visualization, Validation, Supervision, Software, Re-
+algorithm reduces human reluctance to rely on algorithms. This effect                           sources, Project administration, Methodology, Investigation, Funding
+would have been missed when applying the commonly used binary                                   acquisition, Formal analysis, Data curation, Conceptualization. Michel
+method. Our results reveal that the latter may be insufficient given                            Tolksdorf: Writing ­ review & editing, Writing ­ original draft, Vi-
+the heterogeneity of human preferences and the complexity of the                                sualization, Validation, Supervision, Software, Resources, Project ad-
+underlying decision problem.                                                                    ministration, Methodology, Investigation, Funding acquisition, Formal
+                                                                                                analysis, Data curation, Conceptualization.
+    The proposed method allows for inspecting the consistency of
+choices, distinguishing between monotonic and non-monotonic pref-                               Data availability
+erences, and capturing the variety of the degree of algorithm aver-
+sion among individuals. This heterogeneity could be an explanatory                                  Data will be made available on request.
+factor for economically consequential decisions on the use of algo-
+rithms in several domains, e.g., delegation of hiring decisions to al-                          Appendix A
+gorithms (Dargnies et al., 2024), relying on algorithm advice in price                          A.1. Additional figures
+estimation tasks (Greiner et al., 2022), seeking advice of algorithms
+in moral dilemmas (Leib et al., 2024), or delegation to algorithms in                               See Figs. A.1 and A.2.
+financial decision-making (Germann & Merkle, 2023).
+                                                                                                A.2. Additional tables
+    Measuring the strength of people's preferences for algorithms is
+the first step toward creating a standardized assessment of algorithm                               See Tables A.1­A.3.
+aversion. A standardized measurement can confirm existing research
+findings and facilitate the development and validation of simple sur-                           Appendix B. Supplementary data
+vey items to evaluate algorithm aversion. Furthermore, the suggested
+method can be employed to distinguish preferences for algorithms from                               Supplementary material related to this article can be found online
+preferences for external advice in general. For example, one could                              at https://doi.org/10.1016/j.socec.2024.102270.
+measure the willingness to cede control to another human and compare
+it to the willingness to cede control to an algorithm.12 We plan to
+investigate this matter in future work by using data from the present
+study as the performance of another human in the task.
+
+  12 In a similar vein, Dietvorst et al. (2015) and Logg et al. (2019) identified
+the role of authority when comparing human to algorithm choices. They report
+that algorithm uptake is lower in the choice between oneself and an algorithm
+compared to the choice between another human and an algorithm.
+
+                                                                                             5
+R. Ivanova-Stenzel and M. Tolksdorf                                              Journal of Behavioral and Experimental Economics 112 (2024) 102270
+
+Fig. A.1. Relative share of number of switches between oneself and the algorithm in the choice problems by condition.
+
+                      Fig. A.2. Observed and performance-based predicted number of algorithm choices per condition with fitted values (solid) and 45 line (dashed).
+
+Table A.1
+Belief and confidence questions.
+
+  How many ranks do you think the algorithm's estimate is away from the state's true rank? (0­50)
+  How many ranks do you think your estimate is away from the state's true rank? (0­50)
+  How much confidence do you have in your estimate? (1 = ; 5 =  )
+  How much confidence do you have in the algorithm's estimate? (1 = ; 5 =  )
+  How likely is it that you predicted the state's rank almost perfectly? (1 = extremely unlikely; 8 = extremely likely)
+  How likely is it that the algorithm predicted the state's rank almost perfectly? (1 = extremely unlikely; 8 = extremely likely)
+
+Table A.2
+Mean forecasting performance of participants and algorithm by condition with std. dev. in brackets.
+
+                                     |own forecast - true rank|     |algorithm forecast - true rank|  Paired -test
+
+Unincentivized forecasts             6.61 (2.63)                    4.3 (1.12)                        (953) = 25.40,  < 0.01
+Human                                6.88 (3.32)                    4.36 (1.18)                       (953) = 23.42,  < 0.01
+Human-Algorithm
+                                                                                                      (105) = 4.51,  < 0.01
+Incentivized forecast                6.26 (5.11)                    3.84 (3.77)                       (105) = 7.03,  < 0.01
+Human                                7.08 (5.48)                    3.74 (3.62)
+Human-Algorithm
+
+                                                                 6
+R. Ivanova-Stenzel and M. Tolksdorf                                                                                         Journal of Behavioral and Experimental Economics 112 (2024) 102270
+
+Table A.3                                                                                                                                         Between conditions
+Interval regressions within and between conditions.
+
+                                                                   Within conditions
+
+                                              Human                                                        Human-Algorithm                        Reference category: Human
+
+                                              (1)                                     (2)                  (3)                (4)                 (5)                 (6)
+
+Performance-based prediction                  -0.044                                  -0.003               0.353              0.070               0.132               0.065
+Human-Algorithm                               (0.197)                                 (0.203)              (0.222)            (0.276)             (0.153)             (0.161)
+Confidence in                                                                                                                                     1.434***            1.410**
+Confidence in forecast (own)                  -1.132**                                -1.124*              -0.518             -0.555              (0.526)             (0.568)
+Confidence in forecast (algorithm)            (0.541)                                 (0.580)              (0.651)            (0.776)
+Belief of                                     1.787***                                1.974***             1.118              0.863               -0.875**            -0.923*
+Belief of deviation (own)                     (0.521)                                 (0.557)              (0.838)            (1.001)             (0.428)             (0.477)
+Belief of deviation (algorithm)                                                                                                                   1.522***            1.604***
+Perfect prediction (own)                      0.066                                   0.056                0.167              0.596**             (0.458)             (0.500)
+Perfect prediction (algorithm)                (0.091)                                 (0.092)              (0.159)            (0.248)
+Constant                                      -0.036                                  -0.005               -0.119             -0.682**            0.086               0.129
+lnsigma                                       (0.130)                                 (0.133)              (0.195)            (0.298)             (0.084)             (0.096)
+                                              -0.670                                  -0.708               -0.782             -0.411              -0.014              -0.055
+                                              (0.464)                                 (0.514)              (0.523)            (0.512)             (0.111)             (0.123)
+                                              0.425                                   0.312                1.366***           1.075**             -0.872**            -0.868**
+                                              (0.574)                                 (0.660)              (0.425)            (0.450)             (0.356)             (0.390)
+                                              13.276***                               13.050***            6.338*             7.868**             1.106***            1.063***
+                                              (3.494)                                 (3.542)              (3.756)            (3.617)             (0.341)             (0.388)
+                                              1.176***                                1.189***             1.153***           1.144***            7.234**             7.340**
+                                              (0.090)                                 (0.091)              (0.085)            (0.089)             (2.860)             (2.864)
+                                                                                                                                                  1.187***            1.201***
+                                                                                                                                                  (0.059)             (0.060)
+
+Gender                                        Yes                                     Yes                  Yes                Yes                 Yes                 Yes
+
+Ambiguity and risk aversion                   Yes                                     Yes                  Yes                Yes                 Yes                 Yes
+
+Only monotonic                                No                                      Yes                  No                 Yes                 No                  Yes
+
+Observations                                  100                                     85                   98                 68                  198                 153
+
+Standard errors in parentheses. Estimation by interval regression. The dependent variable is the interval of penalty rate (). The lower (upper) bound of the interval is determined
+by the first (last) switching point. For example, for a participant with three switches who switches from algorithm to own forecast in choice problem 3, then back to algorithm
+in choice problem 4, and then back to own forecast in choice problem 5, the interval of  is [0.04, 0.12]. Effect sizes are expressed in euro cents.
+* Significance at the 10% level.
+** Significance at the 5% level.
+*** Significance at the 1% level.
+
+Table A.4                                                                                                            Dependent variable: Choice in problem 5
+OLS regressions within and between conditions (binary classification and fifth choice).
+
+                                                    Dependent variable: Binary classification
+
+                                     Human    Human-Algorithm                         Reference category:            Human (4)          Human-Algorithm       Reference category:
+                                     (1)      (2)                                     Human                                             (5)                   Human
+                                                                                      (3)                                                                     (6)
+
+Performance-based prediction         0.106    0.432***                                0.255***                       0.022              0.366***              0.174**
+Human-Algorithm                      (0.127)  (0.117)                                 (0.090)                        (0.121)            (0.121)               (0.086)
+                                                                                      0.048                                                                   0.005
+Confidence in                        -0.090   -0.165*                                 (0.062)                        -0.042             -0.066                (0.065)
+Confidence in forecast (own)         (0.064)  (0.090)                                                                (0.064)            (0.101)
+Confidence in forecast (algorithm)   0.129*   0.172**                                 -0.095*                        0.152**            0.139*                -0.043
+Belief of                            (0.074)  (0.083)                                 (0.052)                        (0.065)            (0.080)               (0.052)
+Belief of deviation (own)                                                             0.132**                                                                 0.136***
+Belief of deviation (algorithm)      0.009    0.003                                   (0.054)                        0.014              0.007                 (0.049)
+Perfect prediction (own)             (0.013)  (0.006)                                                                (0.014)            (0.007)
+Perfect prediction (algorithm)       -0.014   0.018                                   0.006                          -0.003             -0.007                0.010*
+Constant                             (0.017)  (0.018)                                 (0.005)                        (0.017)            (0.020)               (0.006)
+                                     -0.055   0.010                                   0.001                          -0.097             -0.028                -0.002
+                                     (0.061)  (0.066)                                 (0.011)                        (0.061)            (0.071)               (0.010)
+                                     0.042    0.045                                   -0.056                         0.089              0.052                 -0.078*
+                                     (0.083)  (0.057)                                 (0.043)                        (0.085)            (0.056)               (0.043)
+                                     0.774*   0.025                                   0.076                          0.832*             0.175                 0.085*
+                                     (0.400)  (0.325)                                 (0.047)                        (0.443)            (0.355)               (0.047)
+                                                                                      0.314                                                                   0.472
+                                                                                      (0.261)                                                                 (0.291)
+
+Gender                               Yes      Yes                                     Yes                            Yes                Yes                   Yes
+Ambiguity and risk aversion          Yes      Yes                                     Yes                            Yes                Yes                   Yes
+Within/Between conditions            Within   Within                                  Between                        Within             Within                Between
+Observations                         106      106                                     212                            106                106                   212
+2                                    0.226    0.291                                   0.224                          0.236              0.216                 0.199
+
+Standard errors in parentheses. Estimation by OLS regression. The dependent variable is the binary classification of subjects' choices of the algorithm (0 corresponds to choosing
+the algorithm at most 4 times, 1 corresponds to choosing the algorithm at least 5 times) in specifications (1) to (3) and the subject's choice of the algorithm in the fifth choice
+problem in specification (4) to (6).
+* Significance at the 10% level.
+** Significance at the 5% level.
+*** Significance at the 1% level.
+
+                                                                                                 7
+R. Ivanova-Stenzel and M. Tolksdorf                                                                                       Journal of Behavioral and Experimental Economics 112 (2024) 102270
+
+References                                                                                     Germann, M., & Merkle, C. (2023). Algorithm aversion in delegated investing. Journal
+                                                                                                    of Business Economics, 93(9), 1691­1727.
+Alexander, V., Blinder, C., & Zak, P. J. (2018). Why trust an algorithm? Performance,
+     cognition, and neurophysiology. Computers in Human Behavior, 89, 279­288.                 Greiner, B. (2015). Subject pool recruitment procedures: Organizing experiments with
+                                                                                                    ORSEE. Journal of the Economic Science Association, 1(1), 114­125. http://dx.doi.
+Andersen, S., Harrison, G. W., Lau, M. I., & Rutström, E. E. (2006). Elicitation using              org/10.1007/s40881- 015- 0004- 4.
+     multiple price list formats. Experimental Economics, 9, 383­405.
+                                                                                               Greiner, B., Grünwald, P., Lindner, T., Lintner, G., & Wiernsperger, M. (2022). Incen-
+Berger, B., Adam, M., Rühr, A., & Benlian, A. (2021). Watch me improve ­ algorithm                  tives, framing, and trust in algorithmic advice: An experimental study. Working
+     aversion and demonstrating the ability to learn. Business & Information Systems                paper.
+     Engineering, 63(1), 55­68.
+                                                                                               Jung, M., & Seiter, M. (2021). Towards a better understanding on mitigating algorithm
+Bonezzi, A., Ostinelli, M., & Melzner, J. (2022). The human black-box: The illusion                 aversion in forecasting: an experimental study. Journal of Management Control,
+     of understanding human better than algorithmic decision-making. Journal of                     32(4), 495­516.
+     Experimental Psychology: General, 151(9), 2250­2258.
+                                                                                               Jussupow, E., Benbasat, I., & Heinzl, A. (2020). Why are we averse towards algorithms?
+Chugunova, M., & Sele, D. (2022). We and it: An interdisciplinary review of the                     A comprehensive literature review on algorithm aversion. ECIS Proceedings, 168.
+     experimental evidence on how humans interact with machines. Journal of Behavioral
+     and Experimental Economics, 99, Article 101897.                                           Kaufmann, E., Chacon, A., Kausel, E. E., Herrera, N., & Reyes, T. (2023). Task-specific
+                                                                                                    algorithm advice acceptance: A review and directions for future research. Data and
+Dargnies, M. P., Hakimov, R., & Kübler, D. (2024). Aversion to hiring algorithms:                   Information Management, Article 100040.
+     Transparency, gender profiling, and self-confidence. Management Science.
+                                                                                               Leib, M., Köbis, N., Rilke, R. M., Hagens, M., & Irlenbusch, B. (2024). Corrupted by
+Dietvorst, B. J., & Bharti, S. (2020). People reject algorithms in uncertain decision               algorithms? How AI-generated and human-written advice shape (dis)honesty. The
+     domains because they have diminishing sensitivity to forecasting error. Psychological          Economic Journal, 134(658), 766­784.
+     Science, 31(10), 1302­1314.
+                                                                                               Logg, J. M., Minson, J. A., & Moore, D. A. (2019). Algorithm appreciation: People
+Dietvorst, B. J., Simmons, J. P., & Massey, C. (2015). Algorithm aversion: People erro-             prefer algorithmic to human judgment. Organizational Behavior and Human Decision
+     neously avoid algorithms after seeing them err. Journal of Experimental Psychology:            Processes, 151, 90­103.
+     General, 144(1), 114­126.
+                                                                                               Mahmud, H., Islam, A. N., Ahmed, S. I., & Smolander, K. (2022). What influences
+Dietvorst, B. J., Simmons, J. P., & Massey, C. (2018). Overcoming algorithm aversion:               algorithmic decision-making? A systematic literature review on algorithm aversion.
+     People will use imperfect algorithms if they can (even slightly) modify them.                  Technological Forecasting & Social Change, 175.
+     Management Science, 64(3), 1155­1170.
+                                                                                               Reich, T., Kaju, A., & Maglio, S. J. (2023). How to overcome algorithm aversion:
+Efendi, E., Van de Calseyde, P. P., & Evans, A. M. (2020). Slow response times                      Learning from mistakes. Journal of Consumer Psychology, 33(2), 285­302.
+     undermine trust in algorithmic (but not human) predictions. Organizational Behavior
+     and Human Decision Processes, 157, 103­114.                                               Sele, D., & Chugunova, M. (2024). Putting a human in the loop: Increasing uptake,
+                                                                                                    but decreasing accuracy of automated decision-making. Plos One, 19(2), Article
+Filiz, I., Judek, J. R., Lorenz, M., & Spiwoks, M. (2021). Reducing algorithm aversion              e0298037.
+     through experience. Journal of Behavioral and Experimental Finance, 31.
+                                                                                               You, S., Yang, C. L., & Li, X. (2022). Algorithmic versus human advice: Does presenting
+Filiz, I., Judek, J. R., Lorenz, M., & Spiwoks, M. (2023). The extent of algorithm                  prediction performance matter for algorithm appreciation? Journal of Management
+     aversion in decision-making situations with varying gravity. Plos One, 18(2), Article          Information Systems, 39(2), 336­365.
+     e0278751.
+
+Fischbacher, U. (2007). Z-tree: Zurich toolbox for ready-made economic experiments.
+     Experimental Economics, 10(2), 171­178. http://dx.doi.org/10.1007/s10683-006-
+     9159- 4.
+
+                                                                                            8
+

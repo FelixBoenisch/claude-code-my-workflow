@@ -1,0 +1,502 @@
+                                                              Journal of Behavioral and Experimental Finance 9 (2016) 88­97
+
+                                                            Contents lists available at ScienceDirect
+
+                 Journal of Behavioral and Experimental Finance
+
+                                                     journal homepage: www.elsevier.com/locate/jbef
+
+Full length article
+
+oTree--An open-source platform for laboratory, online, and
+field experiments
+
+Daniel L. Chen a,b,, Martin Schonger a, Chris Wickens a
+
+a Toulouse School of Economics, Institute for Advanced Studies, 21 allée de Brienne, 31015 Toulouse cedex 6, France
+b Harvard Law School Labor and Worklife Program, 8 Mt. Auburn St., 1st Floor, Cambridge, MA 02138, USA
+
+article info                               abstract
+
+Article history:                           oTree is an open-source and online software for implementing interactive experiments in
+Received 5 August 2015                     the laboratory, online, the field or combinations thereof. oTree does not require installation
+Received in revised form 21 December 2015  of software on subjects' devices; it can run on any device that has a web browser, be that
+Accepted 21 December 2015                  a desktop computer, a tablet or a smartphone. Deployment can be internet-based without
+Available online 19 January 2016           a shared local network, or local-network-based even without internet access. For coding,
+                                           Python is used, a popular, open-source programming language. www.oTree.org provides
+JEL classification:                        the source code, a library of standard game templates and demo games which can be played
+A20                                        by anyone.
+C88                                        © 2016 The Authors. Published by Elsevier B.V. This is an open access article under the CC
+C90
+                                                                   BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+Keywords:
+Experimental economics
+Software
+Laboratory experiments
+Field experiments
+Online experiments
+Classroom experiments
+
+    Experimental economics has become an established                        oriented. Why is a new software platform even necessary?
+field. The common procedure is to conduct incentivized                      There are many reasons, including these main three:
+experiments in dedicated university computer labs using                     First, experimental economics has begun to complement
+students as subjects. In these settings Fischbacher's z-Tree                laboratory experiments with field experiments. Field
+was and is the dominant software platform. z-Tree al-                       settings range from sportscards shows (List and Lucking-
+lows the investigation of strategic interaction using desk-                 Reiley, 2000) to primary schools (Angerer et al., 2014)
+top computers running the Windows operating system.                         to online labor markets (Chen, 2012) to financial trade
+According to Google Scholar, Fischbacher's z-Tree (1999,                    fairs (Cohn et al., 2015). The field provides external validity
+2007) has been used at least 4801 times, which is a proxy                   and taps a subject pool other than students. It is difficult
+for how important a public good Fischbacher created.                        to take a Windows-desktop networked environment to
+                                                                            field settings. This has required either ad hoc programming
+    In homage to z-Tree our platform is named oTree,1                       solutions and thereby hindered experiments. The situation
+where the ``o'' stands for open-source, online and object-                  for field experiments is akin to what the situation for
+                                                                            laboratory experiments was prior to the release of z-Tree.
+  Corresponding author at: Harvard Law School Labor and Worklife            Second, computing devices have seen a sea change in
+                                                                            the last years. Usage has shifted from desktop computers
+Program, 8 Mt. Auburn St., 1st Floor, Cambridge, MA 02138, USA.             to phones and tablet computers (Fig. 1). Graphics and
+     E-mail address: dchen@law.harvard.edu (D.L. Chen).                     user interfaces have been revolutionized. This calls for
+                                                                            software that is platform-independent and deployable
+  1 This follows the tradition in the open source community of naming
+open source software projects after existing software. For example,
+OpenOffice is named after Microsoft Office, Linux is named after Unix, and
+MySQL is named after mSQL.
+
+http://dx.doi.org/10.1016/j.jbef.2015.12.001
+2214-6350/© 2016 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/
+licenses/by- nc- nd/4.0/).
+D.L. Chen et al. / Journal of Behavioral and Experimental Finance 9 (2016) 88­97  89
+
+Fig. 1. oTree on different devices and operating systems.
+
+on these devices. Third, the programming paradigm has              which can be a cloud server or a local laptop and (iii)
+shifted. It is now clear that open-source and industry-            subjects' devices with a web browser. oTree creates an
+standard compatible solutions are a better fit for many            experimental session on the server, as well as links for
+scientific needs. Experimental software should use existing        all the participants and the experimenter. With these
+industry-standards wherever possible, be extensible and            links, participants are sent to individualized web pages
+compatible with plug-ins and allow users to inspect the            displaying the experiment and recording their answers.
+source code. oTree addresses these desiderata.                     The experimenter accesses the Progress Monitor, where
+                                                                   real-time information about the progress and entries of all
+    oTree has been used in the laboratory setting with over        participants is displayed. This architecture enables oTree to
+a thousand participants in actual experiments at labora-           be used in almost any experimental scenario. The software
+tories in Zurich, Magdeburg, and Hamburg. Papers using             and hardware requirements of the laboratory are minimal:
+data gathered by oTree in the laboratory now include Chen          only a connection to the server and a browser are needed,
+and Schonger (2014a,b); Chen (2015a,b). In addition to             no other software needs to be installed. There is a 1-click
+the laboratory, oTree has also been used for experiments           installer and graphical launcher. The architecture is also
+on Amazon's Mechanical Turk. Thus, several new features            robust to failure; if, for example, there is a hardware failure
+have already been successfully demonstrated: The flex-             on anything but the server, the link of that participant
+ible and easy implementation of graphical and experi-              or experimenter can be loaded immediately on another
+mental features, such as different background colors and           device.
+randomization of graphical elements in the presentation,
+has been shown to work. Second, the mobility of the setup              Section 2 lists the most useful oTree features. There are
+was shown by running the same or similar experiments               many ways in which oTree is an improvement over existing
+across various laboratories. Third, the software and hard-         instruments, many of which might only be appreciated
+ware requirements of oTree were shown to be minimal. It            in actual usage. An easy way to get a first feel for oTree
+is sufficient to have an internet connection (or a local area      is to play some games from the library of dozens of
+network, both are not necessary). The architecture enables         sample games. Not only is the code for these sample
+oTree to be used in almost any experimental scenario.              games available, but these samples are online using oTree's
+                                                                   demo mode. This means that anyone can play them at
+    oTree is open-source, licensed under an adaptation             any time using a web browser without any installation
+of the MIT license.2 We ask that people cite this paper            whatsoever. The library of sample games can be found at
+when using oTree for academic or other publications.               http://demo.otree.org. One example of a sample game is
+The source code for oTree can be downloaded for free at            our implementation of Basu (1994)'s traveler's dilemma.
+www.oTree.org. Contributions and improvements to the               This game can be played online in demo mode by visiting
+source code are welcome and should be submitted via                the demo page of the website and clicking on Traveler's
+GitHub.                                                            Dilemma. On that start page there are two start links, one
+                                                                   for each of the two players in that game. One can play both
+1. Usage: lab, online, field, and classroom                        players using different tabs in a browser, or open the links
+                                                                   on different devices.
+    The basic experimental setup in oTree consists of (i) an
+experiment written within oTree, (ii) a server computer,               Section 3 elaborates on programming in oTree. Almost
+                                                                   any graphical or design feature can be implemented
+  2 The MIT license is a standard license used in the open source
+community; oTree licensing information is at oTree.org/license.
+90  D.L. Chen et al. / Journal of Behavioral and Experimental Finance 9 (2016) 88­97
+
+(i.e., visual styles, animations, dynamic adaptation to          1.2. Online
+screen sizes, and multimedia). oTree's user interface is
+based on HTML5, which is supported in all modern                     oTree experiments can be conducted online. The experi-
+browsers and is familiar to every web developer and de-          menter provides each participant a unique start URL. These
+signer. The programming language used in oTree is Python,        URLs contain a random alphanumeric code so even if par-
+an easy-to-learn modern object-oriented computer lan-            ticipants communicated with one another, the link would
+guage widely used in science for analysis and modeling.          not allow participants to deduce the identity of players in
+Hence, many researchers already possess the necessary            a particular match. There is no set limit on the number of
+programming skills to use oTree, and will require little time    simultaneous participants, thus large-scale market exper-
+to learn to use oTree efficiently and to implement experi-       iments are feasible. As is the case for websites in general,
+ments. oTree is easy to use, and even complex experiments        running an experiment with many users requires a server
+are reasonably easy to program by taking advantage of the        with sufficient resources (processor, RAM, and database).
+capabilities of Python.                                          To test whether hardware resources are sufficient and fast
+                                                                 enough, we recommend testing the setup with bots (see
+    oTree is based on the Django web application frame-          Section 2). Since the code of experiments (though presum-
+work; oTree applications are web applications. Once oTree        ably not all the instructions and payouts) needs no change
+is installed on a web server, applications can be played in-     between online and laboratory settings, running an exper-
+stantly from any web browser by opening the game's URL,          iment online can complement running it in the lab. It can
+and experimenters can log in to the admin dashboard from         serve as an initial setting for a low-cost pilot and enable
+anywhere to monitor the experiment. oTree works on any           authors to secure funding for a more expensive lab exper-
+device with a modern web browser, whether it is a desk-          iment. It could also be a setting for a pre-publication repli-
+top, tablet, or smartphone. It works on all major operating      cation, a practice suggested by Gelman and Loken (2014).
+systems, including Windows, Mac OS X, iOS, Android, and          Besides low costs, another advantage of online experi-
+Linux. The user interface automatically adjusts to the ap-       ments is that they are more scalable in terms of participant
+propriate screen resolution, eliminating the need for every      numbers. It is even possible to run short experiments with
+application to have separate designs for desktop and mo-         many participants. This is likely an advantage over using
+bile platforms.                                                  a lab where recruitment of large numbers of participants
+                                                                 can be challenging due to the high fixed opportunity cost
+    oTree is built to last. The source code is highly organized  of reaching the laboratory site. Amazon Mechanical Turk
+and follows best practices, allowing for easy further            (AMT) is a popular platform3 for conducting online exper-
+development and extension. Features are added sparingly          iments, and thus oTree integrates with the AMT payment
+and with thought to long-term needs. It is also robust to        system.
+changes in the market share of various technologies. Some
+software tool sets require a particular software program         1.3. Field
+to run on the client machine, such as Windows, Java, or
+Flash. These tool sets risk becoming obsolete when the               Field experiments are of crucial importance to answer
+market share of that platform declines. In contrast, oTree       certain questions and can serve as small-scale tests for
+only requires a web browser on the clients' devices.             policy makers (Carpenter, 2005; Gneezy and Rustichini,
+                                                                 2000). Both laboratory and field experiments have their
+1.1. Dedicated or ad hoc laboratories                            advantages and shortcomings (Levitt and List, 2007), but
+                                                                 field experiments can serve as bridges between laboratory
+    Researchers using oTree do not require dedicated ex-         data and naturally-occurring data (Levitt and List, 2009).
+perimental laboratories; they can use existing computer
+laboratories or rely on tablets. Since touch input works             The field provides external validity and taps a subject
+with oTree, tablets can be used without external key-            pool other than students. It is difficult to take a Windows-
+boards, if desired. oTree can be run on low-cost devices         desktop networked environment to field settings. This
+such as commodity tablets and mobile devices, thereby            has required either ad hoc programming solutions or has
+reducing hardware costs. Several dozen tablets can be eas-       limited the range of field experiments. If a researcher
+ily transported to any space able to accommodate the par-        uses existing computers in the field, no administration
+ticipants (such as a classroom or meeting room) and be           rights are necessary on them. In laboratory and many
+set up as a temporary laboratory. Another advantage of           field settings, one will want to prevent participants from
+not requiring a desktop operating system is less time and        using the provided devices for purposes other than the
+money spent on maintenance and administration. Desktop           experiment. Thus, it is useful to lock down the devices to
+operating systems offer great flexibility, but they also re-     a web browser kiosk mode, meaning that a user cannot
+quire investments in IT tasks such as software installation      open other web pages or leave the browser without the
+(e.g., applications, drivers, anti-virus, and updates thereof)   kiosk password. Internet Explorer, Chrome, and Firefox all
+and configuration (e.g., security permissions and network-       have built-in kiosk modes. Even in kiosk mode, it typically
+ing). In contrast, tablets and mobile operating systems tend     could be a problem if a user presses the browser's reload or
+to require less administration, and can often run ``out of the   back button or the keyboard shortcuts. In oTree, these user
+box'' with minimal configuration. oTree and its graphical
+launcher can be installed in one click.                            3 See Horton et al. (2011) and Mason and Suri (2012).
+D.L. Chen et al. / Journal of Behavioral and Experimental Finance 9 (2016) 88­97  91
+
+actions simply result in a redisplay of the current page in        2. Features
+the experiment.
+                                                                       oTree experiments are web pages using the HTML5
+    oTree can be used in field settings and subjects can use       standard. To make it easy to program visually appealing
+their own smartphones or tablets. Another approach is to           experiments, oTree uses the open source web front-
+have a rolling suitcase full of tablets. In this way, one can set  end framework, Bootstrap. For details, see Section 3 on
+up temporary laboratories to conduct artefactual field ex-         programming. Since experiments are web pages, all that
+periments. Henrich et al. (2010) cautioned that the partici-       is needed on participants' and the experimenters' devices
+pant pool in university laboratories is usually ``WEIRD''--        is a web browser. On each device, one opens a URL that is
+Western, Educated, Industrialized, Rich, and Democratic.           unique to the respective participant and session.
+With oTree it becomes easy to set up temporary laborato-
+ries in field settings where non-student subjects are easier           Paper-like treatment-specific instructions: Many ex-
+to recruit.                                                        perimenters hand out instructions on paper, even in
+                                                                   computer-based lab or artefactual field experiments. oTree
+    For some research questions, it is difficult to gather         provides instructions that have a paper-like look (Fig. 2).
+enough data in a laboratory setting. Behavioral experi-            Typically, they will be displayed by themselves on an in-
+ments that go beyond existence of a treatment effect can           troductory screen, and then redisplayed at the bottom of
+require hundreds to thousands of subjects. Obtaining large         all subsequent screens, a fact which should be pointed out
+numbers of participants is especially difficult and costly if      in the last sentence of the instructions. To minimize exper-
+the experiment is short. With oTree, a team of research as-        imenter demand it is desirable to hide from subjects which
+sistants can take a suitcase with 40 tablets to a high school,     treatment groups and dimensions exist, which is made eas-
+a corporation, a trade fair, a train station, or an airport and    ier by on-screen instructions.5
+recruit convenience samples of hundreds of subjects in a
+single day.                                                            AMT integration: oTree provides integration with
+                                                                   Amazon Mechanical Turk (AMT). oTree authenticates
+1.4. Hybrid settings                                               users visiting from the AMT service, and then sends
+                                                                   payments to the correct AMT account. Researchers can
+    Experiments can be run in multiple labs in different           now publish experiments and send payments directly
+parts of the world simultaneously and participants need            to AMT. Researchers, however, must have an employer
+not be at the same location to interact with each other. In        account with AMT, which currently requires a US address
+some experiments ­ such as those investigating the effect          and bank account.
+of beauty on peer effects and team work ­ it is necessary
+to show a player the face of the counterpart. To eliminate             Debug info: Any application can be run so that debug
+unobserved post-game interaction, the counterpart is in a          information is displayed on the bottom of all screens
+lab in a different city. For oTree, this is no more complicated    (see Fig. 2). The debug information consists of the ID in
+than it would be if the two players were in the same room.         group, the group, the player, the participant label, and
+                                                                   the session code. The session code and participant label
+1.5. Classroom                                                     are two randomly generated alphanumeric codes uniquely
+                                                                   identifying the session and participant. The ID in group
+    Many social scientists let students play games to teach        identifies the role of the player (e.g., in a principal­agent
+them game theory and mechanism design.4 oTree can                  game, principals might have the ID in group 1, while agents
+make lectures more vivid by having students play games             have 2).
+during class and homework more playful but also more
+easily monitored. Dynamic graphics (see Section 2) can be              Testing with bots: A bot is an artificial player executing
+projected in the classroom enabling discussion of the game         a pre-determined strategy. The strategy can be pure or
+played. The connection to the server occurs seamlessly             mixed. For example, to stress test experiments, devices,
+via the internet, so students can use the classroom WiFi,          or servers, bots can be programmed to make random but
+mobile cell coverage, or their home ISP. Mazur (2009)              valid entries. Tests with hundreds of bots are completed
+suggests to ``flip the classroom'', which requires hardware-       within seconds and are thus able to test if everything was
+or software-based clickers. oTree can be a software-based,         programmed correctly. Sometimes programmers might
+free clicker, and it is easy to add functionality that goes far    also discover errors in the logic or the economics of
+beyond that of traditional clickers.                               their game (e.g., negative payoffs that might violate lab
+                                                                   rules or participation constraints). Axelrod and Hamilton
+    To use oTree in the classroom, it is easiest to use the        (1981) invited submissions of strategies to play a computer
+demo mode discussed in Section 2. Regardless of whether            tournament of a repeated Prisoners' Dilemma. In oTree,
+the demo mode or the regular session mode is used, each            such an exercise becomes easy: each submitted strategy
+student is given a unique URL at the beginning of the              corresponds to a particularly programmed bot. Then bots
+lecture or the course. The teacher can use the session             are instantiated in the next round according to their
+interface to project results in the classroom, and open the        payoffs in the previous round. A bot can also be used for
+progress monitor on a different machine to privately check         communication and teaching purposes. Rather than having
+how students are doing.
+
+4 See for example Rubinstein's (1999) recommendations.               5 On experimenter demand and non-deceptive obfuscation see Zizzo
+                                                                   (2010) and Bardsley et al. (2010), fn. 39.
+92  D.L. Chen et al. / Journal of Behavioral and Experimental Finance 9 (2016) 88­97
+
+    Fig. 2. Participant screen.
+
+    Fig. 3. Progress monitor.
+
+a student or reader play all the players in an n-player game,  experimenter monitoring progress for which the progress
+                                                               monitor is intended, an experimenter needs to receive in-
+n - 1 bots might be used, and the nth player would be the      structions or provide input for the experiment. The ses-
+                                                               sion interface can instruct an experimenter on what to do
+human.                                                         next and show text to be read aloud. An earlier version of
+    Progress monitor: The progress monitor (Fig. 3) allows     oTree supported additional forms of experimenter input.
+                                                               The session interface can also request input from the ex-
+the researcher to monitor the progress of an experiment.       perimenter at a specific point in the session. For example,
+It features a display that can be filtered and sorted, for     in an Ellsberg experiment, the experimenter might fill an
+example by computer name or group. The experimenter            opaque urn prior to the session; the session interface will
+can see the progress of all participants, the current          remind the experimenter to show the urn to the partici-
+action a participant is taking, and decisions made by          pants, and tell the experimenter when all participants have
+participants. Updates are shown as they happen in real         selected their bets and instruct the experimenter to draw a
+time and cells that change are highlighted in yellow.          ball from the urn. It will then ask the color that was drawn,
+Because the progress monitor is web-based, multiple            so that oTree can calculate participants' payoffs.
+collaborators can simultaneously open it on several devices
+on premises or at remote locations. The admin dashboard            Payments PDF: In a lab session, dozens of participants
+is automatically generated for each experiment. Columns        must be paid in a short amount of time after the end of
+included are: the participant ID (the computer number          a session. To minimize waiting times for subjects, oTree
+in a laboratory setting), the participant code (a short        automatically generates a PDF with the earnings of each
+alphabetic code uniquely identifying the participant), and     participant as soon as the earnings-relevant part of a
+the current earnings of the participant. Fig. 3 displays a     session is over (usually before an exit questionnaire) (see
+principal­agent game.                                          Fig. 4).
+
+    Session interface: While the progress monitor exists           Demo mode: Experiments can be put online using
+in all oTree experiments, the session interface is an op-      the demo mode which creates a web page with a static
+tional feature that is convenient to have in some exper-
+iments. In many experimental settings, in addition to an
+D.L. Chen et al. / Journal of Behavioral and Experimental Finance 9 (2016) 88­97  93
+
+Fig. 4. Payments PDF.
+
+URL. Any visitor to that web page can play the game. For      valid answers, there may be some that are better or more
+example, for an Ultimatum Game, that web page would           rational than others, but the user can proceed with a
+have two participant links, one for proposer and one for      chosen answer and is not held back on that page. Validation
+responder. Whenever someone new visits the static demo        is only intended for cases where the experimenter wants to
+URL of the game, a new session is instantiated meaning that   prevent the participant from proceeding without making
+new participant URLs are created. If the game has a study-    an answer satisfying some specified criteria.
+interface a new URL for that is also created. The demo mode
+makes it possible to easily share a game with colleagues,         Auto-advancing participants: Sometimes a single par-
+referees, and other readers. For example, we use it for       ticipant holds up an entire experiment. The experimenter
+our collection of sample games. Not only is the code of       can force that participant to the next page by pressing the
+these games available, but one can also play them at any      auto advance button. This functionality is also useful for
+time online: demo.otree.org. Using bots, even multi-player    debugging or demonstration purposes.
+games can be put online as supplementary, interactive
+material.                                                         Customizable randomization and matching: Partici-
+                                                              pants in a session are usually partitioned into groups. First,
+    User input and validation: oTree supports all the         there are treatment groups that allow participants playing
+standard input forms, such as radio buttons, check boxes,     concurrently to be exposed to different experimental pa-
+drop-down menus, numerical entry, free text entry,            rameters. Second, there are match groups, which are for
+date/currency input, email, file upload, and image fields.    experiments that involve interaction between two or more
+To simplify usage of input forms, oTree relies on Django,     participants (like a prisoner's dilemma or public goods
+a widely used Python web application framework. Some          game). If a game is to be played for multiple rounds, par-
+custom form widgets, such as Likert scales, go beyond what    ticipants can either play with the same partners or with
+Django offers by default, but are included in oTree. oTree    new partners. Within a match participants may have dif-
+users are not limited to what Django or oTree includes, and   ferent roles such as principal and agent. oTree handles this
+can create their own input forms. Fig. 5 gives examples of    by a matrix model, where each cell corresponds to a par-
+input forms available.                                        ticipant, and the rows are groups, while the columns are
+                                                              roles. Players can be grouped randomly or by arrival order.
+    If a participant does not fill out a required form or
+submits an invalid value, the form is automatically re-           Dynamic graphics: In many experiments it is useful
+displayed, highlighting and explaining the user's error. The  to have visual content created and updated during the
+experimenter can specify what answers are valid. In the       experiment. In a market game, for example, participants
+case of a numeric input field, the experimenter could, for    could be shown a graphic depicting the evolution of prices.
+example, specify that only numbers that are a negative        For this purpose, oTree integrates HighCharts, a JavaScript-
+                                                              based service. Fig. 6 is a screenshot of players' points after
+odd integers between -51 and -1 should be valid. Among        round six of a 50-round game. Other graphical capabilities
+                                                              are illustrated at www.highcharts.com.
+94  D.L. Chen et al. / Journal of Behavioral and Experimental Finance 9 (2016) 88­97
+
+    Fig. 5. oTree on smartphone.
+      Fig. 6. Dynamic graphics.
+D.L. Chen et al. / Journal of Behavioral and Experimental Finance 9 (2016) 88­97  95
+
+    Sample games: oTree includes a library of dozens               the experiment. Every version of oTree is archived, and
+of standard economics games. To see these games and                a programmer can revert to an old version using the Git
+play them, go to http://demo.otree.org. Incidentally, these        version control system.
+games are put online using oTree's demo mode.
+                                                                   3. Technology and programming
+    Researchers can use the code of these sample games as
+templates for their own games. Those who are developing                This section gives an overview of the oTree architecture
+completely new games are also encouraged to review the             and programming. For details, and to get started, consult
+sample games to learn about recommended coding styles.             the website, oTree.org, download the source code that
+Authors are invited to send their codes, which will be             comes with dozens of sample games, and consult the wiki
+added to our library.                                              at docs.otree.org. oTree's programming model follows the
+                                                                   Model-View-Controller approach as discussed in Leff and
+    Localization: Of course, oTree applications can be             Rayfield (2001) for the specific case of web applications.
+translated to multiple languages and oTree has multi-              The controller resides in the core of oTree. Each oTree
+ple features to ease translation and localization. A single        application consists of a models.py file, a views.py file
+switch controls the language in which the application is           and several html-templates--one for each screen. The
+currently displayed. This is useful in many scenarios. For         models.py file defines the players, variables, and their
+example, an experimenter can deploy the same experi-               data types; defines the validation logic; and specifies the
+ment in the US, Germany, and China with all participants           arithmetic operations to be performed. The view is given
+reading in their native tongue. Or, one can deploy an ex-          by the views.py file and the html-templates. The views.py
+periment in German but send English-speaking colleagues            file defines the sequence of pages a participant sees,
+a demo link in English and publish English screen shots in         references the templates to be used, and which variables
+a paper reporting the experiment. oTree is able to display         are inserted into the templates.
+monetary amounts in various currency formats (compare
+Fig. 2). In addition to various currencies, the games may          3.1. Skills required to program in oTree
+also be played for points.
+                                                                       oTree is based on Python, a widely used programming
+    Data export: All data in an experiment is saved to the         language that is available as open-source software from the
+server. Data from subsequent sessions is appended. At any          Python Software Foundation. Python is often the first lan-
+point in time the data can be downloaded in standard CSV           guage taught in introductory computer sciences courses.6
+format using a web interface. In addition to participants'         Learning Python might be a good investment for empiri-
+choices and answers, the data recorded includes the date           cal and experimental researchers as it is useful not only for
+and time a participant first accesses the experiment, time         oTree, but for many tasks such as automatic data extraction
+spent on each page, the device's IP address, and the current       and web-scraping. oTree is designed to be simple and to be
+page of each participant or whether he or she is finished.         accessible to people with basic programming experience.
+
+    Data auto-documentation: oTree auto-generates                      Researchers who prefer to hire a programmer for oTree,
+human-readable documentation from the application's                rather than code themselves, should hire someone who
+code. It gives the name and data type (e.g., positive integer,     knows Python. For best results, the programmer should
+string) of all variables. If the variable can take a list of spe-  also be familiar with Django, which is the most popular
+cific value, the documentation will print that list showing        Python-based web development framework. A program-
+both the internal name and the displayed name that the             mer familiar with Python and Django can be productive in
+participant sees. As most programmers comment in their             oTree almost immediately and program his/her first exper-
+code, oTree intelligently extracts these comments and adds         iment within hours.
+them to the documentation.
+                                                                   3.2. Hardware requirements
+    Open source: Sonnenburg et al. (2007) have argued
+that in scientific applications, the source code should be             The only requirement on participants' computers is a
+available for inspection and available free of charge to           web browser capable of HTML5. Anything that works in
+enable replication and extension. Janssen et al. (2014)            HTML5 can be included in oTree, for example hyperlinks,
+point out that binary software cannot be checked by people         dialog boxes, tables, images, audio, and video. Video
+other than the software authors. Lerner and Tirole (2005)          recording is still experimental in HTML5. JavaScript, Java,
+argue that open-source software will grow strongly, and            and Flash are supported by oTree, but programmers
+that academic economists could both learn and benefit              should be aware of the limitations operating systems
+from the model. Thus oTree is open source, meaning                 impose (e.g., Flash does not run on iOS devices). A good
+that the source code is freely available and anyone                recommendation for oTree experiments ­ and for any
+can add to it subject to our open-source license terms             website ­ is to use JavaScript if necessary, but not Java or
+(http://www.otree.org/license). To develop oTree, we use
+GitHub, a web service familiar to most programmers which             6 http://cacm.acm.org/blogs/blog-cacm/176450-python-is-now-
+hosts many open-source projects and offers source code             the-most-popular-introductory-teaching-language-at-top-us-
+management and distributed revision control. Researchers           universities/fulltext.
+can also use the oTree space on GitHub to deposit their
+applications in addition to doing so at journal archives.
+This enables future researchers to find numerous programs
+and build on them. Each time an experiment is run, the
+server records what version of the code was used to run
+96  D.L. Chen et al. / Journal of Behavioral and Experimental Finance 9 (2016) 88­97
+
+    Fig. 7. oTree code.
+
+Flash. Computer requirements for the server depend on                         easily rename a variable). oTree integrates with the auto-
+the number of participants and the experiment; often a                        complete functionality of PyCharm. Suggestions of variable
+standard laptop will suffice. If reliable internet is available,              names are presented as code is typed. If oTree encounters
+the easiest solution is often to rent a server in the cloud.                  an error during execution, an error page pinpointing the
+Such servers can be rented flexibly for a short time. This                    source of the error is shown.
+makes particularly good sense if the experiment is run
+online or has high demands in terms of graphics. Prior to                     3.6. Collaborative development
+an experimental session, it is advisable to test the server
+using bots; use more bots than the maximum number of                              oTree is developed using Git, a source-code version-
+subjects planned for the session to be on the safe side.                      ing system. This encourages good backup and version-
+                                                                              ing practices, and allows developers to synchronize files
+3.3. Front-end                                                                across computers, develop collaboratively, manage sepa-
+                                                                              rate branches, and merge synchronization conflicts. We in-
+    Since working directly with HTML5 for the user in-                        vite other researchers to join us on GitHub, but this is not
+terface can be cumbersome, oTree uses a free, standard                        a requirement for using oTree.
+front-end framework for websites called Bootstrap.7 Boot-
+strap originates from Twitter, a private corporation, but has                 4. Conclusion
+since been released as open source and become ubiquitous.
+Thus, oTree users benefit from the continuous develop-                            oTree is an open-source, online, and object-oriented
+ment of Bootstrap independently of any updates to oTree                       software platform for implementing social science exper-
+itself. All standard HTML5 elements can be beautifully and                    iments in the laboratory, online, in the field, or combina-
+easily implemented in oTree thanks to Bootstrap. But, per-                    tions thereof. oTree is operating-system independent and
+haps most importantly, Bootstrap intelligently scales the                     deployable on any device that has a web browser, includ-
+layout of a website including buttons, tables, alerts, error                  ing tablets and smartphones. The server can be an ordi-
+messages, and menus to different screen and device sizes.                     nary laptop. Once oTree is installed on that one machine,
+By default, oTree has a neutral layout but experimenters                      no further installation is necessary on participants' com-
+can change the style by using cascading style sheets (CSS).                   puters and experiments can be started instantly from any
+                                                                              web browser by opening the game's URL. Experimenters
+3.4. Simple code                                                              can log in to the web-based progress monitor to monitor
+                                                                              the experiment. This flexibility allows for substantial cost
+    oTree's code is remarkably simple as it builds on Python.                 savings in laboratory hardware and maintenance, and also
+Compared to z-Tree, oTree is less specifically tailored to                    makes it easier for researchers to recruit large numbers or
+some experiments but arguably more general. In z-Tree,                        particular kinds of subjects in ad hoc laboratory or field
+users spend considerable time and effort implementing                         settings. Using a single software for both online and lab
+solutions to problems that have now become easy using                         experiments makes life easier for researchers. Researchers
+modern programming languages. To give an idea of the                          with limited funds can first run their experiment online
+simplicity of oTree, consider the standard experimental                       (where participation fees are measured in cents or single
+requirement of playing a random subset of rounds in a                         digits) and then ­ armed with the data and results ­ ei-
+game with many rounds, the code for this is shown in                          ther raise more funds or decide to abandon the project as
+Fig. 7.8                                                                      unpromising. Running the same experiment in both on-
+                                                                              line and lab settings also tests for the robustness of results
+3.5. Programming assistance                                                   and may support the external validity of results. oTree en-
+                                                                              ables a quick and easy replication of research results at low
+    oTree works with standard code editors such as Py-                        cost. We hope that oTree will indirectly contribute to fos-
+Charm.9 A code editor makes programming easier by pro-                        tering transparency and replication in the experimental so-
+viding live error checking, syntax highlighting, interactive                  cial sciences. The demo mode allows any researcher, ref-
+debugging (to test the effect of each line of code), and                      eree, or student to understand any experiment easily by
+code reorganization functionalities (such as the ability to                   simply playing the game in a browser. Furthermore, the
+                                                                              demo mode can be used to quickly run and demonstrate
+  7 www.getbootstrap.com.                                                     games in the classroom. oTree is based on a sequence of
+  8 To solve this problem in z-Tree one needs a list of traversal algorithms  pages, each containing an optional form for the participant
+resulting in about 25 lines of code, compare Bausch (2012).                   to fill out and submit. This interactive model does not suit
+  9 PyCharm has a free license for classroom use.                             every use case. It is not real-time, in the sense that the user
+                                                                              interface does not respond within milliseconds to actions
+                                                                              from other participants, ConG (Pettit et al., 2014) would be
+D.L. Chen et al. / Journal of Behavioral and Experimental Finance 9 (2016) 88­97  97
+
+more suitable here. Scientific advances are often driven by                   Cohn, A., Engelmann, J., Fehr, E., Maréchal, M., 2015. Evidence for coun-
+the availability of new and cheaper scientific instruments--                       tercyclical risk aversion: An experiment with financial professionals.
+oTree aims to be such an instrument.                                               American Economic Review 105, 860­885.
+
+Acknowledgments                                                               Fischbacher, U., 1999. Z-Tree-Zurich Toolbox for Readymade Economic
+                                                                                   Experiments: Experimenter's Manual. Citeseer.
+    For comments on the oTree software or the paper, we
+thank the people at the experimental econ laboratories                        Fischbacher, U., 2007. z-Tree: Zurich toolbox for ready-made economic
+in Magdeburg, Hamburg and ETH Zurich, Juan Cabral,                                 experiments. Exp. Econ. 10, 171­178.
+Donja Darai, Som Datye, Gregor Muellegger, Kelly Reeve,
+Alexander Sandukovskiy, and Stefan Wehrli. Stefan Bucher                      Gelman, A., Loken, E., 2014. The statistical crisis in science. Am. Sci. 102,
+provided superb research assistance.                                               460.
+
+References                                                                    Gneezy, U., Rustichini, A., 2000. A fine is a price. J. Legal Stud. 29, 1­17.
+                                                                              Henrich, J., Heine, S.J., Norenzayan, A., 2010. The weirdest people in the
+Angerer, S., Glätzle-Rützler, D., Lergetporer, P., Sutter, M., 2014.
+     Third-party punishment increases cooperation in children through              world? Behav. Brain Sci. 33, 61­83.
+     (misaligned) expectations and conditional cooperation. Proc. Natl.       Horton, J.J., Rand, D.G., Zeckhauser, R.J., 2011. The online laboratory:
+     Acad. Sci. 111, 6916­6921.
+                                                                                   Conducting experiments in a real labor market. Exp. Econ. 14,
+Axelrod, R., Hamilton, W., 1981. The evolution of cooperation. Science             399­425.
+     211, 1390­1396.                                                          Janssen, M.A., Lee, A., Waring, T., Galafassi, D., 2014. Experimental
+                                                                                   platforms for behavioral experiments on social-ecological systems.
+Bardsley, N., Cubitt, R., Loomes, G., Moffatt, P., Starmer, C., Sugden,            Ecol. Soc. 19.
+     R., 2010. Experimental Economics: Rethinking the Rules. Princeton        Leff, A., Rayfield, J.T., 2001. Web-Application development using the
+     University Press.                                                             model/view/controller design pattern. In: Proceedings of the 5th
+                                                                                   IEEE International Conference on Enterprise Distributed Object
+Basu, K., 1994. The traveler's dilemma: Paradoxes of rationality in game           Computing. EDOC'01. IEEE Computer Society, Washington, DC, USA,
+     theory. Amer. Econ. Rev. 84, 391­395.                                         pp. 118­127.
+                                                                              Lerner, J., Tirole, J., 2005. The economics of technology sharing: Open
+Bausch, A.W., 2012. Introduction to z-Tree: Day 3. https://files.nyu.edu/          source and beyond. J. Econ. Perspect. 19, 99­120.
+     awb257/public/slides/Bausch- ztreeslides3.pdf.                           Levitt, S., List, J., 2007. What do laboratory experiments tell us about the
+                                                                                   real world? The Journal of Economic Perspectives 21, 153­174.
+Carpenter, J.P., 2005. Endogenous social preferences. Rev. Radical Political  Levitt, S.D., List, J.A., 2009. Field experiments in economics: The Past, the
+     Econ. 37, 63­84.                                                              present, and the future. European Econ. Rev. 53, 1­18.
+                                                                              List, J.A., Lucking-Reiley, D., 2000. Demand reduction in multi-unit
+Chen, D.L., 2012. Markets and Morality: How Does Competition Affect                auctions: Evidence from a sportscard field experiment. Amer. Econ.
+     Moral Judgment? Working Paper, Duke University School of Law.                 Rev. 90, 961­972.
+                                                                              Mason, W., Suri, S., 2012. Conducting behavioral research on amazon's
+Chen, D.L., Schonger, M., 2014a. Social Preferences or Sacred Values?              mechanical turk. Behav. Res. Methods 44, 1­23.
+     Theory and Evidence of Deontological Motivations. Working Paper,         Mazur, E., 2009. Farewell, lecture? Science 323, 50­51.
+     ETH Zurich.                                                              Pettit, J., Friedman, D., Kephart, C., Oprea, R., 2014. Software for
+                                                                                   continuous game experiments. Exp. Econ. 17, 631­648.
+Chen, D.L., Schonger, M., 2014b. A Theory of Experiments: Invariance          Rubinstein, A., 1999. Experience from a course in game theory: Pre- and
+     of Equilibrium to the Strategy Method and Implications for Social             postclass problem sets as a didactic device. Games Econom. Behav.
+     Preferences. Working Paper, ETH Zurich. Mimeo.                                28, 155­170.
+                                                                              Sonnenburg, S., Braun, M.L., Ong, C.S., Bengio, S., Bottou, L., Holmes,
+Chen, D.L., Schonger, M., 2015a. Testing Axiomatizations of Ambiguity              G., LeCunn, Y., Muller, K.-R., Pereira, F., Rasmussen, C.E., Ratsch, G.,
+     Aversion. Working Paper, ETH Zurich.                                          Scholkopf, B., Smola, A., Vincent, P., Weston, J., Williamson, R.C., 2007.
+                                                                                   The need for open source software in machine learning. J. Mach.
+Chen, D.L., Schonger, M., 2015b. Ambiguity Aversion without Asymmetric             Learn. Res. 8, 2443­2466.
+     Information. Working paper, ETH Zurich.                                  Zizzo, D., 2010. Experimenter demand effects in economic experiments.
+                                                                                   Exp. Econ. 13, 75­98.
+

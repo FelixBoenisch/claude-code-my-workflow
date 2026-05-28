@@ -1,0 +1,904 @@
+Bus Inf Syst Eng
+https://doi.org/10.1007/s12599-020-00678-5
+
+ RESEARCH PAPER
+
+Watch Me Improve--Algorithm Aversion and Demonstrating
+the Ability to Learn
+
+Benedikt Berger ∑ Martin Adam ∑ Alexander Ru® hr ∑ Alexander Benlian
+
+Received: 3 March 2020 / Accepted: 17 October 2020
+” The Author(s) 2020
+
+Abstract Owing to advancements in artificial intelligence           familiarity to the user (i.e., unfamiliar vs. familiar), and its
+(AI) and specifically in machine learning, information              ability to learn (i.e., non-learning vs. learning) influence a
+technology (IT) systems can support humans in an                    decision maker's reliance on the advisor's judgement for
+increasing number of tasks. Yet, previous research indi-            an objective and non-personal decision task. The results
+cates that people often prefer human support to support by          reveal no difference in the reliance on unfamiliar human
+an IT system, even if the latter provides superior perfor-          and algorithmic advisors, but differences in the reliance on
+mance ≠ a phenomenon called algorithm aversion. A pos-              familiar human and algorithmic advisors that err. Demon-
+sible cause of algorithm aversion put forward in literature         strating an advisor's ability to learn, however, offsets the
+is that users lose trust in IT systems they become familiar         effect of familiarity. Therefore, this study contributes to an
+with and perceive to err, for example, making forecasts that        enhanced understanding of algorithm aversion and is one
+turn out to deviate from the actual value. Therefore, this          of the first to examine how users perceive whether an IT
+paper evaluates the effectiveness of demonstrating an AI-           system is able to learn. The findings provide theoretical and
+based system's ability to learn as a potential countermea-          practical implications for the employment and design of
+sure against algorithm aversion in an incentive-compatible          AI-based systems.
+online experiment. The experiment reveals how the nature
+of an erring advisor (i.e., human vs. algorithmic), its             Keywords Algorithm aversion ¡ Artificial intelligence ¡
+                                                                    Machine learning ¡ Decision support ¡ Advice taking
+Accepted after two revisions by Christof Weinhardt.
+                                                                    1 Introduction
+Electronic supplementary material The online version of this
+article (https://doi.org/10.1007/s12599-020-00678-5) contains sup-  Artificial intelligence (AI) research has extended the
+plementary material, which is available to authorized users.        capabilities of information technology (IT) systems to
+                                                                    support or automate tasks, such as medical diagnosis, credit
+B. Berger (&) ¡ A. Ru®hr                                            card fraud detection, and advertising budget allocation
+Institute for Information Systems and New Media, Ludwig-            (Anthes 2017). Accordingly, the deployment of AI-based
+Maximilians-Universita®t Mu®nchen, Ludwigstr. 28,                   systems, i.e. IT systems employing capabilities developed
+80539 Munich, Germany                                               in AI research, is supposed to change substantially how
+e-mail: benedikt.berger@bwl.lmu.de                                  businesses operate and people work (vom Brocke et al.
+                                                                    2018; Ransbotham et al. 2017). AI researchers employ
+A. Ru®hr                                                            various approaches to realize new capabilities, yet many
+e-mail: ruehr@bwl.lmu.de                                            promising achievements are based on machine learning
+                                                                    (Jordan and Mitchell 2015). Market research companies
+M. Adam ¡ A. Benlian                                                predict the market for IT systems employing machine
+Institute of Information Systems and E-Services, Technical          learning to grow with double-digit rates over the upcoming
+University of Darmstadt, Hochschulstr. 1, 64289 Darmstadt,
+Germany
+e-mail: adam@ise.tu-darmstadt.de
+
+A. Benlian
+e-mail: benlian@ise.tu-darmstadt.de
+
+                                                                      123
+     B. Berger et al.: Algorithm Aversion and Demonstrating the Ability to Learn, Bus Inf Syst Eng
+
+years (Columbus 2020). Regardless of the specific problem               understandings of algorithm aversion in the context of
+domain, machine learning allows equipping IT systems                    decision support to answer the following research question:
+with the ability to learn, i.e. the capability to improve in
+performance over time (Faraj et al. 2018). Such AI-based                RQ1 Do people exhibit a general algorithm aversion or
+systems can assist users in various situations concerning               do they prefer human to algorithmic decision support only
+their business and private life (Maedche et al. 2019).                  after observing that the decision support errs?
+
+   A particularly important machine learning use case is                   If people indeed shun erring algorithmic support
+the support of decisions. Decision support systems (DSS)                because they disregard the possibility that algorithms can
+have evolved in several waves in the past and the appli-                improve, demonstrating the opposite (i.e., an algorithm's
+cation of machine learning promises another leap forward                ability to learn) should alleviate algorithm aversion.
+(Watson 2017). Yet, existent decision-making and infor-                 However, existing research has not examined whether there
+mation systems (IS) research suggests that people can be                are differences in algorithm aversion to DSS with and
+reluctant to accept support from or delegate decisions to               without the ability to learn. Therefore, we specifically
+DSS ≠ a phenomenon called algorithm aversion (Dietvorst                 investigate whether demonstrating an algorithm's ability to
+et al. 2015; Castelo et al. 2019).1 This phenomenon con-                learn can contribute to overcoming algorithm aversion. We
+stitutes a serious issue for businesses employing DSS:                  focus on the ability to learn for two reasons: Demonstrating
+Since even simple algorithms can outperform humans in                   an algorithm's ongoing improvement in performance to
+many decision tasks (Kuncel et al. 2013; Elkins et al.                  users is theoretically intriguing because this design feature
+2013), rejecting the advice of DSS often leads to inferior              may counter users' algorithm aversion and consequently
+decisions. Furthermore, potential gains of combining                    increase their willingness to rely on particular AI-based
+human and algorithmic insights (Dellermann et al. 2019)                 systems. Moreover, the increasing application of machine
+cannot be realized if decision makers are unwilling to take             learning in practice is especially relevant for tasks that
+algorithmic advice into account.                                        algorithms can support, such as classification or forecasting
+                                                                        (Jordan and Mitchell 2015). Therefore, we pose a second
+   Previous studies, however, reached conflicting conclu-               research question:
+sions regarding the conditions under which algorithm
+aversion emerges (Logg et al. 2019). Specifically, there is a           RQ2 Does demonstrating an algorithm's ability to learn
+debate about whether people generally prefer human                      alleviate algorithm aversion?
+advice to algorithmic advice (Castelo et al. 2019) or
+whether people's reliance on an algorithm only decreases                   To answer our research questions, we conducted an
+after becoming familiar with the algorithm, which means to              incentive-compatible online experiment with 452 subjects.
+observe its performance (Dietvorst et al. 2015). Existing               Within this experiment, participants had to solve a fore-
+research has suggested various causes for algorithm aver-               casting task while deciding to what degree they would rely
+sion (Burton et al. 2020). A prominent idea among those                 on an erring advisor to increase their odds of receiving a
+studies is that people are less forgiving toward erring                 bonus. We manipulated the advisor to examine how its
+algorithms than toward erring humans (Dietvorst et al.                  nature (i.e., human vs. algorithmic), its familiarity to the
+2015) because people disregard the possibility that algo-               participants (i.e., unfamiliar vs. familiar), and its ability to
+rithms can overcome their shortcomings and grow from                    learn (i.e., non-learning vs. learning) affect the partici-
+them. In the context of decision support, erring means to               pants' reliance on the advice. Our results do not indicate a
+provide advice that in the end turns out to be not fully                general aversion to algorithmic advice but a negative effect
+accurate as is common for decisions under uncertainty.                  of familiarity on the participants' willingness to accept
+Accordingly, people tend to rely less on an algorithmic                 algorithmic advice. However, if the algorithm is able to
+advisor than on a human advisor after becoming familiar                 learn, the negative effect of familiarity disappears.
+with the advisor and observing the advisor to err, even if
+the erring algorithmic advisor objectively outperforms the                 Our study makes a major, threefold contribution to
+erring human advisor. In this study, we juxtapose the two               research on algorithm aversion and the interaction with AI-
+                                                                        based systems: First, we shed light on the algorithm aver-
+1 We acknowledge that an algorithm is a processing logic to solve a     sion phenomenon by substantiating that becoming familiar
+task and that it is, thus, only a part of an IT system. Since previous  with an erring algorithm is an important boundary condi-
+research has labeled the phenomenon addressed in this study as          tion for this phenomenon. Second, we demonstrate that the
+algorithm aversion although users rather interact with IT systems than  experience during the familiarization with an algorithm
+with algorithms, we use the terms algorithm and IT system               plays a key role in relying on an algorithm's advice. Third,
+interchangeably in this study. The same applies to the terms            we provide first insights on an AI-based system's ability to
+algorithmic advisors and DSS.                                           learn as an increasingly important but hitherto underex-
+                                                                        plored design characteristic, which may counter algorithm
+
+123
+B. Berger et al.: Algorithm Aversion and Demonstrating the Ability to Learn, Bus Inf Syst Eng
+
+aversion. Thereby, we answer the call for research on            shun algorithmic decision making after having interacted
+individuals' interaction with AI-based systems (Buxmann          and thus becoming familiar with the particular system. The
+et al. 2019). Our findings also hold important implications      commonly proposed reason for this behavior is that users
+for the design and employment of continually learning            devalue algorithmic advice after observing the algorithm to
+systems. Specifically, developers may seek to emphasize          err, which means following the algorithmic advice still
+these systems' ability to learn in order to enhance users'       holds the risk of making suboptimal decisions (Prahl and
+tolerance for erring advice and, thus, reliance on support       Van Swol 2017; Dietvorst et al. 2015; Dzindolet et al.
+from AI-based systems.                                           2002). In contrast, other studies require participants to
+                                                                 decide about their reliance on algorithmic advice before
+2 Theoretical Foundations                                        becoming familiar with the algorithm's performance
+                                                                 (Castelo et al. 2019; Longoni et al. 2019; Logg et al. 2019).
+2.1 Algorithm Aversion                                           These differences result in two varying understandings of
+                                                                 what algorithm aversion is: unwillingness to rely on an
+The literature on algorithm aversion is rooted in the con-       algorithm that a user has experienced to err versus general
+troversy over the merits of clinical (i.e., based on deliberate  resistance to algorithmic judgement. Our study aims at
+human thought) and actuarial (i.e., based on statistic           improving our understanding of algorithm aversion by
+models) judgement in different domains, such as medical          investigating both understandings of this phenomenon in
+diagnosis and treatment (Meehl 1954; Dawes 1979; Dawes           one common setting.
+et al. 1989; Grove et al. 2000). Overall, this research
+concludes that actuarial data interpretation is superior to         Previous research has suggested manifold predictors of
+clinical analysis but that humans nevertheless show a ten-       algorithm aversion, such as the perceived subjectivity and
+dency to resist purely actuarial judgement. This resistance      uniqueness of tasks (Castelo et al. 2019; Longoni et al.
+extends to the use of algorithmic decision support when          2019), the decision maker's expertise (Whitecotton 1996)
+compared to human advice (Promberger and Baron 2006;             as well as the algorithm's understandability (Yeomans
+Alvarado-Valencia and Barrero 2014). Evidence from IS            et al. 2019). Burton et al. (2020) assorted possible causes of
+research supports these findings: For instance, Lim and          algorithm aversion into five categories: decision makers'
+O'Connor (1996) demonstrate that people underutilize             false expectations regarding the algorithms' capabilities
+information from DSS when making decisions. Elkins et al.        and performance, lack of control residing with the decision
+(2013) find that expert system users feel threatened by          maker, incentive structures discriminating against the use
+system recommendations contradicting their expertise and         of algorithmic decision support, incompatibility of intuitive
+thus tend to ignore these recommendations. Furthermore,          human decision making and algorithmic calculations, and
+the results by Leyer and Schneider (2019) indicate that          conflicting concepts of rationality between humans and
+managers are less likely to delegate strategic decisions to      algorithms. This study addresses the first of these cate-
+an AI-based DSS than to another human. While most                gories: It specifically deals with the reasoning that people
+empirical evidence supports the existence of algorithm           are less lenient toward algorithms than toward other
+aversion, other studies observed an appreciation of algo-        humans because people expect algorithms to be perfect and
+rithmic advice (Dijkstra et al. 1998; Logg et al. 2019) or       do not believe that algorithms can overcome their errors
+even an exaggerated reliance on AI-based systems (Dijk-          (Dietvorst et al. 2015; Dawes 1979), whereas humans gain
+stra 1999; Wagner et al. 2018). Similarly, Gunaratne et al.      experience over time (Highhouse 2008). If this reasoning
+(2018) reveal that humans tend to follow algorithmic             were true, then people should exhibit lower aversion
+financial advice more closely than identical crowdsourced        toward an erring algorithm demonstrating the ability to
+advice. Therefore, our study seeks to contribute toward          learn than toward an erring algorithm that does not
+untangling these contradicting findings. Table A1 in the         demonstrate the ability to learn. Existent studies have
+digital online appendix (available online via http://link.       suggested several measures to enhance the use of DSS:
+springer.com) provides an overview of recent studies on          allowing for minor adjustments of the algorithm by the
+algorithm aversion.                                              decision maker (Dietvorst et al. 2018); improving the
+                                                                 system design (Fildes et al. 2006; Benbasat and Taylor
+   When comparing studies on algorithm aversion, it is           1978); and training decision makers in the DSS use (Green
+important to note that two differing understandings of the       and Hughes 1986; Mackay and Elam 1992). However,
+term algorithm aversion exist (Dietvorst et al. 2015; Logg       despite the increasing application of machine learning, we
+et al. 2019). Dietvorst et al. (2015) coined the term for the    do not yet know how decision makers react to advice by
+choice of inferior human over superior algorithmic judge-        AI-based systems that demonstrate the ability to learn and,
+ment. However, their study specifically shows that people        thus, perceivably improve over time. We address this
+                                                                 research gap in this study.
+
+                                                                                               123
+     B. Berger et al.: Algorithm Aversion and Demonstrating the Ability to Learn, Bus Inf Syst Eng
+
+2.2 Ability to Learn                                               reduces customers' product screening and evaluation costs
+                                                                   while enhancing decision-making quality. Besides this
+AI researchers employ various approaches to realize                study, we are not aware of research that has investigated
+computational capabilities (Russell and Norvig 2010). The          whether humans perceive the ability to learn of AI-based
+approach that enabled most of the recent breakthroughs in          systems and, if so, which consequences these perceptions
+AI research is machine learning (Jordan and Mitchell               have. Given the increasing use of machine learning and
+2015). Mitchell (1997, p. 2) defines machine learning as           early calls for research on this matter (Liang 1987), our
+follows: ``A computer program is said to learn from                study seeks to provide first evidence on AI-based system
+experience E with respect to some class of tasks T and             users' perceptions of the ability to learn.
+performance measure P, if its performance at tasks in T, as
+measured by P, improves with experience E.'' Specifically,         3 Hypotheses Development
+machine learning allows equipping systems with func-
+tionalities via data-based training instead of manual cod-         The common result of early research on the appreciation of
+ing. We refer to such systems as AI-based systems because          algorithmic judgement is that people generally prefer
+machine learning is part of the AI domain. Owing to                human judgement despite its oftentimes inferior quality
+algorithmic improvements, the increasing availability of           (Dawes et al. 1989). However, recent research findings on
+training data, and decreasing costs of computation,                the effects of advisor nature (i.e., human or algorithmic)
+machine learning has spurred substantial progress in the           challenge this conclusion: On the one hand, underutiliza-
+realization of several computational capabilities, such as         tion of algorithmic advice may at least partially reflect the
+computer vision, speech recognition, natural language              decision maker's overconfidence and egocentric advice
+processing, and decision support within AI-based systems           discounting (Logg et al. 2019; Soll and Mannes 2011).
+(Jordan and Mitchell 2015).                                        Therefore, it is important to compare the reliance on
+                                                                   algorithmic judgement not against the decision maker's
+   When incorporating machine learning in IT systems, we           own judgement but against the reliance on another human's
+can distinguish between training prior to system deploy-           judgement. On the other hand, several studies on algorithm
+ment (until the system meets specific performance thresh-          aversion have employed tasks, such as recommending
+olds) and ongoing (i.e., continual) learning after system          jokes (Yeomans et al. 2019) or medical treatment (Prom-
+deployment (Parisi et al. 2019). The latter is necessary if        berger and Baron 2006). The quality of decisions in these
+the available data is insufficient to train the system up to a     settings is often subjective or depends on the decision
+desired level or if the system must be able to adapt to            maker's personal characteristics (Longoni et al. 2019;
+varying environmental conditions or user characteristics.          Castelo et al. 2019). However, Castelo et al. (2019) show
+For instance, DSS that depend on their users' personal             that algorithm aversion reduces if people perceive tasks to
+information suffer from a cold-start problem at the begin-         be more objective. Logg et al. (2019) and Gunaratne et al.
+ning of their use (Liebman et al. 2019). Among continually         (2018) even gather evidence for algorithm appreciation in
+learning systems, we can further differentiate between             several numeric forecasting tasks. The control group find-
+those that explicitly involve users in the learning process        ings by Dietvorst et al. (2015) and the results by Prahl and
+(i.e., interactive or cooperative learning) and those that         Van Swol (2017) substantiate the idea of algorithm
+implicitly improve over time (Amershi et al. 2014; Saun-           appreciation unless people have become familiar with an
+ders et al. 2016). In case of explicit learning, the user is part  erring algorithm's performance. Following this recent
+of the training loop and can exert influence on the process.       evidence, we suggest that in a decision task with an
+Examples of explicit learning applications are data labeling       objectively measurable outcome that is independent of the
+(Wang and Hua 2011) and video game design (Seidel et al.           decision maker's personal characteristics, there is no rea-
+2018). Implicit learning systems improve over time without         son to generally devalue advice from an algorithm the
+depending on explicit user feedback by either relying on           decision maker is not familiar with. Instead, human deci-
+other data sources or observing users' behavior. Search            sion makers may even favor algorithmic advice because an
+engines, for instance, optimize the ranking of their search        algorithmic advisor's abilities are complementary to their
+results by drawing upon clickstream data (Joachims and             own while those of a human advisor are not (Prahl and Van
+Radlinski 2007).                                                   Swol 2017; Dellermann et al. 2019; Dawes 1979).
+                                                                   Accordingly, we hypothesize:
+   Whereas previous research has investigated the human
+role in interactive learning settings (Amershi et al. 2014),
+little is known about users' reactions toward implicit
+learning systems. Zhang et al. (2011) show that retailer
+learning conceptualized as the quality of personalized
+product recommendations on an e-commerce website
+
+123
+B. Berger et al.: Algorithm Aversion and Demonstrating the Ability to Learn, Bus Inf Syst Eng
+
+H1 For an objective and non-personal decision task,            light of the recent technological advances in AI and the
+human decision makers exhibit algorithm appreciation if        increasing use of machine learning (Jordan and Mitchell
+they are unfamiliar with the advisor's performance.            2015), these beliefs are not necessarily accurate, especially
+                                                               in the domain of objective and non-personal decision tasks.
+   While the literature generally offers mixed results         Likewise, we suggest that an algorithm's ability to learn
+regarding preferences for advisor nature, there is clear       (i.e., to improve over time) can reduce the detrimental
+evidence of experience with an erring algorithmic advisor      effect that familiarity with an erring algorithm has on the
+having a negative effect on the reliance on this advisor       decision maker's reliance on the algorithm's advice. Nat-
+(Dietvorst et al. 2015; Prahl and Van Swol 2017). An           urally, this is only possible if users can recognize the
+important precondition for this effect is that the experience  algorithm's ability to learn, which means the algorithm
+with the algorithmic advisor allows decision makers to         must demonstrate this ability. Furthermore, we expect this
+determine that the advisor errs. Otherwise, people tend to     effect to hold only for algorithmic advisors because human
+continually rely on incorrect advice (Dijkstra 1999). A        advisors are expected to be able to learn. Therefore, our last
+common explanation for this phenomenon is that people          hypotheses are:
+expect an algorithm's advice to be perfect (Dzindolet et al.
+2002; Highhouse 2008). However, in decisions under             H3a For an objective and non-personal decision task,
+uncertainty neither humans nor algorithms can provide          demonstrating an advisor's ability to learn moderates the
+perfect advice. A disconfirmation of this expectation then     effect of advisor nature on the reliance on a familiar and
+leads to lower reliance on the algorithm compared to a         erring advisor.
+similarly performant or even inferior human (Dietvorst
+et al. 2015). This reasoning is also in line with IS research  H3b For an objective and non-personal decision task,
+on continued system use (Bhattacherjee and Lin 2015).          human decision makers rely more on the advice of a
+Following the call by Castelo et al. (2019) for more           familiar and erring algorithm with the ability to learn than
+research on how experience with algorithms influences          on the advice of a familiar and erring algorithm without
+their use, we thus propose:                                    this ability.
+
+H2a For an objective and non-personal decision task,           H3c For an objective and non-personal decision task,
+familiarity with an advisor's performance moderates the        human decision makers do not exhibit algorithm aversion if
+effect of advisor nature on a human decision maker's           they are familiar with the advisor's performance and the
+reliance on the advice if the advisor errs.                    advisor is erring but has the ability to learn.
+
+H2b For an objective and non-personal decision task,              Overall, we suggest that the nature of an advisor in an
+human decision makers rely more on the advice of an            objective and non-personal decision task has an effect on
+unfamiliar algorithm than on the advice of a familiar          the decision maker's reliance on the advice in favor of an
+algorithm if the advisor errs.                                 algorithmic advisor (H1). However, becoming familiar
+                                                               with the advisor's performance before deciding whether to
+H2c For an objective and non-personal decision task,           rely on its advice moderates this effect if the advisor errs
+human decision makers exhibit algorithm aversion if they       (H2a). As a result, the reliance on a familiar and erring
+are familiar with the advisor's performance and the advi-      algorithmic advisor is lower than the reliance on an unfa-
+sor errs.                                                      miliar algorithmic advisor (H2b) and lower than the reli-
+                                                               ance on a familiar and erring human advisor (H2c). Lastly,
+   If experiencing an algorithm to err causes a deterioration  an algorithm's ability to learn moderates the effect of
+of reliance on this algorithm's advice owing to unmet          advisor nature on the reliance on a familiar advisor (H3a)
+performance expectations (Dzindolet et al. 2002; Prahl and     such that the ability to learn increases the reliance on a
+Van Swol 2017), a positive experience of an algorithm's        familiar and erring algorithmic advisor (H3b) and resolves
+performance may conversely encourage a decision maker          algorithm aversion (H3c).
+to rely on the algorithm (Alvarado-Valencia and Barrero
+2014). In their study of algorithm aversion, Dietvorst et al.  4 Method
+(2015) measured a set of beliefs about differences between
+human and algorithmic forecasts from the participants'         4.1 Experimental Design and Procedure
+perspective. While the participants thought that algorithms
+outperformed humans in avoiding obvious mistakes and           To test the hypotheses, we conducted an incentive-com-
+weighing information consistently, they strongly believed      patible online experiment in accordance with most research
+that humans were much better than algorithms at learning       on algorithm aversion (Burton et al. 2020). An online
+from mistakes and improving with practice. However, in
+
+                                                                                               123
+                             B. Berger et al.: Algorithm Aversion and Demonstrating the Ability to Learn, Bus Inf Syst Eng
+
+experiment fitted the purpose of our study because it           ∑ The quarter of the year (ranging from Q1 to Q4);
+allowed us to measure the potential effects precisely and       ∑ The day of the month (ranging from 1 to 31);
+with high internal validity. Our experiment had a between-      ∑ The day of the week (ranging from Monday to Friday);
+subject design with manipulations of advisor nature (hu-        ∑ The running of a promotion campaign (either yes or
+man vs. algorithmic), familiarity (non-familiar vs. famil-
+iar), and ability to learn (non-learning vs. learning). Since       no);
+the ability to learn can affect decision makers' behavior       ∑ The recent sales (in percent below or above average);
+only if they are familiar with the advisor, we could not
+employ a traditional full factorial design. Instead, we             and
+subdivided the experimental groups becoming familiar            ∑ The recent website traffic (in percent below or above
+with the advisor into those experiencing a non-learning and
+those experiencing a learning advisor. Table 1 depicts our          average).
+experimental design.
+                                                                   For all of these variables, we provided the participants
+   In our online experiment, we asked the participants to       with a short explanation about their effects on the number
+make a forecast within a business setting. The experimental     of incoming calls. Third, the participants received an
+procedure comprised six steps (see Fig. 1): In the first step,  advisor's estimation based on the six variables' specific
+we welcomed all the participants and instructed them to         values on the date for which the participants had to make
+answer all questions thoroughly. Furthermore, we informed       their forecast. Lastly, we told the participants that they had
+them about the presence of attention checks, the monetary       to make eight training estimations before their final and
+incentivization, and the payment modalities. The second         incentivized estimation.
+step encompassed the introduction of our experimental
+setting. We asked the participants to imagine working as a         After receiving this information, the participants had to
+call center manager and being responsible for the staffing.     answer several comprehension questions before proceeding
+The call center had just recently acquired a new client. The    to the third step of the experimental procedure (see
+number of incoming calls for this client's hotline opera-       Table A7 in the digital appendix). This third step com-
+tions now had to be estimated on a regular basis to make        prised the eight training estimations and was inspired by
+appropriate staffing decisions. The participants' task was to   Dietvorst et al.'s (2015) experimental setting. This training
+estimate the number of incoming calls for a specific day        phase was necessary to ensure that the participants could
+and the accuracy of their estimation partly determined their    become familiar with the advisor. The participants in the
+remuneration for taking part in the study. Accordingly, the     conditions of not becoming familiar with the advisor had a
+participants had an incentive to put their best effort in the   training phase without the advisor to prevent confounds
+estimations. We chose this task because it is a common          that could potentially distort the results. After completing
+forecasting problem in business, of objective and non-          the training estimations, we once more informed the par-
+personal nature, and suitable for machine-learning-based        ticipants that their ninth and final estimation (i.e., serious
+IT support (Ebadi Jalal et al. 2016; Fukunaga et al. 2002).     phase) would determine the variable share of their pay-
+The participants received several aids, which enabled them      ment. The final forecast constituted the fourth step of the
+to make sophisticated estimations. First, we told the par-      experiment and included the measurement of the dependent
+ticipants that the number of calls on an average day would      variable. This step was followed by a post-experimental
+be 5000. Second, the participants received information          questionnaire containing control and demographic vari-
+about six variables influencing the number of calls on a        ables (step 5). In the sixth and last step, we informed the
+specific day:                                                   participants about the accuracy of their final estimation and
+                                                                provided them with payment details.
+Table 1 Experimental design
+                                                                4.2 Experimental Treatments
+Unfamiliar  Non-learning     Human  Algorithmic
+Familiar    Learning                                            We administered our experimental treatments in the second
+                             H-U    A-U                         and third step of the experimental procedure. In H-U and
+                             H-F-N  A-F-N                       A-U (i.e., the unfamiliar advisor conditions), the partici-
+                             H-F-L  A-F-L                       pants read in the scenario explanation that they would
+                                                                familiarize themselves with the task during the eight
+                                                                training estimations. However, for the ninth estimation,
+                                                                which determined the participants' bonus payments, they
+                                                                would receive an advice from an advisor. Depending on the
+                                                                experimental condition, we introduced the advisor either as
+                                                                an ``Industry Expert'' (H-U) with long-standing experience
+                                                                in the field or as a ``Prediction Software'' (A-U) with a
+
+123
+B. Berger et al.: Algorithm Aversion and Demonstrating the Ability to Learn, Bus Inf Syst Eng
+
+Fig. 1 Experimental procedure  Instructions                        Scenario                       Training Phase
+                                                                 Explanation                          Round 1-8
+
+                                                                  Call center                      Own estimation
+
+                                                                                               Only H-F & A-F
+
+                                                                                                 Advisor estimation
+
+                                                                                                   Actual number
+
+                                       Step 1                           Step 2                        Step 3
+                                                                                               Final Information
+                                 Serious Phase                   Post-Experiment
+                                     Round 9                      Questionnaire                Actual number of
+                                                                                                      round 9
+                                 Own estimation
+                               Advisor estimation                                              Bonus
+
+                               Revised estimation
+
+                               Step 4                            Step 5                        Step 6
+
+long-standing product history in the field. As such, the         each training round, we revealed the true value to the
+participants knew from the beginning that they would             participants such that they could evaluate the accuracy of
+encounter an advisor in the last stage of the scenario. In       their estimation. In H-U and A-U, this happened immedi-
+contrast to H-U and A-U, we explained the remaining              ately after the participants had submitted their estimations
+groups (i.e., the familiar advisor conditions) that they         because no advisor was involved in these conditions. In the
+would also receive advice throughout the training estima-        other groups, the participants received the advisor estima-
+tions in the scenario. The advisor introductions for H-F-N       tion after submitting their estimation but before receiving
+and H-F-L were the same as for H-U (i.e., the human              the true value. The participants in these conditions could,
+advisor conditions) and the advisor introductions for A-F-       thus, not only evaluate their own but also the advisor's
+N and A-F-L were the same as for A-U (i.e., the algo-            estimation performance, i.e. becoming familiar with the
+rithmic advisor conditions).                                     advisor. The advisor estimations did not differ between
+                                                                 human and algorithmic advisors but between non-learning
+   The eight training estimations in the third step of the       (H-F-N and A-F-N) and learning advisors (H-F-L and A-F-
+experiment proceeded as follows: For each round, we              L). While advisors of either nature erred, the learning
+showed the participants a specific date along with the levels    advisor continually improved in performance, whereas the
+of the six variables listed in the last section. We selected     non-learning advisor did not (see Fig. 2). The average
+the eight dates randomly and presented them to the par-          change in prediction errors from round to round (i.e., the
+ticipants in chronological order. While the levels of the first  error fluctuation) was the same for both types of advisors
+three variables (quarter of the year, day of the month, and      (12.3%). However, the non-learning advisor had a lower
+day of the week) depended on the chosen date, we gener-          average prediction error (5.5%) than the learning advisor
+ated the levels for the remaining variables (promotion           (6.3%). Furthermore, both types of advisors had the same
+campaign, recent sales, and website traffic) randomly for        accuracy in the eighth round (4.5%). Accordingly, a
+each of the dates. All the participants saw the same dates       favorable perception of the learning advisor is
+and the same variable levels in the same order. Based on         attributable neither to overall performance advantages
+the six variable levels, we calculated a true number of calls    during the training nor to a lower prediction error in the
+for each date, which the participants did not know but had       eighth training round, which might have caused unintended
+to estimate. The digital appendix contains an explanation        recency effects on the following incentivized estimation.
+of the exact calculations (Tables A2≠A6). At the end of
+
+                                                                                                       123
+                                  B. Berger et al.: Algorithm Aversion and Demonstrating the Ability to Learn, Bus Inf Syst Eng
+
+The convex shape of the learning curve with decreasing                            4.3 Measures
+performance gains based on additional data corresponds to
+the learning pattern of machine learning algorithms when                          The measurement of our dependent variable was part of the
+applied in new contexts as represented by the new call                            incentive-compatible estimation (step 4) in our experiment.
+center client in our scenario (NVIDIA Corporation 2020).                          Previous studies on algorithm aversion made use of dif-
+                                                                                  ferent instruments to measure a decision maker's reliance
+   To ascertain that the advisor's estimations were not too                       on advice. Whereas a number of studies required their
+far from or too close to the participants' estimations and                        participants to fully rely on either the advice or their own
+thus created unintended confound, we conducted a pretest                          judgement (Dietvorst et al. 2015), we chose to use a more
+with 248 participants from Amazon Mechanical Turk. The                            fine-grained measure. Specifically, we followed Logg et al.
+participants had to provide estimations in a scenario similar                     (2019) in employing the judge-advisor paradigm (Sniezek
+to our final experiment. The average prediction error of the                      and Buckley 1995) to measure the advisor's influence on
+participants' estimations was 5.5%. Therefore, we designed                        the decision maker. In the context of our experiment, this
+the advisors' estimations in our actual experiment to have a                      framework requires the decision maker to provide an initial
+similar prediction error on average.                                              estimation before receiving the advisor's estimation (like
+                                                                                  during the training phase in step 3) and an adjusted esti-
+   Lastly, we conducted a second pretest with 267 partic-                         mation after receiving the advice, which was not the case in
+ipants from Amazon Mechanical Turk experiencing one of                            the training estimations. The decision maker's initial esti-
+the six treatments to examine whether our experimental                            mation, adjusted estimation, and the advisor's estimation
+treatments would work as intended. We used manipulation                           then allow calculating the weight of advice (WOA):
+checks for perceived learning (e.g., ``The Prediction Soft-
+ware gained a good understanding of how to properly                                         adjusted estimation ¿ initial estimation
+estimate the number of calls.'') by Alavi et al. (2002),                          WOA º advisor0s estimation ¿ initial estimation
+anthropomorphism (e.g., ``The source of advice is ...''
+``machinelike ... humanlike'') by Bartneck et al. (2009) and                         A WOA of 0 means that decision makers do not adjust
+Benlian et al. (2020), and familiarity with the advisor (e.g.,                    but remain with their initial estimation and thus ignore the
+``Overall, I am familiar with the Industry Expert'') by                           advice. In contrast, a WOA of 1 represents a full adoption
+Gefen (2000) and Kim et al. (2009). Table A11 in the                              of the advisor's estimation. Any values in between reflect
+digital appendix contains the manipulation checks. The                            the degree to which decision makers take their initial
+results of the second pretest indicated that all treatments                       estimation and the advisor's estimation into account for
+would work as intended: First, H-F-L and A-F-L exhibited                          their adjusted estimation. Values below 0 or above 1 may
+a significantly higher level of perceived learning than H-F-                      also occur if decision makers believe that the true value lies
+N and A-F-N (F = 5.53, p \ 0.05). Second, H-F-N, H-F-L,                           outside the interval of their initial and the advisor's esti-
+A-F-N, and A-F-L exhibited a significantly higher level of                        mation. Whereas several studies decide to winsorize such
+familiarity than H-U and A-U (F = 3.00, p \ 0.1). Lastly,                         values (Logg et al. 2019), we retained these values as they
+H-U, H-F-N, and H-F-L exhibited a significantly higher                            were. Departing from the advisor's estimation (WOA \ 0)
+level of anthropomorphism than A-U, A-F-N, and A-F-L                              or overweighting the advisor's estimation (WOA [ 1) may
+(F = 4.46, p \ 0.05).                                                             be due to the participants' deliberate choices depending on
+                                                                                  their experience with their own and the advisor's
+
+Fig. 2 Prediction errors of                                                       14%
+advisors for each training round
+                                                                                           12.0%
+                                                                                  12%
+
+                                                                Prediction error  10%             7.8%  6.2%  5.5%    6.3%      5.6%  5.8%
+                                                                                   8%             6.1%  5.3%          5.1%      4.8%  4.6%
+                                                                                   6%                                                       4.5%
+                                                                                   4% 5.1%
+                                                                                   2%
+
+                                                                                  0%
+
+                                                                                      1           2     3     4              5  6     7     8
+
+                                                                                                                      Round
+
+                                                                                                        Non-learning  Learning
+
+123
+B. Berger et al.: Algorithm Aversion and Demonstrating the Ability to Learn, Bus Inf Syst Eng
+
+performance in the training phase (Prahl and Van Swol         Table 2 Descriptive sample information
+2017). Based on the WOA values within the different
+experimental groups, we intended to apply bootstrapped        Groups         N  Mean
+moderation analyses to test H2a as well as H3a and
+ANOVAs with planned contrasts to test the remaining                             WOA (%)               Age   Gender (male) (%)
+hypotheses.
+                                                              H-U            68 58.0                  40.6  45.6
+   Besides our dependent variable, we measured several                                                      54.2
+control and demographic variables in the post-experimental    A-U            83 74.6                  41.5  44.4
+questionnaire (see Tables A8 and A9 in the digital                                                          54.3
+appendix). Among those were the participants' trusting        H-F-N          72 64.2                  39.3  35.7
+disposition (Gefen and Straub 2004), personal innovative-                                                   52.8
+ness (Agarwal and Prasad 1998), experience in working for     A-F-N          70 39.9                  40.0
+call centers as well as calling hotlines, and knowledge
+about call centers (based on Flynn and Goldsmith (1999)).     H-F-L          70 54.9                  39.1
+Furthermore, we asked the participants for their age, gen-
+der, and education. Between the control and demographic       A-F-L          89 63.6                  38.1
+variables, we placed an attention check (see Table A10 in
+the digital appendix). Lastly, we measured the participant's  trusting disposition, personal innovativeness, experience in
+perceived realism of the scenario.                            working for call centers as well as calling hotlines, and
+                                                              knowledge about call centers between the six experimental
+4.4 Data Collection                                           groups (all p [ 0.1). We also did not find differences
+                                                              regarding demographics in terms of gender, age, or edu-
+                                                              cation (all p [ 0.1). Lastly, the participants across all
+                                                              groups indicated that they perceived the experiment as
+                                                              realistic (mean = 5.6; std. dev. = 1.1).
+
+To collect sample data, we recruited participants from        5 Results
+Amazon Mechanical Turk, a viable and reliable crowd-
+sourcing platform for behavioral research and experiments     We tested our hypotheses by conducting a series of anal-
+(Karahanna et al. 2018; Behrend et al. 2011; Steelman et al.  yses in IBM SPSS Statistics 25.
+2014). Using Amazon Mechanical Turk is a suitable sam-
+pling strategy for our research, as it enables us to reach       To test H1 ≠ the effect of advisor nature on WOA if the
+users who are internet savvy but not expert forecasters.      advisors are unfamiliar ≠ we conducted an ANOVA com-
+Since experienced professionals have been shown to rely       paring H-U with A-U. The test revealed no significant main
+less on algorithmic advice than lay people, our sample is     effect between the two groups (F = 2.14, p [ 0.1). As
+thus more conservative (Logg et al. 2019). We restricted      such, H1 is not supported in that the participants do not
+participation to users who are situated in the U.S. and who   significantly rely more on the unfamiliar algorithmic
+exhibited a high approval rating (i.e., at least 95%) to      advisor than on the unfamiliar human advisor.
+ascertain high data quality (Goodman and Paolacci 2017).
+Moreover, we incentivized the attentive participation by         For H2a, we conducted a bootstrap moderation analysis
+mentioning that participants could receive up to twice the    with 10,000 samples and a 95% confidence interval (CI)
+base payment as a bonus, depending on the accuracy of         with data from H-U, A-U, H-F-N, and A-F-N to test
+their final estimation.                                       whether familiarity moderates the effect of advisor nature
+                                                              (Hayes 2017, PROCESS model 1). The results of our
+   From 636 participants completing the questionnaire, we     moderation analysis (see Fig. 3) show that familiarity
+removed those who failed the attention check or inserted
+values for the incentivized ninth estimation below 100. We              80%                    74.6%        64.2%
+further removed participants who exhibited outlier char-                70%                    58.0%        39.9%
+acteristics in the ninth estimation in the form of excep-               60%
+tionally fast (i.e., less than 7 s) or slow (i.e., more than       WOA  50%
+99 s) estimation times in any of the estimations. The final             40%
+sample comprised 452 participants. Table 2 provides                     30%
+descriptive information of the analyzed data set.                       20%
+                                                                        10%
+   To confirm the participants' random assignment to the
+different experimental conditions based on our control and               0%
+demographic variables, we conducted Fisher's exact tests
+for the categorical variables and a MANOVA for the                              Unfamiliar                       Familiar
+metric variables. There are no significant differences in                          Human              Algorithmic
+
+                                                              Fig. 3 Interaction plot for H-U, A-U, H-F-N, and A-F-N
+
+                                                                                                                           123
+     B. Berger et al.: Algorithm Aversion and Demonstrating the Ability to Learn, Bus Inf Syst Eng
+
+moderates the effect of advisor nature on WOA (interaction     WOA  80%  64.2%         63.6%
+effect = - 0.41, standard error = 0.18, p \ 0.05). Specifi-         70%  39.9%         54.9%
+cally, the effect of advisor nature reverses when the advisor       60%
+is familiar (effect = - 0.24, standard error = 0.13) com-           50%
+pared to when the advisor is unfamiliar (effect = 0.17,             40%
+standard error = 0.13), supporting H2a. To test H2b and             30%
+H2c, we conducted a two-way independent ANOVA with                  20%
+planned contrasts among the same groups. The interaction            10%
+effect between advisor nature and familiarity is significant
+(F = 5.20, p \ 0.05), thus confirming the results of our             0%
+moderation analysis. The pairwise comparison between
+A-U and A-F-N (p \ 0.01) is significant and that between                 Non-learning            Learning
+H-F-N and A-F-N (p \ 0.1) is marginally significant.                          Human    Algorithmic
+These results provide support for H2b and weak support for
+H2c.                                                           Fig. 4 Interaction plot for H-F-N, A-F-N, H-F-L, and A-F-L
+
+   For H3a, we conducted a bootstrap moderation analysis       aversion, given that this ability becomes increasingly
+with 10,000 samples and a 95% confidence interval with         prevalent in AI-based systems. We studied these questions
+data from groups H-F-N, A-F-N, H-F-L, and A-F-L to test        by simulating a forecasting task within a business setting.
+whether demonstrating the ability to learn moderates the       The accuracy of both the decision makers' and the simu-
+effect of advisor nature if the advisor is familiar (Hayes     lated advisors' estimations were objectively measurable
+2017, PROCESS model 1). The results of our moderation          and did not depend on the decision makers' personal
+analysis (see Fig. 4) show that demonstrating the ability to   characteristics. These important boundary conditions are
+learn moderates the effect of advisor nature on WOA (in-       true for many business decisions but should be considered
+teraction effect = 0.33, standard error = 0.16, p \ 0.05).     when comparing our results with those of earlier studies
+Specifically, the negative effect of interacting with an       (Castelo et al. 2019).
+algorithmic (vs. human) familiar advisor reverses when the
+familiar advisor demonstrates the ability to learn (ef-           According to our results, humans do not generally (i.e.,
+fect = 0.09, standard error = 0.11) compared to when the       without being familiar with the advisor) prefer human to
+familiar advisor does not learn (effect = - 0.24, standard     algorithmic advice. While we hypothesized the opposite
+error = 0.12), supporting H3a. We again conducted a two-       (i.e., algorithm appreciation) to be true in the context of our
+way independent ANOVA with planned contrasts among             study, our findings do not support this claim. Instead, the
+the same groups to test H3b and H3c. The interaction effect    participants in our experiment relied to a similar degree on
+between advisor nature and ability to learn is also signifi-   advice coming from an unfamiliar human and an unfa-
+cant (F = 4.24, p \ 0.05), thus confirming the results of      miliar algorithmic advisor. The role of familiarity, how-
+our moderation analysis. Similarly, the pairwise compar-       ever, distinguishes the two understandings of algorithm
+ison between A-F-N and A-F-L is significant (p \ 0.05),        aversion. Following the reasoning of Dietvorst et al.
+while the pairwise comparison between H-F-L and A-F-L          (2015), people shun algorithmic but not human advice after
+is not (p [ 0.1). These results support both H3b and H3c.      becoming familiar with the advisor. In other words,
+                                                               familiarity with the advisor interacts with nature of the
+6 Discussion                                                   advisor. The results of our experiment strongly support this
+                                                               claim and, thus, the understanding of algorithm aversion
+Algorithm aversion has spurred controversial discussions       put forward by Dietvorst et al. (2015). Becoming familiar
+in previous research, which resulted in differing under-       with the advisor reduced the reliance on the algorithmic but
+standings of this phenomenon. In this study, we set out to     not on the human advisor despite their performance (i.e.,
+contribute toward clarifying what algorithm aversion is and    the accuracy of their estimations in the training period)
+under which conditions algorithm aversion occurs. Previ-       being identical.
+ous studies have produced conflicting findings about
+whether people are generally averse to algorithmic judge-         What are possible reasons for this interaction? We
+ment or avoid algorithms only if they perceive these           adopted a line of argument from prior research, which
+algorithms to err. Furthermore, we sought to investigate       suggests that erring weighs more severely for algorithmic
+whether demonstrating an algorithm's ability to learn may      than for human advisors because humans may overcome
+serve as an effective countermeasure against algorithm         their weaknesses while algorithms may not (Highhouse
+                                                               2008; Dzindolet et al. 2002; Dietvorst et al. 2015). If this
+                                                               were true, demonstrating an algorithm's ability to learn
+                                                               should reduce algorithm aversion. Therefore, we manipu-
+                                                               lated the advisor's performance during the training
+
+123
+B. Berger et al.: Algorithm Aversion and Demonstrating the Ability to Learn, Bus Inf Syst Eng
+
+estimations, which allowed the participants to become             Additionally, we show that the experience during
+familiar with the advisor. Demonstrating the ability to learn  familiarization determines the effect that becoming famil-
+requires the advisor to improve during the training esti-      iar with an algorithmic advisor has on relying on this
+mations. This, in turn, means that the learning advisors       advisor. We argue that if the experience does not meet
+initially must have a higher prediction error than the non-    decision makers' expectations of the advisor, the decision
+learning advisors to prevent strong performance differences    makers' reliance decreases. This is a reasonable reaction.
+between them. Accordingly, demonstrating the ability to        However, if decision makers' expectations of an algorith-
+learn means to elicit even higher algorithm aversion ini-      mic advisor are overly high (i.e., decision makers expect an
+tially and compensating this disadvantage through              algorithmic advisor to provide perfect advice under
+improvement over time. Indeed, our results show that users     uncertainty), this reaction may lead to an irrational dis-
+honor an algorithm's ability to learn. The participants in     counting of algorithmic advice. Our results indicate this
+our experiment relied more on the learning than on the non-    effect by contrasting the familiarization with an erring
+learning algorithmic advisor in their incentivized estima-     algorithmic advisor with the familiarization with an iden-
+tion. Moreover, we could not find differences between          tical human advisor. Yet, improving the experience during
+reliance on the learning algorithmic advisor and reliance on   the familiarization is an effective countermeasure against
+the learning human advisor. These findings strongly sup-       this effect. We find that demonstrating the ability to learn
+port the idea that demonstrating an algorithm's ability to     (i.e., improving over time) is such a countermeasure.
+learn is a promising countermeasure against algorithm          Specifically, the continual improvement of the learning
+aversion. Furthermore, our results indicate that people's      algorithmic advisor in our experiment outweighed its initial
+beliefs about differences between humans' and algorithms'      performance deficits in comparison to the non-learning
+abilities to learn contribute to algorithm aversion. How-      advisor. To the best of our knowledge, our study is the first
+ever, these beliefs are not necessarily accurate, given that   to show that users can recognize an algorithm's ability to
+machine learning enables IT systems to overcome errors by      learn and that this perception has positive effects on the
+considering subsequent feedback on their performance.          users' behavior toward the algorithm.
+Demonstrating an AI-based system's ability to learn may,
+thus, update these beliefs and prevent costly behavioral          Practitioners may also gain useful insights from our
+biases in decision making.                                     study. Companies that provide or seek to employ DSS in
+                                                               contexts under uncertainty should consider possible nega-
+7 Implications                                                 tive effects of users becoming familiar with IS. To counter
+                                                               these effects, companies employing DSS in such contexts
+Our findings hold important implications for understanding     should manage their employees' expectations of what IT
+decision makers' reliance on AI-based systems under            systems can and cannot accomplish. Regarding the current
+uncertainty, thereby answering the call for research on        debate on the effects of AI-based systems as black boxes
+individuals' reaction to and collaboration with AI-based       (Maedche et al. 2019), our findings suggest that IS devel-
+systems (Buxmann et al. 2019).                                 opers should invest in demonstrating and communicating
+                                                               the abilities of their IT systems to users. In case of AI-
+   We contribute to previous literature on algorithm aver-     based systems with the ability to learn, this includes
+sion by comparing the reliance on an unfamiliar and a          transparently demonstrating the system's performance
+familiar algorithmic advisor to the reliance on an unfa-       improvements over time. Potential measures to emphasize
+miliar and a familiar human advisor of identical perfor-       these improvements are displaying performance compar-
+mance. Algorithm aversion was evident only if decision         isons to previous advices and periodical reports on the
+makers were familiar with the advisor. Therefore, we rec-      performance development of IT systems.
+ommend using the term algorithm aversion only for the
+negative effect that familiarization with an algorithmic       8 Limitations and Suggestions for Further Research
+advisor has on reliance on this advisor, as was initially
+suggested by Dietvorst et al. (2015). Our results, further-    Like any research, our study has a few limitations, which
+more, suggest that a general aversion to algorithmic           also provide leads for further research. First, we designed
+judgement does not exist in objective and non-personal         our study as a simulated online experiment. Even though
+decision contexts. Different findings in early and recent      the experiment was incentive-compatible and of high
+studies on this topic may partly stem from the growing         internal validity, the results do not represent reliance on an
+diffusion of algorithms in people's everyday life and a        algorithmic advisor with a highly consequential decision.
+corresponding accustomation to algorithms.                     Similarly, the participants in our experiment were crowd-
+                                                               workers acquired on Amazon Mechanical Turk. These
+
+                                                                                               123
+     B. Berger et al.: Algorithm Aversion and Demonstrating the Ability to Learn, Bus Inf Syst Eng
+
+participants are likely to be more tech-savvy than the          algorithmic decision support. Our findings not only show
+average population and may thus be less likely to exhibit       that familiarity with an erring algorithmic advisor reduces
+algorithm aversion. As such, it would be interesting to test    decision makers' reliance on this advisor but also that
+our hypotheses in a longitudinal field study with a real-       demonstrating an algorithm's ability to learn over time can
+world algorithmic advisor to strengthen external validity.      offset this effect. We hope that our study provides an
+Second, our study only constitutes an initial investigation     impetus for future research on collaboration with and
+into how demonstrating the ability to learn affects relying     acceptance of AI-based systems as well as actionable rec-
+on algorithmic advice. Our experimental treatment con-          ommendations for designing and unblackboxing such
+fronted the participants with an algorithmic advisor            systems.
+exhibiting a stylized learning curve to allow for an unbi-
+ased comparison to a non-learning advisor. However, we          Acknowledgements The authors thank the editor and three anony-
+know little about how bad the initial performance may be        mous reviewers for their valuable guidance throughout the review
+without losing decision makers' confidence in the advisor       process as well as Jennifer Rix, Katharina Pagel, and Wilhelm Retief
+or how decision makers' marginal value of an additional         for their support in preparation of the manuscript.
+advisor improvement develops over time. Furthermore, we
+modeled the ability to learn as a continual improvement         Open Access This article is licensed under a Creative Commons
+from estimation to estimation but actual machine learning       Attribution 4.0 International License, which permits use, sharing,
+may also entail temporal performance losses. Therefore,         adaptation, distribution and reproduction in any medium or format, as
+future research should examine the role of boundary con-        long as you give appropriate credit to the original author(s) and the
+ditions in the effect of demonstrating the ability to learn,    source, provide a link to the Creative Commons licence, and indicate
+such as the impact of estimation volatility and mistakes        if changes were made. The images or other third party material in this
+during learning. Moreover, future research can explore          article are included in the article's Creative Commons licence, unless
+possible mediators explaining the effect (e.g., trusting        indicated otherwise in a credit line to the material. If material is not
+beliefs and expectation-confirmation) of the ability to learn   included in the article's Creative Commons licence and your intended
+on user behavior. Constructs potentially influencing the        use is not permitted by statutory regulation or exceeds the permitted
+aforementioned effect as further moderators include user        use, you will need to obtain permission directly from the copyright
+(e.g., personality types or culture), system (e.g., usefulness  holder. To view a copy of this licence, visit http://creativecommons.
+or transparency), and task (e.g., complexity or conse-          org/licenses/by/4.0/.
+quentialness) characteristics. Third, our study used a task
+of objective nature to study the relationship between           Funding Open Access funding enabled and organized by Projekt
+algorithm aversion and demonstrating an algorithm's             DEAL.
+ability to learn. Since previous research has shown algo-
+rithm aversion to be more severe for tasks of a subjective      References
+and personal nature than for tasks of an objective and non-
+personal nature (Castelo et al. 2019; Longoni et al. 2019),     Agarwal R, Prasad J (1998) A conceptual and operational definition
+future research may investigate whether demonstrating an              of personal innovativeness in the domain of information
+algorithm's ability to learn can also alleviate algorithm             technology. Inf Syst Res 9(2):204≠215. https://doi.org/10.1287/
+aversion for subjective and personal tasks. Fourth, our               isre.9.2.204
+results support the reasoning that people exhibit algorithm
+aversion for objective and non-personal tasks only if they      Alavi M, Marakas GM, Yoo Y (2002) A comparative study of
+experience the algorithm to err. However, algorithms, like            distributed learning environments on learning outcomes. Inf Syst
+humans, cannot provide perfect recommendations for                    Res 13(4):404≠415. https://doi.org/10.1287/isre.13.4.404.72
+decisions under uncertainty. Future research may therefore
+inspect people's expectations of algorithms and the con-        Alvarado-Valencia JA, Barrero LH (2014) Reliance, trust and
+ditions under which these expectations are disconfirmed.              heuristics in judgmental forecasting. Comput Hum Behav
+                                                                      36:102≠113. https://doi.org/10.1016/j.chb.2014.03.047
+9 Conclusion
+                                                                Amershi S, Cakmak M, Knox WB, Kulesza T (2014) Power to the
+Overall, our study is an initial step toward better under-            people: the role of humans in interactive machine learning. AI
+standing how users perceive the abilities of AI-based sys-            Mag 35(4):105≠120. https://doi.org/10.1609/aimag.v35i4.2513
+tems. Specifically, we shed light on how familiarity and
+demonstrating the ability to learn affect users' reliance on    Anthes G (2017) Artificial intelligence poised to ride a new wave.
+                                                                      Commun ACM 60(7):19≠21. https://doi.org/10.1145/3088342
+
+                                                                Bartneck C, Kulic¥ D, Croft E, Zoghbi S (2009) Measurement
+                                                                      instruments for the anthropomorphism, animacy, likeability,
+                                                                      perceived intelligence, and perceived safety of robots. Int J Soc
+                                                                      Robot 1(1):71≠81. https://doi.org/10.1007/s12369-008-0001-3
+
+                                                                Behrend TS, Sharek DJ, Meade AW, Wiebe EN (2011) The viability
+                                                                      of crowdsourcing for survey research. Behav Res Methods
+                                                                      43(3):800≠813. https://doi.org/10.3758/s13428-011-0081-0
+
+                                                                Benbasat I, Taylor RN (1978) The impact of cognitive styles on
+                                                                      information system design. MIS Q 2(2):43≠54. https://doi.org/
+                                                                      10.2307/248940
+
+123
+B. Berger et al.: Algorithm Aversion and Demonstrating the Ability to Learn, Bus Inf Syst Eng
+
+Benlian A, Klumpe J, Hinz O (2020) Mitigating the intrusive effects       centers. AI Mag 23(4):30≠40. https://doi.org/10.1609/aimag.
+      of smart home assistants by using anthropomorphic design
+      features: a multimethod investigation. Inf Syst J                   v23i4.1667
+      30(6):1010≠1042. https://doi.org/10.1111/isj.12243
+                                                                          Gefen D (2000) E-commerce: the role of familiarity and trust. Omega
+Bhattacherjee A, Lin C-P (2015) A unified model of IT continuance:
+      three complementary perspectives and crossover effects. Eur J       28(6):725≠737. https://doi.org/10.1016/S0305-0483(00)00021-9
+      Inf Syst 24(4):364≠373. https://doi.org/10.1057/ejis.2013.36
+                                                                          Gefen D, Straub DW (2004) Consumer trust in B2C e-Commerce and
+Burton JW, Stein M-K, Jensen TB (2020) A systematic review of
+      algorithm aversion in augmented decision making. J Behav            the importance of social presence: experiments in e-products and
+      Decis Mak 33(2):220≠239. https://doi.org/10.1002/bdm.2155
+                                                                          e-services. Omega 32(6):407≠424. https://doi.org/10.1016/j.
+Buxmann P, Hess T, Thatcher J (2019) Call for papers, issue 1/2021.
+      Bus Inf Syst Eng 61(4):545≠547. https://doi.org/10.1007/s12599-     omega.2004.01.006
+      019-00606-2
+                                                                          Goodman JK, Paolacci G (2017) Crowdsourcing consumer research.
+Castelo N, Bos MW, Lehmann DR (2019) Task-dependent algorithm
+      aversion. J Mark Res 56(5):809≠825. https://doi.org/10.1177/        J Consum Res 44(1):196≠210. https://doi.org/10.1093/jcr/
+      0022243719851788
+                                                                          ucx047
+Columbus L (2020) Roundup of machine learning forecasts and
+      market estimates, 2020. https://www.forbes.com/sites/louisco        Green GI, Hughes CT (1986) Effects of decision support systems
+      lumbus/2020/01/19/roundup-of-machine-learning-forecasts-and-
+      market-estimates-2020/. Accessed 10 Feb 2020                        training and cognitive style on decision process attributes.
+
+Dawes RM (1979) The robust beauty of improper linear models in            J Manag Inf Syst 3(2):83≠93. https://doi.org/10.1080/07421222.
+      decision making. Am Psychol 34(7):571≠582. https://doi.org/10.
+      1037/0003-066X.34.7.571                                             1986.11517764
+
+Dawes RM, Faust D, Meehl PE (1989) Clinical versus actuarial              Grove WM, Zald DH, Lebow BS, Snitz BE, Nelson C (2000) Clinical
+      judgment. Science 243(4899):1668≠1674. https://doi.org/10.
+      1126/science.2648573                                                versus mechanical prediction: a meta-analysis. Psychol Assess
+
+Dellermann D, Ebel P, So®llner M, Leimeister JM (2019) Hybrid             12(1):19≠30. https://doi.org/10.1037/1040-3590.12.1.19
+      intelligence. Bus Inf. Syst Eng 61(5):637≠643. https://doi.org/10.
+      1007/s12599-019-00595-2                                             Gunaratne J, Zalmanson L, Nov O (2018) The persuasive power of
+
+Dietvorst BJ, Simmons JP, Massey C (2015) Algorithm aversion:             algorithmic and crowdsourced advice. J Manag Inf Syst
+      people erroneously avoid algorithms after seeing them err. J Exp
+      Psychol Gen 144(1):114≠126. https://doi.org/10.1037/                35(4):1092≠1120.         https://doi.org/10.1080/07421222.2018.
+      xge0000033
+                                                                          1523534
+Dietvorst BJ, Simmons JP, Massey C (2018) Overcoming algorithm
+      aversion: people will use imperfect algorithms if they can (even    Hayes AF (2017) Introduction to mediation, moderation, and
+      slightly) modify them. Manag Sci 64(3):1155≠1170. https://doi.
+      org/10.1287/mnsc.2016.2643                                          conditional process analysis: a regression-based approach, 2nd
+
+Dijkstra JJ (1999) User agreement with incorrect expert system            edn. Guilford, New York
+      advice. Behav Inf Technol 18(6):399≠411. https://doi.org/10.
+      1080/014492999118832                                                Highhouse S (2008) Stubborn reliance on intuition and subjectivity in
+
+Dijkstra JJ, Liebrand WBG, Timminga E (1998) Persuasiveness of            employee selection. Ind Organ Psychol 1(3):333≠342. https://
+      expert systems. Behav Inf Technol 17(3):155≠163. https://doi.
+      org/10.1080/014492998119526                                         doi.org/10.1111/j.1754-9434.2008.00058.x
+
+Dzindolet MT, Pierce LG, Beck HP, Dawe LA (2002) The perceived            Joachims T, Radlinski F (2007) Search engines that learn from
+      utility of human and automated aids in a visual detection task.
+      Hum Factors 44(1):79≠94. https://doi.org/10.1518/                   implicit feedback. Computer 40(8):34≠40. https://doi.org/10.
+      0018720024494856
+                                                                          1109/MC.2007.289
+Ebadi Jalal M, Hosseini M, Karlsson S (2016) Forecasting incoming
+      call volumes in call centers with recurrent neural networks. J Bus  Jordan MI, Mitchell TM (2015) Machine learning: trends, perspec-
+      Res 69(11):4811≠4814. https://doi.org/10.1016/j.jbusres.2016.
+      04.035                                                              tives, and prospects. Science 349(6245):255≠260. https://doi.org/
+
+Elkins AC, Dunbar NE, Adame B, Nunamaker JF (2013) Are users              10.1126/science.aaa8415
+      threatened by credibility assessment systems? J Manag Inf Syst
+      29(4):249≠262. https://doi.org/10.2753/MIS0742-1222290409           Karahanna E, Benbasat I, Bapna R, Rai A (2018) Editor's comments:
+
+Faraj S, Pachidi S, Sayegh K (2018) Working and organizing in the         opportunities and challenges for different types of online
+      age of the learning algorithm. Inf Organ 28(1):62≠70. https://doi.
+      org/10.1016/j.infoandorg.2018.02.005                                experiments. MIS Q 42(4):iii-x
+
+Fildes R, Goodwin P, Lawrence M (2006) The design features of             Kim DJ, Ferrin DL, Rao HR (2009) Trust and satisfaction, two
+      forecasting support systems and their effectiveness. Decis
+      Support Syst 42(1):351≠361. https://doi.org/10.1016/j.dss.2005.     stepping stones for successful e-commerce relationships: a
+      01.003
+                                                                          longitudinal exploration. Inf Syst Res 20(2):237≠257. https://
+Flynn LR, Goldsmith RE (1999) A short, reliable measure of
+      subjective knowledge. J Bus Res 46(1):57≠66. https://doi.org/10.    doi.org/10.1287/isre.1080.0188
+      1016/S0148-2963(98)00057-5
+                                                                          Kuncel NR, Klieger DM, Connelly BS, Ones DS (2013) Mechanical
+Fukunaga A, Hamilton E, Fama J, Andre D, Matan O, Nourbakhsh I
+      (2002) Staff scheduling for inbound call and customer contact       versus clinical data combination in selection and admissions
+
+                                                                          decisions: a meta-analysis. J Appl Psychol 98(6):1060≠1072.
+
+                                                                          https://doi.org/10.1037/a0034156
+
+                                                                          Leyer M, Schneider S (2019) Me, you or AI? How do we feel about
+
+                                                                          delegation. In: 27th European conference on information
+
+                                                                          systems, Stockholm & Uppsala
+
+                                                                          Liang T-p (1987) User interface design for decision support systems:
+
+                                                                          a self-adaptive approach. Inf Manag 12(4):181≠193. https://doi.
+
+                                                                          org/10.1016/0378-7206(87)90041-3
+
+                                                                          Liebman E, Saar-Tsechansky M, Stone P (2019) The right music at
+
+                                                                          the right time: adaptive personalized playlists based on sequence
+
+                                                                          modeling. MIS Q 43(3):765≠786. https://doi.org/10.25300/
+
+                                                                          MISQ/2019/14750
+
+                                                                          Lim JS, O'Connor M (1996) Judgmental forecasting with interactive
+
+                                                                          forecasting support systems. Decis Support Syst 16(4):339≠357.
+
+                                                                          https://doi.org/10.1016/0167-9236(95)00009-7
+
+                                                                          Logg JM, Minson JA, Moore DA (2019) Algorithm appreciation:
+
+                                                                          people prefer algorithmic to human judgment. Organ Behav
+
+                                                                          Hum Decis Process 151:90≠103. https://doi.org/10.1016/j.obhdp.
+
+                                                                          2018.12.005
+
+                                                                          Longoni C, Bonezzi A, Morewedge CK (2019) Resistance to medical
+
+                                                                          artificial intelligence. J Consum Res 46(4):629≠650. https://doi.
+
+                                                                          org/10.1093/jcr/ucz013
+
+                                                                                                                        123
+     B. Berger et al.: Algorithm Aversion and Demonstrating the Ability to Learn, Bus Inf Syst Eng
+
+Mackay JM, Elam JJ (1992) A comparative study of how experts and       Seidel S, Berente N, Lindberg A, Lyytinen K, Nickerson JV (2018)
+      novices use a decision aid to solve problems in complex                Autonomous tools and design: a triple-loop approach to human-
+      knowledge domains. Inf Syst Res 3(2):150≠172. https://doi.org/         machine learning. Commun ACM 62(1):50≠57. https://doi.org/
+      10.1287/isre.3.2.150                                                   10.1145/3210753
+
+Maedche A, Legner C, Benlian A, Berger B, Gimpel H, Hess T, Hinz       Sniezek JA, Buckley T (1995) Cueing and cognitive conflict in judge-
+      O, Morana S, So®llner M (2019) AI-based digital assistants. Bus        advisor decision making. Organ Behav Hum Decis Proc
+      Inf Syst Eng 61(4):535≠544. https://doi.org/10.1007/s12599-            62(2):159≠174. https://doi.org/10.1006/obhd.1995.1040
+      019-00600-8
+                                                                       Soll JB, Mannes AE (2011) Judgmental aggregation strategies depend
+Meehl PE (1954) Clinical versus statistical prediction: A theoretical        on whether the self is involved. Int J Forecast 27(1):81≠102.
+      analysis and a review of the evidence. University of Minnesota         https://doi.org/10.1016/j.ijforecast.2010.05.003
+      Press, Minneapolis. https://doi.org/10.1037/11281-000
+                                                                       Steelman ZR, Hammer BI, Limayem M (2014) Data collection in the
+Mitchell TM (1997) Machine learning. McGraw-Hill, New York                   digital age: innovative alternatives to student samples. MIS Q
+NVIDIA Corporation (2020) Deep learning SDK documentation:                   38(2):355≠378. https://doi.org/10.25300/MISQ/2014/38.2.02
+
+      Training with mixed precision. https://docs.nvidia.com/dee       vom Brocke J, Maaﬂ W, Buxmann P, Maedche A, Leimeister JM,
+      plearning/sdk/mixed-precision-training/index.html. Accessed 7          Pecht G (2018) Future work and enterprise systems. Bus Inf Syst
+      Feb 2020                                                               Eng 60(4):357≠366. https://doi.org/10.1007/s12599-018-0544-2
+Parisi GI, Kemker R, Part JL, Kanan C, Wermter S (2019) Continual
+      lifelong learning with neural networks: a review. Neural Netw    Wagner AR, Borenstein J, Howard A (2018) Overtrust in the robotic
+      113:54≠71. https://doi.org/10.1016/j.neunet.2019.01.012                age. Commun ACM 61(9):22≠24. https://doi.org/10.1145/
+Prahl A, Van Swol L (2017) Understanding algorithm aversion: when            3241365
+      is advice from automation discounted? J Forecast
+      36(6):691≠702. https://doi.org/10.1002/for.2464                  Wang M, Hua X-S (2011) Active learning in multimedia annotation
+Promberger M, Baron J (2006) Do patients trust computers? J Behav            and retrieval: a survey. ACM Trans Intell Syst Technol
+      Decis Mak 19(5):455≠468. https://doi.org/10.1002/bdm.542               2(2):1≠21. https://doi.org/10.1145/1899412.1899414
+Ransbotham S, Kiron D, Gerbert P, Reeves M (2017) Reshaping
+      business with artificial intelligence. MIT Sloan Manag Rev       Watson HJ (2017) Preparing for the cognitive generation of decision
+      59(1):1≠17                                                             support. MIS Q Exec 16(3):153≠169
+Russell SJ, Norvig P (2010) Artificial intelligence: A modern
+      approach. Pearson, Upper Saddle River                            Whitecotton SM (1996) The effects of experience and confidence on
+Saunders J, Syrdal DS, Koay KL, Burke N, Dautenhahn K (2016)                 decision aid reliance: a causal model. Behav Res Acc 8:194≠216
+      ``Teach me≠show me'' ≠ end-user personalization of a smart
+      home and companion robot. IEEE Trans Hum Mach Syst               Yeomans M, Shah A, Mullainathan S, Kleinberg J (2019) Making
+      46(1):27≠40. https://doi.org/10.1109/THMS.2015.2445105                 sense of recommendations. J Behav Decis Mak 32(4):403≠414.
+                                                                             https://doi.org/10.1002/bdm.2118
+
+                                                                       Zhang T, Agarwal R, Lucas HC (2011) The value of IT-enabled
+                                                                             retailer learning: personalized product recommendations and
+                                                                             customer store loyalty in electronic markets. MIS Q
+                                                                             35(4):859≠881. https://doi.org/10.2307/41409964
+
+123
+

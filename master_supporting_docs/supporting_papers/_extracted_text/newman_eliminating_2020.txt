@@ -1,0 +1,1117 @@
+                                        Organizational Behavior and Human Decision Processes 160 (2020) 149­167
+                                                           Contents lists available at ScienceDirect
+
+                    Organizational Behavior and Human Decision Processes
+
+                                             journal homepage: www.elsevier.com/locate/obhdp
+
+When eliminating bias isn't fair: Algorithmic reductionism and procedural T
+justice in human resource decisions
+
+David T. Newmana,, Nathanael J. Fasta, Derek J. Harmonb
+
+a University of Southern California, Marshall School of Business, United States
+b University of Michigan, Ross School of Business, United States
+
+ARTICLE INFO        ABSTRACT
+
+Keywords:           The perceived fairness of decision-making procedures is a key concern for organizations, particularly when
+Procedural justice  evaluating employees and determining personnel outcomes. Algorithms have created opportunities for in-
+Fairness            creasing fairness by overcoming biases commonly displayed by human decision makers. However, while HR
+Algorithms          algorithms may remove human bias in decision making, we argue that those being evaluated may perceive the
+People analytics    process as reductionistic, leading them to think that certain qualitative information or contextualization is not
+                    being taken into account. We argue that this can undermine their beliefs about the procedural fairness of using
+                    HR algorithms to evaluate performance by promoting the assumption that decisions made by algorithms are
+                    based on less accurate information than identical decisions made by humans. Results from four laboratory ex-
+                    periments (N = 798) and a large-scale randomized experiment in an organizational setting (N = 1654) confirm
+                    this hypothesis. Theoretical and practical implications for organizations using algorithms and data analytics are
+                    discussed.
+
+1. Introduction                                                             make decisions (Aral, Brynjolfsson, & Wu, 2012) presents an enormous
+                                                                            opportunity for organizations. In part, this is because algorithmic de-
+    A recent study of the tech industry found that a perceived lack of      cision making is highly efficient (Wilson, Alter, & Shukla, 2016) and has
+fairness was the single largest driver of employee turnover, costing the    been shown in some cases to outperform human decision makers at
+industry $16 billion a year (Scott, Klein, & Onovakpuri, 2017). Indeed,     selecting high-performing job candidates (Cowgill, 2017; Kuncel,
+scholars have long recognized the importance of understanding and           Klieger, Connelly, & Ones, 2013). Equally important to consider,
+improving employee perceptions of fairness, particularly the perceived      however, is whether employees view algorithmic decisions as fairer
+fairness of decision-making procedures (Colquitt, Conlon, Wesson,           than human decisions. Indeed, if humans and their biases are removed
+Porter, & Ng, 2001). This work shows that people perceive decision-         from the decision-making process, this could improve employees' per-
+making procedures as fairer when they are (1) consistent, (2) based on      ceptions of the fairness of the decision-making procedures (Colquitt,
+accurate information, and (3) free of influence from the personal biases    2001) and bolster overall procedural justice (Leventhal, 1980; Lind &
+of decision makers (Brockner, 2006; Leventhal, 1980). These factors are     Tyler, 1988; Thibaut & Walker, 1975).
+especially important when decisions concern human resource (HR)
+considerations (e.g., hiring, firing, promotions, etc.), where the subject      While this line of reasoning seems possible, it also seems incon-
+of a decision is another person. Organizations, therefore, are strongly     sistent with how engineers at Google reacted when their People
+motivated to find ways not only to make better HR decisions but also to     Analytics department proposed using algorithms to make hiring and
+ensure that those affected by such decisions view the decision-making       promotion decisions. Even though management could demonstrate in-
+procedures as fair (Weaver & Trevino, 2001).                                creased efficiency and equally high levels of accuracy, the engineers
+                                                                            rejected it, leading the Vice President of People Analytics to conclude
+    One approach quickly gaining favor among HR experts is to use           that they "should let people make people decisions" (Setty, 2014). One
+algorithms to help make these types of decisions (Christin, 2017). There    explanation for this reaction likely has to do with the preferences of the
+is a growing awareness that the emergence of big data (George, Haas, &      decision makers themselves. Research has shown that decision makers
+Pentland, 2014) and the use of algorithms to harness this big data to       prefer to rely more on their own judgment than on linear models and
+
+   Corresponding author at: Management and Organization, USC Marshall School of Business, 701 Exposition Blvd, HOH 431, Los Angeles, CA 90089-1424, United
+States.
+
+    E-mail address: dtnewman@usc.edu (D.T. Newman).
+
+https://doi.org/10.1016/j.obhdp.2020.03.008
+Received 25 April 2018; Received in revised form 19 March 2020; Accepted 24 March 2020
+0749-5978/ © 2020 Elsevier Inc. All rights reserved.
+D.T. Newman, et al.                                                              Organizational Behavior and Human Decision Processes 160 (2020) 149­167
+
+algorithmic decision aids (e.g., Dana, Dawes, & Peterson, 2013;                  fairness,1 this paper is concerned with the emerging procedural shift
+Dietvorst, Simmons, & Massey, 2014, 2018 Highhouse, 2008), perhaps               from human- to algorithm-driven decisions, in contexts where the
+because they are motivated to justify their own value and maintain               outcomes of such decisions are often unknown. Therefore, we are in-
+control over their decision making. While this line of research helps us         terested primarily in the procedural determinants of fairness, which
+understand the reactions of those given the option to use algorithms             require that procedures be consistent, free of bias, and based on accu-
+when making predictions or decisions, it offers little insight into the          rate information (Barrett-Howard & Tyler, 1986; Brockner, 2002;
+potential reactions of those affected by such decisions. In fact, it could       Colquitt, 2001; Leventhal, 1980; Thibaut & Walker, 1975).
+be that the latter would be more open to the use of algorithms, parti-
+cularly given their potential to increase consistency while eliminating              The foregoing criteria of procedural fairness are by no means ex-
+the decision maker's susceptibility to bias.                                     haustive; for example, Tyler and Blader (2003) have highlighted the
+                                                                                 importance of procedures that emphasize respect, particularly under
+    In this paper, we shed light on this issue by proposing that                 conditions of strong group identity. We have chosen to focus our the-
+those affected by decisions made by HR algorithms will perceive those            orizing around accuracy, however, because we are interested in de-
+decisions as less fair than decisions made by humans, even when the              terminants of procedural fairness in various organizational contexts,
+outcomes are identical, because they will perceive the algorithmic de-           where group identity may be either strong or weak. With that said, it is
+cision-making process as fundamentally reductionistic. Perceptions of            likely that, in contexts implicating people's livelihood (e.g., human
+algorithmic reductionism can emerge in two ways. Specifically, we                resources), respectful treatment can be linked to the perceived accuracy
+suggest that people affected by algorithmic decisions will perceive that         of the decision. Indeed, a procedure that denies an employee a pro-
+the decision-making process reduces the qualitative aspects of their             motion without taking into account all the relevant facts or considering
+performance to quantifiable metrics (i.e., what we call "quantification")        the broader context will likely feel inherently disrespectful.
+and consequently fails to adequately consider performance in a broader
+context (i.e., what we call "decontextualization"). These perceptions of             The perceived fairness of decision procedures is especially crucial in
+reductionism, we argue, lead people to assume that decisions made by             the design and implementation of a firm's processes affecting personnel
+algorithms are based on less accurate (i.e., incomplete)                         (Conlon, Porter, & Parks, 2004). For instance, the perceived fairness of
+information and thus are less fair than those made by humans (e.g.,              the procedures used to make decisions, such as layoffs, can affect the
+Leventhal, 1980; Colquitt, 2001). In this sense, the very characteristics        behavioral intentions (i.e., to engage with the organization) of both
+that could make algorithms an attractive solution for                            customers and potential employees (Skarlicki, Ellard, & Kelln, 1998).
+organizational justice problems--the removal of humans and their                 Moreover, when employees view decisions that affect them as unfair, a
+(often biased) contextualized decision making--may be precisely what             variety of negative consequences can result. For example, perceptions
+leads people affected by such decisions to perceive algorithms as                of unfair layoff procedures have been shown to decrease managerial
+unfair.                                                                          self-esteem, leading to less effective managerial behaviors and, conse-
+                                                                                 quently, more negative subordinate perceptions of the work environ-
+    Our theoretical account of algorithms provides three key                     ment (Wiesenfeld, Brockner, & Thibault, 2000). Moreover, such per-
+contributions to the literature. First, our perspective extends current          ceptions of unfairness predict employees' willingness to recruit for
+theories of procedural fairness by highlighting the importance                   former employers, as well as their desire for the regulation of layoffs
+of reductionism as a key factor that influences how people interpret             (Konovsky & Folger, 2006). These organizational outcomes all point to
+decision processes. In particular, we claim that when making                     a broader consequence stemming from perceptions of unfairness with
+decisions with human implications, processes that quantify and de-               respect to decision procedures, namely the damage to different forms of
+contextualize human performance are judged as less fair than proce-              organizational commitment (McFarlin & Sweeney, 1992; Sweeney &
+dures that emphasize qualitative attributes, as a result of the perceived        McFarlin, 1993). In particular, affective commitment is associated with
+reduction in accuracy of the information considered. Second, the pre-            how much employees want to remain with an organization, as distinct
+sent research provides further theoretical rigor to scholars'                    from their need to do so (Allen & Meyer, 1990), and may therefore be
+efforts to understand the implications of using algorithms to make de-           especially salient as an outcome of procedural fairness
+cisions that affect employees. Indeed, our predictions suggest that              judgments.
+people will resist algorithmic evaluations and, instead, have a deep
+need for qualitative considerations and holistic contextualization of            1.2. Data analytics and algorithms
+their performance. Third, our findings have implications for research on
+organizational commitment--particularly affective commitment, which                  One potential solution to some of these procedural fairness concerns
+is the desire (rather than need) to remain with an organization (Allen &         may be the increasing use of algorithms to help make decisions.
+Meyer, 1990). By eroding perceptions of fairness, reliance on algo-              Algorithms are defined as "computational procedures drawing on some
+rithms is likely to have negative downstream organizational con-                 type of digital data that provide some kind of quantitative output
+sequences.                                                                       through a software program" (Christin, 2017, p. 2). While algorithmic
+                                                                                 decision making has been applied in many areas, the present work is
+1.1. Determinants of procedural fairness                                         focused on the use of such computer-based algorithms to make deci-
+                                                                                 sions about people, an increasingly prevalent practice referred to as
+    Justice and fairness have typically been used interchangeably in the         people analytics (Davenport, Harris, & Shapiro, 2010; Waber, 2013).
+literature, though scholars have recently sought to distinguish the two          Indeed, leaders and practitioners across a wide variety of industries
+(Colquitt & Rodell, 2015). In this paper, we treat them as inter-                have suggested that people analytics provides a simple, cost-effective,
+changeable and will primarily use the term fairness. Broadly speaking,           and efficient way to improve organizational decision making (Fecheyr-
+perceived fairness in organizations refers to employees' global percep-          Lippens, Schaninger, & Tanner, 2015).
+tion that decisions and procedures adhere to agreed-upon rules about
+equitable treatment. Importantly, different sets of rules influence per-           1 Scholars have also articulated two other dimensions of justice that can affect
+ceptions of fairness (Colquitt & Zipay, 2015). For example, distributive         perceptions of fairness: interpersonal justice, which emphasizes whether deci-
+justice is associated with how people view the fairness of allocation            sion makers' conduct during enactment of procedures treated people with dig-
+decisions and their outcomes (Adams, 1965; Leventhal, 1976), whereas             nity and respect (Boswell et al., 1986; Tyler & Bies, 1990), and informational
+procedural justice emphasizes how they view the fairness of processes            justice, which emphasizes the candor, thoroughness, and timeliness of autho-
+or rules used throughout the decision-making process (Leventhal, 1980;           rities' explanations of procedures (Shapiro, Buttner, & Barry, 1994).
+Thibaut & Walker, 1975). Although there are many determinants of
+
+                                                                            150
+D.T. Newman, et al.                                                                      Organizational Behavior and Human Decision Processes 160 (2020) 149­167
+
+    While the emergence of certain types of algorithms is new, it is                     1.2.2. Algorithms and perceived reductionism
+notable that scholars have long been interested the use of data analytics                    However, there are reasons to believe that removing human decision
+to improve decision making. Paul Meehl (1954), for example, showed
+that simple statistical models outperformed human experts at pre-                        makers in favor of algorithms may also generate concerns. In fact, while
+dicting numerical variables of psychological interest. Following Meehl,                  such quantification processes may make organizational decisions objectively
+researchers have shown that statistical linear models (e.g., actuarial,                  more efficient, less biased, and even fairer in one respect, organizations that
+formal, mechanical, and algorithmic) outperform human (e.g., clinical,                   quickly adopt algorithms as a solution to biases in human decision making
+informal, subjective, and impressionistic) forecasting in such areas as                  might do so at the cost of appearing to neglect (1) the qualitative char-
+psychiatric diagnosis, academic performance, parole violations, hiring                   acteristics of human nature and, by extension, (2) the contextualized cir-
+decisions, and other domains (e.g., Arkes, Dawes, & Christensen, 1986;                   cumstances in which they occur. More specifically, we argue that this may
+Dawes, 1979; Dawes, Faust, & Meehl, 1989; Grove & Meehl, 1996;                           lead people to perceive algorithms as fundamentally reductionistic.
+Highhouse, 2008). Yet despite the superior performance of statistical                    Conceptually, reductionism is an analytic, mechanistic process associated
+models, researchers have found that decision makers themselves prefer                    with quantifying information about the world (Von Bertalanffy, 1972). As a
+to rely on their own judgment (Dana et al., 2013; Dawes et al., 1989;                    result, evaluative procedures will be perceived as reductionistic when they
+Grove & Meehl, 1996; Hastie & Dawes, 2010; Highhouse, 2008), likely                      take various inputs commonly considered to be qualitatively rich and either
+to assuage ethical concerns or maintain personal control in the decision-                delete them from the calculus in favor of quantifiable variables or reduce
+making process (e.g., Dana et al., 2013; Grove & Meehl, 1996;                            them to numerical representations.
+Highhouse, 2008; see also Highhouse, Nye, & Zhang, 2019).
+                                                                                             This has led some scholars to associate reductionism with decon-
+    Importantly, this research has focused on decision makers' use of                    textualization. In contrast to holism, which considers each element of a
+algorithms (see also Logg, Minson, & Moore, 2019). While this work                       situation in light of all the others, reductionism decontextualizes in-
+may be relevant to the psychology of those considering the use of an                     dividual characteristics and considers them in isolation of the broader
+algorithm to make a prediction or decision, it offers little insight into                context (Choi, Koo, & Choi, 2007; Nisbett, Peng, Choi, & Norenzayan,
+the potential reactions of those affected by the decision, which is our                  2001). The apparent limitations of this practice have motivated work
+concern here. Indeed, because employees are the subjects of algorithmic                  urging the development of holistic thinking in management (Jackson,
+decisions and do not have the same drive as managers to maintain                         2003). It is important to note that algorithms may today, or in the fu-
+control over these procedures, it is likely that those affected by HR                    ture, be sophisticated enough to handle holistic analyses. However,
+decisions are operating with a different set of psychological needs. For                 regardless of their objective efficacy at this point in time, our focus in
+this reason, it is important to examine their reactions to the use of al-                the present research is to examine how those affected by algorithmic
+gorithmic decision making.                                                               decision making subjectively perceive that process. In that regard, we
+                                                                                         contend that perceptions of decontextualization are a natural con-
+1.2.1. Algorithms and the suppression of human bias                                      sequence of the view that algorithms reduce information through
+    One possibility is that people affected by algorithmic decision                      quantification. Indeed, the CEO of an HR consulting firm recently re-
+                                                                                         marked that he believed algorithms "miss the value of what [an] in-
+making will view such decisions as fairer than decisions made by hu-                     dividual brings to the table in terms of personality, connectivity, and
+mans. Indeed, to view decisions as procedurally fair, one must perceive                  those intangible pieces" (Associated Press, 2015).
+that they are free of bias (Leventhal, 1980). Empirical research has
+shown that the removal of bias is particularly important to procedural                       While quantification and decontextualization are two separate as-
+fairness in formal, business-like situations (Barrett-Howard & Tyler,                    pects of reductionism, we theorize that the former leads to the latter.
+1986). Moreover, suppressing bias in decision making has been shown                      First, people will think that algorithms quantify information about
+to increase employees' perceptions of fairness even when they receive                    people and thereby fail to accurately measure certain important qua-
+lower performance evaluations (Taylor, Tracy, Renard, Harrison, &                        litative characteristics. Second, this apparent failure leads to percep-
+Carroll, 1995), and Sheppard and Lewicki (1987) study of organiza-                       tions of decontextualization, or the inability to accurately weigh and
+tional executives found that bias suppression was one of the most fre-                   combine disparate pieces of information, precisely because important
+quently cited characteristics of procedural fairness.                                    information has been rendered unavailable via quantification. Taken
+                                                                                         together, we call these two steps--quantification leading to decontex-
+    Building on this line of reasoning, computer-based algorithms have been              tualization--the process of reductionism.
+publicly hailed as the next frontier in eliminating bias (Loehr, 2015).
+Whereas human decision makers are prone to judgment errors due to biases                     Given that fair procedures require reliance on accurate information
+derived from intuition and other heuristics (e.g., Gilovich, Griffin, &                  (e.g., Leventhal, 1980), these perceptions of reductionism may prove
+Kahneman, 2002), algorithms can reduce, or even eliminate, such biases by                problematic. Indeed, extant research in HR management has shown
+relying on mathematical logic that converts various considerations (both                 that job candidates respond negatively to structured recruitment prac-
+quantitative and qualitative) into numerical factors. In other words, algo-              tices to the extent that such practices cause them to feel like their
+rithms seem to remove bias and improve decision making by removing                       personal characteristics have been reduced to "a number" (Boswell,
+human subjectivity from the process of judging and comparing individuals                 Roehling, LePine, & Moynihan, 2003, p. 33). Because factors such as
+(e.g., Cowgill, 2017). Thus, algorithms enable organizations to relieve de-              personality, intentionality, and potential are not prima facie reducible
+cision making from subjectivity and other limitations, which has led to some             to numbers, or at least it is challenging for the average person to un-
+organizations deploying algorithms to improve the fairness of personnel                  derstand how they could be reducible to numbers, an algorithmic de-
+decision rules (O'Connor, 2016).2                                                        cision-making process that engages in a numerical calculus to evaluate
+                                                                                         employees will be perceived to quantify and thereby decontextualize
+  2 To be clear, algorithms are not a silver bullet. If not carefully implemented,       the human qualities that make up a whole person. This, in turn, will
+algorithms can still contain biases stemming from flawed assumptions or in-              lead people affected by algorithmic decisions to assume that they rely
+complete data (Dana et al., 2013; Jackson, 2017). Human decision makers                  on less accurate information and are therefore less fair than those made
+might also unintentionally import their biases (or those of preexisting datasets)        by humans.
+into the algorithmic code itself. With these limitations acknowledged, it
+nevertheless remains a possibility that algorithm-driven procedures have the             Hypothesis 1. Individuals affected by personnel decisions will perceive
+potential to reduce bias by reducing human involvement and increasing con-               algorithm-driven decisions as less fair than the same decisions made by
+sistency.                                                                                humans.
+
+                                                                                         Hypothesis 2. The perception that algorithms are reductionistic (i.e.,
+                                                                                         that they reduce the use of accurate information via quantification and
+
+                                                                                    151
+D.T. Newman, et al.                                                             Organizational Behavior and Human Decision Processes 160 (2020) 149­167
+
+decontextualization) will mediate the effect of algorithm-driven                1.3. Overview of studies
+decisions on perceived fairness.
+                                                                                    We conducted five studies to test our hypotheses. Study 1 is a la-
+    Justice theory suggests that organizational commitment is a                 boratory experiment where we manipulated the decision process and
+downstream consequence of fairness perceptions, particularly as re-             then measured participants' perceptions of reductionism and fairness
+spondent to procedural justice (Colquitt et al., 2001; Lavelle et al.,          (H1, H2). Study 2 replicated these findings in a large-scale field ex-
+2009). For example, when employees see personnel decision-making                periment that used random assignment methodology to introduce em-
+procedures as fair, they show high commitment to the organization,              ployees of a large organization to different kinds of centralized HR
+even in the face of dissatisfying personal outcomes (McFarlin &                 decision-making processes and assess the effects of these treatments on
+Sweeney, 1992; Sweeney & McFarlin, 1993). Hence the fairness of an              fairness perceptions and organizational commitment (H3, H4). Study 3
+organization's decision procedures bears a direct relationship to its           extended our findings by experimentally varying the degree of algo-
+employees' willingness to commit. To the extent that procedures are             rithmic or human involvement in the decision process (H5). Studies 4
+seen as reductionistic and thus unfair, they may undermine commit-              and 5 explored boundary conditions and finer-grained analyses of our
+ment from those whom they affect and lead to a desire to leave. As              mediating mechanisms to better understand the robustness of our re-
+alternative work arrangements increasingly disrupt the formerly linear          sults. Whereas Studies 1­3 examined quantification, Studies 4­5
+nature of careers (Spreitzer, Cameron, & Garrett, 2017), organizations          brought in measurements of decontextualization. Study 4 examined our
+wishing to attract and retain human capital should take seriously the           predictions under conditions of greater transparency about the inputs
+relationship between procedural justice and employee commitment.                into the decision-making process and tested a serial mediation model
+Based on this reasoning combined with the predictions above, we                 that included both of our mechanisms (i.e., quantification and decon-
+contend that the use of HR algorithms will have the effect of reducing          textualization) of perceived reductionism. Study 5 tested our predic-
+the desire to remain in one's organization.                                     tions in a behavioral laboratory experiment with significant stakes and
+                                                                                high external validity, leveraging a research design that mirrors a real-
+Hypothesis 3. Individuals affected by personnel decisions will voice            world context where participants' job interview videos are evaluated.
+lower levels of organizational commitment when subjected to                     Studies 4 and 5 were preregistered on AsPredicted.org. We designed all
+algorithm-driven decisions compared to the same decisions made by               studies to hold other decision-making factors constant so as to isolate
+humans.                                                                         the effects of algorithms on perceived fairness.
+
+Hypothesis 4. The perception of fairness will mediate the effect of             2. Study 1: Algorithms and fairness perceptions
+algorithm-driven decisions on organizational commitment.
+                                                                                    In this study, we tested our predictions in a sample of working
+    Finally, while it may be possible to entirely automate algorithmic          adults who had a variety of work experiences. We assessed people's
+decisions (i.e., with no human involvement), many decisions are made            fairness perceptions associated with using algorithms (versus humans)
+by combining human and algorithmic judgment. In line with this pos-             to make personnel decisions, predicting that algorithms would be per-
+sibility, there is some evidence that decision makers prefer to rely on         ceived as less fair. Additionally, we examined whether differences in
+algorithms if and when they have the opportunity to adjust the algo-            fairness perceptions were driven by perceptions of reductionism (via
+rithm's decision (Dietvorst, Simmons, & Massey, 2018). Indeed, deci-            quantification). To measure the robustness of the effects, we included
+sion makers were more comfortable using algorithms when they were               experimental conditions that described layoffs as well as promotions, to
+given the ability to slightly tweak the algorithm's output (by 2%, 5%, or       see whether one or the other had a greater consequence. As promotions
+10%). Dietvorst et al. (2018, p. 1156) concluded: "If allowing people to        are likely to be perceived as a fairer outcome than layoffs (Brockner &
+adjust an imperfect algorithm by only a small amount dramatically               Wiesenfeld, 1996), this enabled us to examine whether differences in
+increases their willingness to use it, then people's judgments will be          outcome favorability influenced perceptions of algorithms.3 Finally, we
+much more reliant on the algorithm, and much more accurate as a re-             assessed other possible mechanisms, such as the number of overall
+sult."                                                                          factors thought to be considered in the decision (i.e., thoroughness) as
+                                                                                well as the perceived typicality of using algorithms to make personnel
+    It is important to note, however, that in the present study we are          decisions. Because some researchers have found other moderators of
+concerned not with reliance on algorithms by people vested with de-             people's preference for algorithms, such as personal control over model
+cision-making authority, but with perceptions of procedural fairness by         output (Dietvorst et al., 2018), we held constant the basis for the de-
+those affected by such decisions and who lack opportunities for control.        cision-making process.
+Because such fairness perceptions hinge on the apparent consideration
+of accurate information, we argue that reactions to conjoint human-             2.1. Sample and procedure
+algorithmic procedures will depend on whether human or algorithmic
+processes predominate. This line of reasoning is broadly consistent with            A sample of 199 participants (41.2% female, Mage = 32.9,
+prototype theories of cognitive representations (e.g., Rosch, 1975) in          SD = 10.3, 76.4% Caucasian, 6% African American, 10.1% Asian/
+that the central features of an object determine its fundamental cate-          Asian American, 4.5% Hispanic, 0.5% Native American, 2.5% Other)
+gorization. Specifically, we contend that when algorithmic decision             from Amazon's Mechanical Turk worker pool took part in a 2 × 2
+processes are the default and a human can only tweak an algorithm-              survey design that asked them to evaluate one of two types of personnel
+driven decision, then this will be seen as similarly unfair as a decision       judgments (layoffs versus promotions) made by one of two types of
+made purely by an algorithm. In contrast, when human decision pro-              decision-making processes (an algorithm versus managers). We ex-
+cesses are the default and the human decision maker is given the option         amined whether using algorithms would have a differential effect on
+to incorporate algorithmic input into his or her own decision, then this        fairness perceptions, and also whether the outcome valence for em-
+will be perceived as similarly fair as a decision made purely by a              ployees (positive versus negative) would make a difference.
+human.
+                                                                                  3 While outcome valence is not identical to varying levels of distributive
+Hypothesis 5. The negative effect of algorithm-driven decisions on              fairness, research suggests that they overlap considerably enough to treat as
+perceived fairness will be mitigated by an algorithm-human                      convergent constructs (Brockner, 1996).
+partnership, but only when a human (rather than an algorithm) is the
+default decision maker.
+
+                                                                           152
+D.T. Newman, et al.                                                                                         Organizational Behavior and Human Decision Processes 160 (2020) 149­167
+
+                                   5.5                      Division managers Algorithm
+                                     5
+                                      Fairness perceptions
+                                   4.5
+                                     4
+
+                                   3.5
+
+                                                            Promotions                                    Layoffs
+
+                                                                        Outcome valence
+
+                                                            Fig. 1. Fairness of algorithms vs. managers.
+
+    Participants were randomly assigned to read one of the following               algorithms and, as a result, view them as fairer. To control for this, we
+four scenarios: "Company X is [promoting] [laying off] 50% of its                  asked participants to use a slider from 1 to 20 to indicate how many
+workforce. The workers [promoted] [laid off] are determined by [an                 different factors they thought were considered in determining which
+algorithm (i.e., a computerized decision-making tool) that] [the com-              workers were affected.
+pany's division managers, who] take[s] into account a variety of fac-
+tors." This reflects an emerging use of algorithms by companies like               2.3. Results
+Amazon to automate employee termination (Lecher, 2019).
+                                                                                       The results support Hypothesis 1 in that decisions made by algo-
+2.2. Measures                                                                      rithms (M = 4.21, SD = 1.65) were perceived as significantly less fair
+                                                                                   than those made by human managers (M = 4.92, SD = 1.16), (F(1,
+2.2.1. Perceived fairness                                                          197) = 12.61, d = 0.50, p < .001).4 Additionally, promotions
+    Adapting the organizational justice scale from Conlon et al. (2004),           (M = 4.89, SD = 1.30) were perceived as significantly fairer than
+                                                                                   layoffs (M = 4.26, SD = 1.55), (F(1, 197) = 9.78, d = 0.44, p = .002).
+we developed a 4-item measure using the items that were most relevant              The interaction of the manipulations was not significant. See Fig. 1.
+to fairness. On a 1­7 scale (Strongly Disagree to Strongly Agree), par-
+ticipants indicated their agreement with four statements (presented in                 We also found support for Hypothesis 2, which predicted that al-
+random order): "The way this company determined which workers                      gorithms would be perceived as less fair because of their perceived
+were [promoted] [laid off] seems fair," "The company's process for                 reduction of accurate information. In terms of considering quantitative
+deciding which workers were [promoted] [laid off] was fair," "The                  factors, algorithm-driven decisions (M = 5.07, SD = 1.24) were per-
+decision regarding which workers were [promoted] [laid off] was fair,"             ceived to be no different from manager-driven decisions (M = 5.00,
+and "The outcome of this decision was fair."                                       SD = 1.03), (F(1, 197) = 0.157, d = 0.06, p = .692). However, al-
+                                                                                   gorithmic decisions were perceived to give significantly less con-
+2.2.2. Quantitative and qualitative factors                                        sideration to qualitative factors (M = 4.53, SD = 1.57) compared to
+    Participants indicated the degree to which they thought each of six            managerial decisions (M = 5.43, SD = 1.15), (F(1, 197) = 21.57,
+                                                                                   d = 0.66, p < .001). See Fig. 2.
+considerations (presented in a randomized order) was part of the de-
+cision on a 1­7 scale ("This consideration was not part of the decision"               While the perceived consideration of quantitative factors was as-
+to "This consideration was an essential part of the decision"). Three              sociated with perceived fairness (r = 0.186, p = .008), the perceived
+items assessed quantitative considerations (i.e., profitability to the             consideration of qualitative factors was more strongly correlated with
+company, number of hours worked, and client billing), and three as-                fairness perceptions (r = 0.505, p < .001). In a combined regression
+sessed qualitative considerations (i.e., leadership skills, attitude toward        model using both types of factors as predictors, the link between qua-
+clients, and potential for productivity). These measures were developed            litative factors and fairness persisted ( = 0.50, p < .001), while the
+based on the notion that quantification is a form of reductionistic                link between quantitative factors and fairness disappeared ( = 0.03,
+thinking, which involves reducing the types (or forms) of factors con-             p = .596). Hence although consideration of each type of factor was, in
+sidered to those that can be represented by numbers. Conversely,                   general, predictive of perceived fairness, consideration of qualitative
+qualitative considerations, such as leadership, attitude, and potential,           factors was the stronger predictor.
+are potentially richer in nature, and are often necessary to consider if
+the objective is to make holistic, contextualized decisions.                           We then assessed whether the main effect of algorithms on per-
+                                                                                   ceived fairness was mediated by perceived reductionism (i.e., perceived
+2.2.3. Typicality                                                                  failure to consider qualitative factors). We used the Preacher and Hayes
+    One factor that could influence participants' perceptions of fairness is       (2008) procedure for testing for multiple mediation and found support
+                                                                                   for this prediction, determining that perceived consideration of quali-
+the difference in how typical, or normative, it is to make decisions with          tative factors mediated the effect of the algorithm condition on per-
+algorithms versus humans. In order to address this concern, we asked par-          ceived fairness, even controlling for ratings of typicality (the bias-cor-
+ticipants to rate the typicality of the company's decision-making process on       rected confidence interval ranged from -0.48 to -0.04).
+a slider from 0 to 100 ("Not typical at all" to "Completely typical").
+                                                                                       One possible alternative reason for the fairness advantage of human
+2.2.4. Number of factors thought to be considered                                  decision makers is that they could be perceived as more typical than
+    We have hypothesized that differences in the type of factors (qua-             algorithms. Participants gave the algorithmic process an average typi-
+                                                                                   cality rating of 38.04 (SD = 28.03) and the managerial process an
+litative versus quantitative) should drive participants' views of fairness.        average typicality rating of 66.76 (SD = 24.04); this difference was
+However, another possible variable that could influence perceptions of
+fairness is the number of factors thought to be considered. Perhaps                  4 This effect was not moderated by gender or ethnicity (either Caucasian vs.
+participants will perceive that humans consider more factors than                  non-Caucasian or underrepresented minority (URM) vs. non-URM).
+
+                                                                              153
+D.T. Newman, et al.                   Perceived level of consideration                                                  Organizational Behavior and Human Decision Processes 160 (2020) 149­167
+
+                                     6                                  Division managers Algorithm
+                                   5.5
+
+                                     5
+                                   4.5
+
+                                     4
+
+                                                                        Qualitative                      Quantitative
+
+                                                                                     Factors considered
+
+                                                                        Fig. 2. Perceived consideration of factors, algorithms vs. managers.
+
+statistically significant (F(1, 197 = 60.24, d = 1.1, p < .001).                          manipulated both the reductionistic and algorithmic nature of the HR
+Participants' typicality ratings were significantly correlated with ratings               process. Thus, we created four procedures varying the balance between
+of perceived fairness (r = 0.424, p < .001). Hence our mediation                          reductionism and human involvement: (1) humans using qualitative
+analysis (above) controlled for ratings of typicality to rule it out as an                factors, (2) humans using quantitative factors, (3) algorithms using
+alternative mechanism.                                                                    qualitative factors, and (4) algorithms using quantitative factors. One
+                                                                                          possible outcome would be an interaction effect (e.g., where algorithms
+    Another possible alternative reason for the fairness advantage of                     decrease perceived fairness, but only relative to human decision ma-
+human decision makers is that they could be seen to consider more                         kers). A second possible outcome would be a stepwise effect with the
+factors than algorithms. Indeed, participants' ratings of the number of                   strongest effects for perceived unfairness (fairness) occurring when
+factors considered by the process were significantly correlated with                      both (neither) variables are manipulated. In other words, it is possible
+ratings of fairness (r = 0.174, p = .014). However, the data do not                       that algorithms will be viewed as reductionistic (relative to human
+support this interpretation. Participants on average rated algorithms as                  decision makers) even when it is claimed that they measure qualitative
+considering 7.46 factors (SD = 3.00) and managers as considering only                     factors. If another assumption about algorithms is that they decontex-
+5.98 factors (SD = 4.49). This difference was statistically significant (F                tualize information, it may be almost impossible to completely remove
+(1, 197 = 7.55, d = 0.39, p = .007). Thus, humans were not perceived                      their reductionistic (and thus unfair) aspects, even by explicitly stating
+to be fairer as a result of considering more factors.                                     that they take into account specific qualitative factors.
+
+2.4. Discussion                                                                           3.1. Sample and procedure
+
+    These results offer initial support for Hypotheses 1 and 2. Compared                      A sample of 1654 employees (66.8% female, Mage = 38.6,
+to human decision makers, algorithm-driven processes are perceived to                     SD = 11.4, 42.1% Caucasian, 6.5% African American, 20.6% Asian/
+render less fair decisions, and this effect on fairness perceptions is                    Asian American, 22.3% Hispanic, 0.4% Native American, 8.1% Other)
+mediated by the belief that algorithms reduce information about em-                       from a large private university took part in a 2 × 2 survey design that
+ployees by disregarding their qualitative attributes. Importantly, algo-                  asked them to evaluate a new HR decision-making process described by
+rithms are viewed as no different from managers in their consideration                    one of two organizational charts (involving an HR algorithm versus an
+of quantitative inputs (e.g., client billing), but they are thought to be far             HR team), which emphasized specifically one of two types of factors
+apart in their consideration of qualitative factors (e.g., leadership                     (quantitative versus qualitative). Using this method, we experimentally
+skills). Although people believe that algorithms consider numerically                     examined the causal impact of reductionism (via quantification) en-
+more factors overall than do managers, the positive effect of the number                  acted by both algorithmic and human decision makers. While we did
+of factors considered on fairness is more than offset by reduced con-                     not, in fact, implement any new HR policies, we introduced (and as-
+sideration of qualitative factors (i.e., quantification).                                 sessed reactions to) the idea of a new policy, which commonly occurs in
+                                                                                          organizations.
+3. Study 2: Algorithms, fairness, and organizational commitment
+                                                                                              We began by obtaining permission from the university's human
+    Study 1 provided support for our first two predictions. In Study 2,                   resources department to conduct a full-scale field experiment sampling
+we moved to an organizational setting to further test our prediction that                 the entire corpus of over 13,000 employees. Using a list of email ad-
+algorithms would be seen as less fair than humans when making                             dresses drawn from the payroll system, we contacted our sample po-
+identical HR decisions. Moreover, we assessed our prediction that this                    pulation via an email asking employees to participate in a survey about
+decreases organizational commitment, and that this effect is mediated                     a new HR decision-making process. Employees were incentivized to
+by a decrease in perceived fairness. To test these ideas, we randomly                     respond to the survey with entry into a lottery to win a $300, $200, or
+assigned employees of a large private university to read about new                        $100 Amazon.com gift card. A total of 2151 people participated in the
+policies that would make personnel decisions with either humans or                        study, yielding a response rate of approximately 16.3%. This number
+algorithms and either in a quantifying or nonquantifying manner.                          was reduced by the removal (before analysis) of 497 participants who
+Aiding the believability of our experiment, the staff was aware that                      did not fully complete the survey materials.
+future changes would be made in HR practices but was not yet aware of
+what the changes would be, so we were able to take advantage of the                           Participants were randomly assigned to read one of four scenarios,
+timing to amplify the personal resonance and external validity of our                     each accompanied by its own organizational chart, which described a
+scenarios.                                                                                new employee evaluation process under consideration at many large
+                                                                                          private universities. According to the new process, decisions with re-
+    In addition to testing our predictions about the downstream con-                      spect to promotions, layoffs, raises, and pay cuts are determined by
+sequences of algorithmic decisions, we examined the persistence of                        either a "Human Resources Algorithm" or a "Human Resources Team,"
+people's beliefs about algorithms. To do so, we deliberately                              which takes into account "a variety of factors, such as" either "(1)
+
+                                                                                     154
+D.T. Newman, et al.                                                                                                                       Organizational Behavior and Human Decision Processes 160 (2020) 149­167
+
+                     Employees' fairness perceptions                                          HR Team HR Algorithm
+
+                                                      3.75
+
+                                                      3.5
+
+                                                      3.25
+
+                                                      3                                            Quantitative
+                                                                                 Qualitative
+
+                                                            Types of factors considered by HR process
+
+                                                            Fig. 3. Fairness of HR processes.
+
+profitability to the university, (2) number of hours worked, and (3)                               processes (t(1650) = 3.81, d = 0.22, p < .001), and qualitatively
+project completion rate" (quantitative) or "leadership skills, attitudes                           driven teams were perceived as more fair than all other HR processes (t
+toward others, and potential for growth" (qualitative). We refrained                               (1650) = 2.97, d = 0.17, p = .003). There was no interaction of the
+from numbering the qualitative factors to avoid priming participants                               manipulations, suggesting that the effects of these conditions on per-
+with the concept of numbers. The complete organizational charts used                               ceived fairness layered additively. See Fig. 3.
+to operationalize our experimental conditions may be found in
+Appendix A.                                                                                            Analysis of variance revealed that the HR algorithm (M = 3.63,
+                                                                                                   SD = 1.10) led to significantly less organizational commitment than
+    In addition to manipulating the algorithmic nature of the decision                             did the HR team (M = 3.80, SD = 1.06), (F(1, 1650) = 10.98,
+process, we directly manipulated reductionism (via explicit emphasis                               d = 0.16, p < .001), and the explicit emphasis on quantitative factors
+on quantitative factors) to see if its effect would vary between human-                            (M = 3.60, SD = 1.11) led to significantly less organizational com-
+and algorithm-driven procedures.                                                                   mitment than did the explicit emphasis on qualitative factors
+                                                                                                   (M = 3.83, SD = 1.05), (F(1, 1650) = 17.21, d = 0.20, p < .001).
+3.2. Measures
+                                                                                                       Planned linear contrast effects (-3, 1, 1, 1) revealed that quanti-
+3.2.1. Perceived fairness                                                                          tatively driven algorithms led to less organizational commitment than
+    On a 1­7 scale (Strongly Disagree to Strongly Agree), participants                             did all other HR processes (t(1648) = 4.56, d = 0.26, p < .001), while
+                                                                                                   qualitatively driven teams led to more organizational commitment than
+indicated their agreement with four (randomized) statements adapted                                did all other HR processes (t(1648) = 4.02, d = 0.23, p < .001). Once
+from Conlon et al. (2004): (1) the way this process determines which                               again, there was no interaction between the manipulations, suggesting
+workers receive raises and pay cuts seems fair, (2) this process for                               that the effects of these conditions on organizational commitment
+making personnel decisions is fair, (3) this process regarding which                               layered additively.5 See Fig. 4.
+workers are promoted and laid off is fair, and (4) the outcomes of this
+process are fair.                                                                                      Mediational analysis revealed that perceived fairness mediated the
+                                                                                                   effect of the HR algorithm on organizational commitment (bias-cor-
+3.2.2. Organizational commitment                                                                   rected confidence interval: -0.13 to ­0.01), and that perceived fairness
+    Employees were asked how they would feel if their organization                                 also mediated the effect of quantification on organizational commit-
+                                                                                                   ment (bias-corrected confidence interval: -0.17 to -0.05).
+adopted the previously described decision-making process. On a 1­7
+scale (Strongly Disagree to Strongly Agree), participants indicated their                          3.4. Discussion
+agreement with eight statements (presented in random order) from the
+organizational commitment scale (affective commitment subscale) de-                                    In addition to replicating Study 1s support for H1 (algorithms are
+veloped by Allen and Meyer (1990). Sample items include "I would be                                perceived as less fair than humans), the results of Study 2 provide
+very happy to spend the rest of my career with this organization" and "I                           causal evidence for the notion that processes emphasizing quantitative
+would not feel a strong sense of belonging to my organization."                                    factors are considered less fair than processes emphasizing qualitative
+                                                                                                   factors, regardless of their algorithmic or human nature. Hence the
+3.2.3. Employment characteristics                                                                  requirement that fair procedures be based on accurate information is
+    Employees answered questions regarding faculty status, number of                               particularly linked to qualitative consideration. Additionally, Study 2
+                                                                                                   offers support for H3 and H4: an organization's use of reductionistic
+years with the organization, seniority within their department, power                              decision-making processes (whether implemented by algorithms or by
+over others resulting from their role, and whether they supervised any                             humans) to evaluate employees will reduce organizational commit-
+other employees. Including these factors as controls did not change our                            ment, an effect mediated by the perception that fairness has been vio-
+findings.                                                                                          lated.
+
+3.3. Results                                                                                           The results of our analyses of variance with planned linear contrast
+                                                                                                   effects demonstrated that quantitatively driven algorithms were per-
+    Analysis of variance revealed that the HR algorithm (M = 3.35,                                 ceived least favorably compared to all other conditions, while qualita-
+SD = 1.54) was perceived as significantly less fair than the HR team                               tively driven teams were perceived most favorably compared to all
+(M = 3.52, SD = 1.61), (F(1, 1652) = 5.30, d = 0.11, p = .021), and                                other conditions. Our results show additive main effects for algorithms
+explicit emphasis on quantitative factors (M = 3.30, SD = 1.59) was                                and quantitative reductionism, implying that the belief in the unfair-
+perceived as significantly less fair than explicit emphasis on qualitative                         ness of using algorithms to evaluate employees is persistent, even when
+factors (M = 3.58, SD = 1.55), (F(1, 1652) = 12.98, d = 0.18,                                      algorithms are explicitly described as tools that consider qualitative
+p < .001).
+                                                                                                     5 None of the effects on fairness or commitment showed moderation by
+    Planned linear contrast effects (-3, 1, 1, 1) revealed that quanti-                            gender or ethnicity (either Caucasian vs. non-Caucasian or URM vs. non-URM).
+tatively driven algorithms were perceived as less fair than all other HR
+
+                                                                                              155
+D.T. Newman, et al.                                                                     Organizational Behavior and Human Decision Processes 160 (2020) 149­167
+
+                                          4  HR Team HR Algorithm
+
+Employees' organizational  3.75
+   commitment
+                           3.5
+
+                           3.25                                                      Quantitative
+                                                         Qualitative
+
+                                             Types of factors considered by HR process
+
+                                             Fig. 4. Organizational commitment induced by HR processes.
+
+factors, likely as a result of how those factors are thought to be de-               4.1. Sample and procedure
+contextualized (which we examine in Studies 4 and 5). Similarly,
+human decision makers may be seen as better at contextualizing in-                       A sample of 189 participants (45% female, Mage = 35.3, SD = 10.5,
+formation even when emphasizing quantitative factors.                                79.4% Caucasian, 7.4% African American, 9.5% Asian/Asian American,
+                                                                                     2.6% Hispanic, 0.5% Native American, 0.5% Other) from Amazon's
+    A potential limitation of this study is that there are no conditions where       Mechanical Turk worker pool took part in a 4-condition experimental
+either algorithms or humans specifically consider both quantitative and              design that asked them to evaluate a company's process for allocating
+qualitative measures of performance. This was a deliberate choice so as to           end-of-the-year bonuses, which were determined with varying degrees
+set up situations in which there was no room for people to assume differ-            of algorithmic versus human involvement. We examined whether the
+ences in the type of information under consideration. This limitation is             point at which algorithms were introduced to the decision-making
+addressed, to some extent, by Studies 4 and 5, which included explicit de-           process would have a differential effect on fairness perceptions. In
+scriptions of a wider variety of factors that were considered.                       particular, when the algorithm is introduced first, the ability of a
+                                                                                     human to tweak it is not enough to overcome the perception of un-
+4. Study 3: Examining algorithm-human combinations                                   fairness, and vice versa.
+
+    Studies 1 and 2 supported our predictions that algorithmic processes                 Participants were randomly assigned to read one of four scenarios.
+would be seen as less fair than human-driven processes as a result of                Each scenario began by stating that "Company X just went through the
+perceptions of reductionism. In this study, we further tested our pre-               process of making its end of the year bonus point, the scenarios di-
+dictions by varying the degree of algorithmic versus human involve-                  verged:
+ment in the decision process. Furthermore, we examined the possibility
+that including human involvement at any point in the decision process                    Algorithm-only: "In order to determine the size of the bonus for each
+might serve to enhance perceptions of fairness.                                      employee, Company X relied on an algorithm (a computerized decision-
+                                                                                     making tool) that took into account a variety of factors. After the al-
+    On the one hand, human involvement, even if minimal, might serve                 gorithm made a series of computations, it determined how employee
+to overcome the negative consequences of algorithms on perceived                     bonuses should be allocated."
+fairness observed in Studies 1 and 2. For instance, recent work has
+shown that, in some forecasting contexts, people show a greater pre-                     Algorithm with human adjustment: "In order to determine the size of
+ference for relying on algorithms to aid their own decisions if they have            the bonus for each employee, Company X relied on an algorithm (a
+the chance to tweak their output by a margin of 2%, 5%, or 10%                       computerized decision-making tool) that took into account a variety of
+(Dietvorst et al., 2018). However, we suggest that these findings may                factors. After the algorithm made a series of computations, it de-
+not carry over to the current domain. First, Dietvorst et al. (2018) ex-             termined how employee bonuses should be allocated. At this point, the
+amined the preference of the decision maker him- or herself to choose                company's human resources team was able to adjust the algorithm's
+an algorithm to aid in decision making, whereas we are interested in                 determinations up or down within a margin of 10%."
+perceptions of fairness from those affected by the decisions. As parti-
+cipation in decision making is a contributor to fairness judgments (e.g.,                Human with algorithmic option: "In order to determine the size of the
+Lind, Kanfer, & Earley, 1990), we propose that while a tweak in control              bonus for each employee, Company X relied on its human resources
+may be personally meaningful to people using algorithms as prediction                team, which took into account a variety of factors. After the human
+tools (Dietvorst et al., 2018), giving the decision maker the ability to             resources team made a series of deliberations, it determined how em-
+make a small tweak may not move the dial for those subjected to the                  ployee bonuses should be allocated. The human resources team had the
+algorithmic decisions. Second, prior research examined reliance on al-               option to consider the recommendations of an algorithm (a computer-
+gorithms, whereas we are interested in perceived fairness, and, as we                ized decision-making tool) to assist in making its determinations."
+have seen, the two concepts are distinct. From a justice perspective, we
+predict that the opportunity for a human decision maker to make a                        Human-only: "In order to determine the size of the bonus for each
+minor adjustment to an algorithm's output will not substantially di-                 employee, Company X relied on its human resources team, which took
+minish perceptions of the algorithm as an unfair reductionistic process              into account a variety of factors. After the human resources team made
+because the algorithm will be perceived as the primary driving force in              a series of deliberations, it determined how employee bonuses should
+the decision procedure. On the other hand, we predict that the option to             be allocated."
+include algorithmic determinations as just one additional tool to in-
+clude for consideration at the end of a human-driven decision process                4.2. Measures
+will be seen as comparatively less reductionistic and therefore fairer.
+This is because the human would have already arrived at an initial                   4.2.1. Perceived fairness
+position on the decision before the algorithm comes into play.                           On a 1­7 scale (Strongly Disagree to Strongly Agree), participants
+
+                                                                                     indicated agreement with four (randomized) statements adapted from
+                                                                                     Conlon et al. (2004): (1) the way this company determined how to al-
+                                                                                     locate employee bonuses seems fair, (2) this company's process for
+
+                                                                                156
+D.T. Newman, et al.                                                              Organizational Behavior and Human Decision Processes 160 (2020) 149­167
+                                       5.5
+
+Fairness perceptions  5
+
+                      4.5
+
+                      4
+
+                                            Human-only  Human with algorithmic Algorithm with human Algorithm-only
+
+                                                        option                   adjustment
+
+                                            Decision processes varying algorithmic versus human involvement
+
+                                                        Fig 5. Fairness of various decision processes.
+
+deciding which employees receive bonuses was fair, (3) this decision             is nonetheless still viewed as reductionistic and therefore unfair. On the
+regarding which employees received bonuses was fair, and (4) the                 other hand, if the algorithm is just one factor human decision makers
+outcome of this decision was fair.                                               have the option to consider, that process is seen as relatively less re-
+                                                                                 ductionistic and therefore fairer. This finding indicates that overcoming
+4.2.2. Quantitative and qualitative factors                                      the consequences associated with an algorithmic decision may be dif-
+    Participants indicated the degree to which they thought each of six          ficult, but it also suggests that there are opportunities to add algorithm-
+                                                                                 based assessment as one factor in decisions without risking perceptions
+considerations was part of the decision process on a 1­7 scale ("This            of unfairness.
+consideration was not part of the process" to "This consideration was an
+essential part of the process"). Three of the factors were numbers-based         5. Study 4: Algorithmic performance reviews, reductionism, and
+and more easily identifiable as quantitative: profitability to the com-          fairness
+pany, number of hours worked, and client billing. The other three
+factors were more qualitative in nature and not easy to quantify with                In this study, we tested our predictions in a sample of undergraduate
+numbers: leadership skills, attitude toward clients, and potential for           students. We assessed people's fairness perceptions associated with the
+productivity. All factors were presented in randomized order.                    emerging practice of using algorithms to make performance review
+                                                                                 decisions (Greenfield, 2018), predicting that algorithms would be per-
+4.3. Results                                                                     ceived as less fair than human evaluators. Additionally, we examined
+                                                                                 whether differences in fairness perceptions were driven by a serial
+    Analysis of variance revealed significant differences in perceived           mediation model of perceived quantification leading to perceived de-
+fairness across all four decision processes (F(3, 185) = 3.62, d = 0.55,         contextualization. We randomized whether participants saw the quan-
+p = .014). Further probing with planned linear contrast effects (-3, 1,          tification or decontextualization items first. Furthermore, because one
+1, 1) revealed that the algorithm-only process was seen as less fair than        possible explanation of the fairness effects in our previous studies could
+all other processes (t(185) = 2.38, d = 0.40, p = .019), while the               be a lack of transparency about the process (an algorithmic "black box"
+human-only process was seen as more fair than all other processes (t             effect) (cf. Yeomans, Shah, Mullainathan, & Kleinberg, 2019), we gave
+(1 8 5) = 2.11, d = 0.35, p = .036). Consistent with Hypothesis 5,               participants a high degree of detail about the specific factors con-
+planned linear contrast effects (­1, ­1, 1, 1) revealed that processes           sidered.
+driven primarily by algorithms were seen as less fair than processes
+driven primarily by human agents (t(1 8 5) = 3.22, d = 0.47,                     5.1. Sample and procedure
+p = .002).6 See Fig. 5.
+                                                                                     A sample of 197 undergraduate students (45.7% female,
+    As in Study 1, we assessed whether these effects on perceived fair-          Mage = 20.9, SD = 1.8, 41.6% Caucasian, 1% African American, 45.2%
+ness were mediated by perceived quantification (i.e., perceived failure          Asian/Asian American, 9.6% Hispanic, 2.5% Other) from a large pri-
+to consider qualitative factors). We used the Preacher and Hayes (2008)          vate university took part in a randomized 2-cell survey design (manager
+test for multiple mediation and found support for this prediction, de-           vs. algorithm) that asked them to read about a new performance review
+termining that perceived consideration of qualitative factors mediated           procedure:
+(1) the difference between algorithm-only and all other conditions
+(bias-corrected confidence interval ranged from ­0.43 to ­0.01), (2) the             Many sales departments within companies are adopting a new
+difference between human-only and all other conditions (bias-corrected               performance review practice in which they evaluate individual
+confidence interval ranged from 0.11 to 0.50), and (3) the difference                performance data over the previous year as well as provide an op-
+between primarily algorithm-driven and primarily human-driven pro-                   portunity for employees to articulate what they saw as their biggest
+cesses (bias-corrected confidence interval ranged from ­0.44 to ­0.11).              challenges and contributions throughout the year. For the latter,
+                                                                                     employees record brief videos of themselves explaining what they
+4.4. Discussion                                                                      achieved, what challenges they overcame, and what they learned
+                                                                                     during the previous year. This gives employees the opportunity to
+    These results replicate our findings supporting Hypotheses 1 and 2.              convey their thoughts and, if needed, put their performance data in
+Additionally, they provide support for Hypothesis 5, predicting that the             context.
+perceived fairness of hybrid procedures depends on the degree of                     Employees' performance reviews are conducted by [their manager]
+human control over algorithms. If human decision makers have the                     [an algorithm]. The [manager] [algorithm] evaluates the following
+opportunity to adjust the output of an algorithmic process, that process             data: the employee's total sales, customer experience survey results,
+                                                                                     duration of employment, amount of overtime worked, contributions
+  6 None of these effects showed moderation by gender or ethnicity (either           to coworkers' sales, and potential for strong performance in the
+Caucasian vs. non-Caucasian or URM vs. non-URM).
+
+                                                                            157
+D.T. Newman, et al.                                                             Organizational Behavior and Human Decision Processes 160 (2020) 149­167
+
+                                     5
+
+Fairness perceptions      4.5
+
+                          4
+
+                          3.5                                                                       Algorithm
+                                                         Human
+
+                                                                Type of performance review process
+
+                                        Fig. 6. Fairness of algorithmic vs. human performance review.
+
+Reductionism perceptions                        Perceived quantification Perceived decontextualization
+                          5
+
+                          4.5
+
+                          4
+
+                          3.5
+
+                          3                                                     Algorithm
+                                                       Human
+
+                                                                Type of performance review process
+
+                                        Fig. 7. Quantification and decontextualization, algorithm vs. human.
+
+future. In addition, the [manager] [algorithm] is trained to evaluate           disagreement with three statements (presented in a randomized order)
+the employee-recorded videos, paying specific attention to the em-              on a 1­7 scale ("Strongly disagree" to "Strongly agree"): (1) This eva-
+ployees' stated contributions, the lessons they say they have learned,          luation process would be able to put these factors into context when
+and their nonverbal communication (i.e., facial expressions, mood,              evaluating me, (2) This evaluation process appropriately takes into
+positivity, persuasiveness, and honesty).                                       account how all the factors fit together, and (3) This evaluation process
+After evaluating the data and the video recording, the [manager]                would look at each factor in light of the others to paint a complete
+[algorithm] comes to a final decision on the performance review,                picture of my performance.
+which could affect the employee's salary, bonus, eligibility for
+promotion, and, in some cases, dismissal.                                       5.3. Results
+
+5.2. Measures                                                                       Results supported the prediction that algorithms would be con-
+                                                                                sidered less fair than managers (Hypothesis 1). Analysis of variance
+5.2.1. Perceived fairness                                                       revealed that performance reviews conducted by algorithms (M = 3.87,
+    On a 1­7 scale (Strongly Disagree to Strongly Agree), participants          SD = 1.34) were perceived as significantly less fair than those con-
+                                                                                ducted by human managers (M = 4.35, SD = 1.14), (F(1, 195) = 7.39,
+indicated their agreement with four (randomized) statements adapted             d = 0.39, p = .007).7 See Fig. 6.
+from Conlon et al. (2004): (1) the way this process determines which
+workers receive raises and pay cuts seems fair, (2) this process for                We next tested Hypothesis 2, which predicted that algorithms would
+making personnel decisions is fair, (3) this process regarding which            be perceived as less fair because of their perceived reduction of accurate
+workers are promoted and laid off is fair, and (4) the outcomes of this         information. This prediction was supported. Analysis of variance re-
+process are fair.                                                               vealed (1) that algorithms (M = 4.80, SD = 1.06) were perceived to
+                                                                                quantify employees significantly more than human managers
+5.2.2. Quantification                                                           (M = 4.03, SD = 0.98), (F(1, 195) = 27.53, d = 0.75, p < .001), and
+    Participants were asked to imagine themselves as an employee                (2) that algorithms (M = 3.85, SD = 1.34) were perceived to decon-
+                                                                                textualize information significantly more than human managers
+going through the review process and to indicate their agreement or             (M = 3.30, SD = 1.17), (F(1, 195) = 9.75, d = 0.44, p = .002). See
+disagreement with three statements (presented in a randomized order)            Fig. 7.
+on a 1­7 scale ("Strongly disagree" to "Strongly agree"): (1) I feel like
+this evaluation process would just reduce me to a number, (2) This                  To dig deeper into the relationship between our causal mechanisms,
+evaluation process would adequately recognize my qualitative attri-             we conducted our preregistered analysis to assess whether the main
+butes, abilities, and performance, and (3) I think some information             effect of algorithms on perceived fairness was serially mediated by
+about my performance would be lost in this evaluation process.                  perceived quantification and perceived decontextualization. We used
+                                                                                the Hayes (2017) procedure for testing serial mediation (Model 6) and
+5.2.3. Decontextualization
+    Participants were asked to imagine themselves as an employee                  7 This effect was not moderated by gender or ethnicity (either Caucasian vs.
+                                                                                non-Caucasian or URM vs. non-URM).
+going through the review process and to indicate their agreement or
+
+                                                                           158
+D.T. Newman, et al.                                                                Organizational Behavior and Human Decision Processes 160 (2020) 149­167
+
+                     Fig. 8. Algorithmic reductionism and fairness, serial mediation model.
+
+found support for this prediction. The indirect effect from Algorithm to           37.6% Asian/Asian American, 9.4% Hispanic, 0.5% Native American,
+quantification to decontextualization was significant (confidence in-              7.0% Other) from a large private university took part in a 2 × 2 la-
+terval: ­0.49 to ­0.16), the indirect effect from Algorithm to quantifi-           boratory experiment (algorithm vs. human crossed with low vs. high
+cation to decontextualization to Fairness was significant (confidence              transparency) in which they were incentivized to prepare for 5-minute
+interval: ­0.35 to ­0.11), and the indirect effect from Algorithm to               video interviews:
+decontextualization to Fairness was nonsignificant (confidence interval:
+­0.22 to 0.10), indicating that the (more direct) effect from Algorithm                Many companies these days are switching from a traditional inter-
+to decontextualization to Fairness is not significant unless the model                 view process for employee hiring to a video interview process in
+accounts for the mediating (more indirect) effect of quantification. See               which job candidates submit recordings of themselves speaking
+Fig. 8.                                                                                about their qualifications for the position.
+                                                                                       We are creating a list of high performing video interviewers8 to
+5.4. Discussion                                                                        recommend for a series of interview and job opportunities in the
+                                                                                       future.
+    These results provide further support for Hypotheses 1 and 2.                      After filling out the remainder of this questionnaire, you will be
+Additionally, they provide a fuller picture of how reductionism works, by              taken to another part of the lab to make a 5-minute recording of
+showing that the effect of algorithms on the perceived fairness of decision            yourself answering some of the most common video interview
+processes is serially mediated by perceived quantification causing perceived           questions.
+decontextualization. This offers nuance to our theory of reductionism, de-
+monstrating how apparent constraints both on qualitative information and               On the next page, we varied the algorithmic or human nature of the
+on how information is put together work to influence perceptions of fair-          video interview evaluation process. Additionally, participants in the
+ness. Furthermore, because this study gave participants greater specificity        high transparency condition saw an additional paragraph of text pre-
+regarding the factors entering into the decision-making process, we can be         sented below in italics:
+more confident that the effect of algorithms on fairness is not merely the
+consequence of insufficient transparency.                                              We are partnering with a university-affiliated startup that uses [a
+                                                                                       proprietary algorithm] [HR professionals] to evaluate video inter-
+6. Study 5: Algorithmic interview evaluations, transparency, and                       views. This process has been developed in conjunction with some of
+fairness                                                                               the leading industrial-organizational psychologists, working to
+                                                                                       better the hiring practices of various firms.
+    In this study, we tested our predictions in a sample of undergraduate              [The algorithm] [someone] will evaluate your recorded responses to
+students, using the context of video interview evaluations, based on the               a few questions and give you a score. Top scores will be set aside on
+emergence of companies like HireVue, which have developed algo-                        a short list eligible for future interviews and opportunities.
+rithms to assess recordings of job candidates for clients including                    The [algorithm] [evaluator] is trained to analyze the content of your
+Goldman Sachs and JP Morgan (Institute, 2018). We assessed people's                    responses (specifically: quality of past accomplishments, insightful
+fairness perceptions associated with using algorithms (versus humans)                  thoughts and ideas, professional vocabulary) and your non-verbal cues
+to evaluate video interviews, predicting that algorithms would be per-                 (specifically: facial expressions, posture, tone of voice). Content and non-
+ceived as less fair. Additionally, we varied the degree of transparency                verbals will be weighted equally.
+surrounding the process by manipulating the level of detail, so as to
+directly test the possibility that algorithms might be seen as fair if only            Click the button to reveal the interview questions.
+they were not construed as "black boxes." In particular, we created a                  Participants then read that they had 8 minutes to take notes on scratch
+scenario (i.e., being evaluated via a brief video recording) that was              paper to prepare for recording themselves answering the following video
+likely to be perceived as particularly unfair when done under conditions           interview questions: (1) What can you tell us about yourself? (2) What are
+of low transparency. By including low- and high-transparency condi-                two accomplishments of which you are particularly proud? (3) What is one
+tions, we were able to assess participants' beliefs about the capacity of          area where you are in need of improvement?
+both humans and algorithms to engage in holistic decision making. We                   After the preparation time elapsed, participants answered some
+predicted that increasing transparency about evaluation factors would              questions about the video interview evaluation process (perceived de-
+increase perceived fairness, but only when the evaluator was human.                contextualization and perceived fairness) before being taken to the
+Such a finding would suggest that perceived unfairness of algorithms is            video recording lab, at which point they were told that technical dif-
+not simply due to people's assumptions that they will not consider the             ficulties had caused a delay in recording the previous group, and they
+right information, but also due to the assumption that algorithms                  were dismissed from the study. No video interviews were in fact re-
+cannot even make use of the right information when they have it.                   corded.
+
+6.1. Sample and procedure                                                            8 "Interviewers" here was a typographical error (instead of "interviewees").
+                                                                                   However, in light of the subsequent description of scoring, the use of "inter-
+    A sample of 213 undergraduate students (41.3% female,                          viewees" in a fairness item, and the lack of any indication from participants of
+Mage = 19.9, SD = 2.1, 39.9% Caucasian, 5.6% African American,                     confusion about their roles, we believe that participants accurately understood
+                                                                                   the context.
+
+                                                                              159
+D.T. Newman, et al.                                                                Organizational Behavior and Human Decision Processes 160 (2020) 149­167
+
+6.2. Measures                                                                                                               Fig. 10. Fairness.
+
+6.2.1. Perceived fairness                                                          situation involving greater stakes than our vignette-based experiments
+    On a 1­7 scale (Strongly Disagree to Strongly Agree), participants             (Studies 1, 3, and 4). Under such stakes, combined with the fact that
+                                                                                   they would be assessed in a somewhat novel context (via video foo-
+indicated their agreement with four (randomized) statements adapted                tage), increasing transparency in the human evaluation condition was
+from Conlon et al. (2004): (1) the way this process determines which               seen as fairer than a more opaque human evaluation process. In con-
+candidates receive job opportunities seems fair, (2) this process for              trast, however, increasing transparency failed to increase perceived
+making interview performance decisions is fair, (3) this process re-               fairness in the algorithmic condition. This result reinforces that of Study
+garding how interviewees are evaluated is fair, and (4) the outcomes of            2 (in which actual employees judged a possible change to HR policies
+this process are fair.                                                             specifying somewhat transparent factors), while also showing the
+                                                                                   moderating impact of transparency on human but not algorithmic
+6.2.2. Decontextualization                                                         procedures. These findings provide further support for our predictions
+    Participants were asked to consider the video interview evaluation             that algorithms are seen as reductionistic and, therefore, less fair than
+                                                                                   humans.
+process and to indicate their agreement or disagreement with three state-
+ments (presented in a randomized order) on a 1­7 scale ("Strongly disagree"        7. General discussion
+to "Strongly agree"): (1) This evaluation process will be able to put my
+responses in context when evaluating me, (2) This evaluation process ap-               The results of five studies indicate that personnel decisions driven
+propriately takes into account how all my responses fit together, and (3)          by algorithms are perceived to be less fair than identical decisions
+This evaluation process will look at each response in light of the others to       featuring more human involvement. Although it is possible (either now
+paint a complete picture of my interview performance.                              or in the future) that decision-making algorithms might objectively
+                                                                                   enhance procedural justice by eliminating biases to which human
+6.3. Results                                                                       judgment is famously prone, they are subjectively perceived to violate
+                                                                                   procedural justice by reducing considerations to easily quantifiable
+    Analysis of variance revealed significant differences across all con-          performance data and failing to consider performance holistically.
+ditions both for perceived fairness (F(3, 209) = 2.72, d = 0.49,
+p = .046) and for perceived decontextualization (F(3, 209) = 3.37,                     Study 1 revealed that people tend to view algorithms as less fair
+d = 0.53, p = .019). These effects were driven by the human, high-                 than human decision makers in rendering decisions about both layoffs
+transparency condition differing from the other three conditions for               and promotions. The driving mechanism behind this effect was the
+both fairness (t(209) = 2.63, d = 0.42, p = .009) and decontextuali-               perception that algorithms fail to adequately account for and con-
+zation (t(209) = -3.16, d = 0.50, p = .002). See Figs. 9 and 10.                   textualize qualitative attributes, such as leadership, attitude, and po-
+                                                                                   tential, which comprise part of each human being's unique personal
+    Although no main effects were observed for either the algorithmic              character. Reductionism, whether real or imagined, is perceived to limit
+or transparency manipulation, two-step regression models found sig-                the use of accurate information on which fair procedures must rely. To
+nificant interactions between the algorithmic and transparency ma-                 be perceived as fair, then, treatment seems to require more than con-
+nipulations for both perceived fairness (t = ­2.41,  = ­0.29, p = .017)            sistency and/or the elimination of bias--it necessitates holistic con-
+and perceived decontextualization (t = 2.13,  = 0.25, p = .034).                   sideration of human characteristics, which calls for a less mechanistic
+Specifically, under conditions of high transparency, the algorithm                 and more human-oriented approach.
+condition yielded perceptions of significantly less fairness (t
+(209) = ­2.57, d = 0.50, p = .011) and more decontextualization (t                     Study 2 further demonstrated these effects through a field experi-
+(209) = 2.76, d = 0.53, p = .006). Similarly, for human procedures,                ment conducted in a large organization. In addition to corroborating
+the high-transparency condition yielded perceptions of significantly               the findings of Study 1, the results in Study 2 provided evidence that the
+more fairness (t(209) = 2.33, d = 0.46, p = .021) and less decontex-               use of algorithms to make people-related decisions may introduce at-
+tualization (t(209) = ­2.58, d = 0.51, p = .01). Additionally, the                 titudes and behaviors that ultimately have negative consequences for
+Hayes (2017) procedure for testing moderated mediation (model 7)                   organizational performance. In particular, in our study it caused em-
+revealed that transparency moderated the mediating effect of decon-                ployees to express lower levels of organizational commitment, an effect
+textualization between algorithms and perceived fairness (confidence               that was driven by perceived unfairness. This indicates that the per-
+interval for index of moderated mediation: ­0.79 to ­0.04).                        ceptions of unfairness associated with the use of algorithms to make
+                                                                                   personnel decisions matter in that they foster attitudes that could
+6.4. Discussion                                                                    hinder performance and organizational loyalty.
+
+    Because the student participants were incentivized with the possi-                 Study 3 replicated and elaborated on our findings in a design that
+bility of future interview and job opportunities, this study created a             compared purely algorithmic and purely human decision processes to
+                                                                                   procedures combining algorithms with human judgment. Critically,
+                                  Fig. 9. Decontextualization.                     human decision makers with the option to rely on an algorithm were
+
+                                                                              160
+D.T. Newman, et al.                                                                                Organizational Behavior and Human Decision Processes 160 (2020) 149­167
+
+seen as comparably fair to the purely human process, whereas a default              Third, our findings show the theoretical importance to procedural
+algorithmic process with the opportunity for a 10% human adjustment             justice of a distinction between quantitative versus qualitative factors.
+was perceived much like a pure algorithm. Mere opportunity for human            To be perceived as fair, procedures must give due consideration to all
+agents to adjust algorithmic output was inadequate to dispel percep-            aspects of the individual, including those not easily quantified, such as
+tions of reductionism and concomitant unfairness; fairness requires a           leadership potential, intentions, and psychological commitment, to
+high level of human discretion. These results highlight the central role        name a few. In fact, these kinds of factors may be seen as fundamentally
+of human involvement in fostering a climate of organizational justice.          more associated with accurate information about the individual as a
+                                                                                whole. Importantly, this insight extends beyond automated algorithms
+    Studies 4 and 5 demonstrated that increasing transparency about             to human managers and practices that reduce people to numerical re-
+the factors being considered does not eliminate perceptions of unfair-          presentations via overreliance on analytics in general. Broadly, analy-
+ness surrounding algorithms. Additionally, they provided greater in-            tics is the enterprise of organizing and utilizing data in more sophisti-
+sight into the mechanism of algorithmic reductionism. In Study 4, a             cated ways (Angrave, Charlwood, Kirkpatrick, Lawrence, & Stuart,
+serial mediation model demonstrated that the effect of algorithms on            2016). In our context, analytics involves "the extensive use of data,
+perceived fairness was mediated by perceived quantification which, in           statistical and quantitative analysis, explanatory and predictive models,
+turn, caused perceived decontextualization. Study 5 demonstrated that           and fact-based management to drive decisions and actions" (Davenport
+increasing transparency of factors considered leads to greater perceived        & Harris, 2007, p. 7). As we found, HR teams relying on pure quanti-
+fairness when humans are the decision makers, but not algorithms. This          fication are also likely to face charges of unfairness, possibly despite
+indicates that people do not believe that algorithms are as capable as          other efforts to maximize procedural and distributive justice.
+humans at handling and contextualizing a range of qualitative and
+quantitative factors.                                                               Fourth, our findings have theoretical implications for research in-
+                                                                                vestigating the psychological and organizational determinants of or-
+    Crucially, our results indicate that algorithm-driven decision-             ganizational commitment. It is not surprising that perceptions of fair-
+making processes are seen to be unfair across a range of scenarios, in-         ness are associated with commitment. However, our findings in Study 2
+cluding when outcome valence is positive or negative (Study 1), when            indicate that the mere possibility of introducing algorithms into an
+qualitative factors are explicitly considered (Studies 2, 4, and 5), when       organization can lead to negative downstream consequences for orga-
+humans have the ability to tweak the outcomes (Study 3), and when               nizational commitment. Given the escalating reliance on people ana-
+transparency is high (Studies 4 and 5). Across all studies, our findings        lytics in organizations combined with the important consequences of
+indicate that people are not comfortable with an organizational para-           perceived fairness, researchers should seek to better understand how to
+digm that picks winners and losers through an automated software                integrate analytic decision making while minimizing damage to morale
+system. Although human decision makers may fall victim to bias, they            and organizational commitment.
+are not viewed as treating employees reductionistically and are there-
+fore preferable to resigning one's professional fate to an algorithm.           7.2. Limitations and future directions
+
+7.1. Theoretical contributions                                                      Although the present findings make clear contributions to theory
+                                                                                and practice, there are several limitations and remaining questions that
+    The present findings offer a number of important theoretical con-           should be addressed by future research. For example, we have focused
+tributions. First, our work extends procedural justice theory by ex-            on accuracy, through reductionism, as the mechanism by which algo-
+amining new and emerging decision-making tools that are poised to be            rithms affect the perceived fairness of decision procedures. However,
+increasingly used in organizations. Specifically, we investigated em-           there are other possible factors that could be in play, such as respect. In
+ployees' reactions to algorithms used to make personnel decisions. In so        particular, Tyler and Blader (2003) argue that respect is likely to play a
+doing, we contribute to existing theory by showing the importance of            central role in fairness considerations when group identity is strong. It
+human involvement, which is perceived as improving the use of accu-             is worth noting that our findings persisted under conditions of both
+rate information. Consistent with this idea, across multiple studies we         strong and weak group identity. For example, group identity is (pre-
+found that participants viewed human involvement as increasing fair-            sumably) high in Study 2, which involved employees of a single orga-
+ness by affording greater consideration of qualitative information as           nization, but it is low in the remainder of our studies, in which parti-
+well as using this information for increased contextualization.                 cipants took on the role of interviewees (Study 5) or third-party
+                                                                                observers (Studies 1, 3, and 4) and were unlikely to feel strong social
+    Second, we add illumination to the fundamental psychology of al-            connection to the organizations in question. As such, in the majority of
+gorithms by focusing on the reactions of people both observing and              our studies, participants' concerns are more plausibly related to the
+affected by algorithm-driven procedures. Whereas prior work has                 apparent inaccuracy of the procedures than to feelings of disrespect.
+concentrated on decision makers' tendency to accept or reject algo-             Nevertheless, respect is a factor worth investigating in future work on
+rithms as a basis for decision making, or on the strategic relationship         algorithmic decision making, along with other elements of procedural
+between algorithms and organizational performance outcomes, we                  fairness, including perceptions of voice, bias, and consistency, in order
+address the need to understand the impact of algorithms on individual           to provide a more complete picture of the relationship between the use
+attitudes and behavior. Our theoretical lens and the empirical evidence         of algorithms and perceived fairness.
+have enabled us to make a conceptually important observation about
+the human psychology of algorithms. Specifically, we contend that                   Future work on procedural justice should also further examine distinc-
+people simply do not believe that algorithms apply to qualitative fac-          tions between quantitative and qualitative factors, including both the con-
+tors. People are prepared to accept that a competent human decision             sequences of considering one or the other as well as determinants that lead
+maker can consider both quantitative and qualitative factors. However,          employees to view a factor as quantitative or qualitative in the first place.
+because they see algorithms as inescapably associated with re-                  While we found that people perceived human decision makers to consider
+ductionism, they resist the notion that algorithms are capable of fairly        both quantitative and qualitative factors (and perceived algorithms to
+accounting for qualitative human attributes.
+
+                                                                           161
+D.T. Newman, et al.                                                                                    Organizational Behavior and Human Decision Processes 160 (2020) 149­167
+
+consider primarily quantitative factors), additional work needs to be done to       algorithms become institutionalized within organizations, employee
+assess the malleability of these perceptions as well as how procedures might        reactions to them may change, with natural implications for managerial
+balance the weighting of quantitative and qualitative factors to achieve            decision making and implementation.
+optimal fairness.
+                                                                                        Our findings highlight the potentially unfavorable downstream
+    Future work might also illuminate the boundary conditions of our ef-            implications of people analytics for organizational life. Processes per-
+fects, looking to different industries (which may vary in terms of their            ceived to be reductionistic, and consequently unfair, dampen em-
+preference for quantification) or different objects of evaluation (such as          ployees' commitment to the organization, with potentially devastating
+plant and equipment, the disposition of which by analytics-based algorithms         consequences for retention, recruitment, productivity, and organiza-
+might well be seen as fair). Relatedly, future research should investigate          tional citizenship behaviors. It is possible that increasing reliance on
+effects associated with the author of the algorithm. Given our findings, it         data analytics undermines a very important organizational function:
+appears that people psychologically remove humans from the equation                 leaders getting together to determine organizational values and prio-
+when considering algorithms, but further work manipulating awareness of             rities in light of discussions about whom to promote, hire, and let go.
+who is writing the analytics software that compiles and implements the data         Hence organizations in search of efficiency gains from computerizing
+might intensify or ameliorate the effects we observed. Additional research          personnel decisions should carefully consider whether the cure might
+might investigate reactions to analytics when already institutionalized             be worse than the disease. On the flip side, our findings indicate that
+within an organizational or industrial context. Finally, we think it would be       organizations wishing to tap the positive potential of analytics ethically
+interesting for future work to investigate explicit messaging and information       must begin by using algorithms as but one tool within a people-driven
+regarding consideration of demographic factors such as race and gender. If,         decision process.
+for instance, an algorithm is explicitly framed as ignoring race (or, alter-
+natively, assessing race and assigning different weights to particular cate-        8. Conclusion
+gories), this may moderate perceptions of the fairness of the algorithm.
+                                                                                        Perceived unfairness notwithstanding, algorithms continue to gain
+    Finally, future work could examine the effect of having subjective or           increasing influence in human affairs, not only in organizational set-
+objective control over the use of analytics on perceived fairness. For              tings but throughout our social and personal lives. How this influence
+example, although having the opportunity to exert a measure of control              plays out against our sense of fairness remains to be seen but should
+over algorithmic decisions may make decision makers more willing to                 undoubtedly be of central interest to justice scholars in the years ahead.
+rely on them (Dietvorst et al., 2018), it remains unclear whether such              Will the compilers of analytics and writers of algorithms adapt their
+control has a similar effect on decision makers' judgments of fairness. It          methods to comport with intuitive notions of morality? Or will our
+is possible that subordinates and supervisors alike might share an in-              understanding of fairness adjust to the changing times, becoming in-
+stinctive reaction to people analytics as essentially unjust compared to            ured to dehumanization in an ever more impersonal world? Questions
+managers and HR teams making the exact same decisions, but this                     such as these will be asked more and more frequently as technology
+question should be answered by further research.                                    reshapes modes of interaction and organization that have held sway for
+                                                                                    generations. We have sought to contribute answers to these questions,
+7.3. Managerial implications                                                        and we hope that our work will encourage others to continue studying
+                                                                                    these and related topics.
+    The present findings also introduce several practical contributions.
+First, they indicate that employees are likely to reject people analytics           CRediT authorship contribution statement
+as unfair. Yet, at the same time, there are a number of reasons com-
+panies may wish to use analytics-based decision procedures. It may be                   David T. Newman: Conceptualization, Methodology, Validation,
+possible for managers to roll out algorithms in a manner allowing for               Formal analysis, Investigation, Resources, Data curation, Writing -
+positive responses from employees. Framing techniques could highlight               original draft, Writing - review & editing, Visualization, Project ad-
+how relying on analytics is objectively more, rather than less, fair than           ministration. Nathanael J. Fast: Conceptualization, Methodology,
+relying on human decision makers. Organizations could also pair al-                 Resources, Writing - review & editing, Supervision. Derek J. Harmon:
+gorithms with a human decision maker who assesses qualitative factors;              Conceptualization, Methodology, Writing - review & editing.
+this combination of processes might be perceived as the fairest of them
+all.                                                                                Acknowledgement
+
+    Second, our findings have practical implications for organizational                 The second author was supported in part by the Air Force Office of
+commitment. In particular, drawing on the theory that justice has im-               Scientific Research, under grant FA9550-18-1-0182. The content does
+portant downstream consequences for organizationally relevant atti-                 not necessarily reflect the position or the policy of any Government,
+tudes and behaviors (Lind, 2001), we demonstrate that the adoption of               and no official endorsement should be inferred.
+algorithms has a negative impact on key organizational outcomes.
+Additionally, we take view of the long term, in which reliance on
+analytics may become common in organizational settings. As
+
+                                                                               162
+D.T. Newman, et al.                                             Organizational Behavior and Human Decision Processes 160 (2020) 149­167
+
+Appendix A. Organizational charts used as materials in Study 2
+    See Charts 1­4.
+
+Chart 1. Algorithmic process emphasizing quantitative factors.
+                                             163
+D.T. Newman, et al.  Organizational Behavior and Human Decision Processes 160 (2020) 149­167
+
+                     Chart 2. Algorithmic process emphasizing qualitative factors.
+                                                                 164
+D.T. Newman, et al.  Organizational Behavior and Human Decision Processes 160 (2020) 149­167
+
+                     Chart 3. Human process emphasizing quantitative factors.
+                                                              165
+D.T. Newman, et al.                                                                             Organizational Behavior and Human Decision Processes 160 (2020) 149­167
+
+                                                                       Chart 4. Human process emphasizing qualitative factors.
+Appendix B. Supplementary material
+
+    Supplementary data to this article can be found online at https://doi.org/10.1016/j.obhdp.2020.03.008.
+
+References                                                                                           productivity. August 18. Retrieved from http://www.nbcnews.com.
+                                                                                                Barrett-Howard, E., & Tyler, T. R. (1986). Procedural justice as a criterion in allocation
+Adams, J. S. (1965). Inequity in social exchange. In L. Berkowitz (Vol. Ed.), Advances in
+     experimental social psychology: Vol. 2, (pp. 267­299). New York: Academic Press.                decisions. Journal of Personality and Social Psychology, 50, 296­304.
+                                                                                                Bies, R. J., & Moag, J. F. (1986). Interactional justice: Communication criteria of fairness.
+Allen, N. J., & Meyer, J. P. (1990). The measurement and antecedents of affective, con-
+     tinuance and normative commitment to the organization. Journal of Occupational                  In R. J. Lewicki, B. H. Sheppard, & M. H. Bazerman (Vol. Eds.), Research on nego-
+     Psychology, 63, 1­18.                                                                           tiations in organizations: Vol. 1, (pp. 43­55). Greenwich, CT: JAI Press.
+                                                                                                Boswell, W. R., Roehling, M. V., LePine, M. A., & Moynihan, L. M. (2003). Individual job-
+Angrave, D., Charlwood, A., Kirkpatrick, I., Lawrence, M., & Stuart, M. (2016). HR and               choice decisions and the impact of job attributes and recruitment practices: A long-
+     analytics: Why HR is set to fail the big data challenge. Human Resource Management              itudinal field study. Human Resource Management, 42, 23­37.
+     Journal, 26, 1­11.                                                                         Brockner, J. (2002). Making sense of procedural fairness: How high procedural fairness
+                                                                                                     can reduce or heighten the influence of outcome favorability. Academy of Management
+Aral, S., Brynjolfsson, E., & Wu, L. (2012). Three-way complementarities: Performance                Review, 27, 58­76.
+     pay, human resource analytics, and information technology. Management Science, 58,         Brockner, J. (2006). Why it's so hard to be fair. Harvard Business Review, 84, 122­129.
+     913­931.                                                                                   Brockner, J., & Wiesenfeld, B. M. (1996). An integrative framework for explaining re-
+                                                                                                     actions to decisions: Interactive effects of outcomes and procedures. Psychological
+Arkes, H. R., Dawes, R. M., & Christensen, C. (1986). Factors influencing the use of a               Bulletin, 120, 189­208.
+     decision rule in a probabilistic task. Organizational Behavior and Human Decision          Choi, I., Koo, M., & Choi, J. A. (2007). Individual differences in analytic versus holistic
+     Processes, 37, 93­110.                                                                          thinking. Personality and Social Psychology Bulletin, 33, 691­705.
+                                                                                                Christin, A. (2017). Algorithms in practice: Comparing web journalism and criminal
+Yeomans, M., Shah, A., Mullainathan, S., & Kleinberg, J. (2019). Making sense of re-                 justice. Big Data & Society, 4, 1­14.
+     commendations. Journal of Behavioral Decision Making, 32, 403­414.
+
+Associated Press (2015). Like Amazon, more firms use data on workers to drive
+
+                                                                                           166
+D.T. Newman, et al.                                                                                   Organizational Behavior and Human Decision Processes 160 (2020) 149­167
+
+Colquitt, J. A. (2001). On the dimensionality of organizational justice: A construct vali-                 study of fairness in social relationships. In K. Gergen, M. Greenberg, & R. Willis (Vol.
+     dation of a measure. Journal of Applied Psychology, 86, 386­400.                                      Eds.), Social exchange: Advances in theory and research: Vol. 1, (pp. 27­55). New York:
+                                                                                                           Plenum Press.
+Colquitt, J. A., Conlon, D. E., Wesson, M. J., Porter, C. O. L. H., & Ng, K. Y. (2001). Justice       Lind, E. A. (2001). Fairness heuristic theory: Justice judgments as pivotal cognitions in
+     at the millennium: A meta-analytic review of 25 years of organizational justice re-                   organizational relations. In J. Greenberg, & R. Cropanzano (Vol. Eds.), Advances in
+     search. Journal of Applied Psychology, 86, 425­445.                                                   Organizational Justice: Vol 1, (pp. 56­88). Stanford, CA: Stanford University Press.
+                                                                                                      Lind, E. A., Kanfer, R., & Earley, P. C. (1990). Voice, control, and procedural justice:
+Colquitt, J. A., & Rodell, J. B. (2015). Measuring justice and fairness. In R. Cropanzano, &               Instrumental and noninstrumental concerns in fairness judgments. Journal of
+     M. L. Ambrose (Vol. Eds.), The Oxford handbook of justice in the workplace: Vol. 1, (pp.              Personality and Social Psychology, 59, 952­959.
+     187­202). New York: Oxford University Press.                                                     Lind, E. A., & Tyler, T. R. (1988). The social psychology of procedural justice. New York:
+                                                                                                           Plenum Press.
+Colquitt, J. A., & Zipay, K. P. (2015). Justice, fairness, and employee reactions. Annual             Loehr, A. (2015). Big data for HR: Can predictive analytics help decrease discrimination
+     Review of Organizational Psychology and Organizational Behavior, 2, 75­99.                            in the workplace? The Huffington Post. March 23. Retrieved from https://www.
+                                                                                                           huffingtonpost.com.
+Conlon, D. E., Porter, C. O. L. H., & Parks, J. M. (2004). The fairness of decision rules.            Logg, J. M., Minson, J. A., & Moore, D. A. (2019). Algorithm appreciation: People prefer
+     Journal of Management, 30, 329­349.                                                                   algorithmic to human judgment. Organizational Behavior and Human Decision
+                                                                                                           Processes, 151, 90­103.
+Corporate Finance Institute (2018). HireVue Interview Guide. Corporate Finance                        McFarlin, D. B., & Sweeney, P. D. (1992). Distributive and procedural justice as predictors
+     Institute. Retrieved from https://corporatefinanceinstitute.com/resources/careers/                    of satisfaction with personal and organizational outcomes. Academy of Management
+     interviews/about-hirevue-interview/ on June 30, 2019.                                                 Journal, 35, 626­637.
+                                                                                                      Meehl, P. E. (1954). Clinical versus statistical prediction: A theoretical analysis and a review of
+Cowgill, B. (2017). Automating judgement and decision-making: Theory and evidence                          the evidence. Minneapolis: University of Minnesota.
+     from résumé screening. Columbia University, 2015 Empirical Management                            Nisbett, R. E., Peng, K., Choi, I., & Norenzayan, A. (2001). Culture and systems of thought:
+     Conference.                                                                                           Holistic versus analytic cognition. Psychological Review, 108, 291­310.
+                                                                                                      O'Connor, S. (2016). When your boss is an algorithm. Financial Times. September 7.
+Crawford, K. (2013). The hidden biases of big data. Harvard Business Review. April 1.                      Retrieved from https://www.ft.com.
+     Retrieved from https://blogs.hbr.org.                                                            Preacher, K. J., & Hayes, A. F. (2008). Asymptotic and resampling strategies for assessing
+                                                                                                           and comparing indirect effects in multiple mediator models. Behavior Research
+Dana, J., Dawes, R., & Peterson, N. (2013). Belief in the unstructured interview: The                      Methods, 40, 879­891.
+     persistence of an illusion. Judgment and Decision Making, 8, 512­520.                            Rosch, E. (1975). Cognitive representations of semantic categories. Journal of
+                                                                                                           Experimental Psychology: General, 104, 192­233.
+Davenport, T. H., & Harris, J. G. (2007). Competing on analytics: The new science of winning.         Scott, A., Klein, F. K., & Onovakpuri, U. (2017). Tech leavers study: A first-of-its-kind
+     Boston, MA: Harvard Business Press.                                                                   analysis of why people voluntarily left jobs in tech. Kapor Center for Social Impact.
+                                                                                                      Setty, P. (2014). HR meets science at Google with Prasad Setty. re: Work with Google.
+Davenport, T. H., Harris, J. G., & Shapiro, J. (2010). Competing on talent analytics.                      November 10. Retrieved from https://www.youtube.com/watch?v=KY8v-O5Buyc&
+     Harvard Business Review, 88, 52­58.                                                                   feature=youtu.be&t=2m58s.
+                                                                                                      Shapiro, D. L., Buttner, E. H., & Barry, B. (1994). Explanations: What factors enhance
+Dawes, R. M. (1979). The robust beauty of improper linear models in decision making.                       their perceived adequacy? Organizational Behavior and Human Decision Processes, 58,
+     American Psychologist, 34, 571­582.                                                                   346­368.
+                                                                                                      Sheppard, B. H., & Lewicki, R. J. (1987). Toward general principles of managerial fair-
+Dawes, R. M., Faust, D., & Meehl, P. E. (1989). Clinical versus actuarial judgment. Science,               ness. Social Justice Research, 1, 161­176.
+     243, 1668­1774.                                                                                  Skarlicki, D. P., Ellard, J. H., & Kelln, B. R. C. (1998). Third-party perceptions of a layoff:
+                                                                                                           Procedural, derogation, and retributive aspects of justice. Journal of Applied
+Dietvorst, B. J., Simmons, J. P., & Massey, C. (2014). Algorithm aversion: People erro-                    Psychology, 83, 119­127.
+     neously avoid algorithms after seeing them err. Journal of Experimental Psychology:              Spreitzer, G. M., Cameron, L., & Garrett, L. (2017). Alternative work arrangements: Two
+     General, 144, 114­126.                                                                                images of the new world of work. Annual Review of Organizational Psychology and
+                                                                                                           Organizational Behavior, 4, 473­499.
+Dietvorst, B. J., Simmons, J. P., & Massey, C. (2018). Overcoming algorithm aversion:                 Sweeney, P. D., & McFarlin, D. B. (1993). Workers' evaluation of the "ends" and the
+     People will use imperfect algorithms if they can (even slightly) modify them.                         "means": An examination of four models of distributive and procedural justice.
+     Management Science.                                                                                   Organizational Behavior and Human Decision Processes, 55, 23­40.
+                                                                                                      Taylor, M. S., Tracy, K. B., Renard, M. K., Harrison, J. K., & Carroll, S. J. (1995). Due
+Fecheyr-Lippens, B., Schaninger, B., & Tanner, K. (2015). Power to the new people                          process in performance appraisal: A quasi-experiment in procedural justice.
+     analytics. McKinsey Quarterly, 51, 61­63.                                                             Administrative Science Quarterly, 40, 495­523.
+                                                                                                      Thibaut, J., & Walker, L. (1975). Procedural justice: A psychological analysis. Hillsdale, NJ:
+George, G., Haas, M. R., & Pentland, A. (2014). Big data and management. Academy of                        Erlbaum Press.
+     Management Journal, 57, 321­326.                                                                 Tyler, T. R., & Bies, R. J. (1990). Beyond formal procedures: The interpersonal context of
+                                                                                                           procedural justice. In J. S. Carroll (Vol. Ed.), Applied social psychology and organiza-
+Gilovich, T., Griffin, D., & Kahneman, D. (Eds.). (2002). Heuristics and biases: The psy-                  tional settings: Vol. 6, (pp. 77­98).
+     chology of intuitive judgment. Cambridge, UK: Cambridge University Press.                        Tyler, T. R., & Blader, S. L. (2003). The group engagement model: Procedural justice,
+                                                                                                           social identity, and cooperative behavior. Personality and Social Psychology Review, 7,
+Greenfield, R. (2018). Your raise is now based on next year's performance. Bloomberg.                      349­361.
+     July 9. Retrieved from https://www.bloomberg.com.                                                Von Bertalanffy, L. (1972). The history and status of general systems theory. Academy of
+                                                                                                           Management Journal, 15, 407­426.
+Grove, W. M., & Meehl, P. E. (1996). Comparative efficiency of informal (subjective,                  Waber, B. (2013). People analytics: How social sensing technology will transform business and
+     impressionistic) and formal (mechanical, algorithmic) prediction procedures: The                      what it tells us about the future of work. Upper Saddle River, NJ: FT Press.
+     clinical-statistical controversy. Psychology, Public Policy, and Law, 2, 293­323.                Weaver, G. R., & Trevino, L. K. (2001). The role of human resources in ethics/compliance
+                                                                                                           management: A fairness perspective. Human Resource Management Review, 11,
+Hastie, R., & Dawes, R. M. (2010). Rational choice in an uncertain world: The psychology of                113­134.
+     judgment and decision making. Thousand Oaks, CA: SAGE Publications.                              Wiesenfeld, B. M., Brockner, J., & Thibault, V. (2000). Procedural fairness, managers' self-
+                                                                                                           esteem, and managerial behaviors following a layoff. Organizational Behavior and
+Hayes, A. F. (2017). Introduction to mediation, moderation, and conditional process analysis:              Human Decision Processes, 83, 1­32.
+     A regression-based approach. New York: The Guilford Press.                                       Wilson, H. J., Alter, A., & Shukla, P. (2016). Companies are reimagining business pro-
+                                                                                                           cesses with algorithms. Harvard Business Review. February 8. Retrieved from
+Highhouse, S. (2008). Stubborn reliance on intuition and subjectivity in employee se-                      https://hbr.org.
+     lection. Industrial and Organizational Psychology, 1, 333­342.
+
+Highhouse, S., Nye, C. D., & Zhang, D. C. (2019). Dark motives and elective use of
+     brainteaser interview questions. Applied Psychology, 68, 311­340.
+
+Isaac, W., & Dixon, A. (2017). Why big-data analysis of police activity is inherently
+     biased. The Conversation. May 9. Retrieved from https://theconversation.com.
+
+Jackson, M. C. (2003). Systems thinking: Creative holism for managers. Chichester, UK: John
+     Wiley & Sons.
+
+Konovsky, M. A., & Folger, R. (2006). The effects of procedures, social accounts, and
+     benefits level on victims' layoff reactions. Journal of Applied Social Psychology, 21,
+     630­650.
+
+Kuncel, N. R., Klieger, D. M., Connelly, B. S., & Ones, D. S. (2013). Mechanical versus
+     clinical data combination in selection and admissions decisions: A meta-analysis.
+     Journal of Applied Psychology, 98, 1060­1072.
+
+Lavelle, J. J., Brockner, J., Konovsky, M. A., Price, K. H., Henley, A. B., Taneja, A., &
+     Vinekar, V. (2009). Commitment, procedural fairness, and organizational citizenship
+     behavior: A multifoci analysis. Journal of Organizational Behavior, 30, 337­357.
+
+Lecher, C. (2019). How Amazon automatically tracks and fires warehouse workers for
+     `productivity.' The Verge. April 25. Retrieved from https://www.theverge.com.
+
+Leventhal, G. S. (1976). The distribution of rewards and resources in groups and orga-
+     nizations. In L. Berkowitz, & W. Walster (Vol. Eds.), Advances in experimental social
+     psychology: Vol. 9, (pp. 91­131). New York: Academic Press.
+
+Leventhal, G. S. (1980). What should be done with equity theory? New approaches to the
+
+                                                                                                 167
+

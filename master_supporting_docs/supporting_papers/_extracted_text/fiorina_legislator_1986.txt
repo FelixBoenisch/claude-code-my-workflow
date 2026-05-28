@@ -1,0 +1,903 @@
+Legislator Uncertainty, Legislative                                                                       Downloaded from https://academic.oup.com/jleo/article-abstract/2/1/33/873292 by Nottingham Trent University user on 24 May 2019
+Control, and the Delegation of
+Legislative Power
+
+MORRIS P. FIORINA
+Harvard University
+
+1. THE QUESTION
+   On May 2, 1878, the House Commerce Committee favorably reported a
+
+bill "to regulate interstate commerce and to prohibit unjust discrimination by
+common carriers." Known as the Reagan bill, after the chairman, John
+Reagan, of Texas, H.R. 3547 outlawed rebates and other forms of discrimina-
+tion and included a restrictive long- and short-haul clause. The bill did not
+establish a federal commission to enforce the law, however, providing only
+that aggrieved shippers could bring suit in the federal courts and, if successful,
+could recover triple damages. To supply additional enforcement incentives
+railroads were to be fined a minimum of $1,000 for each offense, this amount
+to be divided between the government and the "informer." After lengthy
+debate and the addition of a provision outlawing pools (agreements to split
+traffic or revenue) the Reagan bill passed the Democratic House, only to
+disappear without a trace in the Republican Senate.1
+
+   Senate inaction stalled the regulatory drive until 1885. In that year the
+Republican Senate adopted a bill reported by a select committee chaired by
+
+     This paper was prepared for the Conference on Institutional Adaptation sponsored by the
+Graduate School of Business and Hoover Institution of Stanford University, November 1984.
+The research reported herein was supported by NSF Grant SES 82-04040, Regulation and
+ Policy Analysis Program. I wish to thank Peter Aranson, Jerry Mashaw, Gary Miller, Charles
+ Plott, Michael Reagan, and Barry Weingast for helpful comments.
+
+     1. The summary of legislative activity provided in the text is drawn from the Congressional
+Record. For the text of the 1878 Reagan bill, see 45th Cong., 2d Sess. 3096-97 (1878).
+
+Journal of Law, Economics, and Organization vol. 2., no. 1 Spring 1986
+O 1986 by Yale University. All rights reserved. ISSN 8756^222
+
+                                                                                                      33
+3 4 / JOURNAL OF LAW, ECONOMICS, AND ORGANIZATION 11:1, 1986                                            Downloaded from https://academic.oup.com/jleo/article-abstract/2/1/33/873292 by Nottingham Trent University user on 24 May 2019
+
+Shelby Cullom of Illinois. Much weaker than its House counterpart, the
+Cullom bill required that rates be reasonable and nondiscriminatory, but it
+did notflatlyprohibit rebates and other discriminations and made no mention
+of pooling or long- and short-haul discrimination. Of particular interest, the
+feature most heavily emphasized by proponents of the bill was the federal
+commission it would establish. Upon submission of a complaint the commis-
+sion would investigate. If the complaint were upheld, damages would be
+assessed but no further liability would exist. Ifa company refused to accept the
+commission's judgment, the matter would go to the federal district attorney,
+and if the commission were upheld in court, an additional maximum fine of
+$1,000 would be levied. Though the Cullom bill passed the Senate and the
+Reagan bill the House, opponents of regulation blocked a conference and the
+bills died with the expiration of the Forty-eighth Congress.
+
+   In the Forty-ninth Congress the Cullom bill, now sporting a weak long- and
+short-haul provision and calling for a commission study of pooling, passed
+overwhelmingly in April 1886 and went to the House, where the Reagan bill
+was substituted and passed overwhelmingly. While Congress was in recess
+the Supreme Court handed down its Wabash decision (118 U.S. 557 [1886])
+voiding state regulation of interstate commerce. Congress resumed delibera-
+tions against a new status quo of no regulation, with both parties and chambers
+believing that some law was a political necessity.
+
+   Ultimately, the Senate conceded on substance, agreeing to outlaw pooling
+(thereby losing the support of one of its three conferees and many of the
+railroads) and accepting a still stronger long- and short-haul provision.2 The
+House conceded on procedure, agreeing to accept the Senate commission.
+Both houses approved the conference report by large majorities in the spring
+of 1887, and the Interstate Commerce Commission (ICC) was established.
+The texbooks emphasize the substance of thefightfor federal regulation of the
+railroads--rebates and long- and short-haul discrimination in particular. But
+one comes away from the legislative history with the strong sense that regula-
+tion would have come easier and earlier had not majorities of the House and
+Senate disagreed so vehemently on the method of enforcing regulation.
+Indeed, given the earlier debates and events there is good reason to believe
+
+    2. After reading the legislative history of railroad regulation I find it difficult to attach much
+credence to Kolko's conspiracy theory of the origins of railroad regulation. According to Kolko the
+railroads were behind the movement for federal regulation. He concedes that various controver-
+sies held matters up for some years, but he regards these as "disagreements over details' that
+should not obscure the underlying agreement on the principle of federal regulation. It is almost
+certainly true that most of the industry strongly desired legalized pooling and, (ailing that, taw
+merit in the supervision ofa friendly Massachusetts-type commission. Thus, some support for the
+Senate bill is understandable, though a number of the senators most closely associated with
+railroads absented themselves from the final vote (Aldrich, Cameron, Stanford). But there is
+every indication that the roads abhorred the House bill, and Senate acceptance of the ban on
+pooling was sufficient to move many of them to oppose the conference report.
+   LEGISLATOR UNCERTAINTY, LEGISLATIVE CONTROL, AND DELEGATION / 3 5                                Downloaded from https://academic.oup.com/jleo/article-abstract/2/1/33/873292 by Nottingham Trent University user on 24 May 2019
+
+that absent the Wabash stimulus, the House and Senate would have remained
+at loggerheads, continuing the decade-long stalemate into future Congresses.
+Was procedure viewed as more important than substance? Probably not, but
+procedure was viewed by many as the key to substance.
+
+   Standard commentaries (Friedman) view the establishment of the ICC as a
+"natural" response to the demands of a new age--the first step in evolving
+beyond a "state of courts and parties" (Skowronek). After a century of experi-
+ence with such major delegations we tend to take them for granted and seldom
+regard their existence as an interesting question (Lowi). As the railroad case
+shows, however, such "natural adaptations" may be highly controversial at the
+time and indeed may remain so. One should not forget that the existence and
+scope of delegation has been a major theme of at least one presidential
+candidate in four of the past six elections.3 Moreover, the proper limits and
+scope of delegation is a subject of renewed interest in legal circles (Ely:
+131--34; Aranson et al.; Mashaw), which has even reappeared in the opinions
+of Supreme Court justices, namely, Renquist's dissents in the Benzene (448
+U.S. 607 [1980]) and Cotton Dust (101 U.S. 2478 [1981]) cases. Thus, common
+and familiar though it may be, legislative delegation remains a matter of both
+political controversy and academic interest.4
+
+   Of course, given the range and number of problems that modern govern-
+ments confront, legislative delegation to bureaucratic entities is hardly sur-
+prising. But complexity of governmental tasks is not a sufficient explanation
+for observed patterns of delegation, because legislatures sometimes choose to
+retain close control over complex policy realms such as taxation (Jaffe) while
+relinquishing close control over many simpler realms. Moreover, economists
+have proposed less bureaucratic alternatives to command and control regula-
+tion (Schultze), and lawyers (especially aspiring judges) periodically remind
+us of the merits of courts (Posner: 479-81). Given variation in observed
+patterns of delegation, and the existence of institutional alternatives, legisla-
+tive decisions to delegate to administrators suggest the operation of incentives
+and factors beyond neutral efforts to deal with a complex world.
+
+   In an earlier article (Fiorina, 1982) I identified a number of political bases
+for delegations to administrators. This paper examines one of these in greater
+depth. How does legislator uncertainty about the implementation of the
+legislation affect the decision to delegate?
+
+    3. Wallace in 1964, Wallace and Nixon in 1968, Carter in 1976, and Carter and Reagan in
+1980.
+
+    4. The reader should recall that those who framed our system of government adopted no
+explicit limitation! on the scope and manner of legislative delegation. Madison and his contempo-
+raries foresaw little danger from congressmen giving up too much of their power: "The legislative
+power is everywhere extending the sphere ofits activity, and drawing all power into its impetuous
+vortex" (Federalist, No. 48). Dangers arising from the natural inclinations of legislatures under-
+standably received attention, whereas those arising from legislatures acting contrary to their
+supposed natural inclinations were ignored.
+3 6 / JOURNAL OF LAW. ECONOMICS, AND ORGANIZATION 11:1, 1 9 8 6                                        Downloaded from https://academic.oup.com/jleo/article-abstract/2/1/33/873292 by Nottingham Trent University user on 24 May 2019
+
+2. UNCERTAINTY, LOTTERIES, AND DELEGATION
+
+   Though it might seem to be an archaic case with limited relevance to
+modern concerns, the Interstate Commerce Act of 1887 has a number of
+advantages as a starting pointforthinking about delegation. First, in the 1880s
+there was no extensive history of delegation or indeed even of federal regulat-
+ion.5 The act is considered the first major federal regulatory intervention.
+Congressional actors were considering the adoption of a new institutional
+form, and consequently we might expect that they gave careful though to what
+they were doing and what the likely results would be. Certainly the fact that
+the establishment of the commission became a major issue suggests that the
+ultimate decision to delegate the regulatory power was a conscious and calcu-
+lated one. Second, while the complexity of railroad regulation frequently was
+raised in debate (by friends of the railroads and/or the commission), a House
+majority saw the issue in very simple terms--any competent public-spirited
+individual could discharge the responsibilities imposed by the legislation.6
+For the House at least there is no evidence that legislators felt overwhelmed
+by the complexity of the problem they faced. Finally, the historical era is one
+of a weak presidency and strong Congress. Thus, legislation is more likely to
+embody the preferences and intentions of legislators than would be the case
+in, say, the 1930s.
+
+   A consideration that looms large in the debate is how the legislation would
+operate in practice. Proponents of the commission argued that court enforce-
+ment would fail because few shippers could match the legal and other re-
+sources of the roads.7 Opponents countered that the proposed commission
+did little to advance the cause of the small shipper vis-a-vis the railroads.
+Would plaintiffs have to travel great distances--even to Washington--to
+make a complaint? To testify in a proceeding? Proponents argued that "iron-
+clad" laws would eliminate the flexibility needed to regulate a large and
+
+    5. Ofcourse, there was extensive state experience with regulation in general, and delegation
+to commissions in particular, and some ofthe congressional actors hadfirst-handexperience at the
+state level. Most prominently, Cullom was Speaker of the Illinois House when that state passed
+its influential "Granger Law" of 1873, and as governor he took an active interest in the operation of
+the Railroad and Warehouse Commission (CuOom: 306--12). There were a few previous examples
+of federal commissions, though these were not regulatory in nature. Commission opponents
+derided the electoral commission (Hayes-Tilden contested election), the tariff commission (1882),
+and the "Mormon Commission" (set up to consider the issue of polygamy).
+
+    6. Recall that the ICC originally was not charged with setting rates, though it could disallow
+rates judged to be extortionate or discriminatory. Backers of the Reagan bill repeatedly con-
+tended that the issue was a simple matter of prosecuting discrimination and railroad collusion.
+
+    7. According to Congressman Hepburn (R. Iowa) (Congressional Record, 49th Cong., 1st
+Sess., appendix: 457 [1886J):
+
+        He stands there alone, weak and poor and ignorant though he may be, with a ten-dollar
+        case or a one-hundred dollar-case. He must make his own case against a wealthy corpora-
+        tion. He must do that, too, without technical knowledge ofthe matters litigated. He has no
+   LEGISLATOR UNCERTAINTY, LEGISLATIVE CONTROL, AND DELEGATION / 3 7                                  Downloaded from https://academic.oup.com/jleo/article-abstract/2/1/33/873292 by Nottingham Trent University user on 24 May 2019
+
+growing industry vital to the country's continued economic development.
+Opponents countered that right wasrightand wrong was wrong, so why not
+"iron-clad" laws?8 Some representatives contended that the harsh glare of
+public exposure would do more to curb railroad abuses than rigid laws, but
+others were more dubious about the efficacy of moral suasion.9
+
+   By far the most common theme in the debate, however, was the question of
+future bias in the operation of a commission. Judge Reagan and his allies held
+courts in high regard, repeatedly arguing that farmers and shippers could
+count on a fair hearing from judges and juries of their peers. Commissions,
+they argued, had been and would continue to be unduly influenced if not
+suborned by railroads. Reagan expressed the fear that
+
+the railroad interests will combine their power to control the appointment of the
+commissioners in their own interest. . . . It is not to be supposed that they would
+directly approach a President of the United States and corruptly propose to secure the
+appointment of commissioners in their own interest; but the vast resources which they
+control . . . enables them to control the best legal and business talent of the country,
+and would enable them to procure influential men in their interest to appeal to the
+President in the name ofjustice and on account of capacity to name such men as would
+serve their purposes.10
+
+         witnesses who are better informed than himself. The witnesses which must establish his
+         case are the experts that belong to the other side of the question.
+
+    8. As always. Congressman Weaver (Greenback Democrat, Iowa) put the argument most
+colorfully (Congressional Record, 49th Cong., 2d Sess. 820 [1887]):
+
+         Suppose the great Lawgiver had constructed the Ten Commandments with the same
+         uncertainty. Suppose he had said: "Thou shalt not steal; thou shalt not bear false witness;
+         thou shalt not covet--contemporaneously or under substantially similar circumstances
+         and conditions" (laughter); or suppose at the conclusion of the decalogue the following
+         provision had been added: "Provided, however, that upon application . . . persons so
+         designated may be authorized to cheat, steal, bear false witness, or covet, and said
+         commission may from time to time prescribe the extent to which said persons may be
+         relieved from any or all of said commandments."
+
+    9. Compare the remarks of Congressman Long (R. Mass.), a commission supporter, with
+those of Congressman Clascock (D. Calif.), an opponent (Congressional Record, 48th Cong., 2d.
+Sess. 44, 191 (1885D:
+
+         A corporation may be as powerful as an ancient baron, it may laugh at statutory penalties,
+         but it goes on its knees, it trembles with terror at entire exposure. Nothing can stand the
+         illumination of the public gaze. This has been the tendency in Massachusetts. . . .
+
+         This is the body before the shake ofwhose gloved finger the great transportation companies
+         of the country are to bow in humble submission. It might work wonders as a remedial
+         agent; it probably would with the god-fearing carriers of Massachusetts, but the corpora-
+         tions of the Middle and Western States are made of sterner stuff. A little less of the dude
+        and more of the man is required to meet and redress the wrongs complained of.
+
+     10. Congressional Record, 49th Cong., 1st Sess. 7283 (1886). On several occasions Reagan
+was asked why he believed the courts to be less susceptible to railroad influence than were
+38 / JOURNAL OF LAW. ECONOMICS. AND ORGANIZATION II: 1, 1986                                          Downloaded from https://academic.oup.com/jleo/article-abstract/2/1/33/873292 by Nottingham Trent University user on 24 May 2019
+
+Commission supporters clearly agreed that the roads would do better before a
+commission than before the courts, though the greater sympathy of the
+commission would only reflect honest and knowledgeable commissioners
+making decisions based on the merits of the case. Supporters argued that the
+decisions of an understanding and sympathetic commission would advance
+the public interest more dependably than those ofjuries presumably ignorant
+of railroad economics and moved by irrational passions.11
+
+   The preceding summary can provide only a brief overview of what was a
+rich and often impressive legislative debate. If suffices to make clear, how-
+ever, that many of the congressional actors viewed the impact of the regula-
+tion as critically dependent on the enforcement procedure adopted. The
+Senate majority acceded to House demands for explicit long- and short-haul
+and pooling clauses but insisted on a commission, which they believed would
+interpret the legislation leniently and sympathetically. The House majority
+grudgingly accepted the commission only upon winning an explicit prohibi-
+tion of pooling and a stonger long- and short-haul provision. Both sides knew
+that any legislation inevitably would leave some discretion to Congress's
+delegatee. The Senate majority wished to enhance such discretion, the House
+majority to restrict it. Such desires were based on predictions of how the
+regulation would be enforced by courts and a commission respectively, pre-
+dictions evidently in reasonable agreement. Those are the general facts; the
+question is whether we can reason about them in an intellectually profitable
+way.
+
+    In an earlier discussion (Fiorina, 1982) I suggested that in choosing be-
+tween administrative and court-enforced regulation legislators could be
+viewed as choosing between relatively less certain and more certain alterna-
+tives. There is a considerable theoretical literature on rational choice under
+uncertainty which can be brought to bear on such problems. One well-known
+implication is that risk-acceptant actors will choose a lottery in preference to a
+certain alternative under specified conditions.12 By exploiting this line of
+work I was able to suggest several propositions about legislative delegation.l3
+
+commissioners. In the best Madisonian tradition Reagan argued that courts were so numerous
+and dealt with such a wide variety of issues that no single interest would find it practical or
+possible to control them, though isolated instances of corruption certainly were possible, and
+indeed were matters of record.
+
+    11. The charge that courts were antirailroad probably had its roots in the experience with
+state courts. In contrast, Merkel (337) argues that subsequent to the Judiciary Act of 1875, "the
+expanded jurisdiction of the United States courts allowed federal judges to devise a uniform
+national policy toward interstate commerce that waj favorable to business development."
+
+    12. For a general introduction see Raiffa. For the specific results relied on here, see Shepsle
+(1972) and Zeckhauser.
+
+    13. Briefly, if we assume bell-shaped utility functions (as in the early spatial-modeling
+literature), legislators will berisk-acceptantin regions "far"fromtheir maxima. Thus, legislators
+who believe either that the legislation does not go far enough or that it goes too Car will be those
+more likely to prefer to gamble by opting for administrative discretion--at least under the
+assumption that there is no systematic bias in the exercise of such discretion. If predictable bias
+exists, then legislators are further subdivided. For elaboration, see Fiorina (1982: 55-60).
+   LEGISLATOR UNCERTAINTY, LEGISLATIVE CONTROL, AND DELEGATION / 3 9                Downloaded from https://academic.oup.com/jleo/article-abstract/2/1/33/873292 by Nottingham Trent University user on 24 May 2019
+
+Unfortunately, risk acceptance is not a standard assumption; indeed, risk
+aversion is standard. Certainly, however, we can abandon the assumption of
+risk acceptance, without abandoning the general notion that administrative
+and court-enforced regulation can be viewed as different types ofrisks.Thus,
+the following development assumes risk-averse legislators; the assumptions
+that carry the weight of the analysis are those specifying the differences
+between legislator calculations about administration vis-a-vis courts. As it
+turns out, the implications of the abstract analysis are unsurprising. But when
+combined with knowledge about the institutional features of American poli-
+tics, empirical hypotheses of a more interesting nature emerge.
+
+2.1. THE BASIC MODEL
+
+   The elements of the model appear infigure1. Suppose that the status quo is
+no regulation and that the legislature is debating whether to intervene. We
+may think of their choice as one of weaker versus stronger regulation, or
+pro-producer versus pro-consumer regulation, and represent the issue as the
+choice of a point on the horizontal axis. Legislators have von
+Neumann --Morgenstern utility functions defined over the policy space, func-
+tions that are single-peaked and concave (implying risk aversion). The ith
+legislator has ideal point Xj. Under such assumptions the outcome is the
+position of the median legislator, x*. This much is standard (Black). Note,
+incidentally, that utility functions are not assumed to be symmetric, a fact of
+some consequence in what follows. Empirically, symmetry is a doubtful
+property in the regulatory arena. Environmental activists, for example, argue
+that the consequences of too stringent regulation are purely monetary,
+whereas the consequences of too lenient regulation are human deaths and
+environmental catastrophe. Or to take a less apocalyptic example, friends of
+the railroads argued in 1886 that later Congresses could always strengthen a
+regulatory law that was too loose but that by the time a later Congress could
+relax a law that was too restrictive, railroads would go bankrupt, widows and
+orphans would lose their savings, and so on.
+
+   Of course, each legislator realizes that all statutory language contains
+some ambiguity, conditions change, unforseen political events occur, and so
+forth, all of which militate against treating x* as a certainty. Rather, passage
+ofx* results in some probability distribution over the policies that actually will
+be enforced. Given the language embodied in x*, legislators believe that the
+actual level of regulation enforced could be as low as x' or as high as x". What
+factors might systematically affect those probability distributions? Surely one
+such factor would be the enforcement procedure adopted in the legislation.
+
+   hetff be the legislator's subjective probability distribution over regulation
+levels given court enforcement, andp° be the analogous probability distribu-
+tion given administrative enforcement. Now come the critical assumptions.
+Suppose courts are viewed as "faithful" if uncertain enforcers: pc is symmetric
+4 0 /JOURNAL OF LAW, ECONOMICS, AND ORGANIZATION 11:1, 1 9 8 6
+
+X' X* Xc X,                                                                                               Downloaded from https://academic.oup.com/jleo/article-abstract/2/1/33/873292 by Nottingham Trent University user on 24 May 2019
+
+rx-                                {X']
+
+EU(A) = \\.p'Ul(x)dx
+
+EU(C) = $$
+
+Figure 1. Elements of Basic Model
+
+about x*, with the expected level of regulation given court enforcement, xf,
+equal to x*, the legislative intent.14 Suppose, in contrast, that agencies are
+viewed as biased enforcers: pa is skewed (to the left in the figure), with the
+expected level of agency enforcement, x°, lower (in thefigure)or higher than
+x*. Though these probability distributions are subjective, assume that at any
+given time legislators agree on their shapes and locations.15 How do legisla-
+tors utilize the decision components introduced above? I suggest that they
+calculate the expected utility ofadministrative enforcement, EUiA), compare
+it to the expected utility ofcourt enforcement, EU(C), and depending on their
+utility functions and probability estimates opt for one enforcement scheme or
+the other. Here voting theorists will observe that rational legislators would
+prefer to collapse the two stages and propose compound amendments consist-
+ing of a preferred level of regulation and preferred enforcement mechanism.
+In this situation, of course, a long line of research culminating in McKelvey's
+"anything can happen" theorem implies that no legislative equilibrium exists
+and no predictions will be forthcoming from the model. By dividing the
+
+    14. According to Landes and Posner (885):
+
+         The value (both social and private) ofcourts is a function in major part ofthe predictability
+         of their decisions, »nd decision according to the original meaning of a statute rather than
+          according to the ever-shifting preferences of successive legislatures is probably an impor-
+          tant source of that predictability, in part because such a decision is based on materials (for
+          example, the congressional debates) available to aD to study and base prediction* of
+         judicial behavior on.
+
+    15. For purposes of illustration I have given the distributions in the figure very different
+shapes and expectations. In any real world application, such differences are empirical questions,
+of course. Evidently, the less the distributions are expected to differ, the less important will be
+the issue of enforcement in the model.
+LEGISLATOR UNCERTAINTY, LEGISLATIVE CONTROL, AND DELEGATION / 4 1
+
+decision into two stages, and applying Black's and May's theorems sequen-                           Downloaded from https://academic.oup.com/jleo/article-abstract/2/1/33/873292 by Nottingham Trent University user on 24 May 2019
+tially, are we simply jerry-building an escape route out of the disequilibrium
+trap?
+
+   I think not. The two-stage process is actually a reasonably faithful abstrac-
+tion from real legislative processes. These are hemmed in at every turn by
+complicated rules of procedure (Shepsle, 1979). Many such rules have the
+effect of preventing complicated proposals from being pitted directly against
+each other. To elaborate, when a legislator seeks to call up a bill there may be a
+vote on whether to consider it. Such a vote permits legislators to compare the
+set of changes embodied in the bill to the status quo. Similarly, after a bill has
+been debated and amended, there are opportunities to make global
+comparisons--to recommit the bill, to strike the enacting clause, to pass the
+bill. Between these preliminary and final stages, however, when the bill is
+being debated and amended, consideration proceeds section by section, and
+only amendments germane to the section are in order. As an empirical matter,
+substantive provisions and enforcement provisions of legislation fall into
+different sections, with enforcement typically following substance.16 Thus,
+empirically, the legislative process consists ofa series ofrestricted dimension-
+by-dimension decisions bounded on both ends by decisions pitting a complex
+package against the status quo.
+
+   Returning to the main lines of the argument, it turns out that with a single
+substantive dimension and a dichotomous enforcement decision, all legisla-
+tors fall into one often classes as listed in table 1. That is, every logically
+
+Table 1. Delegation Implications of Legislator Preference Orderings
+
+Case  Ordering              Choice
+
+1     x' <x°<xc             Agency
+                            Courts
+2     x° < xc<x'^xi
+
+3     X* < x° < x" s i,     Agency
+
+4     */ JC' < a" < i °         Courts
+                            Indeterminate
+5     x' < I , S ^ 1 < I t
+
+6     Jt° < X, S I'         Indeterminate
+
+7     i° < X* S I( < X"     Indeterminate
+
+8     x' < X, S Jt' < X°    Indeterminate
+
+9     X* < Xt S X°          Indeterminate
+
+10    It<l°Sl,<l"           Indeterminate
+
+Assumptions: <x°,xc < x" (nondegenerate)
+
+    16. Some readers, including the editor, Jerry Mashaw, have quibbled with this general
+characterization. Undoubtedly it is difficult to draft a substantive provision so that not a word
+need be changed no matter what the later decision on enforcement provisions. But it is possible to
+reach agreement on substance while fully realizing that technical modifications in the provision
+may be needed depending on later enforcement decisions. Actually, in the case thai motivates
+this paper, there were Boor amendments offered in the House that accepted every clause of the
+Reagan bill's substance but only sought to substitute the Senate's commission enforcementforthe
+House's court enforcement. Analyses of these votes will be reported in future papers.
+4 2 / JOURNAL OF LAW, ECONOMICS, AND ORGANIZATION 11:1, 1 9 8 6                      Downloaded from https://academic.oup.com/jleo/article-abstract/2/1/33/873292 by Nottingham Trent University user on 24 May 2019
+
+                                                         X* X ' X"
+
+                             Case 3. x° < x* < x" < x,
+Figure 2a. Agency Preference
+
+possible legislator preference ordering falls into one of the ten types defined in
+the table. Given agreement on the skew ofp°, onlyfiveclasses (1, 2, 5, 6, 7 or
+3, 4, 8, 9, 10) can coexist on any one decision. Of the ten classes, only the first
+four yield a determinate choice in the model. These are depicted infigures2a
+and 2b. To elaborate, in case 1, the legislator believes i* mandates too high a
+level of regulation and that an agency is likely to enforce the regulation at a
+lower though still excessive level. Unsurprisingly, this legislator opts for
+administrative enforcement. His mirror image in case 3 believes that the
+mandated level of regulation is too low and that an agency is likely to enforce
+the regulation at a higher though still inadequate level. He too opts for
+administrative enforcement.
+LEGISLATOR UNCERTAINTY, LEGISLATIVE CONTROL, AND DELEGATION / 4 3
+
+                              X;  X° X*                                           Downloaded from https://academic.oup.com/jleo/article-abstract/2/1/33/873292 by Nottingham Trent University user on 24 May 2019
+
+Case 4. XiAx'<xe<x*
+
+Figure 2b. Court Preferences
+
+   In contrast, the case 2 legislator agrees with the case 3 legislator that the
+legislation provides an inadequate level of regulation but disagrees in believ-
+ing that an agency would weaken the regulation still further. Similarly, the
+case 4 legislator agrees with the case 1 legislator that the legislation is too
+strong but disagrees in fearing that administrative enforcement would result
+in even stronger regulation. The case 2 and case 4 mirror images opt for court
+enforcement.
+
+   Because legislator preferences are not monotonically increasing or de-
+creasing over the full range of the lottery, the remaining cases cannot be
+explicated diagrammatically in the same manner as cases 1-4, but examples
+demonstrate that legislators in these categories may opt for either court or
+    4 4 / JOURNAL OF LAW, ECONOMICS, AND ORGANIZATION 11:1, 1986                         Downloaded from https://academic.oup.com/jleo/article-abstract/2/1/33/873292 by Nottingham Trent University user on 24 May 2019
+
+    agency enforcement. As f sjure 3 shows, their decisions depend not just on the
+    order ofxit x*, and xf, but >n the specific details oftheir utility and probability
+    functions. The figure illustrates two case 10 legislators whose utility functions
+    have identical ideal points but an opposite asymmetry. Legislator A prefers
+    court enforcement, legislator B agency enforcement. Case 10 is symmetric
+    with case 5, and by permuting x° and x* we get case 7from10 and case 8 from
+    5. Case 6 and 9 legislators also may show either preference. Cases 5, 7, 8, and
+    10 are particularly interesting in that the expectation of one enforcement
+    procedure is known to be nearer the legislator's ideal than the expectation of
+    the other, but he or she may opt for the gamble whose expectation is farther.
+    Such possibilities depend, of course, on asymmetric preferences that create a
+    disjunction between policy distance and utility difference.
+
+       As the diagrams illustrate, two considerations greatly affect the choice
+    between administrative and court enforcement. The first is the position of the
+    legislator in relation to the median in the legislature. Ceteris paribus, the
+    model implies that we willfindthe most solid opposition to and the most solid
+
+                               V
+              1
+
+                                                               \2
+                      /
+
+    /
+
+         1    :           i  A|                            \
+         1             I
+                      2                                          4    5
+
+-1                                                                  .00 X* « 2
+                                                                    .00 )C = 2
+                                                              \
+
+    .00  .25  .50            .25                              .00
+
+    .00  .25  .25            .50                              .00
+
+    A    EU(C) - .25(3) + .5(3.67) + .25(2) = 3.09 ·
+
+    1    EU(A) = .25(3) + .25(3.67) 4- 5(2) = 2.67
+
+              EU(C) = .25(-2) + .5(2) + .25(3.67) = 1.42
+              EU(A) " .25(-2) + .25(2) + .50(3.67) = 1.84
+
+    Figure 3. Could-Go-Either-Way Preferences
+   LEGISLATOR UNCERTAINTY, LEGISLATIVE CONTROL, AND DELEGATION / 4 5                          Downloaded from https://academic.oup.com/jleo/article-abstract/2/1/33/873292 by Nottingham Trent University user on 24 May 2019
+
+support for administrative regulation among those relatively far from the
+median. Those nearer the median will show a more mixed profile of support.
+Thus, each of the opposing groups on the substantive extremes will show an
+internal (opposite) consensus on the preferred enforcement procedure,
+whereas those with relatively more moderate substantive preferences will
+disagree among themselves on the preferred enforcement procedure.
+
+   Referring briefly to the Interstate Commerce Act, the most virulently
+antirailroad congressmen were also most opposed to a commission (Congress-
+man Weaver, the Greenback Democrat quoted in note 8 above, was one of the
+small minority who voted against the final compromise, arguing that it was
+worse than nothing). In contrast, the most prorailroad senators were those
+most supportive of a commission. Those who showed a more moderate stance
+in regard to the roads seemed to give less indication that they would go to the
+wall over the question of enforcement.17
+
+   The second consideration governing choice is the legislator's beliefs about
+the nature of the administrative process that will implement the legislation.
+Legislators far from the median who foresee a pattern of agency enforcement
+to their liking will favor administrative regulation more than their opposites
+who regard that pattern as unfavorable. On first glance this proposition is so
+obvious as to seem devoid of interest but when conjoined with institutional
+and historical information, the proposition suggests some interesting
+implications.
+
+   Can we identify factors which might bear a systematic relationship to
+distance from the legislative median and to optimism and pessimism about
+agency enforcement? A number of relevant possibilities are suggested by the
+institutional structure of Congress. Consider first the committee system. As
+characterized by empirical research (Shepsle, 1978), the committee assign-
+ment process is largely one of self-selection: most members achieve member-
+ship on one of the few committees they most strongly prefer. This leads to the
+commonly observed pattern of unrepresentative committees; farm-state rep-
+resentatives gravitate to the Agriculture committees, urban representatives
+to the Banking, Housing, and Urban Affairs committees, western representa-
+tives to the Interior committees, and so forth. In short, many substantive
+committees are overpopulated by "interested" congressmen. Often this
+means a unified committee dominated by what Niskanen calls the "high
+demand" legislators--those most desirous offederal activities/programs in the
+relevant policy area--as in the committees named above. In other cases a
+pattern of committee polarization develops, as those most interested in fed-
+eral action and those most interested in federal inaction both seek member-
+ship on the committee. Fenno's portrait of the divided House Education and
+Labor committee is the classic example. Given its jurisdiction the committee
+attracted the most liberal, union-oriented Democrats and the most conserva-
+
+    17. These statements are impressions arising from the debates. In the larger project now
+underway, scaling techniques wiD be used to put such impressions on a firmer footing.
+4 6 /JOURNAL OF LAW, ECONOMICS, AND ORGANIZATION 11:1, 1986                         Downloaded from https://academic.oup.com/jleo/article-abstract/2/1/33/873292 by Nottingham Trent University user on 24 May 2019
+
+tive, anti-union Republicans. Similarly, in the years of the great civil rights
+struggles, the Judiciary committees attracted the most pro--civil rights north-
+ern Democrats and the most anti--civil rights southern Democrats. Whether
+unified or not, however, committees tend to be populated by legislators
+falling relatively far from the medians of their parent chambers--cases 1-4.
+
+   The congressional division of labor and power gives an authorizing commit-
+tee and one or more subcommittees jurisdiction over agency activities or
+programs and an appropriations subcommittee control over agency purse
+strings. Committee members are in a position to influence agency behavior,
+and their chairmen are in the most favored positions of all. Thus, in the case of
+unified committees, we might expect that committee leaders will be most
+supportive of administrative enforcement, rank-and-file members next most
+supportive, and nonmembers least supportive, on the presumption that the
+proportion of case 1 or 3 legislators falls across those categories. In divided or
+polarized committees, we expect to observe committee division over the
+enforcement question. Expecting to influence the agency, majority members
+(case 1 or 3), especially the chair, favor administrative regulation; expecting
+the agency to be influenced by the majority, minority members (case 2 or 4)
+see relatively greater merit in court enforcement.
+
+   The preceding hypotheses, especially those pertaining to polarized com-
+mittees, rest on an implicit assumption--that committee influentials can
+reasonably anticipate continuing as committee influentials, which in turn
+entails the presumption that continued control by their party is likely. If
+control of the legislature swings back and forth between the parties, so will the
+capacity to influence the administrative process, which may in turn increase
+the attractiveness of relatively less variable court control. Thus, during stable
+electoral periods when one party enjoys a secure edge over the other we might
+expect that majority party legislators would favor administrative processes
+more than would minority party legislators, other things equal. During the
+New Deal period congressional Democrats could contemplate control over
+the administrative process for the foreseeable future. In the 1970s, with
+Republican presidents and "emerging Republican majorities," Democratic
+congressmen may have seen new merit in the greater insulation of courts.
+
+   Both houses share the authorization and appropriations powers, and in that
+regard their committees meet on more or less equal footing. But the Senate
+has one power the House does not share--the power of confirmation. This fact
+is commonly dismissed with the observation that the Senate gives only the
+most perfunctory attention to presidential nominations of administrators and
+commissioners. The literature contains numerous citations of the datum that
+the average length of Senate hearings on ICC commissioners between 1949
+and 1974 was seventeen minutes (U.S. Congress). Such arguments overlook
+informal channels of clearance with influential senators. In addition, they
+ignore the existence of indirect paths of influence, such as an interest group's
+backing of a nominee that gives the senators all the information they really
+   LEGISLATOR UNCERTAINTY, LEGISLATIVE CONTROL, AND DELEGATION / 4 7                                Downloaded from https://academic.oup.com/jleo/article-abstract/2/1/33/873292 by Nottingham Trent University user on 24 May 2019
+
+need to know. If the power ofconfirmation is significant, and I think it is, then
+other things equal, senators should be more confident of their future capacity
+to influence the administrative process and therefore should provide greater
+support for delegation than congressmen.
+
+   In the case ofthe Interstate Commerce Act the names oflikely commission-
+ers were mentioned prominently in the debate, especially in the Senate.
+Cullom (227--29) claims responsibility for the nomination of Thomas Cooley,
+the first chairman of the ICC, a highly qualified individual, though no enemy
+of the railroads. One wonders whether Reagan's forces in the House would
+have opposed commission enforcement so intensely had they been the major-
+ity that would advise on and consent to commission appointments. ICC
+appointments continued to receive the attention of the Senate for some time.
+In 1921 President Coolidge nominated to the ICC a defeated twenty year
+congressman, John Esch (R. Wis.), whom the Senate routinely confirmed.
+During his tenure he cast a vote in a ratemaking case that advantaged Ohio
+and Pennsylvania coal producers at the expense of those in West Virginia.
+Perhaps Esch's House years led him to see the issue in House terms (fifty-
+eight congressional districts in Ohio and Pennsylvania versus six in West
+Virginia), perhaps not. At any rate, when Esch was renominated in 1928
+Senator Matthew Neeley (D. W. Va.) led a successful fight to block the
+nomination.18 Such instances are rare, to be sure, but their rarity is equally
+consistent with the notion that the Senate exerts routine, informal, and largely
+invisible influence as with the notion that the Senate pays no attention to who
+runs the administrative agencies of government.19
+
+   Perhaps the most significant feature of the preceding discussion is that
+party (Republican versus Democrat) and ideology (liberal versus conserva-
+tive) are not used as explanatory concepts. Senator Cullom, father of the ICC,
+was a regular Republican. More recently, Senator Warren Magnuson, resus-
+citator of a decrepit Federal Trade Commission, was a liberal Democrat. In
+the model developed here their status as senators, committee chairs, and
+members of a (airly stable Senate majority accounts for their behavior, not
+their party or ideology. Though the New Deal burst of regulatory activity
+seems to have left an association between Democrats and predilection for the
+administrative process, there are some instances (Federal Radio Commission,
+1927, and Food and Drug Administration, 1931) of agency creation under
+Republican Senates and presidents. Perhaps the modem Republican hostility
+to administration simply reflects their typical minority status in Congress
+over the past half-century.
+
+    No doubt other systematic sources of legislative optimism and pessimism
+about administrative processes can be identified, but the preceding illustrate
+
+     18. This incidence is recounted by Kohlmeier (57).
+     19. For an extended development of this argument and its application to the recent history of
+ the Federal Trade Commission, see Weingast and Moran.
+4 8 / JOURNAL OF LAW, ECONOMICS, AND ORGANIZATION 11:1, 1 9 8 6                    Downloaded from https://academic.oup.com/jleo/article-abstract/2/1/33/873292 by Nottingham Trent University user on 24 May 2019
+
+the point. A simple and seemingly obvious abstract proposition suggests an
+array of empirical relationships when interpreted in light of various features of
+the American political system. Whether such relationships will befound,and
+if so, whether they will prove very important, remains to be seen.
+
+2.2. POSSIBLE EXTENSIONS OF THE MODEL
+
+   At several points in the discussion it has been difficult to avoid conflating
+the identity of the delegatee (agency or court) with the breadth of the delega-
+tion. Much of the literature speaks of broad delegations and delegations to
+administrative agencies as flip sides of the same coin, again perhaps a legacy of
+New Deal legislation such as that creating the Federal Communications
+Commission, the Civil Aeronautics Board, and the Securities and Exchange
+Commission. But these are distinct dimensions of legislative delegation. The
+Sherman Act was a broad delegation to the courts; parts of the Clean Air Act
+are narrow delegations to the Environmental Protection Agency. Perhaps the
+two dimensions are highly correlated but this seems to be an assumption
+rather than a conclusion based on empirical research.
+
+   In the model developed herein, [x', x"] (the proportion of the policy space
+over which the distributions pc andp° are defined) reflects the breadth of the
+delegation. What happens ifthe potential policy range is expanded by render-
+ing the language of the statute more ambiguous or by expanding administra-
+tive discretion to suspend statutory provisions? Clearly, preferences now can
+change. Referring back tofigures2a--2b, legislators in cases 1-4 may migrate
+to cases 5, 7, 10, and 8. Thus, holding everything else constant, the general
+effect of a symmetric increase in the breadth of a delegation will be to weaken
+the logical relationship between distance from the median and homogeneity
+of preference for administrative versus court procedures. In other words, an
+increasing tendency to legislate in vague terms may be accompanied by a
+decline in the extent to which reliance on the administrative process becomes
+a clear-cut issue separating legislators with different substantive preferences.
+
+   Ofcourse, the more interesting question arises when increasing breadth of
+the delegation combines with increasing bias in the administrative process.
+This complicates the analysis considerably, and I will do no more at this time
+than present a loose argument that a model of this sort suggests. Consider the
+cases (1, 2, 5, 6, 7) which exist when x° lies to the left of x°; that is, the
+legislators agree that the administrative process is biased in favor of weaker
+or pro-producer regulation. Now let agency discretion increase asymmetri-
+cally--x' decreases while x" remains constant. Assume, as seems reasonable
+in this case, that x° moves leftward with x'. Some former case 1 legislators
+(agency supporters) may now become case 5 (mixed support), while the exist-
+ing opposition of case 2 legislators to administrative enforcement will in-
+tensify. Cases 5-7 remain indeterminate but, ceteris paribus, increasing
+the distance between x* and Xj would lead to lower supportforadministrative
+   LEGISLATOR UNCERTAINTY, LEGISLATIVE CONTROL, AND DELEGATION / 4 9                                  Downloaded from https://academic.oup.com/jleo/article-abstract/2/1/33/873292 by Nottingham Trent University user on 24 May 2019
+
+process relative to courts in cases 6 and 7. Thus, support for administration
+will stay constant or decline in four offivecases, so if legislators are divided at
+all evenly across categories, the sum total of the likely changes should produce
+lessened support for administrative enforcement relative to courts.
+
+   In plain English, a perception of increasing bias in the administrative
+process coupled with increasingly broad but asymmetric delegations would
+lead to a decline in support for administration relative to courts.20 Speculat-
+ing a bit, as the myth of the disinterested expert died and evidence of agency
+capture accumulated, congressional support for the traditional administrative
+process should have weakened. That judicial deference to administration has
+weakened is well known (Stewart; Shapiro). Briefly, from the 1940s to the
+1960s courts deferred to agencies, checking for adherence to the Administra-
+tive Procedures Act (APA) and other pertinent statutes but generally accept-
+ing agency decisions so long as they were based on some evidence (not
+"arbitrary and capricious"). But as the courts came to accept interest-group
+interpretations of American politics in general, and of regulation in particular,
+judicial deferral to agency expertise began to decline. Analogous develop-
+ments occurred in Congress. Much of the legislation establishing the "new
+social regulation" was filled with detailed procedural requirements going far
+beyond the APA (McCubbins). Congressional majorities encouraged an ac-
+cessible rulemaking process, sometimes going so far as to subsidize interve-
+nors. And these same majorities provided every opportunity for disgruntled
+interests to shift the conflict from the administrative arena to the judicial.
+Though such developments admit to various interpretations, they are consis-
+tent with legislators trying to counter increasingly evident biases in adminis-
+trative processes.
+
+   Finally, another factor may have contributed to a congressional perception
+of increasing bias in pa distributions--the decline of majoritarian control in
+Congress itself. As central party leadership weakened, and as full committee
+power devolved to component subcommittees, opportunities grew for hand-
+fuls of unrepresentative members to influence administrative decisions with
+less interference from broader political units.21 If such opportunities were
+exploited, members may gradually have realized that regulatory policies were
+increasingly diverging from legislative intent. This would lead to lessened
+support for the administrative process, greater support for the judicial pro-
+cess, and perhaps for more stringent legislative controls on agency actions.22
+
+     20. Note that while we have considered the case in which jf lie* to the left otjf, the analysis
+is symmetric. Thus, if ff lies above jf and agency discretion to regulate more strictly is
+enhanced, legislators should again shift in the direction of a greater relative preference for court
+enforcement. The case in the text brings to mind traditional economic regulation, while the
+opposite case suggests the newer health and safety regulation.
+
+     21. Ackerman and Hastier provide a fascinating account of committee machinations during
+passage, of the Clean Air Act Amendments of 1977.
+
+     22. One problem with this suggestion is that when reconstructing legislative intent the courts
+may rely too heavily on the committee reports prepared by the unrepresentative members and
+their itaft noted in the text. See Ackerman and Hassler; Mclnick.
+50/JOURNAL OF LAW, ECONOMICS, AND ORGANIZATION 11:1, 1986                           Downloaded from https://academic.oup.com/jleo/article-abstract/2/1/33/873292 by Nottingham Trent University user on 24 May 2019
+
+Some forms of the legislative veto (full chamber, but not committee) would be
+examples.
+
+SUMMARY
+
+   This paper has explored some aspects of legislative delegation of power
+through the lens of a simple model of decisionmaking under uncertainty. In
+the model legislators choose between two lotteries. The lottery arising from
+judicial enforcement of statutory regulation is neutral in the sense that its
+-expectation coincides with legislative intent--the position of the median
+legislator. In contrast, the lottery arising from a delegation to an administra-
+tive agency is biased in the sense that its expectation departs from legislative
+intent. When considered in conjunction with the internal distribution of
+power in the Congress the simple propositions generated by the model
+suggest plausible empirical relationships between structural position in Con-
+gress and support for administrative forms of regulation. As presently devel-
+oped, the model deals primarily with the identity of the congressional
+delegatee--bureaucracies or courts--but it may be possible to extend the
+ model to theorize about the breadth of the congressional delegation as well.
+
+REFERENCES
+
+Ackerman, Bruce, and William Hassler. 1981. Clean Coal'Dirty Air. New Haven: Yale
+      University Press.
+
+Aranson, Peter; Ernest Gellhorn; and Glen Robinson. 1982. "A Theory of Legislative
+      Delegation," 68 Cornell Law Review 1.
+
+Black, Duncan. 1963. The Theory of Committees and Elections. Cambridge: Cam-
+      bridge University Press.
+
+Cullom, Shelby M. 1911. Fifty Years of Public Service: Personal Recollections of
+      Shelby M. Cullom. Chicago: A. C. McClurg.
+
+Cushman, R. E. 1941. The Independent Regulatory Commissions. London: Oxford
+      University Press.
+
+Ely, John Hart. 1980. Democracy and Distrust: A Theory ofJudicial Review. Cam-
+      bridge: Harvard University Press.
+
+Fenno, Richard, Jr. 1973. Congressmen in Committees. Boston: Little Brown.
+Fiorina, Morris P. 1982. "Legislative Choice of Regulatory Forms: Legal Process or
+
+      Administrative Process?" 39 Public Choice 33-66.
+Friedman, Lawrence M. 1973. The History of American Law. New York: Simon and
+
+      Schuster.
+Jaffe, Louis L. 1973. "The Illusion of the Ideal Administration," 86 Harvard Law
+
+      Review 1183-99.
+ Kohlmeier, Louis M., Jr. 1969. The Regulators: Watchdog Agencies and the Public
+
+      Interest. New York: Harper and Row.
+ Kolko, G. 1965. Railroads and Regulation. New York: W. W. Norton.
+ Landes, William M., and Richard A. Posner. 1975. "The Independent Judiciary in an
+
+      Interest Group Perspective," 18 Journal of Law and Economics 875-911.
+   LEGISLATOR UNCERTAINTY, LEGISLATIVE CONTROL, AND DELEGATION / 5 1                      Downloaded from https://academic.oup.com/jleo/article-abstract/2/1/33/873292 by Nottingham Trent University user on 24 May 2019
+
+Lowi, T. J. 1979. The End of Liberalism: The Second Republic of the United States,
+      2nd ed. New York: W. W. Norton.
+
+Mashaw, Jerry L. 1985. "Prodelegation: Why Administrators Should Make Political
+      Decisions," 1 Journal of Law, Economics, and Organization 81-100.
+
+May, K. O. 1952. "A Set of Independent Necessary and Sufficient Conditions for
+      Simple Majority Decision," 20 Econometrica 680--84.
+
+McCubbins, Matthew. 1982. "Rational Individual Behavior and Collective Irration-
+      ality: The Legislative Choice of Regulatory Form." Ph. D. dissertation, California
+      Institute of Technology.
+
+Melnick, R. Shep. 1983. Regulation and the Courts: The Case of the Clean Air Act.
+      Washington, D.C.: The Brooldngs Institution.
+
+Merkel, Philip L. 1984. "The Origins of an Expanded Federal Court Jurisdiction:
+      Railroad Development and the Ascendancy of the Federal Judiciary," 58 Business
+      History Review 336-58.
+
+Niskanen, William A., Jr. 1971. Bureaucracy and Representative Government.
+      Chicago: Aldine Atherton.
+
+Posner, Richard A. 1977. Economic Analysis of Law. 2nd ed. Boston: Little, Brown.
+Raifla, Howard. 1968. Decision Analysis: Introductory Lectures on Choices under
+
+      Uncertainty. Reading: Addison Wesley.
+Schultze, C. L. 1977. The Public Use of Private Interest. Washington, D.C.: The
+
+      Brookings Institution.
+Shapiro, Martin. 1982. "On Predicting the Future of Administrative Law," Regulation
+
+      18-25.
+Shepsle, Kenneth A. 1972. "The Strategy of Ambiguity: Uncertainty and Electoral
+
+      Competition," 66 American Political Science Review 555--68.
+         . 1978. The Giant Jigsaw Puzzle: Democratic Committee Assignments in the
+
+      Modern House. Chicago: University of Chicago Press.
+            1979. "Institutional Arrangements and Equilibrium in Multidimensional
+
+      Voting Models," 23 American Journal of Political Science 27-59.
+Skowronek, Stephen. 1982. Building a New American State: The Expansion of Na-
+
+      tional Administrative Capacities, 1877--1920. Cambridge: Cambridge Univer-
+      sity Press.
+Stewart, Richard B. 1975. "The Reformation of American Administrative Law," 88
+      Harvard Law Review 1669-1813.
+Weingast, Barry R., and Mark J. Moran. 1983. "Bureaucratic Discretion or Congres-
+      sional Control? Regulatory Policymaking by the Federal Trade Commission," 91
+      Journal of Political Economy 765-800.
+Zeckhauser, Richard. 1969. "Majority Rule with Lotteries on Alternatives," 83 Quar-
+      terly Journal of Economics 696-703.
+

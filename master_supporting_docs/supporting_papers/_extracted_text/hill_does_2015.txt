@@ -1,0 +1,1369 @@
+                                    bs_bs_banner
+
+Journal of Empirical Legal Studies
+Volume 12, Issue 2, 311­339, June 2015
+
+Does Delegation Undermine
+Accountability? Experimental Evidence on
+the Relationship Between Blame Shifting
+and Control
+
+Adam Hill*
+
+      A small but growing literature in experimental economics finds that principals can shift
+      responsibility for blameworthy behavior to agents, even when those agents are effectively
+      powerless. Prior work in this field measures blameworthy behavior only indirectly, however.
+      It uses modified dictator games to measure attributions of blame for inequitable allocations
+      of wealth. Yet participants might find inequitable allocations of wealth not blameworthy.
+      Thus, such indirect measures leave open the possibility that prior work is not measuring
+      blame shifting at all. This article corrects for a crucial shortcoming by providing a direct
+      measure of blame-shifting behavior. It reports and discusses first-of-its-kind experimental
+      evidence that shows that principals can delegate to powerless intermediaries in order to
+      evade blame.
+
+I. Introduction
+
+Can principals delegate the authority to take immoral or antisocial actions to their agents
+in order to evade responsibility for the consequences of the decision? A burgeoning line of
+research suggests that principals can shift responsibility to their agents, even where the
+principal exerts significant control over the agent's decision (Hamman et al. 2010; Coffman
+2011; Bartling & Fischbacher 2012). One of the main results, for example, shows that in the
+context of a dictator game, principals face less punishment by delegating a decision that
+produces inequitable payoffs to an agent, even if the agent is powerless to choose the
+equitable outcome (Grossman & Oexl 2012). Thus, on the basis of this literature it appears
+that principals can, in fact, employ agents to evade responsibility.
+
+        However, these dictator games measure immoral or antisocial behavior only
+indirectly. These studies interpret inequitable allocations in a dictator as immoral or
+
+*Ph.D. Candidate, University of California at Berkeley, 2240 Piedmont Ave., Berkeley, CA 94704; email:
+adh@berkeley.edu.
+
+    This research was supported by grants from the UC-Berkeley Experimental Social Sciences Lab and the Berkeley
+Empirical Legal Studies Fellowship. Special thanks to Jennifer Arlen, Stephen Galoob, William H. J. Hubbard,
+Christopher Kutz, Janice Nadler, Anne Joseph O'Connell, Avani Mehta Sood, participants of the 2014 Berkeley
+Empirical Legal Studies Colloquium, Journal of Empirical Legal Studies editors, and two anonymous referees for valuable
+advice and guidance.
+
+                                                         311
+312 Hill
+
+antisocial behavior, and they interpret third-party decisions to deduct money from the
+agents' allocations as "punishment" (Erat 2013). Both methodological decisions pose dif-
+ficulties. These studies provide no evidence that participants in fact construe inequitable
+payouts as immoral or antisocial. Indeed, Sanjiv Erat suggests that inequitable payouts
+might be straightforwardly prosocial.1 While not all of the studies make available their
+instructions to participants, those that do make the instructions available do not charac-
+terize inequitable payouts as immoral or antisocial. Although researchers versed in, for
+example, public goods literature might be strongly inclined to interpret inequitable results
+as blameworthy or antisocial (Hamman et al. 2011), one would need further evidence to
+conclude that the players themselves take inequitable payouts as blameworthy. In short, the
+experimental economic games that have thus far driven this burgeoning literature have
+failed to provide direct measures of players' beliefs that inequitable dictator game distri-
+butions are in fact blameworthy.
+
+        This article addresses this shortcoming in the literature. It provides the first study of
+delegation and blame to directly test third-party observers' beliefs about the blameworthi-
+ness of the principals' and agents' behaviors. Instead of relying on indirect measures of the
+immorality or antisocial nature of certain behaviors, the experiments reported here directly
+measure third-party observers' evaluations of the blameworthiness of the principals' and
+agents' behavior. Using vignettes, the experiments reported here operationalize the behav-
+ior of principals and agents in the context of legislative delegation to administrative
+agencies. After reading the vignettes, participants in the study rated the blameworthiness of
+the actors in several treatments, including a treatment in which the principal delegates to
+a powerless intermediary agent. Even in these cases, where the agent is effectively powerless
+to change the outcome, participants blame principals significantly less than in cases where
+the principal brings about the outcome directly. Accordingly, this article provides the first
+clean evidence that principals can delegate a blameworthy decision to a powerless inter-
+mediary and nonetheless evade responsibility.
+
+A. Legislative Delegation of Policy-Making Authority
+
+This article studies the relationship between delegation and blame in the context of
+legislative delegation of policy-making authority to administrative agencies. In such situa-
+tions, we are often confronted with the question of how voters allocate blame when
+Congress and an agency are jointly involved in creating unpopular policy. Ideally, rational
+voters with perfect information would attribute blame in proportion to the relative respon-
+sibility of each institution (Cutler 2004). The complexity of contemporary policy making,
+however, makes certain types of information material to the process of blame attribution
+
+1Erat's own study sought to solve this problem of measuring immoral or antisocial behavior by shifting from a dictator
+game to a sender-agent-receiver game. In Erat's study, the principal engages in deception. This approach does not
+solve the problem, however, since deception might well be warranted and in any event we receive no direct evidence
+of what the participants make of the deception under the circumstances. Erat acknowledges as much: "Whether or
+not deception is immoral is admittedly a debatable, and much debated, point"(Erat 2013:274). Yet despite acknowl-
+edging that whether deception is immoral is much debated, Erat notes that his paper "assume[s] that people do
+perceive deception to be an immoral act." Id.
+Does Delegation Undermine Accountability  313
+
+highly costly to obtain (Gersen 2010). Across a wide range of policy areas, including
+financial regulation (Romano 2012), the environment (Schoenbrod 1993), telecommuni-
+cations (Arnold 1990), labor (Farber & Frickey 1991), and international trade (Epstein &
+O'Halloran 1999), information concerning the relative responsibility of Congress and the
+agencies in producing policy is effectively unobservable to voters. How do voters allocate
+blame for unpopular policies in the face of such uncertainty? This article reports experi-
+mental evidence designed to help answer this question.
+
+        One prominent line of thought, the clarity thesis, argues that voters tend to resolve
+such uncertainty in favor of legislatures (Fox & Jordan 2011; Majone 1999; Fiorina 1982;
+Nzelibe & Stephenson 2010; Gersen 2010; Mesquita & Landa 2008). When voters know that
+an agency was involved in the policy-making process, but do not know the extent of its role,
+the clarity thesis predicts that they will underassign blame to legislatures and overassign
+blame to agencies.2 Legislatures that exploit this tendency can pass unpopular polices yet
+escape blame.
+
+        The clarity thesis thus highlights one of the core problems voters face as they seek to
+hold officials accountable: How to apportion comparative blame in the face of incomplete
+information? Delegation increases "the informational burden on voters" (Stephenson &
+Nzelibe 2010:623), thus raising the costs of accurately assigning blame to officials for policy
+failures. Inaccurate assessments of blame for unpopular policies, in turn, weaken the
+sanctioning function of retrospective voting (Ferejohn 1986). Raising the costs of electoral
+discipline effectively "insulates [legislators] from political retribution" (Arnold 1990:101)
+and overpunishes agencies. Broad delegations of authority--those, for instance, which do
+not establish detailed standards for administrative action--are thought to offer the most
+insulation to legislators (Fiorina 1982). Broad delegations can weaken or break the "trace-
+ability chain," linking political actors to specific policy choices (Arnold 1990). While
+delegation allows legislators to shirk, voters shift their blame to agencies, thereby forcing
+them to take the political brunt of unpopular decisions. The net effect is that shirk-prone
+representatives can exploit these tendencies and pursue suboptimal policies with greater
+frequency3 (Fox & Jordan 2011:841). On this view, limiting legislators' ability to "disguise
+their responsibility" (Fiorina 1982:47) requires the creation of institutional arrangements
+that allow voters to "observe the decisions made by each institution" (Stephenson & Nzelibe
+2010:145). Only then will there be "no `clarity of responsibility' problem" (Stephenson &
+Nzelibe 2010:145).
+
+2This tendency is not unreasonable. From a principal-agent perspective, voters are the ultimate principals in a
+democracy. Elected representatives are their agents (Weingast 1984). Administrative agencies are voters' subagents.
+As a large literature on the social psychology of trust and cooperation shows, individuals tend to be more trusting of
+those with whom they have closer, more frequent interactions (Tyler 2010). While a large gulf exists between voters
+and their elected representatives, voters might be more trusting of their representatives, with whom they have close,
+more frequent contact, and thus resolve factual uncertainty in their favor by shifting blame to agencies. Further,
+voters might be more trusting of their elected representatives because they exercise more control over them
+(Ferejohn 1999). Nonetheless, legislatures can leverage this dynamic in order to escape blame for unpopular policies.
+
+3Because this dynamic is driven by the informational burdens on voters created by delegation, it is not limited to cases
+of legislative delegation to traditional executive branch agencies; rather, it applies equally well to delegations of
+policy-making authority to independent agencies and private actors (Rodgriguez 2010).
+314 Hill
+
+        To test how delegation affects voter performance at assigning blame, this article
+reports the findings of three rounds of experiments. The first round of experiments
+reported here tests the claim that delegation indirectly affects voter behavior by raising
+the costs of information. Experiments 1a and 1b test whether the observability of
+certain types of information impacts blame attributions. These experiments provide evi-
+dence of whether voters tend to allocate more blame to legislatures as the quantity of
+observed information increases. The second round tests whether delegation directly affects
+voter behavior. The clarity thesis predicts that if voters possess complete information as
+to the respective contributions of the legislature and agency, they will accurately appor-
+tion blame. A burgeoning experimental literature carried out by experimental econo-
+mists and moral psychologists, however, has found that delegation reduces the blame
+principals face even in cases where participants possess complete information (Hamman
+et al. 2010; Coffman 2011). If that same dynamic applies in the context of politics, the
+clarity thesis claim that delegation affects blame exclusively through information would
+need revisiting. Whereas the first two rounds of experiments test the blame faced by
+legislatures, the third round of experiments tests how delegation affects the blame faced
+by agencies.
+
+        The results presented here tend to support the clarity thesis claim that in the absence
+of full information, voters will tend to shift blame away from legislatures. Information
+asymmetries indirectly affect blame. Strikingly, however, participants tend to underassign
+blame to legislatures even when they are presented with a complete description of the
+respective actions of the legislature and agency. In other words, participants' tendency to
+blame legislatures does not seem to depend entirely on voters being "imperfectly informed"
+(Stephenson 2006:1044) of the respective contributions of the legislature and agency, as
+the clarity thesis argues. Delegation appears to impact voter behavior directly, as well as
+indirectly.
+
+        While delegation tends to reduce blame for legislators, its effects on agencies are
+more variable. Broadly speaking, attributions of agency blame rationally reflect compara-
+tive differences in the power and autonomy of agencies. Attributions of agency blame are
+sensitive to the degree of legislative oversight and control over the agency and the type of
+policy-making authority that agencies exercise. The less control the legislature exercises
+over the agency, and the more responsibility for creating the legal norm the agencies
+possess, the more blame they face. For instance, an agency exercising more expansive
+authority--exercising the power, that is, to create law or policy--will face more blame than
+an agency exercising more narrow authority, such as the authority to merely enforce norms
+created directly by a legislature. While participants' comparative attributions of blame
+matched the responsibility exercised by the agency, less responsible agencies tend to face
+more blame than is rationally warranted (i.e., than is predicted by participants' attributions
+of blame in the case of direct, nondelegated action), while more responsible agencies
+reliably face less blame than is rationally warranted. While constrained agencies face less
+blame than autonomous agencies, constrained agencies face more blame than is rationally
+warranted, and autonomous agencies less blame than is rationally warranted. This result
+suggests that voters might hedge their bets as their knowledge of the secondary or suba-
+gents diminishes.
+Does Delegation Undermine Accountability  315
+
+        These results have ramifications for foundational administrative law doctrines. Post-
+Chevron approaches to accountability have sought, in varying degrees, to give "maximum
+authority to the most politically responsive decision maker," on grounds that doing so
+"maximizes the responsiveness of policy to majoritarian preferences" (Stephenson
+2008:56). Agency heads, of course, are unelected. If, however, some elected office that
+possesses leverage over agency behavior can be reliably held to account for agency perfor-
+mance, voters might be able to hold agencies derivatively accountable. Agency policy choices
+that draw the ire of the electorate, on this view, can be expressed through punishment of
+the president, who is directly accountable to voters. With the demise of other modes of
+administrative accountability--interest group pluralism, for instance (Bressman 2003)--it
+is derivative accountability that animates approaches to administrative accountability. The
+findings reported here, however, suggest that derivative electoral accountability is subject to
+bias caused by the dynamics of blame associated with delegation. If derivative accountability
+is thought to operate via the executive branch--that is, if citizens are to blame the president
+for agency action--the public's evaluation of the policies of agencies may tend, in the case
+of less powerful agencies, to be inflated, and, in the case of more powerful agencies, to be
+deflated. In other words, delegation tends to clump attributions of agency blame, which will
+result in relatively blameless agencies facing undue heat from the public, and relatively
+blameworthy agencies getting a pass.
+
+        If derivative accountability is thought to run through the legislature, the problems
+are even more straightforward: delegation reduces the blame the principal faces. Delega-
+tion tends to artificially inflate the public's opinion of legislative action, relative to a
+baseline of direct legislative action. Such skewed valuations of agency action sit uneasily
+alongside the post-Chevron "commitment[] to electoral accountability" (Manning
+1996:634). If, however, we identify the way in which attributions of blame are sensitive to the
+legal structure governing the relationship between legislature and agency and the type of
+policy-making authority exercised by the agency, we can begin to consider institutional
+designs that better accomplish the twin goals of robust agency policy making and demo-
+cratic accountability. Most optimistically, we can assess the tendencies that push observers
+to blame more in one direction or another and institutionally harness these tendencies to
+enhance accountability.
+
+        The article is organized as follows. Section II sets out the fundamental features of the
+clarity thesis. Sections III, IV, and V explain the design of the three experiments reported
+here, including how they operationalized the concepts discussed in Section II, and discuss
+the data. Finally, Section VI addresses the policy implications of the results and broaches
+avenues for future research.
+
+II. The Clarity Thesis: The Difficulty of Allocating
+Responsibility in the Administrative State
+
+The clarity thesis proceeds in two steps. It first makes a claim about the way in which
+constitutional structures of government that permit the delegation of policy-making power
+affect the costs of, and thus voters' access to, information about officials' performance.
+316 Hill
+
+When institutional arrangements permit delegation, as in the case of separation of powers
+regimes, and legislators take advantage of that permission, the informational burden on
+voters increases. Second, the clarity thesis makes a claim about how voters perform in
+low-information environments. When voters are faced with a decision under incomplete
+information, the clarity thesis predicts that they will tend to underblame legislatures and
+underblame agencies. This tendency results in an underproduction of electoral account-
+ability.4 This section explains these two steps in more detail.
+
+A. Delegation's Indirect Impact on Blame
+
+The clarity thesis starts with the claim that delegation raises the costs of obtaining infor-
+mation, thus weakening or breaking what Douglas Arnold refers to as the "traceability
+chain" linking officials to policy outputs (Arnold 1990:100). If voters bearing the costs of a
+policy seek to hold legislators liable, they must perceive the costs, those costs must be
+associated with a particular law or policy, and the actors behind the policy must be visible
+(Arnold 1990). "Weakening the traceability chain is a superb method for protecting legis-
+lators from their constituents' wrath for imposing costs on them," Arnold argues (Arnold
+1990:100). Constituent wrath, in other words, is lessened when three types of information
+are unobservable: a policy's political history, its enactment, and its effects. The observability
+of these three types of information determines a policy's traceability chain. As Nzelibe and
+Stephenson propose, the information necessary for voters to adequately evaluate politicians
+is that information concerning "not only the policy choice and the policy outcome, but also
+the way in which the policy was adopted: which institutions supported it, which opposed it,
+whether the President acted unilaterally or with congressional support, [and] whether the
+proposal died due to lack of presidential support or due to congressional opposition"
+(Nzelibe & Stephenson 2010:652). A policy's traceability chain, then, is composed of three
+distinct stages in the lifecycle of a policy: (1) the political history of a policy's adoption,
+(2) the official enactment of the law or policy, and (3) the effects of the law or policy.
+Delegation, the clarity thesis holds, tends to obscure the first two stages.
+
+        These first two stages are grounded in the quite plausible assumption that voters
+might, in addition to caring about the effects of policy, be concerned with the way a policy
+was adopted: the impetus that led officials to adopt it, which institutions supported and
+opposed it, the reasons why officials supported or opposed the policy, and so forth.
+Delegation, the claim goes, makes it more costly to obtain this information. It does so for
+
+4Proponents of the clarity thesis frequently argue that this tendency to blame legislatures results from legislators
+exploiting the informational burden voters face by strategically deploying agencies to carry out unpopular policies.
+According to these blame-shifting accounts, legislators strategically delegate policies that they anticipate to be
+unpopular to agencies in order to, on the one hand, obfuscate their role in the policy-making process and, on the
+other, increase the salience of the role of the agency in the policy-making process to the public. But by the logic of
+the clarity thesis, legislators need not engage in strategic behavior to sidestep accountability: the institutional
+arrangement itself raises the costs of acquiring the relevant information, thus obscuring the details of the way
+policy-making authority is shared and limiting the ability of voters to accurately assign responsibility for policy
+outcomes. "Very few voters, regardless of their sophistication, would be able to make much headway in assigning
+blame or credit in a system in which a dozen or more government branches participated in proposing or vetoing
+policy initiatives" (Nzelibe & Stephenson 2010:653).
+Does Delegation Undermine Accountability  317
+
+two reasons. First, delegation adds complexity to the process of enacting laws and formu-
+lating policy. Second, delegation exacerbates the informational asymmetries inherent in
+representative government. Elected officials, it is thought, acquire information in the
+course of their employment that places them at an informational advantage vis-à-vis most
+voters. When policy-making authority is delegated, voters must work at an even greater
+information disadvantage in assessing the performance of officials (Gersen 2010). In short,
+delegation makes it more difficult to figure out which actors supported or opposed any
+given policy, and their reasons for doing so.
+
+        It is worth pointing out how the clarity thesis differs from other claims about voter
+sophistication. Political scientists have long observed that voters tend to be severely unin-
+formed about many issues. As Elmendorf and Schleicher write: "If there is any well-accepted
+fact in political science, it is that most voters pay little attention to politics and know little
+about the basic institutions of government" (Elmendorf & Schleicher 2012:1850­51). What
+additional value, then, does the clarity thesis add by pointing out one more source of voter
+confusion? While "[d]ecades of research show that citizens are often ignorant about
+politics," more recent work has sought to explain voting behavior as a function of voters'
+responses to certain "shortcuts" or "cues" (James 2010:3). Shortcut-based voting does not
+require intimate knowledge of politics, but, rather, a basic sense of which party was in
+charge and how their own or society's welfare improved or diminished (Huber et al. 2012).
+As Elmendorf and Schleicher explain, "[s]o long as these voters discern which party is in
+charge and which is the principal opposition, they can cast a retrospective vote for the
+governing party or coordinate on an alternative, depending on their sense of local condi-
+tions" (Elmendorf & Schleicher 2012:1853). The clarity thesis challenges the first of these
+two assumptions. Delegation, the clarity thesis argues, decreases voters' ability to assess the
+source of policy. Such an inability tends to undermine the ordinary ways--shortcuts and
+cues--in which voters overcome information asymmetries.
+
+        Delegation has the effect of obscuring the source of policy because it multiplies the
+number of individuals and institutions involved in the creation of law and policy (Gailmard
+& Patty 2012). Piecing together the history of a policy requires voters to follow the trajectory
+of a policy across institutions. At minimum, delegation requires voters interested in the
+history of a policy's adoption to track two institutions: the legislature and the agency to
+which power was delegated (Gersen 2010). These two institutions might be responsive to
+different sets of constituents, have different policy preferences, or understand the relevant
+facts differently. Such differences might affect the performance of the institutions. Voters
+faced with assigning responsibility for an unpopular measure must decide whether the
+legislature drafted an ill-conceived statute or whether the agency poorly implemented a
+well-designed idea. If an agency poorly implemented a statute, was that implementation
+scheme due to the agency's misunderstanding of the facts, or was it simply following the
+lead of the legislature? What is more, a policy's trajectory may not always proceed so
+linearly. Policies can be adopted in piecemeal fashion, through a series of negotiations
+between institutions.
+
+        Following a policy's trajectory is particularly difficult because officials typically possess
+better (although certainly not perfect) information about the state of the world and the
+consequences of various policy choices than do voters (Huber & Shipan 2002). Democratic
+318 Hill
+
+government is premised on the fragmentation of authority, which produces fragmentation
+of knowledge. Even absent delegation, authority is partitioned between at least two entities:
+the people and those they elect. Each partition of authority--each link in the chain of
+delegation--creates an information asymmetry. Delegation levers up the asymmetry
+between the public and officials. It creates new sets of actors with private information, and
+thus presents voters with second-order informational dilemmas. If an agency poorly imple-
+ments a policy, for instance, voters must figure out whether the legislature believed that the
+agency would implement it poorly. If a legislature sends a well-designed regulatory scheme
+to an agency to implement, and the agency skimps on the resources necessary to implement
+it, should the voter infer that the legislature knew that the agency would fail to fund the
+project? Delegation, then, exacerbates the information asymmetries inherent in representa-
+tive government.
+
+        The second type of information important for voters' ability to assign responsibility is
+information about the policy choice itself. Unlike information about a policy's history, this
+type of information is public. In the case of legislatures, it is available in the text of the
+statute and, in the case of agencies, it is available in the Federal Register or through less formal
+publications, such as the agency's website. Despite the relative ease of accessing this infor-
+mation, the clarity thesis observes that delegation does, in fact, increase the quantity of the
+information that the voter must process in order to accurately attribute responsibility. In
+particular, voters must determine what the legislature enacted itself, and what it left for the
+agency to do. If this information becomes costly to obtain, voter performance suffers.
+
+        The clarity thesis is particularly concerned with delegation's effect on information
+concerning a policy's enactment or political history. Thus, the first round of experiments
+varies the observability of these two types of information, and always makes the effects of a
+policy observable to participants. The clarity thesis predicts that participants who cannot
+observe this information will tend to blame the legislature.
+
+B. Delegation's Direct Impact on Blame
+
+The clarity thesis maintains that if voters possess these three types of information necessary
+to trace a chain of political responsibility--(1) the political history of a policy's adoption, (2)
+the official enactment of the law or policy, and (3) the effects of the law or policy--then
+delegation does not impact voter performance. Recent work in experimental economics,
+however, suggests that delegation affects attributions of blame even in cases where subjects
+possess full information about the history of an outcome. This literature suggests that the
+clarity thesis explains only part of the relationship between delegation and blame. The
+remainder of the explanation, this literature suggests, stems from the effect of indirect
+agency. The second round of experiments reported here tests whether delegation has the
+type of direct impact on blame suggested by this prior experimental literature. If it does,
+then the clarity thesis will need to be modified accordingly.
+
+        The experimental economics studies reveal an asymmetry between individuals' per-
+ceptions of direct and indirect action (Coffman 2011). Norm violators face fewer attribu-
+tions of blame, and less punishment, when they intermediate their relationship with the
+victim of the norm violation (Bazerman et al. 2009; Bartling & Fischbacher 2012).
+Does Delegation Undermine Accountability  319
+
+Principals that carry out an act via an agent tend to face less blame in the context of
+economic games, like the dictator and ultimatum games (Bartling & Fischbacher 2012),
+and in the context of market-driven business transactions (Bazerman et al. 2009). This
+result holds even where the agent's interests are aligned with the principal's interests
+(Fershtman & Gneezy 2001). Using vignettes, Paharia et al. show that firms that outsource
+to a business partner face less blame than do firms that produce the same outcome directly
+(Bazerman et al. 2009). In the context of market mechanisms, attributions of blame appear
+to be sensitive to the process or structure that produces an outcome (Hayashi 2013;
+Wiltermuth 2011). Notably, these results do not depend on hiding or otherwise obscuring
+information from subjects. In the dictator and ultimatum games testing the affects of
+delegation on blame, subjects observe the incentive structure facing each participant and
+the actions that they take. Likewise, in the vignette-based experiments, subjects are
+informed of the details of the principal-agent relationship and the incentives facing each
+actor.5 In short, this literature suggests that even when individuals possess all three types of
+information that the clarity thesis identifies as necessary and sufficient to correctly allocate
+blame, delegation may nonetheless induce voters to underblame legislatures and
+overblame agencies.
+
+        The second round of experiments tests whether delegation directly impacts blame.
+The experiments reported here present participants with precisely the three types of
+information that the clarity thesis predicts are necessary and sufficient to produce accurate
+assessments of blame. In other words, participants read exactly the sort of information the
+absence of which is thought to lead to inaccurate assignments of responsibility. If, after
+presenting participants with this information, we nonetheless find inaccurate assignments
+of responsibility, one cannot reject the clarity thesis argument as to the indirect effects of
+delegation. Indeed, the experiments reported in Round 1 support this argument. However,
+such results would tend to support the claim that delegation might trigger some cognitive
+bias, which tends to result in participants underblaming the legislature and overblaming
+the agency.
+
+III. Round 1: Does Delegation Indirectly Impact
+Legislative Blame?
+
+The first round of experiments reported here tests the claim that delegation indirectly
+induces voters to overblame legislatures. The clarity thesis holds that delegation indirectly
+affects voter behavior by raising the costs of information, and thus increases the uncertainty
+as to the relative responsibility of the legislature and agency. Voters, in response to this
+low-information environment, tend to resolve the ambiguity in favor of the legislature.
+Experiments 1a and 1b test whether providing respondents with information concerning
+(1) the role of the legislature and agency in the policy's political history, (2) the institution
+
+5Of course, it is impossible to provide subjects with theoretically perfect information. Experiments that seek to provide
+complete information can, at best, provide the range of information likely to affect subjects' judgments.
+320 Hill
+
+responsible for the policy's formal enactment, and (3) the effects of the policy on the
+electorate impacts blame attributions. Does varying each of these three types of information
+change the quantity of blame participants allocate to the legislature?
+
+        Experiments 1a and 1b employ vignettes that tell the story of a jurisdiction's response
+to a serious problem--a natural disaster, for instance--in concise (350 words or less),
+nontechnical language.6 (For the complete text of the vignettes, please see the accompa-
+nying Online Appendix.) To measure the effect of information on the quantity of blame
+participants allocate to the legislature, each participant was randomly assigned to one of
+four conditions. To establish a baseline level of blame, one group of participants was
+assigned to a direct condition. This group read a vignette describing a wholly legislative
+response, which did not involve an agency, to the problem. The remaining participants
+were assigned to one of three indirect conditions. In the indirect conditions, the legislature
+utilizes an agency to carry out the response. The three indirect conditions, however,
+contain varying quantities of information about the agency's role in the response. In the
+first indirect condition, participants read a vignette that contains only information about
+the effect of the response. The respective roles of the legislature and agency are entirely
+opaque to the participant. In the second indirect condition, participants read a vignette
+that contains information about the effect of the response and history of the official
+enactment. In this vignette, the participant is aware not only of the effects, but also of which
+institution--the legislature or the agency--made the decision to enact the policy. Finally, in
+the third indirect condition, participants read a vignette that contains information about
+the effect of the response, the official enactment, and the policy's political history. Only this
+third indirect condition contains the full quantity of information the clarity thesis argues is
+necessary and sufficient to accurately assess blame.
+
+A. Experiment 1a
+
+Experiment 1a was administered online to 248 participants, recruited and compensated via
+Amazon's Mechanical Turk web services. All participants completed two demographic
+questions (41 percent female, Mage = 33) and were randomly assigned to one of the four
+conditions described above: direct legislative action, indirecteffects legislative action,
+indirecteff+enact legislative action, or indirectall legislative action.
+
+        To test the clarity thesis claim that delegation indirectly affects blame, Experiment 1a
+compares the blame scores in each of the three indirect conditions with the baseline blame
+score established by the direct condition. In the indirect conditions, the legislature employs
+a "mere tool" or "instrument" agency (Kutz 2007:153). It thus seeks to eliminate any effects
+resulting from factors such as perceived lack of foreknowledge of the agency's intentions or
+lack of control over the agency (Bazerman et al. 2009). To further emphasize the fact that
+the agency is a mere tool of the legislature, the vignettes in Experiments 1a and 1b are
+structured such that the legislature makes a choice that renders the agency able to act in
+precisely one way. More concretely, in both experiments' indirect conditions, the legisla-
+
+6The text of all vignettes and related questions used in this study are available via an Online Appendix at the Journal
+of Empirical Legal Studies website.
+Does Delegation Undermine Accountability  321
+
+ture promises to convey funds to address some social problem, but then reneges on that
+promise and channels the funds elsewhere. The agency, whose job it was to distribute those
+funds, is thus left with no option but to fail to address the social problem, since it has no
+funds with which to work. The resulting vignette is one in which the actions available to the
+mere instrument agency are completely determined by the legislature. The agency must
+take the unpopular action.
+
+        As a result of the legislature's broken promise, "large parts of the city remain
+devastated" and "[s]ignificant numbers of residents still lack basic services like electricity
+and hot water." Participants were then asked: "On a scale of 1 (not blameworthy at all)--10
+(very blameworthy), how blameworthy do you think the legislature's action was?"7 The
+clarity thesis predicts that as participants' information concerning the respective roles of
+the legislature and agency increases, legislative blame scores will rise. Since participants in
+the direct condition and the indirectall condition possess complete information, we should
+see equivalent levels of blame in these two conditions.
+
+        Participants assigned to the indirecteffects condition read a vignette in which the legis-
+lature delegates responsibility for the disaster response to an agency.
+
+The legislature then delegated responsibility for managing the clean-up efforts to SQL, an official
+government agency with expertise in handling emergencies. The legislature felt comfortable
+delegating responsibility for this important task to SQL because it exerts high levels of control and
+oversight over the agency. SQL's primary job was distributing the money that the legislature
+promised to the city.
+
+SQL, however, never distributed the money. As a result, large parts of the city remain devastated.
+Significant numbers of residents still lack basic services like electricity and hot water.
+
+        Participants assigned to this condition have access to information about the institu-
+tions involved in the policy, and the effects of that policy, but no information concerning
+how or why the policy was established. In other words, the indirecteffects condition omits
+information concerning the two types of information the clarity thesis deems crucial to
+accurately allocating blame.
+
+        By comparison, participants assigned to the indirecteff+enact condition read a vignette
+identical to the indirecteffects condition, except that it contained information concerning
+which institution--the legislature or the agency--had, in fact, enacted the measure. In the
+indirecteff+enact condition, participants read that "[a]fter consulting with SQL, however, the
+legislature enacted a bill re-directing the funds." Thus, in the indirecteff+enact condition,
+participants possess one of the two types of information the clarity thesis deems crucial to
+accurately allocate blame.
+
+        Finally, in the indirectall condition, participants read a vignette that contained all the
+information in the indirecteff+enact condition, plus information concerning the political
+history of the policy. The political history is identical to the history set out in the direct
+condition: the legislature believed it was in its electoral interests to distribute the clean-up
+
+7In all experiments reported here, subjects entered their judgment using a horizontal sliding scale, with ticks at the
+points from 0 to 10. See <www.qualtrics.com/university/researchsuite/basic-building/editing-questions/question-
+types-guide>.
+Participant blame attributions322 Hill
+
+Figure 1: Impact of increasing information on attributions of blame.
+
+                             10.0
+
+                               7.5
+
+                               5.0
+
+                               2.5
+
+                               0.0
+                                            Baseline Effects only Effects+Enactment All
+
+Note: Attributions of blame increase as participants gain more information about the history of the policy-making process.
+
+funds elsewhere, so it abandoned the clean-up efforts. Recall that the legislature "exerts
+high levels of control and oversight over the agency" and, since the legislature made the
+decision to redirect the funds away from the agency, the agency could not have conveyed
+the funds to the city. The effect, then, is that in the indirectall condition the agency is a mere
+instrument of the legislature.
+
+        As shown in Figure 1, as the quantity of information increases, so does the accuracy
+of the blame allocated to the legislature, as compared with the baseline blame score
+established in the direct condition (MDirect = 8.929, SD = 1.455). Participants who read the
+indirecteffects condition (Meffects = 5.86, SD = 2.75) rated the legislature as significantly less
+blameworthy than participants who read the indirecteff+enact condition (Meff+enact = 7.72,
+SD = 2.24). Adding the third type of information in the indirectall condition (Mall = 8.26,
+SD = 2.51) further raises blame scores. Analyzing Experiment 1a using a Welch two-sample
+t test reveals significant differences between the direct condition and the indirecteffects
+condition (t = 7.759, p = < 0.001), as well as between the indirecteffects condition and the
+indirecteff+enact condition (t = 4.139 p = < 0.001).8
+
+        Thus, consistent with the clarity thesis, these results support the claim that partici-
+pants' accuracy improves as more information is revealed. Low-information environments
+tend to advantage legislatures in cases where the legislature deployed a mere instrument
+agency to deflect blame.
+B. Experiment 1b
+
+Experiment 1b employs the same structure as Experiment 1a. The legislature promises to
+commit funds to a social problem, but then reneges on that reason for selfish reasons. The
+
+8In addition, I compared the mean scores between (1) the baseline condition and the indirectall condition (t = 1.81,
+p = 0.072) and (2) the indirecteff+enact condition and the indirectall condition (t = 1.25, p = 0.212). Although in both cases
+the vignette that contained more information produced more blame, the difference was not statistically significant.
+The sample size used here (62 participants per cell) was not sufficient to detect an effect between these conditions.
+Does Delegation Undermine Accountability  323
+
+agency is thus left with no option but to fail to address the social problem, since it has no
+funds with which to work. Experiment 1b was administered online to 212 individuals,
+recruited and compensated through Amazon's Mechanical Turk.
+
+        After completing two demographic questions (45 percent female, Mage = 32), all
+subjects read a scenario describing how "[l]ast year on election day, a malicious computer
+virus sabotaged the voting machines in jurisdiction B. As a result, the legislature promised
+to overhaul the voting machines by next year's elections." As in Experiment 1a, participants
+assigned to the direct condition read a scenario describing a wholly legislative response.
+
+After considering the matter more carefully, however, the legislature realized that overhauling
+the voting machines could open the door to overhauling other aspects of the electoral process.
+This prospect worried the incumbent legislators, since they knew how to win in the current
+electoral environment. Thus, rather than overhaul the voting machines, the legislature decided
+to use the money for other purposes, including studies showing how well other aspects of the
+electoral system worked. The legislature enacted a bill diverting the voting machine money to
+these other purposes.
+
+As a result, the voting machines remain susceptible to computer viruses. The compromised
+integrity of the voting machines has induced many to lose faith in the quality of the elections in
+jurisdiction B.
+
+        The remaining participants were randomly assigned to one of three indirect condi-
+tions, corresponding to the three indirect conditions in Experiment 1a. In the indirecteffects
+condition, participants read a vignette that stated that the legislature "delegated respon-
+sibility for managing the overhaul to PPW, an official government agency with expertise in
+elections." Because the indirecteffects condition hides information concerning the policy's
+enactment and political history, participants in this condition know that "PPW, however,
+never purchased or installed the new machines," but do not know why this is the case. In the
+indirecteff+enact condition, participants read a vignette that explains that "the legislature
+enacted a bill diverting the funds." Finally, in the indirectall condition, participants read a
+vignette that explains the political history leading to the legislature's decision, as set out in
+the baseline condition.
+
+        As in Experiment 1a, using a Welch two-sample t test, participants who read the direct
+scenario (MDirect = 8.96, SD = 1.73) found the legislature significantly more blameworthy
+(t = 6.02, p = < 0.001) than those who read the indirecteffects condition (MDirect = 6.4,
+SD = 2.54). Blame continued to rise as participants read vignettes with more information
+(Indirecteff+enact = 7.74, SD = 2.24; Indirectall = 8.6, SD = 2.13).9
+
+C. Round 1 Summary
+
+The experiments reported here suggest that delegation indirectly affects blame, as pre-
+dicted by the clarity thesis. The experiments in Round 1 test whether participants evaluat-
+ing the indirect actions of a legislature more accurately assess blame when they possess
+
+9As is the case for Experiment 1a, for these final two cases vignettes that contained more information produced more
+blame. However, the difference was not statistically significant. The sample size used here was not sufficient to detect
+an effect between these conditions.
+324 Hill
+
+more information concerning a policy's enactment and political history. As predicted by
+the clarity thesis, participants tended to resolve informational ambiguities in favor of the
+legislature. Delegation, then, would appear to benefit the legislature in two respects. First,
+delegation tends to benefit legislatures to the extent that they are primarily responsible for
+unpopular policy. Even where legislatures do not seek to shift the blame to the agency,
+voters will tend to treat unobservable information showing the legislature should shoulder
+responsibility as information implicating the agency. One need not attribute any failure of
+good faith by voters in such a situation; rather, this tendency to resolve informational
+ambiguities in favor of the legislature might result from a tendency by voters (i.e., the
+political principals in a democracy) to favor an agent that they selected, rather than agents
+that they did not select. Second, where legislatures do seek to shift the blame for an
+unpopular policy, they can accomplish this feat, at least in part, simply by introducing an
+agent into the process. If delegating to an agent tends to lower the visibility of the respective
+causal roles, a legislature seeking to shift the blame need not publicly exaggerate the
+agency's role; voters will do that.
+
+IV. Round 2: Does Delegation Directly Impact
+Legislative Blame?
+
+In Round 1, participants performed best when they possessed information concerning the
+respective roles of the legislature and agency. The stronger the traceability chain, the better
+the performance. Even with the advantage of the strongest traceability chain, however (i.e.,
+in the indirectall condition), participants on average rated the legislature acting through a
+mere instrument agency as less blameworthy than a legislature acting directly.10 These data
+fit uncomfortably with the clarity thesis. While the results in Round 1 support the clarity
+thesis' claim that voters tend to resolve informational ambiguities in favor of the legislature,
+those results do not support the claim that full information results in accurate assessments
+of blame. This position aligns with prior work that shows that blame evaluations are a
+function of the degree of control and foresight an individual possesses (Cushman et al.
+2011). Nonetheless, even with full information, participants on average rated the legislature
+acting through a mere instrument agency as less blameworthy than a legislature acting
+directly. Even where the legislature possessed a high degree of control over the agency, and
+foresaw that the agency would comply with its preferred policy position, participants
+nonetheless assigned it less blame than they assigned to a legislature enacting the same
+policy directly. Does delegation directly impact blame?
+
+        The second round of experiments tests whether, consistent with the results on
+delegation and blame in the experimental economics and moral psychology literatures,
+delegation reduces attributions of blame even in those cases where subjects possess infor-
+
+10As noted in footnote 9, although participants performed better the more information they possessed, the sample
+sizes used here were not large enough to detect an effect as between the baseline condition and the indirectall
+conditions in Experiments 1a (t = 1.81, p = 0.072) and 1b (t = 1.49, p = 0.137).
+Does Delegation Undermine Accountability  325
+
+mation about the way in which a policy was adopted. To do so, it employs vignettes that set
+out, in concise (350 words or less), plain language the history of a policy jointly produced
+by a legislature and administrative agency. Each vignette tells the story of some problem the
+voters of a jurisdiction faced--increased pharmaceutical costs, for instance--and the way
+the legislature and agency addressed that problem. In so doing, the narrative explains "the
+way in which the policy was adopted" and the policy choices made by the legislature and
+agency (Knutson 2010). Because the vignettes are clear, accessible, and present precisely
+the sort of facts that the clarity thesis argues are determinative of voter behavior, these
+experiments provide clean tests of the clarity thesis claim that delegation primarily affects
+blame by creating informational burdens.11
+
+        Experiments 2a and 2b each modify the structure of the experiments in Round 1 in
+order to further test whether delegation directly impacts blame. Experiment 2a seeks to
+nudge participants toward more "reason-based choice" by presenting them with both direct
+and indirect scenarios (Hsee & Zhang 2010). Whereas Experiments 1a and 1b employ
+"separate evaluation"--a between-subjects design in which participants assessing the blame-
+worthiness of indirect legislative action do not also assess the blameworthiness of direct
+legislative action--Experiment 2a employs "direct evaluation," in which participants read
+both indirect and direct vignettes. By presenting participants with both types of vignettes,
+Experiment 2a might nudge participants toward treating the direct and indirect conditions
+more similarly. Experiment 2b addresses a potential objection, namely, that even the
+indirectall conditions still lack information relevant to tracing a chain of responsibility for
+the policy. Thus, Experiment 2b provides even more information to participants than is
+contained in the indirectall conditions in Experiments 1a and 1b.
+
+        If, after modifying the structure of the experiments in Round 2, participants treat
+direct and indirect legislative action as equivalently blameworthy, then one might explain
+the difference between the blame scores in Round 1's indirectall conditions and Round 1's
+direct conditions as an artifact of the experimental design. If, however, voters find that the
+indirect action type is less blameworthy even with complete information as to the history of
+the policy's adoption, then it would support the claim that delegation, in addition to
+creating informational burdens, directly affects voter behavior.
+
+A. Experiment 2a
+
+Experiment 2a employs a version of what Hsee and Zhang refer to as "joint evaluation"
+(Hsee & Zhang 2010). In experiments employing joint evaluation, "multiple alternatives
+are simultaneously available for consideration [by participants], while under separate
+evaluation only one alternative is considered" (Bazerman et al. 2009:2). The finding under-
+lying this design is that joint evaluation generally "allows for the consideration of attributes
+that are difficult to assess in isolation and is therefore more likely to result in reason-based
+choice . . ." (Bazerman et al. 2009:2). Thus, Experiment 2a employs a within-subjects
+
+11They provide one, although certainly not the only, test of whether any apparent irrationality or misappropriation of
+blame is necessarily explained by informational burdens. A full accounting of the question would present a variety of
+fact patterns testing a variety of dimensions thought likely to affect voter behavior.
+326 Hill
+
+design, where all participants first read the direct condition, then read the indirect condi-
+tion. In the direct condition, participants were asked to attribute blame to the legislature.
+In the indirect condition, participants were asked to assess the blameworthiness of both the
+legislature and the agency. This design might elicit a more reasoned comparative assess-
+ment of the legislature versus the mere instrument agent than the separate evaluation
+featured in Round 1.12
+
+        Experiment 2a was administered online to 142 individuals, recruited and compen-
+sated through Amazon's Mechanical Turk. After completing two demographic questions
+(47 percent female, Mage = 36.9), all subjects read a scenario describing how "hackers
+unleashed a malicious virus on the computerized trading systems used by large companies
+in several jurisdictions," causing great harm to their respective financial systems. "In
+response, the legislature of each jurisdiction passed a bill requiring computerized trading
+systems to comply with a new set of security measures," which were "very expensive to
+implement." To encourage rapid adoption, legislatures promised to reimburse companies
+that implemented the new system within six months. Each jurisdiction, however, "chose
+different ways of enforcing the law." All subjects were presented with accounts of how the
+enforcement process proceeded in two of these jurisdictions. In the direct condition (State
+A), the legislature reneged on its promise to reimburse the companies and, as a result,
+"many companies went out of business, and those that had not yet implemented the costly
+measure decided not to do so." All subjects were then asked: "On a scale of 1 (not
+blameworthy at all)--10 (very blameworthy), how blameworthy do you think the legisl-
+ature's action was?" In the indirect condition, the legislature "delegated the task of enforc-
+ing the law to SECRA, which is an official administrative agency, created by the legislature
+to serve as its agent." Subjects were then told that the legislature "exercises a relatively high
+degree of control over" the agency. In the indirect condition, "the legislature did not make
+the funds available to SECRA," leaving the agency "unable to reimburse the companies for
+the upgrades they made." As a result, the same consequences followed. All subjects were
+then asked: "On a scale of 1 (not blameworthy at all)--10 (very blameworthy), how
+blameworthy do you think SECRA's action was? How blameworthy was the legislature's
+delegation to SECRA?"
+
+        Experiment 2 was analyzed using a Welch two-sample paired t test. Participants rated
+the direct scenario (MDirect = 8.51, SD = 1.81) significantly more blameworthy than the
+indirect scenario (MInditect = 6.70), SD = 3.37). The results are significant (t = 6.45,
+p = < 0.001). Thus, as Figure 2 shows, even where the agency's hands are tied by the
+legislature's policy decisions, and where participants are able to jointly evaluate the direct
+and indirect acts, delegation appears to directly impact attributions of blame.
+
+12In the Paharia et al. study, the joint evaluation occurs through asking participants which condition, the direct or
+indirect one, is more blameworthy. Experiment 2a does not operationalize joint evaluation in this manner because
+of external validity concerns. Voters do not evaluate two versions of the same event, one direct and one indirect, but
+evaluate the event that occurred.
+                                             Does Delegation Undermine Accountability  327
+
+Figure 2: Comparing blame scores where legislature acts directly versus delegates to
+powerless intermediary.
+
+                             10.0
+
+Participant blame attributions  7.5
+
+                                5.0
+
+                                2.5
+
+                                0.0
+
+                                     Direct  Indirect
+
+                                     Direct = 8.788; Indirect = 8.384
+
+Note: Participants rate legislatures that act directly as more blameworthy than legislatures that act indirectly through a
+powerless agency.
+
+        Together, Experiments 1a, 1b, and 2a challenge the clarity thesis claim that infor-
+mation is the exclusive way in which delegation impacts voter behavior.13 While delegation
+might obscure information voters would find relevant, policies that result from delegated
+arrangements appear to diminish the blame legislatures face even when voters are pre-
+sented with the history of a policy's adoption and the relevant choices made by the
+legislature and agency. Although counterintuitive, these results accord with prior studies
+that reveal delegation to diminish blame in the context of economic games and business
+transactions.
+
+B. Experiment 2b
+
+One might object to the claim that delegation directly influences blame by arguing that the
+vignettes in Experiments 1a, 1b, and 2a omit material information about the degree of
+control and foresight that the legislature possesses over the agency. Such an omission might
+induce participants to resolve informational ambiguities in favor of the legislature. As a
+check against this concern, Experiment 2b layers more information on top of the informa-
+tion contained in the indirectall hurricane disaster vignette employed in Experiment 1a.
+Experiment 2b's indirectplus condition adds information concerning the nature of the
+legislature's power over the agency, as well as information concerning the agency's role in
+
+13The results in Experiment 2a also challenge the proposition, found in the Paharia et al. piece, that joint evaluation
+produces rational evaluations.
+328 Hill
+
+the unpopular policy decision. Using a new round of 85 Mechanical Turk participants,
+Experiment 2b compares participants' blame scores in the indirectall condition with the
+indirectplus condition.
+
+        The indirectplus vignette reads in relevant part as follows, with the added information
+italicized.
+
+   Last month, a terrible hurricane ravaged a large city on the western coast of jurisdiction B. In the
+   immediate aftermath of the storm, the legislature promised the city to pay for all of its clean-up
+   costs.
+
+   The legislature then delegated responsibility for managing the clean-up efforts to SQL, an official
+   government agency with expertise in handling emergencies. SQL's primary job was distributing
+   the money that the legislature promised to the city. The legislature felt comfortable delegating
+   responsibility for this important task to SQL because it exerts high levels of control and oversight
+   over the agency. For instance, the legislature can remove the head of SQL at will. Further, unwritten
+   conventions empowered the legislature to exert control over the agency's use of discretion.
+
+   After considering the matter more carefully, however, the legislature realized that the residents of
+   the city were unlikely to ever make substantial donations to their future re-election campaigns.
+   "Wouldn't it be better," the legislators reasoned, "to direct the funds meant for the disaster relief
+   to other voters more likely to help us in the future?" SQL told the legislature that doing so would
+   significantly hamper the city's recovery, but it was ineffective in persuading the legislature.
+
+   Thus, the legislature enacted a bill re-directing the funds. As a result, large parts of the city remain
+   devastated. Significant numbers of residents still lack basic services like electricity and hot water.
+
+        Participants receiving the indirectplus condition read a vignette that contains all the
+information contained in the indirectall vignette, plus more information concerning the
+legislature's control over the agency and the agency's role in formulating the unpopular
+policy. The added information further demonstrates the agency's lack of control, and
+portrays the agency as opposing the unpopular policy.
+
+        Despite the added information, participants reading the indirectplus vignette
+did not find the legislature more blameworthy. In fact, participants reading the indirectplus
+vignette found the legislature, on average, slightly less blameworthy (indirectplus = 8.6,
+indirectall = 8.20). The difference, however, is not statistically significant (t = 1.25, p = 0.21).
+Experiment 2b, then, suggests that adding more information does not alter participants'
+attributions of blame.14
+
+        In sum, Experiments 1a, 1b, and 2a suggest that policies that result from delegated
+arrangements appear to diminish the blame legislatures face even when voters are pre-
+sented with the history of a policy's adoption and the relevant choices made by the
+legislature and agency. While counterintuitive, these results accord with prior studies that
+"revealed a moral preference for indirect agency" under certain conditions (Bazerman
+et al. 2009:7). Experiment 2b addresses one possible objection to these results, namely, that
+the vignettes lack crucial information concerning the extent of legislative control and
+foresight. In response to this objection, Experiment 2b layers more information concerning
+
+14In fact, adding more information than is contained in the indirectall condition may confuse participants, which
+would explain the lower blame scores in the indirectplus condition. Experiment 2b was administered to 85 participants,
+which is likely not a large enough sample to detect an effect between these two conditions.
+Does Delegation Undermine Accountability  329
+
+legislative control and foresight on the hurricane response vignette. Blame scores, however,
+do not rise when this new information is included. Consistent with prior research on cue
+taking and information overload (Lupia 1994), this result suggests that the quantity of
+information contained in the indirectall condition is sufficient for participants to trace a
+chain of responsibility for the policy (Arnold 1990).
+
+V. Round 3: Does Delegation Impact Agency Blame?
+
+The first two rounds of experiments suggest that delegation both directly and indirectly
+impacts attributions of legislative blame. Proponents of the clarity thesis sometimes argue
+that this tendency to soften legislative blame is an unalloyed good for legislators. Legisla-
+tures might well care about how much collateral damage agencies will face, however. Even
+if legislatures are interested in the fates of agencies only in order to take the blame for
+unpopular policies, they still need legislatures to possess some popular legitimacy. Less
+cynically, legislatures rely on agencies to accomplish things, even if they need them to take
+the fall in this instance. Agencies are, over the long run, valuable partners. If agencies are
+to manage blame, they need to have an idea of how blame avoidance will impact their
+partners' fate. Thus, we need to know how a blame-shifting strategy affects agencies.
+
+        The results considered thus far suggest that the clarity thesis is correct in arguing
+that delegation reduces attributions of legislative blame, but incorrect in suggesting that
+the exclusive or primary causal mechanism underlying the effect is informational. Rather,
+legislative blame declines even where information is complete. But what of agency blame?
+Fiorina argues that delegation allows legislators to exploit informational asymmetries in
+order to "disguise their responsibility for the consequences of the decisions ultimately
+made" and shift blame to agencies (Fiorina 1982:47). More recently, Justin Fox and Stuart
+Jordan have set out the necessary preconditions for blame shifting, one of which is that
+"politicians must have more information than voters about the actions the bureaucracy is
+likely to take with any authority delegated" (Fox and Jordan 2011:843). When these pre-
+conditions exist, legislators can strategically delegate to agencies in order to shift blame
+for unpopular policies. In sum, misattributions of agency blame, according to the clarity
+thesis, tend to result in overblaming agencies. Agency blame, on this view, is a one-way
+ratchet.
+
+        The third round of experiments tests whether misattributions of agency blame might
+occur absent incomplete information, and whether the misattributions always involve
+overblaming agencies. Further, it tests these claims under a variety of institutional arrange-
+ments. The clarity thesis typically fails to specify two crucial features of the legislature-
+agency relationship: (1) how much oversight or control the legislature possesses over the
+agency, and (2) how much policy-making authority the agency possesses. Round 3 varies
+these conditions in order to gauge their influence on blame. Doing so allows us to address
+questions such as whether voters are more punitive when legislatures delegate more power
+to agencies. More generally, introducing these two conditions helps us draw a larger picture
+of the way diverse institutional arrangements affect attributions of blame.
+330 Hill
+
+A. Legislative Control Over Agencies
+
+Political scientists have long debated the question of how legislatures best constrain agen-
+cies (Lupia & McCubbins 1994). One, if not the primary, way in which legislatures exert
+control over agencies is through oversight (Barkow 2010). Schwartz and McCubbins dis-
+tinguish, classically, between two modes of agency oversight: police patrols and fire alarms.
+Legislatures engage in police patrol oversight when they actively monitor agency activity.
+Active monitoring, however, is costly, and so they may become involved only when the
+agency draws the ire of some third-party constituency. Only then does the legislature seek
+to put out the agency's fire.
+
+        Experiment 3 incorporates a mix of police-patrol and fire-alarm style oversight.
+Unlike the experiments in Rounds 1 and 2, which tested only instrument agencies, Round
+3 includes autonomous agencies. The vignettes state whether the legislature possesses a
+high or low degree of oversight over the agency. They then illustrate this oversight with an
+example. Thus, autonomous agencies are defined by two features in this experiment,
+corresponding to the two features that define instrument agencies. Legislatures exercise
+comparatively less control and oversight over autonomous agencies and, in order to illus-
+trate this autonomy to participants, autonomous agencies act against the preferences of the
+legislature that delegated power to them. Instrument agencies, by contrast, are monitored
+and comply with legislative preferences.
+
+B. Policy-Making Authority
+
+The clarity thesis addresses the role of the breadth of the agency's authority only insofar as
+it is argued that broad delegations of authority provide the most insulation for legislators.
+Fiorina, for instance, argues that legislators can provide agencies with broad grants of
+authority without explicit Schecter Poultry-style standards in order to shift responsibility for
+unpopular decisions to agencies. Schoenbroad argues that congressional legislation that
+features "attractive abstractions," such as instructions to agencies that they maintain
+"orderly markets," help legislators avoid blame. Fox and Jordan argue that legislators can
+avoid blame by turning over policy decisions wholesale to agencies that they believe share
+their preferences.15
+
+        Experiment 3 tests the idea that broad delegation leads to more blame under
+conditions of full information. All else equal, one might hypothesize that the more policy-
+making authority an agency possesses, the more blame voters will be willing to assign it. To
+test this hypothesis, Experiment 3 was structured around three types of vignettes, which
+correspond to three types of policy-making authority an agency might possess (Freeman
+2000). In the transmission type (Stewart 1975), the legislature simply delegates the power
+to enforce or apply norms. Such authority might be seen as "a relatively lower-order
+activit[y]" (Freeman 2000:30). In this sense, enforcement authority exists at the bottom of
+
+15On Fox and Jordan's account, legislators avoid blame by exploiting an informational asymmetry: they know the
+political preferences of agencies, but the public takes agencies to be neutral experts acting in the public interest.
+Thus, to delegate full policy-making authority is to delegate more of the decision to an entity committed to acting on
+the public's behalf.
+Does Delegation Undermine Accountability  331
+
+the policy-making hierarchy. In the implementation type, the agency possesses the author-
+ity to "translate" norms or standards into regulated practices (Freeman 2000). Finally, at the
+top of the policy-making hierarchy is the power to create norms. In the creation vignette,
+the agency possesses the legislative-like authority to author norms. In comparing attribu-
+tions of blame for these three types of policy-making authority, Experiment 3 tests whether
+agencies with more power to control the content of a policy receive more blame.
+
+C. Procedure and Results
+
+The study was administered to 312 subjects (42 percent female, Mage = 31.8), recruited and
+compensated through Amazon's Mechanical Turk. Participants read three scenarios, cor-
+responding to the three types of policy-making authority just mentioned. For each scenario,
+all participants read a direct condition (legislative action), which established a baseline
+level of blame, and an indirect condition. Although all participants read the same direct
+condition, the indirect conditions varied the degree of control the legislature possessed
+over the agency.16
+
+        In each scenario, a multijurisdictional problem confronts the legislatures of several
+states. Participants read how the legislature of State A responded to the problem directly
+(the baseline scenario), and then read how the legislature of State B responded to the
+problem indirectly by delegating some authority to an agency. In the direct scenario, the
+legislature responds to the impetus by enacting a law. In the indirect scenarios, the legis-
+lature responds to the impetus by enacting a law and delegating either transmission,
+implementation, or creation authority to an agency. The acts taken, and the conse-
+quences that follow, are the same in the direct and indirect scenarios.
+
+        In the transmission scenario, which is substantially similar to the vignette employed
+in Experiment 1, the impetus for political action is a breakdown of an important brokerage
+service, which threatens stock markets. The brokerages can be updated with costly repairs,
+for which the legislature promises to reimburse the companies. In fact, the (legislature or
+agency) reneges on its promise, and a financial fallout ensues. In the implementation
+scenario, a pro-environment ideological shift results in heightened pollution regulations,
+which creates a demand for hands-on regulatory implementation. However, the (legislature
+or agency) failed to meet with all but the most profitable companies and, as a result, drafted
+cost-insensitive, ineffective regulations. In the creation scenario, an opportunity to
+improve coordination in the shipping industry could lower pharmaceutical prices if
+
+16More specifically, for each of the three scenarios, participants read the baseline vignette and were then randomly
+assigned to one of four conditions: instrument, autonomous, mixed-high, or mixed-low. In the instrument
+condition, the agency is a powerless intermediary; in the autonomous condition, it is effectively unconstrained. For
+each of the three scenarios, therefore, one is able to compare participants' evaluations of blame in the baseline case
+with their evaluations of blame in an indirect case. Moreover, one is able to compare whether these evaluations vary
+with the type of substantive authority the legislature grants the agency: the power to apply law, to implement it, or to
+create it. Based on planned comparisons, I analyzed only the instrument and autonomous conditions. The mixed
+conditions cross the level of control the legislature possesses over the agency and whether the agency violated the
+legislature's policy preferences. In the transmission scenario, the mean blame scores are 8.43 (mixed-high) and 4.04
+(mixed-low). In the implementation scenario, the mean blame scores are 8.29 (mixed-high) and 6.03 (mixed-low).
+Finally, in the creation scenario, the mean blame scores are 7.48 (mixed-high) and 7.12 (mixed-low).
+Difference in Blame Scores332 Hill
+
+uniform standards are established. Despite this opportunity, the (legislature or agency)
+adhered to an ideology of experimentation over uniformity, and prices remained high.
+
+        As in Experiment 2, in the instrument condition the legislature exerts high levels of
+control over the agency and, in the course of the vignette, the agency in fact complies with
+policy preferences of the legislature, which is intended to reinforce the legislature's
+control. In the autonomous condition, on the other hand, the legislature is described as
+possessing relatively little control over the agency and, in the course of the vignette, the
+agency violates the legislature's policy preferences.
+
+        The degree of legislative control over the agency ends up making a significant
+difference in the blame participants parceled out. In each of the three scenarios, when
+legislatures delegated the task to an instrument agency, participants blamed the instrument
+significantly less (transmission: t = 10.13, p = < 0.001; implementation: t = 8.78,
+p = < 0.001; creation: t = 7.14, p = < 0.001). As shown in Figure 3, participants found the
+acts of autonomous agencies to be much more blameworthy than they did instrument
+agencies.
+
+        The divergence in the blame faced by instrument agencies and autonomous agencies
+suggests that delegation does not uniformly affect agency blame. Much as participants
+
+Figure 3: Agency blame: difference between direct and indirect conditions.
+
+    4
+
+    3
+
+    2
+
+    1
+
+    0
+           I: Transmission I: Implementation I: Creation A: Transmission A: Implementation A: Creation
+
+Note: Y-axis represents the difference (in all cases the agency receives less blame) between direct legislative condition and
+indirect agency condition. The first three differences (preceded by an "I") represent cases of limited agency authority, while the
+latter three cases (preceded by an "A") represent more expansive agency authority. Larger numbers represent lesser agency
+blame.
+                                               Does Delegation Undermine Accountability                       333
+
+Figure 4: Differences between legislative and agency blame scores across agency
+authority scenarios.
+
+                             10.0
+
+Difference in Blame Scores  7.5
+
+                            5.0
+
+                            2.5
+
+                                 Transmission  Implementation  Creation
+
+                                                Scenarios
+
+Note: Agency blame scores are the average of instrument and autonomous agency blame scores in each scenario.
+
+found autonomous agencies more blameworthy than instrument agencies, so, too, did
+participants find those agencies that were delegated more extensive policy-making author-
+ity more blameworthy. As policy-making authority increases, the difference between
+the baseline scenario and the indirect scenario decreases. In the transmission scenario,
+the difference between the baseline case and the indirect conditions (the average of the
+instrument agency blame score and the autonomous agency score) is 2.335. In the imple-
+mentation scenario, the difference drops to 1.885. In the creation scenario, the differ-
+ence falls to 1.140. If one defines the error score as the difference between the paired
+baseline blame score and the agency blame score, then one observes that the error score
+monotonically decreases, as shown in Figure 4. The declining difference between the
+baseline scenario blame score and the indirect blame score reflect increased attributions of
+responsibility to those agencies possessing more policy-making authority. This increased
+attribution of responsibility is, this article hypothesizes, a result of the increased role the
+agency possesses in determining the content of the resultant policy.
+
+        As a robustness check, Experiment 3 was also conducted using subjects drawn from
+a population of students and staff at the Experimental Social Science Laboratory at
+UC-Berkeley. Ninety-six subjects participated (63 percent female, Mage = 26.5). Participants
+were solicited by laboratory staff members via email and public events calendars. These
+results follow the same pattern as the results obtained through the Mechanical Turk subject
+pool and so are not fully reported here. The degree of legislative control over the agency
+significantly impacts the quantity of blame the agencies face. In the three direct scenarios,
+in which the legislature enacts policy without delegating, participants gauged the legislative
+blame to be 8.43 in the transmission scenario, 7.94 in the implementation scenario, and
+334 Hill
+
+7.58 in the creation scenario. As in the Mechanical Turk subject pool, where legislatures
+delegated the task to an instrument agency, participants blamed the instrument signifi-
+cantly less (in each of the three cases, p = < 0.05). However, participants found autonomous
+agencies to be much more blameworthy.
+
+VI. Discussion
+
+The present study suggests that evaluations of policy are not independent of the structures
+that produce them. Rather, delegations of policy-making authority systematically induce
+voters to underassign blame to legislatures. Legislatures face less blame even in cases where
+they delegate to nonautonomous, "instrument" agencies. In effect, legislatures can delegate
+the final, public-facing component of a policy-making process to an agency in order to
+soften the blame they face. This finding coheres with a body of economic research that
+shows that attributions of blame diminish when a principal employs an agent (Coffman
+2011).
+
+        Are we more adept at assigning blame to agents? This question can be analyzed along
+two dimensions: comparative evaluations and point estimates. In the realm of comparative
+evaluation, participants accurately assign more blame to those agencies exercising more
+policy-making authority and accurately assign more blame to those agencies operating
+under less legislative oversight. Participants accurately assigned more blame to agencies as
+their policy-making authority increased. Agencies that created unpopular norms were
+gauged more blameworthy than those that implemented unpopular norms, and agencies
+that merely enforced or applied unpopular norms were found less blameworthy still. These
+findings suggest that voters are able to identify degrees of policy-making authority and tailor
+their blame accordingly.
+
+        While participants accurately discerned comparative responsibility, they nonetheless
+tended to overblame instrument agencies and underblame autonomous agencies, relative
+to baseline direct action. Thus, while participants identified differences in responsibility
+among agents, they generally failed to do so between principals and agents.
+
+        The difficulty, it seems, is related to assigning blame in those cases where an agency
+possesses something less than complete authority over a policy. The degree to which voters
+misattribute blame appears to decline as the agent gains independence from the principal.
+There are several possible explanations for why instrument agencies are blamed even when
+they possess little to no efficacy over the resulting policy. In cases in which an actor is linked
+to an outcome, but plays no clear causal role in producing the outcome, observers may
+attempt to discern something about the actor's character (Nadler 2012). Cushman et al.
+hypothesize that in cases in which actors possess neither causal responsibility for an
+outcome nor harmful intent, observers might nonetheless find such actors blameworthy if
+it could be inferred that they possess some attitude toward the harmful outcome (Cushman
+et al. 2011). For instance, if an individual bets against a company, and thus stands to benefit
+from a decline in a company's stock price, observers might find the short seller blame-
+worthy, even though the individual did not cause the decline nor intend it. Likewise,
+participants here may attribute some affinity, ideological or otherwise, between the instru-
+Does Delegation Undermine Accountability  335
+
+ment agency and the legislature. Such an attribution would not be surprising, as voters
+might have many reasons to believe that legislatures generally employ agencies that they
+believe will faithfully act on their behalf.17
+
+        Delegation, it seems, has the potential to affect legislative delegation in an even more
+straightforward way than the clarity thesis envisions. To the question "Why do legislatures
+delegate power?" the clarity thesis responds: "They do so in order to create and exploit
+informational asymmetries in order to fool voters." As Fox and Jordan argue, if certain
+conditions are met, "voters cannot perfectly distinguish beneficial delegations from
+harmful delegations and, as a result, beneficial delegations by well-intentioned politicians
+provide `cover' for harmful delegations by biased politicians" (Fox & Jordan 2011:844).
+Increased informational asymmetries "allow[] politicians to shift or obscure responsibility
+for controversial decisions" (Nzelibe & Stephenson 2010:145). Opacity increases incentives
+for officials to engage in rent-seeking behavior (Mesquita & Landa 2008). The additional
+complexity created by delegation might allow shirk-prone officials the opportunity to do so.
+This, in turn, "may reduce the efficacy of voter discipline, because voters are unable to
+assign responsibility accurately and effectively" (Nzelibe & Stephenson 2010:145). But these
+findings, which seem to corroborate research on delegation and blame performed in other
+contexts, suggest a less complicated story. Legislators need not engage in the complicated
+pattern of behavior described in the clarity thesis; they appear to face less blame for
+unpopular policy outcomes simply by delegating, even the most minimal of authority. More
+generally put, a regime that allows delegation allows legislators to escape some of the blame
+they would have faced by enacting policy directly.
+
+A. Open Questions and Future Research
+
+Proponents of derivative accountability argue that the best way in which to legitimate the
+administrative state is to give expansive interpretive powers to the executive branch.18
+Chevron and its progeny, the theory runs, accomplish this by maximizing transparency. A
+"fundamental precondition of accountability in administration" then-Professor Elena
+Kagan argued, is "the degree to which the public can understand the sources and levers of
+bureaucratic action" (Kagan 2001:2332). Although agencies are, by their very nature, "the
+ultimate black box of government," if "clear lines of command" running from the executive
+to the agencies are established, then administrative power can be exercised "in ways the
+public can identify and evaluate" (Kagan 2001:2332). In a similar vein, Stephen Holmes
+
+17Alternatively, participants might have decided that the instrument agency, even though it operated under strong
+legislative oversight, could, in fact, have acted differently. This is, of course, true: individuals possess an ineliminable
+agency. The hypothetical agency officials carrying out the legislature's plans could have done otherwise, even if that
+meant abandoning their post at the agency.
+
+18The effect, then, is that the executive is (potentially) evaluated along an increased number of policy dimensions. As
+Gersen observes, "[c]itizens vote on a bundle of policy positions," so we can treat each vote as "a weighted average of
+voter approval (or disapproval) on all relevant dimensions" (Gersen 2010:313). Assuming the executive has some
+constant set of nonagency dimensions along which it is evaluated, derivative accountability implies that voters add
+agency-based dimensions to their set of possible evaluative dimensions and, further, it supposes that the weight
+attached to the agency-based dimensions will be nontrivial.
+336 Hill
+
+argues that separation of powers can "sort out unclear chains of command, and help
+overcome a paralyzing confusion of functions" (Holmes 1995:165). If courts endow the
+executive branch with responsibility over making policy choices and interpretive choices,
+and the president accepts responsibility for this role, then the electorate will link the two
+sets of actors. Most importantly, the electorate will evaluate the actions of the agency, then
+assign those actions to the executive, as a part of its evaluation of the executive. The
+electorate makes a judgment as to the credit or blame of the agency, then assigns that score
+to the executive. Derivative accountability, then, holds that transparency is improved, and
+information is increased, through the process of assignation: the electorate treats the
+actions of agencies as the actions of the president. In this way, Chevron maximizes the
+responsiveness of policy to majoritarian preferences.
+
+        The dynamics presented here could induce the executive branch to publicly clarify its
+role vis-à-vis agencies. Recall that attributions of blame deviated less from baseline cases as
+agencies acted with more policy-making authority and less legislative oversight. Thus, broad
+delegations of power to the executive may enhance the performance of agencies by inducing
+the executive branch to take extra care of policy outcomes in these situations. By contrast,
+attributions of blame deviated the most from the baseline scenarios in those cases where
+agencies exercised less policy-making authority and were more subject to legislative over-
+sight. The error in these cases was to blame agencies more, not less. Thus, derivative
+accountability may result in undeserved overblaming of the executive branch where Con-
+gress has delegated away only minimal authority. In these situations, the executive branch
+might emphasize the relative power of Congress over the agency.
+
+VII. Conclusion
+
+This article provides the first study of delegation and blame to directly test third-party
+observers' beliefs about the blameworthiness of the principals' and agents' behaviors.
+Rather than rely on indirect measures, the experiments reported here directly measure
+third-party observers' evaluations of the blameworthiness of the principals' and agents'
+behavior and do so in a particularly important context: legislative delegation of political
+authority to administrative agencies.
+
+        Individuals' ability to accurately blame officials for bad policies is at the heart of the
+Supreme Court's post-Chevron jurisprudence. In City of Arlington v. F.C.C., the Court took up
+the question of whether a reviewing court should apply Chevron to an agency's determina-
+tion of its own jurisdiction.19 Most agree that Chevron generally gives agencies, rather than
+the courts, the authority to interpret ambiguous provisions in statutes that they clearly
+possess the authority to administer, but what of agencies' authority to decide if they possess
+the authority to administer the statute? City of Arlington, like many of the foundational
+administrative law decisions that preceded it, answered this question by relying, in part, on
+Chevron's claim that agencies are better positioned to resolve "competing policy interests"
+
+1933 S. Ct. 1863 (2013).
+Does Delegation Undermine Accountability  337
+
+than are the courts.20 This idea--that the legislative and executive branches together
+should work out competing policy interests where possible--is rooted in Chevron's logic of
+political accountability via the administrative state.
+
+        Political accountability, however, "hinges on the principals' [in this case, the voters']
+ability to tailor sanctions and rewards to choices made by their agents," which, in turn,
+"depends . . . on the principals' access to a clear picture of those choices and their rela-
+tionship to policy outcomes" (Mesquita & Landa 2008:1). These results suggest that politi-
+cal accountability is not independent of institutional design. The findings reported here,
+however, suggest that the very institutional arrangement that brought about the need for
+derivative liability may end up biasing it.
+
+References
+
+Arnold, R. Douglass (1990) The Logic of Congressional Action. New Haven, CT: Yale Univ. Press.
+Barkow, Rachel E. (2010) "Insulating Agencies: Avoiding Capture Through Institutional Design," 89
+
+         Texas Law Rev. 15.
+Bartling, Bjorn, & Urs Fischbacher (2012) "Shifting the Blame: On Delegation and Responsibility," 79
+
+         Rev. of Economic Studies 67.
+Bazerman, Max H., Joshua D. Greene, Karim S. Kassam, & Neeru Paharia (2009) "Dirty Work, Clean
+
+         Hands: The Moral Psychology of Indirect Agency," 109 Organizational Behavior & Human Decision
+         Processes 134.
+Bressman, Lisa Schultz (2003) "Beyond Accountability: Arbitrariness and Legitimacy in the Adminis-
+         trative State," 78 New York Univ. Law Rev. 461.
+Coffman, Lucas C. (2011) "Intermediation Reduces Punishment (and Reward)," 3(4) American Eco-
+         nomic J. 77.
+Cushman, Fiery, Yoel Inbar, & David A. Pizarro (2011) "Benefitting from Misfortune: When Harmless
+         Actions are Judged to be Morally Blameworthy," 38(1) Social Psychology Bulletin 52.
+Cutler, Fred (2004) "Government Responsibility and Electoral Accountability in Federations," 34
+         Publius: The J. of Federalism 19.
+Elmendorf, Christopher, & David Schleicher (2012) "Districting for a Low-Information Electorate,"
+         121(7) Yale Law J. 1846.
+Epstein, David, & Sharyn O'Halloran (1999) Delegating Powers: A Transaction Cost Politics Approach to
+         Policy Making Under Separate Powers. Cambridge Univ. Press.
+Erat, Sanjiv (2013) "Avoiding Lying: The Case of Delegated Deception," 93 J. of Economic Behavior &
+         Organization 273.
+Farber, Daniel A., & Philip P. Frickey (1991) Law and Public Choice: A Critical Introduction. Chicago, IL:
+         Univ. of Chicago.
+Ferejohn, John (1986) "Incumbent Performance and Electoral Control," 50 Public Choice 5.
+------ (1999) "Accountability and Authority: Toward a Political Theory of Accountability," in A.
+         Przeworski, ed., Democracy, Accountability, and Representation. Cambridge Univ. Press.
+Fershtman, Chaim, & Uri Gneezy (2001) "Strategic Delegation: An Experiment," 32(2) RAND J. of
+         Economics 352.
+Fiorina, Morris P. (1982) "Legislative Choice of Regulatory Forms: Legal Process or Administrative
+         Process," 39(1) Public Choice 33.
+Fox, Justin, & Stuart Jordan (2011) "Delegation and Accountability," 73(3) J. of Politics 831.
+
+2033 S. Ct. at 1873.
+338 Hill
+
+Freeman, Jody (2000) "The Private Role in Public Governance," 75(3) New York Univ. Law Rev. 543.
+Gailmard, Sean, & John W. Patty (2012) Learning While Governing: Expertise and Accountability in the
+
+         Executive Branch. Chicago, IL: Univ. of Chicago Press.
+Gersen, Jacob E. (2010) "Unbundled Powers," 96(2) Virginia Law Rev. 301.
+Grossman, Zachary, & Regine Oexl (2012) "Delegating to a Powerless Intermediary: Does it Reduce
+
+         Punishment?"16(3) Experimental Economics 306.
+Hamman, John R., G. Loewenstein, & R. A. Weber (2010) "Self-Interest Through Delegation: An
+
+         Additional Rationale for the Principal-Agent Relationship," 100 American Economic Rev. 1826.
+Hamman, John R., Roberto A. Weber, & Jonathan Woon (2011) "An Experimental Investigation
+
+         of Electoral Delegation and the Provision of Public Goods," 55(4) American J. of Political Science
+         737.
+Hayashi, Andrew T. (2013) "Occasionally Libertarian: Experimental Evidence of Self-Serving Omission
+         Bias," 29(3) J. of Law, Economics, & Organization 711.
+Holmes, Stephen (1995) Passions and Constraint. Chicago, IL: Univ. of Chicago Press.
+Hsee, Christopher K., & Jiao Zhang (2010) "General Evaluability Theory," 5(4) Perspectives on Psycho-
+         logical Science 343.
+Huber, Gregory A., Seth J. Hill, & Gabriel S. Lenz (2012) "Sources of Bias in Retrospective Decision
+         Making: Experimental Evidence on Voters' Limitations in Controlling Incumbents," 106(4)
+         American Political Science Rev. 720.
+Huber, John D., & Charles R. Shipan (2002) Deliberate Discretion?: The Institutional Foundations of
+         Bureaucratic Autonomy. Cambridge Univ. Press.
+James, Oliver (2010) "Performance Measures and Democracy: Information Effects on Citizens in Field
+         and Laboratory Experiments," 21(4) J. of Public Administration Research & Theory 399.
+Kagan, Elena (2001) "Presidential Administration," 114 Harvard Law Rev. 2245.
+Knutson, Kristine M. (2010) "Behavioral Norms for Condensed Moral Vignettes," 5 Social Cognitive &
+         Affective Neuroscience 378.
+Kutz, Christopher (2007) Complicity: Ethics and Law for a Collective Age. Cambridge Univ. Press.
+Lupia, Arthur (1994) "Shortcuts Versus Encyclopedias: Information and Voting Behavior in California
+         Insurance Reform Elections," 88 American Political Science Rev. 63.
+Lupia, Arthur, & Mathew D. McCubbins (1994) "Learning from Oversight: Fire Alarms and Police
+         Patrols Reconsidered," 10(1) J. of Law, Economics, & Organization 96.
+Majone, Giandomenico (1999) "The Regulatory State and its Legitimacy Problems," 22 West European
+         Politics 1.
+Manning, John F. (1996) "Constitutional Structure and Judicial Deference to Agency Interpretations
+         of Agency Rules," 96(3) Columbia Law Rev. 612.
+Mesquita, Ethan Bueno de, & Dimitri Landa (2008) "An Equilibrium Theory of Clarity of Responsibil-
+         ity," unpublished manuscript.
+Nadler, Janice (2012) "Blaming as Social Process: The Influence of Character and Moral Emotion on
+         Blame," 75(1) Law & Contemporary Problems 1.
+Nzelibe, Jide O., & Matthew C. Stephenson (2010) "Complementary Constraints: Separation of Powers,
+         Rational Voting, and Constitutional Design," 123(3) Harvard Law Rev. 617.
+Rodgriguez, Cristina M. (2010) "Constraint Through Delegation: The Case of Executive Control Over
+         Immigration Policy," 59 Duke Law J. 1787.
+Romano, Roberta (2012) "Regulating in the Dark," in C. Coglianese, ed., Regulatory Breakdown: The
+         Crisis of Confidence in U.S. Regulation. University of Pennsylvania Press.
+Schoenbrod, David (1993) Power Without Responsibility: How Congress Abuses the People Through Delegation.
+         New Haven, CT: Yale Univ. Press.
+Stephenson, Matthew C. (2006) "Legislative Allocation of Delegated Power: Uncertainty, Risk, and the
+         Choice Between Agencies and Courts," 119(4) Harvard Law Rev. 1035.
+------ (2008) "Optimal Control of the Bureaucracy," 107 Harvard Law Rev. 53.
+Stephenson, Matthew C., & Jide O. Nzelibe (2010) "Political Accountability Under Alternative Insti-
+         tutional Regimes," 22(2) J. of Theoretical Politics 139.
+Does Delegation Undermine Accountability  339
+
+Stewart, Richard B. (1975) "The Reformation of American Administrative Law," 88(8) Harvard Law
+         Rev. 1667.
+
+Tyler, Tom R. (2010) Why People Cooperate: The Role of Social Motivations. Princeton, NJ: Princeton Univ.
+         Press.
+
+Weingast, Barry R. (1984) "The Congressional-Bureaucratic System: A Principal Agent Perspective
+         (with Applications to the SEC)," 44 Public Choice 174.
+
+Wiltermuth, Scott S. (2011) "Cheating More When the Spoils Are Split," 115 Organizational Behavior &
+         Human Decision Processes 157.
+
+Supporting Information
+Additional supporting information may be found in the online version of this article at the
+publisher's website:
+
+Online Appendix
+

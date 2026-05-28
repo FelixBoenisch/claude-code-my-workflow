@@ -1,0 +1,1195 @@
+Strategic Delegation: An Experiment
+Author(s): Chaim Fershtman and Uri Gneezy
+Source: The RAND Journal of Economics, Vol. 32, No. 2 (Summer, 2001), pp. 352-368
+Published by: Wiley on behalf of RAND Corporation
+Stable URL: http://www.jstor.org/stable/2696414 .
+Accessed: 22/06/2014 09:58
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at .
+http://www.jstor.org/page/info/about/policies/terms.jsp
+.
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide range of
+content in a trusted digital archive. We use information technology and tools to increase productivity and facilitate new forms
+of scholarship. For more information about JSTOR, please contact support@jstor.org.
+.
+
+                   Wiley and RAND Corporation are collaborating with JSTOR to digitize, preserve and extend access to The
+                   RAND Journal of Economics.
+
+http://www.jstor.org
+
+                                           This content downloaded from 195.78.109.119 on Sun, 22 Jun 2014 09:58:31 AM
+                                                                All use subject to JSTOR Terms and Conditions
+                                                                                                                                RAND Journalof Economics
+                                                                                                                                Vol. 32, No. 2, Summer 2001
+                                                                                                                                pp. 352-368
+
+Strategic delegation: An experiment
+
+Chaim Fershtman*
+and
+Uri Gneezy**
+
+Weexaminethe effectsof strategicdelegationin a simple ultimatumgame experiment.Weshow
+thatwhentheproposeruses a delegate,hershare increasesbothwhenthedelegate is optionalor
+mandatory.Thisis truedespitethefact thatthedelegatecannotbe usedas a commitmentdevice.
+Wealso show that unobserveddelegationby the responderreducesher share,as her delegate is
+
+perceivedto be morewilling to accept toughoffers.
+
+1. Introduction
+
+* Inmanytypesof games,playerspreferto sendagentswhoplaythegameontheirbehalf.Why
+doplayersuse agentsto playgames?Thereareseveralpossibleexplanationsforthisphenomenon.
+First,in some games,playerschoose agentswho havespecialskillsthatmakethembetterplayers.
+Forexample,playersmay sendlawyersto negotiateon theirbehalfif knowledgeof the law may
+yield an advantagein the negotiation.Second, players may send agents when they are under
+the impressionthatthese agents are more intelligent or more experiencedthanthemselves and
+thereforemay play the game better.This explanation,however,relies on a boundedrationality
+argumentin which some playersaremoreablethanothers(theycanthinkfaster,calculateall the
+possible contingencies,think aboutcreativealternatives,etc.) and these abilities are important
+for playing the game. Third,delegationmay serve as a commitmentdevice. That is, the mere
+possibility of using an agent may give the playeran advantagein the game, as it allows him to
+commit to a certainbehavior.The role of delegates as a commitmentdevice has been termed
+strategicdelegationin the literatureandhas been discussedextensivelysince Schelling (1960).1
+
+      Themainstructureof a delegationgameentailsanadditionalprimarystagein whichplayers
+mayhiredelegatesandeithergive theminstructionson how to play or sign compensationscheme
+contractsthatrewardthe delegates accordingto theirperformance.The compensationscheme
+may or may not be publicly observable.The possibility of observinga delegate'scompensation
+scheme may drasticallyaffectthe outcomeof the game. Whenthe agent'scompensationscheme
+is observableandirreversiblei,t servesas a commitmentdevice manipulatingthe agent'sstrategic
+
+         *Tel Aviv University;fersht@ccsg.tau.ac.il.
+
+        **Technion;gneezy@ie.technion.ac.il.
+
+       We would like to thankPatricBolton, Eric van Damme, Eddie Dekel, MartinDwefenberg,WernerGuth,Rein-
+hardSelten, AvnerShaked,threeanonymousreferees, and the Editorof this Journalfor many valuablecomments and
+suggestions,andthe CentERfor EconomicResearchatTilburgUniversityfor financialsupport.
+
+         1For the differentaspectsof strategicdelegation,see Caillaud,Jullien, andPicard(1995), FershtmanandJudd
+(1987), Fershtman,Judd,andKalai(1991), FershtmanandKalai(1997), Gal-Or(1996), Green(1990), andKatz (1991).
+
+352                                                                               Copyright0 2001, RAND.
+
+     This content downloaded from 195.78.109.119 on Sun, 22 Jun 2014 09:58:31 AM
+                         All use subject to JSTOR Terms and Conditions
+                                                                              FERSHTMANAND GNEEZY / 353
+
+behavior and thus the outcome of the game. The observabilityassumptionhas drawn harsh
+criticism in the literature.Critics have claimed that when the compensationschemes are not
+observable,delegationcannot serve as a commitmentdevice (see Katz, 1991).2 Although the
+intuitionbehindthisclaimmaybeconvincing,theformalanalysisis notobvious.Inarecentarticle,
+FershtmanandKalai (1997) analyzeda simple ultimatumgame with unobserveddelegationand
+showedthe conditionsunderwhichdelegation,even whenunobservable,may affectthe outcome
+of the game.
+
+      In this articlewe examine the effects of strategicdelegationin a simple ultimatumgame
+experiment.Ourmainconcernwas to examinethe effect of delegationon how playersperceive
+andplaythegame.Theroleof agencyinbargaininggameswasalsoconsideredby Schotter,Zheng,
+and Snyder (2000). The main issue in that article was the effect of agency on the efficiency of
+the bargaining,that is, whetherone can expect a greaterbreakdownof the bargainingprocess
+when it is executedby agentsratherthanthe originalplayers.We thereforeextendthe discussion
+on delegationand considerthe possibility thatthe use of delegates may in itself affect the way
+playersperceivethe game andconsequentlythe game's outcome.
+
+      Thestandardultimatumgameis atwo-playergame.Atthefirststage,oneplayer,theproposer,
+proposesa division of a given pie betweenhimself andthe otherplayer.At the second stage, the
+otherplayer,the responder,either "accepts"or "rejects"the offer. Acceptance is followed by
+executing the division, while rejection implies that both players get no share of the pie (for
+recent surveys of ultimatumgames, see Camererand Thaler (1995), Guth (1995), and Roth
+(1995)). While theoryimplies that,at equilibrium,the proposergets all (or almostall) of the pie,
+experimentsshow thatmost divisions are not so extremeandthatthe averageoffer is typically
+between30%and50%,withmany50:50 splits.Moreover,low offers(20%orless) arefrequently
+rejected.
+
+       Into the above ultimatumgame setup we introducedagents who representedeither the
+ responderor the proposer.We let the players provide compensationschemes (observableor
+ unobservable)for the agents and then examinedhow the game was played and how it differed
+ fromthe ultimatumgame withoutdelegation.
+
+       Using a messenger to deliver bad messages (or, in our case, low offers) is a commonly
+ observedpractice.Woulda responderreactidenticallyto the same offers madeby the proposer
+ directlyandby theproposer'smessenger?Thisis nota simpleissue. Indoingultimatumgameex-
+ periments,the outcomeusuallydiffersfromtheoreticalsubgame-perfectequilibrium.Arguments
+ with"atasteforfairdivision,"3"normsof behavior,"etc., arecommonlyused to explaindeviation
+ from theoreticalpredictions(see the surveysby Camererand Thaler(1995), Guth (1995), and
+ Roth (1995)). Thatis, the proposerrefrainsfrom makingan "unfair"offer because he is afraid
+ thatsuch an offer will be rejectedsimply for being unfair.However,the same respondermay be
+ willing to acceptthe same offer from an agent if he knows thatit is not the agent who benefits
+ fromtheunfairdivisionand,moreover,thatin punishingtheproposerfor anunfairofferthe agent
+ will also be punished.Similarly,would an agentwho representsthe responderbe as sensitive as
+ the responderhimself to "unfair"offers?After all, thereis no reasonfor the agent to take such
+ offers "personally,"as it is the responderwho is treatedunfairly.
+
+        Ourexperimentindeed indicatedthatthe proposers'payoffs are significantlyhigherwhen
+ they use delegates.Note thatin such a game the proposerhimself has the abilityto make "take-
+  it-or-leave-it"offers.4Thus the advantageof using an agentis not thathe acts as a commitment
+  devicebutsimplythathis participationin thegameinducesdifferentbehaviorfromtheresponder.
+  Thereare severalpossible explanationsfor this phenomenon.One is thatthe delegate's offer is
+  acceptedmore easily by the responderbecause it is not made directlyby the proposerbutby a
+
+            2 See also Dewatripont(1988) for a discussion on the role of delegation as a commitmentdevice when the
+  compensationschemecan be renegotiated.
+
+            3The meaningof "fair"and "unfair"is usually exogenously given and determinedby the normof behaviorin
+  society. It may varyacrosssocieties, groups,gender,etc.
+
+            4 Indeed,theuse of a delegateby the proposerhas no effect on the equilibriumdivision of the pie.
+
+    ( RAND 2001.
+
+                                           This content downloaded from 195.78.109.119 on Sun, 22 Jun 2014 09:58:31 AM
+                                                               All use subject to JSTOR Terms and Conditions
+354 / THERAND JOURNALOF ECONOMICS
+
+thirdparty.Anotheris that the respondermay be less keen to punish the proposerbecause by
+doing so he also punishes the delegate. Given such behavior,the proposeroptimallyprovides
+incentivesto his agentto make tough offers. To test this hypothesis,we conductedan additional
+experimentin which the role of the thirdplayeras a "hostage"was transparentT. his experiment
+was a regularultimatumgame but with a thirdplayer who got a fixed rewardif the proposal
+was acceptedandnothingotherwise.In this experimentthe thirdplayerwas not an agentof the
+originalplayer.Nevertheless,ourresultsindicatethatthe mereexistenceof such a "thirdplayer"
+changesthe outcomeconsiderably.Theproposalsin this gameweresignificantlytougher,andthe
+proposermanagedto capturea largerportionof the pie for himself.
+
+      Theuse of a delegateby therespondermay also dramaticallyalterthe outcomeof the game.
+When the compensationschemes are observable,the use of delegates serves as a commitment
+device. In such a case, theorysuggests thatatequilibriumit is the responderwho gets all the pie.
+Ourexperimentindeedindicatedsuch aneffect. The contractsprovidedby theresponderinduced
+the agentto be tough (50%of the contractswere such thatthe agentreceivedthe full 20 points
+only when he said "yes"to an offer of at least 80%of the pie). As a result,the proposersindeed
+madefarmoregenerousoffers.Therefore,in this case, the outcomeof the experimentcoincides
+with the basic game theoryintuition.
+
+      On the otherhand,ourexperimentindicatesthatwhen the responderhires an agentbutthe
+compensationscheme is unobservable,the responderhimself gets a smaller shareof the pie. A
+possible explanationof this phenomenonis thatthe responders'agentsareperceivedto be more
+willing to accept tough offers. Thatis, the delegate's willingness to punishthe proposerfor an
+ "unfair"proposalmade to a thirdparty(the responder)is less thanthe responder'swillingness
+to punishfor a directunfairproposal.Since the proposerfiguresout this effect in advance,he
+ concludes that he can make a more greedy proposalwith a lower risk of being rejected.Note
+ thatin such a case the outcome of our experimentis closer to the game theory equilibriumof
+ the ultimatumgame.5To test this possible explanationwe conductedyet anotherexperiment,a
+ variationof theultimatumgame. In this variationtheproposerproposeda divisionof thepie, but
+ insteadof theresponderit was athirdplayerwho said"yes"or"no."If anofferwas acceptedit was
+ carriedout,andthethirdplayergot a fixedcompensation.Rejectionimpliedzerocompensationto
+ all players.The mainfindingof this treatmentwas thatthe proposerbenefitedfromthe existence
+ of a thirdplayer,andthe proposalshe madewere tougherthanin the originalultimatumgame.
+
+       In an interestingarticle,Blount (1995) examines the effect of attributionson tradingoff
+ absoluteandcomparativepayoffs in the ultimatumgame. Herexperimentconsists of threetreat-
+ ments.The firstis a regularultimatumgame. The second is an ultimatumgame in which a third
+ partywho does not have any stake in the game makes the offers. In the thirdtreatment,offers
+ ariserandomlyfroma machine.The threetreatmentsaredifferentwithrespectto the self-interest
+ andthe intentionsof the proposers.Blount showed thatthe responderscare aboutintentionand
+ self-interest;theywouldaggressivelyrejectlow offersmadeby self-interestedhumanplayers,and
+ be moreaccommodatingwhenoffersweremadeby a machine.Blountconcludesthatdifferences
+ in causalattributionsregardingthe sourceof theproposalaffectthe behaviorof responders.Note
+ that in our delegationexperiment,both self-interestand intentionwere present.Nevertheless,
+ intuitively,the delegate'sself-interestis not necessarilyas strongas the proposer's.
+
+       The basic setup we studiedwas such that the use of delegates was mandatory.Eitherthe
+ proposeror the responder,in theirturn,had to use the delegate.In reallife, however,delegation
+  is sometimes optional.Players may decide to play the game themselves or to delegate it to an
+  agent. Basic economic intuition suggests that once the outcome of the game with mandatory
+  delegationsis known, the players' choice whetherto delegate or not follows immediately.This
+  is, however,a simplisticview of the optionto delegate.Considerfor examplethe case in whichit
+  is the proposerwho uses a delegate.As we have observed,in this game the delegateis used as a
+
+            5 It is interestingto comparethe outcome of ourRN game with the experimentalresultsfrom the dictatorgame
+  (see Forsytheet al., 1994). Tomakethiscomparisonwe ranthe dictatorgamewith similarinstructions.Ourmainfinding
+  was thateven with the RN game, the offersin the dictatorgame aresignificantlylower thanin the ultimatumgame.
+
+    (C RAND 2001.
+
+                                         This content downloaded from 195.78.109.119 on Sun, 22 Jun 2014 09:58:31 AM
+                                                              All use subject to JSTOR Terms and Conditions
+                                                                              FERSHTMANAND GNEEZY / 355
+
+hostage,since therespondercannotpunishtheproposerwithoutpunishingthedelegate.Butif the
+responderknows thattheproposerhadthe choice of whetherornot to use the agentas a hostage,
+this informationmay affecthis willingness to punishthe proposereven at the cost of punishing
+the agent. To examine this issue, we conducteda furtherexperimentin which we studiedthe
+case of observabledelegationby theproposerbutwith anoptionaldelegation.Almost75%of the
+proposersin this treatmentrecognizedthe advantageof delegationand chose this option rather
+thanmakinga directproposal.However,the fact thatdelegationwas optional(not mandatorya, s
+in the gamewith observabledelegationby theproposer)didnot affectthegame'soutcome.There
+was no significantstatisticaldifferencebetween the proposalsand the payoffs in the treatment
+with optionalandmandatorydelegation.
+
+2. Setup and design of the delegation game
+
+* We conductedfourexperimentalsessions, administeredin writingandheldin regularclass-
+rooms.Insessions 1through4 we had60,42,51, and39 participantsr,espectively(192 altogether).
+Participantsweremostlyfirst-yeareconomicsstudentsrecruitedvoluntarilyin theirclasses. They
+were informedthatthe experimentwould consist of two parts,andthatthey would be given the
+instructionsfor the secondpartonly aftercompletingthe first.
+
+      PartI in all sessions was a simple ultimatumgame. In this game, 100 "points"were to be
+dividedbetweentwo players,a "proposer"anda "responder."A6t the firststage of the game, the
+proposerproposeda divisionof the 100 points.7If the responderacceptedthe division,thenboth
+playersgot theirshares.If the responderrejectedthe offer,thenbothplayersreceivedzero. (The
+instructionsfor partI aregiven in the Appendix.)
+
+      PartII of the experimentexaminedthe following four variationsof ultimatumgames with
+delegation:delegatescouldbeusedby theproposerorby therespondera, ndthedelegationcontract
+ could be observableor unobservable.
+
+       Clearly,in a two-partexperimentsome degree of learningmay take place. For example,
+ Guth,Schmittbergera, nd Schwarze(1982) studiedan ultimatumgame played by playerstwice
+ and found some differencebetween the two plays (see also Roth, 1995). Althoughmost of our
+ conclusionswerederivedfromcomparingthe secondpartsof the experiments,we also compared
+ the outcomewith the benchmarkoutcomefromthe firstpart.
+
+       To establishthat we could make such a comparison,we ran a (twice) repeatedultimatum
+ gamewitha simplesetupas ourmaintreatmentsT. heinstructionsforpartI of thistreatmentwere
+ the same as the instructionsfor partI of ourmaintreatment.In partII playerswere askedto play
+ the ultimatumgame again.The averageproposalin partI was 58.6, while in partII it was 59.3.
+ This differenceis not statisticallysignificant.We cannotreject the hypothesisthatthe samples
+ come fromthe samedistribution(z = .096, prob > Iz is .9238). Note thatoursetupwas different
+ fromthatreportedby Guth,Schmittbergera, ndSchwarze(1982), as in ourcase participantsdid
+ not receive anyinformationaboutthe outcomeof partI beforeplayingpartII.
+
+ w Delegation by the proposer. In the firstsession, hereaftercalled the PO game (observable
+ delegationby the proposer),the proposeruses a delegate to make the proposalon his behalf.
+ An extra 20 points are availableto the proposerexclusively for use in providingan incentive
+ scheme for the delegate.Thatis, if as partof the incentivescheme not all the 20 points arepaid
+ to the delegate,none of the originalplayersmay claim the remainingpoints. Undersuch rules,
+ delegationis costless; the pie to be dividedbetweenthe proposerandthe responderremainsthe
+ same size with or withoutdelegation,which allows a simple comparisonbetween the different
+  scenariosthatwe investigate.
+
+          6We used pointsinsteadof money in orderto have a pie of 100. The conversionratewe used was 5 points= f 1.
+  At the time of the experiment,September1996, f 1.6 = $1.
+
+            7 The possibilityexists thatboththe proposerandthe responderwill employ agents,butwe do not considersuch
+  a case in this article.
+
+   ? RAND 2001.
+
+                                         This content downloaded from 195.78.109.119 on Sun, 22 Jun 2014 09:58:31 AM
+                                                             All use subject to JSTOR Terms and Conditions
+356 / THERAND JOURNALOF ECONOMICS
+
+      The procedurefor partII of the first session is as follows. At the first stage, the proposer
+hires an agentandsigns a publicly observedcompensationcontractthatspecifies the agent'sfee
+as a functionof the numberof points the proposerwill receive.At the second stage of the game,
+the agentproposesa division of the 100 points andthe responderhas to reply with "accept"or
+"reject."The finaldivisionis similarto the originalultimatumgame (partI) whereinthe delegate
+receives the points accordingto his compensationscheme, butonly if the responderacceptsthe
+proposal(i.e., the payoff to the agent is also contingenton whetherthe proposalis acceptedor
+rejected).The instructionsfor this partaregiven in the Appendix.
+
+      The second session of the experiment,hereaftercalled the PN game, is the same as the PO
+game butthe delegate'scompensationscheme in this case is not observed.
+
+      All subgame-perfectequilibriaof the PO game have the following structure:The proposer
+provides the agent with the compensationscheme of paying him a points; 0 < a < 20 if he
+proposes99 points to him and 1 point to the responder;for any otherproposalthe delegatewill
+receive b points; 0 < b < a. The delegate indeed offers the division 99:1 and the responder
+accepts.The equilibriumof the PN game is the same as thatof the PO game.8
+
+      Do we expect any strategicdelegationin PO andPN games?Accordingto the structureof
+the game itself, the proposeralreadyhas the power to make "take-it-or-leave-it"offers and so
+cannotbenefitfrom using agents as a commitmentdevice. Ourfirsthypothesisis thereforethat
+the outcomeof the PO andPN games will be the same as the outcomein the regularultimatum
+game.
+
+      The competinghypothesisis thatthe proposermay benefit from the use of a delegate. A
+possible rationalefor such a hypothesisis thatthe proposermay use the delegateas a shield that
+ allows him to give low offers indirectly.Thatis, if the proposersuggests a division in which he
+ takesmost of the pie, he runsthe riskthatthe responderwill "reject"the proposalto punishthe
+ proposerfor an "unfair"offer. It is not clear that the responderwill react the same way to an
+ "unfair"offer made by a thirdparty,particularlywhen punishingthe originalproposerimplies
+ automaticallypunishingthe "innocentbystander"agent. We may accept the view that players
+ may choose to punishproposerswhen they offerunfairdivisions,even at some cost to them,but
+ it is unclearwhetherthey arewilling to punishplayerswho arenot to be blamed.9
+
+       Wedo nothavea specifichypothesisforthePN game, as the above"hostage"argumentalso
+ holds for this case. The questionis, of course,whetherit is possible to use the agentas a hostage
+ even whenthe contractwith him is unobservable.
+
+ [C Delegation by the responder. Inthethirdsession of theexperiment,hereaftercalledtheRO
+ game,the responderuses a delegateto respondto the offer madeby the proposer.The responder
+ mayuse theextra20 pointsto providetheagentwithanincentivescheme.TheROgameproceeds
+ as follows. At the outset of the game the respondersigns a publicly observedcontractwith the
+ delegate.At the second stage the proposer,afterobservingthe delegate'scompensationscheme,
+ proposes a division of the 100 points. At the last stage, the delegate either accepts or rejects
+ the offer.Regardingthis game, we examinethe hypothesisthatthe use of observabledelegation
+ providesan advantageto the proposerwho uses the delegateas a commitmentdevice.
+
+       The fourthsession of the experiment,hereaftercalled the RN game, is the same as the RO
+ gameexceptthatthedelegate'scompensationschemeis unobserved.Theresponderuses anagent,
+ butthe compensationscheme thathe providesto this agentcannotbe observedby the proposer.
+
+       In consideringthe role of observabilitywe examinethreecompetinghypotheses:
+        (i) Unobservabledelegationis not effective, so the outcome of the RN game will not be
+  significantlydifferentfromthe outcomeof the originalultimatumgame.Thishypothesisis in the
+  spiritof Katz(1991), who arguesthatin the RN game, delegationdoes not affectthe outcomeof
+  the game;in particulart,herespondercannotbenefitfromstrategicprecommitmentT. he (rational
+
+            8 One can also supportthe 100:0division as a subgame-perfectequilibrium.
+            9We examinethis explanationin a separateexperiment,which is describedin Section 4.
+
+   (D RAND 2001.
+
+                                         This content downloaded from 195.78.109.119 on Sun, 22 Jun 2014 09:58:31 AM
+                                                              All use subject to JSTOR Terms and Conditions
+                                                                                        FERSHTMAN AND GNEEZY / 357
+
+agent)equilibriumof thisgame, as suggestedby Katz,is thatthe responderprovidesthe compen-
+sationscheme:"Iwill give you 20 points as long as you acceptanypositive offer."The proposer
+thenoffersthe division of 99 to himself and 1 to the responderandthe delegate"accepts"such a
+proposal.
+
+      (ii) The respondermay benefitfromusing an agent even when the incentive scheme is not
+publicly observed.This hypothesisis in the spiritof Fershtmanand Kalai (1997), who showed
+that commitment via delegation might be beneficial even when the compensation scheme is
+unobservable.The potentialfor suchbenefitsdependson the type of delegation(incentiveversus
+instructive),the possibilityof repetition,andthe probabilityof observability.
+
+      (iii) The responderwill be worse off throughusing an agent. Once the responderuses an
+agentandthe incentiveschemeis unobserved,theproposals,as well as his expectedpayoffs, will
+be lower.In such a case the responderis clearlybetteroff not using an agent.10
+
+3. Results
+
+* The basic questionin each of the four types of delegationgames is whetherthe use of a
+delegatechangestheoutcomeof thegameandunderwhatcircumstancesaproposer(orresponder)
+may expect to benefit (or suffer)from the use of a delegate. The outcome of our experimentis
+describedin TableA2 in the Appendix,in which we presentall the proposalsthatwere madein
+each of the fourgames,includingproposalsthatwere rejected.In Table1 we presentthe average
+proposaland the averagepayoffs (takinginto accountthe rejections)for each partof our four
+games.
+
+      In the first partof Table 1, we presentthe results for partI of the experiment,in which
+playersplayedthe ultimatumgame withoutdelegation.In the secondpartof the tablewe present
+the averageproposalandpayoffs (to both the proposerandthe responder)in the fourdelegation
+ games that we studied. Before elaboratingon these results, it will be useful to describe the
+ distributionof the proposalsmade in each variationof the delegation game. This is shown in
+ Figures 1 through4.
+
+       Before turningto a moreformaltestingof ourresults,we providea pairwisecomparisonof
+ the outcomes of the ultimatumexperimentsof the differentgames (see the Appendix).Ourtest
+ indicatesthatthereis no significantex ante differencebetween the groups.
+
+       Now we turnto test ourhypothesisregardingthe differenteffects of delegation.Todo so we
+ compare,for each game, the outcomesof partI (the ultimatumgame) with the outcomesof part
+ II (the delegatedgame). For comparison,we use the Mann-WhitneyU test. We reportthe test
+ resultsin Table2.
+
+TABLE 1  The Average Proposal and the Average Payoffs in the Four Games
+
+Without agent:              PO Game  PN Game                             RO Game      RN Game
+Averageproposal
+                              56.67    55.71                               57.69        55.50
+Averageprofitfor proposer     47.67    49.52                               49.23        48.00
+Averageprofitfor responder    38.96    40.96                                39.23        42.00
+
+With Agent:                 64.50    59.29                               47.06           66.92
+Averageproposal             60.50    52.86                               39.41           57.69
+                            36.50    40.00                               48.82           26.93
+Averageprofitfor proposer
+
+Averageprofitfor responder
+
+        10We discuss the gamein which delegationis optionalin Section4.
+
+(C RAND 2001.
+
+         This content downloaded from 195.78.109.119 on Sun, 22 Jun 2014 09:58:31 AM
+                             All use subject to JSTOR Terms and Conditions
+358 / THERAND JOURNALOF ECONOMICS
+
+FIGURE 1
+DISTRIBUTIONOF PROPOSALS MADE IN GAME PO
+
+                Game PO: Observedcontractbetweenthe proposerandthe agent
+       .45
+
+        .4 E_                                              Withoutagent
+       .35                                             E Withagent
+
+       CZ)
+            .3
+
+         o.25
+
+       CD
+             .2
+
+       CZ
+
+       CD
+
+            .15
+
+       .05
+
+           0           10 20 30 40 50 60 70 80 90 100
+                 0                      Numberof pointsforthe proposer
+
+o The PO game. Whentheproposerused anagentwith anobservablecompensationscheme,
+the averageproposalrose from 56.7 to 64.5 and the averagepayoffs to the proposerrose from
+47.7 to 60.5 (see Table 1). FromTable2 it is evidentthatwhen using a delegate the proposers
+madesignificantly(at a .95 level of significance)higherproposals(a largersharefor themselves
+anda lower sharefor the responder),andtheirprofitswere significantlyhigheras well.
+
+F The PN game. From Table 1 we see that when the proposer used an agent but the
+compensationscheme was unobserved,the averageproposal rose from 55.7 to 59.3 and the
+proposer'spayoffs increasedfrom 49.5 to 52.9. These changes were in the same directionas in
+the PO game, but as indicatedin Table2, they were not significant.
+
+FIGURE 2
+DISTRIBUTIONOF PROPOSALS MADE IN GAME PN
+
+                   GamePN: Unobservedcontractbetweenthe proposerandthe agent
+           .45
+
+            .4                                         ED Withoutagent
+             .                                             Withagent
+           .35
+
+       Ci%Z .3
+
+       CL .25
+
+            .2
+
+       CZ
+
+       ~~~~.1~5~~~~~~~~~~~~~~~...         ...
+
+           .15
+
+       CD
+
+RAND.      .05                     ...    .... ......
+
+       CD              10 20 30 40 50 60 70 80 90 100
+
+             0
+                    0
+
+                 This content downloaded from 195.78.109.119 on Sun, 22 Jun 2014 09:58:31 AM
+                                     All use subject to JSTOR Terms and Conditions
+                                                                            FERSHTMANAND GNEEZY / 359
+
+FIGURE 3
+DISTRIBUTIONOF PROPOSALS MADE IN GAMERO
+
+                                                Game RO: Observedcontractbetweenthe responderandthe agent
+                                         .4
+
+                  .35                                                             L| Withouat gent
+                                                                                        Withagent
+C
+                    .3
+
+          0C .25
+
+          0)
+
+          CZ                             .15~~~~~~~~~~~~~..            ...     .
+
+            a,
+
+          CD .15
+
+average poposal dclinedfrm                                   Numboefr.1 pitse foerathpeayfso ropohserdelndfo
+
+49.2 to 39.4, andtheresponder'saveragepayoffsrose from39.2 to 48.8. FromTables1 and2 we
+learnthatthe responder'suse of a delegatesignificantlyimprovedboththe proposalshe received
+andhis payoffs, providedthatthe agency contractwas observable.
+
+              U) .3 ~~~~~~~~~~~~~~~~~~~~~~... ...
+
+uLInobTsehreveRdN.Farg-oam.m25eT~.a~bI~nl~et~sh~1e~aR~n~Nd~g~2a~wm~~ee~lt~eha~er~rn~et~shp..a.o.tntdheeruunseodbsaen.r..avgedendtebleugtatthioenaignednuccyecdosnitgrnaicftiwcaanst
+changes in the offers made and the payoffs received by both players. The average proposal
+increasedfrom0 55.5 to 66.9, the proposer'saveragepayoff increasedfrom48.0 to 57.7, andthe
+
+FIGURE 4
+
+DaISvrTgRepIBopUsTl IONOF PeRlnOe POSArLoS MA7.DE IoN47GAM,EhRNaeag         aofsofte                                                                                                                        rpse               eciedfo
+
+l4aea9nr2tdhthiasp9a4yt,ahfdftesrspnepe'npe'rvddG0taa.mheeaRe1scN01:5Utfaandt2log0abveessageeiipraytvyfsieN3pdo0uecmonbterr4ao0cftbpeotinwot5eesf0oefanorththebe6re0pevrsb3op.peoons7de0reroa4.n. odt8t0he      rmTbesIad2w    ercie
+
+                                                                                                                                                                                                            ah ge9n0trpsl 100
+
+r- The RN g~ame,                                nteR  aetersodrue           a     gn  uh                                                                                                                    gnycnrc                     a
+
+                                         .4                                           L.WIithout agentl|
+
+                                         .35 _                     --                 | m~W~i~th~ag~e~nt~~ |
+
+                                   I, W         GameRN:Unobervdcnumctbertoepontthfeo prosposderanthagt
+
+0 RAND 2001.am
+   ? RAND200.4
+
+                                             This content downloaded from 195.78.109.119 on Sun, 22 Jun 2014 09:58:31 AM
+                                                                 All use subject to JSTOR Terms and Conditions
+360 / THERAND JOURNALOF ECONOMICS
+
+TABLE 2           Mann-Whitney U Tests with Pairwise Comparisons of the Medians of Outcomes
+                  in Part I and Part II of Each Game
+
+                  PO Game  PN Game  RO Game                                                    RN Game
+
+Profit:proposer   .0119    .5007    .0455                                                      .0682
+Profit:responder  .1273    .6616    .0483                                                      .0326
+Proposal          .0349    .4588    .0254                                                      .0224
+
+Notes:The numbersarethe probabilityof a resultlargerthanIz , wherez is the test statistic.
+
+responder'saveragepayoffsdecreasedfrom42.0 to 26.9.11Surprisinglyt,he effect of unobserved
+delegation,in this case, was in the oppositedirectionto thatin the RO case, in which the agency
+contractwas observable.Thus,the use of an agentwith unobservedcontractmadethe responder
+worse off.
+
+4. Discussion: the different effects of delegation
+
+* The PO game. Inthe regularultimatumgamethe proposerhas the powerto make"take-it-
+or-leave-it"offers, so theorysuggeststhatthe proposerwill receivethe entiresurplus.Clearly,in
+sucha case thereis no role for agency as a commitmentdevice. Yetthe resultsof ourPO session
+indicatethatthe proposers'payoffs aresignificantlyhigherwhen they use agents.
+
+      A possible explanationfor this result is that the existence of the agent may affect the
+responder'swillingness to reject "unfair"offers. In such a game, the agent may be viewed as
+a "hostage"since when the responderpunishesthe proposerhe automaticallypunishesthe agent
+too. Because the proposer is aware of this effect, he induces his delegates to make tougher
+proposals.Note that in the PO session, 4 out of 30 proposals(i.e., 13%)were indeed rejected
+in the ultimatumgame without delegation,but when the proposerused the agent only 1 out of
+the 20 offers (i.e. 5%)was rejected,even thoughthe proposalswere significantlyworse for the
+responder.
+
+      Totest this hypothesiswe conductedan additionalexperimentin which the role of the agent
+as ahostagewas transparent.1I2nthisexperimenttheproposermadea proposalandtheresponder
+accepted or rejected it. There was also a third player with no specific role in the game. The
+third player got 20 points if the offer was accepted and zero points if it was rejected. In our
+experiment,the existence of this thirdplayerinduceda significantchangein the offers madeby
+the proposer.The averageproposalincreasedfrom56.7 to 67.3 (z = 2.195, prob > IzIis .0285).
+This experimentindeedimpliesthatthe mereexistence of a thirdplayer,who maybe affectedby
+ the responder'sreaction,has a significanteffect on the offersmadeandconsequentlymaybenefit
+ the proposer.
+
+       Thecontractsgivenby theproposersto theiragentsarespecifiedinTableA4 intheAppendix.
+ It is interestingto note that 10 out of the 20 contractswere monotonic,while 9 contractswere
+ single-pickcontractsin which the proposersignalledclearlythe kind of proposalhe wantedthe
+ agent to make.13It is also evident that in most cases the agents had their own notion of fair
+ division anddid not behaveentirelyas payoff maximizers.For example,in cases 1, 2, and 3 the
+ agents'proposeddivisionwas greaterthanthe minimumsharethatgavethemall of the 20 points.
+ Therewas only one proposal(number8) rejectedin this treatment.The contractin this case was
+ monotonic,such thatthe agentwould have received20 pointshad an offer greaterthanor equal
+
+       1l Oneof thetworejectionsin partIIof gameRN is problematic.Theproposerin thisobservationoffereda division
+of 60:40; theresponderofferedthe agent20 pointsfor acceptingthis offer (contract6 in TableA7), yet the agentrejected
+the proposal.We reportall ourobservationsbutnote thatthe "spirit"'of the above discussion would not changeeven if
+we did not takethis observationinto account.
+
+        12 The experimentwas conductedin a similarway andwith the same type of participantsas ourmainexperiment.
+The instructionsfor this partareavailablefromthe authorson request.
+
+        13 Contract18 was almost a single pick with a maximumpaymentin 50. The agentsindeed made such an offer,
+which was also acceptedby the responder.
+
+? RAND 2001.
+
+                  This content downloaded from 195.78.109.119 on Sun, 22 Jun 2014 09:58:31 AM
+                                      All use subject to JSTOR Terms and Conditions
+                                                                              FERSHTMANAND GNEEZY / 361
+
+to 70 been accepted.However,the agent in this case proposed80. That is, the agent was even
+tougherthanwhattheproposerwantedhimto be. In sucha case theresponderwasreadyto punish
+the agenthimself. It is interestingto comparethis case to cases 12, 17, and 19, in which offersof
+80 and90 were given by the agentandacceptedby the responder.In these threecases, however,
+the agentsindeedrespondedto the delegationcontractsandjust chose theloweroffersthatwould
+maximizetheirown payoffs.
+
+n The PN game. InthePN gamewe didnotidentifyanysignificanteffectof delegation.Casual
+observationof Figure 1 indicatesan increasein the varianceof the offers. However,we prefer
+not to drawany specific conclusion from this partof the experimentbeyond the statementthat
+the observabilityof the incentivecontractchangesthe way playersplay the game. Note however
+thatin this treatment,10 of the 14 delegationcontractswere monotonic,3 were single-pick,and
+1 was flat.
+
+n The RO game. In the RO game, the responderuses an agent. In such a case, the agent
+serves as a commitmentdevice. At the firststage of the game the respondersigns an observable
+compensationscheme with the agent,which allows him to commit not to accept certainoffers.
+Ourexperimentindicatedthattheresponderbenefitsfromthedelegationandhis expectedpayoffs
+increasesignificantly.The delegationcontractsfor this treatmentarespecifiedin TableA6 in the
+Appendix.Note that50% of the contractsare such thatthe agent gets the 20 points only when
+he accepts an offer thatgives the responderat least 80%of the pie. Thus, as the basic theoretic
+intuitionsuggests, in the ROgame the respondersinducedthe agentsto be tough, andas a result
+ the proposersindeedmademoregenerousoffers.
+
+ C The RN game. We findthe outcomeof the RN partof the experimentthe most surprising.
+ Forthis partwe initiallyidentifiedthreecompetinghypotheses.The firstwas thatRN delegation
+ will not affectthe game's outcome.The respondercannotuse the agentas a commitmentdevice
+ because the incentivecontractis not observable.The second hypothesis was that even without
+ observabilitythereis some commitmentvaluein delegation;therefore,the responderwill benefit
+ fromthe use of agents.We learnedthatwe can rejectthese two hypothesesand,to oursurprise,
+ thatthe respondermay expect to end up worse offusing an agentwith unobservedcontract.
+
+       The aboveresultis in contrastto Katz (1991) andFershtmanandKalai(1997). Katzargues
+ that the use of a delegate with an unobservedcontractwill not influence the outcome of the
+ game (i.e., the outcomeswill be similarto those of the ultimatumgame). Fershtmanand Kalai
+ predict that in many cases the use of a delegate influences the game even if the contract is
+ unobserved,so the effect of unobserveddelegationis in the directionof the ROprediction.Note
+ thatalthoughourexperimentexaminesa gamewithunobserveddelegation,it cannotbe viewed as
+ anexperimentevaluatingthedifferentclaimsof KatzandFershtmanandKalai.Ithas alreadybeen
+ well establishedthattheoutcomeof ultimatumbargainingexperimentsdiffersfromthetheoretical
+ subgame-perfectequilibriumof this game. Thus, a differenceobservedin the outcomes of the
+ RO and RN games may be due to the frequentlyobserveddeviationof these experimentsfrom
+ the equilibriumprescribedby game theory ratherthan an indicationof the theoreticalrole of
+ unobserveddelegation.In ouropinion,the contributionof experimentscomparingthe outcomes
+  of the RO andRN games with the originalultimatumgame withoutdelegationis to see how far
+  the use of delegationis helpful, andwhetherplayerstake advantageof strategicdelegationeven
+  when it is unobservable.
+
+        Comparingthe incentive contractsprovidedin the RO game and the RN game indicates
+  thatthe respondersin ourexperimentindeedunderstoodthe role of delegationas a commitment
+  device. In the ROgamethe respondersprovide"aggressive"incentivecontracts.The medianvalue
+  for which the respondergives all the 20 pointsto the agentis the amountof 80 to the responder.
+  In the unobservedcase, the responderrealizes that the unobservabilityimplies that delegation
+  does not have a commitmentvalue, and the medianvalue for the agent to receive all 20 points
+  decreasesto 20 (see TablesA6 andA7 in the Appendix).
+
+    ? RAND 2001.
+
+                                         This content downloaded from 195.78.109.119 on Sun, 22 Jun 2014 09:58:31 AM
+                                                              All use subject to JSTOR Terms and Conditions
+362 / THERAND JOURNALOF ECONOMICS
+
+     A possible explanationof the result in the RN game is that the delegate's willingness to
+punish the proposerfor an "unfair"proposal made to a thirdparty (the responder)is lower
+thanthe originalresponder'swillingness to punishfor a directunfairproposal.The fact thatthe
+proposerfiguresout this effect in advanceinduces him to make a more greedyproposalwith a
+lower risk of being rejected.
+
+      To test this explanation,we conductedan additionalexperimentin which therewas a third
+playerwho respondedto the proposer'soffer.14This thirdplayergot a fixed compensation(20
+points) when he accepted an offer and nothing when he rejected an offer. The division of the
+100 pointsbetween the proposerandthe responderwas done in the same way as in the original
+ultimatumgame. Letting the thirdplayer respondto proposalshad a significanteffect on the
+proposalsmadein the game.The averageproposalindeedincreasedfrom53.3 to 72.5 (z = 2.605,
+prob > IzI is .0092).
+
+C The PO game with optional delegation. So far we have studied the ultimatumgame
+with mandatorydelegationassumingspecificallythatdelegationis mandatoryI. n manyreal-life
+situationsdelegationis optional.Playersmay choose to play the game themselves or to use the
+delegationmechanism.Backwardinduction,however,suggests thatonce playersunderstandthe
+outcomeof the game with mandatorydelegation,when delegationis optionalthey will use this
+optionin the PO andRO games but will refrainfrom using delegates in the RN game andplay
+by themselves.While this may indeedbe the players'behavior,the questionis whetherthe fact
+thatplayershavethe optionto use delegateschangesthe behaviorof theirgame partners.
+
+       To examinethe effect of optionaldelegation,we conductedanexperimentin which we used
+ the PO game as our benchmarkbut let the proposerchoose whetherto delegate or to play the
+ gamehimself. The instructionof this treatmentis similarto the instructionof the PO game, with
+ an additionalstage in which the proposershave to choose whetheror not to delegate.15We had
+ 57 studentsparticipatingin this treatment.Among the 19 proposers,14 (73%)chose to use the
+ delegationoption despite the fact thatit introducedan additionallevel of complexity into their
+ considerations.The averageproposalmadeby the delegate in this treatmentwas 62.9, slightly
+ lower thanthe averagein the PO treatmentwith mandatorydelegation.The averagepayoff of
+ the proposerswas also slightly lower, namely 57.9 (60.5 in the originalPO game). However,
+ thereis no significantstatisticaldifferencebetween the outcomesof the treatmentwith optional
+ delegationandthe originalPO treatment.
+
+ 5. Concluding remarks
+
+ * We describedin this articlean experimentdesignedto analyze the effect of delegationon
+ the outcomes of ultimatumgames. The main conclusion of the experimentis that delegation
+ significantlychanges the outcome of the game. Beyond the standardexplanationsof strategic
+ delegation,ourexperimentsuggeststhatthe introductionof an additionalplayer,the agentin our
+ case, changesplayers'perceptionsof the normof behaviorandwhatconstitutesa fairdivisionin
+ the game they are playing. These suggestions may be extendedbeyond the scope of ultimatum
+  gamesanddelegation.Therearemanygamesin whichthe strategicinteractionmaydeterminethe
+  entranceof a new playerinto the game;an exampleis marketgames, in which entrydeterrence
+  is possible and the firms' actions may affect the possibility of entrance.In such cases, changes
+  in the set of playersmay affect the players' perceptionsof the (fair)normof behavioror other
+  behavioralrules thatthe playerspreferto obey. Such perceptionsaffect the way in which these
+  types of games are played, and thereforechangingthese perceptionsshould be discussed in a
+  strategiccontext.
+
+           14 The experimentwas conductedin a similarway andwith the same type of participantsas ourmainexperiment.
+   The instructionsfor this partareavailablefromthe authorson request.
+
+           15The detailedinstructionscan be obtainedfromthe authorson request.
+
+    C) RAND 2001.
+
+                                           This content downloaded from 195.78.109.119 on Sun, 22 Jun 2014 09:58:31 AM
+                                                               All use subject to JSTOR Terms and Conditions
+                                                  FERSHTMAN AND GNEEZY / 363
+
+Appendix
+
+* This Appendix contains the following: the introductionand instructionsfor partsI and II of the PO game, the
+outcome,a comparisonof the populationin the fourgames, andthe incentivecontractsof the fourgames.
+
+D Introduction. The instructionsaresimple, andif you follow them carefullyyou may earna considerableamount
+of money thatwill be paidto you in cash at theend of the experiment.60 studentsparticipatein this experiment.Eachof
+you is aboutto get an envelopewith a number.This is yourregistrationnumber.Please look at it andthenput it back in
+the envelope withoutletting anyoneelse see it. At the end of the experimentyou will be askedto show the registration
+numberyou have in the envelopeto theexperimenter,andhe will pay you accordingto yourperformance.Do not forget
+to writeyourregistrationnumberon all the formsthatyou will get.
+
+      The experimentconsists of two parts:
+
+D Instructions for part I. In this part, 100 points are to be divided between two persons:the "proposer"and the
+"responder."At the end of the experiment,each of the two personswill get 20 cents for each pointhe will have.
+
+      A proposalabouthow to dividethe 100 pointsbetweenthe two personsis madeby theproposer.Uponreceivingthe
+proposalthe responderis askedto respondby eitheracceptingor rejectingit.
+
+      (i) If the responderacceptsthe proposal,bothhe andthe proposerarepaidaccordingto the proposal.
+      (ii) If the responderrejectsthe proposal,bothpersonsarepaid0 points.
+      The procedurefor partI is as follows: 30 studentswill be selected randomlyto play the role of the proposerin this
+part.Eachproposerwill get a formon whichhe is askedto indicatehis proposalto theresponder.The proposalmustbe in
+multiplesof 10 (0, 10, 20, 30, etc.). Forexample,either0 to the responderand 100 to the proposer,or 10 to theresponder
+and90 to the proposer,etc.
+      Afterthe proposersmaketheirchoice we will collect all the formsin a box, andlet each of the 30 responderstudent
+pickrandomlyone formoutof thebox. Theresponderwill notbe ableto knowwhatis writtenon theformbeforechoosing
+it, andwill neverknowtheidentityof theproposerwithwhomhe was matched(he will only knowtheregistrationnumber
+of thatperson).The responderis askedto indicateon the formwhetherhe acceptsor rejectsthe proposal.We will collect
+the forms and write down the paymentfor each studentfor this part(using the registrationnumbers).Then partII will
+ start.Youwill get the instructionsfor partII afterpartI is concluded.
+
+ D Instructions for part II. This partis similarto partI, butthis time the proposercannotmakethe proposalhimself.
+ Instead,the proposermusthire an "Agent"to makethe proposalon his behalf.First,each proposerwill writea contract
+ with an Agent. The Agent will see the contractbefore decidinghow muchto proposeto the responder.After the Agent
+ makesthe proposalthe responderwill see boththe proposalandthe contractbetween the proposerandthe Agent. Then
+ the responderwill be askedto decide whetherto acceptor rejectthe proposal.
+
+       To pay the Agent, the proposergets 20 points (which he can use only to pay the Agent). If the proposeroffers the
+ Agent less than20 points,the restof the points arelost.
+
+       The procedurefor partII is as follows: 20 studentswill be selected randomlyto play the role of the proposerin this
+ part.Eachof themwill get a form with the tableshownin TableAl.
+
+       Ineachcolumntheproposeris askedto writehow muchto paytheAgentif he gets for himthecorrespondingnumber
+ of points,thatis, if accordingto the Agent's proposalthis amountof points is given to the proposer.Forexample,in the
+ column of 90, the proposeris askedto write how much to pay the Agent if he gets for him 90 points, etc. After all the
+ proposersfill out this tableon the form, we will collect the formsin a box.
+
+       We will thenselect randomly20 studentsout of theremaining40 to play the role of theAgent.EachAgent will pick
+ randomlyone form out of the box, andobservethatthe proposerhe is matchedwith has made.The Agent is now asked
+ to makea proposalto the responder.The formswill be collected againin the box.
+
+       Eachof theremaining20 studentswill be a responder.Eachwill randomlypick one formout of thebox andobserve
+ both the Agent's paymenttable and the proposalmade by the Agent. Then he is asked to decide whetherto accept or
+ rejectthe proposal.The responderis askedto indicatehis choice on the form.
+
+       To summarize,the procedureis shownin FigureAl.
+
+ Remarks.(i) The paymentfromthe proposerto the Agent does not have to be in multiplesof 10. (ii) If the proposalthat
+  the Agent makesis rejected,thenall persons,includingthe Agent, get 0 pointsfor partII.
+
+        We will thencollect all theforms,findouthow muchmoneyeach of you earnedin partI andpartII,andpay each of
+  you privately.This will endtheexperiment.If you haveanyquestionspleaseraiseyourhandandone of the experimenters
+  will come to you.
+
+TABLE Al  Payment from the Proposer to the Agent
+
+Numberof pointsfor  0 10 20 30 40 50 60 70 80 90 100
+   the proposer
+
+Numberof pointsto
+   the agent
+
+                    This content downloaded from 195.78.109.119 on Sun, 22 Jun 2014 09:58:31 AM
+                                        All use subject to JSTOR Terms and Conditions
+364 / THERAND JOURNALOF ECONOMICS
+
+FIGURE Al                                             The Agent -            The Responder
+                                              Observesthe contractand   Observesboththe contract
+                    The Proposer -                                     andthe proposalanddecides
+                 Writesa contractwith              makesa proposal      whetherto accept orreject
+
+                         the agent                                               the proposal
+
+TABLE A2        Proposals Made by Subjects
+
+                PO Game                       PN Game                  RO Game                   RN Game
+
+Number          Without                With   Without  With            Without  With             Without  With
+                 Agent                 Agent   Agent   Agent            Agent   Agent             Agent   Agent
+
+1               80*                    90     80       90*             90*      70*              90*      90
+
+2               80                     90     70*      80              70*      60*              80       80
+
+3               70*                    80*    70       70              70       60               70       80
+
+4               70                     80     60*      70              70       60               60*      80
+
+5               70                     70     60       70              70       60               60       70
+
+6               60*                    70     60       60              70       50               60       70
+
+7               60*                    70     60       60              70       50               60       70
+
+8               60                     70     60       60              60*      50               60       60*
+
+9               60                     60     60       50              60       50               60       60*
+
+10              60                     60     60       50              60       50               50       60
+
+11              60                     60     50       50              60       50               50       60
+
+12              60                     60     50       50              60       40               50       50
+
+13              60                     60     50       40              60       40               50       40
+
+14              60                     60     50       30              60       30               50
+
+15              60                     60     50                       60       30               50
+
+16              50                     50     50                       50       30               50
+
+17              50                     50     50                       50       20               50
+
+18              50                     50     50                       50                        50
+
+19              50                     50     50                       50                        30
+
+20              50                     50     40                       50                        30
+
+21              50                            40                       50
+
+22              50                                                     50
+
+23              50                                                     40
+
+24              50                                                     40
+
+25              50                                                     40
+
+26              50                                                     40
+
+27              50
+
+28              50
+
+29              40
+
+30              40
+
+Averageprofit:
+
+proposer        47.67                  60.5   49.52    52.86           49.23    39.41                48   57.69
+
+Averageprofit:
+
+responder       38.96                  34.5   40.96        40          39.23    48.82                42   26.93
+
+Averageproposal 56.67                  64.5   55.71    59.29           57.69    47.06            55.5     66.92
+
+  Note: Rejectedproposalsaremarkedwith an asterisk.
+
+(C RAND 2001.
+
+                    This content downloaded from 195.78.109.119 on Sun, 22 Jun 2014 09:58:31 AM
+                                        All use subject to JSTOR Terms and Conditions
+                                                                              FERSHTMANAND GNEEZY / 365
+
+D Outcome. The outcome of our experiment is described in Table A2.
+
+D Comparing the population in the four games. We use the nonparametric Mann-Whitney U test based on ranks
+to test whether the samples of the outcomes come from populations having the same median. This is the appropriate test
+because the distributions are not normal. We report the test results in Table A3.
+
+      From the table we learn that with a .95 level of significance (actually, even at a .5 level of significance) we cannot
+reject the hypothesis that each of the two samples compared are from populations with the same median.
+
+D Incentive contracts. The incentive contracts in the four games follow, in Tables A4 through A8.
+
+TABLE A3                Mann-Whitney U Tests with Pairwise Comparisons of the Medians of Outcomes
+                        in the Ultimatum Game by Sessions
+
+                        Games          Games              Games          Games                       Games          Games
+                        1 and2         1 and 3            1 and4         2and 3                      2 and4         3 and4
+
+Profit: proposer        .8934          .6873              .9526          .8139                       .8449           .6657
+Profit: responder       .7449          .8630              .9842          .6378                       .7543           .8767
+Proposal                .7814          .7116              .7215          .5562                       .9169           .5062
+
+Note: The numbers are the probability of a result larger than Iz , where z is the test statistic.
+
+TABLE A4                The Contracts of the PO Game
+
+              Actual                                         Contract (Amount for the Proposer)
+                        __________________________________________
+
+Number    Proposal      0       10     20       30        40      50     60      70                  80      90     100
+
+1                  50   0       10     20       20        20      20     20      20                  20      20     20
+
+2                  60   0       5      10       15        20      20     20      20                  20      20     20
+
+3                  50   0       0      10       15        20      20     20      15                  15      10     10
+
+4                  50   0       5      10       15        18      20     18      0                   0       0      0
+
+5                  50   0       0      0              5   10      20     15      10                  5       0      0
+
+6                  60   0       0      0              0   0       15     20      10                  0       0      0
+
+7                  60   0       0      5              5   10      10     20      10                  0       0      0
+
+8                  80*  0       0      5              5   5       10     10      20                  20      20     20
+
+9                  60   0       0      0              0   0       10     15      20                  0       0      0
+
+10                 70   0       0      0              0   0       0      0       20                  0       0      0
+
+11                 60   0       2      4              6   10      15     18      19                  20      20     20
+
+12                 80   0       2      4              6   8       14     16      18                  20      20     20
+
+13                 70   0       2      4              6   8       10     15      18                  20      20     20
+
+14                 60   0       2      4              6   10      12     15      17                  20      20     20
+
+15                 60   0       2      4              6       8   10     12      15                  20      20     20
+
+16                 70   0       0      0              5       5       5  10      15                  20      20     15
+
+17                 90   2       4          6          8   10      12     14      16                  18      20     20
+
+18                 50      2    8          5          7       0   19     13      16                  0           2          3
+
+19                 90      8        8  10             10  11      14     14      15                  15      18     18
+
+20                 70      9    5          0          7       8       4      3   10                  15          9          3
+
+   Notes: Column 1 presents the game number, column 2 the proposal in this game, and the rest of the columns the
+corresponding contracts. Rejected proposals are marked with an asterisk.
+
+? RAND 2001.
+
+                        This content downloaded from 195.78.109.119 on Sun, 22 Jun 2014 09:58:31 AM
+                                            All use subject to JSTOR Terms and Conditions
+366 / THERAND JOURNALOF ECONOMICS
+
+TABLE A5           The Contracts of the PN Game
+
+           A c tu a l                                    Contract(Amountfor the Proposer)
+
+          Proposal       __ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+Number                   0        10 20 30 40 50 60 70 80 90 100
+
+1              30        20 20 20 20 20 20 20 20 20 20                                                             20
+
+2              40        0        5     10 15 20 20 20 20 20 20                                                    20
+
+3              50        0        3     9     15 20 20 20 20 20 20                                                 20
+
+4              50        0        8 10 12 18 20 20 20 20 20                                                        20
+
+5              50        0        4     8 12 16 20 16 12                                              8      4     0
+
+6              60        0        0     5        5 15 18 20                5                          5      0     0
+
+7              70        0        5     8     10 12 15 20 20 20 20                                                 20
+
+8              60        0        0     0        0     5     10 20 20 20 20                                        20
+
+9              70        0        3     7     10 13 15 19 20 20 20                                                 20
+
+10             70        0        0     0        8 10 15 18 20 10 10                                               10
+
+11             50        0        0     5        5     10 10 15 20 20 20                                           20
+
+12             60           0     0     0        0     5 10 15 20 20 20                                            20
+
+13             80           0     2     4        5     6     8 10 15 20 20                                         20
+
+14             90*          0     2     4        6     8     10     12     14                         16     18    20
+
+  Notes: Column 1 presentsthe game number,column 2 the proposalin this game, and the rest of the columns the
+correspondingcontracts.Rejectedproposalsaremarkedwith an asterisk.
+
+TABLE A6            The Contracts of the RO Game
+
+                                                                      Contract(Amountfor the Responder)
+                Actual Amount __________________________________
+Number for Responder 0 10 20 30 40 50 60 70 80 90 100
+
+   1               50          5 10 15 20 10 5                      10 15                                0 10 20
+
+2                  50          0     5 10 15 18 20 20 20 20 20 20
+
+   3               50          0     5 10 10 15 15 20 20 20 20 20
+
+4                  60          0     0     0        0     0      0 20 20 20 20 20
+
+   5               40*         0     1     1        2     2      5      5 20                              2     1      0
+
+   6               70          0     0     0        0     0      0      0 20 20 20 20
+
+   7               70          0     0     0        0     0      0      0 20 20 20 20
+
+   8               40          0     0     4        6 10 10 16 18 20 20 20
+
+   9                60         0     1     4 10 13 14 15 15 20 20                                                  20
+
+10                  70         0     0     0        0     0      5 10 15 20 20 20
+
+11                  40         0 12 15 15 16 16 18 18 19 20 20
+
+12                  50         0     2     5 10 10 15 15 15 15 20 20
+
+13                  30*        0     3     4        5 11 12 14 17 18 19 20
+
+14                  50         0     2     4        6     8 10 12 14 16 18 20
+
+15                  50         0     2     4        6     8 10 12 14 16 18 20
+
+16                  40         0 15 15 15 15 15 15 15 15 15 20
+
+17                  80         1     1     1        1     1      1      2                             5 10 15 20
+
+  Notes:Column1 presentsthe gamenumber,column2 the amountproposedto the responderin this game, andthe rest
+of the columnsthe correspondingcontracts.Rejectedproposalsaremarkedwith an asterisk.
+
+(C RAND 2001.
+
+                         This content downloaded from 195.78.109.119 on Sun, 22 Jun 2014 09:58:31 AM
+                                             All use subject to JSTOR Terms and Conditions
+                                                          FERSHTMANAND GNEEZY / 367
+
+TABLE A7          The Contracts of the RN Game
+
+                                                                      Contract(Amountfor the Responder)
+                ActualAmount ___________________________________
+Number for Responder 0 10 20 30 40 50 60 70 80 90 100
+
+1         50          20 20 20 20 20 20 20 20 20 20 20
+
+2         20          20 20 20 20 20 20 20 20 20 20 20
+
+3         30          0 20 20 20 20 20 20 20 20 20 20
+
+4         20          0 10 20 20 20 20 20 20 20 20 20
+
+5         10          0 10 20 20 20 20 20 20 20 20 20
+
+6         40          0     5 20 20 20 20 20 20 20 20 20
+
+7         20          0     0 20 20 20 20 20 20 20 20 20
+
+8         30          0     0 20 20 20 20 20 20 20 20 20
+
+9         40*         0     0     0                 0     0 20            0                    0  0   0   0
+
+10        60          0 11 12 13 14 15 16 17 18 19 20
+
+11        30          0     2     4 16 18 19 12 14 16 18 20
+
+12        40*         0     2     4                 6     8 10 12 14 16 18 20
+
+13        40          0     2     4                 6     8 10 12 14 16 18 20
+
+  Notes: Column1 presentsthe gamenumber,column2 the amountproposedto the responderin this game, andtherest
+of the columnsthe correspondingcontracts.Rejectedproposalsaremarkedwith an asterisk.
+
+TABLE A8          The Contracts of the Game with Optional Delegation
+
+          Actual                                   Contract(Amountfor the Proposer)
+
+                  __________________________________________
+
+Number Proposal 0        10 20 30 40 50 60 70 80 90 100
+
+1         50      0      0     0                10     15 20          15     15                   15  15  20
+
+2         50      0      0     0                0 10 20 20 20                                     10  0   0
+
+3         60      0      0     0                0      0  0 20 20 20 20                                   20
+
+4         60      3      6     9 12 15 18 20 20 20 20                                                     20
+
+5         60      0      0     0                0      0  0 20                                 0  0   0   0
+
+   6      70      0      0     5                5      10 10 15 20 20 20                                  20
+
+   7      70*     0      0     0                0      0  10          12     15 20                    20  20
+
+   8      60      10 10 10 10 12 14 16 18 20 20                                                           20
+
+   9      50      0      0     0                0      0 10           0                        0 20 20    20
+
+10        70      0      0     0                0      0  5 10 15 20 20                                   20
+
+11        70       0     0     0                0      0  0           15 18 20 20                         20
+
+12        80       0     0     0                0      0  0           0                        0 20   0      0
+
+13        70       5     5     5                5      10 10 10 15 15 20                                  20
+
+14        60       0     2     4                6      8  10          12     14 16                    18  20
+
+  Notes: Column 1 presentsthe game number,column 2 the proposalin this game, and the rest of the columns the
+correspondingcontracts.Rejectedproposalsaremarkedwith an asterisk.
+
+References
+
+BLOUNT,S. "WhenSocial OutcomesAren't Fair:The Effect of Causal Attributionson Preferences."Organizational
+      Behaviorand HumanDecision Processes, Vol. 63 (1995), pp. 131-144.
+
+CAILLAUD,B., JULLIEN,B., AND PICARD, P. "CompetingVertical Structures:Precommitmentand Renegotiation."
+      Econometrica,Vol. 63 (1995), pp. 621-646.
+
+( RAND 2001.
+
+                  This content downloaded from 195.78.109.119 on Sun, 22 Jun 2014 09:58:31 AM
+                                      All use subject to JSTOR Terms and Conditions
+368 / THERAND JOURNALOF ECONOMICS
+CAMERER, C.F. AND THALER, R.H. "Ultimatums,Dictatorsand Manners."Journal of Economic Perspectives,Vol. 9
+
+      (1995), pp. 209-219.
+DEWATRIPONT, M. "CommitmentThrough Renegotiation-ProofContractswith Third Parties."Review of Economic
+
+      Studies,Vol. 55 (1988), pp. 377-390.
+FERSHTMAN, C. AND JUDD,K.L. "EquilibriumIncentivesin Oligopoly."AmericanEconomicReview,Vol. 77 (1987), pp.
+
+      927-940.
+          AND KALAI, E. "UnobservedDelegation."InternationalEconomicReview,Vol. 38 (1997), pp. 763-774.
+           JUDD, K.L., AND KALAI, E. "ObservableContracts:Strategic Delegation and Cooperation."International
+
+       EconomicReview,Vol. 32 (1991), pp. 551-559.
+FORSYTHER, ., HOROWITZ, J., SAVIN, N.E., AND SEFTON, M. "Fairnessin Simple BargainingExperiments."Gamesand
+
+       EconomicBehavior,Vol. 6 (1994), pp. 347-369.
+GAL-ORE, . "MultiprincipaAl gency Relationshipsas Impliedby ProductMarketCompetition."Journal of Economic
+
+       Managementand Strategy,Vol. 6 (1996), pp. 235-256.
+GREEN, J.R. "StrategicUse of Contractswith ThirdParties."In R.J. Zeckhauser,ed., Strategyand Choice. Cambridge,
+
+       Mass.: MIT Press, 1990.
+GUTH,W."OnUltimatumBargainingExperiments:A PersonalReview."JournalofEconomicBehaviorandOrganization,
+
+       Vol. 27 (1995), pp. 329-344.
+         , SCHMITTBERGER, R., AND SCHWARZEB, . "AnExperimentalAnalysis of UltimatumBargaining."Journal of
+
+       EconomicBehaviorand Organization,Vol. 3 (1982), pp. 367-388.
+ KATZM, .L. "Game-PlayingAgents:UnobservableContractsas Precommitments."RANDJournalofEconomics,Vol. 22
+
+       (1991), pp. 307-328.
+ ROTHA, .E. "BargainingExperiments."In J.H. Kagel and A.E. Roth, eds., TheHandbookof ExperimentalEconomics.
+
+       Princeton,N.J.:PrincetonUniversityPress, 1995.
+ SCHELLING, T.C. TheStrategyof Conflict.Cambridge,Mass.:HarvardUniversityPress, 1960.
+ SCHOTTER, A., ZHENG, W., AND SNYDER, B. "BargainingThroughAgents: An ExperimentalStudy of Delegation and
+
+        Commitment."GamesandEconomicBehavior,Vol. 30 (2000), pp. 248-292.
+
+        RAND 2001.
+
+                                          This content downloaded from 195.78.109.119 on Sun, 22 Jun 2014 09:58:31 AM
+                                                               All use subject to JSTOR Terms and Conditions
+

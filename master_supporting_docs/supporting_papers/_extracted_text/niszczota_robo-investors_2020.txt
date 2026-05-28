@@ -1,0 +1,1089 @@
+PLOS ONE
+
+                                                      RESEARCH ARTICLE
+
+                                                      Robo-investment aversion
+
+                                                      Pawel NiszczotaID1*, Da´ niel Kasza´ s2
+
+                                                      1 Department of International Finance, Pozna University of Economics and Business, Pozna, Poland,
+                                                      2 ETH Zu¨ rich, Chair of Cognitive Science, Zu¨ rich, Switzerland
+
+                                                      * pawel.niszczota@ue.poznan.pl
+
+a1111111111                                           Abstract
+a1111111111
+a1111111111                                           In five experiments (N = 3,828), we investigate whether people prefer investment decisions
+a1111111111                                           to be made by human investment managers rather than by algorithms ("robos"). In all of the
+a1111111111                                           studies we investigate morally controversial companies, as it is plausible that a preference
+                                                      for humans as investment managers becomes exacerbated in areas where machines are
+    OPEN ACCESS                                       less competent, such as morality. In Study 1, participants rated the permissibility of an algo-
+                                                      rithm to autonomously exclude morally controversial stocks from investment portfolios as
+Citation: Niszczota P, Kasza´s D (2020) Robo-         lower than if a human fund manager did the same; this finding was not different if partici-
+investment aversion. PLoS ONE 15(9): e0239277.        pants were informed that such exclusions might be financially disadvantageous for them. In
+https://doi.org/10.1371/journal.pone.0239277          Study 2, we show that this robo-investment aversion manifests itself both when considering
+                                                      investment in controversial and non-controversial industries. In Study 3, our findings show
+Editor: Stefan T. Trautmann, Universita¨t             that robo-investment aversion is also present when algorithms are given the autonomy to
+Heidelberg, GERMANY                                   increase investment in controversial stocks. In Studies 4 and 5, we investigate choices
+                                                      between actual humans and an algorithm. In Study 4 ­which was incentivized­participants
+Received: February 29, 2020                           show no robo-investment aversion, but are significantly less likely to choose machines as
+                                                      investment managers for controversial stocks. In contrast, in Study 5 robo-investment aver-
+Accepted: September 3, 2020                           sion is present, but it is not different across controversial and non-controversial stocks.
+                                                      Overall, our findings show a considerable mean effect size for robo-investment aversion
+Published: September 17, 2020                         (d = ­0.39 [­0.45, ­0.32]). This suggests that algorithm aversion extends to the financial
+                                                      realm, supporting the existence of a barrier for the adoption of innovative financial technolo-
+Copyright: © 2020 Niszczota, Kasza´s. This is an      gies (FinTech).
+open access article distributed under the terms of
+the Creative Commons Attribution License, which       1. Introduction
+permits unrestricted use, distribution, and
+reproduction in any medium, provided the original     We are seeing a strong growth of algorithmic (systematic) investment funds [1, 2] and the
+author and source are credited.                       robo-advisory industry [3­5]. Computer algorithms run funds that account for 35% of the US
+                                                      stock market, and are responsible for 60% of the trading that happens on it [6]. Investment
+Data Availability Statement: All studies have been    decisions are also increasingly perceived to have moral undertones. In January 2020, the
+pre-registered. The pre-registration documents,       world's biggest asset management fund declared that it would not invest in companies that
+data and materials are available at: https://osf.io/  receive more than a quarter of its revenues from the production of coal [7]. This move is in
+gdp42/?view_only=                                     line with the notion that fossil fuel producers listed on stock markets might now be considered
+f6eeccb5e9d34f84928f58c601a7c66f.                     "sin stocks": morally controversial companies whose activities cause much social harm [8, 9].
+
+Funding: This research has been supported by
+grants 2018/31/D/HS4/01814 and 2018/02/X/HS4/
+01703 awarded to PN, from the National Science
+Centre, Poland (https://www.ncn.gov.pl). The
+funders had no role in study design, data collection
+and analysis, decision to publish, or preparation of
+the manuscript.
+
+Competing interests: The authors have declared
+that no competing interests exist.
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0239277 September 17, 2020  1 / 19
+PLOS ONE                                                                                                             Robo-investment aversion
+
+             In this paper, we investigate whether people are averse to "robo" investment managers mak-
+          ing investment decisions, and explore whether machines have a "moral mandate" that would
+          give them legitimacy to perform investment decisions that concern controversial companies.
+          While the study does not deal with investment mechanisms currently available to the average
+          individual investor, progress in the robo-advisory industry suggests that more and more
+          autonomy will be given to machines, with perhaps some of the funds being managed (almost)
+          fully autonomously [5]. A number of automated investment services already offer "ethical"
+          portfolios­however, at a considerable price premium due to the necessity of keeping human
+          fund managers in the loop [10]. Thus, this is a subject worthy of investigation, somewhat simi-
+          lar to the case of autonomous vehicles: even though they are still in a phase that requires
+          human-assistance (i.e., we are still many years from the full automation of road vehicles),
+          researchers find that it is important to know what autonomous vehicles should do when facing
+          a moral dilemma [11, 12]. Given the increasingly important role ethical and environmental
+          considerations play in today's investment landscape [13, 14], it is worth considering if the
+          trend towards integrating moral considerations into investment strategies and the increasing
+          automation of investments are potentially on a collision course [15].
+
+          2. Hypothesis development
+
+          Recent evidence suggests that individuals show an aversion towards computer algorithms
+          under certain conditions. When given the possibility to choose between advice provided by a
+          human or an algorithm, people tend to display a preference for the former and thus exhibit
+          algorithm aversion [16­19]. This algorithm aversion in the original sense can emerge in vari-
+          ous contexts, but a common component is that people have to witness the algorithm making a
+          mistake. In another strand of literature, Bigman and Gray [20] have demonstrated via a series
+          of experiments that decisions with a moral component are perceived to be the domain of
+          humans and not "machines", showing machine-aversion in the moral domain­a tendency that
+          was also documented by Gogoll and Uhl [21]. This effect is not predicated on the presence of
+          previous errors, but is specific to scenarios which have a significant moral component, includ-
+          ing the possibility of serious negative externalities (medical- and military decisions, for
+          example).
+
+             When considering if there are further domains where decisions are often perceived to have
+          a moral character, the world of finance and investments comes to mind. Recent evidence on
+          how moral considerations can affect asset prices [8, 22] and experimental work on the intersec-
+          tion of morality and markets [23] suggest that markets and investments have an inherent
+          moral dimension to them. The increasing demand for investments in companies representing
+          environmentally sustainable and ethical business practices [14] shows that investors are
+          increasingly mindful of the potential negative externalities associated with their choices. Given
+          the parallel trend for morally sound investment practices and the automation of investment
+          decisions [3, 4], questions emerge on the significance of algorithm aversion in investment.
+          Our general hypothesis is that when given the decision to take investment advice from either a
+          human or an algorithm, we expect to observe algorithm aversion. Due to the inherent moral
+          character of investment decisions, furthermore, we hypothesize that this effect will be stronger
+          in cases where the investment opportunities have a strong negative moral valence ("sin
+          stocks").
+
+             In contrast to the definition of algorithm aversion which is widely accepted in the literature
+          [17, 18], we do not link aversion to the success or failure of the algorithms in question. Our
+          approach is conceptually related to Bigman and Gray's [20] and Castelo and colleagues' [16]
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0239277 September 17, 2020  2 / 19
+PLOS ONE                                                                                                             Robo-investment aversion
+
+          findings on people exhibiting a generalized aversion to machines making decisions in tasks
+          which require subjective judgments, in our case moral judgments.
+
+             In essence, we are asking whether individual investors will be comfortable ceding control
+          over their investments to algorithms, and if considerations of morality play a role.
+
+          3. Overview of experimental studies
+
+          In Studies 1­3, our main goal was to test whether people exhibit an aversion towards computer
+          algorithms making investment decisions for them. To test this hypothesis, we implemented a
+          between-subjects design, where participants were assigned to a condition where the fund man-
+          ager was either a human or a computer algorithm. While all of these experiments were
+          intended to test the main hypothesis, each experiment was also meant to investigate the condi-
+          tions that could affect the strength of the proposed effect. In Studies 4­5, we investigate
+          whether algorithm aversion emerges in a simulated investment scenario, where participants
+          have to choose between real human advisors recruited via Mechanical Turk and an actual (arti-
+          ficial neural network) algorithm.
+
+             In Study 1, we investigated whether there is an aversion towards computer algorithms mak-
+          ing investment decisions (which, for simplicity, we henceforth call "robo-investment aver-
+          sion"), by investigating the right to exclude stocks from controversial industries from an
+          investment portfolio. In this study, we also wanted to assess whether permissibility ratings
+          might be different if participants are informed that excluding stocks might lead to worse per-
+          formance of the portfolio. This is consistent with research from the financial literature, show-
+          ing that there is a performance benefit from investing in controversial stocks (sin stocks [8]). If
+          this was the case, then the exclusion of some controversial stocks from the portfolio might
+          indeed hurt portfolio performance (returns).
+
+             In Study 2, we tested whether robo-investment aversion is present both when contemplat-
+          ing the right to exclude companies from controversial industries and non-controversial
+          industries.
+
+             In Study 3, we further investigated how generalizable robo-investment aversion is, by
+          simultaneously looking at the permissibility to exclude (just as in Studies 1 and 2), but also to
+          invest more heavily in controversial companies.
+
+             In Studies 4 and 5, we pitted human advisors against an algorithm, by asking participants to
+          choose between relatively knowledgeable humans and an artificial neural network algorithm.
+          Crucially, we used a between-subjects design that randomly assigned participants to either
+          controversial or non-controversial stocks, allowing us to more fully test whether an aversion
+          towards algorithms is exacerbated in the case of controversial stocks (consistent with an atten-
+          uation in the use of algorithms for investments with moral undertones). In Study 4, we tested
+          the preference for human versus algorithm investment advice in an incentivized experiment,
+          where participants received a bonus if they chose the advisor that was more accurate. In Study
+          5, we tested whether people have a preference for knowledgeable humans over an algorithm,
+          after finding out that they had similar overall performance in a prior task.
+
+             In all experiments, we recruited subjects through Mechanical Turk, and it is worth discuss-
+          ing some issues relating to this design choice. Firstly, a number of studies support the suitabil-
+          ity of Mechanical Turk samples for experimentation (in general [24­26], and in finance-
+          related issues [27, 28], as well). Secondly, Mechanical Turk samples seem to be more represen-
+          tative of the general population than student samples [29], and thus seem more suitable when
+          representing the preferences of people that are owners of companies via pension funds or
+          mutual funds.
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0239277 September 17, 2020  3 / 19
+PLOS ONE                                                                                                             Robo-investment aversion
+
+             Data, materials and pre-registration documents for all studies are available on OSF at
+          https://osf.io/gdp42/?view_only=f6eeccb5e9d34f84928f58c601a7c66f.
+
+          4. Study 1: Exclusion of controversial stocks
+
+          In the first study, we hypothesized that people have an aversion towards computer algorithms
+          excluding controversial companies from stock portfolios, compared to human fund managers.
+
+          4.1. Method
+
+             4.1.1. Participants. We recruited 522 participants via Mechanical Turk, in order to obtain
+          90% power to detect a small-to-medium effect (f = .15). We excluded 56 participants who did
+          not correctly answer an attention check question. One participant did not answer one (out of
+          three) statements, and thus we computed the dependent variable based on the available
+          answers. We analyzed the data of 466 participants, 261 (56%) of which were female. The mean
+          age of participants was 39.2 years (SD = 11.9).
+
+             4.1.2. Procedure. The study had a 2 (first between-subjects factor: portfolio choice made
+          by human fund manager vs portfolio choice made by a computer algorithm) × 2 (second
+          between-subjects factor: absence of penalty resulting from exclusion vs presence of penalty)
+          design. Participants had to imagine that a fund manager or a computer algorithm (depending
+          on which condition they are assigned to) has the autonomy to select companies to stock port-
+          folios for moral reasons, i.e. has the autonomy to exclude (sell or not invest in) companies
+          from a selection of controversial industries. These were presented in the first part of the study,
+          for participants to have a reference point, using the following text:
+
+             Would you feel comfortable if your pension fund invested in companies from the following
+             industries? Please rate on a scale of 1 (not at all) to 7 (completely).
+
+             Participants assigned to the "penalty present" condition additionally read that the exclusion
+          of controversial stocks might lead to a slight reduction in the expected return of the portfolio.
+          The exact instructions are presented below, with the text shown in italics being varied in
+          human vs robo condition, and text in the square brackets being presented only to participants
+          that were in the "penalty present" condition:
+
+             Imagine that a fund manager/computer algorithm had the ability to exclude (sell or not
+             invest in) companies from some of the industries that were listed on the last page. In other
+             words, the fund manager/computer algorithm would have the freedom to take into account
+             moral issues while investing. Thus, he/it would have the autonomy to exclude companies
+             with various ethical, social or environmental issues. [Also imagine that this could poten-
+             tially lead to a slightly smaller expected return (e.g., slightly less money in your pension
+             fund).]
+
+             Participants then rated­on a scale of 1 (strongly disagree) to 5 (strongly agree)­three state-
+          ments adapted from Bigman and Gray [20]:
+
+          1. It is appropriate for a [fund manager/computer algorithm] to make these decisions.
+
+          2. A [fund manager/computer algorithm] should be the one to make these decisions.
+
+          3. A [fund manager/computer algorithm] should be forbidden from making these decisions.
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0239277 September 17, 2020  4 / 19
+PLOS ONE                                                                                                             Robo-investment aversion
+
+             The dependent variable­the permissibility score­was computed as the mean of the three
+          items (after recoding the third item). To test the hypotheses, we performed a two-way
+          ANOVA, that was meant to assess: (1) the main effect of fund manager type (first between-
+          subjects factor) on permissibility to exclude stocks, and (2) the interaction effect between fund
+          manager type and effect of stock exclusion (first and second between-subjects factors).
+
+             Participants in the "robo" condition were informed that "an algorithm is a sequence of
+          computational steps that transform inputs into outputs, similar to a recipe" [30]. The full
+          instructions are available on OSF (https://osf.io/gdp42/?view_only=
+          f6eeccb5e9d34f84928f58c601a7c66f).
+
+             This procedure has been pre-registered (https://aspredicted.org/blind.php?x=k8wm7t) and
+          approved by the Committee of Ethical Research conducted with participation of humans at
+          the Pozna University of Economics and Business (Resolution 5/2019). Informed consent was
+          obtained from all participants. Participants rated how comfortable they would feel if their pen-
+          sion fund invested in the controversial industries (instead of moral appropriateness; however,
+          we use moral appropriateness in Study 2). This was the only amendment to the pre-registra-
+          tion (we decided to change the dependent variable, but erroneously did not incorporate this
+          ultimate change to the pre-registration document).
+
+          4.2. Results
+
+             4.2.1. Main analysis. In line with the main hypothesis, participants rated the permissibil-
+          ity to exclude stocks as higher if the fund manager was human rather than a computer algo-
+          rithm (Mhuman = 2.95 vs Mrobo = 2.64, d = ­0.25; F(1, 462) = 7.83, 2 = .02, p = .005). An
+          analysis of variance determined that there was no interaction between the two factors (F(1,
+          462) = 0.92, 2 = .002, p = .34). There were no significant differences in the permissibility
+          ratings of people that were assigned to conditions where there was no mention of a penalty
+          from excluding controversial stocks or a mention of such a penalty (Mpenalty absent = 2.79 vs
+          Mpenalty present = 2.80, d = 0.004; F(1, 462) = 0.00, 2 < .001, p = .96).
+
+             4.2.2. Additional analyses. As an addition to the pre-registered analyses, we performed a
+          number of complementary tests relating to the general credibility of Mechanical Turk partici-
+          pants for carrying out tasks relating to investment in the stock market. In order to see if differ-
+          ences in investment knowledge affect robo-investment aversion, we collected data on
+          participants' subjective investment knowledge, but also constructed a six-item test to verify
+          their objective investment knowledge, drawing on previous research [31, 32]. The former was
+          assessed using one statement ("My investment knowledge is good"), whereas the latter was
+          assessed using answers to questions such as "Normally, which asset displays the highest fluctua-
+          tions over time: savings accounts, bonds or stocks?". The mean subjective investment knowledge
+          of participants (on a scale of 1 to 7) was 4.11 (SD = 1.60) and was not significantly different in
+          the human and robo condition (t(464) = 1.50, p = .14). The mean score on the investment test
+          was 4.52 (SD = 1.24), and was similarly not different in the human and robo condition (t(459)
+          = 0.41, p = .68). Interestingly, the subjective and objective investment knowledge were very
+          weakly correlated (r = .07, t(464) = 1.56, p = .12). While low levels of correlation between sub-
+          jective and objective measures may be surprising, this is not out of line with previous research
+          [33]. We independently investigated potential differences in robo-investment aversion for
+          individuals with different levels of subjective (declared) and objective (actual) investment
+          knowledge. There was no interaction between the between-individuals factor and neither sub-
+          jective (b = ­0.03, t(462) = ­0.38, p = .70) nor objective (b = 0.07, t(462) = 0.83, p = .41) invest-
+          ment knowledge. Additionally, we split participants in two groups according to their level of
+          investment experience (participants were classified as experienced if they rated themselves or
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0239277 September 17, 2020  5 / 19
+PLOS ONE                                                                                                             Robo-investment aversion
+
+          scored 5 or higher; 42% (54%) of participants were in the high knowledge group based on sub-
+          jective (objective) knowledge). Analyses of variance did not support the existence of an inter-
+          action between fund manager type with neither subjective (F(1, 462) = 0.61, 2 = .001, p = .43)
+          nor objective F(1, 462) = 0.96, 2 = .002, p = .33) investment knowledge groups.
+
+          4.3. Discussion
+
+          The results of the study are consistent with the existence of robo-investment aversion, that is, a
+          preference for human fund managers to make investment decisions, in this case via the exclu-
+          sion of companies from portfolios. This is consequential, as exclusion serves as one form of
+          socially responsible investment [9]. Although the existence of a penalty resulting from exclud-
+          ing morally controversial stocks­performing negative screening [34]­appeared to have some
+          effect on the size of the aversion, the difference was not statistically significant. Hence, our
+          analysis did not support the notion that people judge fund managers differently in a hypotheti-
+          cal setting if it is made explicit that their decision to exclude companies from portfolios might
+          produce lower rewards (expected returns) for investors [8]. Note, however, that it is not clear
+          what the effects of socially responsible and irresponsible investing are, that is if the former or
+          the latter produce higher returns or there is the lack of such differences [35­37].
+
+             While some studies suggest that people might show an aversion towards machines making
+          decisions in the moral domain [20, 21], this does not imply that there will be an absence of a
+          bias against robo-fund managers when investing in conventional (i.e., non-sin) stocks. There-
+          fore, in order to test whether robo-investment aversion generalizes to conventional stocks we
+          designed Study 2, in which participants had to rate either controversial or non-controversial
+          (conventional) companies.
+
+          5. Study 2: Exclusion of controversial vs non-controversial stocks
+
+          In our earlier study, we hypothesized that people have an aversion towards computer algo-
+          rithms excluding morally controversial companies from portfolios (in relation to human fund
+          managers doing the same). In Study 2, we wanted to replicate Study 1's main finding, and also
+          test whether the aversion towards computer algorithms is stronger in the case of controversial
+          than non-controversial stocks. Moreover, we amended what participants were asked in the
+          first stage of the study­instead of being asked about how comfortable they would feel if their
+          pension fund invested in stocks from the shown industries, they were asked how morally
+          appropriate such an investment would be.
+
+          5.1. Method
+
+             5.1.1. Participants. We recruited 1,444 participants via Mechanical Turk, in order to
+          obtain 90% power to detect a small effect of similar size to the more conservative estimate in
+          our previous study (f = .09). We excluded 211 participants who did not correctly answer an
+          attention check question, and additionally two participants that have answered none of the
+          three permissibility questions used to compute the permissibility score (for five participants
+          we computed the scores based on the available ratings). We analyzed the data of 1,231 partici-
+          pants, 569 (46%) of whom were female. The mean age of participants was 38.7 years
+          (SD = 12.4).
+
+             5.1.2. Procedure. The study had a 2 (first between-subjects factor: portfolio choice made
+          by a human fund manager vs portfolio choice made by a computer algorithm) × 2 (second
+          between-subjects factor: controversial stocks vs non-controversial stocks) design. Participants
+          rated how morally appropriate it would be if their pension fund invested in companies from
+          the list of industries that they were shown, using the following text:
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0239277 September 17, 2020  6 / 19
+PLOS ONE                                                                                                             Robo-investment aversion
+
+             Would it be morally appropriate if your pension fund invested in companies from the fol-
+             lowing industries? Please rate on a scale of 1 (not at all) to 7 (completely).
+
+             Participants were then told to imagine the investment scenario. The exact instructions are
+          presented below, with the text shown in italics being varied in the human vs robo condition,
+          and text in the square brackets being presented only to participants that rated controversial
+          stocks:
+
+             Imagine that a fund manager/computer algorithm had the ability to exclude (sell or not
+             invest in) companies from some of the industries that were listed on the last page. [In other
+             words, the fund manager would have the freedom to take into account moral issues while
+             investing. Thus, he/it would have the autonomy to exclude companies with various ethical,
+             social or environmental issues.]
+
+             Afterwards, they rated the permissibility of either a human or computer algorithm to
+          exclude companies from some of the industries. We used the same dependent variable as in
+          Study 1. The controversial stocks we used were the seven industries that participants felt the
+          least comfortable with in Study 1, whereas the non-controversial stocks were selected by us via
+          a pilot study.
+
+             The procedure has been pre-registered (https://aspredicted.org/blind.php?x=cs8xe3) and
+          approved by the Committee of Ethical Research conducted with participation of humans at
+          the Pozna University of Economics and Business (Resolution 6/2019). Informed consent was
+          obtained from all participants.
+
+          5.2. Results
+
+             5.2.1. Main analysis. Prior to analyses, we performed a manipulation check, which con-
+          firmed that participants found that it would be significantly more appropriate if their pension
+          fund invested in non-controversial stocks than in controversial stocks (Mcontroversial = 3.25 vs
+          Mnon-controversial = 5.55; t(1217) = 27.0, p < .001, d = 1.54).
+
+             Once again, consistent with our main hypothesis, participants rated the permissibility of
+          excluding stocks as higher if the fund manager was human rather than an algorithm (Mhuman
+          = 3.45 vs Mrobo = 2.83; F(1, 1227) = 109.71, 2 = .08, p < .001, d = ­0.58). An analysis of vari-
+          ance determined that there was an interaction between fund manager type and stock type (F
+          (1, 1227) = 4.51, 2 = .004, p = .034), suggesting a larger difference in the permissibility rat-
+          ings of human and robo fund managers for non-controversial stocks than for controversial
+          stocks. The effect of stock type was significant, suggesting that people, in general, judge the
+          exclusion of non-controversial stocks to be more permissible than the exclusion of controver-
+          sial stocks (Mcontroversial = 2.96 vs Mnon-controversial = 3.33; F(1, 1227) = 39.22, 2 = .03, p <
+          .001, d = 0.34).
+
+             5.2.3. Additional analyses. Similarly to what was done in Study 1, we investigated
+          whether the degree of robo-investment aversion depended on subjective and objective invest-
+          ment experience. Analyses of variance provided limited support for the existence of an interac-
+          tion between fund manager type and subjective investment experience group (F(1, 1227) =
+          3.73, 2 = .003, p = .054), suggesting that robo-investment aversion was stronger for partici-
+          pants with lower investment experience. However, there was no similar interaction with objec-
+          tive investment experience group (F(1, 1227) = 0.77, 2 = .001, p = .38).
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0239277 September 17, 2020  7 / 19
+PLOS ONE                                                                                                             Robo-investment aversion
+
+          5.3. Discussion
+
+          Whereas robo-investment aversion in Study 1 was equal to d = ­0.25, in participants of Study
+          2 that rated controversial stocks this aversion was noticeably greater (d = ­0.47). However, sur-
+          prisingly, robo-investment aversion was also present in participants that rated non-controver-
+          sial stocks (d = ­0.74). A plausible reason for this increase in effect size is that participants in
+          Study 2 were primed about moral norms when asked to rate how morally appropriate it would
+          be if their pension fund excluded investments in companies from the seven industries pre-
+          sented to them. In contrast, in Study 1 they had to rate how comfortable they would feel, which
+          might not necessarily prime moral norms. Also, in Study 2 we used a subset of controversial
+          industries with which participants felt the least comfortable with and had a high potential to
+          violate social norms, which further facilitated the moral aspect of allocating funds in compa-
+          nies listed on stock markets. While there are relatively clear-cut moral concerns in the case of
+          controversial industries, this is less so the case when it comes to traditionally non-controversial
+          companies. In order to judge the moral appropriateness of investing in such companies, one
+          might need a higher level of moral competence­one that machines are not expected to possess.
+          Finally, participants were not informed that the exclusion of stocks might lead to worse returns
+          (as were half the participants in Study 1).
+
+          6. Study 3: Exclusion vs heavier investment in controversial stocks
+
+          In both previous studies, we hypothesized that people have an aversion towards computer
+          algorithms excluding companies from stock portfolios compared to human fund managers. In
+          our third study, we wanted to test whether apart from an aversion to exclude controversial
+          stocks (as earlier), there is also an aversion towards computer algorithms to invest more
+          heavily in controversial stocks. Therefore, we used a mixed design, where the type of fund
+          manager (human vs robo) was the between-subjects factor (similarly to Study 1 and 2) and
+          decision type (exclusion or heavier investment) was the within-subjects factor. While one
+          might consider exclusion and inclusion opposite sides of the same coin, recent research on the
+          psychological differences between buying and selling decisions [38, 39] hints at the potential
+          existence of asymmetries between how investors approach positive- and negative screening.
+          This might especially be the case when it comes to morally controversial decisions [40].
+
+          6.1. Method
+
+             6.1.1. Participants. We recruited 722 participants via Mechanical Turk. Although this
+          was a significantly lower sample size than the one used in the previous study, one of the factors
+          was within-subjects, which allowed us to retain 90% power from the former studies much
+          more efficiently (with less participants). This change was also intended to test of the robustness
+          of our effect to changes in the design, similar to other studies on machines [20]. We excluded
+          39 participants who did not correctly answer an attention check question. We analyzed the
+          data of 683 participants, of which 387 (57%) were female. The mean age of participants was
+          39.3 years (SD = 12.0).
+
+             6.1.2. Procedure. Participants assessed the moral appropriateness of their mutual fund
+          holding 14 controversial industries (the same industries that we used in Study 1). We changed
+          the investment fund type to account for the eventuality that this might be more believable to
+          some participants (and, at the same time, to test the robustness of our earlier findings). After
+          rating the industries, participants assessed the permissibility of their mutual fund excluding
+          and investing more heavily in companies from some of the controversial industries (the order
+          of presentation was counter-balanced). The design and wording of this study was similar to
+          Studies 1 and 2, but as part of the newly added within-factor, participants were asked not just
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0239277 September 17, 2020  8 / 19
+PLOS ONE                                                                    Robo-investment aversion
+
+          Fig 1. Robo-investment aversion across subsamples. Effects sizes are presented as Cohen's ds. Mean effect sizes are fixed effects, computed using the R
+          package metaviz [58,59]. Error bars correspond to 95% confidence intervals. All mean subgroup effects are significant at the 5% level.
+
+          https://doi.org/10.1371/journal.pone.0239277.g001
+
+                                         about the permissibility of excluding certain stocks, but also about investing more heavily in
+                                         certain stocks.
+
+                                             We used the same dependent variable as in Studies 1 and 2. We performed a mixed
+                                         ANOVA, that was meant to assess: (1) the main effect of fund manager type (between-subjects
+                                         factor) on permissibility, (2) the main effect of decision type (the within-subjects factor) on
+                                         permissibility, and (3) the interaction effect between fund manager type and decision type.
+
+                                             This procedure has been pre-registered (https://aspredicted.org/blind.php?x=d5fg7a) and
+                                         approved by the Committee of Ethical Research conducted with participation of humans at
+                                         the Pozna University of Economics and Business (Resolution 6/2019). Informed consent was
+                                         obtained from all participants.
+
+                                    6.2. Results
+
+                                             6.2.1. Main analysis. An analysis of variance showed that, in general, participants
+                                         rated computer algorithms to be less permitted to make investment decisions than humans
+                                         (Mhuman = 3.48 vs Mrobo = 2.58; F(1, 681) = 130.38, 2 = .14, p < .001, d = ­0.81). Robo-invest-
+                                         ment aversion (see Fig 1C) was present both when fund managers had the autonomy
+                                         to exclude controversial stocks (Mhuman = 3.46 vs Mrobo = 2.64, t(671) = 9.72, p < .001,
+                                         d = ­0.75), and when they had the autonomy to invest more heavily in such stocks (Mhuman =
+                                         3.50 vs Mrobo = 2.53, t(665) = 11.50, p < .001, d = ­0.88). The type of operation (exclusion vs
+                                         heavier investment) did not have a statistically significant effect on permissibility ratings (F(1,
+                                         682) = 0.97, p = .33). However, the interaction between the between-subjects factor (human vs
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0239277 September 17, 2020  9 / 19
+PLOS ONE                                                                                 Robo-investment aversion
+
+                                                   robo fund manager) and within-subjects factor (autonomy to exclude stocks vs autonomy to
+                                                   invest more heavily in stocks) was statistically significant (F(1, 681) = 4.77, 2 = .001, p = .029),
+                                                   consistent with robo-investment aversion being stronger when fund managers had the auton-
+                                                   omy to invest more heavily in controversial stocks than when they had the autonomy to
+                                                   exclude them.
+
+                                                      6.2.2. Additional analyses. In Study 3 we collected data on whether participants held
+                                                   stocks directly and via pension- or mutual funds, in order to see if robo-investment aversion
+                                                   manifests itself in experienced participants. Robo-investment aversion was present both in
+                                                   participants that held stocks directly (dstocks = ­0.73) and those that didn't (dno stocks = ­0.85).
+                                                   Similarly, robo-investment aversion appeared in participants with or without mutual-
+                                                   (dmutual funds = ­0.77 vs dno mutual funds = ­0.83) or pension- (dpension funds = ­0.73 vs
+                                                   dno pension funds = ­0.86) fund holdings. In none of the cases was there an interaction between
+                                                   fund manager type and the holding of stocks or funds (ps > .43). Separate analyses of variance
+                                                   showed that there was no interaction between fund manager type and subjective (F(1, 679) =
+                                                   0.86, 2 = .001, p = .35) or objective investment knowledge group (F(1, 679) = 0.05, 2 < .001,
+                                                   p = .82).
+
+                                                   6.3. Discussion
+
+                                                   In Study 3 we investigated whether robo-investment aversion generalizes to investment deci-
+                                                   sions, in which fund managers decide to allocate more in companies from controversial indus-
+                                                   tries. Consistent with Studies 1 and 2, participants exhibited an aversion towards algorithms
+                                                   making decisions about increased investments in controversial stocks. In fact, the aversion was
+                                                   higher when the fund managers had heavier-investment autonomy instead of exclusion auton-
+                                                   omy. Overall, this supports the robustness of the investigated effect, suggesting that algorith-
+                                                   mic investment funds might be considered a less legitimate way of investing in companies
+                                                   from controversial industries. This suggests that computerized funds might also have lower
+                                                   legitimacy to perform socially responsible investing (e.g., excluding or investing more heavily
+                                                   in "saint" stocks; [22]). This prediction was not tested by us but might be of interest to other
+                                                   researchers.
+
+                                                      We summarize permissibility ratings in Studies 1­3 in Table 1.
+                                                      Studies 1­3 relied solely on hypothetical choices. In order to test actual decisions­as it is
+                                                   often performed in the literature on algorithm aversion [17, 41]­in Studies 4 and 5 participants
+
+Table 1. Permissibility to make investment decisions.
+
+Study        Second factor                              Human                  Robo                 d
+Study 1      Penalty absent                            3.01 (1.22)          2.59 (1.16)  ­0.35 [­0.62, ­0.08]
+            Penalty present                            2.90 (1.24)          2.69 (1.19)   ­0.17 [­0.42, 0.08]
+Study 2                                                2.95 (1.23)          2.64 (1.17)  ­0.25 [­0.44, ­0.07]
+                 Overall                               3.22 (1.07)          2.71 (1.11)  ­0.47 [­0.62, ­0.31]
+Study 3      Controversial                             3.73 (1.01)          2.96 (1.05)  ­0.74 [­0.91, ­0.57]
+          Non-controversial                            3.45 (1.07)          2.83 (1.09)  ­0.58 [­0.69, ­0.47]
+                                                       3.46 (1.09)          2.64 (1.14)  ­0.75 [­0.90, ­0.59]
+                 Overall                               3.50 (1.05)          2.53 (1.14)  ­0.88 [­1.04, ­0.72]
+               Exclusion                               3.48 (1.07)          2.58 (1.14)  ­0.81 [­0.92, ­0.70]
+          Heavier investment
+                 Overall
+
+All studies reported in this table have a 2 × 2 design, with human vs robo investment manager being the first factor, and the second factor reported in the second
+column. SDs are reported in parentheses. d denotes Cohen's d; 95% confidence intervals are reported in the square brackets.
+
+https://doi.org/10.1371/journal.pone.0239277.t001
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0239277 September 17, 2020                                                                                          10 / 19
+PLOS ONE                                                                                                             Robo-investment aversion
+
+          had to decide whether they would prefer humans or an algorithm as advisors in an investment
+          task that mimicked investment reality.
+
+          7. Study 4: Incentivized choice between human and robo
+          investment managers
+
+          In Study 4 we pitted humans against algorithms as investment advisors. In this study we tested
+          in an incentive-compatible manner whether people exhibit algorithm aversion when asked to
+          decide whether they would want actual humans or an actual algorithm to serve as advisors in a
+          simplified investment task. Additionally, the design of the study allows us to once again
+          directly compare whether participants' choices differ for controversial and non-controversial
+          stocks.
+
+             Study 4 is conceptually similar to studies on algorithm aversion by Dietvorst and colleagues
+          [17]. The design has also been guided by O¨ nkal and colleagues [42].
+
+          7.1. Participants
+
+          We recruited 838 participants via Mechanical Turk, allowing us to obtain 80% power detect a
+          10% percentage point difference in choice (between 55 and 65%, set arbitrarily). We excluded
+          133 participants who did not correctly answer an attention check question. We analyzed the
+          data of 705 participants, of which 288 (41%) were female. The mean age of participants was
+          39.4 years (SD = 12.3).
+
+          7.2. Procedure
+
+          Participants saw a series of historical price paths [43, 44] and were asked to decide whether
+          they would prefer their investments in these stocks to be managed by a group of humans with
+          investment knowledge, or by an algorithm (using the nnetar function from the forecast pack-
+          age in R [45], which trains a neural network on the historical price paths to forecast future
+          prices). The knowledgeable humans were the 11 most effective performers in a pilot study
+          (N = 101), carried out earlier on Mechanical Turk: we assessed their investment knowledge
+          using a very brief test (with a maximum score of 3; see Experimental Materials on OSF for
+          details), and then told them to predict the price of the stocks two months after the shown
+          1-year period (252 trading days). We used actual stock prices, but not from the most recent
+          year, to make it harder to identify the price paths from memory. Participants were told that if
+          they chose the advisor that was more accurate (on average) in predicting the stock prices, they
+          would get a bonus, doubling the compensation for participating in the task.
+
+             The experiment had a 2-cell design, where participants were shown the price paths of con-
+          troversial or non-controversial stocks.
+
+             This procedure has been pre-registered (https://aspredicted.org/blind.php?x=ak6th4).
+
+          7.3. Results
+
+          A similar proportion of participants chose human (48%) over algorithm (52%) advice, and
+          thus­in contrast to the earlier studies­there was no evidence of an aversion towards algorithms
+          in the entire sample (2(1) = 1.19, p = .27; d = 0.08). However, the choice of advisor differed in
+          controversial stocks (where 47.8% chose the algorithm; d = ­0.09) and non-controversial
+          stocks (where 56.5% chose the algorithm; d = 0.26), showing a greater reliance on human
+          advice for controversial stocks (2(1) = 5.37, p = .021; d = 0.18).
+
+             7.3.1. Additional analyses. The effect was of similar magnitude for participants that held
+          stocks directly (dstocks = 0.10) and those that didn't (dno stocks = 0.07), but the preference for
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0239277 September 17, 2020  11 / 19
+PLOS ONE                                                                                                             Robo-investment aversion
+
+          machines was not statistically significant at conventional levels. The same pattern appeared in
+          participants with or without pension fund holdings (dpension funds = 0.16 vs dno pension funds =
+          0.05). However, algorithm (machine) appreciation was significant in participants that had
+          mutual fund holdings, in contrast to participants that did not have such holdings (dmutual funds
+          = 0.26 vs dno mutual funds = ­0.11).
+
+          7.4. Discussion
+
+          In contrast to the results of the earlier studies, in Study 4 we found no general aversion towards
+          algorithms, but a difference in the utilization of human advice depending on whether advice
+          concerned morally controversial investments or not. This is consistent with the notion that
+          people might be more reluctant to use robo-investment funds for morally controversial invest-
+          ments. A potential explanation for why we could not produce general aversion towards algo-
+          rithms in Study 4 might be due to differences in the framing and design of the experimental
+          task. While Studies 1­3 concern the morality of investment decisions (with a potential impact
+          on returns), Study 4 concerns performance in a forecasting task between human and algorith-
+          mic agents.
+
+             A plausible reason for the lack of algorithm aversion is that perhaps a considerable number
+          of people consider algorithms to have superior performance over (knowledgeable) humans, at
+          least in this particular task. While we do not believe that such beliefs are responsible for driving
+          the observed effects, we nevertheless decided to conduct an additional study to account for this
+          possibility. To address this potential alternative explanation, in Study 5 we equalize the
+          expected outcomes of humans and the artificial neural network algorithm, allowing us to
+          investigate whether people will prefer humans over algorithms after making it explicit that
+          there are no differences­on average­between them.
+
+          8. Study 5: Choice between human and robo investment managers
+          after outcomes are equalized
+
+          In Study 5 we utilized the same design that we used in Study 4, with a key difference: partici-
+          pants were truthfully informed that the (knowledgeable) humans­that scored a maximum (3
+          out of 3) score on the investment knowledge test in the same pilot study that we describe in
+          Study 4 ­performed similarly to the (artificial neural network) algorithm. However, partici-
+          pants were also informed that humans and the algorithm might differ in their accuracy to pre-
+          dict future prices of certain industries or particular stocks. This was intended to set the
+          conditions for the final test of the hypothesis that the reliance on humans as investment man-
+          agers will be stronger for controversial than non-controversial stocks, assuming that the indus-
+          try itself is a strong enough cue to guide participants' moral compasses.
+
+          8.1. Participants
+
+          We recruited 882 participants via Mechanical Turk. Similarly to Study 4, we wanted to detect a
+          10 percentage point difference, but collected more data to account for a higher (15%) expected
+          exclusion rate of inattentive participants. We excluded 139 participants who did not correctly
+          answer an attention check question. We analyzed the data of 743 participants, of which 335
+          (45%) were female. The mean age of participants was 40.3 years (SD = 12.5).
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0239277 September 17, 2020  12 / 19
+PLOS ONE                                                                                                             Robo-investment aversion
+
+          8.2. Procedure
+
+          Participants were informed that the performance of humans and computers is similar (for all
+          stocks), but that humans and computers can have a different level of accuracy for some stocks
+          (or industries).
+
+             This experiment had a 2-cell design: participants were either allocated to the controversial
+          stocks condition or the non-controversial stocks condition, in which they saw the historical
+          price paths of five (sin or conventional) stocks. We used the past performance of stocks that
+          represented each of these industries. The stocks were selected so that the past performance of
+          the portfolios of sin and conventional stocks was similar.
+
+             This procedure has been pre-registered (https://aspredicted.org/blind.php?x=nt9n9j).
+
+          8.3. Results
+
+          Participants showed a preference for human advice, choosing them in 57.3% of cases, which
+          was significantly different from 50% (2(1) = 16.0, p < .001). This is consistent with robo-
+          investment aversion (d = ­0.30).
+
+             Participants showed an aversion of similar magnitude for controversial stocks (human
+          advice was preferred by 57.0% of participants) and non-controversial stocks (human advice
+          was preferred by 57.6% of participants; 2(1) = 0.03, p = .87).
+
+             8.3.1. Additional analyses. Pooled analysis. Considering the very similar structure of
+          Studies 4 and 5, we also performed an analysis on the pooled dataset. Overall, 47.0% of partici-
+          pants in these studies preferred the algorithm over humans, which is consistent with robo-
+          investment aversion (2(1) = 4.42, p = .036). This aversion was not different across controver-
+          sial and non-controversial stocks (2(1) = 1.95, p = .16).
+
+             Effect of differences in investment experience. In Study 5, robo-investment aversion was
+          present both in participants that did not hold stocks or mutual funds (dno stocks = ­0.45;
+          dno mutual funds = ­0.54), but not in those that did (dstocks = ­0.15; dmutual funds = ­0.10). How-
+          ever, robo-investment aversion was of similar magnitude for both participants that did or did
+          not hold pension funds (dpension funds = ­0.29 vs dno pension funds = ­0.35).
+
+             Text analysis. In addition to testing our hypotheses, we wanted to further investigate the
+          beliefs motivating our participants to choose humans or an algorithm. As part of a pre-regis-
+          tered analysis, we gave our participants the option to explain their decision, and incentivized
+          them by offering a lottery bonus of $20. Anyone submitting an original and intelligible contri-
+          bution participated in the lottery, regardless of their stated reasons for selecting one option or
+          the other. Six-hundred and twenty-two participants opted to participate, yielding a combined
+          output of 23,721 words. Excluding English stop words [46] and words which were contained
+          in the original question formulation ("Please tell us why you chose the sophisticated (neural net-
+          work) algorithm / Please tell us why you chose the knowledgeable humans") resulted in 10,741
+          words.
+
+             We find that individuals choosing the algorithm use the terms "bias" and "emotions"
+          eleven- and three times more often than the human-choice group, respectively. This indicates
+          that individuals who chose the algorithm might have done so in part due to a belief that algo-
+          rithms are less influenced by factors extraneous to the investment decision. In a subsequent
+          bigram analysis for this subgroup, "human" is the word most often associated with "emotion"
+          or "emotions" (N = 19), supporting this interpretation. Similarly, the word most often associ-
+          ated with "bias" or "biases" is "human" (N = 8). On the other hand, participants who preferred
+          to follow human investment advice made four times as many references to "industries", pre-
+          sumably as a reference to the type of industries presented in the respective conditions. Further
+          terms more associated with choosing humans were "knowledge", "experience" and "factor"­
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0239277 September 17, 2020  13 / 19
+PLOS ONE                                                                                                             Robo-investment aversion
+
+          all most often preceded by the term "human" in a bigram analysis. What this analysis reveals is
+          that even though participants were explicitly told to expect similar prediction performance
+          from both human- and algorithmic decision-makers, they still express diverse beliefs when it
+          comes to the process leading to these similar outcomes.
+
+          8.4. Discussion
+
+          In contrast to Study 4, in Study 5 the results point to the existence of robo-investment aversion,
+          but an aversion that is not different across controversial and non-controversial stocks. A
+          pooled analysis for Study 4 and 5 supports the existence of robo-investment aversion, but does
+          not suggest the existence of differences in this aversion between controversial and non-contro-
+          versial stocks. Note, however, that Studies 1­3 and Studies 4­5 are different in their nature. In
+          the former, participants judged the permissibility of either a human or robo to "call the shots"
+          while excluding (or investing more heavily) in companies. In contrast, in Studies 4­5, partici-
+          pants are asked whether they would prefer (knowledgeable) humans or a (neural network)
+          algorithm for predictions of future stock prices. If people show a preference for a human over
+          a robo investment fund manager (a long-term, complex task, requiring a series of judgments
+          of various nature), it is not necessarily the case that this preference will manifest itself in a
+          much simple task of predicting stock prices based on past stock prices alone.
+
+          9. General discussion
+
+          The dawn of algorithm-generated ("robo") advisors warrants us to ask how people judge the
+          perspective of machines making investments for them ("robo-investments"), some of them in
+          morally controversial stocks [3, 8]. Previous research usually documents an aversion towards
+          algorithm use [17, 18], yet under some circumstances the opposite is true [41], This suggests
+          that algorithm aversion should not be universally expected. In our case, we test whether it
+          extends to investments, focusing mainly on investments in morally controversial stocks. In
+          five experiments (N = 3,828)­summarized in Table 2 ­we document a considerable robo-
+          investment aversion (d = ­0.39 [­0.45, ­0.32] in internal meta-analysis [47]).
+
+             Comparisons of the strength of the aversion for controversial and non-controversial
+          stocks­defined based on the industry in which they operate­suggest that it might even be
+          stronger for the latter (Study 2), or that the two are not different (Study 5). However, this does
+          not necessarily rule out the role moral concerns play when choosing between a human and
+          robo investment manager or advisor. Note that this finding might simply reflect the fact, that
+          it is more difficult to make judgments in the case of non-controversial than controversial
+          industries. Robos can be easily programmed to exclude companies from some (or all) sin
+          industries if this is the wish of the investor, who will surely not question the robos' ability to
+          follow such a simple rule. Put differently, some participants might perceive the industry in
+          which the company operates as a sufficient "moral cue", which makes further investigation of
+          a controversial company by a competent moral examiner (a human; [20]) redundant. For
+          companies from non-controversial industries, however, choosing the "sinners" is a more diffi-
+          cult task. An investor that cares about moral issues will want the investment manager (advisor)
+          to have the additional ability to identify the "bad apples" in industries that are not known to be
+          controversial, at least relative to other industries. For example, it is probably fair to say that the
+          car industry produces­relative to the tobacco industry­less harmful (more morally acceptable)
+          goods. In such a case, people might prefer their money to be managed by a human fund man-
+          ager, who will probably be perceived to be more competent to handle less conventional cases.
+          A counter-argument of increasing prominence is that although moral issues seem to be more
+          "fuzzy" (more difficult to quantify) in general, it is now easier for algorithms to monitor the
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0239277 September 17, 2020  14 / 19
+PLOS ONE                                                                                                                                    Robo-investment aversion
+
+Table 2. Robo-investment aversion across studies.
+
+Study N   Design                                                        Dependent variable              Effect size < 0 indicates robo-investment aversion
+
+                                                              Permissibility to exclude (Studies 1­3)   Controversial Non-controversial     Pooled
+                                                                or invest more heavily (Study 3) in
+                                                                                 stocks                 stocks           stocks
+
+ 1 466 2 (between-subjects: human vs robo) × 2                1 = strongly disagree 5 = strongly agree  ­0.25 [­0.44, ­  ­                  ­0.25 [­0.44, ­0.07]
+                   (between-subjects: penalty vs no penalty)
+                                                                  Choice of investment manager          0.07]
+ 2 1,231 2 (between-subjects: human vs robo) × 2                                = 1 robo
+                   (between-subjects: controversial vs non-                                             ­0.47 [­0.62, ­  ­0.74 [­0.91, ­    ­0.58 [­0.69, ­0.47]
+                                   controversial)                             = 0 human                      0.31]            0.57]
+
+ 3 683 2 (between-subjects: human vs robo) × 2                                                          ­0.81 [­0.92, ­  ­                  ­0.81 [­0.92, ­0.70]
+                   (within-subjects: exclusion vs inclusion)                                                 0.70]
+                                                                                                                         0.26 [0.05, 0.47]  0.08 [­0.07, 0.23]
+ 4 705 2-cell (between-subjects: controversial vs                                                        ­0.09 [­0.30,
+                                non-controversial)                                                           0.12]       ­0.28 [­0.49, ­      ­0.30 [­0.44, ­0.15]
+                                                                                                                              0.07]
+ 5 743 2-cell (between-subjects: controversial vs                                                       ­0.31 [­0.51, ­                     Mean effect fixed effects
+                                non-controversial)                                                           0.11]                           model ­0.39 [­0.45, ­
+                                                                                                                                                       0.32]
+1­5 3,828                                                                                                                                     Mean effect random
+                                                                                                                                             effects model ­0.36 [­
+                                                                                                                                                   0.64, ­0.08]
+
+Mean effect sizes are Cohen's ds, with 95% confidence intervals reported in square brackets. Computed using the R package metaviz, based on the metafor package [58,
+59]. Random effects are computed using the REML method.
+
+https://doi.org/10.1371/journal.pone.0239277.t002
+
+                                                   "moral risk" of potential investments, taking into account scores for sustainability [48] or cor-
+                                                   porate governance, and synthesizing it with the emotional valence of news or social media con-
+                                                   tent [49­51]. A number of startups have recently started offering such services [10, 15]. Yet,
+                                                   the availability of "hard" data on responsible business practices in itself is insufficient to solve
+                                                   the problem. There are multiple agencies that rate what environmental, social and governance
+                                                   policies companies have in place (or lack). The ratings provided by competing agencies are
+                                                   diverging [52]. Choosing the "right" agency is a task where, once again, people will probably
+                                                   gravitate towards human decision-makers (and not robos).
+
+                                                      Understanding the personal and demographic variables associated with robo-investment
+                                                   aversion is a further step towards understanding the role such differences might play in tech-
+                                                   nology adoption in the domain of finance. In a secondary analysis we find that robo-invest-
+                                                   ment aversion is present among males and females (Fig 1, Panel A), in people with high or low
+                                                   investment knowledge (both objectively- and subjectively-measured; Panels B-C), and regard-
+                                                   less of whether a person holds stocks in their portfolios (either directly or via pension or
+                                                   mutual funds; Panels D-F). Interestingly, the (exploratory) analysis revealed that robo-invest-
+                                                   ment aversion was stronger for female participants, consistent with a multitude of studies doc-
+                                                   umenting gender differences in investment behavior (e.g., [53­55]). The aversion was also
+                                                   stronger in participants with lower investment knowledge, and in participants that do not hold
+                                                   stocks directly or via mutual funds (ps < .05). This is perhaps unfortunate, as one of the bene-
+                                                   fits of robo-advice is that is lowers the barriers-of-entry into financial investments, making it
+                                                   easier to enjoy the benefits of stock market participation.
+
+                                                      A limitation of our paper is that we have incentivized the choice of investment advisor in
+                                                   only one of our studies (Study 4; in Study 5 the incentives were used only to promote thought-
+                                                   ful responses in an exploratory study of the motivations behind participants' choices), and it
+                                                   happens to be the only study where there was no bias against algorithms. However, we believe
+                                                   this is most likely due to the belief of some participants that algorithms produce superior
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0239277 September 17, 2020                                                                                  15 / 19
+PLOS ONE                                                                                                             Robo-investment aversion
+
+          outcomes, in accordance with reality [17]. Bias against algorithms re-emerges once partici-
+          pants are informed that humans and algorithms (in our case: an artificial neural network) pro-
+          duce similar outcomes, (presumably) taking away the algorithms' perceived edge [16].
+
+             Overall, our study suggests the existence of a barrier for the adoption of innovative financial
+          technologies (FinTech; e.g., [56]; however, see [21] for an alternative account). While investors
+          today enjoy an unprecedented ease of access to financial products and services, they might still
+          be reluctant to use them. Our findings suggest the future proliferation of hybrid systems [4],
+          considering mounting pressures to reduce funds' costs of operation. The need for supervision
+          by humans can be seen as a pitfall for the robo-advisory services [3]. A potential problem that
+          might arise in the future would be the overreporting of human fund manager presence, to
+          lower costs. However, finding out that investment funds have been managed by machines
+          might undermine trust, given the evidence of the emergence of a bias against robots in certain
+          scenarios [57].
+
+             To summarize, we find that people display an aversion to investing with algorithms. Our
+          findings can be interpreted as follows: people perceive algorithms as being less effective than
+          humans at tasks which require making subjective judgments [16]. Future research could inves-
+          tigate the drivers of algorithm aversion in the domain of investments, including a more sys-
+          tematic exploration of the role of moral considerations and situational factors, and a further
+          examination of the role of individual differences.
+
+          Author Contributions
+
+          Conceptualization: Pawel Niszczota, Da´niel Kasza´s.
+
+          Data curation: Pawel Niszczota.
+          Formal analysis: Pawel Niszczota, Da´niel Kasza´s.
+
+          Funding acquisition: Pawel Niszczota.
+          Investigation: Pawel Niszczota, Da´niel Kasza´s.
+          Methodology: Pawel Niszczota, Da´niel Kasza´s.
+
+          Project administration: Pawel Niszczota.
+
+          Resources: Pawel Niszczota.
+
+          Software: Pawel Niszczota.
+
+          Supervision: Pawel Niszczota.
+          Validation: Pawel Niszczota, Da´niel Kasza´s.
+
+          Visualization: Pawel Niszczota.
+
+          Writing ­ original draft: Pawel Niszczota.
+          Writing ­ review & editing: Da´niel Kasza´s.
+
+          References
+
+           1. Abis S. Man vs. machine: Quantitative and discretionary equity management. Unpublished working
+                  paper Columbia Business School. 2017.
+
+           2. Harvey CR, Rattray S, Sinclair A, Hemert OV. Man vs. Machine: Comparing Discretionary and System-
+                  atic Hedge Fund Performance. The Journal of Portfolio Management. 2017; 43: 55­69. https://doi.org/
+                  10.3905/jpm.2017.43.4.055
+
+           3. D'Acunto F, Prabhala N, Rossi AG. The Promises and Pitfalls of Robo-Advising. Rev Financ Stud.
+                  2019; 32: 1983­2020. https://doi.org/10.1093/rfs/hhz014
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0239277 September 17, 2020  16 / 19
+PLOS ONE                                                                                                             Robo-investment aversion
+
+           4. Kaya O, Schildbach J, AG DB, Schneider S. Robo-advice­a true innovation in asset management.
+                 Deutsche Bank Research, August, https://www.dbresearch.com/PROD/DBR_INTERNET_EN-PROD/
+                 PROD0000000000449010/Robo-advice_-_a_true_innovation_in_asset_managemen.pdf. 2017.
+
+           5. Moulliet D, Majonek A, Stolzenbach J, Vo¨lker T. The Expansion of Robo-Advisory in Wealth Manage-
+                 ment. Deloitte. 2016. https://www2.deloitte.com/content/dam/Deloitte/de/Documents/financial-
+                 services/Deloitte-Robo-safe.pdf
+
+           6. The Economist. The rise of the financial machines. The Economist. 2019. https://www.economist.com/
+                 leaders/2019/10/03/the-rise-of-the-financial-machines. Accessed 24 Jan 2020.
+
+           7. Pettifor A. BlackRock gets praise for coal divestment. What it really needs is regulation | Ann Pettifor.
+                 The Guardian. 16 Jan 2020. https://www.theguardian.com/commentisfree/2020/jan/16/blackrock-coal-
+                 divestment-regulation-fund-manager. Accessed 18 Jan 2020.
+
+           8. Hong H, Kacperczyk M. The price of sin: The effects of social norms on markets. J Financ Econ. 2009;
+                 93: 15­36. https://doi.org/10.1016/j.jfineco.2008.09.001
+
+           9. Trinks A, Scholtens B, Mulder M, Dam L. Fossil Fuel Divestment and Portfolio Performance. Ecol Econ.
+                 2018; 146: 740­748. https://doi.org/10.1016/j.ecolecon.2017.11.036
+
+          10. Fantato D. Robo-adviser launches ethical portfolios. Financial Adviser. 15 Aug 2018. https://www.
+                 ftadviser.com/your-industry/2018/08/15/robo-adviser-launches-ethical-portfolios/. Accessed 21 Jan
+                 2020.
+
+          11. Awad E, Dsouza S, Kim R, Schulz J, Henrich J, Shariff A, et al. The Moral Machine experiment. Nature.
+                 2018; 563: 59­64. https://doi.org/10.1038/s41586-018-0637-6 PMID: 30356211
+
+          12. Bonnefon J-F, Shariff A, Rahwan I. The social dilemma of autonomous vehicles. Science. 2016; 352:
+                 1573­1576. https://doi.org/10.1126/science.aaf2654 PMID: 27339987
+
+          13. Choi A. Morgan Stanley Perspectives on Sustainable Investing: Acceleration and Integration. Journal of
+                 Applied Corporate Finance. 2016; 28: 62­65.
+
+          14. van Duuren E, Plantinga A, Scholtens B. ESG Integration and the Investment Management Process:
+                 Fundamental Investing Reinvented. J Bus Ethics. 2016; 138: 525­533. https://doi.org/10.1007/s10551-
+                 015-2610-8
+
+          15. Beioley K. Robo advisers short-circuit over ethical investing. In: Financial Times [Internet]. 13 Sep 2018
+                 [cited 19 Jan 2020]. https://www.ft.com/content/1dabbce8-b5d8-11e8-b3ef-799c8613f4a1
+
+          16. Castelo N, Bos MW, Lehmann DR. Task-Dependent Algorithm Aversion. Journal of Marketing
+                 Research. 2019; 56: 809­825. https://doi.org/10.1177/0022243719851788
+
+          17. Dietvorst BJ, Simmons JP, Massey C. Algorithm aversion: People erroneously avoid algorithms after
+                 seeing them err. Journal of Experimental Psychology: General. 2015; 144: 114­126. https://doi.org/10.
+                 1037/xge0000033 PMID: 25401381
+
+          18. Dietvorst BJ, Simmons JP, Massey C. Overcoming Algorithm Aversion: People Will Use Imperfect Algo-
+                 rithms If They Can (Even Slightly) Modify Them. Management Science. 2016; 64: 1155­1170. https://
+                 doi.org/10.1287/mnsc.2016.2643
+
+          19. Longoni C, Bonezzi A, Morewedge CK. Resistance to Medical Artificial Intelligence. J Consum Res.
+                 2019; 46: 629­650. https://doi.org/10.1093/jcr/ucz013
+
+          20. Bigman YE, Gray K. People are averse to machines making moral decisions. Cognition. 2018; 181: 21­
+                 34. https://doi.org/10.1016/j.cognition.2018.08.003 PMID: 30107256
+
+          21. Gogoll J, Uhl M. Rage against the machine: Automation in the moral domain. Journal of Behavioral and
+                 Experimental Economics. 2018; 74: 97­103. https://doi.org/10.1016/j.socec.2018.04.003
+
+          22. Durand RB, Koh S, Limkriangkrai M. Saints versus Sinners. Does morality matter? Journal of Interna-
+                 tional Financial Markets, Institutions and Money. 2013; 24: 166­183. https://doi.org/10.1016/j.intfin.
+                 2012.12.002
+
+          23. Sutter M, Huber J, Kirchler M, Stefan M, Walzl M. Where to look for the morals in markets? Exp Econ.
+                 2019 [cited 3 Oct 2019]. https://doi.org/10.1007/s10683-019-09608-z PMID: 32055232
+
+          24. Berinsky AJ, Huber GA, Lenz GS. Evaluating Online Labor Markets for Experimental Research: Ama-
+                 zon.com's Mechanical Turk. Political Analysis. 2012; 20: 351­368. https://doi.org/10.1093/pan/mpr057
+
+          25. Thomas KA, Clifford S. Validity and Mechanical Turk: An assessment of exclusion methods and interac-
+                 tive experiments. Computers in Human Behavior. 2017; 77: 184­197. https://doi.org/10.1016/j.chb.
+                 2017.08.038
+
+          26. Peer E, Brandimarte L, Samat S, Acquisti A. Beyond the Turk: Alternative platforms for crowdsourcing
+                 behavioral research. Journal of Experimental Social Psychology. 2017; 70: 153­163. https://doi.org/10.
+                 1016/j.jesp.2017.01.006
+
+          27. Ko¨ nig-Kersting C, Pollmann M, Potters J, Trautmann ST. Good decision vs. good results: Outcome
+                 bias in the evaluation of financial agents. Working paper, Tilburg University; 2017.
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0239277 September 17, 2020  17 / 19
+PLOS ONE                                                                                                             Robo-investment aversion
+
+          28. Gerhard P, Hoffmann AOI, Post T. Past performance framing and investors' belief updating: Is seeing
+                 long-term returns always associated with smaller belief updates? Journal of Behavioral and Experimen-
+                 tal Finance. 2017; 15: 38­51. https://doi.org/10.1016/j.jbef.2017.07.007
+
+          29. Paolacci G, Chandler J, Ipeirotis PG. Running experiments on Amazon Mechanical Turk. Judgment
+                 and Decision Making. 2010; 5: 411­419.
+
+          30. Cormen TH, Leiserson CE, Rivest RL, Stein C. Introduction to Algorithms. MIT Press; 2009.
+
+          31. van Rooij M, Lusardi A, Alessie R. Financial literacy and stock market participation. J Financ Econ.
+                 2011; 101: 449­472. https://doi.org/10.1016/j.jfineco.2011.03.006
+
+          32. Agnew JR, Szykman LR. Asset Allocation and Information Overload: The Influence of Information Dis-
+                 play, Asset Choice, and Investor Experience. Journal of Behavioral Finance. 2005; 6: 57­70. https://
+                 doi.org/10.1207/s15427579jpfm0602_2
+
+          33. Carlson JP, Vincent LH, Hardesty DM, Bearden WO. Objective and subjective knowledge relationships:
+                 A quantitative analysis of consumer research findings. Journal of Consumer Research. 2009; 35: 864­
+                 876. https://doi.org/10.1086/593688
+
+          34. Trinks PJ, Scholtens B. The Opportunity Cost of Negative Screening in Socially Responsible Investing.
+                 J Bus Ethics. 2017; 140: 193­208. https://doi.org/10.1007/s10551-015-2684-3
+
+          35. Blitz D, Fabozzi FJ. Sin Stocks Revisited: Resolving the Sin Stock Anomaly. J Portf Manag. 2017; 44:
+                 105­111. https://doi.org/10.3905/jpm.2017.44.1.105
+
+          36. Lobe S, Walksha¨ usl C. Vice versus virtue investing around the world. Rev Manag Sci. 2016; 10: 303­
+                 344. https://doi.org/10.1007/s11846-014-0147-3
+
+          37. Revelli C, Viviani J-L. Financial performance of socially responsible investing (SRI): what have we
+                 learned? A meta-analysis. Business Ethics: A European Review. 2015; 24: 158­185. https://doi.org/10.
+                 1111/beer.12076
+
+          38. Akepanidtaworn K, Di Mascio R, Imas A, Schmidt L. Selling Fast and Buying Slow: Heuristics and Trad-
+                 ing Performance of Institutional Investors. Rochester, NY: Social Science Research Network; 2019
+                 Sep. Report No.: ID 3301277. https://papers.ssrn.com/abstract=3301277
+
+          39. Barber BM, Odean T. The Behavior of Individual Investors. In: Constantinides GM, Harris M, Stulz RM,
+                 editors. Handbook of the Economics of Finance. Elsevier; 2013. pp. 1533­1570. https://doi.org/10.
+                 1016/B978-0-44-459406-8.00022-6
+
+          40. Woollard F. Doing and allowing harm. Oxford University Press, USA; 2015.
+
+          41. Logg JM, Minson JA, Moore DA. Algorithm appreciation: People prefer algorithmic to human judgment.
+                 Organizational Behavior and Human Decision Processes. 2019; 151: 90­103. https://doi.org/10.1016/j.
+                 obhdp.2018.12.005
+
+          42. O¨ nkal D, Goodwin P, Thomson M, Go¨ nu¨ l S, Pollock A. The relative influence of advice from human
+                 experts and statistical methods on forecast adjustments. Journal of Behavioral Decision Making. 2009;
+                 22: 390­409. https://doi.org/10.1002/bdm.637
+
+          43. Borsboom C, Zeisberger S. What makes an investment risky? An analysis of price path characteristics.
+                 Journal of Economic Behavior & Organization. 2020; 169: 92­125. https://doi.org/10.1016/j.jebo.2019.
+                 11.002
+
+          44. Grosshans D, Zeisberger S. All's well that ends well? On the importance of how returns are achieved.
+                 Journal of Banking & Finance. 2018; 87: 397­410. https://doi.org/10.1016/j.jbankfin.2017.09.021
+
+          45. Hyndman RJ, Khandakar Y. Automatic Time Series Forecasting: The forecast Package for R. Journal
+                 of Statistical Software. 2008; 27: 1­22. https://doi.org/10.18637/jss.v027.i03
+
+          46. Benoit K, Muhr D, Watanabe K. stopwords: Multilingual Stopword Lists. 2020. https://CRAN.R-project.
+                 org/package=stopwords
+
+          47. Goh JX, Hall JA, Rosenthal R. Mini Meta-Analysis of Your Own Studies: Some Arguments on Why and
+                 a Primer on How. Social and Personality Psychology Compass. 2016; 10: 535­549. https://doi.org/10.
+                 1111/spc3.12267
+
+          48. Filbeck A, Filbeck G, Zhao X. Performance Assessment of Firms Following Sustainalytics ESG Princi-
+                 ples. The Journal of Investing. 2019; 28: 7­20. https://doi.org/10.3905/joi.2019.28.2.007
+
+          49. Capelle-Blancard G, Petit A. Every Little Helps? ESG News and Stock Market Reaction. J Bus Ethics.
+                 2019; 157: 543­565. https://doi.org/10.1007/s10551-017-3667-3
+
+          50. Chen M-Y, Liao C-H, Hsieh R-P. Modeling public mood and emotion: Stock market trend prediction with
+                 anticipatory computing approach. Computers in Human Behavior. 2019 [cited 17 Jun 2019]. https://doi.
+                 org/10.1016/j.chb.2019.03.021
+
+          51. Tetlock PC. Giving Content to Investor Sentiment: The Role of Media in the Stock Market. The Journal
+                 of Finance. 2007; 62: 1139­1168. https://doi.org/10.1111/j.1540-6261.2007.01232.x
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0239277 September 17, 2020  18 / 19
+PLOS ONE                                                                                                             Robo-investment aversion
+
+          52. Berg F, Ko¨ lbel JF, Rigobon R. Aggregate Confusion: The Divergence of ESG Ratings. Rochester, NY:
+                 Social Science Research Network; 2020 May. Report No.: ID 3438533.
+
+          53. Barber BM, Odean T. Boys Will Be Boys: Gender, Overconfidence, and Common Stock Investment.
+                 Quarterly Journal of Economics. 2001; 116: 261­292.
+
+          54. Lusardi A, Mitchell OS. Planning and Financial Literacy: How Do Women Fare? The American Eco-
+                 nomic Review. 2008; 98: 413­417.
+
+          55. Niszczota P, Bialek M. Women oppose sin stocks more than men do. 2020 [cited 19 Mar 2020].
+          56. Goldstein I, Jiang W, Karolyi GA. To FinTech and Beyond. Rev Financ Stud. 2019; 32: 1647­1661.
+
+                 https://doi.org/10.1093/rfs/hhz025
+          57. Ishowo-Oloko F, Bonnefon J-F, Soroye Z, Crandall J, Rahwan I, Rahwan T. Behavioural evidence for a
+
+                 transparency­efficiency tradeoff in human­machine cooperation. Nat Mach Intell. 2019; 1: 517­521.
+                 https://doi.org/10.1038/s42256-019-0113-5
+          58. Kossmeier M, Tran US, Voracek M. metaviz: Forest Plots, Funnel Plots, and Visual Funnel Plot Infer-
+                 ence for Meta-Analysis. 2020. https://CRAN.R-project.org/package=metaviz
+          59. Viechtbauer W. Conducting meta-analyses in R with the metafor package. Journal of Statistical Soft-
+                 ware. 2010; 36: 1­48. https://doi.org/10.18637/jss.v036.i03
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0239277 September 17, 2020  19 / 19
+

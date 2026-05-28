@@ -1,0 +1,2352 @@
+Business Research
+https://doi.org/10.1007/s40685-020-00133-x
+ ORIGINAL RESEARCH
+
+On the current state of combining human and artificial
+intelligence for strategic organizational decision making
+
+Anna Trunk1 · Hendrik Birkel1 · Evi Hartmann1
+
+Received: 12 October 2019 / Accepted: 1 November 2020
+Ó The Author(s) 2020
+
+Abstract Strategic organizational decision making in today's complex world is a
+dynamic process characterized by uncertainty. Therefore, diverse groups of
+responsible employees deal with the large amount and variety of information, which
+must be acquired and interpreted correctly to deduce adequate alternatives. The
+technological potential of artificial intelligence (AI) is expected to offer further
+support, although research in this regard is still developing. However, as the tech-
+nology is designed to have capabilities beyond those of traditional machines, the
+effects on the division of tasks and the definition of roles established in the current
+human­machine relationship are discussed with increasing awareness. Based on a
+systematic literature review, combined with content analysis, this article provides an
+overview of the possibilities that current research identifies for integrating AI into
+organizational decision making under uncertainty. The findings are summarized in a
+conceptual model that first explains how humans can use AI for decision making
+under uncertainty and then identifies the challenges, pre-conditions, and conse-
+quences that must be considered. While research on organizational structures, the
+choice of AI application, and the possibilities of knowledge management is
+extensive, a clear recommendation for ethical frameworks, despite being defined as
+a crucial foundation, is missing. In addition, AI, other than traditional machines, can
+amplify problems inherent in the decision-making process rather than help to reduce
+them. As a result, the human responsibility increases, while the capabilities needed
+
+& Evi Hartmann
+     evi.hartmann@fau.de
+     Anna Trunk
+     anna.trunk@fau.de
+     Hendrik Birkel
+     hendrik.birkel@fau.de
+
+1 Chair of Supply Chain Management, Friedrich-Alexander University Erlangen-Nuremberg,
+     Lange Gasse 20, 90403 Nuremberg, Germany
+
+                                                            123
+                                                                                                         Business Research
+
+to use the technology differ from other machines, thus making education necessary.
+These findings make the study valuable for both researchers and practitioners.
+
+Keywords Artificial intelligence Á Decision making Á Human­machine
+relationship Á Systematic literature review Á Group decisions Á Uncertainty
+
+1 Introduction
+
+Companies exist as a result of and are shaped by decisions (Melnyk et al. 2014;
+Pereira and Vila` 2016) that constitute and are constituted by their strategy
+(Mintzberg 1972). Strategic decision making is a dynamic and challenging process
+(Mintzberg 1973; Liu et al. 2013; Dev et al. 2016; Moreira and Tjahjono 2016) due
+to organizations operating in complex environments and because of the the direct or
+indirect effects that decisions can have on stakeholders (Koch et al. 2009; Delen
+et al. 2013; El Sawy et al. 2017; Carbone et al. 2019).
+
+   Traditional decision theory distinguishes between decisions made under risk
+versus those made under uncertainty (Knight 1921). In the former category, all
+possible outcomes, including their probabilities of occurrence, are known and
+statistically or empirically available (Knight 1921; Marquis and Reitz 1969; Sydow
+2017). However, for strategic organizational decisions, which belong to the latter
+category (Knight 1921; Marquis and Reitz 1969), the degree and type of uncertainty
+are influenced by various aspects (Rousseau 2018). Such decisions must thus to be
+taken in an adaptive mode to handle complexity (Mintzberg 1973), which
+organizations support through the introduction of hierarchies and departments to
+define responsibilities (Simon 1962). While this improves decision speed and
+efficiency for operational decisions, the quality of strategic decisions has been found
+to be enhanced by including a multitude of perspectives, experiences, and expertise
+(Knight 1921; Rousseau 2018). Organizations hence assign the task of handling
+complexity while ensuring diversity to managers from different departments
+(Rousseau 2018). Consensus must be achieved among this group to reach a
+decision, which is why in this study, strategic organizational decision making is
+defined as group decision making under uncertainty.
+
+   Nevertheless, even with more people involved, the human capacity to process
+information is limited (Lawrence 1991; Fiori 2011). Human decision makers,
+therefore, consciously construct simplified models, called heuristics or rules of
+thumb (Simon 1987; Fiori 2011), which deal with complex problems sequentially to
+make them treatable for the human computation capacity. This is called bounded
+rationality, a concept that researchers have interpreted differently since Herbert
+Simon originally defined it in the 1950s (Simon 1955; see overview of Fiori 2011).
+It is often seen as an unconscious activity that cannot be controlled (e.g., Kahneman
+2003), sometimes also known as intuition. For Simon, however, even intuition is
+based on stored information and experience, which the decision maker decides to
+rely on when determining alternatives and probabilities, although more uncon-
+sciously (Simon 1986; Fiori 2011). Rational behavior is thus assumed to be on the
+continuum between intended rationality and intuition, depending on the
+
+123
+Business Research
+
+information-processing capabilities of the agent, the complexity of the problem, and
+various aspects of the environment (Lawrence 1991; Fiori 2011). However, rational
+behavior is guided by rules, which means that it is always bounded (Fiori 2011).
+This makes the human brain similar to computers, both being ``physical symbol
+systems'' that process information (Simon 1995: 104).
+
+   Computers are defined as artificial intelligence (AI), which Simon (1995) sees as
+mathematical and physical applications that are able to handle complexity, in
+contrast to traditional mathematical theorems. However, opinions and studies on the
+extent to which AI can be used for the same tasks as the human brain, especially in
+connection with decision making have been scarce and differ in focus, technology,
+and objective (Bouyssou and Pirlot 2008; Mungu`ia et al. 2010; Nilsson 2010; Glock
+and Hochrein 2011; Nguyen et al. 2018; Wright and Schultz 2018).
+
+   Including technology in business is not a new development, as machines have
+been part of manufacturing processes to support humans for centuries, but machines
+are rather a tool, completely governed by humans, and less defined in real social
+collaboration settings than organizations are (Lawrence 1991; Nguyen et al. 2018;
+Boone et al. 2019). With AI, machines are assumed to act and react to humans,
+implying a possible change in the human­machine relationship (Huang and Rust
+2018). Opportunities and hazards, however, are neither agreed nor analyzed in more
+detail, making research necessary (Lawrence 1991; Silva and Kenney 2018;
+Vaccaro and Waldo 2019).
+
+   The goal of this article is thus to offer guidance for groups to successfully apply
+existing AI to enhance decision quality in complex and uncertain environments. The
+topic is suitable for study with a literature review, as research on AI in general is
+manifold, but clear recommendations are lacking. By synthesizing existing
+frameworks and studies, the following research question (RQ) will be answered:
+
+   RQ How can AI support decision-making under uncertainty in organizations?
+   The assumptions and findings of traditional decision theory, as defined by Knight
+(1921), Fredrickson (1984) and Resnik (1987), serve as the foundation for the
+analysis. However, to ensure the success of the whole decision-making process, the
+``how'' of the RQ must also include pre-requisites that are crucial for possible AI
+integration. Furthermore, AI support can only be evaluated adequately when the
+potential consequences and challenges of the adapted process are analyzed and, if
+possible, considered beforehand. To facilitate understanding and derivation of the
+results, the RQ is thus divided into the following three sub-dimensions, all referring
+to the general decision-making process under uncertainty (Fredrickson 1984;
+Rousseau 2018): (1) possibilities of AI integration per step, (2) necessary pre-
+conditions and crucial preparations, and (3) potential challenges and consequences.
+The resulting conceptual framework provides an overview of aspects that executives
+should be aware of, also referring to the potential effects of AI integration on the
+tasks and responsibilities of human decision makers.
+   The remainder of the article is organized as follows. First, after a brief overview
+of the history of AI and its definition, as well as existing categories of applications,
+the theoretical section provides an introduction to decision theory and group
+decision making, linking it to AI. The third section briefly describes the method of
+linking a systematic literature review (SLR) with content analysis (CA) and the
+
+                                                            123
+                                                                                                         Business Research
+
+executed process. Then, an outline of the findings is presented to answer the RQ,
+followed by providing a conceptual framework for organizational decision making
+under uncertainty. The article subsequently offers managerial implications and
+closes with an overview of limitations, future research possibilities, and a short
+conclusion.
+
+2 Decision making with the help of AI
+
+2.1 Development and current status of AI research
+
+2.1.1 Definition and history of AI
+
+AI emerged as a concept in the sixth century BC, with Homer's Iliad mentioning
+self-propelled chairs (McCorduck 2004; Nilsson 2010). The computing machine
+was invented in 1937 by Alan Turing, who claimed that as soon as a machine can
+act as intelligently as a human being, it can be seen as artificially intelligent
+(McCorduck 2004; Nilsson 2010). Then, in 1955, McCarthy et al. (1955) first
+introduced the term ``Artificial Intelligence'' in a proposal for the Dartmouth
+summer research project to study how intelligence can be exercised by machines.
+The goal of their project was to describe any feature of intelligence so precisely that
+a machine could simulate it. Simon supports this view, defining AI as ``systems that
+exhibited intelligence, either as pure explorations into the nature of intelligence,
+explorations of the theory of human intelligence, or explorations of the systems that
+could perform practical tasks requiring intelligence'' (Simon 1995: 96). More recent
+definitions include ``technologies that mimic human intelligence'' (Huang et al.
+2019: 44) and ``machines that perform tasks that humans would perform'' (Bolander
+2019: 850), or they focus on the independence of machines from humans, speaking
+of ``artifacts able to carry out tasks in the real world without human intervention''
+(Piscopo and Birattari 2008: 275). These definitions can be further expanded by
+similar approaches, all relating machines to intelligence, although this concept is
+also not defined (for an overview of definitions, see Legg and Hutter 2007: 401).
+
+   For this reason, in this article, Nilsson's (2010: 13) definition is adopted, as it
+encompasses Simon's view and all other above-mentioned aspects, while being
+precise enough to guide the further analysis: ``For me, AI is that activity devoted to
+making machines intelligent, and intelligence is that quality that enables an entity to
+function appropriately and with foresight in its environment.'' The capabilities
+necessary to ``function appropriately and with foresight'' range from perception to
+interpretation and the development of actions to interact with, react to, or even
+influence the environment to achieve individual goals (Legg and Hutter 2007;
+Bolander 2019). The specific capability that is needed depends on the environment
+and the type of problem. Lawrence (1991) established a framework for decisions
+driven by complexity, leading to several decision types, versus decisions driven by
+politicality, which describes environmental influences not only from society and
+politics, but also within organizations. Figure 1 relates these definitions to Simon's
+(1986, 1995) continuum of rational behavior, assuming that perception is rather
+
+123
+Business Research
+
+Fig. 1 The continuum of rational behavior (based on Simon 1986, 1995; Lawrence 1991; Nilsson 2010)
+
+linked to intended rationality, while interpreting and acting require the inclusion of
+additional experiences and stored information. Following Simon (1995), all steps
+can be executed by humans and machines alike. This is supported by the definition
+of an algorithm as ``a process or set of rules to be followed in problem-solving
+operations'' (Silva and Kenney 2018: 13). Being the integral part of AI, algorithms
+thus equate to human heuristics for solving problems in a step-wise manner.
+
+   Nevertheless, there are caveats regarding this view. One of the earliest stems
+from Descartes, who in 1637 claimed that it would be ``morally impossible (...) to
+allow it (sic. the machine) to act in all events of life the same way as our reason
+causes us to act.'' This is supported by Bolander (2019), who claims that humans
+and machines cannot be compared in intelligence, as they have different strengths
+and weaknesses. Moreover, some researchers find AI to be useful for special areas
+only, where no abstractions, knowledge transfer, or the analysis of unstructured
+tasks is needed (Sheil 1987; Surden 2019), and there are differing views on the
+potential that AI has for creativity, emotions, or empathy (Wamba et al. 2015;
+Kaplan and Haenlein 2019). To integrate AI beneficially into organizational
+
+                                                            123
+                                                                                                         Business Research
+
+decision making, current research indicates that one must first understand its
+capabilities and potential dangers, especially compared to or in interaction with
+people. This understanding is expected to decrease the human fear of losing power
+and of change, and it supports building trust. Furthermore, Morozov (2013)
+highlights the challenge of technological solutionism, assuming technological
+decisions to be superior and no longer accepting human imperfection and failure.
+This also includes the risk of consciously or unconsciously creating problems
+because it is technologically feasible to solve them (Morozov 2013). The following
+study provides a better understanding of the benefits and limits of AI, starting with
+an overview of its applications in the following section.
+
+2.1.2 AI applications
+
+A detailed definition of an AI application is not available. For humans, different
+dimensions of intelligence are said to exist (Legg and Hutter 2007), and following
+Nilsson's definition and the continuum of rational behavior (see Fig. 1), types of AI
+applications range from less to more complex, depending on the environment and
+the type of decision (McCarthy et al. 1955; Nilsson 2010).
+
+   Lawrence (1991) linked these dimensions to possible AI applications, but
+focused only on two concrete applications: natural language processing and expert
+systems. Almost 30 years later, the number of AI applications has increased
+significantly. Therefore, the framework will be linked to the categories of bottom­
+up and top­down approaches, following the majority of researchers (Nilsson 2010;
+Bolander 2019; Surden 2019). The former category refers to applications that are
+created implicitly, meaning that they all statistically learn from experience and are
+thus not completely predictable, error-free, or explainable. The second cluster
+includes mathematical and statistical approaches, although researchers sometimes
+do not agree with or even mention them as being AI (e.g., Simon 1995; Welter et al.
+2013; Haruvy et al. 2019). These applications are also called logical rules and
+knowledge representation, based on rules that human programmers provide to
+computers, often with the goal of automation (Surden 2019), leading to systems that
+are predictable and explainable with strict and known abilities (Bolander 2019).
+Figure 2 offers a framework relating the categories to the continuum of rational
+behavior (see Fig. 1), with top­down applications assumed to be used for perception
+and interpretation, and bottom­up applications for actions, as this step requires the
+highest level of intelligence. Specifying clear applications for the categories is
+unfortunately not possible, as researchers do not even agree on how to categorize
+traditional mathematical applications, while new applications for bottom­up AI are
+also not stipulated or agreed. The reason for this may be that most systems today,
+especially when it comes to decision making, are located in the middle, ``having a
+human in the loop'' (Bolander 2019; Surden 2019).
+
+   This section established a better understanding of current AI research. In the
+following, an introduction to decision theory and the characteristics of group
+decision making, as an equivalent of the organizational approach for strategic
+decisions, are provided.
+
+123
+Business Research
+
+Fig. 2 Framework for categorizing AI applications related to the continuum of rational behavior (based
+on Lawrence 1991; Nilsson 2010; Bolander 2019; Surden 2019)
+
+2.2 Organizational decision making
+2.2.1 Decision theory and resulting challenges
+As already explained, strategic decision making belongs to the category of decisions
+under uncertainty. To make the best decision, each alternative is assigned a
+probability and utility level, and the alternative with the highest weighted value is
+chosen (Knight 1921; Fredrickson 1984; Resnik 1987). Probability levels are
+estimates, characterized by coherence, conditionalization, and convergence (Resnik
+1987). Coherence relates to the influence of frequency. With a high frequency of
+similar decisions in similar situations, expertise increases, which conditions the
+estimate into a specific direction. Convergence refers to the number of people
+included. As this number increases, the processing capacity is assumed to increase
+as well (Resnik 1987).
+
+                                                            123
+                                                                                                         Business Research
+
+   Utility levels represent an individual or group's subjective preference for each of
+the alternative outcomes (Thompson 1967). Especially when decisions affect and
+involve many stakeholders, values cannot be defined to equally include all utility
+levels (Liu et al. 2013; Melnyk et al. 2014; Wright and Schultz 2018). Objectivity
+has been found to be possible only to a limited extent, as decision makers need to
+rely further on heuristics due to uncertainties inherent in information processing and
+group discussions in complex environments. In addition, the type and amount of
+rationality can differ within one decision (Metzger and Spengler 2019), as some
+aspects of the decision might be influenced more intuitively than others. This entails
+the risk of bias, which can lead to incorrect problem definitions or the wrong
+evaluation of alternatives, as some impacts are valued higher than others or guided
+by assumptions, such as the sunk cost effect (Roth et al. 2015; Danks and London
+2017; Cheng and Foley 2018; Boone et al. 2019; Julmi 2019; Kourouxous and
+Bauer 2019; Metzger and Spengler 2019). Bias can either be conscious, an active
+introduction of incorrect information by one decision group member at any stage of
+the process, or unconscious, due to the individual or group being unaware of
+subjectivity, which in some cases even increases with experience (Roth et al. 2015;
+Cheng and Foley 2018). Although the process of decision theory refers to one
+rational individual, research on decisions under uncertainty has found that groups
+make decisions more in line with the theory than individuals do, and they also
+compensate for some of these challenges through discussion (Charness and Sutter
+2012; Kugler et al. 2012; Carbone et al. 2019). As groups are also the focus of this
+study, the next section provides an overview of current research (for an overview,
+see Kugler et al. 2012).
+
+2.2.2 Decision making in groups
+
+As stated in the introduction, for the purpose of this article, strategic organizational
+decision making is defined as group decision making under uncertainty, as groups
+are the established type of such decisions in organizations (Rousseau 2018).
+Heterogeneous groups have been found to make better decisions than homogeneous
+ones, as information diversity, discussion, and experience lead to improved
+interpretation, thereby decreasing bounded rationality (Beckmann and Haunschild
+2002; Charness and Sutter 2012; Kouchaki et al. 2015; Rousseau 2018; Herden
+2019). However, whether groups help to reduce bias (Kouchaki et al. 2015;
+Rousseau 2018) or can also introduce it into a decision is not agreed (Marquis and
+Reitz 1969; Charness and Sutter 2012). In addition, for designating alternatives and
+probabilities, groups have been found to engage in negotiation (Marquis and Reitz
+1969; Kugler et al. 2012), but a research gap exists about how they define joint
+utilities (Samson et al. 2018).
+
+   According to Rousseau (2018), to enhance decision quality, it is crucial to search
+for different types and forms of information and not only the most easily available.
+At the same time, the reliability, validity, consistency, and relevance of information
+sources must be analyzed. While this can be facilitated when more people are
+involved in the decision-making process, researchers have also found that using
+technology that is able to process large amounts of data can have a supportive effect
+
+123
+Business Research
+
+(Long 2017; Herden 2019). Several researchers on group decision making thus call
+for more exploration of the use of group communication and information systems
+(Charness and Sutter 2012; Kugler et al. 2012), including the effect that computer
+programs can have to help with structuring decisions (Schwenk and Valacich 1994).
+
+   Combining humans and technology is expected to improve decision making even
+further than only including more people. The following section provides the
+framework of the organizational decision-making process as guidance for this study.
+
+2.3 The basic process for organizational decision making under uncertainty
+
+The proposed process in Fig. 3 is based on decision theory (Fredrickson 1984) and
+several studies on decision making under uncertainty with the involvement of many
+people (Beckmann and Haunschild 2002; El Sawy et al. 2017; Long 2017; Rousseau
+2018). It provides guidance for analyzing the results of the SLR along the sub-
+dimensions of the RQ and serves as the foundation for the conceptual framework.
+
+   The process begins with the definition of the decision goal as the guideline for all
+subsequent steps. The information that must be collected in step two can be
+categorized as external (i.e., societal, political, legal, or industrial sources) or
+internal (El Sawy et al. 2017). Scholars deem internal information to be either
+explicit (e.g., facts and figures on the organization, as well as its products, traffic
+flows, inventories, and prices) or implicit (Beckmann and Haunschild 2002;
+Rousseau 2018). Implicit internal information is more difficult to glean, as it often
+entails highly individual aspects, such as emotions or experience, and is influenced
+by the amount of trust or the reasons for hidden agendas that each group member
+has (Fu et al. 2017; Boone et al. 2018, 2019). Since decision makers can only
+interpret information that is available, the quality and completeness resulting from
+step two influences the rest of the process (Meissner 2014; Julmi 2019). In addition,
+the amount of information has an impact on the process, as especially in large
+organizations, most collected information is not needed, while the processing
+capacity remains limited (Feldman and March 1981; Fiori 2011; Roetzel 2018).
+Steps two and three, defined in this framework as knowledge management,
+continuously influence all further steps, as the flow of information never stops,
+implying that there can be an impact during a later step as well (Long 2017).
+
+   Based on the interpretation of the available information, shaped by the decision
+goal and the heuristics of the group, alternatives are determined in step four, for
+which probability and utility values are then assigned in step five. Finally, in step
+six, the group weighs the alternatives and makes the decision. In an ideal world, the
+resulting outcome matches the desired goal.
+
+   For the purpose of this article, the decision-making process consists of three
+stages, namely, input­process­output, which are linked to perception, interpretation,
+and actions, respectively. The framework hence connects to the continuum
+presented in Sect. 2.1.1.
+
+   Research to date has neither stipulated the steps for which the use of AI is
+suitable and in what way, nor is there an agreement on its benefits. The possibilities
+for bias, for example, have been found to even increase when using AI for decisions
+(for an overview, see Silva and Kenney 2018), as an AI application is executing a
+
+                                                            123
+                                                                                                                                                                                                                                  Business Research
+
+123
+Fig. 3 The basic organizational decision-making process as the framework for the analysis (based on studies from Fredrickson 1984, Beckmann and Haunschild 2002; El
+Sawy et al. 2017; Long 2017; Rousseau 2018)
+Business Research
+
+small decision-making process for itself each time it is used, based on the goal it is
+used for and the data it has available. As there is no dialogue possibility with the
+technology, scholars argue that it is often not clear how the system arrives at a
+certain output (Bolander 2019). On the one hand, each algorithm is only as good as
+the data input and the programmed process mining, which are usually both done by
+humans and thus might be biased (Barocas and Selbst 2016). This is dangerous, as
+humans are not able to compensate for failed algorithms (Vaccaro and Waldo 2019).
+On the other hand, some AI applications have been found to support the challenge
+of including ambiguous utility values (Metzger and Spengler 2019). The following
+literature review provides an analysis of the antecedents and consequences of
+applying AI in strategic organizational decision making and how to best combine it
+with human capabilities.
+
+3 Research methodology
+
+Following Meredith (1992), conceptual models that build on descriptions and
+explanations provide the best foundation for theory testing afterwards. For the
+purpose of this article, an SLR was used as the descriptive basis, as it is defined as a
+systematic approach that ``informs regarding the status of present knowledge on a
+given question'' (Rousseau et al. 2008: 500). It follows specific criteria and is re-
+executable (Tranfield et al. 2003), implying that it is reliable and combines all
+literature of a delineated research area. The structured summary also provides an in-
+depth understanding of results (Briner and Denyer 2012). This is expected to offer
+the necessary explanations to understand the phenomenon, resulting in a conceptual
+model for empirical testing. For a qualitative analysis of selected articles, this
+approach is further amplified by CA (Mayring 2008), which is a more iterative
+approach that integrates as much material on a topic as possible, while inductively
+building categories afterwards. It is a useful methodology for analyzing various
+influences on the correct design of processes, especially when linked to new
+technologies such as AI. The CA methodology has been employed by Glock and
+Hochrein (2011) to analyze purchasing organization design, Rebs et al. (2018) to
+study stakeholder influences and risk in sustainable supply chains, Nguyen et al.
+(2018) to analyze big data analytics in supply chain management (SCM), and
+Roetzel (2018) to study information overload. Combining SLR and CA methods
+ensures that all relevant literature, analyzed in a structured process, is included
+(Denyer and Tranfield 2009; see Table 1), thereby offering a detailed description
+and explanation of theory building (Meredith 1992).
+
+3.1 Search strategy
+
+After a preliminary scope searching (Booth et al. 2016), the databases Business
+Source Complete (via EBSCO Host), Sciencedirect, ABI/inform (via ProQuest), and
+Web of Science were selected. These electronic databases are also acknowledged in
+the current literature and were chosen to provide fast and reliable access to
+
+                                                            123
+                                                                Business Research
+
+Table 1 Systematic review process [adapted from Mayring (2008) and Denyer and Tranfield (2009)]
+
+Systematic literature review (Denyer Content analysis approach  Methodology in this work
+
+and Tranfield 2009)                 (Mayring 2008)
+
+1. Question formulation             1. Material collection      1. Question formulation
+2. Locating studies                                             2. Search strategy
+3. Study selection and evaluation   2. Descriptive analysis     3. Selection process
+4. Analysis and synthesis           3. Category selection       4. Descriptive analysis
+                                    4. Material evaluation      5. Classification of content and
+5. Reporting and using the results
+                                                                   interpretation
+                                                                6. Result and discussion
+
+appropriate articles. Furthermore, as AI is a rather technological topic, information
+was assumed to be primarily included in electronic databases.
+
+   The databases were searched using three search strings, each consisting of a
+combination of three groups of keywords resulting from the preliminary scope
+search. In the first group, to avoid inadvertently excluding results, fairly general
+terms relating to AI were used, namely AI and machine learning. A decision was
+made to not search for abbreviations, because in this research field, not only is the
+acronym AI common, but it is also used in different fields, resulting in potentially
+irrelevant results. For the same reason, the second group also included broad search
+terms, namely decision making and decision support, and the third group only
+included human machine. The preliminary search revealed that this search term
+captures all existing combinations that researchers use to define the relationship,
+although it led to remarkably fewer results. The search terms were coupled with
+Boolean operators AND/OR to search strings (Booth et al. 2016), which were
+entered into the databases from 2016 onwards in peer-reviewed journals. The start
+was set to 2016, as the search frequencies of AI on Google Trends (AI 2020) show
+an initially large increase after 2016, supported by Nguyen et al.'s (2018) literature
+review findings. The search strategy was adapted for all databases (see Table 4 in
+Appendix 1), as there were differences in user interface and functionalities (Booth
+et al. 2016).
+
+3.2 Selection process
+
+The database search resulted in 3458 articles, and 2524 after duplicates were
+removed, making a selection process necessary (see Fig. 5 in Appendix 1). Each
+study was evaluated according to established inclusion and exclusion criteria of
+quality and relevance regarding the RQ and its three sub-dimensions as mentioned
+in the introduction (Briner and Denyer 2012; see Table 5 in Appendix 1), resulting
+in a final total of 55 articles (see Appendix 3). The majority of articles were
+eliminated, as they were considered to be either too specifically tied to certain
+industries or not generalizable for answering the RQ or focused on operational
+
+123
+Business Research
+
+decisions only. The only exception was the broad literature on SCM, which often
+focused on multi-stakeholder decisions, similar to the definition of organizational
+decisions due to the heterogeneous groups of people involved, and that literature
+was thus considered to offer relevant input to the analysis.
+
+3.3 Classification of content
+
+A deeper insight into the content of the articles is provided by classification, which
+aids in categorizing data to enable a more structured description (Mayring 2015) and
+to create new knowledge that would not be possible by reading the articles in
+isolation (Denyer and Tranfield 2009). The following classification categories relate
+to the topics addressed in the sample and the three previously stated sub-dimensions
+of the RQ:
+
+· Knowledge management with the help of AI.
+· Categorization of AI applications.
+· Impact of AI on organizational structures.
+· Challenges of using AI in strategic organizational decision making.
+· Ethical perspectives on using AI in strategic organizational decision making.
+· Impact of AI usage in strategic organizational decision making on the division
+
+    of tasks between humans and machines.
+
+   The first two categories address the first sub-dimension (i.e., the possibilities of
+AI integration into the previously introduced decision-making process). The
+subsequent two categories, organizational structures and challenges, provide insight
+into the second and third sub-dimensions (i.e., possible pre-conditions and
+preparations necessary for a successful AI integration, and the challenges and
+consequences thereof), while ethical perspectives contribute to answering all three
+sub-dimensions of the RQ. The last category closes the analysis by addressing the
+first sub-dimension of the RQ directly with a proposed division of tasks between
+humans and AI, and it also includes findings on the possible consequences for the
+designation and development of the human role. The difficulty in defining
+categories that can be assigned perfectly to the sub-dimensions demonstrates the
+variety of aspects that researchers and practitioners relate to this topic. Moreover, it
+is important to mention that clustering for CA had to be done in several rounds, with
+much discussion among the research team, as many articles offer input and content
+for more than one category. However, as Table 2 indicates, each article was
+attributed to one category only. Frameworks or models are marked in bold and are
+also described in the following analysis.
+
+   The final step of the methodological process, namely, the results and discussion
+based on the interpretation of data, is provided in the next chapter, followed by the
+conceptual integration of theory.
+
+                                                            123
+                                                                           Business Research
+
+Table 2 Overview of articles and assigned categories
+
+Author          Title                                             Content
+
+Category ``Knowledge management with the help of AI''
+
+Acharya and     Knowledge management and organisational           The article offers an inter-
+   Choudhury       performance in the context of e-knowledge         organizational knowledge-sharing
+                                                                     model to capture information which
+                                                                     is still in employees' minds.
+                                                                     Technology can help but structure
+                                                                     must follow. Business strategy needs
+                                                                     to be linked to knowledge
+                                                                     requirements and resources allocated
+                                                                     accordingly
+
+Bohanec         Explaining machine learning models in sales       The article analyzes business-to-
+   et al. (a)      predictions                                       business sales predictions based on a
+                                                                     model that enhances team
+                                                                     communication and reflection on
+                                                                     implicit knowledge
+
+Bohanec         Decision-making framework with double-            Article offers a framework for using
+   et al. (b)      loop learning through interpretable black-        machine learning to make sales
+                   box machine-learning models                       decisions: double-loop learning
+
+Metcalf et al.  Keeping humans in the loop: pooling               Demonstration of tool called Artificial
+                   knowledge through artificial swarm                Swarm Intelligence (ASI) to support
+                   intelligence to improve business decision         group decision making and to make
+                   making                                            tacit knowledge available
+
+Shollo and      Towards an understanding of the role of           Business intelligence systems balance
+   Galliers        business intelligence systems in                  subjectivity and objectivity, while
+                   organisational knowing                            individuals create meaning through
+                                                                     interaction with them
+
+Terziyan et al Patented intelligence: Cloning human               The Pi-Mind-Methodology suggested is
+                      decision models for Industry 4.0               situated between human-only and AI-
+                                                                     only by cloning behavior of human
+                                                                     decision makers in specific situations:
+                                                                     ``collective intelligence as a service''
+
+Category ``Categorization of AI applications''
+
+Baryannis et al. Predicting supply chain risks using machine      Introduction of supply chain risk
+                                                                     prediction framework using data-
+(a)                    learning: The trade-off between               driven AI techniques and relying
+                                                                     on the synergy between AI and
+                       performance and interpretability              supply chain experts
+
+Baryannis et al. Supply chain risk management and artificial      Literature review on SC risk
+                                                                     management finding that SC and
+(b)                    intelligence: state of the art and future     production research rather relies
+                                                                     on mathematical programming
+                       research directions                           than on AI
+
+Blasch et al.   Methods of AI for multimodal sensing and          Decisions-to-data framework with
+                   action for complex situations                     five areas of context-based AI: (1)
+                                                                     situation modeling (data at rest),
+                                                                     (2) measurement control (data in
+                                                                     motion), (3) statistical algorithms
+                                                                     (data in collect), (4) software
+                                                                     computing (data in transit), and (5)
+                                                                     human­machine AI (data in use)
+
+123
+Business Research
+
+Table 2 continued
+
+Author           Title                                             Content
+
+Calatayud et al. The self-thinking supply chain                    Literature review on SC of the future
+                                                                      proposing the self-thinking supply
+                                                                      chain model. AI's role in
+                                                                      managerial decision making is still
+                                                                      marginal as categories show
+
+Colombo            The Holistic Risk Analysis and Modelling        HoRAM method offers scenario
+                      (HoRAM) method                                  analysis based on AI
+
+Flath and Stein    Towards a data science toolbox for industrial Offering and testing the data science
+
+                        analytics applications                     toolbox for manufacturing
+
+                                                                   decisions
+
+Mu¨hlroth and      A systematic literature review of mining weak   SLR on corporate foresight based on
+   Grottke            signals and trends for corporate foresight      weak signals and changes to be
+                                                                      detected in big data, analyzing
+                                                                      variety of data mining techniques
+
+Pigozzi et al. Preferences in artificial intelligence              Survey about the presence and the
+                                                                      use of the concept of
+                                                                      ``preferences'' in artificial
+                                                                      intelligence
+
+Category ``Impact of AI on organizational structures''
+
+Bienhaus and            Procurement 4.0: factors influencing the   Study on procurement which is claimed
+   Abubaker                digitisation of procurement and            to be important to leverage SC
+                           supply chains                              collaboration. Survey with 414
+                                                                      participants finds that face-to-face
+                                                                      remains more important for
+                                                                      relationship building than AI, while
+                                                                      AI is not expected to take over
+                                                                      decision making completely
+
+Butner and Ho           How the human­machine interchange          Study on progress of companies in
+                           will transform business operations         implementing intelligent automation,
+                                                                      meaning the cognitive automation to
+                                                                      augment human intelligence. Survey
+                                                                      by the IBM Institute for Business
+                                                                      Value, in collaboration with Oxford
+                                                                      Economics, with 550 technology and
+                                                                      operations executives
+
+Lismont et al.          Defining analytics maturity indicators: a  Descriptive survey of the application of
+                           survey approach                            analytics with regards to data,
+                                                                      organization, leadership,
+                                                                      applications, and the analysts who
+                                                                      apply the techniques themselves
+
+Paschen et al.          Artificial intelligence: cuilding blocks   Conceptual development of typology as
+                           and an innovation typology                 analytic tool for managers to evaluate
+                                                                      AI effects. AI-enabled innovations
+                                                                      are clustered in two dimensions: the
+                                                                      innovations' boundaries and their
+                                                                      effects on organizational
+                                                                      competencies, where the first
+                                                                      distinguishes between product-facing
+                                                                      and process-facing innovations and
+                                                                      the second describes innovations as
+                                                                      either competence enhancing or
+                                                                      competence destroying
+
+                                                                              123
+                                                                                 Business Research
+
+Table 2 continued
+
+Author          Title                                             Content
+
+Tabesh et al.          Implementing big data strategies: a        Article provides recommendations to
+                          managerial perspective                     implement big data strategies
+                                                                     successfully by presenting benefits
+                                                                     and challenges, and providing real-
+                                                                     life examples
+
+Udell et al.           Towards a smart automated society:         Survey with 2700 executives of which
+                          cognitive technologies, knowledge          38% expect AI to help them make
+                          production, and economic growth            better decisions
+
+von Krogh              Artificial Intelligence in organizations:  AI is an organizational phenomenon
+                          new opportunities for phenomenon-          that provides two outputs: decisions
+                          based theorizing                           and solutions (alternatives to a
+                                                                     problem)
+
+Category ``Challenges of using AI in strategic organizational decision-making''
+
+Bader et al.           Algorithmic decision-making? The user      Case study on role of AI in workplace
+                          interface and its role for human           decisions demonstrating how actors
+                          involvement in decisions supported         can become distanced from or remain
+                          by artificial intelligence                 involved in decision making
+
+Bellamy et al.         Think your Artificial Intelligence         Introducing the AI Fairness 360, an
+                          software is fair? Think again              open-source toolkit for research and
+                                                                     practitioners, based on the
+                                                                     assumption that machine learning is
+                                                                     always a form of statistical
+                                                                     discrimination. It provides a platform
+                                                                     to (1) experiment with and compare
+                                                                     various existing bias detection and
+                                                                     mitigation algorithms in a common
+                                                                     framework and gain insights into
+                                                                     their practical usage; (2) contribute
+                                                                     and benchmark new algorithms; (3)
+                                                                     contribute new datasets and analyze
+                                                                     them for bias; (4) education on the
+                                                                     important issues in bias checking and
+                                                                     mitigation; (5) guidance on which
+                                                                     metrics and mitigation algorithms to
+
+                                                                  use; (6) tutorials and sample notebooks
+                                                                    that demonstrate bias mitigation in
+                                                                    different industry settings; and (7) a
+                                                                    Python package for detecting and
+                                                                    mitigating bias in their workflows
+
+Canhoto and Clear      Artificial intelligence and machine        Framework to map AI solutions and to
+                          learning as business tools: a              identify and manage the value-
+                          framework for diagnosing value             destruction potential of AI for
+                          destruction potential                      businesses, which can threaten the
+                                                                     integrity of the AI system's inputs,
+                                                                     processes, and outcomes
+
+123
+Business Research
+
+Table 2 continued
+
+Author            Title                                            Content
+
+Kolbjørnsrud et al. Partnering with AI: how organizations          The findings of a survey with 1770
+                              can win over skeptical managers         managers from 14 countries and 37
+                                                                      interviews with senior executives
+                                                                      reveal that soft skills will become
+                                                                      more important. In addition, there are
+                                                                      different opinions on AI between
+                                                                      mid-/ low-level managers and high-
+                                                                      level ones. The recommendation is
+                                                                      given that managers should take an
+                                                                      active role and embrace AI
+                                                                      opportunities
+
+Lepri et al.             Fair, transparent, and                    Analyzing the lack of fairness and
+                            accountable algorithmic decision-         introducing the Open Algortihms
+                            making processes                          (OPAL) project for realizing the
+                                                                      vision of a world where data and
+                                                                      algorithms are used as lenses and
+                                                                      levers in support of democracy and
+                                                                      development
+
+L'Heureux et al.         Machine learning with big data:           Summary of machine learning
+                            Challenges and approaches                 challenges according to Big Data
+                                                                      volume, velocity, variety, or veracity
+
+Migliore and             Demystifying the big data phenomenon Leaders need to understand IT
+   Chinta
+                         for strategic leadership: Quarterly       capabilities to make the right
+
+                         Journal                                   decisions
+
+Singh et al.             Decision provenance: Harnessing data      Proposing data provenance methods as a
+                            flow for accountable systems              technical means for increasing
+                                                                      transparency
+
+Watson                   Preparing for the cognitive generation    Interviews with 11 experts on how AI
+                            of decision support                       will affect organizational decision-
+                                                                      making lead to 10 steps of how to
+                                                                      prepare
+
+Whittle et al.           Smart manufacturing technologies:         Survey with 4400 participants finds AI
+                            Data-driven algorithms in production      to be supporting cooperation and
+                            planning, sustainable value creation,     multi-stakeholder decision making
+                            and operational performance
+                            improvement
+
+Category ``Ethical perspectives on using AI in strategic organizational decision-making''
+
+Bogosian                 Implementation of moral uncertainty Presenting computational framework
+
+                         in intelligent machines                   for implementing moral reasoning in
+
+                                                                   artificial moral agents
+
+Cervantes et al.         Autonomous agents and ethical             Presentation of computational model of
+                            decision-making                           ethical decision making for
+                                                                      autonomous agents, taking into
+                                                                      account the agent's preferences, good
+                                                                      and bad past experiences, ethical
+                                                                      rules, and current emotional state.
+                                                                      The model is based on neuroscience,
+                                                                      psychology, artificial intelligence,
+                                                                      and cognitive informatics and
+                                                                      attempts to emulate neural
+                                                                      mechanisms of the human brain
+                                                                      involved in ethical decision making
+
+                                                                                            123
+                                                                       Business Research
+
+Table 2 continued
+
+Author  Title                                                 Content
+
+Etzioni and Etzioni  AI assisted ethics                       To answer question of how to ensure
+                                                                 that AI will not engage in unethical
+Giubilini and        The artificial moral advisor. The           conduct, article suggests a oversight
+   Savulescu            ``ideal observer'' meets artificial      programs, that will monitor, audit,
+                        intelligence                             and hold operational AI programs
+Hertz and Wiese                                                  accountable: the ethics bot
+                     Good advice is beyond all price, but
+Kirchkamp and           what if it comes from a machine?      Introducing the ``artificial moral
+   Strobel                                                       advisor'' (AMA) to improve human
+                     Sharing responsibility with a               moral decision making, by taking into
+Neubert and             machine                                  account principles and values and
+   Montan~ez (2019)                                              implementing the positive functions
+                     Virtue as a framework for the design        of intuitions and emotions in human
+Parisi                  and use of artificial intelligence       morality without their downsides,
+Shank et al.                                                     such as biases and prejudices
+Vamplew et al.       Critical computation: Digital
+                        automata and general artificial       Experiment with 68 undergraduate
+Webb et al.             thinking                                 students to explore whether humans
+                                                                 distrust machine advisers in general,
+                     When are artificial intelligence            finding that they prefer machine to
+                        versus human agents faulted for          human agents on analytical tasks and
+                        wrongdoing? Moral attributions           human to machine agents on social
+                        after individual and joint decisions     tasks
+
+                     Human-aligned artificial intelligence    There is a difference between human/
+                        is a multiobjective problem              human and human/AI teams: people
+                                                                 behave more selfish when being part
+                     ``It would be pretty immoral to             of a group, but not in case of being in
+                        choose a random algorithm''              groups with AI
+
+                                                              Overview of how google is using AI
+                                                                 (negatively) incl. Googles overall
+                                                                 goals for AI. Introduction of virtue
+                                                                 dimensions for decision making
+                                                                 assigned to AI and defined for AI
+
+                                                              The article focuses on transformation of
+                                                                 logical thinking by and with
+                                                                 machines
+
+                                                              A survey with 453 participants on
+                                                                 human, AI, and joint decision making
+                                                                 reveals that AI always is perceived as
+                                                                 less morally responsible than humans
+
+                                                              The Multiobjective Maximum Expected
+                                                                 Utility paradigm leads to human-
+                                                                 aligned intelligent agents. Goals are
+                                                                 important for focusing AI decisions
+                                                                 and limit consequences
+
+                                                              Presentation of ``UnBias'' project which
+                                                                 tries to implement fairness and
+                                                                 transparency in algorithms: Survey
+                                                                 with case studies on limited resource
+                                                                 allocation problems asking 39
+                                                                 participants to assign algorithms to
+                                                                 scenarios
+
+123
+Business Research
+
+Table 2 continued
+
+Author          Title                                          Content
+
+Wong                   Democratizing algorithmic fairness      Analyzing the political dimension of
+                                                                  algorithmic fairness and offering a a
+                                                                  deliberative approach based on the
+                                                                  accountability for reasonableness
+                                                                  framework (AFR)
+
+Category ``Impact of AI usage in strategic organizational decision-making on the division of tasks
+   between humans and machines''
+
+Agrawal et al.         Exploring the impact of artificial      Machines can learn judgment from
+                          intelligence: prediction versus         humans over time
+                          judgment
+
+Anderson               Business strategy and firm location     Four models of decision making are
+                          decisions: testing traditional and      analyzed, finding that ``human
+                          modern methods                          intelligence still rules''
+
+Bolton et al.          The power of human­machine              Analyzing data from several databases
+                          collaboration: Artificial               to make estimates regarding the
+                          Intelligence, Business                  impact of artificial intelligence (AI)
+                          Automation, and the Smart               on industry growth, how AI could
+                          Economy                                 change the job market, reasons given
+                                                                  by global companies for AI adoption,
+                                                                  and leading advantages of AI for
+                                                                  international organizations
+
+Jarrahi                Artificial intelligence and the future  AI can assist humans in predictive
+                          of work: human-AI symbiosis in          analytics, gathering and interpreting
+                          organizational decision making          data, and should augment, not
+                                                                  replace, human decision makers. In
+                                                                  higher levels, visionary thinking is
+                                                                  more important than data for
+                                                                  decisions
+
+Klumpp and Zijm        Logistics innovation and social         Article provides theoretical framework,
+                          sustainability: how to prevent an       describing different levels of
+                          artificial divide in human­             acceptance and trust as a key element
+                          computer interaction                    of human­machine relationship for
+                                                                  technology innovation, mentioning
+                                                                  the danger of an artificial divide.
+                                                                  Based upon the findings of four
+                                                                  benchmark cases, a classification of
+                                                                  the roles of human employees in
+                                                                  adopting innovations is developed
+
+Lyons et al.           Certifiable trust in autonomous         AI systems need to be tested
+                          systems: making the                     appropriately to promote trust among
+                          intractable tangible                    users
+
+Parry et al.           Rise of the machines: a critical        The authors model a scenario where AI
+                          consideration of automated              substitutes humans in decision
+                          leadership decision making in           making, claiming that high
+                          organizations                           safeguarding is needed. AI systems
+                                                                  tend to overweigh objective criteria
+                                                                  over subjective ones. AI can only
+                                                                  assist to find a vision for leadership
+                                                                  teams but not take the decisions alone
+                                                                  at this high level
+
+                                                                        123
+                                                                       Business Research
+
+Table 2 continued
+
+Author  Title                                                 Content
+
+Rezaei et al.        IoT-based framework for                  Article offers a SCOR-based decision-
+Schneider and Leyer     performance measurement: a real-         alignment framework for SC
+Shrestha et al.         time supply chain decision               performance management with
+                        alignment                                human intelligence-based processes
+Smith                                                            for high-level decisions and machine-
+Yablonsky            Me or information technology?               based ones for operational decisions,
+                        adoption of artificial intelligence      both linked by machine intelligence
+                        in the delegation of personal
+                        strategic decisions                   A survey with 310 participants on
+                                                                 willingness to delegate strategic
+                     Organizational decision-making              decisions reveals that low situational
+                        structures in the age of artificial      awareness enables delegation to AI,
+                        intelligence                             which implies the same risk as not
+                                                                 delegating parts of the decision to AI
+                     Idealizations of uncertainty, and           due to too much self-confidence in a
+                        lessons from Artificial Intelligence     situation
+
+                     Multidimensional data-driven             Comparison of human and AI-based
+                        artificial intelligence innovation       decision making along five
+                                                                 dimensions: specificity of the
+                                                                 decision search space, interpretability
+                                                                 of the decision-making process and
+                                                                 outcome, size of the alternative set,
+                                                                 decision-making speed, and
+                                                                 replicability. Based on this, offering
+                                                                 of framework for combining both for
+                                                                 organizational decision making (full
+                                                                 human to AI delegation; hybrid-
+                                                                 human-to-AI and AI-to-human
+                                                                 sequential decision making; and
+                                                                 aggregated human­AI decision
+                                                                 making)
+
+                                                              AI is more adequate for prescriptive
+                                                                 than descriptive decision making. In
+                                                                 decisions under uncertainty,
+                                                                 psychological context needs to be
+                                                                 valued
+
+                                                              Analysis of relationship between Big
+                                                                 Data, AI and Advanced Analytics to
+                                                                 define AI innovation from a
+                                                                 managerial perspective and not a
+                                                                 technical or architectural one.
+                                                                 Development of multidimensional AI
+                                                                 innovation taxonomy framework, that
+                                                                 can be used with a focus on data-
+                                                                 driven human­machine relationships,
+                                                                 and applying AI at different levels of
+                                                                 maturity
+
+123
+Business Research
+
+4 Results and discussion
+
+4.1 Distribution of articles per year, journal, and research methodology
+
+Assessing the distribution of articles per year, an increase can be seen over the entire
+period of observation (see Fig. 6 in Appendix 2). The highest rise occurred between
+2018 (10 articles) and 2019 (28 articles). This might be due to a higher focus on the
+topic in the business area worldwide, starting in the last quarter of 2019 (Artificial
+Intelligence in Business and Industrial Worldwide 2020) and leading to an increase
+in scientific interest to analyze this topic from a business perspective. This is also
+evident in the increasing number of published articles in high-quality journals in
+2019.
+
+   The 55 selected articles have been published in 42 different journals, while only 9
+have more than 1 article included in the review (see Fig. 7 in Appendix 2). This
+illustrates the relevance of the topic for different disciplines, the high interest in the
+research field, and the various focus topics. This is also demonstrated by the
+respective focus of the magazines, from technology and computer systems to society
+and ethics, and journals focusing on business and management. The type and
+methodology of analysis (see Fig. 8 in Appendix 2), however, is rather theoretically
+oriented. Empirical approaches increase in 2019, where even conceptual articles try
+to relate their findings to practical observations and data.
+
+   Regarding the distribution of articles among the categories defined for the
+content analysis (see Fig. 9 in Appendix 2), a major focus is on the human­machine
+relationship (12) and ethical perspectives (12). In both categories, theoretical
+approaches are still dominant. Therefore, real-life examples of an implementation of
+AI into organizational decision making are assumed to be rare, making empirical
+analysis difficult. This seems to be different for the smallest category of knowledge
+management (6), which is the most practically analyzed one.
+
+   The following sections provide an overview of the articles per category of the
+CA, each of which deals with one or more sub-dimensions of the RQ, as explained
+in Sect. 3.3. Thereby, more detailed insights into the content of the articles are
+offered (for an overview see Table 2) to provide managerial implications that are
+only possible by synthesizing the findings (Denyer and Tranfield 2009). The basis
+for these implications will be the conceptual framework presented in Sect. 4.3. It
+offers an answer to the RQ based on a combination of the findings resulting from
+addressing the sub-dimensions.
+
+4.2 Using AI as support for strategic organizational decision making
+
+4.2.1 Knowledge management with the help of AI
+
+Studies of the sample highlight that through the interaction between individuals and
+technological systems, new meanings and influences are expected to be created
+(Shollo and Galliers 2016). Researchers agree that AI can be used for the collection,
+interpretation, evaluation, and sharing of information, thereby providing support in
+
+                                                            123
+                                                                                                         Business Research
+
+speed, amount, diversity, and availability of data (Acharya and Choudhury 2016;
+Shollo and Galliers 2016; Bohanec et al. 2017a). In addition, Acharya and
+Choudhury (2016) highlight the opportunity to increase data quality, as too much,
+too little, or incorrect information can negatively affect decision outcomes, which is
+often the case in large organizations with complex structures.
+
+   However, Metcalf et al. (2019) raise the concern that the training of AI will be
+difficult, as data are constantly changing and complex in nature. They thus deem
+humans to be necessary to ensure the quality of information and interpretation,
+which is also supported by other researchers' findings (Shollo and Galliers 2016;
+Bohanec et al. 2017a, b; Terziyan et al. 2018). In addition, especially for highly
+strategic decisions, implicit information has been found to be more important than
+pure analysis of facts (Acharya and Choudhury 2016; Bohanec et al. 2017a).
+Therefore, ``while humans have access to both explicit and tacit knowledge, lack of
+access to tacit knowledge and the reliance on historical data from which patterns can
+be identified are major limiting factors of AI (...)'' (Metcalf et al. 2019: 2). Some
+researchers even provide evidence that groups are capable of including some of
+these aspects through discussion (Shollo and Galliers 2016; Bohanec et al. 2017a;
+Metcalf et al. 2019).
+
+   Nevertheless, several researchers offer potential tools to make implicit knowl-
+edge available, as marked in bold in Table 2. The most holistic method for
+integrating all types of information into decision making is proposed by Terziyan
+et al. (2018): by cloning human decision makers, the patented intelligence (Pi-Mind)
+methodology attempts to capture soft facts and potential utility levels, although the
+quality of the clone always depends on the input data provided by humans. Acharya
+and Choudhury (2016: 54) call for an inter-organizational knowledge-sharing model
+to address the challenge that ``an overemphasis on technology might force an
+organization to concentrate on knowledge storage, rather than knowledge flow.'' As
+information quantity influences all steps of the decision-making process, these
+authors also state that resources within an organization should be allocated to enable
+efficient knowledge management (Acharya and Choudhury 2016).
+
+   The six articles in this category do not propose clear strategies on how to
+organize knowledge management, neither in general, nor with the help of AI.
+However, an agreement can be observed on AI supporting the amount and speed of
+information collection and interpretation. Nevertheless, the authors in this category
+argue that the resulting quality depends on human capabilities and willingness to
+disclose implicit information.
+
+4.2.2 Categorization of AI applications
+
+Almost all articles in the sample propose a set of AI applications to a certain extent.
+Table 3 clusters all the applications mentioned according to their use case and
+possible integration into the decision-making process defined in Sect. 2.3.
+
+   Researchers of this category agree on the stages of input­process­output, with
+related definitions on data being at rest, in collection, in transition, in motion, or in
+use. Parallel to this, respective applications increase in ability from purely statistical
+
+123
+Business Research
+
+Table 3 Overview of mentioned AI applications related to process step and use case
+
+Application      Top­        Use case                             Useful Sources
+                                                                  for
+                 down/                                            step
+
+                 bottom­up
+
+Artificial       Bottom­     Optimization (e.g., supplier         3, 4, 5  Flath and Stein (2018),
+   neural           up          selection, SCM processes)                     Baryannis et al.
+   networks                                                                   2019a, b, Blasch et al.
+                             Prediction (e.g., production losses              (2019) and Calatayud
+                               or trends)                                     et al. (2019)
+
+Bayesian         Bottom­     Probability assessment               (3), 4,  Baryannis et al.
+   Networks         up                                               5        (2019a, b), Blasch
+                             Impact assessment of specific                    et al. (2019) and
+                               outcome                                        Colombo (2019)
+
+                             Detect connections/create
+                               networks
+
+Decision trees   Rather      classification                       3, 4 Flath and Stein (2018)
+                    top­     If­then rules                                       and Baryannis et al.
+                    down     Detect connections                                  (2019a)
+
+Fuzzy systems    Top­down if­then rules                           3, 4     Pigozzi et al. (2016),
+                                                                              Blasch et al. (2019),
+                    and      Prediction based on high variety of              Baryannis et al.
+                    bottom­    data                                           (2019b) and Calatayud
+                    up                                                        et al. (2019)
+                             Optimization (e.g., SCM
+
+                             processes)
+
+                             Preference definition (e.g.,
+                               recommendation systems)
+
+k-means          Top­down Clustering (e.g., for customer          3, 4 Mu¨hlroth and Grottke
+                                    segmentation)                                (2018) and Blasch
+                                                                                 et al. (2019)
+                                 Classification
+
+Nearest          Top­down clustering                              3, 5     Pigozzi et al. (2016)
+   neighbour
+                             Preference detection, if no utility
+                               function exists
+
+Pattern mining   Top­down    Classification (e.g., for            2, 3,    Flath and Stein (2018),
+   (incl.           and         recommendation systems)              (4)      Mu¨hlroth and Grottke
+   association-     bottom­                                                   (2018), Baryannis et al.
+   rule mining,     up                                                        (2019b) and Blasch
+   business                                                                   et al. (2019)
+   mining)
+
+Regression       Rather      Probability assessment               3, 4, 5  Pigozzi et al. (2016) and
+                    top­     Classification                                   Flath and Stein (2018)
+                    down     Detect connections (e.g., for sales
+
+                               or customer behavior forecast)
+
+Support vector          Bottom­  Classification             3, 4, 5     Pigozzi et al. (2016), Flath and
+   modelling (SVM)         up    Generalization                            Stein (2018), Mu¨hlroth and
+                                 Detect connections                        Grottke (2018), Baryannis
+                                 Inclusion of preference                   et al. (2019a) and Blasch
+                                                                           et al. (2019)
+                                   function, if available
+
+Special applications provided by the sample
+
+                                                                                    123
+                                                                      Business Research
+
+Table 3 continued
+
+Application  Top­       Use case                             Useful Sources
+                                                             for
+             down/                                           step
+
+             bottom­up
+
+Datascience toolbox    Top­down    Predictive information    2, 3, 4  Flath and Stein (2018)
+                          and         implemented in         3, 4, 5  Colombo (2019)
+Holistic risk             bottom­     business processes     2, 3, 4  Calatayud et al. (2019)
+   application method     up          (e.g., manufacturing
+   (HoRAM)                            systems); human
+                       Bottom­        interpretation needed
+Self-thinking supply      up
+   chain                           dynamic method
+                       Top­down
+                                   Combination of
+                                     consequences with
+                                     probability of
+                                     occurrence
+
+                                   Simulation-based
+                                     scenario approach
+
+                                   continuous performance
+                                      monitoring
+
+                                   High connectivity
+                                     between physical and
+                                     digital systems
+
+AI, which some researchers do not even classify as AI (Baryannis et al. 2019a), to
+human­machine AI (Blasch et al. 2019), supporting the framework in Sect. 2.1.2.
+
+   Scholars argue that determining which application to use depends on the type,
+quantity, and quality of data available, resulting in various necessities to handle the
+data, such as classification, clustering, or detection of connections (see Table 3).
+Moreover, as several applications can be used for both top­down and bottom­up
+approaches (Flath and Stein 2018; Mu¨hlroth and Grottke 2018; Baryannis et al.
+2019a, b; Blasch et al. 2019), the purpose for which the specific application should
+be used is identified as an additional influence (Blasch et al. 2019).
+
+   Articles use and recommend a hybrid approach, as mathematical models are, on
+the one hand, found to be less capable of handling a large amount of data, which, on
+the other hand, is needed to train machine learning applications, often based on
+mathematical ones (Baryannis et al. 2019b; Blasch et al. 2019). Therefore, Simon's
+(1995) definition of AI applications being more than mathematical theorems is
+supported.
+
+   The articles discuss potential and hypothetical use cases for AI, mainly with the
+goal of data interpretation, alternative creation, or probability and preference
+definition, possibly even related to an evaluation of consequences (Pigozzi et al.
+2016; Baryannis et al. 2019a, b). Information collection is seen as a task to be
+completely fulfilled by AI. It is related to the generation of information from various
+and numerous sources with differing techniques, such as natural language
+processing, text mining, or other data mining possibilities (Baryannis et al.
+
+123
+Business Research
+
+2019b; Blasch et al. 2019). Nevertheless, executing feature engineering afterwards
+to reduce input bias as far as possible is said to be necessarily done by humans,
+assisted by top­down applications (Flath and Stein 2018).
+
+   There is disagreement on how useful AI applications are in general for
+organizational decision making. As Baryannis et al. (2019b) found in their literature
+review, the majority of studies analyzed do not see any decision-making capability,
+although some articles provide bottom­up applications as decision support systems.
+Practical experiments in the sample instead refer to information gathering and status
+tracking within production or logistics [e.g., the data science toolbox of Flath and
+Stein (2018), supply chain risk management tools by Baryannis et al. (2019a, b), and
+the self-thinking supply chain of Calatayud et al. (2019)] with the exception of
+Colombo (2019), who introduced holistic risk analysis and modeling (HoRAM) as
+an already tested application to be used for almost the whole decision-making
+process in dynamic environments.
+
+   In summary, although scholars do not agree on what to classify as an AI
+application and whether it is useful for decision making, the consensus is that the
+choice of application is influenced by various dimensions of data and the basic
+reason for which the technology is intended to be used. Relating to Fig. 2, most
+applications that the articles refer to can be clustered as top­down, as they are not
+able to act self-consciously (i.e., human-like; Blasch et al. 2019). With increasing
+research and development efforts, however, the literature expects the capabilities of
+AI applications to increase and to shift to the right (Mu¨hlroth and Grottke 2018;
+Colombo 2019).
+
+4.2.3 Impact of AI on organizational structures
+
+Von Krogh (2018: 405) supports Herbert Simon's findings, stating that organiza-
+tional structures are closely linked to decision making, as they result from the
+limited human processing capacity: ``To mitigate this problem, information-
+processing and decision-making authority can be delegated across roles and units
+that display various degrees of interdependence.'' The organizational strategy and
+resulting goals have been found to be an important influence, not only for this
+definition of roles and relationships to make information manageable, but also on all
+steps of the strategic decision-making process relating to Fig. 3 (von Krogh 2018).
+
+   Organizational strategy and goals are further said to determine the reasons for
+which AI is used (Bienhaus and Abubaker 2018; von Krogh 2018; Butner and Ho
+2019; Paschen et al. 2019). They are also discussed as the basis for an adaptation or
+creation of structures, which is expected to be necessary to make AI integration
+possible (von Krogh 2018; Paschen et al. 2019; Udell et al. 2019). However, von
+Krogh (2018) also argues that structures change as soon as AI applications are
+actively used, thus influencing processes and responsibilities. In their surveys,
+Bienhaus and Abubaker (2018) and Butner and Ho (2019) recommend completely
+re-building and re-thinking processes rather than placing new ones on top of old
+structures. To support organizations with establishing these new processes, Paschen
+et al. (2019) developed a framework with four dimensions to assess whether the
+introduction of AI leads to an innovation in products or processes, as well as
+
+                                                            123
+                                                                                                         Business Research
+
+whether it is competency-enhancing or -destroying, thereby referring to humans as
+well. Depending on the combination of these four dimensions, firms can ``generate
+different value-creating innovations'' (Paschen et al. 2019: 151).
+
+   Lismont et al. (2017) offer another perspective, categorizing companies
+according to their readiness for technology implementation. They conclude that
+the more mature a company is in using AI, the higher the variety of applications, the
+number of affected processes, and related goals are. Due to interdependencies,
+Tabesh et al. (2019), therefore, argue that the complex construct of organizations
+should only be changed in steps and always while carefully referring to the defined
+strategy.
+
+   In summary, organizational structures are the foundation for successful AI
+integration, and vice versa, the use of AI in decision making also influences those
+structures. The strategic reasons for implementing AI inform the type and location
+of AI used. However, the available applications are also expected to influence
+existing decision-making processes that are to be adapted to make usage possible.
+
+4.2.4 Challenges of using AI in strategic organizational decision making
+
+To determine whether, how, and why to integrate AI into existing business
+processes, AI literacy has been found to be crucial (Kolbjørnsrud et al. 2017; Lepri
+et al. 2018; Canhoto and Clear 2019), as ``not every decision problem needs to be
+solved by technology'' (Migliore and Chinta 2017: 51). Researchers define AI
+literacy as a profound understanding of the technology and its possibilities and
+limitations, which according to Whittle et al. (2019) is often missing. To increase AI
+literacy, scholars have argued that the involvement of the employees who will be
+affected by AI integration, rather than only top management, is crucial, as
+acceptance differs across levels (Kolbjørnsrud et al. 2017; Bader et al. 2019).
+Stakeholders have been found to necessarily gain a sense of ownership, and by
+familiarizing themselves with the technology and actively being part of the
+integration, they are able to define their role. Therefore, according to the literature,
+education and training constitute a highly important task (Kolbjørnsrud et al. 2017;
+Watson 2017). The authors such as Migliore and Chinta (2017), Bader et al. (2019)
+and Whittle et al. (2019) recommend analyzing which capabilities are needed by
+which employee to leverage the technology's potential, thereafter enabling each
+individual to successfully work with AI for assigned tasks. This also implies that
+executives need to guide employees through this process, based on their own
+literacy and understanding of the technology (Kolbjørnsrud et al. 2017; Watson
+2017; Whittle et al. 2019).
+
+   Soft skills in general have been argued to become increasingly important with the
+introduction of AI in organizational decision making (Kolbjørnsrud et al. 2017),
+including a focus on training employees in capabilities for collaboration, creativity,
+and sound judgement. AI is recommended to be introduced step wise (Kolbjørnsrud
+et al. 2017; Watson 2017) as trust into the technology increases with experience and
+understanding. Employees become accustomed to using it for tasks for which
+machines have not been used before (Kolbjørnsrud et al. 2017; Lepri et al. 2018).
+Transparency, referring to ``information about the nature and flow of data and the
+
+123
+Business Research
+
+contexts in which it is processed'' (Singh et al. 2019: 6563) to reach a certain
+decision (Canhoto and Clear 2019), is crucial for a successful introduction and
+usage as well. The articles in this category suggest a heterogeneous introduction
+team consisting of new and established organizational executives (Kolbjørnsrud
+et al. 2017; Lepri et al. 2018) and people with sufficient training (Watson 2017).
+Scholars again claim that finding the right introduction team and providing support
+over the process are the responsibility of leadership. Kolbjørnsrud et al. (2017)
+found that top executives possess a higher awareness and understanding of their
+responsibility to invest time and guide employees through this process, than middle
+managers do.
+
+   Further challenges that the majority of authors in the category have addressed are
+data security and data privacy issues, as well as the danger of data manipulation,
+which must be evaluated before implementing new technologies (Kolbjørnsrud et al.
+2017; L'Heureux et al. 2017; Lepri et al. 2018; Canhoto and Clear 2019; Singh et al.
+2019; Whittle et al. 2019). The articles assume that the resulting transparency and
+literacy help to decrease bias. Migliore and Chinta (2017) also found that having
+more available data is helpful. These authors define bias as bounded rationality,
+which contrasts the definition in this study (see Introduction). Therefore, this
+assumption is questioned, as additionally, the right quantity and quality of data has
+been found to be a challenge in itself (Lepri et al. 2018; Canhoto and Clear 2019).
+Bellamy et al. (2019: 78) suggest that ``machine learning is always full of statistical
+discrimination,'' meaning that even machines are biased. Some frameworks have
+thus been proposed to offer solutions for fair pre-processing, in-processing, and out-
+processing, for example the AI Fairness 360 (Bellamy et al. 2019) and the Open
+Algorithms (Lepri et al. 2018), but they are also said to only reduce bias.
+Furthermore, Canhoto and Clear (2019) demonstrate that decision quality always
+depends on the application used, the resources available, the input provided, and the
+interpretation ability of the humans using it.
+
+   The literature thus suggests that education and training, combined with an
+awareness of data security issues, lead to literacy and transparency, thereby
+decreasing caveats. Furthermore, focusing on the active involvement of affected
+employees and a step-wise introduction has been found to result in a successful
+implementation. Through these factors, even though the danger of active or implicit
+bias might not decrease, at least awareness is supported. However, the majority of
+authors have also claimed that in processual and structural implementation, the
+important aspects of ethics and morality should not be forgotten.
+
+4.2.5 Ethical perspectives on using AI in strategic organizational decision making
+
+Although all researchers of this category state that an ethical framework is needed to
+use AI in organizational decision making, there is no agreement on the design. Some
+recommend an implementation of decision rules into AI systems (Webb et al. 2019;
+Wong 2019), while others concentrate on making the machine learn moral
+guidelines by itself (Bogosian 2017), relating to top­down and bottom­up
+approaches of AI.
+
+                                                            123
+                                                                                                         Business Research
+
+   Morally or socially correct behavior and the resulting implicitly learned societal
+rules are claimed to be rather subjective (Cervantes et al. 2016; Etzioni and Etzioni
+2016; Bogosian 2017; Giubilini and Savulescu 2018). Some researchers, therefore,
+propose a combination of legal frameworks (Vamplew et al. 2018), although these
+alone cannot include the complex and often conflicting factors that humans
+incorporate into decisions: ``What may be right for one person may be completely
+inaccurate for the other.'' (Cervantes et al. 2016: 281).
+
+   Parisi (2019: 26) states that ``the question of automated cognition today concerns
+not only the capture of the social (and collective) qualities of thinking, but points to
+a general re-structuring of reasoning as a new sociality of thinking,'' requiring a new
+understanding and definition of aspects such as fairness, responsibility, moral fault,
+or guilt. In an attempt to offer a new definition, several researchers have analyzed
+the behavior humans exhibit when working with artificial agents, especially in terms
+of attributing human values and shortcomings to the machines. The UnBias project
+by Webb et al. (2019) demonstrates that fairness is the guiding principle in
+decisions, though the understanding of fairness differs among participants. Wong
+(2019) lists conditions to ensure fairness. Among them, the transparency of the
+decision process and the inclusion of all affected stakeholders' perspectives are as
+important as a regulatory framework. Other researchers have analyzed the
+differences in the definitions of ethical aspects for human-only, AI-only, or
+combined decision making and found that moral fault was always attributed to
+humans (Shank et al. 2019). Kirchkamp and Strobel (2019) discovered that the
+feeling of guilt also does not change, while responsibility in human-AI teams is
+perceived as being higher than in human-only teams, and selfish-acting decreases.
+According to their findings, any higher form of moral responsibility is so far not
+attributed to machines. In addition, Hertz and Wiese (2019) found that people
+choose machines for analytical questions, while human advisors are preferred for
+social and personal topics.
+
+   In summary, articles on ethics are as divided as the topic of AI itself. ``Legal and
+safety-based frameworks (...) are perhaps best suited to the more narrow AI which
+is likely to be developed in the near to mid-term'' (Vamplew et al. 2018: 31), and
+they, therefore, seem to be the only frameworks agreed on as a guiding principle
+(Etzioni and Etzioni 2016; Wong 2019). Researchers thus assume that including
+ethical guidelines into algorithms is only possible to a limited extent and is always
+influenced by the people designing them, although several researchers have
+proposed tools to support this inclusion (Cervantes et al. 2016; Etzioni and Etzioni
+2016; Giubilini and Savulescu 2018; Vamplew et al. 2018). A new definition of
+social and moral norms and aspects in relation to AI is argued to be necessary. As no
+clear recommendation can be derived on how to solve this challenge, Vamplew
+et al. (2018) assume that a step-wise procedure is required to agree on ethical
+guidelines and the extent to which case-based judgement remains.
+
+123
+Business Research
+
+4.2.6 Impact of AI usage in strategic organizational decision making on the division
+       of tasks between humans and machines
+
+Most articles in this category claim that the ``unique strengths of humans and AI can
+act synergistically'' (Jarrahi 2018: 579), implying that through the combination of
+human and AI capabilities, efficiency and profitability in decision making are
+expected to increase (Smith 2016; Anderson 2019; Shrestha et al. 2019).
+Furthermore, it is widely agreed that humans and machines can augment each
+other, implying that AI systems learn from human inputs and vice versa (Jarrahi
+2018; Schneider and Leyer 2019). This assumption is also supported by the authors
+from other categories, such as Kolbjørnsrud et al. (2017), Terziyan et al. (2018), von
+Krogh (2018) or Blasch et al. (2019), demonstrating the relevance this topic has on
+other aspects as well.
+
+   Researchers offer several frameworks for dividing tasks between AI and humans,
+usually ranging from full delegation to AI or hybrid forms, through to human-only
+decision making (Shrestha et al. 2019; Yablonsky 2019). Parry et al. (2016) and
+Agrawal et al. (2019), however, are the only authors who consider the potential of
+allowing AI to make decisions completely independently as being realistic.
+Nevertheless, they also claim that this is not suitable for all types of decisions,
+making ``the retention of a veto power when the decisions can have far-reaching
+consequences for human beings (...)'' necessary (Parry et al. 2016: 17). Bolton et al.
+(2018: 55) identify AI as being able to ``automate tasks,'' which ``allows humans to
+focus on work that will add value'', while Klumpp and Zijm (2019) speak of the
+artificial divide, meaning that humans become supervisors more than executors.
+Thus, using AI to automate some tasks of the decision-making process gives people
+time to invest in those skills that AI cannot adequately perform, but which are
+critical to strategic decisions. The other authors further argue that humans are better
+at judgment, the analysis of political situations, psychological influences, flexibility,
+creativity, visionary thinking, and equivocality (Parry et al. 2016; Smith 2016;
+Rezaei et al. 2017; Jarrahi 2018; Agrawal et al. 2019; Shrestha et al. 2019). In
+addition, ``even if machines can determine the optimal decision, they are less likely
+to be able to sell it to a diverse set of stakeholders.'' (Jarrahi 2018: 582).
+
+   To summarize this category, the authors claim that AI offers the potential for
+machines to augment human capabilities, and vice versa, while it also changes the
+human role to become more of a supervisor. The authors hence expect a rather
+limited integration possibility of this technology into a process such as strategic
+organizational decision making, where capabilities are needed that only humans are
+argued to possess.
+
+   Lyons et al. (2017), therefore, claim that for the relationship between humans and
+machines to work, all involved parties must understand the tasks, responsibilities,
+and duties, and a high level of transparency is required, which is similar to the
+organization of human-only relationships. A possible concept of how this can be
+defined for the purpose of strategic organizational decision making is provided in
+the following.
+
+                                                            123
+                                                                                                         Business Research
+
+4.3 Conceptual framework for AI integration into the organizational
+     process for decision making under uncertainty
+
+The majority of researchers in the sample support the decision-making process in
+Sect. 2.3 (Bohanec et al. 2017a; von Krogh 2018; Shrestha et al. 2019) and its usage
+as guidance for addressing the sub-dimensions of the RQ. Derived from the analysis
+of research in the previous sections, Fig. 4 thus presents the conceptual framework
+as an elaboration on Fig. 3. As the arrows indicate, the majority of categories are
+expected to not only influence the process itself, but also be influenced by it. In
+addition, some categories even impact one another. Therefore, not all categories can
+be attributed exclusively to one sub-dimension of the RQ. Next, the parts of the
+conceptual framework are explained in more detail.
+
+   The majority of researchers claim that strategic organizational decision making is
+a people-driven and -dependent task in which technology can only be used as
+support, although most of the researchers in Sect. 4.2.6 expect humans and AI to
+augment each other. Regarding the first sub-dimension of the RQ, the conceptual
+framework presents the possible division of tasks between human decision makers
+and technology, with the task of knowledge management as its own category. This
+task combines several aspects and must be considered thoroughly by itself, as the
+results of Sect. 4.2.1 have demonstrated. Researchers agree that AI has the potential
+to collect large amounts of information from numerous sources, leverage sharing,
+and facilitate interpretation, implying that using it for the knowledge management
+task can increase speed and efficiency (Acharya and Choudhury 2016; Shollo and
+Galliers 2016; Blasch et al. 2019; Butner and Ho 2019). However, AI is said to be
+unable to solve the inherent challenge of making implicit data available that
+stakeholders and decision makers are not willing or able to provide, although initial
+possibilities for overcoming this challenge have been proposed (Terziyan et al.
+2018; Colombo 2019; Metcalf et al. 2019). The quality of implicit information is
+thus further believed to depend on humans and can only be evaluated and framed
+through human discussion (Rousseau 2018).
+
+   With the overview of the task division, the framework summarizes the current
+academic discussion on tasks for which AI is expected to be useful. The
+technology's successful integration and usage, however, has been found to depend
+on the respective AI application, and vice versa, as Fig. 4 also highlights.
+Furthermore, while utility calculations are said to depend on humans (Pigozzi et al.
+2016), researchers argue that AI can provide a forecast of how each decision
+alternative might affect the organization or partners (Agrawal et al. 2019; Baryannis
+et al. 2019a, b; Colombo 2019). This might influence the weighing of alternatives,
+for which the pure mathematical calculation can be carried out by AI as well. The
+final decision, however, must be taken by the human decision group only. With the
+current state of technology available, AI can thus leverage the stages of input and
+process (Bohanec et al. 2017a; von Krogh 2018), with the most significant impact
+on knowledge management (Mu¨hlroth and Grottke 2018; Blasch et al. 2019). This
+indicates that most existing applications cannot be defined as AI at all based on
+Nilsson's (2010) definition of intelligence.
+
+123
+                                                                                                                                                                                                                                  Business Research
+
+123
+Fig. 4 Conceptual framework for AI integration into the organizational process for decision making under uncertainty
+                                                                                                         Business Research
+
+   The choice of application is also influenced by organizational structures and the
+related allocation of resources. However, evidence from research also suggests that
+this impact is reciprocal, implying an influence of AI applications on the definition
+of organizational structures (Lismont et al. 2017; Tabesh et al. 2019). According to
+the literature, this category is both a pre-requisite for and a consequence of
+introducing AI into the process of decision making under uncertainty (von Krogh
+2018; Paschen et al. 2019; Tabesh et al. 2019). For this introduction to be
+successful, an important foundation is the organizational strategy and the resulting
+reasons for which AI is used and integrated into the decision-making process, such
+as knowledge management (Bienhaus and Abubaker 2018; von Krogh 2018; Butner
+and Ho 2019).
+
+   AI literacy and data transparency are further pre-requisites of AI integration, as
+highlighted in the middle of the framework. Scholars agree on the importance of
+enabling employees to use the technology beneficially (Lepri et al. 2018; Canhoto
+and Clear 2019). They must learn which application to choose for which task, which
+data need to be provided for the application to work correctly, and how results
+should be interpreted. In addition, training and continuous experience of working
+with the technology has been found to increase trust and thus effectiveness
+(Kolbjørnsrud et al. 2017; Lepri et al. 2018).
+
+   As the analysis in Sect. 4.2.5 highlighted, ethical perspectives influence all other
+categories. The question as to who is morally responsible or what framework the
+machines should act in accordance with, has not yet been solved, nor is it possible to
+include moral guidelines in algorithms (Cervantes et al. 2016; Vamplew et al.
+2018). Evidence suggests that, to date, machines are not related to any moral
+responsibility, implying the necessity to adapt the definition of moral constructs
+such as guilt or fairness (Parisi 2019). Any successfully proven approach of how to
+realize this, however, is missing.
+
+   Based on the analysis of the previous sections, and as Fig. 4 highlights, the
+answer to the RQ is influenced by a variety of aspects. This makes it difficult to
+provide a clear definition or guideline of how to best integrate AI into the
+organizational process of decision making under uncertainty. Researchers have
+found that AI always depends on a clear goal, as it cannot handle uncertainty or
+input complexity (Smith 2016; Jarrahi 2018; von Krogh 2018). Relating the findings
+to Nilsson (2010), a current AI application can thus only ``interact with foresight in
+its environment'' when used by humans. This contrasts with Simon's (1986, 1995)
+theory of computers and humans being alike. Nevertheless, some researchers have
+also proposed developing AI further as a net-based and learning algorithm, which
+would yield more capabilities of intelligence than it currently has (Parry et al. 2016;
+Watson 2017; Agrawal et al. 2019; Bolander 2019), although there is no agreement
+on whether AI will ever be able to exercise implicit human capabilities (Parisi 2019;
+Shrestha et al. 2019). In addition, research suggests that AI is unable to serve as a
+substitute for all benefits of human group decision making (von Krogh 2018), and
+using it can also amplify the dangers and challenges that human decision making
+entails (Flath and Stein 2018; L'Heureux et al. 2017). Moreover, especially when it
+comes to individual decision making, AI is assumed to have a less beneficial effect.
+The diversity of experience and other soft skills can only be provided through
+
+123
+Business Research
+
+human negotiation and discussion, as ``it is easier to recognize biases in other people
+than in ourselves'' (Rousseau 2018: 137).
+
+   Therefore, utilizing AI as support in this important organizational process implies
+a role change for human decision makers. As the literature states, they become
+supervisors (Bolton et al. 2018; Klumpp and Zijm 2019), a role that has to be
+interpreted differently than it is defined in traditional production processes.
+However, supervising AI has manifold dimensions, and a deep understanding of
+AI's functioning and the ability to translate and interpret its results correctly are
+crucial for a successful and responsible use of this technology (Lyons et al. 2017;
+Canhoto and Clear 2019; Whittle et al. 2019). This leads to several managerial
+implications and research possibilities, which are presented in the following chapter.
+
+5 Concluding remarks
+
+5.1 Managerial implications
+
+The analysis of the AI applications revealed that researchers disagree on whether
+current applications are useful for strategic decisions (Shollo and Galliers 2016;
+Baryannis et al. 2019b). Therefore, proposals for implementation strategies are rare.
+
+   Deduced from the organizational strategy, managers are recommended to first
+specify the reason for integrating AI and the resulting decision tasks to be
+supported. In line with this follows the adjustment of organizational structures to
+make AI integration possible. Third, the applications to be used must be stipulated.
+However, as the results have shown, each of these steps can also influence the other,
+so it is not a stringent but very individual implementation process. Scholars argue
+that the AI literacy of managers is crucial to become aware of the possibilities and
+challenges of AI, which in turn enables managers to make the most efficient use of
+the technology (Kolbjørnsrud et al. 2017; Whittle et al. 2019).
+
+   Scholars, however, emphasize the importance of being aware that with an
+integration of AI into the strategic decision-making process, the human role is
+expected to change. This means a shift in responsibility, which simultaneously
+requires a focus on other skills (Kolbjørnsrud et al. 2017; Bolton et al. 2018; Bader
+et al. 2019; Klumpp and Zijm 2019). Therefore, researchers suggest that employees
+and managers alike should engage in training those capabilities that AI does not
+possess, such as empathy, creativity, and emotions (Parry et al. 2016; Jarrahi 2018;
+Terziyan et al. 2018; von Krogh 2018; Schneider and Leyer 2019).
+
+   It can consequently be stated that human groups remain important, although AI
+offers some benefits, such as information amount and diversity, which can usually
+only be gained with the inclusion of more people in the decision-making process.
+Smaller teams, thus, are expected to increase efficiency and speed, as less
+negotiation is needed. Here, it is important to ensure that diverse group members are
+chosen with the necessary skills for strategic decision making and AI usage. This,
+however, also increases the risk of few people possessing too much power and
+managers must always be aware that the use of AI can bring additional dangers and
+
+                                                            123
+                                                                                                         Business Research
+
+challenges, such as bias in several dimensions (Flath and Stein 2018; L'Heureux
+et al. 2017).
+
+   Some studies have provided frameworks for analyzing the readiness of an
+organization or the necessary steps to become more AI-based (see Table 2; Watson
+2017; Canhoto and Clear 2019; Yablonsky 2019). Nonetheless, ethical frameworks
+must still be developed, although this perspective is discussed with increasing
+awareness (Bellamy et al. 2019; Parisi 2019; Shank et al. 2019; Webb et al. 2019).
+Managers are hence required to actively engage in this when developing and
+extending the use of AI.
+
+5.2 Limitations and further research possibilities
+
+This study has some limitations. The first relates to the methodology that was
+employed. Although the steps of Tranfield et al. (2003) and Mayring (2008) were
+followed, bias might have been introduced through the definition of keywords,
+which would have influenced the search and interpretation. As categories were
+defined rather broadly, articles on some specific topics might be missing.
+Nevertheless, the decision to carry out broad research and use broad interpretation
+categories was made to include as much data as possible and to obtain a general
+understanding of a rather undefined topic with many research objectives. Moreover,
+including further keywords relating to statistical or mathematical applications might
+have expanded the findings, as articles that do not mention AI when using these
+applications would also have been included. However, since there is so far no clear
+definition of which applications to include when speaking of AI, a decision was
+made not to enlarge the number of keywords. This allowed for an understanding of
+the current state of AI in decision making rather than biased results.
+
+   Searching in only four databases is another bias-related limitation, but searches in
+other databases would not have been possible in the same manner due to technical
+constraints in the search fields. As AI is a fairly practice-oriented topic, it might also
+have been interesting to include more practical views, however, this was not
+possible due to the peer-reviewed criterion. As the literature review of Calatayud
+et al. (2019: 26) demonstrates, non-scientific articles currently dominate the topic.
+For this reason, the suggestion would be to enhance this literature review by adding
+practical literature.
+
+   The fact that the small number of articles in this literature review leads to a
+myriad of different topics highlights the uncertainty that might only be solved by
+testing several designs. The potential for leveraging the best of both worlds could be
+seen in the analysis, and further, especially empirical, research is thus needed to
+analyze the possibilities of AI and the potential results of its integration into human-
+centered processes, such as decision making (von Krogh 2018). As most companies
+are still in the piloting and planning phase (Butner and Ho 2019), opportunities
+increase to uncover other interesting results. In this regard, the following would be
+helpful: a clear definition of AI and related applications, as well as initial process
+concepts demonstrating how to integrate the technology into decision-making
+structures and how to establish a partnership with the humans involved. The
+framework provided in Fig. 4 could be a useful starting point, while theory wise, the
+
+123
+Business Research
+
+actor-network theory might serve as a basis, as it might help to explain when and
+how the responsibility changes from human to non-human actors.
+
+5.3 Conclusion
+
+This article is the first to focus on the current status of research about AI's potential
+to become a support in strategic organizational decision making, that is, group
+decision making under uncertainty. It set out to answer the following question: How
+can AI support decision making under uncertainty in organizations?
+
+   The conceptual framework of Fig. 4 (see Sect. 4.3) provides the synthesis of
+findings from the analysis of current literature on this question. It takes into account
+the necessary pre-conditions for and potential consequences of combining human
+decision makers and AI, as well as a potential task division.
+
+   This study revealed that the established understanding of machines as tools is not
+suitable for AI. Successfully using this technology requires human decision makers
+to change their role and become translators and interpreters of the results rather than
+only supervising the machine with the execution of a predefined process. This also
+implies an increase in responsibility and change in the skills needed. Therefore, the
+way in which to view AI will heavily depend on how humans view themselves
+(Mueller 2012), while its benefits also greatly depend on the context and goal. While
+Lawrence's (1991) framework of complexity and politicality is expected to remain,
+the resulting applications might further change with the development of the
+technology as a learning algorithm. Assuming that computing machines and humans
+are equal, however, is neither to be expected, based on current research, nor
+ethically supported (von Krogh 2018).
+
+Funding Not applicable.
+Availability of data and material Upon request by the authors.
+
+Compliance with ethical standards
+
+Conflict of interest Not applicable.
+
+Code availability Not applicable.
+
+Open Access This article is licensed under a Creative Commons Attribution 4.0 International License,
+which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as
+you give appropriate credit to the original author(s) and the source, provide a link to the Creative
+Commons licence, and indicate if changes were made. The images or other third party material in this
+article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line
+to the material. If material is not included in the article's Creative Commons licence and your intended
+use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain
+permission directly from the copyright holder. To view a copy of this licence, visit http://
+creativecommons.org/licenses/by/4.0/.
+
+                                                            123
+                                     Business Research
+
+Appendix 1
+The methodological process
+
+Fig. 5 Systematic selection process
+
+123
+Business Research
+
+Table 4 Overview of database search strategies
+
+Database                 Inclusion criteria            Search string
+
+Business Source          Scope: title, abstract,       1. ``Artificial Intelligence'' OR ``Machine
+   Complete (via            keywords                      Learning'' AND ``Decision Making'' OR
+   EBSCO host)                                            ``Decision Support''
+                         Source: academic journals
+Sciencedirect                                          2. ``Human Machine'' AND ``Decision Making''
+                         Type: scholarly reviewed        OR ``Decision Support''
+ABI/inform (via            articles
+   ProQuest)                                           3. ``Artificial Intelligence'' OR ``Machine
+                         Year: 2016­2019                 Learning'' AND ``Human Machine'' AND
+Web of Science                                           ``Decision Making'' OR ``Decision Support''
+                         Scope: title, abstract,
+                            keywords
+
+                         Type: review articles and
+                           research articles
+
+                         Year: 2016­2019
+
+                         Scope: title, abstract, main
+                            subject
+
+                         Source: scientific and
+                           specialized journals
+
+                         Type: accepted
+                           articles ? backfiles,
+                           proven by experts
+
+                         Year: 2016­2019
+
+                         Scope: title, abstract,
+                           keywords, author
+                           keywords
+
+                         Type: article
+
+                         Year: 2016­2019
+
+Table 5 Overview of exclusion criteria
+
+Category                 Related criteria
+
+Mobility                 Autonomous driving, aerospace, transportation
+Business organizations   Manufacturing and production lines, inventory management, failure
+
+Environment                 detection, consumer behavior forecasting, forecasting and tracking in
+Medicine                    logistics
+Finance                  Water, waste, pollution, climate change
+Public/political issues  Cancer, patient tracking, chemistry, disease rate forecasting
+                         Credit risk, stock price forecasting, Bitcoin, investment portfolios
+Military/war             Smart cities, rural aspects, energy, civil/public engineering, law/legal,
+explanation of AI           cybersecurity, crime hotspots, traffic congestion/accidents, taxes
+
+   functionality only    Agriculture, electric and electrical engineering, construction/building,
+Various                     architecture, social media, human resources, sports
+
+                                                                      123
+                                                                                                         Business Research
+
+Appendix 2
+Distribution of articles by year, journal, methodology, and category
+
+Fig. 6 Distribution of articles by year of publication
+
+Fig. 7 Distribution of articles by journals providing more than one article
+Fig. 8 Distribution of articles
+by research methodology
+
+123
+Business Research
+
+Fig. 9 Distribution of articles
+by category
+
+Appendix 3
+
+Acharya and Choudhury (2016), Agrawal et al. (2019), Anderson (2019), Bader
+et al. (2019), Baryannis et al. (2019a, b), Bellamy et al. (2019), Bienhaus and
+Abubaker (2018), Blasch et al. (2019), Bogosian (2017), Bohanec et al. (2017a, b),
+Bolton et al. (2018), Butner and Ho (2019), Calatayud et al. (2019), Canhoto and
+Clear (2019), Cervantes et al. (2016), Colombo (2019), Etzioni and Etzioni (2016),
+Flath and Stein (2018), Giubilini and Savulescu (2018), Hertz and Wiese (2019),
+Jarrahi (2018), Kirchkamp and Strobel (2019), Klumpp and Zijm (2019),
+Kolbjørnsrud et al. (2017), Lepri et al. (2018), L'Heureux et al. (2017), Lismont
+et al. (2017), Lyons et al. (2017), Metcalf et al. (2019), Migliore and Chinta (2017),
+Mu¨hlroth and Grottke (2018), Neubert and Montan~ez (2019), Parisi (2019), Parry
+et al. (2016), Paschen et al. (2019), Pigozzi et al. (2016), Rezaei et al. (2017),
+Schneider and Leyer (2019), Shank et al. (2019), Shollo and Galliers (2016),
+Shrestha et al. (2019), Singh et al. (2019), Smith (2016), Tabesh et al. (2019),
+Terziyan et al. (2018), Udell et al. (2019), Vamplew et al. (2018), von Krogh
+(2018), Watson (2017), Webb et al. (2019), Whittle et al. (2019), Wong (2019) and
+Yablonsky (2019).
+
+References
+
+Acharya, Sujit K., and Snigdhamayee Choudhury. 2016. Knowledge management and organisational
+      performance in the context of e-knowledge. Srusti Management Review 9 (1): 50­54.
+
+Agrawal, Ajay, Joshua S. Gans, and Avi Goldfarb. 2019. Exploring the impact of artificial Intelligence:
+      Prediction versus judgment. Information Economics and Policy 47: 1­6. https://doi.org/10.1016/j.
+      infoecopol.2019.05.001.
+
+Anderson, Patrick L. 2019. Business strategy and firm location decisions: Testing traditional and modern
+      methods. Business Economics 54 (1): 35­60. https://doi.org/10.1057/s11369-018-00111-6.
+
+Artificial Intelligence. 2020. Google trends on artificial intelligence as search term from 2004-present
+      worldwide in all categories. https://trends.google.com/trends/explore?date=all&q=artificial%
+      20intelligence. Accessed 2 Apr 2020.
+
+                                                            123
+                                                                                                         Business Research
+
+Artificial Intelligence in Business and Industrial Worldwide. 2020. Google trends on artificial intelligence
+      as a field of study within the past five years worldwide in the category of Business and Industrial.
+      https://trends.google.com/trends/explore?cat=12&date=today%205-y&gprop=news&q=artificial%
+      20intelligence. Accessed 2 Apr 2020.
+
+Bader, Verena, Stephan Kaiser, Armin Beverungen, Timon Beyes, and Lisa Conrad. 2019. Algorithmic
+      decision-making? The user interface and its role for human involvement in decisions supported by
+      artificial intelligence. Organization 26 (5): 655­672. https://doi.org/10.1177/1350508419855714.
+
+Barocas, Solon, and Andrew D. Selbst. 2016. Big data's disparate impact. California Law Review 104:
+      671­732. https://doi.org/10.15779/Z38BG31.
+
+Baryannis, George, Samir Dani, and Grigoris Antoniou. 2019a. Predicting supply chain risks using
+      machine learning: The trade-off between performance and interpretability. Future Generation
+      Computer Systems 101: 993­1004. https://doi.org/10.1016/j.future.2019.07.059.
+
+Baryannis, George, Sahar Validi, Samir Dani, and Grigoris Antoniou. 2019b. Supply chain risk
+      management and artificial intelligence: State of the art and future research directions. International
+      Journal of Production Research 57 (7): 2179­2202. https://doi.org/10.1080/00207543.2018.
+      1530476.
+
+Beckmann, Christine M., and Pamela R. Haunschild. 2002. Network learning: The effects of partners'
+      heterogeneity experience on corporate acquisitions. Administrative Science Quarterly 47: 92­124.
+
+Bellamy, Rachel KE., Kuntal Dey, Michael Hind, Samuel C. Hoffman, Stephanie Houde, Kalapriya
+      Kannan, Pranay Lohia, Jacqueline Martino, Sameep Mehta, Aleksandra Mojsilovie, Seema Nagar,
+      Karthikeyan Natesan Ramamurthy, John Richards, Diptikalyan Saha, Prasanna Sattigeri, Moninder
+      Singh, Kush R. Varshney, and Yunfeng Zhang. 2019. AI Fairness 360: An extensible toolkit for
+      detecting and mitigating algorithmic bias. IBM Journal of Research and Development 63 (4/5):
+      1­15.
+
+Bienhaus, Florian, and Haddud Abubaker. 2018. Procurement 4.0: Factors influencing the digitisation of
+      procurement and supply chains. Business Process Management Journal 24 (4): 965­984. https://doi.
+      org/10.1108/BPMJ-06-2017-0139.
+
+Blasch, Erik, Robert Cruise, Alexander Aved, Uttam Majumder, and Todd Rovito. 2019. Methods of AI
+      for multimodal sensing and action for complex situations. AI Magazine Winter 2019: 50­65.
+
+Bogosian, Kyle. 2017. Implementation of moral uncertainty in intelligent machines. Minds and Machines
+      27: 591­608. https://doi.org/10.1007/s11023-017-9448-z.
+
+Bohanec, Marko, Mirjana Kljajic´ Borstnar, and Marko Robnik-S ikonja. 2017a. Explaining machine
+      learning models in sales predictions. Expert Systems with Applications 71: 416­428. https://doi.org/
+      10.1016/j.eswa.2016.11.010.
+
+Bohanec, Marko, Marko Robnik-S ikonja, and Mirjana Kljajic´ Borstnar. 2017b. Decision-making
+      framework with double-loop learning through interpretable black-box machine learning models.
+      Industrial Management and Data Systems 117 (7): 1389­1406. https://doi.org/10.1108/IMDS-09-
+      2016-0409.
+
+Bolander, Thomas. 2019. What do we lose when machines take the decisions? Journal of Management
+      and Governance 23: 849­867. https://doi.org/10.1007/s10997-019-09493-x.
+
+Bolton, Charlynne, Veronika Machova, Maria Kovacova, and Katharine Valaskova. 2018. The power of
+      human-machine collaboration: Artificial intelligence, business automation, and the smart economy.
+      Economics, Management and Financial Markets 13 (4): 51­56. https://doi.org/10.22381/
+      EMFM13420184.
+
+Boone, Tonya, Ram Ganeshan, and Nada Sanders. 2018. How big data could challenge planning processes
+      across the supply chain. Foresight: The International Journal of Applied Forecasting 50: 19­24.
+
+Boone, Tonya, Ram Ganeshan, Aditya Jain, and Nada Sanders. 2019. Forecasting sales in the supply
+      chain: Consumer analytics in the big data era. International Journal of Forecasting 35 (1): 170­180.
+      https://doi.org/10.1016/j.ijforecast.2018.09.003.
+
+Booth, Andrew, Diana Papaioannou, and Anthea Sutton. 2016. Systematic approaches to a successful
+      literature review, 2nd ed. Los Angeles: Sage.
+
+Bouyssou, Denis, and Marc Pirlot. 2008. On some ordinal models for decision making under uncertainty.
+      Annals of Operations Research 163 (1): 19­48. https://doi.org/10.1007/s10479-008-0329-y.
+
+Briner, Rob B., and David Denyer. 2012. Systematic review and evidence synthesis as a practice and
+      scholarship tool. In The Oxford handbook of evidence-based management, ed. D.M. Rousseau,
+      112­129. Oxford: Oxford University Press.
+
+Butner, Karen, and Grace Ho. 2019. How the human-machine interchange will transform business
+      operations. Strategy & Leadership 47 (2): 25­33. https://doi.org/10.1108/SL-01-2019-0003.
+
+123
+Business Research
+
+Calatayud, Agustina, John Mangan, and Christopher Martin. 2019. The self-thinking supply chain. Supply
+      Chain Management 24 (1): 22­38. https://doi.org/10.1108/SCM-03-2018-0136.
+
+Canhoto, Ana Isabel, and Fintan Clear. 2019. Artificial intelligence and machine learning as business
+      tools: A framework for diagnosing value destruction potential. Business Horizons 63 (2): 183­193.
+      https://doi.org/10.1016/j.bushor.2019.11.003.
+
+Carbone, Enrica, Konstantinos Georgalos, and Gerardo Infante. 2019. Individual vs. group decision-
+      making: An experiment on dynamic choice under risk and ambiguity. Theory and Decision 87:
+      87­122. https://doi.org/10.1007/s11238-019-09694-8.
+
+Cervantes, Jose-Antonio., Luis-Felipe. Rodriguez, Sonia Lopez, Felix Ramos, and Francisco Robles.
+      2016. Autonomous agents and ethical decision-making. Cognitive Computation 8: 278­296. https://
+      doi.org/10.1007/s12559-015-9362-8.
+
+Charness, Gary, and Matthias Sutter. 2012. Groups make better self-interested decisions. Journal of
+      Economic Perspectives 26 (3): 157­176.
+
+Cheng, Mingming, and Carmel Foley. 2018. The sharing economy and digital discrimination: The case of
+      Airbnb. International Journal of Hospitality Management 70: 95­98.
+
+Colombo, Simone. 2019. The holistic risk analysis and modelling (HoRAM) method. Safety Science 112:
+      18­37. https://doi.org/10.1016/j.ssci.2018.09.018.
+
+Danks, David, and Alex J. London. 2017. Algorithmic bias in autonomous systems. In Proceedings of the
+      26th international joint conference on artificial intelligence, 4691­4697.
+
+Delen, Dursun, Halil Zaim, Cemil Kuzey, and Semil Zaim. 2013. A comparative analysis of machine
+      learning systems for measuring the impact of knowledge management practices. Decision Support
+      Systems 54 (2): 1150­1160. https://doi.org/10.1016/j.dss.2012.10.040.
+
+Denyer, David, and David Tranfield. 2009. Producing a systematic review. In The Sage handbook of
+      organizational research methods, ed. D. Buchanan and A. Bryman, 671­689. Los Angeles: Sage.
+
+Descartes, Rene. 1637/1964. Discourse on method. In Descartes: Philosophical essays, transl. L.J.
+      LaFleur. Upper Saddle River: Prentice Hall.
+
+Dev, Navin K., Ravi Shankar, Angappa Gunasekaran, and Lakshman S. Thakur. 2016. A hybrid adaptive
+      decision system for supply chain reconfiguration. International Journal of Production Research 54
+      (23): 7100­7114. https://doi.org/10.1080/00207543.2015.1134842.
+
+Etzioni, Amitai, and Oren Etzioni. 2016. AI assisted ethics. Ethics and Information Technology 18:
+      149­156.
+
+Feldman, Martha S., and James G. March. 1981. Information in organizations as signal and symbol.
+      Administrative Science Quarterly 26: 171­186.
+
+Fiori, Stefano. 2011. Forms of bounded rationality: The reception and redefinition of Herbert A. Simon's
+      perspective. Review of Political Economy 23 (4): 587­612.
+
+Flath, Christoph M., and Nikolai Stein. 2018. Towards a data science toolbox for industrial analytics
+      applications. Computers in Industry 94: 16­25. https://doi.org/10.1016/j.compind.2017.09.003.
+
+Fredrickson, James W. 1984. The comprehensiveness of strategic decision processes: Extension,
+      observations, future directions. Academy of Management Journal 27 (3): 445­466.
+
+Fu, Xiao, Ming Dong, and Guanghua Han. 2017. Coordinating a trust-embedded two-tier supply chain by
+      options with multiple transaction periods. International Journal of Production Research 55 (7):
+      2068­2082. https://doi.org/10.1080/00207543.2016.1269970.
+
+Giubilini, Alberto, and Julian Savulescu. 2018. The artificial moral advisor. The ``ideal observer'' meets
+      artificial intelligence. Philosophy & Technology 31 (2): 169­188. https://doi.org/10.1007/s13347-
+      017-0285-z.
+
+Glock, Christoph H., and Simon Hochrein. 2011. Purchasing organization and design: A literature review.
+      Business Research 4 (2): 149­191.
+
+Haruvy, Ernan, Elena Katok, Zhongwen Ma, and Suresh Sethi. 2019. Relationship-specific investment
+      and hold-up problems in supply chains: Theory and experiments. Business Research 12: 45­74.
+      https://doi.org/10.1007/s40685-018-0068-0.
+
+Herden, Tino T. 2019. Explaining the competitive advantage generated from analytics with the
+      knowledge-based view: The example of logistics and supply chain management. Business Research.
+      https://doi.org/10.1007/s40685-019-00104-x.
+
+Hertz, Nicholas, and Eva Wiese. 2019. Good advice is beyond all price, but what if it comes from a
+      machine? Journal of Experimental Psychology: Applied 25 (3): 386­395. https://doi.org/10.1037/
+      xap0000205.
+
+Huang, Ming-Hui., and Roland Rust. 2018. Artificial Intelligence in Service. Journal of Service Research
+      21 (2): 155­172.
+
+                                                            123
+                                                                                                         Business Research
+
+Huang, Ming-Hui., Roland Rust, and Vojislav Maksimovic. 2019. The feeling economy: Managing in the
+      next generation of artificial intelligence (AI). California Management Review 61 (4): 43­65.
+
+Jarrahi, Mohammad H. 2018. Artificial intelligence and the future of work: Human-AI symbiosis in
+      organizational decision making. Business Horizons 61 (4): 577­586. https://doi.org/10.1016/j.
+      bushor.2018.03.007.
+
+Julmi, Christian. 2019. When rational decision-making becomes irrational: A critical assessment and re-
+      conceptualization of intuition effectiveness. Business Research 12: 291­314.
+
+Kahneman, Daniel. 2003. Maps of bounded rationality: Psychology for behavioral economics. American
+      Economic Review 93: 1449­1475.
+
+Kaplan, Andreas, and Michael Haenlein. 2019. Siri, Siri, in my hand: Who's the fairest in the land? On
+      the interpretations, illustrations, and implications of artificial intelligence. Business Horizons 62 (1):
+      15­25. https://doi.org/10.1016/j.bushor.2018.08.004.
+
+Kirchkamp, Oliver, and Christina Strobel. 2019. Sharing responsibility with a machine. Journal of
+      Behavioral and Experimental Economics 80: 25. https://doi.org/10.1016/j.socec.2019.02.010.
+
+Klumpp, Matthias, and Henk Zijm. 2019. Logistics innovation and social sustainability: How to prevent
+      an artificial divide in human-computer interaction. Journal of Business Logistics 40 (3): 1­14.
+      https://doi.org/10.1111/jbl.12198.
+
+Knight, Frank. 1921. Risk, uncertainty and profit. Chicago: University of Chicago Press.
+Koch, Jochen, Martin Eisend, and Arne Petermann. 2009. Path-dependence in decision-making processes:
+
+      Exploring the impact of complexity under increasing returns. Business Research 2 (1): 67­84.
+Kolbjørnsrud, Vegard, Richard Amico, and Robert J. Thomas. 2017. Partnering with AI: How
+
+      organizations can win over skeptical managers. Strategy and Leadership 45 (1): 37­43.
+Kouchaki, Maryam, Isaac H. Smith, and Ekaterina Netchaeva. 2015. Not all fairness is created equal:
+
+      Fairness perceptions of group vs individual decision makers. Organization Science. https://doi.org/
+      10.1287/orsc.2015.0992.
+Kourouxous, Thomas, and Thomas Bauer. 2019. Violations of dominance in decision-making. Business
+      Research 12: 209­239.
+Kugler, Tamar, Edgar E. Kausel, and Martin G. Kocher. 2012. Are groups more rational than individuals?
+      A review of interactive decision making in groups. Cognitive Science 3: 471­482.
+L'Heureux, Alexandra, Katarina Grolinger, Hany F. Elyamany, and Miriam AM. Capretz. 2017. Machine
+      learning with big data: Challenges and approaches. IEEE Access 5: 7776­7797. https://doi.org/10.
+      1109/ACCESS.2017.2696365.
+Lawrence, Thomas. 1991. Impacts of artificial intelligence on organizational decision making. Journal of
+      Behavioral Decision Making 4 (3): 195­214. https://doi.org/10.1002/bdm.3960040306.
+Legg, Shane, and Marcus Hutter. 2007. Universal intelligence: A definition of machine intelligence.
+      Minds and Machines 17: 391­444. https://doi.org/10.1007/s11023-007-9079-x.
+Lepri, Bruno, Nuria Oliver, Emmanuel Letouze´, Alex Pentland, and Patrick Vinck. 2018. Fair,
+      transparent, and accountable algorithmic decision-making processes. Philosophy & Technology 31
+      (3): 611­627. https://doi.org/10.1007/s13347-017-0279-x.
+Lismont, Jasmien, Jan Vanthienen, Bart Baesens, and Wilfried Lemahieu. 2017. Defining analytics
+      maturity indicators: A survey approach. International Journal of Information Management 37 (3):
+      114­124. https://doi.org/10.1016/j.ijinfomgt.2016.12.003.
+Liu, Shaofeng, Mike Leat, Jonathan Moizer, Phil Megicks, and Dulekha Kasturiratne. 2013. A decision-
+      focused knowledge management framework to support collaborative decision making for lean
+      supply chain management. International Journal of Production Research 51 (7): 2123­2137. https://
+      doi.org/10.1080/00207543.2012.709646.
+Long, Qingqi. 2017. Data-driven decision making for supply chain networks with agent-based
+      computational experiment. Knowledge-Based Systems 141 (1): 55­66. https://doi.org/10.1016/j.
+      knosys.2017.11.006.
+Lyons, Joseph B., Matthew A. Clark, Alan R. Wagner, and Matthew J. Schuelke. 2017. Certifiable trust in
+      autonomous systems: Making the intractable tangible. AI Magazine 38 (3): 37­49.
+Marquis, Donald G., and H. Joseph Reitz. 1969. Effect of uncertainty on risk taking in individual and
+      group decisions. Behavioral Science 14: 281­288.
+Mayring, Philipp. 2008. Qualitative Inhaltsanalyse: Grundlagen und Techniken (10., neu ausgestattete
+      Aufl.). Pa¨dagogik. Weinheim, Basel: Beltz.
+Mayring, Philipp. 2015. Qualitative Inhaltsanalyse: Grundlagen und Techniken (12., Neuausgabe, 12.,
+      vollsta¨ndig u¨berarbeitete und aktualisierte Aufl.). Beltz Pa¨dagogik. Weinheim, Bergstr: Beltz, J.
+
+123
+Business Research
+
+McCarthy, John, Marvin L. Minsky, Nathaniel Rochester, and Claude E. Shannon. 1955. A proposal for
+      the Dartmouth summer research project on artificial intelligence. https://www-formal.stanford.edu/
+      jmc/history/dartmouth/dartmouth.html. Accessed 23 Sept 2019.
+
+McCorduck, Pamela. 2004. Machines who think: A personal inquiry into the history and prospects of
+      artificial intelligence (25th anniversary update). Natick Mass: A.K. Peters.
+
+Meissner, Philip. 2014. A process-based perspective on strategic planning: The role of alternative
+      generation and information integration. Business Research 7: 105­124.
+
+Melnyk, Steven A., Ram Narasimhan, and Hugo A. DeCampos. 2014. Supply chain design: Issues,
+      challenges, frameworks and solutions. International Journal of Production Research 52 (7):
+      1887­1896. https://doi.org/10.1080/00207543.2013.787175.
+
+Meredith, Jack. 1992. Theory building through conceptual methods. International Journal of Operations
+      & Productions Management 13 (5): 3­11.
+
+Metcalf, Lynn, David A. Askay, and Louis B. Rosenberg. 2019. Keeping humans in the loop: Pooling
+      knowledge through artificial swarm intelligence to improve business decision making. California
+      Management Review 61 (4): 84­109. https://doi.org/10.1177/0008125619862256.
+
+Metzger, Olga, and Thomas Spengler. 2019. Modeling rational decisions in ambigous situations: A multi-
+      valued logic approach. Business Research 12: 271­290. https://doi.org/10.1007/s40685-019-0087-5.
+
+Migliore, Laura A., and Ravi Chinta. 2017. Demystifying the big data phenomenon for strategic
+      leadership. Quarterly Journal S.A.M. Advanced Management Journal 82 (1): 48­58.
+
+Mintzberg, Henry. 1972. Research on strategy-making. Academy of Management Proceedings 1: 90­94.
+      https://doi.org/10.5465/ambpp.1972.4981316.
+
+Mintzberg, Henry. 1973. Strategy-making in three modes. California Management Review 16 (2): 44­53.
+Moreira, Madalena, and Benny Tjahjono. 2016. Applying performance measures to support decision-
+
+      making in supply chain operations: A case of beverage industry. International Journal of Production
+      Research 54 (8): 2345­2365. https://doi.org/10.1080/00207543.2015.1076944.
+Morozov, Evgeny. 2013. To save everything, click here: The folly of technological solutionism. Public
+      Affairs.
+Mueller, Vincent C. 2012. Introduction: Philosophy and theory of artificial science. Minds and Machines
+      22: 67­69.
+Mu¨hlroth, Christian, and Michael Grottke. 2018. A systematic literature review of mining weak signals
+      and trends for corporate foresight. Journal of Business Economics 88: 643­687. https://doi.org/10.
+      1007/s11573-018-0898-4.
+Mungu`ia, Javier, Joaquim Lloveras, Sonia Llorens, and Tahar Laoui. 2010. Development of an AI-based
+      rapid manufacturing advice system. International Journal of Production Research 48 (8):
+      2261­2278.
+Neubert, Mitchell J., and George D. Montan~ez. 2019. Virtue as a framework for the design and use of artificial
+      intelligence. Business Horizons 61 (2): 195­204. https://doi.org/10.1016/j.bushor.2019.11.001.
+Nguyen, Truong, Li. Zhou, Virginia Spiegler, Petros Ieromonachou, and Yong Lin. 2018. Big data
+      analytics in supply chain management: A state-of-the-art literature review. Computers and
+      Operations Research 98: 254­264. https://doi.org/10.1016/j.cor.2017.07.004.
+Nilsson, Nils J. 2010. The quest for artificial intelligence: A history of ideas and achievements.
+      Cambridge: Cambridge University Press.
+Parisi, Luciana. 2019. Critical computation: Digital automata and general artificial thinking. Theory,
+      Culture and Society 36 (2): 89­121. https://doi.org/10.1177/0263276418818889.
+Parry, Ken, Michael Cohen, and Sukanto Bhattacharya. 2016. Rise of the machines: A critical
+      consideration of automated leadership decision making in organizations. Group and Organization
+      Management 41 (5): 571­594. https://doi.org/10.1177/1059601116643442.
+Paschen, Ulrich, Christine Pitt, and Jan Kietzmann. 2019. Artificial intelligence: Building blocks and an
+      innovation typology. Business Horizons 63 (2): 147­155. https://doi.org/10.1016/j.bushor.2019.10.004.
+Pereira, Jordi, and Mariona Vila`. 2016. A new model for supply chain network design with integrated
+      assembly line balancing decisions. International Journal of Production Research 54 (9):
+      2653­2669. https://doi.org/10.1080/00207543.2015.1115910.
+Pigozzi, Gabriella, Alexis Tsoukias, and Paolo Viappiani. 2016. Preferences in artificial intelligence.
+      Annals of Mathematics and Artificial Intelligence 77: 361­401. https://doi.org/10.1007/s10472-015-
+      9475-5.
+Piscopo, Carlotta, and Mauro Birattari. 2008. The metaphysical character of the criticisms raised against
+      the use of probability for dealing with uncertainty in artificial intelligence. Minds and Machines 18:
+      273­288.
+
+                                                            123
+                                                                                                         Business Research
+
+Rebs, Tobias, Marcus Brandenburg, Stefan Seuring, and Margarita Stohler. 2018. Stakeholder influences
+      and risks in sustainable supply chain management: A comparison of qualitative and quantitative
+      studies. Business Research 11: 197­237.
+
+Resnik, Michael D. 1987. Choices: An introduction to decision theory. Minneapolis: University of
+      Minnesota Press.
+
+Rezaei, Mahdi, Mohsen Akbarpour Shirazi, and Behrooz Karimi. 2017. IoT-based framework for
+      performance measurement: A real-time supply chain decision alignment. Industrial Management
+      and Data Systems 117 (4): 688­712. https://doi.org/10.1108/IMDS-08-2016-0331.
+
+Roetzel, Peter Gordon. 2018. Information overload in the information age: A review of the literature from
+      business administration, business psychology, and related disciplines with a bibliometric approach
+      and framework development. Business Research 12: 479­522. https://doi.org/10.1007/s40685-018-
+      0069-z.
+
+Roth, Stefan, Thomas Robbert, and Lennart Straus. 2015. On the sunk-cost effect in economic decision-
+      making: A meta-analytic review. Business Research 8: 99­138. https://doi.org/10.1007/s40685-014-
+      0014-8.
+
+Rousseau, Denise M. 2018. Making evidence-based organizational decisions in an uncertain world.
+      Organizational Dynamics 49 (1): 135­149. https://doi.org/10.1016/j.orgdyn.2018.05.001.
+
+Rousseau, Denise M., Joshua Manning, and David Denyer. 2008. Evidence in management and
+      organizational science: Assembling the field's full weight of scientific knowledge through syntheses.
+      The Academy of Management Annals 2 (1): 475­515.
+
+Samson, Danny, Pat Foley, Heng Soon Gan, and Marianne Gloet. 2018. Multi-stakeholder decision
+      theory. Annals of Operations Research 268: 357­386. https://doi.org/10.1007/s10479-017-2433-3.
+
+Sawy, El., A. Omar, Youngki Park, and Peer C. Fiss. 2017. The role of business intelligence and
+      communication technologies in organizational agility: A configurational approach. Journal of the
+      Association for Information Systems 18 (9): 648­686.
+
+Schneider, Sabrina, and Michael Leyer. 2019. Me or information technology? Adoption of artificial
+      intelligence in the delegation of personal strategic decisions. Managerial and Decision Economics
+      40 (3): 223­231. https://doi.org/10.1002/mde.2982.
+
+Schwenk, Charles, and Joseph S. Valacich. 1994. Effects of devil's advocacy and dialectical inquiry on
+      individuals versus groups. Organizational Behavior and Human Decision Processes 59: 210­222.
+
+Shank, Daniel B., Alyssa DeSanti, and Timothy Maninger. 2019. When are artificial intelligence versus
+      human agents faulted for wrongdoing? Moral attributions after individual and joint decisions.
+      Information, Communication and Society 22 (5): 648­663. https://doi.org/10.1080/1369118X.2019.
+      1568515.
+
+Sheil, Beau. 1987. Thinking about artificial intelligence. Harvard Business Review 91­97.
+Shollo, Arisa, and Robert D. Galliers. 2016. Towards an understanding of the role of business intelligence
+
+      systems in organisational knowing. Information Systems Journal 26 (4): 339­367. https://doi.org/10.
+      1111/isj.12071.
+Shrestha, Yash Raj, Shiko M. Ben-Menahem, and Georg von Krogh. 2019. Organizational decision-
+      making structures in the age of artificial intelligence. California Management Review 61 (4): 66­83.
+      https://doi.org/10.1177/0008125619862257.
+Silva, Selena, and Martin Kenney. 2018. Algorithms, platforms, and ethnic bias: An integrative essay.
+      Phylon 55 (1 & 2): 9­37.
+Simon, Herbert A. 1955. A behavioral model of rational choice. The Quarterly Journal of Economics 69
+      (1): 99­118.
+Simon, Herbert A. 1962. The architecture of complexity. Proceedings of the American Philosophical
+      Society 106 (6): 467­482.
+Simon, Herbert A. 1986. The information-processing explanation of Gestalt phenomena. Computers in
+      Human Behavior 2: 241­255.
+Simon, Herbert A. 1987. Bounded Rationality. In The new Palgrave dictionary of economics, ed.
+      J. Eatwell, M. Milgate, and P. Newman, 266­268. London: Palgrave Macmillan.
+Simon, Herbert A. 1995. Artificial intelligence: An empirical science. Artificial Intelligence 77 (1):
+      95­127. https://doi.org/10.1016/0004-3702(95)00039-H.
+Singh, Jatinder, Jennifer Cobbe, and Chris Norval. 2019. Decision provenance: Harnessing data flow for
+      accountable systems. IEEE Access 7: 6562­6574. https://doi.org/10.1109/ACCESS.2018.2887201.
+Smith, Robert E. 2016. Idealizations of uncertainty, and lessons from Artificial Intelligence. Economics
+      10 (7): 1-40A. https://doi.org/10.5018/economics-ejournal.ja.2016-7.
+
+123
+Business Research
+
+Surden, Harry. 2019. Artificial intelligence and law: An overview. Georgia State University Law Review
+      35 (4): 1305­1337.
+
+Sydow, Jo¨rg. 2017. Managing inter-organizational networks: Governance and practices between path
+      dependence and uncertainty. In Networked governance, ed. B. Hollstein, W. Matiaske, and K.U.
+      Schnapp, 43­53. Cham: Springer.
+
+Tabesh, Pooya, Elham Mousavidin, and Sona Hasani. 2019. Implementing big data strategies: A
+      managerial perspective. Business Horizons 62 (3): 347­358. https://doi.org/10.1016/j.bushor.2019.
+      02.001.
+
+Terziyan, Vagan, Svitlana Gryshko, and Mariia Golovianko. 2018. Patented intelligence: Cloning human
+      decision models for Industry 4.0. Journal of Manufacturing Systems 48: 204­217. https://doi.org/10.
+      1016/j.jmsy.2018.04.019.
+
+Thompson, James D. 1967. Organizations in action: Social science bases of administrative theory. New
+      York: McGraw-Hill.
+
+Tranfield, David, David Denyer, and Palminder Smart. 2003. Towards a methodology for developing
+      evidence-informed management knowledge by means of systematic review. British Journal of
+      Management 14 (3): 207­222. https://doi.org/10.1111/1467-8551.00375.
+
+Udell, Mitchell, Vojtech Stehel, Tomas Kliestik, Jana Kliestikova, and Pavol Durana. 2019. Towards a
+      smart automated society: Cognitive technologies, knowledge production, and economic growth.
+      Economics, Management and Financial Markets 14 (1): 44­49. https://doi.org/10.22381/
+      EMFM14120195.
+
+Vaccaro, Michelle, and Jim Waldo. 2019. The effects of mixing machine learning and human judgement.
+      Communications of the ACM 62 (11): 104­110. https://doi.org/10.1145/3359338.
+
+Vamplew, Peter, Richard Dazeley, Cameron Foale, Sally Firmin, and Jane Mummery. 2018. Human-
+      aligned artificial intelligence is a multiobjective problem. Ethics and Information Technology 20 (1):
+      27­40. https://doi.org/10.1007/s10676-017-9440-6.
+
+von Krogh, Georg. 2018. Artificial Intelligence in Organizations: New opportunities for phenomenon-
+      based theorizing. Academy of Management Discoveries 4 (4): 404­409. https://doi.org/10.5465/amd.
+      2018.0084.
+
+Wamba, Samuel Fosso, Shahriar Akter, Andrew Edwards, Geoffrey Chopin, and Denis Gnanzou. 2015.
+      How `big data' can make big impact: Findings from a systematic review and a longitudinal case
+      study. International Journal of Production Economics 165: 234­246. https://doi.org/10.1016/j.ijpe.
+      2014.12.031.
+
+Watson, Hugh J. 2017. Preparing for the cognitive generation of decision support. MIS Quarterly
+      Executive 16 (3): 153­169.
+
+Webb, Helena, Menisha Patel, Michael Rovatsos, Alan Davoust, Sofia Ceppi, Ansgar Koene, Liz
+      Dowthwaite, Virginia Portillo, Marina Jirotka, and Monica Cano. 2019. It would be pretty immoral
+      to choose a random algorithm. Journal of Information, Communication & Ethics in Society 17 (2):
+      210­228. https://doi.org/10.1108/JICES-11-2018-0092.
+
+Welter, Simon, Jo¨rg. H. Mayer, and Reiner Quick. 2013. Improving environmental scanning systems
+      using bayesian networks. Business Research 6 (2): 169­213.
+
+Whittle, Therese, Elena Gregova, Ivana Podhorska, and Zuzana Rowland. 2019. Smart manufacturing
+      technologies: Data-driven algorithms in production planning, sustainable value creation, and
+      operational performance improvement. Economics, Management and Financial Markets 14 (2):
+      52­57.
+
+Wong, Pak-Hang. 2019. Democratizing algorithmic fairness. Philosophy & Technology. https://doi.org/
+      10.1007/s13347-019-00355-w.
+
+Wright, Scott A., and Ainslie E. Schultz. 2018. The rising tide of artificial intelligence and business
+      automation: Developing an ethical framework. Business Horizons 61 (6): 823­832. https://doi.org/
+      10.1016/j.bushor.2018.07.001.
+
+Yablonsky, Sergey A. 2019. Multidimensional data-driven artificial intelligence innovation. Technology
+      Innovation Management Review 9 (12): 16­28. https://doi.org/10.22215/timreview/1288.
+
+Publisher's Note Springer Nature remains neutral with regard to jurisdictional claims in published maps
+and institutional affiliations.
+
+                                                            123
+

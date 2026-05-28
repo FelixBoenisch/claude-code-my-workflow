@@ -1,0 +1,802 @@
+9 4 8 8 4 1 PSSXXX10.1177/0956797620948841Dietvorst, BhartiAlgorithms and Uncertainty
+
+research-article2020
+
+Research Article                                                                                      ASSOCIATION FOR
+
+People Reject Algorithms in Uncertain                                                  PSYCHOLOGICAL SCIENCE
+Decision Domains Because They
+Have Diminishing Sensitivity to                                                        Psychological Science
+Forecasting Error                                                                      1 ­13
+                                                                                       © The Author(s) 2020
+                                                                                       Article reuse guidelines:
+                                                                                       sagepub.com/journals-permissions
+                                                                                       DhttOpsI:://d1o0i.1or1g7/170/.01197576/7099576672907962408984481841
+                                                                                       www.psychologicalscience.org/PS
+
+Berkeley J. Dietvorst and Soaham Bharti
+
+Booth School of Business, The University of Chicago
+
+Abstract
+Will people use self-driving cars, virtual doctors, and other algorithmic decision-makers if they outperform humans?
+The answer depends on the uncertainty inherent in the decision domain. We propose that people have diminishing
+sensitivity to forecasting error and that this preference results in people favoring riskier (and often worse-performing)
+decision-making methods, such as human judgment, in inherently uncertain domains. In nine studies (N = 4,820), we
+found that (a) people have diminishing sensitivity to each marginal unit of error that a forecast produces, (b) people
+are less likely to use the best possible algorithm in decision domains that are more unpredictable, (c) people choose
+between decision-making methods on the basis of the perceived likelihood of those methods producing a near-perfect
+answer, and (d) people prefer methods that exhibit higher variance in performance (all else being equal). To the extent
+that investing, medical decision-making, and other domains are inherently uncertain, people may be unwilling to use
+even the best possible algorithm in those domains.
+
+Keywords
+judgment, decision-making, algorithm aversion, forecasting, variance, open data, open materials, preregistered
+
+Received 8/5/19; Revision accepted 5/16/20
+
+Will people use algorithmic decision-makers--such as                                   designed to distill an expert's prediction process almost
+self-driving cars, robot doctors, and virtual hiring and                               always outperform the expert they were based on
+admissions officers--once the technology is widely                                     (Camerer, 1981).
+available? How well will these algorithms need to per-
+form for people to embrace them?                                                          Yet even when algorithms are the best forecasting
+                                                                                       options available, people often underuse them. Firms
+   In many decision domains, algorithms1 already out-                                  (Sanders & Manrodt, 2003) and professionals (Fildes &
+perform humans. Calculators and analytical tools make                                  Goodwin, 2007; Vrieze & Grove, 2009) regularly choose
+fewer mathematical errors than human problem solvers,                                  not to use algorithms as their primary method of fore-
+and in more uncertain domains, algorithmic forecasters                                 casting, and this often results in less accurate forecasts
+outperform human forecasters on average (Dawes, Faust,                                 (Sanders & Manrodt, 2003). Additionally, participants
+& Meehl, 1989; Meehl, 1954). Meta-analyses investigating                               in experimental judgment tasks often reject simple deci-
+predictions in the domains of clinical health (Ægisdóttir                              sion rules that outperform human judgment (Arkes,
+et al., 2006); human health and behavior (Grove, Zald,                                 Dawes, & Christensen, 1986; Estes & Straughan, 1954).
+Lebow, Snitz, & Nelson, 2000); medicine, business, psy-                                Participants are also less likely to rely on algorithmic
+chology, and education (Kaufmann & Wittmann, 2016);
+and hiring and academic admissions (Kuncel, Klieger,                                   Corresponding Author:
+Connelly, & Ones, 2013) have found that algorithms                                     Berkeley J. Dietvorst, The University of Chicago, Booth School of
+consistently outperform human judgment. Even simplis-                                  Business, 5807 S. Woodlawn Ave., Chicago, IL 60637
+tic linear models beat experts (Dawes, 1979), and models                               E-mail: berkeley.dietvorst@chicagobooth.edu
+2                                                                                Dietvorst, Bharti
+
+forecasts after seeing them err, even when they believe      Subjective Penalty
+that the algorithm outperforms the human alternative
+on average (Dietvorst, Simmons, & Massey, 2015). This                                            Error
+unwillingness to adopt algorithms that outperform
+humans can have an enormous cost; for example, the           Fig. 1. Penalty function showing the subjective penalty that a decision-
+majority of Americans report that they would not be          maker with diminishing sensitivity to error could face (y-axis), given
+comfortable riding in a self-driving car (Leinert, 2018),    the error generated by a forecast (x-axis).
+but research suggests that early adoption of self-driving
+cars could save hundreds of thousands of lives (Kalra           Diminishing sensitivity to forecasting error has
+& Groves, 2017).                                             important implications for people's selection of fore-
+                                                             casting methods. People who have diminishing sensitiv-
+   Although the existing literature supports the notion      ity to error prefer methods that exhibit higher variability
+that people often underuse algorithms that outperform        in performance while holding average performance
+humans on average, it does not explain why people            fixed. In other words, these people are risk-seeking.
+underuse these algorithms. We propose that people            Higher variance methods have the advantage of being
+have diminishing sensitivity to forecasting error, which     more likely to produce near-perfect answers and the
+causes them to prefer decision-making methods that           corresponding disadvantage of being more likely to
+they believe have the highest likelihood of providing a      produce very inaccurate answers; choosers with dimin-
+near-perfect answer (i.e., one with little to no error).     ishing sensitivity give greater weight to the upside.
+This decision strategy encourages risk-taking and            Relatedly, when decision-makers with diminishing sen-
+results in people favoring riskier, and often worse-         sitivity to forecasting error compare the performance
+performing, decision-making methods (such as human           of two different forecasting methods, they will give
+judgment) when they feel that an algorithm is unlikely       disproportionate weight to their expectations about
+to generate a near-perfect answer. Further, as explained     near-perfect forecasts. As a result, they will not always
+in the next section, this strategy causes people to reject   favor the forecasting method that offers better average
+even the best possible algorithm in inherently uncertain     performance--they may favor a method that they
+domains. The implications are substantial; to the extent     expect to provide more near-perfect forecasts instead.
+that medical decision-making, consumer-demand fore-          These preferences are important to consider in the con-
+casting, and other domains are inherently uncertain,         text of human and algorithmic forecasters.
+people may be unwilling to use even the best possible
+algorithms in those domains.                                 Choosers With Diminishing Sensitivity
+                                                             to Error May Not Prefer Algorithms
+People Have Diminishing Sensitivity
+to Forecasting Error                                         Algorithms typically offer lower variance than human
+                                                             judgment. This is, at least in part, because algorithmic
+Performance in a prediction2 task can be quantified as       decision-makers are more consistent: Given the same
+error--that is, the difference between the response and      inputs, algorithms always generate the same answer,
+the outcome. When decision-makers choose between             but the same cannot be said for humans (see Dawes
+different forecasting methods on the basis of perfor-        et al., 1989). Further, an algorithm's general approach
+mance, they consult their beliefs about each method's        to forecasting is constant, whereas human judges can
+likelihood of making errors of different magnitudes. All     change their approach at will. Thus, the future perfor-
+decision-makers would prefer a forecasting method that       mance of human forecasters is often more variable and
+makes no errors to one that always makes large errors;       uncertain in expectation.
+however, their preferences when trading off among
+small, medium, and large errors depend on how sensi-            Given the typical characteristics of human and algo-
+tive they are to errors of different magnitudes.             rithmic forecasters, a choice between the two often
+                                                             consists of (a) an option with higher expected average
+   We propose that people have diminishing sensitivity
+to forecasting error. Decision-makers who have dimin-
+ishing sensitivity to error face a smaller penalty for each
+marginal unit of error that a forecast produces (see Fig.
+1). As a result, they feel relatively large subjective dif-
+ferences between different magnitudes of near-perfect
+forecasts (the best possible forecasts that produce little
+to no error) and relatively small subjective differences
+between forecasts with greater amounts of error.
+Algorithms and Uncertainty                                  3
+
+performance and lower expected variance of perfor-             To summarize, in deterministic domains, it will be clear
+mance (the algorithm) and (b) an option with lower          that well-designed algorithms are more likely than humans
+expected average performance and higher expected            to provide near-perfect answers, and, accordingly, choos-
+variance of performance (the human). Under these con-       ers with diminishing sensitivity to error will tend to pick
+ditions, decision-makers with diminishing sensitivity to    those algorithms. However, as irreducible uncertainty in
+error could justifiably choose either option, depending     the decision domain increases, the performance differ-
+on their specific expectations and subjective penalty       ences between human and algorithmic forecasters will
+function. However, we posit that their choices may be       diminish, and both will be relatively unlikely to generate
+particularly sensitive to the uncertainty inherent in the   near-perfect forecasts. As a result, choosers with diminish-
+decision domain.                                            ing sensitivity to forecasting error may prefer to rely on
+                                                            riskier, higher-variance human judgment.
+Diminishing Sensitivity Leads to Underuse
+of Algorithms in Uncertain Domains                          The Present Studies
+
+We propose that people will be especially likely to         Our propositions led us to a number of predictions that
+prefer human forecasters to algorithmic forecasters in      we tested empirically. In Study 1, we found evidence
+decision domains with more irreducible uncertainty.         that people have diminishing sensitivity to forecasting
+Irreducible uncertainty is uncertainty that cannot be       error. In Study 2, we found that people prefer forecasting
+resolved until the event in question takes place; for       methods that exhibit higher variance in performance,
+example, uncertainty about the outcome of a die roll        consistent with diminishing sensitivity to error. In Studies
+is irreducible because it cannot be resolved until the      3 through 5, we investigated the implications of dimin-
+die is rolled. Real-world prediction domains, such as       ishing sensitivity to error for choices between algorithmic
+stock prices or consumer preferences, contain irreduc-      and human forecasting methods. We found that people
+ible uncertainty to the extent that outcomes in those       are more likely to reject algorithms in more uncertain
+domains are inherently unpredictable.                       domains (Study 3), that their preference for human fore-
+                                                            casters in uncertain domains is based on expectations
+   In deterministic domains, in which there is no irreduc-  about near-perfect forecasts (Study 4), and that they are
+ible uncertainty (e.g., solving math problems, recalling    more likely to choose algorithms that exhibit higher vari-
+established facts), the best possible decision-making       ance in performance (Studies 5a and 5b).
+method can always produce an answer with no error.
+For example, a calculator can always provide the exact         In Studies 2 through 5, we created judgment tasks
+answer to a multiplication problem. However, in decision    in which two different decision methods predicted an
+domains with irreducible uncertainty, even the best pos-    outcome number that was a function of three provided
+sible decision-making method will make errors because       input numbers. This setup mimics real-life scenarios,
+outcomes are inherently unpredictable. For example,         such as assessing job applicants, products, or invest-
+even the best possible strategy for playing blackjack       ments, in which decision-makers generate forecasts on
+results in about as many hands lost as won (Fogel, 2004)    the basis of a set of attributes. Participants completed
+because of uncertainty about hidden cards.                  20 practice trials in which each decision method made
+                                                            a forecast, and participants received feedback on each
+   As irreducible uncertainty in a decision domain          method's performance after each trial. After these 20
+increases, algorithmic forecasting methods may become       trials, participants decided which method they would
+relatively less attractive to choosers with diminishing     like to use for an incentivized trial in which they would
+sensitivity. The performance of all forecasting methods     gain more money the closer the forecast of their chosen
+tends to degrade and converge as irreducible uncer-         method was to the actual outcome. Finally, participants
+tainty increases--random noise makes the true "skill"       reported their confidence in each method and their
+of each forecaster harder to detect. Additionally, as the   beliefs about each method's performance.
+irreducible uncertainty in a domain increases, all fore-
+casters' likelihood of making a near-perfect forecast          In Studies 2 through 5, we manipulated the perfor-
+typically decreases because making a perfect or near-       mance of the algorithm by altering the irreducible
+perfect forecast increasingly becomes a matter of luck.     uncertainty in the task between conditions. This manip-
+In other words, in domains with greater uncertainty,        ulation allowed us to alter aspects of the algorithm's
+the gap between human and algorithmic performance           performance while holding the algorithm itself con-
+is typically smaller, and both humans and algorithms        stant. The algorithm (identified as "the model" to par-
+provide fewer near-perfect forecasts. Under these con-      ticipants) was always the optimal decision-making
+ditions, the higher variance in performance expected        method for the judgment task. The model used the
+from human forecasters is more likely to sway choosers      same equation that generated the outcome omitting any
+with diminishing sensitivity to error.                      irreducible uncertainty. As a result, the model made the
+4                                                                                                 Dietvorst, Bharti
+
+   Table 1. Distributions of Model Performance in Study 1
+
+   Performance       Model A       Model B:                       Model B:      Model B:
+                                 upgrade-to-                    upgrade-to-1  upgrade-to-2
+                              perfect condition
+                                                                  condition     condition
+
+   Perfect ($1)      20%      40%                               20%           20%
+
+   Off by 1 ($0.80)  20%                                    0%  40%           20%
+
+   Off by 2 ($0.60)  20%      20%                               0%            40%
+
+   Off by 3 ($0.40)  20%      20%                               20%           0%
+
+   Off by 4 ($0.20)  20%      20%                               20%           20%
+
+   Note: In the performance column, values in parentheses indicate the bonus amount participants
+   received.
+
+best possible forecasts, maximized expected earnings            and were not allowed to begin the study, and 601 par-
+for participants, and could not be beaten in the long run.      ticipants completed all dependent measures. This sam-
+This design let us avoid the concern that participants          ple was 57% male and 36 years old on average.
+who chose not to use the model would have used a
+better model, because no better model was possible.                Participants who passed the attention check learned
+                                                                that their job was to learn about the performance of
+   For each study, we set the sample size before any            two different models in a forecasting task and then
+data were obtained, and we collected 200 observations           make a decision that would determine which model
+per condition. We report all exclusions (if any), all           determined their bonus. Participants read that both
+manipulations, and all measures in the article or in the        models predicted a numerical outcome from 0 to 10.
+supplemental materials available on OSF (https://osf            Participants read that they would earn a $1 bonus if the
+.io/erjq9/). For all studies, preregistrations, raw data,       forecast were perfect and that their bonus would
+analysis code, original materials, and detailed descrip-        decrease by $0.20 for each unit of error in the forecast
+tions, as well as additional studies that conceptually          (see Section S7 of the Supplemental Materials document
+replicated our findings, have been posted on OSF                at https://osf.io/erjq9/ for a description of each study's
+(https://osf.io/erjq9/). We focus on the key elements           bonus scheme).
+of each study here and describe the studies and results
+in full detail in Sections S1 through S5 in the supple-            Next, participants learned about the two models,
+mental materials.                                               starting with model A. They read that model A was
+                                                                equally likely to be perfect, off by 1, off by 2, off by 3,
+Study 1                                                         and off by 4, and they saw a chart that showed the
+                                                                probability of each outcome (20%) and the frequency
+In Study 1, we tested the proposition that people have          of each outcome (e.g., model A is perfect in one out
+diminishing sensitivity to forecasting error. Participants      of every five trials on average). We explicitly told par-
+learned that they would choose between two models               ticipants each model's distribution of performance so
+(model A and model B) for a forecasting task. Model B           they would not have to rely on expectations. Given the
+was a strict upgrade over model A. We manipulated               bonus scheme, model A earned $0.60 on average. On
+where in the distribution of performance model B had            the next screen, participants learned about model B.
+an advantage and asked participants to report their
+willingness to pay to use model B. We expected that                Each participant read about one of three different
+diminishing sensitivity to error would lead participants        versions of model B, depending on their between-
+to demonstrate higher willingness to pay for model B            subjects condition (see Table 1). Model B was similar
+when its advantage over model A was in performances             to model A, but all of the performances that were off
+closer to perfection.                                           by a certain amount (e.g., off by 2) were upgraded by
+                                                                1 unit of error (e.g., to off by 1). Participants in the
+Method                                                          upgrade-to-perfect condition saw a version of model B
+                                                                that 40% of the time was perfect; that was never off by
+We preregistered that we would recruit 600 participants         1; and that 20% of the time was off by 2, 3, and 4,
+from Amazon Mechanical Turk (200 per condition).                respectively. Participants in the upgrade-to-1 condition
+After the study was posted, 678 participants clicked on         saw a version of model B that 40% of the time was off
+the study link; 40 participants failed an attention check       by 1; that was never off by 2; and that 20% of the time
+                                                                was perfect, off by 3, and off by 4, respectively. Partici-
+                                                                pants in the upgrade-to-2 condition saw a version of
+Algorithms and Uncertainty                                    5
+
+model B that 40% of the time was off by 2; that was           depicted the probability with which model A and model
+never off by 3; and that 20% of the time was perfect, off     B realized errors of each possible magnitude. At the
+by 1, and off by 4, respectively. We held the set probabili-  bottom of the screen, participants completed their bid
+ties associated with the different potential performances     on an 11-point Likert scale from $0.00 to $0.10. Finally,
+of model B constant (0%, 20%, and 40%) to make the            participants reported their age, sex, and highest level
+design more robust to various probability-weighting           of education and completed the study.
+functions (Kahneman & Tversky, 1979). Participants read
+text describing the differences between model A and           Results
+model B and saw a chart that showed the probability
+and frequency of each outcome for model B.                    Consistent with diminishing sensitivity to forecasting
+                                                              error, results showed that participants were willing to
+   All versions of model B were strict upgrades over          pay more for model B when its performance advantage
+model A and generated bonuses with the same expected          over model A was in performances closer to perfection
+value ($0.64); however, the different versions of model       (see Fig. 2). An ordinary least squares regression of
+B produced errors of different magnitudes with differ-        willingness to pay on a condition variable coded 0, 1,
+ent frequencies. Thus, participants' willingness to pay       or 2 (representing the upgrade-to-perfect, upgrade-to-1,
+for the different versions of model B demonstrated their      and upgrade-to-2 conditions, respectively) revealed that
+sensitivity to errors of different magnitudes. A partici-     participants had lower willingness to pay for model B
+pant with a constant sensitivity to error would value         the further its performance upgrade over model A was
+each version of model B equally because each offered          from perfection, b = -0.58, t(599) = -3.86, p < .001,
+an average error of 1.8. A participant with increasing        2 = .024. Follow-up analyses comparing each pairing
+sensitivity to error (or decreasing sensitivity to gains,     of conditions revealed that participants in the upgrade-
+as in prospect theory; Kahneman & Tversky, 1979)              to-perfect condition had higher willingness to pay than
+would value the upgrade-to-2 version of the model over        participants in the upgrade-to-1 condition, t(401) = 1.81,
+the upgrade-to-1 version and would value the latter           p = .070, d = 0.18, and the upgrade-to-2 condition,
+over the upgrade-to-perfect version because they would        t(398) = 3.80, p < .001, d = 0.38, and that participants
+feel a larger subjective difference between relatively        in the upgrade-to-1 condition had higher willingness
+large errors such as 3 and 2 (and small gains such as         to pay than participants in the upgrade-to-2 condition,
+$0.40 and $0.60) than between relatively small errors         t(397) = 2.07, p = .039, d = 0.21. Participants' lower
+such as 1 and 0 (and large gains such as $0.80 and            willingness to pay for equally valuable upgrades that
+$1.00). On the other hand, a participant with decreasing      were further from perfection provides direct evidence
+sensitivity to error would value the upgrade-to-perfect       that they had decreasing sensitivity to each marginal
+version of the model over the upgrade-to-1 version and        unit of forecasting error that they faced.
+would value the latter over the upgrade-to-2 version
+because they would feel a larger subjective difference        Study 2
+between relatively small errors such as 1 and 0 than rela-
+tively large errors such as 3 and 2. In other words, only     Study 1 provided evidence that people have diminish-
+participants with decreasing sensitivity to error would       ing sensitivity to forecasting error. In Study 2, we tested
+place a greater value on a 1-point improvement in error       an implication of this penalty function; people prefer
+when it is applied to performances closer to perfection.      forecasting methods that exhibit higher variance in per-
+                                                              formance, with average performance held constant.
+   Next, participants learned about the process that
+would determine which model they would use. Partici-          Method
+pants read that they would have to pay to use model
+B if they would like to use it instead of model A and         We preregistered that we would recruit 400 participants
+that they would bid from $0.00 to $0.10 to report their       from Amazon Mechanical Turk (200 per condition).
+willingness to pay for model B. Participants learned          After we posted the study, 514 participants clicked on
+that the computer would randomly select a value from          the study link; 81 participants failed an attention check
+1 to 10 cents to be the price of model B. If their bid were   and were not allowed to begin the study, and 403 par-
+more than or equal to the price, they would pay the price     ticipants completed all dependent measures. This sam-
+(deducted from their bonus) and use model B. If their         ple was 46% male and 36 years old on average.
+bid were less than the price, they would not pay the
+price and use model A.                                           Participants who passed the attention check read
+                                                              about the simulated prediction task that we created, in
+   On the next screen, participants made their bid for        which two models, model E and model S, predicted
+model B. The differences between model A and model
+B were restated on screen, along with a chart that
+6                                                                                                  Dietvorst, Bharti
+
+                                           10
+
+   Willingness to Pay for Model B (cents)  9
+
+                                           8
+
+                                           7
+
+                                           6                                             3.69¢
+                                           5                                       Upgrade to Two
+
+                                           4   4.86¢
+
+                                           3                             4.32¢
+                                                                   Upgrade to One
+                                           2
+                                           1
+
+                                           0
+
+                                               Upgrade to Perfect
+
+                                           Upgrade Further From Perfection
+
+   Fig. 2. Results for Study 1: mean amount that participants were willing to pay for model
+   B in the three upgrade conditions. The black dots represent means, and error bars repre-
+   sent 95% confidence intervals. Horizontal lines indicate medians, and the boxes indicate
+   interquartile ranges.
+
+two separate outcomes that ranged from 0 to 10 on the              condition than the low-variance condition if people
+basis of three variables that also ranged from 0 to 10.            indeed have diminishing sensitivity to forecasting error.
+Unbeknownst to participants, the outcomes were a lin-
+ear combination of the three inputs plus a random                     After completing the 20 trials, participants learned
+component, and the model that predicted each outcome               that they could earn up to $0.40 depending on the
+was the same linear combination of the three inputs                accuracy of their chosen model's prediction in the
+that generated the outcome without the random com-                 bonus round. They would earn $0.40 if the model's
+ponent (see Section S8 of the Supplemental Materials               prediction were perfect, and this bonus would decrease
+document at https://osf.io/erjq9/ for a detailed descrip-          by $0.04 for each unit of error in the model's forecast.
+tion of all prediction tasks).                                     Next, participants made a binary choice between using
+                                                                   model E and model S to make a forecast that would
+   Participants read that the task would have two stages:          generate their bonus. This choice between forecasting
+the trials and the bonus stage. In each of the 20 trials,          methods was the key dependent measure in each of
+participants would see each model's forecast and the               Studies 2 through 5. Participants did not see the correct
+correct answers for one set of stimuli so they could               answer or the model's answer after making their choice.
+judge the performance of each model. Then, during the
+bonus stage, they would decide which model they                       Participants responded to a set of questions to com-
+would like to rely on to generate a forecast that would            plete the study. Participants reported an estimate of
+determine their bonus.                                             each model's average absolute error using text boxes
+                                                                   and reported their confidence in each model's answers
+   Participants were assigned to two conditions. We                using 5-point scales. Finally, participants reported their
+manipulated the variance of model S's performance                  age, sex, and level of education.
+between conditions while holding average performance
+and earnings fixed for both models. We added random                Results
+error so that model S was always off by 1 unit in the
+low-variance condition and was equally likely to be off            Each model offered the same average performance by
+by 0 or 2 units in the high-variance condition. Model              design, and participants reported that the average per-
+E was always off by 1 unit in both conditions. Thus,               formance of the models was similar in both the high-
+both models were off by 1 unit on average, but in the              variance condition, t(203) = 1.18, p = .240, d = 0.06,
+high-variance condition, model S offered higher vari-              and the low-variance condition, t(198) = 1.62, p = .108,
+ance in performance. We expected participants to be                d = 0.07. However, although participants did not express
+more likely to choose model S in the high-variance                 significantly different levels of confidence in each
+Algorithms and Uncertainty                                               7
+
+Participants Who Chose Model S  80%                                      participants decided between using their own answer
+                                                                         or a model's answer for an incentivized trial.
+                                70%
+                                                                         Method
+                                60%
+                                                                         We preregistered that we would recruit 1,000 partici-
+                                50%                                      pants from Amazon Mechanical Turk (200 per condi-
+                                                                         tion). After we posted the study, 1,233 participants
+                                40%                                      clicked on the study link; 125 participants failed an
+                                                                         attention check and were not allowed to begin the
+                                30%  66%                                 study, and 1,005 participants completed all dependent
+                                                                         measures. This sample was 49% male and 36 years old
+                                20%                             50%      on average.
+                                                           Low Variance
+                                10%                                         Participants who passed the attention check read that
+                                                                         they would learn about a prediction task by making a
+                                0%                                       series of trial predictions and then have the opportunity
+                                            High Variance                to earn a bonus depending on the accuracy of an incen-
+                                                                         tivized prediction. Next, participants learned that they
+Fig. 3.Results for Study 2: percentage of participants who chose         would use three variables that ranged from 1 to 25 to
+model S in both the high-variance condition (model S off by 0 or 2,      predict an outcome that typically ranges from 20 to 80
+model E off by 1) and low-variance condition (both models off by         units (all whole numbers). Participants read that a sta-
+1). Error bars represent 95% confidence intervals.                       tistical model given the same information that they
+                                                                         would receive would also make these predictions. Par-
+model in the low-variance condition (in which both                       ticipants learned that after making each prediction in
+models offered the same performance), t(198) = -0.33,                    the 20 trial stages, they would see (a) their prediction,
+p = .743, d = -0.03, participants in the high-variance                   (b) the model's prediction, and (c) the actual answer,
+condition expressed more confidence in model S (which                    so they could learn about the task.
+offered higher variance in performance), t(203) = -6.18,
+p < .001, d = -0.56. Similarly, participants were signifi-                  Participants were assigned to five conditions, and we
+cantly more likely to choose model S in the high-variance                manipulated the amount of irreducible uncertainty in
+condition (66%) than in the low-variance condition                       the prediction task among these conditions. In the cer-
+(50%; see Fig. 3), 2(1, N = 403) = 11.16, p = .001,                      tain condition, the outcome was determined by an
+Cramer's  = .17, consistent with the notion that they                    equation that combined the three inputs given to par-
+prefer higher-variance forecasting methods, holding                      ticipants with no random component. In the uncertain-1
+average performance fixed. This increased preference                     condition, we added a random draw from the discrete
+for model S in the high-variance condition persisted in                  uniform distribution of whole numbers from -3 to 3 to
+a logistic regression controlling for participants' esti-                the same equation to generate the outcome. Similarly,
+mates of both models' average performance, z(403) =                      in the uncertain-2 through uncertain-4 conditions, this
+4.00, p < .001, odds ratio (OR) = 2.47, 95% confidence                   discrete uniform distribution of whole numbers ranged
+interval (CI) = [1.59, 3.85].                                            from -6 to 6, -9 to 9, and -12 to 12, respectively. Thus,
+                                                                         the amount of irreducible uncertainty in the prediction
+   These findings are striking because the literature                    task increased across the uncertain conditions while the
+suggests that, all else being equal, people typically want               rest of the task was held constant (see Section S8 of the
+to minimize variance in performance when they stand                      Supplemental Materials document for details).
+to gain money. In fact, in the domain of gains, people
+would typically pay to reduce variance in their earnings                    In each condition, the model's prediction was the
+(Kahneman & Tversky, 1979). Participants' preference                     output of the equation that determined outcomes in the
+for a higher variance algorithm, however, supports the                   prediction task, excluding any random component. As
+notion that people prefer higher variance in the per-                    a result, the model made the exact same predictions in
+formance of forecasting methods because they have                        each condition. In the certain condition, the model was
+diminishing sensitivity to forecasting error. In the                     always perfect, and in the uncertain conditions, its per-
+remaining studies, we tested the implications of dimin-                  formance depended on the random draw. Because the
+ishing sensitivity to error for choices between humans                   model's prediction was always at the center of the ran-
+and algorithms.                                                          dom draw's uniform distribution, it always produced
+                                                                         forecasts that maximized expected earnings and sto-
+Study 3                                                                  chastically dominated all other forecasting strategies.
+
+In Study 3, we tested the hypothesis that people use
+algorithms less in domains with more irreducible uncer-
+tainty. We assigned participants to five conditions with
+increasing amounts of irreducible uncertainty, and
+8                                                                                                                         Dietvorst, Bharti
+
+                               90%
+
+   Participants Who Chose the  80%
+      Algorithm
+                               70%
+
+                               60%  77%  79%
+
+                                                            70%
+
+                               50%                                           63%
+
+                                                                                                                     54%
+                               40%
+
+                                         Certain Uncertain 1 Uncertain 2 Uncertain 3 Uncertain 4
+
+                                         Increasing Irreducible Uncertainty
+
+   Fig. 4. Results for Study 3: percentage of participants who chose to use the algorithm's
+   answer in each of the five conditions. Error bars represent 95% confidence intervals.
+
+However, as the irreducible uncertainty in the task         that were at least 130% better (i.e., 2.3 times better)
+increased across the conditions, the model made fewer       than participants' answers on average in each condition,
+near-perfect forecasts. As a result, we expected partici-   certain: t(202) = 45.81, p < .001, d = 4.55; uncertain 1:
+pants to be less likely to use the model as the irreduc-    t(203) = 55.35, p < .001, d = 5.46; uncertain 2: t(199) =
+ible uncertainty in the task increased, even though it      43.24, p < .001, d = 4.32; uncertain 3: t(202) = 37.86,
+was the best possible forecasting method.                   p < .001, d = 3.76; uncertain 4: t(198) = 35.62, p < .001,
+                                                            d = 3.59. In fact, not one of the 1,005 participants in
+   Next, participants made their 20 trial predictions.      the study provided forecasts that were more accurate
+After completing these 20 trials, participants learned      than the model's on average. Further, participants
+that they could earn up to $0.50 depending on the           reported that the model performed better than they did
+accuracy of the incentivized prediction. They would         on average, certain: t(202) = -8.29, p < .001, d = -0.47;
+earn $0.50 if the incentivized prediction were off by up    uncertain 1: t(203) = -9.48, p < .001, d = -0.46, uncer-
+to 3 units, and this bonus would decrease by $0.10 for      tain 2: t(199) = -10.82, p < .001, d = -0.39; uncertain 3:
+each additional 3 units of error. Importantly, in this      t(200) = -7.35, p < .001, d = -0.27; uncertain 4: t(197) =
+study (and all studies), all of the model's predictions     -5.06, p < .001, d = -0.22, and reported more confi-
+were good enough to earn a bonus. The only way that         dence in the model's answers than their own on average
+participants could earn no bonus was by choosing not        in each condition, certain: t(202) = 14.74, p < .001, d =
+to use the model's estimate and subsequently making         1.48; uncertain 1: t(203) = 16.26, p < .001, d = 1.51; uncer-
+a poor estimate themselves.                                 tain 2: t(199) = 13.92, p < .001, d = 1.28; uncertain 3:
+                                                            t(200) = 11.62, p < .001, d = 1.11; uncertain 4: t(197) =
+   Next, participants made a binary choice between          9.21, p < .001, d = 0.81. However, even though partici-
+using either their own answer or the model's answer         pants recognized that the model performed better than
+as the incentivized prediction that would determine         they did on average, they chose it significantly less
+their bonus. Participants learned that they would gener-    often the more irreducible uncertainty there was in the
+ate their own answer no matter which option they            forecasting task (see Fig. 4).
+chose; then they made their predictions. Participants
+did not see the correct answer or the model's answer.          A logistic regression of participants' choice of the
+                                                            model on a condition variable (coded 1 through 5)
+   Participants responded to a set of questions to com-     revealed that participants were significantly less likely
+plete the study. Participants entered an estimate of their  to choose to use the model's answer the more irreduc-
+own average absolute error and the model's average          ible uncertainty there was in the task, z(1009) = -5.91,
+absolute error in text boxes, and they rated their con-     p < .001, OR = 0.74, 95% CI = [0.68, 0.82]. Further, the
+fidence in the model's answers and their own answers        negative effect of irreducible uncertainty persisted
+using 5-point scales. Finally, participants reported their  when participants' estimates of their own and the
+age, sex, and level of education.                           model's average performance were added to the logis-
+                                                            tic regression as controls, z(1006) = -4.75, p < .001,
+Results                                                     OR = 0.78, 95% CI = [0.70, 0.86], suggesting that partici-
+                                                            pants' perceptions of average performance do not
+The model performed substantially better than partici-
+pants during the practice trials--it provided answers
+Algorithms and Uncertainty                                   9
+
+account for the effect. The decision to reject the best      Method
+possible algorithm was not limited to the minority of
+participants who did not recognize that it was the better    We preregistered that we would recruit 400 participants
+option; more than half of the participants who chose         from Amazon Mechanical Turk (200 per condition).
+not to use the model in the uncertain-4 condition esti-      After we posted the study, 554 participants clicked on
+mated that the model performed better than they did          the study link; 87 participants failed an attention check
+on average. These results show that participants were        and were not allowed to begin the study, and 405 par-
+less likely to use the algorithm as the irreducible uncer-   ticipants completed all dependent measures. This sam-
+tainty in the task increased and it made fewer near-         ple was 44% male and 38 years old on average.
+perfect forecasts, even though the model was the best
+possible forecasting method.                                    Study 4 had a similar design to Study 3, but with a
+                                                             number of changes. We changed the prediction task to
+   In addition to the main findings, the results of Study    see whether the previous results would replicate under
+3 suggest that people do not abandon algorithms in           different conditions. Participants received three input
+reaction to seeing small amounts of error. Participants      numbers (ranging from 0 to 10) that were combined to
+in the certain and uncertain-1 conditions picked the         produce the answer (ranging from 0 to 10). We assigned
+model at a similar frequency (77% and 79%), 2(1, N =         participants to two conditions. In the certain condition,
+407) = 0.39, p = .531, Cramer's  = .03, even though          no irreducible uncertainty was added to the task, and
+the model usually made errors in the uncertain-1 con-        the model was always perfect. In the uncertain condi-
+dition (in 86% of trials) and was always perfect in the      tion, we added a random draw from the discrete uniform
+certain condition. Thus, it seems unlikely that people's     distribution of whole numbers from -3 to 3 to the equa-
+underuse of algorithms results from an absolute intol-       tion, and as a result, the model was always off by 0, 1,
+erance of any error, as past research has suggested          2, or 3. Participants earned $0.50 for a perfect forecast,
+(see Dietvorst et al., 2015; Einhorn, 1986; Highhouse,       and their bonus decreased by $0.10 for each unit of
+2008).                                                       error.
+
+   Studies S1 through S3 (reported at https://osf.io/           Additionally, we changed how we collected partici-
+erjq9/) replicated the results of Study 3 under different    pants' beliefs about their own and the models' perfor-
+conditions. We put these studies in the Supplemental         mance in order to gather mechanism evidence. Instead
+Materials because they serve as conceptual replications      of asking for one estimate of average performance, we
+of Study 3 that mainly rule out alternative explanations.    had participants report how they believed they and the
+Studies S1 and S2 demonstrate that participants placed       model would perform in each of 20 future forecasts
+in an uncertain condition recognize that the judgment        using the distribution builder tool (distBuilder; Version
+task contains irreducible uncertainty and that partici-      1.1.0) created by André (2016). After the incentivized
+pants who are explicitly informed about the irreducible      forecast, participants read a set of instructions about this
+nature of the uncertainty in the task exhibit similar        tool and then completed their distribution for both the
+behavior to those who are not. These results suggest         model's forecasts and their own forecasts, in randomized
+that people's tendency to shift away from algorithms in      order (see Section S9 of the Supplemental Materials
+uncertain domains is not driven by an expectation that       document at https://osf.io/erjq9/ for full details).
+absolutely perfect performance is possible in the long
+run. Study S3 conceptually replicated the negative effect       If people have diminishing sensitivity to forecasting
+of irreducible uncertainty on choice of a model using        error, the difference in the frequency with which they
+a judgment task built with real data, suggesting that the    expect their forecasting options to make a perfect fore-
+results were not due to the artificial nature of this task.  cast would be more influential than the difference
+Overall, the results of Study 3 and Studies S1 through       between their expectations at any other point in the
+S3 suggest that many people may be unwilling to use          distribution of performance. Thus, we anticipated that
+even the best possible algorithm in inherently uncertain     participants' choice of forecasting method would relate
+domains.                                                     to their expectations about which forecasting method
+                                                             was more likely to make a perfect forecast.
+
+Study 4                                                      Results
+
+Study 4 built on Study 3 by investigating how people's       As in Study 1, the model performed significantly better
+decreased use of algorithms in uncertain domains             than participants on average, certain: t(205) = 32.36,
+related to their beliefs about future performance.           p < .001, d = 3.19, uncertain: t(203) = 18.62, p < .001,
+10                                                                                                                                             Dietvorst, Bharti
+
+a                Participants Who Chose the       70%                b                        Participants Who Thought          100%   72%        34%
+                    Algorithm                    Certain                                         Algorithm More Likely to Give   80%  Certain  Uncertain
+            100%                                             33%                                                                 60%
+             80%                                          Uncertain                                  Perfect Answer              40%
+             60%                                                                                                                 20%
+             40%                                                                                                                  0%
+             20%
+               0%
+
+                                                 Increasing Irreducible Uncertainty                                           Increasing Irreducible Uncertainty
+
+c                                                Distributions of Expected Performance in  d                    Distributions of Expected Performance in
+                                                                                                                          the Uncertain Condition
+                                                 the Certain Condition
+                                                                                                                                  Algorithm Human
+                                                                        Algorithm Human                  5
+                                             12                                                          4
+                                                                                                         3
+                                             10                                                          2
+                                                                                                         1
+                 Frequency                   8                                                Frequency  0
+
+                                             6                                                                0 1 2 3 4 5 6 7 8 9 10
+                                                                                                                                       Error
+                                             4
+
+                                             2
+
+                                             0
+                                                  0 1 2 3 4 5 6 7 8 9 10
+                                                                           Error
+
+Fig. 5. Results for Study 4. The top row shows the percentage of participants who (a) chose to use the algorithm's answer and (b) thought
+the algorithm was more likely to give the perfect answer, separately for the certain and uncertain conditions. The bottom row shows the
+average distributions of participants' expectations for the model's performance and their own performance in 20 future forecasts, separately
+for the (c) certain condition and (d) uncertain condition. Error bars represent 95% confidence intervals.
+
+d = 1.80; participants recognized that the model per-                                      performance and their own, revealed that their choice
+formed better on average, certain: t(193) = -8.23,                                         of decision-maker relates to their beliefs about perfect
+p < .001, d = -0.64, uncertain: t(190) = -4.17, p < .001,                                  answers. We created a variable representing which
+d = -0.26; and participants reported more confidence                                       method each participant believed to be more likely to
+in the model's answers on average, certain: t(205) =                                       provide a perfect answer. Seventy-two percent of par-
+13.36, p < .001, d = 1.37, uncertain: t(203) = 3.63, p <                                   ticipants thought that the model had a better chance of
+.001, d = 0.26, in both conditions. However, participants                                  being perfect in the certain condition, but only 34%
+were substantially less likely to choose the model in                                      thought that the model was more likely to be perfect
+the uncertain condition (33%) than the certain condi-                                      in the uncertain condition, 2(1, N = 385) = 56.17, p <
+tion (70%), 2(1, N = 410) = 57.86, p < .001, Cramer's                                      .001, Cramer's  = .38. Further, this variable mediated
+ = .38 (see Fig. 5). This negative effect of uncertainty                                   the negative effect of irreducible uncertainty on par-
+on participants' choices persisted in a logistic regres-                                   ticipants' choice of the model in a logistic-regression-
+sion controlling for participants' estimates of their own                                  based mediation analysis, 95% CI = [0.042, 0.135].3 In
+and the model's average performance, z(385) = 5.59,                                        other words, participants' decreased likelihood of
+p < .001, OR = 3.78, 95% CI = [2.37, 6.03]. As in Study                                    choosing the model in the uncertain condition related
+1, these results suggest that people may be unwilling to                                   to their decreased likelihood of believing that the model
+accept the best possible algorithm in inherently uncer-                                    was more likely to give a perfect answer.
+tain domains, even when they report that it offers better
+performance than human judgment on average.                                                   A follow-up analysis using two continuous mediators
+                                                                                           suggests that people give more weight to their beliefs
+   Participants' distributions of performance beliefs,                                     about the likelihood of perfect forecasts than to their
+crafted from their 20 estimates of the model's future                                      beliefs about average performance when selecting a
+Algorithms and Uncertainty                                      11
+
+forecasting method. We set the continuous mediator              earnings in expectation, but the algorithm in the high-
+representing perfect answers to the number of perfect           variance condition offered higher variance in both per-
+forecasts participants expected the model to make               formance and earnings.
+minus the number of perfect forecasts that participants
+expected to make themselves. We set the continuous              Study 5b. Study 5b was similar to Study 5a, but we used
+mediator representing average performance to the aver-          the forecasting task from Study 3, which has a wider
+age error that participants expected from the model             interval of outcomes (25­75), so we could offer partici-
+minus the average error that participants expected from         pants a high-variance algorithm that never provided a
+themselves. In this logistic-regression-based mediation         perfect answer but clearly outperformed human judg-
+analysis, participants' beliefs about the method's perfect      ment. In the low-variance condition, the algorithm was
+forecasts mediated the effect of their assigned condition       equally likely to be off by 6 or 7. In the high-variance
+on their choice of the model, 95% CI = [0.122, 0.314];          condition, the algorithm was equally likely to be off by 2
+their beliefs about average performance did not, 95%            or 11. We also changed the incentive scheme: Partici-
+CI = [-0.010, 0.078]. Consistent with diminishing sensitiv-     pants received $0.60 if their incentivized prediction was
+ity to forecasting error, the results of this analysis suggest  off by 1 or less, and this bonus decreased by $0.06 for
+that participants selected their forecasting method on          each 2 units of error in their incentivized prediction.
+the basis of the frequency with which they expected
+each method to make a near-perfect forecast, instead of            In both studies, both algorithms offered the same
+on their expectations about average performance.                average performance and earnings in expectation, but
+                                                                the algorithm in the high-variance condition offered
+Studies 5a and 5b                                               higher variance in performance. As a result, if people
+                                                                have diminishing sensitivity to forecasting error, we
+Studies 3 and 4 showed that people are less likely to           would expect them to be more likely to choose the
+use algorithms in inherently uncertain domains because          algorithm in the high-variance condition. Additionally,
+of diminishing sensitivity to error. One implication of         because the algorithm in the high-variance condition of
+this proposal is that people should be more likely to           Study 5b never made a perfect forecast or earned the
+use an algorithm instead of human judgment when it              best possible bonus, a positive finding in Study 5b would
+offers higher variance in performance. We tested this           suggest that people's selection of forecasting methods is
+prediction in Studies 5a and 5b.                                not completely driven by perfect performances.
+
+Method                                                          Results
+
+We preregistered that we would recruit 400 participants         Study 5a.In Study 5a, the model performed signifi-
+from Amazon Mechanical Turk (200 per condition) in              cantly better than participants on average, high variance:
+both studies. In Study 5a, 469 participants clicked on          t(201) = 29.39, p < .001, d = 2.86, low variance: t(199) =
+the study link; 48 participants failed an attention check       16.78, p < .001, d = 1.68, and participants recognized that
+and were not allowed to begin the study, and 401 par-           the model performed better on average, high variance:
+ticipants completed all dependent measures. In Study            t(201) = -8.43, p < .001, d = -0.55, low variance: t(199) =
+5b, 527 participants clicked on the study link; 81 par-         -4.10, p < .001, d = -0.25, in both conditions of Study 5a.
+ticipants failed an attention check and were not allowed        However, although participants had significantly greater
+to begin the study, and 399 participants completed all          confidence in the model's answers on average in the
+dependent measures. The sample was 49% male and                 high-variance condition, t(201) = 8.97, p < .001, d = 0.65,
+37 years old on average in Study 5a and 52% male and            they did not in the low-variance condition, t(199) = 0.48,
+36 years old on average in Study 5b.                            p = .634, d = 0.04. Similarly, participants were signifi-
+                                                                cantly more likely to choose to use the model's answer in
+Study 5a. The task in Study 5a was the same as in Study         the high-variance condition (56%) than in the low-variance
+4; however, we manipulated the variance of the irreduc-         condition (26%; see Fig. 6), 2(1, N = 402) = 38.56, p <
+ible uncertainty in the task while holding the model's          .001, Cramer's  = .31. This positive effect of variance on
+average performance constant (similar to Study 2). Par-         participants' choice of the model persisted in a logistic
+ticipants were assigned to two conditions, high variance        regression controlling for participants' estimates of their
+and low variance. The algorithm was always off by 1 in          own and the model's average performance, z(402) =
+the low-variance condition and equally likely to be off by      5.17, p < .001, OR = 3.36, 95% CI = [2.12, 5.32]. Partici-
+0 or 2 in the high-variance condition. Both algorithms          pants' relative preference for the higher-variance algo-
+offered the same average performance and the same               rithm further supports the notion that they chose between
+                                                                forecasting methods on the basis of their expectations
+12                                                                      Dietvorst, Bharti
+
+Participants Who Chose the  80%                                         consistent with the notion that people choose between
+   Algorithm                                                            forecasting methods with diminishing sensitivity to fore-
+                            60%                                         casting error. Further, these results suggest that people's
+                                                                        choices between forecasting methods are not driven
+                            40%                             26%         solely by perfect performance; instead, these results (as
+                                                56%    Low Variance     well as the results of Study 1) are consistent with the
+                                                                        notion that people have decreasing sensitivity to each
+                            20%                                         marginal unit of forecasting error.
+
+                             0%                                         Discussion
+                                        High Variance
+                                                                        Studies 1 through 5 provide convergent evidence that
+Fig. 6. Results for Study 5a: percentage of participants who chose      people have diminishing sensitivity to forecasting error
+the algorithm in the high-variance condition (algorithm off by 0 or 2)  and that this loss function leads them to prefer forecast-
+and low-variance condition (algorithm off by 1). Error bars represent   ing methods that they believe have a greater chance of
+95% confidence intervals.                                               generating a near-perfect forecast in uncertain domains
+                                                                        (even at the expense of average performance). These
+about the best possible performances, not on the basis of               risk-seeking preferences regarding error can lead peo-
+the average performance.                                                ple to underuse the best possible algorithm in favor of
+                                                                        more error-prone options, such as human judgment.
+Study 5b.In Study 5b, the model performed signifi-                      Thus, it appears that, instead of reflecting a preference
+cantly better than participants on average, high variance:              for human judgment per se, people's apparent prefer-
+t(196) = 41.37, p < .001, d = 4.15, low variance: t(203) =              ence for human decision-makers in uncertain domains
+36.96, p < .001, d = 3.66; participants recognized that the             could reflect a preference for the higher expected vari-
+model performed better on average, high variance: t(196) =              ance of human performance.
+-11.54, p < .001, d = -0.49, low variance: t(201) = -6.50,
+p < .001, d = -0.44; and participants reported more con-                   These results suggest that convincing people to use
+fidence in the model, high variance: t(196) = 14.29, p <                algorithms in inherently uncertain domains is not a case
+.001, d = 1.14, low variance: t(201) = 7.65, p < .001, d =              of waiting until technology improves and algorithms
+0.59, in both conditions of Study 5b. However, partici-                 perform better than they do today--people even unde-
+pants were significantly more likely to choose to use the               ruse algorithms that offer the best performance possi-
+model's answer in the high-variance condition (67%)                     ble. To the extent that driving, making medical
+than in the low-variance condition (49%; see Fig. 7), 2(1,              decisions, predicting political events, and other types
+N = 400) = 13.63, p < .001, Cramer's  = .18. This positive              of decision-making are inherently uncertain, people
+effect of variance on participants' choice of the model                 may be unwilling to use even the best possible algo-
+persisted in a logistic regression controlling for partici-             rithms to make those decisions. The impact of this
+pants' estimates of their own and the model's average                   refusal is substantial, as society will not fully benefit
+performance, z(399) = 3.49, p < .001, OR = 2.12, 95%                    from technological progress in consequential but uncer-
+CI = [1.39, 3.23]. As in Study 5a, these results are                    tain domains until people are willing to use algorithms
+                                                                        to make inherently uncertain predictions.
+Participants Who Chose the  80%
+   Algorithm                                                            Transparency
+                            60%
+                                                                        Action Editor: Timothy J. Pleskac
+                            40%                                         Editor: D. Stephen Lindsay
+                                               67%                      Author Contributions
+
+                            20%                        49%                  Both authors contributed to the conceptual development
+                                                                            of the work. S. Bharti created the study materials. B. J.
+                            0%                         Low Variance         Dietvorst analyzed the data, wrote the manuscript, and
+                                       High Variance                        created the supplemental materials posted on OSF. S.
+                                                                            Bharti reviewed and edited the manuscript and supple-
+Fig. 7. Results for Study 5b: percentage of participants who chose          mental materials. Both authors approved the final manu-
+the algorithm in the high-variance condition (algorithm off by 2 or         script for submission.
+11) and low-variance condition (algorithm off by 6 or 7). Error bars    Declaration of Conflicting Interests
+represent 95% confidence intervals.                                         The author(s) declared that there were no conflicts of
+                                                                            interest with respect to the authorship or the publication
+                                                                            of this article.
+Algorithms and Uncertainty                                             13
+
+Funding                                                                Camerer, C. (1981). General conditions for the success of
+    We thank The University of Chicago Booth School of Busi-                bootstrapping models. Organizational Behavior and
+    ness for funding.                                                       Human Performance, 27, 411­422.
+
+Open Practices                                                         Dawes, R. M. (1979). The robust beauty of improper linear
+    All data, analysis code, and materials have been made                   models in decision making. American Psychologist, 34,
+    publicly available via OSF and can be accessed at https://              571­582.
+    osf.io/erjq9/. The design and analysis plans for the studies
+    were preregistered on AsPredicted, and copies of the pre-          Dawes, R. M., Faust, D., & Meehl, P. E. (1989). Clinical versus
+    registrations can be found at https://osf.io/erjq9/. The                actuarial judgment. Science, 243, 1668­1674.
+    complete Open Practices Disclosure for this article can be
+    found at http://journals.sagepub.com/doi/suppl/10.1177/09          Dietvorst, B. J., Simmons, J. P., & Massey, C. (2015). Algorithm
+    56797620948841. This article has received the badges for                aversion: People erroneously avoid algorithms after see-
+    Open Data, Open Materials, and Preregistration. More                    ing them err. Journal of Experimental Psychology: General,
+    information about the Open Practices badges can be found                144, 114­126.
+    at http://www.psychologicalscience.org/publications/
+    badges.                                                            Einhorn, H. J. (1986). Accepting error to make less error.
+                                                                            Journal of Personality Assessment, 50, 387­395.
+
+                                                                       Estes, W. K., & Straughan, J. H. (1954). Analysis of a ver-
+ORCID iD               https://orcid.org/0000-0002-8139-8983                bal conditioning situation in terms of statistical learn-
+Berkeley J. Dietvorst                                                       ing theory. Journal of Experimental Psychology, 47,
+                                                                            225­234.
+Acknowledgments
+                                                                       Fildes, R., & Goodwin, P. (2007). Against your better judg-
+We thank Sam Hirshman, Emma Levine, Oleg Urminsky, the                      ment? How organizations can improve their use of man-
+attendees of George Wu's lab meeting, and the attendees of                  agement judgment in forecasting. Interfaces, 37, 570­576.
+the Chicago Booth Center for Decision Research brown-bag
+group for their feedback.                                              Fogel, D. B. (2004). Evolving strategies in blackjack. In
+                                                                            Proceedings of the 2004 Congress on Evolutionary Com
+Notes                                                                       putation (pp. 1427­1432). Piscataway, NJ: IEEE Press.
+
+1. We use the term algorithm to describe any tool that uses a          Grove, W. M., Zald, D. H., Lebow, B. S., Snitz, B. E., & Nelson,
+fixed step-by-step decision-making process, including statistical           C. (2000). Clinical versus mechanical prediction: A meta-
+models, actuarial tables, and calculators.                                  analysis. Psychological Assessment, 12, 19­30.
+2. This article addresses prediction tasks, not classification tasks.
+3. This difference persisted when this variable was coded as the       Highhouse, S. (2008). Stubborn reliance on intuition and subjec-
+percentage of participants who thought they were more likely                tivity in employee selection. Industrial and Organizational
+to be perfect than the model. Twenty-five percent of partici-               Psychology, 1, 333­342.
+pants thought that they had a better chance of being perfect in
+the uncertain condition, but only 10% thought that they were           Kahneman, D., & Tversky, A. (1979). Prospect theory: An anal-
+more likely to be perfect in the certain condition, 2(1, N =                ysis of decision under risk. Econometrica, 47, 263­291.
+385) = 15.75, p < .001, Cramer's  = ­.20. Further, this vari-
+able mediated the negative effect of irreducible uncertainty on        Kalra, N., & Groves, D. G. (2017). The enemy of good:
+participants' choice of the model in a logistic-regression-based            Estimating the cost of waiting for nearly perfect automated
+mediation analysis (95% CI = [0.027, 0.118]).                               vehicles. Santa Monica, CA: Rand Corporation.
+
+References                                                             Kaufmann, E., & Wittmann, W. W. (2016). The success of lin-
+                                                                            ear bootstrapping models: Decision domain-, expertise-,
+Ægisdóttir, S., White, M. J., Spengler, P. M., Maugherman, A. S.,           and criterion-specific meta-analysis. PLOS ONE, 11(6),
+     Anderson, L. A., Cook, R. S., . . . Rush, J. D. (2006). The            Article e0157914. doi:10.1371/journal.pone.0157914
+     meta-analysis of clinical judgment project: Fifty-six years
+     of accumulated research on clinical versus statistical pre-       Kuncel, N. R., Klieger, D. M., Connelly, B. S., & Ones, D. S.
+     diction. The Counseling Psychologist, 34, 341­382.                     (2013). Mechanical versus clinical data combination in
+                                                                            selection and admissions decisions: A meta-analysis.
+André, Q. (2016). distBuilder [Computer software]. Retrieved                Journal of Applied Psychology, 98, 1060­1072.
+     from https://doi.org/10.5281/zenodo.166736
+                                                                       Leinert, P. (2018, January 28). Most Americans wary of self-
+Arkes, H. R., Dawes, R. M., & Christensen, C. (1986). Factors               driving cars: Reuters/Ipsos poll. Reuters. Retrieved from
+     influencing the use of a decision rule in a probabilis-                https://www.reuters.com/article/us-autos-selfdriving-usa-
+     tic task. Organizational Behavior and Human Decision                   poll/most-americans-wary-of-self-driving-cars-reuters-
+     Processes, 37, 93­110.                                                 ipsos-poll-idUSKBN1FI034
+
+                                                                       Meehl, P. E. (1954). Clinical versus statistical prediction: A the-
+                                                                            oretical analysis and review of the literature. Minneapolis:
+                                                                            University of Minnesota Press.
+
+                                                                       Sanders, N. R., & Manrodt, K. B. (2003). The efficacy of using
+                                                                            judgmental versus quantitative forecasting methods in
+                                                                            practice. Omega, 31, 511­522.
+
+                                                                       Vrieze, S. I., & Grove, W. M. (2009). Survey on the use of
+                                                                            clinical and mechanical prediction methods in clinical psy-
+                                                                            chology. Professional Psychology: Research and Practice,
+                                                                            40, 525­531.
+

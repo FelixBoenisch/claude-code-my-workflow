@@ -1,0 +1,898 @@
+                                                                                   www.nature.com/scientificreports
+
+OPEN Effects of knowledge and
+
+       importance on responsibility in
+
+       human-AI decision making
+
+                  Takahiro Tsumura1 & Seiji Yamada2
+
+                    As agents such as AI systems and robots increasingly support human decision-making, questions
+                    of accountability in cases of failure have become critical. Prior research has examined responsibility
+                    attribution mainly in terms of system autonomy, transparency, or anthropomorphism, but little is
+                    known about how cognitive framing (prior knowledge of agents) and contextual framing (perceived
+                    importance of a task) jointly shape these judgments. This study addresses this gap through a three-
+                    factor mixed-design experiment with 588 participants. Participants evaluated responsibility for
+                    the user, the agent, and the agent's developer or provider after observing failed agent-assisted
+                    interactions. The results showed that prior knowledge of the agent shifted responsibility away from
+                    the user and toward the agent and its developer. Moreover, when the topic was perceived as highly
+                    important, responsibility attributed to the developer or provider increased substantially. These findings
+                    highlight that responsibility attribution in human­agent interaction is dynamic rather than static,
+                    modulated by both user expectations and situational seriousness. Beyond theoretical contribution,
+                    the results suggest practical implications for system design, user education, and legal policy, offering
+                    guidance on how to reduce accountability gaps in the deployment of socially embedded agents.
+
+                  Keywords Human-agent interaction (HAI), Human-robot interaction (HRI), Responsibility, Empathy agent
+
+                    Humans increasingly rely on artificial intelligence (AI) systems and robots­hereafter collectively referred to as
+                    agents, reflecting their growing role as semi-autonomous decision-making entities­to support a variety of tasks
+                    in daily life. Popular technologies such as ChatGPT, autonomous driving systems, and industrial robots have
+                    become widespread across the globe. However, the deeper integration of agents into society has raised serious
+                    concerns related to trust, ethics, and accountability in human­agent interaction. Prior studies on accountability
+                    in AI have often overlapped with the literature on explainability and transparency, emphasizing how much
+                    information systems should disclose to ensure fair use1,2. However, explanation alone has been shown to be
+                    insufficient in addressing responsibility, particularly when users do not accept explanations or when explanations
+                    are unavailable3,4. This limitation highlights the need to examine responsibility attribution beyond explanation-
+                    centric approaches.
+
+                         Kaplan et al5. identified three primary categories­human characteristics, AI performance, and contextual
+                    challenges­that influence trust in AI. In contrast, Munn6 criticized existing AI ethics principles as largely
+                    ineffective in mitigating real-world harms, arguing that systemic power dynamics must be addressed to ensure
+                    equitable outcomes. These perspectives underscore that trust and accountability are shaped not only by system
+                    transparency but also by broader social and contextual factors.
+
+                         As agents are increasingly entrusted with supporting human decision-making, the issue of responsibility
+                    attribution has become crucial. Failures in domains such as healthcare, autonomous driving, and legal advice can
+                    lead to significant harm, making it necessary to determine who should be held accountable­the user, the agent,
+                    or its developer. Alicke's Culpable Control Model7suggests that people often rely on emotion and intuition when
+                    assigning blame. Similarly, Malle et al8. demonstrated that blame involves moral evaluation, intent attribution,
+                    and norm assessment, indicating that judgments toward agents depend not only on outcomes but also on
+                    perceived mental states and agency.
+
+                         This becomes especially relevant when agents exhibit autonomy or human-like features. According to
+                    the media equation theory9, users apply social heuristics to interactive systems. Waytz et al10. showed that
+                    anthropomorphizing autonomous vehicles increases trust and alters blame attribution. Furlough et al11. found
+                    that highly autonomous agents receive more blame than low-autonomy ones, while Joo12 demonstrated that
+
+1Faculty of Information Networking for Innovation and Design, Toyo University, Kita-ku, Tokyo, Japan. 2Department
+
+of Applied Systems and Mathematics, Faculty of Informatics, Kanagawa University, Yokohama, Kanagawa, Japan.
+email: takahiro.tsumura@iniad.org
+
+Scientific Reports | (2026) 16:2670  | https://doi.org/10.1038/s41598-025-32513-w                                    1
+www.nature.com/scientificreports/
+
+attributing a human-like mind to AI increases blame toward the system and decreases blame toward humans,
+raising concerns about moral scapegoating.
+
+    Beyond anthropomorphism and autonomy, recent experimental work has explored responsibility allocation
+in concrete interaction scenarios. Stojilovi et al13. reported that autonomous vehicles are consistently blamed
+more than human drivers, while Franklin et al14. highlighted the multifactorial nature of responsibility
+judgments. These findings suggest that blame is influenced not only by system design but also by how the
+situation is framed. Yet, such work has not systematically examined user-related cognitive factors together with
+contextual importance. However, not all users accept or trust anthropomorphized systems. Nomura et al15,16.
+documented user resistance to robots, and empirical studies by Tsumura and colleagues17­23 found that while
+people can empathize with agents, the intensity of trust or empathy is often weaker than toward humans. These
+results illustrate the tension between anthropomorphic design and accountability expectations.
+
+    In addition to agent appearance and autonomy, system transparency plays a key role in trust and responsibility
+attribution. Okamura and Yamada24 emphasized trust calibration­ensuring that users neither over-trust nor
+under-trust AI systems. Apologies and explanations have also been shown to influence blame and trust repair25.
+These psychological and design factors intersect with normative debates on AI responsibility. Some scholars26
+argue that courts may soon need to consider whether agents qualify as legal actors, while others warn against
+granting legal personhood27. Santoni de Sio and van den Hoven28 proposed "meaningful human control" as a
+principle to prevent responsibility gaps by ensuring that humans remain involved in critical decisions.
+
+    Despite substantial prior work, the combined influence of user cognition (e.g., prior knowledge of the system)
+and contextual seriousness on responsibility attribution remains insufficiently understood. These factors may
+dynamically shape how people distribute blame when agent-assisted decisions fail, yet they have received limited
+empirical attention. In particular, little is known about how users' prior knowledge of agents and the perceived
+importance of a task jointly influence responsibility judgments when failures occur. This study addresses this
+gap by examining how these cognitive and contextual factors shape blame attribution across three targets: the
+user, the agent, and the agent's developer or service provider. Understanding these patterns is theoretically
+important for models of blame attribution and practically relevant for system design, legal policy, and public
+trust. Clarifying responsibility in human­agent collaboration can reduce accountability gaps and support ethical
+deployment, especially in high-stakes domains such as healthcare, disaster response, and autonomous mobility.
+
+Related work
+
+Responsibility attribution in human-agent interaction has been studied across disciplines including psychology,
+law, and human-robot interaction (HRI). Across these domains, prior work has highlighted factors such as causal
+structure, system autonomy, and moral intuition as central to blame judgments. In the context of automated
+vehicles (AVs), Stojilovi et al13. found that people attribute greater responsibility when AVs are involved in
+accidents, compared with scenarios with human drivers. Franklin et al14. proposed a comprehensive framework
+comprising nine factors­such as causality, knowledge, autonomy, and intention­that influence responsibility
+judgments. They also introduced serious games as tools to explore responsibility in causal cognition.
+
+    Medical and legal contexts provide further insight into responsibility attribution. Naik et al29. reviewed how
+responsibility is assigned when AI is used in clinical decision-making, while Parlangeli et al30. explored how
+delegating legal decisions to AI alters moral judgments. Scheutz and Malle31 examined moral evaluations of
+agents making life-or-death decisions and found that such decisions are judged through human moral lenses.
+Kneer and Stuart32 reported that people tend to hold AI systems responsible in reckless scenarios.
+
+    From a normative perspective, Ryan33 warned against overly trusting AI systems, cautioning against
+anthropomorphism. Hagendorff34 reviewed 22 AI ethics guidelines and identified overlapping themes as well
+as notable gaps. Coeckelbergh35 and de Jong36 highlighted the challenges of attributing liability in complex,
+multi-actor systems. Maas37 emphasized the destabilizing effect of AI on existing governance frameworks,
+while Danaher38 argued that unchecked AI deployment could erode society's moral foundations. Regarding the
+philosophical basis of agency, Nyholm39 examined the extent to which autonomous systems like self-driving cars
+or military robots can be considered action-subjects. Danaher40 introduced the concept of the "retaliation gap,"
+showing that traditional frameworks struggle to accommodate blame in AI-related harms.
+
+    From moral psychology, dual-process models of blame suggest that people weigh both intentions and
+outcomes when evaluating harmful actions. Cushman41emphasized that intentionality plays a key role in moral
+evaluations, particularly when an outcome could have been foreseen or prevented. Extending this work to AI,
+Hidalgo et al42. found that algorithmic agents are often blamed more for physical harms, while humans are
+blamed more for violations of fairness. Furlough et al11. showed that when task failures occur in human-robot
+teams, autonomous robots are assigned more blame than their non-autonomous counterparts, indicating that
+perceived autonomy enhances responsibility attribution.
+
+    Trust calibration also plays a critical role in how people assign responsibility to agents. de Visser et al43. found
+that anthropomorphic design can enhance trust resilience, while a lack of transparency may lead to overblaming
+the AI. Recent work by Bai and Chen44 demonstrated that different explanation strategies from robots­such as
+external attributions or admitting low ability­have varying effects on trust repair. Their findings suggest that
+attributing failure to external causes was more effective in restoring trust than internal attributions involving
+low integrity, which significantly harmed trust. These results highlight the nuanced impact of how agents explain
+their failures and the importance of aligning explanation strategies with user expectations to foster appropriate
+responsibility attribution.
+
+    The degree of anthropomorphism also affects how blame is distributed. Joo12 found that when people
+perceive AI as having a human-like mind, they tend to assign greater blame to the AI and less to the human
+counterpart, sometimes leading to moral scapegoating. Gall and Stanton45 demonstrated that people shared
+more accountability with human-like robotic teammates, whereas machine-like agents were blamed more
+
+Scientific Reports | (2026) 16:2670  | https://doi.org/10.1038/s41598-025-32513-w  2
+www.nature.com/scientificreports/
+
+heavily. Together, these findings suggest that design cues influencing perceived agency or social presence can
+substantially alter moral and legal judgments.
+
+    From a design ethics perspective, Value Sensitive Design (VSD)46 was proposed; it embeds mechanisms
+for transparency, traceability, and shared responsibility directly into AI systems. This includes audit trails,
+user-facing explanations, and confirmation mechanisms for critical decisions. These practices aim to reduce
+responsibility gaps and promote meaningful human control, aligning system behavior with stakeholder values.
+Finally, the concept of the "responsibility gap"47 is often cited in discussions about autonomous systems. As AI
+agents gain autonomy, it becomes difficult to trace clear lines of liability. Although some policymakers have
+proposed granting AI legal personhood, many scholars argue that this would obscure human accountability27.
+Most agree that moral and legal responsibility must remain with the humans who design, deploy, or oversee
+these systems. Yet, despite this growing body of work, little is known about how users' prior knowledge of agents
+and the perceived importance of tasks jointly shape responsibility judgments. Addressing this gap is the central
+aim of the present study.
+
+Methods
+Ethics statement
+
+The protocol was approved by the ethics committee of the National Institute of Informatics (No. R6-11-1,11,
+July, 2024) and Toyo university (No. 2024-001,17, April, 2024). All studies were carried out in accordance with
+the recommendations of the Ethical Guidelines for Medical and Health Research Involving Human Subjects
+provided by the Ministry of Education, Culture, Sports, Science and Technology and Ministry of Health, Labour
+and Welfare in Japan. Written informed consent was provided by choosing one option on an online form: "I
+am indicating that I have read the information in the instructions for participating in this research. I consent to
+participate in this research." All participants gave informed consent. After that, they were debriefed about the
+experimental procedures. The experiment was conducted from 27 to 28 January 2025 (Japan time).
+
+Hypotheses
+The aim of this study is to examine how responsibility is attributed when an agent fails in assisting a human
+user. Specifically, we investigated the extent to which participants assign blame to three possible targets: (1) the
+user, (2) the agent, and (3) the agent's developer or service provider. To explore these attribution patterns, we
+formulated two hypotheses based on prior literature.
+
+    H1: Prior knowledge of the agent increases perceived accountability of both the agent and its developer
+    or provider.
+
+    H2: The more important the topic is to the participant, the more responsibility is attributed to the agent's
+    developer or provider (and relatively less to the user).
+
+H1 draws on research on expectation and agency attribution13,48. Prior knowledge of a system shapes user
+expectations of its performance; when these expectations are violated, people tend to ascribe greater responsibility
+to the system and those behind it. This prediction assumes­consistent with prior work on human­human
+blame attribution7,8­that the psychological processes underlying responsibility judgments (such as expectation
+violation and norm evaluation) may extend to evaluations of artificial agents. Because these mechanisms have
+been established primarily in human­human contexts, we treat their application to human­agent scenarios
+as a theoretical extension rather than an established fact. We also assume that observers can form meaningful
+responsibility judgments even when evaluating interactions vicariously. Accordingly, we predict that familiarity
+with the agent will increase responsibility attributed to both the agent and its developer or provider.
+
+    H2 is grounded in studies on perceived seriousness and delegation of judgment30,32. When the stakes of a task
+are high, individuals are less willing to blame themselves and more inclined to hold responsible those perceived
+to have ultimate control or expertise. This hypothesis similarly assumes­based on prior findings in human­
+human moral and blame judgments7,8­that the cognitive heuristics guiding responsibility allocation may
+also influence judgments involving artificial agents. Although evidence remains limited, recent work suggests
+that certain aspects of moral judgment can extend to non-human actors12. This extension, however, should
+be viewed as a theoretical assumption rather than an established empirical fact. Thus, we predict that higher
+perceived importance of the topic will increase responsibility attributed to the agent's developer or provider,
+while decreasing responsibility attributed to the user.
+
+Experimental procedure
+The experiment involved exposing participants to short videos that depicted a dialogue between a human user
+and an artificial agent designed to assist with decision-making. In each video, the agent attempted to provide
+support but ultimately failed to meet the user's needs­for instance, by offering an inappropriate recommendation,
+by delivering information that was incomplete or irrelevant, or by misunderstanding the user's request. To
+minimize the influence of paralinguistic cues such as tone or intonation, all videos were presented without
+audio narration. The entire interaction was conveyed through on-screen text, ensuring that participants based
+their evaluations solely on the content of the dialogue rather than on voice-related factors. After watching the
+assigned video(s), participants were asked to evaluate the outcome by completing a short questionnaire designed
+to capture how responsibility was attributed to different parties.
+
+    Presenting the interaction without audio narration was intended to avoid well-documented voice-related
+biases, such as shifts in perceived warmth, competence, trust, and agency that arise from paralinguistic cues49,50.
+However, voice is not the only source of potential bias. Differences in participants'reading speed or linguistic
+fluency could also influence comprehension of on-screen text. To minimize this concern, all dialogue was
+
+Scientific Reports | (2026) 16:2670  | https://doi.org/10.1038/s41598-025-32513-w  3
+www.nature.com/scientificreports/
+
+                                      written in simple, commonly used Japanese, and participants were allowed unlimited time to read each segment.
+                                      Prior studies indicate that online crowdsourcing populations in Japan generally possess sufficient literacy for
+                                      text-based experimental tasks17,51. Thus, while removing audio controlled for voice-related biases, the study also
+                                      took steps to reduce comprehension-related variance across participants.
+
+                                          The study was conducted online using Yahoo! Crowdsourcing, which has been frequently employed in
+                                      previous experimental research to obtain reliable and diverse samples under controlled conditions17,19,20,52.
+                                      Participants could take part from their own devices, and instructions emphasized that they should carefully
+                                      imagine themselves as the user in the video. This self-referential framing was intended to elicit natural
+                                      responsibility judgments rather than detached third-person evaluations. A flowchart of the overall procedure
+                                      is provided in Fig. 1.
+
+                                          The experiment adopted a three-factor mixed design. The between-participants factors were:
+
+                                      · Prior knowledge of the agent (yes vs. no), manipulated by showing or withholding an introductory video
+                                         that described the agent's intended functions, capabilities, and everyday applications.
+
+                                      · Importance of the topic in the user­agent dialogue (low, medium, high), manipulated by varying the stakes
+                                         of the scenario. Low-importance cases involved trivial or everyday decisions, medium cases reflected mod-
+                                         erately consequential topics, and high-importance cases concerned situations with serious personal or so-
+                                         cial consequences. To illustrate these levels in real-world terms, the low-importance scenario corresponded
+                                         to a minor everyday situation (e.g., receiving a job-related notification), the medium-importance scenario
+                                         involved a moderately consequential choice (e.g., selecting a travel destination), and the high-importance
+                                         scenario reflected a high-stakes context with potentially severe outcomes (e.g., responding to an emergency).
+
+                                      · The within-participants factor was the responsibility target (user, agent, developer/service provider), which
+                                         was assessed through participants' ratings.
+
+                                      In practice, participants assigned to the prior knowledge condition first watched a short introductory video (also
+                                      silent with on-screen text) that presented the agent's role and capabilities. All participants then proceeded to the
+                                      main task video, in which the user­agent dialogue was shown and the agent's assistance led to an unsatisfactory
+                                      outcome. The scenario differed according to the assigned level of topic importance, thereby allowing us to
+                                      examine whether the perceived gravity of the situation altered responsibility judgments. After completing the
+                                      viewing, participants responded to the responsibility questionnaire, which asked them to evaluate the extent to
+                                      which each of the three targets was responsible for the outcome.
+
+                                          In total, the design comprised 18 experimental conditions (2 levels of prior knowledge × 3 levels of topic
+                                      importance × 3 responsibility targets). Because responsibility target was treated as a within-participants factor,
+                                      each participant was assigned to one of six experimental groups, each corresponding to a unique combination of
+                                      the between-participants factors. This design allowed us to capture both the contextual influences of knowledge
+                                      and importance as well as the comparative judgments across different responsibility targets.
+
+                                  Participants
+                                      Participants were recruited through Yahoo! Crowdsourcing and received a monetary reward of 55 yen for
+                                      their participation. A dedicated web page was created for the experiment, and the user and agent characters in
+
+Fig. 1. Flowchart of the experimental procedure.
+
+Scientific Reports | (2026) 16:2670  | https://doi.org/10.1038/s41598-025-32513-w  4
+www.nature.com/scientificreports/
+
+                                      the videos were animated using MikuMikuDance to ensure standardized and reproducible stimuli. A total of
+                                      614 individuals initially took part in the study. To ensure data quality, participants were asked content-check
+                                      questions immediately after viewing the videos. Fourteen participants who failed these checks were excluded
+                                      from the dataset.
+
+                                          To maintain a balanced distribution across conditions, we included the first 98 valid participants in each of the
+                                      six experimental groups, yielding a final sample of 588 participants. This procedure ensured that each between-
+                                      participants condition was represented by an equal number of participants, enhancing the comparability of
+                                      results across experimental manipulations. The final sample had a mean age of 49.88 years (SD = 12.28), with
+                                      ages ranging from 19 to 89. The gender distribution was nearly balanced, with 297 males and 291 females,
+                                      providing a demographically diverse participant pool.
+
+                                  Questionnaire
+                                      To assess the extent to which participants attributed responsibility for the outcome of the user­agent interaction,
+                                      we developed a brief questionnaire consisting of three items. Each item corresponded to one of the three
+                                      responsibility targets: the user, the agent, and the agent's developer or service provider. Specifically, participants
+                                      were asked:
+
+                                      Q1: To what extent was the user responsible?
+                                      Q2: To what extent was the agent responsible?
+                                      Q3: To what extent was the agent's developer or service provider responsible?
+
+                                      Responses were collected on a 10-point Likert scale, ranging from 1 (no responsibility) to 10 (full responsibility).
+                                      This scale format was adapted from the 100-point responsibility attribution scale used by Stojilovi et al13.,
+                                      but was deliberately simplified to enhance clarity, reduce participant fatigue, and ensure efficient responding
+                                      in an online crowdsourcing environment. Specifically, the original 0­100 scale was converted into a 1­10
+                                      format by compressing the range into ten evenly spaced categories, each representing a 10-point interval on the
+                                      original scale (e.g., 0­10  1, 11­20  2,..., 91­100  10). No semantic labels were changed; only the numeric
+                                      granularity was reduced to match the shorter and more intuitive format for online participants.
+
+                                          Participants completed the questionnaire immediately after watching the video and were explicitly instructed
+                                      to imagine themselves in the role of the user. This framing encouraged first-person responsibility judgments
+                                      rather than detached third-person evaluations, thereby enhancing the ecological validity of the responses. The
+                                      order of the three responsibility questions­first the user, followed by the agent, and finally the developer­was
+                                      fixed for all participants; the items were not counterbalanced.
+
+                                  Prior knowledge of the agent
+                                      To examine whether prior knowledge of the agent influenced participants' responsibility attribution, we
+                                      created a short self-introduction video (approximately 90 seconds) in which the agent explained its role and
+                                      characteristics. Participants assigned to the prior knowledge condition were required to watch this video (Video
+                                      1), which consisted of a silent presentation with on-screen text describing the types of assistance the agent could
+                                      provide, as well as details about its personality traits and behavioral style. The purpose of this manipulation
+                                      was to ensure that participants in this condition had a more concrete impression of the agent as a social and
+                                      functional entity before proceeding to the main task.
+
+                                          In contrast, participants in the no-prior-knowledge condition were shown only a still image of the agent
+                                      without any additional contextual information. This design allowed us to compare responsibility judgments
+                                      between participants who had prior exposure to the agent's self-presentation and those encountering the agent
+                                      for the first time during the main task. Figure 2 illustrates the agent's visual appearance and provides an example
+                                      frame from the self-introduction video. By combining both the static representation and a sample video frame
+                                      into a single figure, we convey the essential features of the stimulus while keeping the total number of figures
+                                      within the journal's constraints.
+
+Fig. 2. Examples of experimental stimuli: (a) visual appearance of the agent, (b) a frame from the self-
+introduction video, and (c) a frame from the user­agent interaction in the main task.
+
+Scientific Reports | (2026) 16:2670  | https://doi.org/10.1038/s41598-025-32513-w                         5
+www.nature.com/scientificreports/
+
+Importance of the topic
+To examine how the perceived importance of a situation affects responsibility attribution, we prepared three
+different dialogue videos between the user and the agent, each representing a different level of topic importance.
+The levels of importance were established through a pretest in which a separate group of participants rated the
+perceived seriousness of a range of scenarios. Based on these ratings, we selected three representative categories:
+
+· Low importance: everyday situations such as job opportunities that involve limited personal stakes.
+· Medium importance: moderately consequential contexts such as choosing travel destinations, where the
+
+   decision has some impact but remains reversible.
+· High importance: highly consequential contexts such as emergency situations, in which inappropriate deci-
+
+   sions may result in severe negative outcomes.
+
+These scenarios were incorporated into the main experimental video (Video 2), with each participant viewing
+only one version. Each video lasted approximately 120 seconds. To minimize confounding variables, the gestures,
+facial expressions, and turn-taking between the user and the agent were standardized across all versions. All
+videos were presented without audio, ensuring that participants' evaluations were not influenced by voice
+intonation or other paralinguistic cues. In the videos, the male character on the left (Taka) served as the user,
+while the robot character on the right (Robota) represented the agent. The developer or service provider of
+the agent was not depicted in any of the scenarios, thereby ensuring that participants' judgments about this
+target were based on inference rather than direct portrayal. Example frames of the agent's appearance, its self-
+introduction video, and the main task conversation are presented together in Fig. 2.
+
+Manipulation check
+To validate whether participants perceived differences in the importance of various topics, we conducted a
+preliminary survey with 102 participants (47 males and 55 females). The mean age was 49.18 years (SD = 12.17),
+with a range from 20 to 89 years. Participants were asked to evaluate nine topics that could plausibly be discussed
+with an agent. Each topic was rated on a 7-point Likert scale (1 = very low importance, 7 = very high importance).
+As all participants evaluated all topics, topic importance was treated as a within-participants factor.
+
+    A one-way repeated measures ANOVA revealed a significant main effect of topic on perceived importance,
+F (5.98, 604.33) = 16.40, p < .001. To account for violations of sphericity, Mendoza's test was applied, yielding
+a Greenhouse­Geisser epsilon () of 0.7479, and the degrees of freedom were adjusted accordingly. As shown
+in Table 1, mean importance ratings varied across topics. Holm-adjusted pairwise comparisons indicated that
+employment opportunities were perceived as significantly less important, planning a trip represented a moderate
+level of importance, and emergency situations were rated as significantly more important. On the basis of these
+results, we selected these three topics to represent the low, medium, and high importance conditions in the main
+experimental videos.
+
+Analysis method
+An analysis of variance (ANOVA) was conducted using a three-factor mixed design, which is commonly used
+in previous studies and is suitable for the present research. The between-participants factors included two levels
+of prior knowledge of the agent and three levels of topic importance. The within-participants factor was the
+responsibility target, with three levels (user, agent, and agent's developer or provider). Responsibility ratings
+obtained from the questionnaire were used as the dependent variable to examine how blame attribution varied
+across conditions when agent-supported decisions failed. All statistical analyses, including ANOVA and multiple
+comparisons, were performed using R (version 4.1.0), which was also used for the manipulation check.
+
+    Before conducting the main analyses, we examined the statistical assumptions required for mixed-design
+ANOVA. For the within-participants factor (responsibility target), sphericity was tested using Mendoza's test.
+
+Topic                                Mean SD
+
+T1: Hobbies and pastimes             4.40 1.37
+
+T2: Regional issues                  4.18 1.23
+
+T3: AI medical decisions             4.74 1.20
+
+T4: Planning a trip                  4.44 1.32
+
+T5: Educational policy               3.77 1.38
+
+T6: Emergency situations             4.99 1.03
+
+T7: Shopping                         4.68 1.28
+
+T8: Employment opportunities 3.74 1.40
+
+T9: Legal and rights issues          4.59 1.33
+
+Pairwise comparison                  Difference t p
+
+T6 (Emergency) ­ T8 (Employment) 1.26           8.80 < .001 ***
+
+T4 (Trip) ­ T8 (Employment)          0.71       4.24 < .01 *
+
+T4 (Trip) ­ T6 (Emergency)           -0.55      3.85 < .01 *
+
+Table 1. Perceived importance of topics (top) and results of pairwise comparisons (bottom). p: * p < 0.05, ***
+p < 0.001.
+
+Scientific Reports | (2026) 16:2670  | https://doi.org/10.1038/s41598-025-32513-w  6
+www.nature.com/scientificreports/
+
+Knowledge Importance Responsibility               Mean S.D. Knowledge Importance Responsibility       Mean S.D.
+
+                                           User   5.878 2.042                                  User   6.153 2.400
+
+                                     Low   Agent  6.122 1.890                            Low   Agent  5.500 2.184
+
+                                           Developer/provider 6.489 1.960                      Developer/provider 6.143 2.346
+
+                                           User   5.480 2.321                                  User   5.980 2.377
+
+Available Medium Agent                            5.990 2.098 Not available Medium Agent              5.633 2.175
+
+                                           Developer/provider 6.439 2.351                      Developer/provider 6.031 2.477
+
+                                           User   4.643 2.017                                  User   5.276 2.219
+
+                                     High  Agent  6.592 1.978                            High  Agent  6.398 2.157
+
+                                           Developer/provider 7.204 1.921                      Developer/provider 7.031 2.073
+
+Table 2. Statistical information on responsibility targets.
+
+Factor                                            df F  p                  p2
+
+Prior knowledge of agent (Knowledge)              1 0.4906 0.4840 ns 0.0008
+
+Importance of topic (Importance)                  2 1.940 0.1446 ns 0.0066
+
+Recipient of responsibility (Responsibility) 1.45 32.56 0.0000 *** 0.0530
+
+Knowledge × Importance                            2 0.7057 0.4942 ns 0.0024
+
+Knowledge × Responsibility                        1.45 7.520 0.0021 ** 0.0128
+
+Importance × Responsibility                       2.9 14.20 0.0000 *** 0.0465
+
+Knowledge × Importance × Responsibility 2.9 0.0958 0.9589 ns 0.0003
+
+Table 3. Analysis results of ANOVA. p: **p<0.01 ***p<0.001.
+
+When violations of sphericity were detected, Greenhouse­Geisser epsilon values were computed, and the degrees
+of freedom for the within-participants effects and their interactions were adjusted accordingly. All ANOVA
+results reported in this article reflect these corrected degrees of freedom. In addition, Holm-adjusted pairwise
+comparisons were conducted for follow-up tests, ensuring control of the familywise error rate while maintaining
+statistical power. These procedures are widely recommended for mixed-model ANOVA designs and align with
+standard analytical practices in HAI and social cognition research.
+
+Results
+
+Table 2 presents the means and standard deviations of responsibility ratings across all experimental conditions.
+In what follows, we first report descriptive statistics and then present the results of the three-factor mixed-design
+ANOVA.
+
+    The ANOVA results are summarized in Table 3. Significant interactions were observed between prior
+knowledge and responsibility target, and between topic importance and responsibility target. Given these
+interactions, the interpretation of main effects alone would be misleading; therefore, we focus on the results of
+simple main effects analyses, presented in Table 4.
+
+    For the knowledge × responsibility interaction, participants with prior knowledge of the agent attributed
+greater responsibility to both the user and the agent compared to those without prior knowledge, whereas
+responsibility attributed to the developer or provider did not vary significantly across conditions. For the
+importance × responsibility interaction, responsibility attributed to the developer or provider increased
+markedly as topic importance rose, while user responsibility decreased accordingly. Responsibility attributed to
+the agent remained moderate across all conditions, but also showed an upward trend under high-importance
+scenarios.
+
+    Taken together, these results provide empirical support for our hypotheses. Specifically, H1 was partially
+supported, as prior knowledge increased perceived accountability of both the agent and its developer or provider.
+H2 was also supported, as greater topic importance led to increased responsibility attributed to the developer or
+provider and decreased responsibility attributed to the user.
+
+Knowledge × responsibility
+The interaction between prior knowledge of the agent and responsibility attribution was significant (Table 4), and
+the detailed distributions are illustrated in Fig. 3. Figure 3(a) shows the results for responsibility attributed to the
+user. Participants without prior knowledge of the agent assigned significantly greater responsibility to the user
+compared with those who had prior knowledge. Figure 3(b) presents the results for responsibility attributed to
+the agent. In contrast, participants with prior knowledge of the agent were more likely to attribute responsibility
+to the agent itself, relative to those without such knowledge.
+
+    Figure 3(c) and (d) illustrate the distribution of responsibility ratings across all three targets under the
+prior knowledge and no-prior-knowledge conditions, respectively. In the prior knowledge condition (Fig. 3c),
+responsibility was attributed highest to the developer or service provider, followed by the agent, and lowest to
+
+Scientific Reports | (2026) 16:2670        | https://doi.org/10.1038/s41598-025-32513-w                                        7
+www.nature.com/scientificreports/
+
+                                     Factor                             df F       p  p2
+
+                                     Knowledge at user                  1 6.487 0.0111 * 0.0110
+
+                                     Knowledge at agent                 1 5.182 0.0232 * 0.0088
+
+Knowledge×Responsibility Knowledge at developer/provider                1 2.915 0.0883 ns 0.0050
+
+                                     Responsibility at available knowledge 1.4 36.35 0.0000 *** 0.1110
+
+                                     Responsibility at no available knowledge 1.49 6.764 0.0035 ** 0.0227
+
+                                     Importance at user                 2 11.72 0.0000 *** 0.0387
+
+                                     Importance at agent                2 7.036 0.0010 *** 0.0236
+
+                                     Importance at developer/provider   2 9.649 0.0001 *** 0.0321
+Importance×Responsibility                                               1.43 2.832 0.0781 ns 0.0144
+
+                                     Responsibility at low importance
+
+                                     Responsibility at medium importance 1.48 2.937 0.0703 ns 0.0149
+
+                                     Responsibility at high importance  1.42 62.70 0.0000 *** 0.2443
+
+Table 4. Analysis results of simple main effect. *p < 0.05;**p < 0.01;***p < 0.001.
+
+Fig. 3. Results of Knowledge × Responsibility interaction. Red lines indicate medians; circles represent
+outliers.
+
+the user. In the no-prior-knowledge condition (Fig. 3d), responsibility was still rated highest for the developer or
+service provider, while the agent and the user were attributed similar, lower levels of responsibility.
+
+Importance × responsibility
+A significant interaction between topic importance and responsibility attribution was observed (Table 4), and
+the detailed patterns are illustrated in Fig. 4. Figure 4(a) presents the results for responsibility attributed to the
+
+Scientific Reports | (2026) 16:2670  | https://doi.org/10.1038/s41598-025-32513-w                          8
+www.nature.com/scientificreports/
+
+Fig. 4. Results of Importance × Responsibility interaction. Red lines indicate medians; circles represent
+outliers.
+
+user. Responsibility ratings for the user decreased as topic importance increased. Figure 4(b) shows the results
+for the agent. In contrast, responsibility attributed to the agent increased progressively with higher levels of topic
+importance.
+
+    Figure 4(c) illustrates the results for the agent's developer or service provider. Responsibility ratings also
+increased as topic importance rose, indicating that more serious scenarios prompted greater accountability
+directed at the system's creators. Finally, Fig. 4(d) displays the distribution of responsibility ratings in the high-
+importance condition. Responsibility was highest for the developer or service provider, followed by the agent,
+and lowest for the user, demonstrating a systematic upward shift of accountability as the stakes of the situation
+increased.
+
+Discussion
+Supporting hypotheses
+
+Failures can occur even when agents are carefully designed to assist users. Understanding how responsibility
+attribution shifts depending on contextual factors is critical for improving both the design and the social
+acceptance of such systems. If we can clarify how responsibility is distributed across users, agents, and developers
+in different situations, designers and policymakers can better anticipate accountability gaps and implement
+strategies to prevent undue blame being placed on any single party. This study examined whether two key
+factors­(1) prior knowledge of the agent and (2) the perceived importance of the topic­affect responsibility
+attribution when agent-assisted decisions fail. To test this, we formulated two hypotheses and conducted a
+factorial experiment involving three potential responsibility targets: the user, the agent, and the agent's developer
+or service provider.
+
+    The findings partially supported H1. A significant interaction was observed between prior knowledge and
+responsibility target, consistent with the statistical results reported earlier. Simple main effects analysis showed
+that when participants lacked prior knowledge of the agent, they assigned significantly more responsibility to
+the user. In contrast, participants with prior knowledge tended to assign more responsibility to the agent itself.
+However, the effect of prior knowledge on developer responsibility did not reach conventional significance, and
+therefore H1 should be interpreted as being only partially supported. These results suggest that prior exposure to
+an agent's capabilities or personality can shift accountability away from the human user and toward the system.
+
+Scientific Reports | (2026) 16:2670  | https://doi.org/10.1038/s41598-025-32513-w                          9
+www.nature.com/scientificreports/
+
+    The results also supported H2. The interaction between topic importance and responsibility target was
+significant. While no clear differences emerged under low- or medium-importance conditions, responsibility
+attribution shifted markedly under high-importance conditions. In particular, participants assigned the highest
+level of responsibility to the developer or service provider, followed by the agent, and the lowest to the user.
+This indicates that when the stakes are high, people are more likely to hold the system's creators accountable­
+potentially reflecting stronger expectations for reliability and oversight in serious contexts. Together, these
+results validate both hypotheses and highlight the nuanced ways in which people assign blame in human-agent
+interactions.
+
+    Beyond the empirical findings, this study contributes theoretically to our understanding of responsibility
+attribution in human-agent interaction. Prior work has extensively examined factors such as autonomy,
+transparency, and anthropomorphism, but has often treated responsibility as a static construct. Our results
+demonstrate that responsibility attribution is dynamic, shaped both by users' cognitive framing (e.g., prior
+knowledge of the agent) and by contextual framing (e.g., the perceived importance of the decision). This dual
+modulation provides empirical grounding for a dynamic model of blame attribution, in which user expectations
+and situational seriousness jointly determine how accountability is distributed. This insight is particularly relevant
+for system designers and policymakers, who must anticipate shifts in responsibility attribution depending on
+user familiarity with agents and the gravity of the situation at hand.
+
+    Beyond responsibility attribution, these findings also relate to broader discussions in explainable and human-
+in-the-loop AI. Recent work on AI validation frameworks53, user-centered explanation design54, and end-
+user explanation needs55 highlights that users form expectations not only from system performance but also
+from how agents communicate their capabilities and limitations. These perspectives complement our results,
+suggesting that responsibility judgments may reflect how users question, interpret, and validate agent behavior.
+Integrating responsibility attribution with XAI-oriented design practices may therefore help create systems that
+better manage user expectations and reduce misaligned blame in real-world deployments.
+
+    These findings can also be situated within broader accountability theory. In many real-world deployments,
+humans often absorb disproportionate blame when automated systems fail­a phenomenon described by Elish56
+as the "moral crumple zone." In contrast, our results show that providing prior knowledge of an agent can reverse
+this dynamic by shifting responsibility away from the human user and toward the system itself. This pattern
+also relates to debates on the "responsibility gap47," which highlight difficulties in assigning accountability when
+outcomes emerge from distributed human­AI interactions. Furthermore, the observed sensitivity to contextual
+seriousness aligns with discussions of "meaningful human control," emphasizing that users and policymakers
+must anticipate when and how responsibility should be shared between humans and AI systems. Integrating
+these frameworks helps position our findings within the larger discourse on accountability in socio-technical
+systems.
+
+Strengths and limitations
+
+One strength of this study is its demonstration that providing prior knowledge of an agent can increase the extent
+to which both the agent and its developer or provider are held accountable. This effect may be a consequence of
+framing the agent positively­emphasizing its abilities and successful behavior­in order to encourage trust and
+adoption. In this experiment, participants in the prior knowledge condition viewed a self-introduction video
+(Video 1) in which the agent's capabilities were presented in a successful context, while the main task video
+(Video 2) involved a failure scenario. This design mirrors real-world contexts, where systems are often promoted
+on the basis of their benefits rather than their potential shortcomings.
+
+    However, the prior-knowledge manipulation may have influenced responsibility attribution not only
+through cognitive familiarity but also through increased anthropomorphism and perceived agency. Because
+the manipulation involved an agent's self-introduction video, participants may have construed the agent as
+more socially present or "mind-like," which can systematically alter blame attribution10,12. Thus, the observed
+knowledge effect may partially reflect a broader social framing process rather than purely informational
+understanding. Future work should therefore disentangle cognitive familiarity from anthropomorphic or social
+cues to clarify their respective contributions.
+
+    Also, the manipulation of topic importance also introduces a potential confound. In the present study, the
+low-, medium-, and high-importance conditions differed not only in perceived stakes but also in their narrative
+content (job notification, travel planning, and emergency evacuation). As a result, the scenarios may have varied
+in uncontrolled ways, including differences in emotional arousal, moral urgency, and perceived reversibility.
+Although the pretest confirmed that the intended importance levels were successfully differentiated, it did
+not establish equivalence across these additional affective or moral dimensions. Future work should therefore
+employ scenarios with constant content while manipulating consequences or framing alone, in order to isolate
+the pure effect of perceived importance.
+
+    At the same time, the results suggest that such promotional framing may have unintended consequences:
+it can lead users to hold agents and developers more responsible when failures occur. This has important
+implications for how AI systems are introduced and explained to users. With respect to topic importance, the
+study found that higher importance was associated with lower responsibility attributed to the user. This pattern
+suggests a psychological distancing effect: when the stakes are high, users may deflect blame and place greater
+responsibility on external agents or their creators, potentially as a means of reducing cognitive dissonance or
+perceived personal fault.
+
+    A key limitation of this study is that participants were not active users of the agent during the experiment.
+Rather, they observed a video of a user­agent interaction. This design choice was made to avoid imposing
+discomfort or disadvantage on participants, as the experiment involved assigning blame in a failure scenario.
+However, this limits ecological validity, as responsibility attribution may differ when individuals are directly
+
+Scientific Reports | (2026) 16:2670  | https://doi.org/10.1038/s41598-025-32513-w  10
+www.nature.com/scientificreports/
+
+                                      engaged in the interaction or decision-making process. Future research should therefore investigate responsibility
+                                      attribution in more immersive or personally relevant contexts­for example, by asking participants to reflect
+                                      on past interactions with AI, or by embedding agents into real-time decision-making tasks. Such approaches
+                                      may offer deeper insights into how direct involvement shapes accountability, and how responsibility trade-offs
+                                      emerge in applied domains such as healthcare, mobility, and education.
+
+                                          In addition, the sample characteristics introduce cultural considerations. All participants were Japanese adults
+                                      recruited from Yahoo! Crowdsourcing, with a mean age of approximately 50. Cultural norms surrounding blame,
+                                      responsibility, and trust in technology are known to vary cross-nationally, which may limit the generalizability
+                                      of these findings. Furthermore, because participants evaluated responsibility as observers rather than as
+                                      direct users, the present results reflect vicarious responsibility attributions rather than first-person judgments.
+                                      Although this does not undermine the internal validity of the findings, it narrows the scope of their application.
+                                      Future studies should examine whether similar patterns emerge in cross-cultural samples and in settings where
+                                      participants make decisions themselves.
+
+                               Conclusion
+
+                                      As humans and agents increasingly coexist in society, questions of responsibility attribution­particularly toward
+                                      agents and their developers or providers­are critical to the acceptance and ethical deployment of agent-based
+                                      systems. This study investigated how responsibility is assigned when agent-supported decision-making results
+                                      in failure, using a three-factor mixed design that examined prior knowledge of the agent, topic importance,
+                                      and the responsibility target. The results revealed two key findings: (1) a lack of prior knowledge of the agent
+                                      led participants to assign greater responsibility to the user, and (2) as the importance of the topic increased,
+                                      responsibility shifted more strongly toward the agent's developer or provider. These findings supported both
+                                      of our initial hypotheses. Overall, the study provides empirical evidence that perceptions of accountability in
+                                      human­agent interaction are shaped by contextual and cognitive factors. These insights offer valuable guidance
+                                      for the design and communication of agent systems­particularly in understanding when and why users may
+                                      shift blame toward agents or those who create them. As such, this work contributes to the development of more
+                                      socially attuned and ethically aware agents.
+
+                               Data availability
+
+                                      Data is provided within the manuscript or supplementary information files
+
+                                        Received: 25 September 2025; Accepted: 10 December 2025
+
+                               References
+
+                                               1. Eiband, M. et al. Bringing transparency design into practice. In Proceedings of the 23rd International Conference on Intelligent User
+                                                   Interfaces, IUI '18, 211­223, https://doi.org/10.1145/3172944.3172961 (Association for Computing Machinery, New York, NY,
+                                                   USA, 2018).
+
+                                               2. Miller, T. Explanation in artificial intelligence: Insights from the social sciences. Artif. Intell. 267, 1­38. ht t ps :/ / do i . or g /1 0 . 1 0 1 6 /j.a 
+                                                   rt i nt. 2018 . 07 .0 07  (2019).
+
+                                               3. Selbst, A. D. & Barocas, S. The intuitive appeal of explainable machines. Fordham Law Rev. 87, 1085 (2018).
+                                               4. Binns, R. Fairness in machine learning: Lessons from political philosophy. In Friedler, S. A. & Wilson, C. (eds.) Proceedings of the
+
+                                                   1st Conference on Fairness, Accountability and Transparency, vol. 81 of Proceedings of Machine Learning Research, 149­159 (PMLR,
+                                                   2018).
+                                               5. Kaplan, A. D., Kessler, T. T., Brill, J. C. & Hancock, P. A. Trust in artificial intelligence: Meta-analytic findings. Hum. Factors 65,
+                                                   337­359, https://doi.org/10.1177/00187208211013988 (2023). PMID: 34048287.
+                                               6. Munn, L. The uselessness of ai ethics. AI and Ethics 3, 869­877. https://doi.org/10.1007/s43681-022-00209-w (2023).
+                                               7. Alicke, M. D. Culpable control and the psychology of blame. Psychol. Bull. 126, 556. https://doi.org/10.1037/0033-2909.126.4.556
+                                                   (2000).
+                                               8. Malle, Bertram F., G. S., & Monroe, A. E. A theory of blame. Psychol. Inq. 25, 147­186. ht t p s: //d o i . org/1 0. 108 0 / 1 04 784 0 X .2 014 . 87
+                                                   73 4 0  (2014).
+                                               9. Reeves, B. & Nass, C. The Media Equation: How People Treat Computers, Television, and New Media like Real People and Places
+                                                   (Cambridge University Press, 1996).
+                                              10. Waytz, A., Heafner, J. & Epley, N. The mind in the machine: Anthropomorphism increases trust in an autonomous vehicle. J. Exp.
+                                                   Soc. Psychol. 52, 113­117. https://doi.org/10.1016/j.jesp.2014.01.005 (2014).
+                                              11. Furlough, C., Stokes, T. & Gillan, D. J. Attributing blame to robots: I. the influence of robot autonomy. Hum Factors 63, 592­602
+                                                   (2019).
+                                              12. Joo, M. It's the ai's fault, not mine: Mind perception increases blame attribution to ai. PLOS ONE 19, 1­14. http s :/ / doi .o rg / 10 . 13 7 1 
+                                                   /jou rn al.p o n e.03 14559 (2024).
+                                              13. Stojilovi, D. et al. Are autonomous vehicles blamed differently? In Proceedings of the Annual Meeting of the Cognitive Science
+                                                   Society, vol. 46, 466­472 (Cognitive Science Society, Austin, TX, USA, 2024).
+                                              14. Franklin, M., Ashton, H., Awad, E. & Lagnado, D. Causal framework of artificial autonomous agent responsibility. In Proceedings
+                                                   of the 2022 AAAI/ACM Conference on AI, Ethics, and Society, AIES '22, 276­284, https://doi.org/10.1145/3514094.3534140
+                                                   (Association for Computing Machinery, New York, NY, USA, 2022).
+                                              15. Nomura, T., Kanda, T., Suzuki, T. & Kato, K. Prediction of human behavior in human-robot interaction using psychological scales
+                                                   for anxiety and negative attitudes toward robots. IEEE Transactions on Robotics 24, 442­451. ht t ps : / / do i . o r g/1 0 .110 9 / TRO .2 0 07. 9
+                                                   140 0 4 (2008).
+                                              16. Nomura, T., Kanda, T., Kidokoro, H., Suehiro, Y. & Yamada, S. Why do children abuse robots?. Interact. Stud. 17, 347­369. ht tp s : / 
+                                                   /d o i .or g/10. 107 5/ i s. 17 .3 . 02 nom  (2016).
+                                              17. Tsumura, T. & Yamada, S. Making a human's trust repair for an agent in a series of tasks through the agent's empathic behavior.
+                                                   Front. Comput. Sci. 6, 1­17. https://doi.org/10.3389/fcomp.2024.1461131 (2024).
+                                              18. Maehigashi, A., Tsumura, T. & Yamada, S. Impacts of robot beep timings on trust dynamics in human-robot interaction. Int. J. Soc.
+                                                   Robotics 16, 2205­2222. https://doi.org/10.1007/s12369-024-01181-7 (2024).
+
+Scientific Reports | (2026) 16:2670  | https://doi.org/10.1038/s41598-025-32513-w  11
+www.nature.com/scientificreports/
+
+19. Tsumura, T. & Yamada, S. Influence of agent's self-disclosure on human empathy. PLOS ONE 18, 1­24. h tt ps : // d oi . o r g /1 0 .1 3 7 1/ j o 
+     urn al.p o n e.0 28 395 5  (2023).
+
+20. Tsumura, T. & Yamada, S. Influence of anthropomorphic agent on human empathy through games. IEEE Access 11, 40412­40429.
+     https://doi.org/10.1109/ACCESS.2023.3269301 (2023).
+
+21. Tsumura, T. & Yamada, S. Ikea effect and empathy for robots: Can assembly strengthen human-agent relationships?. PLOS ONE
+     20, 1­25. https://doi.org/10.1371/journal.pone.0327524 (2025).
+
+22. Tsumura, T. & Yamada, S. The role of individual recognition in shaping empathy and trust toward an agent. PLOS ONE 20, 1­19.
+     https://doi.org/10.1371/journal.pone.0327329 (2025).
+
+23. Tsumura, T. & Yamada, S. Shaping empathy and trust toward agents: The role of agent behavior modification and attitude. IEEE
+     Access 13, 116908­116923. https://doi.org/10.1109/ACCESS.2025.3584456 (2025).
+
+24. Okamura, K. & Yamada, S. Adaptive trust calibration for human-AI collaboration. PLOS ONE 15, 1­20. h t tps: / / do i.org/1 0 . 1 371 / j 
+     our na l .pone . 022 9 1 3 2  (2020).
+
+25. Zhang, A. & Patrick Rau, P.-L. Tools or peers? impacts of anthropomorphism level and social role on emotional attachment
+     and disclosure tendency towards intelligent agents. Comput. Hum. Behav. 138, 107415. https://doi.org/10.1016/j.chb.2022.107415
+     (2023).
+
+26. Forrest, K. B. The ethics and challenges of legal personhood for ai. Yale Law J. Forum 133, 1­15 (2024). Accessed: 2025-09-24.
+27. Bryson, J. J., Diamantis, M. E. & Grant, T. D. Of, for, and by the people: the legal lacuna of synthetic persons. Artif. Intell. Law 25,
+
+     273­291. https://doi.org/10.1007/s10506-017-9214-9 (2017).
+28. Santoni De Sio, F. & van den Hoven, J. Meaningful human control over autonomous systems: A philosophical account. Front. In
+
+     Robotics AI 5, 1­14, https://doi.org/10.3389/frobt.2018.00015 (2018).
+29. Naik, N. et al. Legal and ethical consideration in artificial intelligence in healthcare: Who takes responsibility?. Front. Surg. 9, 1­6.
+
+     https://doi.org/10.3389/fsurg.2022.862322 (2022).
+30. Parlangeli, O., Currò, F., Palmitesta, P. & Guidi, S. Asymmetries in the moral judgements for human decision-makers and artificial
+
+     intelligence systems (ai) delegated to make legal decisions. In Proceedings of the European Conference on Cognitive Ergonomics
+     2023, ECCE '23, https://doi.org/10.1145/3605655.3605676 (Association for Computing Machinery, New York, NY, USA, 2023).
+31. Scheutz, M. & Malle, B. F. 89may machines take lives to save lives? human perceptions of autonomous robots (with the capacity to
+     kill). In Lethal Autonomous Weapons: Re-Examining the Law and Ethics of Robotic Warfare, htt ps:/ /doi . org / 1 0. 109 3 /o so / 9 780 1 975 
+     46 04 8. 003 . 00 07  (Oxford University Press, Great Clarendon Street, Oxford, OX2 6DP, United Kingdom, 2021). http s :// ac a d em ic .o
+     up.com/bo o k /0 /c h a pte r/3 504040 78/ c h ap te r -pd f/ 60 0 7811 4/o so - 97 80197 54 6 0 48 - c ha p te r -7 . pd f .
+32. Kneer, M. & Stuart, M. T. Playing the blame game with robots. In Companion of the 2021 ACM/IEEE International Conference on
+     Human-Robot Interaction, HRI '21 Companion, 407­411, https://doi.org/10.1145/3434074.3447202 (Association for Computing
+     Machinery, New York, NY, USA, 2021).
+33. Ryan, M. In ai we trust: Ethics, artificial intelligence, and reliability. Sci. Eng. Ethics 26, 2749­2767. h ttp s: / / do i. o r g/ 1 0 . 10 0 7 / s1 194 
+     8- 020- 0 0 228 - y  (2020).
+34. Hagendorff, T. The ethics of ai ethics: An evaluation of guidelines. Minds Mach. 30, 99­120. https : //d o i . o rg /1 0 .1 0 07 / s1102 3 -02 0 -0 
+     95 1 7 -8  (2020).
+35. Coeckelbergh, M. Artificial intelligence, responsibility attribution, and a relational justification of explainability. Sci. Eng. Ethics 26,
+     2051­2068. https://doi.org/10.1007/s11948-019-00146-8 (2020).
+36. de Jong, R. The retribution-gap and responsibility-loci related to robots and automated technologies: A reply to nyholm. Sci. Eng.
+     Ethics 26, 727­735. https://doi.org/10.1007/s11948-019-00120-4 (2020).
+37. Maas, M. M. Regulating for 'normal ai accidents': Operational lessons for the responsible governance of artificial intelligence
+     deployment. In Proceedings of the 2018 AAAI/ACM Conference on AI, Ethics, and Society, AIES '18, 223­228, h ttps :/ /doi . o r g /1 0.1 1 
+     45 /3 278 7 21 .3 2 7 8 7 66 (Association for Computing Machinery, New York, NY, USA, 2018).
+38. Danaher, J. The rise of the robots and the crisis of moral patiency. AI & SOCIETY 34, 129­136. ht t p s : / / do i . o r g /10 . 100 7 / s 00 146- 0 1
+     7- 0 7 7 3 -9 (2019).
+39. Nyholm, S. Attributing agency to automated systems: Reflections on human-robot collaborations and responsibility-loci. Sci. Eng.
+     Ethics 24, 1201­1219. https://doi.org/10.1007/s11948-017-9943-x (2018).
+40. Danaher, J. Robots, law and the retribution gap. Ethics Inf. Technol. 18, 299­309. https://doi.org/10.1007/s10676-016-9403-3
+     (2016).
+41. Cushman, F. Crime and punishment: Distinguishing the roles of causal and intentional analyses in moral judgment. Cognition 108,
+     353­380. https://doi.org/10.1016/j.cognition.2008.03.006 (2008).
+42. Hidalgo, C. A., Orghian, D., Canals, J. A., de Almeida, F. & Martin, N. How Humans Judge Machines (The MIT Press, Cambridge,
+     Massachusetts, USA, 2021). http s:/ /d i rec t.m i t .edu/ bo ok -p d f / 2 24 2 287 /b ook _9780 2 6 2 36326 6.p df.
+43. de Visser, E. J. et al. Almost human: Anthropomorphism increases trust resilience in cognitive agents. J Exp Psychol Appl 22,
+     331­349 (2016).
+44. Bai, Z. & Chen, K. Effects of explanations by robots on trust repair in human-robot collaborations. In Degen, H. & Ntoa, S. (eds.)
+     Artificial Intelligence in HCI, 3­14 (Springer Nature Switzerland, Cham, 2024).
+45. Gall, J. & Stanton, C. J. Low-rank human-like agents are trusted more and blamed less in human-autonomy teaming. Front Artif
+     Intell 7, 1273350 (2024).
+46. Friedman, B. & Hendry, D. G. Value Sensitive Design: Shaping Technology with Moral Imagination (The MIT Press, 2019).
+47. Matthias, A. The responsibility gap: Ascribing responsibility for the actions of learning automata. Ethics and Information Technology
+     6, 175­183. https://doi.org/10.1007/s10676-004-3422-1 (2004).
+48. Gerstenberg, T., Ejova, A. & Lagnado, D. Blame the skilled. In Proceedings of the Annual Meeting of the Cognitive Science Society,
+     vol. 33, 720­725 (Cognitive Science Society, Austin, TX, USA, 2011).
+49. Nass, C. & Brave, S. Wired for Speech: How Voice Activates and Enhances the Human-Computer Relationship (MIT Press, 2005).
+50. Eyssel, F., Kuchenbrandt, D., Bobinger, S., de Ruiter, L. & Hegel, F. 'if you sound like me, you must be more human': on the interplay
+     of robot and user features on human-robot acceptance and anthropomorphism. In Proceedings of the Seventh Annual ACM/IEEE
+     International Conference on Human-Robot Interaction, HRI '12, 125­126, https://doi.org/10.1145/2157689.2157717 (Association
+     for Computing Machinery, New York, NY, USA, 2012).
+51. Paolacci, G., Chandler, J. & Ipeirotis, P. G. Running experiments on amazon mechanical turk. Judgm. Decis. Mak. 5, 411­419.
+     https://doi.org/10.1017/S1930297500002205 (2010).
+52. Davis, R. Web-based administration of a personality questionnaire: Comparison with traditional methods. Behav. Res. Methods,
+     Instruments, & Comput. 31, 572­577. https://doi.org/10.3758/BF03200737 (1999).
+53. Dubey, A., Yang, Z. & Hattab, G. A nested model for ai design and validation. iScience 27, 110603. h t t p s ://d oi .or g /1 0. 1 0 1 6/j.i sc i . 2 0 
+     24. 110 6 03  (2024).
+54. Liao, Q. V., Gruen, D. & Miller, S. Questioning the ai: Informing design practices for explainable ai user experiences. In Proceedings
+     of the 2020 CHI Conference on Human Factors in Computing Systems, CHI '20, 1­15, https://doi.org/10.1145/3313831.3376590
+     (Association for Computing Machinery, New York, NY, USA, 2020).
+55. Sipos, L., Schäfer, U., Glinka, K. & Müller-Birn, C. Identifying explanation needs of end-users: Applying and extending the xai
+     question bank. In Proceedings of Mensch Und Computer 2023, MuC '23, 492­497, https://doi.org/10.1145/3603555.3608551
+     (Association for Computing Machinery, New York, NY, USA, 2023).
+
+Scientific Reports | (2026) 16:2670  | https://doi.org/10.1038/s41598-025-32513-w  12
+www.nature.com/scientificreports/
+
+                                              56. Elish, M. C. Moral crumple zones: Cautionary tales in human-robot interaction. Engaging Sci. Technol. Soc. 5, 40­60. h ttps:// d o i. o
+                                                   rg/ 1 0. 1 7 3 5 1/ est s 20 19.27 7  (2019).
+
+                               Acknowledgements
+
+                                      This work was partially supported by JST CREST (JPMJCR21D4), JST CREST (JPMJCR23J5) and JSPS KAK-
+                                      ENHI (24H00731).
+
+                               Author contributions
+
+                                      TT contributed to the conception, design, and execution of the study, performed the statistical analysis, and
+                                      wrote the first draft and final version of the manuscript. SY served as the driving force behind the concept, or-
+                                      ganized the project, and provided guidance throughout the execution of the project. All authors contributed to
+                                      manuscript revision and read and approved the submitted version.
+
+                               Funding
+
+                                      Seiji Yamada received funding from JST CREST (JPMJCR21D4), JST CREST (JPMJCR23J5), and JSPS KAK-
+                                      ENHI (24H00731).
+
+                               Declarations
+
+                               Competing interests
+
+                                      The authors declare no competing interests.
+
+                               Additional information
+
+                                      Supplementary Information The online version contains supplementary material available at h t tps:/ /d o i. o rg / 1 
+                                      0. 1 0 38/s 4 1 59 8 -0 2 5 -3251 3 - w.
+
+                                      Correspondence and requests for materials should be addressed to T.T.
+
+                                      Reprints and permissions information is available at www.nature.com/reprints.
+
+                                      Publisher's note Springer Nature remains neutral with regard to jurisdictional claims in published maps and
+                                      institutional affiliations.
+
+                                      Open Access This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives
+                                      4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in
+                                      any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide
+                                      a link to the Creative Commons licence, and indicate if you modified the licensed material. You do not have
+                                      permission under this licence to share adapted material derived from this article or parts of it. The images or
+                                      other third party material in this article are included in the article's Creative Commons licence, unless indicated
+                                      otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence
+                                      and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to
+                                      obtain permission directly from the copyright holder. To view a copy of this licence, visit ht tp: / /c reat i v e co mmo
+                                      ns . or g / l ice n s es / by - nc-n d / 4 . 0 /.
+
+                                      © The Author(s) 2025
+
+Scientific Reports | (2026) 16:2670  | https://doi.org/10.1038/s41598-025-32513-w  13
+

@@ -1,0 +1,506 @@
+1NJPDMA0EEE.NZC1GDZ1­ILIS7FOCII7EGOA/ABE0NLN2D7CPD2ESE9PCY8AEIC9SZNXHIZOD0OO5NLC2O8M2GM6AY4PK4UINTGER/NDOEVC­ISDIEOCN2A00I6DS                                                                           DECISION PSYCHOLOGY
+
+                                                                                                                               Physician Evaluation after Medical Errors:
+                                                                                                                                    Does Having a Computer Decision
+                                                                                                                                       Aid Help or Hurt in Hindsight?
+
+                                                                                                                                                       Mark V. Pezzo, PhD, Stephanie P. Pezzo, BA
+
+                                                                                                                               Objective. The authors examined whether physicians' use of               themselves and for a layperson. Results. Experiment 1: Using
+                                                                                                                               computerized decision aids affects patient satisfaction and/             a decision aid caused a positive outcome to be rated less posi-
+                                                                                                                               or blame for medical outcomes. Method. Experiment 1: Fifty-              tively and a negative outcome to be rated less negatively. Ex-
+                                                                                                                               nine undergraduates read about a doctor who made either a                periment 2: Agreeing with or heeding the aid was associated
+                                                                                                                               correct or incorrect diagnosis and either used a decision aid            with reduced fault, whereas defying the aid was associated
+                                                                                                                               or did not. All rated the quality of the doctor's decision and           with roughly the same fault as not using one at all. Medical
+                                                                                                                               the likelihood of recommending the doctor. Those receiving a             students were less harsh than undergraduates but accurately
+                                                                                                                               negative outcome also rated negligence and likelihood of su-             predicted undergraduate's responses. Conclusion. Agreeing
+                                                                                                                               ing. Experiment 2: One hundred sixty-six medical students                with or heeding a decision aid, but not defying it, may reduce
+                                                                                                                               and 154 undergraduates read negative-outcome scenarios in                liability after an error. However, using an aid may reduce
+                                                                                                                               which a doctor either agreed with the aid, heeded the aid                favorability after a positive outcome. Key words: computer-
+                                                                                                                               against his own opinion, defied the aid in favor of his own              assisted diagnosis; decision support systems; clinical; deci-
+                                                                                                                               opinion, or did not use a decision aid. Subjects rated doctor            sion support techniques; diagnostic errors; malpractice;
+                                                                                                                               fault and competence and the appropriateness of using deci-              medical errors; medical informatics; patient satisfaction.
+                                                                                                                               sion aids in medicine. Medical students made judgments for               (Med Decis Making 2006;26:48­56)
+
+                                                                                                                               Awidely cited Institute of Medicine report de-                           estimates for different possible outcomes. The seminal
+                                                                                                                                     clared that between 44 000 and 98 000 hospital                     research on this technology found that aid-based diag-
+                                                                                                                               deaths per year occurred as a result of medical errors.1                 noses for abdominal pain were superior to unaided cli-
+                                                                                                                               Although the exact numbers are debated,2,3 a common                      nician's diagnoses using the same patient information.4
+                                                                                                                               suggestion for reducing errors has been the implemen-                    In the 3 decades since this research, decision aids have
+                                                                                                                               tation of computerized decision aids. Such aids typi-                    been used in a variety of areas, most notably the moni-
+                                                                                                                               cally combine large databases of base rate information                   toring of physician (drug) orders to prevent dangerous
+                                                                                                                               with mathematical modeling to arrive at probabilistic                    drug interactions.5 A systematic review found that in
+                                                                                                                                                                                                        43 of 65 studies, there was at least some benefit in ei-
+                                                                                                                               Received 28 February 2005 from Psychological Sciences Program,           ther the process of care or patient outcomes.6
+                                                                                                                               University of South Florida, St. Petersburg, FL (MVP); College of Medi-
+                                                                                                                               cine, University of South Florida, Tampa, FL (SPP). We thank Hal Arkes      Clearly, decision aids can help physicians. How-
+                                                                                                                               and Jason Beckstead for helpful comments on an earlier draft of this     ever, although attitudes about the decision aids among
+                                                                                                                               article and Ronda Keefe for her assistance in data coding and entry.     physicians are generally positive,7 the use of such de-
+                                                                                                                               Revision accepted for publication 3 August 2005.                         vices is still not widespread.8,9 One recent study re-
+                                                                                                                                                                                                        ported that 4th-year medical undergraduates used de-
+                                                                                                                               Address correspondence to Mark V. Pezzo, 140 7th Ave, South, DAV         cision aids infrequently in clinical settings.10 Students'
+                                                                                                                               258, University of South Florida, St. Petersburg, FL 33701; e-mail:      attitudes in this study were significantly affected by
+                                                                                                                               pezzo@stpt.usf.edu.                                                      faculty attitudes toward such devices, but virtually no
+                                                                                                                                                                                                        research has examined physician attitudes toward
+                                                                                                                               DOI: 10.1177/0272989X05282644                                            decision aids.
+
+                                                                                                                               48 · MEDICAL DECISION MAKING/JAN­FEB 2006
+                     NEGLIGENCE AND COMPUTER DECISION AIDS
+
+   One exception is a brief report by Grundmeier and           sion makers may also be concerned about making justi-
+Johnson.11 House staff physicians at 2 academic medi-          fiable decisions. Decision makers might worry that
+cal centers who did not regularly use decision aids read       their decisions would be harder to justify if they simply
+scenarios about the use of an aid for a surgical consult       accepted the recommendations of the decision aid or
+and as a hypokalemia alert. In general, 63% of house           contradicted the aid's advice. Boatsman and others12
+staff physicians were in favor of a decision aid if it had a   suggest strategic or intentional nonreliance is common,
+positive predictive value above 67%. The majority of           driven primarily by concerns about the consequences
+respondents who gave written comments were in favor            of reliance (e.g., justification pressures) rather than by
+of decision aids primarily because they believed they          concerns about the accuracy of the decision aid. Con-
+would improve quality of care. However, the authors            versely, there has been speculation that after a poor out-
+noted that this small sample was biased by "an apparent        come, a physician could be held liable for having failed
+over representation of computer-savvy housestaff."11(p269)     to use a decision aid, even if it is not the standard of
+Of the physicians who did offer concerns, a common             care.19 However, very few studies have examined the
+complaint, seen in 13% of written comments, was that           effect of ignoring a decision aid on judgments of fault or
+"physicians won't think for themselves."11(p269) Most          perceived competence of the decision maker, and none
+other complaints centered on concerns that decision            have examined these factors in the context of medical
+aids would be annoying, inconvenient, and slow and             decision making.
+that too many messages would lead to their being
+ignored.                                                       RESEARCH IN AUDITING
+
+RELUCTANCE TO USE DECISION AIDS                                   Although no research has directly addressed the ef-
+                                                               fects of ignoring diagnostic decision aids on judgments
+   Decision makers have historically refused to rely on        of medical decision quality, some relevant literature
+decision aids. Boatsman and others12 found that audi-          exists in the auditing field. Decision aids are primarily
+tors ignored fraud predictions of a decision aid in 67%        used to help auditors detect fraud. As with doctors, au-
+of cases. Ashton13 reported that only 2 of 91 relied com-      ditors seem to be hesitant to use decision aids because
+pletely on an available decision aid. Arkes and others14       of fears that failure to follow the aid might result in
+reported a reliance rate of 56%, and Powell15 found a          greater culpability. However, only a handful of studies
+reliance rate of 52%. A survey of 2 decades' worth of          have evaluated whether these fears are warranted.
+medical decision aids use showed considerably lower            Lowe and Reckers20 asked subjects to evaluate a super-
+reliance rates, with no medical journals reporting any         visor who had erred after either fully using a decision
+more than 32% reliance, and most showing consider-             aid (investigating all 15 possibilities that it generated)
+ably less.16                                                   or partially using the aid (investigating only 10 possi-
+                                                               bilities). Results indicated that judgments were signifi-
+   People seem particularly reluctant to use decision          cantly more harsh when subjects believed that the su-
+aids that consist of a single rule or simple statistical for-  pervisor had only partially used the decision aid. In a
+mula. Arkes and others14 found that self-professed             later study, Lowe and others21 found that auditors who
+sports experts refused to use a simple decision rule,          heeded an incorrect decision aid were blamed less for a
+even when informed that the rule would outperform              bad outcome than were those who had no decision aid
+their predictions. Presumably, the experts believed, de-       available to them (controls). Furthermore, those who
+spite being told otherwise, that they could outperform         had a decision aid but ignored its recommendations
+the decision aid, particularly because the aid relied on       were blamed more for the outcome than were controls.
+fewer cues than were available.17 Even if it can be
+shown that such a rule outperforms human decision              Overview
+makers, people still fear that it may miss important
+"broken leg cues"18 that would render the rule irrele-            We present 2 studies designed to assess the effect of
+vant in a particular instance. Indeed, Ashton13 found          using or ignoring the diagnostic advice of a decision
+that auditors rely less on decision aids that use fewer        aid to assess whether such aids are beneficial or detri-
+cues, irrespective of their predictive accuracy. Ashton        mental when physicians' decisions are evaluated in
+also showed that increased pressure to perform well            hindsight. For example, is a doctor who heeds the ad-
+actually decreased reliance on a decision aid.                 vice of a decision aid considered less negligent after an
+                                                               error than the doctor who did not use an aid because
+   Besides feeling pressure to outperform the good but
+not perfect performance guaranteed by the aid, deci-
+
+DECISION PSYCHOLOGY                                            49
+PEZZO AND PEZZO
+
+the aid is partially responsible for the decision? Or, is   diagnosis by combining all test results according to an
+the doctor perceived as less competent for needing to       empirically derived mathematical formula. Subjects
+enlist the advice of a computer decision aid in the first   were informed that the computer has been shown to be
+place? Alternatively, doctors who use such modern           correct about 93% of the time, whereas doctors are cor-
+technology may be perceived as better trained and           rect on average only about 84% of the time. The doctor
+more cutting edge after a positive outcome. In Experi-      then stated that "because the computer generally pre-
+ment 1, we examine these possibilities in the case of a     dicts better than doctors," he heeded the computer.
+doctor who either heeds the advice of the decision aid      Subjects in the control condition did not read anything
+or uses no aid at all, resulting in either a positive or a  about the use of a clinical decision aid.
+negative outcome. In Experiment 2, we restrict our fo-
+cus to negative outcomes, paying specific attention to      Dependent Measures
+the consequences of consulting but then disagreeing
+with the diagnosis provided by a decision aid. To ex-          After reading the medical scenario, subjects were
+amine the extent to which concerns about increased          asked to indicate, using a 5-point rating scale 1) the
+blame in this situation might contribute to doctors' re-    quality of the doctor's decision and 2) whether they
+luctance to embrace diagnostic decision aids, Experi-       would recommend this doctor to a friend. Subjects re-
+ment 2 also assesses medical students' assumptions          ceiving a negative outcome were also asked to indicate
+about laypeople's opinions of decision aids.                3) how negligent they felt the doctor was and 4) how
+                                                            likely they would be to file a lawsuit against the doctor.
+EXPERIMENT 1                                                The last question was used as a concrete assessment of
+                                                            perceived responsibility.
+Method
+                                                            Results
+Subjects
+                                                               A 2-way analysis of variance (outcome × condition)
+   Fifty-nine Introductory Psychology students at a se-     was performed for the 2 measures (decision quality and
+lective university received course credit for participat-   recommendation) that were used in both the positive
+ing. Students at this university were required to own a     and negative outcome conditions. Because the remain-
+laptop computer and were generally considered more          ing 2 measures (negligence and lawsuit) were recorded
+sophisticated and accepting of technology than was the      only for subjects in the negative outcome condition,
+general population.                                         they were analyzed via a t test for the effects of (com-
+                                                            puter) condition. Table 1 provides means and standard
+Scenario                                                    deviations for all conditions.
+
+   All subjects were given a medical scenario and           Decision Quality
+asked to respond "as though you were really in this sit-
+uation." All subjects were to imagine that they were           There was no main effect for condition, F(1, 116) < 1,
+young (late 20s) and athletic, with a family history of     P = 0.69, and a large main effect of outcome, F(1, 116) =
+heart disease, and that they had recently checked into      49.3, P < 0.001, partial 2 = 0.30. Decisions were rated
+the hospital after experiencing intermittent but severe     more favorably after a positive outcome than after a
+chest pain for 4 days. A doctor considers several possi-    negative outcome. However, a significant interaction
+ble causes (e.g., gas, inflammation of the chest wall,      indicated that the effect of outcome on rated decision
+heart disease) and orders a series of tests. Subjects in    quality was significantly reduced when subjects were
+the positive outcome condition read that the doctor         told that the doctor used a decision aid, F(1, 116) =
+was able to detect a severe but easily correctable condi-   8.98, P = 0.003, partial 2 = 0.072 (Figure 1, top).
+tion, and thus they would enjoy a complete recovery.
+Subjects in the negative outcome condition read that        Recommend to Friends
+the doctor missed the correctable condition, leading to
+considerable decrease in their quality of life.                There was no main effect for condition, F(1, 115) =
+                                                            1.5, P = 0.22, and a large main effect of outcome, F(1,
+Computer Condition                                          115) = 34.3, P < 0.001, partial 2 = 0.23. Doctors were
+                                                            more likely to be recommended after a positive out-
+   Half of all subjects were told that the doctor used a    come than after a negative outcome. Again, however, a
+computer decision aid that determined the most likely       significant interaction indicated that the effect of out-
+                                                            come information was significantly reduced when sub-
+
+50 · MEDICAL DECISION MAKING/JAN­FEB 2006
+                                      NEGLIGENCE AND COMPUTER DECISION AIDS
+
+  Table 1 Effects of Heeding Recommendation                       jects were told of the decision aid, F(1, 115) = 12.92, P <
+of a Decision Aid on Ratings of Doctor's Decision                 0.001, partial 2 = 0.10 (Figure 1, bottom).
+
+   Quality and on Recommendations of Doctor                       Negligence
+               to Friends (Experiment 1)
+                                                                     After a negative outcome, the doctor who followed
+                                                         Outcome  the advice of a decision aid was judged significantly
+                                                                  less negligent (x = 2.86, s = 1.16) than in the control con-
+Condition                             Negative       Positive     dition (x = 3.48, s = 0.99), t(56) = 2.20, P = 0.032, d = 0.58.
+
+                                      Decision Quality            Likelihood of Lawsuit
+
+Computer                   x          2.69           3.47            Subjects were equally likely to believe that they
+                                                                  would sue the doctor in both the control and computer
+                           s          1.07           1.17         decision aid conditions (x = 53.7, s = 35.5), t(56) < 1, P =
+                                                                  0.55, d = 0.16.
+Control                    x          2.03           3.97
+                                                                  Discussion
+                           s          0.94           1.03
+                                                                     Use of a computerized decision aid was found to re-
+                                      Recommend to Friends        duce the effects of outcome information on judgments
+                                                                  concerning a doctor's competence. As expected, when
+Computer                   x          2.07           2.5          no mention was made of a computer decision aid, deci-
+                                                                  sion quality ratings and likelihood of recommenda-
+                           s          0.92           1.08         tions to friends were lower after a negative outcome
+                                                                  and higher after a positive outcome. These effects were
+Control                    x          1.62           3.42         significantly reduced when the doctor used a decision
+                                                                  aid. It appears that people may give a decision aid some
+                           s          0.78           1.29         of the credit for a positive outcome and some of the
+                                                                  blame for a negative outcome. After a missed diagnosis,
+Note: Scores range from 1 to 5.                                   the doctor who had used a computer decision aid was
+                                                                  judged as significantly less negligent than one who did
+                How good was the doctor's decision?  Computer     not use the decision aid. Such a finding is consistent
+        5                                            Control      with the literature on discounting effects.22 There was
+                                                                  no significant difference between subjects in the com-
+        4                                                         puter and control conditions in their stated propensity
+                                                                  to sue the doctor to recover costs for the surgery. Thus,
+Rating  3                                                         although use of a decision aid may mitigate some of the
+                                                                  negative perceptions of the doctor after a poor out-
+        2                                                         come, it may not reduce the likelihood of a lawsuit.
+                                                                  This finding is somewhat consistent with Kadous's23
+        1                             POS                         suggestion that jurors consider different factors in de-
+                      NEG                                         termining damage awards than when assessing
+                                                                  responsibility.21
+            Would you recommend doctor to friends?
+        5                                                            In Experiment 1, although the doctor considered
+                                                                  other diagnoses, he or she always heeded the advice of
+        4                                                         the decision aid if one was mentioned. However, in
+                                                                  practice there are multiple possible interactions with
+Rating  3                                                         the aid: A physician can agree with the aid, he or she
+                                                                  can disagree with the aid but heed it anyway, or the
+        2                                                         physician can disagree and defy its advice. Thus, Ex-
+                                                                  periment 2 examines each of these possibilities in ad-
+        1                             POS                         dition to using no aid at all. In addition, the extent to
+                      NEG                                         which physicians are willing to heed or defy a decision
+
+                           Condition
+
+Figure 1 Undergraduates' judgments of doctor's decision quality
+and likelihood of recommending to others (Experiment 1).
+
+DECISION PSYCHOLOGY                                                          51
+PEZZO AND PEZZO
+
+aid may depend on how negatively they believe they          Table 2 Effect of Judge and Condition on Perceived
+will be perceived by laypeople for their decision. Thus,             Fault and Competence (Experiment 2)
+Experiment 2 asked medical students (a reasonable
+proxy for physicians) to indicate the judgment they ex-     Factor         F      P                                        Partial 2
+pected from patients in addition to their own judg-
+ments. Because we focus on perceptions of blame, this                                     Fault
+experiment only uses negative outcomes.
+                                                            Judge (J)      51.56  <0.001                                   0.14
+EXPERIMENT 2                                                Condition (C)   6.62
+                                                            J×C                   <0.001                                   0.06
+Method                                                                     <1
+                                                                                  0.79                                     0.01
+Subjects
+                                                                                        Competence
+   First- and 2nd-year medical students (n = 177) at the
+University of South Florida volunteered for this experi-    J              35.65  <0.001                                   0.10
+ment. Of these, 11 failed to complete the questionnaire,    C               9.13
+leaving 166 subjects. An additional 154 undergraduate       J×C                   <0.001                                   0.08
+students at the University of South Florida St. Peters-                    <1
+burg, aged 18 to 66 years (x = 23.5, s = 8.5), received                           0.46                                     0.00
+course credit for participation. Data from a total of 320
+subjects were analyzed.                                                           Appropriateness
+
+Materials and Design                                        J              10.76  <0.001                                   0.03
+                                                            C
+   All subjects read a scenario describing a medical        J×C            <1     0.48                                     0.01
+malpractice case in which a radiologist was accused of
+negligence leading to a cancer patient's death. We in-                     1.87   0.13                                     0.02
+cluded variations in the doctor's use of a computerized
+decision aid to make the diagnosis. In the control con-     Note: dfError = 312, dfJudge = 1, dfCondition = 3, dfJ×C = 3.
+dition, no decision aid was mentioned. In the remain-
+ing conditions, the doctor either agreed with the aid's     Results
+diagnosis (agree), initially disagreed with the aid but
+heeded its diagnosis anyway (heed), or disagreed with          First- and 2nd-year medical students did not signifi-
+the aid and did not heed its diagnosis (defy). Half of the  cantly differ on any of the measures and were com-
+scenarios were cases of omission (the doctor missed a       bined to form a single medical student group roughly
+cancer diagnosis), and half were cases of commission        equal in size to the undergraduate group. The resulting
+(the doctor falsely diagnosed cancer, and unnecessary       design was a 2 (Judge: medical student v. undergradu-
+surgery was performed). Because these 2 conditions          ate) × 4 (Condition: agree, heed, defy, control). The 3 de-
+were not completely comparable (e.g., differences in        pendent measures were each subjected to an analysis
+cause of death, number of doctors involved in case), we     of variance using this 2 × 4 between-subjects design
+did not analyze for effects of omission/commission.         (Table 2).
+
+Dependent Measures                                          Fault
+
+   Subjects were asked to indicate on a 7-point scale          Overall, undergraduates found the doctor to be sig-
+the following: 1) to what extent the radiologist was at     nificantly more at fault (x = 4.69, s = 1.65) than did
+fault for the patient's death, 2) how competent the radi-   medical students (x = 3.40, s = 1.69). Most important
+ologist was, and 3) how appropriate is it to use com-       was a significant main effect of condition. Least
+puter decision aids in medical decisions. The medical       squares difference post hoc tests (Table 3) indicated
+students were asked to make these judgments both as         greater fault was perceived when the doctor defied the
+they themselves would and as they thought a typical         decision aid than when the doctor agreed with or
+layperson would. The order of presentation for the 2        heeded its advice. Although there was a marginally sig-
+types of judgments was counterbalanced across               nificant effect of greater fault in the defy condition than
+subjects.                                                   in the no-aid control condition (P = 0.06, d = .30), this
+                                                            effect was not significant at the conventional 0.05 level,
+                                                            even with a very large sample size. Notably, the doctor
+                                                            was judged to be significantly more at fault in the con-
+                                                            trol condition than in the agree condition, which seems
+                                                            to indicate that the use of a computer aid in the context
+                                                            of a medical error is protective if the physician agrees
+                                                            with the aid but not if he or she defies it.
+
+52 · MEDICAL DECISION MAKING/JAN­FEB 2006
+                     NEGLIGENCE AND COMPUTER DECISION AIDS
+
+         Table 3 Effect of Doctor's Agreement                             cantly lower (x = 3.88, s = 1.58) than undergraduates ac-
+         with Decision Aid on Perceived Fault                             tually did (x = 4.32, s = 1.57), F(2, 301) = 6.26, P = 0.02,
+                                                                          partial 2 = 0.02. The judge × condition interaction was
+            and Competence (Experiment 2)                                 not significant for any of the 3 measures, all Ps > 0.36,
+                                                                          all partial 2 < 0.01.
+                     Condition
+                                                                          Gender and Age Effects
+              Defy Control Heed                Agree
+                                                                             Gender and age were not recorded for medical stu-
+Measure       (n = 78) (n = 84) (n = 78) (n = 80)                         dents. Undergraduates' ages were similarly distributed
+                                                                          across all 4 conditions and were not related to judg-
+Fault    x    4.62a  4.10a,b  3.90b            3.50b                      ments of fault, competence, or appropriateness, all Ps >
+                                                                          0.33, nor did age emerge as a significant covariate when
+         s    1.73   1.73     1.77             1.77                       testing the effects of gender and condition on these
+              4.49a  4.33a    5.05b            5.35b                      measures, Ps > 0.13. Female undergraduates rated the
+Competence x                                                              doctor significantly more at fault (x = 4.9, s = 1.6) than
+              1.55   1.60     1.49             1.26                       did male undergraduates (x = 4.1, s = 1.8), F(1,146) =
+         s                                                                9.24, P = 0.003, partial 2 = 0.06, but males and females
+                                                                          did not differ in ratings of competence (P = 0.22) or ap-
+Note: Row means not sharing a superscript are significantly different at  propriateness (P = .14). Most important, gender did not
+0.05 level.                                                               interact with condition for any of the 3 measures, all
+                                                                          Ps > 0.08.
+Competence
+                                                                          Discussion
+   Overall, undergraduates found the doctor to be sig-
+nificantly less competent (x = 4.31, s = 1.57) than did                   Medical Students v. Undergraduates
+medical students (x = 5.25, s = 1.38). A significant main
+effect of condition was similar (though not identical) to                    Some of the largest effects in this experiment were
+that found for the fault measure. As can be seen in Table                 produced by differences between medical students'
+3, the doctor was perceived to be more competent if he                    and undergraduates' ratings. Medical students found
+or she either agreed with the computerized decision                       the physician less at fault and more competent than did
+aid or ultimately heeded its advice than if he or she de-                 undergraduates, and they rated the use of decision aids
+fied its advice or if no mention of a decision aid was                    more appropriate than did undergraduates. More im-
+made. No interactions reached significance (Ps > 0.25).                   portant, medical students indicated that they under-
+                                                                          stood that the general public is not as confident in deci-
+Appropriateness                                                           sion aids as they are. This finding suggests that perhaps
+                                                                          it is not physicians' lack of confidence in decision aids
+   All subjects indicated that it is moderately appropri-                 but their awareness of patients' lack of confidence that
+ate to use a computerized decision aid in general (x                      translates into a reduced use of the aids.
+overall = 5.1, s = 1.39). However, undergraduates felt
+that it is less appropriate (x = 4.84, s = 1.48) than did                 Agree and Heed Conditions
+medical students (x = 5.33, s = 1.26). The main effect of
+condition and the interaction were both                                      Participants' judgments of fault and competence
+nonsignificant.                                                           were most charitable in the heed and agree conditions.
+                                                                          This finding is quite reasonable for the agree condition.
+Medical Students' Predictions of Laypersons'                              Although the diagnosis may have been wrong, the doc-
+Responses                                                                 tor was not "alone" in making it--a computerized deci-
+                                                                          sion aid also, and independently, came to the same di-
+   Medical students had a tendency to find the doctor                     agnosis. What is surprising is that the heed condition
+less at fault and more competent overall than did un-                     did not differ significantly from the agree condition.
+dergraduates. However, these same medical students                        This finding is interesting because although the doctor
+were not unaware of the less favorable judgments of a                     ultimately went with the same incorrect diagnosis, in
+typical layperson. Medical students' predictions for                      the heed condition he or she initially made the correct
+the pattern of lay responses were quite similar to un-                    diagnosis. Whether physicians are punished extra
+dergraduates' actual responses across the various con-                    harshly for irresolution is an interesting avenue for
+ditions. Nonsignificant differences between medical                       future research.
+students' predictions of and undergraduates' actual
+ratings were found for fault (P = 0.15, partial 2 = 0.007)
+and decision aid appropriateness (P = 0.53, partial 2 =
+0.001). Medical students did, however, predict that lay
+judges would rate the doctor's competence signifi-
+
+DECISION PSYCHOLOGY                                                       53
+PEZZO AND PEZZO
+
+Defy and Control Conditions                                 there was only a marginally significant difference
+                                                            between our defy and control conditions.
+   Judgments of fault and competence were more harsh
+in the defy and control conditions. These conditions        GENERAL DISCUSSION
+are not as overtly comparable to each other as are the
+agree and heed conditions. However, their similar rat-         If it is true that physicians are reluctant to use deci-
+ings suggest that both conditions focus attention solely    sion aids because they fear an increased liability in the
+on the doctor's diagnostic skills. In both conditions, it   event of a poor outcome, our research suggests that this
+is only the doctor who makes the incorrect diagnosis.       fear may not be warranted under certain conditions. In
+Although arguably rational, the more critical judg-         2 studies, doctors who used and agreed with a com-
+ments of a doctor who defies the decision aid are also      puter decision aid were judged less harshly after an er-
+consistent with fears expressed by some doctors hesi-       ror than were doctors who did not consult a decision
+tant to use such aids. That doctors who defy the aid are    aid. Experiment 2 showed that the physician may even
+judged more harshly after a negative outcome than in        be protected if the physician heeds the incorrect advice
+any other condition may suggest to some doctors that if     of an aid when his or her personal opinion was correct.
+a decision aid is used at all, then its advice must always  The only situation in which a decision aid did not seem
+be followed to escape added liability.                      to be beneficial was when a doctor defied the correct
+                                                            advice of the aid; however, a physician who defied the
+   Our results suggest that a doctor trying to minimize     aid was perceived no more negatively than the physi-
+his or her perceived negligence might feel that if using    cian who used no aid at all. Thus, it appears that using a
+a decision aid, he or she must always heed its advice.      decision aid may benefit physicians in the setting of a
+This finding is consistent with the fear that "physicians   medical error. The only situation in which the use of
+won't think for themselves" expressed by 18% of re-         decision aid seems to be a clear disadvantage is a posi-
+spondents opposed to computerized decision aids in a        tive outcome; in this case, doctors were judged less
+study by Grundmeier and Johnson.11 Similar concerns         favorably if an aid was used in the decision.
+have also been expressed about the pitfalls of using a
+decision aid in an auditing setting. "If an auditing firm      Our results suggest that a fear of increased percep-
+makes an expert system available to its auditors and an     tions of blame may not be warranted. Furthermore, any
+auditor . . . overrides [that] decision aid's recommenda-   fear that does exist may not fully explain physicians'
+tion. Will this be viewed as evidence of a lack of due      reluctance to use decision aids. Medical students ex-
+professional care?"24 It is not surprising then that        pected laypeople to judge physicians just as laypeople
+Kaplan25 suggested that physicians' negative attitudes      actually did--no more severely with an aid than with-
+toward decision aids can be traced in part to concerns      out one. Because we did not ask medical students how
+about how using such a device would harm their pro-         they expected laypeople to respond after a positive out-
+fessional status and interfere with their professional      come, we do not know whether they realize they are
+autonomy. On the other hand, decision makers proba-         judged less positively for a good outcome if a decision
+bly should heed the advice of diagnostic aids when          aid is used. However, if we assume that medical stu-
+they disagree because the decision aid is more likely       dents are as accurate about laypeople's responses with
+than the doctor to be correct (or at least consistent).26   positive outcomes as they are with negative outcomes,
+                                                            perhaps it is the reduction in favorable judgments that
+   Our findings are generally consistent with recent re-    motivates the reluctance to use decision aids. Future
+search concerning auditors' use of decision aids to de-     research should further examine this issue.
+tect corporate fraud.21 Using conditions roughly com-
+parable to our defy, control, and heed conditions, they     Limitations
+found that auditors who overrode the aid (defy) were
+found most responsible for the audit failure, followed         Because Experiment 2 examined only negative out-
+by auditors with no computerized decision aid (con-         comes, the doctor always made the wrong decision. To
+trol) and finally auditors who followed the advice of       manipulate agreement with the decision aid, the aid's
+the aid (heed). However, these differences were signifi-    diagnosis had to vary across the agreement conditions.
+cant only when subjects believed that the decision aid      Thus, in the heed and agree conditions, the aid made
+was correct "about 90 percent of the time."21(p 193) When   the wrong diagnosis; but in the defy condition, the aid
+the reliability was lowered to 81%, the difference be-      made the correct diagnosis. It is impossible to know the
+tween these conditions disappeared. In our Experi-          extent to which the difference between the defy condi-
+ment 2, when a decision aid was mentioned, subjects         tion and other conditions is caused by our manipula-
+were informed that the decision aid was correct about
+70% of the time, which may partially explain why
+
+54 · MEDICAL DECISION MAKING/JAN­FEB 2006
+                     NEGLIGENCE AND COMPUTER DECISION AIDS
+
+tion versus the fact that the decision aid made different     manufacturer of the aid, the hospital board who imple-
+diagnoses. We believe, however, that this limitation          mented the aid's use, or perhaps no one at all.
+may be a price that researchers asking applied ques-
+tions must pay to make their designs ecologically valid.      REFERENCES
+It is interesting that the same problem was encountered
+by Lowe and others21 who studied decision aid use              1. Kohn LT, Conigan JM, Donaldson M. To Err is Human: Building a
+among auditors. We note optimistically that they pro-         Safer Health System. Report of the Institute of Medicine. Washington,
+vided evidence that judges probably pay more atten-           DC: National Academy Press; 1999.
+tion to the agreement (or lack thereof) between the
+decision maker and decision aid than to the actual             2. McDonald CJ, Weiner M, Hui SL. Deaths due to medical errors
+diagnosis made by the aid.                                    are exaggerated in Institute of Medicine Report. JAMA. 1999;284:93­5.
+
+   Experiment 2 used 1st- and 2nd-year medical stu-            3. Leape LL. Institute of Medicine medical error figures are not ex-
+dents to represent the medical community and under-           aggerated. JAMA. 2000;284:95­7.
+graduates to represent the typical layperson. Although
+not yet MDs, our medical student sample was certainly          4. de Dombal FT, Leaper DJ, Staniland JR, McCann AP, Horrocks JC.
+more closely aligned with the medical profession than         Computer-aided diagnosis of acute abdominal pain. BMJ. 1972;2:9­13.
+any other non-MD sample we could obtain. In addi-
+tion, the use of undergraduates may seem an unlikely           5. Bates DW, Leape LL, Cullen DJ, et al. Effect of computerized phy-
+proxy for the typical medical patient. However, we            sician order entry and a team intervention on prevention of serious
+note that undergraduates at our university are nontra-        medication errors. JAMA. 1998;280:1311­6.
+ditional in a number of respects. Besides ranging in age
+from 18 to 66 years (x = 24 years), most of our under-         6. Hunt DL, Haynes RB, Hanna SE, Smith K. Effects of computer-
+graduates work, many have children and/or are mar-            based clinical decision support systems on physician performance
+ried. In addition, the absence of any age effects or inter-   and patient outcomes: a systematic review. JAMA. 1998;280:1339­46.
+actions with gender suggest that older samples and
+those that have fewer females are likely to produce sim-       7. Murff HJ, Gandhi TK, Karson AK, et al. Primary care physician
+ilar results. These representations clearly are not           attitudes concerning follow-up of abnormal test results and ambula-
+perfect, but we consider them reasonable for the goals        tory decision support systems. Int J Med Inform. 2003;71:137­49.
+of the present work.
+                                                               8. Trivedi MH, Kern JK, Marcee A, et al. Development and imple-
+   Finally, because our results are based on only 2 med-      mentation of computerized clinical guidelines: barriers and solu-
+ical cases, it is possible that the findings are particular   tions. Methods Inf Med. 2002;41:435­42.
+to those cases and not medical outcomes in general. Al-
+though this and other limitations make our conclu-             9. Wendt T, Knaup-Gregori P, Winter A. Decision support in medi-
+sions preliminary, they are important because they            cine: a survey of problems of user acceptance. Stud Health Technol
+present a counterexample to conventional wisdom               Inform. 2000;77:852­6.
+concerning decision aids.                                     10. Johnston JM, Leung GM, Tin KYK, Ho LM, Lam W, Fielding R.
+                                                              Evaluation of a handheld clinical decision support tool for evidence-
+Future Research                                               based learning and practice in medical undergraduates. Med Educ.
+                                                              2004;38:628­37.
+   We examined the effects of agreement or disagree-          11. Grundmeier R, Johnson K. Housestaff attitudes toward
+ment with the advice of a decision aid. Future research       computer-based clinical decision support. Proceedings of the Annual
+should also examine the effects of declining to seek the      Meeting of the Medical Informatics Association, Washington, DC.
+advice of a decision aid. As mentioned earlier, failure       1999;266­70.
+to consult an available aid that would have provided          12. Boatsman JR, Moeckel C, Pei BK. The effects of decision conse-
+important information may still create liability con-         quences on auditors' reliance on decision aids in audit planning. Or-
+cerns. In addition, further research might attempt to         gan Behav Hum Decis Process. 1997;71:211­47.
+clarify the role of reduced satisfaction after a correct di-  13. Ashton RH. Pressure and performance in accounting decision
+agnosis in physicians' reluctance to use decision aids.       settings: Paradoxical effects of incentives, feedback and justification.
+                                                              Journal of Accounting Research. 1990;28:148­80.
+   Finally, if it is true that decision aids deflect some of  14. Arkes HR, Dawes RM, Christensen C. Factors influencing the use
+the responsibility for a poor outcome away from the           of a decision rule in a probabilistic task. Organ Behav Hum Decis Pro-
+physician, to whom is that responsibility referred? Fu-       cess. 1986;37:93­110.
+ture studies could explore whether patients blame the         15. Powell JL. An attempt at increasing decision rule usage in a judg-
+                                                              ment task. Organ Behav Hum Decis Process. 1991;48:89­99.
+                                                              16. Bockenholt U, Weber EU. Use of formal methods in medical deci-
+                                                              sion making: a survey and analysis. Med Decis Making. 1992;12:298­
+                                                              306.
+                                                              17. Sieck WR, Arkes HR. The recalcitrance of overconfidence and its
+                                                              contribution to decision aid neglect. Journal of Behavioral Decision
+                                                              Making. 2005;18:29­53.
+                                                              18. Meehl PE. Clinical versus statistical prediction: a theoretical
+                                                              analysis and a review of the evidence. Minneapolis: University of
+                                                              Minnesota Press; 1954.
+                                                              19. Marsh FH. Medical information systems. In: Reich W, ed. Ency-
+                                                              clopedia of Bioethics. 2nd ed. New York: MacMillan; 1992.
+                                                              20. Lowe DJ, Reckers PM. The use of foresight decision aids in audi-
+                                                              tor's judgments. Behavioral Research in Accounting. 2000;12:97­
+                                                              118.
+
+DECISION PSYCHOLOGY                                           55
+PEZZO AND PEZZO
+
+21. Lowe DJ, Reckers PM, Whitecotton SM. The effects of decision-         24. Messier WF. Research in and development of audit decision aid.
+aid use and reliability on jurors' evaluations of auditor liability. The  In: Ashton RH, Ashton AH, eds. Judgment and Decision-Making Re-
+Accounting Review. 2002;77:185­202.                                       search in Accounting and Auditing. New York: Cambridge Press;
+22. Kelly HH. Attribution in Social Interaction. New York: General        1995. p 207­28.
+Learning Press; 1971.                                                     25. Kaplan B. Culture counts: how institutional values affect com-
+23. Kadous K. The effects of audit quality and consequence severity       puter use. MD Comput. 2000;17:23­6.
+on juror evaluations of auditor responsibility for plaintiff losses. The  26. Dawes RM, Faust D, Meehl PE. Clinical versus actuarial judg-
+Accounting Review. 2000;75:327­41.                                        ment. Science. 1989;243:1668­74.
+
+56 · MEDICAL DECISION MAKING/JAN­FEB 2006
+

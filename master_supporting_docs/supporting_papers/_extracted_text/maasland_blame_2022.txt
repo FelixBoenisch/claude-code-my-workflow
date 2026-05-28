@@ -1,0 +1,843 @@
+                                                             ORIGINAL RESEARCH
+                                                              published: 25 May 2022
+                                                  doi: 10.3389/fpsyg.2022.779028
+
+                                               Blame the Machine? Insights From
+                                               an Experiment on Algorithm Aversion
+                                               and Blame Avoidance in
+                                               Computer-Aided Human Resource
+                                               Management
+
+                                               Christian Maasland1 and Kristina S. Weißmüller2*
+
+                                               1Independent Researcher, Hamburg, Germany, 2KPM Center for Public Management, University of Bern, Bern, Switzerland
+
+                                 Edited by:    Algorithms have become increasingly relevant in supporting human resource (HR)
+                            James Gaskin,      management, but their application may entail psychological biases and unintended side
+             Brigham Young University,         effects on employee behavior. This study examines the effect of the type of HR decision
+                                               (i.e., promoting or dismissing staff) on the likelihood of delegating these HR decisions to
+                              United States    an algorithm-based decision support system. Based on prior research on algorithm
+                                               aversion and blame avoidance, we conducted a quantitative online experiment using a
+                            Reviewed by:       2×2 randomly controlled design with a sample of N=288 highly educated young
+                           Ludivine Martin,    professionals and graduate students in Germany. This study partly replicates and
+                Luxembourg Institute of        substantially extends the methods and theoretical insights from a 2015 study by Dietvorst
+            Socio-Economic Research,           and colleagues. While we find that respondents exhibit a tendency of delegating presumably
+                                               unpleasant HR tasks (i.e., dismissals) to the algorithm--rather than delegating promotions--
+                               Luxembourg      this effect is highly conditional upon the opportunity to pretest the algorithm, as well as
+                           Kristian Rotaru,    individuals' level of trust in machine-based and human forecast. Respondents' aversion
+           Monash University, Australia        to algorithms dominates blame avoidance by delegation. This study is the first to provide
+                         Pawel Niszczota,      empirical evidence that the type of HR decision affects algorithm aversion only to a limited
+     Poznan University of Economics            extent. Instead, it reveals the counterintuitive effect of algorithm pretesting and the
+                   and Business, Poland        relevance of confidence in forecast models in the context of algorithm-aided HRM,
+                                               providing theoretical and practical insights.
+                     *Correspondence:
+                   Kristina S. Weißmüller      Keywords: algorithm aversion, blame avoidance, human resource management, algorithm-based decision
+ kristina.weissmueller@kpm.unibe.ch            support systems, behavioral experimental research
+
+These authors share first authorship           INTRODUCTION
+
+                      Specialty section:       With the rise of people analytics, human resource (HR) management today relies heavily on
+          This article was submitted to        algorithm-based decision support systems to assist HR managers in the assessment of the
+                                               value of individual employees as part of their organizations' human capital asset (Reindl, 2016;
+            Organizational Psychology,         Leicht-Deobald et al., 2019). People analytics is the creation of unique workforce insights by
+                  a section of the journal     integrating originally disparate data sources from both inside and outside the organization to
+                 Frontiers in Psychology       create HR insights with strategic value that lead to a competitive advantage.
+
+      Received: 17 September 2021
+              Accepted: 11 April 2022
+              Published: 25 May 2022
+
+                                   Citation:
+                          Maasland C and
+     Weißmüller KS (2022) Blame the
+            Machine? Insights From an
+   Experiment on Algorithm Aversion
+ and Blame Avoidance in Computer-
+                Aided Human Resource
+
+                             Management.
+            Front. Psychol. 13:779028.
+    doi: 10.3389/fpsyg.2022.779028
+
+Frontiers in Psychology | www.frontiersin.org  1  May 2022 | Volume 13 | Article 779028
+Maasland and Weißmüller                                                   Algorithm Aversion and Blame Avoidance
+
+   While metric-driven analytical approaches to HR management             is intriguing because it contradicts the classic assumptions of
+date back to the beginning of the 20th century (Huselid, 1995;            utility maximizing behavior. While Dietvorst et al. (2015, 2018)
+Leicht-Deobald et al., 2019), quantifying individuals' human              successfully replicated their initial experiment, other studies
+capital as a specific asset to the firm has become much more              further explored the effects of algorithm familiarity and trust
+sophisticated because of recent technological advances in                 (Berger et al., 2021; Filiz et al., 2021), algorithms' characteristics
+algorithm-based machine learning and big data (Reindl, 2016).             such as their ability to learn (Berger et al., 2021), and their
+In a 2017 survey of 10,400 firms across 140 countries, Deloitte           perceived fairness (Newman et al., 2020) as determinants of
+identified people analytics as one of the main global trends              algorithm aversion, the underlying psychological mechanisms
+in human capital, with 71% of companies surveyed rating                   of algorithm aversion are still not explored sufficiently enough
+algorithm-based people analytics as a high priority in their              yet. Particularly, the effect of different choice types and valences
+organizations (Fineman et al., 2017). Today, a diverse landscape          on algorithm aversion is not well understood yet (but see
+of software provides algorithm-based people analytic solutions            initial findings by Newman et al., 2020, and Renier et al.,
+for HR across all industries. For instance, Xerox Services have           2021). Both studies by Dietvorst et al. (2015, 2018) are framed
+been using algorithm-based people analytics since as early as             in a positive scenario of making performance evaluations with
+2010 (Peck, 2013). Other key players in personnel information             presumably rather positive valence (e.g., selecting students for
+systems such as IBM, SAP, and Oracle use integrated application           a scholarship), but behavioral research on risk preferences
+tools to accumulate HR data from existing databases (Angrave              (Kahneman and Tversky, 1979; Tversky and Kahneman, 1991)
+et al., 2016). Typical case studies of firms using algorithms             and blame avoidance in contextual frames (Vis and van
+strategically to enhance the efficiency of their talent management        Kersbergen, 2007; Bartling and Fischbacher, 2012) suggest that
+are, among many others, the tech giants Google (People Analytics;         boundedly rational decision makers would react very differently
+Shrivastava et al., 2018) and Microsoft (MyAnalytics; Giermindl           when faced with the task of making decisions generally presumed
+et al., 2021), the bank ING (Peeters et al., 2020), the cybersecurity     to be unpleasant such as taking away the scholarship or dealing
+firm Juniper Networks (Boudreau and Rice, 2015), the retailer             punishment. Little is known about whether people may prefer
+Wal-Mart (Haube, 2015), and online retailer Zalando using                 to delegate unpleasant choices to an algorithm to avoid blame
+the software Zonar (Staab and Geschke, 2020).                             and negative sentiment by shifting their personal responsibility
+                                                                          to the machine (Langer and Landers, 2021). This is particularly
+   Since the aforementioned workforce insights--generated by              relevant for HR management since HR managers regularly
+scoring employees based on computer-aided procedures--may                 face tough workforce-related decisions--e.g., whom to lay off
+inform HR practices not only descriptively but may also be used           and whom to grant a promotion--while often being personally
+to predict future performance, applying people analytics raises           involved with their workforce. It is an obvious assumption
+substantial questions regarding legal and ethical matters (Leicht-        that HR managers may be more likely to delegate making
+Deobald et al., 2019), particularly regarding the quality of              unpleasant HR decisions--e.g., laying off employees--to an
+algorithmic predictions and their effect on HR managers' choice           algorithm compared to making more pleasant decisions (e.g.,
+architectures (Reindl, 2016). The idea of enhancing the quality           promoting employees) because the latter may entail less emotional
+of strategic HR management by using IT-based support systems              burden and may offer the hedonic utility of making pleasant
+that facilitate personnel decisions is deeply rooted in the               HR choices (Hamman et al., 2010). Does the type of HR
+paradigm of evidence-based management (Sharma and Sharma,                 choice task affect algorithm aversion?
+2017; Leicht-Deobald et al., 2019). In fact, the discourse on
+mechanical vs. clinical decision making shows that algorithms                The current study reports quantitative evidence from an
+often outperform human forecast accuracy (Meehl, 1954; Sawyer,            original between-subject experimental study on the conditionality
+1966; Kuncel et al., 2013). Yet, decision makers feel ambiguous           of algorithm aversion in positive and negative valence settings.
+about using algorithm-based support systems even though they              Specifically, we report evidence from a 2×2 randomized controlled
+know that doing so would optimize their choices and lead to               online vignette experiment conducted with a sample of N=288
+objectively better outcomes (Grove and Meehl, 1996; Sanders               highly educated German residents. Set in the context of strategic
+and Manrodt, 2003; Fildes and Goodwin, 2007; Highhouse,                   HR management, we replicate prior experimental research by
+2008). Due to its relevance and rising popularity with decision           Dietvorst et al. (2015, 2018) and enhance their original
+makers in HRM (see, e.g., Sharma and Sharma, 2017), behavioral            experimental design by adding a contextual positive vis-à-vis
+research on the effects of the availability of algorithm-based            negative affective vignette-based treatment (personnel promotion
+decision support systems on HR-related decision is highly                 vs. personnel dismissal) to test whether decision makers are
+relevant and has become a rapidly growing field of research               more likely to use algorithm-based decision support systems
+lately (Burton et al., 2020).                                             for making presumably unpleasant decisions--i.e., laying off
+                                                                          staff--compared to presumably more pleasant decisions--i.e.,
+   As one of the first experimental studies in the field of               promoting staff. We also control for the perceived algorithmic
+algorithm aversion, Dietvorst et al. (2015) found that decision           forecast precision, the role of pretesting it, and individuals'
+makers were reluctant to let their choice be guided by an                 confidence in human (CIH) and machine (CIM) forecast.
+algorithm-aided forecast model to determine which MBA
+students should be granted a scholarship although the quality                Following explicit calls by Dietvorst et al. (2015, 2018),
+and accuracy of the model forecast was clearly superior to                Prahl and van Swol (2017), Tambe et al. (2019), and Newman
+human forecast ability. This phenomenon of algorithm aversion             et al. (2020), our research design comes with a few crucial
+
+Frontiers in Psychology | www.frontiersin.org                          2  May 2022 | Volume 13 | Article 779028
+Maasland and Weißmüller                                                  Algorithm Aversion and Blame Avoidance
+
+methodological advantages. Its experimental setup with                   as disproportionately more negative compared to human estimate-
+randomized controlled trials allows us to identify the latent            based models presumably because machine-made errors are
+causal mechanisms that relate algorithm aversion to blame                incongruent to the widely held idea of perfection in machine-
+avoidance based on the valence frame of a choice situation               made forecast (Stangor and McMillan, 1992; Madhavan and
+(i.e., promoting or dismissing staff). Our findings are directly         Wiegmann, 2007; Boyd and Crawford, 2012; Constantiou and
+relevant for HR management in practice because they add a                Kallinikos, 2015; Berger et al., 2021) and because negative
+new perspective to the scientific discourse on bounded rationality       information cues are psychologically more salient than positive
+in the age of computer-aided choice architectures. This allows           information cues (Rozin and Royzman, 2001).
+us to offer advice to HR managers in the form of caveats
+when using algorithms to enhance quality and precision in                   Prior studies on algorithm aversion hypothesized that there
+HR management.                                                           are a number of reasons for this preference for human-made
+                                                                         forecast even in spite of explicit superiority of choices made
+   In the next section, we review the literature on the motivational     by an algorithm: for instance, the notion that using algorithm-
+foundations of algorithm aversion and blame avoidance and                based choice modeling may be perceived as a loss of process
+derive two hypotheses on individuals' likelihood to delegate             ownership (Önkal and Gönül, 2005; Petropoulos et al., 2016),
+critical HR decisions to algorithms in relation to individuals'          an abstract sense of unfamiliarity and hence distrust with the
+CIH and machine judgment. Then, we present the experimental              machine (Prahl and van Swol, 2017), or the notion that
+design and procedure and report the results of the hypothesis            algorithms were unable to integrate qualitative factors (Grove
+testing with experimental data from N=288 highly educated                and Meehl, 1996; Vrieze and Grove, 2009; Newman et al.,
+German respondents. We conclude with a discussion of the                 2020). Others argue that decision makers perceive algorithms
+implications of our findings for theory and practice and suggest         as unable to account for unique and individual circumstances
+avenues for future research.                                             (Highhouse, 2008; Longoni et al., 2019), unable to deliver
+                                                                         satisfying results in domains of high uncertainty (Dietvorst
+THEORY                                                                   and Bharti, 2020), or mention machines' lack of intuition and
+                                                                         fairness (Newman et al., 2020), a quality typically associated
+Origins of Algorithm Aversion                                            with human forecasting (Lee, 2018; Burton et al., 2020). However,
+                                                                         Dietvorst et al. (2015, 2018) were the first to conduct a series
+Algorithms are generally defined as a set of mathematical                of experimental studies to identify the underlying behavioral
+instructions that--without explicit human intervention--help             mechanisms of algorithm aversion, especially concerning the
+calculate a solution to a given problem (Lee, 2018). Algorithms          correlation between the perceived fallibility of the algorithm-
+are based on elaborate statistical techniques that result in             based choice models and the likelihood of delegating decisions
+sophisticated forecasting models. In HR management, algorithm-           to this algorithm. They found that decision makers were
+based decision support systems profit from recent technical              significantly less likely to delegate to the machine after seeing
+developments in machine learning and artificial intelligence             it perform (and inevitably err) even though the algorithm still
+that allow for high-level automatization in decision making              dramatically outperformed their human judgment (Dietvorst
+"to supplement and inform (and perhaps supersede) human                  et al., 2015, 2018). This effect was independent of the incentive
+judgment or intuition" (Dietvorst et al., 2015; Prahl and van            structure, and their findings were replicated in follow-up studies
+Swol, 2017; Lee, 2018).                                                  by Prahl and van Swol (2017) and Dietvorst and Bharti (2020).
+
+   Yet, empirical research across the whole spectrum of                     Recent studies have analyzed factors that may help reduce
+management science shows that decision makers are reluctant              algorithm aversion. For instance, granting users limited control
+to use algorithms to maximize forecast precision and that people         over the algorithm's forecast reduced algorithm aversion
+tend to discount machine-based forecast--compared to human-              (Dietvorst et al., 2018), and people tended to pardon an
+made forecast--even if explicitly informed about its superiority         algorithm's error if it was small and the decision domain was
+(Fildes and Hastings, 1994; Mentzer and Kahn, 1995; Dzindolet            relatively predictable (Dietvorst and Bharti, 2020). Lee (2018)
+et al., 2002; Sanders and Manrodt, 2003; Fildes and Goodwin,             analyzed the acceptance rate of algorithm-based choices for
+2007). For instance, Önkal et al. (2009) conducted a framing             tasks that require mechanical as opposed to human skills, and
+experiment with 130 graduate business administration students            Castelo et al. (2019) found that increasing task objectivity and
+who were asked to predict stock prices. The experiment revealed          the human semblance of an algorithm's pattern of decision
+that study participants discounted the perceived accuracy of a           making lead to higher trust in the algorithm. Yet to date, the
+prediction presented as algorithm-based advice much more                 underlying behavioral mechanisms of algorithm aversion
+steeply compared to the case in which the very same prediction           regarding distinct types of decisions are still unexplored.
+was presented as human-made. Medical, psychological, and
+financial studies also show that people generally prefer human           Responsibility Shifting and Blame
+judgment over machine-aided models of prediction and find                Avoidance
+human forecasts more trustworthy (Lee, 2018; Filiz et al., 2021).
+Research on computer-aided decision processes by Dzindolet               Prior studies exploring how people cope with making challenging
+et al. (2002) and Renier et al. (2021) shows that decision makers        or nonsocially acceptable decisions showed that by delegating
+tend to perceive observed error rates of algorithm-based models          a decision, individuals indeed shift both the mental burden
+
+Frontiers in Psychology | www.frontiersin.org                         3  May 2022 | Volume 13 | Article 779028
+Maasland and Weißmüller                                                 Algorithm Aversion and Blame Avoidance
+
+and the factual or perceived responsibility for making the              violate the widely held expectation of software infallibility (Boyd
+decision. Bartling and Fischbacher (2012) and Oexl and Grossman         and Crawford, 2012; Dietvorst and Bharti, 2020). This is why,
+(2013) examined this psychological shifting process and showed          among others, Dietvorst and Bharti (2020) and Renier et al.
+that individuals affected by the outcome of a decision will in          (2021), suggest that pretesting an algorithm reduces the likelihood
+fact not blame the person responsible for making the decision           of using it, suggesting that:
+but the person executing and delivering it. They stress that
+blame avoidance by shifting responsibility is a major motive                  Hypothesis 2a (H2a): Pretesting an algorithm reduces
+for delegating unpopular decisions (see also Hill, 2015). Another             the likelihood of delegating HR decisions to
+example is the study by Erat (2013) that revealed that people                 the algorithm.
+will deliberately delegate the act of lying to their subordinates
+to avoid the responsibility for lying because such behavior is             However, the perceived costs associated with delegating to
+associated with negative sentiment, arousing psychological              a pretested algorithm may yet be conditional upon the type
+burdens in the form of hedonic disutility and the risk of               and valence of the choice to be delegated (Langer and Landers,
+blame. This finding corresponds with prior studies showing              2021). While Newman et al. (2020) found that HR decisions
+that individuals seek to avoid situations in which they may             made by an algorithm were perceived as less fair in both
+harm others, because decision delegation reduces decision               promotion and layoff decisions, the effect size of perceived
+makers' mental costs of feeling responsible (Steffel et al., 2016).     human­machine difference in decision quality was lower for
+These psychological and moral factors relating to accountability        negative valence (i.e., layoffs) vis-à-vis positive valence (i.e.,
+are important predictors of algorithm aversion (Giermindl et al.,       promotion) choice tasks. This points toward a potential
+2021). For instance, experimental research by Newman et al.             asymmetry of the pretesting-related negativity bias toward the
+(2020) shows that people perceive algorithm-made HR decisions           algorithm. However, recent empirical studies show that the
+as less fair, a finding that was stable irrespective of whether         degree of decision makers' reaction to pretesting an algorithm
+employees were selected for promotion or layoff.                        may be conditional upon the quality of this pretesting experience.
+                                                                        The perceived relative precision of the machine vis-à-vis human
+   Given that the discourse on algorithm aversion suggests              forecast precision may influence decision makers' response
+that delegating to an algorithm reduces perceived process               (Filiz et al., 2021), as well as the specific task characteristic,
+ownership (Önkal and Gönül, 2005; Petropoulos et al., 2016),            particularly if stakes are high with regards to both tangible
+and given that the discourse on blame avoidance suggests                and moral costs (e.g., in the form of mental burdens; Lee,
+reduced ownership is a behavioral strategy to cope with mental          2018; Burton et al., 2020). While research into this nexus is
+burdens in challenging choice situations, we hypothesize that           yet inconclusive (Langer and Landers, 2021), Renier et al.
+the likelihood of delegating a HR decision to an algorithm is           (2021) reveal that algorithmic fallibility will trigger harsher
+task dependent in the sense that:                                       and comparatively more negative psychological reactions
+                                                                        compared to experiencing equivalent human error and that a
+      Hypothesis 1 (H1): Decision makers are more likely to             high-stakes HR choice context may be particularly salient in
+      delegate the decision of dismissing employees to an               determining the acceptability of using an "imperfect" algorithm.
+      algorithm compared with promoting employees.                      Taken together, these initial findings on topical asymmetries
+                                                                        suggest an alternative hypothesis.
+   Yet, prior research on algorithm aversion (Dietvorst et al.,
+2015, 2018; Dietvorst and Bharti, 2020) indicates that individuals            Hypothesis 2b (H2b): Pretesting the algorithm reduces
+will be reluctant to delegate decision making to an algorithm                 the relative likelihood of delegating the decision of
+if they feel its forecasting error is too high, rendering it                  dismissing employees to an algorithm compared with
+unreliable. Making a HR decisions that may potentially change                 promoting employees.
+an employee's life is a challenging situation, particularly for
+diligent HR managers. In the era of people analytics, HR                MATERIALS AND METHODS
+decision makers are faced with peculiar moral conflict (Tambe
+et al., 2019): weighing the potential benefits and costs of             Experimental Design and Sample
+delegating to an algorithm-based decision support system reduces
+individual mental costs by reducing perceive accountability and         The current study investigates whether people are more likely
+subjective expected blame but knowingly using a flawed algorithm        to delegate HR decisions to a computer algorithm if their
+may pose a violation of decision makers' moral concept of               decision is related to laying off employees compared to promoting
+self as an ethical and virtuous (i.e., "blameless") person--            employees. To test our hypotheses, we conducted a quantitative
+particularly since many people assume that algorithm-based              study using an interactive and dynamic online experiment in
+HR decision are less fair (Newman et al., 2020). The preservation       a randomized controlled 2×2 vignette design following best-
+of one's moral concept of self is a psychological motive with           practice advice by Atzmüller and Steiner (2010) and Aguinis
+high priority that strongly affects choice behavior (Bem, 1972;         and Bradley (2014) to warrant high levels of internal and
+Hsee, 1996). Pretesting any genuine algorithm will reveal the           external validity and to minimize social desirability-related
+realistic limits of its predictive quality and, hence, decision
+makers' capacity to justify using it because "imperfect" algorithms
+
+Frontiers in Psychology | www.frontiersin.org                        4  May 2022 | Volume 13 | Article 779028
+Maasland and Weißmüller                                                 Algorithm Aversion and Blame Avoidance
+
+response bias (Fisher and Katz, 2000). Based on actual HR               and that all employees who scored above a certain but unknown
+decision support systems, we designed two equivalent yet                threshold would be promoted.1 Similarly, in the dismissal
+topically opposite vignette scenarios--one dealing with making          vignette, respondents presented with the identical criteria and
+decisions on promoting employees (P) and one dealing with               information were informed that their predictions regarding
+dismissing employees (D)--both of which offered respondents             employees' future performance was to be used to determine
+the opportunity to delegate the decision to a computer algorithm        that employees who scored below a certain unknown threshold
+specifically designed to support these tasks. The two experimental      level would be dismissed. These conditions provide a balanced
+conditions were corroborated with two alternative treatments            equivalent treatment framed in two different choice scenarios.
+to replicate algorithm aversion experiment of Dietvorst et al.
+(2015). The first treatment encompasses pretesting the algorithm           Next, all participants were informed that they were free to
+before making the delegation choice (pretest; pt). The second           use an algorithm-based decision support system, which would
+treatment offered no option for pretesting the algorithm (nt).          produce forecasts based on the very same data available to
+Consequently, the experiment defines four treatment groups              the respondents themselves. Participants were given further
+(P_nt, D_nt, P_pt, and D_pt) based on two independent stimuli           information to confirm that it was a sophisticated algorithm
+(choice task vignette condition P or D and treatment nt or              created by diligent expert analysts.
+pt) and a single dependent variable delegation choice, i.e., the
+decision of delegating the HR decision to the algorithm.                   Then, study participants were, again, randomly sorted into
+                                                                        the pretest (pt) and the no-test (nt) condition branch of the
+   The online experiment was conducted between March and                experiment. Respondents in the pretest condition were asked
+May 2018 and took between 20 and 30 min to complete. A                  to make 10 practice rounds, in which they could see the
+convenience sample was raised by distributing the link to the           algorithm perform before they would make the 10 employee
+experiment via several universities' e-mail lists addressed to          predictions, which would also determine their likelihood of
+young professionals and graduate students and through online            winning the incentive lottery. In each of the 10 trial rounds,
+career networks, reaching a total of 574 individuals of which           respondents were informed about employees' "real" performance
+N=288 (50.2%) fully completed the experiment. Respondents               score (range: 1­100) and the performance score predicted by
+were incentivized by the prospect of winning one of several             the algorithm, respectively. Respondents sorted into the no-test
+gift vouchers (25, 50, or 75) for a popular online retailer.            condition directly moved on to their task, i.e., they had no
+To warrant rigor, only complete responses were included in              chance to see the algorithm perform a priori.2 In this context,
+the final dataset of this study. The final sample comprises 156         it is important to note that the algorithm's absolute average
+(54.2%) women, 115 (39.9%) men, and 17 (5.9%) individuals               prediction errors (AAE) across all trials were designed following
+who did not disclose. Respondents are on average M=28.03                procedure of Dietvorst et al. (2015) to ensure that human and
+(SD=6.1) years old, predominantly German citizens (91.0%),              algorithmic forecast accuracy were virtually identical across
+and highly educated with 169 (58.7%) having completed a                 all conditions, vignettes, and rounds. This component is an
+tertiary degree education.                                              important design aspect to warrant that there is no quality-
+                                                                        related, functional reason to disregard algorithm support. The
+Experimental Procedure                                                  main dependent variable of this experiment is whether
+                                                                        respondents choose to make the forecast themselves (delegation
+Figure 1 provides an overview of the experimental procedure.            choice=0) or delegate their task to the algorithm (delegation
+Since the current study partially replicates the experiments            choice=1). Respondents were randomly presented with 10
+conducted by Dietvorst et al. (2015, 2018), our vignette design         vignettes drawn from the set of 20 employee vignettes and
+and treatment wording were designed to resemble the former              asked to predict each employee's future performance on a scale
+studies' procedures as closely as possible. The original procedures     from 1 to 100. Prior to these 10 rounds, respondents were
+were enhanced by adding the two different HR-related task               asked whether they would like to tie their predictions to those
+stimuli--i.e., promotion or dismissal--to the vignette treatment,       made by the algorithm. During these 10 rounds, participants
+resulting in the 2×2 design.                                            saw no information about employees' "true" performance scores.
+                                                                        After completing the 10 rounds, respondents were asked to
+   First, respondents were introduced to the experimental setting       indicate their confidence in human forecast and their confidence
+placed in the context of employee performance evaluation.               in the algorithm forecast, respectively, on a five-point
+Participants were randomly sorted into one of the four treatment        Likert-type scale ranging from 1="no confidence" to 5="full
+conditions and introduced to their role and respective tasks            confidence." We use this post-hoc measure for explorative analyses.
+in the vignette scenario of this study. Respondents were asked
+to imagine being the Chief Information Officer (CIO) of a big           1T hese criteria were carefully designed to optimize the external validity of the
+company that employs hundreds of software engineers and to              experiment by maximizing respondents' immersion into a highly realistic choice
+evaluate how successful current software engineers might be as          scenario. A more extensive description of the experiment and stimuli is presented
+software consultants in the future in comparison to other               in Appendix A and B.
+employees of the company's workforce. In the promotion vignette,        2T o inhibit halo and primacy effects (Shteingart et al., 2013), the employee-
+respondents were informed that their task was to predict the            based stimuli were presented in random order between subjects and were
+future performance of ten employees based on eight carefully            drawn from a carefully designed sample of 20 software engineers to introduce
+selected criteria typical for software engineers. They were told        sufficient amounts of variance (see also Appendix C).
+that these employees would later be ranked against each other
+
+Frontiers in Psychology | www.frontiersin.org                        5  May 2022 | Volume 13 | Article 779028
+Maasland and Weißmüller                                              Algorithm Aversion and Blame Avoidance
+
+FIGURE 1| Experimental procedure.
+
+   As a control variable, respondents' trust in technology was       (28.1%), nP_pt=59 (20.5%), and nD_pt=71 (24.7%). Of the
+measured after to the experimental tasks with seven-item Likert-     final sample, 136 (47.2%) received the positive promotion
+type measure of McKnight et al. (2011) on trust in information       frame (P) and 152 (52.8%) of the final sample received the
+technology. The original English scale items were translated         negative dismissal frame (D), 158 (54.9%) people received
+into German with due diligence. Furthermore, respondents             the no-test condition (nt) and 130 (45.1%) the pretest
+were asked to indicate their age, gender, level of education,        condition (pt).
+and country of residence, in each case allowing for nonresponse,
+before being debriefed.                                                 Table 1 displays the correlation matrix of all variables. For
+                                                                     the current sample, the bidimensional trust in technology measure
+RESULTS                                                              of McKnight et al. (2011) resulted in a satisfying level of
+                                                                     construct reliability [faith in technology (general): fit=0.61;
+Descriptive Analysis                                                 trusting stance: ts=0.69]. Of all N=288 respondents, n=66
+                                                                     (23.0%) chose to use the algorithm. Logistic regression modeling
+The four vignette treatments were randomly distributed among         with [2(8)=55.29, p<0.000; pseudo-R2=0.200] and without
+the study participants. As not all respondents finished the          control variables [2(4)=56.78, p<0.000; pseudo-R2=0.195]
+experiment, the treatment distribution varies; the overall           reveals that neither respondents' trust in technology, age, gender,
+distributions of treatments are nP_nt=77 (26.7%), nD_nt=81           nor education explained any substantial amount of variance
+                                                                     in choice. However, individuals' confidence in human and
+
+Frontiers in Psychology | www.frontiersin.org                     6  May 2022 | Volume 13 | Article 779028
+Maasland and Weißmüller                                                                                                                                                                                                                                                                            Algorithm Aversion and Blame Avoidance
+Frontiers in Psychology | www.frontiersin.org
+                                                                           8         ­                                                                                                                                                                            machine forecast do influence the dependent variable. We explore
+                                                                                         0.06a                                                                                                                                                                    this finding in post-hoc analyses after hypothesis testing below.
+
+                                                                           7         ­                                                                                                                                                                               Participants in the no-test condition assumed that the algorithm-
+                                                                                         -0.08b                                                                                                                                                                   based forecasting model was more accurate (M=40.6±26.4)
+                                                                                                                                                                                                                                                                  compared with participants in the pretest condition
+                                                                                             0.06c                                                                                                                                                                (M=32.82±22.3); Welch's t(271.65)=2.64, p<0.01, d=0.32.
+                                                                                                                                                                                                                                                                  Confidence in the algorithm is significantly associated with a
+                                                                           6                                                                                                                                                                                      higher likelihood of delegating the decision to the algorithm
+                                                                                                                        ­                                                                                                                                         (c=0.36, p<0.000), while confidence in the human forecast is
+                                                                                                                            0.03                                                                                                                                  negatively correlated with the likelihood of delegating to the
+                                                                                                                                -0.10b                                                                                                                            algorithm (c=­0.25, p<0.000). This effect is asymmetric in the
+                                                                                                                                    0.07c                                                                                                                         sense that higher confidence in the algorithm has a higher
+                                                                                                                                                                                                                                                                  positive effect than higher confidence in human forecast has a
+                                                                           5                                                                                                                                                                                      negative one. Pretesting the algorithm (i.e., seeing it perform
+                                                                                                                    ­                                                                                                                                             and, inevitably, err) has a negative effect on the likelihood of
+                                                                                                                        0.08c                                                                                                                                     delegating to the algorithm (=-0.18, p<0.01). This is an
+                                                                                                                            -0.06c                                                                                                                                astonishing finding given that the experiment was designed so
+                                                                                                                                -0.02a                                                                                                                            that prediction accuracy--i.e., the absolute average prediction
+                                                                                                                                    0.01c                                                                                                                         error (AAE)--of the human and the algorithmic forecast were
+                                                                                                                                                                                                                                                                  virtually identical, with the algorithm's AAE (M=20.02±1.56)
+                                                                           4                                                                                                                                                                                      being on average even smaller than the human AAE
+                                                                                                                ­                                                                                                                                                 (M=20.71±5.01) on the 1­100 performance score; t(352.4)=-2.19,
+                                                                                                                    -0.12c*                                                                                                                                       p<0.05 (see Appendix C for more detailed analyses).
+                                                                                                                        0.17c**
+                                                                                                                            0.04c                                                                                                                                 Hypotheses Testing
+                                                                                                                                -0.05a
+                                                                                                                                    0.01c
+
+                                                                                                                                                                                                                                                                  Figure 2 displays the share (S) of participants who delegated their
+
+                                                                                                                                                                                                                                                                  decision to the algorithm split by condition, vignette, and treatment.
+
+                                                                           3                                                                                                                                                                                      We find that participants in the no-test condition and participants
+                                                                                                   ­
+                                                                                                                -0.08a                                                                                                                                            in the dismissal vignette scenario were more likely to choose to
+                                                                                                                    -0.04a
+                                                                                                                        0.03b                                                                                                                                     let the algorithm make the decision. Being able to pretest the
+                                                                                                                            0.06b
+                                                                                                                                -0.05a
+                                                                                                                                    0.14a*
+
+                                                                                                                                                                                                                                                                  quality of the algorithm (see Figure 2) [S(Algorithm pretesting)=S(no-
+
+                                                                                                                                                            a=Cramer's c; b=Point biserial correlation rpb; and c=pearson's r. *p<0.05; **p<0.01; ***p<0.001.     test) ­ S(pretest)=15.1%] had a bigger effect on choice than the
+
+                                                                           2         ­                                                                                                                                                                            type of HR decision [S(decision type)=S(Dismissal) ­
+                                                                                             0.03a                                                                                                                                                                S(Promotion)=4.4%]. Participants in the promotion and pretest
+                                                                                                         -0.15a*
+                                                                                                             -0.02a                                                                                                                                               treatment (P_pt) were least likely to delegate to the algorithm
+                                                                                                                 -0.08b                                                                                                                                           [S(P_pt)=10.2%] and participants in the dismissal and no-test treatment
+                                                                                                                     -0.06b                                                                                                                                       (D_nt) were most likely to delegate to the algorithm [S(D_nt)=31.6%].
+                                                                                                                          0.08a
+                                                                                                                              0.01a                                                                                                                                  Treatment groups had unequal sizes and were nonnormally
+
+                                                                           1         ­                                                                                                                                                                            distributed but variances were distributed homogenously [Levene's
+                                                                                             -0.18a**
+                                                                                                                                                                                                                                                                  test F(3, 270)=2.03, p=0.11]. Table 2 presents the odds ratios
+                                                                                                     0.05a
+                                                                                                                 0.36a***                                                                                                                                         of delegating to the algorithm by treatment condition. We find
+                                                                                                                     -0.25a***
+                                                                                                                          0.06b
+                                                                                                                              -0.01b
+                                                                                                                                  -0.08a
+                                                                                                                                      0.03a
+
+                                                                                                                                                                                                                                                                  no task-related treatment effects purely in relation to dismissing
+
+                                                                                                                                                                                                                                                                  vis-à-vis  promoting  employees  [2              (1)=0.10,  p=0.75,
+                                                                                                                                                                                                                                                                                                        D_nt/P_nt
+
+                                                                                     1 Delegation choice                                                                                                                                                          D_nt/P_nt=0.03;  2             (1)=1.71,  p=0.19,  D_pt/P_pt=0.11].
+                                                                                         [0, 1]=[human decision; algorithm's decision]                                                                                                                                                D_pt/P_pt
+
+                                                                                             2 Algorithm pretested?                                                                                                                                               Consequently, H1 finds no support.
+                                                                                                 [0, 1]=[no; yes]
+                                                                                                                                                                                                                                                                  However, pretesting the algorithm has a significant effect on
+                                                                                                     3 HR choice task
+                                                                                                         [0, 1]=[promotion; dismissal]                                                                                                                            the likelihood of delegating the HR decision to the algorithm,
+                                                                                                             Confidence in...
+                                                                                                                                                                                                                                                                  irrespective of choice type: Pretesting the algorithm reduces the
+                                                                                                                 4 ...Algorithm forecast
+                                             TABLE 1| Correlation matrix.  Variable                                  5 ...Human forecast                                                                                                                          likelihood of delegating an HR decision to the algorithm
+                                                                                                                          6 Trust in technology                                                                                                                   [2nt/pt(1)=9.24, p<0.01, nt/pt=-0.18*]. This effect is stable across
+                                                                                                                              7 Age (years)                                                                                                                       both choice task treatments but stronger in the setting of selecting
+                                                                                                                                  8 Female                                                                                                                        employees for promotion [2P_nt/P_pt(1)=6.92, p<0.01,
+                                                                                                                                      9 Tertiary education                                                                                                        P_nt/P_pt=-0.23*] than for dismissal [2D_nt/D_pt(1)=3.18, p=0.08,
+                                                                                                                                                                                                                                                                  D_nt/D_pt=-0.14]. However, only the effect of the promotion-related
+                                                                                                                                                                                                                                                                  setting is statistically significant and reliable (P_nt/P_pt=-0.23*).
+                                                                                                                                                                                                                                                                  We investigate the interaction between the valence type of the
+
+                                                                                                                                                                                                                                                                  HR decision task and pretesting further by conduction logistic
+
+                                                                                                                                                                                                                                                               7                                   May 2022 | Volume 13 | Article 779028
+Maasland and Weißmüller                                                                                 Algorithm Aversion and Blame Avoidance
+
+FIGURE 2| Share (S) of participants delegating human resource (HR) decision to algorithm. Error bars denote ±1 SE; dashed line indicates sample mean of 23%.
+
+TABLE 2| Odds ratios, 2-, and -tests of choice by condition, type, and treatment.
+
+                                  Condition             HR choice type                                  Treatment
+
+                         No-test               Pretest  Promotion  Dismissal       P_nt  D_nt                      P_pt    D_pt
+
+n                        158                   130      136          152            77   81                        59       71
+                                                                                    22                                      13
+nModel                   47                    19       28              38          55   25                        6        58
+                                                                                   0.40                                    0.22
+nHuman                   111                   111      108          114           2.50  56                        53      4.46
+OddsModel
+OddsHuman                0.42                  0.17     0.26         0.33                0.45                      0.11
+OddsModel [95% CI]
+                         2.36                  5.84     3.86         3.00                2.24                      8.83
+
+                         Oddspt/nt=0.41 [0.21; 0.76]    OddsD/P=1.28 [0.71; 2.34]        OddsP_pt/P_nt=0.29 [0.09; 0.80]
+
+                                                                                         OddsD_pt/D_nt=0.5 [0.21; 1.14]
+
+                                                                                         OddsD_nt/P_nt=1.12 [0.53; 2.34]
+
+                                                                                         OddsD_pt/P_pt=1.97 [0.64; 6.79]
+
+2-tests                  2pt/pt(1)=9.24, p<0.01         2D/P(1)=0.79, p=0.37             2              (1)=6.92,  p<0.01
+                               nt/pt=-0.18*                    D/P=0.05                      P_nt/P_pt
+
+                                                                                         2              (1)=3.18,  p=0.08
+                                                                                             D_nt/D_pt
+
+                                                                                         2              (1)=0.10,  p=0.75
+                                                                                             D_nt/P_nt
+
+                                                                                         2              (1)=1.71,  p=0.19
+                                                                                             D_pt/P_pt
+
+                                                                                         P_nt/P_pt=-0.23*
+                                                                                         D_nt/D_pt=-0.14
+                                                                                         D_nt/P_nt=0.03
+
+                                                                                         D_pt/P_pt=0.11
+
+*p<0.05.
+
+regression analyses (see Model III in Table 3) and find no                         individuals' likelihood of delegating HR decisions to an algorithm.
+statistically significant interaction between the promotion and                    Correlation analysis (Table 1) revealed that both forms of
+dismissal choice context (odds ratio: 0.609, p=0.502). This means                  confidence affect the likelihood of delegation: Higher confidence
+that pretesting the algorithm reduces decision makers' likelihood                  in machine-based forecasting is correlated with a higher likelihood
+of delegating to the algorithm, irrespective of the choice contest,                of delegating to the algorithm (c=0.36, p<0.000), and pretesting
+supporting the baseline hypothesis H2a but not H2b.                                it reduces the confidence in machine-based forecast (c=-0.18,
+                                                                                   p<0.000). Similarly, higher confidence in human forecasting
+Explorative Analyses                                                               is significantly correlated with a lower likelihood of delegating
+                                                                                   an HR decision to an algorithm (c=-0.25, p<0.000).
+Since the effect of algorithm aversion is so prevalent in our
+data, we conduct post-hoc analysis to further investigate the                         Logistic regression was used to further analyze the relationship
+role of CIH vis-à-vis machine-based (CIM) forecasting on                           between pretesting the algorithm, choice frame, CIM, and CIH
+
+Frontiers in Psychology | www.frontiersin.org                        8                                  May 2022 | Volume 13 | Article 779028
+Frontiers in Psychology | www.frontiersin.org                                                                                                                                                                               Maasland and Weißmüller
+
+                                               TABLE 3| Logistic regression results on choice to delegate HR decision to algorithm.
+
+                                                                                                       Model I                                           Model II                                      Model III
+                                                                                                                                                   SE                                            SE
+                                                                                 Odds ratio     SE              [95% CI]             Odds ratio                    [95% CI]        Odds ratio                     [95% CI]
+
+                                               Treatment effects                     0.448*     0.159           0.223  0.900             2.336                                     0.546         0.250  0.223     1.339
+                                               Pretesting the algorithm              0.589      0.211           0.291  1.190             3.007                                     0.703         0.311  0.295     1.675
+                                               HR choice type: dismissal                                                                 4.278*
+                                               Combined treatment effects            2.483***   0.490           1.687  3.655                       ­ reference category ­
+                                               Promotion and pretest (P_pt)          0.447***   0.099           0.290  0.690             2.478***
+                                               Dismissal and pretest (D_pt)          0.969      0.326           0.501  1.873             0.451***  1.410           0.716   7.624
+                                               Dismissal and no pretest (D_nt)       0.993      0.029           0.938  1.052             0.993                             9.357
+                                               Promotion and no pretest (P_nt)       0.916      0.326           0.456  1.841             0.994     1.742           0.966   13.280
+                                               Interaction effects                   1.108      0.423           0.524  2.342             0.927
+                                               Pretesting×dismissal                  0.511      0.677           0.038  6.862             1.105     2.472           1.378   3.650
+                                               Control variables                                                                         0.099                             0.697
+9                                              Confidence in algorithm forecast        267                                                                                 1.927       0.609     0.450  0.143     2.588
+                                               Confidence in human forecast        55.29***                                                267                             1.052
+                                               Trust in technology                                                                     55.75***    0.490           1.683   1.866       2.478***  0.490  1.683     3.645
+                                               Age                                      8                                                          0.100           0.292   2.335       0.451***  0.100  0.292     0.697
+                                               Female                                0.200                                                  9      0.336           0.511   1.414       0.993     0.336  0.511     1.927
+                                               Higher education                  -110.81                                                 0.201     0.029           0.939               0.994     0.029  0.939     1.052
+                                               Constant                                                                              -110.58       0.331           0.460               0.927     0.331  0.460     1.867
+                                               N                                                                                                   0.422           0.523               1.105     0.422  0.523     2.335
+                                               LR 2(df)                                                                                            0.135           0.007               0.425     0.576  0.030     6.053
+                                               df                                                                                                                                        267
+                                               Pseudo-R2                                                                                                                              55.75***
+                                               Log likelihood
+                                                                                                                                                                                          9
+                                                                                                                                                                                       0.201
+                                                                                                                                                                                   -110.58
+
+May 2022 | Volume 13 | Article 779028          Post-hoc analyses. p<0.10. *p<0.05; ***p<0.001.                                                                                                                              Algorithm Aversion and Blame Avoidance
+Maasland and Weißmüller                                                                 Algorithm Aversion and Blame Avoidance
+
+FIGURE 3| Marginal effects plot of confidence in human (CIH) and machine (CIM) forecast on choice to delegate HR decision to algorithm.
+
+on the probability of delegating the HR decision to the algorithm                       Figure 4, which displays the share of respondents delegating their
+(see Table 3). As displayed in Model I of Table 3, we find that,                        HR decision to the algorithm by treatment and clustered by
+holding the other variables constant, the odds of delegating to                         individual confidence levels to account for individual differences
+the algorithm decreased by 55.2% (95% CI [0.223, 0.900]; p=0.024)                       in confidence configurations. Individuals who are more confident
+for study participants who pretested the algorithm. In the dismissal                    in human vis-à-vis algorithm-based decision making are less likely
+choice frame, the odds of delegating to the algorithm decreased                         to delegate their decisions (0.0­17.6% of respondents). While
+by 41.1% (95% CI [0.291, 1.190]) but this effect is not statistically                   variation within this group exists in relation to the type of choice
+significant (p=0.140), supporting the findings presented in the                         task (dismissing vis-à-vis promoting employees) and pretesting
+previous section. Furthermore, confidence in the machine forecast                       the algorithm (test vis-à-vis no-test), the differences are not
+(CIM) dramatically increases the odds of delegating to the algorithm                    statistically significant. Among respondents equally confident in
+(odds ratio: 2.483, p<0.000). For each marginal increase on the                         model and human forecast, only 14.3% delegate dismissal decisions
+five-point CIM-scale, individuals were 148% (95% CI [1.687,                             to the algorithm if they had the chance to pretest it, but 33.3%
+3.655]) more likely to delegate. While confidence in human forecast                     do so if they did not pretest the algorithm. We find no equivalent
+(CIH) also significantly influences the choice to delegate, its effect                  discrepancy for the promotion scenario (P_pt=18.8%; P_nt=14.3%).
+is smaller. For each marginal increase in CIH, the likelihood of                        Individuals more confident in machine-based forecasts exhibit
+delegating to the algorithm decreased by 55.3% (95% CI [0.290,                          the strongest effects. Of this group of respondents, 68.4% will
+0.690]), these divergent marginal effects are illustrated in Figure 3.                  delegate dismissal decisions to an algorithm, but only 46.7% do
+In Model II, we investigate the relation between the combined                           so if they had a chance to pretest the algorithm. Similarly, 48.0%
+treatment effects (HR choice type and pretest condition) but the                        individuals with relatively higher confidence in machine-based
+effects of the confidence variables CIH and CIM remain equally                          decision making will delegate promotion decisions to the algorithm,
+strong. Further analysis revealed no other significant interaction                      but only 23.1% do so after testing the algorithm.
+effects.3
+                                                                                        DISCUSSION
+   Since individuals may hold divergent levels of confidence in
+human and machine forecast, we illustrate their effect on the                           The experimental findings reveal that changing the valence type
+choice to delegate the HR decision to the algorithm further in                          of HR decision from a presumably unpleasant decision (i.e.,
+                                                                                        dismissing staff) to a presumably preferable one (i.e., promoting
+3Additional results of interaction effects analyses are available from the authors
+upon request.
+
+Frontiers in Psychology | www.frontiersin.org                                       10  May 2022 | Volume 13 | Article 779028
+Maasland and Weißmüller                                                                                       Algorithm Aversion and Blame Avoidance
+
+FIGURE 4| Share (S) of participants delegating HR decision to algorithm, by treatment and confidence levels.
+
+staff) does not necessarily affect the likelihood of delegating this         The experimental evidence of our study relies on an innovative,
+choice to a supportive algorithm. The absence of a substantial            balanced, and randomly controlled experiment to warrant high
+direct effect in a strictly controlled experimental study with a          internal validity and to eradicate the influence of socio-
+relevant sample of young professionals and graduate students has          demographic factors, which might differentiate employees in
+important implications for human resource management scholarship          their interaction with technology and prime their decision
+and practice: It shows that the affective reference frame of an           delegation likelihood (McKnight et al., 2011). Neither
+HR decision does not function unconditionally as a reliable               respondents' trust in technology, age, gender, nor level of
+predictor for whether decision makers will use algorithmic decision       education, explained any substantial amount of variance in
+support systems to avoid blame and shift the mental burden of             delegating choice. This is in line with study of Dietvorst et al.
+responsibility. While there is some indicative support for a choice       (2015), which did not find significant effects regarding these
+type-related effect, this effect is much weaker than anticipated          control variables either. This similarity underlines that our
+and conditional upon the perceived quality of the algorithm               results are substantial regarding the observation that blame
+forecast as well as decision makers' confidence in machine vis-à-vis      avoiding behavior is conditional while algorithm aversion is
+human forecast quality. People will not automatically use the             a fundamental psychological mechanism.
+algorithm to shift blame.
+                                                                             Compared with participants in the pretest condition,
+   This is the first experimental study to investigate algorithm          participants in the no-test condition assumed that the algorithm-
+aversion and blame avoidance in HR using a German sample.                 based forecasting model was more accurate. This means that
+We find the same direction of effects as Dietvorst et al. (2015,          testing--and thereby experiencing the fallibility of an algorithm--
+2018) and have hence replicated and extended their results.               increases algorithm aversion rather than decreasing it. This
+The study of Dietvorst et al. (2015) was conducted with MBA               finding is in line with prior empirical findings of Dietvorst
+students from a United States university, while our study relies          et al. (2015, 2018), Burton et al. (2020), and Prahl and van
+on experimental data raised with a sample of both young                   Swol (2021), and it highlights practitioners' peculiar challenges
+professionals and graduate students from Germany.                         in encouraging the use of algorithm-based decision support
+We contribute to the generalizability of the findings regarding           systems in reluctant staff.
+algorithm aversion internationally and in practice, complementing
+recent scholarship by, among others, Lee (2018), Newman et al.               Supporting prior research on blame avoidance in other fields
+(2020), Filiz et al. (2021), and Renier et al. (2021). Although           of decision research (Vis and van Kersbergen, 2007; Bartling
+our findings on algorithm aversion are statistically significant          and Fischbacher, 2012), we specifically contribute to HRM
+and robust, the effect sizes we observe are substantially                 scholarship by revealing that study participants tasked with
+smaller--i.e., only one third as large as in Dietvorst et al.             dismissing staff tend to delegate to the algorithm but only under
+(2015). One explanation for the differences in effect sizes is            certain conditions related to their confidence in human and
+that country cultures exhibit specific differences in trust in            machine forecast, echoing prior findings on the essential role
+artificial intelligence (Gillespie et al., 2021).                         of confidence in human and machine forecast by Filiz et al.
+                                                                          (2021). In contrast, pretesting the algorithm reduces the likelihood
+
+Frontiers in Psychology | www.frontiersin.org                         11                                      May 2022 | Volume 13 | Article 779028
+Maasland and Weißmüller                                                        Algorithm Aversion and Blame Avoidance
+
+of delegating an HR decision to it. This effect is stable across               on human­human vis-à-vis human­machine trust (Madhavan
+both types of HR decisions assessed, but it is stronger in the                 and Wiegmann, 2007; Prahl and van Swol, 2017, 2021; Filiz
+setting of selecting employees for promotion than for dismissal,               et al., 2021). Practitioners need to be aware that familiarity
+all else being equal. However, only the effect of the promotion-               with an algorithm--i.e., the chance to pretest it--may lead to
+related setting is statistically reliable. This implies that decision          asymmetries in the likelihood of using the algorithm despite
+makers tend to be less likely to delegate presumably more                      the algorithm's usefulness and high forecast precision. Algorithm
+pleasant promotion decisions to an algorithm, but this relationship            aversion is, under some conditions, choice task dependent (see
+is only statistically reliable if pretesting is possible. One explanation      also Castelo et al., 2019), but the nature of the choice task is
+for this pattern is that choice delegation may indeed come with                not the decisive factor. While presumably more pleasant HR
+a loss of psychological ownership, which is affectively undesirable            decisions such as promoting employees may reduce the likelihood
+for (presumably) more pleasant tasks that involve hedonic utility              of using algorithmic support it is important to note that the
+for the decision maker (Önkal et al., 2009; Cassotti et al., 2012;             combination of pretesting, low confidence in machine forecast,
+Stark et al., 2017). It is, therefore, individually rational not to            and task type may lead to biased choices and unintended
+delegate if individuals perceive their decision to result in affectively       outcomes. Practitioners are encouraged to help their staff build
+pleasant outcomes in social contexts (Forgas, 2006). Another                   organic trust in their decision support systems but also foster
+explanation relates to the flawed expectation of ultimate perfection           awareness of both the advantages but also risks in using algorithm-
+in algorithms' precision and performance when used in algorithm-               based help in HRM (Leicht-Deobald et al., 2019).
+based decision support systems in HR (Boyd and Crawford,
+2012; Ziewitz, 2016). Individuals mostly expect algorithms to                  Limitations and Future Research
+be infallible (Dietvorst et al., 2015; Dietvorst and Bharti, 2020;
+Berger et al., 2021). When confronted with algorithms' realistic               As all empirical research, the generalizability of the findings
+error margins, this expectation disconfirmation may trigger the                of the current experiment is limited to some extent. First,
+psychological effect of dissatisfaction-based negativity bias (Oliver,         while this study relies on data of a highly educated sample
+1980; Oliver and DeSarbo, 1988). This means that experiencing                  of individuals at the start of their careers, it is a convenience
+the potentially unexpected fallibility of an algorithm triggers                sample and not representative for the general population. Yet,
+an asymmetrically larger negative response than experiencing                   in view of the aim of the study, the sample is relevant as it
+the strengths of the algorithm triggers a positive response, even              resembles the typical socio-demographic profile of university
+though the algorithm still outperforms human forecast precision.               graduates that are highly in demand for diverse types of
+Since recent research by Renier et al. (2021) support this                     managerial training positions in Germany. Furthermore, we are
+presumption of algorithm-error related negativity bias, we assume              confident in the generalizability of our results (within certain
+that the widely held expectation of algorithm-based HR decision                boundaries) since our study replicates and extends the results
+support systems as perfect (Constantiou and Kallinikos, 2015;                  by Dietvorst et al. (2015).
+Leicht-Deobald et al., 2019) may have caused respondents to
+experience the realistic imperfection of the algorithm in our                     We identify two specific avenues for future research. First,
+experiment as a negative surprise, which may have increased                    we believe that more experimental research--especially using
+reluctance to use it (Madhavan and Wiegmann, 2007; Prahl                       realistic treatment conditions with an elevated level of
+and van Swol, 2017; Lee, 2018).                                                respondent immersion--is needed to further explore the effect
+                                                                               of perceived algorithm forecast accuracy as a necessary condition
+   We find that decision makers' level of confidence in human                  for blame avoidance. Our findings suggest that the likelihood
+vis-à-vis machine-based forecast is a strong predictor of their                of using an algorithm to support their HR decisions is
+likelihood of delegation, which is in line with recent empirical               contingent upon the type of decision but also confidence in,
+findings by Berger et al. (2021). Higher confidence in machine-                expectations toward, and prior interaction experience with
+based forecasting is correlated with a higher likelihood of using              algorithmic forecasting models. Future studies are encouraged
+the decision support system, which poses a paradoxical practical               to replicate and enhance our experimental design by
+challenge because pretesting an "imperfect" (i.e., realistic) algorithm        systematically manipulating the quality of the algorithm to
+reduces the confidence in machine-based forecasting. This                      investigate whether the effect is linear or dynamic. Particularly,
+corresponds to prior findings by Lee (2018). Likewise, higher                  we encourage future research to replicate our research design
+confidence in human forecasting is significantly correlated with               with a specific focus on HR professionals' and managers'
+a lower likelihood of delegating HR decisions to an algorithm.                 perspective to explore the effect of professional experience
+Individuals who are more confident in human vis-à-vis algorithm-               and confidence in human vis-à-vis machine-based forecasts
+based forecast precision have a very low likelihood of delegating              in more detail.
+the decision. Confidence in the algorithm is significantly associated
+with a higher likelihood of delegating the decision to the algorithm,             Second, more research is needed to explore the phenomenon
+whereas confidence in the human forecast is negatively correlated              of the saturation effect of algorithm aversion. Our data reveal
+with the likelihood of delegating to the algorithm. This effect                the same stable saturation level as Dietvorst et al. (2015), while
+is asymmetric in the sense that higher confidence in the algorithm             using a sample from another country, i.e., Germany. Although
+has a higher positive effect than higher confidence in human                   this strongly indicates that there is a base-line psychological
+forecast has a negative one. This is in line with prior research               mechanism at work, more quantitative replication studies with
+                                                                               samples from other countries, cultures, and HR tasks are needed
+                                                                               to assess its generalizability.
+
+Frontiers in Psychology | www.frontiersin.org                              12  May 2022 | Volume 13 | Article 779028
+Maasland and Weißmüller                                                                  Algorithm Aversion and Blame Avoidance
+
+DATA AVAILABILITY STATEMENT                                                              AUTHOR CONTRIBUTIONS
+
+The raw data supporting the conclusions of this article                                  All authors listed have made a substantial, direct, and intellectual
+will be made available by the authors, without undue                                     contribution to the work and approved it for publication.
+reservation.
+                                                                                         FUNDING
+ETHICS STATEMENT
+                                                                                         Open access funding was provided by the University of Bern.
+Ethical review and approval was not required for the
+study on human participants in accordance with the local                                 SUPPLEMENTARY MATERIAL
+legislation and institutional requirements. Written informed
+consent for participation was not required for this study                                The Supplementary Material for this article can be found
+in accordance with the national legislation and the                                      online at: https://www.frontiersin.org/articles/10.3389/fpsyg.
+institutional requirements.                                                              2022.779028/full#supplementary-material
+
+
+
+REFERENCES                                                                               Fildes, R., and Goodwin, P. (2007). Against your better judgment? How
+                                                                                             organizations can improve their use of management judgment in forecasting.
+Aguinis, H., and Bradley, K. J. (2014). Best practice recommendations for                    Interfaces 37, 570­576. doi: 10.1287/inte.1070.0309
+    designing and implementing experimental vignette methodology studies.
+    Organ. Res. Methods 17, 351­371. doi: 10.1177/1094428114547952                       Fildes, R., and Hastings, R. (1994). The organization and improvement of
+                                                                                             market forecasting. J. Oper. Res. Soc. 45, 1­16. doi: 10.1057/jors.1994.1
+Angrave, D., Charlwood, A., Kirkpatrick, I., Lawrence, M., and Stuart, M.
+    (2016). HR and analytics: why HR is set to fail the big data challenge.              Filiz, I., Judek, J. R., Lorenz, M., and Spiwoks, M. (2021). Reducing algorithm
+    Hum. Resour. Manag. J. 26, 1­11. doi: 10.1111/1748-8583.12090                            aversion through experience. J. Behav. Exp. Financ. 31:100524. doi: 10.1016/j.
+                                                                                             jbef.2021.100524
+Atzmüller, C., and Steiner, P. M. (2010). Experimental vignette studies in survey
+    research. Methodology 6, 128­138. doi: 10.1027/1614-2241/a000014                     Fineman, D. R., Chakrabarti, M., Demetriou, S., Guszcza, J., Houston, J., and
+                                                                                             Smeyers, L. (2017). "People analytics: recalculating the route: 2017 deloitte
+Bartling, B., and Fischbacher, U. (2012). Shifting the blame: on delegation and              global human capital trends." Available at: https://www2.deloitte.com/us/en/
+    responsibility. Rev. Econ. Stud. 79, 67­87. doi: 10.1093/restud/rdr023                   i n s i g h t s / f o c u s / h u m a n - c a p i t a l - t r e n d s / 2 0 1 7 / p e o p l e - a n a l y t i c s - i n - h r.
+                                                                                             html/#endnote-sup-3 (Accessed December 10, 2021).
+Bem, D. J. (1972). Self-perception theory. Adv. Exp. Soc. Psychol. 6, 1­62. doi:
+    10.1016/s0065-2601(08)60024-6                                                        Fisher, R. J., and Katz, J. E. (2000). Social-desirability bias and the validity of
+                                                                                             self-reported values. Psychol. Mark. 17, 105­120. doi: 10.1002/(SICI)1520
+Berger, B., Adam, M., Rühr, A., and Benlian, A. (2021). Watch me improve--                   -6793(200002)17:2<105::AID-MAR3>3.0.CO;2-9
+    algorithm aversion and demonstrating the ability to learn. Bus. Inf. Syst.
+    Eng. 63, 55­68. doi: 10.1007/s12599-020-00678-5                                      Forgas, J. P. (ed.) (2006). Affect in Social Thinking and Behavior. New York:
+                                                                                             Psychology Press.
+Boudreau, J., and Rice, S. (2015). Bright, shiny objects and the future of HR.
+    how juniper networks tests and integrates the most valuable new approaches.          Giermindl, L. M., Strich, F., Christ, O., Leicht-Deobald, U., and Redzepi, A.
+    Harv. Bus. Rev. 72­78.                                                                   (2021). The dark sides of people analytics: reviewing the perils for organisations
+                                                                                             and employees. Eur. J. Inf. Syst., 1­26. doi: 10.1080/0960085X.2021.1927213
+Boyd, D., and Crawford, K. (2012). Critical questions for big data. Inf. Commun.
+    Soc. 15, 662­679. doi: 10.1080/1369118X.2012.678878                                  Gillespie, N., Lockey, S., and Curtis, C. (2021). Trust in Artificial Intelligence:
+                                                                                             A Five Country Study. Brisbane, Australia: The University of Queensland
+Burton, J. W., Stein, M.-K., and Jensen, T. B. (2020). A systematic review of                and KPMG.
+    algorithm aversion in augmented decision making. J. Behav. Decis. Mak.
+    33, 220­239. doi: 10.1002/bdm.2155                                                   Grove, W. M., and Meehl, P. E. (1996). Comparative efficiency of informal
+                                                                                             (subjective, impressionistic) and formal (mechanical, algorithmic) prediction
+Cassotti, M., Habib, M., Poirel, N., Aïte, A., Houdé, O., and Moutier, S. (2012).            procedures: the clinical­statistical controversy. Psychol. Public Policy Law 2,
+    Positive emotional context eliminates the framing effect in decision-making.             293­323. doi: 10.1037/1076-8971.2.2.293
+    Emotion 12, 926­931. doi: 10.1037/a0026788
+                                                                                         Hamman, J. R., Loewenstein, G., and Weber, R. A. (2010). Self-interest through
+Castelo, N., Bos, M. W., and Lehmann, D. R. (2019). Task-dependent algorithm                 delegation: an additional rationale for the principal-agent relationship. Am.
+    aversion. J. Mark. Res. 56, 809­825. doi: 10.1177/0022243719851788                       Econ. Rev. 100, 1826­1846. doi: 10.1257/aer.100.4.1826
+
+Constantiou, I. D., and Kallinikos, J. (2015). New games, new rules: big data            Haube, J. (2015). "HR analytics: a look inside Walmart's HR `test & learn'
+    and the changing context of strategy. J. Inf. Technol. 30, 44­57. doi: 10.1057/          model." Available at: https://community.hrdaily.com.au/profiles/blogs/hr-
+    jit.2014.17                                                                              analytics-a-look-inside-walmart-s-hr-test-learn-model (Accessed December
+                                                                                             10, 2021).
+Dietvorst, B. J., and Bharti, S. (2020). People reject algorithms in uncertain
+    decision domains because they have diminishing sensitivity to forecasting            Highhouse, S. (2008). Stubborn reliance on intuition and subjectivity in employee
+    error. Psychol. Sci. 31, 1302­1314. doi: 10.1177/0956797620948841                        selection. Ind. Organ. Psychol. 1, 333­342. doi: 10.1111/j.1754-9434.2008.00058.x
+
+Dietvorst, B. J., Simmons, J. P., and Massey, C. (2015). Algorithm aversion:             Hill, A. (2015). Does delegation undermine accountability? Experimental evidence
+    people erroneously avoid algorithms after seeing them err. J. Exp. Psychol.              on the relationship between blame shifting and control. J. Empir. Leg. Stud.
+    General 144, 114­126. doi: 10.1037/xge0000033                                            12, 311­339. doi: 10.1111/jels.12074
+
+Dietvorst, B. J., Simmons, J. P., and Massey, C. (2018). Overcoming algorithm            Hsee, C. K. (1996). Elastic justification: how unjustifiable factors influence judgments.
+    aversion: people will use imperfect algorithms if they can (even slightly)               Organ. Behav. Hum. Decis. Process. 66, 122­129. doi: 10.1006/obhd.1996.0043
+    modify them. Manag. Sci. 64, 1155­1170. doi: 10.1287/mnsc.2016.2643
+                                                                                         Huselid, M. A. (1995). The impact of human resource management practices
+Dzindolet, M. T., Pierce, L. G., Beck, H. P., and Dawe, L. A. (2002). The                    on turnover, productivity, and corporate financial performance. Acad. Manag.
+    perceived utility of human and automated aids in a visual detection task.                J. 38, 635­672. doi: 10.2307/256741
+    Hum. Factors 44, 79­94. doi: 10.1518/0018720024494856
+                                                                                         Kahneman, D., and Tversky, A. (1979). Prospect theory: an analysis of decision
+Erat, S. (2013). Avoiding lying: the case of delegated deception. J. Econ. Behav.            under risk. Econometrica 47, 263­291. doi: 10.2307/1914185
+    Organ. 93, 273­278. doi: 10.1016/j.jebo.2013.03.035
+
+Frontiers in Psychology | www.frontiersin.org                                        13  May 2022 | Volume 13 | Article 779028
+Maasland and Weißmüller                                                                     Algorithm Aversion and Blame Avoidance
+
+Kuncel, N. R., Klieger, D. M., Connelly, B. S., and Ones, D. S. (2013). Mechanical          Renier, L. A., Mast, M. S., and Bekbergenova, A. (2021). To err is human,
+    versus clinical data combination in selection and admissions decisions: a                   not algorithmic--robust reactions to erring algorithms. Comput. Hum. Behav.
+    meta-analysis. J. Appl. Psychol. 98, 1060­1072. doi: 10.1037/a0034156                       124:106879. doi: 10.1016/j.chb.2021.106879
+
+Langer, M., and Landers, R. N. (2021). The future of artificial intelligence at             Rozin, P., and Royzman, E. B. (2001). Negativity bias, negativity dominance,
+    work: a review on effects of decision automation and augmentation on                        and contagion. Personal. Soc. Psychol. Rev. 5, 296­320. doi: 10.1207/
+    workers targeted by algorithms and third-party observers. Comput. Hum.                      S15327957PSPR0504_2
+    Behav. 123:106878. doi: 10.1016/j.chb.2021.106878
+                                                                                            Sanders, N. R., and Manrodt, K. B. (2003). The efficacy of using judgmental
+Lee, M. K. (2018). Understanding perception of algorithmic decisions: fairness,                 versus quantitative forecasting methods in practice. Omega 31, 511­522.
+    trust, and emotion in response to algorithmic management. Big Data Soc.                     doi: 10.1016/j.omega.2003.08.007
+    5:205395171875668. doi: 10.1177/2053951718756684
+                                                                                            Sawyer, J. (1966). Measurement and prediction, clinical and statistical. Psychol.
+Leicht-Deobald, U., Busch, T., Schank, C., Weibel, A., Schafheitle, S., Wildhaber, I.,          Bull. 66, 178­200. doi: 10.1037/h0023624
+    et al. (2019). The challenges of algorithm-based HR decision-making for
+    personal integrity. J. Bus. Ethics 160, 377­392. doi: 10.1007/s10551-019-04204-w        Sharma, A., and Sharma, T. (2017). HR analytics and performance appraisal
+                                                                                                system. Manag. Res. Rev. 40, 684­697. doi: 10.1108/MRR-04-2016-0084
+Longoni, C., Bonezzi, A., and Morewedge, C. K. (2019). Resistance to medical
+    artificial intelligence. J. Consum. Res. 46, 629­650. doi: 10.1093/jcr/ucz013           Shrivastava, S., Nagdev, K., and Rajesh, A. (2018). Redefining HR using people
+                                                                                                analytics: the case of Google. Hum. Resour. Manag. Int. Dig. 26, 3­6. doi:
+Madhavan, P., and Wiegmann, D. A. (2007). Similarities and differences between                  10.1108/HRMID-06-2017-0112
+    human­human and human­automation trust: an integrative review. Theor.
+    Issues Ergon. Sci. 8, 277­301. doi: 10.1080/14639220500337708                           Shteingart, H., Neiman, T., and Loewenstein, Y. (2013). The role of first impression
+                                                                                                in operant learning. J. Exp. Psychol. General 142, 476­488. doi: 10.1037/
+McKnight, D. H., Carter, M., Thatcher, J. B., and Clay, P. F. (2011). Trust in                  a0029550
+    a specific technology. ACM Trans. Manag. Inf. Syst. 2, 1­25. doi:
+    10.1145/1985347.1985353                                                                 Staab, P., and Geschke, S.-C. (2020). Ratings als Arbeitspolitisches Konfliktfeld:
+                                                                                                Das Beispiel Zalando. Düsseldorf: Hans-Böckler-Stiftung.
+Meehl, P. E. (1954). Clinical Versus Statistical Prediction: A Theoretical Analysis
+    and a Review of the Evidence. Minneapolis: University of Minnesota Press.               Stangor, C., and McMillan, D. (1992). Memory for expectancy-congruent and
+                                                                                                expectancy-incongruent information: a review of the social and social developmental
+Mentzer, J. T., and Kahn, K. B. (1995). Forecasting technique familiarity,                      literatures. Psychol. Bull. 111, 42­61. doi: 10.1037/0033-2909.111.1.42
+    satisfaction, usage, and application. J. Forecast. 14, 465­476. doi: 10.1002/
+    for.3980140506                                                                          Stark, E., Baldwin, A. S., Hertel, A. W., and Rothman, A. J. (2017). Understanding
+                                                                                                the framing effect: do affective responses to decision options mediate the
+Newman, D. T., Fast, N. J., and Harmon, D. J. (2020). When eliminating bias                     influence of frame on choice? J. Risk Res. 20, 1585­1597. doi:
+    isn't fair: algorithmic reductionism and procedural justice in human resource               10.1080/13669877.2016.1200654
+    decisions. Organ. Behav. Hum. Decis. Process. 160, 149­167. doi: 10.1016/j.
+    obhdp.2020.03.008                                                                       Steffel, M., Williams, E. F., and Perrmann-Graham, J. (2016). Passing the buck:
+                                                                                                delegating choices to others to avoid responsibility and blame. Organ. Behav.
+Oexl, R., and Grossman, Z. J. (2013). Shifting the blame to a powerless                         Hum. Decis. Process. 135, 32­44. doi: 10.1016/j.obhdp.2016.04.006
+    intermediary. Exp. Econ. 16, 306­312. doi: 10.1007/s10683-012-9335-7
+                                                                                            Tambe, P., Cappelli, P., and Yakubovich, V. (2019). Artificial intelligence in
+Oliver, R. L. (1980). A cognitive model of the antecedents and                                  human resources management: challenges and a path forward. Calif. Manag.
+    consequences of satisfaction decisions. J. Mark. Res. 17, 460­469. doi:                     Rev. 61, 15­42. doi: 10.1177/0008125619867910
+    10.1177/002224378001700405
+                                                                                            Tversky, A., and Kahneman, D. (1991). Loss aversion in riskless choice: a reference-
+Oliver, R. L., and DeSarbo, W. S. (1988). Response determinants in satisfaction                 dependent model. Quart. J. Econ. 106, 1039­1061. doi: 10.2307/2937956
+    judgments. J. Consum. Res. 14:495. doi: 10.1086/209131
+                                                                                            Vis, B., and van Kersbergen, K. (2007). Why and how do political
+Önkal, D., and Gönül, M. S. (2005). Judgmental adjustment. A challenge for                      actors pursue risky reforms? J. Theor. Polit. 19, 153­172. doi:
+    providers and users of forecasts. Foresight Int. J. Appl. Forecast. 1, 13­17.               10.1177/0951629807074268
+
+Önkal, D., Goodwin, P., Thomson, M., Gönül, S., and Pollock, A. (2009).                     Vrieze, S. I., and Grove, W. M. (2009). Survey on the use of clinical and
+    The relative influence of advice from human experts and statistical methods                 mechanical prediction methods in clinical psychology. Prof. Psychol. Res.
+    on forecast adjustments. J. Behav. Decis. Mak. 22, 390­409. doi: 10.1002/                   Pract. 40, 525­531. doi: 10.1037/a0014693
+    bdm.637
+                                                                                            Ziewitz, M. (2016). Governing algorithms. Sci. Technol. Hum. Values 41, 3­16.
+Peck, D. (2013). "They're watching you at work." Available at: https://www.                     doi: 10.1177/0162243915608948
+    theatlantic.com/magazine/archive/2013/12/theyre-watching-you-at-
+    work/354681/ (Accessed December 10, 2021).                                              Conflict of Interest: The authors declare that the research was conducted in
+                                                                                            the absence of any commercial or financial relationships that could be construed
+Peeters, T., Paauwe, J., and van de Voorde, K. (2020). People analytics effectiveness:      as a potential conflict of interest.
+    developing a framework. J. Organ. Effective. People Perform. 7, 203­219.
+    doi: 10.1108/JOEPP-04-2020-0071                                                         Publisher's Note: All claims expressed in this article are solely those of the
+                                                                                            authors and do not necessarily represent those of their affiliated organizations,
+Petropoulos, F., Fildes, R., and Goodwin, P. (2016). Do `big losses' in judgmental          or those of the publisher, the editors and the reviewers. Any product that may
+    adjustments to statistical forecasts affect experts' behaviour? Eur. J. Oper.           be evaluated in this article, or claim that may be made by its manufacturer, is
+    Res. 249, 842­852. doi: 10.1016/j.ejor.2015.06.002                                      not guaranteed or endorsed by the publisher.
+
+Prahl, A., and van Swol, L. (2017). Understanding algorithm aversion: when                  Copyright © 2022 Maasland and Weißmüller. This is an open-access article
+    is advice from automation discounted? J. Forecast. 36, 691­702. doi: 10.1002/           distributed under the terms of the Creative Commons Attribution License (CC BY).
+    for.2464                                                                                The use, distribution or reproduction in other forums is permitted, provided the
+                                                                                            original author(s) and the copyright owner(s) are credited and that the original
+Prahl, A., and van Swol, L. (2021). Out with the humans, in with the machines?              publication in this journal is cited, in accordance with accepted academic practice.
+    Investigating the behavioral and psychological effects of replacing human               No use, distribution or reproduction is permitted which does not comply with
+    advisors with a machine. Hum. Mach. Commun. 2, 209­234. doi: 10.30658/                  these terms.
+    hmc.2.11
+
+Reindl, C. U. (2016). People analytics: datengestützte mitarbeiterführung als
+    chance für die organisationspsychologie. Gruppe Interakt. Organ. Z. Angewandte
+    Organ. 47, 193­197. doi: 10.1007/s11612-016-0325-7
+
+Frontiers in Psychology | www.frontiersin.org                                           14  May 2022 | Volume 13 | Article 779028
+

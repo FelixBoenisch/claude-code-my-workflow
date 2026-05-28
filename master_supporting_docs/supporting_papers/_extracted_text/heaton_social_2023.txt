@@ -1,0 +1,721 @@
+The Social Impact of Decision-Making Algorithms: Reviewing the
+                                     Influence
+
+of Agency, Responsibility and Accountability on Trust and Blame
+
+                    Dan Heaton                                                                                 Jérémie Clos
+
+             daniel.heaton@nottingham.ac.uk                                                              jeremie.clos@nottingham.ac.uk
+School of Computer Science, University of Nottingham                                       School of Computer Science, University of Nottingham
+
+               Nottingham, United Kingdom                                                                 Nottingham, United Kingdom
+
+                        Elena Nichele                                                                         Joel E. Fischer
+
+                         enichele@lincoln.ac.uk                                                           joel.fischer@nottingham.ac.uk
+       Lincoln International Business School, University of                                School of Computer Science, University of Nottingham
+
+                                  Lincoln                                                                 Nottingham, United Kingdom
+                    Nottingham, United Kingdom
+                                                                                           1 INTRODUCTION
+ABSTRACT
+                                                                                           Decision-making algorithms are widely used in various domains,
+Despite the ever-growing use of decision-making algorithms in                              such as finance, healthcare, and criminal justice [26, 58, 63]. These
+daily life, there has been limited examination of how the supposed                         algorithms aim to enhance the decision-making process, but con-
+agency, responsibility and accountability of these algorithms can                          cerns about agency can arise, usually when negative outcomes
+have impact on whether users trust them or blame them for failures.                        occur [14, 16]. The complexity and opacity of decision-making
+Therefore, this contribution reviews current literature relating to                        algorithms means it is challenging to determine who or what is
+these concepts to synthesise present ideas around the social im-                           responsible for negative outcomes [37, 65, 71]. Similarly, respon-
+pact of these systems. We highlight the challenges of defining and                         sibility and accountability have been examined in the context of
+operationalising these concepts in the context of algorithmic gov-                         decision-making algorithms. Responsibility ensures that the sys-
+ernance and discuss the need for more empirical research on how                            tem is designed and deployed ethically and with the appropriate
+decision-making algorithms impact trust and blame in practice. We                          considerations for its impact on society [37, 71]. Accountability
+also foreground the importance of presumed agency and whether                              examines who is answerable to the system's performance and out-
+human agency is mitigated by increased algorithmic agency. Af-                             comes, including any errors, biases, or unintended consequences
+ter this, we use the AREA 4P responsible research and innovation                           [24, 72]. Some research has suggested that the responsibility and
+framework to reflect on the findings of the literature review, which                       accountability for negative outcomes should be shared among all
+emphasises the need for a more nuanced understanding of the im-                            actors involved in the development and use of these algorithms,
+pact of agency, responsibility and accountability on trust and blame                       including developers, operators, data providers, regulators, and the
+in algorithmic decision-making. By addressing these concerns and                           algorithms themselves [52].
+gaps in research, the authors argue that scholars can develop more
+effective strategies for ensuring responsible and ethical governance                          As decision-making algorithms become more ubiquitous, it is
+of decision-making algorithms.                                                             crucial to understand how they impact public perceptions of trust
+                                                                                           and blame [11, 66]. Trust is a critical component of successful im-
+KEYWORDS                                                                                   plementation and adoption of decision-making algorithms, as users
+                                                                                           must have confidence in the system's ability to make unbiased and
+decision-making algorithms, responsible research and innovation,                           accurate decisions [2]. Conversely, the allocation of blame can oc-
+trust, blame, agency, responsibility, accountability                                       cur when negative outcomes are attributed to a decision-making
+                                                                                           algorithm, which can result in a loss of trust and reluctance to
+ACM Reference Format:                                                                      use the technology [39, 75]. Several studies have explored the rela-
+Dan Heaton, Jérémie Clos, Elena Nichele, and Joel E. Fischer. 2023. The                    tionship between trust and blame in decision-making algorithms,
+Social Impact of Decision-Making Algorithms: Reviewing the Influence                       and the factors that can influence them, including transparency
+of Agency, Responsibility and Accountability on Trust and Blame. In First                  [16], perceived control [37, 72] and the social context in which the
+International Symposium on Trustworthy Autonomous Systems (TAS '23),                       system is implemented [22].
+July 11­12, 2023, Edinburgh, United Kingdom. ACM, New York, NY, USA,
+11 pages. https://doi.org/10.1145/3597512.3599706                                             Despite the growing interest in this topic, there remains little ex-
+                                                                                           ploration of how trust and blame in decision-making algorithms is
+Permission to make digital or hard copies of part or all of this work for personal or      impacted by perceived social agency, responsibility and accountabil-
+classroom use is granted without fee provided that copies are not made or distributed      ity of systems. This is especially true when the algorithms impact
+for profit or commercial advantage and that copies bear this notice and the full citation  the general public as opposed to a specific set of users, such as the
+on the first page. Copyrights for third-party components of this work must be honored.     NHS Covid-19 app [35]. Understanding the broader societal impli-
+For all other uses, contact the owner/author(s).                                           cations of these technologies is essential for ensuring that their
+TAS '23, July 11­12, 2023, Edinburgh, United Kingdom
+© 2023 Copyright held by the owner/author(s).
+ACM ISBN 979-8-4007-0734-6/23/07.
+https://doi.org/10.1145/3597512.3599706
+TAS '23, July 11­12, 2023, Edinburgh, United Kingdom                                                                                                              Heaton et al.
+
+development and use is socially responsible and does not exacerbate            · The study had to be published between 2000 and 2023 (this
+existing inequalities [22]. Examining how agency, responsibility                  was exclusive of definitions of key concepts).
+and accountability impact whether users of decision-making al-
+gorithms either trust them or blame them could allow developers,               · Additionally, but not exclusively, the study should be related
+researchers and promoters of these systems to overcome complex                    to themes concerning RRI, e.g. ethics, governance, public
+barriers to adoption. By exploring the relationship between agency,               engagement.
+responsibility, accountability, and trust and blame directed towards
+decision-making algorithms, this paper seeks to contribute to a              The exclusion criteria were:
+better understanding of the social impact of these technologies
+through the process of reviewing current work relating to these                · Studies that did not meet the inclusion criteria.
+concepts.                                                                      · Studies that focused on topics other than decision-making
+
+   Therefore, the primary aim of this work is to review and syn-                  algorithms, agency, responsibility, accountability, trust, and
+thesise existing literature that relates to agency, responsibility and            blame.
+accountability and how these concepts impact trust and blame                   · Studies that were not published in English.
+directed towards decision-making algorithms. Alongside this, a sec-            · Studies that were published before 2000.
+ondary aim of this work is to use principles of Responsible Research
+and Innovation (RRI) to critically reflect and analyse current direc-     Given the exclusion criteria, there is no doubt that some of the
+tions of research to offer suggestions for how upcoming research          insights gained will be bias, as they come from English printed
+agendas into this topic could be shaped. This approach seeks to en-       peer-reviewed work that omits grey literature.
+sure that the development of decision-making algorithms is not just
+technically efficient, but also socially responsible, by considering      2.3 Data Extraction and Analysis
+the broader societal impacts of these technologies.
+                                                                          The data extraction and analysis process followed a predefined
+   This review and reflection is split into four distinct sections. This  protocol. In total, 860 publications were gathered. Literature was
+first part of this contribution presents explorations of decision-        independently screened based on the inclusion and exclusion crite-
+making algorithms and their supposed agency, responsibility and           ria, extracting relevant data from the studies, including the author,
+accountability. The second part of the review then examines how           year of publication, research question, methodology, and key find-
+this supposed agency, responsibility and accountability can feed          ings. The quality of the studies was assessed by two of the authors
+into feelings of trust (and, thus distrust) or blame. Next, we use        using the Critical Appraisal Skills Program checklist for systematic
+principles of RRI, through the AREA 4P framework, to reflect on           reviews, examining the validity, reliability, and relevance of the
+the state of the art with regard to how agency, responsibility and        studies [67].
+accountability can impact trust and blame in decision-making al-
+gorithms. Finally, this contribution distinguishes research gaps in          As well as reviewing the studies for the purposes already stip-
+the current field and proposes further lines of inquiry based on the      ulated, we also analysed this literature using the AREA 4P RRI
+review and reflection undertaken.                                         framework, adapted from Jirotka et al. [38], involving four stages:
+                                                                          Anticipate, Reflect, Engage, and Act. The Anticipate stage involves
+2 METHODOLOGICAL APPROACH                                                 identifying the potential ethical and social implications of decision-
+                                                                          making algorithms. The Reflect stage involves critically analysing
+This section details our approach to conducting our systematic            the implications of decision-making algorithms from different ethi-
+review into this topic.                                                   cal perspectives. The Engage stage involves examining the potential
+                                                                          of engaging with stakeholders to understand their perspectives on
+2.1 Search Strategy                                                       decision-making algorithms. The Act stage involves proposing ac-
+                                                                          tions and recommendations to address the issues identified in the
+The review followed a systematic search strategy to identify rele-        review.
+vant studies. We searched several academic databases, including
+Google Scholar, using a combination of keywords related to agency,           Overall, this review followed a rigorous methodology, including
+responsibility, accountability, trust and blame in decision-making        a systematic search strategy, predefined inclusion and exclusion
+algorithms. The search was limited to articles published in English       criteria, data extraction and analysis, and quality assessment. The
+between 2000 and 2023 to ensure a relevance to contemporary work          review applied the AREA 4P RRI framework to synthesise and
+was maintained.                                                           analyse the existing literature on how agency, responsibility, and
+                                                                          accountability impact trust and blame directed towards decision-
+2.2 Study Selection                                                       making algorithms. The review findings provide valuable insights
+                                                                          into the ethical and social implications of agency, responsibility
+The inclusion criteria for studies were:                                  and accountability of decision-making algorithms and inform best
+                                                                          practices for their development and use.
+     · The study had to be published in an academic journal or
+        conference proceedings.                                           3 REVIEWING AGENCY, RESPONSIBILITY
+                                                                              AND ACCOUNTABILITY
+     · The study should focus on the impact of agency, responsibil-
+        ity, and accountability on trust and blame in decision-making     This section of the review will focus on agency, accountability and
+        algorithms.                                                       responsibility. For the purposes of this exploration, agency refers to
+                                                                          the ability of an entity to act on its own, without being influenced
+                                                                          by external factors. Responsibility and accountability are related
+The Social Impact of Decision-Making Algorithms: Reviewing the Influence                                       TAS '23, July 11­12, 2023, Edinburgh, United Kingdom
+of Agency, Responsibility and Accountability on Trust and Blame
+                                                                          Therefore, this suggests that agency should be attributed to human
+concepts, but they have different meanings. Responsibility refers         designers rather than the algorithms themselves.
+to the obligation to take action or make decisions based on one's
+role or position, while accountability refers to the responsibility of       The increasing use of decision-making algorithms in various
+an individual or entity for the consequences of their actions. Each       domains has raised concerns about their impact on social agency,
+of these concepts will be explored in relation to decision-making         particularly in terms of how they affect the decision-making pro-
+algorithms.                                                               cesses of individuals and the accountability of the systems and the
+                                                                          actors involved. Some scholars have argued that decision-making
+3.1 Agency and Decision-Making Algorithms                                 algorithms may impede social agency by replacing human judge-
+                                                                          ment and decision-making with automated processes. For example,
+Agency, for the purpose of this exploration, refers to the capacity of    Burrell highlights the problem of opacity in machine learning algo-
+individuals or groups to act intentionally, make choices, and exert       rithms [16]. She argues that opaque algorithms, which are those
+influence over their environment [5, 28, 77]. According to Bandura,       that are difficult or impossible to interpret, can lead to blurred
+agency involves a range of cognitive, behavioral, and motivational        agency and transparency, and may perpetuate bias and discrimina-
+processes that enable individuals to set goals, develop plans, and        tion. Additionally, Pasquale's analysis of the rise of algorithms and
+execute actions to achieve desired outcomes [5]. Agency is also           their impact on society, specifically in the realms of finance and in-
+influenced by social and cultural contexts, as individuals' beliefs,      formation, is relevant to the concept of agency [58]. He argues that
+values, and norms shape their understanding of the available op-          the opacity of these algorithms removes agency from the public,
+tions and the extent of their freedom to act [4, 48]. As Zimmerman        as decisions are being made without their input or understanding.
+argues, agency is a dynamic and interactive process that requires an      This lack of transparency also limits the agency of those who are
+ongoing negotiation between individuals and their environment, as         impacted by algorithmic decisions, as they have little recourse to
+individuals adjust their strategies and goals in response to changing     challenge or contest those decisions.
+circumstances [77]. Therefore, agency is not a fixed or innate char-
+acteristic of individuals, but rather a complex and dynamic process          However, others have emphasised the need to consider how al-
+that is shaped by multiple factors, including personal attributes,        gorithms can be designed to support rather than undermine social
+social and cultural contexts, and environmental constraints.              agency, and how regulation can be ensured in algorithmic decision-
+                                                                          making. Diakopoulos examined accountability in algorithmic deci-
+   One issue related to agency is the degree of autonomy decision-        sion making and argues that transparency and explainability are
+making algorithms possess. Some argue that algorithms have a              necessary for accountability [22]. He suggests that a combination of
+degree of autonomy and agency, especially when they can learn             technical and social solutions are needed to address this issue. More-
+and adapt from data inputs [14]. Bryson argues that algorithmic           over, he stresses the importance of involving affected communities
+autonomy is not an all-or-nothing concept, but rather exists along a      and stakeholders in the design and implementation of algorithmic
+spectrum. At one end of the spectrum are algorithms that are highly       decision making systems. This is similar to the findings of Selbst et
+deterministic and programmed to follow specific rules and decision-       al., who suggest that incorporating diverse perspectives and values
+making processes, while at the other end are algorithms that are          into the design and implementation of sociotechnical systems can
+able to learn and adapt from data inputs, making decisions that are       help promote fairness, which increases the agency of individuals
+not explicitly programmed or predetermined by humans. Addition-           and groups impacted by these systems [65]. Additionally, the level
+ally, she highlights the potential benefits and risks associated with     of detail in which data is collected and analysed impacts fairness,
+algorithmic autonomy. On one hand, autonomous algorithms can              which can affect the agency of individuals and groups if they are
+help improve efficiency and accuracy in a wide range of fields, from      not fairly represented or impacted by the system.
+medical diagnosis to self-driving cars. On the other hand, if not
+properly designed and regulated, autonomous algorithms can pose              One of the key issues in the literature on social agency and
+significant risks, such as perpetuating bias or making decisions that     decision-making algorithms is the role of transparency and ex-
+harm people or society.                                                   plainability in fostering agency. Some scholars have argued that
+                                                                          transparency is necessary to enable individuals to understand the
+   However, Floridi et al. argue that algorithms are not autonomous       decision-making process and to challenge algorithmic decisions if
+and that their outputs are the result of human design choices [26]. In    necessary [31, 76]. However, others have noted that the complexity
+their work, they contend that algorithms cannot be considered au-         of algorithms and the lack of transparency in their development and
+tonomous as they are created by humans and, therefore, influenced         implementation may hinder accountability and undermine agency
+by human biases, values, and intentions. Although algorithms can          [16, 58].
+be programmed to learn and adapt from data inputs, human design-
+ers are responsible for selecting the data to be used, analysing it, and     Another important aspect of the literature on social agency and
+deciding what to do with the outputs. The authors propose that al-        decision-making algorithms is the need for interdisciplinary ap-
+gorithms should be used to enhance human capabilities rather than         proaches to address the ethical and social implications of algorith-
+replace them, and urge us to consider the ethical implications of us-     mic decision-making. Scholars from computer science, philosophy,
+ing algorithms in decision-making. In particular, they highlight the      social sciences, and humanities have emphasised the importance
+potential impact of algorithmic decisions on people's lives in areas      of considering the broader societal and political implications of
+like healthcare, criminal justice, and finance. Ultimately, the authors   algorithms, beyond their immediate technical functionality [25, 52].
+advocate for a human-centered approach to algorithm development           Such interdisciplinary approaches can help to develop more nu-
+and usage, which prioritises the common good and human values.            anced understandings of the relationship between social agency,
+                                                                          decision-making algorithms, and accountability, and to identify
+TAS '23, July 11­12, 2023, Edinburgh, United Kingdom                                                                                                             Heaton et al.
+
+strategies for ensuring that these systems are developed and imple-      algorithms must also uphold these principles, particularly given the
+mented in ways that support rather than undermine social agency.         potential biases and discrimination that may result from their use
+                                                                         [22]. As a result, there has been a growing interest in developing
+   To address some of the challenges, explainable artificial intelli-    frameworks for ethical decision-making and the responsible use of
+gence (XAI) has been proposed as a solution for enhancing trans-         algorithms.
+parency and accountability in decision-making algorithms. XAI
+involves designing algorithms that can provide explanations for             One such framework is the "Fairness, Accountability, and Trans-
+their outputs in a human-understandable format [34]. By doing so,        parency (FAT)" framework proposed by Mittelstadt et al. [52]. This
+developers, operators, and regulators can gain better insights into      framework emphasises the importance of incorporating ethical
+how these algorithms work and why they produce certain outputs,          principles into the design and implementation of algorithms, with a
+enhancing accountability and responsibility [65].                        focus on ensuring fairness, accountability, and transparency. Specif-
+                                                                         ically, the authors suggest that algorithms must be designed to
+3.2 Responsibility and Decision-Making                                   avoid perpetuating or amplifying biases and discrimination, and
+                                                                         that users must be able to understand how the algorithms work
+      Algorithms                                                         and how they arrived at their decisions.
+
+Responsibility is defined as the moral and social obligations of in-        Similarly, Selbst et al. proposed the "Sociotechnical Systems
+dividuals or groups to act in accordance with certain standards or       (STS)" framework, which considers the interplay between tech-
+norms [9, 59]. Responsibility can be understood as a combination of      nology and social systems in promoting ethical decision-making
+two key elements: attribution and accountability. Attribution refers     [65]. This framework emphasises the importance of incorporating
+to the recognition of one's role in a particular situation or outcome,   diverse perspectives and values into the design and implementation
+while accountability refers to the expectation that one will take        of sociotechnical systems, to promote fairness and accountability.
+action to address or repair any harm caused [13, 59]. Responsibil-       Specifically, the authors suggest that systems must be designed to
+ity is also closely linked to agency, as individuals' capacity to act    reflect the values and needs of all stakeholders, ensuring system
+intentionally and make choices is a precondition for holding them        design processes are transparent and inclusive.
+responsible for their actions [73]. However, the extent to which
+individuals are held responsible for their actions is also influenced       Overall, the development of frameworks for ethical decision-
+by various social and cultural factors, such as norms, values, and       making and the responsible use of algorithms reflects a growing
+power dynamics [3, 51]. Therefore, responsibility is not an abso-        recognition of the need for decision-making algorithms to be re-
+lute or fixed concept, but rather a dynamic and context-dependent        sponsible to society. These frameworks highlight the importance of
+process that is shaped by a range of individual and social factors.      incorporating ethical principles and values into the design and im-
+                                                                         plementation of algorithms, to promote fairness and transparency,
+   When considering the responsibility that decision-making algo-        and to ensure that these technologies are used in a responsible and
+rithms possess, there are several perspectives to consider. There        socially beneficial manner.
+have been contributions that offer frameworks for understand-
+ing, such as Tsoukias, who examined the social responsibility of         3.3 Accountability and Decision-Making
+algorithms in society [71]. They highlight the long-standing use
+of autonomous artefacts and categorises the impact of their use                Algorithms
+on data collection, manipulation, recommendation, and decision-
+making. The framework offered identifies challenges for decision         At its core, accountability refers to the extent to which individuals
+analysts, including researchers and practitioners, and emphasises        or organisations are held responsible for their actions or decisions,
+the need for a community effort to address the ethical implications      and the consequences that result from those actions or decisions
+of algorithmic decision-making.                                          [12]. While accountability is often associated with concepts such as
+                                                                         transparency and control, it also has broader implications related
+   Additionally, others argue that the drive towards responsible         to trust, legitimacy, and democratic governance [41, 54]. Account-
+adoption of automated decision-making systems fails to take into         ability can be viewed as a mechanism for ensuring that individuals
+account the complexities of human judgment and the relevance of          or organisations are answerable to those who are affected by their
+the human ability to discern ethical cues and actions. For example,      actions or decisions, and that they are held responsible for the
+through examining the representational limitations of AI systems         outcomes they produce [12, 54]. This can include various forms
+in discerning relevant cues and actions critical to ethical delibera-    of accountability, such as legal accountability, political account-
+tions, [37] contrasts them to the twin-perspectives of pragmatism        ability, and social accountability [64]. In practice, accountability
+and phenomenology that provide lenses through which to unpack            is often implemented through mechanisms such as performance
+the human process of ethical deliberation . He concluded that a          monitoring, evaluation, and auditing, and is seen as a key factor in
+socio-technical system can only meet its moral responsibilities by       promoting effective and responsible governance [41, 54].
+attributing it directly onto the human decision maker's shoulders
+with full human meaningful control. This approach avoids operator           Debate exists regarding who is accountable when algorithms
+hand-off and automation complacency.                                     do not achieve the expected outcomes. One of the USACM and
+                                                                         EUACM devised principles for algorithmic fairness is accountabil-
+   There have also been studies that have paid specific attention to     ity, which ensures those who deploy an algorithm cannot eschew
+social responsibility, rather than responsibility in general. Social     responsibility for its actions, therefore not deflecting responsibility
+responsibility refers to the ethical and moral obligations of organisa-  to an automated system [27]. Despite this, research suggests many
+tions to act in the best interests of society [18], and decision-making  individuals and groups do shift responsibility from humans if an
+The Social Impact of Decision-Making Algorithms: Reviewing the Influence                                       TAS '23, July 11­12, 2023, Edinburgh, United Kingdom
+of Agency, Responsibility and Accountability on Trust and Blame
+                                                                          4.1 Trust and Decision-Making Algorithms
+algorithm is involved with a decision-making process. For example,
+Turton et al. stated that Google and Meta deflect responsibility onto     Trust, as a multi-dimensional construct, has been extensively stud-
+their social media algorithms despite being in control of their own       ied in multiple fields, including sociology, psychology, economics,
+code [72].                                                                and management. Scholars have examined trust in diverse con-
+                                                                          texts, such as interpersonal relationships, organisational settings,
+   Feier et al. looked at whether an agent is systematically judged       and cross-cultural interactions [23, 49]. Trust is not only a cogni-
+differently when the agent is artificial rather than human [24].          tive process, but also a dynamic process influenced by individual
+They found decision-makers can actually rid themselves of guilt           differences, context, and various factors such as conflict, power
+more easily by delegating to machines than by delegating to other         dynamics, and external events [50]. The concept of trust has many
+people, thus showing the availability of artificial agents could pro-     different definitions and interpretations and there is currently no
+vide stronger incentives for decision makers to delegate morally          uniformed or universally agreed definition [1]. For this review, the
+sensitive decisions. Therefore, it could be interpreted that decision-    epistemological stance undertaken will be that trust is a socially
+making algorithms are used to deflect accountability from human           constructed concept created within an individual internally [74] as
+decision-makers.                                                          a result of interaction and experience [33]. The process of building
+                                                                          and maintaining trust involves communication, mutual exchange,
+   Similarly, Bucher et al. coined the term 'algorithmic imaginary'       and negotiation [21]. Furthermore, trust is shaped by an individual's
+- the way in which people imagine, perceive and experience algo-          experiences, cultural background, and context, and is considered a
+rithms and what these imaginations make possible [15]. This has           socially constructed concept [29, 44].
+been applied in many contexts - most suitably for this strand of
+research by Benjamin et al., who recently studied the response to            The successful adoption and deployment of decision-making
+the Ofqual A Level algorithm on Twitter through the examination           algorithms depend on the level of trust users have in them, which
+of the "fuck the algorithm" chant as an imaginary of resistance           is influenced by the concepts of agency, responsibility, and blame.
+to confront power in sociotechnical systems [10] . Their analysis         Studies have shown that users are more likely to trust algorithms
+argued that this chant made algorithms more visible to the public         that operate autonomously and produce reliable outcomes [11, 26].
+and prompted questions about social algorithms that shape the             In contrast, if algorithms are perceived as being influenced by ex-
+lives of people everyday.                                                 ternal factors, such as human biases, their trustworthiness may be
+                                                                          questioned [11].
+   The study by Burrell, discussed earlier, is relevant to accountabil-
+ity also [16]. To address issues with agency, she suggests designers         The fulfillment of responsibilities and accountability of actors
+and developers of machine learning algorithms need to take steps          involved in the development and use of decision-making algorithms
+to increase transparency, including developing tools for auditing         also affects trust. When developers and operators fulfill their obli-
+algorithms and making their workings more transparent to users.           gations and are held accountable for their actions, users may have
+                                                                          greater trust in the overall integrity and reliability of the algorithms.
+   Overall, these studies demonstrate the existing work on how            In contrast, failure to fulfill these obligations and responsibilities
+humans attribute responsibility to decision-making algorithms so-         may lead to blame being assigned and may reduce users' trust in
+cially and could pave the way for further investigation into how          the algorithms [11].
+these algorithms could influence everyday life when accountabil-
+ity is placed solely on them. The seeming removal of autonomy                More specifically when working with decision-making algo-
+and accountability from the human or humans that devise these             rithms, Shahrdad et al. examined trust because of the exponential
+algorithms could be replicated in online discourses or perceived          growth of the use of these systems in daily life, with the intention to
+in another way. In order for creators and promoters of these sys-         review existing literature [66]. Prior studies indicated trust towards
+tems to be successful, having accurate insights into the current          fully autonomous and semi-autonomous systems -- such as home
+perceptions of these algorithms is important so potential mislead-        service robots and flight management systems -- is low [46, 53]. As a
+ing information can be combated.                                          result of examining these studies, alongside others, they found that
+                                                                          managing trust will affect the development of future acceptance
+4 INFLUENCING TRUST AND BLAME                                             and adoption of these systems.
+
+The concepts of trust and blame in the context of decision-making            Moreover, Lyons et al. studied the verification and validation of
+algorithms are becoming staple topics of autonomous system liter-         similar decision-making algorithms and created a novel method
+ature. Trust is a crucial factor in ensuring ethical and responsible      to certify trust in them [45]. They argue that `transparency facets'
+use of algorithms, as it is essential for users to trust that algo-       -- an established communication channel between the designer,
+rithms produce accurate and reliable outcomes [49]. Developers,           tester and user -­ will enable the user to understand the goals of
+operators, or other actors involved in the development and use            the system to verify its trustworthiness. Similarly, Kwiatkowska
+of these algorithms are often held accountable when blame is as-          and Lahijanian called for the channels of communication to be
+signed [26]. While trust and blame may seem contradictory, they           re-examined to improve the perception of trustworthiness of these
+can coexist [8] - for example, when users have confidence in the          decision-making algorithms [42]. A necessity to advance the role of
+overall integrity of the algorithms while still holding developers        social trust within Human-Computer Interaction (HCI) and Human-
+and operators accountable for negative outcomes. The following            Robot Interaction (HRI) underpinned this theory. This accounts for
+sub-sections explore how agency, responsibility and accountability        competence, disposition, dependence and fulfilment. Ultimately,
+can impact the trust in ­ and the blaming of ­ decision-making
+algorithms in existing literature.
+TAS '23, July 11­12, 2023, Edinburgh, United Kingdom                                                                                                              Heaton et al.
+
+although both studies were inconclusive and called for more investi-      determine who should be held responsible for negative outcomes
+gation, they highlight the importance of user feedback in the design      in decision-making algorithms [52]. They found that, while devel-
+and evaluation stages of decision-making algorithms creation and          opers and operators are typically seen as the most obvious targets
+curation.                                                                 of blame, others argue that blame can be shared among all actors
+                                                                          involved in the development and use of these algorithms.
+   Additionally, Alaieri and Vellino argue that in order for people
+to trust these machines, their ethical principles must be transpar-          Similarly, the fulfillment of ethical responsibilities by develop-
+ent and predictable [2]. However, the autonomy and self-learning          ers and operators is also an important aspect of blame. Jobin et
+abilities of some robots may make their decisions non-predictable         al. found that fulfilling ethical responsibilities can increase user
+and difficult to explain, leading to increased responsibility but also    trust in algorithms, while failure to do so can lead to decreased
+decreased trust. Thus, they reinforce the need for further research       trust and increased blame assignment [39]. Similarly, Whittlestone
+and development in this area to ensure the ethical justification and      et al. argue that ensuring ethical use of algorithms by fulfilling
+trustworthiness of autonomous systems.                                    responsibilities is crucial for maintaining trust in technology and
+                                                                          avoiding negative societal impacts [75].
+   Despite the extensive research on trust in various contexts, there
+are still gaps and limitations in the literature related to how agency,      Additionally, accountability is another key factor in the assign-
+responsibility, and accountability impact trust in decision-making        ment of blame in decision-making algorithms. The accountability of
+algorithms. Firstly, there is a lack of consensus on the definition of    developers and operators for the outcomes produced by algorithms
+trust, which may lead to different interpretations and inconsistent       they develop and use is necessary to ensure ethical and responsible
+findings. Moreover, trust is a complex and dynamic concept influ-         use of technology. Taddeo and Floridi argue that accountability is
+enced by many individual and contextual factors that may not be           essential for holding developers and operators responsible for the
+fully understood or controlled. Additionally, the studies reviewed        ethical use of algorithms and building user trust in technology [69].
+in this article provide some insight into how trust is impacted by        However, blame is complex and depends on factors such as the
+agency, responsibility, and accountability, but more research is          degree of intention behind the actions, as noted by Coeckelbergh
+needed to fully understand the mechanisms involved and how to             [20].
+design and evaluate decision-making algorithms that foster trust.
+Specifically, there is a need for further investigation into the role of     The increasing use of decision-making algorithms has led schol-
+communication, user feedback, and ethical principles in building          ars to grapple with the question of how to assign blame in cases
+and maintaining trust in these systems. Finally, the ethical impli-       where these algorithms produce negative outcomes. Jobin et al.
+cations of decision-making algorithms, especially in relation to          found that algorithms themselves can also be viewed as objects of
+autonomy and self-learning abilities, require further attention to        blame, given that they may perpetuate biases or produce negative
+ensure their trustworthiness.                                             outcomes due to the design of the system [39]. However, they note
+                                                                          that assigning blame can be challenging due to the complexity and
+4.2 Blame and Decision-Making Algorithms                                  opacity of these systems. On the other hand, Burrell argues that
+                                                                          assigning blame is still important to ensure that decision-making
+Blame can be defined as the assignment of responsibility for a par-       algorithms are used ethically and responsibly [16]. Nonetheless, the
+ticular event or outcome, often with a negative connotation [19].         assignment of blame is complicated by the involvement of multiple
+Blame can be directed towards individuals or groups, and can have         actors, including developers, operators, data providers, regulators,
+various functions, such as expressing disapproval, holding individ-       and the algorithms themselves [52].
+uals accountable, or seeking to assign causality [7, 19]. Blame is
+often accompanied by moral judgments, as it involves the evalu-              Some research has been done to try and address these afore-
+ation of individuals' actions or omissions against certain norms          mentioned challenges, Selbst et al. proposed incorporating fairness
+or standards [62, 70]. However, the process of blaming is also in-        and abstraction in sociotechnical systems to ensure ethical use
+fluenced by various cognitive and motivational biases, such as the        of decision-making algorithms [65], while Barocas and Selbst dis-
+fundamental attribution error, which involves overestimating the          cussed the concept of disparate impact in big data [6]. Additionally,
+role of dispositional factors and underestimating situational fac-        Gunning (2019) emphasised the importance of explainable artificial
+tors in explaining behavior [30, 61]. Therefore, blame is a complex       intelligence (XAI) to ensure transparency and accountability in
+and multifaceted process that involves a range of cognitive, emo-         decision-making algorithms [34].
+tional, and social factors, and can have significant implications for
+individuals' self-esteem, social relationships, and sense of justice.        However, there are still several research gaps regarding the blame
+                                                                          assignment process. Firstly, current research lacks discussion on
+   The relationship between agency, responsibility, and account-          the cultural and societal factors that impact blame assignment. It
+ability in decision-making algorithms and their impact on blame           acknowledges that cultural differences can significantly influence
+assignment has been explored. Some scholars have noted that high          how blame is assigned and that emotions such as anger or fear can
+levels of agency in algorithms can lead to a reduction in account-        lead to biased decision-making. Secondly, as this review has focused
+ability and make it difficult to assign blame for negative outcomes.      solely on blame assignment within the context of decision-making
+For example, Mittelstadt et al. found that algorithms with a high         algorithms, it has not fully explored the roles of other actors, such
+degree of agency can result in a "responsibility gap," where nei-         as regulators and data providers, in the process. Examining their
+ther the developers nor the algorithms are fully responsible for the      contributions and responsibilities can provide greater insight into
+outcomes produced [52]. This study also emphasised the need to            how blame is assigned. Thirdly, the literature reviewed does not
+                                                                          delve into the influence of legal and ethical frameworks on blame
+The Social Impact of Decision-Making Algorithms: Reviewing the Influence                                        TAS '23, July 11­12, 2023, Edinburgh, United Kingdom
+of Agency, Responsibility and Accountability on Trust and Blame
+                                                                              The concept of agency refers to the capacity of an entity to act
+assignment, which could shape the ethical landscape of the field           and make decisions that affect others. Decision-making algorithms,
+and affect how blame is assigned.                                          by their nature, have agency as they are programmed to make de-
+                                                                           cisions that affect individuals and society. However, the question
+   In summary, the challenge of assigning blame in the context of          arises as to who or what should be held accountable for their de-
+decision-making algorithms is multifaceted, involving not only the         cisions. If the algorithm makes an erroneous decision, should the
+developers and operators but also data providers, regulators, and          algorithm or the programmer be held accountable? In the literature
+the algorithms themselves. Incorporating transparency, account-            reviewed, it has been argued that the responsibility for decision-
+ability, fairness, and explainability in decision-making algorithms        making algorithms lies with both the developers and the users of
+can promote ethical and responsible use and provide clearer guide-         the algorithm [52].
+lines for assigning responsibility in cases where negative outcomes
+occur.                                                                        The issue of responsibility is closely related to accountability,
+                                                                           which refers to the obligation of an entity to explain and justify
+5 RESPONSIBLE RESEARCH AND                                                 its actions. The literature reviewed suggests that decision-making
+    INNOVATION REFLECTIONS                                                 algorithms are often viewed as a "black box," making it difficult to
+                                                                           determine how decisions were made and who is accountable for
+5.1 Background to Responsible Research and                                 them [65]. This lack of transparency can erode trust in decision-
+      Innovation                                                           making algorithms and lead to blame being directed towards the
+                                                                           wrong parties.
+The AREA 4P RRI framework is a model that guides ethical and
+responsible research and innovation (RRI) practices. It encompasses           The impact of agency, responsibility, and accountability on trust
+four dimensions: Anticipation, Reflection, Engagement, and Action          and blame directed towards decision-making algorithms can have
+(AREA). Anticipation involves identifying potential social impacts         significant economic, social, and environmental implications. For
+and ethical implications of research and innovation, while Reflec-         example, in the domain of employment, algorithms used to screen
+tion involves critically reflecting on the ethical, social, and political  job applicants may inadvertently perpetuate biases and discrimina-
+aspects of research and innovation. Engagement involves involv-            tion [6]. This can have social and economic impacts, as it can lead
+ing relevant stakeholders in the research and innovation process,          to qualified candidates being overlooked and exacerbate existing
+while Action involves taking concrete actions to address any poten-        inequalities. Similarly, in healthcare, algorithms used to predict
+tial negative social impacts or ethical issues. The framework has          patient outcomes may inadvertently create disparities in healthcare
+been proposed as a useful tool for promoting responsible innova-           access and quality, resulting in sub-optimal health outcomes [63].
+tion in various fields, including biotechnology and nanotechnology
+[57, 68].                                                                     To summarise, by examining works relating to how agency, re-
+                                                                           sponsibility, and accountability can impact trust and blame directed
+   The AREA 4P RRI framework has been applied in various fields            towards decision-making algorithms, it is clear that issues are com-
+to guide ethical and responsible research practices. For instance,         plex and multifaceted. While decision-making algorithms have
+Ramirez-Andreotta et al. applied the framework to guide a study on         the potential to improve processes and outcomes, they also raise
+the potential environmental and social impacts of a new technology         concerns about transparency, accountability and responsibility. To
+for detecting heavy metals in soil [60]. Similarly, the framework          ensure that decision-making algorithms are used ethically and ef-
+has been used to guide health research, including cancer research          fectively, it is crucial to consider their impact on trust and blame
+[43], finding that using RRI-based strategies promoted collaborative       and the potential economic, social and environmental implications
+processes that leveraged innovation for sustainable health systems.        that may arise.
+These applications demonstrate that the AREA 4P RRI framework
+is a useful tool for promoting ethical and responsible research and        5.2.2 Reflect. The previous section has shown how agency, re-
+innovation practices. It helps researchers anticipate potential social     sponsibility, and accountability impact the trust and blame directed
+impacts, reflect on ethical and political implications, engage with        towards decision-making algorithms. The research has revealed the
+relevant stakeholders, and take actions to address any negative            complexity of the issue and the need for a deeper understanding
+impacts. By doing so, the framework can help ensure that research          of the underlying factors that affect the use of such algorithms in
+and innovation are conducted in a socially beneficial manner.              decision-making processes. As a result, it is important to reflect
+                                                                           on the purposes of, motivations for, and potential implications of
+5.2 Reflecting Using RRI                                                   examining this area of research, and the associated uncertainties,
+                                                                           assumptions, questions, dilemmas, and social transformations these
+5.2.1 Anticipate. As discussed in the previous sections, decision-         may bring.
+making algorithms are increasingly being used in various domains,
+including healthcare, criminal justice, finance, and employment,              One of the main purposes of examining this research is to im-
+among others. While these algorithms have the potential to improve         prove the accountability and transparency of decision-making algo-
+decision-making processes and outcomes, there are concerns about           rithms. By understanding the factors that affect the trust and blame
+their impact on trust and blame directed towards their decisions. In       directed towards these algorithms, it is possible to design systems
+this section, we anticipate the impacts of agency, responsibility, and     that are more openly trustworthy and accountable, removing the
+accountability on trust and blame directed towards decision-making         'black box'. This can help to build public trust in decision-making
+algorithms.                                                                processes and ensure that decisions are made fairly and transpar-
+                                                                           ently. Additionally, examining this area of research can help to
+TAS '23, July 11­12, 2023, Edinburgh, United Kingdom                                                                                                              Heaton et al.
+
+identify potential biases and other issues that may arise from the        mitigate the potential negative consequences of these systems [52].
+use of decision-making algorithms, and develop strategies to ad-          By taking into account the needs and perspectives of all stakehold-
+dress these issues.                                                       ers, including end-users and affected communities, developers can
+                                                                          design algorithms that are fair, equitable, and beneficial to all.
+   However, examining this area of research also raises important
+questions and dilemmas. For example, it is unclear how much re-              End-users of decision-making algorithms also need to be actively
+sponsibility decision-making algorithms should have in the deci-          engaged in the discussion. They are the individuals who interact
+sions they make. Should algorithms be treated as moral agents that        with these systems and are directly impacted by their decisions.
+can be held responsible for their actions, or should responsibility       Their perspectives are critical in shaping the design and deployment
+lie solely with the humans who design and use them? This requires         of these systems, ensuring that they are transparent, accountable,
+further investigation and discussion. Additionally, examining this        and equitable [52].
+area of research may also raise questions about the broader societal
+implications of relying on algorithms to make decisions. For exam-           Finally, affected communities, particularly those who are dispro-
+ple, what are the economic, social, and environmental impacts of          portionately impacted by these systems, must also be involved in
+using decision-making algorithms, and how can these be mitigated?         the conversation. These communities often have unique insights
+                                                                          into the potential impacts of decision-making algorithms and can
+   Furthermore, there are uncertainties associated with this area of      provide valuable feedback on how to address them [65].
+research. For example, there is still much we do not know about
+the factors that influence the trust and blame directed towards              In summary, broader engagement and deliberation are essential
+decision-making algorithms, and how these factors vary across             to ensure that the impacts of agency, responsibility, and account-
+different contexts and cultures. For instance, in collectivist cultures   ability on trust and blame towards decision-making algorithms
+where trust in authority and societal harmony are highly valued,          are understood and addressed in an inclusive way. Policymakers,
+the perception of decision-making algorithms may be influenced by         developers, end-users, and affected communities all have a crucial
+the perceived trustworthiness of the governing institutions and the       role to play in this process. By engaging these stakeholders and
+degree of transparency in algorithmic decision-making processes           incorporating their perspectives, we can create decision-making
+[47]. On the other hand, in individualistic cultures that emphasize       algorithms that are more transparent, accountable, and equitable.
+personal autonomy and individual rights, the focus may be more on
+the fairness, accountability, and explainability of the algorithms [36].  5.2.4 Act. This stage involves proposing actions and recommenda-
+Additionally, there is a need for more research on the ethical and        tions to address the issues identified in the literature review. Based
+legal implications of using decision-making algorithms, and how           on the reflection and review, the following actions and recommen-
+these implications vary across different domains and applications.        dations can be proposed:
+
+   Overall, examining the impact of agency, responsibility, and ac-          (1) Enhance transparency and accountability: To promote trust
+countability on trust and blame directed towards decision-making                  in decision-making algorithms, and, thus, avoid blame, devel-
+algorithms is a complex and multifaceted issue that requires further              opers and operators can provide transparency and account-
+investigation and discussion. By reflecting on the purposes, moti-                ability in their use. This can be achieved by providing clear
+vations, and potential implications of this area of research, this will           explanations of how algorithms work and the data used to
+enable us, and other researchers, to develop a better understanding               train them, as well as taking responsibility for negative out-
+of the underlying factors that affect the use of decision-making al-              comes. In turn, this may shift the perception of agency from
+gorithms, and formulate strategies to ensure that these algorithms                the algorithm itself to the developer or operator, ensuring a
+are trustworthy, transparent, and accountable.                                    more trustworthy process.
+
+5.2.3 Engage. As the conversation on the impacts of agency, re-              (2) Encourage ethical use of decision-making algorithms: The
+sponsibility, and accountability on trust and blame towards decision-             ethical use of decision-making algorithms can be encouraged
+making algorithms continues, it is clear that a more inclusive ap-                by setting clear ethical guidelines and standards for their
+proach is necessary to fully understand and address these issues.                 development and use. Developers and operators could be
+Engaging with a range of stakeholders is crucial to ensure that                   trained on ethical principles and best practices, and regular
+the impacts of these systems are understood and addressed in an                   audits should be conducted to ensure that algorithms are
+equitable way.                                                                    being used in an ethical and responsible manner.
+
+   Policymakers are one key stakeholder in this process. They play           (3) Foster collaboration: Collaboration among developers, op-
+a critical role in regulating the development and deployment of                   erators, data providers, regulators, and other stakeholders
+decision-making algorithms by establishing legal frameworks that                  can facilitate the development of ethical decision-making
+ensure accountability and transparency. These frameworks can help                 algorithms. Collaboration can lead to the sharing of knowl-
+increase trust in these systems, which is essential for their successful          edge, resources, and best practices, and can help ensure that
+adoption [32]. Policymakers can also facilitate public dialogue and               ethical considerations are embedded in the development and
+participation, which is important for creating opportunities for                  use of algorithms.
+diverse voices to be heard in the decision-making process [56].
+                                                                             (4) Incorporate XAI: Explainable AI (XAI) can be incorporated
+   Developers of decision-making algorithms also have a significant               into decision-making algorithms to increase transparency
+role to play. They can design algorithms that are more transparent,               and accountability. XAI techniques can help users under-
+explainable, and accountable, which can help increase trust and                   stand how algorithms arrive at decisions and identify any
+                                                                                  biases or errors in the process.
+The Social Impact of Decision-Making Algorithms: Reviewing the Influence                                       TAS '23, July 11­12, 2023, Edinburgh, United Kingdom
+of Agency, Responsibility and Accountability on Trust and Blame
+                                                                          can gain a more nuanced understanding of the impact of agency,
+   (5) Address legal and ethical frameworks: Legal and ethical            responsibility, and accountability on trust and blame in algorithmic
+        frameworks surrounding the development and use of decision-       decision-making and develop more effective strategies for ensuring
+        making algorithms can be reviewed and updated regularly           responsible and ethical governance of these systems.
+        to ensure they reflect changing societal values and concerns.
+        This may help ensure that decision-making algorithms are          7 CONCLUSION
+        used ethically and responsibly. As a result, blame might as-
+        signed appropriately when negative outcomes occur.                In conclusion, the literature review and RRI-based reflection pro-
+                                                                          vide a comprehensive overview of the impact of decision-making
+   (6) Account for cultural and societal factors: Cultural and so-        algorithms on trust and blame, highlighting the importance of
+        cietal factors should be taken into account when assigning        accountability, transparency, and ethical use of algorithms. The
+        blame in decision-making algorithms. This can be achieved         review identified several gaps in the literature concerning the role
+        by considering the perspectives of diverse stakeholders and       of agency, responsibility, and accountability in shaping these dy-
+        conducting research on how cultural and societal factors can      namics. There is a lack of consensus on how to define and make use
+        influence the blame assignment process.                           of these concepts in the context of algorithmic decision-making,
+                                                                          as well as a need for more empirical research on how algorithms
+   (7) Further research: Further research is needed to address gaps       impact trust and blame in practice. Additionally, there is a need for
+        in the literature, such as the roles of regulators and data       more interdisciplinary research that brings together perspectives
+        providers in the blame assignment process and the influ-          from computer science, social sciences, and humanities to better
+        ence of legal and ethical frameworks on trust and blame           understand the complex ethical, social, and political implications
+        assignment. Additionally, more research investigating how         of algorithmic decision-making.
+        emotions and cultural factors may help influence this pro-
+        cess.                                                                To address these gaps, scholars can propose several actions and
+                                                                          recommendations, as identified through the AREA 4P RRI analysis.
+6 OVERARCHING RESEARCH GAPS AND                                           These include enhancing transparency and accountability, encour-
+                                                                          aging ethical use of algorithms, fostering collaboration among stake-
+    FUTURE WORK                                                           holders, incorporating XAI, updating legal and ethical frameworks,
+                                                                          accounting for cultural and societal factors, and conducting fur-
+This section details the overarching research gaps and ideas for          ther research. These recommendations highlight the importance of
+future work, combining ideas from the literature reviewed and our         building a responsible and ethical governance structure for decision-
+own RRI-based reflections.                                                making algorithms, one that prioritises the needs and perspectives
+                                                                          of diverse stakeholders, and ensures that algorithms are used in an
+   Significant attention has been paid to the impact of decision-         ethical and responsible manner.
+making algorithms on trust and blame, but there are still several
+gaps in the literature concerning the role of agency, responsibil-           Furthermore, the review emphasises that there is a need for a
+ity, and accountability in shaping these dynamics [6, 52]. One key        more nuanced understanding of the impact of agency, responsibil-
+gap is the lack of consensus on how to define and operationalise          ity, and accountability on trust and blame in algorithmic decision-
+these concepts in the context of algorithmic decision-making. For         making. Factors such as the design of algorithms, the specific con-
+example, while accountability is often discussed as a key principle       text in which they are used, and the characteristics of the individuals
+in ensuring responsible algorithmic governance, there is still signif-    involved can all impact the relationship between these concepts.
+icant debate over who should be held accountable for algorithmic          Therefore, scholars need to explore these factors through empirical
+decisions and how accountability should be enforced [22, 27].             research to develop more effective strategies for ensuring responsi-
+                                                                          ble and ethical governance of these systems. The interdisciplinary
+   Another gap in the literature is the need for more empirical           approach to research advocated in this review will help identify and
+research on how decision-making algorithms impact trust and               address the broader societal implications of algorithmic decision-
+blame in practice. While there have been numerous studies ex-             making beyond specific applications or use cases.
+amining public attitudes towards algorithmic decision-making, few
+have explored how these attitudes translate into actual behavior             Overall, the literature review and RRI-based reflection highlight
+or decision-making processes [40]. Additionally, there is a need          the importance of building a responsible and ethical governance
+for more research on how different factors, such as the design of         structure for decision-making algorithms. This can be achieved
+algorithms, the specific context in which they are used, and the          through enhancing transparency and accountability, encouraging
+characteristics of the individuals involved, impact the relationship      ethical use of algorithms, fostering collaboration among stakehold-
+between agency, responsibility, accountability, trust, and blame in       ers, incorporating XAI, updating legal and ethical frameworks,
+algorithmic decision-making [17, 52].                                     accounting for cultural and societal factors, and conducting further
+                                                                          research. By addressing these gaps, with a focus on agency, respon-
+   Finally, there is a need for more interdisciplinary research that      sibility and accountability, researchers can ensure that decision-
+brings together perspectives from computer science, social sciences,      making algorithms are used in an ethical and responsible manner,
+and humanities to better understand the complex ethical, social,          and that trust in these systems is improved.
+and political implications of algorithmic decision-making [25, 55].
+This includes exploring the different ways in which algorithms can
+shape power dynamics, the role of transparency and explainability
+in building trust and accountability, and the broader societal impli-
+cations of algorithmic decision-making beyond specific applications
+or use cases [65, 76]. By addressing these research gaps, scholars
+TAS '23, July 11­12, 2023, Edinburgh, United Kingdom                                                                                                                                  Heaton et al.
+
+ACKNOWLEDGMENTS                                                                               [28] Anthony Giddens. 1986. The constitution of society: Outline of the theory of
+                                                                                                    structuration. Vol. 349. Univ of California Press.
+All authors are supported by the UKRI Trustworthy Autonomous
+Systems Hub (UKRI Grant No. EP/V00784X/1). Dan Heaton is sup-                                 [29] Anthony Giddens. 2007. The consequences of modernity. 1990. (2007).
+ported by the Horizon Centre for Doctoral Training at the Univer-                             [30] Daniel T Gilbert and Patrick S Malone. 1995. The correspondence bias. Psycho-
+sity of Nottingham (UKRI Grant No. EP/S023305/1).
+                                                                                                    logical bulletin 117, 1 (1995), 21.
+REFERENCES                                                                                    [31] Tarleton Gillespie. 2014. The relevance of algorithms. Media technologies: Essays
+
+ [1] Barbara D. Adams, Lora E. Bruyn, Sébastien Houde, Paul Angelopoulos, Kim                       on communication, materiality, and society 167, 2014 (2014), 167.
+      Iwasa-Madge, and Carol McCann. 2003. Trust in automated systems. Toronto:               [32] Bryce Goodman and Seth Flaxman. 2017. European Union regulations on algo-
+      Ministry of National Defence (2003).
+                                                                                                    rithmic decision-making and a "right to explanation". AI magazine 38, 3 (2017),
+ [2] Fahad Alaieri and André Vellino. 2016. Ethical Decision Making in Robots:                      50­57.
+      Autonomy, Trust and Responsibility: Autonomy Trust and Responsibility. In               [33] Melanie C. Green. 2007. Trust and social interaction on the Internet. The Oxford
+      Social Robotics: 8th International Conference, ICSR 2016, Kansas City, MO, USA,               handbook of Internet psychology 56 (2007), 43­51.
+      November 1-3, 2016 Proceedings 8. Springer, 159­168.                                    [34] David Gunning, Mark Stefik, Jaesik Choi, Timothy Miller, Simone Stumpf, and
+                                                                                                    Guang-Zhong Yang. 2019. XAI--Explainable artificial intelligence. Science robotics
+ [3] Margaret S Archer and Margaret Scotford Archer. 2000. Being human: The problem                 4, 37 (2019), eaay7120.
+      of agency. Cambridge University Press.                                                  [35] Dan Heaton, Jeremie Clos, Elena Nichele, and Joel Fischer. 2023. Critical reflec-
+                                                                                                    tions on three popular computational linguistic approaches to examine Twitter
+ [4] Jeffrey J Arnett. 2016. The neglected 95%: why American psychology needs to                    discourses. PeerJ Computer Science 9 (2023), e1211.
+      become less American. (2016).                                                           [36] Lambert Hogenhout. 2021. A framework for ethical AI at the United Nations.
+                                                                                                    arXiv preprint arXiv:2104.12547 (2021).
+ [5] Albert Bandura. 2001. Social cognitive theory: An agentic perspective. Annual            [37] W David Holford. 2022. `Design-for-responsible'algorithmic decision-making
+      review of psychology 52, 1 (2001), 1­26.                                                      systems: a question of ethical judgement and human meaningful control. AI and
+                                                                                                    Ethics 2, 4 (2022), 827­836.
+ [6] Solon Barocas and Andrew D Selbst. 2016. Big data's disparate impact. California         [38] Marina Jirotka, Barbara Grimpe, Bernd Stahl, Grace Eden, and Mark Hartswood.
+      law review (2016), 671­732.                                                                   2017. Responsible research and innovation in the digital age. Commun. ACM 60,
+                                                                                                    5 (2017), 62­68.
+ [7] Roy F Baumeister. 1996. Evil: Inside human cruelty and violence. WH Free-                [39] Anna Jobin, Marcello Ienca, and Effy Vayena. 2019. The global landscape of AI
+      man/Times Books/Henry Holt & Co.                                                              ethics guidelines. Nature Machine Intelligence 1, 9 (2019), 389­399.
+                                                                                              [40] Alina Köchling and Marius Claus Wehner. 2020. Discriminated by an algorithm: a
+ [8] Roy F Baumeister, Ellen Bratslavsky, Catrin Finkenauer, and Kathleen D Vohs.                   systematic review of discrimination and fairness by algorithmic decision-making
+      2001. Bad is stronger than good. Review of general psychology 5, 4 (2001), 323­370.           in the context of HR recruitment and HR development. Business Research 13, 3
+                                                                                                    (2020), 795­848.
+ [9] Roy F Baumeister and Mark R Leary. 2017. The need to belong: Desire for                  [41] Jonathan GS Koppell. 2005. Pathologies of accountability: ICANN and the chal-
+      interpersonal attachments as a fundamental human motivation. Interpersonal                    lenge of "multiple accountabilities disorder". Public administration review 65, 1
+      development (2017), 57­89.                                                                    (2005), 94­108.
+                                                                                              [42] Marta Kwiatkowska and Morteza Lahijanian. 2016. Social trust: a major challenge
+[10] Garfield Benjamin. 2022. # FuckTheAlgorithm: algorithmic imaginaries and polit-                for the future of autonomous systems. (2016).
+      ical resistance. In ACM Conference on Fairness, Accountability, and Transparency        [43] Pascale Lehoux, Hudson P Silva, Robson Rocha de Oliveira, Renata P Sabio,
+      2022.                                                                                         and Kathy Malas. 2022. Responsible innovation in health and health system
+                                                                                                    sustainability: Insights from health innovators' views and practices. Health
+[11] Jean-François Bonnefon, Azim Shariff, and Iyad Rahwan. 2016. The social                        Services Management Research 35, 4 (2022), 196­205.
+      dilemma of autonomous vehicles. Science 352, 6293 (2016), 1573­1576.                    [44] N Luhmann. 1979. Trust and Power (John A. Wiley and Sons, Chichester).
+                                                                                              [45] Joseph B. Lyons, Matthew A. Clark, Alan R. Wagner, and Matthew J. Schuelke.
+[12] Mark Bovens. 2007. Analysing and assessing accountability: A conceptual frame-                 2017. Certifiable trust in autonomous systems: Making the intractable tangible.
+      work 1. European law journal 13, 4 (2007), 447­468.                                           AI Magazine 38, 3 (2017), 37­49.
+                                                                                              [46] Poornima Madhavan and Douglas A. Wiegmann. 2007. Similarities and dif-
+[13] Marcus Alphons Petrus Bovens, Mark Bovens, et al. 1998. The quest for responsibil-             ferences between human-human and human-automation trust: an integrative
+      ity: Accountability and citizenship in complex organisations. Cambridge university            review. Theoretical Issues in Ergonomics Science 8, 4 (2007), 277­301.
+      press.                                                                                  [47] Peter Mantello, Manh-Tung Ho, Minh-Hoang Nguyen, and Quan-Hoang Vuong.
+                                                                                                    2023. Bosses without a heart: socio-demographic and cross-cultural determinants
+[14] Joanna J Bryson. 2020. The artificial intelligence of the ethics of artificial intelli-        of attitude toward Emotional AI in the workplace. AI & society 38, 1 (2023),
+      gence. The Oxford handbook of ethics of AI (2020), 1.                                         97­119.
+                                                                                              [48] Ivana Marková. 2003. Dialogicality and social representations: The dynamics of
+[15] Taina Bucher. 2017. The algorithmic imaginary: exploring the ordinary affects of               mind. Cambridge University Press.
+      Facebook algorithms. Information, communication & society 20, 1 (2017), 30­44.          [49] Roger C Mayer, James H Davis, and F David Schoorman. 1995. An integrative
+                                                                                                    model of organizational trust. Academy of management review 20, 3 (1995),
+[16] Jenna Burrell. 2016. How the machine `thinks': Understanding opacity in machine                709­734.
+      learning algorithms. Big data & society 3, 1 (2016), 2053951715622512.                  [50] Debra Meyerson, Karl E Weick, Roderick M Kramer, et al. 1996. Swift trust and
+                                                                                                    temporary groups. Trust in organizations: Frontiers of theory and research 166
+[17] Jason W Burton, Mari-Klara Stein, and Tina Blegind Jensen. 2020. A systematic                  (1996), 195.
+      review of algorithm aversion in augmented decision making. Journal of Behavioral        [51] Dale T Miller. 2001. Disrespect and the experience of injustice. Annual review of
+      Decision Making 33, 2 (2020), 220­239.                                                        psychology 52, 1 (2001), 527­553.
+                                                                                              [52] Brent Daniel Mittelstadt, Patrick Allo, Mariarosaria Taddeo, Sandra Wachter, and
+[18] Archie B Carroll. 1979. A three-dimensional conceptual model of corporate                      Luciano Floridi. 2016. The ethics of algorithms: Mapping the debate. Big Data &
+      performance. Academy of management review 4, 4 (1979), 497­505.                               Society 3, 2 (2016), 2053951716679679.
+                                                                                              [53] Bonnie M. Muir. 1987. Trust between humans and machines, and the design
+[19] D Justin Coates and Neal A Tognazzini. 2013. Blame: Its nature and norms. Oxford               of decision aids. International journal of man-machine studies 27, 5-6 (1987),
+      University Press on Demand.                                                                   527­539.
+                                                                                              [54] Richard Mulgan. 2000. `Accountability': an ever-expanding concept? Public
+[20] Mark Coeckelbergh. 2020. Artificial intelligence, responsibility attribution, and              administration 78, 3 (2000), 555­573.
+      a relational justification of explainability. Science and engineering ethics 26, 4      [55] Helen Nissenbaum. 2009. Privacy in context. In Privacy in Context. Stanford
+      (2020), 2051­2068.                                                                            University Press.
+                                                                                              [56] Cathy O'neil. 2017. Weapons of math destruction: How big data increases inequality
+[21] Karen S Cook and Karen A Hegtvedt. 1983. Distributive justice, equity, and                     and threatens democracy. Crown.
+      equality. Annual review of sociology 9, 1 (1983), 217­241.                              [57] Richard Owen, Phil Macnaghten, and Jack Stilgoe. 2020. Responsible research
+                                                                                                    and innovation: From science in society to science for society, with society. In
+[22] Nicholas Diakopoulos. 2016. Accountability in algorithmic decision making.                     Emerging technologies: ethics, law and governance. Routledge, 117­126.
+      Commun. ACM 59, 2 (2016), 56­62.
+
+[23] Kurt T Dirks and Donald L Ferrin. 2002. Trust in leadership: meta-analytic
+      findings and implications for research and practice. Journal of applied psychology
+      87, 4 (2002), 611.
+
+[24] Till Feier, Jan Gogoll, and Matthias Uhl. 2021. Hiding Behind Machines:
+      When Blame Is Shifted to Artificial Agents. CoRR abs/2101.11465 (2021).
+      arXiv:2101.11465 https://arxiv.org/abs/2101.11465
+
+[25] Luciano Floridi and Josh Cowls. 2022. A unified framework of five principles
+      for AI in society. Machine learning and the city: Applications in architecture and
+      urban design (2022), 535­545.
+
+[26] Luciano Floridi, Josh Cowls, Monica Beltrametti, Raja Chatila, Patrice Chazerand,
+      Virginia Dignum, Christoph Luetge, Robert Madelin, Ugo Pagallo, Francesca Rossi,
+      et al. 2018. AI4People--an ethical framework for a good AI society: opportunities,
+      risks, principles, and recommendations. Minds and machines 28 (2018), 689­707.
+
+[27] Simson Garfinkel, Jeanna Matthews, Stuart S Shapiro, and Jonathan M Smith.
+      2017. Toward algorithmic transparency and accountability. , 5­5 pages.
+The Social Impact of Decision-Making Algorithms: Reviewing the Influence                                                        TAS '23, July 11­12, 2023, Edinburgh, United Kingdom
+of Agency, Responsibility and Accountability on Trust and Blame
+                                                                                           [67] Jatinder Singh. 2013. Critical appraisal skills programme. Journal of pharmacology
+[58] Frank Pasquale. 2015. The black box society: The secret algorithms that control             and Pharmacotherapeutics 4, 1 (2013), 76­76.
+      money and information. Harvard University Press.
+                                                                                           [68] Jack Stilgoe, Richard Owen, and Phil Macnaghten. 2020. Developing a framework
+[59] Philip Pettit. 2001. A theory of freedom: from the psychology to the politics of            for responsible innovation. In The ethics of nanotechnology, geoengineering and
+      agency. Oxford University Press on Demand.                                                 clean energy. Routledge, 347­359.
+
+[60] Monica D Ramirez-Andreotta, Julia Green Brody, Nathan Lothrop, Miranda Loh,           [69] Mariarosaria Taddeo and Luciano Floridi. 2018. How AI can be a force for good.
+      Paloma I Beamer, and Phil Brown. 2016. Improving environmental health literacy             Science 361, 6404 (2018), 751­752.
+      and justice through environmental exposure results communication. International
+      journal of environmental research and public health 13, 7 (2016), 690.               [70] Philip E Tetlock. 1992. The impact of accountability on judgment and choice:
+                                                                                                 Toward a social contingency model. In Advances in experimental social psychology.
+[61] Lee Ross. 1977. The intuitive psychologist and his shortcomings: Distortions in             Vol. 25. Elsevier, 331­376.
+      the attribution process. In Advances in experimental social psychology. Vol. 10.
+      Elsevier, 173­220.                                                                   [71] Alexis Tsoukias. 2021. Social responsibility of algorithms: an overview. EURO
+                                                                                                 Working Group on DSS: A Tour of the DSS Developments Over the Last 30 Years
+[62] Paul Rozin, Maureen Markwith, and Caryn Stoess. 1997. Moralization and                      (2021), 153­166.
+      becoming a vegetarian: The transformation of preferences into values and the
+      recruitment of disgust. Psychological science 8, 2 (1997), 67­73.                    [72] William Turton. 2017. The algorithm is innocent. Google and Facebook deflect
+                                                                                                 responsibility onto algorithms, as if they don't control their own code. The
+[63] Gabrielle Samuel, SL Roberts, A Fiske, F Lucivero, S McLennan, A Phillips, S Hayes,         Outline (2017).
+      and SB Johnson. 2022. COVID-19 contact tracing apps: UK public perceptions.
+      Critical Public Health 32, 1 (2022), 31­43.                                          [73] R Jay Wallace. 1998. Responsibility and the Moral Sentiments, reprint edition.
+                                                                                           [74] Linda Weber, Linda R. Weber, and Allison I. Carter. 2003. The social construction
+[64] Andreas Schedler, Larry Jay Diamond, and Marc F Plattner. 1999. The self-
+      restraining state: power and accountability in new democracies. Lynne Rienner              of trust. Springer Science & Business Media.
+      Publishers.                                                                          [75] Jess Whittlestone, Rune Nyrup, Anna Alexandrova, and Stephen Cave. 2019.
+
+[65] Andrew D Selbst, Danah Boyd, Sorelle A Friedler, Suresh Venkatasubramanian,                 The role and limits of principles in AI ethics: towards a focus on tensions. In
+      and Janet Vertesi. 2019. Fairness and abstraction in sociotechnical systems. In            Proceedings of the 2019 AAAI/ACM Conference on AI, Ethics, and Society. 195­200.
+      Proceedings of the conference on fairness, accountability, and transparency. 59­68.  [76] Tal Zarsky. 2016. The trouble with algorithmic decisions: An analytic road map
+                                                                                                 to examine efficiency and fairness in automated and opaque decision making.
+[66] Mehdi Shahrdad and Mehdi Chehel Amirani. 2018. Detection of preterm labor                   Science, Technology, & Human Values 41, 1 (2016), 118­132.
+      by partitioning and clustering the EHG signal. Biomedical Signal Processing and      [77] Barry J Zimmerman. 2000. Self-efficacy: An essential motive to learn. Contempo-
+      Control 45 (2018), 109­116.                                                                rary educational psychology 25, 1 (2000), 82­91.
+

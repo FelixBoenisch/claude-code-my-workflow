@@ -1,0 +1,1119 @@
+Article                                                                        Journal of Marketing Research
+                                                                                                              1-17
+Task-Dependent Algorithm Aversion
+                                                                  ª American Marketing Association 2019
+Noah Castelo, Maarten W. Bos, and Donald R. Lehmann                                   Article reuse guidelines:
+
+                                                                          sagepub.com/journals-permissions
+                                                                         DOI: 10.1177/0022243719851788
+
+                                                                             journals.sagepub.com/home/mrj
+
+Abstract
+Research suggests that consumers are averse to relying on algorithms to perform tasks that are typically done by humans,
+despite the fact that algorithms often perform better. The authors explore when and why this is true in a wide variety of
+domains. They find that algorithms are trusted and relied on less for tasks that seem subjective (vs. objective) in nature.
+However, they show that perceived task objectivity is malleable and that increasing a task's perceived objectivity increases
+trust in and use of algorithms for that task. Consumers mistakenly believe that algorithms lack the abilities required to
+perform subjective tasks. Increasing algorithms' perceived affective human-likeness is therefore effective at increasing the
+use of algorithms for subjective tasks. These findings are supported by the results of four online lab studies with over 1,400
+participants and two online field studies with over 56,000 participants. The results provide insights into when and why
+consumers are likely to use algorithms and how marketers can increase their use when they outperform humans.
+
+Keywords
+algorithms, new products, technology adoption
+
+Online supplement: https://doi.org/10.1177/0022243719851788
+
+Algorithms--a set of steps that a computer can follow to          Algorithm Aversion
+perform a task--increasingly outperform humans at many
+tasks. Pioneering literature from the 1950s demonstrated that     Table 1 summarizes the primary results of empirical studies
+very simple algorithms such as linear regression could out-       that have examined trust in and use of algorithms compared
+perform expert humans on tasks such as diagnosing medical         with humans, ordered by publication date. The dominant theme
+and psychological illnesses (Dawes, Faust, and Meehl 1989;        is that consumers prefer humans over algorithms (for an excep-
+Grove et al. 2000; Meehl 1954). Since then, rapid progress in     tion, see Logg, Minson, and Moore [2019]). For example, after
+the field of artificial intelligence has endowed algorithms with  seeing an algorithm err, people prefer to rely on humans for
+the abilities to understand and produce natural language, learn   forecasting student performance, even when doing so results in
+from experience, and even understand and mimic human emo-         suboptimal forecasts (Dietvorst, Simmons, and Massey 2014).
+tions. Today, algorithms can outperform even expert humans        People also trust medical recommendations less when they
+at an increasingly comprehensive list of tasks, from diagnos-     come from an algorithm than from a human doctor (Promber-
+ing complex diseases (Simonite 2014) to driving cars and          ger and Baron 2006; Longoni, Bonezzi, Morewedge 2019).
+providing legal advice (Krasnianski 2015). Algorithms can         Scholars have argued that consumers are averse to relying on
+also perform seemingly subjective tasks such as detecting         automated medical care because they believe that such care
+emotion in facial expressions and tone of voice (Kodra            will not fully take into account their unique individual circum-
+et al. 2013). Algorithms thus offer enormous potential for        stances (Longoni, Bonezzi, and Morewedge 2019). In the same
+improving outcomes for consumers and firms, including the         domain, Shaffer et al. (2013) found that participants rated phy-
+automation of a large proportion of marketing decisions           sicians who made an unaided diagnosis significantly more
+(Bucklin, Lehmann, and Little 1998). The rise of algorithms       positively than a physician who used an algorithm to assist
+means that consumers are increasingly presented with a novel
+choice: should they rely more on humans or on algorithms?         Noah Castelo is an Assistant Professor of Marketing, University of Alberta,
+Research suggests that the default option in this choice is to    Canada (email: ncastelo@ualberta.ca). Maarten W. Bos is Senior Research
+rely on humans, even when doing so results in objectively         Scientist, Snap Inc., USA (email: maarten.w.bos@gmail.com). Donald R.
+worse outcomes.                                                   Lehmann is George E. Warren Professor of Business, Columbia University,
+                                                                  USA (email: drl2@columbia.edu).
+2
+
+   Table 1. Summaries of Relevant Research on Perceptions and Use of Algorithms.
+
+   Research        Sample                              Main Independent Variable             Main Dependent Variable              Main Findings
+
+   Promberger and  Online U.S. panel; two-study N ¼ 166 Medical recommendation from          Acceptance of recommendation and Acceptance and trust are higher for humans vs.
+
+      Baron (2006)                                     "physician" vs. "computer program" trust in recommender                       computer programs (algorithms).
+   O¨ nkal et al. (2009) Turkish economics students;                                                                              Human advice was given more weight than
+                                                       Financial forecasts from "human       Weight of advice (how much
+
+                   two-study N ¼ 130                   expert" vs. "statistical forecasting  participants adjusted own forecast   algorithmic advice.
+
+                                                       method"                               after receiving advice)
+
+   Diab et al. (2011) Online U.S. and non-U.S. panel;  Employee selection via "thorough      Perceived usefulness, fairness, and  Thorough discussions (humans) were viewed
+
+                   one-study N ¼ 462                   discussion" vs. "mathematical         flexibility of selection method.     as more useful, fair, and flexible than
+
+                                                       formula"                                                                   formulae (algorithms).
+
+   Eastwood, Snook, and Canadian undergraduate students and Financial and medical advice based on Preference, accuracy, fairness, ethicality Intuition and experience (humans) were
+
+   Luther (2012)   shopping mall attendees; three-     "intuition and personal experience" of advice methods                      preferred and seen as more accurate,
+
+                   study N ¼ 235                       vs. "a statistical formula"                                                ethical, and fair than formulae (algorithms).
+
+   Shaffer et al. (2013) U.S. undergraduate students; three- Doctor who makes an unaided     Doctor's perceived diagnosis ability, Soliciting aid from a computer but not from
+
+                   study N ¼ 732                       diagnosis or solicits aid from either professionalism, thoroughness        human decreases perceived ability,
+
+                                                       computer program or from human                                             professionalism, and thoroughness.
+
+                                                       colleague
+
+   Dietvorst, Simmons, U.S. students and MTurk workers; Observing vs. not observing an       Choice to rely on algorithm vs. oneself Participants exhibited reduced reliance on the
+
+   and Massey (2014) five-study N ¼ 2,367              algorithm perform (and err) at        or algorithm vs. other participants  algorithm after seeing it err, even when it
+
+                                                       forecasting tasks                     when making incentivized forecasts   outperforms humans.
+
+   Dietvorst, Simmons, U.S. students and MTurk workers; Being able vs. unable to modify an   Choice to rely on algorithm vs. oneself Participants showed increased reliance on the
+
+   and Massey (2016) three-study N ¼ 1,922             algorithm's forecasts                 when making incentivized forecasts   algorithm when its output was modifiable.
+
+   Logg, Minson, and Students, MTurk workers, academic Various forecasts from either "another Weight of advice (how much          Nonexperts relied more on advice from
+
+   Moore (2019)    researchers, and national security person" or an "algorithm"              participants adjusted their own      algorithms than from other people. Experts
+
+                   professionals; seven-study N ¼                                            forecast after receiving advice)     relied less on algorithms than on themselves.
+
+                   1,464
+
+   Yeomans et al. (2019) MTurk workers and museum visitors; Receiving joke recommendations from Preference for source of          People prefer to receive jokes from humans
+
+                   six-study N ¼ 3,647                 either a human or an algorithm        recommendations and likelihood of and to recommend jokes themselves (vs.
+
+                                                                                             using algorithm to make              using an algorithm).
+
+                                                                                             recommendations for others
+
+   Longoni, Bonezzi, and MTurk workers and U.S. students; Receiving medical treatment from a Preference for using, reservation prices, People prefer to receive medical treatment
+
+   Morewedge (2019) nine-study N ¼ 2,596               human or from artificial intelligence and actual use of treatment provider from humans because they think artificial
+
+                                                                                                                                  intelligence neglects their unique
+
+                                                                                                                                  circumstances.
+Castelo et al.                                                       3
+
+with the diagnosis, but no differently than a physician who          show that this effect occurs primarily because of a belief that
+consulted a colleague to assist with the diagnosis. Participants     algorithms are ineffective at subjective tasks. Trust involves
+who had a greater internal locus of control had more negative        both cognitive and affective dimensions (Johnson and Grayson
+evaluations of algorithmic diagnoses.                                2005). Cognitive trust involves confidence in another agent's
+                                                                     performance or reliability, whereas affective trust is based on
+   O¨ nkal et al. (2009) found that participants relied less on      one's feelings and can be independent from performance. In the
+advice from an algorithm than from a human when forecasting          context of our research, we suggest that consumers' overall
+stock prices. Like Shaffer et al. (2013), they argued that parti-    trust in algorithms is affected by both performance-based, cog-
+cipants find it easier to shift responsibility or blame to other     nitive beliefs about the algorithm's performance and by feel-
+humans. They also noted that humans, unlike most algorithms,         ings stemming from consumers' comfort with the use of
+can provide explanations for their decisions (Armstrong 1980),       algorithms for tasks typically done by humans, which can be
+are perceived to have high confidence (Sniezek and Buckley           independent of performance-related beliefs. We therefore
+1995), have a reputation to maintain (Eisenhardt 1989), and          explore both consumers' beliefs about algorithmic perfor-
+have information about future events (Blattberg and Hoch             mance as well as their comfort with the use of algorithms as
+1990). In contrast, algorithms are thought to possess none of        mechanisms of our main effect.
+these qualities.
+                                                                        Second, we explore approaches for making algorithms more
+   In the domain of employee selection and hiring decisions,         attractive to potential users when use is low despite algorithmic
+Diab et al. (2011) found that participants thought that human        superiority over expert humans. We show that the perceived
+interviews were more useful, professional, fair, personal, flex-     objectivity of a task is malleable and that reframing tasks as being
+ible, and precise than algorithms. In the domain of student          relatively objective increases trust in and willingness to rely on
+performance forecasting, Dietvorst, Simmons, and Massey              algorithms. Furthermore, we show that the belief in algorithm
+(2014) found that participants preferred to make their own           ineffectiveness for subjective tasks is also malleable. Specifically,
+forecasts rather than relying on an algorithm after seeing the       increasing the affective human-likeness of algorithms by provid-
+algorithm err, and that while algorithms were seen as better         ing real examples of algorithms with affective abilities, such as
+than humans at avoiding obvious mistakes, appropriately              understanding emotion and creating art, can make algorithms
+weighing attributes, and consistently weighing information,          seem more effective at performing subjective tasks, which ulti-
+humans were seen as better than algorithms at learning from          mately increases reliance on algorithms for such tasks.
+mistakes, getting better with practice, finding "diamonds in
+the rough," and detecting exceptions to the rule. Dietvorst,         Hypothesis Development
+Simmons, and Massey (2016) also found that allowing parti-
+cipants to slightly modify the output of an algorithm makes          There are many potentially relevant dimensions along which
+them feel more satisfied with the forecasting process, more          tasks vary that can influence consumers' use of algorithms.
+tolerant of errors, more likely to believe that the algorithm is     For example, consumers are already familiar with the use of
+superior, and more likely to choose an algorithm to make             algorithms for certain tasks such as recommending movies on
+subsequent forecasts.                                                Netflix or filing taxes on TurboTax. Familiarity with algo-
+                                                                     rithms for a given task is likely to increase trust in and will-
+   Finally, Yeomans et al. (2019) found that participants            ingness to rely on algorithms for that task. Similarly, some
+relied less on an algorithm than on humans for the task of           tasks are more consequential than others, in the sense that
+predicting joke funniness, while Logg, Minson, and Moore             performing the task poorly will have more serious conse-
+(2019) found that participants relied more on algorithms than        quences. Consumers may be less willing to trust and rely on
+on humans for numerical tasks with an objectively correct            algorithms for more consequential tasks because doing so
+answer. These findings suggest that whether consumers are            poses greater risks. Our primary focus, however, is the per-
+averse to algorithms or appreciate them varies significantly         ceived objectivity of the task. We define an objective task as
+depending on the type of task for which the algorithm is used        one that involves facts that are quantifiable and measurable,
+and how that task is perceived.                                      compared with subjective tasks, which we define as being
+                                                                     open to interpretation and based on personal opinion or intui-
+   There are two notable gaps in this literature. First, there has   tion. Research has shown that lay people see objective tasks as
+not been a systematic exploration of how and why consumers'          requiring logical, rule-based analysis and subjective tasks as
+willingness to use algorithms varies across the many different       requiring intuition and "gut instincts" (Inbar, Cone, and Gilo-
+types of tasks for which algorithms can be used. Second, there       vich 2010). Importantly, the objectivity of a task is not com-
+has been little exploration and validation of practical interven-    pletely inherent in a given task but may be a malleable
+tions that marketers can use to increase consumers' willingness      perception with heterogeneity both among different people
+to rely on algorithms instead of humans, especially in cases         and over time. We therefore exploit this heterogeneity to
+where the algorithm outperforms expert humans.                       develop manipulations of perceived task objectivity.
+
+   We therefore make two primary contributions in this article          The impact of task objectivity on consumers' trust and use
+by addressing these gaps. First, we examine how willingness to       of algorithms likely depends on the kinds of abilities consumers
+trust and use algorithms varies by the characteristics of the task.
+We identify a robust effect that algorithms are trusted and used
+less for tasks that are perceived as subjective in nature, and we
+4                                                                  Journal of Marketing Research XX(X)
+
+typically believe that algorithms possess. One relevant concep-       It follows from H1 that one way of increasing the use of
+tual distinction is between cognitive and emotional abilities.     algorithms for a given task is to increase the degree to which
+For example, research on dehumanization has shown that peo-        the task is perceived as objective. Most tasks can be perceived
+ple perceive two categories of human abilities. First are          as more or less objective depending on how they are framed
+"human uniqueness abilities," which distinguish humans             and which task components are emphasized. Specifically, a
+from other animals but can be shared with machines. These          given task can be approached either by measuring and analyz-
+tend to be cognitive in nature (such as logic and rationality).    ing relevant quantitative variables or by using intuition or gut
+Second are "human nature abilities," which may be shared           feelings. For example, evaluating and hiring a job candidate
+with other animals but not with machines. These tend to be         could be done by using standardized psychometric tests and
+affective or emotional in nature (such as warmth and intui-        measures or by conducting informal interviews and relying
+tion; Haslam 2006; Loughnan and Haslam 2007). Impor-               on one's gut feeling or intuition. Importantly, it is not always
+tantly, research has shown that machines such as robots            clear which of these approaches is superior for many important
+are viewed as lacking human nature abilities (which are            tasks, as psychologists continue to debate the relative merits of
+emotional) but not human uniqueness abilities (which are           more "deliberate" versus more "intuitive" approaches to differ-
+cognitive; Haslam et al. 2008).                                    ent tasks (Bear and Rand 2016; Dijksterhuis et al. 2006; Giger-
+                                                                   enzer and Brighton 2009; Slovic et al. 2004). Furthermore,
+   Research on mind perception has focused on two similar          consumers also differ in terms of their preferences for and
+dimensions: agency, the ability to engage in intentional plan-     tendencies to rely on more analytical versus intuitive
+ning and action, and experience, the ability to subjectively       approaches to decision making (Greifeneder, Bless, and Pham
+experience emotions and sensations. Mirroring research on          2011; Inbar, Cone, and Gilovich 2010). This uncertainty pro-
+humanness, machines (such as robots) are seen as having some       vides an opportunity to frame tasks typically viewed as sub-
+degree of agency but no experience (Gray, Gray, and Wegner         jective as being more objective. Therefore,
+2007), and endowing robots with experience creates more
+negative reactions than endowing robots with agency (Gray             H2: Describing a task as benefiting from quantitative
+and Wegner 2012). These streams of research demonstrate               analysis (relative to intuition) increases perceived task
+that consumers perceive human abilities as either cognitive           objectivity and consumers' trust in and reliance on
+or emotional and are willing to grant machines more cognitive         algorithms.
+than emotional abilities. Integrating these streams of research
+with the distinction between objective tasks, which are typi-         In addition to changing how the task is perceived, a second
+cally associated with more "cognitive" abilities, and subjec-      approach for increasing the use of algorithms involves chang-
+tive tasks, which are typically associated with more               ing how the algorithm itself is perceived. As mentioned earlier,
+"emotional" abilities (Inbar, Cone, and Gilovich 2010), sug-       consumers tend to believe that machines lack fundamentally
+gests that consumers will believe that algorithms will be less     human capabilities that are emotional or affective in nature
+effective at subjective tasks because they are believed to lack    (i.e., that they lack affective human-likeness) (Gray, Gray, and
+the affective or emotional abilities typically associated with     Wegner 2007; Haslam et al. 2008). However, this belief is
+these tasks. Beliefs about whether a technology is effective       increasingly inaccurate. Algorithms can already create paint-
+are fundamental determinants of whether that technology is         ings that sell for hundreds of thousands of dollars (Quacken-
+ultimately adopted (Davis, Bagozzi, and Warshaw 1989;              bush 2018), write compelling poetry and music (Deahl 2018;
+Rogers 1976). Therefore,                                           Gibbs 2016), predict which songs will be hits (Herremans,
+                                                                   Martens, and So¨rensen 2014), and even accurately identify
+   H1: Consumers trust and rely on algorithms less for sub-        human emotion from facial expressions and tone of voice and
+   jective (vs. objective) tasks.                                  respond accordingly (Goasduff 2017; Kodra et al. 2013;
+                                                                   McDuff et al. 2013). Algorithms are therefore increasingly
+   We measure trust in algorithms in several studies because       capable of performing the kinds of tasks typically associated
+research has shown that trust in a technology is an important      with subjectivity and emotion. Note that even though algo-
+determinant of the decision to use it (Komiak and Benbasat         rithms may accomplish these tasks using very different means
+2006; Li, Hess, and Valacich 2008; Pavlou and Gefen 2004).         than humans do (i.e., using predetermined computer program-
+Trust is relevant in situations in which one party is somehow      ming rather than intuitions or gut feelings) we show that the
+dependent on the actions of another party and this dependence      fact that algorithms can accomplish such tasks at all makes
+involves risk (Chopra and Wallace 2003), which is the case         them seem more human-like.
+when consumers use an algorithm to perform a task typically
+done by a human. Higher trust in an algorithm should therefore        We expect that increasing algorithms' perceived human-
+lead to greater willingness to use the algorithm. Thus, while the  likeness in this way will moderate the effect of task objectivity.
+majority of our studies focus specifically on the actual or        This moderation, however, could plausibly either increase or
+intended use of algorithms, we also measure trust in algorithms    decrease the effect of objectivity. On one hand, increasing
+(both in terms of affective and cognitive trust) as an important   affective human-likeness is likely to increase the perceived
+factor that contributes to use.                                    effectiveness of algorithms for subjective tasks, because
+Castelo et al.                                                                                                  5
+
+consumers believe that subjective tasks require affective abil-                      Algorithm's
+ities that algorithms are typically thought to lack. Making algo-                      affective
+rithms seem more human-like could therefore decrease or
+eliminate the main effect of task objectivity. This result would                   Human-likeness
+indicate that cognitive trust (i.e., beliefs about algorithm effec-
+tiveness) is more important than affective trust (i.e., feelings         Task       Discomfort     Reliance on
+that are independent from beliefs about effectiveness) in shap-       objectivity  Effectiveness    algorithm
+ing consumers' use of algorithms.
+                                                                      Figure 1. Conceptual model.
+   On the other hand, increasing affective human-likeness may         Notes: Task objectivity decreases discomfort with using algorithms for the task,
+also produce discomfort with the use of algorithms by challen-        increases algorithms' perceived effectiveness, and increases reliance on algo-
+ging the belief that humans are distinct from machines. Indeed,       rithms, but these effects are reduced when the algorithm has high affective
+social identity theory posits that people derive meaning and          human-likeness.
+satisfaction from membership in distinct groups, and that when
+an out-group threatens the sense of distinctiveness of their in-      services, and actual reliance on algorithms in the context of
+group, they react negatively toward the threatening out-group         an incentivized task.
+(Tajfel 1982). In other words, people like to believe that their
+in-group is unique, and when an out-group begins to challenge            To summarize, existing explanations of algorithm aversion
+that perceived uniqueness, the out-group will be evaluated            suggest that it is largely driven by a perception that algorithms
+negatively (Brewer 1991; Ferrari, Paladino, and Jetten 2016).         lack various human abilities. We propose that it is specifically
+Increasing the affective human-likeness of algorithms could           affective abilities that algorithms are seen as lacking and that
+therefore represent an intergroup challenge in the sense of           this belief decreases willingness to rely on algorithms for
+algorithms as an out-group challenging the distinctiveness of         tasks that seem subjective. Consequently, emphasizing that
+humans (as an in-group) from machines. According to social            a given task benefits from a more quantitative approach can
+identity theory, this challenge to in-group distinctiveness could     increase the perceived objectivity of that task, ultimately
+in turn lead to negative evaluations of the challenging out-          increasing trust and use of algorithms. Finally, increasing
+group (algorithms in this case), ultimately decreasing the use        algorithms' perceived affective human-likeness may either
+of algorithms, including for subjective tasks. This result would      reduce or increase the effect of perceived task objectivity on
+suggest that affective trust is more important than cognitive         consumers' use of algorithms, depending on whether algorith-
+trust in determining consumers' use of algorithms.                    mic effectiveness or discomfort with human-like algorithms
+                                                                      have a stronger impact on use.
+   Measuring consumers' reliance on algorithms that vary in
+affective human-likeness can thus help tease apart these two             We explore these questions in 6 studies. Study 1 shows that
+competing hypotheses. Whether increasing affective human-             trust in algorithms varies substantially depending on the task,
+likeness reduces or exacerbates the main effect of task objec-        and that trust is lower for more subjective tasks. Study 2 repli-
+tivity may ultimately depend on whether cognitive factors             cates this effect in an applied field study. Study 3 shows that
+(i.e., beliefs about effectiveness) or affective factors (i.e.,       providing evidence that algorithms are superior to humans for a
+feelings of discomfort potentially stemming from intergroup           specific task is less effective at increasing consumers' preference
+challenges) have a stronger impact on consumers' use of algo-         for using algorithms when the task is relatively subjective. Study
+rithms. In other words, endowing algorithms with affective            4 shows that reframing a subjective task as being more objective
+abilities may negatively affect consumers' affective reactions        increases trust in algorithms. Study 5 replicates the task-framing
+to the use of algorithms while also positively affecting con-         effect in a field study. Finally, Study 6 shows that increasing
+sumers' cognitive reactions, and both cognitive and affective         algorithms' perceived affective human-likeness by providing
+reactions should influence consumers' willingness to use              examples of algorithms with affective abilities increases the use
+algorithms. In place of a third hypothesis, we thus posit a final     of algorithms for subjective tasks, thus eliminating the effect of
+research question:                                                    task objectivity. Put simply: consumers have strong preconcep-
+                                                                      tions about what algorithms are good at, so two ways to increase
+    Will increasing algorithms' perceived affective human-likeness    reliance on algorithms are to change the way (1) the task and (2)
+    decrease or increase the effect of perceived task objectivity on  the algorithm's abilities are perceived.
+    consumers' use of algorithms?
+                                                                         Figure 1 depicts the conceptual model that we test in this
+   We test these hypotheses and answer this research question         research. The main effect that we demonstrate is that perceived
+using a variety of field and lab studies and several different        task objectivity reduces consumers' trust in and willingness to
+dependent measures. To increase generalizability and demon-           rely on algorithms (Studies 1­6). We provide evidence that this
+strate the robustness of our effects, we operationalize our           effect is explained partially by the perceived effectiveness of
+dependent variable in multiple ways, including self-reported          algorithms for subjective tasks (Studies 4 and 6) and partially
+trust in and preference for algorithms relative to humans, clicks     by consumers' discomfort using algorithms for subjective tasks
+on online advertisements for algorithm- and human-based
+6                                                                   Journal of Marketing Research XX(X)
+
+(Study 6). Furthermore, we study the effects of algorithms'            To test the effects of the three dimensions of consequential-
+affective human-likeness, finding both direct effects on dis-       ness, familiarity, and objectivity on trust in algorithms, we
+comfort and interactions between human-likeness and task            conducted a regression in which these three dimensions were
+objectivity in shaping discomfort, perceived effectiveness of       simultaneously used to predict trust in algorithms. This
+the algorithm, and reliance on the algorithm (Study 6). Specif-     revealed that trust in algorithms was lower for tasks that
+ically, we find that the effects of task objectivity on perceived   seemed more consequential (b ¼ À.56, p < .001), higher for
+algorithm effectiveness, consumers' discomfort, and reliance        tasks for which consumers were more familiar with the use of
+on algorithms are each reduced when the algorithm has high          algorithms (b ¼ .42, p < .001), and most importantly higher for
+affective human-likeness. The primary results of these studies      tasks that seemed more objective (b ¼ .46, p ¼ .004). The
+are summarized in Table 2.                                          adjusted R2 for this regression was .54. These results provide
+                                                                    initial support for H1, suggesting that trust is higher for more
+Study 1                                                             objective tasks. The next study will corroborate this finding in
+                                                                    an applied field study.
+To gain an initial understanding of how trust in algorithms
+varies by task, in Study 1 we examined 26 tasks that vary along     Study 2
+several dimensions. The primary goal of this study was to test
+H1, that trust in algorithms would be lower for more subjective     While our first study provided initial support for H1, it is pos-
+tasks. We also measured task consequentialness and how famil-       sible that participants' self-reported trust is not a reliable indi-
+iar participants were with the use of algorithms for each task,     cator of their actual behavior. To address this concern, in Study
+two other potentially relevant dimensions. Furthermore, we          2 we examined the role of task objectivity in a field study in
+also measured trust in well-qualified humans for each task so       which participants' behavior was directly observed.
+that we could compare trust in algorithms to trust in humans for
+each task. This study was conducted in two parts, with one          Method
+sample of participants rating the tasks along the dimensions
+of objectivity, consequentialness, and familiarity with the use     Participants and design. We created four advertisements, orga-
+of algorithms, and a second sample rating their trust in algo-      nized in a 2 (human vs. algorithmic advisor) Â 2 (dating vs.
+rithms or in humans for each task.                                  financial advice) design, and displayed them on Facebook (for
+                                                                    the exact stimuli used in this and all other studies, see Web
+Method                                                              Appendix A). The ads portrayed either a human or an algorithm
+                                                                    providing either dating advice (rated as highly subjective in
+Participants and design. For part 1, we recruited 250 participants  Study 1) or financial advice (rated as highly objective in Study
+(Mage ¼ 37 years, 41% female) from Amazon's Mechanical              1). These four ads were seen by 41,592 unique Facebook users
+Turk (MTurk), who rated tasks along several dimensions. For         (40% female, mean age not observed) on their Facebook news-
+part 2, we recruited 387 participants (Mage ¼ 36 years, 45%         feed (i.e. the stream of posts that users see on Facebook from
+female) from MTurk, who were randomly assigned to one of            their friends and advertisers).
+two conditions (trust in humans vs. trust in algorithms).
+                                                                    Procedure. Participants who see ads on their Facebook newsfeed
+Procedure. For part 1, participants rated each of 26 tasks on how   can click on those ads to learn more about them. Our ads were
+objective versus subjective it seemed, how consequential ver-       clicked on 604 times in total. Participants who clicked on our
+sus inconsequential it seemed, and how familiar they were with      ads were taken to a page explaining that we were studying
+the use of algorithms for each task, using scales from 0 ("not at   consumers' trust in algorithms. Our dependent variable was the
+all") to 100 ("completely"). The tasks as well as the dimensions    click-through rate (CTR) of the ads, which is the number of
+being rated were presented in random order. For part 2, parti-      clicks a given ad received divided by the number of times that
+cipants indicated how much they would trust either an algo-         ad was seen (Facebook shares this information with the creator
+rithm or a "very well qualified person" for each of 26 tasks also   of the advertising campaign). We expected participants to be
+on a scale from 0 ("not at all") to 100 ("completely"). For         more likely to click on an ad for dating advice when it was
+example, for the task of diagnosing a disease, the person was       advertised as coming from a human versus an algorithmic
+described as a doctor. The tasks are shown in Table 3.              advisor, but that CTRs would not differ between human and
+                                                                    algorithmic financial advice, because the latter is a more objec-
+Results and Discussion                                              tive task.
+
+Averaged across tasks, trust in a qualified human was higher        Results and Discussion
+than trust in algorithms (Mhuman ¼ 70.2 vs. Malgorithm ¼ 52.8;
+t(385) ¼ 5.75, p < .001). However, trust in algorithms was          We conducted a logistic regression to estimate the effects of
+higher than in humans for certain tasks (predicting stock mar-      human versus algorithm (human ¼ 1, algorithm ¼ 0), finance
+ket outcomes, predicting the weather, analyzing data, and giv-      versus dating ad (finance ¼ 1, dating ¼ 0), and their interaction
+ing directions, ts > 4.70, ps < .001; see Table 3).                 on the CTR (click ¼ 1, no click ¼ 0). This revealed that the
+Castelo et al.                                                                                                                           7
+
+Table 2. Summary of Main Findings from Six Studies and Within-Article Meta-Analysis.
+
+Study 1: N ¼ 250; MTurk; measured task objectivity, trust in humans, and trust in algorithms; between-subjects (0­100 scales)
+
+                                                Subjective Tasks                                                      Objective Tasks
+
+Trust in algorithm                                                                         47.3                              56.8
+Trust in human
+Main finding                                                                               73.3                              68.7
+
+                                                Perceived task objectivity is positively related to trust in algorithms
+
+                                                                                                 (b ¼ .46, p < .001)
+
+Study 2: N ¼ 41,592; Facebook; manipulated task objectivity and source of advice (human vs. algorithm); measured ad CTRs
+
+                                                Subjective Task                                                       Objective Task
+
+Algorithm ad CTR                                                                           .6%                               1.6%
+Human ad CTR
+Main finding                                                                               2.1%                              1.8%
+
+                                                Higher CTR for human versus algorithm ad only for subjective task
+
+                                                                                                (interaction b ¼ À.99, p < .001)
+
+Study 3: N ¼ 201; MTurk; manipulated awareness of algorithm's performance; measured task objectivity and preference for algorithms relative
+   to humans (0­100 scales)
+
+                                                Subjective Tasks                                                      Objective Tasks
+
+Preference for algorithm (known performance)                                               47.3                              55.1
+Preference for algorithm (unknown performance)
+Main finding                                                                               31.7                              34.5
+
+                                                Awareness of algorithm's performance increases preference for algorithm
+
+                                                more when task is objective (interaction b ¼ À.20, p ¼ .013)
+
+Study 4: N ¼ 201; Prolific Academic; manipulated perceived task objectivity; measured preference for algorithms relative to humans (0­100
+   scale)
+
+                                                Subjective Tasks                                                      Objective Tasks
+
+Preference for algorithm                                                                   33.9                              44.5
+Main finding
+                                                Reframing the same task as being more objective increases preference
+
+                                                                                                 for algorithms (p < .001).
+
+Study 5: N ¼ 13,621; Facebook; manipulated perceived task objectivity (0­100 scale); measured ad CTRs
+
+                                                Subjective Framing                                                    Objective Framing
+
+Algorithm ad CTR                                                                           .4%                                    .9%
+Main finding
+                                                Reframing the same task as being more objective increases CTR
+
+                                                                                           for algorithm-based advice ads (p ¼ .038).
+
+Study 6: N ¼ 399; Prolific Academic; manipulated perceived task objectivity, manipulated algorithm's affective human-likeness; measured
+   reliance on algorithm in an incentivized forecasting task (0­1 scale)
+
+                                                Subjective Task                                                       Objective Task
+
+Reliance on algorithm (low human-likeness)                                                 .22                                    .39
+Reliance on algorithm (high human-likeness)
+Main finding                                                                               .35                                    .40
+
+                                                Effect of perceived objectivity eliminated when algorithm has high
+
+                                                affective human-likeness (interaction b ¼ À.15, p ¼ .060)
+
+Six-study meta-analysis: N ¼ 56,264; effects of task objectivity on algorithm appreciation
+
+                                                                                                 Cohen's d                   95% CI
+
+Study 1 (effect of task objectiveness on trust)                                                      .32                     [.02, .61]
+Study 2 (effect of task objectiveness on CTR, algorithm condition)                               .32 (1.80)                  [.28, .36]
+Study 3 (effect of task objectiveness on preferred use, no-performance-information                                           [.11, .24]
+                                                                                                     .17
+   condition)                                                                                                                [.27, .84]
+Study 4 (effect of task objectiveness on preferred use)                                              .56                     [.39, .49]
+Study 5 (effect of task objectiveness on CTR)                                                    .44 (2.21)                  [.24, .84]
+Study 6 (effect of task objectiveness on use, low-human-likeness condition)                                                  [.35, .37]
+Weighted average                                                                                     .52
+                                                                                                     .36
+
+Notes: We obtained Cohen's d in Studies 2 and 5 by converting ORs (shown in parentheses).
+8                                                                                                  Journal of Marketing Research XX(X)
+
+Table 3. Trust in Algorithms Versus Qualified Humans (Study 1).                        2.5%
+
+                                                 Human­                                2.0%
+                        Trust Trust Algorithm Task
+                       Human Algorithm Gap Objectiveness
+
+Predicting joke        65  30  35   27
+
+   funniness                                                                           1.5%
+
+Hiring and firing      72  34  38   49
+
+   employees                                                                      CTR
+
+Recommending a         59  37  22   26                                                       2.1%
+
+   romantic partner                                                                    1.0%                   1.8%
+                                                                                        .5%                             1.6%
+Writing news article 79    37  42   48                                                  .0%
+
+Predicting recidivism 54   42  12   45
+
+Composing a song       81  43  38   30
+
+Driving a truck        81  43  38   70
+
+Recommending a gift 75     46  29   26                                                             .5%
+
+Predicting student     63  46  17   52
+
+   performance                                                                               Dating                     Finance
+                                                                                                       Human  Algorithm
+Piloting a plane       79  47  32   78
+
+Driving a car          81  47  34   69
+
+Recommending           73  48  25   69
+
+   disease treatment                                                              Figure 2. Algorithm aversion for a subjective (but not objective) task.
+                                                                                  Notes: Error bars represent standard errors.
+Diagnosing a disease 73    48  25   77
+
+Predicting employee 61     50  11   51
+
+   performance
+
+Driving a subway       77  52  25   73                                            Study 3
+
+Predicting an          51  54  À3   57                                            Our first two studies have provided support for H1, showing
+                                                                                  that consumers are less willing to trust and use algorithms for
+   election                                                                       tasks that seem subjective. Nevertheless, algorithms are often
+                                                                                  highly effective at such tasks. Interventions that can increase
+Recommending a         70  56  14   55                                            trust and use of algorithms for such tasks could therefore be
+                                                                                  helpful to both consumers and firms. One of the most intuitive
+   marketing strategy                                                             approaches for increasing consumers' willingness to use algo-
+                                                                                  rithms is to provide them with empirical evidence of the algo-
+Recommending           75  59  16   22                                            rithms' superior performance relative to humans for the
+                                                                                  specific task in question. However, given the effect demon-
+   music                                                                          strated in the previous studies, we anticipated that this evidence
+                                                                                  would be less effective at increasing willingness to use algo-
+Recommending a         76  59  17   23                                            rithms for tasks that seem subjective because consumers may
+                                                                                  be less likely to believe that algorithms can perform subjective
+   movie                                                                          tasks better than humans even when provided relevant evi-
+                                                                                  dence. Note that Study 3 does not manipulate the perceived
+Buying stocks          62  60  2    56                                            human-likeness of the algorithm, which itself may have an
+                                                                                  impact on the perceived effectiveness of algorithms in general,
+Playing a piano        84  61  23   48                                            but instead manipulates the perceived effectiveness of the algo-
+                                                                                  rithm for the specific task in question.
+Predicting stocks      55  63  À8   58
+
+Predicting weather 57      67  À10  68
+
+Scheduling events      78  69  9    62
+
+Analyzing data         69  80  À11  73
+
+Giving directions      70  82  À12  75
+
+Notes: Tasks are listed in increasing order of trust in algorithms. The human­
+algorithm gap for a task is statistically significant (p < .001) when the corre-
+sponding number is in boldface.
+
+CTR was higher for human ads (b ¼ 1.14, p < .001) and                             Method
+finance ads (b ¼ .59, p ¼ .001). We also found a significant
+interaction between these factors (b ¼ À.99, p < .001). As                        Participants and design. Two hundred one MTurk users (Mage ¼
+predicted, the CTR for the dating advice ads was significantly                    36 years, 49% female) reported their preference for using an
+higher for the human advisor (2.1%) than for the algorithm                        algorithm relative to a qualified human for nine tasks (see
+advisor (.6%, w2(1) ¼ 29.10, odds ratio [OR] ¼ 3.14, p <                          Table 4). These nine tasks varied in terms of both trust in
+.001). In contrast, for the financial advice ads, the CTR was                     algorithms and perceived objectivity as measured in Study 1.
+only marginally significantly higher for the human advisor                        Importantly, there is published research available documenting
+(1.8%) than for the algorithm advisor (1.6%, w2(1) ¼ 3.26,                        the superiority of algorithms over qualified humans for all nine
+OR ¼ 1.16, p ¼ .092; see Figure 2). This range of CTRs is                         tasks. Participants were assigned to one of two performance
+comparable to other recent studies using Facebook advertising                     conditions: known performance or unknown performance. In
+campaigns (Matz et al. 2017). These results provide further
+support and external validity to the notion that trust in algo-
+rithms is low primarily for tasks that are seen as subjective.
+Castelo et al.                                                                    9
+
+Table 4. Trust in Humans Versus Algorithms.                                       4). We assigned each task the objectivity score that it received
+                                                                                  in Study 1 and then conducted an analysis of variance
+                        Preference for Algorithm Relative to Human                (ANOVA) in which performance condition, task objectivity,
+                                                                                  and their interaction were used to predict preference for using
+                        Without  With                                             an algorithm relative to a human. This revealed main effects for
+                                                                                  performance condition (F(1, 183) ¼ 208.23, p < .001), task
+                        Performance Performance  Task                             objectivity (F(8, 183) ¼ 4.94, p ¼ .026), and a significant
+                                                                                  interaction (F(8, 183) ¼ 6.12, p ¼ .013). The effect of provid-
+                        Data     Data D Objectivity                               ing performance information was significant for each task. To
+                                                                                  explore the interaction, we divided tasks into "objective tasks"
+Predict student         39       57              18 52                            (rated as greater than 50, or the midpoint used to measure
+                                                                                  objectivity), and "subjective tasks" (rated as less than 50). The
+performance                                                                       effect of providing performance data on preference for using
+                                                                                  an algorithm was significantly greater for objective tasks
+Predict employee        27       52              25 51                            (Mperf_data ¼ 55.1, Mno_perf_data ¼ 34.5; t(199) ¼ 14.37, d ¼
+                                                                                  .64, p < .001) than it was for subjective tasks (Mperf_data ¼ 47.3,
+performance                                                                       Mno_perf_data ¼ 31.7; t(199) ¼ 10.35, d ¼ .51, p < .001).
+
+Recommend disease       31       59              28 69                               The results of this study suggest that consumers' willingness
+                                                                                  to use an algorithm instead of a qualified human can be
+treatment                                                                         increased simply by demonstrating that the algorithm outper-
+                                                                                  forms the human, although the increase is significantly smaller
+Predict recidivism      24       52              28 45                            for subjective tasks. This study therefore provides further sup-
+                                                                                  port for H1 by showing that task objectivity reduces willingness
+Drive a car             26       53              27 69                            to use algorithms even when consumers are made explicitly
+                                                                                  aware that the algorithm outperforms humans. However, parti-
+Recommend a movie       33       52              19 23                            cipants remained roughly indifferent between humans and
+                                                                                  superior algorithms even for several of the most objective
+Diagnose a disease      23       46              23 77                            tasks. Indifference is insufficient for marketers interested in
+                                                                                  selling algorithm-based products and services. Importantly,
+Predict personality     35       40              5 41                             this indifference is suboptimal for consumers when algorithms
+                                                                                  outperform humans (as is the case in each of the nine tasks in
+traits                                                                            this study), because consumers who are indifferent will tend to
+                                                                                  select the default or status quo option (i.e., the worse-
+Predict joke enjoyment  19       35              16 27                            performing human; Dinner et al. 2011). These findings empha-
+                                                                                  size the need for other approaches to increase trust and use of
+Average                 29       50              21 50                            algorithms. The next set of studies test H2, which posits that
+                                                                                  reframing the task for which an algorithm is used can be one
+Notes: Higher numbers indicate greater trust in algorithms relative to humans.    such approach.
+Boldfaced means are significantly different from the scale midpoint (50, labeled
+as "trust both equally"). The next-to-last column is the change in preference     Study 4
+between condition (significant for all tasks), and the last column is the tasks'
+rated objectivity, taken from Study 1.                                            In Study 4, we attempt to increase consumers' trust in algo-
+                                                                                  rithms for subjective tasks by emphasizing that such tasks can
+the known performance condition, we told participants that the                    benefit from quantitative analysis (relative to intuition), thus
+algorithm outperformed the human and described the results of                     providing a test of H2. This study also tests both the cognitive
+a real study that had demonstrated the algorithm's superior                       and affective dimensions of trust, confirming that our effects
+performance. In the unknown performance condition, this                           are driven by the cognitive dimension.
+information was omitted, and the performance of the algorithm
+was not mentioned.                                                                Method
+
+Procedure. Participants read about and rated each of the nine                     Participants and design. Two hundred one Prolific Academic
+tasks individually. In the known performance condition, partici-                  users (Mage ¼ 33 years, 47% female) were randomly assigned
+pants read about a published academic study for each task which                   to one of two conditions in which two tasks were described in
+demonstrated that an algorithm could outperform qualified                         such a way that emphasized either their quantitative compo-
+humans. We provided links to each study and reported how                          nents (the objective condition) or their intuitive components
+much better the algorithm performed compared with the humans                      (the subjective condition). The tasks were recommending a
+in the study. In the unknown performance condition, this infor-
+mation was not provided, and participants simply reported their
+preference without learning how the performance of algorithms
+compared with the performance of humans.
+
+   Participants reported whether they would rather use an algo-
+rithm or a qualified human for each task, with responses
+entered on a 0 to 100 scale, with 0 labeled as the relevant
+qualified human, 50 labeled as no preference, and 100 labeled
+as algorithm. For example, the relevant qualified human was
+"human doctor" for the task of diagnosing a disease and
+"human judge" for the task of deciding a parole case.
+
+Results and Discussion
+
+Preference for using algorithms was higher when performance
+data was provided (M ¼ 50.4) compared with when it was not
+(M ¼ 28.6; t(199) ¼ 17.5, p < .001). The effect of performance
+data was highly significant for each of the nine tasks (see Table
+10                                                                  Journal of Marketing Research XX(X)
+
+movie and recommending a romantic partner, two consumer-            76.9; t(199) ¼ 1.96, p ¼ .052). The manipulation had no effect,
+relevant tasks that were rated as highly subjective in Study 1.     however, on participants' discomfort with the use of algorithms
+Prolific Academic is a crowdsourcing website in which parti-        for the tasks (reverse-coded: Msubjective ¼ 72.0, Mobjective ¼
+cipants are less familiar with common experimental para-            72.1; t(199) ¼ .27, p ¼ .795). Discomfort with the use of
+digms and more honest than participants on MTurk (Peer              algorithms did have a significant negative effect on trust in the
+et al. 2017).                                                       algorithm (b ¼ À.19, p < .001), while perceived effectiveness
+                                                                    had a significant positive effect on trust (b ¼ .34, p < .001).
+Procedure. In the subjective condition, participants read that,     However, a regression using both discomfort and perceived
+according to previous studies, the tasks were best accomplished     effectiveness simultaneously to predict trust showed that effec-
+by focusing on one's moods, emotions, and intuitions. In the        tiveness remained a significant predictor (b ¼ .34, p < .001)
+objective condition participants read that, according to previ-     while discomfort did not (b ¼ À.004, p ¼ .948), suggesting that
+ous studies, the tasks were best accomplished by focusing on        any initial effect of discomfort can be reduced if the algorithm
+quantifiable data such as measured personality traits. Partici-     is viewed as being effective.
+pants reported how much they would trust an algorithm relative
+to a human for the two tasks. Responses were entered on 0­100          A mediation analysis with 5,000 bootstrapped replications
+scales, with the scale anchored at 0 ("trust human more"), 50       confirmed that perceived task objectivity and perceived effec-
+("trust both equally"), and 100 ("trust the algorithm more").       tiveness of algorithms sequentially mediated the relationship
+The qualified human was specified as a friend for the movie         between task framing and trust in algorithms. As reported pre-
+task and a professional matchmaker for the dating task. Parti-      viously, task framing affected perceived task objectivity, which
+cipants also reported how objective the tasks seemed.               in turn affected the perceived effectiveness of algorithms for
+                                                                    the tasks (b ¼ .20, p ¼ .007). The direct effect of task framing
+   To measure both the affective and cognitive components of        on trust in algorithms (b ¼ À10.49, p < .001) was reduced but
+consumers' trust in algorithms, we asked participants how           still significant when accounting for the mediators (b ¼ À6.04,
+much they agreed with the following questions: for cognitive        p ¼ .012), and the indirect effect was significant (b ¼ ­.002,
+evaluations, "I can see the benefits in algorithms that can per-    95% confidence interval ¼ [­.0002, ­.0117]).
+form this kind of task better than humans," "Algorithms that
+can perform this kind of task could be useful," and "I believe         These results demonstrate that the perceived objectivity of a
+this kind of algorithm can perform well," and for affective         given task is malleable and that objectivity influences both the
+evaluations, "Algorithms that can perform this kind of task         perceived effectiveness of algorithms for a task and self-
+better than humans make me uncomfortable," "Algorithms that         reported trust in the algorithm for that task. These findings
+can perform this kind of task go against what I believe com-        therefore suggest a practical marketing intervention that can
+puters should be used for," and "Algorithms that can perform        be used to increase trust in and use of algorithms for tasks that
+this kind of task are unsettling." Alphas were .96 and .92,         are typically seen as subjective. We test this intervention using
+respectively, and all items were anchored at 0 ("not at all") and   a field study in Study 5.
+100 ("completely"). We refer to the two kinds of evaluation as
+"effectiveness" and "discomfort" in the following analyses.         Study 5
+
+Results and Discussion                                              In Study 5, we increase the external validity of the findings
+                                                                    from Study 4 and test whether they can be practically useful for
+Participants trusted humans more than algorithms in both con-       marketers. In this second Facebook advertising study, we
+ditions for both tasks (ts > 1.89, ps < .062; comparing each        manipulate the perceived objectivity of a subjective task in the
+mean to 50 ["trust both equally"]). However, emphasizing the        context of a Facebook advertising campaign for algorithm- and
+quantitative approach to accomplishing the tasks succeeded at       human-based dating services.
+increasing trust in algorithms for both tasks (movie recommen-
+dation: Msubjective ¼ 31.5, Mobjective ¼ 45.1; t(199) ¼ 4.04, p <   Method
+.001; romantic partner recommendation: Msubjective ¼ 36.4,
+Mobjective ¼ 43.8; t(199) ¼ 2.09, p ¼ .038). Looked at another      Participants and design. We created two advertisements for an
+way, 36% of participants in the quantitative framing condition      algorithm-based dating service that either highlighted the ben-
+reported trusting an algorithm more than a human (>50 on the        efits of using a quantitative approach to choosing a romantic
+scale, collapsing across both tasks), compared with only 19%        partner (i.e., "studies show that using objective, quantifiable
+of participants in the intuitive framing condition (w2(1) ¼ 6.60,   data is the best way to choose who to date") or did not (using
+p ¼ .010).                                                          the more neutral ad for algorithm-based dating advice from
+                                                                    Study 2). We displayed these ads on Facebook, and they were
+   Emphasizing the quantitative approach to the tasks also          seen by 13,621 Facebook users (39% female, mean age not
+increased the degree to which the tasks were viewed as              observed).
+objective (collapsing across the two tasks: Msubjective ¼ 32.1,
+Mobjective ¼ 40.7; t(199) ¼ 3.11, p ¼ .002) and made algorithms     Procedure. Our ads were clicked on 110 times in total. As in
+seem more effective at the tasks (Msubjective ¼ 70.7, Mobjective ¼  Study 2, participants who clicked on our ads were taken to a
+Castelo et al.                                                           11
+
+page explaining that we were studying consumers' trust in                Method
+algorithms, and our dependent variable was the CTR of the ads.
+                                                                         Participants and design. Three hundred ninety-nine participants
+Results and Discussion                                                   from Prolific Academic (49% female, Mage ¼ 35 years) were
+                                                                         assigned to one of four conditions in a 2 (affective human-
+Replicating the results of Study 4, logistic regression revealed         likeness: high vs. low) Â 2 (task framing: subjective vs. objec-
+that framing dating advice as benefiting from a quantitative             tive) between-subjects design.
+approach increased the CTR (.87%) compared with the neutral
+ad (.39%, b ¼ À.004, w2(1) ¼ 3.74, OR ¼ 2.21, p ¼ .038).                 Procedure. In the high-human-likeness conditions, participants
+Framing a task that is typically seen as highly subjective as in         read that algorithms can perform a range of tasks that are
+fact benefiting from quantitative data thus provides marketers           typically thought of as contributing to affective human-
+with a practical tool for increasing consumers' willingness to           likeness, including creating music and art, predicting which
+use algorithm-based products for tasks in which algorithm                songs will be popular, and understanding people's emotions.
+aversion might otherwise occur.                                          In the low-human-likeness conditions, participants read that
+                                                                         algorithms cannot perform these kinds of tasks. In reality, algo-
+Study 6                                                                  rithms can in fact perform these tasks. We chose these specific
+                                                                         tasks because both creativity and emotional sensitivity are seen
+Study 6 attempts to increase the use of algorithms for subjec-           as fundamental components of human nature (i.e., the affective
+tive tasks in a different way. Instead of providing data regard-         dimension of human-likeness; Haslam et al. 2005). Participants
+ing the algorithm's performance at the specific task in                  were asked to summarize the information they read in this
+question or reframing the task itself as benefiting from quan-           section to ensure that they paid attention to the material. As a
+tification, we instead attempt to increase the perceived affec-          manipulation check, participants reported how much they
+tive human-likeness of the algorithm by providing real                   agreed with the statement, "Algorithms that can perform this
+examples of algorithms performing tasks that are typically               kind of task make humans seem less distinct from machines"
+thought of as requiring emotional and intuitive abilities (i.e.,         on a 0 ("not at all") through 100 ("completely") scale.
+the kinds of abilities that machines are thought to lack and that
+are seen as necessary for subjective tasks; Gray, Gray, and                 Participants were then shown a graph of the value of the
+Wegner 2007; Haslam et al. 2008; Inbar, Cone, and Gilovich               S&P 500 stock market index over the past year and were asked
+2010). Although social identity theory suggests that this                to estimate its value 30 days in the future. Before providing
+approach may also make consumers less comfortable with the               their initial estimate, participants were informed that the 5%
+use of algorithms by challenging the belief in human distinc-            most accurate estimates would be rewarded with a bonus pay-
+tiveness from machines, the results of Study 4 suggest that the          ment six times larger than their base compensation, to incenti-
+perceived effectiveness of an algorithm is a stronger influence          vize accuracy and encourage serious engagement with the task.
+than discomfort on trust in algorithms. We therefore expect
+that increasing affective human-likeness will make algo-                    After making their initial estimate, participants were told
+rithms seem more effective at subjective tasks and thus                  that an algorithm designed by an expert financial advisor had
+increase the use of algorithms for such tasks, despite poten-            also made an estimate, were shown the algorithm's estimate,
+tially also creating discomfort with the idea of a human-like            and were given the opportunity to revise their initial estimate.
+algorithm.                                                               This paradigm is known as the judge­advisor system and is
+                                                                         commonly used to measure reliance on advice by computing
+   Recall that prior research has consistently identified two            how much participants revise their initial estimate in response
+dimensions of human-likeness, corresponding to cognitive and             to external advice (Logg, Minson, and Moore 2019; Sniezek
+affective abilities (also called "agency" and "experience" or            and Buckley 1995). Reliance on advice is measured as the
+"human uniqueness" and "human nature"; Gray, Gray, and                   difference between the final and initial estimates produced by
+Wegner 2007; Haslam 2006). We chose to manipulate the affec-             each participant divided by the difference between the advice
+tive dimension of human-likeness in this study because that              and the initial estimate.
+dimension is the most relevant to subjective tasks, and because
+that dimension is the one commonly viewed as distinguishing                 The algorithm's estimate was accompanied by a manipulation
+humans from machines. Algorithms with affective human-                   of task objectivity. Specifically, in the objective framing condi-
+likeness are therefore likely to be seen as both more useful for         tion, participants were told that there are clear mathematical rela-
+subjective tasks as well as more threatening to human distinctive-       tionships between economic measures such as supply and
+ness from machines. This study therefore further helps determine         demand and the price of a stock, and that relying on these objec-
+the relative effects of perceived effectiveness (i.e., cognitive trust)  tive indicators is therefore the best way to estimate a stock's future
+and discomfort (i.e., affective trust) on the use of algorithms.         value. In contrast, in the subjective framing condition, partici-
+                                                                         pants were told that human feelings and intuition are the primary
+                                                                         drivers of stock prices, and that relying on these subjective factors
+                                                                         is therefore the best way to estimate a stock's future value.
+
+                                                                            Finally, to measure perceived effectiveness of the algorithm
+                                                                         and discomfort with the use of algorithms, participants were
+12                                                                    Journal of Marketing Research XX(X)
+
+                            1.0                                       low human-likeness, the effect of task framing was significant,
+                                                                      as in prior studies (Msubjective ¼ .22, Mobjective ¼ .39; t(186) ¼
+                            .8                                        3.30, p ¼ .001). However, when participants were told that
+                                                                      algorithms have high human-likeness, the effect of task fram-
+    Reliance on Algorithmn  .6                                        ing was no longer significant (Msubjective ¼ .35, Mobjective ¼ .40;
+                                                                      t(176) ¼ 1.03, p ¼ .303). For a visual depiction of these results,
+                            .4                                        see Figure 3.
+
+                            .2   .36 .40                         .41     Furthermore, we conducted another 2 Â 2 ANOVA with
+                                                       .22            belief in the algorithm's effectiveness as the dependent vari-
+                                                                      able. This revealed no main effect of task framing (F(1, 363) ¼
+                            .0                         Low HL         .94, p ¼ .339), a marginally significant main effect of the
+                                              High HL                 algorithms' human-likeness (F(1, 363) ¼ 2.75, p ¼ .099), and
+                                                                      a significant interaction between these two factors (F(1,363) ¼
+                                 Subjective Objective                 4.10, p ¼ .044). The interaction pattern was the same as the
+                                                                      previous interaction: when participants were told that algo-
+Figure 3. Algorithm aversion for a subjective task is eliminated for  rithms have low human-likeness, the effect of task framing
+algorithms with high human-likeness.                                  on perceived effectiveness of the algorithm was significant
+Notes: Error bars represent standard errors. HL ¼ human-likeness.     (Msubjective ¼ 73.1, Mobjective ¼ 79.1; t(186) ¼ 2.10, p ¼
+                                                                      .037). However, when participants were told that algorithms
+also asked how much they agreed with the following state-             have high human-likeness, the effect of task framing was not
+ments: "I believe this kind of algorithm can perform well," and       significant (Msubjective ¼ 80.9, Mobjective ¼ 78.5; t(176) ¼ .91,
+"Algorithms that can perform this kind of task better than            p ¼ .366).
+humans make me uncomfortable." These items were measured
+on a 0 ("not at all") through 100 ("completely") scale.                  Looked at another way, the effect of algorithm human-
+                                                                      likeness on perceived effectiveness was significant in the sub-
+Results and Discussion                                                jective condition (Mhigh HL ¼ 80.9, Mlow HL ¼ 73.1; t(172) ¼
+                                                                      2.54, p ¼ .014), but not in the objective condition (Mhigh HL ¼
+We excluded 33 participants (8.27% of the sample) whose               78.5, Mlow HL ¼ 79.1; t(192) ¼ .29, p ¼ .834). This indicates
+summaries of the human-likeness manipulation indicated that           that increasing affective human-likeness increases the per-
+they had not read the information, resulting in a final sample of     ceived effectiveness of algorithms for exactly the kind of task
+366. The results reported here are nearly identical if we include     for which algorithms are typically not trusted or used.
+these participants. We first confirmed that our manipulation of
+human-likeness was effective: participants thought that                  The same ANOVA with discomfort as the dependent vari-
+humans were less distinct from machines in the high-human-            able revealed no main effects but a significant interaction
+likeness condition (M ¼ 45.8) compared with the low-human-            (F(1,363) ¼ 4.06, p ¼ .045). In the low-human-likeness con-
+likeness condition (M ¼ 37.8; t(364) ¼ 2.75, p ¼ .006). We            dition, discomfort with algorithms was higher in the subjective
+computed reliance on the algorithm's advice by dividing the           task condition (Msubjective ¼ 28.8, Mobjective ¼ 21.0; t(186) ¼
+difference between participants' final and initial estimates by       2.02, p ¼ .044). In the high-human-likeness condition,
+the difference between the advice and their initial estimate.         discomfort was roughly equivalent across both task framings
+This produces a measure that ranges, in most cases, from 0            (Msubjective ¼ 26.2, Mobjective ¼ 30.3; t(176) ¼ .91, p ¼ .366).
+(complete discounting of the advice) to 1 (complete reliance          Furthermore, the belief that algorithms make humans less dis-
+on the advice). A value of .30 thus corresponds to a 30%              tinct from machines was positively associated with discomfort
+reliance on advice, which is the typical value found in the           (b ¼ .42, p < .001) but was not associated with the perceived
+advice-taking literature (Soll and Larrick 2009).                     effectiveness of the algorithm (b ¼ .04, p ¼ .321). Finally, as in
+                                                                      Study 4, discomfort on its own was negatively associated with
+   A 2 Â 2 ANOVA revealed that reliance on the algorithm              reliance on the algorithm (b ¼ À.001, p ¼ .040), while per-
+was significantly affected by the task framing (objective vs.         ceived effectiveness on its own was positively associated with
+subjective; F(1, 363) ¼ 10.01, p ¼ .002), nonsignificantly            reliance (b ¼ .003, p < .001). However, discomfort became
+affected by providing information about algorithms' human-            nonsignificant when controlling for effectiveness (b ¼ À.0006,
+likeness (F(1, 363) ¼ 2.24, p ¼ .134), and marginally affected        p ¼ .486), whereas effectiveness remained significant (b ¼
+by the interaction between these two factors (F(1, 363) ¼ 3.52,       .003, p ¼ .002). This result suggests that consumers' discom-
+p ¼ .060). When participants were told that algorithms have           fort with algorithms, stemming partly from decreasing human
+                                                                      distinctiveness, has effects on consumers' willingness to use
+                                                                      algorithms ceteris paribus, but that the effects of this discom-
+                                                                      fort are diminished when the algorithm is perceived as being
+                                                                      highly effective.
+
+                                                                         These results also provide further evidence that algorithms
+                                                                      are relied on less for tasks that seem subjective and suggest an
+Castelo et al.                                                      13
+
+additional method of eliminating this effect by increasing          effectiveness of algorithms is a stronger influence than discom-
+awareness of algorithms' affective human-likeness in terms          fort on willingness to use algorithms.
+of abilities typically perceived as distinguishing humans from
+machines. Importantly, these results also help tease apart the      Limitations and Directions for Future Research
+competing hypotheses regarding the role of algorithms'
+human-likeness in shaping consumers use of algorithms.              Our work has several limitations. First, half of the studies relied
+Whereas social identity theory would suggest that algorithms        on participants' reports of what they intended to do rather than
+that challenge the distinctives of humans from machines would       direct evidence of what they did. More studies like Studies 2, 5,
+create negative evaluations of those algorithms, a more cogni-      and 6, which used real behaviors as dependent variables, are
+tive perspective based on consumers' beliefs about algorithms'      needed to further calibrate real-world reactions to algorithms.
+effectiveness suggests that decreasing human­machine distinc-       Related to this, attempts to assess the costs of choosing not to
+tiveness would increase consumers' use of algorithms by mak-        rely on algorithms whose performance is superior to humans
+ing algorithms seem more useful. The fact that we found             may be a valuable direction for future research. Nevertheless, it
+support for the second of these hypotheses suggests that effec-     is encouraging that our self-report findings were replicated in
+tiveness beliefs are stronger determinants of reliance on algo-     field settings. Importantly, concerns about our results being
+rithms than discomfort stemming from intergroup challenges.         driven by demand effects are reduced by our use of both field
+                                                                    studies and incentive-compatible behaviors to replicate the
+General Discussion                                                  effects observed in the self-report studies.
+
+As algorithms become increasingly capable of outperforming             Our manipulation of human-likeness in Study 6 also leaves
+humans at tasks ranging from making recommendations (for,           open the possibility of alternative manipulations of this con-
+e.g., music, movies, stocks) to diagnosing diseases and driv-       struct in future research. We chose to manipulate specifically
+ing cars, a key issue is whether (or at least when or how           the affective dimension of human-likeness because this is the
+quickly) and for what purposes humans will trust and use            most closely relevant dimension to the performance of subjec-
+them. This research explored several aspects of this question.      tive tasks. Indeed, we expected (and found) that increasing
+Specifically, in a series of six experiments with over 56,000       affective human-likeness would make algorithms seem more
+participants in total, we have studied how trust in and use of      effective and useful for subjective tasks. In this sense, affective
+algorithms varies depending on how both the task at hand and        human-likeness is inextricably linked to the effectiveness of the
+algorithms are perceived.                                           algorithm for subjective tasks, because performing such tasks
+                                                                    requires affective abilities. While we manipulated the per-
+   Study 1 found that trust in algorithms for a given task is       ceived effectiveness of the algorithm for the tasks in question
+negatively related to perceived objectivity. Study 2 replicated     directly in Study 3, the manipulation of human-likeness in
+these findings in a field study, finding that consumers click on    Study 6 is not specific to the task in question (i.e., forecasting
+ads for algorithm-based advice less than on ads for human-          stock prices) but is more domain-general. This had the intended
+based advice when the task is subjective (dating advice), but       effect of making the algorithm seem more useful for specific
+not when the task is objective (financial advice). Study 3 tested   subjective tasks. However, this manipulation also had the
+the effect of making consumers explicitly aware of an algo-         expected effect of increasing discomfort with the algorithm.
+rithm's superior performance compared with humans, finding          The purpose of Study 6 was therefore to pit the effects of
+that such awareness is indeed a powerful influence on willing-      effectiveness and discomfort against each other, because both
+ness to use algorithms. However, awareness of superior perfor-      are affected by human-likeness and both were expected to
+mance is not sufficient for creating a true preference for          affect reliance on algorithms, but in opposite directions. Nev-
+algorithms over humans--only indifference between the               ertheless, alternative operationalizations of affective human-
+two--and is particularly ineffective for tasks that are more        likeness are worth testing as well, as is increasing algorithms'
+subjective. Study 4 manipulated perceived task objectivity,         cognitive human-likeness, or even their physical human-
+finding that reframing subjective tasks as being amenable to        likeness to test how these other dimensions affect reliance on
+quantification and measurement increases trust in algorithms        algorithms for different kinds of tasks.
+for those tasks. Study 5 replicated this finding in a field study.
+Finally, Study 6 showed that actual reliance on algorithms in an       Another limitation is that the descriptions of the algorithms
+incentivized task is also lower when the task is seen as sub-       were quite basic. More realistic presentations might include
+jective but that this effect can be eliminated by providing real    brochures, ads, websites, and videos. In addition, different
+examples of algorithms with affective abilities. These findings     presentation modes (in terms of both what and how informa-
+support the conceptual model proposed in Figure 1, demon-           tion is presented) could be examined: use of algorithms may
+strating that consumers perceive algorithms as less useful and      depend as much or more on how they are presented and
+are less comfortable with them for subjective tasks but that        accessed as on what is said about them. One aspect of this
+these effects are reduced when algorithms are seen has having       is the role of social influences on both individual decisions
+high affective human-likeness, suggesting that the perceived        and overall adoption patterns (e.g., how do the p and q coeffi-
+                                                                    cients of the Bass diffusion model, which are related to adver-
+                                                                    tising and word-of-mouth effects on adoption, differ between
+14                                                                                 Journal of Marketing Research XX(X)
+
+Table 5. The Effects of Additional Factors on Preference for Using                 about using an algorithm for each of four tasks, as well as
+Humans Relative to Algorithms for Different Tasks.                                 whether they would prefer to use an algorithm or a human for
+                                                                                   the tasks (predicting personality on the basis of Facebook likes,
+                      Preference for Using Humans For:                             predicting joke funniness, planning a wedding, and predicting
+                                                                                   the price of stocks). For example, participants were asked
+                                         Joke                                      whether using an algorithm for each task would involve privacy
+                      Personality Funniness Wedding Stock Price                    concerns, or whether they would feel badly about themselves
+                      Prediction Prediction Planning Prediction                    for using an algorithm for each task. Table 5 depicts the results
+                                                                                   of this survey. Interestingly, concerns about privacy implica-
+Privacy concerns      À.05  .05  .09  .22                                          tions and companies using algorithms for marketing purposes
+                                                                                   were not significant predictors of willingness to use an algo-
+Marketing concerns    .02   .05  .10  .27                                          rithm for any task. In contrast, the enjoyment of doing the tasks
+                                                                                   oneself, feeling less control over the task, feeling bad about
+Enjoy doing the task  .08   .36  .47  .27                                          oneself if using an algorithm, the belief that the task is related
+                                                                                   to what it means to be human, and the belief that the task
+myself                                                                             requires emotion were each significant predictors of preference
+                                                                                   for using an algorithm for at least two of these tasks. Future
+Feed bad about        .22   .36  .47  .29                                          research is therefore needed to explore the role of these and
+                                                                                   other non-performance-related concerns in shaping consumers'
+myself                                                                             use of algorithms.
+
+Feel less control     .28   .44  .29  .34                                             One additional variable we explored in more depth is the
+                                                                                   degree to which algorithms can diminish the belief that humans
+Requires emotion      .35   .54  .48  .51                                          are distinct from machines. Specifically, we hypothesized that
+                                                                                   the use of algorithms for subjective tasks could challenge the
+Related to being      .16   .39  .65  .34                                          belief in human distinctiveness, which in turn would produce
+                                                                                   discomfort and negative evaluations of the algorithms. We
+human                                                                              found some support for the link between challenging human
+                                                                                   distinctiveness and discomfort, and in turn between discomfort
+Notes: Standardized regression coefficients are shown. Significant effects are in  and decreased trust in and use of algorithms (without control-
+boldface. Positive coefficients indicate that greater concern with the factor in   ling for perceived effectiveness). However, the link between
+question is associated with greater preference for using a human (lower pre-       task objectivity and belief in human distinctiveness was not
+ference for using an algorithm).                                                   consistently significant. Interestingly, algorithms that chal-
+                                                                                   lenge the belief in human distinctiveness often have the simul-
+algorithm adoption and adoption of other consumer and                              taneous effects of producing discomfort and making the
+industrial products?; Bass 1969). Similarly, while descrip-                        algorithms seem more effective. In our studies, however, effec-
+tions and advertising of algorithms is undoubtedly important                       tiveness was a stronger predictor of actual use of algorithms.
+for initial adoption decisions, how actual experience with                         Nevertheless, the belief in human distinctiveness remains an
+algorithms over extended periods of time influences their use                      interesting and potentially important factor in consumers' use
+is also an important topic for future research. For example,                       of algorithms and other human-like technologies and should be
+while we found that providing evidence about an algorithm's                        explored more in future research. Web Appendix B describes
+performance has a smaller effect on preference for using the                       our studies focusing on this factor.
+algorithm when the task seems subjective, repeated exposure
+to algorithms effectively performing such tasks may convince                          Our findings are broadly consistent with the vast majority of
+more consumers of their value.                                                     existing research on consumers' perceptions and use of algo-
+                                                                                   rithms, insofar as the dominant theme of this research (summar-
+   Our finding that consumers are relatively averse to algo-                       ized in Table 1) is algorithm aversion, which we also observe for
+rithms that are used for subjective tasks is particularly relevant                 many tasks. Our findings are inconsistent, however, with a
+in light of the current trend toward affective computing, which                    recent article showing algorithm appreciation (i.e., greater reli-
+is a growing industry intent on creating explicitly emotional                      ance on advice from an algorithm than from a human; Logg,
+algorithms and building them into products from driverless                         Minson, and Moore 2019). That article focuses on preferences
+cars to refrigerators to digital personal assistants (Goasduff                     for algorithms versus humans when making decisions for other
+2017; Kodra et al. 2013). Our results suggest that consumers                       people, whereas we focus on preferences for algorithms versus
+will likely be skeptical about the emotional abilities of such                     humans when making decisions for oneself. This difference may
+algorithms but that convincing demonstrations of their                             contribute to the divergent findings, because making decisions
+effectiveness may ultimately increase willingness to use                           for other people involves greater psychological distance and
+them for tasks typically thought to be "incompatible" with                         therefore more abstract and logical thinking (Trope, Liberman,
+algorithms or computers. Future research should explore                            and Wakslak 2007). Similarly, consumers are more optimistic
+how different ways of presenting emotional algorithms to
+consumers affects their acceptance.
+
+   Future research could also explore additional factors that
+shape use of algorithms. For example, several factors that are
+not explicitly related to the nature of the algorithm or to the
+algorithm's performance might affect use, such as concerns
+about privacy or simply the enjoyment of performing a task
+oneself. While it is beyond the scope of this research to explore
+all such factors, we conducted a small survey to begin explor-
+ing such beliefs. Specifically, we asked 80 MTurk participants
+to report to what extent they had several potential concerns
+Castelo et al.                                                             15
+
+and focused on a choice's potential benefits when choosing for             Funding
+others versus choosing for themselves (Beisswanger et al. 2003;
+Polman 2012). These differences in choosing for self versus                The author(s) received no financial support for the research, author-
+others may thus increase consumers' willingness to choose an               ship, and/or publication of this article.
+algorithm, which represents a more abstract and logical
+approach than humans, and to focus on the potential gains rather           References
+than losses associated with using an algorithm. Future research
+could directly test whether algorithm aversion is more likely              Armstrong, J. Scott (1980), "The Seer-Sucker Theory: The Value of
+when choosing for oneself rather than for others.                              Experts in Forecasting," Technology Review, 82 (7), 16­24.
+
+   Additional broader questions revolve around the potentially             Bass, Frank M. (1969), "A New Product Growth for Model Consumer
+detrimental effects of increasing reliance on algorithms. For                  Durables," Management Science, 15 (5), 215­27.
+example, could an increased reliance on algorithms diminish
+people's capacity to think on their own and solve problems                 Bear, Adam and David G. Rand (2016), "Intuition, Deliberation, and
+creatively or to perform the tasks that have been outsourced to                the Evolution of Cooperation," Proceedings of the National Acad-
+algorithms? Could it diminish the utility and satisfaction that                emy of Sciences, 113 (4), 936­41.
+people receive from accomplishing tasks on their own? Further-
+more, some have argued that the increasing use of algorithms in            Beisswanger, Amy H., Eric R. Stone, Julie M. Hupp, and Liz Allgaier
+society can entrench economic and social inequalities by build-                (2003), "Risk Taking in Relationships: Differences in Deciding for
+ing discrimination into inflexible models applied on a large scale             Oneself Versus for a Friend," Basic and Applied Social Psychol-
+in contexts such as parole, hiring, and credit decisions (O'Neil               ogy, 25 (2), 121­35.
+2016). Scholars and marketers who attempt to increase the use of
+algorithms to improve outcomes for consumers and society                   Blattberg, Robert C. and Stephen J. Hoch (1990), "Database Models
+should be mindful of these concerns, striving to ensure that the               and Managerial Intuition: 50% Model þ 50% Manager," Manage-
+promoted algorithms are both effective and fair.                               ment Science, 36 (8), 887­99.
+
+Conclusion                                                                 Bucklin, Randolph E., Donald R. Lehmann, and John D.C. Little
+                                                                               (1998), "From Decision Support to Decision Automation:
+We examined consumers' willingness to use algorithms to per-                   A 2020 Vision," Marketing Letters, 9 (3), 235­46.
+form tasks in several areas and examined ways to increase their
+use. Our work highlights the important role of perceived task              Chopra, Kari and William A. Wallace (2003), "Trust in Electronic
+objectivity and of algorithmic human-likeness in shaping con-                  Environments," in Proceedings of the 36th Annual Hawaii Inter-
+sumers' trust in and use of algorithms. While there appears to                 national Conference on System Sciences, HICSS 2003. New York:
+be an inexorable trend toward increasing use of algorithms, the                Association for Computing Machinery, 1­10.
+pace at which they are adopted--as well as the areas where
+they will be adopted first--depends on several interrelated fac-           Davis, Fred, Richard Bagozzi, and Peter Warshaw (1989), "User
+tors including in which areas companies develop algorithms for                 Acceptance of Computer Technology: A Comparison of Two The-
+general use, how they market them, and how soon customers                      oretical Models," Management Science, 35 (8), 982­1003.
+become comfortable with the idea of using algorithms to out-
+source decisions that affect their lives, in ways large and small.         Dawes, Robyn M., David Faust, and Paul E. Meehl (1989), "Clinical
+Our research suggests that marketers face a challenge in balan-                Versus Actuarial Judgment," Science, 243 (4899), 1668­74.
+cing the increasing capabilities of algorithms in subjective
+domains while also addressing consumers' lay beliefs that                  Deahl, Dani (2018), "How AI-Generated Music Is Changing the Way
+algorithms are ineffective at such tasks. Our results provide                  Hits Are Made," The Verge (August 31), https://www.theverge.
+several practical strategies for achieving this balance.                       com/2018/8/31/17777008/artificial-intelligence-taryn-southern-
+                                                                               amper-music.
+Acknowledgment
+The authors are grateful for methodological advice in conducting the       Diab, Dalia L., Shuang-Yueh Pui, Maya Yankelevich, and Scott
+field studies from Sandra Matz.                                                Highhouse (2011), "Lay Perceptions of Selection Decision Aids
+                                                                               in US and Non-US Samples," International Journal of Selection
+Associate Editor                                                               and Assessment, 19 (2), 209­16.
+Vikas Mittal
+                                                                           Dietvorst, Berkeley J., Joseph P. Simmons, and Cade Massey (2016),
+Declaration of Conflicting Interests                                           "Overcoming Algorithm Aversion: People Will Use Imperfect
+The author(s) declared no potential conflicts of interest with respect to      Algorithms If They Can (Even Slightly) Modify Them," Manage-
+the research, authorship, and/or publication of this article.                  ment Science, 64 (3), 1155­70.
+
+                                                                           Dietvorst, Berkeley J., Joseph P Simmons, and Cade Massey (2014),
+                                                                               "Algorithm Aversion: People Erroneously Avoid Algorithms After
+                                                                               Seeing Them Err," Journal of Experimental Psychology: General,
+                                                                               143 (6), 1­13.
+
+                                                                           Dijksterhuis, A.P., Maarten W. Bos, Loran F. Nordgren, and Rick B.
+                                                                               Van Baaren (2006), "On Making the Right Choice: The
+                                                                               Deliberation-Without-Attention Effect," Science, 311 (5763),
+                                                                               1005­07.
+
+                                                                           Dinner, Isaac, Eric J. Johnson, Daniel G. Goldstein, and Kaiya Liu
+                                                                               (2011), "Partitioning Default Effects: Why People Choose Not to
+                                                                               Choose," Journal of Experimental Psychology: Applied, 17 (4),
+                                                                               332­41.
+16                                                                        Journal of Marketing Research XX(X)
+
+Eastwood, Joseph, Brent Snook, and Kirk Luther (2012), "What Peo-             Workshops on Automatic Face and Gesture Recognition. New
+    ple Want from Their Professionals: Attitudes Toward Decision-             York: IEEE, 15­21.
+    Making Strategies," Behavioral Decision Making, 25 (5), 458­68.       Komiak, Sherrie and Izak Benbasat (2006), "The Effects of Persona-
+                                                                              lization and Familiarity on Trust and Adoption of Recommenda-
+Eisenhardt, Kathleen M. (1989), "Agency Theory: An Assessment and             tion Agents," Management Information Systems Quarterly, 30 (4),
+    Review," Academy of Management Review, 14 (1), 57­74.                     941­60.
+                                                                          Krasnianski, Adriana (2015), "Meet Ross, the IBM Watson-Powered
+Ferrari, Francesco, Maria Paola Paladino, and Jolanda Jetten (2016),          Lawyer," PSFK (January 29), http://www.psfk.com/2015/01/ross-
+    "Blurring Human­Machine Distinctions: Anthropomorphic                     ibm-watson-powered-lawyer-legal-research.html.
+    Appearance in Social Robots as a Threat to Human Dis-                 Li, Xin, Traci J. Hess, and Joseph S. Valacich (2008), "Why Do We
+    tinctiveness," International Journal of Social Robotics, 8 (2),           Trust New Technology? A Study of Initial Trust Formation with
+    287­302.                                                                  Organizational Information Systems," Journal of Strategic Infor-
+                                                                              mation Systems, 17 (1), 39­71.
+Gibbs, Samuel (2016), "Google AI Project Writes Poetry Which              Logg, Jennifer M. (2017), "Theory of Machine: When Do People Rely
+    Could Make a Vogon Proud," The Guardian (May 17), https://                on Algorithms?" Working Paper No. 17-086, Harvard Business
+    www.theguardian.com/technology/2016/may/17/googles-ai-write-              School, Harvard University.
+    poetry-stark-dramatic-vogons.                                         Logg, Jennifer M., Julia A. Minson, and Don A. Moore (2019),
+                                                                              "Algorithm Appreciation: People Prefer Algorithmic to Human
+Gigerenzer, Gerd and Henry Brighton (2009), "Homo Heuristicus:                Judgment," Organizational Behavior and Human Decision Pro-
+    Why Biased Minds Make Better Inferences," Topics in Cognitive             cesses, 151 (March), 90­103.
+    Science, 1 (1), 107­43.                                               Longoni, Chaira, Andrea Bonezzi, and Carey Morewedge (2019),
+                                                                              "Resistance to Medical Artificial Intelligence," Journal of Con-
+Goasduff, Laurence (2017), "Emotion AI Will Personalize Inter-                sumer Research (published online May 3), DOI:10.1093/jcr/
+    actions," Gartner (January 27), https://www.gartner.com/smarter           ucz013.
+    withgartner/emotion-ai-will-personalize-interactions/.                Loughnan, Stephen and Nick Haslam (2007), "Animals and Androids:
+                                                                              Implicit Associations Between Social Categories and Non-
+Gray, Heather M., Kurt Gray, and Daniel M. Wegner (2007),                     humans," Psychological Science, 18 (2), 116­22.
+    "Dimensions of Mind Perception," Science, 619 (5812),                 Matz, Sandra, Michael Kosinski, Gideon Nave, and David Stillwell
+    10­11.                                                                    (2017), "Psychological Targeting as an Effective Approach to
+                                                                              Digital Mass Persuasion," Proceedings of the National Academy
+Gray, Kurt and Daniel M. Wegner (2012), "Feeling Robots and                   of Sciences, 114 (48), 12714­19.
+    Human Zombies: Mind Perception and the Uncanny Valley," Cog-          McDuff, Daniel, Rana El Kaliouby, Thibaud Senechal, May Amr,
+    nition, 125 (1), 125­30.                                                  Jeffrey F. Cohn, and Rosalind Picard (2013), "Affectiva-MIT
+                                                                              Facial Expression Dataset (AM-FED): Naturalistic and Sponta-
+Greifeneder, Rainer, Herbert Bless, and Michel Tuan Pham (2011),              neous Facial Expressions Collected `In-the-Wild," in IEEE Com-
+    "When Do People Rely on Affective and Cognitive Feelings in               puter Society Conference on Computer Vision and Pattern
+    Judgment? A Review," Personality and Social Psychology Review,            Recognition Workshops. New York: IEEE, 881­88.
+    15 (2), 107­41.                                                       Meehl, Paul E. (1954), Clinical vs. Statistical Prediction: A Theore-
+                                                                              tical Analysis and a Review of the Evidence. Minneapolis: Univer-
+Grove, William M., David H. Zald, Boyd S. Lebow, Beth E. Snitz, and           sity of Minnesota Press.
+    Chad Nelson (2000), "Clinical Versus Mechanical Prediction: A         O'Neil, Cathy (2016), Weapons of Math Destruction. New York:
+    Meta-Analysis," Psychological Assessment, 12 (1), 19­30.                  Crown.
+                                                                          O¨ nkal, Dilek, Paul Goodwin, Mary Thomson, Sinan Go¨ nu¨ l, and
+Haslam, Nick (2006), "Dehumanization: An Integrative Review,"                 Andrew Pollock (2009), "The Relative Influence of Advice from
+    Personality and Social Psychology Review, 10 (3), 252­64.                 Human Experts and Statistical Methods on Forecast Adjustments,"
+                                                                              Behavioral Decision Making, 22 (4), 390­409.
+Haslam, Nick, Paul Baine, Lauren Douge, Max Lee, and Brock                Pavlou, Paul A. and David Gefen (2004), "Building Effective Online
+    Bastian (2005), "More Human Than You: Attributing Humannness              Marketplaces with Institution-Based Trust," Information Systems
+    to Self and Others," Journal of Personality and Social Psychology,        Research, 15 (1), 1­108.
+    89 (6), 937­50.                                                       Peer, Eyal, Laura Brandimarte, Sonam Samat, and Alessandro
+                                                                              Acquisti (2017), "Beyond the Turk: Alternative Platforms for
+Haslam, Nick, Yoshihisa Kashima, Stephen Loughnan, Junqi Shi, and             Crowdsourcing Behavioral Research," Journal of Experimental
+    Caterina Suitner (2008), "Subhuman, Inhuman, and Superhuman:              Social Psychology, 70, 153­63.
+    Contrasting Humans with Nonhumans in Three Cultures," Social          Polman, Evan (2012), "Effects of Self-Other Decision Making on
+    Cognition, 26 (2), 248­58.                                                Regulatory Focus and Choice Overload," Journal of Personality
+                                                                              and Social Psychology, 102 (5), 980­93.
+Herremans, Dorien, David Martens, and Kenneth So¨rensen (2014),
+    "Dance Hit Song Prediction," Journal of New Music Research,
+    43 (3), 291­302.
+
+Inbar, Yoel, Jeremy Cone, and Thomas Gilovich (2010), "People's
+    Intuitions About Intuitive Insight and Intuitive Choice," Journal of
+    Personality and Social Psychology, 99 (2), 232­47.
+
+Johnson, Devon and Kent Grayson (2005), "Cognitive and Affective
+    Trust in Service Relationships," Journal of Business Research, 58
+    (4), 500­07.
+
+Kodra, Evan, Thibaud Senechal, Daniel McDuff, and Rana El
+    Kaliouby (2013), "From Dials to Facial Coding: Automated Detec-
+    tion of Spontaneous Facial Expressions for Media Research," in
+    Proceedings of the 10th IEEE International Conference and
+Castelo et al.                                                         17
+
+Promberger, Marianne and Jonathan Baron (2006), "Do Patients Trust         Thoughts about Affect, Reason, Risk, and Rationality," Risk Anal-
+    Computers?" Journal of Behavioral Decision Making, 19 (5),             ysis, 24 (2), 311­22.
+    455­68.                                                            Sniezek, Janet A. and Timothy Buckley (1995), "Cueing and
+                                                                           Cognitive Conflict in Judge-Advisor Decision Making," Orga-
+Quackenbush, Casey (2018), "Painting Made by Artificial Intelligence       nizational Behavior and Human Decision Processes, 62 (2),
+    Sells for $432,500," Time (October 26), https://time.com/5435683/      159­74.
+    artificial-intelligence-painting-christies/.                       Soll, Jack B. and Richard P. Larrick (2009), "Strategies for Revising
+                                                                           Judgment: How (and How Well) People Use Others' Opinions,"
+Rogers, Everett M. (1976), "New Product Adoption and Diffusion,"           Journal of Experimental Psychology: Learning Memory and Cog-
+    Journal of Consumer Research, 2 (4), 290­301.                          nition, 35 (3), 780­805.
+                                                                       Trope, Yaacov, Nira Liberman, and Cheryl Wakslak (2007),
+Shaffer, Victoria A., C. Adam Probst, Edgar C. Merkle, Hal R. Arkes,       "Construal Levels and Psychological Distance: Effects on Repre-
+    and Mitchell A. Medow (2013), "Why Do Patients Derogate Phy-           sentation, Prediction, Evaluation, and Behavior," Journal of Con-
+    sicians Who Use a Computer-Based Diagnostic Support System?"           sumer Psychology, 17 (2), 83­95.
+    Medical Decision Making, 33 (1), 108­18.                           Yeomans, Michael, Anuj Shah, Sendhil Mullainathan, and Jon
+                                                                           Kleinberg (2019), "Making Sense of Recommendations," Journal
+Simonite, Tom (2014), "IBM Watson's Plan to End Human Doctors'             of Behavioral Decision Making, (published online February 14),
+    Monopoly on Medical Know-How," MIT Technology Review (July             DOI:10.1002/bdm.2118.
+    21), https://www.technologyreview.com/s/529021/ibm-aims-to-
+    make-medical-expertise-a-commodity/.
+
+Slovic, Paul, Melissa L. Finucane, Ellen Peters, and Donald G.
+    MacGregor (2004), "Risk as Analysis and Risk as Feelings: Some
+

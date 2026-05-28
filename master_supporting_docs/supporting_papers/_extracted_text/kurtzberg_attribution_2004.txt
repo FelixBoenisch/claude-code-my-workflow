@@ -1,0 +1,804 @@
+Organizational Behavior and Human Decision Processes 93 (2004) 129≠141            ORGANIZATIONAL
+                                                                                         BEHAVIOR
+
+                                                                                       AND HUMAN
+                                                                                DECISION PROCESSES
+
+                                                                          www.elsevier.com/locate/obhdp
+
+Human reactions to technological failure: How accidents rooted
+      in technology vs. human error influence judgments of
+                       organizational accountability
+
+                        Charles E. Naquina,* and Terri R. Kurtzbergb
+
+                                a Mendoza College of Business, University of Notre Dame, Notre Dame, IN 46556, USA
+                           b Rutgers Business School, Rutgers University, 111 Washington Street, Newark, NJ 07102, USA
+
+Abstract
+
+   Two experiments examine how the identification of technology as a causal factor in an organizational accident influences
+judgments of organizational accountability. In study 1, organizations were found to be held less accountable for their actions when a
+misfortune was rooted in a computer error than when rooted in human error. The predicted mechanism for this effect, counter-
+factual thinking, was confirmed. Specifically, technologically induced accidents were found to generate fewer counterfactual
+thoughts of better possible outcomes than similar accidents resulting from human error. Study 2 replicated the findings of study 1 in
+a more natural setting and using a less intrusive measure for counterfactual thoughts.
+” 2003 Elsevier Inc. All rights reserved.
+
+Keywords: Technology failure; Organizational accountability; Counterfactual thinking; Fairness theory
+
+   Developments over the past decades have given rise                     damental research question asks whether people tend to
+to the sense that we have entered into a new techno-                      react differently towards technological failure (such as a
+logical age: one that has fundamentally changed the way                   computer malfunction) than to human failure (such as a
+organizations accomplish work (Carnevale, 1991;                           miscalculation or mistake). With two experimental
+Drucker, 1992; Huey, 1994), as well as substantially                      studies, we examine how individuals may hold organi-
+affecting the way people perceive their world. The cur-                   zations accountable for failures differently depending
+rent economic and societal transformation is centered                     upon whether the failure was attributed to technological
+around information-based technologies, or computers                       or human error. Despite the core role that organiza-
+(Barley, 1996; Beniger, 1989). While the implications for                 tional accountability plays in contemporary society, the
+the changes that computers will bring to our lives are                    literature has only recently begun to focus on the im-
+still unfolding, the present research aims to explore some                portance of organizational accountability to organiza-
+of our basic psychological responses to such technology.                  tional life (see Greenberg & Cropanzano, 2001). The
+More specifically, we attempt to empirically examine                      following studies contribute to this growing stream of
+how experiences of technological failure influence per-                   literature. The theoretical foundation for the research
+ceptions of organizational accountability.                                rests largely upon fairness theory (Folger & Cropanz-
+                                                                          ano, 2001) and the counterfactual thinking literature
+   In today’s society, we encounter technological failure                 (for a review see Roese, 1997).
+constantly--circuits break, computers fail, and networks
+go down. In addition, we are constantly confronted by                     Fairness theory and organizational accountability
+human error, from ourselves, by those around us, or by
+others whom we may never directly observe. Our fun-                          Founding research on attribution theory describes the
+                                                                          differing attributions that people make based on their
+    * Corresponding author.                                               perceptions of the locus of control (internal vs. external)
+    E-mail addresses: charles.naquin.1@nd.edu (C.E. Naquin),
+tk@business.rutgers.edu (T.R. Kurtzberg).
+
+0749-5978/$ - see front matter ” 2003 Elsevier Inc. All rights reserved.
+doi:10.1016/j.obhdp.2003.12.001
+130  C.E. Naquin, T.R. Kurtzberg / Organizational Behavior and Human Decision Processes 93 (2004) 129≠141
+
+of an event (e.g., Heider, 1958; Rotter, 1966). Later                     lished (Folger & Cropanzano, 2001; Schlenker, 1997;
+theorists (Rosenbaum, 1972; Weiner, 1986) added the                       Schlenker et al., 1994), and thus there would be no one
+dimensions of stability and controllability to the equa-                  to blame or against whom to take action in an effort to
+tion. These theorists laid the foundation for current                     rebalance the scales of justice.
+understanding of how individuals make attributions and
+the degree to which one is to be held accountable for                        Judgments of accountability, however, are not always
+subsequent outcomes. Others followed by extending the                     as objectively grounded as we would like. Instead, they
+paradigm to include perceptions justice and fairness                      are subjectively guided by such factors as prior experi-
+(Folger & Cropanzano, 2001). Here, we focus on fair-                      ences (Einhorn & Hogarth, 1986), individual perspec-
+ness theory as a theoretical framework for understand-                    tives (Einhorn & Hogarth, 1986; McGill, 1995), and the
+ing the different attributions that people may naturally                  need to create internally consistent stories (Lacey,
+make towards human error and technological failure.                       Medvec, & Messick, 2003)--all of which can influence
+                                                                          our reasoning on a given incident. According to fairness
+   In an organizational context, accountability allows                    theory, of the three interrelated components influencing
+for both blame and action in an effort to rebalance the                   perceptions of accountability, judgments about the sec-
+scales of justice (e.g., victim compensation). Such ac-                   ond and third--discretionary conduct and moral
+countability,1 according to fairness theory (Folger &                     wrongdoing--are particularly prone to be influenced by
+Cropanzano, 2001) and the triangle model of responsi-                     the subjective nature of a misfortune. And such sub-
+bility (Schlenker, 1997; Schlenker, Britt, Pennington,                    jectivity opens the door for the biases and heuristics of
+Murphy, & Doherty, 1994), consists of three essential                     human reasoning.
+and interrelated components: (a) an injurious event, (b)
+discretionary conduct, and (c) a moral transgression.                        The following research will focus primarily upon the
+For an organization (or person) to be held accountable,                   perceptions of discretionary conduct, the second com-
+all three components must be present.                                     ponent of fairness theory. Our premise is that people
+                                                                          react differently toward an organizational accident in
+   Take, for example, the collision of two rush hour                      this regard depending upon whether it was rooted in
+commuter trains in Chicago (CTA) on the morning of                        technological or human error. We will argue that when
+August 3, 2001 (see Nevala, Rivedal, & Grossman,                          individuals evaluate a misfortune (e.g., the CTA’s train
+2001). This accident resulted in over 100 injuries and                    collision) they have a tendency to cognitively target
+also prevented hundreds more from arriving to work in                     human factors more than technological factors. This is
+a timely fashion. When such an accident occurs the first                  because, we argue, human behavior is viewed as being
+component for accountability is automatically in place--                  more discretionary than technological processes.
+an injurious event has occurred as people were both                       Though it is at essence an empirical question we intend
+physically and economically harmed. Now include the                       to explore, we argue here that relative to technological
+fact that the accident occurred because the train’s con-                  failures, human error is considered more internal, flexi-
+ductor was distracted by a construction project on a                      ble, and controllable than is technological failure. Peo-
+nearby building and consequently failed to see the train                  ple make choices, and machines don’t. Based upon
+obstructing the path or the red lights signaling the train                fairness theory and attribution theory as cited above, we
+to stop. Under such circumstances, the conductor was                      predict that people will have a propensity to blame an
+negligent of his duties (in this particular case, the con-                organization more for a misfortune when it was directly
+ductor was a male); if he had done his job appropriately,                 caused by human error than if the same misfortune had
+the accident might not have happened. Thus, this ad-                      been caused by a technological error.
+ditional information put the second component for ac-
+countability in place: the accident could have been                          We suggest that the mechanism behind this propen-
+avoided if the appropriate actions--actions within the                    sity is twofold, and covers differences in both the ac-
+control of the train’s conductor--had been taken. Fi-                     quisition and the processing of information when it
+nally, because harm came to others such an accident can                   concerns people vs. machines. First, we may cognitively
+be also considered a violation of prevailing ethical and                  attend more easily to counterfactual information when a
+moral norms--the third component for accountability.                      human is the focal actor, because, as described above,
+This example illustrates a fully interconnected chain                     we understand these actions to be more discretionary,
+linking the three components for accountability. If this                  and thus, more mutable in nature. A choice was made
+chain had been broken by any of the three components,                     where another one would have been superior. Second,
+a sense of accountability could not have been estab-                      we may also use the information we have differently
+                                                                          depending on whether it concerns human or machine
+    1 It is important to distinguish organizational accountability as an  actions. This is where the organizational accountability
+outcome of interest from that of individuals feeling accountable for      becomes relevant--regardless of how we understand the
+decisions as a variable that can affect decision making (see, e.g.,       situation, we also may arrive at different conclusions
+Markman & Tetlock, 2000).                                                 about the appropriate course of action, in this case, the
+                                                                          assignment of blame, when the focal actor changes from
+C.E. Naquin, T.R. Kurtzberg / Organizational Behavior and Human Decision Processes 93 (2004) 129≠141  131
+
+human to machine. For example, we may feel that                    man factors for both their blame and then subsequently
+punishment is required when a bad choice was made by               their remedy decisions in the sensemaking process after
+a person, whereas a computer failure is an acceptable              an accident. In this research, we aim to narrow the scope
+outcome from a calculated risk. These two mechanisms               of these previous findings by exploring the cognitive
+combine to help explain the process we empirically ex-             reactions of people to a specifically identified cause--
+amine here.2                                                       either technological or human failure. That is, whereas
+                                                                   Morris et al. (1999) document the propensity for people
+   For example, if your computer was to suddenly fail              to select human causes for accidents with ambiguous
+and the latest version of an important manuscript got              antecedents, we aim to explore how people differentially
+lost, you might find that the microprocessor (i.e., the            react to the accident when the cause (human vs. machine
+computer’s ``brain'') on your computer had failed and              error) is stated as fact. In this way, we hope to extend
+this caused your computer to cease functioning. We                 the previous work by exploring and contrasting the
+posit that while you may be aggravated you would most              specific reactions of people to these two types of causal
+likely not feel that anything discretionary had hap-               factors.
+pened--after all, there is a certain probability of failure
+within a given lifespan of a computer and perhaps your                A relevant stream of research for our argument
+processor faced high odds of failure due to its age. If            demonstrates the differences in how people react to in-
+upon further investigation you come to realize that a              animate objects such as technology vs. how they react to
+manager at the manufacturing facility where your                   other humans. The literature suggests that people have a
+computer was constructed had changed the assembly                  significantly stronger desire to interact with other people
+process, creating a shortcut in the manufacturing pro-             rather than with inanimate objects. Empirical studies
+cess, you may then judge the failure as one where a                have shown that people are five times more likely to seek
+human had made some discretionary (controllable)                   knowledge from another person than from an inanimate
+choices and you might conclude that these discretionary            source (Allen, 1977; Cross, 2001). In addition, the lit-
+choices were poor ones. That is, you may then think                erature also suggests that people have a general prefer-
+something along the lines of ``if only this person had not         ence to create a mental map of their environment that is
+decided to change the manufacturing process, then I                based upon human characteristics. Research on an-
+would not have lost my important manuscript.'' Thus,               thropomorphism and personification (see Guthrie, 1997)
+based upon fairness theory, we would predict that your             have demonstrated that this preference for understand-
+evaluation of organizational accountability (the orga-             ing the world through human-like characteristics is so
+nization being the computer manufacturer, and the one              strong that even nonhuman or inanimate objects will be
+responsible for the decisions of the individual under              given human-like characteristics, whether they are ap-
+their employ) has risen considerably with this informa-            propriate or not. Modern media is awash with examples
+tion. Thus, both the processing and the application of             of machinery having human characteristics (for exam-
+the information take a different path when human ac-               ple, robots with personalities, cars that can talk, or wise-
+tion is considered.                                                cracking computers). Many people even name their
+                                                                   automobiles and talk about them as if they had a will of
+   While the above example is imaginary, it illustrates            their own. More in tune with the present studies, re-
+our basic proposition that there is a difference in how            search on this topic has demonstrated that people tend
+people might evaluate a misfortune as a function of                to react to computers and other pieces of machinery--
+whether it was caused by technological error or human              such as gambling devices (Delfabbro & Winefield,
+error. It is important to contrast this argument with the          2000)--as if they had human characteristics, perhaps as
+opposite, also plausible position in which computer-               a default schema for otherwise inexplicable interactions
+based activity is considered the more controllable of the          (Caporael, 1986). People frequently talk back to com-
+two. Indeed, we install technological control into our             puters out loud as if they could hear (Scheibe & Erwin,
+lives at astounding rates for exactly this reason--to              1979), as well as apply gender stereotypes and exhibit
+avoid the inevitable mishaps associated with error-prone           social behaviors such as politeness and reciprocity to-
+human behavior. Yet, even with this evidence, we argue             wards computers (Nass & Moon, 2000). This stream of
+that psychologically, people are more comfortable as-              research demonstrates that there is a fundamental hu-
+sessing (processing) the discretionary choices of a person         man preference for dealing with people over techno-
+over the events caused by machinery, and subsequently              logical ``things''--to the point where we even try to
+assigning blame (application) based on them.                       force-fit the inanimate technologies in our world into
+                                                                   human models of behavior. Given this line of research, it
+   In support of this research, Morris, Moore, and Sim             makes sense that our cognitive and emotional reactions
+(1999) have demonstrated that decision makers, when                (the processing of information) to that of an actual
+given the choice, will have a propensity to choose hu-             person would be exponentially stronger than our reac-
+                                                                   tions to an inanimate piece of technology, as will be our
+    2 We thank an anonymous OBHDP reviewer for bringing this idea
+to our attention.
+132  C.E. Naquin, T.R. Kurtzberg / Organizational Behavior and Human Decision Processes 93 (2004) 129≠141
+
+assignments of accountability (the application of the          situation in which events took a different course, it is
+information).                                                  also relatively easier to imagine that the organization
+                                                               could have, and should have, followed this different
+   Given the above, we hypothesize that people are less        path. This assumes, of course, that the other two
+likely to hold an organization accountable for negative        components necessary for judgments of organizational
+events caused by technological error than when caused          accountability--an injurious event and moral trans-
+by human error.                                                gression--are held constant.
+
+Hypothesis 1. Less accountability will be attributed to           In line with our first hypothesis, we argue that the ease
+organizations whose failures are rooted in technological       of generating counterfactual thoughts targeting a tech-
+error than those rooted in human error.                        nological failure is quite different than those targeting
+                                                               human factors. Generally speaking, every event is caused
+   The second area of research we cover is the potentially     by not one but a sequence of interrelated antecedent
+mediating role of individuals’ counterfactual thoughts in      events. This effect has been termed multiple conjunctive
+their judgments of organizational accountability.              causality, and states that events are the result of multiple
+                                                               causes working together (Ragin, 1987). Not all of these
+Counterfactual thoughts and organizational accountability      causes are equally available to us in everyday thought,
+                                                               however. When a computer error causes an accident,
+   According to fairness theory, thoughts of what could        there is generally one primary counterfactual thought
+have been (or counterfactual thinking) can influence           that would ``undo'' the resulting damage, without delving
+how people determine the degree of accountability by           much further back in the chain of events than the im-
+weighing discretionary conduct (Folger & Cropanzano,           mediate accident: ``If only the computer hadn’t mal-
+2001). When individuals are confronted with a misfor-          functioned.'' When a person makes a mistake and causes
+tune, they commonly imagine how things might have              an accident, on the other hand, there are myriad options
+occurred otherwise (Roese, 1997; Sanna & Turley,               about what actually caused the failure. This can be seen in
+1996), typically with a more favorable outcome (Kahn-          the case of a hypothetical car accident: ``If only the driver
+eman & Miller, 1986). Because these alternative sce-           hadn’t (1) lost his attention momentarily to the radio, (2)
+narios are contrary to the facts, they are called              been interested in the scenery nearby, (3) been tired that
+counterfactual thoughts. Folger and Cropanzano’s               day, (4) taken that road home, (5) left at that particular
+fairness theory (2001) postulates that people assign ac-       time,'' etc. Each of these is a reasonable reconstruction of
+countability based on their judgment of whether the            the events that would have avoided the resulting accident.
+actions of the organization might have occurred in such        Although this example is anecdotal, discretionary events
+a way that the misfortune could have been avoided. In          generally abound when human action is considered. In
+support of this idea, research by Mandel and Lehman            one sense, it is a mere numbers game: there are that many
+(1996) has demonstrated that people tend to focus spe-         more choices in terms of which decisions were at fault in
+cifically on preventability when forming counterfactual        leading to an organizational accident when we think
+judgments. These ``could judgments,'' also labeled con-        about human action than when we think about technol-
+trasting cases in the causal attribution literature, refer to  ogy. This also indicates, again, that human actions are
+counterfactual thoughts about feasible behaviors. They         fraught with discretionary activities in a way that tech-
+play a critical role in judgments of accountability be-        nological outcomes are not, and suggests a link between
+cause individuals compare them to the actual outcome           discretionary action and counterfactual thoughts.
+and attribute causation to those factors that differ be-
+tween the two (e.g., Einhorn & Hogarth, 1986; Hilton &            For example, a seminal study describes the relative
+Slugoski, 1986; McGill, 1993, 1995; McGill & Klein,            intensity of people’s reactions and counterfactual
+1993; Roese, 1997; Roese & Olson, 1993).                       thoughts to an event based on whether or not they were in
+                                                               control of certain focal antecedents. Markman et al.
+   Controllability of events is central to the ease with       (1995) gave participants the opportunity to spin the
+which people can form counterfactual thoughts (Mandel          ``wheel of fortune'' on their own, or rely for their outcome
+& Lehman, 1996; Markman, Gavanski, Sherman, &                  on the spin of another. Participants reacted much more
+McMullen, 1995). According to fairness theory, the             strongly, and generated more counterfactual ideas, when
+more easily one constructs the counterfactual contrast-        they were in control of their own spins as opposed to
+ing case (or ``could judgments'') such that the organi-        relying on the fate of another’s actions. More specifically,
+zation’s actions are imagined as occurring otherwise           participants permitted to control the wheel’s speed were
+(i.e., their actions ``could'' have been different), the more  more likely to focus their counterfactuals on the results of
+discretionary those actions are then perceived to be,          their own wheel, while participants permitted to choose
+which then results in the organization being held more         which wheel was their own and which was assigned to
+accountable. In other words, if it is easy to imagine a        another were more likely to focus their counterfactual
+                                                               thoughts on the comparison between the two wheels. We
+C.E. Naquin, T.R. Kurtzberg / Organizational Behavior and Human Decision Processes 93 (2004) 129≠141  133
+
+can describe these results in terms of discretionary choice.  by an overall discussion section. It should be noted that
+In each case, it is specifically the choice that the focal    in the series of presented experiments technological
+participant made on a particular feature that triggered       failures are actually computer-based failures. This is in
+people into trying to ``undo'' the results of that choice.    line with the key change in technology within contem-
+                                                              porary society (Barley, 1996).
+   To continue with this line of reasoning, when we
+compare human action and machine action, we must              Study 1
+remember that humans are responsible for creating
+computers in the first place (both the machines them-         Method
+selves and the programs which then generate the ulti-
+mate actions). As such, they are responsible for                 Participants were 86 voluntary graduate-level ac-
+constraining the range of computer ``behaviors'' that         counting students. Each participant read a fictional
+result. Computers cannot ``decide'' to slow down a train,     newspaper article, as presented in the appendix, involving
+for example, unless a human has programmed it to act          the collision of two commuter trains during the morning
+in this way. By creating these constraints, however, we       rush hour in Chicago. The scenario was based upon actual
+may also constrain the number of available counter-           events that occurred on August 3, 2001 when two Chicago
+factual thoughts we can easily generate when failure          Transit Authority (CTA) trains (the Chicago ``El'' trains)
+occurs. No discretionary choice is relevant when a            collided (see Nevala et al., 2001). The collision injured
+computer responds to a situation based on previously          over 140 people and prevented hundreds more from ar-
+constrained set of instructions. Previous research has        riving to work in a timely fashion. After reading the sce-
+shown that constraints of this kind will indeed limit the     nario, participants completed a decision making exercise
+spontaneous generation of counterfactual thoughts             concerning organizational accountability. In both ex-
+(Seelau, Seelau, Wells, & Windschitl, 1995).                  perimental conditions the objective nature of the misfor-
+                                                              tune was held constant: an individual (the victim)
+   When organizational accidents occur, counterfactual        fractured a rib due to the impact of the collision. The cause
+thoughts will also spontaneously occur (Roese & Olson,        of the accident was manipulated as being rooted in either
+1997; Sanna & Turley, 1996) and based on the above, it        technological error (n º 41) or human error (n º 45). The
+is hypothesized that the content of such thoughts will        technological error condition involved a malfunction in
+focus more on the actions rooted in human error than          the train’s computer program, in which the computer er-
+they will focus on technological error.                       roneously allowed the train to continue forward when it
+                                                              should have been stopped. The human error condition
+Hypothesis 2. Organizational accidents resulting from         involved the train’s conductor erroneously allowing the
+technological error will generate fewer counterfactual        train to continue forward when it should have been
+thoughts of a better possible outcome than similar ac-        stopped. Participants were randomly assigned to experi-
+cidents resulting from human error.                           mental conditions.
+
+   It is important to make explicit the link between          Dependent variables
+counterfactual thinking and perceptions of organiza-          Organizational accountability. Judgments of organiza-
+tional accountability. Fairness theory (Folger & Cro-         tional accountability were measured by responses to
+panzano, 2001) posits that counterfactual thoughts and        three questions that were aggregated into an overall ac-
+subsequent thoughts of organizational accountability are      countability index measure (a º :81) ranging from 1 (low
+connected. In particular, the greater the propensity to       accountability) to 7 (high accountability). One question
+have counterfactual thoughts about how the misfortune         measured participants’ perceptions of organizational
+could have occurred otherwise, the greater the perception     accountability directly by responses to the question, ``To
+of organizational accountability will be. We have hy-         what degree do you hold the CTA accountable for the
+pothesized above the link between human vs. technolog-        actions that resulted in the train collision?'' Responses
+ical error and accountability, and the link between human     were measured on a scale of 1 (``not at all'') to 7 (``ab-
+vs. technological error and counterfactual thinking. In       solutely and completely''). In addition, organizational
+order to understand the causality of these three interre-     accountability was measured by participants’ assess-
+lated variables, then, we must hypothesize the following.     ments of victim compensation. As alluded to earlier, one
+                                                              of the consequences of establishing a sense of account-
+Hypothesis 3. Judgments of organizational account-            ability for a misfortune is that it opens the door for
+ability will be mediated by the counterfactual thoughts       the scales of justice to be restored. This is commonly
+about how the actions contributing to a misfortune            accomplished through victim compensation, where
+could have occurred otherwise.                                an organization that is accountable for a misfortune
+
+   Attention is now turned toward testing our hypoth-
+eses. Two experimental studies are presented, followed
+134  C.E. Naquin, T.R. Kurtzberg / Organizational Behavior and Human Decision Processes 93 (2004) 129≠141
+
+compensates the victim in some manner (Walster, Wal-                  of incidences that participants report thoughts of a
+ster, & Berecheid, 1978). Participants were asked how                 better possible outcome and also (2) the number of in-
+much a victim who fractured their rib in the accident                 cidences where they report thoughts of worse possible
+should be compensated. In order to isolate compensation               outcomes.'' Inter-rater agreement was sufficiently high
+judgments to reflect participants’ judgments of pain and              (rwg º :91) and the counts of the two coders, when di-
+suffering, they were informed in the written instructions             vergent, were averaged together to provide a single
+that the victim did not lose any salary, or incur any ex-             measure. It should be noted that there were no reported
+penses (such as medical bills or transportation) because              thoughts of downward counterfactuals (i.e., thoughts of
+these have already been resolved by the insurance com-                a worse possible outcome).
+pany to everybody’s satisfaction. They were instructed to
+award fair compensation solely for ‘pain and suffering’                  It should be noted that both of these measures for
+from the accident. Participants’ victim compensation                  counterfactual thoughts are in line with the research on
+judgments were recorded on a scale of 1 (``the minimum                counterfactual thinking where the generation of count-
+of $0'') to 7 (``the maximum allowable'') with the mid-               erfactual thoughts are often assessed by the mere exis-
+point being 4 (``the typical payment''). Finally, organi-             tence of such thoughts, the number of such thoughts
+zational accountability was measured by assessments of                generated, or the intensity to which counterfactuals are
+organizational blame for the misfortune. This was mea-                experienced (Galinsky, Seiden, Kim, & Medvec, 2002;
+sured by responses to the following question: ``On a scale            Markman, Gavanski, Sherman, & McMullen, 1993;
+of 1 to 100, to what degree do you feel the CTA should be             Sanna & Turley-Ames, 2000). In line with prior research
+blamed for the train collision and resulting damages--1 is            on this subject, the counterfactual index measure used in
+not at all and 100 is absolutely and completely?'' Re-                this study is a composite of both intensity and quantity.
+sponses to this question were mathematically trans-
+formed into scale ranging from 1 to 7, so that all                    Results
+questions would be of equivalent weight in the aggre-
+gated index measure.                                                  Organizational accountability
+                                                                         Although the objective nature of the misfortune was
+Counterfactual thoughts. In order to verify the existence
+and the extent to which participants had counterfactual               held constant across experimental conditions, the degree
+thoughts, also measured were the ratings of the extent to             to which participants held the organization accountable
+which they had thoughts about how the situation could                 for the outcome varied as a function of experimental
+have occurred with a better outcome. Counterfactual                   condition--supporting Hypothesis 1. Participants in the
+thoughts were measured by responses to two questions                  human error condition found the CTA organization
+that were aggregated into an overall counterfactual                   significantly more accountable for the misfortune
+thought index measure (a º :85). The first question                   (M º 4:01, SD º 1:30) than participants in the techno-
+measured the presence of counterfactual thoughts by                   logical error condition (M º 3:53, SD º 1:13), F 1;
+participants’ responses to the following question:                    84ﬁ º 6:29, p < :05, g2 º :10.
+
+    Many times in a situation as this, people contemplate how         Counterfactual thoughts
+    things could have been different. Do any such thoughts occur         Supporting our second hypothesis, participants’
+    to you when thinking of this incident? Specifically, to what ex-
+    tent do you have thoughts about how this incident could have      counterfactual thoughts were found to vary by experi-
+    occurred differently?                                             mental condition. Participants reported that misfortunes
+                                                                      rooted in human error could be more easily imagined as
+   Participants’ responses were recorded on a scale of 1              having a better outcome (M º 4:01, SD º 1:29) than
+(``Thoughts of worse possible outcomes'') to 7                        those rooted in technological error (M º 2:84, SD º
+(``Thoughts of better possible outcomes'') with the                   :97), F 1; 84ﬁ º 22:12, p < :001, g2 º :21.
+midpoint being 4 (``No such thoughts'').
+                                                                      Mediation analysis
+   In addition, an independent third party assessed                      As may be seen in Fig. 1, the nature of the organiza-
+participants’ counterfactual thoughts. Participants, in an
+open-ended question, were asked: ``What are your                      tional accident was a significant predictor of organiza-
+thoughts about this accident? Please use the allotted                 tional accountability. Mediation analyses was conducted
+space below (the 10 lines) to provide a detailed narra-               as per the four steps set forth by Kenny, Kashy, and
+tive.'' Two independent coders, blind to the hypotheses               Bolger (1998) (see also Baron & Kenny, 1986). The three
+and to experimental condition, were asked to complete                 variables of interest to the mediation analysis include (1)
+the following task: ``Count the number of incidences                  causal nature of the organizational accident (technologi-
+that participants imagined how the accident might have                cal or human error), (2) counterfactual thoughts (the
+occurred otherwise--specifically, (1) count the number                hypothesized mediator), and (3) organizational account-
+                                                                      ability. First conducted was a regression analysis using
+                                                                      organizational accountability as a criterion variable and
+C.E. Naquin, T.R. Kurtzberg / Organizational Behavior and Human Decision Processes 93 (2004) 129≠141  135
+
+Fig. 1. Mediation effects on organizational accountability by counterfactual thinking in study 1.
+
+the cause of the organizational accident as a predictor        trolling for the identified mediating variable, step 4 of
+demonstrating that the nature of the organizational ac-        the four-step procedure. As Fig. 1 illustrates, when
+cident was correlated with judgments of organizational         controlling for counterfactual thoughts in this regression
+accountability, b º :26, t84ﬁ º 2:51, p < :05. As illus-      equation the significant relationship between type of
+trated in Fig. 1, which presents the beta coefficients and     organizational accident and organizational account-
+their respective levels of significance, this statistically    ability, b º :26, t84ﬁ º 2:51, p < :05, is reduced to
+significant relationship established that there was an effect  nonsignificance, b º :12, t83ﬁ º 1:05, ns, indicating
+that may be mediated--thus, step 1 criterion of the me-        that counterfactual thinking completely mediates this
+diation analysis is met.                                       relationship.
+
+   Next a regression analysis was conducted using par-            We also tested whether the indirect effect was signif-
+ticipant’s reported counterfactual thoughts as a criterion     icant, the indirect effect being the relationship between
+variable and the cause of the organizational accident as       the causal nature of the misfortune and perceptions of
+a predictor which demonstrated that the nature of an           organizational accountability via counterfactual
+organizational accident was correlated with the hy-            thoughts. Using the Baron and Kenny (1986) modifi-
+pothesized mediator, b º :46, t84ﬁ º 4:70, p < :001. In       cation to the Sobel test which is distributed as Z, it was
+all, because this relationship is statistically significant,   demonstrated that this indirect effect was indeed signif-
+step 2 criterion is met for the hypothesized mediator.         icant, Z º 2:43, p < :05.
+
+   Also presented in Fig. 1 are the effects from the po-          Thus, supporting Hypothesis 3, counterfactual
+tential mediator to the outcome, organizational ac-            thoughts were found to be a mediating mechanism be-
+countability, controlling for the initial variable. Using      tween the nature of an organizational accident (tech-
+organizational accountability as the criterion variable in     nological or human error) and judgments of
+a regression equation with (a) the cause of the organi-        organizational accountability.
+zational accident and (b) counterfactual thoughts as
+predictors, it was found that counterfactual thoughts,            One notable concern regarding our analysis is the
+the hypothesized mediator, was correlated to the de-           potential for alternative models other than one pre-
+pendent variable organizational accountability, b º :37,       sented and tested. That is, because the proposed medi-
+t84ﬁ º 3:66, p < :001, and remained significant even          ator (counterfactual thinking) and outcome
+when controlling for the nature of the of organizational       (organizational accountability) were not manipulated
+accident, b º :31, t83ﬁ º 2:79, p < :01. Thus, step 3         and also not measured in temporal order, alternative
+criterion is met and counterfactual thoughts are found         models may be proposed. For example, there may be
+to mediate this relationship.                                  reverse causal effects. This alternative model is one
+                                                               where perceptions of organizational accountability
+   Finally, analysis was done to explore the relationship      cause counterfactual thinking. Indeed, a mediation
+between the nature of the organizational accident and          analysis of this alternative model does suggest that
+perceptions of organizational accountability when con-         partial mediation is present. Thus, it cannot be ruled out
+136  C.E. Naquin, T.R. Kurtzberg / Organizational Behavior and Human Decision Processes 93 (2004) 129≠141
+
+on the basis of empirical analysis. In addition, an al-       advantage of a real organizational misfortune: the
+ternative model would be to treat both counterfactual         malfunctioning of a university’s e-mail server for an
+thinking and organizational accountability as outcome         entire day. In this way, participants did not need to
+variables. This latter alternative also cannot be ruled out   generate hypothetical responses to the situation--they
+on an empirical basis. However, we believe our tested         were already experiencing them first-hand.
+model is on solid ground in that it fits the prevailing
+theoretical models linking counterfactual thinking to            In addition, our methods change slightly in this study
+causality and related judgments (i.e., blame, compen-         to counteract another possible concern in the items used
+sation, affect, etc.) and has been empirically validated by   for study 1. It is possible that the counterfactual thinking
+a large stream of previous research.                          measure used was too intrusive since we specifically asked
+                                                              people to rate their counterfactual thoughts, without
+   Research on the link between counterfactual thinking       measuring whether they had spontaneously generated
+and perceptions of causation has proliferated since           these on their own. That is, the questionnaire measure
+Kahneman and Tversky (1982) wrote their seminal book          may have actually prompted participants to generate
+chapter about the mental ``simulation'' or the running of     counterfactual thoughts. Though we may argue that both
+alternative scenarios (to the actual outcome) through the     experimental conditions (i.e., technological or human
+mind. They identified the link between counterfactual         error) received the same prompting potential and there
+thinking and perceptions of causality. Solidifying the        was still a clear and distinct difference in reported results,
+theoretical model of counterfactual thinking as an ante-      suggesting an effect that goes beyond simple prompting of
+cedent to determinations of causality and related judg-       participants, the second experiment was modified to ad-
+ments was the publication of Norm Theory (Kahneman            dress this concern. In this study, the relationship between
+& Miller, 1986). This theory is often cited as one of the     the cause of an organizational accident (i.e., technologi-
+most influential theories of the 1980s (Roese & Olson,        cal or human failure) and organizational accountability
+1995) as it set the direction for ensuing research in the     was examined without any prompting of participants for
+area of counterfactual thinking and its effects. The sub-     their counterfactual thoughts.
+stantial body of empirical work in this stream of research
+presents and confirms counterfactual thinking as an an-       Method
+tecedent to perceptions of causality and/or related deci-
+sions--as opposed to the other way around (e.g.,                 Participants were 89 voluntary graduate-level busi-
+Branscombe, Owen, Garstka, & Coleman, 1996; Creyer            ness students. Unlike the scenario-based experiment in
+& Gurhan, 1997; Davis, Lehman, Silver, & Wortman,             study 1, this study had participants reporting their per-
+1996; Jervis, 1996; Lipe, 1991; Macrae, 1992; Macrae,         ceptions regarding a real life organizational accident
+Milne, & Griffiths, 1993; Mandel & Lehman, 1996;              that they experienced. As before, the objective nature of
+McGill, 1993, 1995, 2000; McGill & Klein, 1993; Nario         the misfortune was held constant and the information
+& Branscombe, 1995; Roese & Olson, 1996; Spellman &           provided was manipulated to indicate the outcome re-
+Mandel, 1999; Wells & Gavanski, 1989; Williams, Lees-         sulted from either technological error (n º 43) or human
+Haley, & Price, 1996). Furthermore, one of the basic          error (n º 46).
+tenets of fairness theory (which we are putting to the test)
+is the notion that counterfactual thinking is an ante-           The organizational accident was an actual outage in
+cedent to perceptions of causation and consequently the       the campus e-mail service that restricted e-mails to
+related perception of accountability. In summary, given       campus addresses exclusively. That is, participants could
+the previous work in this stream of research and the          not send e-mail to others outside of the university and
+general consensus that counterfactual thoughts are an         this restriction lasted for the entire work day (i.e., more
+antecedent to perceptions of causality and related judg-      than 8 h). The target organization was known as the
+ments (such as accountability) we feel that our presented     Office of Information Technology (OIT), which man-
+model is on solid ground.                                     ages the computer network at a major Midwestern
+                                                              university. Four hours into the e-mail outage, partici-
+Study 2                                                       pants were given a written questionnaire in their mail-
+                                                              boxes asking their opinion about the outage. In the
+   Study 1 provided us with some insights about how           questionnaire participants were informed that their
+people react to descriptions of misfortunes caused by         e-mail outage was ``believed to be the result of a
+either technological failures or by human error. With         computer error that consequently fried the server'' (i.e.,
+any research of this kind, however, there is always the       the technological error condition) or ``believed to be the
+limitation presented by requiring participants to imagine     result of a human error that consequently fried the
+the scenario, instead of experience it for themselves. In     server'' (i.e., the human error condition). Participant
+study 2, we changed this to a real-life setting by taking     had until the end of the day, 6:00 PM, in which to re-
+                                                              spond by turning the questionnaire in to an unattended
+                                                              box located in the student mailroom. This allowed for a
+C.E. Naquin, T.R. Kurtzberg / Organizational Behavior and Human Decision Processes 93 (2004) 129≠141  137
+
+maximum of 5 h in which to complete the questionnaire.       Results
+At the time of this deadline the e-mail outage was still in
+effect. Response rate was 74% (72% for the technological     Organizational accountability
+failure condition, 76% for the human error condition).          Significant differences were found in participants’
+
+Dependent variables                                          perceptions of organizational accountability. Replicating
+Organizational accountability. Judgments of organiza-        the findings of Study 1, and supporting Hypothesis 1,
+tional accountability were measured in the similar           participants were more likely to perceive the organization
+fashion to that of study 1. In particular, organizational    as being more accountable for a misfortune when the
+accountability was assessed by participants’ responses to    cause is attributed to human error (M º 6:20, SD º :88)
+three questions that were aggregated into an overall         than when attributed to technological error, (M º 5:42,
+accountability index measure (a º .86) ranging from 1        SD º 1:10), F 1; 87ﬁ º 13:62, p < :001, g2 º :14.
+(low accountability) to 7 (high accountability). One
+question measured participants’ perceptions of organi-       Counterfactual thoughts
+zational accountability directly by responses to the            As in the first study, the cause of the organizational
+question, ``To what degree do you hold the OIT ac-
+countable for the campus wide e-mail outage?'' Re-           accident was found to influence participants’ counter-
+sponses were measured on a scale of 1 (``not at all'') to 7  factual thoughts. Specifically, participants had fewer
+(``absolutely and completely''). In addition, organiza-      counterfactual thoughts when organizational accident
+tional accountability was measured by participants’ as-      was caused by a technological error (M º 3:07, SD º
+sessments of ``victim'' compensation. In this case the       1:30) than when caused by human error (M º 4:67,
+compensation is represented by a fine levied upon OIT        SD º 1:46), F 1; 87ﬁ º 29:82, p < :001, g2 º :26. This
+and paid to the university. In order to isolate compen-      pattern again supports Hypothesis 2. Furthermore, the
+sation judgments to reflect participants’ judgments of       reported results replicate the findings of the first study
+pain and suffering, they were informed in the written        and do so with a less intrusive measure for counterfac-
+instructions that the university will not incur monetary     tual thoughts.
+losses, as these will be reimbursed by an insurance policy
+held by the OIT. They were instructed that this fine was        It should be noted, however, that in this study the
+to be based solely for ‘pain and suffering’ from the e-mail  quantity of counterfactual thoughts are measured as
+outage. Participants’ compensation judgments were            opposed to direction of counterfactual thought as was
+again recorded on a scale of 1 (``the minimum of $0'') to    measured in study 1. Recognizing this, we had the two
+7 (``the maximum allowable'') with the midpoint being 4      coders mentioned earlier (still blind to the hypotheses
+(``the average fine''). Finally, organizational account-     and to experimental condition) code the counterfactual
+ability was measured by assessments of organizational        thoughts they identified previously as being either up-
+blame for the misfortune. This was measured by re-           ward (imagining a better possible outcome) or down-
+sponses to the following question: ``On a scale of 1 to      ward (imagining a worse possible condition). Both
+100, to what degree do you feel the OIT should be            coders identified 100% of counterfactual thoughts as
+blamed for the e-mail outage--1 is not at all and 100 is     being upward in direction. Taken together, the reported
+absolutely and completely?'' As before, responses to this    results suggest that participants in both experimental
+question were mathematically transformed into scale          conditions had upward counterfactual thoughts--
+ranging from 1 to 7, so that all questions would be of       though more of them in the human error condition than
+equivalent weight in the aggregated index measure.           in the computer error condition.
+
+Counterfactual thoughts. In contrast with the first study,   Mediation analysis
+questions regarding counterfactual thoughts were not            Using the same four-step mediation analyses used in
+explicitly asked. Instead, only the open-ended question
+was asked: ``What are your thoughts about this e-mail        the first study as outlined by Kenny et al. (1998), par-
+outage? Please use the allotted space below (the 10 lines)   ticipants’ counterfactual thoughts were again found to
+to provide a detailed narrative.'' Two independent           be a mediating mechanism. We first conducted a re-
+coders, blind to the hypotheses and to experimental          gression analysis using organizational accountability as
+condition, were asked to ``count the number of inci-         a criterion variable and cause of failure as a predictor,
+dences that participants imagined how the e-mail outage      demonstrating that there was an effect that may be
+might have occurred otherwise.'' Inter-rater agreement       mediated, b º :37, t87ﬁ º 3:69, p < :001, satisfying step
+was sufficiently high (rwg º :91) and the counts of the      1 criteria.
+two coders, when divergent, were averaged together to
+provide a single measure.                                       In addition, when conducting a regression using
+                                                             participant’s counterfactual thoughts as a criterion
+                                                             variable and cause of failure as a predictor, the cause of
+                                                             the organizational accident was found to be correlated
+                                                             with the mediator, b º :50, t87ﬁ º 5:46, p < :001, sat-
+                                                             isfying step 2 criteria.
+138  C.E. Naquin, T.R. Kurtzberg / Organizational Behavior and Human Decision Processes 93 (2004) 129≠141
+
+   Next, using organizational accountability as the cri-    General discussion
+terion variable in a regression equation with (a) count-
+erfactual thoughts and (b) cause of failure as predictors,     The two studies presented provide evidence that in-
+it was found that counterfactual thoughts, the hypothe-     dividuals tend to treat organizational accidents rooted in
+sized mediator, were correlated with perceptions of         technology differently than those rooted in human be-
+organizational accountability, b º :71, t87ﬁ º 9:51,       havior. Specifically, relative to organizational accidents
+p < :001, and remained significant even when controlling    caused by human behavior, technologically induced
+for cause of failure, b º :70, t86ﬁ º 8:10, p < :001.      accidents tend to allow organizations to escape the full
+Thus, taking these first three steps together, counterfac-  brunt of accountability for the ensuing harm caused by
+tual thoughts were again found to mediate the relation-     their failures.
+ship between the cause of organizational accident and
+organizational accountability, supporting Hypothesis 3.        From a theoretical perspective, this research ex-
+                                                            tends the framework established by Folger and Cro-
+   Finally, when controlling for counterfactual thoughts    panzano’s (2001) fairness theory as well as our
+in this regression equation the significant relationship    understanding of how counterfactual thoughts affect
+between cause of accident and judgments of organiza-        organizational life. For one, it empirically confirms
+tional accountability, b º :37, t87ﬁ º 3:69, p < :001,     the concept that judgments of organizational ac-
+was reduced to nonsignificance, b º :01, t86ﬁ º 11, ns.    countability are mediated by counterfactual thinking.
+Thus, the present study found counterfactual thoughts       In addition, the data advances the theory by demon-
+to be a complete mediator, replicating the findings of      strating that the cause of an event can influence
+study 1 (see Fig. 2).                                       judgments of organizational accountability. Because
+                                                            accidents rooted in technology were found to generate
+   We also tested whether the indirect effect was signif-   fewer frustrating counterfactual thoughts of a better
+icant. Again, the indirect effect is the relationship       possible outcome than those resulting from human
+between the causal nature of the misfortune and per-        error, they also resulted in reduced levels of perceived
+ceptions of organizational accountability via counter-      accountability. In summary, the results not only ver-
+factual thoughts. Using the Baron and Kenny (1986)          ified the speculated mechanism for accountability
+modification to the Sobel test which is distributed as Z,   judgments, but also advance the theory by demon-
+it was demonstrated that this indirect effect was indeed    strating that the causal nature of an organizational
+significant, Z º 4:55, p < :01.                             accident can influence accountability decisions.
+
+   Taken together, study 2 replicated the reported effects     These findings also provide several important exten-
+of study 1 with a different and more experiential context.  sions of our knowledge of counterfactual thoughts into
+Furthermore, this effect was clear and distinct despite     the organizational realm. First, we advance the count-
+efforts to downplay any prompting of participants’          erfactual thought literature to a new level of analysis
+counterfactual thoughts.
+
+     Fig. 2. Mediation effects on organizational accountability by counterfactual thinking in study 2.
+C.E. Naquin, T.R. Kurtzberg / Organizational Behavior and Human Decision Processes 93 (2004) 129≠141  139
+
+with finding that people are willing to blame an entire      sionally falters, or as a completely unknown quantity,
+organization for the actions of one employee. Previous       not worthy of extreme credit or blame.
+research in counterfactual thoughts has most often fo-
+cused on the blame assigned to the focal actor, and not         From a practical perspective, this research has im-
+the larger organizational structure that potentially as-     portant implications in the area of organizational im-
+sumes responsibility for the individual. Indeed, this        pression management (see Ginzel, Kramer, & Sutton,
+finding is somewhat counter to previous research (such       1993). Our results suggest that people treat technology
+as Morris et al., 1999), which demonstrates that in the      as a more disembodied and random force, not worthy of
+majority of organizational accidents, decision makers        the same degree of reaction as is human action. It sug-
+often focus on the individual and not the larger orga-       gests also that technology may be potentially used
+nizational context.                                          strategically as a scapegoat to avoid perceptions of lia-
+                                                             bility or, conversely, that using the more human angle
+   Another contribution of these results to the count-       may gain leverage in establishing perceptions of greater
+erfactual literature is in terms of causal inference. Sev-   liability. Contrast, for example, two airline crashes that
+eral implications can be gleaned here: first, people seem    occurred in close chronological order to each other
+unwilling to delve back (i.e., generate counterfactual       during the year 2000--a passenger jet from Singapore
+thoughts) into the chain of events that cause a computer     Airlines crashed during take off in Taipei due to pilot
+to fail, and instead seem resigned to the fact that the      error (see Chu, 2000b), and a passenger jet from Air
+computer failed. With human action, people seem more         France crashed in Paris due to an engine failure
+willing to explore the various decision points and con-      (Goldberg, 2000). Both resulted in significant loss of life
+sider each of these for possible mutation. In addition,      but whereas Singapore Airlines (whose misfortune was
+our mediation analyses provide support for the idea that     rooted in human error) assumed immediate responsi-
+an event’s cause can specifically lead to counterfactual     bility for victim compensation even before an official
+thoughts, which in turn inspire judgments of account-        ruling on the cause of the accident (Chu, 2000a), Air
+ability, an idea originally introduced by Wells and Ga-      France (whose misfortune was rooted in technological
+vanski (1989).                                               failure) did not. Although these examples are dramatic,
+                                                             it nevertheless provides anecdotal but real evidence that
+   Overall, these data give us some insight into the         organizational accidents rooted in human error are in-
+psychological ways that people make sense of the tech-       terpreted differently than those rooted in technological
+nology that they encounter in their lives. Interacting       failure.
+with a machine is nothing like interacting with a human,
+nor is our reaction to malfunctions in machines the same        Left to explore are some of the psychological reasons
+as our reactions to errors made by people. More spe-         behind the reactions we have demonstrated. For exam-
+cifically, and of theoretical importance, our results imply  ple, it may be the case that people’s resistance to fo-
+that people see human actions as more controllable than      cusing on technological failure is rooted in a protective
+technological ones. This highlights an interesting in-       sense of denial about the failure rate for computers. In
+consistency in the thoughts and behaviors of modern          other words, if we admit that sometimes computers fail
+society: human events may be considered psychologi-          and danger ensues, we will be forced to recognize the
+cally both more controllable and more mutable, but           frailty of our whole society, and the psychologically
+technology is adopted at astonishing rates to guide (and     safer alternative is to downplay the failure entirely in
+control) our lives for the purported reason that it is       this case. Or, it may be a sense of moral fairness and
+objectively more reliable and controllable.                  reciprocity that guides this reaction: the ``punitive sen-
+                                                             timent'' (Price, Cosmides, & Tooby, 2002) dictates that
+   In addition, this research was limited to examining       we have a basic psychological need to issue punishment
+accountability for only negative events. However, the        to people for wrongful action, just as we would be
+construct of accountability is applicable to those of        punished for our own mistakes. This same sentiment
+good outcomes as well. It may be that judgments of           might not apply to technology. Finally, it is possible that
+accountability are not symmetrical for good and bad          what we are observing is a modified version of the
+events, particularly given the stream of research that       psychological state of ``learned helplessness'' (Peterson,
+documents differences in affective and cognitive re-         Maier, & Seligman, 1993), in which case the sense of
+sponses to positive and negative stimuli (see Taylor,        computers as something outside of our understanding
+1991). It would be fascinating to know whether, when         and control trains us to respond passively and not even
+presented with a situation of extraordinary organiza-        try to help the situation when trouble occurs. Future
+tional success, people were similarly likely to credit hu-   research can tease apart these issues and explore the
+mans instead of machines, or if in this case, the primary    psychological mechanisms behind this phenomenon.
+assumption is that humans do not accomplish greatness
+as often as technology does. Results on this topic would        It is important to recognize that the findings in this
+help enlighten us about people’s overall Gestalt view on     research may be specific to this point in time for our
+technology: as a primarily beneficial tool that occa-        society. It may be the case that as technology becomes
+140  C.E. Naquin, T.R. Kurtzberg / Organizational Behavior and Human Decision Processes 93 (2004) 129≠141
+
+an increasingly comfortable and routine part of our          References
+existence, our perceptions and expectations about it will
+change as well. Perhaps our society is in its infancy in     Allen, T. (1977). Managing the flow of technology. Cambridge, MA:
+terms of embracing technology as an actor in our lives.          MIT Press.
+With greater experience and greater knowledge about
+technology and how it works (and why it doesn’t),            Barley, S. R. (1996). The new world of work. London: British-North
+people may develop different models and instincts for            American Committee.
+blame when technologically rooted accidents occur.
+                                                             Baron, R. M., & Kenny, D. A. (1986). The moderator≠mediator
+   On a more societal level, it is often proclaimed by           variable distinction in social psychology research: Conceptual,
+both the academic and popular presses that a new                 strategic, and statistical considerations. Journal of Personality and
+revolutionary transition is underway due to the tech-            Social Psychology, 51, 1173≠1182.
+nological developments over the past decade--specifi-
+cally, information-based technologies or computers.          Beniger, J. (1989). The control revolution: Technological and economic
+And, indeed, much of our organizational processes and            origins of the Information Society. Cambridge, MA: Harvard
+tools are increasingly being based on the new advances           University Press.
+centered on computer-based technologies. Generally,
+such advances are heralded as positive contributions to      Branscombe, N. R., Owen, S., Garstka, T., & Coleman, J. S. (1996).
+society. It is clear, though, that the organization or           Rape and accident counterfactuals: Who might have done
+individual who adopts technology as the key to their             otherwise and would it have changed the outcome? Journal of
+success in today’s hyper-competitive marketplace must            Applied Social Psychology, 26, 1042≠1067.
+understand the psychological and cognitive frameworks
+that people carry with them about these tools. Only          Caporael, L. R. (1986). Anthropomorphism and mechanomorphism:
+then can the full implications of technology on the              Two faces of the human machine. Computers in Human Behavior, 2,
+social fabric of our society be recognized.                      215≠234.
+
+Appendix. Stimulus material for study 1                      Carnevale, A. P. (1991). America and the new economy: How new
+                                                                 competitive standards are radically changing american workplaces.
+   A slow moving Brown Line CTA train rear-ended                 San Francisco: Jossey-Bass Publishers.
+another train during Friday morning’s rush hour send-
+ing 141 people to hospitals. The dramatic rush hour          Chu, H. (2000a). Singapore Airlines offers families of crash fatalities
+crash near Wendell Street caused a myriad of injuries            $400,000 each. Los Angeles Times, p. 11.
+(broken bones, bruises, spilled coffee) and it shut down
+the Purple and Brown Lines for over 2 h preventing           Chu, H. (2000b). Taiwan crash investigators examine recorded data:
+thousands of other commuters from arriving downtown              The location of the wreckage leads experts to question whether the
+as they expected.                                                pilot might have used the wrong runway. Los Angeles Times, p. 4.
+
+   The National Transportation Safety Board is leading       Creyer, E. H., & Gurhan, Z. (1997). Who’s to blame. Counterfactual
+the investigation of the accident and believes the cause of      reasoning and the assignment of blame. Psychology and Marketing,
+the accident to be (human error) (a computer error). The         13(3), 209≠222.
+operation of the Chicago’s subway system during rush
+hour requires precisely coordinated train movement in        Cross, R. (2001). A relational view of information seeking: Tapping
+order to prevent congestion related delays or gridlock.          people and inanimate sources in intentional search. Paper presented
+(This is accomplished by having an on-board conductor            at the Academy of Management, Washington, DC.
+that coordinates the train’s movement through subway
+system. Authorities state that the train’s conductor was     Davis, C. G., Lehman, D. R., Silver, R. C., & Wortman, C. B. (1996).
+distracted by a construction project on a nearby building        Self-blame following a traumatic event: The role of perceived
+and erroneously allowed the train to continue when its           avoidability. Personality and Social Psychology Bulletin, 22, 557≠
+path was blocked and also failed to engage the emergency         567.
+brakes when the two trains were in close proximity to each
+other.) (This is accomplished by an on-board central         Delfabbro, P. H., & Winefield, A. H. (2000). Predictors of irrational
+computerized system that coordinates the train’s move-           thinking in regular slot machine gamblers. Journal of Psychology,
+ment through subway system. Authorities state that the           134, 117≠128.
+train’s computer program malfunctioned and erroneously
+allowed the train to continue when its path was blocked      Drucker, P. F. (1992). The new society of organizations. Harvard
+and also failed to engage the emergency brakes when the          Business Review, September≠October, 95≠104.
+two trains were in close proximity to each other.)
+                                                             Einhorn, H. J., & Hogarth, R. M. (1986). Judging probable cause.
+                                                                 Psychological Bulletin, 99, 3≠19.
+
+                                                             Folger, R., & Cropanzano, R. (2001). Fairness theory: Justice as
+                                                                 accountability. In J. Greenberg & R. Cropanzano (Eds.), Advances
+                                                                 in organizational justice (pp. 1≠55). Stanford, CA: Stanford
+                                                                 University Press.
+
+                                                             Galinsky, A. D., Seiden, V. L., Kim, P. H., & Medvec, V. H. (2002).
+                                                                 The dissatisfaction of having your first offer accepted: The role of
+                                                                 counterfactual thinking in negotiations. Personality and Social
+                                                                 Psychology Bulletin, 28, 271≠283.
+
+                                                             Ginzel, L. E., Kramer, R. M., & Sutton, R. I. (1993). Organizational
+                                                                 impression management as a reciprocal influence process: The
+                                                                 neglected role of the organizational audience. In L. L. Cummings &
+                                                                 B. M. Staw (Eds.), Research in organizational behavior (Vol. 15, pp.
+                                                                 227≠266). Greenwich, CT: JAP Press.
+
+                                                             Goldberg, L. (2000). Continental faces lawsuit by Air France over
+                                                                 crash. Houston Chronicle, 1.
+
+                                                             Greenberg, J.& Cropanzano, R. (Eds.). (2001). Advances in organiza-
+                                                                 tional justice. Stanford, CA: Stanford University Press.
+
+                                                             Guthrie, S. E. (1997). Anthropomorphism: A definition and history. In
+                                                                 R. W. Mitchell & N. S. Thompson (Eds.), Anthropomorphism,
+                                                                 anecdotes, and animals: SUNY series in philosophy and biology (pp.
+                                                                 50≠58). Albany, NY: State University of New York Press.
+C.E. Naquin, T.R. Kurtzberg / Organizational Behavior and Human Decision Processes 93 (2004) 129≠141  141
+
+Heider, F. (1958). The psychology of interpersonal relations. New York:    Peterson, C., Maier, S. F., & Seligman, M. E. (1993). Learned
+    Wiley.                                                                     helplessness: A theory for the age of personal control. New York:
+                                                                               Oxford University Press.
+Hilton, D. J., & Slugoski, B. R. (1986). Knowledge-based causal
+    attribution: The abnormal conditions focus model. Psychological        Price, M. E., Cosmides, L., & Tooby, J. (2002). Punitive sentiment as
+    Review, 93, 75≠88.                                                         an anti-free rider psychological device. Evolution and Human
+                                                                               Behavior, 23, 203≠231.
+Huey, J. (1994). Waking up to the new economy. Fortune, 36≠46.
+Jervis, R. (1996). Counterfactuals, causation, and complexity. In P. E.    Ragin, C. C. (1987). The comparitive method: Moving beyond qualita-
+                                                                               tive and quantitative strategies. Berkeley, CA: University of
+    Tetlock & A. Belkin (Eds.), Counterfactual thought experiments in          California Press.
+    world politics (pp. 309≠316). Princeton, NJ: Princeton University
+    Press.                                                                 Roese, N. J. (1997). Counterfactual thinking. Psychological Bulletin,
+Kahneman, D., & Miller, D. T. (1986). Norm theory: Comparing                   121, 133≠148.
+    reality to its alternatives. Psychological Review, 93, 136≠153.
+Kahneman, D., & Tversky, A. (1982). The simulation heuristic. In D.        Roese, N. J., & Olson, J. M. (1993). The structure of counterfactual
+    Kahneman, P. Slovic, & A. Tversky (Eds.), Judgment under                   thought. Personality and Social Psychology Bulletin, 19, 312≠319.
+    uncertainty: Heuristics and biases (pp. 201≠208). New York:
+    Cambridge University Press.                                            Roese, N. J., & Olson, J. M. (1995). Counterfactual thinking: A critical
+Kenny, D. A., Kashy, D. A., & Bolger, N. (1998). Data analysis in              overview. In N. J. Roese & J. M. Olson (Eds.), What might have
+    social psychology. In D. Gilbert, S. Fiske, & G. Lindzey (Eds.), The       been: The social psychology of counterfactual thinking (pp. 1≠55).
+    handbook of social psychology (Vol. 1, (4th ed., pp. 233≠265).             Mahwah, NJ: Erlbaum.
+Lacey, R. O., Medvec, V. H., Messick, D. M. (2003). Blame and
+    prevention processing goals as sources of bias in causal explanations  Roese, N. J., & Olson, J. M. (1996). Counterfactuals, causal
+    of accidents. Unpublished manuscript.                                      attributions, and the hindsight bias: A conceptual integration.
+Lipe, M. G. (1991). Counterfactual reasoning as a framework for                Journal of Experimental Social Psychology, 32, 197≠227.
+    attribution theories. Psychological Bulletin, 109, 456≠471.
+Macrae, C. N. (1992). A tale of two curries: Counterfactual thinking       Roese, N. J., & Olson, J. M. (1997). Counterfactual thinking: The
+    and accident-related judgments. Personality and Social Psychology          intersection of affect and function. In M. P. Zanna (Ed.), Advances
+    Bulletin, 18, 84≠87.                                                       in experimental social psychology (Vol. 29, pp. 1≠59). San Diego,
+Macrae, C. N., Milne, A. B., & Griffiths, R. J. (1993). Counterfactual         CA: Academic Press.
+    thinking and the perception of criminal behaviour. British Journal
+    of Psychology, 84, 221≠226.                                            Rosenbaum, R. M. (1972). A dimensional analysis of the perceived
+Mandel, D. R., & Lehman, D. R. (1996). Counterfactual thinking and             causes of success and failure. Unpublished doctoral dissertation,
+    ascriptions of cause and preventability. Journal of Personality and        University of California, Los Angeles.
+    Social Psychology, 71, 450≠463.
+Markman, K. D., Gavanski, I., Sherman, S. J., & McMullen, M. N.            Rotter, J. B. (1966). Generalized expectancies for internal versus
+    (1993). The mental simulation of better and worse possible worlds.         external control of reinforcement. Psychological Monographs, 80,
+    Journal of Experimental Social Psychology, 29, 87≠109.                     1≠28.
+Markman, K. D., Gavanski, I., Sherman, S. J., & McMullen, M. N.
+    (1995). The impact of perceived control on the imagination of          Sanna, L. J., & Turley, K. J. (1996). Antecedents to spontaneous
+    better and worse possible worlds. Personality and Social Psychology        counterfactual thinking: Effect of expectancy violation and out-
+    Bulletin, 21, 588≠595.                                                     come valence. Personality and Social Psychology Bulletin, 22, 906≠
+Markman, K. D., & Tetlock, P. E. (2000). Accountability and close-             919.
+    call counterfactuals: The loser who nearly won and the winner who
+    nearly lost. Personality and Social Psychology Bulletin, 26, 1213≠     Sanna, L. J., & Turley-Ames, K. J. (2000). Counterfactual intensity.
+    1224.                                                                      European Journal of Social Psychology, 30, 273≠296.
+McGill, A. L. (1993). Selection of a causal background: Role of
+    expectation versus feature mutability. Journal of Personality and      Scheibe, K. E., & Erwin, M. (1979). The computer as alter. Journal of
+    Social Psychology, 64, 701≠707.                                            Social Psychology, 108, 103≠109.
+McGill, A. L. (1995). American and Thai managers explanations for
+    poor company performance: Role of perspective and culture in           Schlenker, B. R. (1997). Personal responsibility: Applications of the
+    causal selection. Organizational Behavior and Human Decision               triangle model. In L. L. Cummings & B. M. Staw (Eds.), Research
+    Processes, 61, 1≠12.                                                       in organizational behavior (Vol. 19, pp. 241≠301). Greenwich, CT:
+McGill, A. L. (2000). Counterfactual reasoningin causal judgments:             JAI Press.
+    Implications for marketing. Psychology and Marketing, 17, 281≠298.
+McGill, A. L., & Klein, J. G. (1993). Contrastive and counterfactual       Schlenker, B. R., Britt, T. W., Pennington, J. W., Murphy, R., &
+    thinking in causal judgments. Journal of Personality and Social            Doherty, K. J. (1994). The triangle model of responsibility.
+    Psychology, 64, 897≠905.                                                   Psychological Review, 101, 632≠652.
+Morris, M. W., Moore, P. C., & Sim, D. L. H. (1999). Choosing
+    remedies after accidents: Counterfactual thoughts and the focus on     Seelau, E. P., Seelau, S. M., Wells, G. L., & Windschitl, P. D. (1995).
+    fixing human error. Psychological Bulletin and Review, 6, 579≠585.         Counterfactual constraints. In N. J. Roese & J. M. Olson (Eds.),
+Nario, M. R., & Branscombe, N. R. (1995). Comparison processes in              What might have been: The social psychology of counterfactual
+    hindsight and causal attribution. Personality and Social Psychology        thinking (pp. 57≠79). Mahwah, NJ: Erlbaum.
+    Bulletin, 21, 1244≠1255.
+Nass, C., & Moon, Y. (2000). Machines and mindlessness: Social             Spellman, B. A., & Mandel, D. R. (1999). When possibility informs
+    responses to computers. Journal of Social Issues, 56, 81≠103.              reality: Counterfactual thinking as a cue to causality. Current
+Nevala, A., Rivedal, K., Grossman, R. (2001). 141 injured as ‘L’ rams          Directions in Psychological Science, 8, 120≠123.
+    a 2nd train. Chicago Tribune, 1, 18.
+                                                                           Taylor, S. E. (1991). Asymmetrical effects of positive and negative
+                                                                               events: The mobilization-minimization hypothesis. Psychological
+                                                                               Bulletin, 110, 67≠85.
+
+                                                                           Walster, E., Walster, C. W., & Berscheid, E. (1978). Equity: Theory
+                                                                               and Research.
+
+                                                                           Weiner, B. (1986). An attributional theory of motivation and emotion.
+                                                                               New York: Springer.
+
+                                                                           Wells, G. L., & Gavanski, I. (1989). Mental simulation of causality.
+                                                                               Journal of Personality and Social Psychology, 56, 161≠169.
+
+                                                                           Williams, C. W., Lees-Haley, P. R., & Price, J. R. (1996). The role of
+                                                                               counterfactual thinking and causal attribution in accident-related
+                                                                               judgments. Journal of Applied Social Psychology, 26, 2100≠2112.
+
+                                                                                                                                   Received 5 February 2003
+

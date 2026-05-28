@@ -1,0 +1,1334 @@
+AI as the Phantom Limb: The Asymmetry of Attribution in
+                      Human vs. AI Delegation
+
+       Yu-Sheng Chen                   Yoyo Tsung-Yu Hou                           Yu-Hsuan Lin
+
+Digital Content and Techonologies  Digital Content and Technologies        Digital Content and Technologies
+   National Chengchi University      National Chengchi University            National Chengchi university
+       Taipei, Taipei, Taiwan              Taipei city, Taiwan                    Taipei, Taipei, Taiwan
+     110506025@g.nccu.edu.tw             yoyohou@nccu.edu.tw                   yuxuanlin599@gmail.com
+
+   Joshua Mu-En Liu                       WeiRong Chen                               Yihsiu Chen
+
+        Communication              Digital Content and Technologies        Digital Contents and Technologies
+National Chengchi University         National Chengchi University          College of Communication, NCCU
+                                              Taipei, Taiwan
+         Taipei, Taiwan               candycandy772@gmail.com                          Taipei, Taiwan
+  113464006@g.nccu.edu.tw                                                           yihsiu@gmail.com
+
+Abstract                                                                   April 13­17, 2026, Barcelona, Spain. ACM, New York, NY, USA, 21 pages.
+                                                                           https://doi.org/10.1145/3772318.3791075
+AI is reshaping workplace dynamics as people increasingly delegate
+tasks to intelligent assistants. Yet how AI delegates are perceived        1 Introduction
+compared to human delegates--and how their performance and
+their received feedback shape perceptions--remains unclear. We             AI systems have rapidly shifted from simple tools of automation
+conducted a 2×2×2 between-subject experiment where participants            to active collaborators [32, 75, 103] , raising a critical question: do
+delegated a scheduling task to either a human or an AI agent, vary-        people fundamentally perceive them differently from human collab-
+ing their competence (high vs. low) and valence of received feed-          orators? Delegation, a central form of human collaboration, enables
+back (positive vs. negative) toward their performance. Participants        individuals to offload tasks and coordinate efforts with others. As
+generally had higher trust in human assistants; yet a striking asym-       AI systems increasingly gain agency and increasingly serve as dele-
+metry emerged: when an AI assistant received negative feedback,            gates on behalf of people--drafting proposals, scheduling meetings,
+participants felt the criticism as more self-directed--an "AI Phan-        or negotiating agreements--understanding how people perceive
+tom Limb" effect--whereas positive feedback transferred less. This         these AI delegates and how they shape interpersonal dynamics has
+asymmetry did not appear with human delegates. These findings              become increasingly critical.
+highlight broader design implications, suggesting that AI delegation
+might blur the boundary between self and other. We also discuss
+how these findings extend theories of delegation and responsibility
+attribution to AI.
+
+CCS Concepts
+
+· Human-centered computing  Empirical studies in collab-
+orative and social computing.
+
+Keywords                                                                   Figure 1: Delegation dynamics between a human delegator
+                                                                           and an AI delegate. Delegators internalize feedback more
+Delegation, AI Agent, Human-AI Collaboration, Extended Self                strongly when negative feedback is directed at their AI del-
+                                                                           egates--an asymmetry not found with positive feedback or
+ACM Reference Format:                                                      with human delegates.
+Yu-Sheng Chen, Yoyo Tsung-Yu Hou, Yu-Hsuan Lin, Joshua Mu-En Liu,
+WeiRong Chen, and Yihsiu Chen. 2026. AI as the Phantom Limb: The Asym-
+metry of Attribution in Human vs. AI Delegation. In Proceedings of the
+2026 CHI Conference on Human Factors in Computing Systems (CHI '26),
+
+These authors contributed equally to this work.
+These authors contributed equally and are listed as third authors.
+
+This work is licensed under a Creative Commons Attribution-NonCommercial-     Prior Human-Computer Interaction (HCI) research on delega-
+NoDerivatives 4.0 International License.                                   tion has primarily examined the competence and acceptance of
+CHI '26, Barcelona, Spain                                                  AI systems and the conditions under which people decide to of-
+© 2026 Copyright held by the owner/author(s).                              fload tasks, implicitly assuming that perceptions and underlying
+ACM ISBN 979-8-4007-2278-3/26/04                                           social mechanisms remain similar regardless of whether the del-
+https://doi.org/10.1145/3772318.3791075                                    egate is human or AI. Although trust in AI has been studied and
+CHI '26, April 13­17, 2026, Barcelona, Spain                                                                                                               Chen and Hou et al.
+
+compared against human collaborators [1, 3­5, 42, 70, 71, 102, 104],        2 Related Work
+some important interpersonal dynamics taken for granted in Hu-
+man­Human delegation--especially those related to the boundary              2.1 Delegation in Human-AI interaction
+between self and other, such as the attribution of responsibility,
+and the interpretation of feedback--have not been systematically            Delegation in Human­AI interaction refers to the process in which
+investigated, even though they may be different in Human­AI                 humans transfer task execution authority and, to some extent, out-
+interaction (HAI). Indeed, we have seen that the involvement of             come responsibility to AI agents [36, 66, 83]. This process enables
+AI agents in collaboration has already produced tensions around             humans to leverage AI's computational efficiency while managing
+self­other boundaries [22]. Research suggests that people often             their own cognitive resources and decision-making load, particu-
+claim credit for positive outcomes produced by AI systems while             larly in complex or high-stakes tasks [19, 79, 91, 104]. For example,
+shifting accountability for negative outcomes away from them-               studies on Human­AI collaboration in decision-making contexts
+selves, indicating a shift in responsibility attribution [12, 27, 30, 89].  show that participants are more likely to delegate tasks involving
+Today, we are also seeing that many people are taking the credit for        large amounts of data processing or cognitively taxing choices,
+work done by AI and receiving compliments as though it were their           when they trust the AI's competence [103].
+own [26]. These patterns led us to question whether the clear-cut
+self­other boundaries found in Human­Human interaction may                     Principal-agent theory provides a foundational framework to
+be fundamentally altered in HAI. Such dynamics are not entirely             analyze delegation by highlighting the structural dynamics of au-
+new in human society--for instance, supervisors often credit and            thority, accountability, and information asymmetry between dele-
+receive compliments for subordinates' good work while offloading            gators and delegates [35]. Within this framework, delegation shifts
+responsibilities and blame to the subordinates when they do not do          authority and accountability, influencing human perceptions of
+well. However, given how central these interpersonal dynamics are           control, risk, and task retention decisions [12, 29, 94]. Building on
+to collaboration and the fact that related concerns around the use          this, the task delegability framework further specifies that dele-
+of AI systems are growing, it is surprising that few systematic in-         gation decisions are contingent on both task- and agent-specific
+vestigations have examined how these dynamics unfold differently            characteristics. Task attributes such as complexity, uncertainty, and
+in Human-AI versus traditional Human-Human delegation. Specifi-             potential consequences of errors consistently predict delegation
+cally, we would like to ask: Do people trust, perceive interpersonal        behavior: humans tend to delegate tasks perceived as cognitively
+distance, attribute responsibility, or internalize feedback differently     demanding or emotionally burdensome, while retaining control
+in Human­AI versus traditional Human­Human delegation? And                  over tasks they perceive as critical or highly uncertain [14, 35, 67].
+does the delegate's competence or whether they receive good or
+bad feedback shape these interpersonal dynamics?                               Moreover, considerations of task attributes can lead to more
+                                                                            nuanced strategies. For instance, Lai et al. [54], in a case study on
+   To address these questions, we conducted a 2×2×2 between-                content moderation, found that humans adopt conditional dele-
+participants experiment in which participants delegated a schedul-          gation strategies when collaborating with AI, deciding whether
+ing task to either a human or an AI assistant, systematically varying       to assign a task to the AI or retain control themselves based on
+the type of the assistant (human vs. AI), competence (high vs. low),        specific task characteristics. Equally important in the delegation
+and the valence of feedback given to the assistant (positive vs. nega-      process is the type of agent involved. Empirical studies suggest
+tive). We then measured trust, psychological distance, responsibility       that humans generally show higher willingness to delegate tasks to
+attribution, and the extent to which feedback directed toward the           other humans than to AI agents [40]. This pattern appears to stem
+assistant was also perceived as directed toward the participant             from social and cognitive mechanisms: people are more likely to
+themselves.                                                                 attribute responsibility, predict behavior accurately, and perceive
+                                                                            accountability in humans than in AI systems [100].
+   This study makes two main contributions. First, we identify a
+striking asymmetry in delegation: participants internalized nega-              This reluctance arises not only from trust issues regarding AI
+tive feedback directed at AI assistants as criticism of themselves.         competence but also from potential social consequences. For ex-
+However, they did not internalize positive feedback to the same             ample, Sarkar [86] noted that "AI Could Have Written This" has
+degree, and this asymmetry did not appear when the assistants               become a classist slur in knowledge work, reflecting the social
+were human--an effect we call "AI Phantom Limb" (see Fig. 1).               stigma associated with AI-assisted output. Consequently, Zhang
+Second, by comparing this finding with prior discussions on re-             et al. [105] observed that, to avoid such stigma, users sometimes
+sponsibility attribution in Human­AI interaction, we propose a              engage in the secret use of large language models (LLMs) within
+more nuanced picture of how responsibility and accountability are           their workflows.
+perceived. When an AI performs poorly, participants may think the
+AI should bear responsibility; yet at the same time, they recognize            The delegation process is not a one-time decision but a con-
+that others may see the AI as ultimately unaccountable, causing             tinuous cycle of trust, action, and evaluation [52]. After a task is
+criticism to be felt as directed toward themselves. This interweav-         delegated, the outcomes are rarely viewed in isolation; they are
+ing of responsibility and accountability reveals new complexities in        subject to assessment. Crucially, in organizational and collabora-
+how people experience collaboration with AI, and we conclude by             tive settings, this assessment often comes from external sources.
+discussing the theoretical, design, and social implications of these        Research suggests that feedback serves as a primary mechanism for
+findings for AI collaborative systems in work settings.                     updating one's mental model of a partner's competence [21, 96, 105].
+                                                                            Especially in Human-AI collaboration, where trust is often frag-
+                                                                            ile [24], understanding how these external evaluations influence
+                                                                            the delegator's perception is vital. This brings us to the specific
+AI as the Phantom Limb: The Asymmetry of Attribution in Human vs. AI Delegation                                                    CHI '26, April 13­17, 2026, Barcelona, Spain
+
+roles of trust, psychological distance, and feedback in shaping these            Reduced psychological distance (i.e., feeling closer via social cues)
+dynamics, which we discuss in the following sections.                            facilitates a more cooperative human-AI relationship and makes
+                                                                                 users more willing to rely on the AI for task execution [59, 81].
+2.2 Trust and Psychological Distance in
+       Human-AI Interaction                                                         Moreover, the AI's behavioral style also affects user reliance.
+                                                                                 Xu, Lien, and Höllerer [103] reported that when the AI adopts a
+Trust is a cornerstone of effective HAI, defined as a user's will-               more zealous recommendation strategy, users are more likely to
+ingness to be vulnerable to an agent's actions based on the belief               follow its suggestions, indicating that the interaction effect between
+that the agent is capable, reliable, and well-intentioned [55, 59].              competence and psychological distance may be more complex than
+Moreover, Liu [64]emphasized that an agent's agency locus and                    previously assumed.
+transparency are critical factors for reducing uncertainty and es-
+tablishing trust. Recent HCI research has also highlighted the im-                  Building on these insights, psychological distance can be consid-
+portance of trust calibration, as humans may overestimate or un-                 ered a relevant social-contextual factor that may influence delega-
+derestimate an AI's true capabilities, which in turn affects effective           tion intention and behavioral reliance on AI agents. Prior research
+collaboration [17, 23, 53, 58, 68, 102].                                         suggests that social coordination and interactional synchrony can
+                                                                                 enhance willingness to collaborate in human­automation or hu-
+   Drawing on established theoretical frameworks in the Human-                   man­robot collaboration [77]. For instance, Bartkowski et al. [11]found
+AI trust literature, this study treats trust as a multidimensional               that movement synchronization with a non-humanoid robot in-
+construct [71, 72, 82]. This framework can be traced back to the                 creased participants' trust in the robot, while Schneiders et al.
+integrative organizational trust model proposed by Mayer, Davis,                 [88]showed that temporal entrainment in collaborative tasks posi-
+and Schoorman [70], which identifies three core foundations of                   tively affected trust and willingness to collaborate in dyads. Col-
+trust: ability (competence), benevolence, and integrity. Subsequent              lectively, these studies highlight the perception of distance as an
+research in HCI and automation trust has extended this framework,                important variable shaping the user's decision to delegate tasks.
+focusing on the dynamic and collaborative nature of the human-                   Accordingly, in this study, we treat psychological distance as a rele-
+agent relationship. This contextualization led to the emphasis of                vant social-contextual variable, examining its potential influence
+four primary determinants: ability, benevolence, reciprocity, and                on responsibility attribution and delegation intention.
+perceived risk, which is a key determinant in trust calibration.
+[39, 42, 52, 87]                                                                 2.3 Feedback in Human-AI delegation
+
+   Synthesizing these contextualized models, this study adopts                   In delegation contexts, external feedback serves as a critical social
+these four core elements commonly agreed upon in human-AI trust                  factor. Drawing from foundational organizational research [7, 44],
+research: ability, benevolence, perceived risk, and reciprocity. Abil-           feedback is not merely a task metric but a social evaluation repre-
+ity refers to users' assessment of the agent's technical performance             senting whether the agent has met external expectations and norms
+and reliability [104] ; benevolence reflects positive judgments of               [6, 90]. This external perspective is crucial because it introduces the
+the agent's intentions, ensuring the AI operates in the user's best              broader social standards that underlie accountability assessments
+interest [57]; perceived risk represents the potential negative con-             [65].
+sequences users feel when relying on the AI, particularly under
+uncertainty [46] and reciprocity is defined as the user's belief that               Regarding the impact of feedback valence, literature in organi-
+the agent will provide commensurate benefits or return the favor                 zational psychology and Human-Human interaction suggests that
+in an exchange relationship, a foundational social dynamic in HCI                the nature of evaluation significantly directs the delegator's trust
+established by Fogg and Nass [34].                                               and coping mechanisms. Positive feedback typically acts as a so-
+                                                                                 cial validation, reinforcing confidence in the delegate's competence
+   While trust addresses the evaluative aspect of the interaction, the           and fostering goal commitment [8, 33]. Conversely, in interper-
+perceived closeness between a human and an AI agent is equally                   sonal contexts, negative feedback signals a violation of expecta-
+crucial for successful collaboration. This perception is grounded in             tions, often inducing social stress and emotional regulation efforts,
+the concept of psychological distance from Construal Level Theory                which prompts the delegator to reassess their reliance on the agent
+(CLT) [99]. CLT posits that psychological distance comprises four                [13, 51, 69, 95].
+key dimensions: temporal, spatial, social, and hypothetical. In the
+context of HAI, this study examines psychological distance primar-                  Recent HCI studies have demonstrated that these psychologi-
+ily through its social dimension--often operationalized as social                cal dynamics extend to Human-AI delegation. Spitzer et al. [93]
+distance--which reflects the extent to which humans perceive the                 showed that contextual information and third-party assessments
+AI agent as socially present or human-like [49]. Kim & Mutlu found               influence how delegators evaluate AI performance. Extending this,
+that this social proximity is a key factor influencing Human-AI                  Ahn et al. [2] found that outcome feedback and model interpretabil-
+interaction.                                                                     ity jointly affect users' trust in AI, highlighting that clear feed-
+                                                                                 back from external sources can improve confidence in AI decision-
+   This sense of closeness or remoteness is largely shaped by users'             making. Similarly, Thuillard et al. [97] demonstrated that negative
+mind perception of the AI agent, with the ascription of mental                   feedback, even when directed at AI systems, induces social stress
+states leading to reduced psychological distance [101]. Within this              and alters subjective perceptions of competence, suggesting that
+framework, psychological distance reflects the degree to which                   the valence of feedback plays a critical role in trust dynamics sim-
+humans perceive AI agents as possessing social characteristics,                  ilar to Human-Human interactions [60]. Xu et al. [103] further
+such as intentionality, responsiveness, and human-like behaviors.
+CHI '26, April 13­17, 2026, Barcelona, Spain                              Chen and Hou et al.
+
+revealed that expectation disconfirmation through feedback im-            burden for an outcome--whereas accountability refers to the ex-
+pacts trusting intentions in Human­AI teams. Collectively, these          ternal requirements for answerability imposed by social, legal, or
+studies underscore that feedback directed toward AI--as a proxy for       organizational norms. This distinction is further elaborated in the
+social judgment--can shape how delegators perceive competence,            discussion section.
+assign responsibility, and calibrate trust. In this study, we build on
+this literature to examine how trust, psychological distance, respon-     3 Current Study
+sibility attribution, and external feedback interact when tasks are
+delegated to an AI agent.                                                 3.1 Trust In Delegation: The Role of Agent Type
+                                                                                (AI vs. human), Competence, And Feedback
+2.4 Responsibilities Attribution
+                                                                          The concept of trust in delegation has been central in principal-
+Attribution studies provide a common method of measuring respon-          agent theory, where the relationship between the delegator (princi-
+sibility in psychology [48]. Traditional attribution theory suggests      pal) and the delegate (agent) is critical for successful task completion
+that when behavior is consistent with prior expectations, people          [35]. Previous studies suggest that trust in the agent is influenced
+attribute causes of action to internal characteristics; conversely,       by several factors, such as the agent's competence and the type of
+when behavior is inconsistent with expectations, causes are at-           feedback received. Specifically, trust in human agents is generally
+tributed to external situational factors [15, 47]. Drawing on clas-       higher than in AI agents [55], and when the delegator perceives
+sic attribution theory--particularly how humans act as "intuitive         the agent as more capable of managing complex tasks.
+psychologists" when interpreting others' intentions--traditional
+Human-to-Human cooperation benefits from shared mind percep-                 The competence of the agent also plays a pivotal role in trust.
+tion. As a result, attribution boundaries are often clear: actors can     Competence, referring to the agent's ability to perform tasks effec-
+readily assign blame (e.g., to a subordinate) or claim credit for         tively [9], is a well-established determinant of trust in both human
+success [76, 80, 84].                                                     and AI delegates [23, 39]. Research shows that delegators are more
+                                                                          likely to trust competent agents, as they are perceived as more
+   However, in HAI, there is a more delicate relationship when            reliable and capable of delivering results [59]. Consequently, we
+the difference between humans and AI is added to the dynamics.            hypothesize that delegators will experience higher trust when dele-
+The incorporation of AI, which blurs the self-other boundary due          gating tasks to humans compared to AI, and when delegating tasks
+to varying levels of mind perception, makes the situation subtly          to more competent agents.
+more complex. Consequently, prior findings on responsibility at-
+tribution are often inconsistent. For example, it was found that in          Moreover, the feedback directed at the delegate received by the
+AI-mediated communication, the AI absorbs part of the responsibil-        delegators plays an important role in shaping trust. Positive feed-
+ity when outcomes go wrong [43]. Nevertheless, Shank et al. [90]          back, such as compliments or recognition, is likely to increase trust
+pointed out that when erroneous actions occur, although people            in the agent [62], while negative feedback, such as criticism, may
+do assign moral blame [56] to the AI entity, the degree of blame          diminish trust. The valence of feedback, therefore, is hypothesized
+is often lower than that assigned to human agents, and people are         to significantly affect trust in the delegation process. Thus, we
+more likely to shift ultimate moral responsibility to the humans          hypothesize the following:
+who design or program the AI (e.g., AI system developers). This
+aligns with the findings of Tolmeijer et al. [98], who noted that              · H1-1. Delegators will experience higher trust when delegating
+users perceive AI as capable but not necessarily responsible, while               tasks to humans compared to AI.
+developers (designers) are seen as partially accountable for moral
+responsibility.                                                                · H1-2. Delegators will experience higher trust when delegating
+                                                                                  tasks to more competent delegates.
+   These divergent outcomes stem from the fact that users' inter-
+nal judgments often conflict with external requirements for ac-                · H1-3. Delegators will experience higher trust when the feedback
+countability [92]. When viewed solely from a social perspective                   given to the delegate is positive.
+on accountability in Human­AI collaboration, blame is typically
+directed toward the human rather than the system [6]. For instance,       3.2 Psychological Distance by the Agent Type
+Lima et al. [63] found that external observers tend to assign more              (AI vs. human), Competence, And Feedback
+responsibility to human developers or operators rather than to
+the algorithmic system itself. This tendency is echoed in the legal       Psychological distance refers to the perceived emotional closeness
+attribution of fault to the human safety driver in the fatal Uber self-   or detachment between the delegator and the delegates [99]. In the
+driving vehicle accident [30], in which Elish et al. conceptualized       context of delegation, a closer relationship (or lower psychological
+this as the "moral crumple zone," a metaphor likening humans in           distance) tends to lead to better communication, increased coop-
+Human­AI systems to the crumple zones in cars: just as the vehicle        eration, and a stronger sense of shared responsibility [16]. People
+structure absorbs the force of impact in a crash, human operators         typically feel closer emotional bonds with human agents than with
+absorb the burden of blame in the aftermath of system failures.           AI [40], reflecting a lower psychological distance when working
+                                                                          with a human compared to an AI agent. This aligns with findings
+   In sum, this study treats responsibility as an internal judgment--the  from social psychology, where people generally form stronger emo-
+user's subjective evaluation of who should bear the causal or moral       tional connections with human beings than with AI systems [85],
+                                                                          which are often perceived as more mechanical and less relatable.
+                                                                          We anticipate that this will also hold true when humans are dele-
+                                                                          gating tasks to human delegates vs. AI delegates. The competence
+                                                                          of the agent also affects psychological distance. Delegators may
+AI as the Phantom Limb: The Asymmetry of Attribution in Human vs. AI Delegation                                                    CHI '26, April 13­17, 2026, Barcelona, Spain
+
+experience lower psychological distance toward competent agents,                 age =18~87, M = 42.77, SD = 13.37). Eligibility criteria required par-
+as they are perceived as more capable of understanding and exe-                  ticipants to be over 18 years old and located in English-speaking
+cuting tasks effectively [73]. Conversely, delegating tasks to less              countries. We also asked participants to self-report their level of
+competent agents may increase psychological distance, as the dele-               AI familiarity (M=3.77, SD= 0.97; in the Likert scale of 5 ) and the
+gator may feel the need for closer supervision or increased caution              frequency of AI usage (Several days a week: 22.3%, More than one
+[99]. The feedback given to the delegates (received by the delegator)            time a week : 21.1%, and less than once a week :19.7%).
+can influence psychological distance. Positive feedback fosters a
+sense of accomplishment and strengthens the relationship between                 4.2 Design
+the delegators and the delegates, thereby reducing psychological
+distance [75]. In contrast, negative feedback may increase psycho-               Our study investigates how people perceive AI vs. human delegates
+logical distance, particularly when it implies failure or criticism              in workplace settings. In all conditions, each participant (who is
+[74]. Based on these considerations, we hypothesize the following:               the delegator) was paired with an assistant (the delegate) and a
+                                                                                 client to simulate a scenario in which the participant asked their
+     · H2-1. Delegators will experience lower psychological distance             assistant to schedule a meeting time with the client. We employed a
+        toward the delegates when the delegate is a human compared               between-subject 2×2×2 experimental design--the type of the assis-
+        to an AI.                                                                tants (human vs. AI), competence of the assistant (high vs. low) and
+                                                                                 feedback valence given to the assistant by the client (positive vs.
+     · H2-2. Delegators will experience lower psychological distance             negative), yielding eight experimental conditions in total. The main
+        toward the delegates perceived as more competent.                        part of the study unfolded across five phases. In the first phase
+                                                                                 (providing information), participants indicated their names and
+     · H2-3. Delegators will experience lower psychological distance             their most ideal and least ideal time slots for an online meeting next
+        toward the delegates receiving positive feedback.                        week while being informed about the scenario: "Imagine you are
+                                                                                 working in a consultancy agency. You need to schedule a one-hour
+3.3 Research Questions: Responsibility                                           online meeting with a very important client. Please check your
+      Attribution and Feedback Direction                                         actual schedule and identify the ideal time slots for this meeting."
+                                                                                 We asked them to check their real schedule for next week so that
+Given the findings in previous literature, we are also interested in             the whole experiment felt realistic. This provided a solid basis for
+the interaction between the type of the delegate (humans vs. AI)                 the following phases.
+and the delegates' competence (high vs. low) and their received
+feedback (positive vs. negative) on trust and psychological distance.               During the second phase (matching), participants were first ran-
+We therefore raise several research questions. Besides, given the                domly assigned to either a human (shown as "Your Human Assistant
+delegators and delegates are usually perceived as functioning to-                Alex") or an AI assistant (shown as "Your AI assistant"). On the next
+gether as a team, we are also interested in the attribution of the               page, the participants were then made to believe that they were
+feedback and the responsibilities. Therefore, we also investigate                connected to their client (shown as "Your Client Andy"), who is an-
+to what degree the delegators also feel like the feedback given to               other Prolific user online (while in fact it is simulated and not a real
+the delegates is also toward them, and how they attribute the re-                person). To avoid confounds, assistants and clients were presented
+sponsibilities between all stakeholders including the delegators and             with a gender-neutral graph throughout the study. Adequate delays
+delegates. We therefore raised the following research questions:                 were introduced in the matching process to make the participants
+                                                                                 believe that the system was really connecting them to the assistant
+     · RQ1: Given the different agent types (human vs. AI) and com-              and the client.
+        petence (high vs. low) of delegates and their varying received
+        feedback (positive vs. negative), how will the delegator perceive           In the third phase (negotiation), the participants were first told
+        their delegate differently?                                              by the assistant, "Hi [NAME]! Now I am going to negotiate on
+                                                                                 your behalf". An animation of chat bubbles was then shown to
+     · RQ1-1: How do agent type, competence, and feedback interact               indicate that the assistant was negotiating a meeting time with
+        to predict trust?                                                        the client. In this phase, assistant competence was manipulated
+                                                                                 through response latency: while it was shown to the participant
+     · RQ1-2: How do agent type, competence, and feedback interact               that the average time for negotiation is one minute, the assistants
+        to predict psychological distance?                                       in the high-competence condition completed the negotiation in 37
+                                                                                 seconds, while low-competence assistants required 137 seconds. A
+     · RQ1-3: How does the extent to which delegator perceives feed-             ticking timer was always presented so that the participants could
+        back directed at the delegate as also directed at themselves             tell the time clearly.
+        vary according to agent type, competence, and feedback?
+                                                                                    In the fourth phase (outcome), participants were shown the fi-
+     · RQ1-4: How does the responsibility attribution vary according             nal scheduled meeting time, as well as the time consumed in the
+        to agent type, competence, and feedback?                                 negotiation process. We clearly noted whether it is "much faster
+                                                                                 than the average" or "much slower than the average". The negoti-
+4 METHODOLOGY                                                                    ation outcomes were also decided by the assistant's competence
+4.1 Participants                                                                 and the participants' pre-stated availability: high-competence assis-
+                                                                                 tants secured preferred time slots, while low-competence assistants
+Following approval by the National Chengchi University Institu-
+tional Review Board (Protocol ID : NCCU-REC-202507-I136), we
+recruited 355 participants on Prolific with a compensation of £2.5
+for each participant (190 males, 161 females, 4 prefer not to say;
+CHI '26, April 13­17, 2026, Barcelona, Spain                             Chen and Hou et al.
+
+Figure 2: The main part of the experiment: (1) Participants gave consent and provide their preferred name and most/least
+ideal time slots. (2)(3) Participants were matched with an assistant (human or AI) and, (4)(5) a client, with delays to reinforce
+the realism of the matching process, while both are actually simulated by scripts (6) Participants were first greeted by their
+assigned assistant, who would do the negotiation with the client on the participant's behalf. (7) The assistant then engaged in
+a live negotiation while the participant observed the animation, during which competence was manipulated by varying the
+negotiation latency (high competence = faster, securing ideal slots; low competence = slower, securing least-ideal slots). (8)
+Participants received the outcome of the negotiation, including the agreed meeting time and the duration taken, explicitly
+compared against the average. (9) Finally, participants were presented with client feedback for the assistant that was either
+positive or negative. Across all stages, assistant and client behaviors were identical, with only the assistant type, competence,
+and feedback valence manipulated to create eight experimental conditions.
+
+returned least time slots. To simplify the situation, the slots that     is awful. Even though we both got our preferred time slots, the
+high-competence assistants secured were shown as "preferred" for         process of negotiating with your assistant was frustrating.
+both the participant and the client, and the time slots that low-
+competence assistants secured was also "least preferred" for both           Importantly, both the assistant and client behaviors were fully
+the participant and the client.                                          scripted and identical across conditions, with only the labels and
+                                                                         timing manipulations varying. This setup ensured strict experimen-
+   Finally, in the fifth phase (feedback), participants received quali-  tal control while preserving ecological validity.
+tative client feedback that was either positive (compliment: "Your
+assistant is amazing!") or negative (criticism: "Your assistant is       4.3 Measure
+awful!") depending on the condition. According to different combi-
+nations of competence and feedback valence, the description will be      We assessed four dependent variables in this study
+a bit different. For example, high-competence and positive-feedback
+is "Your assistant is amazing! We both got our preferred time slots,        (1) Trust: A 12-item, five-point Likert-Scale based on the Hu-
+and the communication process with your assistant was smooth.",                  man­Computer Trust Model (HCTM) [38], covering per-
+while high-competence and negative-feedback is "Your assistant                   ceived risk, benevolence, competence, and reciprocity. Scores
+                                                                                 were averaged into an "Overall Trust" measure. In our sce-
+                                                                                 nario of delegating tasks, the sub-scales perceived risk (M=8.09,
+AI as the Phantom Limb: The Asymmetry of Attribution in Human vs. AI Delegation                                                    CHI '26, April 13­17, 2026, Barcelona, Spain
+
+        SD=3.38) and benevolence (M=9.45, SD=3.63) are the key for               outcome (ideal vs. non-ideal) as the attention check. Those who got
+        decision making of delegation, and the subscales competence              any of these two questions wrong will be disregarded. Second, we
+        (M=8.78.SD= 4.21) and reciprocity (M=8.33, SD= 3.73) are                 monitored session duration to confirm sustained engagement dur-
+        the key to make people spend more time interacting with                  ing the negotiation task. Most participants complete the task within
+        computing entities.                                                      8-20 minutes (M = 11.9, SD = 12.82), and those who finished in 5
+   (2) Psychological Distance: A three-item, five-point Likert scale             minutes were disregarded, resulting in the final 355 participants.
+        adapted from prior work, capturing perceived relational
+        distance from the assistant in the interaction. [61](M=6.78,                Manipulation Checks: Independent-samples t-tests confirmed
+        SD=3.26)                                                                 the success of our manipulations of competence and feedback va-
+   (3) Responsibility Attribution: Participants were asked to al-                lence. We asked participants two manipulation check questions.
+        locate 100% of outcome responsibility across themselves                  For "How competent do you think your assistant was in helping
+        (M=22.58, SD = 20.42), the assistant (M=50.92, SD= 24.63),               you schedule your meeting?", participants perceived assistants in
+        and the client (M=26.504, SD=17.144) according to a previ-               the high-competence condition as significantly more competent
+        ously used percentage-allocation method [43].                            than those in the low-competence condition, t(29.7) = 5.43, p <
+   (4) Self-Directed Feedback Perception: Besides responsibility                 .001. And for "How satisfied was your client with your assistant?",
+        attribution, we are also interested in how people feel about             participant's responses were also significantly different between
+        the feedback--whether it is toward themselves--which we                  conditions of positive vs. negative feedback, t(30.7) = 12.17, p < .001.
+        believe to be highly relevant but not identical to responsibil-
+        ity attribution. We therefore created a single-item measure              5.2 Trust
+        tailored for this study, a five-point Likert scale measure in
+        which participants rated agreement with the statement: "I                H1-1, H1-2, H1-3, and RQ1-1 are all about the effect of independent
+        feel that the comment given by the client not only directs at            variables--including assistant type (AI vs. Human), competence
+        my assistant but also at me" (1 = entirely toward the assis-             (high vs. low), and feedback valence (positive vs. negative)--on
+        tant, 5 = entirely toward myself). The item was developed                trust, so we conducted a three-way ANOVA to examine these effects
+        based on the conceptualization of responsibility in delega-              simultaneously.., see the left of Table 1.
+        tion contexts, which views responsibility as the perceived
+        locus of control following automated assistance. (M = 3.55,                  H1-1. Delegators (Participants) will experience higher trust when
+        SD = 1.17)                                                               delegating tasks to humans compared to AI.
+
+4.4 Material and Procedure                                                          Based on the three-way ANOVA result, we found a significant
+                                                                                 main effect between the two assistant types, F(1,347) = 21.472, p <
+The experiment was delivered through a custom web-based plat-                    .001, 2 = .058. The human assistants (M = 3.09, SD = 1.21) were
+form hosted on Vercel, and participants recruited through Pro-                   more trusted than AI assistants (M = 2.69, SD = 1.078) in delegation.
+lific were redirected to this custom platform, where they first read             H1-1 was supported.
+through the experiment descriptions and provided informed con-
+sent and then completed the main part of this study as described in                  H1-2. Delegators (Participants) will experience higher trust when
+the Design section (providing information-matching-negotiation-                  delegating tasks to more competent delegates.
+outcome-feedback). This streamlined online procedure ensured
+standardized experimental conditions across all participants while                  Participants who delegated tasks to high-competent assistants (M
+maintaining ecological validity through a realistic task scenario                = 3.57, SD = 0.916) demonstrated significantly higher trust compared
+that mirrors common workplace scheduling negotiations. After                     to those who delegated to low-competent assistants (M = 2.22, SD
+the main part, participants were directed to complete the post-task              = 0.97), F(1,347) = 234.930, p < .001, 2 = .403. H1-2 was supported.
+questionnaire hosted on google form about the dependent variables,
+attention check and manipulation check questions, and basic de-                     H1-3. Delegators (Participants) will experience higher trust when
+mographic information such as gender and age. Participants were                  the feedback given to the delegate is positive.
+debriefed about the deception at the end of the questionnaire and
+given a code which they must copy and paste into the Prolific                       The results revealed that participants whose assistant received
+system to show that they have completed the experiment.                          positive feedback from the condition gave significantly higher trust
+                                                                                 score (M = 3.28, SD = 1.10) than negative feedback conditions (M
+5 Result                                                                         = 2.50, SD = 1.08), F(1,347) = 78.240, p < .001, 2 = .184. H1-3 was
+                                                                                 supported.
+5.1 Preliminary
+                                                                                    RQ1-1: How do assistant type, competence, and feedback interact
+Out of the 435 participants that we recruited on Prolific (235 men,              to predict trust?
+197 women, 3 undisclosed; age = 18-87, M = 52.85, SD = 13.253), we
+retained data from 355 participants (190 men, 161 women, 4 undis-                   For RQ1-1, we found no statistically significant two-way interac-
+closed; age range = 18­87, M = 42.77, SD = 13.37). This is because               tion effect, nor was the three-way interaction significant, see Table
+we implemented two safeguards. First, participants were required                 1.
+to correctly identify their assigned assistant type and the timeslot
+                                                                                    Our trust measurement included four subscales, and the analyses
+                                                                                 of these subscales are attached in Appendices A.1 and A.2.
+
+                                                                                 5.3 Psychological Distance
+
+                                                                                 Similar to trust, H2-1, H2-2, H2-3, and RQ1-2 are all about the effect
+                                                                                 of independent variables on psychological distance, so we also
+                                                                                 analyze them altogether here by running a three-way ANOVA, see
+CHI '26, April 13­17, 2026, Barcelona, Spain                                                                                                      Chen and Hou et al.
+
+                           Table 1: Three-way ANOVA Analysis of Trust (Left) and Psychological Distance (Right)
+
+                                                                                       Trust                     Psychological Distance
+                                                                                         p-value 2
+                                                                          df F                                   df F               p-value 2
+
+       Assistant Type                                                     1 21.472 <.001*** 0.058 1 6.582 0.010** 0.014
+
+       Competence level                                                   1 234.930 <.001*** 0.403 1 53.105 <.001*** 0.117
+
+       Feedback valence                                                   1 78.240 <.001*** 0.184 1 39.993 <.001*** 0.088
+
+       Assistant type X Competence                                        1 2.388 0.123 0.003 1 0.492 0.483 0.001
+
+       Assistant type X Feedback valence                                  1 1.271 0.260 0.001 1 0.117 0.771 0.000
+
+       Competence X Feedback valence                                      1 0.939 0.333 0.001 1 0.084 0.732 0.000
+
+       Assistant Type X Competence X Feedback valence 1 1.036 0.309 0.003 1 3.111 0.078 0.006
+
+the right of Table 1. For clarity, we have reverse-coded the statistics           F(1, 174) = 0.21, p = .645, 2 = .001. These results indicate that
+so that the higher scores represent greater psychological distance.               participants uniquely internalized negative feedback toward AI
+
+   H2-1. Delegators (Participants) will experience lower psychological            assistants as directed at themselves, whereas this asymmetry was
+distance toward the delegate when the delegate is a human compared
+to an AI.                                                                         not observed with human assistants. We call this phenomenon "AI
+
+   Participants who delegated to different assistant type (AI vs.                 Phantom Limb" and will discuss in detail in the discussion section.
+Human) was statistically significantly different in terms of the
+psychological distance, F(1,347) = 6.582,p= .010, 2 = .001. People                Second, the interaction between competence and feedback valence
+perceived a higher psychological distance to the AI assistants (M
+=3.87, SD = 1.09) than to the human assistants (M = 3.62, SD = 1.06).             was  also  significant,  F(1,  347)  =  6.82,  p  =  .009,   2  =  .019,  see  Fig.3
+H2-1 was supported.
+                                                                                                                                               
+   H2-2. Delegators (Participants) will experience lower psychological
+distance toward the delegate perceived as more competent.                         (Right). Simple-effects tests showed that under positive feedback,
+
+   Participants perceived a lower psychological distance to high-                 participants reported higher self-directed feedback perception in
+competent assistants (M = 3.37, SD = 1.09) than low-competent
+assistants (M = 4.11 SD = 0.94), F (1,347) = 53.105, p < .001, 2 = .117.          the high-competence condition (M = 3.70, SD = 1.10) than in the
+H2-2 was supported.
+                                                                                  low-competence condition (M = 3.21, SD = 1.15), F(1, 175) = 8.40, p
+   H2-3. Delegators (Participants) will experience lower psychological            = .004, 2 = .046. Under negative feedback, however, no difference
+distance toward the delegate receiving positive feedback.
+                                                                                  emerged between high competence (M = 3.57, SD = 1.18) and low
+   Participants perceive lower psychological distance to delegates
+receiving positive feedback (M = 3.42 SD = 1.08) than those receiving             competence assistants (M= 3.71, SD = 1.18), F(1, 176) = 0.65, p = .421.
+negative feedback (M = 4.07 SD = 0.99), F(1,347) = 39.993, p < .001,
+2 = .088. H2-3 was supported as well.                                             Looking at the reverse contrast, within the low-competence condi-
+
+   RQ1-2: How do assistant type, competence, and feedback interact                tion, participants reported higher self-directed feedback perception
+to predict psychological distance?
+                                                                                  following negative feedback (M = 3.71, SD = 1.18) than positive
+   The three-way ANOVA showed that there was no statistically                     feedback (M= 3.21, SD = 1.15), F(1, 178) = 8.29, p = .004, 2 = .045. By
+significant two-way or three-way interaction effects, see Table 1.
+                                                                                  contrast, within the high-competence condition, feedback valence
+
+                                                                                  did not significantly affect perception ( = 3.57, SD = 1.18;
+
+                                                                                   = 3.70, SD = 1.10), F(1, 173) = 0.59, p = .442. Together, these
+
+                                                                                  findings indicate that competence moderated how feedback was
+
+                                                                                  internalized: participants were more sensitive to negative feedback
+
+                                                                                  when the assistant was low-competence, and they attributed more
+
+                                                                                  self-directed perception under positive feedback when the assistant
+
+                                                                                  was high-competence.
+
+5.4 Attribution of Feedback                                                       5.5 Comparison Between Responsibility
+                                                                                        Attribution to the Participant vs. the
+RQ1-3: How does the extent to which delegators (Participants) perceive                  Assistant
+
+feedback directed at the assistant as also directed at themselves vary            RQ1-4: How does the responsibility attribution vary according to
+                                                                                  assistant type, competence, and feedback?
+according to assistant type, competence, and feedback?
+                                                                                     Responsibility attribution in our study originally involved three
+A three-way ANOVA examined the effects of Assistant Type                          possible targets--the participant themselves, the assistant, and the
+                                                                                  client--with allocations required to sum to 100%. For cases where
+(AI vs. Human), Competence (high vs. low), and Feedback Valence                   responses did not sum exactly to 100, values were normalized pro-
+                                                                                  portionally (e.g., a response of 3­1­1 was rescaled to 60%­20%­20%).
+(positive vs. negative) on Self-Directed Feedback Perception (see                 To simplify the analysis and focus on the central research question,
+                                                                                  we report here the results for responsibility attributed to the partic-
+Table 2). Two significant two-way interactions emerged.                           ipant and to the assistant, omitting responsibility assigned to the
+                                                                                  client. Please see Appendix A.3 for the analysis of the responsibility
+   First, the interaction between assistant type and feedback va-                 attribution to the client.
+lence was significant, F(1, 347) = 4.79, p = .029, 2 = .013, see Fig.3
+
+(Left). Simple-effects tests revealed that within the AI condition,
+
+participants perceived client feedback as more self-directed when it
+
+was negative (M = 3.81, SD = 1.21) compared to positive (M = 3.36,
+
+SD  =  1.14),  F(1,  177)  =  6.61,  p  =  .011,   2  =  .036.  However,  within
+
+                                                   
+
+the Human condition, no difference emerged between negative
+
+(M = 3.47, SD = 1.13) and positive feedback (M = 3.55, SD = 1.15),
+AI as the Phantom Limb: The Asymmetry of Attribution in Human vs. AI Delegation                       CHI '26, April 13­17, 2026, Barcelona, Spain
+
+Table 2: Three-way ANOVA Analysis of Self-Directed Feedback Perception
+
+                                                                                 df F  Trust
+                                                                                        p-value 2
+
+Assistant Type                                                                   1 0.426 0.514 0.001
+
+Competence level                                                                 1 1.962 0.162 0.005
+
+Feedback valence                                                                 1 2.355 0.125 0.006
+
+Assistant type X Competence                                                      1 0.318 0.573 0.000
+
+Assistant type X Feedback valence                                                1 4.794 0.029* 0.013
+
+Competence X Feedback valence                                                    1 6.819 0.009** 0.019
+
+Assistant Type X Competence X Feedback valence 1 0.01 0.920 0.000
+
+Figure 3: (Left) Interaction between assistant type and feedback valence on Self-Directed Feedback Perception: This plot
+illustrates the "AI Phantom Limb" effect: participants more likely to feel the feedback given to the assistant was also toward
+themselves when the feedback was negative and when the assistant was AI. (Right) Interaction between competence and
+feedback valence on Self-Directed Feedback Perception.
+
+                      Table 3: Comparison Between Responsibility Attribution to the Participant vs. the Assistant
+
+Assistant Type -Competence -Feedback Valence N Participant Mean (SD) Assistant Mean (SD) t              p-value
+
+AI-Low-Negative              45 0.204 (0.227)                                          0.638 (0.283)    -5.99 <.001***
+AI-Low-Positive              45 0.216 (0.213)                                          0.518 (0.242)    -4.71 <.001***
+AI-High-Negative             45 0.249 (0.218)                                          0.384 (0.197)    -2.49 0.016*
+AI-High-Positive             44 0.302 (0.158)                                          0.387 (0.206)    -1.69 0.098
+Human-Low-Negative           45 0.170 (0.192)                                          0.638 (0.281)    -6.61 <.001***
+Human-Low-Positive           45 0.168 (0.192)                                          0.528 (0.234)    -6.39 <.001***
+Human-High- Negative         43 0.267 (0.197)                                          0.469 (0.196)    -3.54 0.001**
+Human-High-Positive          43 0.234 (0.183)                                          0.507 (0.183)    -5.22 <.001***
+
+   We first conducted paired-samples t-tests within each condition               differences observed when the assistant was of low competence
+(Assistant Type × Competence × Feedback), as reported in Table 3                 (e.g., AI­Low­Negative:  = 0.20, SD = 0.23; 
+including the means, standard deviations, and test results (The deno-            = 0.64, SD = 0.28; t(44) = ­5.99, p < .001). The only exception was
+tation "AI-High-Positive" means that it is an AI delegate which has              the AI­High­Postive condition, where the difference did not reach
+high competence and it receives positive feedback). Across nearly                significance, t(43) = ­1.69, p = .098. Overall, these results reveal a
+all conditions, participants assigned significantly more responsibil-            robust asymmetry: delegators consistently shifted responsibility to
+ity to their assistants than to themselves , with particularly large             their assistants, distancing themselves particularly when assistants
+CHI '26, April 13­17, 2026, Barcelona, Spain                                                                                                 Chen and Hou et al.
+
+                      Table 4: Three-way ANOVA Analysis of Responsibility Attribution to Assistant vs. Participant
+
+                                                                                          Attribution to Assistant  Attribution to Participant
+
+                                                                                          F       p          2      F       p          2
+
+                                                                                                                                       
+
+                      Assistant Type                                                      4.578   0.033**   0.013   2.403   0.121     0.006
+                      Competence level                                                    34.560  <.001***  0.090   11.756  <.001***  0.032
+                      Feedback Valence                                                    3.861   0.050     0.011   0.137   0.710     0.000
+                      Assistant type X Competence                                         3.988   0.046**   0.011   0.141   0.707     0.000
+                      Assistant type X Feedback valence                                   0.191   0.662     0.000   1.313   0.252     0.003
+                      Competence X Feedback valence                                       7.584   0.006**   0.021   0.014   0.905     0.000
+                      Assistant Type X Competence X Feedback Valence                      0.062   .809      0.000   0.675   0.411     0.001
+
+underperformed, regardless of whether the assistant was human or                             the Competence × Feedback interaction was significant, F(1, 347)
+AI.                                                                                          = 7.58, p = .007, 2 = .021, see Fig.4 (Right). Simple-effects tests
+                                                                                             showed that under negative feedback, participants attributed more
+   Then, two separate three-way ANOVAs were conducted with                                   responsibility to low-competence assistants (M = 0.64, SD = 0.28)
+Assistant Type (AI vs. Human), Competence (High vs. Low), and                                than to high-competence assistants (M = 0.43, SD = 0.20), F(1, 176) =
+Feedback Valence (positive vs. negative) as independent variables,                           33.66, p < .001. Under positive feedback, the same pattern appeared
+and Responsibility Attribution to the Participant Themselves and                             though weaker: low-competence assistants (M = 0.52, SD = 0.24)
+Responsibility Attribution to The Assistant as dependent variables,                          received more responsibility than high-competence assistants (M =
+respectively. Always use midrule to separate table header rows from                          0.45, SD = 0.20), F(1, 175) = 5.34, p = .022. Looking from the opposite
+data rows, and use it only for this purpose. This enables assistive                          perspective, feedback valence mattered only for low-competence
+technologies to recognise table headers and support their users in                           assistants, who were attributed more responsibility under negative
+navigating tables more easily.                                                               feedback (M = 0.64, SD = 0.28) than positive feedback (M= 0.52, SD
+                                                                                             = 0.24), F(1, 178) = 8.81,p = .003. No feedback effect emerged for
+5.5.1 Responsibility Attribution to the Participant Themselves. A                            high-competence assistants ( = 0.43, SD = 0.20;  =
+                                                                                             0.45, SD = 0.20), F(1, 173) = 0.47, p = .496. In sum, participants consis-
+three-way ANOVA (see the right of Table 4) on responsibility at-                             tently placed more responsibility on assistants than on themselves,
+                                                                                             which echoes previous research and will be discussed in depth in
+tribution to the participant themselves revealed a significant main                          the next section. The only exception was when AI assistants were
+                                                                                             both competent and received positive feedback. We also found that
+effect  of  competence,     F(1,   347)   =  11.76,   p  <  .001,   2  =  .033.  Partic-     participants tended to take more responsibility when paired with
+                                                                                             high-competence assistants, showing greater ownership when the
+                                                                                             delegate performed well. By contrast, assistants generally attracted
+                                                                                             more responsibility when they were humans, underperformed or
+ipants attributed more responsibility to themselves when paired                              received negative feedback. Together, these findings reveal the in-
+                                                                                             tricate dynamics of responsibility attribution in delegation.
+with high-competence assistants (M = 0.26, SD = 0.19) than with
+                                                                                             6 Discussion
+low-competence assistants (M = 0.19, SD = 0.21). No other main
+                                                                                             6.1 Main Findings
+effects or interactions were significant.
+                                                                                             Our analyses revealed a consistent pattern across trust, psycholog-
+5.5.2 Responsibility Attribution to The Assistant. A three-way ANOVA                         ical distance, feedback perception, and responsibility attribution
+                                                                                             when participants (delegators) delegate tasks to the assistants (del-
+(See the left of Table 4) on responsibility attribution to the assistant                     egates) while receiving feedback from third-party clients. For trust
+                                                                                             (H1-1 to H1-3), all hypotheses were supported. Participants re-
+revealed significant main effects of assistant type, F(1, 347) = 4.58, p                     ported higher trust when delegating to humans compared to AI
+= .033, 2 = .013, competence, F(1, 347) = 34.56, p < .001, 2 = .091,                         (H1-1), when the delegate was high in competence (H1-2), and
+                                                                                             when the delegate received positive feedback (H1-3). However, for
+and feedback valence, F(1, 347) = 3.86, p = .050, 2 = .011. Partici-                         RQ1-1 we found no two-way or three-way interaction, suggesting
+                                                                                             that main effects dominated participants' judgments. Similarly, for
+pants attributed more responsibility to human assistants (M = 0.54,                          psychological distance (H2-1 to H2-3), all hypotheses were sup-
+                                                                                             ported. Participants experienced lower psychological distance to-
+SD= 0.23) than AI assistants (M = 0.48, SD = 0.25), more to low-                             ward human assistants (H2-1), toward high-competence assistants
+
+competence assistants (M = 0.58, SD = 0.26) than high-competence
+
+assistants (M = 0.44, SD = 0.20), and marginally more to assistants
+
+receiving negative feedback (M = 0.53, SD = 0.27) than positive
+
+feedback (M = 0.49, SD = 0.22).
+
+Two significant interactions further qualified these main effects.
+
+First, the Assistant Type × Competence interaction was significant,
+
+F(1,  347)  =  3.99,  p  =  .047,   2  =  .011,  see  Fig.4  (Left).   Simple-effects
+
+                                    
+
+analyses revealed that under high competence, participants attrib-
+
+uted more responsibility to human assistants (M = 0.49, SD = 0.19)
+
+than AI assistants (M = 0.39, SD = 0.20), F(1, 173) = 12.01, p < .001. In
+
+contrast, no difference emerged under low competence (
+
+= 0.58,SD = 0.26;  = 0.58, SD = 0.27), F(1, 178) = 0.01, p = .915.
+
+Conversely, competence effects held for both assistant types: par-
+
+ticipants attributed more responsibility to high-competence than
+
+low-competence assistants, both for AI assistants, F(1, 177) = 29.54,
+
+p < .001, and human assistants, F(1, 174) = 7.44, p = .007. Second,
+AI as the Phantom Limb: The Asymmetry of Attribution in Human vs. AI Delegation  CHI '26, April 13­17, 2026, Barcelona, Spain
+
+Figure 4: (Left) The interaction between Assistant Type and Competence on Responsibility Attribution to Assistants: Participants
+attributed greater responsibility to assistants when their competence was low, with a steeper decline observed for AI assistants
+than for human assistants as competence increased. (Right) Interaction between Competence and Feedback Valence on
+Responsibility Attribution to Assistants: Negative feedback amplified responsibility attribution to low-competence assistants,
+whereas positive feedback led to a smaller difference across competence levels.
+
+(H2-2), and in positive-feedback conditions (H2-3). Yet, for RQ1-                6.2 Theoretical Implications
+2, no significant interactions were observed, again showing the
+dominance of main effects. By contrast, RQ1-3 uncovered critical                 6.2.1 AI Phantom Limb Effect. We found that participants generally
+interaction effect. Participants uniquely internalized negative feed-            attributed more responsibility to human assistants than to AI assis-
+back toward AI assistants as self-directed, while no such differences            tants, with responsibility shifting onto the assistant especially when
+were found with positive feedback and with human assistant--a                    the assistant underperformed or received negative feedback. Under
+striking asymmetry we term the "AI Phantom Limb" effect. More-                   high competence, human assistants were held more responsible
+over, competence interacted with feedback: under positive feedback,              than AI assistants, whereas under low competence this human­AI
+high-competence assistants elicited stronger self-directed percep-               difference disappeared. However, when considering whether client
+tion than low-competence assistants, whereas under negative feed-                feedback was "also about me," a paradoxical asymmetry emerged
+back, low-competence assistants triggered greater self-blame than                only for AI: participants felt negative feedback about an AI as more
+high-competence ones. Finally, RQ1-4 examined responsibility at-                 self-directed, while positive feedback transferred far less; no such
+tribution. Participants consistently assigned more responsibility to             valence effect appeared for human delegates.
+assistants than to themselves, particularly when assistants were
+human, underperforming, or negatively evaluated. On the other                       This contrast can be explained by distinguishing responsibility
+hand, the participants also took more responsibility when paired                 from accountability. Responsibility concerns who caused an out-
+with high-competence assistants, suggesting that they were more                  come, whereas accountability reflects whether one is perceived
+willing to claim credit for successful outcomes achieved by capable              as answerable in the eyes of others. Participants recognized that
+delegates. In summary, all six hypotheses were supported, echoing                the AI assistant was responsible for the task outcome, but because
+previous research that people perceive other humans as more trust-               AI is not human and cannot be fully held accountable in a social
+worthy and mentally closer than AI agents, with preference over                  sense, they simultaneously felt that negative feedback toward the
+individuals who are more competent and receive more positive                     AI was also directed at them. In other words, accountability here
+feedback from others--we demonstrated that this also hold true                   emerges through perspective-taking [31]: individuals imagine how
+in delegator-delegate relationship. In contrast, RQ1-3 and RQ1-4                 a client judges both themselves and their assistant, and in doing
+revealed meaningful asymmetries, with negative feedback toward                   so, they absorb criticism that might otherwise fall solely on the AI.
+AI producing stronger self-directed costs and low-competence as-                 This finding aligns with [90, 98], who showed that when a moral
+sistants disproportionately absorbing responsibility. Theoretical                violation occurs, humans are generally attributed greater moral
+implications of these findings, as well as their design and broader              fault than AI agents.
+social implications, are discussed in the following sections.
+                                                                                    The AI phantom limb metaphor illustrates this asymmetry. A
+                                                                                 physical phantom limb often registers pain but rarely comfort. Simi-
+                                                                                 larly, participants "felt the pain" of criticism when their AI assistant
+                                                                                 was judged poorly, but they did not experience the "pleasure" of
+                                                                                 praise to the same degree. We therefore describe AI as a kind of
+CHI '26, April 13­17, 2026, Barcelona, Spain                             Chen and Hou et al.
+
+cognitive phantom limb--an extension of human intellectual capac-        themselves. This is why we call it a phantom limb effect--AI oper-
+ity. Just as a phantom limb extends one's body schema beyond its         ates as a cognitive extension that can transmit pain but not pleasure.
+physical limits, AI extends cognitive agency. When that extension
+fails or is criticized, people feel the sting as if it were their own.   6.2.2 The Distinction Between Responsibility and Accountability.
+When it succeeds, however, the compliment is deflected back to the       The distinction between responsibility and accountability in our
+AI rather than fully shared.                                             study clarifies the present findings and helps reconcile competing
+                                                                         interpretations of the "moral crumple zone." Elish [30], who first
+   One theoretically plausible account for the observed effect can       introduced the concept, described it as the misattribution of respon-
+be derived from mind perception theory. Mind is typically concep-        sibility to a human actor with limited control over an automated
+tualized as comprising two dimensions--agency and experience             system. By contrast, Hohenstein's [43]empirical research suggested
+[37].While advancements in AI have substantially increased per-          that AI itself can function as a moral crumple zone by absorbing re-
+ceived agency [50], AI systems continue to be attributed low levels      sponsibility that would otherwise have been assigned to the human.
+of experiential capacity or to be considered cryptomind entities         Our framework, which separates responsibility from accountability,
+[90] . When individuals are wronged or victimized, they tend to          offers a way to integrate these perspectives. Elish [30]illustrated
+search for a responsible agent or scapegoat to blame [101]. This         her argument through technological disasters such as the Three
+framework readily explains why participants generally attributed         Mile Island nuclear accident and the crash of Air France Flight
+more responsibility to mindful human assistants than to AI assis-        447, emphasizing that at the societal level, humans are typically
+tants, with responsibility shifting toward the assistant particularly    regarded as the primary agents to be held accountable. Similarly,
+when the assistant underperformed or received negative feedback.         when adopting a third-person perspective in which they are not
+However, when examining the direction of feedback, the dynamics          directly involved, observers tend to attribute greater moral blame
+become more intricate. When the assistant is an AI, individuals          to humans than to AI systems [90]. This perspective aligns with the
+not only find it more difficult to attribute blame to an entity per-     asymmetries we observed in participants' self-directed interpreta-
+ceived as mindless; they also anticipate that a mindful evaluator        tions of feedback. Hohenstein [43], in turn, examined responsibility
+(e.g., the client) holds the same belief--that AI lacks mental ability.  in AI-mediated communication, showing that failed interactions
+This dual constraint reduces the plausibility of attributing blame to    often shifted responsibility onto AI, reducing the burden placed on
+the AI and instead leads individuals to interpret negative feedback      human partners. This dynamic resonates with our findings: partici-
+as personally targeted.                                                  pants frequently displaced responsibility onto assistants, especially
+                                                                         when performance was poor or feedback was negative. Our experi-
+   A further layer of complexity emerges when asking why are             mental design therefore bridges these two viewpoints by assessing
+individuals more inclined to internalize negative feedback rather        participants' subjective responsibility attributions while they are di-
+than positive feedback? Although the present study does not in-          rectly engaged in the task, and by interpreting the client's feedback
+vestigate the underlying psychological mechanisms, recent HCI            as a reflection of accountability at the societal level.
+research offers potential explanations for this phantom limb effect.
+In everyday contexts, AI use is often surrounded by stigmatizing            Interestingly, our study is not the first to differentiate individ-
+slurs--for instance, using "AI could have written this" to undermine     uals' subjective judgments from cognition shaped by internalized
+someone's writing ability, or assuming that essays by non-native         social expectations. Draxler et al.'s work [26]on the "AI ghostwriter"
+English speakers must be AI-generated [86]. Such practices help          phenomenon demonstrates a similar divide: although participants
+establish prevailing social norms that delegitimize or disparage AI-     often did not feel psychological ownership of AI-generated text,
+mediated work [18]. These external negative judgments can lead           they nevertheless publicly declared themselves as its authors. This
+individuals to fear that their own capabilities will be questioned,      distinction between perceived ownership and declared authorship
+prompting them to hide their use of AI in professional or academic       parallels our analytical focus. The former reflects the internal, sub-
+settings [105]. In addition, AI use is often accompanied by internal     jective sense of responsibility--analogous to our construct of inter-
+negative judgments, such as questioning one's own competence             nal responsibility attribution--whereas the latter concerns outward-
+[105]--akin to imposter syndrome [25, 86]. Taken together, indi-         facing behavior that is embedded in social norms and the imagined
+viduals may not only infer the client's perspective within a single      presence of evaluative others. Human­AI collaboration thus re-
+interaction, but also absorb broader societal slurs surrounding AI       quires navigating both internal perceptions and external social
+use and their own anxieties about relying on AI--both of which           expectations. Recognizing this dual perspective provides a more
+might further shape the internalization of negative feedback.            comprehensive account of how individuals interpret feedback, make
+                                                                         interpersonal judgments, and internalize broader normative frame-
+   To sum up, these findings suggest that human­AI delegation re-        works surrounding AI use.
+shapes the self­other boundary in ways distinct from human­human
+interaction. Importantly, this should not be conflated with the             Taken together, these insights highlight the value of carefully
+broader idea of the extension of self. Prior work shows that some        distinguishing responsibility from accountability in future stud-
+users--especially in collectivist cultures--perceive AI as part of the   ies of moral crumple zones. Attribution in human­AI collabora-
+self, treating its features as tools for conformity, social adaptation,  tion is complex and multifaceted, and conflating these concepts
+or privacy protection [10]. If AI were truly functioning as such         risks obscuring the subtle ways in which humans and AI are po-
+an extension, one would expect both praise and blame to transfer         sitioned within social and moral frameworks. By separating the
+symmetrically. Instead, our results reveal a sharper asymmetry:          two, researchers can more precisely capture how accountability
+participants deflected credit to the AI but internalized criticism
+AI as the Phantom Limb: The Asymmetry of Attribution in Human vs. AI Delegation                                                    CHI '26, April 13­17, 2026, Barcelona, Spain
+
+is negotiated and how responsibility is shared, ultimately advanc-                  Taken together, these social and design implications emphasize
+ing a clearer and more constructive understanding of human­AI                    the need to account for the asymmetrical ways in which people
+collaboration.                                                                   process responsibility and accountability in Human­AI collabora-
+                                                                                 tion. Without careful design, AI may function as both scapegoat
+6.3 Social and Design Implications                                               and competitor--absorbing blame selectively while monopolizing
+                                                                                 credit--creating environments that are both psychologically un-
+Our findings suggest that responsibility and accountability are                  healthy and socially inequitable. With thoughtful attention to cul-
+created in distinctive and sometimes asymmetric ways when del-                   tural realignment, explainability and attribution, however, AI dele-
+egation involves AI. Socially, the phantom limb effect points to a               gation systems can instead support trust, preserve recognition for
+troubling imbalance: positive outcomes are often credited to AI,                 human agency, and foster more sustainable forms of collaboration.
+leaving users feeling their own competence diminished, while neg-
+ative outcomes are perceived as directed at the human, reinforcing               6.4 Limitation and Future Work
+a sense of blame. Such dynamics might risk creating unhealthy
+work environments where employees' contributions are underval-                   This study has several limitations that should be considered when in-
+ued and their failures over-exposed. Similar concerns have already               terpreting its findings. First, the experiment was conducted entirely
+been observed in education, where younger students report that                   online in a highly simplified delegation scenario involving only a
+their achievements are discounted as products of AI rather than                  participant, an assistant, and a client. The interaction itself was
+their own effort [25]. Meanwhile, external critics warn that stu-                pre-scripted and minimal: participants observed animated figures
+dents' foundational knowledge and core academic competencies are                 without real faces, histories, or contextual cues that would normally
+weakening, leading employers to doubt the reliability of academic                shape perceptions in everyday delegation. This abstraction limited
+credentials and adopt "anti-AI" screening measures [20]. Tradition-              ecological validity. In particular, the competence manipulation was
+ally, academic credentials have functioned as signals of graduates'              designed such that high-competence assistants always secured mu-
+underlying ability and productivity [28]. However, when these ac-                tually ideal time slots for both the client and the participant. In
+complishments are instead attributed to AI, the technology becomes               real-world collaboration, however, competence often involves trade-
+a phantom limb that cannot share success or pride--credit flows to               offs--an effective assistant might satisfy one party while imposing
+the tool rather than the individual. Such dynamics may intensify                 costs on another. Such complexities, which are central to workplace
+doubt toward one's own competence, reinforce impostor syndrome                   delegation, were not captured here. Future work should therefore
+[25], and potentially contribute to broader post-graduation disillu-             develop richer, context-aware paradigms that more closely simulate
+sionment with career prospect [41, 78]. In organizational contexts,              the nuanced and dynamic nature of human­AI delegation.
+this asymmetry could distort workplace hierarchies: clients or man-
+agers may implicitly trust AI for successes while holding employees                 Second, our sample was restricted to English-speaking partici-
+accountable for failures, undermining both morale and professional               pants, largely from individualist cultures. This limits the generaliz-
+recognition. This further explains not only why individuals hide                 ability of our findings, as cultural differences in self­other percep-
+AI use [45, 105], but also why cultural norms and even regulatory                tion, responsibility attribution, and expectations of technology may
+efforts emerge to stigmatize AI reliance [86]. Rather than tighter               produce different dynamics in collectivist contexts. Longitudinal
+restrictions, a more constructive path lies in shifting norms around             studies, in which participants interact with AI assistants repeatedly
+attribution and recognition. Organizations could explicitly reward               over time, would also offer deeper insights into how trust, account-
+effective human­AI collaboration as a form of competency--not a                  ability, and responsibility evolve as relationships with AI systems
+dilution of skill--while ensuring that responsibility and credit are             mature.
+shared transparently. Such cultural realignment may reduce the
+need for concealment, alleviate stigma, and allow the psychological                 For future work, besides addressing the methodological con-
+benefits of collaboration to be fully realized.                                  siderations mentioned above, our results raise theoretical chal-
+                                                                                 lenges that warrants future investigation. In particular, psychologi-
+   Beyond cultural and organizational interventions, our findings                cal distance--a construct often used to explain willingness to dele-
+also carry direct implications for the design of AI delegation sys-              gate--appeared highly aligned with trust in our data but failed to
+tems. Design implications follow directly from these social risks.               capture the more subtle blurring of self­other boundaries observed
+For delegation with AI is particularly sensitive to issues of responsi-          here. For example, when participants felt that negative feedback
+bility and accountability, systems must be designed to clarify--not              toward the AI was also directed at themselves, this could be inter-
+obscure--the boundaries of attribution. One potential design consid-             preted as reduced psychological distance, yet such nuance is not
+eration is explainability: delegation interfaces could make explicit             reflected in existing measures that emphasize similarity or famil-
+how outcomes are generated, when errors stem from contextual                     iarity. Future research should therefore revisit and refine the con-
+factors, and where responsibility resides. This means not only min-              cept of psychological distance in delegation contexts, integrating it
+imizing cognitive load but also providing users with transparent                 more explicitly with accountability and responsibility attribution.
+cues that prevent over-attribution of blame to themselves and over-              In addition, future work may further investigate whether the inter-
+crediting of success to AI. Concretely, delegation systems should                nalization of negative feedback is driven by mechanisms related to
+(1) signal the provenance of outcomes and errors, (2) frame re-                  mind perception as well as perceived negative external norms or
+sults in ways that recognize the user's role, and (3) ensure that                judgments surrounding AI use.
+accountability is distributed fairly across human and AI partners.
+                                                                                    From a design and societal perspective, our findings also high-
+                                                                                 light that delegation with AI is not only a technical challenge but
+CHI '26, April 13­17, 2026, Barcelona, Spain                                                                                                                            Chen and Hou et al.
+
+also a social one. Individuals may misperceive their relationship                                In Proceedings of the 54th Annual Hawaii International Conference on System
+with AI delegates, internalizing negative feedback as self-directed                              Sciences (HICSS). IEEE Computer Society, Honolulu, HI, USA, 607­616. doi:10.
+while deflecting positive feedback to the system. These dynamic                                  24251/HICSS.2021.074
+risks eroding human recognition, exacerbating blame, and creating                          [10] Aaron J. Barnes, Yuanyuan Zhang, and Ana Valenzuela. 2024. AI and culture:
+unhealthy dynamics. To address these risks, future systems must                                  Culturally dependent responses to AI systems. Current Opinion in Psychology
+move beyond efficiency to actively clarify accountability bound-                                 58 (2024), 101838. doi:10.1016/j.copsyc.2024.101838
+aries. Transparent, explainable interfaces that fairly recognize and                       [11] Wieslaw Bartkowski, Andrzej Nowak, Filip Ignacy Czajkowski, Albrecht
+distinguish both human's and AI's responsibilities and contribu-                                 Schmidt, and Florian Müller. 2023. In Sync: Exploring Synchronization to
+tions are essential.                                                                             Increase Trust Between Humans and Non-humanoid Robots. In Proceedings of
+                                                                                                 the 2023 CHI Conference on Human Factors in Computing Systems (Hamburg,
+   At the same time, these challenges open a pivotal opportunity for                             Germany) (CHI '23). Association for Computing Machinery, New York, NY, USA,
+innovation. By anticipating how responsibility and accountability                                Article 367, 14 pages. doi:10.1145/3544548.3581193
+are shaped in Human­AI collaboration, researchers and designers                            [12] Björn Bartling and Urs Fischbacher. 2012. Shifting the Blame: On Delegation
+can move beyond merely correcting misattribution to intention-                                   and Responsibility. The Review of Economic Studies 79, 1 (January 2012), 67­87.
+ally building systems that foster trust, strengthen human agency,                                doi:10.1093/restud/rdr023
+and establish healthier collaboration dynamics. With thoughtful                            [13] Frank D. Belschak and Deanne N. Den Hartog. 2009. Consequences of Positive
+design, AI delegates can empower rather than be scapegoats or                                    and Negative Feedback: The Impact on Emotions and Extra-Role Behaviors.
+competitors. We are optimistic that by integrating these insights,                               Applied Psychology 58, 2 (2009), 274­303. doi:10.1111/j.1464-0597.2008.00336.x
+the HCI and HAI communities can develop more human-centered                                [14] Anna Bouwer. 2022. Under Which Conditions Are Humans Motivated to Del-
+delegation interactions, which shapes a future in which Human­AI                                 egate Tasks to AI? A Taxonomy on the Human Emotional State Driving the
+collaboration genuinely empowers people.                                                         Motivation for AI Delegation. In Marketing and Smart Technologies. Springer
+                                                                                                 Nature, Singapore, 37­53. doi:10.1007/978-981-16-9268-0_4
+Acknowledgments                                                                            [15] Joe Brailsford, Frank Vetere, and Eduardo Velloso. 2025. Responsibility Attri-
+                                                                                                 bution in Human Interactions with Everyday AI Systems. In Proceedings of the
+This research was supported by the National Science and Technol-                                 2025 CHI Conference on Human Factors in Computing Systems (CHI '25). Asso-
+ogy Council of Taiwan (Grant Number: 114-2222-E-004-002-). Any                                   ciation for Computing Machinery, New York, NY, USA, Article 1020, 17 pages.
+opinions, findings, conclusions, or recommendations expressed in                                 doi:10.1145/3706598.3713126
+this material are those of the authors and do not necessarily reflect                      [16] Marvin Braun, Maike Greve, Till Ole Diesterhöft, and Lutz M. Kolbe. 2022. Can
+the views of the National Science and Technology Council of Tai-                                 (A)I Do This for You?: Exploring the Impact of Psychological Distance and AI-
+wan. We thank Andrea Chia-Hsuan Tai and Clarence Chi-Hong                                        attitude on Task Delegation. In Proceedings of the 28th Americas Conference on
+Weng for their valuable input, and Professor Jih-Hsuan Tammy Lin                                 Information Systems (AMCIS). Association for Information Systems, Minneapolis,
+and Professor Shao-Hua Sun (National Taiwan University) for their                                MN, USA, Article 12, 10 pages. https://aisel.aisnet.org/amcis2022/sig_adit/sig_
+assistance with the NSTC grant application.                                                      adit/12
+                                                                                           [17] Zana Buçinca, Maja Barbara Malaya, and Krzysztof Z. Gajos. 2021. To Trust
+References                                                                                       or to Think: Cognitive Forcing Functions Can Reduce Overreliance on AI in
+                                                                                                 AI-assisted Decision-making. Proc. ACM Hum.-Comput. Interact. 5, CSCW1,
+   [1] Ashraf Abdul, Jo Vermeulen, Danding Wang, Brian Y. Lim, and Mohan Kankan-                 Article 188 (April 2021), 21 pages. doi:10.1145/3449287
+        halli. 2018. Trends and Trajectories for Explainable, Accountable and Intel-       [18] Gilok Choi and Hyewon Chung. 2013. Applying the Technology Acceptance
+        ligible Systems: An HCI Research Agenda. In Proceedings of the 2018 CHI                  Model to Social Networking Sites (SNS): Impact of Subjective Norm and Social
+        Conference on Human Factors in Computing Systems (Montreal QC, Canada)                   Capital on the Acceptance of SNS. International Journal of Human­Computer
+        (CHI '18). Association for Computing Machinery, New York, NY, USA, 1­18.                 Interaction 29, 10 (2013), 619­628. doi:10.1080/10447318.2012.756333
+        doi:10.1145/3173574.3174156                                                        [19] Sukwoong Choi, Hyo Kang, Namil Kim, and Junsik Kim. 2025. How does
+                                                                                                 artificial intelligence improve human decision-making? Evidence from the AI-
+   [2] Daehwan Ahn, Abdullah Almaatouq, Monisha Gulabani, and Kartik Hosanagar.                  powered Go program. Strategic Management Journal 46, 6 (2025), 1523­1554.
+        2024. Impact of Model Interpretability and Outcome Feedback on Trust in AI. In           doi:10.1002/smj.3694
+        Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems       [20] Michael Coole, Warren Doudle, Nicola Lockhart, and Simeng Yuan. 2024. The
+        (Honolulu, HI, USA) (CHI '24). Association for Computing Machinery, New York,            Negative Impact of AI on Academic Integrity in Tertiary Education. Australian
+        NY, USA, Article 27, 25 pages. doi:10.1145/3613904.3642780                               Cyber Security Magazine. https://australiancybersecuritymagazine.com.au/the-
+                                                                                                 negative-impact-of-ai-on-academic-integrity-in-tertiary-education/ Accessed:
+   [3] Sameera M Alshorman. 2024. THE READINESS TO USE AI IN TEACHING SCI-                       2026-01-22.
+        ENCE: SCIENCE TEACHERS'PERSPECTIVE. Journal of Baltic Science Education            [21] Debby Damen, Marije van Amelsvoort, Per van der Wijst, Monique Pollmann,
+        23, 3 (2024), 432­448.                                                                   and Emiel Krahmer. 2021. Lifting the curse of knowing: How feedback improves
+                                                                                                 perspective-taking. Quarterly Journal of Experimental Psychology 74, 6 (2021),
+   [4] Quentin André, Ziv Carmon, Klaus Wertenbroch, Alia Crum, Douglas Frank,                   1054­1069. doi:10.1177/1747021820987080 PMID: 33427086.
+        William Goldstein, Joel Huber, Leaf van Boven, Bernd Weber, and Haiyang Yang.      [22] Sarah Dégallier-Rochat, Mascha Kurpicz-Briki, Nada Endrissat, and Olena Yat-
+        2018. Consumer Choice and Autonomy in the Age of Artificial Intelligence and             senko. 2022. Human augmentation, not replacement: A research agenda for
+        Big Data. Customer Needs and Solutions 5, 1-2 (2018), 28­37. doi:10.1007/s40547-         AI and robotics in the industry. Frontiers in Robotics and AI 9, Article 997386
+        017- 0085- 8                                                                             (2022), 5 pages. doi:10.3389/frobt.2022.997386
+                                                                                           [23] Zhaohua Deng, Dan Song, and Richard Evans. 2025. Can We Trust AI? Exploring
+   [5] Theo Araujo, Natali Helberger, Sanne Kruikemeier, and Claes H. de Vreese.                 the Effect of Estimated Accuracy and the Actual Performance of Ai Systems on
+        2020. In AI we trust? Perceptions about automated decision-making by artificial          Human-AI Collaboration. Journal of Electronic Commerce Research 26, 3 (2025),
+        intelligence. AI Soc. 35, 3 (Sept. 2020), 611­623. doi:10.1007/s00146-019-00931-w        170­193.
+                                                                                           [24] Berkeley Dietvorst, Joseph Simmons, and Cade Massey. 2014. Algorithm Aver-
+   [6] Mads N. Arnestad, Samuel Meyers, Kurt Gray, and Yochanan E. Bigman. 2024.                 sion: People Erroneously Avoid Algorithms After Seeing Them Err. Journal of
+        The existence of manual mode increases human blame for AI mistakes. Cognition            Experimental Psychology: General 144 (11 2014), 114­126. doi:10.1037/xge0000033
+        252 (2024), 105931. doi:10.1016/j.cognition.2024.105931                            [25] Arjie Domingo. 2025. Investigating the influence of AI-driven tools in ESL
+                                                                                                 students' experience of AI-induced impostor syndrome and academic confidence.
+   [7] Susan J. Ashford and L.L. Cummings. 1983. Feedback as an individual resource:             Asian Journal of English Language Studies 13 (06 2025), 98­125. doi:10.59960/13.
+        Personal strategies of creating information. Organizational Behavior and Human           1.a5
+        Performance 32, 3 (1983), 370­398. doi:10.1016/0030-5073(83)90156-3                [26] Fiona Draxler, Anna Werner, Florian Lehmann, Matthias Hoppe, Albrecht
+                                                                                                 Schmidt, Daniel Buschek, and Robin Welsch. 2024. The AI Ghostwriter Effect:
+   [8] Albert Bandura. 1991. Social cognitive theory of self-regulation. Organizational          When Users do not Perceive Ownership of AI-Generated Text but Self-Declare
+        behavior and human decision processes 50, 2 (1991), 248­287.                             as Authors. ACM Trans. Comput.-Hum. Interact. 31, 2, Article 25 (Feb. 2024),
+                                                                                                 40 pages. doi:10.1145/3637875
+   [9] Ying Bao, Xusen Cheng, Triparna de Vreede, and Gert-Jan de Vreede. 2021.            [27] Brian D. Earp, Sebastian Porsdam Mann, Peng Liu, Ivar Hannikainen,
+        Investigating the relationship between AI and trust in human-AI collaboration.           Maryam Ali Khan, Yueying Chu, and Julian Savulescu. 2024. Credit and blame
+                                                                                                 for AI­generated content: Effects of personalization in four countries. Annals of
+                                                                                                 the New York Academy of Sciences 1542, 1 (2024), 51­57. doi:10.1111/nyas.15258
+AI as the Phantom Limb: The Asymmetry of Attribution in Human vs. AI Delegation                                                            CHI '26, April 13­17, 2026, Barcelona, Spain
+
+ [28] Laura Ehrmantraut, Pia Pinger, and Renske Stans. 2020. The Expected (Signaling)      [51] Avraham Kluger and Angelo DeNisi. 1996. The Effects of Feedback Interven-
+        Value of Higher Education. IZA Discussion Paper 13729. IZA Institute of Labor            tions on Performance: A Historical Review, a Meta-Analysis, and a Preliminary
+        Economics. https://ssrn.com/abstract=3699846                                             Feedback Intervention Theory. Psychological Bulletin 119 (03 1996), 254­284.
+                                                                                                 doi:10.1037/0033- 2909.119.2.254
+ [29] Upol Ehsan, Q. Vera Liao, Michael Muller, Mark O. Riedl, and Justin D. Weisz.
+        2021. Expanding Explainability: Towards Social Transparency in AI systems. In      [52] Rafal Kocielnik, Saleema Amershi, and Paul N. Bennett. 2019. Will You Accept
+        Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems             an Imperfect AI? Exploring Designs for Adjusting End-user Expectations of
+        (Yokohama, Japan) (CHI '21). Association for Computing Machinery, New York,              AI Systems. In Proceedings of the 2019 CHI Conference on Human Factors in
+        NY, USA, Article 82, 19 pages. doi:10.1145/3411764.3445188                               Computing Systems (Glasgow, Scotland Uk) (CHI '19). Association for Computing
+                                                                                                 Machinery, New York, NY, USA, 1­14. doi:10.1145/3290605.3300641
+ [30] Madeleine Elish. 2019. Moral Crumple Zones: Cautionary Tales in Human-
+        Robot Interaction. Engaging Science, Technology, and Society 5 (03 2019), 40­60.   [53] Minae Kwon, Malte F. Jung, and Ross A. Knepper. 2016. Human Expectations of
+        doi:10.17351/ests2019.260                                                                Social Robots. In Proceedings of the Eleventh ACM/IEEE International Conference
+                                                                                                 on Human Robot Interaction (HRI) (HRI '16). IEEE Press, Piscataway, NJ, USA,
+ [31] Thorsten Erle and Sascha Topolinski. 2017. The Grounded Nature of Psycho-                  463­464. doi:10.1109/HRI.2016.7451806
+        logical Perspective-Taking. Journal of Personality and Social Psychology 112 (03
+        2017), 683­695. doi:10.1037/pspa0000081                                            [54] Vivian Lai, Samuel Carton, Rajat Bhatnagar, Q. Vera Liao, Yunfeng Zhang, and
+                                                                                                 Chenhao Tan. 2022. Human-AI Collaboration via Conditional Delegation: A
+ [32] Alexander Erlei, Abhinav Sharma, and Ujwal Gadiraju. 2024. Understanding                   Case Study of Content Moderation. In Proceedings of the 2022 CHI Conference
+        Choice Independence and Error Types in Human-AI Collaboration. In Pro-                   on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI '22).
+        ceedings of the 2024 CHI Conference on Human Factors in Computing Systems                Association for Computing Machinery, New York, NY, USA, Article 54, 18 pages.
+        (Honolulu, HI, USA) (CHI '24). Association for Computing Machinery, New York,            doi:10.1145/3491102.3501999
+        NY, USA, Article 308, 19 pages. doi:10.1145/3613904.3641946
+                                                                                           [55] John D. Lee and Katrina A. See. 2004. Trust in Automation: Designing for
+ [33] Ayelet Fishbach, Tal Eyal, and Stacey Finkelstein. 2010. How Positive and                  Appropriate Reliance. Human Factors 46, 1 (2004), 50­80. doi:10.1518/hfes.46.1.
+        Negative Feedback Motivate Goal Pursuit. Social and Personality Psychology               50_30392 PMID: 15151155.
+        Compass 48 (08 2010), 517­5301751. doi:10.1111/j.1751-9004.2010.00285.x
+                                                                                           [56] Minha Lee, Peter Ruijten, Lily Frank, Yvonne de Kort, and Wijnand IJsselsteijn.
+ [34] BJ Fogg and Clifford Nass. 1997. How users reciprocate to computers: an                    2021. People May Punish, But Not Blame Robots. In Proceedings of the 2021 CHI
+        experiment that demonstrates behavior change. In CHI '97 Extended Ab-                    Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI
+        stracts on Human Factors in Computing Systems (Atlanta, Georgia) (CHI EA                 '21). Association for Computing Machinery, New York, NY, USA, Article 715,
+       '97). Association for Computing Machinery, New York, NY, USA, 331­332.                    11 pages. doi:10.1145/3411764.3445284
+        doi:10.1145/1120212.1120419
+                                                                                           [57] Min Kyung Lee, Anuraag Jain, Hea Jin Cha, Shashank Ojha, and Daniel Kusbit.
+ [35] Robin Gauld. 2018. Principal-Agent Theory of Organizations. Springer, Germany,             2019. Procedural Justice in Algorithmic Fairness: Leveraging Transparency and
+        4914­4918. doi:10.1007/978-3-319-20928-9_72                                              Outcome Control for Fair Algorithmic Mediation. Proc. ACM Hum.-Comput.
+                                                                                                 Interact. 3, CSCW, Article 182 (Nov. 2019), 26 pages. doi:10.1145/3359284
+ [36] Ella Glikson and Anita Williams Woolley. 2020. Human Trust in Artificial
+        Intelligence: Review of Empirical Research. Academy of Management Annals 14,       [58] Roy J. Lewicki, Edward C. Tomlinson, and Nicole Gillespie. 2006. Models of
+        2 (2020), 627­660. doi:10.5465/annals.2018.0057                                          Interpersonal Trust Development: Theoretical Approaches, Empirical Evidence,
+                                                                                                 and Future Directions. Journal of Management 32, 6 (2006), 991­1022. doi:10.
+ [37] Heather M. Gray, Kurt Gray, and Daniel M. Wegner. 2007. Dimensions of Mind                 1177/0149206306294405
+        Perception. Science 315, 5812 (2007), 619­619. doi:10.1126/science.1134475
+                                                                                           [59] J. David Lewis and Andrew Weigert. 1985. Trust as a Social Reality. Social Forces
+ [38] Siddharth Gulati, Sonia Sousa, and David Lamas. 2019. Design, development                  63, 4 (1985), 967­985. http://www.jstor.org/stable/2578601
+        and evaluation of a human-computer trust scale. Behaviour & Information
+        Technology 38, 10 (2019), 1004­1015. doi:10.1080/0144929X.2019.1656779             [60] Xinyue Li, Mingpeng Huang, Jialin Liu, Yifan Fan, and Min Cui. 2025. The
+                                                                                                 Impact of AI Negative Feedback vs. Leader Negative Feedback on Employee
+ [39] P. A. Hancock, D. R. Billings, and K. E. Schaefer. 2011. Can You Trust Your                Withdrawal Behavior: A Dual-Path Study of Emotion and Cognition. Behavioral
+        Robot? Ergonomics in Design 19, 3 (2011), 24­29. doi:10.1177/1064804611415045            Sciences 15, 2 (2025), 23 pages. doi:10.3390/bs15020152
+
+ [40] Nicholas Hertz and Eva Wiese. 2019. Good advice is beyond all price, but what        [61] Xinge Li and Yongjun Sung. 2021. Anthropomorphism brings us closer: The
+        if it comes from a machine? Journal of Experimental Psychology: Applied 25, 3            mediating role of psychological distance in User­AI assistant interactions. Com-
+        (2019), 386­395. doi:10.1037/xap0000205                                                  puters in Human Behavior 118 (2021), 106680. doi:10.1016/j.chb.2021.106680
+
+ [41] Gaby Hinsliff. 2025. We Told Young People That Degrees Were Their Ticket             [62] Zewei Li, Zheng Zhang, Mingwei Wang, and Qi Wu. 2025. From assistance to
+        to a Better Life: It's Become a Great Betrayal. https://www.theguardian.                 reliance: Development and validation of the large language model dependence
+        com/commentisfree/2025/may/13/young-people-degrees-labour-market-ai Ac-                  scale. International Journal of Information Management 83 (2025), 102888. doi:10.
+        cessed: 2025-09-04.                                                                      1016/j.ijinfomgt.2025.102888
+
+ [42] Kevin Anthony Hoff and Masooda Bashir. 2015. Trust in Automation: Integrating        [63] Gabriel Lima, Nina Grgi-Hlaca, and Meeyoung Cha. 2023. Blaming Humans and
+        Empirical Evidence on Factors That Influence Trust. Human Factors 57, 3 (2015),          Machines: What Shapes People's Reactions to Algorithmic Harm. In Proceedings
+        407­434. doi:10.1177/0018720814547570 PMID: 25875432.                                    of the 2023 CHI Conference on Human Factors in Computing Systems (Hamburg,
+                                                                                                 Germany) (CHI '23). Association for Computing Machinery, New York, NY, USA,
+ [43] Jess Hohenstein and Malte Jung. 2020. AI as a moral crumple zone: The effects              Article 372, 26 pages. doi:10.1145/3544548.3580953
+        of AI-mediated communication on attribution and trust. Comput. Hum. Behav.
+        106, C (May 2020), 13 pages. doi:10.1016/j.chb.2019.106190                         [64] Bingjie Liu. 2021. In AI We Trust? Effects of Agency Locus and Transparency on
+                                                                                                 Uncertainty Reduction in Human-AI Interaction. J. Comput. Mediat. Commun.
+ [44] Daniel R. Ilgen, Cynthia D. Fisher, and M. Susan Taylor. 1979. Consequences of             26 (2021), 384­402. https://api.semanticscholar.org/CorpusID:240537434
+        Individual Feedback on Behavior in Organizations. Journal of Applied Psychology
+        64, 4 (1979), 349¡V371 4, 1979 (1979), 0021­9010. doi:10.1037/0021-9010.64.4.349   [65] Manuel London. 2003. Job feedback: Giving, seeking, and using feedback for
+                                                                                                 performance improvement. Psychology Press, Mahwah, New Jersey.
+ [45] Business Insider. 2025. Researchers Asked Almost 50,000 People How
+        They Use AI: Over Half of Workers Said They Hide It from Their                     [66] Zhuoran Lu and Ming Yin. 2021. Human Reliance on Machine Learning Models
+        Bosses. https://www.businessinsider.com/kpmg-trust-in-ai-study-2025-how-                 When Performance Feedback is Limited: Heuristics and Risks. In Proceedings of
+        employees-use-ai-2025-4 Accessed: 2026-01-22.                                            the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama,
+                                                                                                 Japan) (CHI '21). Association for Computing Machinery, New York, NY, USA,
+ [46] Alon Jacovi, Ana Marasovi, Tim Miller, and Yoav Goldberg. 2021. Formalizing                Article 78, 16 pages. doi:10.1145/3411764.3445562
+        Trust in Artificial Intelligence: Prerequisites, Causes and Goals of Human Trust
+        in AI. In Proceedings of the 2021 ACM Conference on Fairness, Accountability, and  [67] Brian Lubars and Chenhao Tan. 2019. Ask not what AI can do, but what
+        Transparency (Virtual Event, Canada) (FAccT '21). Association for Computing              AI should do: towards a framework of task delegability. In Proceedings of the
+        Machinery, New York, NY, USA, 624­635. doi:10.1145/3442188.3445923                       33rd International Conference on Neural Information Processing Systems. Curran
+                                                                                                 Associates Inc., Red Hook, NY, USA, Article 6, 11 pages.
+ [47] E. E. Jones and R. E. Nisbett. 1972. The Actor and the Observer: Divergent
+        Perceptions of the Causes of Behavior. In Attribution: Perceiving the Causes       [68] Shuai Ma, Ying Lei, Xinru Wang, Chengbo Zheng, Chuhan Shi, Ming Yin, and
+        of Behavior, E. E. Jones, D. Kanouse, H. H. Kelley, R. E. Nisbett, S. Valins, and        Xiaojuan Ma. 2023. Who Should I Trust: AI or Myself? Leveraging Human
+        B. Weiner (Eds.). General Learning Press, Morristown, NJ, 79­94.                         and AI Correctness Likelihood to Promote Appropriate Trust in AI-Assisted
+                                                                                                 Decision-Making. In Proceedings of the 2023 CHI Conference on Human Factors in
+ [48] H. H. Kelley and J. L. Michela. 1980. Attribution Theory and Research. Annual              Computing Systems (Hamburg, Germany) (CHI '23). Association for Computing
+        Review of Psychology 31 (1980), 457­501. doi:10.1146/annurev.ps.31.020180.               Machinery, New York, NY, USA, Article 759, 19 pages. doi:10.1145/3544548.
+        002325                                                                                   3581058
+
+ [49] Yunkyung Kim and Bilge Mutlu. 2014. How social distance shapes human­robot           [69] Amama Mahmood, Jeanie W Fung, Isabel Won, and Chien-Ming Huang. 2022.
+        interaction. International Journal of Human-Computer Studies 72, 12 (2014), 783­         Owning Mistakes Sincerely: Strategies for Mitigating AI Errors. In Proceedings of
+        795. doi:10.1016/j.ijhcs.2014.05.005                                                     the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans,
+                                                                                                 LA, USA) (CHI '22). Association for Computing Machinery, New York, NY, USA,
+ [50] Hannah Rose Kirk, Iason Gabriel, Chris Summerfield, Bertie Vidgen, and Scott A.
+        Hale. 2025. Why human­AI relationships need socioaffective alignment. Hu-
+        manities and Social Sciences Communications 12, 1, Article 216 (2025), 9 pages.
+        doi:10.1057/s41599- 025- 04532- 5
+CHI '26, April 13­17, 2026, Barcelona, Spain                                                                                                                                Chen and Hou et al.
+
+        Article 578, 11 pages. doi:10.1145/3491102.3517565                                           58, 3 (2016), 377­400. doi:10.1177/0018720816634228 PMID: 27005902.
+ [70] Roger C. Mayer, James H. Davis, and F. David Schoorman. 1995. An Integrative            [88] Eike Schneiders, Christopher Fourie, Stanley Celestin, Julie Shah, and Malte Jung.
+
+        Model of Organizational Trust. The Academy of Management Review 20, 3 (1995),                2024. Understanding Entrainment in Human Groups: Optimising Human-Robot
+        709­734. http://www.jstor.org/stable/258792                                                  Collaboration from Lessons Learned during Human-Human Collaboration. In
+ [71] Melanie J. McGrath, Oliver Lack, James Tisch, and Andreas Duenser. 2025.                       Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems
+        Measuring trust in artificial intelligence: validation of an established scale               (Honolulu, HI, USA) (CHI '24). Association for Computing Machinery, New York,
+        and its short form. Frontiers in Artificial Intelligence 8, Article 1582880 (2025),          NY, USA, Article 152, 13 pages. doi:10.1145/3613904.3642427
+        15 pages. doi:10.3389/frai.2025.1582880                                               [89] Jordan Richard Schoenherr and Robert Thomson. 2024. When AI Fails, Who
+ [72] D. Harrison McKnight, Larry L. Cummings, and Norman L. Chervany. 1998.                         Do We Blame? Attributing Responsibility in Human­AI Interactions. IEEE
+        Initial Trust Formation in New Organizational Relationships. The Academy of                  Transactions on Technology and Society 5, 1 (2024), 61­70. doi:10.1109/TTS.2024.
+        Management Review 23, 3 (1998), 473­490. http://www.jstor.org/stable/259290                  3370095
+ [73] Jennifer Mcvay, Ewart Visser, Brian Pippin, Ashutosh Mani, Jacob Hyde, and              [90] Daniel B. Shank, Alyssa DeSanti, and Timothy Maninger. 2019. When are
+        Nicholas Kman. 2025. Trust in Aligned AI Decision Makers. In 2025 IEEE                       artificial intelligence versus human agents faulted for wrongdoing? Moral at-
+        Conference on Artificial Intelligence (CAI). IEEE Computer Society, Los Alamitos,            tributions after individual and joint decisions. Information, Communication &
+        CA, USA, 1­4. doi:10.1109/CAI64502.2025.00202                                                Society 22, 5 (2019), 648­663. doi:10.1080/1369118X.2019.1568515
+ [74] Dongmei Mei, Liman Man Wai Li, and Yiheng Wang. 2018. Influence of                      [91] Paul R. Smart. 2018. Human-extended machine cognition. Cogn. Syst. Res. 49, C
+        emotional valence on perceived psychological distance depends on emo-                        (June 2018), 9­23. doi:10.1016/j.cogsys.2017.11.001
+        tional intensity. European Journal of Social Psychology 48, 5 (2018), 687­700.        [92] Alison Smith-Renner, Ron Fan, Melissa Birchfield, Tongshuang Wu, Jordan Boyd-
+        doi:10.1002/ejsp.2361                                                                        Graber, Daniel S. Weld, and Leah Findlater. 2020. No Explainability without
+ [75] Hua Meng, Xinyuan Lu, and Jiangling Xu. 2025. The Impact of Chatbot Response                   Accountability: An Empirical Study of Explanations and Feedback in Interactive
+        Strategies and Emojis Usage on Customers' Purchase Intention: The Mediat-                    ML. In Proceedings of the 2020 CHI Conference on Human Factors in Computing
+        ing Roles of Psychological Distance and Performance Expectancy. Behavioral                   Systems (Honolulu, HI, USA) (CHI '20). Association for Computing Machinery,
+        Sciences 15, 2, Article 117 (2025), 22 pages. doi:10.3390/bs15020117                         New York, NY, USA, 1­13. doi:10.1145/3313831.3376624
+ [76] Dale T. Miller and Michael Ross. 1975. Self-serving biases in the attribution           [93] Philipp Spitzer, Joshua Holstein, Patrick Hemmer, Michael Vössing, Niklas Kühl,
+        of causality: Fact or fiction? Psychological Bulletin 82 (1975), 213­225. https:             Dominik Martin, and Gerhard Satzger. 2025. Human Delegation Behavior in
+        //api.semanticscholar.org/CorpusID:45827101                                                  Human-AI Collaboration: The Effect of Contextual Information. Proc. ACM
+ [77] Jonathan Mumm and Bilge Mutlu. 2011. Human-robot proxemics: physical and                       Hum.-Comput. Interact. 9, 2, Article CSCW101 (May 2025), 28 pages. doi:10.
+        psychological distancing in human-robot interaction. In Proceedings of the 6th               1145/3710999
+        International Conference on Human-Robot Interaction (Lausanne, Switzerland)           [94] Gretchen M. Spreitzer. 1995. Psychological Empowerment in the Workplace:
+       (HRI '11). Association for Computing Machinery, New York, NY, USA, 331­338.                   Dimensions, Measurement, and Validation. The Academy of Management Journal
+        doi:10.1145/1957656.1957786                                                                  38, 5 (1995), 1442­1465. http://www.jstor.org/stable/256865
+ [78] New York Post. 2025. Gen Z Grads Say Their College Degrees Were a Waste of              [95] Zihuang Tang, Peishan Wang, Xiaoyang Sui, and Yue Fan. 2019. Effects of
+        Time and Money as AI Infiltrates the Workplace. https://nypost.com/2025/04/21/               psychological distance on the negative emotions of immoral events--A study
+        tech/gen-z-grads-say-their-college-degrees-are-worthless-thanks-to-ai/ Ac-                   based on Weibo data. Human Behavior and Emerging Technologies 1, 3 (2019),
+        cessed: 2026-01-23.                                                                          208­215. doi:10.1002/hbe2.168
+ [79] Ayano Okoso, Mingzhe Yang, and Yukino Baba. 2025. Do Expressions Change                 [96] Anna Taudien, Andreas Fügener, Alok Gupta, and Wolfgang Ketter. 2022. Cal-
+        Decisions? Exploring the Impact of AI's Explanation Tone on Decision-Making.                 ibrating Users' Mental Models for Delegation to AI. In Proceedings of the
+        In Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems              43rd International Conference on Information Systems (ICIS). Association for
+       (CHI '25). Association for Computing Machinery, New York, NY, USA, Article                    Information Systems, Copenhagen, Denmark, Article 1604, 17 pages. https:
+        824, 22 pages. doi:10.1145/3706598.3713744                                                   //aisel.aisnet.org/icis2022/ai_business/ai_business/3
+ [80] Saumya Pareek, Sarah Schömbs, Eduardo Velloso, and Jorge Goncalves. 2025.               [97] Simon Thuillard, M Adams, G Jelmini, S Schmutz, Andreas Sonderegger, and J
+        "It's Not the AI's Fault Because It Relies Purely on Data": How Causal Attribu-              Sauer. 2022. When humans and computers induce social stress through negative
+        tions of AI Decisions Shape Trust in AI Systems. In Proceedings of the 2025 CHI              feedback: Effects on performance and subjective state. Computers in Human
+        Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI                      Behavior 133 (2022), 107270.
+       '25). Association for Computing Machinery, New York, NY, USA, Article 517,             [98] Suzanne Tolmeijer, Markus Christen, Serhiy Kandul, Markus Kneer, and Abra-
+        18 pages. doi:10.1145/3706598.3713468                                                        ham Bernstein. 2022. Capable but Amoral? Comparing AI and Human Expert
+ [81] Gain Park, Jiyun Chung, and Seyoung Lee. 2024. Human vs. machine-like                          Collaboration in Ethical Decision Making. In Proceedings of the 2022 CHI Con-
+        representation in chatbot mental health counseling: the serial mediation of                  ference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI
+        psychological distance and trust on compliance intention. Current Psychology                '22). Association for Computing Machinery, New York, NY, USA, Article 160,
+        43, 5 (2024), 4352­4363. doi:10.1007/s12144-023-04653-7                                      17 pages. doi:10.1145/3491102.3517732
+ [82] Sebastian A. C. Perrig, Nicolas Scharowski, and Florian Brühlmann. 2023. Trust          [99] Yaacov Trope and Nira Liberman. 2010. Construal-level theory of psychological
+        Issues with Trust Scales: Examining the Psychometric Quality of Trust Measures               distance. Psychological Review 117, 2 (2010), 440­463. doi:10.1037/a0018963
+        in the Context of AI. In Extended Abstracts of the 2023 CHI Conference on Human      [100] Jasper van der Waa, Sabine Verdult, Karel van den Bosch, Jurriaan van Diggelen,
+        Factors in Computing Systems (Hamburg, Germany) (CHI EA '23). Association                    Tjalling Haije, Birgit van der Stigchel, and Ioana Cocu. 2021. Moral Decision
+        for Computing Machinery, New York, NY, USA, Article 297, 7 pages. doi:10.                    Making in Human-Agent Teams: Human Control and the Role of Explanations.
+        1145/3544549.3585808                                                                         Frontiers in Robotics and AI 8 (2021), 640647. doi:10.3389/frobt.2021.640647
+ [83] Marc Pinski, Martin Adam, and Alexander Benlian. 2023. AI Knowledge: Im-               [101] Adam Waytz, Kurt Gray, Nicholas Epley, and Daniel M. Wegner. 2010. Causes
+        proving AI Delegation through Human Enablement. In Proceedings of the 2023                   and consequences of mind perception. Trends in Cognitive Sciences 14, 8 (2010),
+        CHI Conference on Human Factors in Computing Systems (Hamburg, Germany)                      383­388. doi:10.1016/j.tics.2010.05.006
+       (CHI '23). Association for Computing Machinery, New York, NY, USA, Article            [102] Magdalena Wischnewski, Nicole Krämer, and Emmanuel Müller. 2023. Measur-
+        25, 17 pages. doi:10.1145/3544548.3580794                                                    ing and Understanding Trust Calibrations for Automated Systems: A Survey
+ [84] Lee Ross. 1977. The Intuitive Psychologist And His Shortcomings: Distortions                   of the State-Of-The-Art and Future Directions. In Proceedings of the 2023 CHI
+        in the Attribution Process. In The Intuitive Psychologist And His Shortcomings:              Conference on Human Factors in Computing Systems (Hamburg, Germany) (CHI
+        Distortions in the Attribution Process, Leonard Berkowitz (Ed.). Advances in                '23). Association for Computing Machinery, New York, NY, USA, Article 755,
+        Experimental Social Psychology, Vol. 10. Academic Press, New York, NY, USA,                  16 pages. doi:10.1145/3544548.3581197
+        173­220. doi:10.1016/S0065-2601(08)60357-3                                           [103] Chengyuan Xu, Kuo-Chin Lien, and Tobias Höllerer. 2023. Comparing Zealous
+ [85] Matan Rubin, Joanna Z. Li, Federico Zimmerman, Desmond C. Ong, Amit Gold-                      and Restrained AI Recommendations in a Real-World Human-AI Collaboration
+        enberg, and Anat Perry. 2025. Comparing the Value of Perceived Human                         Task. In Proceedings of the 2023 CHI Conference on Human Factors in Computing
+        Versus AI-Generated Empathy. Nature Human Behaviour 9 (2025), 2345­2359.                     Systems (Hamburg, Germany) (CHI '23). Association for Computing Machinery,
+        doi:10.1038/s41562- 025- 02247- w                                                            New York, NY, USA, Article 350, 15 pages. doi:10.1145/3544548.3581282
+ [86] Advait Sarkar. 2025. AI Could Have Written This: Birth of a Classist Slur in           [104] Ming Yin, Jennifer Wortman Vaughan, and Hanna Wallach. 2019. Understanding
+        Knowledge Work. In Proceedings of the Extended Abstracts of the CHI Conference               the Effect of Accuracy on Trust in Machine Learning Models. In Proceedings
+        on Human Factors in Computing Systems (CHI EA '25). Association for Computing                of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow,
+        Machinery, New York, NY, USA, Article 621, 12 pages. doi:10.1145/3706599.                    Scotland Uk) (CHI '19). Association for Computing Machinery, New York, NY,
+        3716239                                                                                      USA, 1­12. doi:10.1145/3290605.3300509
+ [87] Kristin E. Schaefer, Jessie Y. C. Chen, James L. Szalma, and P. A. Hancock. 2016. A    [105] Zhiping Zhang, Chenxinran Shen, Bingsheng Yao, Dakuo Wang, and Tianshi Li.
+        Meta-Analysis of Factors Influencing the Development of Trust in Automation:                 2025. Secret Use of Large Language Model (LLM). Proc. ACM Hum.-Comput.
+        Implications for Understanding Autonomy in Future Systems. Human Factors                     Interact. 9, 2, Article CSCW163 (May 2025), 26 pages. doi:10.1145/3711061
+AI as the Phantom Limb: The Asymmetry of Attribution in Human vs. AI Delegation                        CHI '26, April 13­17, 2026, Barcelona, Spain
+
+A Appendices
+A.1 MANOVA with four subscales of trust scale
+
+Table 5: MANOVA table regarding trust subscales and main
+independent variables
+
+Main Effects                           Value Num DF Den DF F Value Pr > F
+
+Intercept            Wilks' lambda     0.58 4                                    344  62.265 <.001***
+
+                       Pillai's trace  0.42 4                                    344  62.265 <.001***
+
+                     Hotelling-Lawley trace 0.724 4                              344  62.265 <.001***
+
+                     Roy's greatest root 0.724 4                                 344  62.265 <.001***
+
+Feedback valence     Wilks' lambda     0.911 4                                   344  8.406 <.001***
+
+                       Pillai's trace  0.089 4                                   344  8.406 <.001***
+
+                     Hotelling-Lawley trace 0.097 4                              344  8.406 <.001***
+
+                     Roy's greatest root 0.097 4                                 344  8.406 <.001***
+
+Competence           Wilks' lambda     0.788 4                                   344  23.049 <.001***
+
+                       Pillai's trace  0.211 4                                   344  23.049 <.001***
+
+                     Hotelling-Lawley trace 0.268 4                              344  23.049 <.001***
+
+                     Roy's greatest root 0.268 4                                 344  23.049 <.001***
+
+Assistant type       Wilks' lambda     0.988 4                                   344  1.039 0.386
+
+                       Pillai's trace  0.011 4                                   344  1.039 0.386
+
+                     Hotelling-Lawley trace 0.012 4                              344  1.039 0.386
+
+                     Roy's greatest root 0.012 4                                 344  1.039 0.386
+
+Table 6: MANOVA of Perceived Risk subscale
+
+Interaction Effects                                    Value Num DF Den DF F Value Pr > F
+
+Feedback X Competence                  Wilks' lambda   0.983 4                        344          1.448 0.217
+
+                                       Pillai's trace  0.016 4                        344          1.448 0.217
+
+                               Hotelling-Lawley trace 0.016 4                         344          1.448 0.217
+
+                               Roy's greatest root 0.016 4                            344          1.448 0.217
+
+Feedback X Assistant type              Wilks' lambda   0.980 4                        344          1.679 0.154
+
+                                       Pillai's trace  0.019 4                        344          1.679 0.154
+
+                               Hotelling-Lawley trace 0.019 4                         344          1.679 0.154
+
+                               Roy's greatest root 0.019 4                            344          1.679 0.154
+
+Competence X Assistant type            Wilks' lambda   0.964 4                        344          3.213 0.013*
+
+                                       Pillai's trace  0.036 4                        344          3.213 0.013*
+
+                               Hotelling-Lawley trace 0.037 4                         344          3.213 0.013*
+
+                               Roy's greatest root 0.037 4                            344          3.213 0.013*
+
+Feedback Valence X Competence          Wilks' lambda   0.983 4                        344          1.465 0.212
+
+X Assistant type
+
+                                       Pillai's trace  0.016 4                        344          1.465 0.212
+
+                               Hotelling-Lawley trace 0.017 4                         344          1.465 0.212
+
+                               Roy's greatest root 0.017 4                            344          1.465 0.212
+CHI '26, April 13­17, 2026, Barcelona, Spain                                           Chen and Hou et al.
+
+Table 7: MANOVA of Benevolence subscale
+
+                                              SS DF MS F  p-value 2
+
+Assistant Type                                18.420 1.0 18.420 21.397 <.001*** 0.180
+
+Competence level                              59.949 1.0 59.979 69.998 <.001*** 0.167
+
+Feedback valence                              65.707 1.0 65.707 76.683 <.001*** 0.058
+
+Assistant type X Competence                   8.851 1.0 8.851 10.330 0.001** 0.002
+
+Assistant type X Feedback valence             0.454 1.0 0.454 0.530 0.466 0.001
+
+Competence X Feedback valence                 0.813 1.0 0.813 0.949 0.330 0.028
+
+Assistant Type X Competence X Feedback valence 0.000 1.0 0.000 0.000 0.990 0.000
+
+Table 8: MANOVA of Competence subscale
+
+                                              SS DF MS F  p-value   2
+
+                                                                    
+
+Assistant Type                                18.420 1.0 18.420 21.397 <.001*** 0.180
+
+Competence level                              59.949 1.0 59.979 69.998 <.001*** 0.167
+
+Feedback valence                              65.707 1.0 65.707 76.683 <.001*** 0.058
+
+Assistant type X Competence                   8.851 1.0 8.851 10.330 0.001** 0.002
+
+Assistant type X Feedback valence             0.454 1.0 0.454 0.530 0.466 0.001
+
+Competence X Feedback valence                 0.813 1.0 0.813 0.949 0.330 0.028
+
+Assistant Type X Competence X Feedback valence 0.000 1.0 0.000 0.000 0.990 0.000
+
+Table 9: MANOVA of Reciprocity subscale
+
+                                              SS DF MS F  p-value 2
+
+Assistant Type                                18.420 1.0 18.420 21.397 <.001*** 0.180
+
+Competence level                              59.949 1.0 59.979 69.998 <.001*** 0.167
+
+Feedback valence                              65.707 1.0 65.707 76.683 <.001*** 0.058
+
+Assistant type X Competence                   8.851 1.0 8.851 10.330 0.001*** 0.002
+
+Assistant type X Feedback valence             0.454 1.0 0.454 0.530 0.466 0.001
+
+Competence X Feedback valence                 0.813 1.0 0.813 0.949 0.330 0.028
+
+Assistant Type X Competence X Feedback valence 0.000 1.0 0.000 0.000 0.990 0.000
+AI as the Phantom Limb: The Asymmetry of Attribution in Human vs. AI Delegation                          CHI '26, April 13­17, 2026, Barcelona, Spain
+
+A.2 ANOVA on four subscales of trust scale
+
+Table 10: Three-way ANOVA of Perceived Risk (Left) and
+Benevolence (Right)
+
+                                                Perceived Risk                                    Benevolence
+
+                                          DF F                                   p-value 2  DF F         p-value 2
+
+Assistant Type                            1 21.497 <.001*** 0.040 1 22.957 <.001*** 0.038
+
+Competence level                          1 69.998 <.001*** 0.1328 1 175.736 <.001*** 0.295
+
+Feedback valence                          1 76.683 <.001*** 0.1455 1 44.961 <.001*** 0.075
+
+Assistant type X Competence               1 10.330 0.001** 0.019 1 0.289 0.591 0.000
+
+Assistant type X Feedback valence         1 0.530 0.466 0.001 1 2.828 0.093 0.004
+
+Competence X Feedback valence             1 0.949 0.330 0.001 1 1.895 0.169 0.003
+
+Assistant Type X Competence X Feedback valence 1 0.000 0.990 0.000 1 0.0128 0.910 0.000
+
+Table 11: Means and standard deviations of four trust sub-
+scales by feedback valence, competence level, and assistant
+type
+
+Factor            Level Perceived Risk Mean (SD) Benevolence Mean (SD) Competence Mean (SD) Reciprocity Mean (SD)
+
+Feedback Valence  Positive   3.13 (1.06)        3.48(1.15)                                  3.43 (1.31)        3.18 (1.21)
+Competence level  Negative   2.27 (1.03)        2.82 (1.18)                                 2.42 (1.32)        2.38 (1.15)
+Assistant Type               3.11 (1.10)        3.81 (0.92)                                 3.84 (1.00)        3.52 (1.00)
+                    High     2.29 (1.00)        2.50 (1.11)                                 2.04 (1.15)        2.06 (1.02)
+                    Low      2.47 (1.02)        2.92 (1.13)                                 2.78 (1.33)        2.57 (1.13)
+                     AI      2.92 (1.19)        3.38 (1.25)                                 3.07 (1.47)        2.99(1.32)
+                  Human
+CHI '26, April 13­17, 2026, Barcelona, Spain                                           Chen and Hou et al.
+
+Table 12: Three-way ANOVA of Perceived Risk (Left) and
+Benevolence (Right)
+
+                                              SS DF MS F  p-value   2
+
+                                                                    
+
+Assistant Type                                18.420 1.0 18.420 21.397 <.001*** 0.180
+
+Competence level                              59.949 1.0 59.979 69.998 <.001*** 0.167
+
+Feedback valence                              65.707 1.0 65.707 76.683 <.001*** 0.058
+
+Assistant type X Competence                   8.851 1.0 8.851 10.330 0.001** 0.002
+
+Assistant type X Feedback valence             0.454 1.0 0.454 0.530 0.466 0.001
+
+Competence X Feedback valence                 0.813 1.0 0.813 0.949 0.330 0.028
+
+Assistant Type X Competence X Feedback valence 0.000 1.0 0.000 0.000 0.990 0.000
+
+Table 13: Three-way ANOVA of Perceived Risk (Left) and
+Benevolence (Right)
+
+                                              SS DF MS F  p-value 2
+
+Assistant Type                                18.420 1.0 18.420 21.397 <.001*** 0.180
+
+Competence level                              59.949 1.0 59.979 69.998 <.001*** 0.167
+
+Feedback valence                              65.707 1.0 65.707 76.683 <.001*** 0.058
+
+Assistant type X Competence                   8.851 1.0 8.851 10.330 0.001** 0.002
+
+Assistant type X Feedback valence             0.454 1.0 0.454 0.530 0.466 0.001
+
+Competence X Feedback valence                 0.813 1.0 0.813 0.949 0.330 0.028
+
+Assistant Type X Competence X Feedback valence 0.000 1.0 0.000 0.000 0.990 0.000
+AI as the Phantom Limb: The Asymmetry of Attribution in Human vs. AI Delegation                               CHI '26, April 13­17, 2026, Barcelona, Spain
+
+Figure 5: Interaction plot illustrating the two-way interaction                  A.3 Responsibility Attribution to the Client
+between High vs. Low condition and AI vs. Human assistant
+on Perceived Risk (±1 SE). The Human condition shows a                           Table 14: Three-way ANOVA of Responsibility Attribution
+markedly steeper decline from High to Low, decreasing from                       to the Client
+M = 3.51 (SE = 0.11) to M = 2.37 (SE = 0.11), whereas the AI con-
+dition exhibits a comparatively flatter slope, shifting from                                       Attribution to Client
+M = 2.73 (SE = 0.11) to M = 2.22 (SE = 0.10). (Right) Corre-
+lation matrix of the four trust sub-scales--Perceived Risk,                                                               F  p-value    2
+Benevolence, Competence, and Reciprocity--demonstrating
+consistently strong positive associations across them.                           Assistant Type                     1.274    0.259      
+                                                                                                                             <.001***
+                                                                                 Competence level                   17.137   <0.05**   0.003
+                                                                                                                             <.001***  0.047
+                                                                                 Feedback Valence                   5.531    0.420     0.015
+                                                                                                                             0.000     0.030
+                                                                                 Assistant type X Competence        11.095   0.504     0.001
+                                                                                                                                       0.004
+                                                                                 Assistant type X Feedback valence  0.649              0.001
+
+                                                                                 Competence X Feedback valence      16.761
+
+                                                                                 Assistant Type X Competence X      0.445
+
+                                                                                 Feedback Valence
+

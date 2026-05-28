@@ -1,0 +1,2579 @@
+  IDENTITY, MORALS, AND TABOOS: BELIEFS AS ASSETS                                          Downloaded from http://qje.oxfordjournals.org/ at Dalhousie University on May 17, 2015
+
+                    ROLAND BE´NABOU AND JEAN TIROLE
+
+      We develop a theory of moral behavior, individual and collective, based on
+a general model of identity in which people care about "who they are" and in-
+fer their own values from past choices. The model sheds light on many empir-
+ical puzzles inconsistent with earlier approaches. Identity investments respond
+nonmonotonically to acts or threats, and taboos on mere thoughts arise to protect
+beliefs about the "priceless" value of certain social assets. High endowments trig-
+ger escalating commitment and a treadmill effect, while competing identities can
+cause dysfunctional capital destruction. Social interactions induce both social and
+antisocial norms of contribution, sustained by respectively shunning free riders or
+do-gooders. JEL Codes: D81, D91, Z13.
+
+               "Man naturally desires . . . not only praise, but praiseworthiness;
+         or to be that thing which, though it should be praised by nobody,
+         is, however, the natural and proper object of praise. He dreads, not
+         only blame, but blame-worthiness; or to be that thing which, though
+         it should be blamed by nobody, is, however, the natural and proper
+         object of blame . . ."
+
+               "When I endeavour to examine my own conduct, when I endeav-
+         our to pass sentence upon it, and either to approve or condemn it, it
+         is evident that, in all such cases, I divide myself, as it were, into two
+         persons: and that I, the examiner and judge, represent a different
+         character from that other I, the person whose conduct is examined
+         and judged of . . .. The first is the spectator, whose sentiments with
+         regard to my own conduct I endeavour to enter into, by placing my-
+         self in his situation, and by considering how it would appear to me,
+         when seen from that particular point of view. The secondis the agent,
+         the person whom I properly call myself, and of whose conduct, un-
+         der the character of the spectator, I was endeavouring to form some
+         opinion."
+
+                      Adam Smith, The Theory of Moral Sentiments, p. 151­152.
+
+                                 I. INTRODUCTION
+
+      From charitable donations to experimental games, there is
+by now ample evidence that people often behave "morally" even
+
+     An earlier version of this paper was titled "Identity, Dignity and Taboos: Be-
+liefs as Assets." We are grateful for helpful comments and suggestions on this
+project toAndrewCaplin, Ed Glaeser, Yuemei Ji, Robert Oxoby, Philipp Sadowski,
+and Glen Weyl, as well as to three referees and participants at several confer-
+ences and seminars. Be´nabou gratefully acknowledges support from the National
+Science Foundation (SES-0424015) and the Canadian Institute for Advanced
+Research, and Tirole that of the European Research Council (Grant FP7/2007-
+2013-249429).
+
+ c The Author(s) 2011. Published by Oxford University Press, on behalf of President and
+Fellows of Harvard College. All rights reserved. For Permissions, please email: journals.
+permissions@oup.com.
+
+The Quarterly Journal of Economics (2011) 126, 805­855. doi:10.1093/qje/qjr002.
+
+                                          805
+806  QUARTERLY JOURNAL OF ECONOMICS
+
+in anonymous, one-shot interactions. This has justifiably dispelled                  Downloaded from http://qje.oxfordjournals.org/ at Dalhousie University on May 17, 2015
+an excessively narrow view of economic man, but the standard
+replacement--human beings endowed with various forms of "so-
+cial preferences"--is still a rather unreliable guide for understand-
+ing the vicissitudes of (im)moral behavior. If good deeds stem from
+altruistictastes, why dothe same people often seize upon (even ac-
+tively seek) the most transparent change in framing, the thinnest
+of veils to revert to selfishness? If punishing cheaters and free-
+riders reflects a taste for fairness or reciprocity, why do we also
+see people turning on those who behave too well? This "flickering"
+nature of moral behavior (see Section II for detailed evidence)
+makes clear that more is at work than socially enriched utility
+functions. No such preferences, moreover, can account for
+information-averting behaviors, such as people prohibiting
+themselves from merely thinking about certain "taboo
+tradeoffs."
+
+      We develop in this paper a "third-generation" theory of moral
+behavior, based on a general model of identity management. The
+theory is cognitive, in that it explicitly models moral identity and
+similar concepts as beliefs about one's deep "values" and empha-
+sizes the self-inference process through which they operate. At the
+same time, the needs served by particular beliefs are linked to
+more basic aspects of preferences. This "demand side" can reflect
+a quest for affective benefits (hedonic value of self-esteem, or an-
+ticipatory utility from one's economicand social assets), functional
+ones (a strong moral sense of self that helps resist temptations),
+or both.1 On the "supply side" of motivated beliefs, the pivotal
+role is played by imperfect memory or awareness, which naturally
+gives rise to identity investments as self-signals. Because people
+have better, more objective access to the record of their conduct
+than to the exact mix of motivations driving them, they are led to
+judge themselves by what they do.2 When contemplating choices,
+
+      1. The "demand side" of our framework thus unifies models based on a
+consumption value of beliefs (Akerlof and Dickens 1982; Loewenstein 1987;
+Rabin 1995; Caplin and Leahy 2001; Landier 2000; Brunnermeier and Parker
+2005; Ko¨szegi 2010; and those in which they serve a more instrumental
+role (Carrillo and Mariotti 2000; Be´nabou and Tirole 2002, 2006a; Battaglini,
+Be´nabou, and Tirole 2005; Dessi 2008). In particular, we show that these two
+classes of models lead to very similar behaviors but potentially opposite welfare
+consequences.
+
+      2. See, e.g., Festinger and Carlsmith (1959) on cognitive dissonance and, es-
+pecially, Bem (1972) on self-perception. On the self-manipulation of "diagnostic"
+actions see Quattrone and Tversky (1984).
+IDENTITY, MORALS, AND TABOOS  807
+
+they then take into account what kind of a person each alterna-                      Downloaded from http://qje.oxfordjournals.org/ at Dalhousie University on May 17, 2015
+tive would "make them" and the desirability of those self-views--a
+form of rational cognitive dissonance reduction.3
+
+      Many puzzling aspects of (im)moral behavior become much
+easier to understand from a self-reputational perspective. First,
+being linked to imperfect self-knowledge, identity-enhancing be-
+haviors are more likely when objective information about deep
+preferences is scarce (true generosity, loyalty or faith) and they
+are easily affected by minor manipulations of salience such as
+cues, reminders and transparent veils of personal responsibility
+(see Section II). Most importantly, investments in one's self-view
+are hill-shaped with respect to prior confidence in being a moral
+person. This implies history-dependence in behavior with a dis-
+tinctive, nonmonotonic pattern of responses tomanipulations that
+helps reconcile many divergent experimental findings. We thus
+showthat whereas challenges toa weakly held identity (lowprior)
+elicit conformity effects, effective challenges to a strongly held one
+(high prior) elicit forceful counterreactions aimed at restoring the
+threatened beliefs.
+
+      Second, since the preferences and prospects of similar indi-
+viduals are likely to be correlated, "deviant" behavior by peers--
+violating norms and taboos, fraternizing with outsiders, etc.--
+conveys bad news about the value of existing social assets
+(anticipatory-utility version) or that of future investments in them
+(imperfect self-control version). If the morally dubious action was
+one's own, on the other hand, it is good behavior by peers that
+is now threatening to the self-concept, as it takes away poten-
+tial excuses involving situational factors or moral ambiguity. In
+both cases, ostracizing mavericks suppresses the undesirable re-
+minders created by their presence. Thus, depending on the per-
+ceivedsituational uncertainty andcorrelation of individual values,
+the same agents will act prosocially and shun free riders, or act
+selfishly and shun moral exemplars.
+
+      Finally, our cognitive model naturally generates taboo trade-
+offs and an aversion to engage in even the mere contemplation
+
+      3. The idea of self-signaling or self-reputation makes the paper most closely
+related to Bodner and Prelec (2003) and Be´nabou and Tirole (2004). Young (2006)
+and Dal Bo and Tervio¨ (2008) extend the single-agent analysis to infinite horizons
+and steady-states, and Battaglini, Be´nabou, and Tirole (2005) and Bernheim and
+Thomadsen (2005) to one-shot, strategic interactions with simultaneous moves.
+None of these papers deals with the empirical puzzles discussed in Section II, nor
+with taboos, group norms or (anti)social sanctions.
+808  QUARTERLY JOURNAL OF ECONOMICS
+
+of such choices. We show that upholding certain (endogenously)                        Downloaded from http://qje.oxfordjournals.org/ at Dalhousie University on May 17, 2015
+valuable beliefs or illusions concerning the "incommensurable"
+value of certain goods, or the things one "would never do"
+(various forms of selling out) can require shunning any evalua-
+tion, in act or in thought, that might reveal what terms of trade
+could be obtained or would be accepted.
+
+      While prosocial behavior is the main focus of our paper, many
+other social phenomena involve beliefs which people treat as valu-
+able assets. Religion is the most obvious one, but significant re-
+sources are similarly invested to build up and defend national,
+cultural andeven professional identities. Our model therefore pro-
+vides a unifying framework for the study of identity, and in the
+last section of the paper we demonstrate its applicability across a
+wide range of behaviors.4
+
+      The model thus explains escalating commitments, in which
+someone who has built up enough of some economic or social
+asset--wealth, career, family, culture, etc.--continues to invest in
+it even when the marginal return nolonger justifies it. Intuitively,
+a higher stock raises the stakes on viewing the asset as bene-
+ficial to one's long-run welfare, and the way to reassure oneself
+of its value is to keep investing. This leads to excessive special-
+ization (e.g., work versus family) and persistence in unproduc-
+tive tasks. Most strikingly, one can even be made worse off by
+a higher capital stock, as the escalating-commitment mechanism
+leads to a treadmill effect in which increases in wealth, social
+status, or professional achievement induce a self-defeating pur-
+suit of the belief that happiness lies in the accumulation of those
+same assets. The model also sheds light on oppositional behaviors.
+When two identities are likely to compete later on for time or
+resources, investing in one depreciates the perceived value of the
+
+      4. The paper naturally relates to the growing literature on the economics of
+identity. In an influential set of papers, Akerlof and Kranton (2000, 2002, 2005),
+emphasize how, in a wide range of contexts, agents' preferences are structured
+by their choices of a social category (see also Shayo 2009 on redistributive pol-
+itics and Basu 2006). Greif (2009) models moral behavior based on similar self-
+categorization and preference externalities, but with standards of conduct now
+strategically defined by "moral authorities" external to the group. In Rabin (1994),
+Konow (2000), and Oxoby (2003, 2004), agents engage in "dissonance reduction",
+again represented by costly adjustments in utility parameters not tied to an in-
+formation structure. By explicitly modeling the value and management of beliefs
+our model endogenizes the identity prescriptions, payoffs and cognitive costs in
+this broad class of models. This also leads to distinctive results such as non-
+monotonicities, information-aversion and the fact that being able to manage his
+self-image can make a person worse off.
+IDENTITY, MORALS, AND TABOOS  809
+
+other. An agent with substantial capital vested in an insecure,          Downloaded from http://qje.oxfordjournals.org/ at Dalhousie University on May 17, 2015
+hard-to-measure identity (e.g., cultural attachments) may there-
+fore refrain from profitable investments in others (education,
+labor market integration), and even destroy valuable assets, end-
+ing up worse off.
+
+      While the model's positive results are quite general, the wel-
+fare consequences of the quest for moral identity and other self-
+views, in contrast, depend importantly on whether the "demand"
+side reflects mental-consumption motives (self-esteem, anticipa-
+tory utility) or instrumental ones (self-discipline, sense of
+direction). In the first case, identity investments reduce an indi-
+vidual's ex-ante welfare, being in fine a form of wasteful signal-
+ing. As a consequence, he is worse off with malleable beliefs or
+memory than with nonmanipulable ones. When identity serves a
+commitment purpose, by contrast, more malleable beliefs and the
+resulting ability toshape them through actions can, under specific
+conditions, increase welfare.
+
+                   II. MOTIVATING FACTS AND PUZZLES
+
+      Decisions on contributing to a public good, cooperating with
+others or enforcing a collective norm--in short, moral behavior--
+exhibit important inconsistencies withstandardmodels of socially-
+mindedbehavior. These recurrent patterns can be categorizedinto
+three main puzzles: unstable altruism, coexistence of social and
+antisocial punishments, and taboo tradeoffs.
+
+II.A. Unstable Altruism
+
+      Prosocial behaviors in anonymous, one-shot interactions,
+where concerns for social reputation are inoperative, are often
+taken to directly reflect the extent of altruistic, reciprocal or other
+fairness-valuing preferences in a population (e.g., Fehr and
+Schmidt 1999). More recent findings however, show that it takes
+remarkably little to turn such behaviors on or off. The slightest
+change in framing, the thinnest of veils as to the moral implica-
+tions of their choices suffices for many people to revert to
+self-interest. In fact, they will not just seize upon such excuses
+and superficial ambiguity but actively seek them, foregoing to do
+so both material payoffs and decision-relevant information. For
+instance, when decision-makers can avoid finding out whether
+taking a high payoff for themselves will hurt or benefit some-
+one else, over half take advantage of this "moral wriggle room" to
+810  QUARTERLY JOURNAL OF ECONOMICS
+
+behave selfishly (Dana, Kuang, and Weber 2007). Similarly, many                       Downloaded from http://qje.oxfordjournals.org/ at Dalhousie University on May 17, 2015
+subjects will take $9 rather than having $10 to freely allocate
+between themselves and an anonymous recipient, and the more
+likely to use such costly exit options are in fact those who share
+the most when no opt-out is possible (Dana, Cain, and Dawes
+2006; Lazear, Ulrike, and Weber 2009).5 Conversely, trivial cues
+making morality more salient, such as paying for performance in
+hard cash rather than tokens redeemable for money, or reading
+the Ten Commandments at the start of an experiment, dramat-
+ically increase cooperation and decrease cheating (Mazar, Amir,
+and Ariely 2008).
+
+      Two related forms of behavioral instability are history-
+dependence and nonmonotonicity. When a person has been
+induced to behave prosocially or selfishly, or just provided with
+signals presumed to be informative about his morality, his choices
+in subsequent, unrelated interactions are significantly affected.
+Moreover, this reaction sometimes amplifies the original manipu-
+lation, and is sometimes in opposition to it. The well-known "foot-
+in the door" effect, for instance, documents how an initial request
+for a small favor (which most people accept) raises the probabil-
+ity of accepting costlier ones later on; similarly, a large initial re-
+quest (which most people reject) reduces later willingness togrant
+a smaller one (see DeJong 1979). Yet, in different settings the
+same subject pools display "moral credentialing", acting as if an
+initial good behavior (again, exogenously induced) provided a li-
+cense to misbehave later on (Monin and Miller 2001). Similarly,
+people offered an opportunity to purchase "green" products tend
+to respond positively, but those who do buy are later on less likely
+to share in a dictator game, and more likely to cheat on a task to
+increase their gains (Mazar and Zhong 2010; Zhong, Ku, Lount,
+and Murnighan 2010). Such reversals mirror earlier findings on
+the "transgression-compliance" effect, in which people led to be-
+lieve that they have harmed someone show later on an increased
+willingness toperform unrelatedgooddeeds (Carlsmith and Gross
+1969).
+
+II.B. Social and Antisocial Punishments
+
+      Turning from single-agent settings to groups, one encounters
+similar inconsistencies in behavior and judgement. On the one
+
+      5. When given the opportunity, many people will also delegate a sharing de-
+cision to a third party likely to be biased in their favor rather than do the "dirty
+deed" themself (Hamman et al. 2010).
+IDENTITY, MORALS, AND TABOOS  811
+
+hand, it is well established that free-riders in public-good games,       Downloaded from http://qje.oxfordjournals.org/ at Dalhousie University on May 17, 2015
+and violators of social norms more generally, get punished by oth-
+ers (e.g., Fehr and Ga¨ chter 2000). On the other, there is grow-
+ing evidence that those who behave too well--exhibiting stronger
+moral principles or resilience than their peers (objectors to in-
+justice, vegetarians, and whistle-blowers) or contributing "exces-
+sively" to public goods--also elicit resentment, derogation, and
+punishment from their peers (Monin and Miller 2001; Jordan and
+Monin 2008; Monin, Sawyer, and Marquez 2008). Such moral rel-
+ativism is not confined tothe laboratory but alsoreflected in cross-
+society-differences in civic norms. In countries where subjects in
+public-goods experiments engage in more social (antisocial) pun-
+ishment, surveys also show citizens to be less (more) tolerant of
+cheating behaviors such as tax evasion or welfare fraud and more
+(less) trusting in other people's adherence to the rule of law
+(Herrmann et al. 2008).
+
+II.C. Taboos Thoughts and Tradeoffs
+
+      Whereas economics views all goods as fungible, that is, sub-
+ject to tradeoffs, most societies and cultures hold certain ones to
+be "priceless" or sacred: life, justice, liberty, honor, love, religious
+faith, etc. (e.g., Durkheim 1925). It is thus considered highly im-
+moral toplace a monetary value on marriage, friendship, or loyalty
+to a cause. Markets for organs, genes, sex, surrogate pregnancy
+andadoption are widely bannedon grounds that they wouldrepre-
+sent an unacceptable "commodification"of human life. Admittedly,
+such rules are often observed in the breach, and the boundaries
+between the secular and the sacred are evolving ones, as demon-
+strated by changing attitudes toward life insurance (Zelizer 1979),
+pollution permits, or, in certain places, legalized prostitution.
+Nonetheless, taboos often do bind, removing a number of activ-
+ities from the traditional economic sphere or confining them to
+black markets (see, e.g., Kanbur 2004; Roth 2007).
+
+      Most puzzling is the fact that people seek to enforce such
+taboos not only on others' behavior (which could be accounted for
+by standard externalities) or even on their own (which might
+reflect a desire for precommitment), but even on their own
+thoughts and cognitions. Many experiments document this "mere
+contemplation" effect: when prompted to simply envision or spec-
+ulate about tradeoffs between sacred and secular values, subjects
+respond with noncompliance, outrage, and later symbolic acts of
+812  QUARTERLY JOURNAL OF ECONOMICS
+
+moral cleansing (Fiske and Tetlock 1997; Tetlock et al. 2000).                               Downloaded from http://qje.oxfordjournals.org/ at Dalhousie University on May 17, 2015
+Their view, and that of the law in most countries, is that certain
+transactions are so "contrary to human dignity" that they would
+affect even those who simply know or speculate about them, by
+inviting "morally corrosive" thoughts of fungibility. Yet what ex-
+actly is being corroded by placing a hypothetical monetary value
+on certain goods or activities, andhowthis damage occurs, is never
+really spelled out.
+
+      The patterns of behavior described in this section are not eas-
+ily accounted for by existing models. The choices of agents with
+altruistic, joy-of-giving, reciprocity or fairness concerns will (un-
+der anonymity) consistently reflect these stable preferences, and
+not exhibit the "Jekyll andHyde" reversals and path dependencies
+commonly seen in both lab and field. Similarly, agents with social-
+identity motivations or other group-basedpreferences may engage
+in costly acts of repair when their identity has been challenged or
+damaged, but will typically not show "licence" to misbehave when
+it has been affirmed, nor the kind of amplification exemplified by
+the "foot-in-the-door" effect. They may ostracize and punish those
+who violate group norms but not turn against those who are the
+best exemplars of their chosen identities. Finally, in none of these
+models will agents ever exhibit information avoidance, such as is
+consistently observed in "moral wriggle room" experiments and in
+the phenomenon of taboo thought.
+
+      The body of the paper is organized as follows. Section III
+presents the model and Section IV the main propositions, with
+moral identity and decisions as the leading application. Section
+V analyzes sacred values and taboo tradeoffs, then turns to the
+mechanism underlying both social and antisocial norms. Section
+VI gathers extensions of the model and applications to other
+realms of behavior. Section VII offers directions for further re-
+search. Proofs are gathered in Appendix I, details on the model's
+extensions in Appendix II.
+
+                               III. THE MODEL
+
+     "An identity is a definition, an interpretation, of the self ... People
+     who have problems with identity are generally struggling with the
+     difficult aspects of defining the self, such as the establishing of long-
+     term goals, major affiliations, and basic values."
+
+                                                                         (Baumeister 1986).
+     IDENTITY, MORALS, AND TABOOS                                   813
+
+                                           FIGURE I
+     Timing of Moves and Actions (for AU/SE and SC Specifications)
+
+III.A. Preferences and Beliefs                                                         Downloaded from http://qje.oxfordjournals.org/ at Dalhousie University on May 17, 2015
+
+      There are three periods, t = 0, 1, 2, as illustrated in Figure I.
+An individual starts with initial endowment A0 of some asset;
+from the final stock A2 he will derive long-run welfare vA2. In
+our main application, A corresponds to social relationships and
+v reflects the extent to which the agent internalizes the welfare of
+others.6 We shall accordingly refer to A as "relational capital" and
+to v as altruism or prosocial orientation.7
+
+      At dates t = 0, 1, the individual can "invest" (at = 1), with
+return rt  0, or "not invest" (at = 0), so that
+
+(1)  At+1 = At + atrt.
+
+Thus, by helping others, cooperating and contributing to public
+goods, he can enhance existing relationships (raise the utility of
+people he cares about) or establish new ones (make friends, gain
+productive partners). By behaving badly he will fail to increase At,
+
+      6. More generally, A can be any asset (human capital, wealth, status, religion-
+specific good deeds, knowledge of a culture, etc.) and v the individual's long-run
+utility for the benefits flowing from it. See Section VI on these other dimensions of
+identity.
+
+      7. The specific form of the interactions involved is inessential for our pur-
+poses, but examples might be useful here. In the simplest one, At equals the agent's
+cumulatedcontributions toother people's welfare and v is howmuch he cares about
+their well-being. Alternatively, let At be the number of people willing to engage
+with him in a repeated-prisoner's-dilemma type of interaction that starts at t = 2.
+Someone who places more weight on others' payoffs is less likely to cheat down
+the road, causing a break-up of the relationship and a loss of its benefits to both
+parties; he will thus value each social bond more highly. Partners' investment in
+a relationship could also be strategic complements, as in Rotemberg (1994). All
+that matters for our study of moral identity is that social relationships be rep-
+resentable as assets (fixed or accumulable, see Equation (1)) with a continuation
+value, such as vA2, that is higher for more prosocial individuals (see Assumption
+3 more generally).
+814  QUARTERLY JOURNAL OF ECONOMICS
+
+or could even erode it; we normalize Equation (1) to measure the                        Downloaded from http://qje.oxfordjournals.org/ at Dalhousie University on May 17, 2015
+relative increase from choosing at = 1. We shall refer to at = 1 in-
+terchangeably as moral, prosocial or cooperative behavior, and to
+at = 0 as immoral, selfish, or opportunistic behavior.8
+
+      The "investment" action will in fact play a dual role. The first
+is standard accumulation, when rt > 0. The second is informa-
+tional: even when the current decision has no impact on relational
+capital (rt = 0 for one-time encounters, tipping, etc.), the individ-
+ual's behavior will constitute a signal of his altruism.
+
+      The central ingredient in the model is indeed that people are,
+at times, unsure of their own deep preferences: moral standards,
+concern for others, strength of faith, etc. Such uncertainty over
+"long-term goals, major affiliations, andbasicvalues" (Baumeister
+1986) means that the capital stock A2 from which an individual
+will eventually derive benefits may prove to be very important to
+his long-run welfare, or not that meaningful.
+
+      Date 0. At the start of period 0 the agent has access to a signal
+about his type, which may be one of high or low altruism, H or L.
+Through an instinctive feeling of empathy, a temptation to cheat
+or a conscious self-assessment, he obtains a momentary insight
+into his true nature,
+
+         vH with probability 
+
+(2)  v=                            ,
+
+         vL with probability 1 - 
+
+with vH > vL and v  vH + (1 - ) vL denoting the prior expecta-
+tion. Because a more prosocial individual internalizes more of the
+benefits accruing to other people, even in one-shot interactions,
+he finds it (weakly) less costly to act morally--help, refrain from
+opportunism, etc.
+
+ASSUMPTION 1. The net cost of investment at date 0 is c0H  0 for
+      type H and cL0 for type L, with c0L  cH0 .
+
+      Date 1. The standard assumption in economics is that people
+gain, through experience, better knowledge of their preferences.
+For a person's past actions todefine his sense of identity, however,
+it must be that he no longer has direct access to the deep mo-
+tives and feelings that gave rise to these choices--an information
+
+      8. The specific interaction involved is, again, not essential. Thus, rt can mea-
+sure the return to the individual's efforts in raising the welfare of those he cares
+about. Alternatively, it can capture, in reduced form, the average propensity of
+partners to stay in the relationship, depending on how one has treated them.
+     IDENTITY, MORALS, AND TABOOS  815
+
+loss. Otherwise, past behavior conveys no useful information, so                      Downloaded from http://qje.oxfordjournals.org/ at Dalhousie University on May 17, 2015
+there is no sense in which one can make (or claim to make) choices
+intended to "be true to myself," "maintain my integrity," "keep
+my self-respect," "not betray my values," "be able to look at my-
+self in the mirror," and the like. There is indeed extensive evi-
+dence that people's recall of their past feelings and true motives
+is highly imperfect and self-serving, that they judge themselves
+by their actions and that many decisions are shaped by a concern
+to achieve or maintain a desirable self-view, particularly in the
+moral domain.9
+
+ASSUMPTION 2. (Self-inference). At date 1, the individual is aware
+      (or reminded) of his true valuation v only with probability .
+      With probability 1 - , he no longer recalls (has access to) it
+      and uses instead his past choice of a0 to infer his type.
+
+      Let us denote by ^ the individual's date-1 belief about "what
+kind of a person" he is and by
+
+(3)  v^  ^vH + ( 1 - ^) vL
+
+the corresponding expectedvaluation of A2, either of which defines
+his (subjective) "sense of identity" at t = 1. With probability  the
+posterior v^ is thus equal to the original signal v, and with proba-
+bility 1 -  it is equal to the conditional expectation v^ (a0)  [vL,
+vH] formed on the basis of previous behavior. More generally, 1-
+should be thought of as the malleability of beliefs through actions,
+and thus also reflecting the possibility that deeds may themselves
+be forgotten or repressed, or be uninformative due to situational
+factors that can be invoked as plausible excuses.10
+
+      9. On imperfect retrospective and prospective access to feelings and desires,
+see Kahneman, Wakker, and Sarin (1997) and Loewenstein and David (1999). On
+self-perception and self-signaling, see footnote 2, Bodner and Prelec (2003) and
+Be´nabou and Tirole (2004). Decisions problems with (exogenously) imperfect recall
+but no demand for motivated beliefs were first studied in Piccione and Rubinstein
+(1997).
+
+    10. If an action is uninformative with probability , the posterior ^v equals v,
+v or ^v (a0) with respective probabilities , ( 1 - )  and ( 1 - ) ( 1 - ) , so the
+effect on signaling incentives is similar to that of a decrease in 1 - . For a model
+of self-reputation with misremembered actions and excuses, see Be´nabou and Ti-
+role (2004). The recall or awarenessprobability could also be different for good and
+bad signals, H  L, whether exogenously or endogenously (see Be´nabou and Ti-
+role 2002). We focus here on the case in which H = L, both for simplicity and to
+highlight the role of self-inference, which seems most relevant to "identity."
+816  QUARTERLY JOURNAL OF ECONOMICS
+
+      This process of self-inference can be thought of as the "sup-                  Downloaded from http://qje.oxfordjournals.org/ at Dalhousie University on May 17, 2015
+ply side" of motivated beliefs in the model. We next turn to the
+"demand side," which encompasses most mechanisms that make
+certain self-views more desirable than others. These include pure
+self-regard, anticipatory utility and imperfect self-control, all of
+which can be representedby a continuation value V( v, v^, A1) , eval-
+uated at t = 0, of entering period 1 with beliefs v^ and capital A1.
+
+ASSUMPTION 3. The value function V = V( v, v^, A1) satisfies V2 >
+      0, V12  0 and, if r0 > 0, V13 > 0.
+
+      The first condition is mainly a "good identity" convention:
+thus, a self-image of high morals and concern for others is bet-
+ter than one of low morals and selfishness.11 The cross-partial
+restrictions, together with c0H  cL0 , will generate a sorting con-
+dition leading the H type to always invest at least as much as
+the L one (behaving more prosocially), so that actions have infor-
+mational content. We exclude the trivial case where both types
+always invest regardless of identity concerns:
+
+ASSUMPTION 4. V( vL, vL, A0 + r0) -V( vL, vL, A0) < c0L.
+
+The two "canonical" examples of preferences leading to motivated
+beliefs are discussed below and summarized in Figure I.
+
+      Demand for beliefs 1: self-esteem (SE) or anticipatory utility
+(AU). Someone who cares intrinsically about being, or having
+been over their lifetime, "the natural and proper object of praise
+[or] blame" (Smith 1759) has preferences given by V = sv^, where s
+measures the strength of the self-esteem motive and v^ is given by
+Equation (3).12
+
+      Closely related to self-esteem but more consequentialist in
+nature are anticipatory emotions--feelings of hopefulness, anx-
+iety, or dread that arise from contemplating one's future material
+and social prospects. Let long-term welfare be vA2, the expected
+value of social relationships: family, friends, colleagues, ethnic
+group, etc. During period 1, an individual with subjective proso-
+cial identity v^ experiences a utility flow sv^A2, where the "savoring"
+
+    11. Furthermore, it will only be used toselect the Pareto-dominant equilibrium
+in the case of multiplicity.
+
+    12. Formally equivalent is a Calvinistic concern for being among the "chosen"
+who are predestined for salvation and given the ability to engage in virtuous work,
+rather than among the "reprobates" who are irredeemably abandoned to sin and
+damnation.
+     IDENTITY, MORALS, AND TABOOS  817
+
+parameter s reflects both the intensity of such anticipatory feelings                 Downloaded from http://qje.oxfordjournals.org/ at Dalhousie University on May 17, 2015
+and their duration.13 Another important determinant of s is
+salience--the extent to which the individual thinks (perhaps pro-
+mpted by an experimenter or advertiser) about the contribution
+of A2 to his future welfare, and how it depends on where his true
+values really lie.
+
+      For simplicity, we focus here on pure anticipatory utility, in
+which there is no further decision to be made at date 1.14 Thus
+a1  0, A2 = A1 and the continuation value (evaluated from t = 0)
+of entering period 1 with subjective identity v^ is
+
+(4)  V( v, v^, A1)  (sv^ + v) A1,
+
+where  is the discount factor between dates 1 and 2.15 Assump-
+tion 2 is clearly satisfied, with V13 > 0 , V23 > 0 and V12 = 0.
+
+      Note also that self-esteem is a special case of anticipatory util-
+ity with At  1 (the only relationship the agent cares about is with
+himself), rt  0 and  = 0 (no "day of reckoning"). Accordingly, we
+shall study and refer to them together as the SE/AU case.
+
+      For welfare analysis, our criterion will be total intertemporal
+utility
+
+(5)  W  E[-aoc0 + V],
+
+where the expectation is taken with respect to the prior distribu-
+tion ( , 1 - ) of values v  {vH, vL} and the distribution ( , 1 - )
+of (endogenous) posterior beliefs v^  {v, v^( a0) } .
+
+      Demand for beliefs 2: self-control (SC). People with self-esteem
+concerns or anticipatory emotions about the value of their social
+assets want to hold certain beliefs for purely affective reasons.
+Maintaining a strong, stable sense of identity also has functional
+value, helping one to make consistent choices and resist harmful
+temptations. This adaptive role, equally stressed by psychologists,
+
+    13. The hedonicvalue of period-1 beliefs could alsobe nonlinear in probabilities
+(equivalently, in ^v). Our positive results (Propositions 1 and 2) apply unchanged
+such cases, as long as Assumption 3 is satisfied. Propositions 3 and 4 show, on the
+other hand, that normative conclusions do depend on linearity or the specific form
+of nonlinearity.
+
+    14. This restriction is relaxed in Appendix II.
+    15. Note that s/ reflects also the relative lengths of periods 1 and 2. Any dis-
+counting between periods 0 and 1 is implicitly embodied as a common factor in s
+and .
+818  QUARTERLY JOURNAL OF ECONOMICS
+
+leads to our second benchmark case. It is particularly important                   Downloaded from http://qje.oxfordjournals.org/ at Dalhousie University on May 17, 2015
+in the context of social interactions, which inherently feature a
+tradeoff between short-term gains from selfishness (or emotional
+release) and long-run benefits from behaving morally.
+
+      Let long-term welfare still be given by vA2, but with moral
+decisions now taking place both at t = 0 and at t = 1. Investment
+at t = 1 involves a stochastic cost c1, with type-independent distri-
+bution F( c1) on R+.16 At date 1, moreover, weakness of will can
+make the immediate gains from opportunism more salient than
+its distant consequences. The individual's "Self 1" thus perceives
+the cost of acting morally as c/, where
+
+(6)   < vL/vH.
+
+This condition implies that whenever the agent (either the H type
+only, or both) chooses tobehave cooperatively, it is ex-ante efficient
+for him to do so: if vHr1 > c1, then vLr1 > c1. Sometimes, how-
+ever, he will cave in to temptation and cheat or free-ride, thereby
+damaging his own long-term interests (e.g., poorly raised child,
+broken marriage, criminal prosecution or other forms of social re-
+taliation).
+
+      Given a self-view v^, the agent invests when c1  v^r1, defin-
+ing a threshold cost level that increases with v^. Thus, a stronger
+moral identity generates valuable self-restraint. This is also
+reflected in the continuation value
+
+                              ^vr1
+
+(7)  V( v, v^, A1)  vA1 +           (vr1 - c1) dF (c1) ,
+
+                           0
+
+which increases in v^, since (v - v^) r1  (vL - vH) r1 > 0. The
+other conditions in Assumption 2 are satisfied as well.
+
+      With regard to welfare analysis, it is no longer appropriate to
+just add up -c0a0 and E[V], since the agent will generally have
+present-biased preferences at date 0, just like at date 1. Thus, if
+c0 is the perceived investment cost, the "real" cost, as viewed by
+an ex-ante self or parent at date "-1", is only c0. Recalling that
+V is also an ex-ante value function, our welfare criterion will be:
+
+(8)  W = E[-a0c0 + V].
+
+    16. Both assumptions are made for simplicity. The role of uncertainty over c1
+is only to smooth over t = 1 decisions, so as to make V differentiable. The type-
+independence of F() can also be relaxed, as long as realizations of c1 are imper-
+fectly informative about v; equivalently, the agent could need to make the t = 1
+investment decision before having experienced its full cost.
+IDENTITY, MORALS, AND TABOOS  819
+
+      The two benchmark cases (AU/SE and SC) presented above                          Downloaded from http://qje.oxfordjournals.org/ at Dalhousie University on May 17, 2015
+can also be combined, so as to determine when anticipatory emo-
+tions alleviate or worsen the self-discipline problem. This "mixed"
+case, more relevant for dimensions of identity other than the moral
+one, will be examined in Section VI, together with other exten-
+sions of the basic framework.
+
+III.B. Interpreting the Model
+
+      Before proceeding to solve the model, we point out three im-
+portant ways in which it is more broadly applicable than a literal
+reading might suggest. Readers wishing to skip this discussion
+can proceed directly to the analysis in the next section.
+
+      Identity as Multidimensional. We focus the exposition on a
+single dimension of identity (stock A and associated value v), us-
+ing moral self-image as a running example. The model can, how-
+ever, equally represent a tradeoff between two dimensions A and
+B, such as morality and wealth, or family and career, linked by un-
+certainty over their relative value vA - vB and a resource or time
+constraint on total investment. The analysis is identical, with ev-
+erything now interpreted in a "differential" sense, in terms of A
+relative to B (see Appendix II for details). A second type of iden-
+tity conflict, arising from rivalry in consumption rather than in-
+vestment, is analyzed in Section VI.C.
+
+      Identity as a Social Object. In our main illustration, At cor-
+responds to relationships with others and v to altruism or public-
+spiritedness. Other social aspects of identity may include agents'
+prior beliefs () and, critically, information flows within a refer-
+ence group. Section VI.B will thus study people's responses to
+both norm-violators who fail to uphold a valued identity and "do-
+gooders" who uphold it too well.17
+
+      Self-Knowledge and Affirmation of Values. The assumption
+that people have imperfect insights into their own values and mo-
+tives admits several formally equivalent interpretations:
+
+     1. A moral sentiments view, in which people experience guilt
+         or pride not only when actually observed by others, but
+
+    17. Different social aspects of identity are explored by Fryer and Jackson 2008,
+who show optimal categorization can lead to ethnic stereotypes, and by Fang and
+Loury (2005), whomodel groupidentity as a sharedconvention (akin toa language)
+for the transmission of information.
+820  QUARTERLY JOURNAL OF ECONOMICS
+
+         also from the virtual judgements of "imagined spectators"                    Downloaded from http://qje.oxfordjournals.org/ at Dalhousie University on May 17, 2015
+         (Smith 1759).
+     2. An ego-superego view, in which v is simultaneously known
+         at the subconscious level and not known at the conscious
+         level (Bodner and Prelec 2003). This corresponds in the
+         model to a limiting case of "instantaneous forgetting."
+     3. Intergenerational transmission. In this polar case "forget-
+         ting" takes a generation, so the date-0 agent is a parent
+         and the date-1 agent his child. Parents have experience
+         with the value of certain assets, such as the life satisfac-
+         tion derived from social bonds versus money and career, or
+         the benefits that religion might yield. Children start less
+         informed and learn (with probability 1 - ) from the ex-
+         ample that their parents set, or from what they force them
+         to do (a0) . Parents strive, altruistically or selfishly, to in-
+         culcate in their children "values" (beliefs v^) that will en-
+         rich their lifetime experience or lead them totake desirable
+         actions.
+
+     IV. EQUILIBRIUM AND WELFARE
+
+IV.A. Behavior
+
+      At date 0, each type chooses his action optimally, taking into
+account the impact that may result for his sense of identity at
+date 1 and the affective and/or functional payoffs that flow from
+it. Thus an agent with type k = H, L, solves
+
+(9)  max -c0k a0 + V (vk, vk, A0 + a0r0)
+
+     a0{0,1}
+
+              + ( 1 - ) V (vk, v^ (a0) , A0 + a0r0) ,
+
+where the posterior beliefs v^ (a0) in case of self-inference are de-
+rived from Bayes' rule.18 Denoting by xH and xL the respective
+
+probabilities that types H and L behave prosocially at t = 0, this
+
+    18. By modeling agents as Bayesian, and thus aware that they sometimes
+make decisions seeking to maintain or enhance a valued identity, we are
+treatingsophisticated. Relaxing this "metacognition" assumption (e.g., Be´nabou
+and Tirole 2002) would make the model's positive results only stronger, but lead
+in certain cases to different welfare implications (see footnote 27). Note also that
+while our model has beliefs entering agents' utility functions, as in "psychological
+      IDENTITY, MORALS, AND TABOOS                              821
+
+means that v^ (a0)  ^(a0) vH + [1 - ^(a0)] vL, where
+
+(10)  ^( 1) =  xH               and
+
+               xH + ( 1 - ) xL
+
+      ^( 0) =  ( 1 - xH)
+
+               ( 1 - xH) + ( 1 - ) ( 1 - xL)
+
+for all (xH, xL) not equal to ( 0, 0) and ( 1, 1) respectively. To lighten         Downloaded from http://qje.oxfordjournals.org/ at Dalhousie University on May 17, 2015
+the notation, let us define the expected value function
+
+(11)  V (v, v^, A1)  V (v, v, A1) + ( 1 - ) V (v, v^, A1) ,
+
+which brings together the demand (preferences) and supply (cog-
+nition) sides of the model, inheriting from V all the properties in
+Assumption 3. Investing at t = 0 is thus an optimal strategy for
+type k = H, L if
+
+(12)  V (vk, v^ (1) , A0 + r0) - V (vk, v^ (0) , A0) - c0k  0.
+
+      The Sorting Condition. There are three reasons why this net
+return to "good behavior" is greater for the H type than the L one,
+implying that v^ (1)  v^ (0) on the equilibrium path. First, the H
+type has a lower effective cost, cH0  c0L. Second, when V13 > 0,
+he attaches greater value to any increment to the capital stock.
+Finally, if V12 > 0 he also cares more about having a "strong"
+identity at date 1, which investing helps achieve if
+v^ (1) > v^ (0) .
+
+         From now on, we shall restrict attention to monotonic Per-
+fect Bayesian equilibria, defined as those in which: (a) the high-
+value type always invests more: xH  xL, which given (12) again
+means that xH = 1 whenever xL > 0; (b) a (stronger) form of mono-
+tonicity is also imposed on off-the-equilibrium-path beliefs: if xH =
+xL = 0, then ^( 1)  1; symmetrically, if xH = xL = 1, then ^( 0)  0.
+This refinement is intuitive and does not affect any qualitative
+results.19
+
+games" (Geanakoplos, Pearce, and Stacchetti 1989), these beliefs are about types,
+not actions--whether by others or oneself. As a result, standard equilibrium
+concepts and refinements for games of imperfect information remain directly
+applicable.
+
+    19. It is implied for instance by the Never a Weak Best Response (NWBR) cri-
+terion if V12 = 0 (as is the case for the SE/AU specification of the model).
+822  QUARTERLY JOURNAL OF ECONOMICS
+
+                                                 FIGURE II                                 Downloaded from http://qje.oxfordjournals.org/ at Dalhousie University on May 17, 2015
+                                   Equilibrium as a Function of 
+     Left panel: solid line =xH( ) , dashed line = xL( ) , for decreasing values of cL0 .
+Right panel: average investment x( ) .
+
+         Finally, over a certain range of parameters there may be
+multiple (three) monotonic equilibria, among which one is Pareto-
+dominant and will be selected.20
+
+PROPOSITION 1. There exists a unique (monotonic, undominated)
+      equilibrium, characterized by thresholds ~ and  with 0 <
+      ~    1 and investment probabilities xH( ) and xL( ) such
+      that:
+
+     1. xH( ) = 1 for  <  and xH( ) =0 for  > ;
+     2. xL( ) is nondecreasing on [0, ~], equal to 1 on [~, ) when
+
+         ~ <  and equal to 0 on [, 1].
+
+      The equilibrium is illustrated in Figure II, for 0 <  < 1 and
+for decreasing values of c0L, keeping cH0 fixed. There are four possi-
+ble configurations.
+
+      No Investment. When  is high enough (  > ) , the H type can
+afford not to invest: since the other one also behaves opportunis-
+tically the posterior will equal the prior, which is already close to
+1 and thus could not be increased much anyway.21
+
+      When initial self-image is below the threshold , on the
+other hand, the H type needs to invest in order to "stand for his
+principles" and try toseparate from the less moral L type. Turning
+now to the latter's behavior, one of three cases arises.
+
+    20. An equilibrium Pareto dominates another one if it yields a weakly higher
+payoff to both types and a strictly higher payoff to at least one of them.
+
+    21. The case  < 1 arises only when investment is not so intrinsically desir-
+able for the high-value agent (H type) to engage in for its own sake, without any
+signaling motive.
+IDENTITY, MORALS, AND TABOOS  823
+
+      Separation. When c0L is sufficiently high, the low-valuation                  Downloaded from http://qje.oxfordjournals.org/ at Dalhousie University on May 17, 2015
+type does not find it worthwhile to invest ( xL = 0) , whereas the
+high-valuation type does.
+
+      Randomization by vL. For lower values of cL0 , it becomes de-
+sirable for the L type to imitate the H type, but his ability to
+do so profitably is limited by the prior ( 0 < xL < 1, ~ = ) . The
+lower is , the more truthful (low xL) his strategy must be in order
+for investment to signal a high value with sufficient credibility;
+see (10).
+
+      Universal Investment. For cL0 still lower, even a small gain in
+self-image is worth pursuing, so the low-valuation type pools com-
+pletely with the other one ( xL = 1) , provided  is above the thresh-
+old ~ (which increases with c0L) .
+
+      Having fully characterized equilibrium behavior, we now de-
+rive comparative-statics predictions and relate them to experi-
+mental evidence. We shall say that an individual invests more in
+identity--in our example, behaves more prosocially--when both
+xH and xL (weakly) increase. The total probability of investment,
+x  xH + (1 - ) xL, also rises as a consequence.22
+
+PROPOSITION 2.
+
+     1. An individual invests more in identity:
+
+                 a. the more malleable his beliefs (the lower );
+                 b. the lower the investment cost (the lower cL0 or cH0 );
+                 c. the more salient the identity in the SE/AU case
+
+                     (the higher s);
+                d. the higher the capital stock A0 in the AU case.
+
+     2. Initial beliefs have a nonmonotonic, hill-shaped effect on
+         overall investment: x increases linearly in  on [0, ~) , equals
+         1 on [~, ) , then falls to 0 beyond.
+
+IV.B. Implications and Evidence on Moral Identity and Behavior
+
+      These results can help understand a broad range of empirical
+phenomena. While some of those admit alternativeexplanations
+
+    22. Given Proposition 1, the fact that (for all ) xH increases also means that
+ increases, and the fact that (for all ) xL increases also means that either xL( )
+increases or xL( ) =1 and  decreases.
+824  QUARTERLY JOURNAL OF ECONOMICS
+
+(learning by doing, habit formation or unstable preferences), a dif-               Downloaded from http://qje.oxfordjournals.org/ at Dalhousie University on May 17, 2015
+ferent story would have tobe invoked in each case. We aim instead
+to provide a unified account, which also extends to other evidence
+considered later on in the paper.
+
+      Malleability of Beliefs. An increase in the ex-ante probabil-
+ity  that the individual will remain aware, or be reminded of,
+his true preferences and motives, reduces investment. Identity-
+management is thus most likely to occur in domains where hard
+information about deep values is scarce (e.g., morality, love, reli-
+gion). A second, more operationalizable source of variation in  is
+the extent to which actions are informative about one's underly-
+ing "character" or could instead be attributed to mistakes, ratio-
+nalized by situational factors, etc.23
+
+         Dana, Kuang, and Weber (2007) document the importance
+of such inferential "wriggle room" for altruistic self-image. When
+subjects in a dictator-like game did not know whether their pay-
+off and that of the recipient were positively or negatively related,
+but could find out at no cost, over half of them chose not to know
+and proceeded to make the self-serving choice; when faced with
+an explicit tradeoff, by contrast, two-thirds chose a "fair" alloca-
+tion. Mazar, Amir, and Ariely (2008) document a similar effect of
+attributional ambiguity on self-imposed honesty: when subjects
+whose payment was based on their self-reported, unverifiable per-
+formance on a task earned their compensation in the form of to-
+kens that would later on be exchanged for money (at a known
+rate), the overinflating of claims (assessed relative to a verifiable-
+performance benchmark) was 50% higher than when they had to
+lie for cash directly.
+
+         Delegation is another "veil" that commonly allows people
+to make selfish decisions while protecting their moral self-image.
+Hamman, Loewenstein, and Weber (2010) show that recipients
+in dictator games receive much less when principals have the op-
+tion todelegate the sharing decision toa third party. These agents
+compete to be "hired" by developing a reputation for favoring
+principals, and principals systematically seek those known to be
+the least generous with recipients.
+
+      In all these experiments, the fact that such a thin veil allows
+drastic increases in actual selfishness is also a clear indication of
+the presence and power of self-deception.
+
+    23. See footnote 10 for a formal correspondence between potential excuses and
+decrease in 1 - .
+IDENTITY, MORALS, AND TABOOS  825
+
+      Salience of Identity. In Mazar, Amir, and Ariely (2008), mak-                   Downloaded from http://qje.oxfordjournals.org/ at Dalhousie University on May 17, 2015
+ing the issue of personal honesty more salient (increasing s) by
+having subjects read the Ten Commandments or a university's
+honor code before performing tasks in which they could cheat on
+their claimed performance without risk of detection led to signifi-
+cant decreases in claims inflation.
+
+      In the marketplace, an important instance of the same mech-
+anism is consumers' fast-growing expenditure on "symbolic" goods
+such as carbon offsets, green products andthe like, largely spurred
+by advertising campaigns that manipulate the salience of people'
+self (and social) image. The fact that most of the same households
+vote against environmental taxes, together with experiments doc-
+umenting the moral-licensing effects of green purchases (Mazar
+and Zhong 2010), provides further support for the idea that such
+expenditures are in large part identity investments.
+
+      Uncertain Values. The overall (ex-ante) probability of invest-
+ment x is hill-shaped with respect to : intuitively, investing in
+self-reputation has a low return when the prior is low, and is not
+needed when it is already high (provided  < 1) .24 This means,
+first, that identity-affirming behaviors are characteristic of people
+with unsettled preferences and values; hence the moral zeal of the
+newconvert (religious or political), or the exacerbated nationalism
+of the recent immigrant. Second, the predicted hill-shape of behav-
+ior with respect to  can help reconcile two contradictory sets of
+experimental findings on people's responses to manipulations of
+their self-image.
+
+     1. Threats to a strongly held identity, (e.g., being a decent,
+         moral person) trigger large opposing responses aimed at
+         restoring the damaged self-image--as occurs in the model
+         when  is caused to fall below . A good example is the
+         "transgression-compliance" effect(e.g.,CarlsmithandGross
+         1969): subjects whoareledtobelievethat theyhaveharmed
+         someone (by administering painful electric shocks, or care-
+         lessly ruining some of her work) showan increased willing-
+         ness to later on accept requests to perform a good action,
+         even though the requester is not their "victim" and does
+
+    24. This nonmonotonicity is the general and robust insight from Proposition 2,
+rather than the specific piecewise-linear response illustrated in the right panel of
+Figure II. Thus, if small amounts of individual heterogeneity are introduced in the
+parameters that affect ~ and , aggregation will result in a "smoothed" version of
+x( ) that first increases, then decreases.
+826  QUARTERLY JOURNAL OF ECONOMICS
+
+         not even know about their alleged misdeed. Religions un-                       Downloaded from http://qje.oxfordjournals.org/ at Dalhousie University on May 17, 2015
+         derstand well, and make frequent use of, this demand for
+         atonement (e.g., Kuran 1996; Cassone andMarchese 1999).
+         Symmetrically, subjects with freshly acquired "moral cre-
+         dentials" as non-prejudiced persons showa greater willing-
+         ness to subsequently express politically incorrect opinions
+         and make employment recommendations that conform to
+         ethnic or racial stereotypes (Monin and Miller 2001).25
+
+     2. Manipulating weaker aspects of identity (e.g., being help-
+         ful, kindhearted), on the other hand, tend to induce con-
+         firmatory rather than fighting responses--as occurs in the
+         model when  changes marginally, starting from below ~.
+         Such is the case with the "foot in the door" effect (e.g.,
+         DeJong 1979), in which freely accepting an initial request
+         for a small favor raises the probability of accepting a more
+         costly one in the future. Conversely, an initial costly re-
+         quest, which most people turn down, decreases the proba-
+         bility of accepting a smaller one later on.26
+
+IV.C. Identity and Welfare: Treadmill Effect or Empowerment?
+
+      While the model's equilibrium-behavior and comparative-
+statics results are very general, relying only on Assumptions 1
+to 3, the implications of belief management for an individual's
+welfare depend on whether it reflects a demand for "consumable
+thoughts" or instrumental concerns.
+
+      Self-esteem/Anticipatory Utility and the Treadmill Effect.
+Equations (4)­(5) lead to
+
+(13) W = xH (s + ) vHr0 - c0H + (1 - ) xL (s + ) vLr0 - c0L
+
+             + (s + ) vA0.
+
+The last term is constant: although agents actively manage their
+self-views, this is a zero-sum game across types, by the law of
+
+    25. To rule out a social-signaling explanation, the two rounds of choices were
+also administered as ostensibly different experiments, inducing subjects to be-
+lieve that the second experimenter would not know of their previously established
+"credentials," or lack thereof. The results were statistically unchanged.
+
+    26. In neither case are the results due to self-selection, since the probabilities
+being compared are the average compliance rates between the members of an ex-
+perimental group (who get two requests) and those of a control group (who get only
+the second request).
+      IDENTITY, MORALS, AND TABOOS               827
+
+iterated expectations.27 As to the first two terms, they always                           Downloaded from http://qje.oxfordjournals.org/ at Dalhousie University on May 17, 2015
+(weakly) decrease as identity investments rise in response to a
+greater malleability of beliefs, 1-. This is immediate tosee when
+self-regardis the sole motive underlying moral behavior, andmore
+generally when the identity-related asset is fixed: with r0 = 0,
+there remains only a net loss of -xHcH0 -( 1 - ) xLc0L.28 The
+result--a form of wasteful signaling induced by imperfect self
+knowledge--applies equally when identity capital can be accumu-
+lated.
+
+      More strikingly, an increase in his capital stock can alsomake
+the individual worse off. Indeed, the condition for a no-investment
+equilibrium ( xH = xL = 0),
+
+(14)  V (vH, vH, A0 + r0) - V (vH, v, A0) =
+
+      ( s + ) vHr0 + (1 - ) s (vH - v) A0  c0H,
+
+ceases to hold as A0 crosses some threshold level. At that point
+investment jumps up discretely, resulting in a net welfare loss,
+by the same reasoning as above.29
+
+      The model thus yields a type of treadmill effect: higher as-
+set levels do no generate much of an increase in life satisfaction,
+or may even reduce it--and this precisely due to a self-defeating
+pursuit of the belief that these assets will ensure happiness, or
+forestall misery.30 In the moral realm, one can point to religious
+andpolitical zealotry (all the way toself-mortification), or the com-
+pulsive internalization of honor and shame. The most economi-
+cally relevant applications of the result, however, concern assets
+such as wealth or prestige. Studies of "hedonic forecasting" thus
+
+    27. For welfare gains to arise, it must thus be that either (a) agents' updating
+is at least partially na¨ive: when a0 = 1, they do not properly correct for pooling
+by the L type, resulting in a departure from the martingale property of Bayesian
+beliefs. This additional form of malleability could easily be incorporated into the
+model (e.g., Be´nabou and Tirole 2002); or (b) the consumption value of beliefs is
+nonlinear (and thus not purely anticipatory in the standard sense), as in Rabin
+(1995), Caplin and Leahy (2001), and Ko¨szegi (2010).
+
+    28. Each product xkck0, k = H, L, is (weakly) decreasing in  if c0k > 0, or constant
+if c0k  0, since Equation (12) then implies xk = 1.
+
+    29. Equation (14) leads to a loss when c0H >( s + ) vHr0. Otherwise, xH  1 and
+a loss arises from the counterpart of Equation (14) that focuses on how xL rises
+with A0.
+
+    30. Ours is thus a different mechanism for treadmill effects from the tradi-
+tional one, which is based on preferences or "aspirations" adapting to changes in
+consumption levels.
+828  QUARTERLY JOURNAL OF ECONOMICS
+
+suggest that people tend to overestimate the contribution of ma-                             Downloaded from http://qje.oxfordjournals.org/ at Dalhousie University on May 17, 2015
+terial or status goods to their long-term life-satisfaction, relative
+to time spent in personal relationships or doing good, such as vol-
+unteering (see, e.g., Stutzer and Frey 2007 for a survey).
+
+      The model also sheds some light on these differences: a tread-
+mill effect is more likely in activities that are subject to decreas-
+ing returns, which cause the material return r0v to fall relative to
+the savoring motive, sA0 (v^ - v).31 Diminishing marginal utility
+of consumption thus makes a treadmill effect in material pursuits
+likely at high wealth levels, but a non-issue for the poor. Personal
+relationships and good deeds are arguably less subject to decreas-
+ing returns--those may even be increasing, through network ef-
+fects and the spreading of reputation. Consequently, a moral
+treadmill is much less likely than a material one.
+
+PROPOSITION 3. In the anticipatory utility or self-image case,
+
+     1. An increase in the malleability of beliefs (1 - ) always
+         reduces welfare.
+
+     2. An increase in (per se valuable) capital A0 can make the
+         individual worse off.
+
+     3. An increase in salience s can also lower welfare.
+
+      An important caveat is that the welfare analysis is conducted
+here from the perspective of one agent, and thus abstracts from
+the external costs and benefits that his behavior generates for oth-
+ers. Even when considering social welfare, however, the point re-
+mains that while costly actions are incurred partly for self-image
+purposes, their overall impact on it is zero. Therefore even though
+everyone values identity per se, its social value, positive or nega-
+tive, must be found entirely in its "side-products."32
+
+    31. Let utility from a long-run stock A2 be v( A2) instead of vA2, where
+ is concave. The total return to investing at t = 0 is then (s^v( 1) + ) ( A0 +
+r0) - [s^v( 0) + ( A0) ]  s [^v( 1) -^v( 0) ] ( A0) + r0 ( A0) [s^v( 1) + ) ], provided r0/
+A0 is not too large. Decreasing marginal utility from A, leading to a low  ( A0),
+is thus equivalent to a low r0 in the linear specification (or, also, to a technology
+where r0 falls with A0).
+
+    32. Sen (1985) discusses identity as personal "commitments"--distinct from
+any kind of altruistic utility function or "goal"--which individuals feel bound to
+respect even though this may lower their own welfare, while benefiting others.
+Our model shows how such a notion can be formalized, in a way consistent with
+consequentialist rationality. Thus, a rule to "always" cooperate (a0 = 1) because
+"that is what a good person does, and this is who I am," can: (i) be self-enforcing,
+even though it lowers U0i when taking others' actions as fixed; and (ii) in general
+equilibrium, yield a Pareto improvement. In the self-control version of the model,
+      IDENTITY, MORALS, AND TABOOS                        829
+
+      Willpower and the Commitment Value of Identity. In the ba-                         Downloaded from http://qje.oxfordjournals.org/ at Dalhousie University on May 17, 2015
+
+sic self-control version of the model, A0 has no behavioral impact,
+as seen from Equation (7).33 The malleability of beliefs, on the
+
+other hand, now affects behavior both at t = 0 and at t = 1. Sup-
+
+pose for instance that: (a) for  = 1, neither type behaves proso-
+cially at t = 0 : c0H > vHr0, so xH = xL = 0; (b) for some  < 1, on
+the contrary, the equilibrium involves mixing: the more altruistic
+
+type always cooperates ( xH = 1) , while the more selfish one ran-
+domizes ( 0 < xL < 1) .34 The difference in intertemporal welfare
+W = E [-a0c0 + V] between these two cases is then
+
+(15)  W = ( 1 - ) xL vLr0 - c0L +  vHr0 - cH0
+
+      + (1 - ) E [V] ,
+
+where E [V] reflects the effects of self-image management on
+date-1 behavior:
+
+                          ^v(1)r1
+
+(16)  E [V] = ( 1 - ) xL           (vLr1 - c1) dF (c1) -
+
+                            vL r1
+
+        vH r1
+
+                          (vHr1 - c1) dF (c1) .
+
+        ^v(1)r1
+
+The first term in Equation (16) shows how, when the L type in-
+vests at t = 0, this strengthens his moral self-regard and thereby
+raises his subsequent propensity tobehave well. At the same time,
+such pooling at t = 0 dilutes the identity of the H type, and this
+self-doubt increases the likelihood that he will be succumb to op-
+portunism. Since prosocial investment at t = 1, when it occurs,
+is always ex-ante optimal (by Equation (6)), the first effect leads
+to a welfare gain, the second to a loss.35
+
+such cognitive commitments can also serve the individual's own long-term goals,
+while running against (and constraining) his short-term preferences.
+
+    33. Unless A0 affects the return r0 or cost c0, which would be easy to incorpo-
+rate. There could thus be decreasing returns to social capital; or, on the contrary,
+a transgression ( a0 = 0) could destroy not just a fixed number r0 of long-term re-
+lationships but a fixed fraction of the existing stock A0.
+
+    34. This is without loss of generality: a similar reasoning applies for complete
+pooling (whether on 0 or on 1) , with ^v( 1) simply replaced by v. Of course, the
+nature of the equilibrium, including the value of ^v( 1) , is endogenous and depends
+on the distribution F( c1). The proof of Proposition 4 takes this fixed-point aspect
+into account.
+
+    35. More specifically, when F() is such that the support of c1/r1 is mostly
+concentrated in the interval [vL, ^v( 1) ], meaning that the (opportunity) cost of good
+830  QUARTERLY JOURNAL OF ECONOMICS
+
+      Turning now to the direct contribution of date-0 behavior to                  Downloaded from http://qje.oxfordjournals.org/ at Dalhousie University on May 17, 2015
+intertemporal welfare, if  is low enough that (say) the first two
+terms in Equation (15) are positive, ex-ante efficient investments
+fail to occur in period 0 if  = 1: from the very start, the agent be-
+haves too opportunistically for his own good. The ability to affect
+his self-image (  < 1) provides additional motivation for acting
+prosocially at t = 0, which then directly raises W. When the first
+two terms in Equation (15) are positive, conversely, such good be-
+havior entails a net cost, which only pays off in terms of improved
+self-restraint at t = 1 if E[V] sufficiently positive.
+
+PROPOSITION 4. In the self-control case, more malleable beliefs (a
+      lower ) can raise welfare, by improving choices at t=1 (when
+      E [V] > 0) and/or at t = 0 (when W > (1 - ) E[V]) .
+
+                      V. TABOOS AND TRANSGRESSIONS
+
+      Taboos and sacred values are closely related to identity, in
+the sense of protecting certain beliefs (or illusions), deemed vi-
+tal for the individual or for society, concerning things one "would
+never do" and the "incommensurable" value of certain goods. We
+distinguish two complementary ways in which they operate--ex
+ante and ex post. The first, internally enforced, aims to avoid dan-
+gerous (self-) knowledge that might surface from "cold" analytical
+contemplation of what short-run tradeoffs might be available or
+expedient. The second one, socially enforced, is a form of informa-
+tion destruction aimed at repairing the damage to beliefs caused
+when someone, through his actions or speech, has violated a norm
+or taboo.
+
+V.A. Sacred Values, Taboo Tradeoffs, and Markets: Information
+       Avoidance
+
+     "To compare is to destroy."
+
+                                  (Fiske andTetlock 1997)
+
+      Let v  {vH, vL} continue to denote the long-run value of some
+important asset, with associated capital At. In the social-moral
+realm this again couldbe family, friends, clan, country, or religion.
+
+behavior and the magnitude of the self-control problem are relatively moderate,
+there is a net gain from malleability. When they are more severe, so that the sup-
+port is mostly concentrated in [^v( 1) , vH], there is a net loss.
+      IDENTITY, MORALS, AND TABOOS      831
+
+In the personal one it could be health, bodily integrity, or personal                 Downloaded from http://qje.oxfordjournals.org/ at Dalhousie University on May 17, 2015
+freedom. We saw how, for motives of either anticipatory utility
+(possibly extending to an afterlife) or self-control (temptations to
+erode At for short-term gains), people will often want to be opti-
+mistic about v, resulting in a value function V( v, v^, A1) satisfying
+Assumption 3.
+
+      Suppose now that, at t = 0, an agent can find out the "sellout"
+price p at which he could exchange one unit of A0 against money or
+other goods of known consumption value. A priori, the price could
+be high or low,
+
+          pH with probability z
+
+(17)  p=                             .
+
+          pL with probability 1 - z
+
+Depending on the context, the actual value may be learned by
+checking what is being offered on a formal or informal market
+(for loyalties, votes, crime, organs, sex, children, etc.) or by sim-
+ply engaging in deliberate, "coldhearted" calculations about the
+personal costs and benefits of different courses of action.
+
+      To simplify the problem, let pH be high enough and pL low
+enough that, if an agent does ascertain the price (a0 = 0) he will
+always transact when p = pH, reducing A0 by one unit, and not
+transact when p = pL.36 Even in the latter case, he will later recall
+that he contemplated the possibility of a transaction and evalu-
+ated whether maintaining his identity or dignity was "worth it"
+or not. From this fact he will then have to draw (with probabil-
+ity 1 - ) the appropriate inference about where his true values
+lie.
+
+      Investing in moral identity (a0 = 1) thus consists here in up-
+holding a rule never to place a price on certain goods--staying
+away from markets where such transactions occur, not entertain-
+ing for a second any "indecent proposal" one may receive, and
+forbidding oneself even mere thoughts of commensurability. The
+cost of doing so is the option value of the potential transactions
+foregone, so an individual with value v = vH, vL will uphold the
+
+    36. Formally, this is a dominant strategy for both types k = H, L, provided that
+pH > V( vH,vH, A0) -V( vH,vL, A0 - 1) and pL < V( vL,vH, A0) - V( vL,vL, A0 - 1).
+In the absence of such conditions, or with a more general price distribution, there
+may be two signals of an agent's type: whether he looked into the price and, if
+so, whether he transacted or not, given the price. We isolate here the first effect,
+which is the relevant one for the idea that certain things should remain "priceless"
+and the presence of a "mere contemplation effect."
+832       QUARTERLY JOURNAL OF ECONOMICS
+
+taboo if
+
+(18)      V( v,v^( 1) , A0) - V( v,v^( 0) , A0 - z)  zpH,
+
+with the same notation as usual.37
+
+      This is clearly a special case of our model, with r0 = z, c0 = zpH
+and initial stock A0  A0 - z. Therefore, all previous results apply
+directly:
+
+      1. On the positive side, Propositions 1 and 2 show how taboos                         Downloaded from http://qje.oxfordjournals.org/ at Dalhousie University on May 17, 2015
+          arise and are sustained, either universally (full-investment
+          equilibrium) or predominantly by the more committed
+          (mixing or separating equilibrium); how this depends on
+          the initial strength of beliefs, ; and how challenges to
+          taboos or transgressions by others can lead to reaffirma-
+          tion or collapse, according to which side of the "hill"
+          (Figure II, right panel) the induced erosion of  occurs on.38
+
+      2. On the normative side, Propositions 3 and 4 show how the
+          welfare effect of taboos depends importantly on whether
+          they reflect anticipatory or self-control motives. In the first
+          case, upholding taboos generally lowers an individual's
+          ex-ante welfare.39 In the latter it can be beneficial, but only
+          under specific conditions involving the severity of the self-
+          control problem.40
+
+    37. We assume that transacting without first finding out the price is either
+infeasible, or else unprofitable (due to the average "auction" price zpH + ( 1 - z) pL
+being too low). In writing the second term in Equation (18) we took advantage of
+the linearity of V in A1 under both the AU and the SC models. More generally, it
+would be zV( v, ^v( 0), A0 - 1) + ( 1 - z) V( v, ^v( 0), A0), which leaves all the results
+unchanged.
+
+    38. Because they involve the avoidance of normally valuable information,
+taboos are related to the strategic ignorance in Carrillo and Mariotti (2000) and
+Carrillo (2005), and especially to the rule-based behavior in Be´nabou and Tirole
+(2004). There are, however, two important differences. On the demand side, im-
+perfect willpower is here only one of several potential sources of motivated beliefs.
+On the supply side, it is the mere act of exploring the price to be gained from cer-
+tain transactions, rather than the price thus revealed or whether the transaction
+is actually "consumed," that destroys the valued belief. In Fershtman, Gneezy,
+and Hoffman (2011), the benefit of taboo contemplation is also the option value
+of finding out that one might benefit (on net) from engaging in a socially repre-
+hensible action. The cost deterring from taboo contemplation, on the other hand,
+is an exogenously assumed function of how many other people are believed to be
+refraining from it.
+
+    39. Unless agents are sufficiently non-Bayesian, or the consumption value of
+beliefs appropriately nonlinear.
+
+    40. The impact of taboos on individual and social welfare will of course
+differ when agents' actions have direct externalities on others (in addition to the
+IDENTITY, MORALS, AND TABOOS  833
+
+V.B. Dealing with Sinners and Saints: Information Destruction
+
+         "Anyone who has violated a taboo becomes taboo himself, because he
+         possesses the dangerous quality of tempting others to follow his ex-
+         ample: why should he be allowed to do what is forbidden to others?
+         Thus he is truly contagious in that every example encourages imita-
+         tion, and for that reason he himself must be shunned."
+
+                                                        (S. Freud, Totem and Taboo, p. 86)
+
+      Consider now a situation where someone has behaved                                    Downloaded from http://qje.oxfordjournals.org/ at Dalhousie University on May 17, 2015
+"immorally"--exhibiting selfishness or, through his words or ac-
+tions, breaking a taboo. How will others respond, and how will
+the violator himself react to such lapses? We seek to understand
+in particular the coexistence of social and antisocial punishments:
+in some cases people ostracize (or even incur personal costs to
+hurt) the less virtuous, and in others the more virtuous, mem-
+bers of their group (Monin and Miller 2001; Jordan and Monin
+2008; Monin, Sawyer, and Marquez 2008; Herrmann, Thoeni, and
+Ga¨ chter 2008).
+
+      Our analysis builds on a simple benchmarking idea: in assess-
+ing what kind of a person they are, people compare themselves to
+others who they feel are akin to them or face a similar environ-
+ment. "Deviant" behavior by peers ( a0 = 0) sends a negative signal
+about the value of the existing capital stock (anticipatory utility
+version) or that of motivation-sensitive future investments (im-
+perfect willpower version). Thus, members of a religious, ethnic
+or national community who are not fully supportive of its posi-
+tions or mingle with outsiders undermine others' sense of commit-
+ment to (belief in) the common value. If the lapsed individual is
+oneself, on the other hand, it is good behavior by peers that is now
+threatening to the self-concept, as it takes away potential excuses
+involving situational factors or moral ambiguity. In either case,
+the exclusion of mavericks from the group suppresses the unde-
+sirable reminders created by their presence: "out of sight, out of
+mind." That is, exclusion lowers .
+
+      The Person and the Situation.41 Consider the two-agent gener-
+alization of the basic model that is illustrated on Figure III. The
+
+informational spillovers on which we focus here). Dessi (2008) analyzes the role
+of indoctrination by a benevolent principal in such public-goods contexts and
+Be´nabou (2009) the contagiousness of beliefs, as well as responses to dissent.
+
+    41. We borrow here from the title of Ross and Nisbett's (1991) classical book in
+social psychology.
+                                Downloaded from http://qje.oxfordjournals.org/ at Dalhousie University on May 17, 2015
+
+QUARTERLY JOURNAL OF ECONOMICS         FIGURE III
+                                The Ostracism Game
+
+834
+      IDENTITY, MORALS, AND TABOOS                                    835
+
+first new element is that, with ex-ante probability , there is a               Downloaded from http://qje.oxfordjournals.org/ at Dalhousie University on May 17, 2015
+valid "excuse" for not behaving in an identity-congruent manner.
+To keep with our main example, this corresponds to a situation
+where choosing a0 = 1 is useless--perhaps even harmful--to the
+rest of society, or where the private cost is so high that even the
+most moral types (H) would choose a0= 0. With probability 1-, on
+the other hand, the action a0 = 1 is socially beneficial, so perform-
+ing it can be a sign of valuing others. Formally, for an individual
+with altruism type k = H, L, the return in terms of relational cap-
+ital is now r0k = vk, where  = 1 when the action is useful to others
+and   0 when it is not. In the former case the net costs involved
+are still cH0 < cL0 ; in the latter, they are ~c0H  ~c0L, reflecting the fact
+that a more prosocial agent is less inclined to engage in a socially
+harmful action.
+
+         The second new element is that the two agents, after ob-
+serving each other's action, decide whether tocontinue in the rela-
+tionship ( yi = 0) or tobreak it ( yi = 1) . If either leaves, both lose the
+benefit b of future interactions, which we take tobe symmetricand
+type-independent for simplicity. To allow for ex-post rationaliza-
+tions as to why the separation occurred, we assume that matches
+also dissolve for independent reasons, with exogenous probability
+. Agent i's utility function is thus:
+
+(19)  ( vi - ci0) a0i + V( vi, vi, A0 + r0ai0) + ( 1 - ) ( 1 - y) b,
+
+where y  1 - ( 1 - yi) ( 1 - yj) is the probability that ostracism
+occurs.
+
+         At date 1, each agent always remains aware of his own
+behavior a0i , but he recalls (or is reminded of) that of his part-
+ner only if they are still together. If a split occurred, he recalls
+neither aj0 nor what caused the separation. The idea is that,
+whereas what one did is "hard" data that is relatively easy to re-
+member and verify, the past behavior of someone with whom con-
+tact has ceased and the true reasons why the split occurred rep-
+resents softer, less verifiable information. And it is always more
+pleasant, ceteris paribus, to "recall" whatever scenario is the most
+kind to one's self-image. These no-recall assumptions are extreme
+and meant only to simplify the derivations. All that is needed for
+the results is that ostracism reduces the probability that people
+are reminded of the bad news conveyed by their peers'
+behavior.
+
+      We allow for two polar forms of benchmarking:
+836  QUARTERLY JOURNAL OF ECONOMICS
+
+      Benchmarking on the Person. In this version the date-0 con-                     Downloaded from http://qje.oxfordjournals.org/ at Dalhousie University on May 17, 2015
+tribution is always socially useful (  1), as has been assumed
+so far; equivalently, there is never any excuse for not supplying
+it. Moreover, the two individuals' values are perfectly correlated:
+v1 = v2  {vH, vL}.
+
+      Benchmarking on the Situation. In this version, the two types
+are independent, but the social usefulness ( = 1, with probability
+) or absence thereof (  0, with probability 1 - ) of the date-
+0 contribution is situation-specific, and the same for both agents.
+When faced with a given situation agents are able to assess ,
+but later on it, too, is subject to imperfect recall (or self-serving
+memory distortion) with probability 1 - .
+
+      We shall focus on symmetric equilibria (in undominated
+strategies) in which the more altruistic type always invests
+when  = 1 and no one invests when   0 (either  is sufficiently
+negative, or  = 0 and the value of self-image is low enough).42
+
+PROPOSITION 5. In an equilibrium such that the H type invests
+when it is socially useful ( = 1), let x  [0, 1] denote the probability
+of investment by the L type.
+
+     1. Ostracism (y = 1) occurs only when actions differ, i.e. one
+         agent invests and the other not.
+
+     2. Ostracism comes from the virtuous agent (aj0 = 1) when
+         benchmarking is on the person and from the unvirtuous
+         one (ai0 = 0) when benchmarking is on the situation.
+
+     3. With both the AU/SE and SC specifications and under ei-
+         ther type of benchmarking, there exists a (positive
+         -measure) range of parameters such that both x = 1 and
+         x = 0 are equilibria:
+
+                 a. When benchmarking is on the person, x = 1 is sus-
+                     tained by the ostracism of "sinners" (a prosocial
+                     norm), while x = 0 involves no ostracism.
+
+                 b. When benchmarking is on the situation, x = 0 is
+                     sustained by the ostracism of "do-gooders" (an an-
+                     tisocial norm), while x = 1 involves no ostracism.
+
+      The first result shows howa value of social conformity (strate-
+gic complementarity) arises endogenously from individual
+
+    42. These two restrictions on the set of equilibria we consider are respectively
+ensured by conditions (C.22) and (C.11) in Appendix I.
+IDENTITY, MORALS, AND TABOOS  837
+
+concerns over self -image, as these give each agent an incentive to                   Downloaded from http://qje.oxfordjournals.org/ at Dalhousie University on May 17, 2015
+exclude those who act differently from him. The second result
+captures the idea that discordant actions are threatening to a
+person's self-concept when the individuals involved are similar
+to him, either in their personal characteristics (religion, ethnic-
+ity, occupation, etc.) or in the social environments they face (e.g.,
+country and its level of development). Accordingly, the harshest
+moral condemnations and punishments are reserved for deviant
+"insiders."43
+
+      Result 2 also allows us to understand not only the standard
+findings that free-riders in public-good games get punished (e.g.,
+Fehr and Ga¨ chter 2000), but also the more puzzling phenomenon
+of derogation, resentment and even punishment of those who ex-
+hibit stronger moral principles or contribute "too much" to pub-
+lic goods (e.g., Monin and Miller 2001 and other previously cited
+references). The mechanism involved, moreover, is very much in
+line with Monin's interpretation of these behaviors as ego-
+defense mechanisms in response to threatening social compar-
+isons in the moral domain.
+
+      The proposition's last set of results, finally, sheds light on
+cross-society-differences in civic norms and how they are enforced.
+Herrmann, Thoeni, and Ga¨ chter (2008) find a significant positive
+(respectively, negative) correlation across countries between the
+extent of social (respectively, antisocial) punishment by subjects
+in public-goods experiments, and national survey responses on
+both: (a) citizens' lack of tolerance for tax evasion, welfare fraud
+and other cheating behaviors and (b) their trust in other people's
+adherence to the rule of law and in local institutions' enforcement
+of it.
+
+                         VI. FURTHER APPLICATIONS
+
+VI.A. Other Dimensions of Identity
+      Having so far focused on prosocial identity as the main ex-
+
+ample, we now relate the model's results to evidence on how other
+dimensions of people's self-concept affect their behavior. As in Sec-
+tion IV.B, the different paragraphs each correspond to a specific
+
+    43. For instance, the Catholic Church long imposed excommunication on
+apostates, and tortured and executed heretics. The Sharia still prescribes that
+apostates should be put to death, lose their children and their property. For an
+experimental study of the "black sheep effect," see, e.g., Branscombe et al. (1993).
+838  QUARTERLY JOURNAL OF ECONOMICS
+
+result in Proposition 2 for the positive ones, or Propositions 3­4                    Downloaded from http://qje.oxfordjournals.org/ at Dalhousie University on May 17, 2015
+for the normative ones.
+
+      Salience of Identity. Messages or cues that make specific com-
+ponents of a person's identity more salient elicit investments along
+the same dimensions. LeBoeuf, Shafir, and Bayuk (2010) thus find
+that even minor manipulations emphasizing alternative aspects
+of subjects' self-concept, such as scholar versus socialite, or ethnic
+Chinese versus American citizen, trigger identity-consistent ex-
+pressions of consumption preferences. In experiments with mon-
+etary stakes, Benjamin, Choi, and Strickland (2010) similarly find
+that priming subjects to their ethnic identity causes Asian­
+Americans to make more patient choices, Whites to makes choices
+that are both more patient and less risk averse, and African­
+Americans to make more risk-averse ones.
+
+      A direct economic application of salience manipulation is ad-
+vertising, much of which plays up people's desires to achieve or af-
+firm certain identities--raising s with respect to beauty, wealth,
+or social status. Proposition 3 shows that such messages can be
+very effective in inducing consumers to purchase ( a0 = 1) and yet
+substantially lower overall welfare.
+
+      Uncertain Values and Malleability of Beliefs. People who,
+deep down, are insecure about "who they are" ( in the middle
+range) are the most prone to costly identity-affirming behaviors;
+adolescents are perhaps the prime example. Individuals with sta-
+ble self-knowledge, by contrast, invest only if r0 is large enough to
+justify the cost. In line with this "uncertainty principle," Adams,
+Wright, and Lohr (1996) found that male subjects with strongly
+declared homophobia actually showed the most arousal in
+response to male homoerotic videos (with no difference from oth-
+ers subjects for heterosexual or female homoerotic materials).
+
+      Escalating Commitment. The more identity-relevant capital
+they have, the more identity-affirming investment people will
+make, thereby raising the stock even further.44 Intuitively,
+
+    44. This result is not due toany increasing returns in investment: in our model,
+r0 and c0 are independent of A0. Instead, it reflects the fact that people with more
+at stake have a higher demand for optimistic beliefs (implying V23 > 0) , an idea
+that has substantial empirical support. Pyszczinsky [1982] found that lottery par-
+ticipants rated the prize as more desirable, the greater their perceived chance of
+winning it. Kay, Jimenez, and Jost (2002) found similar outcomes among political
+partisans for electoral outcomes and among students for changes in tuition. In the
+health domain, Kunda (1987) found that a purported scientific article about the
+IDENTITY, MORALS, AND TABOOS  839
+
+someone with more A0 has a greater vestedinterest in viewing this                   Downloaded from http://qje.oxfordjournals.org/ at Dalhousie University on May 17, 2015
+asset as valuable, and further investment is the way to demon-
+strate such beliefs--in accordance with the psychology literature
+on self-justification. A manager will thus keep throwing good
+money after bad on a doomed project, as in the experiments of
+Staw (1976). A farmer faced with adverse market signals may ob-
+stinately refuse to quit rather than admit that his efforts and sac-
+rifices (or those of his parents) have been in vain. Others will keep
+accumulating wealth, professional achievements, political or reli-
+gious activism, not so much for the marginal product of the later
+investments but to preserve the perceived value of earlier ones--
+that is, to safeguard the belief, true or false, that these assets will
+bring happiness (or forestall misery) over the course of their life-
+time, or a favorable fate in some hereafter.
+
+      Responses to Identity Threats and Boosts. Because equilib-
+rium investment is (qualitatively) hill-shaped in the strength of
+identity  (see right panel of Figure II), manipulations of strong
+and weak self-images in the same direction tend to have opposite
+effects.
+
+     1. Threatening a strong identity triggers a fighting response.
+         In Maas, Cadinu, Guarnieri, and Grasselli (2003), male
+         subjects who were told by the experimenters that their
+         score on a personality test was so atypical as to place them
+         squarely in the female part of the distribution were
+         subsequently much more likely than the control group to
+         harass a female (but not a male) chat-line user, by send-
+         ing her pornographicimages. This effect was further accen-
+         tuated when she (a confederate) had previously described
+         herself as a professionally ambitious feminist rather than
+         a meek, family oriented traditionalist. It was also more
+         pronounced, the more the subjects had initially self-rated
+         themselves as masculine.
+
+     2. Questioning a weak identity tends to induce confirmatory
+         rather than opposing responses. Consider, for instance, the
+         debilitating impact of "stereotype threat" on test perfor-
+         mance (Steele and Aronson 1995). A stereotype of female
+
+increased risk of breast cancer from coffee was judged less credible (among female
+but not male subjects) by coffee-drinkers than by noncoffee drinkers. Best known
+is the "Stockholm syndrome," in which hostages come to see their captors in a fa-
+vorable light, most plausibly so as to maintain hope that they will not harm them.
+840   QUARTERLY JOURNAL OF ECONOMICS
+
+      or African­Americans students as having a lower distribu-                  Downloaded from http://qje.oxfordjournals.org/ at Dalhousie University on May 17, 2015
+      tion of comparative mathematical abilities than their male
+      or White and Asian counterparts means precisely that so-
+      ciety places a lower probability on their being a high type
+      (with vk now representing ability rather than taste, or a
+      combination of both). Making gender or race subtly more
+      salient before a test reminds these subjects of this wide-
+      spread statistical perception and thus (consciously or un-
+      consciously) lowers their self-confidence. The equilibrium
+      response to this decrease in  is (on average) to discour-
+      age academic-identity investment--in this case, effort and
+      motivation to perform on the test.
+
+VI.B. Extensions of the Basic Model
+
+      Wishful Thinking and Procrastination: Entrepreneurial Ver-
+sus Precautionary Behaviors. When does the desire to indulge in
+hopeful thoughts and avoid frightening ones aggravate the self-
+control problem, and when does it alleviate it? To answer this
+question, we combine the AU and SC specifications and allow for
+type-dependent returns r1( v) in investment. For an agent with
+self-view ^  [0, 1], the marginal expected utility of investment at
+t = 1 is then
+
+(20)  ^vHr1( vH) + ( 1 - ^) vLr1( vL).
+
+More optimistic beliefs enhance savoring of the existing stock
+(raising v^A1), but whether they induce higher investment or
+"coasting" hinges on whether z1( v)  vr1( v) rises or falls with
+v, bringing to light an important dichotomy between situations in
+which identity and effort are complements or substitutes.45
+
+     1. Wealth accumulation, status-seeking, and other entrepre-
+         neurial behaviors (complementarity). When z1( v) is increas-
+         ing, wishful thinking (raising ^) alleviates the motivation
+         problem, if there is one; otherwise, it only results in ex-
+         cessive activism. This case occurs for instance if r1 is type-
+         independent (financial assets), or if v corresponds to some
+         ability that raises both the probability of winning in a com-
+         petitive situation and the expected value of the prize.
+
+    45. See Appendix II for details, including the value function corresponding
+to Equation (20).
+IDENTITY, MORALS, AND TABOOS  841
+
+    Unrealistic dreams of riches and glory--and of how enjoy-                   Downloaded from http://qje.oxfordjournals.org/ at Dalhousie University on May 17, 2015
+    able those will be--thus propel entrepreneurs, explorers
+    and athletes to sacrifices and persistence in the pursuit of
+    long-term endeavors.
+
+2. Health investments, safe driving and other risk-prevention
+    behaviors (substitutability). In those cases z1( v) is decreas-
+    ing. A favorable geneticendowment thus protects from dis-
+    ease and makes taking care of one's health less of a
+    necessity; good driving skills and reflexes permit driving at
+    faster speeds. Wishful thinking--understating the likeli-
+    hood of illness, accident, or death--then makes the present
+    more enjoyable but further encourages negligent and risky
+    behaviors that are precisely those to which weakness of
+    will already makes one too tempted to succumb.
+
+      Disappointment Aversion. Beyond self-esteem and anticipa-
+tory utility, many other forms of "mental consumptions"(Schelling
+1985) can be incorporated into the model. For instance, while an-
+ticipatory utility creates a demand for optimistic beliefs, the fear
+of being disappointed when final outcomes are realized generates
+an opposing incentive to maintain low expectations ("defensive
+pessimism"). This corresponds to a period-2 payoff of the form
+D(( v - v^) A1), where D is increasing, concave and satisfies aux-
+iliary assumptions listed in Appendix II.
+
+      Social Signaling. In addition to their self-image v^, people also
+care about others' perceptions v^ of their type, resulting in a con-
+tinuation value of the form V( v, v^, A1, v^ ) . Since others make in-
+ferences from observedbehavior, adding a social signaling concern
+is akin to amplifying the self-image motive, so the entire analysis
+carries over (see again Appendix II).46
+
+VI.C. Competing Identities and Dysfunctional Behavior
+
+      We saw in Section III.B how the single-asset model can be
+interpreted as representing a tradeoff between two identity di-
+mensions, A and B, whose relative value is uncertain and which
+are subject to resource or time rivalry at the investment stage. We
+analyze here a different kind of identity conflict, consumption ri-
+valry, and show it can lead to highly dysfunctional behaviors.
+
+    46. On social signaling see, e.g., Bernheim (1994) and Be´nabou and Tirole
+(2006b).
+842  QUARTERLY JOURNAL OF ECONOMICS
+
+      When time, geographical, legal or other exclusivity                Downloaded from http://qje.oxfordjournals.org/ at Dalhousie University on May 17, 2015
+constraints (such as national or religious affiliation) create a
+potential tradeoff between reaping the future benefits from two
+identities, investing in one (say, B) inevitably damages the other
+(A), as it suggests that the individual may not value it that much.
+If he has substantial capital vested in A but the ultimate value of
+this identity is less "secure" than that of B, he may then refrain
+from even highly desirable investments in B and end up worse
+off as a result. We demonstrate this mechanism using anticipa-
+tory utility or self-image, then discuss the more general case. We
+also make simplifying assumptions under which A can be inter-
+preted as the "traditional identity" and B as the "modern" one--for
+instance, in the context of farmers and workers faced with glob-
+alization and technical change or that of immigrants confronting
+the issue of integration.
+
+      Modern Identity. At t = 0, the agent decides whether to invest
+in B (b0 = 1), at a cost cB, type-independent for simplicity: acquir-
+ing new skills, mastering a new language and culture, socializ-
+ing with an unfamiliar group, etc. The investment succeeds with
+probability  ( 0, 1) , in which case B0 rises to B1 = B0 + b0rBs it
+fails with probability 1 -  (B1 = B0), for instance because this is a
+new activity to which the agent may not be suited. The (per unit)
+value of B capital, on the other hand, is a known vB. For instance,
+the monetary benefits of successfully integrating into the formal,
+majority-dominated labor market, of acquiring a degree or work-
+ing in the more dynamicsectors of the economy, are relatively easy
+to assess.
+
+      Traditional Identity. There is no possibility of investment in
+A at t=0. Thus A0 corresponds either toa fixed trait (e.g., ethnicity)
+or to an asset that was accumulated in the past but can no longer
+be significantly augmented: long-held skills, connections to "the
+old country", etc. Furthermore, the hedonic value of this stock
+is uncertain, since its benefits are of a more subjective and less
+quantifiable nature than, say, those of a wage premium: strength
+of personal values and commitments, long-run utility from fam-
+ily, morals, culture, religion, etc. Thus vA equals vH or vL, with
+probabilities  and 1 - .
+
+      The timing is the same as before. At date 0, the agent receives
+the signal vA, then chooses b0  {0, 1}. At date 1, he recalls vA with
+probability  (v^A = vA) , and otherwise looks to his past actions to
+form his sense of identity ( v^A = v^( b0)) . At date 2, he is aware of
+      IDENTITY, MORALS, AND TABOOS         843
+
+vA (one could allow for uncertainty here as well) and, assuming
+full rivalry, chooses optimally between consuming either A or B,
+thus achieving max{vAA2, vBB2}. To focus on the interesting case,
+suppose that:
+
+     1. Ex post, the agent will consume B only if he had success-
+         fully invested in it,
+
+(21)  vBB0 < vLA0 < vHA0 < vB (B0 + rB),                               Downloaded from http://qje.oxfordjournals.org/ at Dalhousie University on May 17, 2015
+
+    so that A serves as a "fallback" or insurance option;
+
+2. Ex ante, the expected return from investing in B is suffi-
+    ciently high that, when beliefs are not malleable (the "ob-
+    jective" case where  = 1), such investment is optimal even
+    for agents who value A the most:
+
+(22)   (s + ) [vB (B0 + rB) - vHA0] > cB.
+
+When self-perception concerns are operative, however, both types
+will fail to make this efficient investment, as long as
+
+(23)  (s + ) [vB (B0 + rB)-vLA0] -( 1-) s (1-) (v-vL) A0 < cB.
+
+The first term is the standard economic return to investing, for
+an agent with relatively low valuation for A. The second term rep-
+resents the loss of identity that is incurred (by either type) when
+doing so: with probability 1 -  such "betrayals" will signify to the
+individual that he does not care that much about A, and therefore
+has only grim prospects to look forward to in case his investment
+in B does not work out.
+
+      On average, such affect-driven identity management ends up
+lowering personal welfare, as in the single-identity case. While
+the value function is now nonlinear, making the analysis more
+complicated, one can exploit the basic intuition that not investing
+in B is effectively like investing in A, toshowthat all the preceding
+results apply here as well.
+
+PROPOSITION 6. Assume the anticipatory-utility (AU) specifica-
+      tion, with Equations (21)­(22).
+
+     1. The individual invests (weakly) less in a known identity
+         (B) when it will compete in the future with another one (A)
+         of uncertain value.
+844  QUARTERLY JOURNAL OF ECONOMICS
+
+     2. This is more likely to happen the higher are A0, 1-  and s,                   Downloaded from http://qje.oxfordjournals.org/ at Dalhousie University on May 17, 2015
+         and it is always welfare reducing.
+
+      These results relate to some important social and economic
+issues.
+
+      Resistance to Structural Change. Trade and technical change
+alter the relative payoffs to working in the modern, international
+sector and in traditional activities. The transition, which is risky
+and requires new skills and lifestyles, will be resisted if it is seen
+as de-valuing the old (rural, extended-family, blue-collar, etc.)
+identity, to which one might need to return one day.
+
+      Resistance to Assimilation. Immigrants andtheir descendents
+experience strong tensions between integrating into Western so-
+cieties and preserving their specific culture. This is particularly
+acute for the young, who are locally born and have citizenship but
+often do not feel British, German, or French. Yet neither do they
+feel Pakistani, Turkish, or Algerian, having little knowledge of the
+"old country" or its language. As seen earlier, it is in situations of
+uncertainty over one's own values that identity threats and in-
+vestments become most relevant.47 Laws and proposals such as
+the French ban on the veil or the Home Secretary's [2001] urging
+that newcomers adopt British "norms of acceptability," take an
+oath of allegiance and embrace "our laws, our values, our institu-
+tions" then elicit significant opposition from those whose who feel
+that complying would represent a betrayal of their own culture
+or religion.48 Conversely, native populations feel that the values
+and traditions they "believe in" (religious, secular, political, etc.)
+are undermined by visible displays of adherence to other cultures
+among newcomers, and especially their locally-born descendants.
+
+      In a related vein, it has been suggested that low educational
+achievement among African­Americans students may partly re-
+flect a desire to maintain an oppositional ethnic identity.
+Austen-Smith and Fryer (2005) offer a model of "acting White"
+
+    47. The results in Proposition 6 on the effects of A0 and  are also consis-
+tent with the findings by Constant, Gataullina, and Zimmermann (2009) that,
+among immigrants to Germany, the probability of assimilation decreases with age
+at arrival and with having had primary or secondary schooling in the country of
+origin.
+
+    48. Hoge (2002). Here again, self-perceived intentions matter: infiltrated mem-
+bers of an extremist organization feel much less conflict in submitting to such re-
+quirements, pledges, dress codes, etc., because they know that their doing it really
+signals commitment to, rather than abandonment of, their chosen values.
+IDENTITY, MORALS, AND TABOOS  845
+
+in which some minority students forsake educational investment                         Downloaded from http://qje.oxfordjournals.org/ at Dalhousie University on May 17, 2015
+in order to signal loyalty to their peers. The idea there is a dif-
+ferent one, namely that having demonstrably low labor market
+prospects makes one less likely to leave when called upon to "give
+back to the community" in the future.49
+
+      Destructive Identity, Discrimination, and Communitarianism.
+Not investing in B in order to safeguard beliefs about the value
+of A can also mean actively destroying productive B capital. This
+corresponds in the model to the case where cB < 0, so that the
+costly action is now one that reduces B or prevents it from grow-
+ing (b0=0). In the events that shook the suburbs of French cities in
+2005, for instance, young rioters attacked and destroyed
+a number of schools, nursery schools and cars in their own com-
+munities.
+
+      It is also interesting to note two factors that can "tip" the
+equilibrium from one in which people optimally invest in B to
+one in which they self-defeatingly destroy those assets (i.e., af-
+fecting Equation (23) while leaving Equations (21) and (22) un-
+changed). The first is a lower perceived chance of success in those
+investments ( ) or the associated payoff ( rB). Thus, if minority
+youth become more pessimistic about their chances of mobility
+through education, or perceive that even with diplomas the jobs
+to which they can aspire will be low-paying ones, they will switch
+to the destructive-identity scenario, even when  and rB remain
+high enough that investing in B (education, integration) would
+still make them better off in the long run. A second potentially
+important factor is the salience s of the "alternative" A identity
+and the benefits anticipated from it--as with advertising in the
+single-identity case. This is where ideological or religious indoc-
+trination may come into play, as well as the amplification mecha-
+nism of media coverage.
+
+      While we have focused here on the anticipatory-utility or self-
+image case, which is somewhat simpler and seems more appropri-
+ate to the applications just discussed, similar insights apply when
+
+    49. In our case, the (stochastic) returns to education are common knowledge
+and there is no incentive to deceive others. Instead, the individual wants to
+sincerely believe, and thus tries to convince himself, that his community is very
+valuable to him--instead of his being valuable to them. Moreover, since this mech-
+anism does not involve any community enforcement of membership "payments"
+through the expulsion of defectors, the relevant community or identity capital can
+be far away, uncoordinated, or even virtual (e.g., native country, culture, religious
+faith).
+846  QUARTERLY JOURNAL OF ECONOMICS
+
+the demand for identity stems from a commitment problem. If the       Downloaded from http://qje.oxfordjournals.org/ at Dalhousie University on May 17, 2015
+individual expects sufficient temptation to underinvest in A rel-
+ative to B at t = 1, he will not invest in B at t = 0 even if it has
+a high return, and may even destroy B capital. Such a strategy
+serves not as a physical commitment (investment costs and re-
+turns are independent of the stocks) but as a cognitive one, aimed
+at defining oneself as an A-person rather than a B-person. From
+Proposition 4 we know that welfare may go up in this case, but
+need not.
+
+                                VII. CONCLUSION
+
+      We examinedin this paper howmoral identity shapes individ-
+ual and collective behavior. More generally, we developed a sim-
+ple, flexible framework for analyzing a broad class of economically
+important beliefs which people value and invest in. The model
+also offers a unified account of many seemingly disparate or con-
+tradictory findings by psychologists and experimental economists.
+Others, such as endowment effects, could easily be obtained (see
+Gottlieb 2010).
+
+      Rather than restate here the paper's results, we will single
+out two interesting avenues for further research which they point
+to. The first one is that of sacred values and taboos, where our
+framework offers a way of bringing the debate over markets and
+morals into the realm of formal analysis. The second one concerns
+the role, in bargaining and other distributive conflicts, of self-
+serving beliefs linked to pride and dignity concerns. In Be´nabou
+and Tirole (2009), these are shown to reduce the range of
+sustainable sharing agreements and, beyond a point, inevitably
+cause a bargaining impasse in spite of fully symmetric informa-
+tion. Many interesting questions remain toexplore along this line,
+such as the optimal design of contracts and organizations or the
+political economy of reforms when agents have motivated
+beliefs.
+
+     APPENDIX I: MAIN PROOFS
+
+Proof of Proposition 1.
+
+    The difference between the two types' incentives to invest in
+Equation (12) is
+                       IDENTITY, MORALS, AND TABOOS                          847
+
+                   vH  A0+r0                           v(1)
+
+(24)                          V13 (x, v (1) , z) dz +        V12 (x, y, A0) dy dx +
+
+                  vL   A0                              v(0)
+
+c0L - c0H.
+
+If V12 = 0 (as with anticipatory utility) then  > 0, so any equi-                    Downloaded from http://qje.oxfordjournals.org/ at Dalhousie University on May 17, 2015
+librium must have xL (1 - xH) = 0. When V12 > 0 the same holds
+provided v^( 1)  v^( 0), but since those beliefs are endogenous we
+must make monotonicity a requirement. The possible equilibrium
+configurations are then:
+
+1. No investment: xH = xL = 0, hence, v^( 0) =v and v^( 1) =vH,
+    with
+
+(25)                       V (vH, v, A0)  V (vH, vH, A0 + r0) - cH0 .
+
+2. Randomization by vH: 1 > xH > xL =0, hence, v^( 1) = vH and
+    vL < v^( 0) < v, with
+
+                       V (vH, v^ (0) , A0) = V (vH, vH, A0 + r0) - cH0 .
+
+3. Separation: 1 = xH > xL = 0, hence, v^( 1) = vH and v^( 0) = vL,
+    with
+
+(26)                       V (vH, vL, A0)  V (vH, vH, A0 + r0) - cH0 ,
+
+(27)                       V (vL, vL, A0)  V (vL, vH, A0 + r0) - cL0 .
+
+4. Mixing by vL: 1 = xH > xL > 0, hence, v^( 0) =vL and v <
+    v^ (1) < vH, with
+
+(28)                       V (vL, vL, A0) = V (vL, v^ (1) , A0 + r0) - c0L.
+
+5. Full investment xH = xL = 1, hence, v^( 0) =vL and v^ (1) = v,
+    with
+
+(29)                       V (vL, vL, A0)  V (vL, v, A0 + r0) - c0L.
+
+    We can first rule out equilibria of type (2), in which type H ran-
+domizes: since V2 > 0, the no-investment equilibrium alsoexists if
+an equilibrium of type (b) exists. Furthermore, since V (v, v, A0) >
+V (v, v^ (0), A0) for all v, both types are better off in the
+no-investment equilibrium, so we can apply the Pareto criterion
+in order to select the no-investment pooling equilibrium. For the
+same reason, we can rule out the separating equilibrium (type (c))
+whenever it coexists with the no-investment equilibrium (type (a)).
+848       QUARTERLY JOURNAL OF ECONOMICS
+
+    We now show that there exists a unique equilibrium, which               Downloaded from http://qje.oxfordjournals.org/ at Dalhousie University on May 17, 2015
+
+involves no investment when Equation (25) holds and, when this
+
+condition fails, separation, randomization by vL or full investment,
+depending respectively on whether Equations (26)­(27), (28), or
+
+(29) hold.
+    If V( vH, vL, A0)  V( vH, vH, A0 + r0) - cH0 , it is a dominant strat-
+
+egy for both types not to invest, so xH = xL = 0 for all , or equiva-
+lently   0.
+
+    Assume now that V (vH, vL, A0) < V(vH, vH, A0 + r0) - cH0 . Be-
+cause v vL for  small, the no-investment regime (1) cannot
+prevail for  small. More generally, it obtains if and only if   ,
+
+where  > 0 is defined by
+
+(30)      V( vH, vH + ( 1 - ) vL, A0)  V( vH, vH, A0 + r0) - c0H
+
+if this equation has a solution in ( 0, 1) and to 1 otherwise. For
+ <  we have xH = 1 from the previous taxonomy and the Pareto-
+dominance assumption.
+
+    If Equation (27) holds, the equilibrium is separating: xH = 1
+and xL = 0. By contrast, if V( vL, vL, A0) < V( vL, vH, A0 + r0) -c0L,
+the L type must invest with positive probability. If Equation (29)
+holds there can be no solution to Equation (28) with xL < 1, so the
+only equilibrium is full investment on [0, ) . If Equation (29) is
+reversed, on the other hand, it involves mixing: by Equation (10),
+
+(31)      v^( 1) =                    +    (1  - ) xL    vL,
+                     + ( 1 - ) xL vH       +(  1 - ) xL
+
+and by Equation (28) this expression must be independent of .
+Thus, xL = (  - 1) /( 1/ - 1), where   1/^( 1) > 1 is also a con-
+stant. If (  - 1) /( 1/ - 1) < 1, then the L type mixes over all of
+[0, ]; if (  - 1) /( 1/ - 1)  1, define ~ by (  - 1) ~/( 1 - ~)  1 or,
+equivalently,
+
+(32)      V (vL, vL, A0) = V (vL, ~vH + ( 1 - ~) vL, A0 + r0) - cL0 ,
+
+implying ~ > 0 by Assumption 4. Then xL ( 0, 1) for 0 <  < ~
+and xL = 1 for   ~.
+
+Proof of Proposition 2.
+
+      1.  a. When  decreases, each type's incentive to invest,
+
+          V( v, v^( 1) , A0 + r0) -V( v, v^( 0) , A0) increases: by
+IDENTITY, MORALS, AND TABOOS                        849
+
+(11), its derivative with respect to 1 -  is
+
+V( v, v^( 1) , A0 + r0) -V( v, v, A0 + r0) +V( v, v, A0)
+
+- V( v, v^( 0) , A0) ,
+
+which exceeds  ^v(1)  V2( v,  x,  A0) dx  >  0  if  either  v  =
+               ^v(0)
+
+vL (by the assumption V23  0) , or if v = vH and
+
+v^( 1) = vH. Since the full-investment region (e) and
+
+the mixing region (d) are both governed by type L's
+
+incentives, the first case implies that as 1 -  in-                      Downloaded from http://qje.oxfordjournals.org/ at Dalhousie University on May 17, 2015
+
+creases region (e) expands and xL decreases in re-
+gion (d). The second case implies that the
+
+no-investment region (a) shrinks.
+
+b. It is easily verified from Equations (30), (31), and
+    (32) that a decrease in cH0 increases  while a de-
+    crease in c0L decreases ~ and reduces v^( 1) in the
+    mixing region, thus increasing xL. Thus, invest-
+
+    ment unambiguously increases.
+
+c. and d. In the AU case,
+
+V( v, v^( 1) , A0 + r0) -V( v, v^( 0) , A0)
+      = s [vr0 + [v^(1) ( A0 + r0) -v^(0) A0] + vr0
+
+               rises with s and A0. The rest of the proof follows
+               the steps of part (i).
+2. The result is obvious when xL( ~) = 0 (separating equilib-
+    rium), since xL( )  0 in that case. When xL( ~) > 0 (equi-
+    librium with randomization), it follows from the fact that
+    v (1) and therefore ^( 1) = / [ + ( 1 - ) xL( ) ] must remain
+    constant over [0, ~].
+
+Proof of Proposition 3
+
+    Consider Equation (13): if (s + ) vLr0  cL0 , it is a dominant
+strategy for both types to invest, so xH = xL = 1 and changes in  do
+not affect behavior, nor W. If (s + ) vLr0 < c0L and (s + ) vHr0 < c0H,
+then clearly W decreases with both xH and xL; a decrease in  can
+therefore only (weakly) lower welfare. Finally, when (s + ) vHr0 -
+cH0  0 > (s + ) vLr0 - cL0 , type H always invests (xH = 1); hence
+ can only affect xL, and any increase in xL reduces welfare since
+cL0 > 0. The proof for small changes in A0 aroundthe no-investment
+threshold (given by Equation (14)) is similar, since the direct ef-
+
+fect on the last term in Equation (13) is infinitesimal, whereas the
+
+jump in xH (and possibly xL) is discrete.
+850   QUARTERLY JOURNAL OF ECONOMICS
+
+Proof of Proposition 4
+
+    We construct an appropriate mixed equilibrium. Choose c1 
+( 0, 1) such that r1v < c1 < r1vH. Next, define v ( v, vH) as
+v  c1/r1 and xL  (0, 1) by
+
+(33)  ^( 1)     = v - vL .
+
+              +( 1 - ) xL vH - vL
+
+Suppose now that F( c1) puts mass 1 on c1; by continuity, the argu-  Downloaded from http://qje.oxfordjournals.org/ at Dalhousie University on May 17, 2015
+ments below will continue to hold when the mass is close enough
+to 1. By construction, the agent invests at t = 1 when v^  v.
+
+As to Equation (33), it means that if the L type mixes at t = 0
+with probability xL, the posterior following a0 = 1 is exactly v,
+inducing a1 = 1 for both types. Next, choose c0H and c0L such that
+mixing with probability xL defined by Equation (33) is indeed the
+
+equilibrium:
+
+(34)  cH0 < r0vH + ( 1 - ) (r1vH - c1)
+(35)      = V( vH, vH, A0 + r0) - V( vH, v, A0) ,
+
+      c0L  r0vL+( 1 - ) (r1vL - c1)
+          = V( vL, v, A0 + r0) - V( vL, vL, A0) .
+
+Compared to the equilibrium that prevails when  = 1, in which
+v^= v always, this yields in E[V] given by Equation (16) a positive
+gain and a loss term equal to zero; hence a positive contribution
+to welfare.
+
+    Turning now to period 0, in order for the equilibrium with  =
+1 to be one where neither type invests in spite of the fact that
+choosing a0 = 1 would be be ex ante efficient for both (making the
+first two terms in Equation (15) positive), if suffices that
+
+(36)  c0L < vLr0 < vHr0 < c0H.
+
+Compatibility with Equations (34)­(35) requires that ( 1 - )
+(r1vH - c1) > 0 and (1-) (r1vL - c1) < (1/ - 1) vLr0, neither
+of which contradicts any other condition.
+
+Proof of Proposition 5
+
+    Since this proof is fairly long, we provide it in an Online
+Appendix.
+      IDENTITY, MORALS, AND TABOOS                                            851
+
+     APPENDIX II: EXTENSIONS AND VARIANTS OF THE MODEL                             Downloaded from http://qje.oxfordjournals.org/ at Dalhousie University on May 17, 2015
+
+A. Disappointment Aversion
+
+    Let S( v, v^, A1)  D( ( v-v^) A1) be part of the agent's date-2 pay-
+off, where D > 0  D and -xD ( x) /D ( x) < 1 for all x. Concavity,
+which means that negative surprises weigh more than positive
+ones, implies S12 > 0, while the elasticity condition ensures that
+S13 > 0 nonetheless. Thus, adding this term into the continua-
+tion value V only reinforces the sorting condition in Assumption
+2, while generating a demand for "defensive pessimism." For V2
+to remain positive, this last effect must not be too strong rela-
+tive to that generated by s1. Alternatively, it could be so strong
+as to make V2 negative everywhere; all that is needed is that
+s1v + D(( v^ - v) A1) be monotonic in v over all feasible values of
+v, v^ and A1.
+
+B. Anticipatory Utility and Procrastination
+
+    Let z1( v)  vr1( v) for all v. Consider now an agent with self-
+viewdefined by v^  [vL, vH], or equivalently ^ ( v^-vL) /( vH -vL) 
+[0, 1]. Denoting ^z1  ^z1( vH) + ( 1 - ^) z1( vL) , the agent invests at
+t = 1 if  (s + ) ^z1  c1, leading to
+
+                                         (s+)^z1
+
+(37)  V( v, v^, A1)  ( sv^ + v) A1 +              [( s+) z1( v)-c1] dF(c1) .
+
+                                      0
+
+  Since ^z1/v^ = [z1( vH) -z1( vL) ] / (vH - vL) , this function satis-
+fies V13 > 0, V23 > 0 if s > 0 and V12 > 0 as long as z1( v) is
+strictly monotonic in v, in either direction. In the case where z1( v)
+is decreasing, one just needs to impose conditions such that V2
+remains positive (over the relevant range).
+
+C. Resource Rivalry
+
+    Taking for simplicity an extreme case of the investment rivalry
+described in Section III.B, suppose that: (a) the agent can invest in
+either A or B ( at = 1 - bt  {0, 1}) , with respective returns rAt, rBt,
+salience sA, sB, and similar notation for other parameters; (b) his
+long-term values are subject to a relative preference shock: vA =
+vA +v/2 and vB =vB -v/2, where v= > 0 with probability  and v=
+- with probability 1-. The model is then essentially isomorphic
+to the basic one, with all variables redefined as differentials. The
+relevant asset is now the row vector A  ( A - B) , so that "a
+higher stock" means a higher A, a lower B or both (with enough
+852  QUARTERLY JOURNAL OF ECONOMICS
+
+parameter symmetry, only the scalar A-B matters, but that need                     Downloaded from http://qje.oxfordjournals.org/ at Dalhousie University on May 17, 2015
+not generally be the case), and similarly for r  ( rAt - rBt) , s 
+( sAt - sBt) , etc.
+
+D. Social Signaling
+    The expected value function playing the role of Equation (11)
+
+is now
+
+           V( v, v^, A1)  V( v, v, A1, v^) + (1 - ) V( v, v^, A1, v^) .
+
+Thus, as long as (v, v^, A1) - V( v, v^, A1, v^) satisfies Assumption 3,
+adding a social signaling concern is akin to amplifying the self-
+signaling motive (from ( 1 - ) V2 to ( 1 - ) V2 + V4), and the whole
+analysis, positive and normative, carries over.
+
+PRINCETON UNIVERSITY, NBER, CEPR, CIFAR, AND IZA
+TOULOUSE SCHOOL OF ECONOMICS
+
+                                    REFERENCES
+
+Adams, Henry E., Lester W. Wright, and Bethany A. Lohr, "Is Homophobia As-
+      sociated With Homosexual Arousal?," Journal of Abnormal Psychology, CV
+      (1996), 440­445.
+
+Akerlof, George A., and William T. Dickens, "The Economic Consequences of Cog-
+      nitive Dissonance," American Economic Review, 72 (1982), 307­19.
+
+Akerlof, George A., and Rachel E. Kranton, "Economics and Identity," Quarterly
+      Journal of Economics, 115 (2000), 716­753.
+
+----­, "Identity and Schooling: Some Lessons for the Economics of Education,"
+      Journal of Economic Literature, 40 (2002), 1167­1201.
+
+----­, "Identity and the Economics of Organizations," Journal of Economic Per-
+      spectives, 9 (2005), 9­32.
+
+Austen-Smith, David, and Roland G. Fryer, Jr., "An Economic Analysis of
+      `Acting White'," Quarterly Journal of Economics, 120 (2005), 551­583.
+
+Basu, Kaushik, "Identity, Trust and Altruism: Sociological Clues to Economic De-
+      velopment," Cornell University, Mimeo, 2006.
+
+Battaglini, Marco, Roland J.M. Be´nabou, and Jean Tirole, "Self-Control in Peer
+      Groups," Journal of Economic Theory, 123 (2005), 105­134.
+
+Baumeister, Roy F., Identity: Cultural Change and the Struggle for Self (Oxford:
+      Oxford University Press, 1986).
+
+Bem, Daryl J., "Self-Perception Theory," in Advances in Experimental Social Psy-
+      chology, 6, Leonard Berkowitz, ed. (New York: Academic Press, 1972).
+
+Be´nabou, Roland J.M., "Groupthink: Collective Delusions in Organizations and
+      Markets," NBER Working Paper 14764, 2009.
+
+Be´nabou, Roland J.M., and J. Tirole, "Self Confidence and Personal Motivation,"
+      Quarterly Journal of Economics, 117 (2002), 871­915.
+
+----­, "Willpower and Personal Rules," Journal of Political Economy, 112 (2004),
+      848­886.
+
+----­, "Belief in a Just World and Redistributive Politics," Quarterly Journal of
+      Economics, 121 (2006a), 699­746.
+
+----­, "Incentives and Prosocial Behavior," American Economic Review, 96
+      (2006b), 1652­1678.
+
+----­, "Over My Dead Body: Bargaining and the Price of Dignity," American Eco-
+      nomic Review, Papers and Proceedings, 99 (2009), 459­465.
+IDENTITY, MORALS, AND TABOOS  853
+
+Bernheim, B. Douglas, "A Theory of Conformity," Journal of Political Economy,          Downloaded from http://qje.oxfordjournals.org/ at Dalhousie University on May 17, 2015
+      102 (1994), 842­877.
+
+Bernheim, B. Douglas, and Raphael Thomadsen, "Memory and Anticipation," The
+      Economic Journal, 115 (2005), 271­304.
+
+Benjamin, Daniel J., James J. Choi, and A. Joshua Strickland, "Social Identity and
+      Preferences," American Economic Review, 100 (2010), 1913­1928.
+
+Bodner, Ronit, and Drazen Prelec, "Self-signaling and Diagnostic Utility in Every-
+      day Decision Making," in The Psychology of Economic Decisions. 1: Rationality
+      and Well-being, Isabelle Brocas and Juan D. Carrillo, eds. (New York: Oxford
+      University Press, 2003).
+
+Branscombe, Nyla R., Daniel L. Wann, Jeffrey G. Noel, and Jason Coleman,
+      "In-Group or Out-Group Extremity: Importance of the Threatened
+      Social Identity," Personality And Social Psychology Bulletin, 19 (1993),
+      381­388.
+
+Brunnermeier, Markus K., andJonathan A. Parker, "Optimal Expectations," Amer-
+      ican Economic Review, 95 (2005), 1092­1118.
+
+Caplin, Andrew, and John Leahy, "Psychological Expected Utility Theory and An-
+      ticipatory Feelings," Quarterly Journal of Economics, 116 (2001), 55­79.
+
+Carlsmith, J. Merrill, and Alan E. Gross, "Some Effects of Guilt on Compliance,"
+      Journal of Personality and Social Psychology, 11 (1969), 232­239.
+
+Carrillo, Juan, "To Be Consumed with Moderation," European Economic Review,
+      49 (2005), 99­111.
+
+Carrillo, Juan, and Thomas Mariotti, "Strategic Ignorance as a Self-Disciplining
+      Device," Review of Economic Studies, 67 (2000), 529­544.
+
+Cassone, Alberto, and Carla Marchese, "The Economics of Religious Indulgences,"
+      Journal of Institutional and Theoretical Economics, 155 (1999), 429­442.
+
+Constant, Amelie, Liliya Gataullina, and Klaus F. Zimmermann, "Ethnosizing Im-
+      migrants," Journal of Economic Behavior & Organization, 63 (2009),
+      274­287.
+
+Dal Bo, Ernesto, andMarkoTervio¨, "Self-Esteem, Moral Capital, andWrongdoing,"
+      NBER Working Paper 14508, 2008.
+
+Dana, Jason, Daylian M. Cain, and Robyn M. Dawes, "What You Don't KnowWon't
+      Hurt Me: Costly (but Quiet) Exit in a Dictator Game," Organizational Behav-
+      ior and Human Decision Processes, 100 (2006), 193­201.
+
+Dana, J., Jason Xi Kuang, and RobertoA. Weber, "Exploiting Moral Wriggle Room:
+      Experiments Demonstrating an Illusory Preference for Fairness," Economic
+      Theory, 33 (2007), 67­80.
+
+DeJong, William, "An Examination of Self-Perception Mediation of the Foot-in-the-
+      Door Effect," Journal of Personality and Social Psychology, 37 (1979), 2221­
+      2239.
+
+Dessi, Roberta, "Collective Memory, Cultural Transmission and Investments,"
+      American Economic Review, 48 (2008), 534­560.
+
+Durkheim, Emile, The Elementary Forms of the Religious Life, 2nd edition,
+      (London: Allen and Unwin, 1976, original work: 1925).
+
+Fang, Hanming, and Glenn Cartman Loury, "`Dysfunctional Identities' Can Be
+      Rational," American Economic Review, 95 (2005), 104­111.
+
+Fehr, Ernst, and Simon Ga¨ chter, "Cooperation and Punishment in Public Goods
+      Experiments," American Economic Review, 90 (2000), 980­994.
+
+Fehr, Ernst, and Klaus Schmidt, "A Theory Of Fairness, Competition, and Coop-
+      eration," Quarterly Journal of Economics, 114 (1999), 817­868.
+
+Fershtman, Chaim, Uri Gneezy, and Moshe Hoffman, "Taboos: Considering the
+      Unthinkable," American Economic Journal: Microeconomics (forthcoming,
+      2011).
+
+Festinger, Leon, and James M. Carlsmith, "Cognitive Consequences of Forced
+      Compliance." Journal of Abnormal and Social Psychology, 58 (1959),
+      203­210.
+
+Fiske, Alan Page, and Philip E. Tetlock, "Taboo Trade-offs: Reaction to Transac-
+      tions that Transgress the Spheres of Justice," Political Psychology, 18 (1997),
+      255­297.
+
+Freud, Sigmund, Totem and Taboo: Resemblances Between the Mental Lives of
+      Savages and Neurotics (London, UK: Routledge and Sons, 1919).
+854  QUARTERLY JOURNAL OF ECONOMICS
+
+Fryer, Roland G. Jr., and Matthew O. Jackson, "A Categorical Model of Cogni-        Downloaded from http://qje.oxfordjournals.org/ at Dalhousie University on May 17, 2015
+      tion and Biased Decision-Making," The B.E. Press journal of Theoretical Eco-
+      nomics, 8(1), (Contributions), Article 6, (2008).
+
+Geanakoplos, John, DavidPearce, andEnnioStacchetti, "Psychological Games and
+      Sequential Rationality," Games and Economic Behavior, 1 (1989), 60­79.
+
+Gottlieb, Daniel, "Imperfect Memory and Choice under Risk," Wharton School of
+      Business Mimeo, Mimeo, 2010.
+
+Greif, Avner, "Morality and Institutions: Moral Choices Under Moral Network Ex-
+      ternalities," Stanford University, Mimeo, 2009.
+
+Hamman, John R., George Loewenstein, and Roberto A. Weber, "Self-Interest
+      Through Delegation: An Additional Rationale for the Principal-Agent Rela-
+      tionship," American Economic Review, 100 (2010), 1826­1846.
+
+Herrmann, Benedikt, Christian Thoeni, and Simon Ga¨ chter, "Antisocial Punish-
+      ment Across Societies," Science, 319 (2008), 362­1367.
+
+Hoge, Warren, "Britain's Nonwhites Feel Un-British, Report Says," New York
+      Times, April 4, 2002.
+
+Kahneman, Daniel, Peter P. Wakker, andRakesh Sarin, "Back toBentham? Explo-
+      rations of Experienced Utility," Quarterly Journal of Economics, 112 (1997),
+      75­407.
+
+Kanbur, Ravi, "On Obnoxious Markets," in Globalization, Culture and the Limits
+      of the Market: Essays in Economics and Philosophy, Stephen E. Cullenberg
+      and Prasanta K. Pattanaik, eds. (Oxford: Oxford University Press, 2004).
+
+Kay, Aaron C., Maria C. Jimenez, and John T. Jost, "Sour Grapes, Sweet Lemons,
+      and the Anticipatory Rationalization of the Status Quo," Personality and So-
+      cial Psychology Bulletin, 9 (2002), 1300­1312.
+
+Konow, James, "Fair Shares: Accountability and Cognitive Dissonance in Alloca-
+      tion Decision," American Economic Review, 90 (2000), 1072­1091.
+
+Ko¨szegi, Botond, "Utility from Anticipation and Personal Equilibrium," Economic
+      Theory, 44 (2010), 415­444.
+
+Kunda, Ziva, "Motivated Inference: Self-Serving Generation and Evaluation of
+      Causal Theories," Journal of Personality and Social Psychology, 53 (1987),
+      636­647.
+
+Kuran, Timur, "The Discontents of Islamic Economic Morality," American Eco-
+      nomic Review, Papers and Proceedings, 86 (1996), 438­442.
+
+Landier, Augustin, "Wishful Thinking and Belief Dynamics," MIT, Mimeo, 2000.
+Lazear, Edward P., Ulrike Malmendier, and Roberto A. Weber, "Sorting and Social
+
+      Preferences," Stanford University, Mimeo, 2009.
+LeBoeuf, Robyn, Eldar Shafir, and Julia Bayuk, "The Conflicting Choices of Alter-
+
+      nating Selves," Organizational Behavior and Human Decision Processes, 111
+      (2010), 48­61
+Loewenstein, George, "Anticipation and the Valuation of Delayed Consumption,"
+      Economic Journal, 117 (1987), 666­84.
+Loewenstein, George, and David Schkade, "Wouldn't It Be Nice? Predicting Future
+      Feelings" in Well-Being: Foundations of Hedonic Psychology, Daniel Kahne-
+      man, Ed Diener, and Norbert Schwartz, eds. (New York: Russel Sage Foun-
+      dation, 1999).
+Maas, Anne, Mara Cadinu, Gaia Guarnieri, and Annalisa Grasselli, "Sexual Ha-
+      rassment Under Social Identity Threats: The Computer Harassment Paradigm,"
+      Journal of Personality and Social Psychology, 85 (2003), 853­870.
+
+Mazar, Nina, On Amir, and Dan Ariely, "The Dishonesty of Honest People: A The-
+      ory of Self-Concept Maintenance," Journal of Marketing Research, 45 (2008),
+      633­634.
+
+Mazar, Nina, and Chen-Bo Zhong, "Do Green Products Make us Better People?,"
+      Psychological Science, 21 (2010), 494­498.
+
+Jordan, Alexander H., and Beno^it Monin, "From Sucker to Saint: Moralization in
+      Response to Self-Threat," Psychological Science, 19 (2008), 683­689.
+
+Monin, Beno^it, "Holier Than Me? Threatening Social Comparison in the Moral
+      Domain," International Review of Social Psychology, 20 (2007), 53­68.
+
+Monin, Beno^it, and Dale T. Miller, "Moral Credentials and the Expression of Prej-
+      udice," Journal of Personality and Social Psychology, 81 (2001), 33­43.
+IDENTITY, MORALS, AND TABOOS  855
+
+Monin, Beno^it, Pamela J. Sawyer, and Matthew J. Marquez, "The Rejection of          Downloaded from http://qje.oxfordjournals.org/ at Dalhousie University on May 17, 2015
+      Moral Rebels: Resenting Those Who Do the Right Thing," Journal of Person-
+      ality and Social Psychology, 95 (2008), 76­93.
+
+Oxoby, Robert J., "Attitudes and Allocations: Status, Cognitive Dissonance and the
+      Manipulation of Preferences," Journal of Economic Behavior and Organiza-
+      tion, 52 (2003), 365­385.
+
+----­, "Status, Cognitive Dissonance, and the Growth of the Underclass," The Eco-
+      nomic Journal, 114 (2004), 727­749.
+
+Piccione, Michele, and Ariel Rubinstein, "On the Interpretation of Decision Prob-
+      lems with Imperfect Recall," Games and Economic Behavior, 20 (1997),
+      3­24.
+
+Pyszczynski, Tom, "Cognitive Strategies for Coping with Uncertain Outcomes,"
+      Journal of Research in Psychology, 16 (1993), 386­399.
+
+Quattrone, George A., and Amos Tversky, "Causal Versus Diagnostic Contingen-
+      cies: On Self-Deception and the Voter's Illusion," Journal of Personality and
+      Social Psychology, 46 (1984), 237­248.
+
+Rabin, Matthew, "Cognitive Dissonance and Social Change," Journal of Economic
+      Behavior and Organization, 23 (1994), 177­194.
+
+----­, "Moral Preferences, Moral Constraints, and Self-Serving Biases," Berkeley
+      Department of Economics Working Paper 95­241, 1995.
+
+Ross, Lee, and Nisbett, Richard E., The Person and The Situation: Perspectives of
+      Social Psychology (New York: McGraw Hill, 1991).
+
+Rotemberg, Julio J., "Human Relations in the Workplace," Journal of Political
+      Economy, 102 (1994), 684­718.
+
+Roth, Alvin E., "Repugnance as a Constraint on Markets," Journal of Economic
+      Perspectives, 21 (2007), 37­58.
+
+Shayo, Moses, "A Model of Social Identity with an Application to Political Econ-
+      omy: Nation, Class and Redistribution," American Political Science Review,
+      103 (2009), 147­174.
+
+Schelling, Thomas C., "The Mind as a Consuming Organ," in The Multiple Self,
+      J. Elster, ed. (New York: Cambridge University Press, 1985).
+
+Sen, Amartya, "Goals, Commitment, and Identity," Journal of Law, Economics,
+      and Organization, 1 (1985), 341­355.
+
+Smith, Adam, The Theory of Moral Sentiments, (Washington, DC: Regnery Pub-
+      lishing, Conservative Leadership Series, 1759 [Reedited 1997]).
+
+Staw, Barry M., "Knee-Deep in the Big Muddy: A Study of Escalating Commit-
+      ment to a Chosen Course of Action," Organizational Behavior and Human
+      Performance, 16 (1976), 27­44.
+
+Steele, Claude M., and Joshua Aronson, "Stereotype Vulnerability and the Intel-
+      lectual Test Performance of African Americans," Journal of Personality and
+      Social Psychology, 69 (1995), 797­811.
+
+Stutzer, Alois, and Bruno S. Frey, "What Happiness Research Can Tell Us About
+      Self-Control Problems And Utility Misprediction," in Economics and Psy-
+      chology: A Promising New Cross-Disciplinary Field, Bruno S. Frey and Alois
+      Stutzer, eds. (Cambridge: MIT Press, 2007).
+
+Tetlock, Philip E., Orie V. Kristel, Elson S. Beth, Melanie C. Green, and Jennifer
+      S. Lerner, "The Psychology of the Unthinkable: Taboo Trade-Offs: Forbidden
+      Base Rates and Heretical Counterfactuals," Journal of Personality and Social
+      Psychology, 78 (2000), 853­870.
+
+Thompson, Leigh, and George Loewenstein, "Egocentric Interpretations of Fair-
+      ness and Interpersonal Conflict," Organization Behavior and Human Decision
+      Processes, 51 (1992), 176­197.
+
+Young, H. Peyton, "Self Knowledge and Self-Deception," John Hopkins University
+      mimeo, 2006.
+
+Zelizer, Viviana A., Morals and Markets: The Development of Life Insurance in the
+      United States (New York: Columbia University Press, 1979).
+
+Zhong, Chen-Bo, Gillian Ku, Robert B. Lount, and J. Keith Murnighan, "Compen-
+      satory Ethics," Journal of Business Ethics, 92 (2010), 323­339.
+

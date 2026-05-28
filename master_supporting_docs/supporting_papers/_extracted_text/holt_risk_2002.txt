@@ -1,0 +1,659 @@
+Risk Aversion and Incentive Effects
+
+   By CHARLES A. HOLT AND SUSAN K. LAURY*
+
+   Although risk aversion is a fundamental ele-                   ever, they also obtain dramatically different
+ment in standard theories of lottery choice, asset                results depending on whether the choice task
+valuation, contracts, and insurance (e.g., Daniel                 involves buying or selling, since subjects tend
+Bernoulli, 1738; John W. Pratt, 1964; Kenneth                     to put a high selling price on something they
+J. Arrow, 1965), experimental research has pro-                   "own" and a lower buying price on something
+vided little guidance as to how risk aversion                     they do not, which implies risk-seeking behav-
+should be modeled. To date, there have been                       ior in one case and risk aversion in the other.1
+several approaches used to assess the impor-                      Independent of the method used to elicit a mea-
+tance and nature of risk aversion. Using lottery-                 sure of risk aversion, there is widespread belief
+choice data from a field experiment, Hans P.                      (with some theoretical support discussed below)
+Binswanger (1980) concluded that most farmers                     that the degree of risk aversion needed to ex-
+exhibit a significant amount of risk aversion that                plain behavior in low-payoff settings would im-
+tends to increase as payoffs are increased. Al-                   ply absurd levels of risk aversion in high-payoff
+ternatively, risk aversion can be inferred from                   settings. The upshot of this is that risk-aversion
+bidding and pricing tasks. In auctions, overbid-                  effects are controversial and often ignored in the
+ding relative to Nash predictions has been at-                    analysis of laboratory data. This general approach
+tributed to risk aversion by some and to noisy                    has not caused much concern because most
+decision-making by others, since the payoff                       theorists are used to bypassing risk-aversion
+consequences of such overbidding tend to be                       issues by assuming that the payoffs for a game
+small (Glenn W. Harrison, 1989). Vernon L.                        are already measured as utilities.
+Smith and James M. Walker (1993) assess the
+effects of noise and decision cost by dramati-                       The nature of risk aversion (to what extent it
+cally scaling up auction payoffs. They find little                exists, and how it depends on the size of the
+support for the noise hypothesis, reporting that                  stake) is ultimately an empirical issue, and ad-
+there is an insignificant increase in overbidding                 ditional laboratory experiments can produce
+in private-value auctions as payoffs are scaled                   useful evidence that complements field obser-
+up by factors of 5, 10, and 20. Another way to                    vations by providing careful controls of proba-
+infer risk aversion is to elicit buying and/or                    bilities and payoffs. However, even many of
+selling prices for simple lotteries. Steven J.                    those economists who admit that risk aversion
+Kachelmeier and Mohamed Shehata (1992) re-                        may be important have asserted that decision
+port a significant increase in risk aversion (or,                 makers should be approximately risk neutral for
+more precisely, a decrease in risk-seeking be-                    the low-payoff decisions (involving several dol-
+havior) as the prize value is increased. How-                     lars) that are typically encountered in the labo-
+                                                                  ratory. The implication, that low laboratory
+   * Holt: Department of Economics, University of Vir-            incentives may be somewhat unrealistic and
+ginia, Charlottesville, VA 22903; Laury: Department of            therefore not useful in measuring attitudes to-
+Economics, Andrew Young School of Policy Studies, Geor-
+gia State University, Atlanta, GA 30303. We wish to thank            1 This is analogous to the well-known "willingness-to-
+Ron Cummings for helpful suggestions and for funding the          pay/willingness-to-accept bias." Asking for a high selling
+human subjects' payments. In addition, we are especially          price implies a preference for the risk inherent in the lottery,
+grateful to John List and Brett Katzman for setting up the        and offering a low purchase price implies an aversion to the
+sessions at the Universities of Central Florida and Miami,        risk in the lottery. Thus the way that the pricing task is
+respectively. This work was also funded in part by the Na-        framed can alter the implied risk attitudes in a dramatic
+tional Science Foundation (SBR-9753125, SBR-9818683,              manner. The issue is whether seemingly inconsistent esti-
+and SBR-0094800). We wish to thank Loren Smith for                mates are due to a problem with the way risk aversion is
+research assistance, and John Kagel, Dan Levin, Andrew            conceptualized, or to a behavioral bias that is activated by
+Muller, Tom Palfrey, Peter Wakker, seminar participants at        the experimental design. We chose to avoid this possible
+the Federal Reserve Bank of Atlanta, and an anonymous             complication by framing the decisions in terms of choices,
+referee for helpful suggestions.                                  not purchases and sales.
+
+                                                            1644
+VOL. 92 NO. 5  HOLT AND LAURY: RISK AVERSION AND INCENTIVE EFFECTS                            1645
+
+               TABLE 1--THE TEN PAIRED LOTTERY-CHOICE DECISIONS WITH LOW PAYOFFS
+
+               Option A                                   Option B           Expected payoff
+                                                                                difference
+               1/10 of $2.00, 9/10 of $1.60   1/10 of $3.85, 9/10 of $0.10
+               2/10 of $2.00, 8/10 of $1.60   2/10 of $3.85, 8/10 of $0.10         $1.17
+               3/10 of $2.00, 7/10 of $1.60   3/10 of $3.85, 7/10 of $0.10         $0.83
+               4/10 of $2.00, 6/10 of $1.60   4/10 of $3.85, 6/10 of $0.10         $0.50
+               5/10 of $2.00, 5/10 of $1.60   5/10 of $3.85, 5/10 of $0.10         $0.16
+               6/10 of $2.00, 4/10 of $1.60   6/10 of $3.85, 4/10 of $0.10       $0.18
+               7/10 of $2.00, 3/10 of $1.60   7/10 of $3.85, 3/10 of $0.10       $0.51
+               8/10 of $2.00, 2/10 of $1.60   8/10 of $3.85, 2/10 of $0.10       $0.85
+               9/10 of $2.00, 1/10 of $1.60   9/10 of $3.85, 1/10 of $0.10       $1.18
+               10/10 of $2.00, 0/10 of $1.60  10/10 of $3.85, 0/10 of $0.10      $1.52
+                                                                                 $1.85
+
+ward "real-world" risks, is echoed by Daniel           In our experiment, we present subjects with a
+Kahneman and Amos Tversky (1979, p. 265),           menu of choices that permits measurement of
+who suggest an alternative:                         the degree of risk aversion, and also estimation
+                                                    of its functional form. We are able to compare
+   Experimental studies typically involve           behavior under real and hypothetical incentives,
+   contrived gambles for small stakes, and a        for lotteries that range from several dollars up to
+   large number of repetitions of very simi-        several hundred dollars. The wide range of pay-
+   lar problems. These features of laboratory       offs allows us to specify and estimate a hybrid
+   gambling complicate the interpretation of        utility function that permits both the type of
+   the results and restrict their generality. By    increasing relative risk aversion reported by
+   default, the method of hypothetical choices      Binswanger and decreasing absolute risk aver-
+   emerges as the simplest procedure by which       sion needed to avoid "absurd" predictions for the
+   a large number of theoretical questions          high-payoff treatments. The procedures are ex-
+   can be investigated. The use of the method       plained in Section I, the effects of incentives on
+   relies on the assumption that people often       risk attitudes are described in Section II, and our
+   know how they would behave in actual             hybrid utility model is presented in Section III.
+   situations of choice, and on the further
+   assumption that the subjects have no special                            I. Procedures
+   reason to disguise their true preferences.
+                                                       The low-payoff treatment is based on ten
+   In this paper, we directly address these issues  choices between the paired lotteries in Table 1.
+by presenting subjects with simple choice tasks     Notice that the payoffs for Option A, $2.00 or
+that may be used to estimate the degree of risk     $1.60, are less variable than the potential pay-
+aversion as well as specific functional forms.      offs of $3.85 or $0.10 in the "risky" Option B.
+We use lottery choices that involve large cash      In the first decision, the probability of the high
+prizes that are actually to be paid. To address     payoff for both options is 1/10, so only an
+the validity of using high hypothetical payoffs,    extreme risk seeker would choose Option B. As
+we conducted this experiment under both real        can be seen in the far right column of the table,
+and hypothetical conditions. We were intrigued      the expected payoff incentive to choose Option
+by experiments in which increases in payoff         A is $1.17.2 When the probability of the high-
+levels seem to increase risk aversion, e.g.,        payoff outcome increases enough (moving
+Binswanger's (1980) experiments with low-           down the table), a person should cross over to
+income farmers in Bangladesh, and Antoni Bosch-     Option B. For example, a risk-neutral person
+Dome`nech and Joaquim Silvestre (1999), who         would choose A four times before switching
+report that willingness to purchase actuarially
+fair insurance against losses is increasing in the     2 Expected payoffs were not provided in the instructions
+scale of the loss. Therefore we elicit choices      to subjects, which are available on the Web at http://www.
+under both low- and high-money payoffs, in-         gsu.edu/ecoskl/research.htm. The probabilities were ex-
+creasing the scale by 20, 50, and finally 90 times  plained in terms of throws of a ten-sided die.
+the low-payoff level.
+1646  THE AMERICAN ECONOMIC REVIEW                          DECEMBER 2002
+
+to B. Even the most risk-averse person should               selected. The second decision task involved the
+switch over by decision 10 in the bottom row,               same ten decisions, but with hypothetical pay-
+since Option B yields a sure payoff of $3.85 in             offs at 20 times the levels shown in Table 1 ($40
+that case.                                                  or $32 for Option A, and $77 or $2 for Option
+                                                            B). The third task was also a high-payoff task,
+   The literature on auctions commonly as-                  but the payoffs were paid in cash. The final task
+sumes constant relative risk aversion for its               was a "return to baseline" treatment with the
+computational convenience and its implications              low-money payoffs shown in Table 1. The out-
+for bid function linearity with uniformly distrib-          come of each task was determined before the
+uted private values. With constant relative risk            next task began. Incentives are likely diluted by
+aversion for money x, the utility function is               the random selection of a single decision for
+u( x)  x1  r for x  0. This specification                   each of the treatments, which is one motivation
+implies risk preference for r  0, risk neutrality           for running the high-payoff condition. Subjects
+for r  0, and risk aversion for r  0.3 The                  did seem to take the low-payoff condition seri-
+payoffs for the lottery choices in the experiment           ously, often beginning with the easier choices at
+were selected so that the crossover point would             the top and bottom of the table, with choices
+provide an interval estimate of a subject's co-             near their switch point more likely to be crossed
+efficient of relative risk aversion. We chose the           out and changed.
+payoff numbers for the lotteries so that the
+risk-neutral choice pattern (four safe choices                 To control for wealth effects between the
+followed by six risky choices) was optimal for              high and low real-payoff treatments, subjects
+constant relative risk aversion in the interval             were required to give up what they had earned
+(0.15, 0.15). The payoff numbers were also                  in the first low-payoff task in order to partici-
+selected to make the choice pattern of six safe             pate in the high-payoff decision. They were
+choices followed by four risky choices optimal              asked to initial a statement accepting this con-
+for an interval (0.41, 0.68), which is approxi-             dition, with the warning:
+mately symmetric around a coefficient of 0.5
+(square root utility) that has been reported in                Even though the earnings from this next
+econometric analysis of auction data cited be-                 choice may be very large, they may also
+low. For our analysis, we do not assume that                   be small, and differences between people
+individuals exhibit constant relative risk aver-               may be large, due to choice and chance.
+sion; these calculations will provide the basis                Thus we realize that some people may
+for a null hypothesis to be tested. In particular,             prefer not to participate, and if so, just
+if all payoffs are scaled up by a constant, k, then            indicate this at the top of the sheet... . Let
+this constant factors out of the power function                me reiterate, even though some of the
+that has constant relative risk aversion. In this              payoffs are quite large, there is no catch
+case, the number of safe choices would be un-                  or chance that you will lose any money
+affected by changes in payoff scale. A change                  that you happen to earn in this part. We
+in choice patterns as payoffs are scaled up                    are prepared to pay you what you earn.
+would be inconsistent with constant relative risk              Are there any questions?
+aversion. In this case, we can use the number of
+safe choices in each payoff condition to obtain             Nobody declined to participate, so there is no
+risk aversion estimates for other functional                selection bias. For comparability, subjects in the
+forms.                                                      high-hypothetical treatment were required to
+                                                            initial a statement acknowledging that earnings
+   In our initial sessions, subjects began by in-           for that decision would not be paid. The hypo-
+dicating a preference, Option A or Option B,                thetical choice does not alter wealth, but the
+for each of the ten paired lottery choices in Ta-           high real payoffs altered the wealth positions a
+ble 1, with the understanding that one of these             lot for most subjects, so the final low-payoff
+choices would be selected at random ex post and             task was used to determine whether risk atti-
+played to determine the earnings for the option             tudes are affected by large changes in accumu-
+                                                            lated earnings. Comparing choices in the final
+   3 When r  1, the natural logarithm is used; division by  low-payoff task with the first may also be used
+(1  r) is necessary for increasing utility when r  1.       to assess whether any behavioral changes in the
+                                                            high-payoff condition were due to changes in
+VOL. 92 NO. 5  HOLT AND LAURY: RISK AVERSION AND INCENTIVE EFFECTS                            1647
+
+               TABLE 2--SUMMARY OF LOTTERY-CHOICE TREATMENTS
+
+               Treatment                  Number of            Average   Minimum   Maximum
+                                           subjects            earnings  earnings   earnings
+               20x Hypothetical Only
+               20x Real Only                   25              $ 25.74    $ 19.40   $ 40.04
+               20x Hypothetical and Real       57              $ 67.99    $ 20.30   $116.48
+               50x Hypothetical and Real       93              $ 68.32    $ 11.50   $105.70
+               90x Hypothetical and Real       19              $131.39    $111.30   $240.59
+                                               18              $226.34    $ 45.06   $391.65
+
+risk attitude or from more careful consideration               tively. All of these sessions were conducted at
+of the choice problem.                                         Georgia State University. The number of sub-
+                                                               jects in these treatments was necessarily much
+   All together, we conducted the initial sessions             smaller due to the large increase in payments
+(with low and 20x payoffs) using 175 subjects,                 required to conduct them. All subjects were
+in groups of 9 ­16 participants per session, at                presented with both real and hypothetical
+three universities (two at Georgia State Univer-               choices in these two treatments, allowing for a
+sity, four at the University of Miami, and six at              within-subjects comparison. Average earnings
+the University of Central Florida). About half of              were about $70 in the 20x sessions using real
+the students were undergraduates, one-third                    payments, $130 in the 50x sessions, and $225 in
+were MBA students, and 17 percent were busi-                   the 90x sessions.5 All individual lottery-choice
+ness school faculty. Table 2 presents a summary                decisions, earnings, and responses to 15 demo-
+of our experimental treatments. In these ses-                  graphic questions (given to subjects at the con-
+sions, the low-payoff tasks were always done,                  clusion of the experiment) can be found on the
+but the high-payoff condition was for hypothet-                Web at http://www.gsu.edu/ecoskl/research.
+ical payoffs in some sessions, for real money in               htm.
+others, and in about half of the sessions we did
+both in order to obtain a within-subjects com-                                    II. Incentive Effects
+parison. Doing the high-hypothetical choice
+task before high real allows us to hold wealth                    In all of our treatments, the majority of sub-
+constant and to evaluate the effect of using real              jects chose the safe option when the probability
+incentives. For our purposes, it would not have                of the higher payoff was small, and then crossed
+made sense to do the high real treatment first,                over to Option B without ever going back to
+since the careful thinking would bias the high-                Option A. In all sessions, only 28 of 212 sub-
+hypothetical decisions.4 We can compare                        jects ever switched back from B to A in the first
+choices in the high real-payoff treatment with                 low-payoff decision, and only 14 switched back
+either the first or last low-payoff task to allevi-            in the final low-payoff choice. Fewer than one-
+ate concerns that learning occurred as subjects                fourth of these subjects switched back from B to
+worked through these decisions.                                A more than once. The number of such switches
+                                                               was even lower for the high-payoff choices,
+   In order to explore the effect of even larger
+increases in payoffs we next ran some very                        5 All of the lottery-choice tasks reported in this paper
+expensive sessions in which the 20x payoffs                    were preceded by an unrelated experiment. Those sessions
+were replaced with 50x payoffs and 90x pay-                    conducted at the Universities of Miami and Central Florida
+offs. In the two 50x sessions (19 subjects), the               followed a repeated individual-decision (tax compliance)
+"safe" payoffs were $100 and $80, while the                    task conducted by a colleague, for which earnings averaged
+"risky" payoffs were $192.50 and $5. In the 90x                about $18. The lottery-choice sessions conducted at Georgia
+sessions (18 subjects) the safe and risky payoffs              State University followed a different set of (individual-
+were ($180, $144) and ($346.50, $9), respec-                   choice) tasks for which average earnings were somewhat
+                                                               higher (about $27). We conclude that these differences are
+   4 Of course, the order that we did use could bias the high  probably not relevant; in the 20x payoff sessions, including
+real decision toward what is chosen under hypothetical         Georgia State data does not alter the means, medians, or
+conditions, but a comparison with sessions using one high-     modes of the number of safe choices in any of the treat-
+payoff treatment or the other indicates no such bias.          ments by more than 0.05.
+1648  THE AMERICAN ECONOMIC REVIEW                               DECEMBER 2002
+
+     FIGURE 1. PROPORTION OF SAFE CHOICES IN EACH                lies to the right of the risk-neutral prediction,
+        DECISION: DATA AVERAGES AND PREDICTIONS                  showing a tendency toward risk-averse behav-
+                                                                 ior among these subjects. The thin lines in the
+Note: Data averages for low real payoffs [solid line with        figure show the observed choice frequencies for
+dots], 20x, 50x, and 90x hypothetical payoffs [thin lines],      the hypothetical (20x, 50x, and 90x) treatments;
+and risk-neutral prediction [dashed line].                       these are quite similar to one another and are
+                                                                 also very close to the line for the low real-
+although this difference is small (6.6 percent of                payoff condition. Actual choice frequencies for
+choices in the last low-payoff task, compared                    the initial (20x payoff) sessions, along with the
+with about 5.5 percent in the 50x and 90x real-                  implied risk-aversion intervals, are shown in the
+payoff treatments). More subjects switched                       "low real" and "20x hypothetical" columns of
+back in the hypothetical treatments: between 8                   Table 3. Even for low-payoff levels, there is
+and 10 percent.                                                  considerable risk aversion, with about two-
+                                                                 thirds of subjects choosing more than the four
+   Even for those who switched back and forth,                   safe choices that would be predicted by risk
+there is typically a clear division point between                neutrality. However, there is no significant dif-
+clusters of A and B choices, with few "errors"                   ference between behavior in the low real- and
+on each side. Therefore, the total number of                     high- (20x, 50x, or 90x) hypothetical-payoff
+"safe" A choices will be used as an indicator of                 treatments.
+risk aversion.6 Figure 1 displays the proportion
+of A choices for each of the ten decisions (as                      Figure 2 shows the results of the 20x real-
+listed in Table 1). The horizontal axis is the                   payoff treatments (the solid line with squares).
+decision number, and the dashed line shows the                   The increase in payoffs by a factor of 20 shifts
+predictions under an assumption of risk neutral-                 the locus of choice frequencies to the right in
+ity, i.e., the probability that the safe Option A is             the figure, with more than 80 percent of choices
+chosen is 1 for the first four decisions, and then               in the risk-averse category (see Table 3). Of the
+this probability drops to 0 for all remaining                    150 subjects who faced the 20x real-payoff
+decisions. The thick line with dots shows the                    choice, 84 showed an increase in risk aversion
+observed frequency of Option A choices in each                   over the low-payoff treatment. Only 20 subjects
+of the ten decisions in the low-real-payoff (1x)                 showed a decrease (the others showed no
+treatment.7 This series of choice frequencies                    change). This difference is significant at any
+                                                                 standard level of confidence using a Wilcoxon
+   6 The analysis reported in this paper changes very little if  test of the null hypothesis that there is no
+we instead drop those subjects who switch from B back to         change.8 The risk-aversion categories in Table
+A. The average number of safe choices increases slightly in      3 were used to design the menu of lottery
+some treatments when we restrict our attention to those who      choices, but the clear increase in risk aversion
+never switch back, but typically by less than 0.2 choices.       as all payoffs are scaled up is inconsistent with
+                                                                 constant relative risk aversion. One notable fea-
+   7 For this figure, and other frequencies reported below,      ture of the frequencies in Table 3 is that nearly
+the full sample of available observations was used. For          40 percent of the choice patterns in the 20x
+example, in Figure 1, the choices of all 212 subjects are
+reported in the low-payoff series. This includes those in the    to the 93 subjects who made choices under real and hypo-
+20x, 50x, and 90x sessions. Similarly, when choices involv-      thetical conditions. A Kolmogorov-Smirnov test fails to
+ing 20x payoffs are reported, we do not limit our attention      reject the null hypothesis of no difference in the distribution
+                                                                 of the number of safe choices between the full sample and
+                                                                 the relevant restricted sample for any of our comparisons.
+                                                                 Moreover, the actual difference in distributions is very small
+                                                                 in all cases.
+
+                                                                    8 Following Sydney Siegel (1956), observations with
+                                                                 no change were not used. In addition, a one-tailed Kol-
+                                                                 mogorov-Smirnov test applied to the aggregate cumulative
+                                                                 frequencies, based on all observations, allows rejection of
+                                                                 the null hypothesis that the choice distributions are the same
+                                                                 between the low (either first or last) and 20x real-payoff
+                                                                 treatments ( p  0.01).
+VOL. 92 NO. 5           HOLT AND LAURY: RISK AVERSION AND INCENTIVE EFFECTS                     1649
+
+                        TABLE 3--RISK-AVERSION CLASSIFICATIONS BASED ON LOTTERY CHOICES
+
+               Number    Range of relative risk                        Proportion of choices
+               of safe         aversion for
+               choices                             Risk preference     Low   20x         20x
+                        U(x)  x1r/(1  r)            classification
+               0­1                                                     reala hypothetical real
+               2               r  0.95           highly risk loving
+               3        0.95  r  0.49            very risk loving      0.01  0.03        0.01
+               4        0.49  r  0.15            risk loving
+               5        0.15  r  0.15            risk neutral          0.01  0.04        0.01
+               6                                 slightly risk averse
+               7          0.15  r  0.41          risk averse           0.06  0.08        0.04
+               8          0.41  r  0.68          very risk averse
+               9­10       0.68  r  0.97          highly risk averse    0.26  0.29        0.13
+                          0.97  r  1.37          stay in bed
+                                                                       0.26  0.16        0.19
+                                1.37  r
+                                                                       0.23  0.25        0.23
+
+                                                                       0.13  0.09        0.22
+
+                                                                       0.03  0.03        0.11
+
+                                                                       0.01  0.03        0.06
+
+               a Average over first and second decisions.
+
+     FIGURE 2. PROPORTION OF SAFE CHOICES IN EACH             displayed in Table 4 show how risk aversion
+        DECISION: DATA AVERAGES AND PREDICTIONS               increases as real payoffs are scaled up.
+
+Note: Data averages for low real payoffs [solid line with        Given the increase in risk aversion observed
+dots], 20x real [squares], 50x real [diamonds], 90x real      when payoffs are scaled up by a factor of 20, we
+payoffs [triangles], and risk-neutral prediction [dashed      were curious as to how a further increase in
+line].                                                        payoffs would affect choices. The increase in
+                                                              payoffs from their original levels (shown in
+real-payoff condition involve seven or more                   Table 1) by factors of 50 and 90, produced even
+safe choices, which indicates a very high level               more dramatic shifts toward the safe option. In
+of risk aversion for those individuals. The over-             the latter treatment, the safe option provides
+all message is that there is a lot of risk aversion,          either $144 or $180, whereas the risky option
+centered around the 0.3­ 0.5 range, which is                  provides $346.50 or $9. One-third of subjects
+roughly consistent with estimates implied by                  who faced this choice (6 out of 18) avoided any
+behavior in games, auctions, and other decision               chance of the $9 payoff, only switching to the
+tasks.9 Both Table 3 and the treatment averages               risky option in decision 10 where the high-
+                                                              payoff outcome was certain. There is an in-
+   9 In a classic study, Binswanger (1980) finds moderate to  crease in the average number of safe choices
+high levels of constant relative risk aversion (above 0.32),  (shown in Table 4) and a corresponding right-
+especially for high-stakes gambles (increasing relative risk  ward shift in the distribution of safe choices
+aversion). Some recent estimates for relative risk aversion   (shown by the diamonds and triangles in Figure
+are: r  0.67, 0.52, and 0.48 for private-value auctions       2). The increase in the number of safe choices is
+(James C. Cox and Ronald L. Oaxaca, 1996; Jacob K.            also reflected by the median and modal choices.
+Goeree et al., 1999; Kay-Yut Chen and Charles R. Plott,
+1998, respectively), r  0.44 for several asymmetric           0.45 for 27 one-shot matrix games (Goeree and Holt, 2000).
+matching pennies games (Goeree et al., 2000), and r           Sandra Campo et al. (2000) estimate r  0.56 for field data
+                                                              from timber auctions. One thing to note is that risk-aversion
+                                                              estimates can be quite unstable when inferred from willingness-
+                                                              to-pay prices as compared with much higher willingness-
+                                                              to-accept prices that subjects place on the same lottery
+                                                              (Kachelmeier and Shehata, 1992; R. Mark Isaac and
+                                                              Duncan James, 2000). The low willingness-to-pay prices
+                                                              imply risk aversion, whereas the high willingness-to-accept
+                                                              prices imply risk neutrality or risk seeking. One important
+                                                              implication of this measurement effect is that the same
+                                                              instrument should be used in making a comparison, as is the
+                                                              case for the comparison of risk attitudes of individuals and
+                                                              groups conducted by Robert S. Shupp and Arlington W.
+                                                              Williams (2000).
+1650  THE AMERICAN ECONOMIC REVIEW                                                 DECEMBER 2002
+
+      TABLE 4--AVERAGE NUMBER OF SAFE CHOICES BY TREATMENT
+
+      Treatment                  Number of             First       High      High  Second
+                                  subjects           low real  hypothetical  real  low real
+      20x All
+      20x Hypothetical and Real      175                5.2         4.9a     6.0b     5.3
+      50x Hypothetical and Real       93                5.0         4.8      5.8      5.2
+      90x Hypothetical and Real       19                5.3         5.1      6.8      5.5
+                                      18                5.3         5.3      7.2      5.5
+         a N  118.
+         b N  150.
+
+For payoff scales of 20x, 50x, and 90x the           percent) in the 20x hypothetical-payoff condi-
+medians are, respectively, (6.0, 7.0, 7.5) and the   tion than is the case in the other treatments (6 ­ 8
+modes are (6.0, 7.0, and 9.0). This increased        percent). A Kolmogorov-Smirnov test on the
+tendency to choose the safe option when pay-         change in hypothetical distributions shows no
+offs are scaled up is inconsistent with the notion   change as payoffs are scaled up from 20x to 50x
+of constant relative risk aversion (when utility is  to 90x. Behavior is a little more erratic with
+written as a function of income, not wealth).        hypothetical payoffs; for example, one person
+This increase in risk aversion is qualitatively      chose Option A in all ten decisions, including
+similar to Smith and Walker's (1993) results.        the sure hypothetical $40 over the hypothetical
+However, unlike the subjects in their auction        $77 in decision 10. The only other case of
+experiments, our subjects exhibit much larger        Option A being selected in decision 10 also
+(and significant) changes in behavior as payoffs     occurred in the 20x hypothetical treatment.
+are scaled up. Kachelmeier and Shehata (1992)
+also observed a significant change in behavior          This result raises questions about the validity
+when the payoff scale was increased, although        of Kahneman and Tversky's suggested tech-
+their subjects (who demanded a relatively high       nique of using hypothetical questionnaires to
+price in order to sell the lottery) appeared to be   address issues that involve very high stakes. In
+risk preferring in their baseline treatment. As      particular, it casts doubt on their assumption
+noted earlier, our design avoids any potential       that "people often know how they would behave
+willingness-to-accept bias by framing the ques-      in actual situations of choice" (Kahneman and
+tion in a neutral choice setting. To summarize:      Tversky, 1979, p. 265).
+increases in all prize amounts by factors of 20,
+50, and 90 cause sharp increases in the frequen-        We can also address whether facing the high-
+cies of safe choices, and hence, in the implied      payoff treatment affected subsequent choices
+levels of risk aversion.                             under low payoffs. Looking at Table 4, the
+                                                     roughly comparable choice frequencies for the
+   In contrast, successive increases in the stakes   "before" and "after" low-payoff conditions (an
+do not alter behavior very much in the hypo-         average of 5.2 versus 5.3 safe choices for 20x
+thetical payoff treatments. Subjects are much        payoffs, and 5.3 versus 5.5 for the 50x and 90x
+more risk averse with high real-payoff levels        treatments) suggests that the level of risk aver-
+(20x, 50x, and 90x) than with comparable hy-         sion is not affected by high earnings in the
+pothetical payoffs. The clear treatment effect       intermediate high-payoff condition that most
+suggested by Figure 2 is supported by the within-    subjects experienced. This invariance is sup-
+subjects analysis. Of the 93 people who made         ported by a simple regression in which the
+both real and hypothetical decisions at the 20x      change in the number of safe choices between
+level, 44 showed more risk aversion in the real-     the first and last low-payoff decisions is re-
+payoff condition, 42 showed no change, and 7         gressed on earnings in the high real-payoff con-
+showed less risk aversion. The positive effect of    dition that were obtained in between. The
+real payoffs on the number of safe choices is        coefficient on earnings is near zero and insig-
+significant using either a Wilcoxon test or a        nificant. If we only consider the subset who won
+Kolmogorov-Smirnov test ( p  0.01). How-             the $77 prize, 21 people did not change their
+ever, there is more risk-seeking behavior (15        number of safe choices, 11 increased, and 14
+                                                     decreased. We observe similar patterns in the
+VOL. 92 NO. 5  HOLT AND LAURY: RISK AVERSION AND INCENTIVE EFFECTS  1651
+
+higher-payoff treatments. In the 50x treatment,           FIGURE 3. PROPORTION OF SAFE CHOICES IN EACH
+only one subject won the $192.50 prize, and this             DECISION: DATA AVERAGES AND PREDICTIONS
+person increased the number of safe choices
+(from three to four). In the 90x payoff treat-       Note: Data averages for low real payoffs [solid line with
+ment, four subjects won the $346.50 prize.           dots] and 20x real payoffs [squares], with corresponding
+Three of these subjects did not change their         predictions for constant absolute risk aversion with   0.2
+decision in the last choice from the first, and the  [thick dashed lines] and risk neutrality [thin dashed line].
+remaining subject decreased the number of safe
+choices from five to four. Thus high unantici-       Catherine Eckel et al. (1998). The surprising
+pated earnings appear to have little or no effect    result for our data is that this gender effect
+on risk preferences in this context. This obser-     disappears in the three high-payoff treatments.
+vation would be consistent with constant abso-       Finally, although the white/nonwhite variable is
+lute risk aversion, but we argue in Section III      not significant, in our 20x payoff sessions the
+below that constant absolute risk aversion can-      Hispanic variable is; this effect is even stronger
+not come close to explaining the effects of          at the 20x level than at the low-payoff level.
+increasing the stakes on observed choice behav-      There were almost no Hispanic subjects in our
+ior. Alternatively, the lack of a strong correla-    50x and 90x sessions, and so we cannot esti-
+tion between earnings in the high-payoff lottery     mate a model including this variable for these
+and subsequent lottery choices could be due to       sessions.10
+an "isolation effect" or tendency to focus on the
+status quo and consider risks of payoff changes,        III. Payoff Scale Effects and Risk Aversion
+i.e., changes in income instead of final wealth.
+In fact, there is no experimental evidence that         The increased tendency to choose the safe
+we know of which supports the "asset integra-        option as the stakes are raised is a clear indica-
+tion" hypothesis that wealth affects risk atti-      tion of increasing relative risk aversion, which
+tudes (see Cox and Vjollca Sadiraj, 2001).           could be consistent with a wide range of utility
+                                                     functions, including those with constant abso-
+   It also appears unlikely that exposure to the     lute risk aversion, i.e., u( x)  exp(x).
+high-payoff choice task affected choices in the      The problem with constant absolute risk aver-
+subsequent low-payoff decision. Almost half of       sion is indicated by Figure 3, where an absolute
+all subjects who face one of our high real-payoff    risk-aversion coefficient of   0.2 predicts five
+treatments choose the same number of safe            safe (Option A) choices under low-payoff con-
+choices in the first and last low-payoff task.       ditions, as shown by the thick dashed line with
+About the same number of subjects change the         dots just to the right of the thin dashed line for
+number of safe choices by one (these are almost      risk neutrality. This prediction is approximately
+equally divided between increasing and de-
+creasing by one choice). Very few individuals           10 This Hispanic effect may be due to the narrow geo-
+change the number of safe choices by more than       graphic basis of the sample. Most of the Hispanic subjects
+one between the first and last decision tasks.       were students at the University of Miami; however, we did
+                                                     not obtain information about their ancestry or where they
+   We distributed a postexperiment question-         were raised.
+naire to collect information about demographics
+and academic background. While the study was
+not designed to address demographic effects on
+risk aversion, the subject pool shows a wide
+variation in income and education, and some
+interesting patterns do appear in our data. Using
+any of the real-payoff decisions to measure risk
+aversion, income has a mildly negative effect on
+risk aversion ( p  0.06). Other variables (ma-
+jor, MBA, faculty, age, etc.) were not signifi-
+cant. Using the low-payoff decisions only, we
+find that men are slightly less risk averse ( p 
+0.05), making about 0.5 fewer safe choices.
+This is consistent with findings reported by
+1652                                THE AMERICAN ECONOMIC REVIEW  DECEMBER 2002
+
+correct for the low real-payoff treatment, which                     FIGURE 4. PROPORTION OF SAFE CHOICES IN EACH
+produces a treatment average of about 5.2 safe                          DECISION: DATA AVERAGES AND PREDICTIONS
+choices. But notice the dashed line with squares
+on the far right side of Figure 3; this is the                  Note: Data averages for low real payoffs [solid line with
+corresponding prediction of nine safe choices                   dots] and 20x real payoffs [squares], with predictions for
+for   0.2 in the 20x payoff treatment. This is                  risk neutrality [thin dashed line] and noise parameter of 0.1
+far more than the treatment average of 6.0 safe                 [thick dashed line].
+choices. The intuition for this "absurd" amount
+of predicted risk aversion can be seen by recon-                where the denominator simply ensures that the
+sidering the utility when payoffs, x, are scaled                probabilities of each choice sum to 1. Notice
+up by 20 under constant absolute risk aversion:                 that the choice probabilities converge to one-
+u( x)  exp(20x). Since the baseline                             half as  becomes large, and it is straightfor-
+payoff, x, and the risk-aversion parameter enter                ward to show that the probability of choosing
+multiplicatively, scaling up payoffs by 20 is                   the option with the higher expected payoff goes
+equivalent to having 20 times as much risk                      to 1 as  goes to 0. Figure 4 shows how adding
+aversion for the original payoffs. This is our                  some error in this manner (  0.1, as an
+interpretation of the "Rabin critique" that the                 example) causes the dashed line predictions un-
+risk aversion needed to explain behavior in low-                der risk neutrality to exhibit a smoother transi-
+stakes situations implies an absurd amount of                   tion, i.e., there is some curvature at the corners.
+risk aversion in high-stakes lotteries (Matthew
+Rabin, 2000). This observation raises the issue                    Obviously, we must add some risk aversion
+of whether any utility function will be consis-                 to explain the observed preference for the safe
+tent with observed behavior over a wide range                   option in decisions 5 and 6. As a first step, we
+of payoff stakes.11 Obviously, such a function                  keep the noise parameter fixed at 0.1 and add an
+will have to exhibit decreasing absolute risk                   amount of constant relative risk aversion of r 
+aversion, although constant absolute risk aver-                 0.3, which yields predictions shown by the
+sion (with the right constant) may yield good                   dashed lines in Figure 5. The dashed lines for the
+predictions for some particular level of stakes.                three treatments cannot be distinguished, which is
+                                                                not surprising given the fact that payoff-scale
+   First, notice that the locus of actual frequen-              changes do not affect the predictions under con-
+cies is not as "abrupt" as the dashed line pre-                 stant relative risk aversion. However, under one
+dictions in Figure 3, which indicates the need to               specific payoff scale, constant relative risk aver-
+add some "noise" to the model. This noise may                   sion can provide an excellent fit for the data
+reflect actual decision-making errors or unmod-                 patterns. Given this, we see why this model has
+eled heterogeneity, among other factors. This                   been useful in explaining laboratory data for
+addition is also essential if we want to be able to             "normal" payoff levels (see Goeree et al., 1999,
+determine whether the apparent increase in risk                 2000).
+aversion with high stakes is merely due to di-
+minished noise. We do so by introducing a                          The next step is to introduce a functional
+probabilistic choice function. The simplest rule                form that permits the type of increasing relative
+specifies the probability of choosing Option A                  risk aversion seen in our data, but avoids the
+as the associated expected payoff, UA, divided                  absurd predictions of the constant absolute risk-
+by the sum of the expected payoffs, UA and UB,
+for the two options. Following Duncan Luce
+(1959), we introduce a noise parameter, , that
+captures the insensitivity of choice probabilities
+to payoffs via the probabilistic choice rule:
+
+(1)   Pr  (choose  Option  A)       U A1 /       ,
+
+                                 U  1/    U  1/
+                                    A        B
+
+   11 For a critical discussion of the Rabin critique, see Cox
+and Sadiraj (2001).
+VOL. 92 NO. 5  HOLT AND LAURY: RISK AVERSION AND INCENTIVE EFFECTS  1653
+
+     FIGURE 5. PROPORTION OF SAFE CHOICES IN EACH              likelihood of 315.68.12 These parameter val-
+        DECISION: DATA AVERAGES AND PREDICTIONS                ues were used to plot the theoretical predictions
+                                                               for the four treatments shown in Figure 6. This
+Note: Data averages for low real payoffs [solid line with      model fits most of the aggregate data averages
+dots] and 20x real payoffs [squares], with predictions for     quite closely. The amount of risk aversion
+risk neutrality [thin dashed line] and a noise parameter of    needed to explain behavior in the low-stakes
+0.1 with constant relative risk aversion of 0.3 [thick dashed  treatment does not imply absurd predictions in
+line].                                                         the extremely high-stakes treatment. The largest
+                                                               prediction errors are for the 50x treatment,
+                                                               which is more erratic given the low number of
+                                                               observations used to generate each of the ten
+                                                               choice frequencies for that treatment. Note that
+                                                               the model slightly underpredicts the extreme
+                                                               degree of risk aversion for decision 9 in the 90x
+                                                               treatment. Still, this three-parameter model does
+                                                               a remarkable job of predicting behavior over a
+                                                               payoff range from several dollars to several
+                                                               hundred dollars.
+
+                                                                                     IV. Conclusion
+
+aversion model. This can be done with a hybrid                    This paper presents the results of a simple
+"power-expo" function (Atanu Saha, 1993)                       lottery-choice experiment that allows us to mea-
+that includes constant relative risk aversion                  sure the degree of risk aversion over a wide
+and constant absolute risk aversion as special                 range of payoffs, ranging from several dollars to
+cases:                                                         several hundred dollars. In addition, we com-
+                                                               pare behavior under hypothetical and real
+(2)  Ux        1  expx1  r  ,                                  incentives.
+
+                                                                  Although behavior is slightly more erratic
+                                                               under the high-hypothetical treatments, the pri-
+which has been normalized to ensure that utility               mary incentive effect is in levels (measured as
+becomes linear in x in the limit as  goes to 0.                the number of safe lottery choices in each treat-
+It is straightforward to show that the Arrow-                  ment). Even at the low-payoff level, when all
+Pratt index of relative risk aversion is:                      prizes are below $4.00, about two-thirds of the
+                                                               subjects exhibit risk aversion. With real pay-
+     uxx                                                       offs, risk aversion increases sharply when pay-
+(3)  ux  r  1  rx1r,                                           offs are scaled up by factors of 20, 50, and 90.
+                                                               This result is qualitatively similar to that re-
+which reduces to constant relative risk aversion               ported by Kachelmeier and Shehata (1992) and
+of r when   0, and to constant absolute risk                   Smith and Walker (1993) in different choice
+aversion of  when r  0. For intermediate                       environments. In contrast, behavior is largely
+cases (both parameters positive), the utility                  unaffected when hypothetical payoffs are scaled
+function exhibits increasing relative risk aver-               up. This paper presents estimates of a hybrid
+sion and decreasing absolute risk aversion (Mo-                "power-expo" utility function that exhibits: (1)
+hammed Abdellaoui et al., 2000).                               increasing relative risk aversion, which captures
+                                                               the effects of payoff scale on the frequency of
+   Using the proportion of safe choices in each
+of the ten decisions in the four real-payoff treat-               12 If we restrict our attention to those subjects who never
+ments, we obtained maximum-likelihood pa-                      switch back to Option A after choosing Option B, the noise
+rameter estimates for this "power-expo" utility                parameter is smaller, and both risk-aversion parameters are
+function:   0.134 (0.0046), r  0.269                           larger. The estimates (and standard errors) from this sample
+(0.017), and   0.029 (0.0025), with a log-                     are   0.110 (0.0041), r  0.293 (0.017), and   0.032
+                                                               (0.003), with a log-likelihood of 247.8.
+1654  THE AMERICAN ECONOMIC REVIEW                 DECEMBER 2002
+
+                 FIGURE 6. PROPORTION OF SAFE CHOICES IN EACH DECISION: DATA AVERAGES AND PREDICTIONS
+
+Note: Data [thick lines], risk neutrality [thin dashed lines], and predictions [thick dashed lines] with noise, for the hybrid
+"power-expo" utility function with r  0.269,   0.029, and noise  0.134).
+
+safe choices, and (2) decreasing absolute risk        tive Utility with Revealed Preference: Ex-
+aversion, which avoids absurd amounts of risk         perimental Arguments Based on Prospect
+aversion for high-stakes gambles. Behavior            Theory." Working paper, CREED, Univer-
+across all treatments conforms closely to the         sity of Amsterdam, 2000.
+predictions of this model.                         Arrow, Kenneth J. Aspects of the theory of risk
+                                                      bearing. Helsinki: Academic Bookstores,
+   One implication of these results is that, con-     1965.
+trary to Kahneman and Tversky's supposition,       Bernoulli, Daniel. "Specimen Theoriae Novae de
+subjects facing hypothetical choices cannot           Mensura Sortis." Comentarii Academiae Sci-
+imagine how they would actually behave under          entiarum Imperialis Petropolitanae, 1738, 5,
+high-incentive conditions. Moreover, these dif-       pp. 175­92 [translated by L. Sommer in
+ferences are not symmetric: subjects typically        Econometrica, January 1954, 22(1), pp. 23­
+underestimate the extent to which they will           36].
+avoid risk. Second, the clear evidence for risk    Binswanger, Hans P. "Attitude Toward Risk: Ex-
+aversion, even with low stakes, suggests the          perimental Measurement in Rural India."
+potential danger of analyzing behavior under          American Journal of Agricultural Econom-
+the simplifying assumption of risk neutrality.        ics, August 1980, 62, pp. 395­ 407.
+
+                   REFERENCES                      Bosch-Dome`nech, Antoni and Silvestre, Joaquim.
+                                                      "Does Risk Aversion or Attraction Depend
+Abdellaoui, Mohammed; Barrios, Carolina and           on Income?" Economics Letters, December
+   Wakker, Peter P. "Reconciling Introspec-           1999, 65(3), pp. 265­73.
+VOL. 92 NO. 5  HOLT AND LAURY: RISK AVERSION AND INCENTIVE EFFECTS  1655
+
+Campo, Sandra; Perrigne, Isabelle and Vuong,      Isaac, R. Mark and James, Duncan. "Just Who
+   Quang. "Semi-Parametric Estimation of First-      Are You Calling Risk Averse?" Journal of
+   Price Auctions with Risk Aversion." Work-         Risk and Uncertainty, March 2000, 20(2), pp.
+   ing paper, University of Southern California,     177­ 87.
+   2000.
+                                                  Kachelmeier, Steven J. and Shehata, Mohamed.
+Chen, Kay-Yut and Plott, Charles R. "Nonlinear       "Examining Risk Preferences Under High
+   Behavior in Sealed Bid First-Price Auctions."     Monetary Incentives: Experimental Evidence
+   Games and Economic Behavior, October              from the People's Republic of China." Amer-
+   1998, 25(1), pp. 34 ­78.                          ican Economic Review, December 1992,
+                                                     82(5), pp. 1120 ­ 41.
+Cox, James C. and Oaxaca, Ronald L. "Is Bid-
+   ding Behavior Consistent with Bidding The-     Kahneman, Daniel and Tversky, Amos. "Prospect
+   ory for Private Value Auctions?" in R. M.         Theory: An Analysis of Choice Under Risk."
+   Isaac, ed., Research in experimental econom-      Econometrica, March 1979, 47(2), pp. 263­
+   ics, Vol. 6. Greenwich, CT: JAI Press, 1996,      91.
+   pp. 131­ 48.
+                                                  Luce, Duncan. Individual choice behavior. New
+Cox, James C. and Sadiraj, Vjollca. "Risk Aver-      York: John Wiley & Sons, 1959.
+   sion and Expected-Utility Theory: Coherence
+   for Small- and Large-Stakes Gambles."          Pratt, John W. "Risk Aversion in the Small and
+   Working paper, University of Arizona, 2001.       in the Large." Econometrica, January­April
+                                                     1964, 32(1­2), pp. 122­36.
+Eckel, Catherine; Grossman, Philip; Lutz, Nancy
+   and Padmanabhan, V. "Playing it Safe: Gen-     Rabin, Matthew. "Risk Aversion and Expected
+   der Differences in Risk Aversion." Working        Utility Theory: A Calibration Theorem."
+   paper, Virginia Tech, 1998.                       Econometrica, January 2000, 68(5), pp.
+                                                     1281­92.
+Goeree, Jacob K. and Holt, Charles A. "A Model
+   of Noisy Introspection." Working paper, Uni-   Saha, Atanu. "Expo-Power Utility: A Flexible
+   versity of Virginia, 2000.                        Form for Absolute and Relative Risk Aver-
+                                                     sion." American Journal of Agricultural Eco-
+Goeree, Jacob K.; Holt, Charles A. and Palfrey,      nomics, November 1993, 75(4), pp. 905­13.
+   Thomas. "Quantal Response Equilibrium and
+   Overbidding in Private-Value Auctions."        Shupp, Robert S. and Williams, Arlington W.
+   Working paper, California Institute of Tech-      "Risk Preference Differentials of Small
+   nology, 1999.                                     Groups and Individuals." Working paper, In-
+         . "Risk Aversion in Games with Mixed        diana University, 2001.
+   Strategies." Working paper, University of
+   Virginia, 2000.                                Siegel, Sydney. Nonparametric statistics. New
+                                                     York: McGraw-Hill Book Company, 1956.
+Harrison, Glenn W. "Theory and Misbehavior in
+   First-Price Auctions." American Economic       Smith, Vernon L. and Walker, James M. "Re-
+   Review, September 1989, 79(4), pp. 749 ­ 62.      wards, Experience, and Decision Costs in
+                                                     First Price Auctions." Economic Inquiry,
+                                                     April 1993, 31(2), pp. 237­ 44.
+

@@ -1,0 +1,1376 @@
+Received: 13 December 2018      Revised: 2 September 2019  Accepted: 2 September 2019
+DOI: 10.1002/bdm.2155
+
+RESEARCH ARTICLE
+
+A systematic review of algorithm aversion in augmented
+decision making
+
+Jason W. Burton1 | Mari-Klara Stein2 | Tina Blegind Jensen2
+
+1Department of Psychological Sciences,          Abstract
+Birkbeck, University of London, London, UK
+2Department of Digitalization, Copenhagen       Despite abundant literature theorizing societal implications of algorithmic decision
+Business School, Frederiksberg, Denmark         making, relatively little is known about the conditions that lead to the acceptance or
+                                                rejection of algorithmically generated insights by individual users of decision aids. More
+Correspondence                                  specifically, recent findings of algorithm aversion--the reluctance of human forecasters
+Jason W. Burton, Department of Psychological    to use superior but imperfect algorithms--raise questions about whether joint human-
+Sciences, Birkbeck, University of London, Male  algorithm decision making is feasible in practice. In this paper, we systematically review
+Street, London, WC1E 7HX, UK.                   the topic of algorithm aversion as it appears in 61 peer-reviewed articles between
+Email: jasonwilliamburton@gmail.com             1950 and 2018 and follow its conceptual trail across disciplines. We categorize and
+                                                report on the proposed causes and solutions of algorithm aversion in five themes:
+                                                expectations and expertise, decision autonomy, incentivization, cognitive compatibility,
+                                                and divergent rationalities. Although each of the presented themes addresses distinct
+                                                features of an algorithmic decision aid, human users of the decision aid, and/or the
+                                                decision making environment, apparent interdependencies are highlighted. We con-
+                                                clude that resolving algorithm aversion requires an updated research program with an
+                                                emphasis on theory integration. We provide a number of empirical questions that can
+                                                be immediately carried forth by the behavioral decision making community.
+
+                                                KEYWORDS
+                                                algorithm aversion, augmented decision making, human-algorithm interaction, systematic
+                                                review
+
+1 | INTRODUCTION                                                            to effectively combine human and nonhuman (i.e., algorithmic, statisti-
+                                                                            cal, machine, etc.) decision making remains one of the most prominent
+Algorithms have long been touted as a cognitive cure for the limita-        and perplexing hurdles for the behavioral decision making community.
+tions of human judgement and decision making (e.g., Dawes, 1979;
+Meehl, 1954), and recently, we have witnessed an increasing propor-             Amid a growing body of literature, this paper sets out to systemat-
+tion of both high-stakes and mundane decisions being augmented by           ically review the existing research that addresses the central question:
+algorithmic aids. Yet, in spite of the growing ubiquity of algorithmically  Why do people misuse (i.e., under- or over-utilize) algorithmically gen-
+augmented decision making, recent research demonstrates the persis-         erated insights in augmented decision making? This review begins
+tence of algorithm aversion, which is the reluctance of human decision      with the phenomenon of algorithm aversion and follows its concep-
+makers to use superior but imperfect algorithms (Dietvorst,                 tual trail to synthesize a clear account of the cognitive, behavioral,
+Simmons, & Massey, 2015). Although explanations for algorithm aver-         and organizational issues that lead experts and laypeople to inappro-
+sion have indeed been proposed in the past (e.g., Dawes, 1979;              priately integrate algorithmic judgement into their own. In addition,
+Einorn, 1986; Grove & Meehl, 1996; Highhouse, 2008b), the inability         we offer practical suggestions that can be mobilized in practice or car-
+                                                                            ried forward in a research agenda within the behavioral decision mak-
+                                                                            ing community.
+
+J Behav Dec Making. 2019;1­20.                  wileyonlinelibrary.com/journal/bdm     © 2019 John Wiley & Sons, Ltd.                       1
+2                                                                                            BURTON ET AL.
+
+    In the present work, it must also be noted that various terms are                        artificial intelligence. For the purpose of this review, a fundamental
+used interchangeably. Although nuanced distinctions are made else-                           definition of algorithm was adapted from the Merriam­Webster Dic-
+where, the focus of this article is on the interaction between human                         tionary as a mathematical, step-by-step procedure or formula for com-
+and nonhuman agents in decision making. Hence, the notion of algo-                           putation. As such, the literature search was not necessarily limited to
+rithmic decision making is considered an umbrella term for related                           digital algorithmic decision aids and also considered the use of basic
+paradigms like augmented decision making, decision aids, decision                            decision rules or simple paper-and-pencil decision algorithms in col-
+support systems, expert systems, decision formulas, computerized                             laboration with intuitive judgement under our broad label of
+aids, and diagnostic aids. Likewise, variations of decision making,                          nonhuman.
+judgement, forecasting, and prediction are considered equivalent for
+the purpose of this review. Beyond this terminology, it is also neces-                       2.1 | Databases
+sary to distinguish what we consider to be successful from unsuccess-
+ful algorithmic decision making. In this paper, we define successful                         Due to the interdisciplinary nature of augmented, algorithmic decision
+algorithmic decision making as an augmented decision making process                          making, large databases were sought out so as not to narrow the
+where algorithmic insights are utilized accurately and, most impor-                          scope of the review unnecessarily. Thus, the literature search was
+tantly, discriminately. This means that a successful human-algorithm                         conducted with JSTOR, Wiley Online Library, ScienceDirect, Taylor &
+augmentation is one in which the human user is able to accurately dis-                       Francis Online, SAGE Journals, ACM Digital Library, IEEE Xplore Digi-
+cern both when and when not to integrate the algorithm's judgement                           tal Library, and EBSCOhost cross-database searching. The ACM Digi-
+into his or her own decision making. Neither blind neglect nor blind                         tal Library and IEEE Xplore Digital Library were specifically included
+acceptance of algorithmic insights can be considered successful in this                      to account for technical perspectives on algorithmic decision making
+view because such decisions signal the absence or failure of interac-                        and the development of modern computational decision aids. The
+tion between the human and algorithm. There are of course cases                              PsycINFO, PsycARTICLES, Business Source Complete, Academic Sea-
+where augmentation is inappropriate, where the algorithm should                              rch Elite, and EconLit databases were included within the EBSCOhost
+completely automate the decision or where the human user wants to                            cross-database search. Altogether, these selected databases were
+delegate his or her decision autonomy, but the emphasis in this paper                        deemed sufficient for the purpose of this research due to the incorpo-
+is on cases in which agency is shared between human and algorithm.                           ration of traditional disciplines (e.g., psychology, management, and
+                                                                                             human factors) and nontraditional, hybrid disciplines (e.g., behavioral
+    The remainder of this article proceeds as follows. First, we explain                     economics, social neuroscience, and information systems). Moreover,
+the method employed for searching and coding the relevant literature.                        the high frequency of repeated articles across databases suggested an
+Then, we categorize and present the results from existing research in                        adequate level of search rigor.
+five themes--expectations and expertise, decision control,
+incentivization, cognitive compatibility, and divergent rationalities--as                    2.2 | Search terms
+they relate to causes and solutions for algorithm aversion. Finally, we
+open a discussion to highlight the connections between themes, draw                          Inspired by Dietvorst et al.'s (2015) conceptualization, the selection of
+in relevant theories that are not explicitly addressed in the reviewed                       search terms began with algorithm aversion. Although this exact ter-
+literature, and suggest avenues for future research.                                         minology appears only sparsely in existing literature, it most accu-
+                                                                                             rately encapsulates the phenomenon up for review; that is, the
+2 | METHOD                                                                                   rejection versus acceptance of algorithmically generated insights.
+
+A systematic review of existing literature was performed to gather                               Given the novelty and specificity of algorithm aversion, searches
+and analyze published, peer-reviewed research articles. By way of                            were also performed with the term algorithmic decision making to
+eight academic search engines and databases, 1,363 abstracts were                            retrieve articles from the broader research setting. Despite retrieving
+screened, which resulted in a final set of 61 articles1 from 36 academic                     many irrelevant articles, algorithmic decision making was found to be
+journals deemed eligible for analysis (Appendix, Table 1). The reason                        a shared concept across disciplines.
+behind this drastic reduction from the number of retrieved articles to
+relevant articles is itself noteworthy, but it can largely be explained by                       Upon reading Dietvorst et al. (2015), it was evident that the
+the fact that a majority of researchers' past efforts have been focused                      notion of trust plays a leading role in shaping perceptions of algorith-
+on comparing rather than conjoining human and nonhuman decision                              mically generated insights. However, trust is a conversational term
+making (for a review see Kleinmuntz, 1990). It is also evident that the                      with numerous connotations in social contexts and is often inter-
+definition of algorithm has evolved with advances in computing and                           changed with confidence. Therefore, the review of literature required
+                                                                                             a narrower, more concrete construct to focus on within human-algo-
+1Within the 61 selected references, there is a string of eleven commentary articles from     rithm interaction in decision making. To satisfy this need, searches
+Industrial and Organizational Psychology that are in response to Highhouse's (2008b) target  were performed with the term "advice utilization" as it is noted that
+article, and a string of 2 commentary articles from MIS Quarterly in response to Rao et      this term is used in research as a proxy behavior for trust; an objective
+al. (1992).                                                                                  behavioral measure (Prahl & Van Swol, 2017). Because this search
+BURTON ET AL.                                                              3
+
+retrieved a manageable number of articles, no further search qualifica-    based on focal variables to be corroborated. For example, Christin
+tion was needed.                                                           (2017) was categorized as an article focusing on the environmental
+                                                                           variables influencing human-algorithm interaction, and by noting its
+    Delving into the literature on algorithmic decision making and         use of sociological theory [e.g., Bourdieu's, 1993 theory of fields] and
+advice utilization provided an in-depth body of evidence for statistical   publication in Big Data & Society, the categorization was reiterated
+judgement and prediction, but these searches largely overlooked            with increased confidence. Next, proposed causes for algorithm aver-
+investigations of expert intuition--the main cognitive force con-          sion were drawn out from each article by isolating the variable that,
+tending with rational calculation for decision influence (Patterson,       when manipulated, resulted in a main effect on algorithm aversion
+2017). However, intuition needed to be contextualized in order to          and the utilization of algorithmic advice. Accompanying proposals for
+narrow down search results. Therefore, searches were performed with        overcoming algorithm aversion were also extracted, however many of
+intuition and decision aids. As opposed to qualifying intuition with       these remain untested hypotheses. From this mapping of problems
+decision making, which retrieved innumerable studies of naturalistic       and solutions, an initial set of four themes was distinguished: expecta-
+decision making and the like, or with algorithmic, which failed to cast    tions and expertise, decision autonomy, incentivization, and cognitive
+a wide enough net, the additional qualifier of decision aids proved        compatibility. The fifth theme of divergent rationalities arose on the
+effective in maintaining article relevance to the topic of interaction     grounds that algorithmic decision making is not simply human-algo-
+between human intuition and algorithmic calculation in decision            rithm interaction, but rather fundamentally rooted in decision making
+making.                                                                    as a cognitive function. From this conclusion, an additional analysis
+                                                                           was performed to evaluate where the literature stood in relation to
+2.3 | Inclusion criteria                                                   judgement and decision making (JDM) research. To do so, articles
+                                                                           were marked on the basis of their supported JDM theories of rational-
+Inclusion criteria came into play at two stages, setting initial database  ity and categorized on their propensity to favor one school of thought
+search parameters and setting conceptual boundaries for abstract           or another; in this case, either the heuristics-and-biases or the fast-
+screening. Database searches were limited to peer-reviewed journal         and-frugal program (Appendix, Table 3)2. For example, Highhouse
+articles published between 1950 (the decade in which Meehl's, 1954         (2008b) critiques the relevance of Gigerenzer's work and cites Kahne-
+famous examination of clinical and statistical prediction was publi-       man in support of his position. Such critique illustrates a clear stance
+shed) and 2018, written in English.                                        on the side of the heuristics-and-biases program that is championed
+                                                                           by scholars like Tversky and Kahneman, so said article was catego-
+    To screen abstracts, a hard line was drawn to only incorporate         rized accordingly. In many of the analyzed studies, the JDM orienta-
+conceptually relevant research. Noting that this review is not inter-      tion formed the basis for the research as a whole.
+ested in the overarching outcomes or ethical debates relating to algo-
+rithmic decision making, research that focused on algorithmic              3 | RESULTS
+governance, fairness, opacity, societal consequences, and so forth was
+excluded from the core literature selection. To be included in the anal-   The reviewed literature is characterized by five themes, each of which
+ysis, research must have addressed the interaction between human           relate to the key variables in a unique way. Expectations and expertise
+and nonhuman agents in decision making with specific attention given       primarily concerns the human decision maker, decision autonomy cen-
+to conditions for the under- or over-utilization of algorithmically gen-   ters on the design of the algorithmic aid, incentivization reports on
+erated insights. Thus, papers that discussed only intuitive human deci-    the role of extrinsic incentives present in the decision making environ-
+sion making or only algorithmic decision aids were excluded, whereas       ment, cognitive compatibility involves the integration of decision pro-
+papers that discussed intuitive human decision making and algorithmic      cesses between the human and algorithm (i.e., agent to agent), and
+decision aids were included.                                               divergent rationalities explains the issues that arise when the human
+                                                                           decision maker and algorithm work toward different decision out-
+2.4 | Analysis                                                             comes due to different interpretations of the environment (i.e., agent
+                                                                           to environment). In this section, we present the cause of algorithm
+Analysis began with organizing the body of literature on the basis of      aversion (the problem) and how to overcome it (the solution) by syn-
+target variables. Given that the focal phenomenon, algorithm aversion,     thesizing the message of past research and providing select examples
+arises in human-algorithm interaction, the articles addressed factors      in light of each theme (see Appendix, Table 4 for results summary).
+pertaining to the human decision maker, the algorithmic tool, and/or
+the decision making environment (Appendix, Table 1). This categoriza-      2This polarization of JDM orientation to favor either the heuristics-and-biases or the fast-
+tion, paired with an assessment of methodologies employed                  and-frugal program is a relatively recent phenomenon. Older articles tend to remain neutral
+(Appendix, Table 2), uncovered basic weak points in the existing litera-   on the issue or lack any explicit mentions of JDM/rationality theory. The coding sheds light
+ture, such as the absence of robust empirical studies testing alterna-     on how the underlying theoretical perspectives have developed over time and influenced the
+tive algorithmic aid designs.                                              domain of algorithmic decision making so it thus was deemed valuable.
+
+    Coding for themes was performed by labeling underlying theories
+deployed in each article, as well as considering the discipline and jour-
+nal it was published in. This strategy allowed for the categorization
+4                                                                             BURTON ET AL.
+
+3.1 | Expectations and expertise                                              3.1.2 | Solution: Algorithmic literacy
+
+3.1.1 | Problem: False expectations                                           If false expectations prevent the proper utilization of algorithmic aids,
+                                                                              then the solution to algorithm aversion should involve the develop-
+A human decision maker rarely, if ever, confronts an algorithm with a         ment of algorithmic literacy among human decision makers. That is,
+blank slate. Prior to engaging in algorithmic decision making, a human        human decision makers need to be trained not only in their profes-
+decision maker will have developed expectations as to what an algo-           sional domain, but also on how to interact with algorithmic tools, how
+rithm can do, what an algorithm should do, and how an algorithm               to interpret statistical outputs, and how to appreciate the utility of
+functions. These expectations can be the product of firsthand experi-         decision aids (Goodyear et al., 2016; Kuncel, 2008; Lodato, High-
+ence with algorithmic aids, experience in the decision domain, or             house, & Brooks, 2011; Sanders & Courtney, 1985; Whitecotton,
+merely secondhand knowledge picked up from peers and media. What              1996). Crucially, algorithmic literacy must include the teaching of core
+manifests from these pre-existing expectations is a paradigm in which         statistical concepts like error and uncertainty. For instance, to be algo-
+human decision makers perceive and respond to advice generated by             rithmically literate, a decision maker has to be able to tolerate error as
+algorithms differently than advice generated by humans, even if the           inherent to any decision task (Arkes et al., 1986; but also see Einhorn,
+advice itself is identical. Various mechanisms underlying this differ-        1986). Although a good decision aid might be accurate 80% of the
+ence in response are demonstrated throughout the literature, such as          time, this success rate is often displayed explicitly, and the 20%
+the tendency for humans to seek a social or parasocial relationship           chance of inaccuracy is made salient to the user. If this same user is
+with the source of advice (Alexander, Blinder, & Zak, 2018; Önkal,            historically accurate 40% of the time when making intuition-based
+Goodwin, Thomson, Gonul, & Pollock, 2009; Prahl & Van Swol, 2017),            decisions, he or she would undoubtedly benefit from consulting such
+the persistent belief that human error is random and repairable               a decision aid. But, it is likely that his or her success rate is not explicit
+whereas algorithmic error is systematic (Dietvorst et al., 2015;              and the chance of intuition-based error (60% in this case) is concealed.
+Dietvorst, Simmons, & Massey, 2016; Highhouse, 2008b), experts'               Under such circumstances, an algorithmically illiterate user might
+domain confidence leading to underutilization of seemingly unneces-           interpret the algorithm's 25% chance of making an erroneous judge-
+sary algorithmic aids (Arkes, Dawes, & Christensen, 1986; Ashton,             ment as high, when in fact it is far superior to his or her own chance
+Ashton, & Davis, 1994), or a lack of training preventing a human user         of erring. Indeed, a program of education to overcome algorithm aver-
+from properly utilizing an algorithmic aid (Mackay & Elam, 1992;              sion by highlighting such decision making problems may serve to pre-
+cf. Green & Hughes, 1986). Put simply, the expectations that a human          vent algorithm aversion in the future. On the other hand, algorithmic
+user brings into a human-algorithm interaction influence the way in           literacy puts the duty of overcoming algorithm aversion solely on the
+which he or she utilizes the algorithm.                                       human decision maker although neglecting variables in the decision-
+                                                                              making environment and the design of algorithmic aids. Moreover, the
+    Within this theme of findings, existing research distinguishes            actual impact that algorithmic literacy would have is likely limited
+between the effect of specific experience with algorithmic decision           because existing studies that do observe algorithm aversion often rely
+aids and the effect of experience with the decision domain. Here, we          on participants drawn from university programs who are presumably
+find that experience with algorithmic decision aids is positively associ-     quite algorithmically literate (e.g., Alexander et al., 2018; Dietvorst et
+ated with the utilization of algorithmic judgements, whereas domain           al., 2015, 2016; Önkal et al., 2009). Altogether, it seems unlikely that
+expertise is negatively associated with utilization (Montazemi, 1991;         an algorithmic literacy program can suffice as a standalone interven-
+Whitecotton, 1996). Perhaps this is not so surprising. Take, for exam-        tion for solving algorithm aversion.
+ple, two individuals who are provided with an algorithmic decision aid
+and tasked with forecasting the performance of an economic market-            3.2 | Decision autonomy
+place. The first individual is a trained forecaster who regularly uses
+algorithms to craft statistically-minded forecasts, and the second indi-      3.2.1 | Problem: Lack of decision control
+vidual is a well-established economist who possesses deep knowledge
+of market theory but no familiarity with algorithmic decision aids. The       For a human decision maker to act on an algorithm's judgement, he or
+trained forecaster is likely to feel unconfident in his intuitive ability to  she must feel in control and confident enough to place trust in it
+interpret the market, is capable of utilizing the algorithm with ease,        (Colarelli & Thompson, 2008; Scherer, Zikmund-Fisher, Witteman, &
+and is thus more likely to integrate algorithmic judgment into his or         Fagerlin, 2015). This feeling of control can come from a real under-
+her own forecast. On the other hand, the economist, who has a high            standing of the algorithm's performance, but it can also come from
+degree of domain experience, is likely to feel confident without the          adjustments to the algorithmic decision making process that have little
+aid of the algorithm and perceive the effort needed to consult it as          or no bearing on the actual functioning of the algorithm (e.g., changing
+unnecessary. In many ways, this problem of expectations can also be           the interface of information presentation without changing the way
+linked back to early literature on individual differences (e.g., demo-        the algorithm analyzes information). Muir (1987) points out that trust
+graphics, statistics/computing experience, profession, etc.) as these         in a decision aid is calibrated according to predictability, dependability,
+play a significant role in determining what information and sentiments        technical competence, reciprocity, and morality (i.e., an understanding
+an individual attaches to algorithmic decision making.
+BURTON ET AL.                                                                5
+
+that the aid is decent and is there to help rather than deceive or           incentivize accordingly (e.g., Alexander et al., 2018; Brown, 2015;
+usurp). Along similar lines, Scherer et al. (2015) demonstrate that          Eastwood, Snook, & Luther, 2012; Highhouse, 2008b; Klimoski &
+human decision makers often expect deliberation, a slow and effortful        Jones, 2008; Kuncel, 2008; Önkal et al., 2009). Brown (2015) and
+consideration of evidence, in high-stakes scenarios despite empirical        Hafenbrädl, Waeger, Marewski, and Gigerenzer (2016) argue that aug-
+findings suggesting that deliberation does not necessarily equate to         mented decision making requires extra motivation because it involves
+better decision making. Regarding algorithmic decision aids, studies         combining multiple judgements rather than the acceptance of a single
+such as these highlight the need for affording real or perceived deci-       calculation. This means that the successful implementation of algorith-
+sion control to the human user in order to satisfy his or her psycholog-     mic decision making requires motivating, or incentivizing, human deci-
+ical needs and self-interest (Colarelli & Thompson, 2008). In fact, this     sion makers to utilize algorithmic aids in order to balance the costs of
+conclusion corraborates Dietvorst et al.'s (2015, 2016) finding that         effort with the benefits of decision performance (Christin, 2017).
+trust in an algorithm degrades quickly upon seeing it err, but that it       Throughout the literature, two types of incentives are prevalent: eco-
+can be equally quick to restore by allowing the human decision maker         nomic (e.g., monetary incentives for making accurate decisions) and
+to modify the algorithm's judgment, even under constraints. Here,            social (e.g., abiding by social norms; maintaining reputation among
+algorithm aversion appears to manifest itself in augmented decision-         peers and colleagues).
+making systems that fail to address human users' psychological need
+for agency, autonomy, and control.                                               Let us first consider economic incentives. Given the robustness of
+                                                                             research that demonstrates benefits of utilizing algorithms in decision
+3.2.2 | Solution: Human-in-the-loop decision making                          making, one would expect human decision makers to readily incorpo-
+                                                                             rate algorithmic insights to make more accurate decisions, especially if
+In large part, the recent findings of Dietvorst et al. (2016) are a rework   they are offered monetary rewards for doing so. Paradoxically, how-
+of an old concept: human-in-the-loop decision making. Essentially, this      ever, economic incentives for decision performance have been shown
+entails an augmented decision making system in which the human user          to decrease the utilization of an algorithmic aid (Arkes et al., 1986).
+semisupervises the algorithm by having opportunities to intervene, pro-      This finding highlights the nuances that come with incentivizing deci-
+vide input, and have the final say. As described in the reviewed litera-     sion makers based on their performance. For example, if a decision
+ture, such decision making systems can take shape in a variety of ways,      maker is incentivized to make the best decision (relative to peers on a
+such as interactive support systems (Lim & O'Connor, 1996), human-           case-by-case competition basis) rather than a good decision (relative
+automation systems (Patterson, 2017), engaged systems (Pagano et al.,        to one's own performance in the long run), then he or she would need
+2016), constructive dialog in expert systems (Eining, Jones, &               to find a way to gain a unique advantage over competitors. If all com-
+Loebbecke, 1997), judgmental systems (Prahl & Van Swol, 2017), or            petitors have access to the same or similar algorithmic aids, then the
+procedural presentation in interfaces (Lamberti & Wallace, 1990). Nev-       decision maker would put him or herself at a disadvantage by utilizing
+ertheless, Dietvorst et al. (2016) highlight an important new consider-      the algorithmic judgement because this would mean simply mirroring,
+ation: that people are relatively insensitive to the amount by which         rather than surpassing, the performance of other decision makers. As
+they can modify the imperfect algorithm's forecasts as long as they are      such, the backfire effect of economic incentives for decision perfor-
+able to incorporate their own input and participate in the ultimate deci-    mance, such as that used by Arkes et al. (1986), can in fact be consid-
+sion (p. 1161). This suggests that even an illusion of autonomy will         ered to be the outcome of putatively rational behavior. However,
+remedy algorithm aversion, and that augmented decision making sys-           conflicting results exist in which competitive cash rewards did not
+tems need to include a kind of behavioral packaging or set of credibility    lead to algorithm aversion (e.g., Prahl & Van Swol, 2017), as well as
+factors that might be peripheral to decision performance, but central to     experiments where algorithm aversion persists in the absence of com-
+overcoming algorithm aversion (Landsbergen, Coursey, Loveless, &             petitive economic incentivization (e.g., Önkal et al., 2009). Reconciling
+Shangraw, 1997). Human-in-the-loop decision making can thus be               this body of research is surely important, yet existing work only pro-
+viewed both as a principle of esthetic design and a principle of func-       vides speculative explanations. For instance, Prahl and Van Swol
+tionality. However, such added features are likely to impose costs by        (2017) suggest that their experiment included performance feedback
+decreasing the speed at which users can extract the necessary decision       and consistent message characteristics (i.e., only the source descrip-
+information. Therefore, the viability of this solution is likely restricted  tion was varied), whereas the set up in Önkal et al. (2009) did not
+to domains in which decision makers are given adequate time to collab-       include performance feedback and manipulated message characteris-
+orate with an algorithmic aid.                                               tics across source types. Understanding how these factors interact
+                                                                             with economic incentivization is an empirical question that deserves
+3.3 | Incentivization                                                        attention.
+
+3.3.1 | Problem: Lack of incentivization                                         These contrasts lead us to the second source of extrinsic motiva-
+                                                                             tion for utilizing algorithmic aids: social incentives. It is widely
+Existing research points out that organizational and social structures       accepted that decision making is inextricable from the social setting in
+favor the expert intuiter over a cold algorithmic decision maker and         which it takes place. There are often various stakeholders that each
+                                                                             hold expectations and ideas of what constitutes a good decision,
+                                                                             which may not necessarily include probabilistic accuracy. Because of
+6                                                                           BURTON ET AL.
+
+this, decision makers are motivated to conform to social norms, be it a     more substantive solutions (e.g., Hagmann, Ho, & Loewenstein, 2019).
+professional maintaining an aura of omniscience in front of clients/        It will, thus, be important to not allow a quick fix like behavioral design
+patients (Arkes, Shaffer, & Medow, 2007; Eastwood et al., 2012) or an       to crowd out support for developing more costly but more impactful
+employee seeking the support of management (Sanders & Courtney,             solutions.
+1985). In fact, information about others' algorithm utilization (i.e.,
+social incentivization) is shown to have a greater influence than infor-    3.4 | Cognitive compatibility
+mation about the algorithm itself (i.e., algorithmic literacy) on decision
+makers' engagement and performance with algorithmic aids                    3.5 | Problem: Combatting intuition
+(Alexander et al., 2018). Though this too is a nuanced finding. In com-
+paring the influence of social information (i.e., information about social  Algorithmic decision making inherently requires the integration of two
+norms) with that of algorithm-related information, Alexander et             decision processes: that of the human decision maker and that of the
+al. (2018) used statistical information ("The algorithm is 75% accu-        algorithmic aid. Both decision processes need to be mapped and
+rate." p. 281) as their algorithm-related information. This assumes par-    understood transparently enough for them to be overlaid, lest they
+ticipants understand the need to tolerate probabilistic error, whereas      simply run in parallel and confront each other at the ultimate decision.
+using functional algorithm-related information might have had a dif-        For this reason, cognitive compatibility--the recognition and align-
+ferent effect if, say, it was to explain how the algorithm works in lay-    ment of human and algorithmic decision processes--is crucial for suc-
+person terms. Nevertheless, it does seem reasonable that knowledge          cessful augmented decision making. Without cognitive compatibility,
+of social norms can serve a human user in augmented decision making         algorithmic aids simply combat rather than engage human intuition.
+by reducing the cognitive strain imposed on the user. When provided
+with a new algorithmic tool, for instance, a user has to make a judge-          Efforts to compatibly match decision aids to decision makers were
+ment of the tool's reliability: How consistent is it? Whose interests       made in early literature by exploring the role of decision makers' cog-
+has it been programmed to abide by? In receiving information about          nitive style or decision style (e.g., Alavi & Henderson, 1981;
+how others have appraised the tool's reliability, the user is able to       Benbasat & Taylor, 1978; Benbasat & Taylor, 1981; Er, 1988; Rao,
+effectively crowdsource these reliability judgements and focus on the       Jacob, & Lin, 1992). Primarily, this line of research aimed to character-
+decision task at hand (Alexander et al., 2018).                             ize the nature of human information processing so that the role of
+                                                                            computer systems that support human decisions might be better
+3.3.2 | Solution: Behavioral design                                         understood (Robey & Taggart, 1982, p. 63). This largely entailed classi-
+                                                                            fying decision makers on continuums, such as heuristic versus ana-
+Although the literature around incentivization of algorithm utilization     lytic, and comparing these decision makers' performance with various
+is riddled with inconsistencies, it is fair to assume that motivating       decision aids. Research here showed that decision makers' cognitive
+human decision makers to heed algorithmic judgement requires con-           style predicted how they search, organize, and analyze data
+sciously framing the decision context. This means approaching algo-         (Benbasat & Taylor, 1978; Moldafsky & Kwon, 1994). However, this
+rithm aversion as a project of behavior change in which hardwired           research was also subject to critique that pointed out the malleability
+organizational routines and social norms pose as major obstacles. A         of cognitive style under situational pressures and the potential for
+number of suggestions have been made along these lines:                     decision makers' predispositions or biases to be exacerbated if their
+Choragwicka and Janta (2008) suggest framing the benefits of algo-          intuitive thinking is conformed to, rather than complemented (Huber,
+rithm utilization in relatable terminology, Alexander et al. (2018) pro-    1992; Robey, 1992). Although this body of work has grown dated, it
+pose manipulating the perceived social consensus, and Fisher (2008),        is nonetheless important as it highlighted the necessity of modeling
+Klimoski and Jones (2008), and Kuncel (2008) advocate for localized         human intuitive processes for algorithmic augmentation to be
+reward schemes that apply to specific decision-making roles in organi-      plausible.
+zations. Each of these holds promise, and the most effective
+incentivization program is likely to vary by environment. For this rea-         More recently, researchers have moved beyond the concept of
+son, it seems likely that the implementation of successful algorithmic      cognitive style in favor of identifying specific heuristics and biases in
+decision necessitates context-specific behavioral design. Much like         human cognition that prevent decision makers from utilizing decision
+the popular use of behavioral economics for steering healthy eating         aids effectively. That is, although much attention is given to the
+habits or financial saving, the utilization of algorithmic decision aids    opaque, black-boxed nature of algorithms (Christin, 2017; Dietvorst
+could plausibly be improved with a program of transparent nudges            et al., 2015; Eastwood et al., 2012), research suggests that human
+(Bruns, Kantorowicz-Reznichenko, Klement, Jonsson, & Rahali, 2018;          decision making operates through a black box of its own: intuition.
+Thaler & Sunstein, 2008) and boosts (Hertwig & Grüne-Yanoff, 2017)          For instance, decision aiding naturally expects a decision maker to
+that remedy human decision makers' motivational deficiencies with-          adapt his intuition and/or deliberate analyses, but to do so, he would
+out impinging on their autonomy. However, it should be noted that           have to understand descriptively the mental processes underlying his
+such an approach to resolving algorithm aversion may not necessarily        unaided intuitive choice well enough to prescribe how to practically
+be sustainable. Nudges have been critiqued for diverting efforts from       transform that intuition into the ideal judgement (Brown, 2015,
+                                                                            p. 217). However, research shows that people display persistent,
+BURTON ET AL.                                                               7
+
+unrecognized overconfidence (e.g., Arkes et al., 1986; Brown & Jones,       thinking, with the ultimate aim of pushing back the bounds of rational-
+1998; Eining et al., 1997; Sieck & Arkes, 2005) and conservatism (e.g.,     ity. This can be conspicuously seen in research that measures decision
+Lim & O'Connor, 1996). These biases need to be considered as inte-          performance by comparing descriptive results with normative optimal-
+gral parts of intuitive decision making, not random miscues, and            ity, which has in many ways been considered the gold standard for
+should thus be accommodated in order to achieve cognitive compati-          decision analysis (e.g., Kahn & Baron, 1995; Lim & O'Connor, 1996;
+bility and resolve algorithm aversion.                                      Sieck & Arkes, 2005; cf. Brown & Vari, 1992; Hafenbrädl et al., 2016).
+                                                                            Undoubtedly, the heuristics-and-biases program's view of decision
+3.5.1 | Solution: Engaging intuition                                        making and rationality has added to the algorithmic decision making
+                                                                            literature by identifying individuals' cognitive and motivational defi-
+Using normative theories of how decision making ought to take place         ciencies that could benefit from complementary augmentation. But,
+as the basis for designing decision aids requires valid models of the       by relying on one theory of decision making, algorithmic decision mak-
+descriptive decision processes that people actually use to navigate         ing researchers have restricted themselves where other views, namely
+information (Brown, 2015). This is a serious research agenda in its         that of fast-and-frugal heuristics (e.g., Arkes, Gigerenzer, & Hertwig,
+own right, but the ability to bridge the paradoxical relationship of intu-  2016; Gigerenzer, Todd, & ABC Research Group, 1999; Hertwig,
+ition and rationality is needed so that algorithmic decision aids can       Hoffrage, & ABC Research Group, 2013), offer value. The fast-and-
+pick up people where they stand and make improvements to the deci-          frugal perspective emphasizes the role of simple heuristics--formal
+sion process that people already follow. That is, in place of requiring     search, stopping, and decision rules that human decision makers
+people to learn a new process from scratch, one can develop prescrip-       deploy under uncertainty--that improve decision making and infer-
+tive aids for intuitive and effective use (Hafenbrädl et al., 2016,         ence. Crucially, this view defines good decision making as ecologically
+p. 217). This means that overcoming algorithm aversion requires care-       rational3 rather than focusing on axioms of traditional rational choice
+fully examining the subconscious processes that lead up to an intuitive     (e.g., internal coherence or transitivity). Here, the structure of the
+decision to identify the criterion used by human decision makers for        decision task and the informational environment in which decision
+gathering and evaluating information under environmental restrictions       making takes place is shown to dictate the targeted decision outcome
+(Mullins & Rogers, 2008; Thayer, 2008). In doing so, decision making        that a human decision maker aims toward.
+can be broken down into a multistep procedure and the potential for
+integrating algorithmic judgement increases with each discrete step.            The effects of task structure on decision aid utilization has been
+By adding transparency on both sides of human-algorithm interaction,        subject to significant investigation in older literature (e.g., Benbasat &
+the agent-to-agent alignment of decision processes will inherently          Taylor, 1978; Carey & Kacmar, 2003; Er, 1988; Green & Hughes,
+afford more opportunity for interaction, trust building, and confidence     1986; Kahn & Baron, 1995; Sage, 1981; Sanders & Courtney, 1985).
+calibration, regardless of the decision task or structure of the environ-   For the most part, this research tended to support the notion that
+ment. However, pushing for algorithms to be transparent often comes         human decision makers were more likely to seek the advice of deci-
+as a trade-off with the performance of the algorithm. For example,          sion aids in unstructured decision tasks, but that most decision aids
+although the decision tree model advocated by Hafenbrädl et                 were more suited to structured problems. Although the explicit focus
+al. (2016) is indeed transparent and interpretable for a user, this type    on task structure has seemingly dwindled in recent years, this litera-
+of algorithm is only suited to aid in binary classification tasks. On the   ture is reminiscent of the fast-and-frugal view that human decision
+other hand, neural networks can be trained to aid in wide-ranging           makers' decision strategies are contingent on the statistical structures
+decision tasks, but these are the prototypical black boxes that tend to     available in the environment (e.g., What calculable risks and alterna-
+give rise to algorithm aversion.                                            tives are known?). Put simply, human decision makers often operate
+                                                                            in a world of uncertainty (where alternatives, consequences, and
+3.6 | Divergent rationalities                                               probabilities are unknown and optimization is unfeasible) whereas
+                                                                            algorithms operate in a world of risk (where probabilities are known
+3.6.1 | Problem: Conflicting concepts of rationality                        or calculable and optimization should be the objective; Hafenbrädl et
+                                                                            al., 2016). The best decision strategy under risk is often not the best
+The algorithmic decision making literature has largely ignored the plu-     decision under uncertainty. So, when a human decision maker or an
+rality of views of how people make decisions in the real world. A sig-      algorithmic aid is unable to reconcile its view of what constitutes a
+nificant proportion of existing research that addresses algorithm           good decision under the specific circumstances of a given task (i.e.,
+aversion and augmented decision making has uncritically adopted the         the environment) with the other, algorithm aversion is observed.
+view of the heuristics-and-biases program (e.g., Kahneman, 2003,
+2011; Kahneman, Slovic, & Tversky, 1982; Appendix, Table 3), which          3Ecological rationality is a practical account that claims the rationality of a decision is
+originates in research cataloging the many cognitive illusions that         contingent on the environment in which it occurs. Ecological rationality violates rational
+result from human decision makers' inability to perform rational calcu-     choice theory's normative criteria and measures decision models on their predictive power
+lations. Through this perspective, algorithmic decision aids are under-     under uncertainty (instead of data fitting), competitive model testing (instead of null
+stood to be a kind of cognitive fix for the natural limitations of human    hypothesis testing), and real-world validity (instead of internal coherence) (Todd &
+                                                                            Gigerenzer, 2007).
+8                                                                          BURTON ET AL.
+
+3.6.2 | Solution: Aiding ecological rationality                                At the forefront of any effort to remedy algorithm aversion has to
+                                                                           be attention to the expectations and expertise that human decision
+Perhaps as a result of the focus on the heuristics-and-biases pro-         makers inevitably carry into human-algorithm interactions. This is
+gram's theory of rationality, algorithmic decision making faces a con-     something that every one of us is susceptible to. We hold prior beliefs
+spicuous research-practice gap where complexity is seemingly valued        about how decisions should be made, what variables carry weight,
+more than real-world suitability (Brown, 2015; Hafenbrädl et al.,          and what outcomes are right and wrong under specific conditions.
+2016). Considering the time, accessibility, and cost-efficiency restric-   These beliefs influence the way we interact with a decision aid and
+tions of real-world decision making, designing algorithmic aids to help    the degree to which we update our beliefs when provided with algo-
+achieve ecological rationality rather than probabilistic optimality pre-   rithmically generated insights, regardless of whether our prior beliefs
+sents an opportunity for human and algorithmic problem-solving strat-      are accurate or not. This means that if such beliefs go unaddressed,
+egies to further complement one another. Patterson (2017) points out       essentially any advances in algorithm design or changes to the deci-
+that regardless of one's view on decision making and rationality, there    sion making environment can be subverted. Indeed, algorithmic liter-
+is consensual agreement that intuition is the leading force in human       acy should be encouraged, and it will likely develop naturally, albeit
+cognition. Rather than directly contesting it, algorithmic decision mak-   slowly, as exposure to algorithms increases in volume and variety.
+ing systems would thus benefit from being modeled to suit the range        However, a concept that has not been deeply explored in algorithmic
+of rationalities that intuitive thinking abides by (Sage, 1981; Westin,    decision making despite seeming relevance is theory of mind, which
+Borst, & Hilburn, 2016). For researchers and practitioners alike, this     broadly refers to an agent's ability to impute mental states, intentions,
+means ensuring that algorithmic decision aids work for the human           and beliefs to itself and others (Premack & Woodruff, 1978). Although
+decision maker and not vice versa. Understanding alternative decision      research around theory of mind has predominantly been reserved to
+making theories, like that of fast-and-frugal heuristics, not as descrip-  developmental psychology domains, its applicability to artificial intelli-
+tions of irrational behavior but as a valid conceptualization of real-     gence and robotics has been recognized in recent work (e.g.,
+world cognition, will serve to both advance applied decision making        Rabinowitz et al., 2018; Winfield, 2018). For example, theory of mind
+research and inform the design of augmented decision making sys-           explains that humans rely on high-level models of others for daily
+tems that are less prone to algorithm aversion. Thus, we advocate for      social reasoning: We infer what others are thinking in order to com-
+accepting the plurality of decision making and rationality theory and      municate and cooperate better. Despite the fact that these models do
+exploiting its variety for the betterment of algorithmic decision mak-     not include references to the neural mechanisms at play in others'
+ing. Importantly, this is not a suggestion to uncritically cater to human  brains, they are extremely efficient in everyday life. In regard to algo-
+users' concepts of rationality, which could plausibly lead to incorpo-     rithmic decision making, this suggests that human-algorithm coordina-
+rating unfavorable biases into augmented decision outcomes. Instead,       tion needs not human agents who grasp the code behind the
+aiding for ecological rationality entails the identification of which      algorithmic aid, but rather a high-level model of its purpose and per-
+models perform best under different constraints, or at different points    ception. This idea is perhaps an obvious one, but it is one that does
+on the risk-uncertainty continuum, and ensuring that algorithmic aids      not appear in the reviewed literature. Although a theory of (algorith-
+are not unduly wedded to a single normative theory.                        mic) mind (cf. theory of machine, Logg, Minson, & Moore, 2019) natu-
+                                                                           rally applies to the idea of algorithmic literacy, its connections to
+4 | DISCUSSION                                                             other themes are also apparent: Does an accurate internal model of
+                                                                           an algorithm's perceptions moderate the degree to which a human
+The objective of this review has been to curate the existing research      user feels a need for control, the degree to which a user requires
+that explains why human and nonhuman (i.e., algorithmic, statistical,      extrinsic incentivization, the degree to which a user is capable of inte-
+machine, etc.) decision making is so difficult to merge, particularly in   grating an algorithm's decision process, or the degree to which a user
+the context of algorithmic decision making's growing ubiquity and          is able to align with an algorithm's rational decision outcome?
+recent findings of algorithm aversion. Although we have identified
+expectations and expertise, decision autonomy, incentivization, cogni-         In the reviewed literature, decision autonomy is mostly portrayed
+tive compatibility, and divergent rationalities as distinctive themes, it  as some form of post hoc deliberation where the human user of an
+is important to remember they are not to be taken as independent of        algorithmic aid is granted opportunities to edit that aid's judgement
+one another. Mapping the interdependencies between the mecha-              (e.g., Dietvorst et al., 2016). Yet, there are other ways of distributing
+nisms underlying algorithm aversion and recognizing the value of the-      autonomy between a human and algorithm in decision making. In fact,
+ory integration (as opposed to theory generation), seems necessary         it is in the original work of Meehl (1954), Einhorn (1972), and Dawes
+when addressing an interdisciplinary topic like algorithm aversion. In     (1979) that the idea of shared decision autonomy, between statistical
+the following paragraphs, we return to each of the five themes in          and clinical methods of judgement, was first substantiated with empir-
+order to make such interdependencies clear, to link the reviewed liter-    ical data (also see Sawyer, 1966). As Camerer (1981) explains, the
+ature to relevant theories and hypotheses that were not explicitly         experiments that pitted clinical and statistical judgement against one
+addressed, and to suggest avenues for future research.                     another lead to the conclusion that human decision makers are in fact
+                                                                           quite good at collecting data (i.e., providing the input for a model), but
+                                                                           are bad at combining it. Conversely, algorithms are good at combining
+BURTON ET AL.                                                                9
+
+data (i.e., calculating the output based on a model), but are bad at col-    this review generate some reasonable hypotheses: Might participa-
+lecting it. Bootstrapping models mobilize this finding by allowing           tory, human-in-the-loop decision making systems be more justifiable
+human decision makers to intuitively gather and encode information           for the average user? Could a more interpretable algorithmic decision
+and then having this human-collected information put into the empiri-        process be better at dissolving users' false expectations?
+cally established relationships of a regression algorithm that ultimately
+pull human users up by their proverbial bootstraps (Camerer, 1981,               Naturally, the influence of decision autonomy and social
+p. 411). Practically speaking, bootstrapping models are indeed a ver-        incentivization on algorithm aversion depends on cognitive compati-
+sion of human-in-the-loop decision making because human agents               bility between human and algorithm. Distributing autonomy across
+play a direct part in constructing the algorithmic model, which seems        certain steps of a decision making process and making interpretable,
+to be a plausible remedy for algorithm aversion driven by a lack of          justifiable decisions that suit the social context requires that the
+decision control. Moreover, bootstrapping models could also feature          human user of an algorithmic aid is able to recognize when and why
+in building cognitive compatibility because they inherently break            the algorithm's process overlaps or diverges from his or her own. The
+down the decision making process into delegable, comprehensible              more stages of a human decision making process that can be engaged
+steps. To our knowledge, however, no study has looked at how boo-            by an algorithm, the more opportunities there are for that algorithm's
+tstrapping models might fare in terms of algorithm aversion. Do              judgement to be integrated. Based on this conclusion, it is clear that
+human decision makers feel a greater degree of autonomy with boo-            both the designers of algorithmic aids and the humans that are sup-
+tstrapping models as compared with models with predetermined                 posed to utilize the aids need some knowledge of decision processes.
+inputs (e.g., the model used in Dietvorst et al., 2015)? Could the           Simon (1977, p. 77) famously breaks down decision making into three
+reduction in algorithm aversion caused by allowing human users to            essential steps: intelligence (searching for information and identifying
+modify the algorithmic aid's output (e.g., Dietvorst et al., 2016) be fur-   alternatives), design (calculating the consequences of alternatives),
+thered by allowing them to also modify the algorithmic aid's input?          and choice (evaluating and selecting an alternative). Although pointing
+                                                                             out that each of these steps could be approached as decisions in
+    Intrinsically dependent on the social or organizational decision         themselves, Simon's (1977) simple model has significantly influenced
+making environment, the role of incentivization in algorithm aversion        the development of decision aids by translating seemingly complex,
+is perhaps the most distinctive. But given the apparently high degree        holistic processes into programmable increments (Pomerol & Adam,
+of domain-specificity of incentivization's effects, making confident         2006). Traditionally, different types of decision aids targeted different
+proposals for motivating human decision makers to heed an algo-              steps of the decision making process; however, the rise in machine
+rithm's advice is difficult. Nevertheless, related research on algorithms    learning means that algorithms are increasingly able to take over deci-
+in social contexts suggests certain principles, like justifiability and      sion processes in their entirety. This progress is undoubtedly exciting
+interpretability (e.g., Brkan, 2019; Goodman & Flaxman, 2016), could         for anyone interested in artificial intelligence, but it poses serious
+be key to introducing algorithmic decision making in traditionally           challenges for the prospect of cognitively compatible, augmented
+human environments. With consideration of the social pressures               decision making. As this review describes, algorithm aversion can
+placed upon individuals (and their peers), particularly in organizational    manifest when human and algorithmic decision processes run in paral-
+settings, it seems that algorithmic aids need not only to be accurate,       lel, largely because the lack of interaction lends itself toward poor
+but also to be understood by the humans using them (Yeomans, Shah,           confidence calibration on behalf of the human user (Muir, 1987;
+Mullainathan, & Kleinberg, 2019). For example, in medical decision           Sieck & Arkes, 2005). Put simply, if algorithms dictate the whole of a
+making, or even routine operational business decisions, the human            decision process and only propose an ultimate choice, this is debat-
+tasked with making the decision is held accountable. If a decision           ably more along the lines of automation rather than augmentation.
+maker does not understand how an algorithm came to its conclusion,           Whether or not, human decision makers are willing to interact with
+then utilizing it may jeopardize that decision maker's ability to justify a  contemporary algorithms at each step of a decision process remains
+decision with implicated stakeholders. In fact, this functional role of      to be seen. But, if algorithms can aid a wider range of aspects in the
+justifiability as an incentive for decision making performance has been      decision making process, then it seems plausible that they could be
+a long withstanding topic (e.g., Ashton, 1990, 1992; Tetlock, 1985),         properly utilized by a wider range of human decision makers and in a
+which indeed appears sporadically throughout the reviewed literature         wider range of decision making environments. This line of inquiry too
+(e.g., Brown & Jones, 1998; Eining et al., 1997; Landsbergen et al.,         can be readily translated into empirical questions: What steps of deci-
+1997; Scherer et al., 2015; Sieck & Arkes, 2005; Swinney, 1999).             sion making are human users most reluctant/willing to delegate to an
+What these inquiries suggest is that the designers of augmented deci-        algorithmic aid? What types of decision tasks benefit most from
+sion making systems need to approach the human-algorithm interac-            (in terms of performance and algorithm aversion) algorithmically auto-
+tion not as a one-to-one relationship, but rather as a political             mated intelligence, design, and choice?
+relationship, because most important decisions are not, after all, the
+product of isolated information processors; they are the product of              Implied theories of decision making and rationality underlie each
+intensive interactions among members of groups (Tetlock, 1985,               of the previous four themes. Broadly speaking, these theories provide
+p. 298). Although an ecologically valid experiment on algorithm aver-        the normative logic upon which a decision can be evaluated as good
+sion in social contexts is difficult to imagine, the themes presented in     or bad. If one person considers a rational decision to be one that
+                                                                             adheres to traditional principles of internal consistency (e.g.,
+10                                                                            BURTON ET AL.
+
+transitivity or additivity of probabilities), and another person considers    calls against opaque algocracy have occupied the limelight (e.g.,
+a rational choice to be one that has the best external performance            Danaher, 2016; O'Neil, 2016; Pasquale, 2015). Making the human-
+(e.g., timeliness, justifiability, and cost-efficiency), then these two peo-  algorithm relationship work thus seems to be in everyone's best inter-
+ple are aiming toward fundamentally different decision goals                  est, but practical solutions for algorithm aversion have yet to take
+(Gigerenzer, 2001). As was previously mentioned, there are in fact a          shape. Despite significant advances in our understanding of the neural
+plurality of views on decision making and rationality that people             mechanisms underlying advice taking, our cognitive decision pro-
+employ in the real world. Because algorithmic aids inherently rely on         cesses and limitations, the computing capabilities of algorithms, and
+some programmable decision making ideal, the underlying theory has            the perceptions of algorithms in organizational settings, the links
+significant ramifications for how the aids can be used in practice.           between such findings remain sparse. This review has highlighted the
+Although the rather dismal view of human decision making capabilities         range of perspectives one can take in appraising algorithm aversion in
+put forth by the heuristics-and-biases program has been widely                augmented decision making, and as such, it seems that for real-world
+presupposed in the reviewed literature, it is not difficult to find or        progress to be made there needs to be at least an equal emphasis on
+imagine examples of algorithms that are founded on other theories of          theory integration as there has been on theory generation. Given digi-
+rationality. For example, where the heuristics-and-biases program has         talization's and datafication's rapid expansion into evermore aspects
+a regression model, the fast-and-frugal view has a signal detection-          of everyday life, there should be no lack of impetus to build coopera-
+style decision tree. These fast-and-frugal trees (Hafenbrädl et al.,          tive relationships with the algorithms that help us make sense of a
+2016; Phillips, Neth, Woike, & Gaissmaier, 2017) are especially rele-         quantified society.
+vant to the algorithm aversion discussion not only because they allow
+the human decision maker to dictate the external measures upon                ORCID
+which an augmented decision will be judged, but also because they
+are transparent. This in turn suggests that human users could inter-          Jason W. Burton https://orcid.org/0000-0002-6797-2299
+pret, justify, control, and interact with a fast-and-frugal decision aid,
+which touches on virtually all the drivers of algorithm aversion cov-         REFERENCES
+ered in this review. Once again, however, this is an empirical question
+that remains unanswered. Although we have lumped together various             Alavi, M., & Henderson, J. C. (1981). An evolutionary strategy for
+algorithmic models under the label of nonhuman in this review, how                 implementing a decision support system. Management Science, 27(11),
+might various models compare in terms of algorithm aversion? Like                  1309­1323. https://doi.org/10.1287/mnsc.27.11.1309
+competitive model testing and out-of-sample prediction provide alter-
+native methodological principles to null hypothesis testing and data          Alexander, V., Blinder, C., & Zak, P. J. (2018). Why trust an algorithm? Per-
+fitting, respectively, could adding algorithm aversion to the arsenal of           formance, cognition, and neurophysiology. Computers in Human Behav-
+model metrics be the next step for augmented decision making?                      ior., 89, 279­288. https://doi.org/10.1016/j.chb.2018.07.026
+
+    Needless to say, addressing algorithm aversion is a research ven-         Arkes, H. R., Dawes, R. M., & Christensen, C. (1986). Factors influencing
+ture that is well-informed by rich existing literature, but overall, it is a       the use of a decision rule in a probabilistic task. Organizational Behavior
+venture that has failed to translate into satisfactory practice. Like the          and Human Decision Processes, 37, 93­110. https://doi.org/10.1016/
+clinical versus statistical prediction debate before it, the discourse             0749-5978(86)90046-4
+around algorithmic decision making has been primarily concerned with
+comparing human and nonhuman decision makers, rather than                     Arkes, H. R., Gigerenzer, G., & Hertwig, R. (2016). How bad is incoher-
+addressing the practical issues that prevent combining the best aspects            ence? American Psychological Association, 3(1), 20­39. https://doi.org/
+of the two. Perhaps due to the need for improved communication                     10.1037/dec0000043
+across disciplines, the existing literature also struggles to define its key
+constructs. Although the use of varying terminologies is not inherently       Arkes, H. R., Shaffer, V. A., & Medow, M. A. (2007). Patients Derogate Phy-
+bad, a lack of clarity can cloud important concepts, and at times this             sicians Who Use a Computer-Assisted Diagnostic Aid. Medical Decision
+leads to misperceptions where reconcilable findings are presented as               Making, 27, 189­202. https://doi.org/10.1177/0272989X06297391
+empirical contradictions, and vice versa. With recent work suggesting
+that humans display algorithm appreciation (Logg et al., 2019) rather         Ashton, A. H., Ashton, R. H., & Davis, M. N. (1994). White-collar robotics:
+than algorithm aversion, the need for clarity seems especially pressing.           Levering managerial decision making. California Management Review,
+                                                                                   37(I), 83­110.
+5 | CONCLUSION
+                                                                              Ashton, R. H. (1990). Pressure and performance in accounting decision
+Research shows that augmented, human-algorithm decision systems                    settings: Paradoxical effects of incentives, feedback, and justification.
+outperform both lone human and lone algorithm decision makers (e.g.,               Journal of Accounting Research, 28, 148­180. https://doi.org/10.2307/
+Einhorn, 1972; Kleinmuntz, 1990). More recently, however, fervent                  2491253
+
+                                                                              Ashton, R. H. (1992). Effects of justification and a mechanical aid on judg-
+                                                                                   ment performance. Organizational Behavior and Human Decision Pro-
+                                                                                   cesses, 52(2), 292­306. https://doi.org/10.1016/0749-5978(92)
+                                                                                   90040-E
+
+                                                                              Benbasat, I., & Taylor, R. N. (1978). The impact of cognitive styles on infor-
+                                                                                   mation system design. MIS Quarterly, 2(2), 43­54. https://doi.org/10.
+                                                                                   2307/248940
+
+                                                                              Benbasat, I., & Taylor, R. N. (1981). Behavioral aspects of information
+                                                                                   processing for the design of management information systems. IEEE
+                                                                                   Transactions on Systems, Man, and Cybernetics, 12, 439­450. https://
+                                                                                   doi.org/10.1109/TSMC.1982.4308848
+BURTON ET AL.                                                                   11
+
+Bourdieu, P. (1993). The Field of Cultural Production. New York, NY: Colum-     Eining, M. M., Jones, D. R., & Loebbecke, J. K. (1997). Reliance on decision
+     bia University Press.                                                           aids: An examination of auditors' assessment of management fraud.
+                                                                                     Auditing: A Journal of Practice & Theory, 16(2), 1­19.
+Brkan, M. (2019). Do algorithms rule the world? Algorithmic decision-
+     making and data protection in the framework of the GDPR and                Einorn, H. J. (1986). Accepting error to make less error. Journal of Personality
+     beyond. International Journal of Law and Information Technology, 27(2),         Assessment, 50(3), 387­395. https://doi.org/10.1207/s15327752jpa5003_8
+     91­121.
+                                                                                Er, M. C. (1988). Decision Support Systems: A Summary, Problems, and
+Brown, D. L., & Jones, D. R. (1998). Factors that influence reliance on deci-        Future Trends. Decision Support Systems, 4, 355­363. https://doi.org/
+     sion aids: A model and an experiment. Journal of Information Systems,           10.1016/0167-9236(88)90022-X
+     12(2), 75­94.
+                                                                                Fisher, C. D. (2008). Why don't they learn? Industrial and Organizational
+Brown, R., & Vari, A. (1992). Towards a research agenda for prescriptive             Psychology, 1(3), 364­366. https://doi.org/10.1111/j.1754-9434.
+     decision science: The normative tempered by the descriptive. Acta               2008.00065.x
+     Psychologica, 80, 33­47. https://doi.org/10.1016/0001-6918(92)
+     90039-G                                                                    Gigerenzer, G. (2001). Decision making: Nonrational theories. International
+                                                                                     Encyclopedia of the Social and Behavioral Sciences, 5, 3304­3309.
+Brown, R. V. (2015). Decision science as a by-product of decision-aiding: A          https://doi.org/10.1016/B978-0-08-097086-8.26017-0
+     practitioner's perspective. Journal of Applied Research in Memory and
+     Cognition, 4, 212­220. https://doi.org/10.1016/j.jarmac.2015.07.005        Gigerenzer, G., Todd, P. M., & ABC Research Group (1999). Fast and frugal
+                                                                                     heuristics: The Adaptive toolbox. Simple Heuristics That Make Us
+Bruns, H., Kantorowicz-Reznichenko, E., Klement, K., Jonsson, M. L., &               Smart., 7, 93­104. https://doi.org/10.1177/1354067X0171006
+     Rahali, B. (2018). Can nudges be transparent and yet effective? Journal
+     of Economic Psychology, 65, 41­58. https://doi.org/10.1016/j.joep.         Goodman, B., & Flaxman, S. (2016). European Union Regulations on Algo-
+     2018.02.002                                                                     rithmic Decision-Making and a "Right to Explanation". ArXiv Preprint,
+                                                                                     38, 1­9. Retrieved from. https://doi.org/10.1609/aimag.v38i3.2741
+Camerer, C. (1981). General conditions for the success of bootstrapping
+     models. Organizational Behavior and Human Performance, 27(3),              Goodyear, K., Parasuraman, R., Chernyak, S., de Visser, E., Madhavan, P.,
+     411­422. https://doi.org/10.1016/0030-5073(81)90031-3                           Deshpande, G., & Krueger, F. (2017). An fMRI and effective connectiv-
+                                                                                     ity study investigating miss errors during advice utilization from human
+Carey, J. M., & Kacmar, C. J. (2003). Toward a general theoretical model of          and machine agents. Social Neuroscience, 12(5), 570­581. https://doi.
+     computerbased factors that affect managerial decision making. Journal           org/10.1080/17470919.2016.1205131
+     of Managerial Issues, 15(4), 430­449.
+                                                                                Goodyear, K., Parasuraman, R., Chernyak, S., Madhavan, P., Deshpande, G., &
+Carrigan, N., Gardner, P. H., Conner, M., & Maule, J. (2004). The impact of          Krueger, F. (2016). Advice Taking from Humans and Machines: An fMRI
+     structuring information in a patient decision aid. Psychology & Health,         and effective connectivity study. Frontiers in Human Neuroscience, 10
+     19(4), 457­477. https://doi.org/10.1080/08870440310001652641                    (542), 1­15. https://doi.org/10.3389/fnhum.2016.00542
+
+Choragwicka, B., & Janta, B. (2008). Why is it so hard to apply professional    Green, G. I., & Hughes, C. T. (1986). Effects of decision support systems
+     selection methods in business practice? Industrial and Organizational           training and cognitive style on decision process attributes. Journal of
+     Psychology, 1(3), 355­358. https://doi.org/10.1111/j.1754-9434.                 Management Information Systems, 3(2), 83­93. https://doi.org/10.
+     2008.00062.x                                                                    1080/07421222.1986.11517764
+
+Christin, A. (2017). Algorithms in practice: Comparing web journalism and       Grove, W. M., & Meehl, P. E. (1996). Comparative efficiency of informal
+     criminal justice. Big Data & Society, 4, 1­14. https://doi.org/10.1177/         (subjective, impressionistic) and formal (mechanical, algorithmic) pre-
+     2053951717718855                                                                diction procedures: The clinical­statistical controversy. Psychology,
+                                                                                     Public Policy, and Law, 2, 293­323. https://doi.org/10.1037/1076-
+Colarelli, S. M., & Thompson, M. (2008). Stubborn reliance on human                  8971.2.2.293
+     nature in employee selection: Statistical decision aids are evolution-
+     arily novel. Industrial and Organizational Psychology, 1(3), 374­351.      Hafenbrädl, S., Waeger, D., Marewski, J. N., & Gigerenzer, G. (2016).
+     https://doi.org/10.1111/j.1754-9434.2008.00060.x                                Applied decision making with fast-and-frugal heuristics. Journal of
+                                                                                     Applied Research in Memory and Cognition, 5, 215­231. https://doi.
+Danaher, J. (2016). The threat of algocracy: Reality, resistance and accom-          org/10.1016/j.jarmac.2016.04.011
+     modation. Philosophy and Technology, 29(3), 245­268. https://doi.org/
+     10.1007/s13347-015-0211-1                                                  Hagmann, D., Ho, E. H., & Loewenstein, G. (2019). Nudging out support
+                                                                                     for a carbon tax. Nature Climate Change, 9(6), 484­489. https://doi.
+Dawes, R. M. (1979). The robust beauty of improper linear models in deci-            org/10.1038/s41558-019-0474-0
+     sion making. American Psychologist, 34(7), 571­582. https://doi.org/
+     10.1037/0003-066X.34.7.571                                                 Hertwig, R., & Grüne-Yanoff, T. (2017). Nudging and Boosting: Steering or
+                                                                                     Empowering Good Decisions. Perspectives on Psychological Science, 12
+Dietvorst, B. J., Simmons, J. P., & Massey, C. (2015). Algorithm aversion:           (6), 973­986. https://doi.org/10.1177/1745691617702496
+     People erroneously avoid algorithms after seeing them err. Journal of
+     Experimental Psychology: General, 144(1), 114­126. https://doi.org/10.     Hertwig, R., Hoffrage, U., & ABC Research Group (2013). Simple heuristics
+     1037/xge0000033                                                                 in a social world. New York, NY: Oxford University Press.
+
+Dietvorst, B. J., Simmons, J. P., & Massey, C. (2016). Overcoming algorithm     Highhouse, S. (2008a). Facts are stubborn things. Industrial and Organiza-
+     aversion: People will use imperfect algorithms if they can (even                tional Psychology, 1(3), 373­376. https://doi.org/10.1111/j.1754-
+     slightly) modify them. Management Science, 64(3), 1155­1170. https://           9434.2008.00069.x
+     doi.org/10.1287/mnsc.2016.2643
+                                                                                Highhouse, S. (2008b). Stubborn reliance on intuition and subjectivity in
+Eastwood, J., Snook, B., & Luther, K. (2012). What people want from their            employee selection. Industrial and Organizational Psychology, 1(3),
+     professionals: Attitudes toward decision-making strategies. Journal of          333­342. https://doi.org/10.1111/j.1754-9434.2008.00058.x
+     Behavioral Decision Making, 25, 458­468. https://doi.org/10.1002/
+     bdm.741                                                                    Huber, G. P. (1992). Response to Rao, et al: How to deal with cognitive
+                                                                                     style. MIS Quarterly, 16(2), 153­154. https://doi.org/10.2307/249572
+Einhorn, H. J. (1972). Expert measurement and mechanical combination.
+     Organizational Behavior and Human Performance, 7(1), 86­1972.              Jarrahi, M. H. (2018). Artificial intelligence and the future of work: Human-
+     https://doi.org/10.1016/0030-5073(72)90009-8                                    AI symbiosis in organizational decision making. Business Horizons, 61,
+                                                                                     577­586. https://doi.org/10.1016/j.bushor.2018.03.007
+Einhorn, H. J. (1986). Accepting error to make less error. Personality Assess-
+     ment, 50(3), 387­395. https://doi.org/10.1207/s15327752jpa5003             Kahn, B. E., & Baron, J. (1995). An exploratory study of choice rules
+                                                                                     favored for high-stakes decisions. Journal of consumer Psychology, 4(4),
+                                                                                     305­328.
+12                                                                                BURTON ET AL.
+
+Kahneman, D. (2003). A perspective on judgment and choice: Mapping                O'Neil, C. (2016). Weapons of math destruction: How big data increases
+     bounded rationality. American Psychologist, 58(9), 697­720. https://              inequality and threatens democracy. New York: Crown Publishers.
+     doi.org/10.1037/0003-066X.58.9.697
+                                                                                  Önkal, D., Goodwin, P., Thomson, M., Gonul, S., & Pollock, A. (2009). The
+Kahneman, D. (2011). Thinking, Fast and Slow. New York, NY: Macmillan.                 Relative Influence of Advice From Human Experts and Statistical
+Kahneman, D., Slovic, P., & Tversky, A. (1982). Judgment under uncertainty:            Methods on Forecast Adjustments. Journal of Behavioral Decision Mak-
+                                                                                       ing, 22, 390­409. https://doi.org/10.1002/bdm.637
+     Heuristics and biases. Cambridge, England: Cambridge University Press.
+     https://doi.org/10.1017/CBO9780511809477                                     Pagano, T. C., Pappenberger, F., Wood, A. W., Ramos, M.-H.,
+Kleinmuntz, B. (1990). Why we still use our heads instead of formulas:                 Persson, A., & Anderson, B. (2016). Automation and human expertise
+     Toward an integrative approach. Psychological Bulletin, 107(3),                   in operational river forecasting. Wiley Interdisciplinary Reviews: Water,
+     296­310. https://doi.org/10.1037/0033-2909.107.3.296                              3(5), 692­705. https://doi.org/10.1002/wat2.1163
+Klimoski, R., & Jones, R. G. (2008). Intuiting the selection context. Industrial
+     and Organizational Psychology, 1(3), 352­354. https://doi.org/10.            Pasquale, F. (2015). The Black Box Society: The secret algorithms that control
+     1111/j.1754-9434.2008.00061.x                                                     money and information. Cambridge, MA: Harvard University Press.
+Kuncel, N. R. (2008). Some New (and Old) Suggestions for improving per-                https://doi.org/10.4159/harvard.9780674736061
+     sonnel selection. Industrial and Organizational Psychology, 1(3),
+     343­346. https://doi.org/10.1111/j.1754-9434.2008.00059.x                    Patterson, R. E. (2017). Intuitive cognition and models of human-automa-
+Lamberti, D. M., & Wallace, W. A. (1990). Expert systems intelligent inter-            tion interaction. Human Factors, 59(1), 101­115. https://doi.org/10.
+     face assessment of design: An empirical knowledge presentation in                 1177/0018720816659796
+     expert systems1. MIS Quarterly, 14(3), 279­311. https://doi.org/10.
+     2307/248891                                                                  Phillips, J. M., & Gully, S. M. (2008). The role of perceptions versus reality
+Landsbergen, D., Coursey, D. H., Loveless, S., & Shangraw, R. F. (1997).               in managers' choice of selection decision aids. Industrial and Organiza-
+     Decision quality, confidence, and commitment with expert systems:                 tional Psychology, 1(3), 361­363. https://doi.org/10.1111/j.1754-
+     An experimental study. Journal of Public Administration Research and              9434.2008.00064.x
+     Theory, 7(1), 131­157. https://doi.org/10.1093/oxfordjournals.jpart.
+     a024336                                                                      Phillips, N. D., Neth, H., Woike, J. K., & Gaissmaier, W. (2017). FFTrees: A
+Lim, J. S., & O'Connor, M. (1996). Judgmental forecasting with interactive             toolbox to create, visualize, and evaluate fast-and-frugal decision
+     forecasting support systems. Decision Support Systems, 16, 339­357.               trees. Judgment and Decision Making, 12(4), 344­368. Retrieved from.
+     https://doi.org/10.1016/0167-9236(95)00009-7                                      http://journal.sjdm.org/17/17217/jdm17217.pdf
+Lodato, M. A., Highhouse, S., & Brooks, M. E. (2011). Predicting professional
+     preferences for intuition-based hiring. Journal of Managerial Psychology,    Pomerol, J.-C., & Adam, F. (2006). On the legacy of Herbert Simon and his
+     26(5), 352­365. https://doi.org/10.1108/02683941111138985                         contribution to decision-making support systems and artificial intelli-
+Logg, J. M., Minson, J. A., & Moore, D. A. (2019). Algorithm appreciation:             gence. In Intelligent Decision-making Support Systems (pp. 25­43).
+     People prefer algorithmic to human judgment. Organizational Behavior              London: Springer. https://doi.org/10.1007/1-84628-231-4_2
+     and Human Decision Processes, 151, 90­103. https://doi.org/10.1016/
+     j.obhdp.2018.12.005                                                          Prahl, A., & Van Swol, L. (2017). Understanding algorithm aversion: When
+Mackay, J. M., & Elam, J. J. (1992). A comparative study of how experts                is advice from automation discounted? Journal of Forecasting, 36,
+     and novices use a decision aid to solve problems in complex knowl-                691­702. https://doi.org/10.1002/for.2464
+     edge domains. Information Systems Research, 3(2), 150­172. https://
+     doi.org/10.1287/isre.3.2.150                                                 Premack, D., & Woodruff, G. (1978). Does the chimpanzee have a theory
+Martin, S. L. (2008). Managers also overrely on tests. Industrial and Organi-          of mind? The Behavioral and Brain Sciences, 4, 515­526. https://doi.
+     zational Psychology, 1(3), 359­360. https://doi.org/10.1111/j.1754-               org/10.1017/S0140525X00076512
+     9434.2008.00063.x
+Meehl, P. E. (1954). Clinical vs. statistical prediction: A theoretical analysis  Rabinowitz, N. C., Perbet, F., Song, H. F., Zhang, C., Eslami, S. M. A., &
+     and a review of the evidence.                                                     Botvinick, M. (2018). machine theory of mind. ArXiv Preprint. Retrieved
+Mosier, K. L., & Fischer, U. M. (2010). Judgment and decision making                   from http://arxiv.org/abs/1802.07740
+     by individuals and teams: issues, models, and applications. Reviews
+     of human factors and ergonomics, 6(1), 198­256. https://doi.                 Rao, H. R., Jacob, V. S., & Lin, F. (1992). Hemispheric specialization, cogni-
+     org/10.1518/155723410X12849346788822                                              tive differences, and their implications for the design of decision sup-
+Moldafsky, N., & Kwon, I.-W. (1994). Attributes affecting computer-aided               port systems. MIS Quarterly, 16(2), 145­151. https://doi.org/10.2307/
+     decision making -- a literature survey. Computers in Human Behavior,              249570
+     10(3), 299­323. https://doi.org/10.1016/0747-5632(94)90057-4
+Montazemi, A. R. (1991). The impact of experience on the design of user           Robey, D. (1992). Response to Rao, et al: More ado about cognitive style
+     interface. International Journal of Man-Machine Studies, 34, 731­749.             and DSS design. MIS Quarterly, 16(2), 151­153. https://doi.org/10.
+     https://doi.org/10.1016/0020-7373(91)90022-Y                                      2307/249571
+Muir, B. M. (1987). Trust between humans and machines, and the design
+     of decision aids. International Journal of Man-Machine Studies, 27,          Robey, D., & Taggart, W. (1982). Human information processing in infor-
+     527­539. https://doi.org/0020-7373/87/050527, https://doi.org/10.                 mation and decision support systems. MIS Quarterly, 6(2), 61­73.
+     1016/S0020-7373(87)80013-5                                                        https://doi.org/10.2307/249283
+Mullins, M. E., & Rogers, C. (2008). Reliance on intuition and faculty hiring.
+     Industrial and Organizational Psychology, 1(January), 370­371. https://      Sage, A. P. (1981). Behavioral and organizational considerations in the
+     doi.org/10.1111/j.1754-9434.2008.00067.x                                          design of information systems and processes for planning and decision
+O'Brien, J. (2008). Interviewer resistance to structure. Industrial and Orga-          support. IEEE Transactions on Systems, Man, and Cybernetics, 11(6),
+     nizational Psychology, 1(3), 367­369. https://doi.org/10.1111/j.1754-             640­678. https://doi.org/10.1109/TSMC.1981.4308761
+     9434.2008.00066.x
+                                                                                  Sanders, G. L., & Courtney, J. F. (1985). A field study of organizational fac-
+                                                                                       tors influencing dss success. MIS Quarterly, 9(1), 77­93. https://doi.
+                                                                                       org/0.1016/0378-7206(84)90042-9
+
+                                                                                  Sawyer, J. (1966). Measurement and prediction, clinical and statistical. Psy-
+                                                                                       chological Bulletin, 66(3), 178­200. https://doi.org/10.1037/h0023624
+
+                                                                                  Scherer, L. D., Zikmund-Fisher, B. J., Witteman, H. O., & Fagerlin, A.
+                                                                                       (2015). Trust in deliberation: the consequences of deliberative decision
+                                                                                       strategies for medical decisions. Health Psychology, 34(11), 1090­1099.
+                                                                                       Retrieved from. https://doi.org/10.1037/hea0000203.supp
+
+                                                                                  Sieck, W. R., & Arkes, H. A. L. R. (2005). The recalcitrance of over-
+                                                                                       confidence and its contribution to decision aid neglect. Journal of Behav-
+                                                                                       ioral Decision Making, 53, 18, 29­53. https://doi.org/10.1002/bdm.486
+
+                                                                                  Simon, H. (1977). The new science of management decision making.
+                                                                                       New York: Harper and Row.
+BURTON ET AL.                                                                                                   13
+
+Sutherland, S. C., Harteveld, C., & Young, M. E. (2016). Effects of the advi-      Yeomans, M., Shah, A., Mullainathan, S., & Kleinberg, J. (2019). Making
+     sor and environment on requesting and complying with automated                     sense of recommendations. Journal of Behavioral Decision Making,
+     advice. ACM Transactions on Interactive Intelligent Systems., 6, 1­36.             1­12. https://doi.org/10.1002/bdm.2118
+     https://doi.org/10.1145/2905370
+                                                                                   AUTHOR BIOGRAPHY
+Swinney, L. (1999). Consideration of the social context of auditors reliance
+     on expert system output during evaluation of loan loss reserves. Inter-         Jason W. Burton is a PhD candidate at the Centre for Cognition,
+     national Journal of Intelligent Systems in Accounting, Finance & Manage-        Computation, & Modelling, situated in the Department of Psycho-
+     ment, 8, 199­213. https://doi.org/10.1002/(sici)1099-1174(199909)               logical Sciences at Birkbeck, University of London. His research
+     8:3<199::aid-isaf160>3.0.co;2-a                                                 revolves around the topic of human rationality, particularly in the
+                                                                                     context of contemporary media, technology, and politics.
+Tetlock, P. (1985). Accountability: The neglected social context of judg-
+     ment and choice. Research in Organizational Behavior, 7, 297­332. doi.            How to cite this article: Burton JW, Stein M-K, Jensen TB. A
+     org/0-89232-497-X                                                                 systematic review of algorithm aversion in augmented
+                                                                                       decision making. J Behav Dec Making. 2019;1­20. https://doi.
+Thaler, R. H., & Sunstein, C. R. (2008). Nudge: Improving decisions about              org/10.1002/bdm.2155
+     health, wealth, and happiness. Penguin.
+
+Thayer, P. W. (2008). That's not the only problem. Industrial and Organiza-
+     tional Psychology, 1(3), 372. https://doi.org/10.1111/j.1754-9434.
+     2008.00068.x
+
+Todd, P. M., & Gigerenzer, G. (2007). Environments That Makes Us
+     Smart: Ecological Rationality. Current Directions in Psychological Sci-
+     ence, 16(3), 167­172. https://doi.org/10.1111/j.1467-8721.2007.
+     00497.x
+
+Westin, C., Borst, C., & Hilburn, B. (2016). Strategic conformance: Over-
+     coming acceptance issues of decision aiding automation? IEEE Transac-
+     tions on Human-Machine Systems, 46(1), 41­52. https://doi.org/10.
+     1109/THMS.2015.2482480
+
+Whitecotton, S. M. (1996). The effects of experience and confidence on
+     decision aid reliance: A causal model. Behavioral Research in Account-
+     ing, 8, 194­216.
+
+Winfield, A. F. T. (2018). Experiments in artificial theory of mind: From
+     safety to story-telling. Frontiers in Robotics and AI, 5(75), 1­13. https://
+     doi.org/10.3389/frobt.2018.00075
+
+APPENDIX
+
+T A B L E 1 Reference list with journals and methodologies
+
+#              Reference                                    Journal                                             Methodology
+                                                            Management Science                                  E
+1              Alavi and Henderson                          Computers in Human Behavior                         E
+                                                            Organizational Behavior and Human Decision          E
+2              Alexander et al. (2018)
+                                                               Processes                                        E
+3              Arkes et al. (1986)                          Medical Decision Making                             C
+                                                            California Management Review                        C
+4              Arkes et al. (2007)                          MIS Quarterly                                       C
+                                                            IEEE Transactions on Systems, Man, and Cybernetics  C
+5              Ashton et al. (1994)                         J. of Information Systems                           C
+                                                            Acta Psychologica                                   C
+6              Benbasat and Taylor (1978)                   J. of Applied Research in Memory and Cognition      E
+                                                            J. of Managerial Studies                            E
+7              Benbasat & Taylor (1981)                     Psychology and Health                               C
+                                                            Industrial and Organizational Psychology            F
+8              Brown and Jones (1998)                       Big Data & Society                                  C
+                                                            Industrial and Organizational Psychology            E
+9              Brown and Vari (1992)                        J. of Experimental Psychology: General              E
+                                                            Management Science                                  E
+10             Brown (2015)                                 J. of Behavioral Decision Making
+                                                                                                                    (Continues)
+11             Carey and Kacmar (2003)
+
+12             Carrigan et al. (2004)
+
+13             Choragwicka and Janta (2008)
+
+14             Christin (2017)
+
+15             Colarelli and Thompson (2008)
+
+16             Dietvorst et al. (2015)
+
+17             Dietvorst et al. (2016)
+
+18             Eastwood et al. (2012)
+14                                                                                                   BURTON ET AL.
+
+T A B L E 1 (Continued)                                                                            Methodology
+                                                                                                   E
+#   Reference                                Journal                                               C
+                                             Auditing: A J. of Practice & Theory                   C
+19  Eining et al. (1997)                                                                           E
+                                                                                                   E
+20  Er (1988)                                Decision Support Systems                              E
+                                                                                                   C
+21  Fisher (2008)                            Industrial and Organizational Psychology              C
+                                                                                                   C
+22  Goodyear et al. (2016)                   Frontiers in Human Neuroscience                       C
+                                                                                                   C
+23  Goodyear et al. (2017)                   Social Neuroscience                                   E
+                                                                                                   C
+24  Green and Hughes (1986)                  J. of Management Information Systems                  C
+                                                                                                   F
+25  Hafenbrädl et al. (2016)                 J. of Applied Research in Memory and Cognition        E
+                                                                                                   E
+26  Highhouse (2008a)                        Industrial and Organizational Psychology              E
+                                                                                                   E
+27  Highhouse (2008b)                        Industrial and Organizational Psychology              C
+                                                                                                   C
+28  Huber (1992)                             MIS Quarterly                                         E
+                                                                                                   C
+29  Jarrahi (2018)                           MIS Quarterly                                         C
+                                                                                                   C
+30  Kahn and Baron (1995)                    J. of Consumer Psychology                             C
+                                                                                                   E
+31  Klimoski and Jones (2008)                Industrial and Organizational Psychology              C
+                                                                                                   C
+32  Kuncel (2008)                            Industrial and Organizational Psychology              C
+                                                                                                   E
+33  Lamberti and Wallace (1990)              MIS Quarterly                                         C
+                                                                                                   C
+34  Landsbergen et al. (1997)                J. of Public Administration Research and Theory       C
+                                                                                                   C
+35  Lim and O'Connor (1996)                  Decision Support Systems                              F
+                                                                                                   E
+36  Lodato et al. (2011)                     J. of Managerial Psychology                           E
+                                                                                                   E
+37  Mackay and Elam (1992)                   Information Systems Review                            E
+
+38  Martin (2008)                            Industrial and Organizational Psychology              C
+                                                                                                   C
+39  Moldafsky and Kwon (1994)                Computers in Human Behavior                           E
+
+40  Montazemi (1991)                         International J. of Man-Machine Studies
+
+41  Mosier & Fischer (2010)                  Review of Human Factors and Ergonomics
+
+42  Muir (1987)                              International J. of Man-Machine Studies
+
+43  Mullins and Rogers (2008)                Industrial and Organizational Psychology
+
+44  O'Brien (2008)                           Industrial and Organizational Psychology
+
+45  Önkal et al. (2009)                      J. of Behavioral Decision Making
+
+46  Pagano et al. (2016)                     Wiley Interdisciplinary Reviews: Water
+
+47  Patterson (2017)                         Human Factors
+
+48  Phillips and Gully (2008)                Industrial and Organizational Psychology
+
+49  Prahl and Van Swol (2017)                J. of Forecasting
+
+50  Rao et al. (1992)                        MIS Quarterly
+
+51  Robey (1992)                             MIS Quarterly
+
+52  Robey and Taggart (1982)                 MIS Quarterly
+
+53  Sage (1981)                              IEEE Transactions on Systems, Man, and Cybernetics
+
+54  Sanders and Courtney (1985)              MIS Quarterly
+
+55  Scherer et al. (2015)                    Health Psychology
+
+56  Sieck and Arkes (2005)                   J. of Behavioral Decision Making
+
+57  Sutherland, Harteveld, and Young (2016)  ACM Transactions on Interactive Intelligent Systems
+
+58  Swinney (1999)                           Intelligent Systems in Accounting, Finance &
+                                                Management
+
+59  Thayer (2008)                            Industrial and Organizational Psychology
+
+60  Westin et al. (2016)                     IEEE Transactions on Human-Machine Systems
+
+61  Whitecotton (1996)                       Behavioral Research in Accounting
+
+aMethodology: E = experimental; C = conceptual/review of literature; F = ethnography/field study.
+BURTON ET AL.                                                                        15
+T A B L E 2 Concept matrix
+                                                                    Environment
+#   Reference                      Variable(s) in focus  Algorithm  X
+                                   Human                            X
+1   Alavi & Henderson              X                     X          X
+                                   X                     X          X
+2   Alexander et al. (2018)        X                     X
+                                                         X          X
+3   Arkes et al. (1986)            X                     X          X
+                                   X                     X          X
+4   Arkes et al. (2007)            X                     X          X
+                                   X                                X
+5   Ashton et al. (1994)           X                     X          X
+                                                         X          X
+6   Benbasat and Taylor (1978)     X                     X
+                                                         X          X
+7   Benbasat & Taylor (1981)       X                                X
+                                                         X
+8   Brown and Jones (1998)         X                                X
+                                   X                     X          X
+9   Brown and Vari (1992)          X                     X
+                                                         X          X
+10  Brown (2015)                   X                     X          X
+                                   X                     X          X
+11  Carey and Kacmar (2003)        X                     X          X
+                                   X                                X
+12  Carrigan, et al. (2004)        X                     X
+                                   X                     X          X
+13  Choragwicka and Janta (2008)   X                                X
+                                   X                                X
+14  Christin (2017)                X                                X
+                                   X                                X
+15  Colarelli and Thompson (2008)  X                                X
+
+16  Dietvorst et al. (2015)        X                                   (Continues)
+                                   X
+17  Dietvorst et al. (2016)        X
+                                   X
+18  Eastwood et al. (2012)         X
+                                   X
+19  Eining et al. (1997)           X
+                                   X
+20  Er (1988)                      X
+
+21  Fisher (2008)                  X
+                                   X
+22  Goodyear et al. (2016)
+
+23  Goodyear et al. (2017)
+
+24  Green and Hughes (1986)
+
+25  Hafenbrädl et al. (2016)
+
+26  Highhouse (2008a)
+
+27  Highhouse (2008b)
+
+28  Huber (1992)
+
+29  Jarrahi (2018)
+
+30  Kahn and Baron (1995)
+
+31  Klimoski and Jones (2008)
+
+32  Kuncel (2008)
+
+33  Lamberti and Wallace (1990)
+
+34  Landsbergen et al. (1997)
+
+35  Lim and O'Connor (1996)
+
+36  Lodato et al. (2011)
+
+37  Mackay and Elam (1992)
+
+38  Martin (2008)
+
+39  Moldafsky and Kwon (1994)
+
+40  Montazemi (1991)
+
+41  Mosier & Fischer (2010)
+
+42  Muir (1987)
+
+43  Mullins and Rogers (2008)
+
+44  O'Brien (2008)
+
+45  Önkal et al. (2009)
+16                                                                               BURTON ET AL.
+T A B L E 2 (Continued)
+                                                                               Environment
+#   Reference                         Variable(s) in focus  Algorithm
+                                      Human                 X                  X
+46  Pagano et al. (2016)              X                     X                  X
+                                      X                     X                  X
+47  Patterson (2017)                  X                     X                  X
+                                      X                                        X
+48  Phillips & Gully (2008)           X                     X                  X
+                                      X
+49  Prahl and Van Swol (2017)         X
+                                      X
+50  Rao et al. (1992)
+                                      X
+51  Robey (1992)                      X
+
+52  Robey and Taggart (1982)          X
+                                      X
+53  Sage (1981)
+                                      X
+54  Sanders and Courtney (1985)
+
+55  Scherer et al. (2015)
+
+56  Sieck and Arkes (2005)
+
+57  Sutherland et al. (2016)
+
+58  Swinney (1999)
+
+59  Thayer (2008)
+
+60  Westin et al. (2016)
+
+61  Whitecotton (1996)
+
+T A B L E 3 Concept matrix
+
+                                   Judgement and decision making orientationa
+
+#   Reference                      Heuristics and biases    Fast and frugal           N/A
+                                                                                      X
+1   Alavi & Henderson                                                                 X
+                                                                                      X
+2   Alexander et al. (2018)                                                           X
+                                                                                      X
+3   Arkes et al. (1986)            X                                                  X
+                                                                                      X
+4   Arkes et al. (2007)                                                               X
+                                                                                      X
+5   Ashton et al. (1994)           X
+                                                                                      X
+6   Benbasat and Taylor (1978)                                                        X
+                                                                                      X
+7   Benbasat & Taylor (1981)       X                                           (Continues)
+
+8   Brown and Jones (1998)
+
+9   Brown and Vari (1992)          X                        X
+
+10  Brown (2015)
+
+11  Carey and Kacmar (2003)
+
+12  Carrigan et al. (2004)                                  X
+
+13  Choragwicka and Janta (2008)
+
+14  Christin (2017)
+
+15  Colarelli and Thompson (2008)  X
+                                   X
+16  Dietvorst et al. (2015)        X
+                                   X
+17  Dietvorst et al. (2016)        X
+
+18  Eastwood et al. (2012)         X
+
+19  Eining et al. (1997)
+
+20  Er (1988)
+
+21  Fisher (2008)
+
+22  Goodyear et al. (2016)
+
+23  Goodyear et al. (2017)
+BURTON ET AL.                                                                                                                                                 17
+
+T A B L E 3 (Continued)
+
+                                            Judgement and decision making orientationa
+
+#              Reference                    Heuristics and biases  Fast and frugal      N/A
+
+24             Green and Hughes (1986)                                                  X
+
+25             Hafenbrädl et al. (2016)                            X
+
+26             Highhouse (2008a)            X
+
+27             Highhouse (2008b)            X
+
+28             Huber (1992)                                                             X
+
+29             Jarrahi (2018)                                                           X
+
+30             Kahn and Baron (1995)        X
+
+31             Klimoski and Jones (2008)                                                X
+
+32             Kuncel (2008)                X
+
+33             Lamberti and Wallace (1990)                                              X
+
+34             Landsbergen et al. (1997)                                                X
+
+35             Lim and O'Connor (1996)      X
+
+36             Lodato et al. (2011)         X
+
+37             Mackay and Elam (1992)                                                   X
+
+38             Martin (2008)                                                            X
+
+39             Moldafsky and Kwon (1994)    X                                           X
+
+40             Montazemi (1991)                                    X
+
+41             Mosier & Fischer (2010)                             X
+
+42             Muir (1987)                  X
+
+43             Mullins and Rogers (2008)                                                X
+
+44             O'Brien (2008)               X
+
+45             Önkal et al. (2009)                                                      X
+
+46             Pagano et al. (2016)         X
+
+47             Patterson (2017)                                    X
+
+48             Phillips & Gully (2008)      X
+
+49             Prahl and Van Swol (2017)                                                X
+
+50             Rao et al. (1992)                                                        X
+
+51             Robey (1992)                                                             X
+
+52             Robey and Taggart (1982)                            X
+
+53             Sage (1981)                                         X
+
+54             Sanders and Courtney (1985)                                              X
+
+55             Scherer et al. (2015)        X
+
+56             Sieck and Arkes (2005)       X                      X
+
+57             Sutherland et al. (2016)                                                 X
+
+58             Swinney (1999)               X
+
+59             Thayer (2008)                                                            X
+
+60             Westin et al. (2016)                                X
+
+61             Whitecotton (1996)                                                       X
+
+aJudgement and decision making orientations were classified based on the article's descriptions of decision making processes (i.e. optimization or
+satisficing), the assumed statistical structure of the decision making environment (i.e. risk or uncertainty), and the referenced theories and authors (i.e.
+Kahneman/Tversky or Gigerenzer). Those articles with the "N/A" classification did not explicitly mention JDM theory, nor did they cite relevant authors.
+18                                                                                              BURTON ET AL.
+
+T A B L E 4 Results summary
+
+Theme         References            Mackay and Elam       Cause of algorithm aversion           Solution for algorithm aversion
+              Alexander et al.         (1992)
+Expectations                                              False expectations: A human           Algorithmic literacy: Human decision
+   and           (2018)                                      decision maker's proclivity to        makers need training with algorithmic
+   expertise                                                 utilize an algorithmic aid is         aids in addition to training in their
+                                                             influenced by that decision           professional decision domain. Core
+                                                             maker's past experiences and          statistics concepts like error and
+                                                             expectations for how the              uncertainty cannot be overlooked.
+                                                             algorithm should perform;
+                                                             algorithms and humans are held to
+                                                             different standards.
+
+              Arkes et al. (1986)   Martin (2008)
+                                    Montazemi (1991)
+              Ashton et al.
+                 (1994)             Muir (1987)
+
+              Carey and Kacmar      Önkal et al. (2009)
+                 (2003)             Pagano et al. (2016)
+
+              Christin (2017)       Prahl and Van Swol
+                                       (2017)
+              Dietvorst et al.
+                 (2015, 2016)       Robey (1992)
+
+              Goodyear et al.       Sutherland et al.
+                 (2016, 2017)          (2016)
+
+              Green and Hughes      Swinney (1999)
+                 (1986)
+                                    Thayer (2008)
+              Highhouse (2008a,
+                 2008b)             Whitecotton (1996)
+
+Decision      Kahn & Baron                                Lack of decision control: Human       Human-in-the-loop decision making:
+   autonomy      (1995)                                      decision makers need an               Algorithmic aids should be designed in
+                                                             opportunity to interact with an       a way that allows human decision
+              Lamberti and                                   algorithmic aid and provide input     makers to semisupervise their
+                 Wallace (1990)                              in order to calibrate their           processes; increased transparency and
+                                                             confidence in the aid.                participation.
+              Landsbergen et al.
+                 (1997)
+
+              Lodato et al.
+                 (2011)
+
+              Ashton et al.
+                 (1994)
+
+              Brown and Jones
+                 (1998)
+
+              Carrigan et al.
+                 (2004)
+
+              Colarelli and
+                 Thompson
+                 (2008)
+
+              Dietvorst et al.
+                 (2015, 2016)
+
+              Eining et al. (1997)
+
+              Highhouse (2008a)
+
+              Landsbergen et al.
+                 (1997)
+
+              Lim and O'Connor
+                 (1996)
+
+              Muir (1987)
+
+              Scherer et al.
+                 (2015)
+
+              Whitecotton
+                 (1996)
+
+                                                                                                (Continues)
+BURTON ET AL.                                                                                        19
+
+T A B L E 4 (Continued)
+
+Theme             References            Highhouse (2008b,     Cause of algorithm aversion            Solution for algorithm aversion
+Incentivization   Alavi and                2008a)             Lack of incentivization: Human         Behavioral design: Context-specific
+
+Cognitive            Henderson          Klimoski and Jones       decision makers require                nudges and boosts to remedy human
+   compatibility     (1981)                (2008)                incentivization to put in extra        decision makers' motivational
+                                                                 effort into consulting algorithmic     deficiencies; aim to systematically
+                  Alexander et al.      Kuncel (2008)            insights. Economic and social          change behaviors and social norms.
+                     (2018)             Lodato et al. (2011)     incentives need to be framed in a
+                                        Önkal et al. (2009)      way that suit the decision making   Engaging intuition: Modeling algorithms
+                  Arkes et al. (1986)                            environment's conditions.              on intuitive decision processes to
+                  Arkes et al. (2007)   Sanders and                                                     permit cognitive compatibility in
+                  Brown and Jones          Courtney (1985)    Combatting intuition: Humans vary         problem solving; human and
+                                                                 in their decision strategies.          algorithmic decision processes must
+                     (1998)             Sutherland et al.        Inflexible aids built on formal        overlap, not run parallel to one another.
+                  Brown (2015)             (2016)                decision rules attempt to override
+                                                                 natural processes in favor of                                              (Continues)
+                  Choragwicka and       Swinney (1999)           normative decision making, which
+                     Janta (2008)                                creates cognitive conflict between
+                                        Lamberti and Wallace     human and algorithm.
+                  Christin (2017)          (1990)
+                  Eastwood et al.
+                                        Landsbergen et al.
+                     (2012)                (1997)
+                  Fisher (2008)
+                  Hafenbrädl et al.     Lim and O'Connor
+                                           (1996)
+                     (2016)
+                  Alavi and             Moldafsky and Kwon
+                                           (1994)
+                     Henderson
+                     (1981)             Mullins and Rogers
+                                           (2008)
+                  Arkes et al. (1986)
+                                        Rao et al. (1992)
+                  Benbasat & Taylor
+                     (1978, 1981)       Robey (1992)
+
+                  Brown & Jones         Robey and Taggart
+                     (1998)                (1982)
+
+                  Brown (2015)          Sage (1981)
+
+                  Carey and Kacmar      Sieck and Arkes
+                     (2003)                (2005)
+
+                  Carrigan et al.       Swinney (1999)
+                     (2004)             Patterson (2017)
+                                        Thayer (2008)
+                  Christin (2017)
+                                        Whitecotton (1996)
+                  Dietvorst et al.
+                     (2015)
+
+                  Eastwood et al.
+                     (2012)
+
+                  Eining et al. (1997)
+                  Er (1988)
+                  Green and Hughes
+
+                     (1986)
+                  Huber (1992)
+                  Jarrahi (2018)
+20                                                                                                   BURTON ET AL.
+
+T A B L E 4 (Continued)
+
+Theme             References         Sage (1981)           Cause of algorithm aversion               Solution for algorithm aversion
+Divergent         Benbasat and
+                                     Sanders and           Conflicting views of rationality:         Aiding ecological rationality: Designing
+   rationalities     Taylor (1981)      Courtney (1985)       Humans and algorithms extract             algorithmic decision aids for ecological
+                                                              different information and                 rationality so algorithms are able to
+                                     Sieck and Arkes          statistical structures from identical     incorporate the perspective of a human
+                                        (2005)                environments; they differ in their        user under real-world uncertainty.
+                                                              definition of a good decision.
+                                     Westin et al. (2016)
+                  Brown and Vari
+                     (1992)
+
+                  Brown (2015)
+
+                  Er (1988)
+                  Fisher (2008)
+                  Hafenbrädl et al.
+
+                     (2016)
+                  Jarrahi (2018)
+                  Kahn and Baron
+
+                     (1995)
+                  Mosier & Fischer
+
+                     (2010)
+                  O'Brien (2008)
+                  Pagano et al.
+
+                     (2016)
+                  Patterson (2017)
+

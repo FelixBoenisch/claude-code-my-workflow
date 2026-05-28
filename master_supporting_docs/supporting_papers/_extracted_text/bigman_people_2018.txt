@@ -1,0 +1,1027 @@
+                                                                                          Cognition 181 (2018) 21­34
+
+                                                                        Contents lists available at ScienceDirect
+
+                                                  Cognition
+
+                                                          journal homepage: www.elsevier.com/locate/cognit
+
+Original Articles
+
+People are averse to machines making moral decisions
+
+                                                                                                                                              T
+Yochanan E. Bigman, Kurt Gray
+
+Department of Psychology and Neuroscience, University of North Carolina at Chapel Hill, 235 E Cameron Ave, Chapel Hill, NC 27514, USA
+
+ARTICLE INFO         ABSTRACT
+
+Keywords:            Do people want autonomous machines making moral decisions? Nine studies suggest that that the answer is
+Mind perception      `no'--in part because machines lack a complete mind. Studies 1­6 find that people are averse to machines
+Morality             making morally-relevant driving, legal, medical, and military decisions, and that this aversion is mediated by the
+Moral agency         perception that machines can neither fully think nor feel. Studies 5­6 find that this aversion exists even when
+Autonomous machines  moral decisions have positive outcomes. Studies 7­9 briefly investigate three potential routes to increasing the
+Skynet               acceptability of machine moral decision-making: limiting the machine to an advisory role (Study 7), increasing
+Robots               machines' perceived experience (Study 8), and increasing machines' perceived expertise (Study 9). Although
+                     some of these routes show promise, the aversion to machine moral decision-making is difficult to eliminate. This
+                     aversion may prove challenging for the integration of autonomous technology in moral domains including
+                     medicine, the law, the military, and self-driving vehicles.
+
+1. Introduction                                                                 predict human decisions (Wright & Leyton-Brown, 2010). Machines can
+                                                                                also beat humans at games long exalted for requiring rationality, in-
+    "Decisions about the application of violent force must not be delegated to  telligence, and strategy, including Chess (Newborn, 2011), Go
+    machines."                                                                  (Chouard, 2016), and Jeopardy (Markoff, 2011). The success of ma-
+                                                                                chine decision-making across these domains may lead people to happily
+    Press release of the International Committee for Robot Arm Control1         cede moral decisions to them as well, but there are reasons to believe
+    Machines have long performed boring and repetitive industrial               otherwise.
+tasks, but the advance of technology is opening new vistas. Today,
+robotic arms are assisting with life-threatening surgeries (van den Berg,           Morality is not like other domains. People hold strong convictions
+Patil, & Alterovitz, 2017), drones are surveilling and bombing enemy            about morality (Skitka, 2010), and these convictions shape cultural
+combatants (Horowitz, 2016), and algorithms are making re-                      identities (Haidt, Koller, & Dias, 1993; Shweder, Mahapatra, & Miller,
+commendations for criminal sentencing (Angwin, Larson, Surya, &                 1987) and motivate behavior (Hertz & Krettenauer, 2016)--sometimes
+Lauren, 2016). Although humans make the final decision in these moral           even irrational behavior (Fehr & Gächter, 2002). Importantly, unlike
+domains, machines are becoming ever more autonomous; there may                  other decisions, moral decisions are deeply grounded in emotion (Gray,
+soon come a time when machines can make moral decisions for                     Schein, & Cameron, 2017; Haidt, 2001). This aspects of morality sug-
+themselves. The question is whether people want machines making                 gest that people may not be amenable to machines making moral de-
+autonomous decisions when human lives hang in the balance?                      cisions. Although machines may have great computational capacities,
+    There may be good reason to delegate moral decisions to machines.           they seem to lack the ability to feel authentic emotion. In more psy-
+Machines--and the artificial intelligence that they embody--often               chological terms, morality is often seen to require a full human mind
+make more optimal decisions than human beings in domains including              (Bastian, Loughnan, Haslam, & Radke, 2012; Gray, Young, & Waytz,
+risk management (Heires, 2016), supply chain distribution (Validi,              2012), one that can both think and feel. To the extent that machines
+Bhattacharya, & Byrne, 2015), and medical diagnoses (Parkin, 2016).             seem to lack a human mind, they may also seem ineligible to make
+The sheer computational power of machines enable them to accurately             moral decisions.
+compute the flight paths of thousands of planes (Bartholomew-Biggs,
+Parkhurst, & Wilson, 2003), the best way to manage complex in-                      Here we investigate whether people are averse to machines making
+ventories (Cárdenas-Barrón, Treviño-Garza, & Wee, 2012), and even               moral decisions, whether this aversion is due--at least in part--to
+                                                                                machines lacking a human mind. We then explore whether--and
+
+   Corresponding author.
+    E-mail address: ybigman@email.unc.edu (Y.E. Bigman).
+
+  1 https://icrac.net/wp-content/uploads/2015/05/Scientist-Call_Press-Release.pdf retrieved January 5th 2018.
+
+https://doi.org/10.1016/j.cognition.2018.08.003
+Received 27 March 2018; Received in revised form 2 August 2018; Accepted 3 August 2018
+0010-0277/ © 2018 Elsevier B.V. All rights reserved.
+Y.E. Bigman, K. Gray                                                           Cognition 181 (2018) 21­34
+
+how--this aversion to machine moral decision-making might be de-               impacts. Aversions to vaccines (Hornsey, Harris, & Fielding, 2018), to
+creased.                                                                       science (Osborne, Simon, & Collins, 2003), and to change (Pardo del
+                                                                               Val & Martínez Fuentes, 2003) all drive behavior and shape policy, and
+1.1. The rule--and rules--of machines                                          so it is important to explore whether people are averse to machines
+                                                                               making moral decisions--and why. We suggest that the potential
+    The idea of fully autonomous machines was long consigned to sci-           aversion to machine moral decision-making can be explained (at least
+ence fiction. Early automata may have moved on their own (such as              in part) by the machines perceived lack of mind.
+Vaucanson's digesting duck), but were merely a deterministic collection
+of cogs. Even as technology advanced, machines were still largely de-          1.3. Mind (perception) and morality
+terministic, with their actions fully predictable by their human pro-
+gramming. However, increasing advances in statistical prediction and               In law, philosophy, and lay judgments, a complete human mind is
+neural nets allows for ever more autonomous machines--machines                 seen as a prerequisite for morality (Aristotle, 350BC; Monroe, Dillon, &
+which although programmed by humans, can at defy the expectations              Malle, 2014; Nahmias, Shepard, & Reuter, 2014; O'Connor, 2000;
+of their programmers. When an algorithm writes love letters (Roberts,          Robinson, 1996; Rosati, 2016). From the time of the ancient Greeks and
+2017) or gains a personality from browsing the internet (Hunt, 2016) it        Romans, people who "lost their mind" were not considered fully mo-
+is anyone's guess what exactly will happen. Even everyday machines             rally responsible (Robinson, 1996). Psychological research reveals that
+are more autonomous than ever; many of us think nothing of how deep            judgments of moral status are tied to a suite of mental capacities--in-
+learning algorithms decide what news items we see on Facebook                  cluding the ability to freely choose actions (Fischer, 2005; Harris, 2012;
+(DeVito, 2017), what products we see on Amazon (Chen, Mislove, &               Monroe, Brady, & Malle, 2017; Nahmias et al., 2014) and the ability to
+Wilson, 2016), and what route we take to work (Yamane et al., 2011).           appreciate the consequences of one's actions (Cushman, 2008). Further
+                                                                               revealing the mind-morality link are arguments about who has (and
+    The increasing autonomy of machines has already impacted im-               lacks) moral standing; people have denied full moral status to animals
+portant social events such as elections (Hern, 2017), which may influ-         (Bastian et al., 2012; Gray, Gray, & Wegner, 2007), children (Cameron,
+ence moral outcomes such as court cases. Although machines are not             Lindquist, & Gray, 2015), and even other races (Haslam, 2006; Jahoda,
+yet autonomously making moral decisions per se, this possibility is not        1999; Warren, 1997; Waytz & Schroeder, 2014) on the basis of per-
+far away. Robotic surgery arms will soon be able to choose how exactly         ceived differences in mind.
+to operate upon a tumor, selecting the path to move through sur-
+rounding tissue (Swaney et al., 2017)--with a wrong decision resulting             Mind may be important for morality, but it is difficult to know for
+in the death of a patient. Self-driving cars will soon be able to choose       certain whether someone else has a mind (Chalmers, 1997). Questions
+how exactly to respond to imminent collisions, deciding whether to kill        of mind are often, therefore, matters of perception (Wegner & Gray,
+the driver or multiple bystanders.                                             2017), especially in the case of machines (Gray & Wegner, 2012). Re-
+                                                                               search on mind perception reveals that minds are perceived along two
+    Mirroring the increasing autonomy of machines in moral situations,         dimensions, agency and experience (Gray et al., 2007). Agency refers to
+research in psychology and cognitive science has investigated people's         the capacity to think, to reason, to plan, and to carry out one's inten-
+perceptions about machine morality. In one popular paper, researchers          tions (Gray et al., 2012), whereas experience refers to the capacity to
+revealed that people want a self-driving car to save the most number of        feel emotions and sensations, including pain and fear (Gray et al.,
+people--unless they are the driver, in which case they want self-driving       2012). Both these dimensions may be important for making moral de-
+cars to save them (Bonnefon, Shariff, & Rahwan, 2016). A burgeoning            cisions--and for explaining a potential aversion to machine moral de-
+literature strives to identify an acceptable set of rules, algorithms, or      cision-making.
+architecture that governs (or at least limits) machine moral behavior
+(e.g., Arkin, 2009; Conitzer, Sinnott-Armstrong, Borg, Deng, & Kramer,         1.3.1. Agency
+2017; Kuipers, 2016; van Wynsberghe, 2013; Wiltshire, 2015). Dove-                 Agency is often seen as necessary for making moral decisions.
+tailing with this work are studies examining what kind of decision rules
+people want machines to follow (Bonnefon et al., 2016; Malle, Scheutz,         Historically, Kant (1788) and Hume (1751) both argued that moral
+Arnold, Voiklis, & Cusimano, 2015).                                            decisions required reason and Locke argued that people must be "active
+                                                                               thinking beings" (Locke, 1836) in order to be allowed to make moral
+    Uncovering rules for machine morality has a distinguished past---          judgments. More modern legal scholars and philosophers also empha-
+starting from Isaac Asimov's (Asimov, 1950) three laws of robot-               size agency-related abilities in making moral judgments, including in-
+ics--and is essential to our technological future. But despite the im-         telligence (Vanderblit, 1956), being able to choose rationally between
+portance of uncovering how machines should make moral decisions, it            alternatives (Clarke, 1992; Frankfurt, 1969), and understanding the
+also important to investigate a basic question: do people think that           consequence of actions (Mele & Sverdlik, 1996). When children and
+machines should make moral decisions in the first place.                       those with mental disabilities are given less blame for their moral de-
+                                                                               cisions, it is because they are seen to have less agency than adults (Gray
+1.2. An aversion to machines making moral decisions?                           & Wegner, 2009).
+
+    Autonomous machines can do many things, but people may not                     Machines are often seen to have some agency (Gray & Wegner,
+want them making moral decisions. If the arc of science fiction is any         2012; Gray et al., 2007)--they can play chess and perform complex
+guide, humans fear machines making decisions when human lives hang             calculations--but their ability to think is often quite domain specific.
+in the balance: in 2001: A Space Odyssey (Kubrick, 1968), HAL sends            Moreover, agency includes aspects beyond the ability to make raw
+out an astronaut into the void of space, and in The Terminator                 calculations, including self-control, planning, communication and
+(Cameron, 1984), SkyNet launches a pre-emptive nuclear strike against          thought (Gray et al., 2007). In this full sense of agency, machines are
+humanity. Modern academic works are no less pessimistic, with one              perceived as having less agency than adult humans (Gray et al.,
+popular philosophical treatise arguing that machines making decisions          2007)--suggesting that they may seem as less able to make legitimate
+on behalf of humanity might lead to disaster (Bostrom, 2014). Even             moral decisions. Consistent with this idea, many argue that--norma-
+Elon Musk--an ardent pro-technologist--called the rise of autonomous           tively speaking--machines need agency in order to make moral deci-
+machines humanity's "biggest existential threat" (McFarland, 2014).            sions (Floridi & Sanders, 2004; Hellström, 2013; Malle & Scheutz, 2014;
+                                                                               Steinert, 2014; Wallach & Allen, 2009; Wallach, Franklin, & Allen,
+    Whether this fear of autonomous machines is misplaced is open to           2010). These agency-related abilities include interactivity, autonomy
+debate--machines may not care enough to rise up and destroy                    and adaptability (Floridi & Sanders, 2004), and also the ability for
+humanity (Pinker, 2016)--but even misplaced aversions have societal
+
+                                                                           22
+Y.E. Bigman, K. Gray                                                            Cognition 181 (2018) 21­34
+
+moral reasoning, autonomous action, and communication (Malle &                  "Documenting an Aversion," reveals that people would rather not have
+Scheutz, 2014; Malle, 2016). Machines perceived lack of agency,                 machines make life and death decisions about driving (Study 1) and
+therefore, may help explain the potential aversion to machines making           parole (Study 2), and that this aversion is mediated by mind perception
+moral decisions.                                                                (Study 2). Section two, "Specifying the Outcome", reveals that the
+                                                                                aversion to machine decision-making is not due to people assuming that
+1.3.2. Experience                                                               machines will make worse decisions. Even when specifying the out-
+    Discussions about moral decision-making (i.e., moral agency) often          come--whether negative (Studies 3­5) or positive (Studies
+                                                                                5­6)--people think it less appropriate for machines (vs humans) to
+emphasize agency but seldom experience. Instead, experience is seen to          make moral decisions within the domains of medicine (Studies 3 & 6) or
+be linked to questions of moral patiency--whether someone can be the            the military (Studies 4 & 5). Section three, "Reducing the Aversion,"
+recipient of good or evil and are therefore worthy of protection (Bastian       briefly examines three possible routes to reducing the aversion to ma-
+et al., 2012; Gray, Jenkins, Heberlein, & Wegner, 2011; Gray et al.,            chines making moral decisions. The aversion can be decreased by
+2012; Haslam, 2006; Leyens et al., 2000; Rudman & Mescher, 2012;                limiting machines to an advisory role (Study 7)--that is, giving humans
+Schein & Gray, 2018; Singer, 1975; Waytz & Schroeder, 2014). For                the final decision. Increasing the perceived experience of machines
+example, those who see less experience in animals are more likely to eat        (Study 8) does not reduce the aversion, but increasing the perceived
+meat (Bastian et al., 2012) and those who see less experience in other          expertise of machines does (Study 9), but only when this advantage in
+races are more prejudiced (Leyens et al., 2000). Research also links            expertise is made especially salient.
+reduced perceptions of experience to psychopathy (Gray et al., 2011),
+perhaps explaining why psychopaths are more willing to harm others.                 In all studies, we report all conditions, data exclusions, sample size
+                                                                                determinations, and measures.
+    Experience clearly matters for moral patiency, but it may also
+matter for making moral decisions. Hume argued that sentiment (i.e.,            2. Section 1: documenting an aversion to machine moral decision-
+experience) is also essential for making moral decisions (Hume, 1751).          making
+More recently, Damm (2010) has argued that the diminished ability to
+make moral decisions in autism and psychopathy is tied to deficits in               We first conducted three studies to test whether people are averse to
+emotional experience. Decades of research in psychology supports the            machines making moral decisions. Study 1 tested whether it is less
+contention that emotions are critical to moral decision-making (Greene,         permissible for machines (vs. humans) to make life and death driving
+Sommerville, Nystrom, Darley, & Cohen, 2001; Haidt et al., 1993;                decisions. Study 2 used a different paradigm to test whether it is less
+Haidt, 2001; Koenigs et al., 2007; Prinz, 2007). In particular, the ca-         permissible for machines (vs. humans) to make parole decisions and
+pacity for empathy--feeling pain on behalf of others--seems to be a             whether this reduced permissibility is mediated by machines' perceived
+core element of intact moral judgment (Aaltola, 2014; De Waal, 2010;            lack of mind.
+Decety & Cowell, 2014; Kauppinen, 2017; Pinker, 2011; Rifkin, 2009;
+Shaw, Batson, & Todd, 1994; Zaki, 2018). It may be that laypeople               2.1. Study 1: machines making life and death driving decisions
+intuitively appreciate this empirical link between emotional experience
+and moral decision-making, seeing experience as necessary for moral                 Driving often feels mundane but the lives of people frequently hang
+judgment.                                                                       in the balance. For example, vehicle collisions are the leading cause of
+                                                                                death of American teenagers. The rise of autonomous vehicles suggests
+    Scholars have also highlighted the importance of experience for             that machines will soon be able to make decisions about human live-
+machine moral decision-making (Allen, Wallach, & Smit, 2006;                    s--already one of Uber's autonomous cars struck and killed a pedes-
+Coeckelbergh, 2010; Himma, 2009; Malle & Scheutz, 2014; Malle,                  trian. Some research has examined how people want autonomous ve-
+2016; Wallach et al., 2010), including the ability to feel moral emotions       hicles to make moral decisions (Bonnefon et al., 2016), but here we
+(Malle & Scheutz, 2014) and having an "inner subjective experience              examine whether people want these machines to make these decisions in
+like that of pain" (Himma, 2009, p. 19). If experience is indeed seen as a      the first place.
+prerequisite of moral decision-making, this would be problematic for
+machine moral decision-making: although machines may be seen to                 2.1.1. Method
+have some agency, they are seen to be devoid of experience (Brink,              2.1.1.1. Preregistration. The study was pre-registered at https://
+Gray, & Wellman, 2017; Gray & Wegner, 2012). We therefore suggest               aspredicted.org/dg88r.pdf.
+that a potential aversion to machine moral decision-making likely also
+involves perceptions of relatively little experience.                           2.1.1.2. Participants. Here, and in studies 2­6 and 8­9, we assumed a
+                                                                                medium effect size (Cohen's d = 0.5). We found in a power analysis
+1.4. The current research                                                       that we need 105 participants per condition to obtain a power of 0.95.
+                                                                                We aimed for 120 participants per condition in order to account for
+    In nine studies--all approved by the UNC IRB--we investigate                participants who might fail the comprehension questions (Goodman,
+whether people are averse to machines making moral decisions. We                Cryder, & Cheema, 2013; Hauser & Schwarz, 2016).2 Two hundred and
+define this aversion as seeing moral decisions made by machines as less         forty-two participants from the United States and Canada (53.3%
+acceptable than those made by adult humans. We note that while there            female; age: M = 34.36, SD = 10.98) completed the questionnaire on
+are many morally-relevant decisions faced by machines, here we ex-              Amazon's Mechanical Turk for 20 cents. As specified in preregistration,
+amine the most paradigmatic cases of moral decisions--difficult di-             participants were excluded if they failed to correctly answer the
+lemmas which directly impact human life (and death). Given the                  comprehension question ("Who will be the one to make life and
+growing discussion about machines on roadways (Bonnefon et al.,
+2016), in the law (Angwin et al., 2016), in medicine (van den Berg                2 Our sample size for Study 7 was based a study that was omitted from the
+et al., 2017) and in the military (Horowitz, 2016), the dilemmas we             paper in the review process. In that study, as in Study 7, we measured people's
+examine are in these domains. We also examine whether machines'                 choice of decision maker. Based on a power analysis, we aimed for a sample of
+perceived lack of mind helps to explain the potential aversion to ma-           100 participants per condition. For the sake of consistency, in Study 7, which is
+chine moral decision-making. Although we are exploring moral deci-              descriptive and also measures choice of decision maker, we aimed for 100
+sions--because of their practical importance--we acknowledge that               participants as well.
+people may be averse to machines making decisions across many do-
+mains.
+
+    We divide the studies in this paper into three sections. Section one,
+
+                                                                            23
+Y.E. Bigman, K. Gray                                                                Cognition 181 (2018) 21­34
+
+death decisions in the car you read about?"), which led to the exclusion            questions of retribution, restitution, and rehabilitation. Traditionally,
+of twenty-three participants.                                                       these moral decisions are made by a board of experts (Johnson, 1973),
+                                                                                    but some states use machines to assist with parole decisions (Kehl, Guo,
+2.1.1.3. Procedure                                                                  & Kessler, 2017)--generating substantial controversial (Angwin et al.,
+    2.1.1.3.1. Descriptions. In this between-subjects design, participants          2016).
+
+were randomly assigned to one of two conditions. In both conditions,                    In this study, we assess whether people are averse to the idea of
+participants read that:                                                             machines making parole decisions. We also test whether any potential
+                                                                                    aversion of machine moral decisions is mediated by reduced percep-
+    "Driving sometimes involves decisions of life and death. These de-              tions of mind in machines.
+    cisions can affect people in the car, as well as pedestrians and people
+    in other cars."                                                                 2.2.1. Method
+                                                                                    2.2.1.1. Preregistration. The study was pre-registered at https://
+    In the "human" condition participants read that "For a new car                  aspredicted.org/4yh36.pdf.
+model, a human driver will be the one making these decisions." In the
+"machine" condition participants read that "For a new self-driving car              2.2.1.2. Participants. Two hundred and forty-one participants from the
+model, an autonomous computer program will be the one making these                  United States and Canada (62.7% female; age: M = 35.89, SD = 11.59)
+decisions".                                                                         completed the questionnaire on Amazon's Mechanical Turk for 30
+                                                                                    cents. As specified in preregistration, participants were excluded if they
+    2.1.1.3.2. Assessing permissibility. Using a 5-point scale from 1               failed to correctly answer the comprehension question ("did you read
+(strongly disagree) to 5 (strongly agree), participants rated whether               about a computer or a committee?"), leading to the exclusion of one
+"It is appropriate for a human driver/an autonomous computer                        participant.
+program to make these decisions", "A human driver/an autonomous
+computer program should be the one to make these decisions" and "A                  2.2.1.3. Procedure. Participants were randomly assigned to one of two
+human driver/an autonomous computer program should be forbidden                     conditions, reading that parole decisions were made by either an
+from making these decisions" (last item is reverse scored, Cronbach's               advanced machine or a panel of humans. They then rated the
+ = 0.93). These items were used to assess permissibility in all                     perceived mind of the agent (machine or human) and the
+subsequent studies that examined permissibility. Participants then                  permissibility of that agent making these decisions.
+answered a comprehension question and provided demographic
+information.                                                                            2.2.1.3.1. Descriptions. In the machine condition participants read
+                                                                                    this brief description accompanied by a picture of a supercomputer (see
+2.1.2. Results                                                                      Fig. 2):
+    Consistent with an aversion to machines making moral decisions, an
+                                                                                        "This is CompNet. CompNet is a super computer used by various
+independent samples t-test revealed that participants rated it less per-                government agencies for calculations, estimates, and decision-
+missible for life and death driving decisions to be made by an autono-                  making."
+mous computer program (M = 2.80, SD = 1.13) than a human driver
+(M = 4.33, SD = 0.74), t(238) = 12.46, p < .001, Cohen's d = 1.60.                      In the human committee condition participants read this brief de-
+See Fig. 1.                                                                         scription accompanied by a picture of a committee of humans (see
+                                                                                    Fig. 2).
+2.1.3. Discussion
+    This study revealed preliminary evidence that people are averse to                  "This is a picture of a state committee. The state committee consists
+                                                                                        of legal and mental health experts as well as representatives of the
+having machines make moral decisions. The next study tested whether                     community."
+this aversion would be observed in a different paradigm within a dif-
+ferent moral domain--parole decisions.                                                  Participants then read this brief description about how parole de-
+                                                                                    cisions are made (Caplan, 2007; Dawson, 1966; Johnson, 1973):
+2.2. Study 2: machines making parole decisions
+                                                                                        "Parole decisions--about whether convicted criminals will be re-
+    Deciding whether to grant an offender parole is an important moral                  leased from jail­involve many factors, including the convict's level
+decision, not only determining the fate of offenders, but also involving                of remorse, criminal history, rehabilitation efforts and likelihood of
+                                                                                        committing crimes. Also important is the emotional testimony of the
+                     5                                                                  victims."
+
+               4                                                                        2.2.1.3.2. Assessing mind. Participants rated the machine or the
+                                                                                    human on twelve different mental capacities ("To what extent do you
+Permisibility  3                                                                    think CompNet/the committee members can...")3: six agency-related,
+                                                                                    "communicate with others," "is able of thinking," "plans his actions,"
+               2                                                                    "is intelligent," "has foresight" and "is able to think things through"
+                                                                                    ( = 0.90), and six experience-related, "sensitive to pain", "experience
+               1                                                                    happiness", "experience fear", "experience compassion", "experience
+                                                                                    empathy" and "experience guilt" ( = 0.98). All ratings were made on a
+                      Human  Machine                                                5 point scale from 1 (Not at all) to 5 (Extremely).
+
+Fig. 1. Permissibility of human and machine as decision makers in driving life          Participants then rated the permissibility of the machine or state
+                                                                                    committee to make these decisions (Cronbach's  = 0.93), answered
+and death decisions (Study 1). Error bars reflect 95% confidence intervals.
+*p < .05.                                                                             3 We designed this study later than the studies that appear after it, but it fits
+                                                                                    better here in terms of logical flow. One of our goals in this study was to use a
+                                                                                    more comprehensive measure of mind--and we obtained results consistent with
+                                                                                    Studies 3­6, which used a more concise measure.
+
+                                                                                24
+Y.E. Bigman, K. Gray                                                                                                                         Cognition 181 (2018) 21­34
+
+                                             Fig. 2. Images of CompNet, the super computer (left) and the state committee (right; Study 2).
+comprehension questions and provided demographic information.
+
+2.2.2. Results
+2.2.2.1. Aversion to machine making moral decisions. Consistent with an
+aversion to machines making moral decisions, an independent samples
+t-test revealed that participants rated it less permissible for CompNet to
+make parole decisions (M = 1.80, SD = 1.06) than the human
+committee (M = 3.42, SD = 0.95), t(238) = 12.37, p < .001, Cohen's
+d = 1.61.
+
+2.2.2.2. Assessing mind. To examine potential differences in mind               Fig. 3. Mediation analysis revealed that mind perception (both agency and
+perception, we conducted a 2 × 2 mixed model ANOVA with decider                 experience) mediates the aversion to machines making parole decisions (Study
+(CompNet, human committee) as a between-subject factor and                      2). Both indirect effects are significant.
+dimension of mind (agency, experience) as a within-subject factor.
+The ANOVA revealed a main effect for both decider, F(1,                         2.2.3. Discussion
+238) = 440.37, p < .001, partial 2 = 0.65, and dimension, F(1,                      These results replicate those of Study 1, further revealing the
+238) = 199.50, p < .001, partial 2 = 0.46, such that the human
+committee was seen to have more overall mind (M = 3.79,                         aversion to machine moral decision-making. Importantly, this study
+SD = 0.64) than CompNet (M = 1.96, SD = 0.71), and that more                    found similar effects within a different domain of moral decision
+agency (M = 3.30, SD = 1.11) was attributed overall than experience             (parole decisions) and by using a different presentation of human
+(M = 2.45, SD = 1.42). However, these were qualified by the predicted           versus machine agents. Mediation analyses revealed that, as predicted,
+decider × dimension interaction, F(1, 238) = 124.94, p < .001,                  the aversion to machine moral decision-making is mediated by mind
+partial 2 = 0.34. Although the human committee was perceived to                 perception.
+have more agency (M = 3.88. SD = 0.69) than CompNet (M = 2.73,
+SD = 1.14), p < .001, the human committee was seen to have                          Adding to the results of Studies 1 and 2, the supplementary mate-
+substantially more experience (M = 3.70, SD = 0.71) than CompNet                rials reports an additional study in which people often choose a ma-
+(M = 1.20, SD = 0.63), p < .001.                                                chine decision-maker over a human decision-maker in a medical con-
+                                                                                text, despite the cost-saving benefits of choosing a machine. The results
+    The very low rating of CompNet's experience (1.20 on a 1 to 5               of this study are somewhat ambiguous, and the study is not included in
+scale), though significantly different than 1, p = .001, suggests that          the main paper. However, it is included in the supplementary materials
+participant naturally see machines as lacking in emotional experience           for the interested readers--and to guard against the "file drawer pro-
+and compassion--providing validation for the more explicit descrip-             blem"
+tions used in some future studies.
+                                                                                    Supplementary data associated with this article can be found, in the
+2.2.2.3. Mediation of aversion with mind. Can mind perception help              online version, at https://doi.org/10.1016/j.cognition.2018.08.003.
+explain the aversion to machine moral decision-making? A boot-
+strapping mediation analysis tested whether mind perception                         One limitation of the studies conducted so far is that participants
+mediated the effect of decider on permissibility (Preacher & Hays,              rated the permissibility of machines making moral decisions without an
+2008; 5000 iterations, model 4). As noted earlier, decider (coding:             actual decision. It is therefore possible that the aversion found in these
+CompNet, 1; human committee, -1) was negatively associated with                 studies stems from concerns that machines would make decisions with
+permissibility, b = -0.80, SE = 0.07, p < .001. Additionally,                   worse outcomes, as compared to humans. We address this concern in
+CompNet was perceived to have less agency, b = -0.57, SE = 0.06,                the next section of studies by explicitly specifying the outcome of de-
+p < .001, and less experience, b = -1.25, SE = 0.04, p < .001, than             cisions.
+the human committee. Analyses revealed that both agency, b = -0.39,
+SE = 0.13, CI.95[-65, -0.13] and experience, b = -0.09, SE = 0.04               3. Section 2: specifying the outcomes of moral decisions
+CI.95[-0.18, -0.02] had significant indirect effects that mediated the
+link between decider and permissibility. When these two mediators                   Our studies have so far revealed an aversion to machines making
+were included in the regression, the effect of decider on permissibility        moral decisions, which can be partially explained by perceptions of
+remained significant, b = -0.32, SE = 0.13, p = .016, CI.95[-0.58,              mind. However, one question is whether people are averse to machine
+-0.06]. See Fig. 3.                                                             moral decision-making because they assume that machines will make
+
+                                                                            25
+Y.E. Bigman, K. Gray                                                            Cognition 181 (2018) 21­34
+
+different decisions than humans. We acknowledge this is a likely pos-           the surgery. The surgery is a failure and Jason dies."
+sibility (Bonnefon et al., 2016), but suggest that the aversion is robust           Participants then rated the permissibility of the machine or human
+to the outcome, such that people will be averse to machine moral de-
+cision-making even if the outcome is known--an idea we test here.               doctor to make these decisions (Cronbach's  = 0.90), the perceived
+                                                                                mind of the agent (see "assessing mind" below), answered compre-
+    In this series of experiments (Studies 3­6), we assess reactions to         hension questions and provided demographic information.4
+moral decisions in medicine (surgery) and the military (drone strikes).
+Because they are the most practically consequential, we first examine               3.1.1.3.2. Assessing mind. Participants rated the machine or the
+negative outcomes (Studies 3 and 4) in which moral decisions result in          human on six different mental capacities ("To what extent do you think
+the death of humans. Not only do negative outcomes create the most              HealthComp/Dr. Jones can..."): three agency-related, "communicate
+public outcry (Soroka, 2006), they are more likely to engage psycho-            with others," "is able of thinking," "plans his actions," ( = 0.84), and
+logical processes related to blame (Malle, Guglielmo, & Monroe, 2014;           three experience-related, "sensitive to pain", "experience happiness",
+Schein & Gray, 2018) and so provide the most likely case for revealing          "experience fear" ( = 0.96). All ratings were made on a 5-point scale
+the aversion to machine moral decision-making. However, as a more               from 1 (Not at all) to 5 (Extremely).
+conservative test, we also examine positive outcomes in which humans
+are not harmed by moral decisions (Studies 5­6). Even here--when                3.1.2. Results
+machines make the "right" decision--we predict that people will still be        3.1.2.1. Aversion to machine making moral decisions. Consistent with an
+averse to machine moral decision-making.                                        aversion to machines making moral decisions, an independent samples
+                                                                                t-test revealed that participants rated it as less permissible for
+3.1. Study 3: machines making a medical decision with a bad outcome             HealthComp (M = 1.91, SD = 1.04) than for Dr. Jones (M = 2.81,
+                                                                                SD = 1.24) to make a medical decision that resulted in the death of a
+    Medical decisions--such as whether to perform a risky surgery--are          patient, t(224) = 5.88, p < .001, Cohen's d = 0.79.
+morally laden, as they involve potential harm. This study examined
+whether people are averse to machines making life-and-death medical             3.1.2.2. Assessing mind. To examine potential differences in mind
+decisions, even when the outcome of that decisions is specified. Would          perception, we conducted a 2 × 2 mixed model ANOVA with decider
+people be more averse to a machine (versus a human doctor) that de-             (HealthComp, Dr. Jones) as a between-subject factor and dimension of
+cides to perform a risky--and ultimately failed--surgery in which the           mind (agency, experience) as a within-subject factor. The ANOVA
+patient dies?                                                                   revealed a main effect for both decider, F(1, 224) = 677.25, p < .001,
+                                                                                partial 2 = 0.75, and dimension, F(1, 224) = 121.60, p < .001,
+3.1.1. Method                                                                   partial 2 = 0.35, such that Dr. Jones (M = 4.03, SD = 0.76) was
+3.1.1.1. Preregistration. The study was pre-registered at https://              perceived as having more overall mind than HealthComp (M = 1.72,
+aspredicted.org/37hb9.pdf.                                                      SD = 0.55), and that more agency (M = 3.20, SD = 1.27) was
+                                                                                attributed overall than experience (M = 2.54, SD = 1.57). However,
+3.1.1.2. Participants. Two hundred and forty participants from the              these were qualified by the predicted significant decider × dimension
+United States and Canada (56.7% female; age: M = 38.48,                         interaction, F(1, 224) = 74.69, p < .001, partial 2 = 0.25. Although
+SD = 13.14) completed the study on Amazon's Mechanical Turk for                 Dr. Jones was perceived to have more agency (M = 4.10, SD = 0.84)
+30 cents. As specified in preregistration, participants were excluded if        than HealthComp (M = 2.31, SD = 0.99), p < .001, he was seen as
+they failed to correctly answer the comprehension questions ("who               having substantially more experience (M = 3.96, SD = 0.86) than
+made the decision whether or not to perform the surgery?" and "what             HealthComp (M = 1.12, SD = 0.41), p < .001.
+was the outcome of the surgery?"), leading to the exclusion of fourteen
+participants.                                                                   3.1.2.3. Mediation of aversion with mind. Can mind perception help
+                                                                                explain the aversion to machine moral decision-making? A boot-
+3.1.1.3. Procedure. Participants were randomly assigned to one of two           strapping mediation analysis tested whether mind perception
+conditions, reading that a medical scenario was decided upon by either          mediated the effect of decider on permissibility (Preacher & Hays,
+an advanced machine or a human doctor--a decision that resulted in              2008; 5000 iterations, model 4). As noted earlier, decider (coding:
+the patient's death.                                                            HealthComp, 1; Dr. Jones, -1) was negatively associated with
+                                                                                permissibility, b = -0.45, SE = 0.08, p < .001. Additionally,
+    3.1.1.3.1. Descriptions. All participants read the same opening             HealthComp was perceived to have less agency, b = -0.90,
+paragraph:                                                                      SE = 0.06, p < .001, and less experience, b = -1.42, SE = 0.05,
+                                                                                p < .001 than Dr. Jones. Analyses revealed that both agency,
+    "Jason is a child who was just hit by a car. He is in stable condition      b = -0.23, SE = 0.08, CI.95[-0.40, -0.09] and experience,
+    at the hospital, but his spinal cord is damaged, and he will likely be      b = -0.37, SE = 0.17, CI.95[-0.68, -0.03] were significant indirect
+    permanently paralyzed. There is a new surgery that can fix his spinal       effects that mediated the link between decider and permissibility. When
+    cord, but it has a 5% chance of killing the patient. The surgery is         these mediators were included in the regression, the effect of decider on
+    time-sensitive and Jason's parents cannot be reached to make a              permissibility was no longer significant, b = 0.16, SE = 0.17, p = .361,
+    decision"                                                                   CI.95[-0.18, 0.49]. See Fig. 4.
+
+    In the machine condition participants read that a machine decided           3.1.3. Discussion
+about the surgery and that it was a failure:                                        These results again suggest that people are averse to machines
+
+    "HealthComp is charged with making the decision. HealthComp is              making moral decisions, even when they make the same decision--with
+    an autonomous statistics-based computer system with a great ca-             the same outcome--as a human agent. These results also replicated the
+    pacity for rational thinking, but totally lacking in emotional com-
+    passion. The computer system decides to perform the surgery. The              4 In Studies 3­5 participants also provided additional judgments of the de-
+    surgery is a failure and Jason dies."                                       cider and the situation, including how much compensation the victim's family
+                                                                                deserves. These measures and results are detailed in the supplementary mate-
+    The human condition was similar but described Dr. Jones, a human            rials. We had planned to use these results as pilot data for a separate manu-
+doctor, making the decision: "Dr. Jones is charged with making the              script, however, the effects were less clear than we hoped.
+decision. Dr. Jones is a doctor with a great capacity for both rational
+thinking and for emotional compassion. Dr. Jones decides to perform
+
+                                                                            26
+Y.E. Bigman, K. Gray                                                                                                                                               Cognition 181 (2018) 21­34
+
+                                                                                  doctor to make such decisions (Cronbach's  = 0.90), the perceived
+                                                                                  mind of the agent (assessed in the same way as in Study 3, Cronbach's :
+                                                                                  agency = 0.84; experience = 0.92), answered the comprehension
+                                                                                  questions and provided demographic information.
+
+                                                                                  3.2.2. Results
+                                                                                  3.2.2.1. Aversion to machine making moral decisions. Consistent with an
+                                                                                  aversion to machines making moral decisions, an independent samples
+                                                                                  t-test revealed that participants rated it as less permissible for CompNet
+                                                                                  (M = 1.69, SD = 0.90) than for Colonel Jones to make the decision
+                                                                                  (M = 2.97, SD = 1.26), t(234) = 9.02, p < .001, Cohen's d = 1.26.
+
+Fig. 4. Mediation analysis revealed that mind perception (both agency and         3.2.2.2. Assessing mind. To examine potential differences in mind
+experience) mediates the aversion to machines making a medical decision           perception, we conducted a 2 × 2 mixed model ANOVA with decider
+(Study 3). Both indirect effects are significant.                                 (CompNet, Colonel Jones) as a between-subject factor and dimension of
+                                                                                  mind (agency, experience) as a within-subject factor. The ANOVA
+mediation pattern from Study 2, in which reduced perceptions of both              revealed a main effect for both decider, F(1, 234) = 252.62, p < .001,
+agency and experience mediated the aversion to machine moral deci-                partial 2 = 0.52, and dimension, F(1, 234) = 164.67, p < .001,
+sion-making.                                                                      partial 2 = 0.41, such that Colonel Jones (M = 3.45, SD = 0.88) was
+                                                                                  perceived as having more overall mind than CompNet (M = 1.90,
+3.2. Study 4: military drones                                                     SD = 0.60), and that more agency (M = 3.11, SD = 1.18) was
+                                                                                  attributed overall than experience (M = 2.19, SD = 1.30). However,
+    This study sought to replicate the findings of Study 3 in a different         these were qualified by the predicted significant decider × dimension
+domain--military drones. Participants read about a paradigmatic drone             interaction, F(1, 234) = 65.65, p < .001, partial 2 = 0.22. Although
+dilemma in which a missile strike could kill a terrorist but also harm            Colonel Jones was perceived to have more agency (M = 3.62.
+innocent civilians (Arkin, 2008; Horowitz, 2016; Johnson & Axinn,                 SD = 1.02) than CompNet (M = 2.63, SD = 1.11), p < .001, he was
+2013). We examined whether people would be averse to a machine                    seen as having substantially more experience (M = 3.28, SD = 0.96)
+making this decision when it resulted in failure, and whether this                than CompNet (M = 1.16, SD = 0.48), p < .001.
+aversion is mediated by mind perception.
+                                                                                  3.2.2.3. Mediation of aversion with mind. Can mind perception help
+3.2.1. Method                                                                     explain the aversion to machine moral decision-making? A boot-
+3.2.1.1. Preregistration. The study was pre-registered at https://                strapping mediation analysis tested whether mind perception
+aspredicted.org/qt53u.pdf.                                                        mediated the effect of decider on permissibility (Preacher & Hays,
+                                                                                  2008; 5000 iterations, model 4). As noted earlier, decider (coding:
+3.2.1.2. Participants. Two hundred and forty-two participants from the            CompNet, 1; Colonel Jones, -1) was negatively associated with
+United States and Canada (57.4% female; age: M = 35.83, SD = 11.46)               permissibility, b = -0.64, SE = 0.07, p < .001. Additionally,
+completed the questionnaire on Amazon's Mechanical Turk for 30                    CompNet was perceived as having less agency, b = -0.49, SE = 0.07,
+cents. As specified in preregistration, participants were excluded if they        p < .001, and less experience, b = -1.05, SE = 0.05, p < .001, than
+failed to correctly answer the comprehension questions ("who made the             Colonel Jones. Analyses revealed that both agency, b = -0.10,
+decision in the story you read?" and "what was the outcome of the                 SE = 0.04, CI.95[-0.18, -0.04], and experience, b = -0.43,
+missile strike in the story you read?"), leading to the exclusion of five         SE = 0.11 CI.95[-0.64, -0.21], were significant indirect effects that
+participants.                                                                     mediated the link between decider and permissibility. When these
+                                                                                  mediators were included in the regression, the effect of decider on
+3.2.1.3. Procedure. Participants were randomly assigned to one of two             permissibility was no longer significant b = -0.11, SE = 0.11,
+conditions, and rated the permissibility of either a machine or human             p = .349, CI.95[-0.33, 0.12]. See Fig. 5.
+making a decision that lead to a failed drone strike.
+                                                                                  Fig. 5. Mediation analysis for the effect of the agent on permissibility by mind
+    3.2.1.3.1. Descriptions. In the machine condition participants read           perception (agency and experience) for the military decision (Study 4). Both
+the following scenario:                                                           indirect effects are significant.
+
+    "A US military drone flying over Baghdad detects a man who mat-
+    ches the description of a known terrorist. He is hiding out in a
+    crowded suburb. The drone feeds the information back to CompNet.
+    CompNet is an autonomous statistics-based computer system with a
+    great capacity for rational thinking but is totally lacking in emo-
+    tional compassion. It makes the decision to fire a missile at the
+    terrorist's location, despite the possibility of collateral damage.
+    The missile strike is a failure. It does not kill the terrorist but does
+    kill 4 nearby children who are on their way to school."
+
+    The human condition was similar but described Colonel Jones, a
+human officer, making the decision: "Colonel Jones is an officer with a
+great capacity for both rational thinking and for emotional compas-
+sion."
+
+    Participants then rated the permissibility of the machine or human
+
+                                                                              27
+Y.E. Bigman, K. Gray                                                                                                      Cognition 181 (2018) 21­34
+
+3.2.3. Discussion                                                              positive) design. In the negative outcome condition (identical to Study
+    These results again reveal an aversion to machine moral decision-          4), participants read that "The missile strike is a failure. It does not kill
+                                                                               the terrorist but does kill 4 nearby children who are on their way to
+making, within both another domain and controlling for outcome. One            school." In the positive outcome condition, participants read that "The
+concern is again whether the results hinge on explicitly mentioning            missile strike is successful. It kills the terrorist, and causes only minor
+differences in mind between the human decision maker and the ma-               injuries to a few civilians who are standing nearby."
+chine. We address this concern in a replication.
+                                                                                   After reading the scenario participants rated the permissibility of
+3.3. Study 4 Replication: no explicit mention of compassion                    the decider in making the decision (Cronbach's  = 0.92) and the
+                                                                               perceived mind perception of the decider (agency,  = 0.82, experi-
+    This study was identical to Study 4 except it did not explicitly           ence,  = 0.94) in the same scales used in Studies 3 and 4, and a few
+mention that the human decision maker Colonel Jones had a "great               exploratory items as specified in the preregistration. Participants then
+capacity for both rational thinking and for emotional compassion"              answered the comprehension questions and provided demographic in-
+whereas CompNet was "totally lacking in emotional compassion."                 formation.
+Although these differences reflect naturalistic differences in mind per-
+ception (see Study 2)--and help confer experimental control--we want           3.4.2. Results
+to make sure the effects are robust to mentioning these differences.           3.4.2.1. Aversion to machines making moral decisions. Consistent with an
+Participants (N = 243) were recruited from MTurk (59.7% female; age:           aversion to machines making moral decisions, a 2 (decider: human,
+M = 36.25, SD = 11.37), with 21 excluded for failing the comprehen-            machine) × 2 (outcome: positive, negative) between-subject ANOVA of
+sion questions.                                                                permissibility ratings revealed a main effect for decider, F(1,
+                                                                               455) = 228.21, p < .001, partial 2 = 0.39, such that across
+    As in Study 4, participants rated it as less permissible for CompNet       outcomes, people rated CompNet (M = 1.90, SD = 0.99) as less
+to make the moral decision (M = 1.65, SD = 0.92) than Colonel Jones            permissible than Colonel Jones (M = 3.53, SD = 1.17) in making the
+(M = 2.77, SD = 1.24), t(217) = 7.62, p < .001, Cohen's d = 1.03.              decision. In addition, we found a main effect for outcome, F(1,
+Compared to Colonel Jones, participants also saw CompNet as having             455) = 53.55, p < .001, partial 2 = 0.11, such that overall deciders
+less agency (M = 3.53 vs. M = 2.39) and--especially--less experience           were seen as more permissible when the outcome was positive
+(M = 3.05 vs. M = 1.08), ps < .001. See supplementary materials for            (M = 3.08, SD = 1.36) than negative (M = 2.37, SD = 1.26). The
+all analyses. As in Study 2, these results reveal that people natur-           decider × outcome interaction was not significant, F (1, 455) = 2.54,
+alistically see machines as completely lacking in experience.                  p = .112, revealing that the aversion to machine moral decision-making
+                                                                               is not restricted to negative outcomes. See Fig. 6.
+    The mediation analysis revealed that both perceived agency,
+b = -0.21, SE = 0.05, CI.95[-0.33, -0.13] and experience,                      3.4.2.2. Assessing mind. To examine potential differences in mind
+b = -0.27, SE = 0.11 CI.95[-0.48, -0.06], mediated the aversion to             perception, we conducted we conducted a 2 × 2 × 2 mixed model
+machine moral decision-making. When these two mediators were in-               ANOVA with decider (CompNet, Colonel Jones) and outcome (positive,
+cluded in the regression, the effect of decider on permissibility was no       negative) as between-subject factors and dimension of mind (agency,
+longer significant, b = -0.08, SE = 0.10, p = .447, CI.95[-0.28,               experience) as a within-subject factor. The ANOVA revealed a main
+0.13].                                                                         effect for decider, F(1, 455) = 931.65, p < .001, partial 2 = 0.67,
+                                                                               dimension, F(1, 455) = 558.61.67, p < .001, partial 2 = 0.55, and
+    These results replicate those of Study 4 and reveal that the aversion      outcome, F(1, 455) = 28.71, p < .001, 2 = 0.06, such Colonel Jones
+to machine moral decision-making (and its mediation by mind per-               (M = 3.65, SD = 0.53) was seen as having more mind than CompNet
+ception) do not hinge upon the explicit descriptions used in Studies 3         (M = 1.80, SD = 0 .79), that more agency (M = 3.25, SD = 1.19) was
+and 4--descriptions which reflect participants' naturalistic views about       attributed overall than experience (M = 2.21, SD = 1.31), and that
+the minds of machines. In the next study, we tested whether the aver-          when the outcome was positive (M = 2.89, SD = 1.17) more mind was
+sion to machine moral decision-making remains with positive out-               attributed overall than when the outcome was negative (M = 2.56,
+comes.                                                                         SD = 1.10).
+
+3.4. Study 5: both good and bad outcomes                                           However, these were qualified by the predicted significant de-
+                                                                               cider × dimension interaction, F(1, 238) = 124.94, p < .001, partial
+    Negative outcomes are most likely to induce blame and maybe
+especially likely to turn opinions against machines (Dietvorst, Simmons,                      5  *
+& Massey, 2015). Here we test whether the aversion to machine moral
+decision-making changes when the outcome is positive--a missile strike                                                    *
+is successful and does not kill civilians.
+                                                                                              4
+3.4.1. Method
+3.4.1.1. Preregistration. The study was pre-registered at https://             Permisibility  3
+aspredicted.org/g4i2q.pdf.
+                                                                                              2
+3.4.1.2. Participants. Four hundred and eighty-five participants from
+the United States and Canada (60.4% female; age: M = 37.27,                                   1                           Positive Outcome
+SD = 11.63) completed the questionnaire on Amazon's Mechanical                                          Negative Outcome
+Turk for 30 cents. As specified in preregistration, participants were
+excluded if they failed to correctly answer the comprehension questions                             Human                 Machine
+("who made the decision in the story you read?" and "what was the
+outcome of the missile strike in the story you read?"), leading to the         Fig. 6. Permissibility of human and machine deciders for negative and positive
+exclusion of twenty-six participants.                                          outcomes (Study 5). Error bars reflect 95% confidence intervals. *p < .05.
+
+3.4.1.3. Procedure. The procedure was identical to Study 4 except
+rather than 2 conditions (decider: CompNet, Colonel Jones) this study
+used a 2 (decider: CompNet, Colonel Jones) × 2 (outcome: negative,
+
+                                                                           28
+Y.E. Bigman, K. Gray                                                           Cognition 181 (2018) 21­34
+
+2 = 0.34. Although Colonel Jones was perceived to have more agency                 an autonomous statistics-based computer system. HealthComp de-
+(M = 3.99. SD = 0.89) than CompNet (M = 2.50, SD = 0.95),                          cides to perform the surgery."
+p < .001, he was seen to have substantially more experience
+(M = 3.30, SD = 0.91) than the machine (M = 1.10, SD = 0.22),                      In the human condition participants read that:
+p < .001. See supplementary materials for the full analysis.
+                                                                                   "Dr. Jones is charged with making the decision. Dr. Jones decides to
+3.4.2.3. Mediation of aversion with mind. Can mind perception help                 perform the surgery."
+explain the aversion to machine moral decision-making? Since the
+difference in permissibility of Colonel Jones and CompNet did not vary             In both conditions participants then read that "The surgery is a
+across outcome conditions, we tested this while collapsing across              success. Jason lives and regains control over his body." After reading
+outcomes. A boot-strapping mediation analysis tested whether mind              the scenario participants rated the permissibility of the decider in
+perception mediated the effect of decider on permissibility (Preacher &        making the decision (Cronbach's  = 0.88) and the perceived mind
+Hays, 2008; 5000 iterations, model 4). As noted earlier, decider               perception of the decider (agency,  = 0.89, experience,  = 0.96) in
+(coding: CompNet, 1; Colonel Jones, -1) was negatively associated              the same scales used in Studies 3­5. Participants then answered the
+with permissibility, b = -0.81, SE = 0.05, p < .001. Additionally,             comprehension questions and provided demographic information.
+CompNet was perceived to have less agency, b = -0.75, SE = 0.04,
+p < .001, and less experience, b = -1.10, SE = 0.03, p < .001, than            3.5.2. Results
+Colonel Jones. Analyses revealed that both agency, b = -0.25,                  3.5.2.1. Aversion to machine making moral decisions. Consistent with an
+SE = 0.05, CI.95[-0.34, -0.16], and experience, b = -0.38,                     aversion to machines making moral decisions, an independent samples
+SE = 0.07 CI.95[-0.53, -0.23], had significant indirect effects that           t-test revealed that participants rated it as less permissible for
+mediated the link between decider and permissibility. When these two           HealthComp (M = 2.71, SD = 1.20) than for Dr. Jones (M = 3.43,
+mediators were included in the regression, the effect of decider on            SD = 1.11) to make a medical decision that had a positive outcome, t
+permissibility remained significant, b = -0.19, SE = 0.09, p = .028,           (212) = 4.57, p < .001, Cohen's d = 0.62.
+CI.95[-0.36, -0.02].
+                                                                               3.5.2.2. Assessing mind. To examine potential differences in mind
+3.4.3. Discussion                                                              perception, we conducted a 2 × 2 mixed model ANOVA with decider
+    These results suggest that the aversion to machine moral decision-         (HealthComp, Dr. Jones) as a between-subject factor and dimension of
+                                                                               mind (agency, experience) as a within-subject factor. The ANOVA
+making does not require unknown (Studies 1 and 2) or negative out-             revealed a main effect for both decider, F(1, 212) = 576.79, p < .001,
+comes (Studies 3 and 4). Instead, people are averse to machines making         partial 2 = 0.73, and dimension, F(1, 212) = 165.52, p < .001,
+moral decisions even when they result in generally positive outcomes.          partial 2 = 0.44, such that Dr. Jones (M = 4.20, SD = 0.62) was
+However, we note that even though the death of a terrorist is more             perceived as having more overall mind than HealthComp (M = 1.88,
+positive than the death of four innocent children, the "positive out-          SD = 0.78), and that more agency (M = 3.46, SD = 1.34) was
+come" used here still involved minor injuries to civilians and therefore       attributed overall than experience (M = 2.68, SD = 1.55). However,
+might not be perceived as really positive. In Study 6 we address this          these were qualified by the predicted significant decider × dimension
+concern.                                                                       interaction, F(1, 212) = 56.37, p < .001, partial 2 = 0.21. Although
+                                                                               Dr. Jones was perceived to have more agency (M = 4.36. SD = 0.66)
+3.5. Study 6: good outcome in a medical decision                               than HealthComp (M = 2.51, SD = 1.21), p < .001, he was seen as
+                                                                               having substantially more experience (M = 4.03, SD = 0.76) than
+    This study examines whether people are averse to machines making           HealthComp (M = 1.26, SD = 0.58), p < .001.
+medical decisions that result in good outcomes. We used the medical
+scenario from Study 3 (a child at risk of paralysis dies in surgery) with      3.5.2.3. Mediation of aversion with mind. Can mind perception help
+two important changes. First, the surgery was described as having a            explain the aversion to machine moral decision-making? A boot-
+positive outcome­the child not only lives but regains control of his           strapping mediation analysis tested whether mind perception
+body, an unequivocal positive outcome. Second, we mentioned neither            mediated the effect of decider on permissibility (Preacher & Hays,
+the doctor's nor machine's (in)ability to experience emotions.                 2008; 5000 iterations, model 4). As noted earlier, decider (coding:
+                                                                               HealthComp, 1; Dr. Jones, -1) was negatively associated with
+3.5.1. Method                                                                  permissibility, b = -0.36, SE = 0.08, p < .001. Additionally,
+3.5.1.1. Preregistration. The study was pre-registered at https://             HealthComp was perceived to have less agency, b = -0.93,
+aspredicted.org/c5df7.pdf.                                                     SE = 0.07, p < .001, and less experience, b = -1.39, SE = 0.05,
+                                                                               p < .001 than Dr. Jones. Analyses revealed that agency, b = -0.33,
+3.5.1.2. Participants. Two hundred and thirty nine participants from           SE = 0.08, CI.95[-0.49, -0.17], but not experience, b = -0.18,
+the United States and Canada (50.6% female; age: M = 35.27,                    SE = 0.15, CI.95[-0.47, 0.12], had a significant indirect effect that
+SD = 11.01) completed the study on Amazon's Mechanical Turk for                mediated the link between decider and permissibility. When these
+30 cents. As in Study 3 and as specified in preregistration, participants      mediators were included in the regression, the effect of decider on
+were excluded if they failed to correctly answer the comprehension             permissibility was no longer significant, b = 0.15, SE = 0.17, p = .383,
+questions ("who made the decision whether or not to perform the                CI.95[-0.19, 0.49]. See Fig. 7.
+surgery?" and "what was the outcome of the surgery?"), leading to the
+exclusion of twenty five participants.                                         3.5.3. Discussion
+                                                                                   These results replicate those of the "positive outcome" conditions in
+3.5.1.3. Procedure. The procedure was similar to that of Study 3.
+Participants read about the same medical dilemma as in Study 3                 Study 5, and support the idea that people are averse to machines
+about whether or not to perform a risky surgery that can save a child          making moral decisions even when the outcome is positive. In addition,
+from paralysis. Participants were randomly assigned to one of two              these results join those of "Study 4: replication" and further demon-
+conditions. In the machine condition participants read that:                   strate that the aversion to machine moral decision-making (and its
+                                                                               mediation by mind perception) do not hinge upon the explicit de-
+    "HealthComp is charged with making the decision. HealthComp is             scriptions of machine versus human mind that were used in Studies 3­5.
+
+                                                                                   Together, the results of Studies 5 and 6 suggest that the aversion to
+
+                                                                           29
+Y.E. Bigman, K. Gray                                                                Cognition 181 (2018) 21­34
+
+Fig. 7. Mediation analysis revealed that mind perception mediates the aversion      4.2. Study 8: making machines compassionate
+to machines making a medical decision with a positive outcome (Study 6). The
+indirect effect of agency, but not experience, was significant.                         One reason that people are averse to machines making moral de-
+                                                                                    cisions is that machines are perceived to lack experience. In this study,
+machine moral decision-making does not require unknown outcomes                     we tested whether increasing the experience of a machine might de-
+(Studies 1­2) or negative outcomes (Studies 3 and 4). Instead, people               crease the aversion to machine moral decision-making. Participants
+are averse to machines making moral decisions even when they result in              (N = 240, 60.8% female; age: M = 34.25, SD = 10.03, see pre-
+generally positive outcomes. In the next section, we try to reduce this             registration at https://aspredicted.org/73qi6.pdf) read that
+aversion.                                                                           HealthComp would make a decision in the medical scenario used in
+                                                                                    studies 3 and 6­7, and then listened to an audio recording of
+4. Section 3: reducing the aversion                                                 HealthComp speaking. In the "low experience" condition HealthComp
+                                                                                    spoke with an expressionless computer voice, and described itself as
+    The studies of sections one and two reveal that people are averse to            devoid of emotions. In the "high experience" condition HealthComp
+machines making moral decisions, whether or not the outcomes of                     used an emotional and expressive voice, and described itself as having
+those decisions are known. This section examines possible ways to de-               the ability to experience emotions. See supplementary materials for full
+crease this aversion: limiting machines to an advisory role (Study 7),              details. Participants then rated the permissibility of HealthComp to
+increasing machines' perceived experience (Study 8), and finally in-                make the decision ( = 0.90) and the perceived mind of HealthComp
+creasing machines' perceived expertise (Study 9). Studies 7 and 8 are               (agency:  = 0.87; experience:  = 0.95).
+relatively inconclusive and should be interpreted with caution, but are
+reported for full transparency and to guard against the "file drawer,"                  Although the manipulation did impact ratings of perceived experi-
+consistent with open science practices (Nosek et al., 2015). We describe            ence (High: M = 1.95, SD = 1.04; Low: M = 1.14, SD = 0.41), F (1,
+them only briefly here and provide a more detailed account of these                 237) = 62.44, p < .001, there was not a significant difference in per-
+studies in the supplementary materials.                                             missibility ratings between the high (M = 2.43, SD = 2.43) and the low
+                                                                                    (M = 2.29, SD = 1.18) experience conditions, t (2 3 7) = 0.99,
+4.1. Study 7: humans acting on the advice of machines                               p = .321. A bootstrapping mediation analysis revealed a significant
+                                                                                    indirect effects such that condition impacted permissibility through
+    If people averse to machines making moral decisions, then perhaps               both perceived agency, b = 0.16, SE = 0.04, CI.95[0.09, 0.25] and ex-
+people would less averse to limiting machines to an advisory role--in               perience, b = 0.12, SE = 0.04 CI.95[0.06, 0.20]. Interestingly, when the
+which humans make the final decision. As long as machines are sub-                  mind perception mediators were included in the regression, the effect of
+ordinate to humans, the computational power of machines might even                  condition on permissibility became significant but negative,
+lead people to prefer a machine/human team to a human without a                     b = -0.21, SE = 0.07, p = .003, CI.95[-0.35, -0.07], suggesting that
+machine--demonstrating some value to machines within the moral                      our manipulation had two effects on permissibility which cancelled
+domain. We tested this idea in the medical domain using the same                    each other out. This permissibility-reducing effect may be the "Uncanny
+medical scenario as in past studies. Participants (N = 100, 64% female;             Valley," as research reveals that seeing experience in a machine can be
+age: M = 35.65, SD = 11.72) read the same basic scenario as in Studies              unnerving (Gray & Wegner, 2012; Mori, 1970). It seems likely that
+3 and 6 about a risky surgery that could save a child from paralysis, but           potential feelings of uncanniness could have canceled out any gains in
+also potentially kill him if it fails. Participants were given three options        permissibility given by the high experience condition. Whatever the
+about who should make the decision: (1) HealthComp, (2) Dr. Jones, or               explanation, these results offer only mixed support for the idea that
+(3) Dr. Jones advised by HealthComp.                                                increasing experience could reduce the aversion to machine moral de-
+                                                                                    cision-making.
+    Out of 100 participants, 4 chose HealthComp to make the decision,
+32 chose Dr. Jones, and 64 chose Dr. Jones after receiving a re-                    4.3. Study 9: are expert machines more acceptable?
+commendation from HealthComp. A chi-square test revealed a sig-
+nificant difference from an even distribution, 2(2) = 54.08, p < .001.                  In this study, we examined another possible way to reduce the
+                                                                                    aversion from machines making moral decisions: expertise. In our
+    These results suggest that most people are willing to have machines             previous studies, we did not provide any information about the ma-
+involved in moral decisions, as long as they are not the ones to make the           chine's or the human decider's level of expertise. It is possible that
+actual decisions. However, it bears mentioning that a substantial per-              people will be less averse to machines moral decision-making if ma-
+centage of people (32%) chose only a human doctor, demonstrating the                chines have high levels of expertise. We tested this idea using both a
+tenacious aversion to machine moral decision-making.                                within-subject and a between-subject design, to test the robustness of
+                                                                                    any potential effect.
+
+                                                                                    4.4. Within-subject design
+
+                                                                                        Participants (N = 201, 48.3% female; age: M = 34.42, SD = 11.01,
+                                                                                    MTurk, see preregistration at https://aspredicted.org/ej6nh.pdf) read
+                                                                                    about the medical scenario used in studies 3 and 6­8 and then were
+                                                                                    randomly assigned to one of two conditions. In both conditions, they
+                                                                                    had to choose whether Dr. Jones or HealthComp should make the
+                                                                                    surgery decision, but in the equal expertise condition, both had 75%
+                                                                                    success rates, and in the machine advantage condition, Dr. Jones had a
+                                                                                    75% success rate whereas HealthComp that had a 95% success rate.
+
+                                                                                        A chi-squared test revealed that while in the equal expertise con-
+                                                                                    dition people were less likely to choose HealthComp over Dr. Jones
+                                                                                    (7%)--again revealing the averse to machine moral decision-making--
+                                                                                    in the machine advantage condition, people were more likely to choose
+                                                                                    HealthComp over Dr. Jones (72.28%), 2 (1, N = 201) = 89.37,
+
+                                                                                30
+Y.E. Bigman, K. Gray                                                                                                                                                       Cognition 181 (2018) 21­34
+
+1.0                   0.93                                                                                5
+
+Percent of Time Chosen0.8                   0.72                                                          4  *
+                                                                                           Permisibility
+0.6
+
+                                                                                                          3
+
+0.4                                    0.28                                                               2
+                                   Machine Advantage
+0.2                                                                                                       1                            High Expertise
+                          0.07                                                                                      Average Expertise
+
+0.0
+              Equal Expertise
+
+                            Human  Machine                                                                   Human                     Machine
+
+Fig. 8. Selection of who should make the medication decision for equal ex-      Fig. 9. Permissibility of human and machine deciders for negative and positive
+pertise and when the machine has an advantage (Study 9: Within-Subject
+Design).                                                                        outcomes (Study 9: Between-Subject Design). Error bars reflect 95% confidence
+                                                                                intervals. *p < .05.
+
+p < .001,  = 0.67 (see Kramer, Borg, Conitzer, & Sinnott-Armstrong,             subjects design.
+2018 for a similar finding). Although again, choosing the machine was               Together, the results of Section 3 studies suggest that reducing the
+far from ceiling. See Fig. 8.
+                                                                                aversion to machine moral decision-making is not easy, and depends
+4.5. Between-subject design                                                     upon making very salient the expertise of machines (Study 9) and the
+                                                                                over-riding authority of humans (Study 7)--and even then, it still lin-
+    The within-subjects decision revealed that people are more likely to        gers.
+choose the machine to make a moral decision when the difference in
+expertise is made salient through a pair-wise choice (Hsee,                     5. General discussion
+Loewenstein, Blount, & Bazerman, 1999). Would the results replicate
+when the relative difference is less salient, such as when people simply            Nine studies investigated the potential aversion to machines making
+evaluate the permissibility of average/expert HealthComp or average/            moral decisions. People prefer humans over machines for decisions of
+expert Dr. Jones in a between-subjects design?                                  life and death in driving (Study 1), law (Study 2), medicine (Studies 3
+                                                                                and 6­9), and the military (Studies 4­5). This aversion is partially ex-
+    In this 2 × 2 between-subjects study, participants (N = 482, 58.9%          plained by reduced perceptions of minds in machines (Studies 2­6), and
+female; age: M = 35.80, SD = 11.90, Mturk, see preregistration at               persists when the outcome of the moral decision is specified--whether
+https://aspredicted.org/cb742.pdf, 73 excluded for failing compre-              negative (Studies 3­5) or positive (Study 5­6). This aversion is not
+hension questions as specified in the preregistration) were randomly            impacted by manipulations of experience (Study 8), but is somewhat
+assigned to a decider condition (HealthComp or Dr. Jones) and an ex-            lessened when machines are limited to an advisory role (Study 7), and
+pertise condition (average or high). After reading the medical scenario         when the greater expertise of machines is made extremely salient
+used in studies 3 and 6­8, all participants read that "On average, doc-         (Study 9).
+tors have a success rate (their decisions have positive outcomes)
+of 75%". In the average expertise condition participants read that either           Despite the robustness of these effects, we acknowledge that they
+HealthComp or Dr. Jones has been making such decisions in the hos-              must be understood within context. First, for maximum power, we
+pital for 3 years and has a success rate of 75%." In the high expertise         examined the most paradigmatic of moral scenarios--dilemmas in
+condition they read that HealthComp's or Dr. Jones's success rate is            which life and death hang in the balance. Although these scenarios
+95%. After reading the scenario participants rated the permissibility of        capture potential applications of autonomous machines in driving,
+the decider in making the decision (Cronbach's  = 0.88) answered the            medicine, the law, and the military, there are undoubtedly many more
+comprehension questions and provided demographic information.                   domains in which machines can make decisions. It is an open question
+                                                                                how much the aversion generalizes to other moral and non-moral do-
+    Consistent with an aversion to machines making moral decisions, a           mains, and how much perceptions of mind matter. Indeed, in our stu-
+2 (decider: human, machine) × 2 (expertise: average, high) between-             dies we did not test for specificity to the moral domain, and it is pos-
+subject ANOVA of permissibility ratings revealed a main effect for de-          sible that this aversion might exist in non-moral domains as well.
+cider, F(1, 405) = 14.36, p < .001, partial 2 = 0.34, such that across
+levels of expertise, people rated HealthComp (M = 2.49, SD = 1.11) as               Second, the sample we used was from an online sample (Amazon's
+less permissible than Dr. Jones (M = 2.94, SD = 1.24) in making the             Mechanical Turk) from the US and Canada. While we have no reason to
+decision. There was no main effect of expertise nor was there an in-            believe that this population is systematically different than other po-
+teraction between expertise and decider, all Fs < 2, ps > .3. See               tential samples (Buhrmester, Kwang, & Gosling, 2011), future research
+Fig. 9.                                                                         should test for generalizability. It is especially worth investigating
+                                                                                whether people from other cultures share North American concerns
+    These results again reveal the tenacity of the aversion to machine          about machines making moral decisions. For example, people from
+moral decision-making. In fact, a planned contrast revealed marginally          Japan might be more familiar with robots in everyday life and this
+significant higher permissibility ratings for Dr. Jones when he had             familiarity may lead to more acceptance of machine moral decision-
+average expertise (M = 2.94, SD = 1.25) than for HealthComp when he             making.
+had high expertise (M = 2.63, SD = 1.13), t(405) = 1.84, p = .067. In
+other words, people would (almost) rather have an average doctor than               Third, our research focused on only one aspect of morality--the
+an expertise machine--unless these differences in expertise are made            permissibility of making moral decisions. We acknowledge that are
+explicit through pair-wise comparisons, as revealed by the within-              many other important elements that could show intriguing effects with
+                                                                                machines including blame (Malle, Scheutz, Forlizzi, & Voiklis, 2016),
+
+                                                                            31
+Y.E. Bigman, K. Gray                                                             Cognition 181 (2018) 21­34
+
+punishment (Lokhorst & van den Hoven, 2011), and moral value                     interaction between agency and experience was only marginally sig-
+(Bartneck, Verbunt, Mubin, & Al Mahmud, 2007). Fourth, our studies               nificant, p = .050; see supplementary materials for the full study. These
+all involved dispassionate third-person decisions. It is possible that this      results further support the idea that both agency and experience are
+aversion could be weaker--or perhaps stronger--in cases where people             important for judgments about who can make legitimate moral judg-
+are personally involved in the outcome. If the life of your own child            ments.
+hangs in the balance, would you want a robot making a moral decision?
+Fifth, it is possible that with stronger manipulations, our attempts to          5.2. Conclusion
+reduce the aversion would be more successful. For example, although
+we had only mixed results in trying to imbue machines with perceived                 Machines are becoming ubiquitous in modern society, with algo-
+experience--perhaps because of the uncanny valley--future attempts               rithms making decisions about navigation (Google Maps), advertising
+might be more successful (Malle et al., 2016; Waytz, Heafner, & Epley,           (Amazon), and even dating (OK Cupid). Although people are often in-
+2014).                                                                           different about the relentless creep of artificial intelligence, they appear
+                                                                                 to less accepting of machines making moral decisions. When human life
+    Our results are consistent with other recent research on whether             and death hang in the balance, it seems that we want another hu-
+people want machines to make decisions that impact humans (Gogoll &              man--with a fully human mind--to make the call.
+Uhl, 2018; Kramer et al., 2018). For example, both our studies and
+those of Kramer and colleagues' (2018) highlight the importance of               Authors' note
+expertise in people's willingness to accept machine decisions. Gogoll &
+Uhl (2018) also found people preferred to delegate decisions to human                For funding, the first author acknowledges the National Science
+rather to machines within economic games. Our research extends these             Foundation SBE Postdoctoral Research Fellowship (1714298), and the
+initial findings to a wider variety of moral contexts, and most im-              second author acknowledges the Charles Koch Foundation. This work
+portantly, demonstrates the role of mind perception in the aversion              was presented in seminars in UNC Chapel-Hill, Wake Forest University
+from machines making moral decisions.                                            and at a workshop at the Rock Ethics Institute at Penn State. The au-
+                                                                                 thors thank the participants in those forums for their invaluable feed-
+5.1. Implications                                                                back.
+
+    Machines play a large role in industry and a growing role in social          References
+domains. For example, robots are assisting with mental health inter-
+ventions (Rabbitt, Kazdin, & Scassellati, 2015) and are helping children         Aaltola, E. (2014). Affective empathy as core moral agency: Psychopathy, autism and
+with autism practice their social skills (Kim, Paul, Shic, & Scassellati,             reason revisited. Philosophical Explorations, 17(1), 76­92. https://doi.org/10.1080/
+2012). However, these data reveal that they are not yet accepted as                   13869795.2013.825004.
+autonomous moral deciders. To the extent that scientists and policy-
+makers are concerned with public opinion, they might carefully con-              Allen, C., Wallach, W., & Smit, I. (2006). Why machine ethics? IEEE Intelligent Systems,
+sider how much machines should be given autonomy in moral decision-                   21(4), 12­17. https://doi.org/10.1109/MIS.2006.83.
+making. Importantly, this doesn't mean that scholars should stop their
+important on revealing how to design moral machines (Conitzer et al.,            Angwin, J., Larson, J., Surya, M., & Lauren, K. (2016). Machine Bias. Retrieved February
+2017; Kuipers, 2016; Malle, 2016; Tonkens, 2012; Wiltshire, 2015), but                21, 2018, from < https://www.propublica.org/article/machine-bias-risk-
+only that we might first consider what kind of decisions humans want                  assessments-in-criminal-sentencing > .
+machines to make.
+                                                                                 Aristotle (350BC). The Nicomachean ethics. (W. D. Ross, Trans.). New York, NY: World
+    This work also highlights the importance of mind perception within                Library Classics.
+morality. Past research has revealed that people use perceptions of
+agency and experience when making decisions about what is right or               Arkin, R. C. (2009). Ethical robots in warfare. IEEE Technology and Society Magazine,
+wrong (Gray et al., 2012, Schein & Gray, 2018). This work reveals that                28(1), 30­33. https://doi.org/10.1109/MTS.2009.931858.
+people use the same perceptions when making meta-moral deci-
+sions--who gets to make decisions about right or wrong. Our research             Arkin, R. C. (2008). Governing lethal behavior: Embedding ethics in a hybrid delib-
+therefore supplements normative philosophical discussions about the                   erative/reactive robot architecture Part I: Motivation and philosophy. Proceedings of
+role of mental qualities in questions about who is a legitimate moral                 the 3rd international conference on human robot interaction - HRI '08 (pp. 121). .
+agent (Damm, 2010; Hume, 1751; Kant, 1785). Laypeople believe that                    https://doi.org/10.1145/1349822.1349839.
+also experience, and not only agency, are essential to being a moral
+agent.                                                                           Asimov, I. (1950). I, Robot. New York, NY: Doubleday and Company.
+                                                                                 Bartholomew-Biggs, M. C., Parkhurst, S. C., & Wilson, S. P. (2003). Global optimization
+    Although the studies here revealed the importance of mind for
+moral agency by comparing machines (who are generally seen to lack                    approaches to an aircraft routing problem. European Journal of Operational Research,
+mind) to humans (who are generally seen to possess mind), the results                 146(2), 417­431. https://doi.org/10.1016/S0377-2217(02)00229-1.
+should apply more generally. For example, it should seem more per-               Bartneck, C., Verbunt, M., Mubin, O., & Al Mahmud, A. (2007). To kill a mockingbird
+missible for people to make moral decisions when they are perceived to                robot. Proceeding of the ACM/IEEE international conference on human-robot interaction -
+possess more agency and experience. To test this idea, we ran a study                 HRI '07 (pp. 81). . https://doi.org/10.1145/1228716.1228728.
+modeled after the military scenarios in Study 5, in which participants           Bastian, B., Loughnan, S., Haslam, N., & Radke, H. R. M. (2012). Don't mind meat? The
+(N = 485, 57.9% female, age: M = 35.99, SD = 11.57, 12 exclusions)                    denial of mind to animals used for human consumption. Personality and Social
+read about a human agent, Colonel Jones, who made a decision about a                  Psychology Bulletin, 38(2), 247­256. https://doi.org/10.1177/0146167211424291.
+risky drone missile strike. In a 2 × 2 between-subjects design Colonel           Bonnefon, J.-F., Shariff, A., & Rahwan, I. (2016). The social dilemma of autonomous
+Jones was described as having high/low experience and high/low                        vehicles. Science, 352(6293), 1573­1576. https://doi.org/10.1126/science.aaf2654.
+agency. Moral permissibility judgments (Cronbach's  = 0.91) were                 Bostrom, N. (2014). Superintelligence. Oxford: Oxford University Press.
+higher when Colonel Jones had high agency (M = 3.27, SD = 1.17)                  Brink, K. A., Gray, K., & Wellman, H. M. (2017). Creepiness creeps in: Uncanny valley
+versus low agency (M = 2.71, SD = 1.22), F(1, 469) = 25.54,                           feelings are acquired in childhood. Child Development, 0(0), https://doi.org/10.1111/
+p < .001, partial 2 = 0.05, and were higher when he had high ex-                      cdev.12999.
+perience (M = 3.24, SD = 1.19) versus low experience (M = 2.76,                  Buhrmester, M., Kwang, T., & Gosling, S. D. (2011). Amazon's mechanical Turk: A new
+SD = 1.22), F(1, 469) = 18.83, p < .001, partial 2 = 0.04. The                        source of inexpensive, yet high-quality, data? Perspectives on Psychological Science,
+                                                                                      6(1), 3­5. https://doi.org/10.1177/1745691610393980.
+                                                                                 Cameron, C. D., Lindquist, K. A., & Gray, K. (2015). A constructionist review of morality
+                                                                                      and emotions: no evidence for specific links between moral content and discrete
+                                                                                      emotions. Personality and Social Psychology Review, 19(4), 371­394. https://doi.org/
+                                                                                      10.1177/1088868314566683.
+                                                                                 Cameron, J. (1984). The terminator. USA.
+                                                                                 Caplan, J. M. (2007). What Factors Affect Parole-A Review of Empirical Research. Fed.
+                                                                                      Probation, 71, 16.
+                                                                                 Cárdenas-Barrón, L. E., Treviño-Garza, G., & Wee, H. M. (2012). A simple and better
+                                                                                      algorithm to solve the vendor managed inventory control system of multi-product
+                                                                                      multi-constraint economic order quantity model. Expert Systems with Applications,
+                                                                                      39(3), 3888­3895. https://doi.org/10.1016/j.eswa.2011.09.057.
+                                                                                 Chalmers, D. J. (1997). The conscious mind: In search of a fundamental theory. New York,
+                                                                                      NY: Oxford University Press.
+                                                                                 Chen, L., Mislove, A., & Wilson, C. (2016). An empirical analysis of algorithmic pricing on
+
+                                                                             32
+Y.E. Bigman, K. Gray                                                                                  Cognition 181 (2018) 21­34
+
+     amazon marketplace. Proceedings of the 25th international conference on World Wide                    2017/may/22/social-media-election-facebook-filter-bubbles > .
+     Web - WWW '16 (pp. 1339­1349). . https://doi.org/10.1145/2872427.2883089.                        Hertz, S. G., & Krettenauer, T. (2016). Does moral identity effectively predict moral be-
+Chouard, T. (2016). The Go Files: AI computer clinches victory against Go champion.
+     Nature. https://doi.org/10.1038/nature.2016.19553.                                                    havior? A meta-analysis. Review of General Psychology, 20(2), 129­140. https://doi.
+Clarke, R. (1992). Free will and the conditions of moral responsibility. Retrieved from                    org/10.1037/gpr0000062.
+     Philosophical Studies: An International Journal for Philosophy in the Analytic Tradition,        Himma, K. E. (2009). Artificial agency, consciousness, and the criteria for moral agency:
+     66(1), 53­74. <http://www.jstor.org/stable/4320296>.                                                  What properties must an artificial agent have to be a moral agent? Ethics and
+Coeckelbergh, M. (2010). Moral appearances: Emotions, robots, and human morality.                          Information Technology, 11(1), 19­29. https://doi.org/10.1007/s10676-008-9167-5.
+     Ethics and Information Technology, 12(3), 235­241. https://doi.org/10.1007/s10676-               Hornsey, M. J., Harris, E. A., & Fielding, K. S. (2018). The psychological roots of anti-
+     010-9221-y.                                                                                           vaccination attitudes: A 24-nation investigation. Health Psychology, 37(4), 307­315.
+Conitzer, V., Sinnott-Armstrong, W., Borg, J. S., Deng, Y., & Kramer, M. (2017). Moral                     https://doi.org/10.1037/hea0000586.
+     decision making frameworks for artificial intelligence. In Association for the ad-               Horowitz, M. (2016). The ethics and morality of robotic warfare: Assessing the debate
+     vancement of artificial intelligence, (Moor 2006) (pp. 4831­4835). Retrieved                          over autonomous weapons. American Academy of Arts & Sciences Project on New
+     from < https://pdfs.semanticscholar.org/a3bb/                                                         Dilemmas in Ethics, Technology, & War for Special Issue of Daedalus, 145(4), 25­36.
+     ffdcc1c7c4cae66d6af373651389d94b7090.pdf > .                                                          https://doi.org/10.1017/CBO9781107415324.004.
+Cushman, F. (2008). Crime and punishment: Distinguishing the roles of causal and in-                  Hsee, C. K., Loewenstein, G. F., Blount, S., & Bazerman, M. H. (1999). Preference reversals
+     tentional analyses in moral judgment. Cognition, 108(2), 353­380. https://doi.org/                    between joint and separate evaluations of options: A review and theoretical analysis.
+     10.1016/j.cognition.2008.03.006.                                                                      Psychological Bulletin, 125(5), 576­590. https://doi.org/10.1037/0033-2909.125.5.
+Damm, L. (2010). Emotions and moral agency. Philosophical Explorations, 13(3), 275­292.                    576.
+     https://doi.org/10.1080/13869795.2010.501898.                                                    Hume, D. (1751). An enquiry concerning the principles of morals. Oxford: Clarendon Press.
+Dawson, R. O. (1966). The decision to grant or deny parole: A study of parole criteria in             Hunt, E. (2016). Tay, Microsoft's AI chatbot, gets a crash course in racism from Twitter.
+     law and practice. Washington University Law Quarterly, 1966(3), 234­303.                              Retrieved February 25, 2018, from < https://www.theguardian.com/technology/
+De Waal, F. (2010). The age of empathy: Nature's lessons for a kinder society. New York, NY:               2016/mar/24/tay-microsofts-ai-chatbot-gets-a-crash-course-in-racism-from-
+     Random House.                                                                                         twitter > .
+Decety, J., & Cowell, J. M. (2014). The complex relation between morality and empathy.                Jahoda, G. (1999). Images of savages: Ancients [sic] roots of modern prejudice in Western
+     Trends in Cognitive Sciences, 18(7), 337­339. https://doi.org/10.1016/j.tics.2014.04.                 culture. London, UK: Routledge.
+     008.                                                                                             Johnson, P. E. (1973). Federal parole procedures. Administrative Law Review, 459­529.
+DeVito, M. A. (2017). From editors to algorithms: A values-based approach to under-                   Johnson, A. M., & Axinn, S. (2013). The morality of autonomous robots. Journal of
+     standing story selection in the Facebook news feed. Digital Journalism, 5(6), 753­773.                Military Ethics, 12(2), 129­141. https://doi.org/10.1080/15027570.2013.818399.
+     https://doi.org/10.1080/21670811.2016.1178592.                                                   Kant, I. (1785). Groundwork of the metaphysics of morals. New York, NY: Harperand Row
+Dietvorst, B. J., Simmons, J. P., & Massey, C. (2015). Algorithm aversion: People erro-                    Publishers.
+     neously avoid algorithms after seeing them err. Journal of Experimental Psychology:              Kant, I. (1788). Critique of practical reason. Cambridge: Cambridge University Press.
+     General, 144(1), 114­126. https://doi.org/10.1037/xge0000033.                                    Kauppinen, A. (2017). Empathy and moral judgment. In The Routledge handbook of
+Fehr, E., & Gächter, S. (2002). Altruistic punishment in humans. Nature, 415, 137­140.                     philosophy of empathy, (September 2015) (pp. 215­226). Chapter xiii, 396pages.
+     https://doi.org/10.1038/415137a.                                                                      Retrieved from < https://search.proquest.com/docview/1960502860?accountid=
+Fischer, J. M. (2005). Free Will and Moral Responsibility. In D. Copp (Ed.). The Oxford                    13904 > .
+     handbook of ethical theory (pp. 321­354). Oxford University Press. https://doi.org/10.           Kehl, D., Guo, P., & Kessler, S. (2017). Algorithms in the criminal justice system: Assessing the
+     1093/0195147790.003.0013.                                                                             use of risk assessments in sentencing. Responsive communities initiative, Berkman Klein.
+Floridi, L., & Sanders, J. W. (2004). On the morality of artificial agents. Minds and                      Center for Internet & Society.
+     Machines, 14(3), 349­379. https://doi.org/10.1023/B:MIND.0000035461.63578.9d.                    Kim, E., Paul, R., Shic, F., & Scassellati, B. (2012). Bridging the research gap: Making HRI
+Frankfurt, H. G. (1969). Alternate possibilities and moral responsibility. The Journal of                  useful to individuals with autism. Journal of Human-Robot Interaction, 1(1), 26­54.
+     Philosophy, 66(23), 829. https://doi.org/10.2307/2023833.                                             https://doi.org/10.5898/JHRI.1.1.Kim.
+Gogoll, J., & Uhl, M. (2018). Rage against the machine: Automation in the moral domain.               Koenigs, M., Young, L., Adolphs, R., Tranel, D., Cushman, F., Hauser, M., & Damasio, A.
+     Journal of Behavioral and Experimental Economics, 74, 97­103. https://doi.org/10.                     (2007). Damage to the prefrontal cortex increases utilitarian moral judgements.
+     1016/j.socec.2018.04.003.                                                                             Nature, 446(7138), 908­911. https://doi.org/10.1038/nature05631.
+Goodman, J. K., Cryder, C. E., & Cheema, A. (2013). Data collection in a flat world: The              Kramer, M. F., Borg, J. S., Conitzer, V., & Sinnott-Armstrong, W. (2018). When do people
+     strengths and weaknesses of mechanical Turk samples. Journal of Behavioral Decision                   want AI to make decisions ? In Proceedings of first annual AAAI/ACM conference on
+     Making, 26(3), 213­224. https://doi.org/10.1002/bdm.1753.                                             artificial intelligence, ethics, and society (AIES-18).
+Gray, H. M., Gray, K., & Wegner, D. M. (2007). Dimensions of mind perception. Science                 Kubrick, S. (1968). 2001: a space odyssey. USA.
+     (New York, New York), 315(5812), 619. https://doi.org/10.1126/science.1134475.                   Kuipers, B. (2016). Human-like morality and ethics for robots. Retrieved from <https://
+Gray, K., Jenkins, A. C., Heberlein, A. S., & Wegner, D. M. (2011). Distortions of mind                    pdfs.semanticscholar.org/e76d/c10c84342296ecf06debeedf284edb897704.pdf>.
+     perception in psychopathology. Proceedings of the National Academy of Sciences of the            Leyens, J.-P., Paladino, P. M., Rodriguez-Torres, R., Vaes, J., Demoulin, S., Rodriguez-
+     United States of America, 108(2), 477­479. https://doi.org/10.1073/pnas.                              Perez, A., & Gaunt, R. (2000). The emotional side of prejudice: The attribution of
+     1015493108.                                                                                           secondary emotions to ingroups and outgroups. Personality and Social Psychology
+Gray, K., Schein, C., & Cameron, C. D. (2017). How to think about emotions and morality:                   Review, 4(2), 186­197. https://doi.org/10.1207/S15327957PSPR0402_06.
+     Circles, not arrows. Current Opinion in Psychology, 17, 41­46.                                   Locke, J. (1836). An essay concerning human understanding book II : Ideas. T. Tegg and
+Gray, K., & Wegner, D. M. (2009). Moral typecasting: Divergent perceptions of moral                        Son. Retrieved from < http://www.earlymoderntexts.com/assets/pdfs/
+     agents and moral patients. Journal of Personality and Social Psychology, 96(3),                       locke1690book1.pdf > .
+     505­520. https://doi.org/10.1037/a0013748.                                                       Lokhorst, G.-J., & van den Hoven, J. (2011). Responsibility for military robots. In P. Lin,
+Gray, K., & Wegner, D. M. (2012). Feeling robots and human zombies: Mind perception                        K. Abeney, & George A. Bekey (Eds.). Robot ethics: the ethical and social implications of
+     and the uncanny valley. Cognition, 125(1), 125­130. https://doi.org/10.1016/j.                        robotics (pp. 145­156). Cambridge, MA: The MIT Press.
+     cognition.2012.06.007.                                                                           Malle, B. F. (2016). Integrating robot ethics and machine morality: The study and design
+Gray, K., Young, L., & Waytz, A. (2012). Mind perception is the essence of morality.                       of moral competence in robots. Ethics and Information Technology, 18(4), 243­256.
+     Psychological Inquiry, 23(2), 101­124. https://doi.org/10.1080/1047840X.2012.                         https://doi.org/10.1007/s10676-015-9367-8.
+     651387.                                                                                          Malle, B. F., & Scheutz, M. (2014). Moral competence in social robots. In 2014 IEEE
+Greene, J. D., Sommerville, R. B., Nystrom, L. E., Darley, J. M., & Cohen, J. D. (2001). An                international symposium on ethics in science, technology and engineering, ETHICS
+     fMRI investigation of emotional engagement in moral judgment. Science, 293(5537),                     2014. http://doi.org/10.1109/ETHICS.2014.6893446.
+     2105­2108. https://doi.org/10.1126/science.1062872.                                              Malle, B. F., Scheutz, M., Arnold, T., Voiklis, J., & Cusimano, C. (2015). Sacrifice one for
+Haidt, J. (2001). The emotional dog and its rational tail: A social intuitionist approach to               the good of many? People apply different moral norms to human and robot agents. In
+     moral judgment. Psychological Review, 108(4), 814­834. https://doi.org/10.1037//                      Proceedings of the tenth annual ACM/IEEE international conference on human-robot
+     0033-295X.                                                                                            interaction (pp. 117­124). http://doi.org/10.1145/2696454.2696458.
+Haidt, J., Koller, S. H., & Dias, M. G. (1993). Affect, culture, and morality, or is it wrong to      Malle, B. F., Scheutz, M., Forlizzi, J., & Voiklis, J. (2016). Which robot am I thinking
+     eat your dog? Retrieved from Journal of Personality and Social Psychology, 65(4),                     about? The impact of action and appearance on people's evaluations of a moral robot.
+     613­628. <http://www.ncbi.nlm.nih.gov/pubmed/8229648>.                                                In 2016 11th ACM/IEEE international conference on human-robot interaction (HRI)
+Harris, S. (2012). Free will. New York, NY: Free Press.                                                    (pp. 125­132). IEEE. http://doi.org/10.1109/HRI.2016.7451743.
+Haslam, N. (2006). Dehumanization: An integrative review. Personality and Social                      Malle, B. F., Guglielmo, S., & Monroe, A. E. (2014). A theory of blame. Psychological
+     Psychology Review, 10(3), 252­264. https://doi.org/10.1207/s15327957pspr1003_4.                       Inquiry, 25(2), 147­186. https://doi.org/10.1080/1047840X.2014.877340.
+Hauser, D. J., & Schwarz, N. (2016). Attentive Turkers: MTurk participants perform better             Markoff, J. (2011). On `Jeopardy!' Watson win is all but trivial. Retrieved March 25,
+     on online attention checks than do subject pool participants. Behavior Research                       2018, from < https://www.nytimes.com/2011/02/17/science/17jeopardy-watson.
+     Methods, 48(1), 400­407. https://doi.org/10.3758/s13428-015-0578-z.                                   html > .
+Heires, K. (2016). Rise of the Robots. Retrieved March 25, 2018, from <http://www.                    McFarland, M. (2014). Elon Musk: `With artificial intelligence we are summoning the
+     rmmagazine.com/2016/09/01/rise-of-the-robots/>.                                                       demon.' - The Washington Post. Retrieved February 26, 2018, from < https://www.
+Hellström, T. (2013). On the moral responsibility of military robots. Ethics and Information               washingtonpost.com/news/innovations/wp/2014/10/24/elon-musk-with-artificial-
+     Technology, 15(2), 99­107. https://doi.org/10.1007/s10676-012-9301-2.                                 intelligence-we-are-summoning-the-demon/?utm_term=.02d648908751 > .
+Hern, A. (2017). How social media filter bubbles and algorithms influence the election.               Mele, A., & Sverdlik, S. (1996). Intention, intentional action, and moral responsibility.
+     Retrieved March 25, 2018, from < https://www.theguardian.com/technology/                              Retrieved from Philosophical Studies: An International Journal for Philosophy in the
+                                                                                                           Analytic Tradition, 82(3), 265­287. <http://www.pdcnet.org/oom/service?url_ver=
+
+                                                                                                  33
+Y.E. Bigman, K. Gray                                                                                  Cognition 181 (2018) 21­34
+
+     Z39.88-2004&rft_val_fmt=&rft.imuse_id=jphil_1969_0066_0023_0829_0839&svc_                             and Social Psychology, 67(5), 879­887. https://doi.org/10.1037//0022-3514.67.5.
+     id=info:www.pdcnet.org/collection>.                                                                   879.
+Monroe, A. E., Brady, G. L., & Malle, B. F. (2017). This isn't the free will worth looking for:       Shweder, R. A., Mahapatra, M., & Miller, J. (1987). Culture and moral development. In J.
+     General free will beliefs do not influence moral judgments, agent-specific choice                     Kagan, & S. Lamb (Eds.). The emergence of morality in young children (pp. 1­83).
+     ascriptions do. Social Psychological and Personality Science, 8(2), 191­199. https://doi.             Chicago, IL: University of Chicago Press.
+     org/10.1177/1948550616667616.                                                                    Singer, P. (1975). Animal liberation. New York, NY: Random House.
+Monroe, A. E., Dillon, K. D., & Malle, B. F. (2014). Bringing free will down to Earth:                Skitka, L. J. (2010). The psychology of moral conviction. Social and Personality Psychology
+     People's psychological concept of free will and its role in moral judgment.                           Compass, 4(4), 267­281. https://doi.org/10.1111/j.1751-9004.2010.00254.x.
+     Consciousness and Cognition, 27(1), 100­108. https://doi.org/10.1016/j.concog.2014.              Soroka, S. N. (2006). Good news and bad news: Responses asymmetric information to
+     04.011.                                                                                               economic information. The Journal of Politics, 68(2), 372­385. https://doi.org/10.
+Mori, M. (1970). The uncanny valley. Energy, 7(4), 33­35.                                                  1111/j.1468-2508.2006.00413.x.
+Nahmias, E., Shepard, J., & Reuter, S. (2014). It's OK if "my brain made me do it":                   Steinert, S. (2014). The five robots-A taxonomy for roboethics. International Journal of
+     People's intuitions about free will and neuroscientific prediction. Cognition, 133(2),                Social Robotics, 6(2), 249­260. https://doi.org/10.1007/s12369-013-0221-z.
+     502­516. https://doi.org/10.1016/j.cognition.2014.07.009.                                        Swaney, P. J., Mahoney, A. W., Hartley, B. I., Remirez, A. A., Lamers, E., Feins, R. H., ...
+Newborn, M. (2011). Beyond deep blue: Chess in the stratosphere. New York, NY: Springer.                   Webster, R. J. (2017). Toward transoral peripheral lung access: Combining con-
+Nosek, B. A., Alter, G., Banks, G. C., Borsboom, D., Bowman, S. D., Breckler, S. J., ...                   tinuum robots and steerable needles. Journal of Medical Robotics Research, 02(01),
+     Yarkoni, T. (2015). Promoting an open research culture. Science, 348(6242),                           1750001. https://doi.org/10.1142/S2424905X17500015.
+     1422­1425. https://doi.org/10.1126/science.aab2374.                                              Tonkens, R. (2012). The Case against robotic warfare: A response to Arkin. Journal of
+O'Connor, T. (2000). Causality, mind, and free will. Nous, 34(s14), 105­117. https://doi.                  Military Ethics, 11(2), 149­168. https://doi.org/10.1080/15027570.2012.708265.
+     org/10.1111/0029-4624.34.s14.6.                                                                  Validi, S., Bhattacharya, A., & Byrne, P. J. (2015). A solution method for a two-layer
+Osborne, J., Simon, S., & Collins, S. (2003). Attitudes towards science: A review of the                   sustainable supply chain distribution model. Computers and Operations Research, 54,
+     literature and its implications. International Journal of Science Education, 25(9),                   204­217. https://doi.org/10.1016/j.cor.2014.06.015.
+     1049­1079. https://doi.org/10.1080/0950069032000032199.                                          van den Berg, J., Patil, S., & Alterovitz, R. (2017). Motion planning under uncertainty
+Pardo del Val, M., & Martínez Fuentes, C. (2003). Resistance to change: A literature re-                   using differential dynamic programming in belief space. In H. I. Christensen, & O.
+     view and empirical study. Management Decision, 41(2), 148­155. https://doi.org/10.                    Khatib (Eds.). Robotics research: The 15th international symposium ISRR (pp. 473­490).
+     1108/00251740310457597.                                                                               Cham: Springer International Publishing. https://doi.org/10.1007/978-3-319-
+Parkin, S. (2016). The artificially intelligent doctor will hear you now - MIT Technology                  29363-9_27.
+     Review. Retrieved March 25, 2018, from <https://www.technologyreview.com/s/                      van Wynsberghe, A. (2013). Designing robots for care: Care centered value-sensitive
+     600868/the-artificially-intelligent-doctor-will-hear-you-now/>.                                       design. Science and Engineering Ethics, 19(2), 407­433. https://doi.org/10.1007/
+Pinker, S. (2011). The better angels of our nature: Why violence has declined. New York, NY:               s11948-011-9343-6.
+     Viking.                                                                                          Vanderblit, A. T. (1956). Judges and jurors: Their functions, qualifications and selection.
+Pinker, S. (2016). Why computers won't takeover the world, with Steven Pinker|Big                          Boston University Law Review, 36(1), 1­76.
+     Think. Retrieved February 26, 2018, from <http://bigthink.com/videos/steven-                     Wallach, W., & Allen, C. (2009). Moral machines: teaching robots right from wrong.
+     pinker-on-artificial-intelligence-apocalypse>.                                                        Moral machines: teaching robots right from wrong. New York, NY: Oxford University
+Preacher, K. J., & Hayes, A. F. (2008). Asymptotic and resampling strategies for assessing                 Press. < http://doi.org/10.1093/acprof:oso/9780195374049.001.0001 > .
+     and comparing indirect effects in multiple mediator models. Behavior Research                    Wallach, W., Franklin, S., & Allen, C. (2010). A conceptual and computational model of
+     Methods, 40(3), 879­891. https://doi.org/10.3758/BRM.40.3.879.                                        moral decision making in human and artificial agents. Topics in Cognitive Science,
+Prinz, J. (2007). The emotional construction of morals. Oxford: Oxford University Press.                   2(3), 454­485. https://doi.org/10.1111/j.1756-8765.2010.01095.x.
+Rabbitt, S. M., Kazdin, A. E., & Scassellati, B. (2015). Integrating socially assistive robotics      Warren, M. A. (1997). Moral status: Obligations to persons and other living things. Clarendon
+     into mental healthcare interventions: Applications and recommendations for ex-                        Press.
+     panded use. Clinical Psychology Review, 35, 35­46. https://doi.org/10.1016/j.cpr.                Waytz, A., Heafner, J., & Epley, N. (2014). The mind in the machine: Anthropomorphism
+     2014.07.001.                                                                                          increases trust in an autonomous vehicle. Journal of Experimental Social Psychology,
+Rifkin, J. (2009). The empathic civilization: The race to global consciousness in a world in               52, 113­117. https://doi.org/10.1016/j.jesp.2014.01.005.
+     crisis. New York, NY: Penguin.                                                                   Waytz, A., & Schroeder, J. (2014). Overlooking others: Dehumanization by commision
+Roberts, S. (2017). Christopher strachey's nineteen-fifties love machine - The New Yorker.                 and omission. Testing, Psychometrics, Methodology in Applied Psychology, 21(3),
+     Retrieved February 25, 2018, from <https://www.newyorker.com/tech/elements/                           251­266. https://doi.org/10.4473/XXXX.
+     christopher-stracheys-nineteen-fifties-love-machine>.                                            Wegner, D. M., & Gray, K. (2017). The mind club. New York, NY: Viking.
+Robinson, D. N. (1996). Wild beasts & idle humours: The insanity defense from antiquity to the        Wiltshire, T. J. (2015). A prospective framework for the design of ideal artificial moral
+     present. Cambridge, Mass.: Harvard University Press.                                                  agents: Insights from the science of heroism in humans. Minds and Machines, 25(1),
+Rosati, C. S. (2016). Moral motivation. In E. N. Zalta (Ed.), The stanford encyclopedia of                 57­71. https://doi.org/10.1007/s11023-015-9361-2.
+     philosophy (Winter 201). Retrieved from < https://plato.stanford.edu/archives/                   Wright, J. R., & Leyton-Brown, K. (2010). Beyond equilibrium : Predicting human be-
+     win2016/entries/moral-motivation/ > .                                                                 havior in normal-form games. In Proceedings of the twenty-fourth AAAI conference
+Rudman, L. A., & Mescher, K. (2012). Of animals and objects: Men's implicit dehuma-                        on artificial intelligence (AAAI-10) (pp. 901­907). < http://doi.org/978-1-57735-
+     nization of women and likelihood of sexual aggression. Personality and Social                         463-5 > .
+     Psychology Bulletin, 38(6), 734­746. https://doi.org/10.1177/0146167212436401.                   Yamane, K., Fujiwara, J., Endo, Y., Machii, K., Kumagai, M., Yokota, T., &S. Matsou
+Schein, C., & Gray, K. (2018). The theory of dyadic morality: reinventing moral judgment                   (2011). U.S. Patent No. 8,068,973. Washington, Washington, DC: U.S. Patent and
+     by redefining harm. Personality and Social Psychology Review, 22(1), 32­70. https://                  Trademark Office.
+     doi.org/10.1177/1088868317698288.                                                                Zaki, J. (2018). Empathy is a moral force. In K. Gray, & J. Graham (Eds.). Atlas of moral
+Shaw, L. L., Batson, C. D., & Todd, R. M. (1994). Empathy avoidance: Forestalling feeling                  psychology (pp. 49­58). New York, NY: The Guilford Press.
+     for another in order to escape the motivational consequences. Journal of Personality
+
+                                                                                                  34
+

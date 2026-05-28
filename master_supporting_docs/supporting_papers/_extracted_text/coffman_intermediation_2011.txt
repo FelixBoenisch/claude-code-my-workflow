@@ -1,0 +1,1687 @@
+American Economic Journal: Microeconomics 3 (November 2011): 77­106
+http://www.aeaweb.org/articles.php?doi=10.1257/mic.3.4.77
+
+           Intermediation Reduces Punishment (and Reward)
+
+                                           By Lucas C. Coffman*
+
+                 This paper shows moral decision making is not well predicted by
+                 the overall fairness of an act but rather by the fairness of the con-
+                 sequences that follow directly. In laboratory experiments, third-
+                 party punishment for keeping money from a poorer player decreases
+                 when an intermediary actor is included in the transaction. This
+                 is true for completely passive intermediaries, even though inter-
+                 mediation decreases the payout of the poorest player and hurts
+                 equity, and because intermediation distances the transgressor from
+                 the outcome. A separate study shows rewards of charitable giv-
+                 ing decrease when the saliency of an intermediary is increased.
+                 (JEL A13, D63, D64)
+
+                    Each society learns to live with a certain amount of ... mis-behavior; but
+                    ... society must be able to marshal from within itself forces which will
+                    make as many of the faltering actors as possible revert to the behavior
+                    required for its proper functioning.
+
+                                                                      ----Albert O. Hirschman (1970)
+
+   In August 2005, Merck sold the rights to a cancer drug to a small pharmaceutical
+           company, Ovation, that immediately raised the price charged to patients by a fac-
+        tor of 7, and later by a factor of 10.1 Firms often worry about negative reactions to
+        price-gouging (e.g., Daniel Kahneman, Jack L. Knetsch, and Richard Thaler 1986b),
+        but was Merck not equally concerned about consumer outrage in response to selling
+        to a firm that might raise prices so dramatically?2 This paper does not aim to fully
+        explain behavior in this scenario, but rather to answer two provocative questions that
+        it raises. First, is Merck avoiding blame simply by not doing the deed itself? That is,
+        what if Merck was known to be solely responsible for and solely benefiting from the
+        price increase? Could Merck possibly avoid some loss of goodwill merely because
+        the price increase is not perceived to be a direct consequence of its actions? Second,
+        if this is true, what would it teach us more generally about how we punish?
+
+               *The Ohio State University, Arps Hall, 1945 N High St., Columbus, OH 43210 (e-mail: coffman.155@osu.edu). I
+           owe much to Alvin Roth, Max Bazerman, Sendhil Mullainathan, Muriel Niederle, Gary Charness, and David Laibson
+           for guidance. I would also like to thank Katie Baldiga, Eric Budish, Sergey Chernenko, Itay Fainmesser, Michael Faye,
+           Andreas Fuster, Luis Garicano, Ben Greiner, John Kagel, Judd Kessler, Stephen Leider, Paul Niehaus, Bazerman Non-
+           Lab, ESA and BDRM conference participants, and the audiences at George Mason, Harvard, HBS, Maastricht, New
+           South Wales, Ohio State, Simon Fraser, University of Sydney, Washington University, and Wharton.
+
+                To comment on this article in the online discussion forum, or to view additional materials, visit the article page
+           at http://www.aeaweb.org/articles.php?doi=10.1257/mic.3.4.77.
+
+               1Berenson, Alex. 2006. "A Cancer Drug's Price Rise is Cause for Concern." New York Times. March 12, 2006,
+           accessed August 18, 2011, http://www.nytimes.com/2006/03/12/business/12price.html.
+
+               2The small company, Ovation, raised prices on three different drugs in 2005 by at least a factor of 10 shortly
+           after purchasing them.
+
+                                                                               77
+78  American Economic Journal: Microeconomicsnovember 2011
+
+   This paper investigates these two questions of moral decision-making in the labo-
+ratory, where we have direct measures of punishment as well as increased control
+over objective measures of culpability. In the game, the first mover (Merck) has the
+option of being selfish at the expense of a poorer player (the patients) and whether
+to do this directly or through an intermediary agent (Ovation). An unaffected third
+party (i.e., the regulator, other customers) then has the opportunity to punish the first
+mover. The data show that the first mover is punished significantly less for keeping
+money when she "intermediates," that is, when she intentionally adds another actor
+between her action and the outcome. Several experimental controls show that this
+decrease in punishment is not due to diffusion of responsibility, punisher confusion,
+lack of thought by the punisher, or merely the inclusion of a third party. Rather, we
+find that, punishment decreases because when she uses the intermediary, the first
+mover does not "directly interact" with the poorest player; it seems as though she
+has managed to distance herself from the bad outcome.
+
+   The experiment is also designed to pit the hypothesis that intermediation reduces
+punishment against predictions offered by economic models of fairness. In our
+experiment, using the intermediary can only harm equity and decrease the payout
+of the poorest player. Further, subjects are shown to believe intermediation will
+greatly hurt the poorest player and decrease equity. They are also shown to believe
+that others share this belief. Thus, one might predict that subjects would actually
+punish intermediation more. In other studies, subjects have been shown to have
+a preference for both equating outcomes (Ernst Fehr and Klaus Schmidt 1999)
+and maximizing the minimum payoff (Gary Charness and Matthew Rabin 2002)
+and are willing to punish deviations from these norms (Fehr and Urs Fischbacher
+2004; Jeffrey Carpenter and Peter Hans Matthews 2009). Since intermediation is
+a deviation from both norms in our game, the punishment decisions run counter to
+these findings. We do not suggest these norms are absent in our experiment. These
+norms have been shown to be significant across a variety of contexts, and we have
+no reason to suspect they are not present here. Further, if they exist in our experi-
+ment, they act as a countervailing force. Hence when "intermediation" prevails as
+the better predictor of punishment, this means two things. First, "intermediation"
+has prevailed over a known, significant benchmark, indicating it may be first order
+in punishment decisions in such contexts. Second, though this paper is not report-
+ing levels, the size of the effect may be larger than the reported estimates given the
+likely significant countervailing forces.
+
+   Moreover, since pro-social norms are not as strongly enforced with intermediation,
+socially preferable outcomes occur less frequently; the poorest player is dramatically
+worse off, making 36 percent as much as her counterpart in the same game with-
+out intermediaries. When the mere availability of indirectness is introduced to the
+environment, punishment becomes almost entirely futile, failing to sustain pro-social
+behavior. Additionally, when intermediaries are not only available but used, the poor-
+est player makes less than 5 percent as much as the recipient does in the game without
+intermediaries. Though this comparison is subject to selection, it helps illustrate the
+potential antisocial consequences of intermediation reducing punishment.
+
+   In a follow-up study, subjects' behavior in a charity and reward context is consis-
+tent with overweighting direct consequences. The experiment varies the saliency of
+Vol. 3 No. 4  coffman: intermediation reduces punishment (and reward)  79
+
+the fact that charitable donations pass through an intermediary before reaching the
+recipient. Increasing the saliency of the intermediary in descriptions given to unaf-
+fected third parties considerably decreased rewards they gave to donors. Together,
+the results suggest that indirectness of behavior attenuates both punishment or
+reward, and we hypothesize that this is perhaps so because indirectness decreases
+the total perceived "badness" or "goodness" of an act.
+
+   There exists a large literature in both Economics and Psychology pertaining to
+fairness generally as well as fairness with multiple parties. Some papers will be
+mentioned in the behavioral predictions section, but we will review this literature
+more extensively after the results, in Section IV. This structure will allow for a dis-
+cussion of the literature in relation to the current results.
+
+   The study of intermediation is important because of its ubiquity. Intermediations
+such as Merck's sale of its cancer drug are common. Many companies may face less
+backlash for outsourcing production to other firms who cut costs through questionable
+labor practices or by allowing more pollution than they would face if they took the
+same actions themselves. For example, many companies have their products produced
+in factories in China that use a dirty coal technology.3 One could imagine a far greater
+public reaction if these companies themselves owned the factories that were emitting
+the CO2 into the atmosphere. Similarly, firms can avoid being labeled a "patent troll"
+if they sell a patent to another firm willing to sue the infringing party.4 Intermediation
+can be, and often is, less obvious than supply chains, selling, or outsourcing. Fehr,
+Oliver Hart, and Christian Zehnder (2011) show that experimental "suppliers" shirk
+less often when paid a low price if the "buyer" defers price determination to a market
+process rather than choosing a low price directly. This is true even though the market
+has a known low outcome the subjects have experienced many times. There are also
+many real world examples of firms having a staffing company or an industrial psy-
+chologist lay off workers, hoping perhaps that the employees might harbor less ill will
+towards the firm if employers do not deliver the pink slip themselves.
+
+   Intermediation is not restricted to firm and worker relationships. In divorce pro-
+ceedings, it would be inappropriate if one called his soon-to-be ex wife a terrible
+mother (especially in front of one's children), but maybe this impropriety is attenu-
+ated if one has his lawyer say it on his behalf. Like all of these examples, the experi-
+ment within will consider human intermediaries, though perhaps the concept can
+be more generalizable. Giving a friend cash for her wedding might be considered
+uncouth, but if the money is given through an online gift registry (by purchasing the
+item she has already selected), this might be viewed as more palatable.
+
+   The paper proceeds as follows. Section I details the laboratory experimental
+designs. Section II discusses predictions for the experiment from leading mod-
+els of fairness. Section III describes the results from the laboratory experiments.
+SectionIV explains the design as well as the results of the follow-up study involving
+
+    3Spencer, Jane. 2007. "Why China Could Blame its CO2 on the West." Wall Street Journal. November 12, 2007,
+accessed August 18, 2011, http://online.wsj.com/article/SB119482231216689376.html.
+
+    4Elinson, Zusha. 2009. "Intellectual Ventures Takes an Indirect Route to Court." The Recorder. September 1,
+
+2009, accessed August 18, 2011, http://www.law.com/jsp/ca/PubArticleCA.jsp?id=1202433488815&slreturn=1&
+
+hbxlogin=1.
+80  American Economic Journal: Microeconomicsnovember 2011
+
+charitable actions and rewards. Section V reviews related literature and discusses
+how our results relate. Finally, Section VI provides concluding remarks.
+
+    I. Experimental Design--The Intermediation Game
+
+   The Intermediation Game has four players--first mover, intermediary, receiver,
+and punisher (exact instructions as given to participants, along with slideshow of
+screen shots shown to participants, for every treatment is in the online Appendix).
+The first mover owns a dictator game (henceforth "DG") worth $10 to be played
+with the receiver. She has two options of what to do with the DG. She can play
+the game herself, or she can "sell" it to the intermediary. If she chooses to sell, she
+also chooses the price the intermediary must pay her for the DG. The first mover's
+strategy space is the same whether she is choosing how much to keep in the DG or
+the price for which she will sell it: $5, $6,$7,$8,$9,$10. If the DG is sold to the
+intermediary, she plays it with the same receiver, and she must keep at least as much
+as she was forced to pay; she cannot lose money. The intermediary has a $5endow-
+ment, equal to half the size of the DG. Thus, holding fixed the rents extracted by
+the first mover, using the intermediary weakly reduces equity and weakly makes the
+poorest player (the receiver) worse off.
+
+   Finally, the punisher can then reduce the payoff of the first mover (and only the
+first mover).5 The punisher will make punishment decisions with information on
+the amount sent in the DG, whether the DG was sold, and for how much the DG
+was sold. The punisher can costlessly reduce the first mover's payout to any non-
+negative amount. Punishment decisions are elicited via the strategy method: The
+punisher gives a decision for all possible outcomes of the game the other three are
+playing, and her decision for the scenario that is realized is enacted. The use of
+the strategy method is discussed below. The punisher is endowed with $5. Thus, the
+intermediary and punisher both begin with $5, and the first mover is deciding how
+to split $10, so a 4-way, $5 equal split is clearly feasible and can be guaranteed by
+the first mover if she does not sell the DG.
+
+   The intermediary has no say in the selling or pricing decisions, so the experi-
+ment avoids any complicity of the intermediary in the first mover's rent extraction.
+Punishment was costless in order to increase power. The task of the punisher is akin
+to the task of a judge. Judges are not assessed costs for penalties they mete out; the
+effect their decisions have on others are incentive for truth-telling and thoughtful
+decision-making. The data do not reveal any patterns of careless decision-making
+(e.g., punishment is strictly increasing in the amount kept in the DG, as in Fehr and
+Fischbacher (2004) who use a costly punishment technology), so this assumption
+seems valid.6 The strategy method was utilized, so to minimize the number of sce-
+narios posed to the punisher, all transactions in the game were in multiples of $1
+(sell prices and DG allocations). This reduced the number of scenarios to 27. The
+
+    5If any potential punishment of the intermediary is redirected to the first mover, this will work against Result 1,
+
+but regardless will be controlled for in the data analysis.
+    6In pilot experiments, punishment was costly. There was less punishment overall, but the punishment patterns
+
+described in Section III were the same.
+Vol. 3 No. 4  coffman: intermediation reduces punishment (and reward)  81
+
+punisher was thus asked for 27 punishment decisions, one at a time, in a random
+order. The order was reversed each subsequent session. The same random order was
+used in other treatments (as well as the reversal if there were two sessions). In each
+session, the game was repeated four times, with each subject playing each role once.
+The use of role-rematching is discussed in the next paragraph. They were informed
+that they were rematched into new groups in each period.7,8 They were paid for their
+earnings in one randomly chosen period. This is to discourage thinking of the game
+as a four period meta-game but rather focus on maximizing each period. To mini-
+mize learning about others' behavior, no feedback was given until all four periods
+were completed.
+
+   Strategy method and role rematching were integral in gathering useful data in
+a cost-minimizing manner. Both methods have been shown to alter reported level
+effects of behavior (see Jordi Brandts and Charness (2011) survey on strategy
+method and James Andreoni and Rachel Croson (2008) on rematching in public
+goods games). Our results, however, only rely on the assumption that these proto-
+cols have no consistent, significant interaction effects with the different treatments.
+There is no evidence for, or plausible model for, interaction effects of this sort for
+our context. In a recent survey, Brandts and Charness (2011) find no effect of using
+the strategy method on treatment effects in punishment experiments. Likewise,
+across a wide variety of social preference games, some that allow for reciprocity
+and punishment, Charness and Rabin (2005), "see no evidence that people make
+different choices when role reversal is used in the experimental design."
+
+   After the four periods, but before feedback was given, subjects were asked for
+their beliefs of how much the intermediary kept for each transaction price. They
+were paid $0.50 if they were within $0.50 of the average of how intermediaries
+actually behaved in that session (and $0.50 if this scenario did not occur in this
+session).9 In the final session of The Intermediation Game, they were then asked
+to guess the beliefs of others. They were paid $0.50 if they were within $0.50 of
+the average guess of everyone in the room from the questions previously answered.
+After these third party, second order beliefs were obtained, feedback was given.
+
+   All experimental sessions were performed at the Computer Lab for Experimental
+Research (CLER) at Harvard Business School. All sessions consisted of 12, 16, 20,
+or 24 study participants recruited via e-mail from the Boston area. All subjects were
+under the age of 30.10 Per CLER guidelines, they were paid a $10 show up fee plus
+their earnings from the experiment, which averaged $4.57 for the game and $3.37
+for the belief elicitations. The experiment was conducted at computer terminals
+
+    7An analysis of order effects and within-subject consistency can be found in the online Appendix.
+    8Given sessions as small as 12 subjects, we could not eliminate being in the same group as another subject
+
+twice. Subjects were never in the same group as another subject in consecutive periods. When they were in the same
+
+group twice, the subject did not know with whom or when.
+    9This incentivizes subjects to report the midpoint of the $1 interval they believe to be most likely for their ses-
+
+sion. Beliefs were elicited in this way in order to make it simple and understandable for the subject.
+    10In one session, the recruitment software experienced a bug and allowed subjects over 30 to sign up. These
+
+data are not included in the analysis. The main results do not change with their inclusion. In sum, over-30s punished
+
+more, punished intermediation less, and exhibited more outcome bias. The over-30s largely came from an unem-
+ployed and/or homeless population. They were confused by the instructions and were unfamiliar with computers,
+and consequently they did not finish in one hour and were let go.
+82  American Economic Journal: Microeconomicsnovember 2011
+
+using z-Tree 2.1.4 (Fischbacher 2007). No session took longer than one hour. Sixty
+four subjects participated in this treatment in August and September of 2008.
+
+   In all treatments, subjects were randomly assigned a computer upon entering the
+laboratory. After signing consent forms, experimental instructions were distributed.
+These were read aloud by the experimenter while the subjects followed along. The
+instructions were accompanied by a slideshow with screen shots from the experi-
+ment they were about to play (the slideshow and accompanying script for every
+treatment can be found in the online Appendix). Questions were done one-on-one.
+Only clarifying questions were answered. Subjects who asked strategic or normative
+questions were told "I cannot answer that" by the experimenter. Once there were no
+more questions, which never took more than 5 minutes, the game began.
+
+   Primarily to test the context-specificity of the results, a study in a charity-reward
+domain was also employed. The methodology is quite different, so to avoid confu-
+sion, its design and results follow in Section IV.
+
+    A. Control--No Intermediary Treatment
+
+   To evaluate the welfare effects due to the presence of intermediaries, a control exper-
+iment, with no intermediary, was also run. Thus the control was an instantiation of
+the Third Party Punishment Game (TP-DG, Fehr and Fischbacher 2004). Otherwise,
+everything was consistent with earlier sessions: punishment was costless, the punisher
+made $5, and the DG was worth $10. Throughout, this will be referred to as the No
+Intermediary treatment. This treatment was run in October2008 and had 24 subjects.
+
+    B. Two Punishments Treatment
+
+   To understand better how subjects allocate blame, we added a treatment that was
+identical to The Intermediation Game but allowed the punisher to punish both the
+first mover and the intermediary. The punishment mechanism does not change: pun-
+ishment is costless, and the punisher cannot reduce either player's payoff to negative
+amounts. She can punish both, one, or neither. The amount she chooses to punish
+one does not affect her strategy space for the other punishment decision. The pun-
+ishments are again elicited using the strategy method, and though the scenarios are
+presented one at a time, the punishment decision for the first mover and the inter-
+mediary are elicited simultaneously. This treatment was run over two sessions in
+March2009 with 20 and 16 subjects in the two sessions.
+
+    C. The Reflection Treatment
+
+   To encourage subjects to think about and see if they understood the game and par-
+ticularly the strategies of other players, they were asked in this treatment to think about
+the game and write down their thoughts beforehand. This treatment was exactly the
+same as The Intermediation Game except subjects spent four minutes before the game
+writing on four blank sheets of paper for a minute apiece reflecting on four questions:
+
+    (i) Why might the first mover sell the game?
+Vol. 3 No. 4  coffman: intermediation reduces punishment (and reward)  83
+
+(ii) Why might the first mover not sell the game?
+
+(iii) What will happen if the first mover does not sell the game?
+
+(iv) What will happen if the first mover sells the game?
+
+The questions are intentionally neutral and balanced across scenarios of selling and
+not selling. This treatment was to encourage the subjects to reflect about what is
+going on in the game and to test if the results hold for subjects who are clearly
+aware of the potentially dubious motives of other players. As Neeru Paharia et al.
+(2009) suggest, moral judgments seem to be intuitive, and when subjects are forced
+to reflect on motives, judgments can change significantly. This session was run in
+October 2008 and had 24 subjects.
+
+              D. The Allow-Taking Game
+
+   This game reframes The Intermediation Game to test the hypothesis that inter-
+mediation reduces punishment precisely because when the intermediary is used, the
+first mover is not directly interacting with the receiver. In this treatment, the first
+mover first plays a $10 DG with the receiver, keeping $5, $6, $7, $8, $9, or $10 for
+herself. She then decides whether to allow the intermediary to take from the money
+the first mover sent the receiver in the DG.11 If she allows the intermediary to take,
+the intermediary can take any non-negative integer amount up to the amount that the
+receiver was sent in the DG. The punishment technology and elicitation is identical
+to those in The Intermediation Game. Thus, The Allow-Taking Game is a refram-
+ing of The Intermediation Game, except the first mover directly interacts with the
+receiver whether or not the intermediary is included in the game. This session was
+run in October 2009 and had 24 subjects.
+
+              E. The Forced-Taking Game
+
+   This game is a reframing of The Intermediation Game (and hence also The Allow-
+Taking Game) designed to test two potential explanations why using an intermediary
+may reduce punishment in The Intermediation Game but not in The Allow-Taking
+Game. First is the hypothesis that selling the DG to the intermediary is less rep-
+rehensible in The Intermediation Game because it is framed as a market transac-
+tion (since the term "sell" is used). Second is the hypothesis that The Allow-Taking
+Game finds no difference in punishment because the act of taking is more outrageous
+than keeping, and changing this frame may change the punishment imposed. In The
+Forced-Taking Game, the first mover first decides who starts with the $10, herself or
+the receiver. If she starts with the $10, then she plays a $10 DG with the receiver. If
+the receiver starts with the $10, the first mover decides how much the intermediary
+
+    11To see if either switching from a giving frame to a taking frame, or switching from a market transaction frame
+(selling the DG) to a transfer frame drives the results of this game, see the design and results for The Who's-The-
+Dictator Game in the Appendix, sections A and B.
+84  American Economic Journal: Microeconomicsnovember 2011
+
+must take from the receiver and pass to her. The intermediary must take at least
+this much from the receiver's $10, though she may take more. Anything she takes
+on top of this amount is the intermediary's profit for the game. Anything she does
+not take is the receiver's payout. After either process, the punisher can reduce the
+first mover's payout. The punishment technology and elicitation is identical to those
+in The Intermediation Game. Two sessions, with 20 and 24 subjects, were run in
+October2009 at the Computer Lab for Experimental Research at Harvard Business
+School. Each session lasted one hour.
+
+    II. Behavioral Predictions
+
+   There is a class of models that we can extend to make predictions for The
+Intermediation Game. We will show that none will predict less punishment for
+rents extracted through the intermediary. Moreover, the most recent models will
+predict that punishment will be greater for money made via intermediation. That
+is, the public might punish Merck more for selling the drug to an unpunishable
+intermediary.
+
+   Most of the models discussed below were designed to speak directly to the con-
+text of our experiment. They were designed for two-person set-ups where fairness
+judgments come from a second person point-of-view. We can only consider reason-
+able extensions to our context and discuss what predictions we might get with the
+same intuition.
+
+   The simplest way to separate the competing theories is to ask what punishment
+levels they predict when the vector of payoff outcomes is the same, but the path
+taken is different. Let us consider the following two examples: First, the first mover
+keeps $X in the DG, and second, she sells the DG for $X and the intermediary
+then keeps $X, making zero profit. In both cases, the resulting payout is ($X, $5,
+$10-$X, $5) for the first mover, the intermediary, the receiver, and the punisher,
+respectively (recall the intermediary and the punisher are endowed with $5 each).
+We will consider what punishments each class of models would predict for each
+path. We will use "Direct" to refer to the path where the first mover does not sell the
+DG and plays the DG herself, and we will use "Indirect" to refer to the path where
+the first mover sells the DG.
+
+   Outcome-Based Models of Fairness.--If punishers judge fairness based purely
+on the outcome, then punishments will be independent of whether the intermedi-
+ary was used; punishment will be identical in the two cases raised above. George
+F. Loewenstein, Leigh Thompson, and Max H. Bazerman (1989) experimentally
+identify a utility function defined by a distaste for inequity over payouts, more so
+for disadvantaged payouts. This was later modeled by Fehr and Schmidt (1999)
+as well as Gary E. Bolton and Axel Ockenfels (2000) (to see a formalization of
+the behavioral predictions for The Intermediation Game from the model of Fehr
+and Schmidt 1999, please see section A in the Appendix). These models are only
+intended to provide understanding of preferences over outcomes, not how those
+outcomes came about. For that, many authors have added intentions to the model
+of fairness.
+Vol. 3 No. 4  coffman: intermediation reduces punishment (and reward)  85
+
+   Intentions-Based Models of Fairness.--Rabin (1993) and Martin Dufwenberg and
+Georg Kirchsteiger (2004) define fairness through intent, and the relevant piece of
+intent for The Intermediation Game is beliefs.12 In Rabin (1993), if player i believes
+
+player j believes player i will play ai, and player j plays bj, then player i judges the
+fairness of player j based on what profits would result from aiand bjregardless of what
+player i actually plays. The intuition is that holding fixed player i's action at ai, this
+creates a dictator game for player j over all the outcomes that are possible given a i.
+Let us extend this intuition to the Intermediation Game. We are interested in punish-
+
+ment of the first mover, so consider the punisher's beliefs of the first mover's beliefs
+
+of others' actions. We will take those beliefs as given and consider what outcome she
+
+chooses given the space of outcomes the first mover is now choosing within.
+
+   Suppose the first mover makes $X. If she does so "directly," there are no other
+
+actions or beliefs to consider; she has chosen the outcome ($X,$5,$10 -$X,$5).
+
+If she makes the $X "indirectly," then we have to ask--"what does the punisher
+
+believe the first mover believes the intermediary will do when sold the DG for $X?"
+Say the punisher believes the first mover believes the intermediary will keep $Y ,
+where YX and Y10. Then, under our extended notion of intentions, the pun-
+isher will judge the first mover for choosing the allocation ($X,$5 +($Y-$X),
+$10-Y, $5) regardless of the actual actions of the intermediary. Thus, in compar-
+ing this action (selling the DG for $X) to not selling the DG and keeping $X directly,
+the intentions-based punisher judges the fairness of choosing ($X,$5,$10 -$X, $5)
+(no intermediation) versus ($X,$5 +($Y -$X), $(10-Y),$5) (intermediation).
+Notice that the two allocations differ only by a $(Y -X) transfer from the receiver
+
+to the intermediary, a transfer from the poorest player to a player already endowed
+
+with the average pre-punishment payout ($5). The transfer does not affect the pay-
+out of the punisher. In the main text, Rabin (1993) and Dufwenberg and Kirchsteiger
+(2004) do not define preferences over others' payouts. However, in this model, if a
+punisher is indifferent over who receives the $(Y-X), punishment is expected to
+
+be identical whether the first mover keeps $X in the DG or via intermediation. If
+
+punishers are not indifferent about others' payoffs, these intentions-based models
+
+are also outcome-based.
+
+   Intentions and Outcome-Based Models of Fairness.--Their experimental evi-
+dence leads Charness (2004) and Armin Falk, Fehr, and Fischbacher (2008) to con-
+clude that models based on both intentions and outcomes outperform models based
+solely on either intentions or outcomes in predicting retributive behavior in standard
+laboratory games.13 We will now consider a class of models that combine prefer-
+ences over the outcomes of others with the intentions-based framework from the
+previous subsection.
+
+   In a zero-sum game, the first leading candidate for preferences over others' out-
+comes is a preference for maximizing the minimum. Charness and Rabin (2002),
+
+    12The other piece of intent is the strategy space from which the judged action was chosen, but the strategy space
+
+is held constant in our game, so this will not be a part of the discussion.
+    13Falk and Fischbacher (2006) provide one such unifying framework. However, agents in their model only have
+
+preferences over outcomes relative to their own.
+86  American Economic Journal: Microeconomicsnovember 2011
+
+Dirk Engelmann and Martin Strobel (2004), and Lars-Olof Johansson and Henrik
+Svedsäter (2009) all experimentally show that subjects like to maximize the mini-
+mum payoff among players.14 The second candidate is "inequity aversion," as in
+
+Loewenstein, Thompson, and Bazerman (1989), Fehr and Schmidt (1999), and
+Gary E. Bolton and Axel Ockenfels (2000). We will consider both preferences cou-
+pled with intentions.
+
+   From the previous section, recall a punisher who considered the intentions of the
+first mover would judge her for choosing ($X,$5,$10 -$X,$5) when intermediat-
+ing and ($X,$5 +($Y -$X), $(10-Y),$5) when not intermediating. In Appendix
+Section A, we compare the fairness of these outcomes with models of maximizing
+
+the minimum and inequity aversion. Not surprisingly, since intermediation weakly
+
+hurts the poorest player as well as equity, both models will predict weakly more
+punishment for intermediation, and strictly more when Y>0.
+
+   Diffusion of Responsibility.--Charness (2000) and Björn Bartling and Fischbacher
+(2008) both experimentally demonstrate that including a second, human agent who is
+partly responsible for the outcome will partially absolve the initial agent. In Bartling
+and Fischbacher's (forthcoming) model of this concept, an agent's responsibility is
+determined by her share of the total increase in the probability of the bad outcome
+occurring due to human agents; thus, if a second party increases the likelihood of the
+outcome, the principal's responsibility decreases for the same bad outcome, holding
+fixed her actions. However, in our game, even when the first mover sells the game
+for $X, she has, at the very least, guaranteed the receiver cannot be paid more than
+$10-X; thus, she is fully responsible for the second mover not making more than
+$10-X as she would be had she kept $X in the DG. Further, by putting the DG in the
+hands of an unpunishable party, the probability of a worse outcome for the receiver
+weakly increases, so doing so, in fact, may make the first mover weakly more respon-
+sible than she would be had she not sold the game, and we would expect weakly
+more punishment. In addition, this model makes an even clearer prediction when the
+intermediary is perfectly altruistic. When the second agent does not transgress, she
+is not responsible for the outcome; thus, responsibility is not diffused, and punish-
+ment should not decrease. It thus seems reasonable that in any case, we should expect
+weakly more punishment for intermediating.
+
+    III.Results
+
+   The results in this section confirm the main hypothesis: Intermediation decreases
+punishment. This is not due to diffusion of responsibility, punisher confusion, lack
+of thought by the punisher, or merely the inclusion of a third party. Rather, the
+results suggest that intermediation reduces punishment because it allows the first
+mover to avoid directly interacting with the poorest player. Moreover, first movers
+frequently use the intermediary. This shifts money from the poorest player to the
+
+    14Though efficiency is also an important parameter (see Charness and Rabin 2002; Engelmann and Strobel
+2004), all moves in the pre-punishment stage are zero-sum.
+Vol. 3 No. 4               coffman: intermediation reduces punishment (and reward)                                                                           87
+
+                        6
+
+                        5
+
+Average punishment ($)  4
+
+                        3
+
+                        2
+                                                                                                                                                     Unsold
+                                                                                                                                                     Sold
+
+                        1
+
+                        0
+
+                           $5  $6  $7  $8                             $9  $10
+
+                               First mover's pre-punishment earnings
+
+                           Figure 1. Average Punishments for Whether the DG was Sold or Unsold
+
+endowed intermediary. As a result, the poorest player is considerably worse off due
+to the presence of the intermediary.
+
+   In The Intermediation Game, each punisher was asked to make a punishment
+decision for the same 27 scenarios (Table 1 of the online Appendix has a complete
+list of scenarios and average punishments) facilitating matched, nonparametric
+analysis of the data, which will be employed alongside OLS regression analyses.
+Unless otherwise noted in this section, reported results are from The Intermediation
+Game treatment.
+
+   Table A1, in the Appendix, provides summary statistics for a general understand-
+ing of how the game was played. Eighty-one percent of subjects punish in at least
+one scenario, and when they do punish, it is economically substantial, almost equal
+to average profit and fully 58 percent of the first mover's pre-punishment payout
+(see Table 7 in the online Appendix for more details on what may have determined
+the size of punishments). Figure 1 also shows just how large average punishments
+were in the experiment, with an average punishment over $5 when the first mover
+keeps $10 in the DG herself. Also note that 52 percent of subjects use the intermedi-
+ary, so it is not an irrelevant alternative. Result 1 may help explain why.
+
+Result 1:
+   Punishment significantly decreases when high levels of selfishness are done
+
+through intermediation rather than directly.
+   Figure 1 and Table 1 show that when the first mover keeps more than $7, direct-
+
+ness is punished more harshly: Average punishment is greater when the first mover
+extracts rents directly, and many subjects punish in this direction. At these profit
+levels, at least 2.5 times as many subjects punish direct actions more harshly than
+subjects who punish indirect actions more harshly. Using nonparametric two-tailed
+88               American Economic Journal: Microeconomicsnovember 2011
+
+                     Table 1--Directness is Punished More Harshlya
+
+                 Avg. punishment  # Subjects who punish             p-values
+
+    Profit of    DG     DG        Unsold  Sold           Matched pair, Permutation
+    first mover                    more   more           signed rankb         testc
+                 unsold sold
+        $10
+          $9     $5.22  $4.30     24      7              < 0.01               0.01
+          $8     $4.00  $3.52
+          $7     $2.89  $2.48     15      6              0.05                 0.07
+          $6     $2.03  $1.98
+          $5     $1.30  $1.41     20      8              0.02                 0.07
+                 $0.69  $0.78
+                                  16      12             0.58                 1.00
+
+                                  11      6              0.22                 0.27
+
+                                  2       1              0.55                 0.50
+
+    Notes: Pairs matched by subject. p-values are from two-tailed tests.
+        aTo hold outcomes constant, only scenarios where intermediary makes no money included.
+        bM atched pair signed rank test based on null hypothesis that punishment distributions are
+         identical for direct and indirect action. Pairs matched by subject.
+        cPermutation p-values based on 200,000 simulations per test.
+
+tests--both a Wilcoxon signed rank test and a Fisher Pitman matched-pair permu-
+tation test--the punishment distributions are shown to be significantly different
+for each of these high profit levels of the first mover (See the last two columns of
+Table1). In other words, when punishment (and misbehavior) is high, direct actions
+are frequently and significantly punished more.
+
+   The strongest case in support of Result 1 is in the first row of Table 1: When the
+first mover keeps all $10 for herself, she is punished less when she does so indi-
+rectly. When sold the DG for $10, the intermediary is not even making a decision;
+she had to pay $10, so she has to keep $10 in the DG. The first mover has effectively
+chosen the final outcome--($10,$5,$0). All that is different is that the first mover is
+no longer interacting directly with the recipient; now, in between, the intermediary
+is pressing a button, having no choice other than to click on "Keep $10." More than
+any other pair of scenarios, the intention and responsibility of the first mover is
+transparently equivalent, yet punishment drops 18 percent.15
+
+   Intermediation also reduces the frequency of punishment. Comparing scenarios
+with identical outcomes (when the intermediary makes zero profit on top of her
+$5endowment), the likelihood of punishment drops by 15 percent (from 59 percent
+to 50 percent) when the intermediary is used (see Table A2 in the Appendix). This
+difference is significant at the 1 percent level using either a Wilcoxon signed rank
+test or a Fisher Pitman matched-pair permutation test. Moreover, there is a decrease
+in the frequency of nonzero punishments for every pre-punishment profit level of
+the first mover other than $5, and the decrease is statistically significant at at least
+the 5percent level for the three highest profit levels, when misbehavior and punish-
+ment is highest.
+
+   The drop in the frequency of punishment seems to account for most, but not all,
+of the decrease in the level of punishment. Table 9 in the online Appendix runs the
+
+    15This comparison also answers the hypothesis that punishment is decreasing in response to average overall
+behavior by the group--Player A is being selfish, but perhaps if Player B is acting nice, the average "niceness" of
+the group has increased, so I, as a punisher, may act nice as well. See Claudia Keser and Frans van Winden (2000);
+Fischbacher, Simon Gächter, and Fehr (2001); Bruno S. Frey and Stephan Meier (2004) for evidence of subjects'
+behavior being well-predicted by group behavior.
+Vol. 3 No. 4              coffman: intermediation reduces punishment (and reward)       89
+
+              Table 2--Intermediation Game: Subject-Level Random Effects Regressions
+
+                                                   Ordered       Tobitc                 Probitb
+                                                   probita,b                  Tobitd
+                          OLS        OLS                      Punishment                 Punish
+                                                                   ($)     Punishment     {0,1}
+                          Punishment Punishment Punishment                  % of total
+                                                                   All                     All
+Dependent variable        ($)        ($)           ($)            (IV)          All       (VI)
+                                                                               (V)
+Scenarios included                   Intermediary                 1.51***                 0.87***
+First mover's profit ($)                                         (0.07)        0.19***   (0.08)
+ over $5                  All        makes $0      All         -0.30***       (0.01)    -0.20**
+First mover's profit                                             (0.08)     -0.05***     (0.03)
+ over $5 ×sold            (I)        (II)          (III)          0.14***     (0.02)      0.10**
+Intermediary's profit                                            (0.05)        0.03***   (0.04)
+                            0.90***    0.90***       0.82***      0.21        (0.01)    -0.14
+Sold dummy                 (0.04)     (0.05)        (0.04)       (0.27)        0.03      (0.23)
+                                     -0.18***                  -0.36          (0.05)    -0.23
+Period                    -0.26***    (0.07)       -0.17***      (0.52)     -0.09        (0.34)
+                           (0.05)                   (0.05)     -1.99          (0.12)    -1.00
+Constant                                --                       (1.44)     -0.13        (0.98)
+                            0.05*                    0.07**                   (0.34)
+                           (0.03)      0.16         (0.03)
+                                      (0.20)
+                            0.31**   -0.29           0.15
+                           (0.15)     (0.26)        (0.16)
+                                       1.14
+                          -0.28       (0.72)       -0.10***
+                           (0.24)                   (0.03)
+
+                            1.12**                    --
+                           (0.21)
+
+Notes: Sixty-four subjects made punishment decisions for 27 scenarios. Model II includes only 12 of these scenarios.
+    aOnly integer punishments (11 values) were chosen by subjects.
+    bMarginal effects reported.
+    cData censored below at $0.
+    dData censored below at 0 percent and above at 100 percent.
+   ***Significant at the 1 percent level.
+   **Significant at the 5 percent level.
+   *Significant at the 10 percent level.
+
+same nonparametric analysis as Table 1 but only includes matched pairs where both
+data are nonzero. There is little evidence of a substantial decrease in punishment
+due to intermediation, though the decrease remains when the first mover keeps $10
+for herself (also see Model I of Table 10 in the online Appendix for an OLS regres-
+sion suggesting the decrease remains after controlling for punishment frequency).
+Carpenter and Matthews (2009) suggest subjects often use a different set of norms
+or rules when making the decision whether to punish and how much to punish. In
+this game, intermediation affects both decisions.
+
+   Various regression specifications confirm result 1. Table 2 regresses punishment
+on monetary outcomes and paths taken ("Sold" is a dummy for whether the DG
+was sold to the intermediary). Every regression is a subject-level random effects
+model. According to the point estimate in the first row in Model I of Table 2, for
+every dollar the first mover keeps over $5 playing the Dictator Game herself, pun-
+ishment increases 90 cents. The coefficient on the interaction term in the second
+row is the linear estimate of how much this punishment changes when she sells the
+DG to the intermediary: She is punished 26 cents less for every dollar she keeps by
+"selling" the DG, a 29 percent reduction.
+
+   Though many of the models in Table 2 impose functional forms, they have
+many nice features. First, they give an idea of the magnitudes. Second, they allow
+for inclusion of scenarios where the intermediary makes positive profits in The
+Intermediation Game, which is more difficult in pairwise nonparametric tests.
+90  American Economic Journal: Microeconomicsnovember 2011
+
+This is important since punishers exhibit "outcome bias":16 Punishment increases
+slightly, the more the intermediary keeps in the DG. This can be seen on the coef-
+ficient on "Intermediary's Profit" in Table 2. Though only a point estimate, the
+reported magnitude of the outcome bias, however, is quite small ($0.05), less than
+one-fifth the expected decrease in punishment for each dollar made when interme-
+diating ($0.26). Moreover, if the game is sold for a price near $10, there is little
+profit for the intermediary to make, and thus little opportunity for outcome bias to
+affect punishment.
+
+   None of the predictions from Section II are consistent with the results we find in
+this context. In Section II, we made predictions for what punishments would be for
+scenarios which differ only in the path taken to the outcome. Table 1 makes just such
+a comparison. Recall, none of the predictions produced by the fairness m odels in
+Section II are consistent with punishment being greater for direct actions. However,
+Table 1 shows that subjects on average punish direct actions more harshly.17 Further,
+Model II in Table 2 reruns the OLS specification in Model I, this time only includ-
+ing scenarios where the intermediary made $0 profit. Though these scenarios are
+included in Model I, imposing linearity on the relationship between the intermedi-
+ary's profit and punishment when it is not a linear relationship may bias the other
+estimates in the model. The coefficient on the interaction term in the second row
+of Model II is also significantly less than 0; thus, even when the intermediary is
+completely blameless, her inclusion reduces punishment. No model discussed in
+SectionII is consistent with this result.
+
+   Models III through V in Table 2 also estimate that intermediation significantly
+reduces punishment. Though punishment could be any whole cent amount, only
+whole dollar amounts were reported by subjects, so the data only take on eleven
+values. Additionally, punishment was censored in the game in two ways. First,
+subjects were not allowed to reward, so punishment was censored below at zero.
+Second, subjects could not reduce the first mover's payout to negative amounts, so
+it was censored above by the first mover's pre-punishment payout. These discrete-
+ness and censoring issues are addressed in Models III through V, using random
+effects ordered probit and tobit regressions. The interaction term in every one of
+these regressions is significantly less than zero, consistent with the OLS regres-
+sions and the non-parametric analysis. Model VI is a probit regression with a
+dependent variable that is an indicator of whether there was any punishment or
+not. The interaction term in this model, as well, is significantly less than zero cor-
+roborating the nonparametric analysis that intermediation reduces the likelihood
+of punishment.18
+
+   Also worth noting is that punishment is increasing in selfishness; Despite pun-
+ishment coming at no financial cost to themselves, subjects are not just punishing
+
+    16See Francesca Gino, Don A. Moore, and Bazerman (2008) and Fiery Cushman et al. (2009) for clean dem-
+onstrations of outcome bias.
+
+    17Table 8 in the online Appendix furthers this point by showing how many subjects punish the indirect action
+
+harsher.
+    18See online Appendix Table 10 for alternative specifications including session random effects, subject-level
+
+and session-level clustering, and subject-level and session-level fixed effects models.
+Vol. 3 No. 4  coffman: intermediation reduces punishment (and reward)                      91
+
+              Table 3--OLS: Two Punishments
+
+                                                   Treatment = two punishments
+
+Dep. var. = punishment of A ($)      N=36               N=24              N=36
+First mover's profit ($)
+ over $5                         All punishers,    Punishers who   Punishments with
+First mover's profit             punishments        never diffuse     no diffusion
+ over $5 *sold                                                             (III)
+Intermediary's profit                  (I)               (II)
+
+Sold dummy                         0.68***           0.67***                      0.68***
+                                  (0.14)            (0.16)                       (0.30)
+Period
+                                 -0.19**           -0.21**                      -0.30***
+Constant                          (0.09)            (0.08)                       (0.08)
+
+                                   0.01              0.00                       -0.07
+                                  (0.01)            (0.00)                       (0.05)
+
+                                   0.32              0.26***                      0.20
+                                  (0.20)            (0.08)                       (0.12)
+
+                                   0.32**            0.26                         0.17
+                                  (0.15)            (0.19)                       (0.16)
+
+                                 -1.00**           -1.05*                       -0.67
+                                  (0.39)            (0.52)                       (0.40)
+
+Note: Standard errors clustered at subject level.
+   ***Significant at the 1 percent level.
+   **Significant at the 5 percent level.
+   *Significant at the 10 percent level.
+
+noisily. The financial consequences on their lab mates seem to be sufficient incen-
+tive for thoughtfulness in their decision-making.
+
+Result 2:
+   Blame is not just being shifted or diffused; it is merely decreasing.
+   In addition to considering scenarios where the intermediaries are completely
+
+blameless, we can further our case by looking at these scenarios when zero blame
+is actually assigned to the intermediaries. In the Two Punishments treatment, both
+the first mover and the intermediary could be punished. Thus we can rerun our
+analyses controlling for whether punishment was shifted or diffused to the inter-
+mediary. Models II and III in Table 3 show OLS regression output for such scenar-
+ios. These specifications only include data from scenarios where the intermediary
+made zero profit. Model II controls for punishment-shifting at the subject level; it
+only includes data from punishers who never punished the intermediary when the
+intermediary made zero profit. Model III controls for punishment-shifting at the
+punishment level; it only includes punishments of the first mover if the punish-
+ment of the intermediary was $0. For both of these restricted samples, punishment
+still decreases when the intermediary is used: The coefficient on the first mover's
+profit interacted with a dummy for selling the game is significantly negative in both
+cases. Intermediation does not reduce punishment simply by shifting blame onto
+another player.
+
+Result 3:
+   The availability of intermediation makes the poorest player dramatically worse
+
+off and reduces total surplus.
+92  American Economic Journal: Microeconomicsnovember 2011
+
+                                Table 4--Welfare and Equality
+
+    Receiver's average payoff   Intermediation  No intermediary  Rank sum
+    Percent who receive $5           game           treatment     p-value
+    Percent who receive $0                                        < 0.001
+    Average profit (all roles)       $1.63            $4.50
+                                  22 percent       79 percent        0.01
+                                  55 percent        0 percent
+
+                                     $4.31            $4.85
+
+   As Table 4 indicates, the receiver earns $1.63 on average in The Intermediation
+Game versus $4.50 in the No Intermediary treatment, 2.8 times more.19 These data
+are all earnings from both games and thus are free from selection issues. The only
+difference is that in one game, there is the option of an intermediary. In the Third
+Party Punishment Game (similar to the No Intermediary Treatment), Fehr and
+Fischbacher (2004) conclude that punishment is successful in encouraging signifi-
+cantly more equitable outcomes. When an intermediary is added to the same game,
+this is far from being the case. In the presence of an intermediary, punishment has
+almost completely lost its power to encourage pro-social behavior.
+
+   Not only is the availability of an intermediary bad for the poorest player, in this
+particular setting, it is surplus-damaging. Even though punishment is less when the
+intermediary is used, it is still greater than zero (The sum of the first two coefficients
+in Table 2, $0.64, which is the amount of punishment per dollar kept when selling
+the DG, is significantly greater than $0). Since punishment is inefficient, this cre-
+ates a loss in overall social welfare, assuming the researcher's budget is not a part of
+the reference group for the social welfare calculation. Finally, since selfishness was
+much more common in the presence of an intermediary, there was much more pun-
+ishment, creating substantial surplus losses; group earnings dropped from $19.55 to
+$17.24 when an intermediary is added.
+
+Result 4:
+   Even when the DG is unsold in The Intermediation Game, the receiver is worse
+
+off than had there not been an intermediary.
+   Perhaps surprisingly, dictators who do not sell the DG keep more than dictators
+
+in the No Intermediation treatment; they only send $3.13, significantly less than
+the $4.50 sent in the No Intermediary treatment (Wilcoxon two-tailed rank sum
+p-value<0.01). This could be due to selection: Those who send the most in the No
+Intermediary treatment might be now selling the DG to the intermediary.20 It could
+also be a changing norm: The same person will now choose to keep more because
+there is an intermediary present even if she does not use the intermediary. We cannot
+
+    19Average profits reported are for all periods, not just the randomly chosen period for which the subjects were
+paid.
+
+    20This would imply that the subjects who would choose the most generous allocation directly--those most
+motivated by factors such as guilt aversion, altruism, or blame-avoidance--are now choosing to intermediate; thus,
+they believe intermediating attenuates these factors. Support for the "blame-avoidance" motive can be found in both
+Jason Dana, Daylian M. Cain, and Robyn M. Dawes (2005) and John R. Hamman, Loewenstein, and Roberto A.
+Weber (2010).
+Vol. 3 No. 4  coffman: intermediation reduces punishment (and reward)                                93
+
+              Table 5--Beliefs of How Much Will Be Kept in the DG
+
+                                                                       Purchase price
+
+                                                Unsolda   $5    $6     $7              $8      $9
+
+Expected amount kept in $10 DG                   $5.90   $8.37  $8.97  $9.30           $9.67  $9.85
+Beliefs of others' expectations of amount kept   $6.10   $8.30  $8.90  $9.45           $9.75  $9.95
+Average actual                                   $5.50    NA     $10   $9.43           $9.75  $9.83
+Amount kept                                      N=24    N=0    N=2    N=7             N=8    N=6
+
+Note: aBeliefs and averages for Unsold column taken from No Intermediary treatment.
+
+separate these stories in this experiment though either is an implication of how inter-
+mediation changes the game that is worthy of future investigation.
+
+Result 5:
+   Subjects believe intermediation makes the poorest player substantially poorer,
+
+and they believe others share this belief.
+   Subjects correctly predict the extreme inequity that intermediation produces.
+
+Recall beliefs of how much the intermediary kept in the DG were elicited in an incen-
+tivized manner after the game was played but before feedback was given. Beliefs
+of how much the first mover keeps in the DG were elicited in the No Intermediary
+treatment since this eliminates selection of who sells the game.21
+
+   Table 5 shows that subjects believe that other subjects expect the intermediary
+to keep at least 67 percent and 95 percent of the remaining value of the DG. In
+stark contrast, subjects believe the first mover will send the receiver about $4 when
+she is not allowed to sell the game. (The first column of Table 5 is from the No
+Intermediary treatment to control for selection.) Moreover, 46 of 64 subjects report
+that the intermediary will keep more than she was made to pay for the DG for every
+price, and that others believe this as well.22 Wilcoxon rank sum tests confirm sub-
+jects believe less will be sent to the receiver when the game is sold regardless of the
+price, and they believe other subjects hold similar beliefs (p<0.01 for both, two-
+tailed test comparing the unsold belief distribution to the sold belief distribution,
+also for any given price). Thus punishers believe using the intermediary reduces
+equity and makes the poorest player much worse off, and they believe the first mover
+shares this belief; however, they punish her less when she uses the intermediary.
+This is particularly striking because experimental subjects have been shown to have
+maximin preferences over payoffs (Charness and Rabin 2002). Punishing interme-
+diation less runs strictly opposite this preference.
+
+   If not beliefs, what is driving subjects' behavior? One hypothesis is that some
+subjects exhibit limited reasoning: Pinning responsibility on the first mover in the
+case of intermediation takes more reasoning. If some subjects do not reason through
+the extra logic required, this could drive Result 1. The Reflection Treatment was
+
+    21Beliefs of how much punishment would occur in each scenario was not elicited. Since punishment is surplus-
+damaging, taking an action that is expected to be met with punishment might be deemed more unfair. This is an
+interesting hypothesis for future research.
+
+    22See online Appendix, Table 12 for OLS regressions of these 46 subjects.
+94  American Economic Journal: Microeconomicsnovember 2011
+
+designed to test this hypothesis. Recall, subjects were given four neutral questions
+as primes for reflection before the game was played. Twenty-two of the 24 subjects
+wrote something for all four questions. 15 explicitly mentioned in at least one of
+their answers that the first mover will sell the game to avoid punishment and that
+selling the DG would likely lead to worse outcomes for the receiver. (The tables
+refer to these 15 as "wise" subjects.)
+
+Result 6:
+   Limited reasoning is not driving Result 1.
+   Comparing scenarios with identical outcomes, the data indicate even for these
+
+15wise subjects, intermediation decreases punishment (p<0.01 for both matched
+pair signed rank test and Fisher Pitman matched-pair permutation test).23 The wise
+subjects show a decrease in punishment when the DG is sold in a linear approximation
+as well; they show an estimated 37 percent decrease in punishment for money made
+through intermediation.24
+
+   Thus even subjects who wrote down that first movers sell the game to try to avoid
+punishment and that selling is bad for the poorest player, punish first movers less
+when they sell the game. They exhibit an awareness of the dubious intentions of a
+first mover who sells as well as the consequences of their behavior, but this does not
+predict their punishment. Coupling this with Result 5 (subjects believe intermedia-
+tion makes the poorest player substantially poorer), it has been shown that subjects
+who fully understand the poor outcomes and dubious intentions involved in interme-
+diation still punish it less; thus, limited rationality does not seem to explain Result 1.
+
+Result 7:
+   The inclusion of a third, endowed player alone does not reduce punishment.
+   If intermediation reduces punishment because intermediation includes a third
+
+party with an endowment, which, among other reasons, may change the reference
+group for fairness calculations, then we should note a reduction in punishment in
+The Allow-Taking Game when the intermediary is included.
+
+   Merely including an endowed third party does not reduce punishment. Subjects
+punish the first mover fairly equally whether she decides to allow taking or not.25
+The data only show one possible significant difference in punishment, and the differ-
+ence is in the opposite direction: The first mover is punished slightly more for allow-
+ing taking after she has kept $5. The mechanism driving the reduction in punishment
+by intermediation is not that intermediation includes an endowed third party. It must
+be another feature of intermediation.
+
+Result 8:
+   Intermediation is not reducing punishment in The Intermediation Game wholly
+
+due to the market transaction or giving-taking framing effects.
+
+    23See Table 13 in the online Appendix for average punishments for the "wise" subjects.
+    24See Table 14 in the online Appendix for details.
+    25Table 3 in the online Appendix shows how subjects punished in The Allow-Taking Game based on whether the
+
+first mover decided to allow the intermediary to take any of the money sent to the receiver or not.
+Vol. 3 No. 4  coffman: intermediation reduces punishment (and reward)               95
+
+   The Forced-Taking Game was employed to test alternative reasons why interme-
+diation reduces punishment in the baseline but not The Allow-Taking Game: Market-
+framing and giving versus taking framing. If intermediation reduces punishment in
+The Forced-Taking Game, then these explanations are not fully driving Result1. The
+data from The Forced-Taking Game provide evidence that intermediation reduces
+punishment in this environment. As in The Intermediation Game, this holds when
+misbehavior, and punishment, is high. When the first mover makes $10, she is pun-
+ished less when the intermediary passes her the money than if she took it herself (see
+Table 4 in the online Appendix for details). The results for $9 are slightly mixed: the
+p-value from a matched pair signed rank test is 0.2 while the p-value from a Fisher-
+Pitman permutation test of the data is 0.07. This indicates that, if there is an effect,
+it may be driven by few, large differences rather than many, small differences. The
+effect intermediation has on punishment seems to be smaller, or at least noisier, in
+this game compared to The Intermediation Game. This could be due to, among other
+reasons, subject pool differences, different sample sizes, and though speculative,
+framing the use of an intermediary as a market transaction, or switching from a giv-
+ing frame to a taking frame.
+
+              IV. Study 2--Intermediation Reduces Reward
+
+   A follow-up study was conducted with two main objectives--first, primarily to
+test the generalizability of Result 1 and second, to attempt to understand the mecha-
+nism driving Result 1. The second experiment was a modified Intermediation Game
+with charitable behavior (real donations to a real charity) and rewards rather than
+antisocial behavior and punishment.
+
+   Subjects were undergraduates at Harvard University. All were recruited via e-mail
+in November 2008. Each dormitory was randomized into one of two experiments,
+either the Donation Experiment or the Reward Experiment, and sent a link for that
+experiment. The website they visited then randomized them into a treatment, so
+randomization within each experiment was at the individual level.26 The Reward
+Experiment will provide the data of interest while the Donation Experiment will
+simply provide behaviors for subjects to reward.
+
+              A. Donation Experiment Design
+
+   Subjects in the first experiment were told that three names would be drawn for
+every 100 survey respondents. The first name drawn would win $70 and have the
+opportunity to donate money to purchase mosquito nets for pregnant mothers in Busia,
+Kenya.27 This opportunity was framed as either a direct gift to the pregnant moth-
+ers or as a donation to a charity (TamTam, www.tamtamafrica.org) who would then
+purchase nets for pregnant mothers (see the online Appendix, "Charity Experiment
+Framing" for exact wording). It was made clear that in both cases, a donation of $3.50
+would result in a pregnant mother in Busia receiving a mosquito net and that the
+
+26Experiment was conducted using Qualtrics survey platform; see www.qualtrics.com.
+27Mosquito nets are very important in this region to protect against malaria.
+96  American Economic Journal: Microeconomicsnovember 2011
+
+money would be sent to TamTam, who would deliver the net. The framing manipu-
+lated the saliency of passing the donation through the intermediary. Subjects reported
+the number of nets they would like to donate, up to 20. Subjects were assured they
+could receive a forwarded e-mail from TamTam if they chose to donate. This could
+ease any suspicions the money would not be sent while maintaining the feature that
+giving in this experiment is not to receive approbation from the receiver. The sender
+is anonymous, so her only motivations are altruism and self-signaling (e.g., Roland
+Bénabou and Jean Tirole 2006 and Zachary Grossman 2009).
+
+   The second and third names drawn would play the two roles of a Dictator Game
+worth $48 with efficient giving. The amount sent was scaled up by a factor of three
+(to encourage more nonzero gifts). Everyone made both a mosquito net donation
+decision and a dictator decision. The dictator decision always followed their dona-
+tion decision. Each question was on a separate screen, and at any point in the experi-
+ment, they did not know what would be on the next screen. They were not made
+aware of the second experiment.
+
+                              B. Donation Experiment Results
+
+   The framing manipulation had little to no effect on donations.28 The 94 subjects
+in the direct frame on average donated 10.7 nets while the 108 in the indirect frame
+donated 10.2. While their generosity is noteworthy (donating more than half of the
+$70 prize), the manipulation is not (Wilcoxon ranksum testing equal distributions:
+p=0.61).29
+
+   There is a significant positive correlation in donating nets and giving in the DG
+(correlation coefficient=0.25, p<0.01). Of the 85 subjects who gave nothing in
+the DG, 73 percent donated at least one mosquito net. This jumps to 97 percent for
+the 120 subjects who gave something in the DG. The DG question was primarily
+added to incentivize a belief-elicitation in the second experiment. However, it may
+be noteworthy that the actions are correlated.30
+
+    C. Reward Experiment Design
+
+   Subjects in this experiment were randomized into either the reward treatment or
+the DG Guess treatment. In either experiment, they were then told they would be
+
+    28To see sample composition and evidence of randomization, see the online Appendix. Subjects were 97per-
+cent non-seniors, 69 percent women, and 59 percent participants from a popular student charity organization
+(PBHA). This is not representative of the undergraduate population, so there was sorting; however, even though
+this may be expected to affect the amount of giving, ex ante, we have no reason to expect this may interact with
+the treatment.
+
+    29Though there was no ex ante hypothesis for this result, it is consistent with the self-serving bias literature.
+Performing an act with an intermediary may result in ambiguity of who is responsible. Hamman, Loewenstein, and
+Weber (2010) show that subjects are more likely to undertake unethical endeavors with an intermediary, in such
+cases resolving the ambiguity by convincing themselves the intermediary is responsible. Subjects will resolve this
+ambiguity in a self-serving way; thus, if responsibility is good, as it is here, they will take full credit, and we should
+not see any difference between the two conditions.
+
+    30This is perhaps most interesting because one decision was made in a natural context--donating money to a
+charity--while the other was made in a more abstract, artificial context--efficient giving to an anonymous other.
+Vol. 3 No. 4  coffman: intermediation reduces punishment (and reward)                    97
+
+1
+
+0.9
+
+0.8
+
+0.7
+
+0.6
+
+0.5           Direct
+
+              Indirect
+
+0.4
+
+0.3
+
+0.2
+
+0.1
+
+0
+    0 4 8 12 16 20 24 28 32 36 40 44 48 52 56 60 64 68 72 76 80 84
+
+              Figure 2. CDFs of Rewards to Mosquito Net Donors, by Framing Manipulation
+
+randomly matched with one subject from Survey 1. They were told one piece of
+information about this person. They were (correctly) told either:
+
+   Direct Framing.--"This respondent was asked if he/she won $70, would he/she
+like to purchase mosquito nets (at $3.50 each) for pregnant women in Busia, Kenya
+(through www.tamtamafrica.org). This respondent said yes--had his/her name
+been drawn he/she would have purchased mosquito nets for pregnant women in
+Busia, Kenya."
+
+   Indirect Framing.--"This respondent was asked if he/she won $70, would he/she
+like to donate money to Tam Tam (www.tamtamafrica.org). Money donated to
+TamTam enables them to purchase mosquito nets (at $3.50 each) for pregnant
+women in Busia, Kenya. This respondent said yes--had his/her name been drawn
+he/she would have donated money to TamTam."
+
+   Subjects in the reward experiment then played a dictator game worth $84, with
+efficient giving--so that for each $1 sent, the other participant received $3. In the
+DG, the recipient is the anonymous Survey 1 respondent about whom they just
+learned. They were told the Survey 1 respondent would receive a letter, along with
+any money sent, explaining that another respondent was given the opportunity to
+send them money based on their decision to donate nets. Thus, this was framed as an
+unexpected reward. They received the letter even in the case of zero money sent.31
+
+   Subjects in the DG Guess experiment did not reward but rather were asked to
+guess how much the anonymous Survey 1 respondent sent in the DG she played
+
+    31This design is most similar to Experiment 2 in Kahneman, Knetsch, and Thaler (1986a), where subjects play
+as a dictator in a DG with subjects who just finished playing a DG as a dictator and were either entirely selfish or
+unselfish but did not have their payouts realized, due to a lottery. Receivers who tried to be unselfish as dictators
+received significantly more than those who had chosen selfish allocations.
+98  American Economic Journal: Microeconomicsnovember 2011
+
+following her donation decision. They were paid $50 if they were within $5 of how
+much the respondent actually sent.32
+
+    D. Reward Experiment Results
+
+   Subjects rewarded direct-framed giving more than indirect-framed giving.
+Subjects sent $36.4 to "direct" donors (thus they received $109.2), while subjects
+sent "indirect" donors an average of $29 (thus they received $87). With the ex ante
+hypothesis we would replicate the punishment results--that indirectness decreases
+rewards--we employ a one-tailed Wilcoxon rank sum, which yields a p=0.05. The
+cumulative distributions of rewards shown in Figure 2 further show the difference
+in rewards. Rewards to the direct donor appear to first order stochastically dominate
+rewards to the indirect donor, and a Kolmogorov-Smirnov test of minimum distance
+marginally rejects equal probability distributions with a p=0.09.
+
+   This is preliminary evidence that the decision process driving Result 1 from The
+Intermediation Game may be generalizable. We have changed the behavior from
+selfish to charitable, the first mover's motivation from intrinsic and extrinsic to
+intrinsic (the first mover knew of the punisher in The Intermediation Game, but not
+of the rewarder here), the environment from the lab to online, from anonymous,
+undergraduate subject receivers to real charities and charitable cases, and from
+endogenous, chosen intermediation to exogenously imposed intermediation. In this
+very different environment, a similar result develops: Intermediation reduces reward
+as it did punishment.
+
+   Finally, subjects in the DG Guess experiment believe subjects who donated
+nets indirectly donated more in the subsequent DG. They guessed indirect donors
+sent $14.1 compared to $8.5 by direct donors. A two-tailed Wilcoxon rank sum
+reports these distributions are significantly different, p=0.04. If the DG decision
+in Survey1 is believed by subjects in Survey 2 to be independent of the decision to
+donate (it always came after),33 then perhaps this may be perceived as a measure
+of baseline altruism. This question was added to test a hypothesis that Result 1 was
+being driven not by "punishing bad behavior" but rather "punishing bad people"
+(e.g., David K. Levine 1998). This hypothesis is not supported in Survey 2; rewards
+are higher for the group with less expected altruism (direct donors).
+
+    V. Related Literature
+
+    A. The Economics Literature: Punishment and Fairness
+
+   The literature has shown punishment can effectively regulate individuals (Fehr
+and Fischbacher 2004; Fehr and Gächter 2000) as well as companies (Alexander
+
+    32This elicits their belief of the midpoint of the $10 interval containing the most Survey 1 donors in their
+distribution of beliefs. Beliefs were elicited this way in order to keep it simple and understandable for the subject.
+
+    33The DG decision in Survey 1 may very well not be independent. There might be wealth effects, though wealth
+is only in expectation. Additionally, often after performing a good act, we feel licensed to be less moral in the next
+period (e.g., Cain, Loewenstein, and Moore 2005). Whether subjects predict such inter-question dependencies, or
+others, is unknown to the author. In any case, this result should only be regarded with these considerations.
+Vol. 3 No. 4  coffman: intermediation reduces punishment (and reward)  99
+
+Dyck and Luigi Zingales 2002; Kenneth J. Martin and Randall S. Thomas 2005).
+Theoretically, punishment increases pro-social behavior, which means that punish-
+ment can lead to greater social welfare for the group (Robert Axelrod 1986). These
+encouraging results are supported by models of punishment. Theories of how we
+punish are typically a reflection of theories of why we punish: If we punish to rein-
+force pro-social behavior, punishment should be a response to, and only to, antisocial
+behavior. Hence most models of punishment and fairness are models identifying
+pro-sociality of behavior. They do this through factors such as outcomes, inten-
+tions, and procedures. Fehr and Schmidt (1999) and Bolton and Ockenfels (2000)
+both provide models of outcome-based fairness. Fehr and Schmidt (1999) model
+this in a two-player framework, where both players have a preference for equitable
+outcomes, where advantageous inequity comes at less of a utility cost. Bolton and
+Ockenfels (2000) argue that players have a preference for their own absolute payoff
+as well as how their payoff compares to the group average. Subjects in Falk, Fehr,
+and Fischbacher's (2005) experiment punish defectors more than cooperators even
+when it is more costly to do so. This suggests behavior, not just outcomes, drives
+reciprocity. Rabin (1993) and Dufwenberg and Kirchsteiger (2004) define fairness
+in terms of intentions. Intention is comprised both of strategy space--how good is
+your action relative to your alternatives?--and your beliefs--given what you think
+I am going to do, how nice are you being? Falk and Fischbacher (2006) combine
+intentions and fairness in a theoretical framework that Falk, Fehr, and Fischbacher
+(2008) provide experimental evidence works best among these three classes of mod-
+els in predicting behavior in simple, laboratory experiments. Charness and Rabin
+(2002) provide experimental evidence (and a general model in the Appendix) that
+subjects' fairness judgments and reciprocity decisions are largely dependent on the
+welfare of the poorest player in the reference group. Bolton, Brandts, and Ockenfels
+(2005) provide experimental evidence that subjects' perceptions of fairness also
+depend on ex ante equity, a concept they term "procedural fairness." Our experiment
+did not speak to procedural fairness, but it was designed to cleanly test outcomes,
+intentions and the combination. We found that when pitted directly against "direct-
+ness," these concepts of fairness made poor predictions. The conclusion is not that
+outcomes and intentions do not matter, but rather that directness does, and it seems
+to be first order.
+
+   Many experiments have investigated how subjects perceive fairness when mul-
+tiple agents have acted. The main finding is that responsibility can be diffused when
+a second party is present.34 Charness (2000), Chaim Fershtman and Uri Gneezy
+(2001), and Bartling and Fischbacher (forthcoming) all demonstrate experimentally
+that the addition of a second responsible party may alleviate perceived responsibility
+of the first party. Fershtman and Gneezy (2001) show this is true even though the
+first mover is incentivizing the second party to act selfishly on her behalf and even
+when she has the choice of not using the second party at all. The authors provide the
+
+    34This paper follows the custom of assuming punishment, blame, responsibility, and unfairness are positively
+correlated. As Falk, Fehr, and Fischbacher (2005) conclude, "the desire to harm those who committed unfair acts,
+seems to be the most important motive behind fairness-driven sanctions." It must be noted, however, that though
+these are very similar, they are not identical. Cushman (2008) shows punishment is better predicted by outcomes
+while judgments without consequence are better predicted by the intentions of the actor.
+100  American Economic Journal: Microeconomicsnovember 2011
+
+insight that perhaps the behavior they observed is "because it is not [done] directly by
+the proposer but by a third party," though they do not provide experimental support for
+this specific hypothesis. Rather, they show the subjects care about the second party's
+payout; the second party is a "hostage" in the negotiation. Bartling and Fischbacher
+(forthcoming) show similar abated reciprocity even though the first mover is delegat-
+ing the choice to a second party who has incentive to act selfishly on behalf of both
+of them. Moreover, Hamman, Loewenstein, and Weber (2010) show guilt might also
+decrease in such situations. Experimental subjects demand an agent take more for
+them in a DG than they are willing to take for themselves (since assignment is random,
+this also means subjects are willing to take more as an agent for another than they are
+for themselves). The experiment presented here is designed to allow for analysis of
+scenarios where the intermediary is completely blameless, and completely unpun-
+ished, for the outcome. Even in such scenarios, punishments decrease for actions done
+through an intermediary. This result does not refute responsibility diffusion. Instead,
+it identifies a separate force acting in tandem, strengthening the claims that the fre-
+quency of bad actions may increase when more people are involved, and that one may
+want to involve more people when taking a bad action.
+
+   A few recent experiments have shown that from a first person perspective, direct
+interaction may be important in fairness calculations. Dana, Cain, and Dawes (2006)
+show a significant portion of subjects would prefer to take $9 than have their deci-
+sion from a $10 dictator game implemented. When they take the $9, the recipient
+does not receive anything, so this decision is at least weakly dominated by two DG
+allocations, ($9,$1) and ($10,$0). The subjects seem to not to want to feel respon-
+sible for making the decision. Similarly, Edward P. Lazear, Ulrike Malmendier, and
+Weber (2009) show that most subjects would prefer to avoid the opportunity to
+share. Dana, Weber, and Xi Kuang (2007) show that many dictators do not cost-
+lessly reveal the payout of their recipient, perhaps avoiding having to make a dif-
+ficult or selfish decision. Stefano DellaVigna, John A. List, and Malmendier (2009)
+show similar avoidance behavior in the field. When a charity announces they will be
+coming around the next day for donations, 10­25 percent fewer households answer
+the door compared to unannounced visits. The results in our paper are psychologi-
+cally similar, though from a third person perspective. In all of the studies as well as
+ours, an agent is faced with the decision {Play, Don't Play} and a sharing decision
+if she chooses "Play." Subjects in these experiments behave as if choosing "Don't
+Play" is okay even if that means not sharing anything. In our study, selling the DG
+is similar to choosing "Don't Play," and they are judged less harshly for doing so.
+
+     B. Moral Psychology
+
+   The Moral Psychology literature has shown a much less rational side of pun-
+ishment. Having subjects rate the morality of a hypothetical scenario, the Moral
+Psychology literature has identified many ways how and why moral judgment dif-
+fers from utilitarian standards.35 Kahneman and Shane Frederick (2002) provide
+
+     35See the online Appendix for the most common example, the trolley-footbridge problem.
+Vol. 3 No. 4  coffman: intermediation reduces punishment (and reward)  101
+
+evidence that punishment and moral judgment are not merely responses to the objec-
+tive wrongness of an action. Moral preferences, rather, are at least partially derived
+from an intuitive or emotional reaction see Greene and Jonathan Haidt (2002) for
+a neuroimaging survey, Haidt (2001) on moral dumbfounding, Madan M. Pillutla
+and J. Keith Murnighan (1996) on anger in the ultimatum game, Piercarlo Valdesolo
+and David DeSteno (2006) for exogenous variation in emotion and moral judgments,
+and Thalia Wheatley and Haidt (2005) on hypnotic disgust and moral judgment; in
+fact, subjects often are unable to explain why they made the moral judgment that
+they did (Cushman, Liane Young, and Marc Hauser 2006). This has been explained
+by a dual process model of the brain, the emotional and the reasoning (see Greene
+2007 for review).
+
+   The Moral Psychology literature also speaks more specifically to the question
+of directness and morality. Much research has provided evidence suggesting that
+blame increases, the more directly the consequence follows from the action. For
+example, using your "personal force" to kill a man is much worse than pulling a
+lever that is sure to kill him (Greene et al. 2009). Subjects also claim they would
+be more willing to undertake actions whose bad outcomes are side effects rather
+than means to an end (Edward B. Royzman and Jonathan Baron 2002). Paharia
+et al. (2009) also show that subjects who read hypothetical scenarios rate firms as
+less immoral if the firms act selfishly when outsourcing. Interestingly, they find
+the effect diminishes if they read the two scenarios--when the firm outsources and
+when they do not--side by side. We add to this literature in three ways. First, we
+are able to investigate strategic behavior. Since the subjects are playing a game, they
+are responding to the beliefs and strategies of others. Second, in this environment,
+we can design clean predictions for existing theories of fairness and understand
+how they may be improved. Third, subjects are incentivized. This does not always
+have an effect in experiments, but Colin F. Camerer and Robin M. Hogarth (1999)
+suggest they may affect subject's incentive to "present" themselves flatteringly. In a
+context of selfishness and punishment, these effects may be a concern.
+
+   Another interesting finding related to directness has been dubbed "omission
+bias." Mark Spranca, Elisa Minsk, and Baron (1991) show that subjects judge an
+act of omission to be less reprehensible than an act of omission with the same inten-
+tions, motives, and consequences. Like the subjects in economic experiments who
+choose to avoid making a sharing decision, these participants seem to judge a per-
+son for the actions she takes, not the ones she does not. This is consistent with our
+finding that subjects are punished less when they choose not to directly interact with
+the poorest player.
+
+              VI. Concluding Remarks
+
+   This paper investigates how an action is punished when performed through an
+intermediary. We employ a simple game, which allows one player (the first mover)
+the option of undertaking an antisocial action (keeping money at the expense of the
+poorest player) and the option of whether to do this directly or through an intermedi-
+ary. An unaffected party has the opportunity to punish the first mover based on her
+actions. Using the intermediary is much worse for the poorest player (and equity),
+102  American Economic Journal: Microeconomicsnovember 2011
+
+and subjects expect this (and believe others expect this). Nevertheless, subjects pun-
+ish the first mover less when she elects to keep money via intermediation. This
+is true even if the intermediary is unambiguously free of responsibility. We then
+perform a treatment that encourages subjects to think and write about the game and
+the strategies of the other players before they play. Fifteen of 24 write down that
+the first mover will use the intermediary to avoid punishment and that intermedia-
+tion is worse for the poorest player. When these 15 subjects subsequently play the
+game, they punish intermediation less. Thus even when subjects understand the poor
+outcomes intermediation produces or the punishment-skirting intentions of the first
+mover, they punish in a manner suggesting they believe using the intermediary is
+actually less punishable. We further show the punishment reduction is not due to
+the mere inclusion of a third player. Across treatments, punishment decreases if and
+only if including the intermediary allows the first mover to avoid directly interact-
+ing with the poorest player. In a framed field study, we show a similar effect with
+rewards and charitable action. These reductions in punishment and reward due to
+directness is interesting for two reasons: first, they cannot be explained by any cur-
+rent model or literature in Economics. Second, intermediation is widespread, and
+perhaps our moral intuitions and judgments in the case of individual or corporate
+partnerships should be questioned.
+
+     Appendix
+
+     Behavioral Predictions Appendix
+
+     A. Outcome-Based Models
+
+   Fehr and Schmidt (1999) suggest the punisher's utility of payoff vector x takes
+the form:
+
+                                                                                           
+
+(1)Ui (x) =xi - i_ n -11 j1 max{x j -xi,0}
+
+                                
+
+     -i_ n -11 j1 max{x i -xj,0},
+
+where  iiand 0 i1. That is, utility is defined by her own payout, x i, but
+her utility takes a hit for inequality in payouts, and more so for disadvantageous
+inequalities. In this model, under either path in the Intermediation Game, the pun-
+isher's utility is thus (Recall X5):
+
+(2)Ui (X,5,10 - X,5) =5- i_13(X -5) -i_13(X -5),
+
+which reduces to 5 if X=5 since there is no longer any inequality. Most impor-
+tantly, no matter the size of X, the estimated utilities are identical, and we have no
+reason to predict a difference in punishment for using the intermediary.
+Vol. 3 No. 4  coffman: intermediation reduces punishment (and reward)                               103
+
+                                     Table A1--Summary Statistics
+
+Number of subjects                                     Intermediation              No intermediary
+Number who use intermediary                                 game                       treatment
+Average sell price                                                                         24
+                                                              64                           --
+                                                              33                           --
+                                                            $7.17
+                                                                                         $5.50
+Average amount kept in $10 DG                                      $8.37                   --
+(when sold)                                                        $9.79                   --
+(when unsold)                                                      $6.87
+                                                                                         100%
+Percent who punish at least once                                   81%                   $3.65
+Average punishment                                                 $2.07                 $4.70
+Average nonzero punishment                                         $4.24                  44%
+Average punishment as percentage                                   28%
+ of first mover's pre-punishment wealth                                                   56%
+Average nonzero punishment as percentage                           58%
+ of first mover's pre-punishment wealth                                                  $4.83
+
+Average proft (all subjects)                                       $4.31
+
+                              Table A2--Directness is Punished More Frequentlya
+
+              Percent who punish          Number of subjects who punish            p-values
+
+Profit of     DG               DG         Unsold, but Sold, but          Matched pair, Permutation
+ first mover
+              unsold           sold       not sold  not unsold            signed rankb       testc
+All
+$10           59               50         41        8                     <0.01         <0.01
+$9                                                                           0.13          0.23
+$8            75               67         8         3                        0.01          0.03
+$7                                                                           0.01          0.02
+$6            77               67         6         0                                      0.01
+$5                                                                        <0.01            0.12
+              75               63         9         1                        0.06          1.00
+                                                                             0.56
+              66               50         11        1
+
+              45               38         6         1
+
+              17               19         1         2
+
+Notes: Pairs matched by subject. p-values are from two-tailed tests.
+    a To hold outcomes constant, only scenarios where intermediary makes no money included.
+    b Matched Pair Signed Rank test based on null hypothesis that punishment distributions are identical for direct
+
+and indirect action. Pairs matched by subject.
+    c Permutation p-values based on 200,000 simulations per test.
+
+   Note that Ui( x) can only decrease under intermediation. If the intermediary makes
+$Y>0 profit, instead of $0 as in our driving example, then utility decreases by
+the added inequality, both the disadvantageous (the intermediary now has $Y more
+than the punisher--i1/3(Y)--and the advantageous (the receiver now has $Y less
+than the punisher relative to before)--i1/3(5-(10-X-Y)). Whom to blame for
+this decrease in utility is not directly addressed by outcome-based models. For that,
+we add intentions.
+
+                            B. Outcomes and Intentions Models
+
+   Let us consider one very simple model of preference for maximizing the mini-
+mum payoff:
+
+(3)Ui(x) = xi +  · mjin{xj}
+104                   American Economic Journal: Microeconomicsnovember 2011
+
+where 0    1. Under these preferences,
+
+(4)Ui (X,5,10 - X,5) =5- (10 - X)
+
+(5)Ui (X,5+Y ^,10 - X -Y^,5) =5- (10 - X -Y^) .
+
+Hence, utility decreases by ·Y^under   Yi^n>ter0m. ediation,  and  we  would   expect  weakly
+more punishment, and strictly more if
+
+     Under Fehr and Schmidt (1999) inequity aversion, utility for not using the inter-
+
+mediary--Ui(X,5,10 -X,5)--is given by equation (2) above. Utility via interme-
+
+diation is given by:
+
+(6)Ui (X,5+Y ^,10 - X -Y^,5) =5- i_13[(X -5)+Y ^]
+
+                                        - i _ 13(X+Y ^ -5).
+
+     Equation (2)­equation (6) yields a difference of i1/3Y^+i1/3Y^; hence, utility
+
+weakly decreases under intermediation, and we     iwf Yi^ll>ex0p.ect   weakly  more    punish-
+ment. Both statements become strict inequalities
+
+                                             References
+
+Andreoni, James, and Rachel Croson. 2008. "Partners versus Strangers: Random Rematching in Pub-
+    lic Goods Experiments." In Handbook of Experimental Economics Results, ed. Charles R. Plott and
+    Vernon L. Smith, 776­83. Amsterdam: Elsevier Science.
+
+Axelrod, Robert. 1986. "An Evolutionary Approach to Norms." American Political Science Review,
+    80(4): 1095­1111.
+
+Bartling, Björn, and Urs Fischbacher. Forthcoming. "Shifting the Blame: On Delegation and Respon-
+    sibility." Review of Economic Studies.
+
+Bénabou, Roland, and Jean Tirole. 2006. "Incentives and Prosocial Behavior." American Economic
+    Review, 96(5): 1652­78.
+
+Bolton, Gary E., Jordi Brandts, and Axel Ockenfels. 2005. "Fair Procedures: Evidence from Games
+    Involving Lotteries." Economic Journal, 115(506): 1054­76.
+
+Bolton, Gary E., and Axel Ockenfels. 2000. "ERC: A Theory of Equity, Reciprocity, and Competition."
+    American Economic Review, 90(1): 166­93.
+
+Brandts, Jordi, and Gary Charness. 2011. "The Strategy versus the Direct-response Method: A First
+    Survey of Experimental Comparisons." Experimental Economics, 14(3): 375­98.
+
+Cain, Daylian M., George Loewenstein, and Don A. Moore. 2005. "The Dirt on Coming Clean: Per-
+    verse Effects of Disclosing Conflicts of Interest." Journal of Legal Studies, 34(1): 1­25.
+
+Camerer, Colin F., and Robin M. Hogarth. 1999. "The Effects of Financial Incentives in Experi-
+    ments: A Review and Capital-Labor-Production Framework." Journal of Risk and Uncertainty,
+    19(1­3): 7­42.
+
+Carpenter, Jeffrey, and Peter Hans Matthews. 2009. "What Norms Trigger Punishment?" Experimen-
+    tal Economics, 12(3): 272­88.
+
+Charness, Gary. 2000. "Responsibility and Effort in an Experimental Labor Market." Journal of Eco-
+    nomic Behavior and Organization, 42(3): 375­84.
+
+Charness, Gary. 2004. "Attribution and Reciprocity in an Experimental Labor Market." Journal of
+    Labor Economics, 22(3): 665­88.
+
+Charness, Gary, and Matthew Rabin. 2002. "Understanding Social Preferences with Simple Tests."
+    Quarterly Journal of Economics, 117(3): 817­69.
+Vol. 3 No. 4  coffman: intermediation reduces punishment (and reward)  105
+
+Charness, Gary, and Matthew Rabin. 2005. "Expressed Preferences and Behavior in Experimental
+    Games." Games and Economic Behavior, 53(2): 151­69.
+
+Coffman, Lucas C. 2011. "Intermediation Reduces Punishment (and Reward): Dataset." Ameri-
+    can Economic Journal: Microeconomics. http://www.aeaweb.org/articles.php?doi=10.1257/
+    mic.3.4.77.
+
+Cushman, Fiery. 2008. "Crime and Punishment: Distinguishing the Roles of Causal and Intentional
+    Analyses in Moral Judgment." Cognition, 108(2): 353­80.
+
+Cushman, Fiery, Anna Dreber, Ying Wang, and Jay Costa. 2009. "Accidental Outcomes Guide Pun-
+    ishment in a `Trembling Hand' Game." PLoS ONE, 4(8): 1­7. doi:10.1371/journal.pone.0006699.
+
+Cushman, Fiery, Liane Young, and Marc Hauser. 2006. "The Role of Conscious Reasoning and Intu-
+    ition in Moral Judgment." Psychological Science, 17(12): 1082­89.
+
+Dana, Jason, Daylian M. Cain, and Robyn M. Dawes. 2006. "What You Don't Know Won't Hurt Me:
+    Costly (But Quiet) Exit in Dictator Games." Organizational Behavior and Human Decision Pro-
+    cesses, 100(2): 193­201.
+
+Dana, Jason, Roberto A. Weber, and Jason Xi Kuang. 2007. "Exploiting Moral Wiggle Room: Experi-
+    ments Demonstrating an Illusory Preference for Fairness." Economic Theory, 33(1): 67­80.
+
+DellaVigna, Stefano, John A. List, and Ulrike Malmendier. 2009. "Testing for Altruism and Social
+    Pressure in Charitable Giving." National Bureau of Economic Research Working Paper 15629.
+
+Dufwenberg, Martin, and Georg Kirchsteiger. 2004. "A Theory of Sequential Reciprocity." Games and
+    Economic Behavior, 47(2): 268­98.
+
+Dyck, Alexander, and Luigi Zingales. 2002. "The Corporate Governance Role of the Media." National
+    Bureau of Economic Research Working Paper 9309.
+
+Engelmann, Dirk, and Martin Strobel. 2004. "Inequality Aversion, Efficiency, and Maximin Prefer-
+    ences in Simple Distribution Experiments." American Economic Review, 94(4): 857­69.
+
+Falk, Armin, Ernst Fehr, and Urs Fischbacher. 2005. "Driving Forces behind Informal Sanctions."
+    Econometrica, 73(6): 2017­30.
+
+Falk, Armin, Ernst Fehr, and Urs Fischbacher. 2008. "Testing Theories of Fairness­­Intentions Mat-
+    ter." Games and Economic Behavior, 62(1): 287­303.
+
+Falk, Armin, and Urs Fischbacher. 2006. "A Theory of Reciprocity." Games and Economic Behavior,
+    54(2): 293­315.
+
+Fehr, Ernst, and Urs Fischbacher. 2004. "Third Party Punishment and Social Norms." Evolution and
+    Human Behavior, 25(2): 63­87.
+
+Fehr, Ernst, and Simon Gächter. 2000. "Cooperation and Punishment in Public Goods Experiments."
+    American Economic Review, 90(4): 980­94.
+
+Fehr, Ernst, Oliver Hart, and Christian Zehnder. 2011. "Contracts as Reference Points­­Experimen-
+    tal Evidence." American Economic Review, 101(2): 493­525.
+
+Fehr, Ernst, and Klaus M. Schmidt. 1999. "A Theory of Fairness, Competition, and Cooperation."
+    Quarterly Journal of Economics, 114(3): 817­68.
+
+Fershtman, Chaim, and Uri Gneezy. 2001. "Strategic Delegation: An Experiment." RAND Journal of
+    Economics, 32(2): 352­68.
+
+Fischbacher, Urs. 2007. "Z-Tree: Zurich Toolbox for Ready-Made Economic Experiments." Experi-
+    mental Economics, 10(2): 171­78.
+
+Fischbacher, Urs, Simon Gächter, and Ernst Fehr. 2001. "Are People Conditionally Cooperative? Evi-
+    dence from a Public Goods Experiment." Economics Letters, 71(3): 397­404.
+
+Frey, Bruno S., and Stephan Meier. 2004. "Social Comparisons and Pro-social Behavior: Test-
+    ing `Conditional Cooperation' in a Field Experiment." American Economic Review, 94(5):
+    1717­22.
+
+Gino, Francesca, Don A. Moore, and Max H. Bazerman. 2008. "No Harm, No Foul: The Outcome Bias
+    in Ethical Judgments." Harvard Business School, Working Paper 08-080.
+
+Greene, Joshua D. 2007. "Why are VMPFC Patients More Utilitarian? A Dual-Process Theory of
+    Moral Judgment Explains." Trends in Cognitive Sciences, 11(8): 322­23.
+
+Greene, Joshua D., and Jonathan Haidt. 2002. "How (and Where) Does Moral Judgment Work?"
+    Trends in Cognitive Sciences, 16(12): 517­523.
+
+Greene, Joshua D., Fiery A. Cushman, Lisa E. Stewart, Kelly Lowenberg, Leigh E. Nystrom, and Jona-
+    than D. Cohen. 2009. "Pushing Moral Buttons: The Interaction Between Personal Force and Inten-
+    tion in Moral Judgment." Cognition, 111(3): 364­71.
+
+Grossman, Zachary. 2009. "Self-Signaling Versus Social-Signaling in Giving." Department of Eco-
+    nomics, University of California at Santa Barbara, Economics Working Paper 01-09.
+
+Haidt, Jonathan, Fredrik Björklund, and Scott Murphy. 2000. "Moral Dumbfounding: When Intuition
+    Finds No Reason." Unpublished.
+106  American Economic Journal: Microeconomicsnovember 2011
+
+Hamman, John R., George Loewenstein, and Roberto A. Weber. 2010. "Self-Interest through Delega-
+    tion: An Additional Rationale for the Principal-Agent Relationship." American Economic Review,
+    100(4): 1826­46.
+
+Hirschman, Albert O. 1970. Exit, Voice, and Loyalty. Cambridge, MA: Harvard University Press.
+Johansson, Lars-Olof, and Henrik Svedsäter. 2009. "Piece of Cake? Allocating Rewards to Third Par-
+
+    ties When Fairness is Costly." Organizational Behavior and Human Decision Processes, 109(2):
+    107­19.
+Kahneman, Daniel, and Shane Frederick. 2002. "Representativeness Revisited: Attribute Substitu-
+    tion in Intuitive Judgment." In Heuristics and Biases: The Psychology of Intuitive Judgment, ed.
+    Thomas Gilovich, Dale Griffin, and Daniel Kahneman, 49­81. Cambridge, UK: Cambridge Uni-
+    versity Press.
+Kahneman, Daniel, Jack L. Knetsch, and Richard H. Thaler. 1986a. "Fairness and the Assumptions of
+    Economics." Journal of Business, 59(4): S285­300.
+Kahneman, Daniel, Jack L. Knetsch, and Richard Thaler. 1986b. "Fairness as a Constraint on Profit
+    Seeking: Entitlements in the Market." American Economic Review, 76(4): 728­41.
+Keser, Claudia, and Frans van Winden. 2000. "Conditional Cooperation and Voluntary Contributions
+    to Public Goods." Scandinavian Journal of Economics, 102(1): 23­39.
+Lazear, Edward P., Ulrike Malmendier, and Roberto A. Weber. 2009. "Sorting and Social Prefer-
+    ences." Unpublished.
+Levine, David K. 1998. "Modeling Altruism and Spitefulness in Experiments." Review of Economic
+    Dynamics, 1(3): 593­622.
+Loewenstein, George F., Leigh Thompson, and Max H. Bazerman. 1989. "Social Utility and Decision
+    Making in Interpersonal Contexts." Journal of Personality and Social Psychology, 57(3): 426­41.
+Martin, Kenneth J., and Randall S. Thomas. 2005. "When Is Enough, Enough? Market Reaction to
+    Highly Dilutive Stock Option Plans and the Subsequent Impact on CEO Compensation." Journal of
+    Corporate Finance, 11(1­2): 61­83.
+Paharia, Neeru, Karim S. Kassam, Joshua D. Greene, and Max H. Bazerman. 2009. "Dirty Work,
+    Clean Hands: The Moral Psychology of Indirect Agency." Organizational Behavior and Human
+    Decision Processes, 109(2): 134­41.
+Pillutla, Madan M., and J. Keith Murnighan. 1996. "Unfairness, Anger, and Spite: Emotional Rejec-
+    tions of Ultimatum Offers." Organizational Behavior and Human Decision Processes, 68(3): 208­24.
+Rabin, Matthew. 1993. "Incorporating Fairness into Game Theory and Economics." American Eco-
+    nomic Review, 83(5): 1281­1302.
+Roth, Alvin E. 2007. "Repugnance as a Constraint on Markets." Journal of Economic Perspectives,
+    21(3): 37­58.
+Royzman, Edward B., and Jonathan Baron. 2002. "The Preference for Indirect Harm." Social Justice
+    Research, 15(2): 165­84.
+Spranca, Mark, Elisa Minsk, and Jonathan Baron. 1991. "Omission and Commission in Judgment and
+    Choice." Journal of Experimental Social Psychology, 27(1): 76­105.
+Sunstein, Cass R. 2005. "Moral Heuristics." Behavioral and Brain Sciences, 28(4): 531­42.
+Valdesolo, Piercarlo, and David DeSteno. 2006. "Manipulations of Emotional Context Shape Moral
+    Judgment." Psychological Science, 17(6): 476­77.
+Wheatley, Thalia, and Jonathan Haidt. 2005. "Hypnotic Disgust Makes Moral Judgments More
+    Severe." Psychological Science, 16(10): 780­84.
+

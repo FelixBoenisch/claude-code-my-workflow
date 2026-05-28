@@ -1,0 +1,1403 @@
+Journal Pre-proof
+
+Financial Education and Digital Asset Management: What's in the
+Black Box?
+
+Rouven Litterscheidt , David J. Streich
+
+PII:            S2214-8043(19)30436-7
+DOI:            https://doi.org/10.1016/j.socec.2020.101573
+Reference:      JBEE 101573
+
+To appear in:   Journal of Behavioral and Experimental Economics
+
+Received date:  24 September 2019
+Revised date:   2 June 2020
+Accepted date:  4 June 2020
+
+Please cite this article as: Rouven Litterscheidt , David J. Streich , Financial Education and Digital
+Asset Management: What's in the Black Box?, Journal of Behavioral and Experimental Economics
+(2020), doi: https://doi.org/10.1016/j.socec.2020.101573
+
+This is a PDF file of an article that has undergone enhancements after acceptance, such as the addition
+of a cover page and metadata, and formatting for readability, but it is not yet the definitive version of
+record. This version will undergo additional copyediting, typesetting and review before it is published
+in its final form, but we are providing this version to give early visibility of the article. Please note that,
+during the production process, errors may be discovered which could affect the content, and all legal
+disclaimers that apply to the journal pertain.
+
+© 2020 Published by Elsevier Inc.
+Highlights
+
+    · The provision of financial education increases the tendency to delegate financial
+         decision-making.
+
+    · Subjects receiving financial education display lower self-assessed risk aversion while
+         their financial decision-making suggests higher risk aversion.
+
+    · Financial education enhances diversification while increasing decision delegation.
+  Financial Education and Digital Asset Management: What's in the Black Box?
+
+Financial Education and Digital Asset Management:
+                What's in the Black Box?*
+
+Rouven Litterscheidt a                  David J. Streich b
+
+                          Initial submission: September 24, 2019
+                               Revised version: June 02, 2020
+
+                                            Abstract
+
+     We study the effect of a financial education intervention on the propensity to
+delegate financial decision-making to a digital asset management tool (robo-
+advisor). Our results suggest that investors are more inclined to delegate financial
+decision-making when they receive detailed information on the investment
+principles underlying the robo-advisory algorithm. The intervention also affects
+investors' independent investment behavior as it increases diversification and
+revealed risk aversion, while it decreases self-reported risk aversion. Our findings
+imply that robo-advisors benefit from providing financial education to prospective
+investors and that financial education may indirectly affect investment outcomes by
+encouraging the use of financial advice.
+
+JEL classification: D14, G11, G41, O33
+
+* We thank Theresa Brandl, Teodora Dokic, Brooke Gazdag, Markus Glaser, Tobias Hardt, Johannes Jaspersen,
+Philipp Kiergassner, Adriana König, Csenge Kukolya, Marina Litterscheidt, Michael Litterscheidt, Jessica Pely,
+Martin Reinke, Alexander Rühr, Moritz Scherrmann, Emmanuel Schuster, Lucas Stich, Marie Weihs, and Markus
+Witt for their valuable feedback. We are very grateful for the fruitful discussions with participants of the
+Experimental Methods course at the Ludwigs-Maximilians-Universität (LMU) of Munich. All errors remain ours.
+a Ludwig-Maximilians-Universität München, LMU Munich School of Management, Schackstraße 4, 80539
+München, Germany, litterscheidt@bwl.lmu.de
+b Ludwig-Maximilians-Universität München, LMU Munich School of Management, Schackstraße 4, 80539
+München, Germany, streich@bwl.lmu.de
+
+                                                             2
+                                           Litterscheidt & Streich
+
+Keywords: FinTech; robo advisory; financial advice; financial education; technology
+adoption; financial decision-making
+
+1. Introduction
+
+Retail investors tend to make detrimental investment decisions, which are associated with
+substantial costs: Calvet et al. (2007) estimate that under-diversification alone caused the
+median Swedish household an annual return loss of 2.9 percentage points. Measures to improve
+financial decision-making usually involve either (the regulation of) professional financial
+advice or the provision of large-scale financial education programs (OECD, 2017). Findings
+from the financial advice literature suggest that the two measures may interact. Thus, using a
+randomized control trial, we investigate the potential interaction of financial advice and
+financial education. Specifically, we study the effect of a financial education intervention on
+the use of digital asset managers (robo-advisors), who can provide financial advice to less
+wealthy and less financially literate investors. Besides, robo-advisors constitute an interesting
+case study since there are calls for mandatory disclosure requirements regarding the applied
+algorithms. The requirements aim to communicate the underlying decision principles, which
+would be conceptually similar to a financial education intervention.
+
+Prior literature has established that an investor's level of financial literacy is related to the
+tendency to seek and follow financial advice (e.g., Calcagno and Monticone, 2015). However,
+financial literacy is typically measured using a questionnaire and not induced through an
+education intervention, which makes identifying a causal relationship challenging. On the other
+hand, studies of financial education typically do not take into account the use of financial
+advice, which may lead to biased estimates of the effect on financial outcomes. In addition,
+while investors' interaction with algorithmic advice likely differs from the interaction with a
+traditional human advisor (Dietvorst et al., 2015), few studies in the financial advice context
+have specifically investigated the interaction with robo-advisors (e.g., D'Acunto et al., 2019).
+Finally, the effectiveness of financial education interventions is mainly assessed using changes
+in elicited financial literacy, reported financial behavior, or aggregate savings measures such as
+pension plan contributions (cf. Stolper and Walter, 2017). Portfolio allocation and maintenance
+decisions, though highly consequential, are rarely addressed.
+
+This study contributes to the existing literature on financial education by including the use of
+financial advice in assessing the effectiveness of an intervention. Specifically, study
+participants were able to delegate parts of their experimental budget to a rule-based, algorithmic
+
+                                                             3
+         Financial Education and Digital Asset Management: What's in the Black Box?
+
+asset management tool. In doing so, our study further sheds light on how transparency affects
+the acceptance of algorithmic decision-making in a sensible application area. At the same time,
+we add to existing literature on the use of financial advice by addressing endogeneity issues of
+studies using measured financial literacy by conducting a randomized control trial in a
+laboratory environment (cf. Fernandes et al., 2014). Finally, we focus our analysis on portfolio
+allocation choices, which thus far has been an understudied outcome dimension of financial
+education.
+
+Our results suggest that a financial education intervention increases the extent to which
+investors delegate to a robo-advisory tool. The effect is stable across multiple specifications
+and is highly significant in both the statistical and economic sense. The budget share delegated
+by treated participants exceeds the share delegated by participants in the control group by more
+than 50 percent. This finding suggests that robo-advisors benefit from opening the "black box"
+of algorithmic financial decision-making to their prospective investors. It further implies that
+financial education can indirectly affect investment outcomes by encouraging the use of
+financial advice.
+
+Aside from its effect on the tendency to delegate to the robo-advisor, the financial education
+intervention had spillover effects on the investors' independent investment decisions. First, the
+intervention improved diversification, which did not displace delegation. Second, the
+intervention decreased self-reported risk aversion, while it increased the level of risk aversion
+as inferred from observed investment behavior in the laboratory. These findings imply that
+interventions that aim to increase the understanding of a robo-advisor's decision-making
+process affect investor behavior beyond the delegation decision.
+
+2. Background and related literature
+Retail investor behavior and financial literacy
+
+Retail investors tend to be subject to several costly investment mistakes. For instance, few
+investors are invested in the stock market despite the evidence of a substantial equity premium
+(Guiso et al., 2002). If they are invested, they are often under-diversified, exhibit an excessive
+preference for local equity (Goetzmann and Kumar, 2008), or insufficiently adjust their
+portfolios to general market movements (Calvet et al., 2009). Overconfident investors tend to
+trade excessively, which compromises their returns through transaction costs (Barber and
+
+                                                             4
+                                           Litterscheidt & Streich
+
+Odean, 2000; Glaser and Weber, 2007). Investors further tend to prefer to realize stock price
+gains rather than losses, thereby diluting investment performance (the so-called disposition
+effect, Shefrin and Statman, 1985). Surveys have shown that a large share of retail investors
+lacks understanding of basic financial concepts (Inderst and Ottaviani, 2012; Lusardi and
+Mitchell, 2011), which is associated with inefficient financial behavior (Agarwal et al., 2017).
+Although the established relationship is likely endogenous and thus overstated in magnitude
+(Hastings et al., 2013; Skagerlund et al., 2018), financial education programs aiming to increase
+financial literacy and improve financial decision-making have been introduced in a number of
+countries.
+
+Financial education
+
+Scholars have drawn on a large number of (mostly publicly funded) programs to estimate the
+effects of financial education on measures of financial behavior such as financial product
+awareness, contribution to savings plans, and credit card balances (cf. Hastings et al., 2013).
+However, establishing a causal relationship is tricky since participation is often voluntary and
+thus subject to selection. For instance, Meier and Sprenger (2013) report that participants of
+financial education programs are significantly more patient than non-participants. As a
+consequence, studies not accounting for selection bias overestimate the true effect of financial
+education interventions. Besides, Fernandes et al. (2014) conduct an extensive meta-analysis of
+201 studies assessing the relationship between (measured and manipulated) financial literacy
+on various measures of financial behavior. Their findings suggest that the relationship between
+financial literacy and financial behavior is subject to omitted variable bias as the correlation is
+significantly lower in studies using manipulated financial literacy and studies employing an
+instrumental variable approach than in studies based on simple correlations. They also find that
+the average effect of financial education interventions on financial behavior is negligible and
+decays over time. In light of the disparity between costs and benefits of financial education
+programs, Willis (2011) suggests relying on professional financial advisors in achieving
+favorable investment outcomes. In her view, well-regulated financial advice poses a superior
+alternative to large-scale financial education schemes.
+
+Financial advice
+
+                                                             5
+         Financial Education and Digital Asset Management: What's in the Black Box?
+
+Research on the benefits of financial advice has reached conflicting conclusions. On the one
+hand, professional advisors have been shown to increase retail investors' performance by
+improving diversification and reducing disposition effects. On the other hand, returns of advised
+portfolios did not exceed passive benchmark returns (cf. Stolper and Walter, 2017). Using a
+large-scale audit study, Mullainathan et al. (2012) show that advisors fail to improve investment
+behavior because doing so is often not in their best interest. Even if the advice given were
+unbiased, financial behavior could only be improved if the advice is sufficiently implemented.
+In their field study of a large-scale financial advice scheme conducted by a German brokerage,
+Bhattacharya et al. (2012) show that even though investors substantially benefitted from the
+advice if they followed it, only 5 percent of the sample considered the free and unbiased advice.
+Among those who considered the advice, more than two-thirds did not follow it at all. Those
+who did follow the advice did so only to a small extent. As a result, the advice scheme could
+not enhance investors' portfolios on average. This is particularly relevant given that studies
+have documented that advice taking and following are positively related to wealth and financial
+literacy (Bucher-Koenen and Koenen, 2015; Calcagno and Monticone, 2015). This finding
+implies that financial advice fails to reach those investors who would most benefit from it
+(Bhattacharya et al., 2012).
+
+Recently, an alternative to traditional financial advice has emerged in the form of robo-advisors.
+With lower minimum investment amounts and advisory fees, these services can provide less
+wealthy clients, who tend to be less financially literate (Lusardi and Mitchell, 2014), with access
+to financial advice (Philippon, 2016). Robo-advisors elicit their clients' risk preferences
+through standardized online risk questionnaires, based on which portfolio weights are assigned
+to a set of investment products. The resulting portfolio is continuously monitored and adjusted.
+Providers mainly rely on portfolio construction and rebalancing algorithms as part of their
+decision-making process (Jung et al., 2018; Rühr et al., 2019). Bhattacharya et al. (2012) show
+that a portfolio based on machine-generated advice in the form of a simple and unbiased mean-
+variance optimizer - as applied by most robo-advisors - can outperform self-managed portfolios
+by far. While robo-advisors might be able to overcome some of the limitations of traditional
+advisors, the algorithmic nature of decision-making might inhibit the use of such services.
+Information systems research has established that decision-making algorithms are often met by
+skepticism. In particular, decision-makers have been shown to punish errors made by an
+algorithmic decision support tool more gravely than errors made by a human (Dietvorst et al.,
+
+                                                             6
+                                           Litterscheidt & Streich
+
+2015). Thus, even though robo-advisors may improve financial outcomes, the challenge is to
+overcome investor skepticism regarding the decision-making algorithms.
+
+Research question
+
+Financial education and professional financial advice have been proposed as substitute
+measures to improve retail investors' financial behavior. However, several studies document
+that the extent to which advice is sought and followed is related to an investor's level of
+financial literacy. Thus, we study the effect of a financial education intervention on the use of
+financial advice. Specifically, we use a randomized control trial, in which participants can
+choose to delegate all or parts of their experimental budget to a robo-advisory tool. This design
+allows us to a) identify a potential benefit of financial education not considered so far, namely
+increased delegation to an unbiased advisory tool, b) overcome endogeneity issues of financial
+advice studies using measured financial literacy, and c) observe potential spillover effects to
+individual investment behavior.
+
+We use robo-advisors as a case for three reasons. First, compared to traditional financial
+advisors, robo-advisors can target less wealthy and less financially literate investors, who would
+benefit the most from an improvement in financial behavior. Second, they can provide
+customized information at the point of financial decision-making, which is considered
+important for the effectiveness of financial education (cf. Willis, 2011; Fernandes et al., 2014).
+Third, there are calls for mandatory disclosure requirements regarding the applied algorithms,
+which are conceptually similar to a financial education intervention. 3 Specifically, the aim is
+to improve clients' understanding of the robo-advisors' decision-making process (VZBV, 2018;
+SEC, 2017). Since decision-making in robo-advisors is mostly derived from modern portfolio
+theory, increasing the transparency of the inner workings of the algorithms necessarily includes
+communicating the underlying financial concepts.
+
+While financial advisors rely on information asymmetry as part of their business model, several
+arguments put forth in related literature point toward a positive impact of financial education
+on the use of their services. Yaniv and Kleinberger (2000) offer a framework for advice taking
+in which decision-makers weight conflicting opinions based on the subjective assessment of an
+
+3 A screening of the German robo-advisory market revealed that providers currently do not proactively disclose
+the underlying reasonings process to the investor. Online-Appendix A.1 displays a summary of the results of the
+market study.
+
+                                                             7
+         Financial Education and Digital Asset Management: What's in the Black Box?
+
+opinion's merit. Within this framework, decision-makers have privileged access to the
+reasoning underlying their own opinion, which leads them to place more weight on their own
+opinion than on an advisor's opinion, a behavior the authors call egocentric discounting. Thus,
+increasing the investor's understanding of the advisor's reasoning process could increase
+confidence and trust in the advisor's opinion, which has been linked to participation in risky
+assets and pension plans (Guiso et al., 2008; Agnew et al., 2012). This might be particularly
+relevant for robo-advisors, who rely on algorithms to make decisions that are crucial to their
+service: Dietvorst et al. (2015) show that errors made by an algorithmic decision support system
+are punished more gravely than errors made by a human advisor. Making investors familiar
+with the investment decision process by opening the "black box" of algorithmic financial
+decision-making could thus be of greater importance for robo-advisors than for human advisors.
+Studies from the information systems domain support the notion of a positive effect of
+explanation facilities on trust and technology adoption (Gregor and Benbasat, 1999; Wang and
+Benbasat, 2007).4 In particular, the provision of transparency seems to increase the appreciation
+of a robo-advisor (Rühr, 2020). Beyond that, robo-advisors predominantly invest in passively
+managed index funds, stressing the importance of risk diversification and applying a cost-
+cutting, low-turnover portfolio strategy. To convince clients of the superiority of this strategy
+compared to less complex financial products such as a bank deposit or life insurance contract,
+as well as more complex strategies involving technical and fundamental analyses, it could prove
+beneficial for them to educate clients on the principles of modern portfolio theory.
+
+3. Experimental design
+
+We conducted an incentivized student experiment in a controlled laboratory environment. In
+line with the results from a power test we conducted using the variance estimates from a pre-
+test, we targeted 200 participants. The experiment is structured in the following way.
+Participants first perform a real effort task that pays a performance-based budget. They are then
+asked to participate in an incentivized four-period financial decision-making game. In each
+period, participants allocate their previously earned budget to three distinct assets that evolve
+probabilistically in value. The value of their portfolio after the last period determines their
+payout. Participants can delegate decision-making to a robo-advisor for all or parts of their
+
+4 A survey conducted by the Bertelsmann foundation corroborates this, as respondents' self-proclaimed
+knowledge of and attitude towards algorithms is positively correlated (Grzymek and Puntschuh, 2019).
+
+                                                             8
+                                           Litterscheidt & Streich
+budget at a proportional fee. The service elicits the participants' risk preferences through a risk
+questionnaire, assigns a risk profile, implements a corresponding portfolio, and reestablishes
+the portfolio weights after each trading period.5 Participants in the treatment group are provided
+with detailed information on key financial concepts on which the robo-advisory algorithm's
+decision-making is based, which allows us to investigate the effect of financial education on
+the propensity to delegate to the robo-advisor.
+
+                                    Figure 1: Experimental procedure
+Figure 1 illustrates the chronological order of the experimental procedure. The various tasks
+the participants are required to conduct are depicted in the upper half of the figure. Information
+that is provided to the participants is depicted in the lower half. The highlighted explanations
+containing detailed information on the reasoning process of the robo-advisor are only provided
+to the treatment group. To avoid priming effects and collect all participants' risk preferences,
+we require both the control and the treatment group to complete the risk questionnaire. The
+initial decision to allocate parts of the budget to the robo-advisor cannot be reversed, which is
+intended to prevent participants from withdrawing their robo-advisor share after the first period
+and replicating the revealed asset allocation in the remaining periods. Participants observe the
+realized payoffs of the single assets and can adjust their self-managed portfolio allocation each
+period. The following sections will outline in more detail the procedure within the different
+parts of our experiment and the rationale behind the design choices.
+
+5 See Online-Appendix A.5 for the final payoff distributions of the portfolios implied by the robo-advisor's risk
+profiles.
+
+                                                             9
+         Financial Education and Digital Asset Management: What's in the Black Box?
+
+General knowledge and literacy questionnaire
+
+At the beginning of the experiment, participants are required to complete a real effort task
+consisting of a set of 20 general knowledge questions from different domains. Participants
+receive a payoff of 8 only if they answer at least ten questions correctly. 6 However,
+participants correctly answering more than ten questions do not receive any additional payoffs.
+This design prevents biases from both windfall endowments and wealth effects in the later
+stages of the experiment (Keasey and Moon, 1996; Ackert et al., 2006). Among the 20 questions
+making up the real effort task, six questions allow us to elicit the participants' knowledge of
+financial (three questions) and technological concepts (three questions).7 Including the literacy
+questions in the effort task allows us to elicit the ex-ante literacy levels of the participants while
+avoiding a priming effect that would bias behavior in the later stages of the experiment. The
+order of these questions is randomized to avoid order effects.8
+
+Financial decision-making task and robo-advisory option
+
+Participants that have completed the real effort task can increase their payoffs in repeated asset
+allocation tasks inspired by a related study's design (cf. Kuhnen, 2015), in which participants
+allocate their budget to three distinct assets. Asset A is a risk-free asset paying 5 percent with
+certainty. Asset B is a stock of moderate risk, paying +21 percent or -7 percent with equal
+probability. Asset C is a stock of high risk, paying +35 percent or -21 percent with equal
+probability. The realization of the risky assets' payoffs is mutually independent. Thus, asset C
+yields the same expected return as asset B at higher volatility, which might convey the
+impression that asset C is inferior to asset B. However, investors can reduce the volatility of
+their risky portfolios by combining assets B and C while keeping constant the expected rate of
+return. As a result, the minimum-variance portfolio constructed from the two risky assets
+dominates any other combination of the two risky assets for any risk-averse participant.9 The
+robo-advisor identifies the minimum-variance portfolio of the two risky assets and combines it
+with the risk-free asset A to accord with the individual risk preferences of a participant. Thus,
+
+6 Participants who answer less than ten questions correctly are awarded 4 and allowed to carry on participating
+in the experiment. In our sample, 196 of 205 participants received the high payment.
+7 We designed questions to capture a respondent's level of technological literacy. Since these questions have not
+yet been verified, implications should be treated with caution.
+8 A list containing all questions can be found in Online-Appendix A.7.
+9 The minimum-variance portfolio contains 80 percent of asset B, and 20 percent of asset C. Calculations are
+provided in Online-Appendix A.2.
+
+                                                            10
+                                           Litterscheidt & Streich
+
+using the robo-advisor prevents investors from investing in a dominated risky portfolio.
+However, since the degree of risk aversion determines the utility-maximizing budget shares of
+the risk-free asset and the risky minimum-variance portfolio, there is no globally optimal
+portfolio. While related research on financial decision-making has relied on tasks that have
+some form of optimal strategy (Kuhnen, 2015; Jung & Weinhardt, 2018), we are interested in
+the tendency of participants to delegate financial decision-making to a robo-advisor that can a)
+calculate the portfolio weights of the optimal risky portfolio, which prevents participants from
+holding a dominated risky portfolio, b) elicit the participants' risk preferences through a
+questionnaire and assign corresponding shares to the risk-free asset and the optimal risky
+portfolio, and c) reestablish the original allocation in response to changes in the assets' values.
+The robo-advisor unambiguously provides value in the first task since the exact shares are hard
+to assess, even for financially literate individuals. The same does not hold for the second task
+since participants might be better suited to assess their risk preferences than the robo-advisor
+(cf. Tertilt & Scholz, 2018).
+
+To make sure that using the robo-advisor is not a dominated option, we calibrated the maximum
+fee participants would be willing to pay by computing the additional utility that the use of the
+service yields in comparison to three counterfactual scenarios (worst possible investment
+strategy, risk-free portfolio strategy, and 1/N diversification strategy) and for each of the four
+risk profile groups. The results suggest that the maximum fee per period ranges between 0.4
+percent and 12.1 percent of managed assets in the experiment10, which is a realistic reference
+point considering that actual fees range from 0.4 percent to 1.2 percent in the German market
+(Stiftung Warentest, 2018). 11 Our pre-test confirmed that a per-period fee of 0.5 percent
+achieved sufficient variation in usage in the baseline case.
+
+The financial decision-making task lasts four periods. After each period, participants observe
+the realized payoffs and have the opportunity to change the composition of their self-managed
+asset allocation. Before trading starts, participants have the option to allocate parts of their
+budget to the robo-advisory algorithm at a per-period fee of 0.5 percent of the assets assigned
+to the robo-advisor. The allocation to the robo-advisor cannot be reversed in the later periods.
+The design of the robo-advisor is explained to the participants in the form of an animated video,
+which enhances participants' comprehension. Besides, it avoids announcer effects and
+simplifies the replication of the experiment by standardizing the intervention. While the
+
+10 Calculations are based on a  -  utility function and displayed in Online-Appendix A.6.
+11 The fees are based on a portfolio value of 51,000.
+
+                                                            11
+         Financial Education and Digital Asset Management: What's in the Black Box?
+
+instructions regarding the decision-making task, as well as essential information regarding the
+three core process steps of the robo-advisor, are shown to both treatment and control group,
+only participants in the treatment group receive detailed information on the financial intuition
+and rationale behind the various process steps (risk profiling, portfolio recommendation,
+rebalancing).
+
+The robo-advisor used in this experiment mirrors the most frequently observed features of
+current providers (Rühr et al., 2019). These features include eliciting risk preferences through
+a brief risk questionnaire, implementing a corresponding portfolio, and ongoing rebalancing.
+The risk questionnaire requires each participant to choose among a risk-free payoff and a risky
+lottery three times. The risky lottery choice becomes more appealing with each choice, while
+the risk-free option remains the same throughout the questionnaire. 12 Thus, the earlier a
+participant switches from the risk-free option to the risky lottery, the higher that participant's
+risk tolerance. The robo-advisor's decision-making process takes as inputs the answers to three
+lottery choices each specifically designed to tease out whether a participant's risk aversion
+coefficient is above or below a certain threshold. A utility function is fitted to these coefficients,
+which allows assigning each participant (provided that the reported preferences are consistent)
+one of four risk profiles spanning distinct ranges of risk aversion. Based on the assigned risk
+profile, a suitable portfolio that reflects the risk preferences of the participants is implemented
+and rebalanced by the robo-advisor.13 In addition to this quantitative elicitation measure, we
+gather a qualitative estimate, which is commonly used in the field. 14
+
+Treatment
+
+In line with the regulation envisioned by the German consumer protection agency and the SEC,
+we manipulate the instructions given to experimental participants by providing detailed
+information regarding the rationale behind the decision-making algorithm to the treatment
+group. Since decision-making in robo-advisors is based on modern portfolio theory, this
+necessarily includes communicating the underlying financial concepts. The additional
+information is provided in the form of how explanations that were initially proposed by Wang
+
+12 A detailed account of the lottery choices is contained in Online-Appendix A.3.
+13 Detailed calculations regarding the derivation of the recommended portfolios, as well as the math behind the
+lottery choices and portfolio recommendations are provided in Online-Appendices A.1, A.3, and A.4.
+14 "How do you see yourself: Are you generally a person who is fully prepared to take risks or do you try to
+avoid taking risks?", cf. Dohmen et al., 2011
+
+                                                            12
+                                           Litterscheidt & Streich
+
+and Benbasat (2007). These explanations "reveal the line of reasoning [...] based on consumer
+needs and product attribute preferences, and they outline the logical processes involved in
+reaching final recommendations" (p. 224). The explanations are provided to the participants in
+the form of an animated video to exploit the digital nature of the service provision and increase
+the degree of understanding (Lusardi et al., 2015). As opposed to the treatment group,
+participants of the control group only receive essential information regarding the three core
+process steps of the robo-advisor, which is in line with the current market situation (cf. Online-
+Appendix A.1). We carefully designed the instructions to provide all the information required
+to understand the robo-advisor's service to both the control and the treatment group. This design
+ensures that differences in delegation do not result from differences in the perceived extent of
+the service.
+
+The explanations follow the three process steps of the robo-advisory tool (risk questionnaire,
+portfolio allocation, and rebalancing). The risk questionnaire explanation illustrates that higher
+returns are typically associated with higher risk and that an optimal portfolio is always subject
+to an investor's risk preferences. Further, the mechanics of the robo-advisor's risk questionnaire
+are explained using an example, in which the relation between the participant's answers and the
+assigned risk profile is highlighted. The portfolio allocation explanation provides participants
+with an intuitive introduction to modern portfolio theory, explaining the concept of
+diversification and introducing the optimal market portfolio. Participants are demonstrated how
+their risk preferences affect the combination of the market portfolio with the risk-free asset. The
+rebalancing explanation demonstrates that the initial portfolio allocation changes after the asset
+values are realized in each period. The robo-advisor realigns the portfolio with a participant's
+risk preferences by establishing the initial allocation.
+
+The volume and complexity of information provided to the treatment group have been discussed
+as a potential threat to the identification of the treatment effect (Bergstrom and Stoll, 1990). To
+avoid differences in cognitive exhaustion, we show the control group an unrelated video of
+similar length and style in addition to the (shorter) instruction video. The multimedia
+presentation format of the instructions should decrease the degree of attention needed to process
+a given amount of information. After each video, participants answer a set of comprehension
+questions. In the treatment group, the aim is to a) test the effectiveness of the education
+treatment, b) stimulate attention, and c) obtain a control variable signaling the degree of
+comprehension in the treatment dimensions, i.e., the process steps of the robo-advisor. The
+control group receives the same amount of questions of a similar nature, which ensures
+
+                                                            13
+         Financial Education and Digital Asset Management: What's in the Black Box?
+
+comparability by equally stimulating attention and thereby inducing the same cognitive
+exhaustion.
+
+Control variables
+
+We collect several control variables in addition to standard demographic variables (such as
+gender and age) to capture individual characteristics that might affect the delegation decision.
+Firstly, overconfidence is associated with costly investment behavior (Barber and Odean,
+2000), as well as a lower likelihood of seeking financial advice (Guiso and Jappelli, 2006;
+Kramer, 2016) and delegating financial decisions (Calcagno and Monticone, 2015). Thus, we
+construct an overconfidence measure by asking participants how many questions they believe
+they answered correctly in the effort task and subtracting from that the number of questions
+they in fact answered correctly. Secondly, more risk-averse individuals tend to be more likely
+to seek advice (Bluethgen et al., 2008). We elicit a participant's risk preferences using three
+distinct measures. The first measure involves a lottery choice task. The second measure is based
+on self-assessment on an established scale (cf. Dohmen et al., 2011). The third measure is based
+on participants' behavior in the financial decision-making task. Specifically, we use the excess
+portfolio share allocated to the risk-free asset A in the self-managed portfolio portion to obtain
+a revealed measure of risk aversion.15 Since financially illiterate individuals stand to gain most
+from the delegation of portfolio decisions (Bianchi, 2018; Agarwal et al., 2017), we construct
+a financial literacy measure from the three questions testing financial knowledge in the effort
+task (cf. van Rooij et al., 2011), as well as a measure based on self-assessment. Aside from
+financial literacy, investors of robo-advisors might need a sufficient technological
+understanding of the process of algorithmic decision-making. Research has shown that the use
+of intelligent systems positively affects the use of a different yet similar system (Venkatesh and
+Davis, 1996; McFarland and Hamilton, 2006). Thus, we construct a technological literacy
+measure from the three questions testing technological knowledge in the effort task, as well as
+a measure based on self-assessment. We further inquire about the attitude toward new
+technologies (technology readiness, c.f. Parasuraman, 2000).
+
+15 We define the excess portfolio share of the risk-free asset as the observed portfolio share of asset A in the self-
+managed budget share minus the optimal portfolio share of asset A as inferred from the assumed utility function.
+
+                                                            14
+                                           Litterscheidt & Streich
+
+4. Data
+
+Prior to conducting the experiment, we extensively pre-tested the design with 16 individuals of
+different backgrounds. After the design was finalized, we pre-registered the experiment on the
+American Economic Association's registry for randomized controlled trials.16 The experiment
+was conducted in ten sessions (May 20th to May 22nd) at the MELESSA laboratory of the LMU
+Munich (Germany). We recruited 230 participants using the ORSEE software (Greiner, 2015),
+of which 205 showed up and completed the experiment. Randomization was conducted on two
+levels: participants were randomly assigned a computer in the lab, and each computer was
+randomly assigned to either the treatment or the control group. As a result, the treatment group
+consisted of 105 participants, and the control group consisted of 100 participants.
+
+                                    Table 1: Summary statistics
+
+                                    Mean St. dev.                   Min.     p25     p50     p75   Max.
+
+Duration (seconds)                  1614.56 343.68                  941    1363    1560    1784    2875
+                                                                      16      21      23      27      70
+Age (years)                         26.04 9.34                          -       -       -       -       -
+                                                                        -       -       -       -       -
+Female (D)                          0.60                        -    -11       -5      -3      -1       6
+                                                                       0        3       5       7     10
+Student (D)                         0.85                        -      0        0       0       1       3
+                                                                       0        1       2       2       3
+Overconfidence                      -2.98 2.88                         0        1       3       5     10
+                                                                       0        1       2       3       3
+Risk aversion (qualitative)         4.98 2.41                          0        2       4       6     10
+                                                                       0        2       4       6     10
+Risk aversion (quantitative)        0.76 1.09                          7      14      15      17      20
+
+Financial literacy (elicited)       1.76 0.83                       0.00    0.02    0.27    0.50    1.00
+                                                                    8.77   14.15   15.02   16.23   22.15
+Financial literacy (self-reported)  3.10 2.43                      -0.33    0.16            0.42    1.14
+                                                                                    0.26
+Technological literacy (elicited)   1.90 1.00
+
+Technological literacy (self-reported) 4.20 2.74
+
+Technology readiness                3.93 2.26
+
+Effort score                        15.27 2.49
+
+Budget share delegated              0.32 0.29
+
+Final payoff ()                     15.15 2.24
+
+Return on budget                    0.30 0.25
+
+Note: This table reports summary statistics for the main characteristics of the participants. The number
+of observations was 205 for all variables. Note that the final payoff includes a fixed show-up fee of 5.
+
+16 Litterscheidt and Streich (2019)
+
+                                                            15
+         Financial Education and Digital Asset Management: What's in the Black Box?
+
+Table 1 reports summary statistics for the main characteristics of the participants. The median
+participant took 26 minutes to complete the experiment. On average, participants were 26 years
+old, with a quarter of the observations exceeding 27 years. Sixty percent of participants were
+female, and 85 percent were enrolled as students at the time of the experiment. More than three-
+quarters of the participants underestimated the number of questions they answered correctly in
+the effort task and were classified as underconfident. Both the qualitative and the quantitative
+risk aversion measures vary substantially, with the former somewhat evenly distributed around
+the median and the latter positively skewed. The elicited financial and technological literacy
+variables are defined as the number of correctly answered questions from the two domains in
+the effort task (for exact specifications see Online-Appendix A.7). The self-reported literacy
+and readiness values are measured on an 11-point Likert scale. On average, participants
+answered 15.27 of the 20 general knowledge questions correctly, with nine participants falling
+below the threshold of ten correct answers and thus receiving an initial budget of 4. The
+primary variable of interest is the share of the budget delegated to the robo-advisor. On average,
+participants delegated 32 percent of their initial budget to the robo-advisory tool. The average
+payoff to participants was 15.15, which comprises a fixed show-up fee of 5 and an average
+return on the initial budget of 30 percent.
+
+We conducted non-parametric Mann-Whitney tests to identify any significant deviations in the
+observed variables between the treatment and control groups. Whenever significant differences
+were found (which was the case for age and duration), we included the variables as control
+variables in the subsequent analyses. The experiment was conducted on three consecutive days.
+To ensure that outliers do not drive our results, we compare the distributions of the variable of
+interest and show that there is no significant difference between the three days. 17
+
+As the budget share delegated to the robo-advisor is our primary dependent variable, Online-
+Appendix A.8 contains descriptive statistics and illustrations of the distribution of the delegated
+budget share. We observe that 55 participants allocated less than ten percent to the robo-advisor,
+including 50 participants that managed their entire budget themselves. As suggested by a
+Saphiro-Wilk test, normality of the observed sample is rejected. Thus, we conduct non-
+parametric tests throughout the following analysis to account for the non-normality and right-
+skewness of the distribution.
+
+17 A summary of the tests is displayed in Online-Appendix A.8.
+
+                                                            16
+                                           Litterscheidt & Streich
+
+5. Results
+
+The main question we try to answer in this study is whether the willingness to use a robo-
+advisor is affected by a financial education intervention. We show that participants in the
+treatment group delegate a significantly higher share of their budget to the robo-advisor than
+participants in the control group. Figure 2 displays the univariate treatment effect, which is
+highly significant and amounts to 15.26 percentage points when considering the entire sample
+and 20.12 percentage points when considering only the subset of participants that have correctly
+answered all comprehension questions. Considering an average share of 32.3 percent in the
+entire sample and 24.5 percent in the control group, this represents an economically significant
+effect.
+
+                       a) All observations                                                                                           b) Comp. questions answered correctly
+60                                                                                                                        60
+
+    t = -3.84 ***                                                                                                             t = -3.84 ***
+
+50  z MW = -3.72 ***                                                                                                      50  z MW = -3.69 ***
+
+    z BS = -3.72 ***                                                                                                          z BS = -3.76 ***
+Budget share delegated to robo-advisor (%)
+40                                                                            Budget share delegated to robo-advisor (%)  40
+
+30                                                                                                                        30
+
+20                                                                                                                        20
+
+10                                                                                                                        10
+
+0                        Treatment group                                                                                  0                        Treatment group
+          Control group                                                                                                             Control group
+
+                              Figure 2: Main treatment effect (univariate)
+
+Note: This figure displays the average budget share delegated to the robo-advisory tool and the 95
+percent confidence interval by groups for a) the entire sample (N = 205) and b) participants that have
+correctly answered all comprehensions questions (N = 121). Test statistics are reported for two-sample
+t-tests (t), non-parametric Mann-Whitney tests (zMW), and parametric estimates on 9,999 bootstrap
+samples (zBS).
+
+                                            17
+Financial Education and Digital Asset Management: What's in the Black Box?
+
+We report the results of a more detailed empirical analysis in Table 2. We perform OLS
+regressions with and without control variables (columns 1 and 2), as well as a fixed effects
+regression to account for session-specific characteristics (column 3):
+
+      , = 0 + 1 + 2i + s +                                                  (1)
+
+where , is the budget share participant  delegated to the robo-advisor,
+ is a dummy variable indicating treatment,  includes participant-level control
+variables,  includes session fixed effects, and  is the error term. The treatment coefficient
+remains stable across specifications and implies that educating participants on the inner
+
+workings of the robo-advisory algorithm increases the budget share delegated to the service by
+
+more than 15 percentage points.
+
+           Table 2: Multivariate analysis of treatment effect
+
+                                 (1)       (2)                 (3)
+
+                                 Delegation Delegation Delegation
+
+Treatment                        0.153***  0.156***  0.162***
+Constant                          (0.040)   (0.041)   (0.042)
+                                 0.245***  0.287**    0.261*
+                                  (0.026)   (0.115)   (0.140)
+
+Obs.                             205        205                 205
+                                            Yes                 Yes
+Controls                         No         No                  Yes
+                                           7.05%               8.33%
+Session fixed effects            No        4.72%               1.57%
+                                           3.021               1.221
+R2                               6.73%      0.01                0.26
+                                            199                 190
+Adj. R2                          6.28%
+
+F-value                          14.77
+
+p-value                          0.00
+
+d.f.                             203
+
+Robust standard errors in parentheses
+
+*** p<0.01, ** p<0.05, * p<0.1
+
+Note: This table displays the coefficients of regressions on the budget share participants delegated to the
+robo-advisor. In columns 2 and 3, we control for age, duration, financial literacy, and technological
+literacy. In column 3, we include session fixed effects to account for session-specific characteristics.
+The treatment coefficient is robust to the inclusion of clustered standard errors at the session-level.
+
+In the next step, we investigate how the treatment affected participants' behavior in the financial
+decision-making task. Since the treatment group is provided with detailed information
+
+                                                            18
+                                           Litterscheidt & Streich
+
+regarding the inner workings of the robo-advisor in the three process steps (risk profiling,
+portfolio allocation, and rebalancing), we test whether the treatment directly affects
+participants' behavior in these three steps. As most participants decided to manage at least a
+part of their budget themselves (193 of 205), we can exploit their behavior in the financial
+decision-making task. More specifically, we can examine whether participants in the treatment
+group behave differently from participants in the control group in terms of a) their risk
+preferences, b) portfolio allocation, and c) rebalancing.
+
+Risk preferences
+
+We gather information regarding the participants' risk preferences in the form of a risk
+questionnaire designed to resemble risk questionnaires applied in the field. In addition to this
+quantitative measure of risk aversion, we asked participants to provide an assessment of their
+risk preferences using an established scale (cf. Dohmen et al., 2011). Exploiting our
+experimental design, we compute a third measure that ­ as opposed to the two stated measures
+- captures a subject's revealed risk preferences. We use the excess share of the self-managed
+budget portion allocated to the risk-free asset A in the first period of the financial decision-
+making game as a measure of risk aversion. According to modern portfolio theory, an investor's
+risk preferences should govern the share of wealth invested in the risk-free asset. Thus, using
+the share invested in the risk-free asset in the first period (=, 1) allows us to infer a subject's
+level of risk aversion.18 We subtract from that measure the optimal share of the risk-free asset
+A according to the individual risk profile elicited in the risk questionnaire (,, see Online-
+Appendix A.4):
+
+                  , = =, 1 - ,                                               (2)
+
+, is a measure of a participant's excess risk aversion over the elicited
+
+preferences. If this measure is larger than (smaller than) zero, the participant's allocation reveals
+
+a higher (lower) level of risk aversion than suggested by her risk profile.
+
+Next, we investigate whether the three risk aversion measures systematically differ between
+participants in the treatment and control group. Table 3 reports summary statistics for the three
+measures by groups, as well as test statistics for non-parametric Mann-Whitney tests. The tests
+
+18 We use information from the first period to avoid distortions from wealth effects (cf. Paravisini et al., 2017)
+and from feedback regarding return realizations (cf. Gneezy and Potters, 1997).
+
+                                                            19
+Financial Education and Digital Asset Management: What's in the Black Box?
+
+suggest that participants in the treatment group do not differ from participants in the control
+group in terms of the quantitative risk aversion measure. However, their self-reported risk
+aversion is significantly lower than that of the control group. At the same time, treated
+participants' behavior in the financial decision-making game suggests that their excess risk
+aversion is significantly higher than that of the control group.
+
+                              Table 3: Risk aversion measures by groups
+
+                                   Control         Treatment   z score
+                              Mean St. dev.     Mean St. dev.
+                                                                 1.42
+Risk aversion (quantitative)  0.76       1.28   0.43   1.00      2.41 **
+Risk aversion (qualitative)   5.24       2.55   4.25   2.33      2.41 **
+Risk aversion (excess)        20.42      29.01  28.27  33.18
+
+Note: This table displays means and standard deviations of three risk aversion measures by groups. The
+quantitative measure is derived from the answers to the lottery choices in the risk questionnaire (0 ­
+least risk-averse to 3 - most risk-averse). The qualitative measure is based on a self-assessment of
+participants on an 11-point Likert scale (0 ­ least risk-averse to 10 ­ most risk-averse). The excess risk
+aversion is based on revealed preferences of participants in the allocation stage. The last column contains
+the z scores of non-parametric Mann-Whitney tests. Significance levels are indicated by stars (***
+p<0.01, ** p<0.05, * p<0.1). The sample is restricted to subjects that have answered the lottery choices
+consistently and ­ in the case of the treatment group - have correctly answered the comprehension
+question targeting the risk profiling explanations in the treatment video (N = 154).
+
+Since two of the univariate differences are statistically significant, we further investigate the
+relationship between the various risk aversion measures. First, we analyze whether the
+difference in the qualitative risk aversion measure persists when we account for a participant's
+quantitative risk aversion measure. Thus, we report the coefficients of a multivariate linear
+regression on the qualitative risk aversion measure in Online-Appendix A.8, which imply that
+the treatment decreases a participant's self-reported risk aversion even when controlling for the
+quantitative risk aversion measure. These results are consistent with an anchoring effect of the
+risk questionnaire on the self-assessment in the treatment group, which is induced by the risk
+profile explanation.
+
+                                     20
+                                             Litterscheidt & Streich
+
+                        a) Control group                                                                                    b) Treatment group
+40                                                                                                    40
+
+                                  t = -1.18                                                                                           t = -2.48 **
+                              z MW = -1.45                                                                                        z MW = -2.02 **
+                               z BS = -1.14                                                                                        z BS = -2.48 **
+
+30                                                                                                    30
+
+Risk aversion (excess)20                                                                              20
+                                                                              Risk aversion (excess)
+10                                                                                                    10
+
+0                                                                                                     0
+
+-10                         Delegation                                                                -10                         Delegation
+             No delegation                                                                                         No delegation
+
+                             Figure 3: Comparison of excess risk aversion
+
+Note: This figure displays the average excess risk aversion (i.e., the difference between budget share
+invested in the risk-free asset A in period 1 and budget share suggested for respective risk profile) and
+the 95 percent confidence interval by delegation to the robo-advisor for a) the control group (N = 98)
+and b) the treatment group (N = 95). In the control (treatment) group, 65 (78) participants delegated at
+least a part of their budget. The sample was restricted to participants that have not delegated their entire
+budget to the robo-advisor and ­ in the case of the treatment group ­ correctly answered the
+comprehension question targeting the risk profile explanations in the treatment video. Test statistics are
+reported for two-sample t-tests (t), non-parametric Mann-Whitney tests (zMW), and parametric estimates
+on 9,999 bootstrap samples (zBS).
+
+Second, we take a closer look at the excess risk aversion measure. Recall that participants can
+delegate part of their budget to the robo-advisor and manage the remaining part themselves.
+The values for the excess risk aversion imply that the average participant in both the control
+and treatment group acted more risk-averse than suggested by the robo-advisor's risk profile.
+This difference is significantly higher in the treatment group than in the control group (see
+Table 3). Within the treatment group, participants that use the robo-advisor display higher levels
+of excess risk aversion than participants who do not use the robo-advisor (see Figure 3).
+
+Counterintuitively, the risk profile explanation seems to have opposing effects on the
+participants' self-reported and revealed levels of risk aversion. On the one hand, the self-
+
+                                                            21
+         Financial Education and Digital Asset Management: What's in the Black Box?
+
+reported level of risk aversion decreases. On the other hand, the participants' portfolio choices
+in the self-managed budget share suggest an increase in risk aversion. Both effects can be
+rationalized by increased awareness of how the risk questionnaire affects the risk profile of the
+portfolio suggested by the robo-advisor.
+
+Portfolio allocation
+Portfolio diversification is a central feature of modern portfolio theory. The idea of combining
+non-perfectly correlated risky assets to decrease asset-specific risk is essential to maximize risk-
+adjusted portfolio returns. In our experiment, we designed the two risky assets such that both
+have the same expected return, while one risky asset has a lower standard deviation than the
+other risky asset. This construction might convey the impression that the latter is inferior to the
+former. However, since the realizations of the two assets' returns are independent, any
+combination of the two risky assets is superior to both assets in terms of its risk-adjusted return.
+Consequently, we would expect participants that have understood the principles of
+diversification to invest in both risky assets instead of either one. Thus, we construct our
+measure of diversification as the average share of periods in which the participants diversified
+their risky portfolio, i.e., periods in which they invested in both risky assets. Figure 4 illustrates
+the diversification variable for the control and treatment group.
+The results of parametric and non-parametric tests indicate that, on average, participants of the
+treatment group diversify more often than participants of the control group. This behavior
+indicates that the portfolio allocation part of the treatment is effective since participants make
+decisions that are in line with modern portfolio theory. Thus, educating participants about
+portfolio diversification indeed improved their financial decision-making ability. However, this
+raises the question as to whether educated investors should delegate investment to a robo-
+advisory tool at all.
+
+                                                            22
+                                            Litterscheidt & Streich
+
+                 0.9
+                                                                         t = -1.71 *
+
+                                                                     z MW = -2.00 **
+                                                                      z BS = -1.76 *
+                 0.8
+
+Diversification  0.7
+
+                 0.6
+
+                 0.5                                                                  Treatment
+                                           Control
+
+                      Figure 4: Treatment effect on diversification (univariate)
+
+Note: This figure displays the average fraction of periods in which the participants included both risky
+assets in their portfolios by groups. The sample was restricted to participants that have a) invested in at
+least one risky asset and b) ­ in the case of the treatment group - correctly answered the comprehension
+question targeting the portfolio allocation explanations in the treatment video (N = 183). We report test
+statistics for two-sample t-tests (t), non-parametric Mann-Whitney tests (zMW), and parametric estimates
+on 9,999 bootstrap samples (zBS).
+
+To investigate whether enhanced diversification displaced adoption, we run a multivariate
+regression of the tendency to delegate to the robo-advisor on the treatment and the
+diversification measure. Table 4 displays the results of OLS regressions with and without
+control variables (columns 1 and 2), a fixed effects regression to account for session-specific
+characteristics (column 3), as well as a regression using a restricted sample (column 4):
+
+, = 0 + 1 + 2 + 3i + s +                                                                         (3)
+
+where  is a measure ranging between zero and one. The diversification
+coefficients are statistically significant and range from 10.31 percentage points to 13.16
+
+percentage points, which represents an economically significant relationship. The coefficient
+
+remains stable across specifications and implies that participants that more frequently diversify
+
+their portfolio delegate a higher share of their budget to the robo-advisor.
+
+                                                    23
+    Financial Education and Digital Asset Management: What's in the Black Box?
+
+          Table 4: Multivariate analysis of diversification on delegation
+
+                                (1)       (2)       (3)                    (4)
+
+                       Delegation Delegation Delegation Delegation
+
+Treatment                       0.138***  0.141***  0.145***               0.167***
+Diversification                  (0.039)   (0.040)   (0.041)                (0.045)
+Constant                        0.132***  0.129***  0.128***               0.103**
+                                 (0.047)   (0.047)   (0.048)                (0.051)
+                                0.159***   0.195*     0.179                 0.273*
+                                 (0.038)   (0.111)   (0.132)                (0.142)
+
+Obs.                            205        205        205                    183
+                                           Yes        Yes                    Yes
+Controls                        No         No         Yes                    Yes
+                                          9.60%     10.70%                 11.90%
+Session fixed effects           No        7.79%     4.57%                  5.12%
+                                          5.394      1.869                  1.794
+R2                              9.53%      0.00      0.04                   0.05
+                                           200        191                    169
+Adj. R2                         8.63%
+
+F-value                         10.86
+
+p-value                         0.00
+
+d.f.                            202
+
+Robust standard errors in parentheses
+
+*** p<0.01, ** p<0.05, * p<0.1
+
+Note: This table displays the coefficients of regressions on the budget share participants delegated to the
+robo-advisor. In columns 2 and 3, we control for age, duration, financial literacy, and technological
+literacy. In column 3, we include session fixed effects accounting for session-specific characteristics. In
+column 4, we restrict the sample to participants that have a) invested in a risky asset and b) ­ in the case
+of the treatment group - correctly answered the comprehension question targeting the portfolio allocation
+explanations in the treatment video (N = 183). The treatment coefficients are robust to the inclusion of
+clustered standard errors at the session-level.
+
+Rebalancing
+
+Rebalancing refers to the re-establishment of the initial asset allocation in response to changes
+in the portfolio weights. Given that the initial allocation adequately reflected a participant's risk
+preferences and assuming stable preferences, rebalancing ensures that the participants'
+preferences and the risk profile of their respective portfolios remain aligned. In the experiment,
+the robo-advisory tool takes care of rebalancing in the delegated budget share, while
+participants are in charge of the portfolio weights in the self-managed part of their budgets.
+Since the treatment video explains the underlying reasoning behind the concept of rebalancing,
+we would expect participants in the treatment group to engage more actively in rebalancing
+than participants of the control group.
+
+                                                            24
+       Litterscheidt & Streich
+
+In the context of the financial decision-making game, rebalancing efforts relate to the weights
+of the two risky assets in the risky portfolio. We do not focus on the fraction of the share of the
+risk-free asset since this proportion is driven by the risk preferences of the investors and
+potential wealth effects of prior returns. Thus, we define a novel, inverse measure of a
+participant's rebalancing ability (), which is defined as the standard deviation of
+the share of asset B within the risky portfolio over the four periods:
+
+ =  1   4  ( , + , ,  -  1   4   , + , ,)2                                             (4)
+    4                    4
+                            
+
+       =1                   =1
+
+where  , is the share of asset B in participant 's portfolio in period , and , is the share of
+
+asset C in participant 's portfolio in period . Participants with a  value equal to
+
+zero maintained their initial asset allocation in each period, suggesting high rebalancing ability.
+
+Participants with a higher  value on average more frequently or extensively
+deviated from their average portfolio allocation, suggesting lower rebalancing ability. In
+
+Online-Appendix A.8, we compare this measure across both groups to evaluate whether the
+
+part of the treatment video referring to rebalancing affected participants' behavior.
+
+The test statistics suggest that the control and treatment groups do not differ in terms of
+rebalancing ability. Taking a closer look at the distribution of the rebalancing measure, we find
+that most of the participants barely have any variation in their asset allocation, suggesting high
+rebalancing ability throughout the sample.19 The static payoff profile of the assets, as well as
+the small number of trading periods, might have contributed to stable allocation choices. In
+addition, the fact that participants do not need to buy and sell assets to reach a particular
+portfolio allocation, but instead directly state the desired portfolio weights decreases the costs
+of rebalancing.
+
+6. Discussion
+We study financial decision-making in a randomized control trial, contributing to existing
+literature on the effectiveness of financial education by allowing participants to delegate
+financial decision-making. Specifically, we conduct our study in the context of robo-advisors
+that might be in a good position to effectively educate investors due to their broad investor base
+
+19 See Online-Appendix A.8 for an illustration of the distribution of the rebalancing measure.
+
+                                                            25
+         Financial Education and Digital Asset Management: What's in the Black Box?
+
+and digital service provision, which allows for just-in-time interventions (cf. Fernandes et al.,
+2014). At the same time, it might be more relevant for robo-advisors than for traditional
+advisors to communicate their underlying investment logic to oppose algorithm aversion due to
+the perception of a `black box' decision-making process (Dietvorst et al., 2015).
+
+Our results show that providing detailed information regarding the inner workings of a robo-
+advisory algorithm increases participants' tendency to delegate financial decision-making. The
+effects in the laboratory are substantial and stable across several specifications. Aside from the
+main treatment effect, we identify two insightful effects on the behavior of the treated
+participants. First, we observe conflicting alterations in different risk aversion measures.
+Second, treated participants display improved portfolio diversification, which does not displace
+delegation.
+
+Delegation
+
+We find that the financial education intervention increases delegation to the robo-advisor. Our
+interpretation of this finding is twofold: First, the intervention may have affected how
+participants perceive the investment decision. Specifically, educating investors on the
+considerations involved in the investment decision can have one of two consequences. On the
+one hand, it may increase investors' understanding of the decision principles, which increases
+their confidence to make the decision themselves. On the other hand, it may highlight the
+complexity of the decision and the improvement in the financial outcome that a viable
+investment strategy can provide. Given that we observe a greater extent of delegation among
+participants that received the financial education intervention, the latter seems more plausible.
+Second, the intervention may have affected how participants perceive the robo-advisor's
+service. Specifically, the intervention may have increased trust in the service as it increased the
+investor's understanding of the algorithm's reasoning process, which seems to be particularly
+relevant for algorithmic decision-support systems such as robo-advisors (cf. Dietvorst et al.,
+2015). Trust may be higher because the treatment was effective at educating participants or
+because it provided more transparency regarding the service (Rühr, 2020). The design of our
+treatment, as well as the fact that treated participants were better at diversifying their portfolios,
+suggests that the effect was not only driven by increased transparency.
+
+                                                            26
+                                           Litterscheidt & Streich
+
+Risk aversion
+
+Concerning the risk aversion measures, we identify two opposing effects. On the one hand, we
+observe lower levels of the self-reported risk aversion measure for treated participants, even
+when controlling for the risk aversion measure elicited through the risk questionnaire. On
+average, participants overestimate their level of risk aversion: the median participant's answers
+to the risk questionnaire were consistent with the riskiest investor profile, while the median
+participant stated to be moderately risk-averse, i.e., five on a scale from zero to ten. Thus, the
+treatment seems to have enhanced the participants' understanding of their risk preferences,
+which is consistent with an anchoring effect stemming from the risk profile explanation.
+
+On the other hand, we observe higher levels of excess risk aversion among treated participants.
+The difference seems to be driven by treated participants who at least partially delegate
+decision-making to the robo-advisor. Specifically, we find significantly higher excess risk
+aversion among delegating participants in the treatment group, but not in the control group. We
+identify two potential interpretations of the observed patterns. First, participants might answer
+the risk questionnaire strategically to save fees: Participants incur fees in proportion to the total
+amount delegated to the robo-advisor. Our treatment aims to increase participants'
+understanding of how their answers to the risk questionnaire translate into the portfolio
+implemented by the robo-advisor. Thus, treated participants, who obtain more information
+about the relationship between their risk profiles and the robo-advisor's portfolio allocation,
+may only want to use the robo-advisor to manage the risky part of their portfolio (optimal
+combination of risky assets B and C) and determine the risk-free share of their portfolio (share
+of risk-free asset A) themselves. This could be achieved by understating risk aversion in the
+questionnaire and delegating only the risky share of their budget to the robo-advisor. This would
+be associated with a higher risky share in the delegated portfolio and, correspondingly, a higher
+risk-free share in the self-managed portfolio, which could explain the observed differences in
+excess risk aversion. To test this interpretation, we compare the risk profiles derived from the
+questionnaire between the control and treatment group, as well as between delegating and non-
+delegating participants within the treatment group. Since the measure does not differ
+significantly for either comparison, we discard this interpretation.
+
+Second, participants might strategically increase the risk-free share in the self-managed
+portfolio to counteract the risk of the portfolio implemented by the robo-advisor, which they
+may perceive to be excessive. We observe a marked difference between participants' self-
+
+                                                            27
+         Financial Education and Digital Asset Management: What's in the Black Box?
+
+reported risk aversion and the risk profiles assigned to them. Participants in the treatment group
+might be made aware of this deviation, which would cause them to offset the risk in the
+delegated portfolio by taking less risk in the self-managed portfolio. Two assumptions need to
+hold for this interpretation to be plausible: First, the treatment improves the awareness of the
+gap in self-reported and assigned risk aversion. The fact that we observe lower levels of self-
+reported risk aversion for treated participants (which aligns self-reported and assigned risk
+aversion) provides some support for this assumption. Second, participants react to the perceived
+deviation by strategically adjusting the risk-free share in the self-managed portfolio. The fact
+that excess risk aversion is positively associated with delegation to the robo-advisor in the
+treatment group provides some support for that assumption.
+
+Diversification
+
+Two findings emerge from analyzing the impact of the portfolio allocation part of the treatment.
+On the one hand, we find that treated participants more frequently diversify their risky
+portfolios, which suggests that the treatment enhances the understanding of the principles of
+portfolio diversification. On the other hand, this improvement does not contest the use of the
+robo-advisor. Instead, participants with higher diversification abilities were more inclined to
+delegate to the robo-advisor. This finding is at odds with the results of previous studies, which
+show that financially literate individuals are less likely to delegate financial decisions (Calcagno
+and Monticone, 2015) and less likely to follow financial advice once it is provided (Stolper,
+2018; Hackethal et al., 2010). According to this logic, efficient portfolio diversification can be
+achieved either through financial literacy or financial advice (Gaudecker, 2015). However, our
+findings suggest that financial education enhances diversification while increasing advice
+taking. As a result, financial education might increase the probability of achieving favorable
+investment outcomes, both directly (through enhanced diversification ability) and indirectly
+(through increased delegation, assuming that delegation improves investment outcomes). Thus,
+our study makes a more optimistic case for the effect of financial education interventions on
+financial outcomes, at least in the short run, than previous studies (cf. Fernandes et al., 2014).
+
+Building on the findings documented in this study, several interesting extensions are worth
+pointing out. First, we cannot clearly distinguish whether the financial education intervention
+increased delegation because of the improvement in financial knowledge or because of
+increased transparency regarding the decision-making process. To test whether transparency
+per se affects the delegation decision, our design could be extended to investigate whether the
+
+                                                            28
+                                           Litterscheidt & Streich
+treatment effect differs when participants can delegate decision-making to a human asset
+manager. As transparency might be more important for an algorithmic than for a human
+decision-maker (Dietvorst et al., 2015), a stronger increase in delegation to the robo-advisor
+would indicate that transparency per se affects the delegation decision.
+Second, the spillover effects of the financial education intervention cannot be disentangled from
+the delegation decision in our framework since participants simultaneously optimize over the
+self-managed and delegated portfolios. Thus, the effect of the intervention on investment
+behavior could be studied with and without the availability of a robo-advisory tool. This design
+could also be used to test whether the treatment primarily affected the participants' perception
+of the decision-making task or the robo-advisor's service.
+
+                                                            29
+         Financial Education and Digital Asset Management: What's in the Black Box?
+
+     References
+
+Ackert, L. F., Charupat, N., Church, B. K., & Deaves, R. (2006). An experimental
+      examination of the house money effect in a multi-period setting. Experimental
+      Economics, 9(1), 5-16.
+
+Agarwal, S., Chomsisengphet, S., & Lim, C. (2017). What shapes consumer choice and
+      financial products? A Review. Annual Review of Financial Economics, 9, 127-146.
+
+Agnew, J. R., Szykman, L. R., Utkus, S. P., & Young, J. A. (2012). Trust, plan knowledge
+      and 401 (k) savings behavior. Journal of Pension Economics & Finance, 11(1), 1-20.
+
+Barber, B. M., & Odean, T. (2000). Trading is hazardous to your wealth: The common stock
+      investment performance of individual investors. The Journal of Finance, 55(2), 773-806.
+
+Barber, B. M., & Odean, T. (2013). The behavior of individual investors. In Handbook of the
+      Economics of Finance (Vol. 2, pp. 1533-1570). Elsevier.
+
+Bazot, G. (2017). Financial consumption and the cost of finance: Measuring financial
+      efficiency in Europe (1950-2007). Journal of the European Economic Association, 16(1),
+      123­160.
+
+Bergstrom, J. C., & Stoll, J. R. (1990). An analysis of information overload with implications
+      for survey design research. Leisure Sciences, 12(3), 265-280.
+
+Bianchi, M. (2018). Financial literacy and portfolio dynamics. The Journal of Finance, 73(2),
+      831-859.
+
+Bhattacharya, U., Hackethal, A., Kaesler, S., Loos, B., & Meyer, S. (2012). Is unbiased
+      financial advice to retail investors sufficient? Answers from a large field study. The
+      Review of Financial Studies, 25(4), 975-1032.
+
+Bluethgen, R., Gintschel, A., Hackethal, A., & Mueller, A. (2008). Financial advice and
+      individual investors' portfolios. SSRN Working Paper
+
+Bonaccio, S., & Dalal, R. S. (2006). Advice taking and decision-making: An integrative
+      literature review, and implications for the organizational sciences. Organizational
+      Behavior and Human Decision Processes, 101(2), 127-151.
+
+Bucher-Koenen, T., & Koenen, J. (2015). Do Seemingly Smarter Consumers Get Better
+      Advice?. Max Planck Institute for Social Law and Social Policy Discussion Paper, (01-
+      2015).
+
+Calcagno, R., & Monticone, C. (2015). Financial literacy and the demand for financial
+      advice. Journal of Banking & Finance, 50, 363-380.
+
+Calvet, L. E., Campbell, J. Y., & Sodini, P. (2007). Down or out: Assessing the welfare costs
+      of household investment mistakes. Journal of Political Economy, 115(5), 707-747.
+
+                                                            30
+                                           Litterscheidt & Streich
+
+Calvet, L. E., Campbell, J. Y., & Sodini, P. (2009). Fight or flight? Portfolio rebalancing by
+      individual investors. The Quarterly Journal of Economics, 124(1), 301-348.
+
+Campbell, J. Y., Jackson, H. E., Brigitte, C., & Tufano, P. (2011). Consumer Financial
+      Protection. Journal of Economic Perspectives, 25(1), 91­114.
+
+D'Acunto, F., Prabhala, N., & Rossi, A. G. (2019). The promises and pitfalls of robo-
+      advising. The Review of Financial Studies, 32(5), 1983-2020.
+
+Dietvorst, B. J., Simmons, J. P., & Massey, C. (2015). Algorithm aversion: People
+      erroneously avoid algorithms after seeing them err. Journal of Experimental Psychology:
+      General, 144(1), 114.
+
+Dietvorst, B. J., Simmons, J. P., & Massey, C. (2016). Overcoming algorithm aversion:
+      People will use imperfect algorithms if they can (even slightly) modify
+      them. Management Science, 64(3), 1155-1170.
+
+Dohmen, T., Falk, A., Huffman, D., Sunde, U., Schupp, J., & Wagner, G. G. (2011).
+      Individual risk attitudes: Measurement, determinants, and behavioral
+      consequences. Journal of the European Economic Association, 9(3), 522-550.
+
+Fama, E. F., & French, K. R. (2010). Luck versus skill in the cross-section of mutual fund
+      returns. The Journal of Finance, 65(5), 1915-1947.
+
+Gaudecker, H. M. V. (2015). How does household portfolio diversification vary with financial
+      literacy and financial advice?. The Journal of Finance, 70(2), 489-507.
+
+Glaser, M., & Weber, M. (2007). Overconfidence and trading volume. The Geneva Risk and
+      Insurance Review, 32(1), 1-36.
+
+Gneezy, U., & Potters, J. (1997). An experiment on risk taking and evaluation periods. The
+      Quarterly Journal of Economics, 112(2), 631-645.
+
+Goetzmann, W. N., & Kumar, A. (2008). Equity portfolio diversification. Review of
+      Finance, 12(3), 433-463.
+
+Gregor, S., & Benbasat, I. (1999). Explanations from intelligent systems: Theoretical
+      foundations and implications for practice. MIS Quarterly, 497-530.
+
+Greiner, B. (2015). Subject pool recruitment procedures: organizing experiments with
+      ORSEE. Journal of the Economic Science Association, 1(1), 114-125.
+
+Grzymek, V., & Puntschuh, M. (2019). What Europe Knows and Thinks About Algorithms.
+      Results of a Representative Survey. [accessed on 02/07/2019] https://www.bertelsmann-
+      stiftung.de/fileadmin/files/BSt/Publikationen/GrauePublikationen/WhatEuropeKnowsAn
+      dThinkAboutAlgorithm.pdf
+
+Guiso, L., Haliassos, M., & Jappelli, T. (Eds.). (2002). Household portfolios. MIT press.
+      Cambridge, MA.
+
+                                                            31
+         Financial Education and Digital Asset Management: What's in the Black Box?
+
+Guiso, L., & Jappelli, T. (2006). Information acquisition and portfolio performance. Working
+      Paper
+
+Guiso, L., Sapienza, P., & Zingales, L. (2008). Trusting the stock market. The Journal of
+      Finance, 63(6), 2557-2600.
+
+Hackethal, A., Inderst, R., & Meyer, S. (2010). Trading on advice. SSRN Working Paper
+
+Hastings, J. S., Madrian, B. C., & Skimmyhorn, W. L. (2013). Financial literacy, financial
+      education, and economic outcomes. Annual Review of Economics, 5(1), 347-373.
+
+Inderst, R., & Ottaviani, M. (2012). Financial advice. Journal of Economic Literature, 50(2),
+      494-512.
+
+Jung, D., Dorner, V., Glaser, F., & Morana, S. (2018). Robo-Advisory. Business &
+      Information Systems Engineering, 60(1), 81-86.
+
+Jung, D., & Weinhardt, C. (2018). Robo-Advisors and Financial Decision Inertia: How
+      Choice Architecture Helps to Reduce Inertia in Financial Planning Tools. Thirty Ninth
+      International Conference on Information Systems
+
+Keasey, K., & Moon, P. (1996). Gambling with the house money in capital expenditure
+      decisions: An experimental analysis. Economics Letters, 50(1), 105-110.
+
+Kramer, M. M. (2016). Financial literacy, confidence and financial advice seeking. Journal of
+      Economic Behavior & Organization, 131, 198-217.
+
+Kuhnen, C. M. (2015). Asymmetric learning from financial information. The Journal of
+      Finance, 70(5), 2029-2062.
+
+Litterscheidt, R., & Streich, D. (2019). "Financial Education and Advice: The Case of Robo-
+      advisors." AEA RCT Registry. May 15
+      https://www.socialscienceregistry.org/trials/4102/history/46580
+
+Lusardi, A., & Mitchell, O. S. (2011). Financial literacy around the world: an overview.
+      Journal of Pension Economics and Finance, 10(4), 497­508.
+
+Lusardi, A., & Mitchell, O. S. (2014). The economic importance of financial literacy: Theory
+      and evidence. Journal of Economic Literature, 52(1), 5-44.
+
+Lusardi, A., Samek, A., Kapteyn, A., Glinert, L., Hung, A., & Heinberg, A. (2017). Visual
+      tools and narratives: New ways to improve financial literacy. Journal of Pension
+      Economics & Finance, 16(3), 297-323.
+
+Markowitz, H. (1952). Portfolio Selection. The Journal of Finance, 7(1), 77-91.
+
+McFarland, D. J., & Hamilton, D. (2006). Adding contextual specificity to the technology
+      acceptance model. Computers in Human Behavior, 22(3), 427-447.
+
+                                                            32
+                                           Litterscheidt & Streich
+
+Moore, D. A., & Healy, P. J. (2008). The trouble with overconfidence. Psychological
+      Review, 115(2), 502.
+
+Mullainathan, S., Noeth, M., & Schoar, A. (2012). The Market for Financial Advice (NBER
+      Working Paper No. 17929).
+
+OECD (2017), OECD/INFE Policy Framework for Investor Education
+
+Parasuraman, A. (2000). Technology Readiness Index (TRI) a multiple-item scale to measure
+      readiness to embrace new technologies. Journal of Service Research, 2(4), 307-320.
+
+Paravisini, D., Rappoport, V., & Ravina, E. (2017). Risk aversion and wealth: Evidence from
+      person-to-person lending portfolios. Management Science, 63(2), 279-297.
+
+Philippon, T. (2015). Has the US Finance Industry Become Less Efficient? On the Theory
+      and Measurement. American Economic Review, 105(4), 1408­1438.
+
+Philippon, T. (2016). The FinTech Opportunity. NBER Working Paper No. 22476.
+
+Rühr, A. 2020. Robo-Advisor Configuration: An Investigation of User Preferences and the
+      Performance-Control Dilemma. Proceedings of the 28th European Conference on
+      Information Systems, 1-16.
+
+Rühr, A., Streich, D., Berger, B., & Hess, T. (2019). A Classification of Decision Automation
+      and Delegation in Digital Investment Management Systems. Proceedings of the 52nd
+      Hawaii International Conference on System Sciences, 1435-1444.
+
+Rühr, A., Berger, B., & Hess, T. (2019). Can I Control My Robo-Advisor? Trade-Offs in
+      Automation and User Control in (Digital) Investment Management. Proceedings of the
+      25th Americas Conference on Information Systems (AMCIS 2019), Cancún, Mexiko.
+
+Schwabe, G., & Nussbaumer, P. (2009). Why IT is not being used for financial advisory.
+      Proceedings of the 17th European conference on information systems (ECIS), Verona.
+
+SEC (2017). Guidance Update. [accessed online on 04/26/2019]
+      https://www.sec.gov/investment/im-guidance-2017-02.pdf
+
+Shapira, Z., & Venezia, I. (2001). Patterns of behavior of professionally managed and
+      independent investors. Journal of Banking & Finance, 25(8), 1573-1587.
+
+Shefrin, H., & Statman, M. (1985). The disposition to sell winners too early and ride losers
+      too long: Theory and evidence. The Journal of Finance, 40(3), 777-790.
+
+Skagerlund, K., Lind, T., Strömbäck, C., Tinghög, G., & Västfjäll, D. (2018). Financial
+      literacy and the role of numeracy­How individuals' attitude and affinity with numbers
+      influence financial literacy. Journal of Behavioral and Experimental Economics, 74, 18-
+      25.
+
+                                                            33
+         Financial Education and Digital Asset Management: What's in the Black Box?
+
+Stiftung Warentest (2018). Robo-Advisors im Test: Was die automatisierte Vermögens-
+      verwaltung taugt. [accessed online on 01/29/2019] https://www.test.de/Robo-Advisor-
+      Was-die-automatisierte-Vermoegensverwaltung-taugt-5107535-5107540/
+
+Stolper, O. (2018). It takes two to Tango: Households' response to financial advice and the
+      role of financial literacy. Journal of Banking & Finance, 92, 295-310.
+
+Stolper, O. A., & Walter, A. (2017). Financial literacy, financial advice, and financial
+      behavior. Journal of Business Economics, 87(5), 581-643.
+
+Tertilt, M., & Scholz, P. (2018). To Advise, or Not to Advise--How Robo-Advisors Evaluate
+      the Risk Preferences of Private Investors. The Journal of Wealth Management, 21(2), 70-
+      84.
+
+Van Rooij, M., Lusardi, A., & Alessie, R. (2011). Financial literacy and stock market
+      participation. Journal of Financial Economics, 101(2), 449-472.
+
+Venezia, I., Nashikkar, A., & Shapira, Z. (2011). Firm specific and macro herding by
+      professional and amateur investors and their effects on market volatility. Journal of
+      Banking & Finance, 35(7), 1599-1609.
+
+Venkatesh, V., & Davis, F. D. (1996). A model of the antecedents of perceived ease of use:
+      Development and test. Decision Sciences, 27(3), 451-481.
+
+VZBV (2018). Bessere Beratung durch Digitalisierung? [accessed online on 01/29/2019]
+      https://www.vzbv.de/sites/default/files/downloads/2018/07/16/fin_18-07-13-vzbv-
+      positionspapier-robo-advice.pdf
+
+Wang, W., & Benbasat, I. (2007). Recommendation agents for electronic commerce: Effects
+      of explanation facilities on trusting beliefs. Journal of Management Information
+      Systems, 23(4), 217-246.
+
+Willis, L. E. (2011). The Financial Education Fallacy. American Economic Review, 101(3),
+      429-34.
+
+Wilson, T. D., Centerbar, D. B., & Brekke, N. (2002). Mental contamination and the
+      debiasing problem. In T. Gilovich, D. Griffin, & D. Kahneman (Eds.), Heuristics and
+      biases: The psychology of intuitive judgment (pp. 185-200). New York, NY, US:
+      Cambridge University Press.
+
+Yaniv, I., & Kleinberger, E. (2000). Advice taking in decision-making: Egocentric
+      discounting and reputation formation. Organizational Behavior and Human Decision
+      Processes, 83(2), 260-281.
+
+Yaniv, I., & Milyavsky, M. (2007). Using advice from multiple sources to revise and improve
+      judgments. Organizational Behavior and Human Decision Processes, 103(1), 104-120.
+
+                                                            34
+

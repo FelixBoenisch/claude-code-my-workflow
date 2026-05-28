@@ -1,0 +1,1688 @@
+Accepted Manuscript
+
+Title: Avoiding Lying: The Case of Delegated Deception
+
+Author: Sanjiv Erat
+
+PII:                 S0167-2681(13)00080-2
+DOI:                 http://dx.doi.org/doi:10.1016/j.jebo.2013.03.035
+Reference:           JEBO 3126
+
+To appear in:        Journal of Economic Behavior & Organization
+
+Received date:       20-3-2013
+Accepted date:       21-3-2013
+
+Please cite this article as: Sanjiv Erat, Avoiding Lying: The Case of
+Delegated Deception, Journal of Economic Behavior and Organization (2013),
+http://dx.doi.org/10.1016/j.jebo.2013.03.035
+
+This is a PDF file of an unedited manuscript that has been accepted for publication.
+As a service to our customers we are providing this early version of the manuscript.
+The manuscript will undergo copyediting, typesetting, and review of the resulting proof
+before it is published in its final form. Please note that during the production process
+errors may be discovered which could affect the content, and all legal disclaimers that
+apply to the journal pertain.
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+11
+
+12  Accepted Manuscript
+
+13
+
+14
+
+15  Avoiding Lying: The Case of Delegated Deception
+16
+
+17
+
+18
+
+19  Sanjiv Erat
+
+20
+
+21
+
+22
+
+23
+
+24  March 13, 2013
+
+25
+
+26
+
+27
+
+28
+
+29  )>IJH=?J
+
+30
+
+31  People do not always lie, even when lying increases their monetary payos. Still, even when
+32
+
+33  lying is aversive, can hiring someone to lie for you allow a person to avoid the disutility from
+
+34
+
+35  lying, while at the same time ensuring higher payos? The current article investigates this
+
+36  empirical question - the possibility of delegated deception - through a laboratory experiment.
+
+37
+
+38  The results indicate that a signicant fraction of people employ an agent (to lie) even when
+
+39
+
+40  they could lie themselves. Moreover, the likelihood of delegating to an agent depends on the
+
+41  incentives, with more people choosing to delegate when the lie hurts to a greater extent the
+
+42
+
+43  person being lied to. Finally, analysis of gender dierences in the tendency to use an agent
+44
+
+45  revealed that that women are more likely to delegate to an agent compared to men, especially
+
+46
+
+47  so when the harm inicted by the lie is larger.
+
+48
+
+49
+
+50
+
+51
+
+52
+
+53
+
+54
+
+55
+
+56
+
+57
+
+58  The author thanks Uri Gneezy, Marta Serra-Garcia, and two anonymous reviewers for their valuable comments,
+
+59
+
+60  all of which helped signicantly improve the manuscript. All remaining errors are the author's responsibility.
+
+61  Rady School of Management, UCSD, email: serat@ucsd.edu
+
+62
+
+63
+
+64                                                                                                                 Page 1 of 13
+
+65
+1
+
+2
+
+3
+
+4   I don't think I've ever hired an illegal in my life. - Mitt Romney in the GOP Presidential Debates
+
+5
+
+6   Massachusetts governor [Mitt Romney] never directly hired an illegal immigrant. But he did hire a
+
+7
+
+8   landscaping company that employed illegal immigrants from Guatemala USA Today, Oct 11, 2011
+
+9
+
+10
+
+11
+
+12  1 Introduction
+    Accepted Manuscript
+13
+
+14
+
+15  In many economic interactions, such as selling a used car, honesty might not necessarily be the best
+
+16
+
+17  policy, at least if the goal is to maximize monetary payos. In situations such as these, one is faced
+
+18
+
+19  with the following choice: engage in deception and improve one's pecuniary benets while reducing
+
+20
+
+21  the other's payos, or tell the truth and forgo one's own benets. In an empirical study of how
+
+22
+
+23  people make this choice, Gneezy (2005) nds that people do not always lie even when lying increases
+
+24
+
+25  one's own payos. And more interestingly, the choice of whether or not to engage in deception is
+
+26
+
+27  sensitive to incentives, with people being more likely to lie if their own benet is higher and/or
+
+28  other's loss is lower.
+29
+
+30
+
+31  The vast majority of extant economics literature focuses on settings where a person might
+
+32  undertake one of only two actions (for an interesting article that expands the action space, see
+
+33
+
+34  Sanchez-Pages and Vorsatz, 2009). The moral one, where the person tells the truth; Or the immoral
+
+35
+
+36  one, where the person tells a lie. But, at least in some situations, these two actions are not the only
+
+37
+
+38  two available ones. For instance, while (most?) people may be averse to hiring an illegal immigrant
+
+39
+
+40  to mow their lawn for less than the minimum wage, this does not automatically mean that they
+
+41
+
+42  choose to hire only legal workers. An alternative course of action might be to hire an agent to
+
+43
+
+44  act on your behalf, with the possibility that this person might engage in actions that you yourself
+
+45
+
+46  would not do.
+
+47
+
+48  A second and economically signicant example is provided by software piracy in some countries.
+
+49
+
+50  The International Intellectual Property Alliance, a U.S. coalition of lm, software, music and pub-
+
+51
+
+52  lishing groups, claims that billions of dollars are lost each year due to software piracy. Recently,
+
+53  For discussion and evidence of the role of incentives in the propensity to engage in deception, see Gneezy, 2005;
+54
+
+55  Dreber and Johannesson, 2008; Erat and Gneezy, 2012. For a study on other determinants of deception, see Lundquist,
+
+56  Ellingsen, Gribbe, and Johannesson (2009).
+
+57  I abstract away from the possibility that one can be caught, and consequently punished, if one employs illegal
+
+58  workers. Indeed, given that the chances of being caught employing an illegal immigrant is very low, especially so if
+
+59  you are not a large rm (or a politician running for high oce!), it appears reasonable that fear of punishment may
+
+60  not be an important explanation for moral behavior.
+
+61
+
+62
+
+63                                                       1
+
+64                                                                                                      Page 2 of 13
+
+65
+1
+
+2
+
+3
+
+4   some large software vendors have alleged that many of the computers sold through retail outlets
+
+5
+
+6   in international markets are pre-loaded with pirated software (for instance, see Microsoft's lawsuit
+
+7
+
+8   against Gome Electrical Appliance Holding and Beijing Chaoyang Buynow mall, Jan 10, 2012).
+
+9
+
+10  With such pre-installed pirated software, consumers does not need to engage in the immoral act of
+
+11
+
+12  obtaining a pirated software, but rely on the retailer to do this for them.!
+    Accepted Manuscript
+13
+
+14  The goal of this research is to empirically examine settings such as the ones above, where people
+
+15
+
+16  can either choose between an immoral and moral action, or where they can delegate the authority
+
+17
+
+18  to choose between these moral and immoral actions to an agent acting on their behalf. There are
+
+19
+
+20  two streams of research that relate to the context of interest in this study.
+
+21
+
+22  First, a large body of research, employing the standard principal-agent framework, explains
+
+23
+
+24  delegation as emerging from either dierences in information, cost, ability, or from credibility and
+
+25
+
+26  commitment power due to handing o the decision-making authority. Within this tradition, Fersht-
+
+27  man, Judd, and Kalai (1991) oer an interesting model where principal, by selecting the appropriate
+
+28
+
+29  (publicly observable) incentive scheme and delegating to an agent, modies the incentives of the
+
+30
+
+31  person playing the game (from her own) and consequently gains credibility. They go on to demon-
+
+32
+
+33
+
+                      strate that every pareto optimal outcome can be implemented as a subgame perfect equilibria by
+
+34
+
+35  delegating the decision through the choice of appropriate incentive schemes. "
+
+36
+
+37  More recently, a smaller body of research suggests that delegation may serve other strategic
+
+38
+
+39  goals, such as avoiding punishment. In one such study, Bartling and Fischbacher (2012) consider the
+
+40
+
+41  allocation in a (modied) dictator game, and nd that people may delegate the task of choosing the
+
+42
+
+43  allocation to avoid punishment for unfair outcomes. Grossman and Oexl (2011) consider a similar
+
+44
+
+45  argument, and oer some interesting evidence that the mere presence of the agent is sucient
+
+46
+
+47  to avoid punishment, even when the person by choosing the agent has necessarily eliminated the
+
+48
+
+49  possibility of a fair outcome.
+
+50
+
+51  Hamman, Loewenstein, and Weber (2010) similarly nd that people using agents to make allo-
+
+52
+
+53  cations in a dictator game can obtain greater monetary payos, since these agents tend to be less
+
+54  !Of course part of the reason why the agent might be more eective in obtaining pirated software possibly has
+55
+    to do informational or cost/ability advantages possessed by the agent.
+56
+         "See also Fershtman and Kalai (1997) for a model that expands the type of permissible contracts and relaxes the
+57
+    assumption of observability of delegation, and still nds strategic (commitment) value from delegation. For more
+58
+    references in this principal-agent framework that examines the benets of delegation, see Schelling (1980); Bolton and
+59
+                          Dewatripont (2005). For applications to managerial decision making in rms that examine rationales for delegation,
+60
+    see Aghion and Tirole (1997); Fershtman (1985).
+61
+
+62
+
+63                                                   2
+
+64                                                                                  Page 3 of 13
+
+65
+1
+
+2
+
+3
+
+4   fair. Still, these and other studies - to the best of my knowledge - have employed dictator-game
+
+5
+
+6   like experimental designs, and have interpreted (whichever) action result in inequitable allocations
+
+7
+
+8   as immoral (for an alternate and perhaps surprising view that inequality may be the morally de-
+
+9
+
+10  sirable outcome, see Simpson, 2009). The current study adds to this literature by taking an action
+
+11
+
+12  that is plausibly immoral (per se) - deception - and examining the choice between delegating thisAccepted Manuscript
+
+13
+
+14  immoral act or engaging in it oneself.#
+
+15
+
+16  Second, the current study is also related to a growing stream of research that examines deception
+
+17
+
+18  and its determinants. Within this stream, multiple studies have replicated the original Gneezy
+
+19
+
+20  (2005) nding that people are averse to lying, and fail to lie even when the lie increases their
+
+21
+
+22  monetary payos. An explanation proposed for this lying aversion is the presence of a (psychic)
+
+23
+
+24  lying cost, that creates disutility for people engaging in deception. Consistent with this explanation,
+
+25
+
+26  past research has also found that incentives aect the propensity to lie whereby an increase in
+
+27  monetary payos from deception does indeed lead to more people lying.
+
+28
+
+29  In the setting that is my empirical concern, a cost of lying can plausibly make a person likely
+
+30
+
+31  to engage an agent to undertake the deception for them. Thus, delegation can possibly help to
+
+32
+
+33  minimize a person's lying cost, since the lie was not spoken by the person but by her agent.$ In
+
+34
+
+35  addition, the agent might be able to diuse the responsibility for a lie, and consequently feel less
+
+36
+
+37  disutility from speaking it, since he was merely acting on another's behalf%. These arguments
+
+38
+
+39  above suggest that, all else being equal, a person may nd it benecial to avoid lying by delegating
+
+40
+
+41  deception to the agent .
+
+42  #Whether or not deception is immoral is admittedly a debatable, and much debated, point. For instance, the Kan-
+
+43
+
+44  tian view (of categorial impertive) would argue that lying is immoral per se, whereas the utilitarian view (Bentham,
+
+45  1891) would necessarily make the consequence of the lie crucial in characterizing the morality of a lie. Still for the
+
+46  purposes of the paper, and consistent with empirical evidence that an aversion to lying appears to exist independent
+
+47  of consequences (for instance, see Erat and Gneezy, 2012, for evidence of aversion to even tell pareto improving lies),
+
+48  I shall assume that people do perceive deception to be an immoral act.
+49
+         $Without the rst action (delegation), the second action (lying) is not possible. This line of reasoning might
+
+50  suggest that the agent cannot be the only person who is held responsible (for instance, most societies do assign
+
+51  responsibility and punishment to someone who while not engaging in an illegal act, was complicit in one). Still,
+
+52  one could also argue that the agent had a choice - whether or not to lie - and consequently, the immoral action of
+
+53  lying is solely the agent's responsibility. Given these two plausible principles, people may incur lower lying costs
+
+54  by adjusting their abstract norms (by choosing the more convenient principle) to t the choices they wish to make
+
+55  (see Rustichini and Villeval, 2012, for evidence that people adjust their abstract norms on fairness of allocations; see
+
+56  also see also, Conrads, Irlenbusch, Rilke, and Walkowitz, 2013; Danilov, Biemann, Kring, and Sliwka, 2013, for some
+
+57  evidence that team incentives, by helping justify dishonest acts, might increase overall dishonesty)
+
+58  %For instance, see Bartling and Fischbacher (2012). See also Fershtman and Gneezy (2001) for some interesting
+
+59  evidence that an agent, acting for a proposer, is more likely to make tougher oers in an utimatum game. And more
+
+60  recently, Gino, Ayal, and Ariely (2013) nd that cheating is more frequent when others (besides oneself ) can benet
+
+61  from the cheating, and when the number of beneciaries of wrongdoing increases.
+
+62
+
+63                                           3
+
+64                                                                                                        Page 4 of 13
+
+65
+1
+
+2
+
+3
+
+4   The experimental results (described in more detail in the next sections) reveal that a signicant
+
+5
+
+6   fraction of people employ an agent (to lie) even when they could lie themselves. Moreover, the
+
+7
+
+8   likelihood of delegating to an agent depends on the incentives, with more people choosing to delegate
+
+9
+
+10  when the lie hurts to a greater extent the person being lied to. Finally, I also examined gender
+
+11
+
+12  dierences in the tendency to use an agent, and found that women are more likely to delegate toAccepted Manuscript
+
+13
+
+14  an agent compared to men, especially so when the harm caused by the lie is larger.
+
+15
+
+16
+
+17  2 Experimental Design and Procedure
+
+18
+
+19
+
+20
+
+21  Sender-Agent-Receiver Game
+
+22
+
+23  I modify the experimental design used by Erat and Gneezy (2012) to include the possibility of
+
+24
+
+25  employing an agent. In the experiment, an individual acting in the role of a sender is paired with
+
+26
+
+27  one individual acting in the role of agent and another acting in the role of receiver. A 6-sided
+
+28
+
+29  2 die was rolled, and the outcome obtained, , was communicated to both the sender and the agent,
+
+30
+
+31  but not to the receiver.
+
+32
+
+33  The sender's task was to decide whether to send a message to the receiver or whether to delegate
+
+34
+
+35  the task of sending the message to the subject acting as his/her agent. The six possible messages the
+
+36
+
+37  i sender or his/her agent could send to the receiver were Choosing will earn you more money than
+
+38
+
+39  choosing any other number where i  {1, 2, 3, 4, 5, 6}. The sender is informed that the payments
+
+40
+
+41  in the experiment will depend on a choice made by the receiver. Moreover, the sender is informed
+
+42
+
+43  that only he/she and the agent has been informed of the outcome and not the receiver.
+
+44
+
+45  There are two payment options A and B, with payment option B being better (worse) for the
+
+46
+
+47  sender and agent (receiver) relative to payment option A; the actual payos used in the experiment
+
+48
+
+49  are described below. The sender is told that only he/she and the agent have been informed of the
+
+50
+
+51  monetary value connected to these options, and that the receiver will not know these values. The
+
+52  sender is informed that the receiver, after looking at the message sent to him/her, will be asked
+
+53
+
+54  to choose a number from the set {1, 2, 3, 4, 5, 6}. If this chosen number is the real outcome of the
+55
+
+56  2 roll of the die, , payment option A will be implemented. Otherwise, payment option B will be
+
+57
+
+58  implemented.
+
+59
+
+60  Next, the message from the sender (if the sender chose to send the message himself/herself ) or
+
+61
+
+62
+
+63                              4
+
+64                                                                                         Page 5 of 13
+
+65
+1
+
+2
+
+3
+
+4   his/her agent (if the sender chose to delegate the agent to send a message) is shown to the receiver.
+
+5
+
+6   Then, the receiver is asked to select a number from the set {1, 2, 3, 4, 5, 6}. This choice determines
+
+7
+
+8   which of the two possible payo options, A or B, gets implemented (the receiver is not told what
+
+9
+
+10  these payos are). She is told, just as the sender was, that if the receiver chose the actual outcome
+
+11
+
+12  of the roll of die, payo option A is implemented, and for any other choice, payo option B isAccepted Manuscript
+
+13
+
+14  implemented.
+
+15
+
+16
+
+17  Procedure
+
+18
+
+19
+
+20  This article, in a between-subject design, uses two dierent treatments. In both the treatments
+
+21
+
+22  T[-2] and T[-6], the payo option A involved all the participants receiving $10. In treatment T[-2],
+
+23
+
+24  the payo option B involved sender and his/her agent each receiving $15 and the receiver being paid
+
+25
+
+26  $8. And, in treatment T[-6], the payo option B involved sender and his/her agent each receiving
+
+27
+
+28  $15 and the receiver being paid $4. As may be observed, the two treatments only dier in the
+
+29  relative loss that the receiver incurs from choosing a number other than actual outcome of the roll
+
+30
+
+31  of dice - specically, in treatment T[-2] the receiver's payo reduces by $2 (from $10 to $8), and in
+
+32
+
+33  treatment T[-6] the receiver's payo reduces by $6 (from $10 to $4).
+
+34
+
+35  The experiment was run on computers in a laboratory setting. The 263 senders who participated
+
+36
+
+37  were undergraduate students taking introductory courses in management, who came to the lab for
+
+38
+
+39  course credit. The subjects in addition to completing the experiment also reported their gender.
+
+40
+
+41  Full instructions are given in the Appendix. The experimental procedure involved choosing one out
+
+42
+
+43  of twenty senders who were then paired with an agent and receiver. Specically, the sender's part
+
+44
+
+45  of the experiment was run over over 3 days (from March 12, 2012, to March 14, 2012), and all the
+
+46
+
+47  263 subjects who came to the lab on those three days were asked to play the role of the sender.
+
+48
+
+49  Subsequently, the randomly chosen senders were paired with agents and receivers, and the agent's
+
+50
+
+51  and receiver's part of the experiment was run the subsequent week.
+
+52
+
+53  Before discussing the results, note that Hamman, Loewenstein, and Weber (2010) propose that
+
+54
+
+55  people use agents to avoid taking responsibility for immoral outcomes, and specically for inequitable
+
+56
+
+57  outcomes in a dictator game. They contend that this rationale for delegation exists even when the
+
+58  same unfair outcome (in the dictator game) can be obtained by oneself (or even when there is no
+
+59
+
+60  possibility of punishment like in Bartling and Fischbacher, 2012). Their experiment shows that
+
+61
+
+62
+
+63                5
+
+64                                                                       Page 6 of 13
+
+65
+1
+
+2
+
+3
+
+4
+
+5                             Fraction of senders using an agent
+
+6
+
+7                      T[-2]  33/132 (25.0%)
+
+8                      T[-6]  45/131 (34.3%)
+
+9
+
+10
+
+11                     Table 1: Fraction of senders who use an agent.
+
+12  Accepted Manuscript
+
+13
+
+14  people do sometimes delegate the task of making allocations in a dictator game, even when they
+
+15  can achieve the same allocations themselves. &
+16
+
+17  In the experiment reported in the current article, the sender has no greater ability compared
+
+18
+
+19  to the agent in guaranteeing a given outcome. Moreover, since a randomly selected agent might
+
+20
+
+21  have dierent preferences compared to the sender, a rational sender who only has preferences over
+
+22
+
+23  the outcomes (payo option A vs. payo option B) should never delegate the authority to send a
+
+24
+
+25  message to an agent. However, if the act of lying does result in a disutility, then the sender may
+
+26
+
+27  nd it useful to delegate to the agent to avoid this lying cost.
+
+28
+
+29
+
+30
+
+31  3 Results
+
+32
+
+33
+
+34  The fraction of senders who chose to use the agent to send a message is given in Table 1.
+
+35
+
+36  Result 1: A large fraction of people (30%) employ an agent to send a message.
+37
+
+38
+
+39  25% senders in T[-2], and 34% senders in T[-6], use the agent to send the message to the receiver.
+
+40
+
+41  To better understand why the senders delegate to the agent, I had also incentivized the senders to
+
+42
+
+43  guess the fraction of agents who would send the truthful message. The results show that the average
+
+44
+
+45  sender believes that fewer than 30% of agents will speak the truth.' The senders who are delegating
+
+46
+
+47  in the experiment are choosing to delegate with the expectation that the agent will (most likely)
+
+48
+
+49  lie. Moreover, a Wilcoxon test showed that the median guess of the fraction of agents who tell the
+
+50  &While supporting the basic argument that delegation may occur (to avoid responsibility) even when one can
+
+51
+
+52  guarantee the same outcomes, it is interesting to note that in Hamman, Loewenstein, and Weber (2010) design, the
+
+53  principals in rst 8 rounds had no choice but to delegate to an agent, and then in the nal 4 rounds were given
+
+54  a choice of making the decision themselves or delegating as before. Hence, it cannot be ruled out that status-quo
+
+55  bias might have played some role in their nding that 40% of people choose to delegate in the last 4 rounds (and
+
+56  the remaining make the decision themselves). Indeed, consistent with this possibility, it appears that the fraction of
+
+57  people who choose to delegate in their experiment reduces from 43% in round 8 to 33% in round 12 (Table 4, page
+
+58  1835, Hamman et al., 2010).
+59
+         'The distribution of the senders' guesses were heavily skewed to the left. For instance, 38% of senders believe that
+
+60  no more than 20% of agents will speak truthfully, and 50% of senders believe that no more than 30% of agents will
+
+61  speak truthfully.
+
+62
+
+63                                                  6
+
+64                                                                                             Page 7 of 13
+
+65
+1
+
+2
+
+3
+
+4   truth among those senders who chose to delegate is not statistically dierent from the median guess
+
+5
+
+6   among those senders who choose not to delegate (35% for senders who chose delegate vs. 30% for
+
+7
+
+8   senders who chose not to delegate, W=7614, p=0.47). Hence, the rst result (together with the
+
+9
+
+10  nding that most senders expect the agent to lie) indicates that agents might be employed to avoid
+
+11
+
+12  undertaking immoral acts oneself.Accepted Manuscript
+
+13
+
+14  How do the incentives aect this propensity to delegate? One obvious factor aecting the
+
+15
+
+16  incentives is the harm that the lie does to the receiver. The next result discusses how the loss
+
+17
+
+18  incurred by the receiver aects the propensity to employ an agent.
+
+19  Result 2 more : People are
+
+20                              likely to use an agent when the lie (that the agent may undertake)
+
+21  larger results in
+
+22                     harm to others.
+
+23
+
+24  Comparing the propensity to delegate, I nd that people are more likely to use an agent in
+
+25  T[-6] (34%) compared to T[-2] (25%) (z=1.66, p=0.05). Specically, the propensity to delegate
+26
+
+27  is larger when the harm done to others is larger. This result oers evidence consistent with the
+
+28
+
+29  interpretation that people wish to avoid feeling bad for taking immoral actions, and consequently
+
+30
+
+31  delegate the action. Given our interpretation, it is also of interest to examine whether there are any
+
+32
+
+33
+
+                      gender dierences in the propensity to delegate for the following reason: past research has found
+
+34
+
+35  that women are less likely to lie, and possibly have a higher lying cost (Dreber and Johannesson,
+
+36
+
+37  2008). If this is indeed the case, then one should expect women to be more willing to delegate to
+
+38
+
+39  an agent since they have a greater incentive to avoid the lying cost. The next result conrms this.
+
+40
+
+41  Result 3 more : Women are   likely to use an agent compared to men.
+
+42
+
+43  Figure 1 shows the fraction of men and women who delegate in each of the two conditions T[-2]
+
+44
+
+45  and T[-6]. As may be observed, comparing within T[-6], women are signicantly more likely to use
+
+46
+
+47  an agent compared to men (42% vs. 26%, z=1.97, p=0.02); and comparing within T[-2], though the
+
+48
+
+49  dierence is not statistically signicant, women are more likely to use an agent compared to men
+
+50
+
+51  (28.6% vs 21.7%, z=0.90, p=0.18). Thus, consistent past literature that suggests that women have
+
+52
+
+53  a higher cost from deceit, women are more likely to delegate compared to men, especially so when
+
+54
+
+55  the harm caused by the lie is larger (T[-6]). While gender dierences in lying costs underlies my
+
+56
+
+57  explanation, note that the gender dierence in deception may also arise from alternate mechanisms,
+
+58  The p-values are calculated from a one-tailed test of the equality of proportions, using normal approximation to
+
+59  the binomial distribution.
+
+60
+
+61
+
+62
+
+63                                      7
+
+64                                                                       Page 8 of 13
+
+65
+1
+
+2
+
+3
+
+4   df Variable             Parameter estimate Error Wald 2 Pr > 2
+5
+
+6
+
+7   Intercept 1             -1.50                                            0.45  10.68                               0.001
+
+8   Treatment(T[-6] = 1) 1  0.46                                             0.27  2.76                                0.10
+
+9
+
+10  Gender(Female = 1) 1    0.56                                             0.27  4.23                                0.04
+
+11
+
+12                                        Table 2: Logistic regression for likelihood of using the agentAccepted Manuscript
+
+13  Notes df : Treatments T[-2] and T[-6]. , degree of freedom.
+14
+
+15
+
+16  such as preference for avoiding making decisions for others. Table 2 gives the results of a logistic
+17
+
+18
+
+19  regression examining the propensity to use an agent as a function of the treatment and of gender.
+
+20
+
+21  Since this dierence could also emerge from dierent beliefs that men and women senders might
+
+22  hold about the agent's actions, I also tested for any dierences among men and women sender's
+
+23
+
+24  beliefs. Specically, a Wilcoxon test showed that the median guess of the fraction agents who tell
+
+25
+
+26  the truth among men senders is not signicantly dierent from the median guess among women
+
+27
+
+28  senders (35% for men vs. 30% for women, W=8245, p=0.53). Thus, both men and women senders
+
+29
+
+30  hold similar beliefs that the vast majority of agents are very likely to lie.
+
+31
+
+32  Figure 1 also suggests the possibility that the marginal eect of harm on delegation (Result 2)
+
+33
+
+34  might be distinct for men and women. Separate analysis of the data, based on gender, does seem
+
+35
+
+36  to suggest that women are sensitive to the harm and increase their extent of delegation, whereas
+
+37  men are relatively insensitive to the harm in deciding the extent of delegation.!
+
+38
+
+39
+
+40  Finally, since I do not have many subjects in the role of agents in the experiment, I cannot speak
+
+41
+
+42  conclusively about the agent's propensity to lie. Specically, consistent with the instructions for the
+
+43
+
+44  senders, for each of the 263 senders, I randomly generated a number between 1 and 20, and paired
+
+45
+
+46  the sender with an agent and a receiver only if the generated number was 1. This procedure resulted
+
+47  in selecting 16 senders, and corresponding 16 agents." All 16 agents (9 in one condition, and 7 in
+48
+
+49
+
+50  the other condition) lied in the experiment. Thus, it appears plausible that most agents, consistent
+
+51  I thank one of the reviewers for suggesting this possibility.
+
+52   I thank one of the reviewers who suggested this possibility.
+
+53  !I explored this possibility more formally through a logistic regression with an interaction term included, but failed
+
+54
+                          to nd any statistically signicant dierences. More details are given in the online Appendix.
+55
+    While beyond the scope of current research, the ndings from the current study (that women are more likely to
+56
+    delegate, whereas men are somewhat more likely to lie) suggests a possible interesting selection eect - specically, as
+
+57  suggested by Sobel (2013) (experiment 6), is it the case that those who are averse to lying self-select out of sending
+
+58  a message and instead choose someone else to their dirty work for them?
+
+59  "Note also that I have 16 receivers (in addition to the 16 agents, and the 16 randomly chosen senders). The results
+
+60  about receiver choices show that all but one of the receivers chose to follow the received message.
+
+61
+
+62
+
+63                          8
+
+64                                                                                                                            Page 9 of 13
+
+65
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7                  0.5
+                     Men
+8
+                        Women
+9                              27/63 (42.3%)
+                                      0.4
+10                                                                                      T[-6]
+
+11                                            18/68 (26.5%)
+
+12                                            18/63r(28.6%)ipt
+
+13
+
+14
+
+15
+
+16
+
+17                                                              15/69 (21.7%)           T[-2]
+                                                                     0.2
+18                                            0.3 Manusc
+
+19
+
+20
+
+21
+
+22
+
+23
+
+24                                                                              0.1  0
+
+25
+
+26                                            Fraction of Senders who Delegate
+
+27
+
+28                 Figure 1: Fraction of senders who use an agent
+
+29
+
+30
+
+31  with the senders' beliefs, are likely to tell a lie to the receiver. This supports the argument that
+
+32
+
+33  Accepted
+    the agent by merely acting on the sender's behalf diuses her responsibility thus making lying
+
+34
+
+35  easier (for instance, see Bartling and Fischbacher, 2012).
+
+36
+
+37
+
+38  4 Conclusions
+
+39
+
+40
+
+41
+
+42  Do people delegate the authority to take immoral actions to their agents to avoid taking direct
+
+43
+
+44  responsibility? To answer this question, and to understand how the consequences of the immoral
+
+45
+
+46  action aect this propensity to delegate to an agent, I conducted a laboratory experiment where a
+
+47
+
+48  sender could lie to a receiver, or could delegate to an agent the task of sending a message to the
+
+49
+
+50  receiver, deceptive or otherwise.
+
+51
+
+52  The main empirical nding is that people, even when they can take the exact same actions
+
+53
+
+54  and obtain the exact same outcomes, choose to delegate to the agent the authority to send the
+
+55  message to the receiver. Moreover, I nd that the propensity to delegate is higher when lie results
+
+56
+
+57  in greater harm to the receiver. Thus, when the lie harms the receiver to a greater degree, people are
+
+58
+
+59  persumably more eager to avoid responsibility and consequently more willing to delegate to their
+
+60
+
+61
+
+62
+
+63                                                           9
+
+64                                                                                             Page 10 of 13
+
+65
+1
+
+2
+
+3
+
+4   agent. Finally, consistent with previous empirical ndings of gender dierences in social preferences
+
+5
+
+6   and on lying aversion, I also nd that women are more likely to use an agent.
+
+7
+
+8
+
+9
+
+10
+
+11
+
+12  Accepted Manuscript
+
+13
+
+14
+
+15
+
+16
+
+17
+
+18
+
+19
+
+20
+
+21
+
+22
+
+23
+
+24
+
+25
+
+26
+
+27
+
+28
+
+29
+
+30
+
+31
+
+32
+
+33
+
+34
+
+35
+
+36
+
+37
+
+38
+
+39
+
+40
+
+41
+
+42
+
+43
+
+44
+
+45
+
+46
+
+47
+
+48
+
+49
+
+50
+
+51
+
+52
+
+53
+
+54
+
+55
+
+56
+
+57
+
+58
+
+59
+
+60
+
+61
+
+62
+
+63  10
+
+64                                                                                Page 11 of 13
+
+65
+1
+
+2
+
+3
+
+4   References
+
+5
+
+6   Journal of Political Aghion, Philippe, Jean Tirole. 1997. Formal and real authority in organizations.
+
+7
+
+8   Economy 105(1) pp. 129.
+
+9
+
+10  The Bartling, Bjorn, Urs Fischbacher. 2012. Shifting the blame: On delegation and responsibility.
+
+11  Review of Economic Studies 79(1) 6787.
+
+12  Accepted Manuscript
+
+13                     A fragment on government.
+
+14  Bentham, J. 1891.                                                Clarendon Press.  URL
+
+15  http://books.google.com/books?id=jJUqAAAAYAAJ.
+
+16
+
+17  Bolton, P., M. Dewatripont. 2005. Contract Theory . MIT Press.
+18
+
+19
+
+20  Conrads, Julian, Bernd Irlenbusch, Rainer Michael Rilke, Gari Walkowitz. 2013. Lying and team
+
+21  incentives. Journal of Economic Psychology 34(0) 1  7.
+
+22
+
+23  Danilov, Anastasia, Torsten Biemann, Thorn Kring, Dirk Sliwka. 2013. The dark side of team
+
+24  Journal incentives:experimental evidence on advice quality from nancial service professionals.
+25
+
+26  of Economic Behavior and Organization .
+
+27
+
+28  Economics Letters Dreber, Anna, Magnus Johannesson. 2008. Gender dierences in deception.
+
+29  99(1) 197  199.
+
+30
+
+31  Erat, Sanjiv, Uri Gneezy. 2012. White lies. Management Science 58(4) 723733.
+
+32
+
+33
+
+34  Fershtman, Chaim. 1985. Managerial incentives as a strategic variable in duopolistic environment.
+
+35  International Journal of Industrial Organization 3(2) 245  253.
+36
+
+37  The RAND Journal of Fershtman, Chaim, Uri Gneezy. 2001. Strategic delegation: An experiment.
+38
+
+39  Economics 32(2) pp. 352368.
+
+40
+
+41  Fershtman, Chaim, Kenneth L. Judd, Ehud Kalai. 1991. Observable contracts: Strategic delegation
+
+42  and cooperation. International Economic Review 32(3) pp. 551559.
+43
+
+44  Fershtman, Chaim, Ehud Kalai. 1997. Unobserved delegation. International Economic Review
+
+45
+
+46  38(4) pp. 763774.
+
+47
+
+48  Gino, Francesca, Shahar Ayal, Dan Ariely. 2013. Self-serving altruism? the lure of unethical actions
+
+49  that benet others. Journal of Economic Behavior and Organization .
+
+50
+
+51
+
+52  Gneezy, Uri. 2005. Deception: The role of consequences. American Economic Review 95(1) 384394.
+
+53
+
+54  Grossman, Zachary, Regine Oexl. 2011. Delegating to a powerless intermediary: Does it reduce
+
+55  punishment? Tech. rep., Department of Economics, UC Santa Barbara.
+
+56
+
+57
+
+58  Hamman, John R., George Loewenstein, Roberto A. Weber. 2010. Self-interest through delegation:
+
+59  An additional rationale for the principal-agent relationship. American Economic Review 100(4)
+
+60
+
+61  182646.
+
+62
+
+63                                           11
+
+64                                                                                     Page 12 of 13
+
+65
+1
+
+2
+
+3
+
+4   Lundquist, Tobias, Tore Ellingsen, Erik Gribbe, Magnus Johannesson. 2009. The aversion to lying.
+
+5   Journal of Economic Behavior and Organization 70 81  92.
+
+6
+
+7
+
+8   Rustichini, Aldo, Marie-Claire Villeval. 2012. Moral hypocrisy, power and social preferences. Tech.
+
+9   rep., SSRN.
+
+10
+
+11
+
+12  Sanchez-Pages, Santiago, Marc Vorsatz. 2009. Enjoy the silence: an experiment on truth-telling.
+    Accepted Manuscript
+13  Experimental Economics 12 220241.
+
+14
+
+15  Schelling, T.C. 1980. The Strategy of Conict . Harvard University Press.
+16
+
+17  Journal Simpson, Brian. 2009. Wealth and income inequality: An economic and ethical analysis.
+18
+
+19  of Business Ethics 89 525538.
+
+20
+
+21  Journal of Economic Sobel, Joel. 2013. Ten possible experiments on communication and deception.
+
+22  Behavior and Organization .
+
+23
+
+24
+
+25
+
+26
+
+27
+
+28
+
+29
+
+30
+
+31
+
+32
+
+33
+
+34
+
+35
+
+36
+
+37
+
+38
+
+39
+
+40
+
+41
+
+42
+
+43
+
+44
+
+45
+
+46
+
+47
+
+48
+
+49
+
+50
+
+51
+
+52
+
+53
+
+54
+
+55
+
+56
+
+57
+
+58
+
+59
+
+60
+
+61
+
+62
+
+63                                     12
+
+64                                                                            Page 13 of 13
+
+65
+
