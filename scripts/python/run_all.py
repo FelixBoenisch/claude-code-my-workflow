@@ -25,6 +25,7 @@ SCRIPTS = [
     "16_power",
     "17_logit_extended",
     "18_punishment_robustness",
+    "25_punishment_extensive",
 ]
 
 for name in SCRIPTS:

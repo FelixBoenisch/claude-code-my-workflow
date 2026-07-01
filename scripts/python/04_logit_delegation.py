@@ -24,10 +24,15 @@ def fit_logit(y, X):
     return sm.Logit(y.astype(float), X.astype(float)).fit(disp=False, cov_type="HC1")
 
 
-def fit_spec(df, regs, restrict_passers=False):
+def fit_probit(y, X):
+    X = sm.add_constant(X, has_constant="add")
+    return sm.Probit(y.astype(float), X.astype(float)).fit(disp=False, cov_type="HC1")
+
+
+def fit_spec(df, regs, restrict_passers=False, fitter=fit_logit):
     sample = df.loc[df["pass_att2"] == 1].copy() if restrict_passers else df
     sub = sample[["delegation"] + regs].dropna()
-    return fit_logit(sub["delegation"], sub[regs]), len(sub)
+    return fitter(sub["delegation"], sub[regs]), len(sub)
 
 
 def ame_pp(model):
@@ -38,14 +43,25 @@ def ame_pp(model):
 def main() -> None:
     d = load_delegator()
 
-    # --- Main 5-column table -----------------------------------------------
-    m1, n1 = fit_spec(d, ["treat"])
-    m2, n2 = fit_spec(d, ["treat"] + SES)
-    m3, n3 = fit_spec(d, ["treat"] + SES + ["overall_score"])
-    m4, n4 = fit_spec(d, ["treat"] + SES + ["wa_confidence"])
-    m5, n5 = fit_spec(d, ["treat"] + SES + ["overall_score"], restrict_passers=True)
-    main_models = [m1, m2, m3, m4, m5]
-    ns = [n1, n2, n3, n4, n5]
+    # --- Main 5-column specifications --------------------------------------
+    # The body table (tab:del_decision_determinants -> reg_delegation.tex) is
+    # reported as Probit; the appendix mirror (tab:reg_delegation ->
+    # reg_delegation_full.tex) and the manifest remain Logit.
+    spec_defs = [
+        (["treat"], False),
+        (["treat"] + SES, False),
+        (["treat"] + SES + ["overall_score"], False),
+        (["treat"] + SES + ["wa_confidence"], False),
+        (["treat"] + SES + ["overall_score"], True),
+    ]
+    logit_models, probit_models, ns = [], [], []
+    for regs, passers in spec_defs:
+        ml, n = fit_spec(d, regs, restrict_passers=passers, fitter=fit_logit)
+        mp, _ = fit_spec(d, regs, restrict_passers=passers, fitter=fit_probit)
+        logit_models.append(ml)
+        probit_models.append(mp)
+        ns.append(n)
+    main_models = logit_models  # used for the appendix mirror and the manifest
 
     main_rows = [
         ("No-Punishment indicator", "treat"),
@@ -59,52 +75,59 @@ def main() -> None:
         ("Leadership position", "leader"),
         ("Constant", "const"),
     ]
-    ame_coef_cells, ame_p_cells = [], []
-    for m in main_models:
-        a, ap = ame_pp(m)
-        star = stars_for(ap)
-        ame_coef_cells.append(f"${num(100 * a, 1)}^{{{star}}}$" if star else f"${num(100 * a, 1)}$")
-        ame_p_cells.append(f"$(p={num(ap, 3)})$")
-    extra_main = [
-        ("AME of No-Punishment (pp)", ame_coef_cells),
-        ("", ame_p_cells),
-        ("N", [f"${n}$" for n in ns]),
-        ("Pseudo $R^2$", [f"${num(m.prsquared, 3)}$" for m in main_models]),
-    ]
-    note_main = (
-        "Coefficients from a Logit regression of the delegation decision on the "
+
+    def build_extra(models):
+        ame_coef_cells, ame_p_cells = [], []
+        for m in models:
+            a, ap = ame_pp(m)
+            star = stars_for(ap)
+            ame_coef_cells.append(
+                f"${num(100 * a, 1)}^{{{star}}}$" if star else f"${num(100 * a, 1)}$"
+            )
+            ame_p_cells.append(f"$(p={num(ap, 3)})$")
+        return [
+            ("AME of No-Punishment (pp)", ame_coef_cells),
+            ("", ame_p_cells),
+            ("N", [f"${n}$" for n in ns]),
+            ("Pseudo $R^2$", [f"${num(m.prsquared, 3)}$" for m in models]),
+        ]
+
+    note_template = (
+        "Coefficients from a {model} regression of the delegation decision on the "
         "No-Punishment indicator and the controls listed in each column. "
         "Robust (HC1) standard errors in parentheses. "
-        "Significance: $^{*}\\,p<0.10$; $^{**}\\,p<0.05$; $^{***}\\,p<0.01$ (two-sided). "
+        "Significance: $^{{*}}\\,p<0.10$; $^{{**}}\\,p<0.05$; $^{{***}}\\,p<0.01$ (two-sided). "
         "Two subjects are dropped in Columns~(2)--(4) due to missing socio-demographic "
-        "data. The \\textit{AME of No-Punishment} row reports the average marginal "
+        "data. The \\textit{{AME of No-Punishment}} row reports the average marginal "
         "effect of the No-Punishment indicator on the probability of delegation, in "
         "percentage points."
     )
+
+    # --- Body table -> Probit ----------------------------------------------
     main_table = render_two_block_table(
         caption="Determinants of the delegation decision",
         label="tab:del_decision_determinants",
         col_headers=[r"\multicolumn{4}{c}{\textit{Full sample}}", r"\textit{Passers}"],
         block_label="Delegation",
         rows=main_rows,
-        models=main_models,
-        extra_rows=extra_main,
-        note=note_main,
+        models=probit_models,
+        extra_rows=build_extra(probit_models),
+        note=note_template.format(model="Probit"),
         column_spec="@{\\extracolsep{5pt}}lcccc|c",
         stars=True,
     )
     (TABLES / "reg_delegation.tex").write_text(main_table, encoding="utf-8")
 
-    # --- Appendix-full table: same content, alternative label ---------------
+    # --- Appendix-full table: same specifications, Logit, alternative label -
     appendix_table = render_two_block_table(
         caption="Determinants of the delegation decision --- full controls",
         label="tab:reg_delegation",
         col_headers=[r"\multicolumn{4}{c}{\textit{Full sample}}", r"\textit{Passers}"],
         block_label="Delegation",
         rows=main_rows,
-        models=main_models,
-        extra_rows=extra_main,
-        note=note_main,
+        models=logit_models,
+        extra_rows=build_extra(logit_models),
+        note=note_template.format(model="Logit"),
         column_spec="@{\\extracolsep{5pt}}lcccc|c",
         stars=True,
     )

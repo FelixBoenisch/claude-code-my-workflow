@@ -8,9 +8,10 @@
 
 \input{../tables/balance_player_a.tex}
 
-\noindent We do not separately report a balance table for Player~B. Player~B's punishment behavior is identified within-subject across the four scenarios of the strategy method, so balance across conditions is not strictly required for the punishment analysis.
 
-[Comment: We can still check whether there is balance in observables for Player B.]
+\noindent Complementary to the variable-by-variable comparisons in Table~\ref{tab:treatment_balance}, we test their joint significance by regressing the treatment indicator on all characteristics in a linear probability model. The observables are jointly uninformative about treatment ($F(6,152)=0.36$, $p=0.90$; $R^2=0.01$; $N=159$). A logit specification yields the same conclusion (likelihood-ratio $\chi^2(6)=2.26$, $p=0.89$).
+
+\noindent We do not separately report a balance table for Player~B. Player~B's punishment behavior is identified within-subject across the four scenarios of the strategy method, so balance across conditions is not strictly required for the punishment analysis.
 
 \subsection{Full regression results --- delegation decision} \label{appendix:regs}
 
@@ -27,6 +28,12 @@
 \subsection{Robustness --- Player~B's chosen punishment} \label{appendix:reg_punishment_robustness}
 
 \input{../tables/reg_punishment_robustness.tex}
+
+\subsection{Extensive margin of punishment} \label{appendix:reg_punishment_extensive}
+
+Table~\ref{tab:reg_punishment_extensive} re-estimates the punishment regression on the \textit{extensive} margin, replacing the punishment amount with an indicator for whether Player~B imposed any punishment in a given cell, estimated by probit. The conclusion matches the intensive-margin result in the body. A bad outcome sharply raises the probability of punishment---an average marginal effect of about $18$ percentage points ($p<0.001$)---whereas delegation leaves it essentially unchanged: the average marginal effect of delegation is $-1.8$ percentage points and statistically insignificant ($p=0.46$; $-2.9$ percentage points among attention-check passers, $p=0.29$). Player~A is therefore no less \textit{likely} to be punished when she delegates, just as she is punished no less \textit{harshly}.
+
+\input{../tables/reg_punishment_extensive.tex}
 
 \subsection{Punishment beliefs and task performance}
 \label{appendix:beliefs_vs_performance}
@@ -51,6 +58,28 @@ In the main text we claim that Player~A's punishment beliefs do not vary systema
     annotations report Pearson $r$ and its two-sided $p$-value. Top row:
     good-outcome beliefs (delegation, self, and the difference
     \textit{self}~$-$~\textit{delegation}). Bottom row: low-outcome beliefs.
+    \end{minipage}
+\end{figure}
+
+\section{Additional figures}
+
+\subsection{Hypothetical punishment}
+
+\begin{figure}[!htbp]
+    \centering
+    \caption{Hypothetical punishment by delegation and outcome scenario (\textit{No-Punishment} condition)}
+    \includegraphics[width=0.65\linewidth]{figures/punishment_hypothetical.png}
+    \label{fig:punishment_hypothetical}
+    \begin{minipage}{0.85\linewidth}
+    \footnotesize
+    \textit{Note:} As in Figure~\ref{fig:punishment}, but for the \textit{No-Punishment}
+    condition (full sample $n=81$, passers $n=68$), in which Player~Bs answered the same
+    punishment questions but could not impose punishment in practice. For each (delegation,
+    outcome) cell, the figure reports the average hypothetical punishment (left $y$-axis, in
+    pounds; error bars are standard errors of the mean) and the share of Player~Bs choosing
+    non-zero punishment (right $y$-axis, in percent); the full sample is shown at full opacity
+    and the attention-check passers overlaid at lower opacity. The left-axis scale matches
+    Figure~\ref{fig:punishment}.
     \end{minipage}
 \end{figure}
 

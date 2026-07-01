@@ -1,10 +1,10 @@
 """Punishment regression: Player B chosen punishment ~ delegation + outcome + interaction + controls.
 
-Produces tables/reg_punishment.tex with six columns: full sample (1)-(3) and
-attention-check passers (4)-(6).
-  (1)/(4) Punishment level DV: punish ~ delegated + bad_outcome + interaction + wa_difficulty + SES
-  (2)/(5) Punishment difference DV (no controls): (punish_nodel - punish_del) ~ bad_outcome
-  (3)/(6) Punishment difference DV (with controls): (.) ~ bad_outcome + wa_difficulty + SES
+Produces tables/reg_punishment.tex with two columns: the punishment-level
+regression for the full sample (1) and attention-check passers (2).
+  punish ~ delegated + bad_outcome + interaction + wa_difficulty + SES
+The within-subject delegation insulation is read off the Delegated x Bad
+interaction; the difference-parameterization estimates are retained in the manifest.
 """
 from __future__ import annotations
 
@@ -58,7 +58,7 @@ def cluster_ols(y, X, groups):
 def fit_block(pun: pd.DataFrame):
     """Fit the three specifications on a given Punishment-condition subsample.
 
-    Returns ((m_level, m_diff, m_diff_ctrl), (n_level_rows, n_diff_rows, n_subjects)).
+    Returns ((m_level, m_diff_ctrl), (n_level_rows, n_diff_rows, n_subjects)).
     """
     long4 = reshape_long_levels(pun).dropna()
     long4["interaction"] = long4["delegated"] * long4["bad_outcome"]
@@ -69,13 +69,10 @@ def fit_block(pun: pd.DataFrame):
     m_level = cluster_ols(long4["punish"].astype(float), X1, long4["code"])
 
     long2 = reshape_long_diffs(pun).dropna()
-    X2 = sm.add_constant(long2[["bad_outcome"]].astype(float), has_constant="add")
-    m_diff = cluster_ols(long2["diff"].astype(float), X2, long2["code"])
-
     X3 = sm.add_constant(long2[["bad_outcome", "wa_difficulty"] + SES].astype(float), has_constant="add")
     m_diff_ctrl = cluster_ols(long2["diff"].astype(float), X3, long2["code"])
 
-    return (m_level, m_diff, m_diff_ctrl), (len(long4), len(long2), int(long4["code"].nunique()))
+    return (m_level, m_diff_ctrl), (len(long4), len(long2), int(long4["code"].nunique()))
 
 
 def main() -> None:
@@ -83,8 +80,8 @@ def main() -> None:
     pun_full = e[e["treat"] == 0].copy()
     pun_pass = pun_full[pun_full["pass_att2"] == 1].copy()
 
-    (m1, m2, m3), (n_lvl_full, n_dif_full, n_subj_full) = fit_block(pun_full)
-    (m4, m5, m6), (n_lvl_pass, n_dif_pass, n_subj_pass) = fit_block(pun_pass)
+    (l_full, dc_full), (n_lvl_full, n_dif_full, n_subj_full) = fit_block(pun_full)
+    (l_pass, dc_pass), (n_lvl_pass, n_dif_pass, n_subj_pass) = fit_block(pun_pass)
 
     rows = [
         ("Delegated", "delegated"),
@@ -100,52 +97,33 @@ def main() -> None:
         ("Constant", "const"),
     ]
     extra = [
-        ("Observations",
-         [f"${n_lvl_full}$", f"${n_dif_full}$", f"${n_dif_full}$",
-          f"${n_lvl_pass}$", f"${n_dif_pass}$", f"${n_dif_pass}$"]),
-        ("Subjects",
-         [f"${n_subj_full}$", f"${n_subj_full}$", f"${n_subj_full}$",
-          f"${n_subj_pass}$", f"${n_subj_pass}$", f"${n_subj_pass}$"]),
+        ("Observations", [f"${n_lvl_full}$", f"${n_lvl_pass}$"]),
+        ("Subjects", [f"${n_subj_full}$", f"${n_subj_pass}$"]),
         ("Adj.\\ $R^2$",
-         [f"${num(m1.rsquared_adj, 3)}$",
-          f"${num(m2.rsquared_adj, 3)}$",
-          f"${num(m3.rsquared_adj, 3)}$",
-          f"${num(m4.rsquared_adj, 3)}$",
-          f"${num(m5.rsquared_adj, 3)}$",
-          f"${num(m6.rsquared_adj, 3)}$"]),
+         [f"${num(l_full.rsquared_adj, 3)}$", f"${num(l_pass.rsquared_adj, 3)}$"]),
     ]
     note = (
-        "Columns~(1) and~(4): OLS regression of Player~B's chosen punishment level on a "
-        "delegation indicator, a bad-outcome indicator, their interaction, Player~B's belief "
-        "about Player~A's performance, and a vector of socio-demographic controls; sample stacked "
-        "over the four (delegation, outcome) cells of the strategy method (4 observations per "
-        "Player~B). Columns~(2)/(5) and~(3)/(6): OLS regression of the within-subject delegation "
-        "insulation (\\textit{punish\\_nodel} $-$ \\textit{punish\\_del}) on a bad-outcome indicator "
-        "and, in Columns~(3)/(6), additional controls; sample stacked over the two outcome cells "
-        "(2 observations per Player~B). In the difference specifications, the intercept is the "
-        "average insulation in the good-outcome cell and the bad-outcome coefficient is the "
-        "additional insulation in the bad-outcome cell. "
-        "Columns~(1)--(3) use the full Punishment-condition sample. Columns~(4)--(6) restrict to "
-        "Player~Bs who passed the attention check on the punishment-elicitation screen, as "
-        "preregistered. Standard errors clustered at the Player~B level. "
-        "Significance: $^{*}\\,p<0.10$; $^{**}\\,p<0.05$; $^{***}\\,p<0.01$ (two-sided)."
+        "OLS regression of Player~B's chosen punishment level on a delegation indicator, a "
+        "bad-outcome indicator, their interaction, Player~B's belief about Player~A's performance, "
+        "and a vector of socio-demographic controls. The sample is stacked over the four "
+        "(delegation, outcome) cells of the strategy method (4 observations per Player~B). The "
+        "\\textit{Delegated} $\\times$ \\textit{Bad outcome} interaction is the differential effect "
+        "of delegation on punishment in the bad-outcome cell. Column~(1) uses the full "
+        "Punishment-condition sample; Column~(2) restricts to Player~Bs who passed the attention "
+        "check on the punishment-elicitation screen, as preregistered. Standard errors clustered at "
+        "the Player~B level. Significance: $^{*}\\,p<0.10$; $^{**}\\,p<0.05$; $^{***}\\,p<0.01$ (two-sided)."
     )
     (TABLES / "reg_punishment.tex").write_text(
         render_two_block_table(
             caption="Determinants of Player~B's chosen punishment",
             label="tab:reg_punishment",
-            col_headers=[r"\multicolumn{3}{c}{\textit{Full sample}}",
-                         r"\multicolumn{3}{c}{\textit{Passers}}"],
-            col_subheaders=[r"\textit{Level} (\pounds)",
-                            r"\multicolumn{2}{c}{\textit{Difference} (\pounds)}",
-                            r"\textit{Level} (\pounds)",
-                            r"\multicolumn{2}{c}{\textit{Difference} (\pounds)}"],
-            block_label="Punishment",
+            col_headers=[r"\textit{Full sample}", r"\textit{Passers}"],
+            block_label="Punishment (\\pounds)",
             rows=rows,
-            models=[m1, m2, m3, m4, m5, m6],
+            models=[l_full, l_pass],
             extra_rows=extra,
             note=note,
-            column_spec="@{\\extracolsep{5pt}}lccc|ccc",
+            column_spec="@{\\extracolsep{5pt}}lcc",
             stars=True,
         ),
         encoding="utf-8",
@@ -159,8 +137,8 @@ def main() -> None:
         "punish_reg_n_diffs_passers": n_dif_pass,
         "punish_reg_n_subjects_passers": n_subj_pass,
     }
-    for tag, m in [("col1_full_level", m1), ("col2_full_diff", m2), ("col3_full_diff_ctrl", m3),
-                   ("col4_pass_level", m4), ("col5_pass_diff", m5), ("col6_pass_diff_ctrl", m6)]:
+    for tag, m in [("col1_full_level", l_full), ("col2_pass_level", l_pass),
+                   ("diff_full_ctrl", dc_full), ("diff_pass_ctrl", dc_pass)]:
         for k in m.params.index:
             out[f"punish_reg_{tag}_{k}_coef"] = round(float(m.params[k]), 4)
             out[f"punish_reg_{tag}_{k}_p"] = round(float(m.pvalues[k]), 4)
