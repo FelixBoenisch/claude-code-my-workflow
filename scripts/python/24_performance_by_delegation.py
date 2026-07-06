@@ -24,6 +24,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sns
+from scipy import stats
 
 from lib.io import load_delegator
 from lib.paths import FIGURES
@@ -162,9 +163,13 @@ def main() -> None:
 
     # Full-sample delegator means for the footnote
     full = d
+    deleg_pun_scores = full[(full["treat"] == 0) & (full["delegation"] == 1)]["overall_score"]
+    deleg_nopun_scores = full[(full["treat"] == 1) & (full["delegation"] == 1)]["overall_score"]
+    deleg_ttest = stats.ttest_ind(deleg_pun_scores, deleg_nopun_scores, equal_var=False)
     out.update({
-        "perfdel_full_pun_deleg_mean":   round(float(full[(full["treat"] == 0) & (full["delegation"] == 1)]["overall_score"].mean()), 4),
-        "perfdel_full_nopun_deleg_mean": round(float(full[(full["treat"] == 1) & (full["delegation"] == 1)]["overall_score"].mean()), 4),
+        "perfdel_full_pun_deleg_mean":   round(float(deleg_pun_scores.mean()), 4),
+        "perfdel_full_nopun_deleg_mean": round(float(deleg_nopun_scores.mean()), 4),
+        "perfdel_full_deleg_ttest_p":    round(float(deleg_ttest.pvalue), 4),
     })
     manifest.update(out)
     for k, v in out.items():

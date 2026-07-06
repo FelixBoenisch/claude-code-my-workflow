@@ -34,6 +34,18 @@ def fit_spec(df, regs):
     return fit_logit(sub["delegation"], sub[regs]), len(sub)
 
 
+def ame_pp10(model, var):
+    """AME of `var` on P(delegation), in percentage points per GBP 0.10.
+
+    get_margeff returns effects per GBP 1 of belief difference; x100 gives
+    percentage points, /10 rescales to the GBP 0.10 elicitation increment.
+    """
+    me = model.get_margeff(at="overall", method="dydx")
+    names = [n for n in model.model.exog_names if n != "const"]
+    i = names.index(var)
+    return 10.0 * float(me.margeff[i]), float(me.pvalues[i])
+
+
 def main() -> None:
     d = load_delegator()
     sub = d[d["treat"] == 0].copy()
@@ -67,13 +79,41 @@ def main() -> None:
         ("Leadership position",    "leader"),
         ("Constant",               "const"),
     ]
+    def ame_cells(specs):
+        """One (coef, p) cell pair per column; each spec is (model, var) or None."""
+        coef_cells, p_cells = [], []
+        for spec in specs:
+            if spec is None:
+                coef_cells.append("")
+                p_cells.append("")
+                continue
+            m, var = spec
+            a, ap = ame_pp10(m, var)
+            star = stars_for(ap)
+            coef_cells.append(f"${num(a, 1)}^{{{star}}}$" if star else f"${num(a, 1)}$")
+            p_cells.append(f"$(p={num(ap, 3)})$")
+        return coef_cells, p_cells
+
+    ame_main, ame_main_p = ame_cells([
+        (m1, "bel_diff_avg"),
+        (m2, "bel_diff_avg"),
+        (m3, "bel_diff_avg"),
+        (m4, "bel_diff_weighted"),
+        None,
+    ])
+    ame_good, ame_good_p = ame_cells([None, None, None, None, (m5, "bel_diff_good")])
+    ame_bad, ame_bad_p = ame_cells([None, None, None, None, (m5, "bel_diff_bad")])
+
+    YES, NO = r"\checkmark", r"$\times$"
     extra = [
-        ("Controls", ["No", "Yes", "Yes", "Yes", "Yes"]),
-        ("Sample",   [r"\textit{Punishment}",
-                      r"\textit{Punishment}",
-                      r"Passers",
-                      r"Passers",
-                      r"Passers"]),
+        (r"AME of belief measure (pp per \pounds 0.10)", ame_main),
+        ("", ame_main_p),
+        (r"AME: good-outcome difference (pp per \pounds 0.10)", ame_good),
+        ("", ame_good_p),
+        (r"AME: bad-outcome difference (pp per \pounds 0.10)", ame_bad),
+        ("", ame_bad_p),
+        ("Controls",     [NO, YES, YES, YES, YES]),
+        ("Passers only", [NO, NO, YES, YES, YES]),
         ("N",            [f"${n}$" for n in ns]),
         (r"Pseudo $R^2$", [f"${num(m.prsquared, 3)}$" for m in models]),
     ]
@@ -94,7 +134,10 @@ def main() -> None:
         "Player~A's elicited probability of producing the high payoff "
         "($\\Pr(\\text{good})=$ \\textit{wa\\_confidence}$/10$); "
         "Column~(5) replaces the single belief regressor with the two outcome-conditional "
-        "belief differences entered separately."
+        "belief differences entered separately. "
+        "The \\textit{AME} rows report the average marginal effect of the belief measure "
+        "entered in the respective column on the probability of delegation, in percentage "
+        "points per \\pounds 0.10 increase in the corresponding belief difference."
     )
     table = render_two_block_table(
         caption="Delegation and punishment beliefs",
@@ -120,6 +163,9 @@ def main() -> None:
                 out[f"belspec_col{i}_{v}_coef"] = round(float(m.params[v]), 4)
                 out[f"belspec_col{i}_{v}_se"]   = round(float(m.bse[v]), 4)
                 out[f"belspec_col{i}_{v}_p"]    = round(float(m.pvalues[v]), 4)
+                a, ap = ame_pp10(m, v)
+                out[f"belspec_col{i}_{v}_ame_pp10"] = round(a, 2)
+                out[f"belspec_col{i}_{v}_ame_p"]    = round(ap, 4)
     manifest.update(out)
     for k, v in out.items():
         print(f"  {k}: {v}")

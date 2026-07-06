@@ -91,7 +91,7 @@ def main() -> None:
     fig, ax = plt.subplots(figsize=(7, 5))
     treat_label = {0: "Punishment", 1: "No-Punishment"}
     for treat, color in [(0, COLORS[0]), (1, COLORS[1])]:
-        sub = dg[(dg["treat"] == treat) & (dg["pass_att2"] == 1)]
+        sub = dg[dg["treat"] == treat]
         agg = sub.groupby("overall_score")["delegation"].agg(["mean", "count"]).reset_index()
         ax.scatter(
             agg["overall_score"], agg["mean"],
@@ -115,10 +115,21 @@ def main() -> None:
     pearson_pun_r = float(pearson_pun_df.corr().iloc[0, 1])
     pearson_pun_p = float(st.pearsonr(pearson_pun_df["overall_score"], pearson_pun_df["delegation"]).pvalue)
 
+    pas = dg[dg["pass_att2"] == 1]
+    pearson_pun_pas_df = pas[pas["treat"] == 0][["overall_score", "delegation"]].dropna()
+    pearson_pun_pas = st.pearsonr(pearson_pun_pas_df["overall_score"], pearson_pun_pas_df["delegation"])
+    pearson_nopun_df = dg[dg["treat"] == 1][["overall_score", "delegation"]].dropna()
+    pearson_nopun = st.pearsonr(pearson_nopun_df["overall_score"], pearson_nopun_df["delegation"])
+
     out = {
         "perf_corr_punishment_r": round(pearson_pun_r, 3),
         "perf_corr_punishment_p": round(pearson_pun_p, 4),
         "perf_n_punishment": int(len(pearson_pun_df)),
+        "perf_corr_punishment_passers_r": round(float(pearson_pun_pas.statistic), 3),
+        "perf_corr_punishment_passers_p": round(float(pearson_pun_pas.pvalue), 4),
+        "perf_n_punishment_passers": int(len(pearson_pun_pas_df)),
+        "perf_corr_nopunishment_r": round(float(pearson_nopun.statistic), 3),
+        "perf_corr_nopunishment_p": round(float(pearson_nopun.pvalue), 4),
     }
     manifest.update(out)
     for k, v in out.items():
