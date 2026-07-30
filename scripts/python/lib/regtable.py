@@ -42,6 +42,7 @@ def render_two_block_table(
     column_spec: str = "@{\\extracolsep{5pt}}lcc|c",
     stars: bool = False,
     col_subheaders: list[str] | None = None,
+    note_width: float = 0.85,
 ) -> str:
     """Render a regression table.
 
@@ -93,7 +94,7 @@ def render_two_block_table(
     out.extend([
         r"\hline",
         r"\hline \\[-1.8ex]",
-        f"\\multicolumn{{{n_cols + 1}}}{{p{{0.85\\textwidth}}}}{{\\footnotesize \\textit{{Note:}} {note}}}",
+        f"\\multicolumn{{{n_cols + 1}}}{{p{{{note_width}\\textwidth}}}}{{\\footnotesize \\textit{{Note:}} {note}}}",
         r"\end{tabular}",
         r"\end{table}",
     ])

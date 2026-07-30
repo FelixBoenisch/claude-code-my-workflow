@@ -1,8 +1,10 @@
 """Result 2: paired tests on punishment cells; MDE; figures (original notebook styling).
 
 Produces:
-  figures/punishment.png
-  figures/punishment_shares.png
+  figures/punishment_vs_beliefs.png
+  figures/punishment_vs_beliefs_shares.png
+(Neither is referenced in the manuscript; figures/punishment.png is owned by
+20_punishment_figure.py.)
 """
 import matplotlib
 
@@ -121,7 +123,7 @@ def main() -> None:
         ylim=1.1,
         pun_label="Player B - Actual Punishment",
         bel_label="Player A - Beliefs",
-        save_to=FIGURES / "punishment.png",
+        save_to=FIGURES / "punishment_vs_beliefs.png",
     )
     grouped_bar(
         pun, pun_d, BINARY_CELL_ORDER,
@@ -129,7 +131,7 @@ def main() -> None:
         ylim=1.1,
         pun_label="Player B - Actual Punishment",
         bel_label="Player A - Beliefs",
-        save_to=FIGURES / "punishment_shares.png",
+        save_to=FIGURES / "punishment_vs_beliefs_shares.png",
     )
 
 

@@ -8,26 +8,9 @@
 
 \input{../tables/balance_player_a.tex}
 
-
-\noindent Complementary to the variable-by-variable comparisons in Table~\ref{tab:treatment_balance}, we test their joint significance by regressing the treatment indicator on all characteristics in a linear probability model. The observables are jointly uninformative about treatment ($F(6,152)=0.36$, $p=0.90$; $R^2=0.01$; $N=159$). A logit specification yields the same conclusion (likelihood-ratio $\chi^2(6)=2.26$, $p=0.89$).
+\noindent Complementary to the individual treatment comparisons in Table~\ref{tab:treatment_balance}, we can test their joint significance by regressing the treatment indicator on all characteristics in a linear probability model. The observables are jointly uninformative about treatment ($F(6,152)=0.36$, $p=0.90$; $R^2=0.01$; $N=159$). A logit specification yields the same conclusion (likelihood-ratio $\chi^2(6)=2.26$, $p=0.89$).
 
 \noindent We do not separately report a balance table for Player~B. Player~B's punishment behavior is identified within-subject across the four scenarios of the strategy method, so balance across conditions is not strictly required for the punishment analysis.
-
-\subsection{Full regression results --- delegation decision} \label{appendix:regs}
-
-\input{../tables/reg_delegation_full.tex}
-
-\subsection{Robustness --- delegation decision} \label{appendix:reg_delegation_robustness}
-
-\input{../tables/reg_delegation_robustness.tex}
-
-\subsection{Determinants of Player~B's chosen punishment} \label{appendix:reg_punishment}
-
-
-
-\subsection{Robustness --- Player~B's chosen punishment} \label{appendix:reg_punishment_robustness}
-
-\input{../tables/reg_punishment_robustness.tex}
 
 \subsection{Extensive margin of punishment} \label{appendix:reg_punishment_extensive}
 
@@ -35,33 +18,63 @@ Table~\ref{tab:reg_punishment_extensive} re-estimates the punishment regression 
 
 \input{../tables/reg_punishment_extensive.tex}
 
-\subsection{Punishment beliefs and task performance}
-\label{appendix:beliefs_vs_performance}
+%\subsection{Punishment beliefs and task performance}
+%\label{appendix:beliefs_vs_performance}
 
-In the main text we claim that Player~A's punishment beliefs do not vary systematically with her own task performance, and that Player~As do not expect a relatively larger punishment penalty for delegation in good-outcome states than in bad-outcome states. This appendix documents the supporting analyses, restricted to the \textit{Punishment} condition and attention-check passers ($n=61$) for consistency with the main within-subject regression.
+%In the main text we claim that Player~A's punishment beliefs do not vary systematically with her own task performance, and that Player~As do not expect a relatively larger punishment penalty for delegation in good-outcome states than in bad-outcome states. This appendix documents the supporting analyses, restricted to the \textit{Punishment} condition and attention-check passers ($n=61$) for consistency with the main within-subject regression.
 
-\paragraph{Difference-of-differences in the expected delegation penalty.} Define the expected punishment penalty for delegation in each outcome as $\Delta^{\text{good}} \equiv \beta^{\text{del,high}} - \beta^{\text{self,high}}$ and analogously $\Delta^{\text{bad}}$. A within-subject paired $t$-test of $H_0: \Delta^{\text{good}} = \Delta^{\text{bad}}$ yields $\bar\Delta^{\text{good}}-\bar\Delta^{\text{bad}} = +0.075$ ($t=+0.99$, $p=0.325$) on the full Punishment sample and $+0.085$ ($t=+0.89$, $p=0.376$) on the passers. We cannot reject equality of the two delegation penalties.
+%\paragraph{Difference-of-differences in the expected delegation penalty.} Define the expected punishment penalty for delegation in each outcome as $\Delta^{\text{good}} \equiv \beta^{\text{del,high}} - \beta^{\text{self,high}}$ and analogously $\Delta^{\text{bad}}$. A within-subject paired $t$-test of $H_0: \Delta^{\text{good}} = \Delta^{\text{bad}}$ yields $\bar\Delta^{\text{good}}-\bar\Delta^{\text{bad}} = +0.075$ ($t=+0.99$, $p=0.325$) on the full Punishment sample and $+0.085$ ($t=+0.89$, $p=0.376$) on the passers. We cannot reject equality of the two delegation penalties.
 
-\paragraph{Independence of beliefs from task performance.} Figure~\ref{fig:beliefs_vs_performance} plots each of the four cell-level punishment beliefs and the two outcome-conditional belief differences against Player~A's task performance in the first ten rounds. Pearson correlations are reported in each panel; all six are small ($|r| \leq 0.21$) and statistically insignificant at conventional levels. In particular, the two belief differences that enter the regression in Table~\ref{tab:reg_belief_specs} are uncorrelated with task performance ($r=+0.12$, $p=0.37$ for the good-outcome difference; $r=-0.15$, $p=0.24$ for the bad-outcome difference). The within-subject correlation between beliefs and delegation reported in the main text therefore cannot be attributed to a shared dependence on task performance.
+%\paragraph{Independence of beliefs from task performance.} Figure~\ref{fig:beliefs_vs_performance} plots each of the four cell-level punishment beliefs and the two outcome-conditional belief differences against Player~A's task performance in the first ten rounds. Pearson correlations are reported in each panel; all six are small ($|r| \leq 0.21$) and statistically insignificant at conventional levels. In particular, the two belief differences that enter the regression in Table~\ref{tab:reg_belief_specs} are uncorrelated with task performance ($r=+0.12$, $p=0.37$ for the good-outcome difference; $r=-0.15$, $p=0.24$ for the bad-outcome difference). The within-subject correlation between beliefs and delegation reported in the main text therefore cannot be attributed to a shared dependence on task performance.
+
+%\begin{figure}[!htbp]
+%    \centering
+%    \caption{Player~A punishment beliefs are independent of task performance}
+%    \includegraphics[width=\linewidth]{figures/beliefs_vs_performance.png}
+%    \label{fig:beliefs_vs_performance}
+%    \begin{minipage}{0.95\linewidth}
+%    \footnotesize
+%    \textit{Note:} Each panel plots one belief variable against
+%    Player~A's score in the first ten rounds, restricted to the
+%    \textit{Punishment} condition and attention-check passers ($n=61$).
+%    Points are jittered horizontally for legibility. Lines are OLS fits;
+%    annotations report Pearson $r$ and its two-sided $p$-value. Top row:
+%    good-outcome beliefs (delegation, self, and the difference
+%    \textit{self}~$-$~\textit{delegation}). Bottom row: low-outcome beliefs.
+%    \end{minipage}
+%\end{figure}
+
+\section{Additional figures} \label{appendix:figures}
+
+\subsection{Punishment among attention-check passers}
 
 \begin{figure}[!htbp]
     \centering
-    \caption{Player~A punishment beliefs are independent of task performance}
-    \includegraphics[width=\linewidth]{figures/beliefs_vs_performance.png}
-    \label{fig:beliefs_vs_performance}
-    \begin{minipage}{0.95\linewidth}
+    \caption{Player~B punishment by delegation and outcome scenario, attention-check passers}
+    \includegraphics[width=0.65\linewidth]{figures/punishment_passers.png}
+    \label{fig:punishment_passers}
+    \begin{minipage}{0.85\linewidth}
     \footnotesize
-    \textit{Note:} Each panel plots one belief variable against
-    Player~A's score in the first ten rounds, restricted to the
-    \textit{Punishment} condition and attention-check passers ($n=61$).
-    Points are jittered horizontally for legibility. Lines are OLS fits;
-    annotations report Pearson $r$ and its two-sided $p$-value. Top row:
-    good-outcome beliefs (delegation, self, and the difference
-    \textit{self}~$-$~\textit{delegation}). Bottom row: low-outcome beliefs.
+    \textit{Note:} As in Figure~\ref{fig:punishment}, but restricted to Player~Bs who
+    passed the attention check on the punishment-elicitation screen ($n=67$). For each
+    (delegation, outcome) cell of the strategy method, the figure reports the average
+    punishment (left $y$-axis, in pounds; error bars are standard errors of the mean)
+    and the share of Player~Bs imposing non-zero punishment (right $y$-axis, in
+    percent). The left-axis scale matches Figure~\ref{fig:punishment}.
     \end{minipage}
 \end{figure}
 
-\section{Additional figures}
+\begin{figure}[!htbp]
+    \centering
+    \caption{Realized vs.\ anticipated punishment, attention-check passers}
+    \includegraphics[width=0.85\linewidth]{figures/realized_vs_anticipated_passers.png}
+    \label{fig:realized_vs_anticipated_passers}
+    \begin{minipage}{0.9\linewidth}
+    \footnotesize
+    \textit{Note:} As in Figure~\ref{fig:realized_vs_anticipated}, but restricted to
+    attention-check passers (Player~A $n=61$, Player~B $n=67$).
+    \end{minipage}
+\end{figure}
 
 \subsection{Hypothetical punishment}
 
@@ -78,87 +91,24 @@ In the main text we claim that Player~A's punishment beliefs do not vary systema
     outcome) cell, the figure reports the average hypothetical punishment (left $y$-axis, in
     pounds; error bars are standard errors of the mean) and the share of Player~Bs choosing
     non-zero punishment (right $y$-axis, in percent); the full sample is shown at full opacity
-    and the attention-check passers overlaid at lower opacity. The left-axis scale matches
-    Figure~\ref{fig:punishment}.
+    and the attention-check passers overlaid at lower opacity. In addition, the green bars
+    report Player~A's anticipated punishment in the \textit{No-Punishment} condition
+    (hypothetical, full sample, $n=81$).
     \end{minipage}
 \end{figure}
 
-\section{Bonus computation} \label{appendix:bonus}
-
-Player~A spent on average $12$ minutes on the experiment and earned an average bonus of $\pounds 2.49$ on top of the Prolific show-up fee; Player~B spent on average $8$ minutes and earned an average bonus of $\pounds 2.30$. Bonuses are computed deterministically from the cleaned data per the experimental rules: random-round task payoff (expectation over the uniform draw across rounds 1--10); belief-about-own-score payoff ($\pounds 0.30$ times the probability mass placed on the realized score); belief-about-distribution payoff (expectation over the uniform random draw of which score is checked, paying $\pounds 0.30$ if the estimate is within $5$~percentage points of the true population share); and---for Player~A in the \textit{Punishment} condition---expected punishment from the matched Player~B's strategy-method choice in the realized cell, with $\pounds 0.10$ per cell of strategy-method punishment cost for Player~B. The reported bonuses exclude the risk-elicitation MPL payoff (the raw-data column was not retained in the cleaned files); including it would add roughly $\pounds 0.30$--$\pounds 0.50$ per subject.
-
-\section{Ex-ante power calculations} \label{appendix:pap}
-
-The cell size of $80$ subjects per role per condition was set to detect, at conventional power, the effect sizes anticipated from the responsibility-avoidance literature. We report the minimum detectable effect (MDE) for each preregistered test below, computed at $\alpha = 0.05$ (two-sided) and power $= 0.80$. For H1, the relevant test is a two-sample $z$-test of proportions (delegation rate in \textit{Punishment} vs \textit{No-Punishment}); the MDE is approximately invariant to the assumed baseline rate. For H2, the relevant test is a paired-mean-difference test on Player~B's punishment in the bad-outcome cell; because the within-subject standard deviation $\sigma_d$ of the punishment difference is unknown ex ante, we report the MDE for a range of values of $\sigma_d$ expressed as multiples of the equivalence bound used in Result~2 of the body of the paper ($\delta_a = \pounds 0.20$, equal to $10\%$ of the maximum punishment of $\pounds 2$).
-
-\begin{table}[!htbp]
-\centering
-\caption{Minimum detectable effects under the preregistered design}
-\label{tab:power_mde}
-\input{../tables/power_mde.tex}
-\end{table}
-
-\section{Preregistration and deviations} \label{appendix:preregistration}
-
-The experiment was preregistered at AsPredicted~\#133980, available at \href{https://aspredicted.org/hs9az8.pdf}{aspredicted.org/hs9az8.pdf} and registered on $30$ May $2023$ prior to the main wave of data collection. The preregistration commits to the two research questions stated in the body as H1 and H2, the sample-size target ($320$ subjects total, $80$ per role per condition), the desktop-only restriction, the use of the strategy method to elicit Player~B's punishment, and a set of primary statistical tests (parametric $t$-tests and non-parametric MWU and Kolmogorov--Smirnov tests for both comparisons; probit regressions for the delegation decision and linear regressions for punishment behavior with treatment, beliefs, and socio-demographics as predictors).
-
-The preregistration also notes that a pilot of $25$ observations had been collected in the \textit{Punishment} treatment prior to registration; these observations are pooled with the main wave in all analyses, as preregistered. Two secondary analyses are pre-stated in the registry: the role of own-performance and beliefs about own performance (developed as M2 in Section~\ref{sec:mechanism}), and the consistency of Player~A's beliefs about expected punishment with her delegation decision (developed as M3 in Section~\ref{sec:mechanism}).
-
-The table below summarizes every analysis reported in the body of the paper, the corresponding preregistered specification, and any deviation.
-
-\begin{table}[!htbp]
-\centering
-\caption{Preregistered tests, reported tests, and deviations}
-\label{tab:pap_deviations}
-\begin{tabular}{p{0.32\textwidth}|p{0.32\textwidth}|p{0.30\textwidth}}
-\hline
-\hline
-Preregistered specification & As reported & Deviation / rationale \\ \hline
-H1: between-treatment test of delegation rates (\textit{Punishment} vs \textit{No-Punishment}); preregistered tests are parametric $t$-test, MWU, KS. Direction not specified in the registry. & Pearson Chi-squared and Fisher's exact, two-sided ($p=0.033$ / $p=0.041$). & Test family substituted (Chi-squared and Fisher's exact are the standard tests for a binary outcome; the preregistered $t$-test, MWU and KS tests on a binary outcome are equivalent to the proportion test). The realized direction is opposite to that anticipated by the responsibility-avoidance literature on which we drew. \\[0.3cm]
-H2: paired test of Player~B punishment in the bad-outcome cell, delegated vs non-delegated, attention-check passers only & Paired $t$-test ($p=0.153$); Wilcoxon signed-rank ($p=0.533$). & As preregistered. \\[0.3cm]
-Probit / logit of delegation on condition + controls (Table~\ref{tab:del_decision_determinants}, Cols (1)--(2)) & Logit, as reported. & As preregistered. (Probit and logit are equivalent for our purposes; we report logit for ease of marginal-effect interpretation.) \\[0.3cm]
-Logit on \textit{Punishment} sub-sample with belief differences (Col (3)) & As reported. & Specification preregistered; sample restriction follows the preregistered attention-check rule. \\[0.3cm]
-Pre-stated secondary analysis: own-performance and beliefs about own performance & Reported as M2 in Section~\ref{sec:mechanism}. & As preregistered (secondary). \\[0.3cm]
-Pre-stated secondary analysis: beliefs about expected punishment vs delegation decision & Reported as M3 in Section~\ref{sec:mechanism}. & As preregistered (secondary). \\[0.3cm]
-Mechanism analyses M1 (process ownership) and M4 (experimenter demand) (Section~\ref{sec:mechanism}) & As reported. & \textit{Not preregistered.} Treated as exploratory. \\
-\hline
-\hline
-\end{tabular}
-\end{table}
-
-The full set of preregistered tests, the deviations from each, and the rationale appears in Appendix~\ref{appendix:preregistration}
-
-\section{Flow of participants} \label{appendix:attrition}
-
-The flow of participants through the experiment, by condition and role, is shown in Figure~\ref{fig:consort}. Recruitment-funnel counts (invited / consented) are pending the Prolific audit log.
+\subsection{Performance and confidence by delegation choice}
 
 \begin{figure}[!htbp]
-\centering
-\caption{Flow of participants through the experiment}
-\label{fig:consort}
-\begin{tikzpicture}[node distance=0.6cm and 0.6cm, every node/.style={draw, rectangle, align=center, font=\footnotesize, inner sep=4pt}]
-\node (rand) {Completed experiment ($N=322$)\\Recruitment-funnel counts (invited / consented) pending Prolific audit log};
-\node (pun) [below left=of rand, xshift=-0.4cm] {\textit{Punishment} condition\\Player A: $80$\\Player B: $80$};
-\node (nopun) [below right=of rand, xshift=0.4cm] {\textit{No-Punishment} condition\\Player A: $81$\\Player B: $81$};
-\node (att_p) [below=of pun] {Attention-check exclusion\\Player A: $19$\\Player B: $13$};
-\node (att_np) [below=of nopun] {Attention-check exclusion\\Player A: $11$\\Player B: $13$};
-\node (final_p) [below=of att_p] {Analysis sample\\Player A: $61$\\Player B: $67$};
-\node (final_np) [below=of att_np] {Analysis sample\\Player A: $70$\\Player B: $68$};
-\draw[->] (rand) -- (pun);
-\draw[->] (rand) -- (nopun);
-\draw[->] (pun) -- (att_p);
-\draw[->] (nopun) -- (att_np);
-\draw[->] (att_p) -- (final_p);
-\draw[->] (att_np) -- (final_np);
-\end{tikzpicture}
+    \centering
+    \caption{Performance and confidence distributions by treatment and delegation choice}
+    \includegraphics[width=0.98\linewidth]{figures/performance_by_delegation.png}
+    \label{fig:performance_by_delegation}
+    \begin{minipage}{0.95\linewidth}
+    \footnotesize
+    \textit{Note:} Restricted to attention-check passers. Within each treatment, the top panel shows the share of Player~As at each first-ten-rounds score, separately for those who delegated (dark blue) and those who did not (light blue), with the weighted-average performance belief overlaid as a KDE (delegators solid magenta, non-delegators dashed pink). Boxplot strips below the top panel report the same four series. In the \textit{Punishment} condition, actual performance discriminates between delegators and non-delegators (means $2.38$ vs.\ $3.00$) while perceived performance does not (means $4.69$ vs.\ $4.71$). In the \textit{No-Punishment} condition, neither actual nor perceived performance discriminates (actual: $2.98$ vs.\ $3.13$; perceived: $4.85$ vs.\ $5.33$). The additional delegators in \textit{No-Punishment} therefore come disproportionately from the middle and upper portion of the actual performance distribution.
+\end{minipage}
 \end{figure}
-
-A flow diagram showing recruitment, attrition, attention-check exclusion, and the analysis sample, broken down by condition and role, appears in Appendix~\ref{appendix:attrition}; in particular, attrition rates do not differ meaningfully across the \textit{Punishment} and \textit{No-Punishment} conditions.
-
-We preregistered exclusion of subjects who failed the attention check on the screen at which their main outcome variable was elicited. For Player~A, this is the belief-elicitation screen; for Player~B, the punishment-elicitation screen. Of $161$ Player~Bs, $135$ pass the attention check ($83.9\%$); the corresponding pass rate for Player~A is $131/161$ ($81.4\%$). All main results are robust to including subjects who fail the attention check; we report these robustness checks in Appendix~\ref{appendix:regs}.
-\todo[inline]{FB: maybe move to first set of results. Also the appendix does not show anything and the default should be including everyone.}
-
-\section{Additional Figures} \label{appendix:figures}
 
 \subsection{Experimental timelines}
 
@@ -166,73 +116,33 @@ We preregistered exclusion of subjects who failed the attention check on the scr
     \centering
     \caption{Experimental timeline --- Player A}
     \label{fig:design_playerA}
-    \scalebox{0.85}{
-    \begin{tikzpicture}[node distance=0.55cm and 0.4cm, every node/.style={draw, rectangle, align=center, font=\scriptsize, minimum width=2.4cm, minimum height=0.7cm, inner sep=2pt}, ac/.style={fill=red!15}]
-    \node (consent) {Consent};
-    \node (rounds) [right=of consent] {10 prediction\\rounds (incentivised)};
-    \node (match) [right=of rounds] {Matching\\with Player B};
-    \node (deleg) [below=of match] {Delegation\\decision};
-    \node (predict) [below=of deleg] {(if not delegated)\\Final prediction\\\& confidence};
-    \node (beliefs) [left=of predict, ac] {Beliefs about\\punishment\\\textit{(attention check)}};
-    \node (selfperf) [left=of beliefs] {Self-performance\\assessment};
-    \node (popperf) [below=of selfperf] {Population-performance\\assessment};
-    \node (risk) [right=of popperf] {Risk preferences\\(MPL)};
-    \node (qx) [right=of risk] {Questionnaire};
-    \node (payoff) [right=of qx] {Payoff};
-    \draw[->] (consent) -- (rounds);
-    \draw[->] (rounds) -- (match);
-    \draw[->] (match) -- (deleg);
-    \draw[->] (deleg) -- (predict);
-    \draw[->] (predict) -- (beliefs);
-    \draw[->] (beliefs) -- (selfperf);
-    \draw[->] (selfperf) -- (popperf);
-    \draw[->] (popperf) -- (risk);
-    \draw[->] (risk) -- (qx);
-    \draw[->] (qx) -- (payoff);
-    \end{tikzpicture}
-    }
-    \begin{minipage}{0.95\linewidth}
-    \footnotesize
-    \textit{Note:} Screen sequence presented to Player~A. The shaded screen carries the attention check used to identify subjects excluded from belief-related analyses. The final-prediction-and-confidence screen is skipped if Player~A delegates to the algorithm.
-    \end{minipage}
+    \hl{To be added.}
 \end{figure}
 
 \begin{figure}[!htbp]
     \centering
     \caption{Experimental timeline --- Player B}
     \label{fig:design_playerB}
-    \scalebox{0.85}{
-    \begin{tikzpicture}[node distance=0.55cm and 0.5cm, every node/.style={draw, rectangle, align=center, font=\scriptsize, minimum width=2.7cm, minimum height=0.8cm, inner sep=2pt}, ac/.style={fill=red!15}]
-    \node (consent) {Consent};
-    \node (match) [right=of consent] {Matching with Player A\\\& task description};
-    \node (pun) [right=of match, ac] {Punishment elicitation\\(\textit{Punishment} cond.)\\or hypothetical-punishment\\(\textit{No-Punishment} cond.)\\\textit{(attention check)}};
-    \node (diff) [below=of pun] {Task-difficulty\\perception};
-    \node (risk) [left=of diff] {Risk preferences\\(MPL)};
-    \node (qx) [left=of risk] {Questionnaire};
-    \node (payoff) [below=of qx] {Payoff};
-    \draw[->] (consent) -- (match);
-    \draw[->] (match) -- (pun);
-    \draw[->] (pun) -- (diff);
-    \draw[->] (diff) -- (risk);
-    \draw[->] (risk) -- (qx);
-    \draw[->] (qx) -- (payoff);
-    \end{tikzpicture}
-    }
-    \begin{minipage}{0.95\linewidth}
-    \footnotesize
-    \textit{Note:} Screen sequence presented to Player~B. The shaded screen carries the attention check used to identify subjects excluded from punishment-related analyses. In the \textit{No-Punishment} condition, no actual punishment is implemented; the elicitation is hypothetical and serves to maintain comparability of the screen sequence across conditions.
-    \end{minipage}
+    \hl{To be added.}
 \end{figure}
 
-\subsection{Punishment frequencies} \label{appendix:figs:punishment}
+\section{Pre-registration} \label{appendix:prereg}
 
-\begin{figure}[!htbp]
-    \centering
-    \caption{Frequencies of punishment and beliefs about punishment}
-    \includegraphics[width=0.6\linewidth]{figures/punishment_shares.png}
-    \label{fig:punishment_frequencies}
-    \begin{minipage}{0.85\linewidth}
-    \footnotesize
-    \textit{Note:} Share of Player~Bs choosing strictly positive punishment in each of the four scenarios (solid bars) and share of Player~As assigning a strictly positive expected punishment in each scenario (hollow bars).
-    \end{minipage}
-\end{figure}
+The study was pre-registered on AsPredicted under the title ``Algorithms and Responsibility'' (\#133980) on May~30, 2023, after the collection of a pilot sample and before the collection of the main sample. The pre-registration is available at \url{https://aspredicted.org/hs9az8.pdf} and is reproduced in full on the following page.
+
+The analyses in the paper deviate from this document in three respects. First, we recruited 322 participants instead of the planned 320. Attrition during the experiment required re-matching and produced one additional pair in the \textit{No-Punishment} condition. Second, we compare delegation rates across conditions using a Pearson chi-squared test and Fisher's exact test rather than the preregistered $t$-test. The delegation decision is binary, so these tests are the appropriate choice, and the conclusion is unchanged under either procedure. Third, the pre-registration specifies Mann-Whitney U and Kolmogorov-Smirnov tests for the punishment comparisons. Both are tests for independent samples, whereas punishment is elicited within-subject via the strategy method. We therefore report the Wilcoxon signed-rank test as the within-subject non-parametric counterpart alongside the parametric tests. Beyond these deviations, the pre-registration left open whether participants who failed the attention checks would be excluded. \hl{We report all analyses for the full sample in the main text and repeat them for the subsample of attention-check passers in the appendix.}
+
+\includepdf[pages=-, frame, scale=0.85, pagecommand={}]{prereg_aspredicted_133980.pdf}
+
+\section{Ex-ante power calculations} \label{appendix:pap}
+
+\hl{To be added}
+
+%The cell size of $80$ subjects per role per condition was set to detect, at conventional power, the effect sizes anticipated from the responsibility-avoidance literature. We report the minimum detectable effect (MDE) for each preregistered test below, computed at $\alpha = 0.05$ (two-sided) and power $= 0.80$. For H1, the relevant test is a two-sample $z$-test of proportions (delegation rate in \textit{Punishment} vs \textit{No-Punishment}); the MDE is approximately invariant to the assumed baseline rate. For H2, the relevant test is a paired-mean-difference test on Player~B's punishment in the bad-outcome cell; because the within-subject standard deviation $\sigma_d$ of the punishment difference is unknown ex ante, we report the MDE for a range of values of $\sigma_d$ expressed as multiples of the equivalence bound used in Result~2 of the body of the paper ($\delta_a = \pounds 0.20$, equal to $10\%$ of the maximum punishment of $\pounds 2$).
+
+%\begin{table}[!htbp]
+%\centering
+%\caption{Minimum detectable effects under the preregistered design}
+%\label{tab:power_mde}
+%\input{../tables/power_mde.tex}
+%\end{table}

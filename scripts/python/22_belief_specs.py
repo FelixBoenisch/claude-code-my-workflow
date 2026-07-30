@@ -24,14 +24,14 @@ SES = ["age", "female", "socio_status", "went_to_uni", "technology_score", "lead
 CTRLS = ["overall_score"] + SES
 
 
-def fit_logit(y, X):
+def fit_probit(y, X):
     X = sm.add_constant(X, has_constant="add")
-    return sm.Logit(y.astype(float), X.astype(float)).fit(disp=False, cov_type="HC1")
+    return sm.Probit(y.astype(float), X.astype(float)).fit(disp=False, cov_type="HC1")
 
 
 def fit_spec(df, regs):
     sub = df[["delegation"] + regs].dropna()
-    return fit_logit(sub["delegation"], sub[regs]), len(sub)
+    return fit_probit(sub["delegation"], sub[regs]), len(sub)
 
 
 def ame_pp10(model, var):
@@ -66,10 +66,10 @@ def main() -> None:
     ns = [n1, n2, n3, n4, n5]
 
     rows = [
-        (r"Punishment beliefs: simple average ($\overline{\Delta}$)",     "bel_diff_avg"),
-        (r"Punishment beliefs: weighted by $\Pr(\text{good})$",           "bel_diff_weighted"),
-        (r"Punishment beliefs: bad outcome (no del.~$-$~del.)",           "bel_diff_bad"),
-        (r"Punishment beliefs: good outcome (no del.~$-$~del.)",          "bel_diff_good"),
+        (r"Belief difference, average ($\overline{\Delta}$)",                     "bel_diff_avg"),
+        (r"Belief difference, weighted by $\Pr(\text{good})$ ($\Delta^{w}$)",     "bel_diff_weighted"),
+        (r"Belief difference, bad outcome ($\Delta^{\text{bad}}$)",               "bel_diff_bad"),
+        (r"Belief difference, good outcome ($\Delta^{\text{good}}$)",             "bel_diff_good"),
         ("Task performance",       "overall_score"),
         ("Age",                    "age"),
         ("Female",                 "female"),
@@ -118,29 +118,19 @@ def main() -> None:
         (r"Pseudo $R^2$", [f"${num(m.prsquared, 3)}$" for m in models]),
     ]
     note = (
-        "Logit estimates with robust (HC1) standard errors in parentheses. "
+        "Probit estimates with robust (HC1) standard errors in parentheses. "
         "Significance: $^{*}\\,p<0.10$; $^{**}\\,p<0.05$; $^{***}\\,p<0.01$ (two-sided). "
-        "Sample restricted to the \\textit{Punishment} condition throughout, "
-        "since beliefs about a counterfactual that cannot materialise do not "
-        "enter Player~A's decision rule in the \\textit{No-Punishment} arm. "
+        "Sample restricted to the \\textit{Punishment} condition throughout. "
         "Belief differences are within-subject \\textit{(no delegation)}~$-$~\\textit{(delegation)} "
         "in expected punishment, so positive coefficients indicate that subjects who expect "
         "to be punished more harshly for not delegating (relative to delegating) are more "
-        "likely to delegate. Column~(1) uses the simple average of the two outcome-conditional "
-        "belief differences without controls; Column~(2) adds task performance and "
-        "socio-demographic controls; Column~(3) restricts to subjects who passed the "
-        "attention check on the belief-elicitation screen, as preregistered; "
-        "Column~(4) replaces the simple average with a weighted average using "
-        "Player~A's elicited probability of producing the high payoff "
-        "($\\Pr(\\text{good})=$ \\textit{wa\\_confidence}$/10$); "
-        "Column~(5) replaces the single belief regressor with the two outcome-conditional "
-        "belief differences entered separately. "
+        "likely to delegate. "
         "The \\textit{AME} rows report the average marginal effect of the belief measure "
         "entered in the respective column on the probability of delegation, in percentage "
         "points per \\pounds 0.10 increase in the corresponding belief difference."
     )
     table = render_two_block_table(
-        caption="Delegation and punishment beliefs",
+        caption="Delegation and beliefs about punishment",
         label="tab:reg_belief_specs",
         col_headers=[r"\multicolumn{2}{c}{\textit{Full Punishment}}",
                      r"\multicolumn{3}{c}{\textit{Punishment, passers}}"],

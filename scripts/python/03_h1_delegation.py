@@ -78,7 +78,7 @@ def main() -> None:
     ax.set_ylim(0, 1)
     ax.set_xlim(0.97, 1.08)
     ax.set_xticks(x_positions)
-    ax.set_xticklabels(["Punishment\n(possible)", "No-Punishment"])
+    ax.set_xticklabels(["Punishment", "No-Punishment"])
     ax.spines["top"].set_visible(False)
     ax.spines["right"].set_visible(False)
     ax.spines["bottom"].set_visible(False)

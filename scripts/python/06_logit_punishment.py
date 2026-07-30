@@ -103,14 +103,12 @@ def main() -> None:
          [f"${num(l_full.rsquared_adj, 3)}$", f"${num(l_pass.rsquared_adj, 3)}$"]),
     ]
     note = (
-        "OLS regression of Player~B's chosen punishment level on a delegation indicator, a "
-        "bad-outcome indicator, their interaction, Player~B's belief about Player~A's performance, "
-        "and a vector of socio-demographic controls. The sample is stacked over the four "
-        "(delegation, outcome) cells of the strategy method (4 observations per Player~B). The "
+        "OLS regression of Player~B's chosen punishment levels. The sample is stacked over the four "
+        "(delegation, outcome) scenarios of the strategy method (4 observations per Player~B). The "
         "\\textit{Delegated} $\\times$ \\textit{Bad outcome} interaction is the differential effect "
         "of delegation on punishment in the bad-outcome cell. Column~(1) uses the full "
         "Punishment-condition sample; Column~(2) restricts to Player~Bs who passed the attention "
-        "check on the punishment-elicitation screen, as preregistered. Standard errors clustered at "
+        "check on the punishment-elicitation screen. Standard errors clustered at "
         "the Player~B level. Significance: $^{*}\\,p<0.10$; $^{**}\\,p<0.05$; $^{***}\\,p<0.01$ (two-sided)."
     )
     (TABLES / "reg_punishment.tex").write_text(
@@ -125,6 +123,7 @@ def main() -> None:
             note=note,
             column_spec="@{\\extracolsep{5pt}}lcc",
             stars=True,
+            note_width=0.55,
         ),
         encoding="utf-8",
     )
