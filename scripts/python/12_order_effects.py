@@ -23,10 +23,11 @@ def main() -> None:
     print("Delegation rate by (treat, random_order_del):")
     print(by_cell.to_string(index=False))
 
-    # Logit with treat × order interaction
+    # Logit with punishment-indicator × order interaction
     sub = d[["delegation", "treat", "random_order_del"]].dropna()
-    sub["treat_x_order"] = sub["treat"] * sub["random_order_del"]
-    X = sm.add_constant(sub[["treat", "random_order_del", "treat_x_order"]].astype(float), has_constant="add")
+    sub["punish"] = 1 - sub["treat"]
+    sub["punish_x_order"] = sub["punish"] * sub["random_order_del"]
+    X = sm.add_constant(sub[["punish", "random_order_del", "punish_x_order"]].astype(float), has_constant="add")
     y = sub["delegation"].astype(float)
     model = sm.Logit(y, X).fit(disp=False, cov_type="HC1")
 
@@ -47,12 +48,12 @@ def main() -> None:
         "order_nopun_diff_pp": round(100 * nopun_order_diff, 1),
         "order_pun_chi2_p": round(float(p_pun_order), 4),
         "order_nopun_chi2_p": round(float(p_nopun_order), 4),
-        "order_logit_treat_coef": round(float(model.params["treat"]), 4),
-        "order_logit_treat_p": round(float(model.pvalues["treat"]), 4),
+        "order_logit_punish_coef": round(float(model.params["punish"]), 4),
+        "order_logit_punish_p": round(float(model.pvalues["punish"]), 4),
         "order_logit_order_coef": round(float(model.params["random_order_del"]), 4),
         "order_logit_order_p": round(float(model.pvalues["random_order_del"]), 4),
-        "order_logit_interaction_coef": round(float(model.params["treat_x_order"]), 4),
-        "order_logit_interaction_p": round(float(model.pvalues["treat_x_order"]), 4),
+        "order_logit_interaction_coef": round(float(model.params["punish_x_order"]), 4),
+        "order_logit_interaction_p": round(float(model.pvalues["punish_x_order"]), 4),
     }
     manifest.update(out)
     for k, v in out.items():

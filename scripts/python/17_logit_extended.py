@@ -24,21 +24,21 @@ def fit_logit(y, X):
 
 
 def col_overconf(df):
-    """Full sample, treat + overall_score + overconfidence + controls.
+    """Full sample, punish + overall_score + overconfidence + controls.
     Note: wa_confidence is omitted because overconfidence = wa_confidence - overall_score
     by construction (collinear with overall_score + overconfidence)."""
-    cols = ["delegation", "treat", "overall_score", "overconfidence"] + CONTROLS
+    cols = ["delegation", "punish", "overall_score", "overconfidence"] + CONTROLS
     sub = df[cols].dropna()
     return fit_logit(sub["delegation"],
-                     sub[["treat", "overall_score", "overconfidence"] + CONTROLS]), len(sub)
+                     sub[["punish", "overall_score", "overconfidence"] + CONTROLS]), len(sub)
 
 
 def col_full_no_excl(df):
     """Col (1) without attention-check exclusion (it has none anyway, since main delegation
     decision predates the attention check). Trivially identical to existing Col (1).
     Included for completeness of the robustness panel."""
-    sub = df[["delegation", "treat"]].dropna()
-    return fit_logit(sub["delegation"], sub[["treat"]]), len(sub)
+    sub = df[["delegation", "punish"]].dropna()
+    return fit_logit(sub["delegation"], sub[["punish"]]), len(sub)
 
 
 def col_pun_no_att_excl(df):
@@ -56,6 +56,7 @@ def col_pun_no_att_excl(df):
 
 def main() -> None:
     d = load_delegator()
+    d["punish"] = 1 - d["treat"]  # Punishment indicator (1 = Punishment condition)
     m_oc, n_oc = col_overconf(d)
     m_full, n_full = col_full_no_excl(d)
     m_pun_full, n_pun_full = col_pun_no_att_excl(d)
@@ -63,7 +64,7 @@ def main() -> None:
     # Robustness table: shows H1 effect persists with overconfidence added,
     # and the Punishment-only Col (3) result holds without attention-check exclusion.
     rows = [
-        ("No-Punishment indicator", "treat"),
+        ("Punishment indicator", "punish"),
         ("Task performance", "overall_score"),
         ("Overconfidence", "overconfidence"),
         ("Punishment beliefs: bad outcome (no del.~$-$~del.)", "bel_diff_bad"),
@@ -79,8 +80,8 @@ def main() -> None:
     ]
 
     p_overconf = float(m_oc.pvalues.get("overconfidence", float("nan")))
-    p_treat_oc = float(m_oc.pvalues["treat"])
-    p_treat_full = float(m_full.pvalues["treat"])
+    p_treat_oc = float(m_oc.pvalues["punish"])
+    p_treat_full = float(m_full.pvalues["punish"])
     p_perf_pun_full = float(m_pun_full.pvalues["overall_score"])
     p_bel_good_pun_full = float(m_pun_full.pvalues["bel_diff_good"])
 
@@ -88,7 +89,7 @@ def main() -> None:
         "Robustness specifications for the delegation logit. "
         "Column (1) adds \\textit{overconfidence} (defined as the weighted-average belief about own "
         "performance minus actual performance) to the main full-sample specification. The treatment "
-        f"effect remains: \\textit{{No-Punishment indicator}} $p={num(p_treat_oc, 3)}$. "
+        f"effect remains: \\textit{{Punishment indicator}} $p={num(p_treat_oc, 3)}$. "
         f"\\textit{{Overconfidence}} is not significantly associated with delegation $p={num(p_overconf, 3)}$. "
         "Column (2) reproduces the unconditional treatment effect for completeness "
         f"($p={num(p_treat_full, 3)}$; identical to the main Col (1)). "
@@ -116,8 +117,8 @@ def main() -> None:
     )
 
     out = {
-        "robust_overconf_treat_coef": round(float(m_oc.params["treat"]), 4),
-        "robust_overconf_treat_p": round(p_treat_oc, 4),
+        "robust_overconf_punish_coef": round(float(m_oc.params["punish"]), 4),
+        "robust_overconf_punish_p": round(p_treat_oc, 4),
         "robust_overconf_overconfidence_coef": round(float(m_oc.params["overconfidence"]), 4),
         "robust_overconf_overconfidence_p": round(p_overconf, 4),
         "robust_overconf_n": n_oc,

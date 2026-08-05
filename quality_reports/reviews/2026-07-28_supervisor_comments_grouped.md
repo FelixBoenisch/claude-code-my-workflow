@@ -391,6 +391,10 @@ Matches your own margin comment at results.tex:24. Flip `treat` to a *Punishment
 
 *Update 2026-07-30:* Still open; the paragraph and `\hl` comment now sit at results.tex:26. Note the flip also touches that paragraph's AME sentence ("removing the punishment possibility raises... by 16.5--19.2pp" becomes "introducing the punishment possibility reduces..."), and the order-control footnote's coefficient (0.48) flips sign with it.
 
+FB: Yes, we should change it in all regressions and make the corresponding changes in the text.
+
+**Claude:** ✅ Done 2026-07-30. Scripts 04 (delegation tables), 17 (robustness table), and 12 (order effects) now use a `punish = 1 - treat` indicator; row labels and notes say "Punishment indicator" / "AME of Punishment"; manifest keys renamed (`*_treat_*` → `*_punish_*`, no readers affected). All three tables regenerated — exact sign mirrors (Probit body: $-0.42$ to $-0.52$; AMEs $-16.5$ to $-19.2$pp). Text at results.tex:26 updated including the AME sentence ("introducing... reduces") and the order-control footnote ($-0.48$), whose ad-hoc source regression I reproduced exactly under the new coding before flipping the number. Manuscript-wide sweep for "No-Punishment indicator" clean; compile clean. Two intentionally untouched: `19_attention_comparison.py` and `_compare_logit_probit.py` (internal QA docs, not manuscript outputs); and noted that the footnote's $-0.48$ regression is still not pipeline-tracked — a candidate for a manifest key when the audit pass happens.
+
 **E2 (line 24) — Result 2 from Player B's perspective.** ⬜
 Matches your margin comment at results.tex:54. Candidate: "**Result 2.** *Player B punishes delegated and self-made decisions alike. Punishment responds to the realized outcome, not to how the decision was made.*" H2 (design.tex) is currently phrased from A's perspective ("Player A is punished less when...").
 - **Q-E2a:** Take the candidate phrasing (or edit it)?
@@ -398,11 +402,17 @@ Matches your margin comment at results.tex:54. Candidate: "**Result 2.** *Player
 
 *Update 2026-07-30:* Still open; the Result~2 statement and its `\hl` comment now sit at results.tex:56. One new consideration: the wrap-up paragraph after it (results.tex:59) is already written largely from Player~B's perspective ("Player~B neither punishes delegated decisions substantially less harshly, nor less frequently"), so flipping the Result statement would align it with the very next paragraph — a small extra argument for the flip.
 
+**Claude:** ✅ Done 2026-07-30 per Felix's wording (with the "not" attached to significance rather than direction, since the point estimate runs toward *less* and the regression interaction is weakly significant in that direction). Applied: **H2** (design.tex) = "Conditional on a low-payoff outcome, Player~B punishes Player~A less when she delegated the decision to the algorithm than when she made it herself." **Result 2** (results.tex:56) = "Conditional on a low-payoff outcome, Player~B does not punish delegated decisions significantly less than self-made ones." The `\hl` comment kept in place per Felix. Compiled clean.
+
 **E3 (line 43) — Moral domain vs. social domain.** ❓
 Her advice as you noted it: don't make the claim explicit; you lean toward keeping "moral domain." Affected spot: the second half of the design paragraph at design.tex:105 ("the setup nonetheless qualifies as part of the *moral domain* as defined in the algorithm-aversion literature").
 - *My read:* three options — (a) keep the explicit moral-domain claim with the Gogoll & Uhl citation (defensible: their definition is "consequences fall on third parties," which your setup meets literally); (b) soften to description without classification ("Player A's choice imposes real monetary consequences on another person") and let readers connect it to that literature via the citation; (c) rebrand as "social domain" — I'd advise against inventing a term the literature doesn't use.
 - *My recommendation:* (b) — it keeps the substance, drops the contestable label, and matches her "einfach nicht explizit machen."
 - **Q-E3:** (a), (b), or (c)?
+
+FB: Regarding E3, let's go for option b)
+
+**Claude:** ✅ Done 2026-07-30. design.tex:105 no longer claims the setup "qualifies as part of the moral domain"; it now describes the substance (real monetary consequences for a matched recipient) and adds "In this respect, our setting shares the defining feature of the settings studied in the algorithm-aversion literature on morally consequential decisions~\citep{gogoll_rage_2018}." The term "moral domain" survives only in literature.tex:58, where it correctly describes the literature's own label rather than classifying our design. The `\hl` placement comment on that paragraph remains open. Compiled clean. **PACKAGE E COMPLETE.**
 
 ---
 

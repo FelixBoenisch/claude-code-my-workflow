@@ -42,17 +42,18 @@ def ame_pp(model):
 
 def main() -> None:
     d = load_delegator()
+    d["punish"] = 1 - d["treat"]  # Punishment indicator (1 = Punishment condition)
 
     # --- Main 5-column specifications --------------------------------------
     # The body table (tab:del_decision_determinants -> reg_delegation.tex) is
     # reported as Probit; the appendix mirror (tab:reg_delegation ->
     # reg_delegation_full.tex) and the manifest remain Logit.
     spec_defs = [
-        (["treat"], False),
-        (["treat"] + SES, False),
-        (["treat"] + SES + ["overall_score"], False),
-        (["treat"] + SES + ["wa_confidence"], False),
-        (["treat"] + SES + ["overall_score"], True),
+        (["punish"], False),
+        (["punish"] + SES, False),
+        (["punish"] + SES + ["overall_score"], False),
+        (["punish"] + SES + ["wa_confidence"], False),
+        (["punish"] + SES + ["overall_score"], True),
     ]
     logit_models, probit_models, ns = [], [], []
     for regs, passers in spec_defs:
@@ -64,7 +65,7 @@ def main() -> None:
     main_models = logit_models  # used for the appendix mirror and the manifest
 
     main_rows = [
-        ("No-Punishment indicator", "treat"),
+        ("Punishment indicator", "punish"),
         ("Task performance", "overall_score"),
         ("Perceived performance", "wa_confidence"),
         ("Age", "age"),
@@ -86,7 +87,7 @@ def main() -> None:
             )
             ame_p_cells.append(f"$(p={num(ap, 3)})$")
         return [
-            ("AME of No-Punishment (pp)", ame_coef_cells),
+            ("AME of Punishment (pp)", ame_coef_cells),
             ("", ame_p_cells),
             ("N", [f"${n}$" for n in ns]),
             ("Pseudo $R^2$", [f"${num(m.prsquared, 3)}$" for m in models]),
@@ -94,12 +95,12 @@ def main() -> None:
 
     note_template = (
         "Coefficients from a {model} regression of the delegation decision on the "
-        "No-Punishment indicator and the controls listed in each column. "
+        "Punishment indicator and the controls listed in each column. "
         "Robust (HC1) standard errors in parentheses. "
         "Significance: $^{{*}}\\,p<0.10$; $^{{**}}\\,p<0.05$; $^{{***}}\\,p<0.01$ (two-sided). "
         "Two subjects are dropped in Columns~(2)--(4) due to missing socio-demographic "
-        "data. The \\textit{{AME of No-Punishment}} row reports the average marginal "
-        "effect of the No-Punishment indicator on the probability of delegation, in "
+        "data. The \\textit{{AME of Punishment}} row reports the average marginal "
+        "effect of the Punishment indicator on the probability of delegation, in "
         "percentage points."
     )
 
@@ -189,9 +190,9 @@ def main() -> None:
     # --- Manifest ----------------------------------------------------------
     out = {}
     for i, (m, n) in enumerate(zip(main_models, ns), start=1):
-        out[f"logit_col{i}_treat_coef"] = round(float(m.params["treat"]), 4)
-        out[f"logit_col{i}_treat_se"] = round(float(m.bse["treat"]), 4)
-        out[f"logit_col{i}_treat_p"] = round(float(m.pvalues["treat"]), 4)
+        out[f"logit_col{i}_punish_coef"] = round(float(m.params["punish"]), 4)
+        out[f"logit_col{i}_punish_se"] = round(float(m.bse["punish"]), 4)
+        out[f"logit_col{i}_punish_p"] = round(float(m.pvalues["punish"]), 4)
         a, ap = ame_pp(m)
         out[f"logit_col{i}_ame_pp"] = round(100 * a, 2)
         out[f"logit_col{i}_ame_p"] = round(ap, 4)
