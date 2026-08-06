@@ -1,16 +1,18 @@
-"""Punishment figures for the Player-B subsection.
+"""Punishment figures for the Player-B subsection (W9 design, adopted 2026-08-06).
 
-Three separate single-panel figures (shared left-axis scale for comparability):
-  figures/punishment.png              -- actual punishment, Punishment condition,
-                                         full sample (body)
-  figures/punishment_passers.png      -- actual punishment, attention-check
-                                         passers (appendix)
-  figures/punishment_hypothetical.png -- hypothetical punishment, No-Punishment
-                                         condition, full sample overlaid by
-                                         passers (appendix)
+Layout: cells grouped by outcome (good pair left, bad pair right), each cell
+showing average punishment (moss green, left axis, +-1 SE whiskers) and the
+share imposing punishment (gold, right axis), values printed on the bars.
+The main figure adds n.s. brackets over each within-outcome pair and the
+good-vs-bad difference in average punishment as a green arrow connecting
+dashed group-mean lines.
 
-Each shows, per (delegation, outcome) cell: average punishment (left y-axis, £) and
-the share imposing non-zero punishment (right y-axis, %).
+Outputs:
+  figures/punishment.png              -- Punishment condition, full sample (body)
+  figures/punishment_passers.png      -- attention-check passers (appendix)
+  figures/punishment_hypothetical.png -- No-Punishment condition, full sample,
+                                         incl. Player A's anticipated punishment
+                                         (appendix)
 """
 from __future__ import annotations
 
@@ -19,152 +21,160 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
+from scipy import stats
 
 from lib.io import load_delegator, load_evaluator
 from lib.paths import FIGURES
 from lib import manifest
 
-CELLS = [
-    ("punish_del_good", "Delegated\nGood"),
-    ("punish_del_bad", "Delegated\nBad"),
-    ("punish_nodel_good", "Self-decided\nGood"),
-    ("punish_nodel_bad", "Self-decided\nBad"),
-]
-COLOR_AVG = "#4F6EC4"   # blue, for avg punishment
-COLOR_PUN = "#C4A54F"   # gold, for share imposing punishment
-COLOR_BEL = "#5DB692"   # green, for Player A anticipated punishment (matches
-                        # the realized-vs-anticipated figure's belief color)
+KEYS = ["punish_del_good", "punish_nodel_good", "punish_del_bad", "punish_nodel_bad"]
+TICKS = ["Delegated", "Self-decided", "Delegated", "Self-decided"]
+GREEN = "#5b7553"   # average punishment
+GOLD = "#C4A54F"    # share imposing punishment
+MINT = "#5DB692"    # Player A anticipated punishment (matches Figure 4)
+X = [0, 1.0, 2.6, 3.6]
+W = 0.345
 
 
-def _cell_arrays(df, cols):
-    means = np.array([df[c].mean() for c in cols])
-    sems = np.array([df[c].sem() for c in cols])
-    punish_share = np.array([(df[c] > 0).mean() for c in cols])
-    return means, sems, punish_share
+def draw_figure(df, save_to, annotate=False, beliefs=None, n_bel=None,
+                passers=None):
+    """One punishment panel in the W9 design. `beliefs` adds Player A's
+    anticipated-punishment bars and `passers` faded full-vs-passers overlays
+    (hypothetical appendix figure)."""
+    m = {c: df[c].mean() for c in KEYS}
+    s = {c: df[c].sem() for c in KEYS}
+    sh = {c: (df[c] > 0).mean() for c in KEYS}
+    sh_sem = {c: (df[c] > 0).sem() for c in KEYS}
+    n = len(df)
 
-
-def draw_panel(ax, x, labels, full, pas, n_full, n_pass, ymax, fs=10, w=0.18,
-               bel=None, n_bel=None):
-    """Draw one punishment panel on `ax`. `full`/`pas` are (means, sems, punish) tuples.
-
-    With `pas=None`, a single-sample panel is drawn (two bars per cell).
-    With `bel=(means, sems)`, Player A's hypothetical beliefs are added as a
-    leftmost bar on the left axis (used for the hypothetical appendix figure).
-    """
-    f_means, f_sems, f_punish = full
+    fig, ax = plt.subplots(figsize=(6.8, 4.2))
     ax2 = ax.twinx()
-
-    if pas is None:
-        w = 0.28
-        ax.bar(x - 0.5 * w, f_means, width=w, yerr=f_sems, capsize=3, color=COLOR_AVG,
-               label=f"Avg punishment ($n={n_full}$)")
-        ax2.bar(x + 0.5 * w, 100 * f_punish, width=w, color=COLOR_PUN,
-                label=f"Share punishing ($n={n_full}$)")
+    if beliefs is None:
+        w, xs = W, X
+        offs = {"avg": -0.5 * W, "share": 0.5 * W}
     else:
-        p_means, p_sems, p_punish = pas
-        if bel is not None:
-            w = 0.16
-            b_means, b_sems = bel
-            ax.bar(x - 2 * w, b_means, width=w, yerr=b_sems, capsize=3, color=COLOR_BEL,
-                   label=f"Player A anticipated ($n={n_bel}$)")
-            off = (-1.0, 0.0, 1.0, 2.0)
-        else:
-            off = (-1.5, -0.5, 0.5, 1.5)
-        ax.bar(x + off[0] * w, f_means, width=w, yerr=f_sems, capsize=3, color=COLOR_AVG, alpha=1.0,
-               label=f"Avg punishment, full ($n={n_full}$)")
-        ax.bar(x + off[1] * w, p_means, width=w, yerr=p_sems, capsize=3, color=COLOR_AVG, alpha=0.4,
-               label=f"Avg punishment, passers ($n={n_pass}$)")
-        ax2.bar(x + off[2] * w, 100 * f_punish, width=w, color=COLOR_PUN, alpha=1.0,
-                label=f"Share punishing, full ($n={n_full}$)")
-        ax2.bar(x + off[3] * w, 100 * p_punish, width=w, color=COLOR_PUN, alpha=0.4,
-                label=f"Share punishing, passers ($n={n_pass}$)")
-
-    ax.set_ylabel("Average punishment (£)", color=COLOR_AVG)
-    ax.tick_params(axis="y", labelcolor=COLOR_AVG)
-    ax.set_xticks(x)
-    ax.set_xticklabels(labels, fontsize=fs - 1)
-    ax.set_ylim(0, ymax)
-    ax.spines["top"].set_visible(False)
-
-    ax2.set_ylabel("Share imposing punishment (%)", color=COLOR_PUN)
-    ax2.tick_params(axis="y", labelcolor=COLOR_PUN)
+        w = 0.24
+        xs = [0, 1.65, 4.0, 5.65]
+        offs = {"bel": -2 * w, "avg": -w, "avg_p": 0, "share": w, "share_p": 2 * w}
+    for x, c in zip(xs, KEYS):
+        first = x == 0
+        if beliefs is not None:
+            ax.bar(x + offs["bel"], beliefs[c.replace("punish", "belief")].mean(),
+                   width=w, yerr=beliefs[c.replace("punish", "belief")].sem(),
+                   capsize=3, color=MINT, error_kw=dict(lw=1.0),
+                   label="Player A anticipated ($n=%d$)" % n_bel if first else None)
+        ax.bar(x + offs["avg"], m[c], width=w, yerr=s[c], capsize=3, color=GREEN,
+               error_kw=dict(lw=1.1),
+               label=("Avg punishment, full ($n=%d$)" if passers is not None
+                      else "Avg punishment ($n=%d$)") % n if first else None)
+        ax2.bar(x + offs["share"], 100 * sh[c], width=w, yerr=100 * sh_sem[c],
+                capsize=3, color=GOLD, error_kw=dict(lw=1.1),
+                label=("Share punishing, full ($n=%d$)" if passers is not None
+                       else "Share punishing ($n=%d$)") % n if first else None)
+        if passers is not None:
+            ax.bar(x + offs["avg_p"], passers[c].mean(), width=w,
+                   yerr=passers[c].sem(), capsize=3, color=GREEN, alpha=0.4,
+                   error_kw=dict(lw=1.0),
+                   label="Avg punishment, passers ($n=%d$)" % len(passers)
+                   if first else None)
+            ax2.bar(x + offs["share_p"], 100 * (passers[c] > 0).mean(), width=w,
+                    yerr=100 * (passers[c] > 0).sem(), capsize=3,
+                    color=GOLD, alpha=0.4, error_kw=dict(lw=1.0),
+                    label="Share punishing, passers ($n=%d$)" % len(passers)
+                    if first else None)
+        if beliefs is None:
+            ax.text(x + offs["avg"], 0.022, f"{m[c]:.2f}", ha="center",
+                    color="white", fontsize=8, fontweight="bold")
+            ax2.text(x + offs["share"], 3.0, f"{sh[c]:.0%}", ha="center",
+                     color="white", fontsize=8, fontweight="bold")
+    ax.set_ylabel("Average punishment (£)", color=GREEN)
+    ax.tick_params(axis="y", labelcolor=GREEN)
+    ax.set_ylim(0, 1.0 if beliefs is not None else 0.8)
+    ax2.set_ylabel("Share imposing punishment (%)", color=GOLD)
+    ax2.tick_params(axis="y", labelcolor=GOLD)
     ax2.set_ylim(0, 100)
+    ax.set_xticks(xs)
+    ax.set_xticklabels(TICKS, fontsize=9)
+    ax.text((xs[0] + xs[1]) / 2, -0.122, "Good outcome", ha="center",
+            transform=ax.get_xaxis_transform(), fontsize=10)
+    ax.text((xs[2] + xs[3]) / 2, -0.122, "Bad outcome", ha="center",
+            transform=ax.get_xaxis_transform(), fontsize=10)
+    ax.spines["top"].set_visible(False)
     ax2.spines["top"].set_visible(False)
 
-    hl, ll = ax.get_legend_handles_labels()
-    hr, lr = ax2.get_legend_handles_labels()
-    ax.legend(hl + hr, ll + lr, fontsize=fs - 2, loc="upper left", frameon=False, ncol=1)
+    if annotate:
+        for x1, x2, y in [(0, 1.0, 0.46), (2.6, 3.6, 0.70)]:
+            ax.plot([x1, x1, x2, x2], [y, y + 0.02, y + 0.02, y],
+                    color="black", lw=0.9)
+            ax.text((x1 + x2) / 2, y + 0.028, "n.s.", ha="center", fontsize=8.5)
+        g_avg = (m["punish_del_good"] + m["punish_nodel_good"]) / 2
+        b_avg = (m["punish_del_bad"] + m["punish_nodel_bad"]) / 2
+        # zorder 0.5 puts the group-mean lines behind the bars
+        ax.plot([-0.38, 1.8], [g_avg, g_avg], color=GREEN, lw=1.2,
+                ls=(0, (4, 2)), zorder=0.5)
+        ax.plot([1.8, 3.98], [b_avg, b_avg], color=GREEN, lw=1.2,
+                ls=(0, (4, 2)), zorder=0.5)
+        ax.annotate("", xy=(1.8, b_avg), xytext=(1.8, g_avg),
+                    arrowprops=dict(arrowstyle="<->", color=GREEN, lw=1.4))
+        ax.text(1.73, (g_avg + b_avg) / 2, f"+£{b_avg - g_avg:.2f}***",
+                ha="right", va="center", fontsize=9, color=GREEN)
+
+    h1, l1 = ax.get_legend_handles_labels()
+    h2, l2 = ax2.get_legend_handles_labels()
+    ax.legend(h1 + h2, l1 + l2, fontsize=8.5, loc="upper left", frameon=False)
+    fig.tight_layout()
+    fig.savefig(save_to, bbox_inches="tight", dpi=200)
+    plt.close(fig)
+    return m, sh
 
 
 def main() -> None:
     e = load_evaluator()
     d = load_delegator()
-    pun_full = e[e["treat"] == 0]                                # actual Punishment, n=80
-    pun_pass = pun_full[pun_full["pass_att2"] == 1]              # actual passers, n=67
-    hypo_full = e[e["treat"] == 1]                               # hypothetical No-Punishment, n=81
-    hypo_pass = hypo_full[hypo_full["pass_att2"] == 1]           # hypothetical passers
-    dg_nop = d[d["treat"] == 1]                                  # A beliefs, No-Punishment, full
+    pun_full = e[e["treat"] == 0]
+    pun_pass = pun_full[pun_full["pass_att2"] == 1]
+    hypo_full = e[e["treat"] == 1]
+    hypo_pass = hypo_full[hypo_full["pass_att2"] == 1]
+    dg_nop = d[d["treat"] == 1]
 
-    cols = [c for c, _ in CELLS]
-    labels = [lab for _, lab in CELLS]
-    x = np.arange(len(CELLS))
+    m, sh = draw_figure(pun_full, FIGURES / "punishment.png", annotate=True)
+    draw_figure(pun_pass, FIGURES / "punishment_passers.png", annotate=False)
+    draw_figure(hypo_full, FIGURES / "punishment_hypothetical.png",
+                annotate=False, beliefs=dg_nop, n_bel=len(dg_nop),
+                passers=hypo_pass)
 
-    full = _cell_arrays(pun_full, cols)
-    pas = _cell_arrays(pun_pass, cols)
-    hfull = _cell_arrays(hypo_full, cols)
-    hpas = _cell_arrays(hypo_pass, cols)
+    # Outcome-difference statistics (paired, subject level)
+    amt_good = (pun_full["punish_del_good"] + pun_full["punish_nodel_good"]) / 2
+    amt_bad = (pun_full["punish_del_bad"] + pun_full["punish_nodel_bad"]) / 2
+    _, p_outcome = stats.ttest_rel(amt_bad, amt_good)
+    _, p_good_pair = stats.ttest_rel(pun_full["punish_del_good"],
+                                     pun_full["punish_nodel_good"])
+    _, p_bad_pair = stats.ttest_rel(pun_full["punish_del_bad"],
+                                    pun_full["punish_nodel_bad"])
+    # Hypothetical punishment (No-Punishment condition): same pair tests
+    _, p_hypo_good = stats.ttest_rel(hypo_full["punish_del_good"],
+                                     hypo_full["punish_nodel_good"])
+    _, p_hypo_bad = stats.ttest_rel(hypo_full["punish_del_bad"],
+                                    hypo_full["punish_nodel_bad"])
 
-    # Common left-axis maximum across both figures, for visual comparability.
-    ymax = max(0.75, 1.20 * max(
-        (full[0] + full[1]).max(), (pas[0] + pas[1]).max(),
-        (hfull[0] + hfull[1]).max(), (hpas[0] + hpas[1]).max(),
-    ))
-
-    # --- Body figure: actual punishment, full sample only ------------------
-    fig, ax = plt.subplots(figsize=(6.5, 4.2))
-    draw_panel(ax, x, labels, full, None, len(pun_full), None, ymax)
-    fig.tight_layout()
-    fig.savefig(FIGURES / "punishment.png", bbox_inches="tight", dpi=200)
-    plt.close(fig)
-
-    # --- Appendix figure: actual punishment, attention-check passers -------
-    fig, ax = plt.subplots(figsize=(6.5, 4.2))
-    draw_panel(ax, x, labels, pas, None, len(pun_pass), None, ymax)
-    fig.tight_layout()
-    fig.savefig(FIGURES / "punishment_passers.png", bbox_inches="tight", dpi=200)
-    plt.close(fig)
-
-    # --- Appendix figure: hypothetical punishment + A's hypothetical beliefs
-    bel_cols = [c.replace("punish_", "belief_") for c in cols]
-    bel_means = np.array([dg_nop[c].mean() for c in bel_cols])
-    bel_sems = np.array([dg_nop[c].sem() for c in bel_cols])
-    ymax_h = max(ymax, 1.15 * (bel_means + bel_sems).max())
-
-    fig, ax = plt.subplots(figsize=(7.0, 4.4))
-    draw_panel(ax, x, labels, hfull, hpas, len(hypo_full), len(hypo_pass), ymax_h,
-               bel=(bel_means, bel_sems), n_bel=len(dg_nop))
-    fig.tight_layout()
-    fig.savefig(FIGURES / "punishment_hypothetical.png", bbox_inches="tight", dpi=200)
-    plt.close(fig)
-
-    # Manifest
     out = {}
-    for col, mean, punish, sem in zip(cols, full[0], full[2], full[1]):
-        out[f"fig_pun_actual_{col}_mean"] = round(float(mean), 4)
-        out[f"fig_pun_actual_{col}_sem"] = round(float(sem), 4)
-        out[f"fig_pun_actual_{col}_punish_share"] = round(float(punish), 4)
-    for col, mean, punish in zip(cols, pas[0], pas[2]):
-        out[f"fig_pun_passers_{col}_mean"] = round(float(mean), 4)
-        out[f"fig_pun_passers_{col}_punish_share"] = round(float(punish), 4)
-    for col, mean, punish, sem in zip(cols, hfull[0], hfull[2], hfull[1]):
-        out[f"fig_pun_hypothetical_{col}_mean"] = round(float(mean), 4)
-        out[f"fig_pun_hypothetical_{col}_sem"] = round(float(sem), 4)
-        out[f"fig_pun_hypothetical_{col}_punish_share"] = round(float(punish), 4)
-    for col, mean, punish in zip(cols, hpas[0], hpas[2]):
-        out[f"fig_pun_hypothetical_passers_{col}_mean"] = round(float(mean), 4)
-        out[f"fig_pun_hypothetical_passers_{col}_punish_share"] = round(float(punish), 4)
-    for col, mean in zip(bel_cols, bel_means):
-        out[f"fig_pun_hypothetical_{col}_mean"] = round(float(mean), 4)
+    for c in KEYS:
+        out[f"fig_pun_actual_{c}_mean"] = round(float(m[c]), 4)
+        out[f"fig_pun_actual_{c}_punish_share"] = round(float(sh[c]), 4)
+    out.update({
+        "fig_pun_good_outcome_avg": round(float(amt_good.mean()), 4),
+        "fig_pun_bad_outcome_avg": round(float(amt_bad.mean()), 4),
+        "fig_pun_outcome_diff": round(float(amt_bad.mean() - amt_good.mean()), 4),
+        "fig_pun_outcome_diff_paired_p": round(float(p_outcome), 5),
+        "fig_pun_good_pair_paired_p": round(float(p_good_pair), 4),
+        "fig_pun_bad_pair_paired_p": round(float(p_bad_pair), 4),
+    })
+    for c in KEYS:
+        out[f"fig_pun_hypo_{c}_mean"] = round(float(hypo_full[c].mean()), 4)
+    out.update({
+        "fig_pun_hypo_good_pair_paired_p": round(float(p_hypo_good), 4),
+        "fig_pun_hypo_bad_pair_paired_p": round(float(p_hypo_bad), 4),
+    })
     manifest.update(out)
     for k, v in out.items():
         print(f"  {k}: {v}")

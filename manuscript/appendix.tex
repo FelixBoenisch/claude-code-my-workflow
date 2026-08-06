@@ -8,7 +8,7 @@
 
 \input{../tables/balance_player_a.tex}
 
-\noindent Complementary to the individual treatment comparisons in Table~\ref{tab:treatment_balance}, we can test their joint significance by regressing the treatment indicator on all characteristics in a linear probability model. The observables are jointly uninformative about treatment ($F(6,152)=0.36$, $p=0.90$; $R^2=0.01$; $N=159$). A logit specification yields the same conclusion (likelihood-ratio $\chi^2(6)=2.26$, $p=0.89$).
+\noindent Complementary to the treatment comparisons of individual observable characteristics in Table~\ref{tab:treatment_balance}, we can test their joint significance by regressing the treatment indicator on all characteristics in a linear probability model. The observables are jointly uninformative about treatment ($F(6,152)=0.36$, $p=0.90$; $R^2=0.01$; $N=159$). A probit specification yields the same conclusion (likelihood-ratio $\chi^2(6)=2.27$, $p=0.89$).
 
 \noindent We do not separately report a balance table for Player~B. Player~B's punishment behavior is identified within-subject across the four scenarios of the strategy method, so balance across conditions is not strictly required for the punishment analysis.
 
@@ -56,11 +56,13 @@ Table~\ref{tab:reg_punishment_extensive} re-estimates the punishment regression 
     \begin{minipage}{0.85\linewidth}
     \footnotesize
     \textit{Note:} As in Figure~\ref{fig:punishment}, but restricted to Player~Bs who
-    passed the attention check on the punishment-elicitation screen ($n=67$). For each
-    (delegation, outcome) cell of the strategy method, the figure reports the average
-    punishment (left $y$-axis, in pounds; error bars are standard errors of the mean)
-    and the share of Player~Bs imposing non-zero punishment (right $y$-axis, in
-    percent). The left-axis scale matches Figure~\ref{fig:punishment}.
+    passed the attention check on the punishment-elicitation screen ($n=67$). The four
+    (delegation, outcome) cells of the strategy method are grouped by outcome. For each
+    cell, the green bars report the average punishment (left $y$-axis, in pounds;
+    whiskers are $\pm 1$ standard error of the mean) and the gold bars the share of
+    Player~Bs imposing non-zero punishment (right $y$-axis, in percent; whiskers are
+    $\pm 1$ standard error of the share). Values are printed at the base of each bar. The left-axis scale matches
+    Figure~\ref{fig:punishment}.
     \end{minipage}
 \end{figure}
 
@@ -78,6 +80,8 @@ Table~\ref{tab:reg_punishment_extensive} re-estimates the punishment regression 
 
 \subsection{Hypothetical punishment}
 
+Hypothetical punishment in the \textit{No-Punishment} condition follows the same outcome-driven pattern as actual punishment (Figure~\ref{fig:punishment_hypothetical}). After good outcomes, stated punishment is nearly identical for delegated and self-made decisions ($\pounds 0.23$ versus $\pounds 0.22$; paired $t$-test, $p=0.91$). After bad outcomes, the comparison reverses relative to the direction predicted by \textit{Hypothesis~2}. Player~Bs state that they would punish a delegated decision more than a self-made one ($\pounds 0.53$ versus $\pounds 0.43$; paired $t$-test, $p=0.069$), a weakly significant difference. Even in stated terms, delegation thus offers Player~A no insulation from punishment. Player~A's anticipated punishment, shown alongside, overstates hypothetical punishment in every scenario, mirroring the overestimation of actual punishment in the \textit{Punishment} condition (Figure~\ref{fig:realized_vs_anticipated}).
+
 \begin{figure}[!htbp]
     \centering
     \caption{Hypothetical punishment by delegation and outcome scenario (\textit{No-Punishment} condition)}
@@ -87,13 +91,15 @@ Table~\ref{tab:reg_punishment_extensive} re-estimates the punishment regression 
     \footnotesize
     \textit{Note:} As in Figure~\ref{fig:punishment}, but for the \textit{No-Punishment}
     condition (full sample $n=81$, passers $n=68$), in which Player~Bs answered the same
-    punishment questions but could not impose punishment in practice. For each (delegation,
-    outcome) cell, the figure reports the average hypothetical punishment (left $y$-axis, in
-    pounds; error bars are standard errors of the mean) and the share of Player~Bs choosing
-    non-zero punishment (right $y$-axis, in percent); the full sample is shown at full opacity
-    and the attention-check passers overlaid at lower opacity. In addition, the green bars
-    report Player~A's anticipated punishment in the \textit{No-Punishment} condition
-    (hypothetical, full sample, $n=81$).
+    punishment questions but could not impose punishment in practice. The four (delegation,
+    outcome) cells are grouped by outcome. For each cell, the dark green bars report the
+    average hypothetical punishment (left $y$-axis, in pounds; whiskers are $\pm 1$
+    standard error of the mean) and the gold bars the share of Player~Bs choosing non-zero
+    punishment (right $y$-axis, in percent; whiskers are $\pm 1$ standard error of the
+    share); the full sample is shown at full opacity and
+    the attention-check passers at lower opacity. In addition, the light green bars report
+    Player~A's anticipated punishment in the \textit{No-Punishment} condition (hypothetical,
+    full sample, $n=81$).
     \end{minipage}
 \end{figure}
 
@@ -133,16 +139,3 @@ The study was pre-registered on AsPredicted under the title ``Algorithms and Res
 The analyses in the paper deviate from this document in three respects. First, we recruited 322 participants instead of the planned 320. Attrition during the experiment required re-matching and produced one additional pair in the \textit{No-Punishment} condition. Second, we compare delegation rates across conditions using a Pearson chi-squared test and Fisher's exact test rather than the preregistered $t$-test. The delegation decision is binary, so these tests are the appropriate choice, and the conclusion is unchanged under either procedure. Third, the pre-registration specifies Mann-Whitney U and Kolmogorov-Smirnov tests for the punishment comparisons. Both are tests for independent samples, whereas punishment is elicited within-subject via the strategy method. We therefore report the Wilcoxon signed-rank test as the within-subject non-parametric counterpart alongside the parametric tests. Beyond these deviations, the pre-registration left open whether participants who failed the attention checks would be excluded. \hl{We report all analyses for the full sample in the main text and repeat them for the subsample of attention-check passers in the appendix.}
 
 \includepdf[pages=-, frame, scale=0.85, pagecommand={}]{prereg_aspredicted_133980.pdf}
-
-\section{Ex-ante power calculations} \label{appendix:pap}
-
-\hl{To be added}
-
-%The cell size of $80$ subjects per role per condition was set to detect, at conventional power, the effect sizes anticipated from the responsibility-avoidance literature. We report the minimum detectable effect (MDE) for each preregistered test below, computed at $\alpha = 0.05$ (two-sided) and power $= 0.80$. For H1, the relevant test is a two-sample $z$-test of proportions (delegation rate in \textit{Punishment} vs \textit{No-Punishment}); the MDE is approximately invariant to the assumed baseline rate. For H2, the relevant test is a paired-mean-difference test on Player~B's punishment in the bad-outcome cell; because the within-subject standard deviation $\sigma_d$ of the punishment difference is unknown ex ante, we report the MDE for a range of values of $\sigma_d$ expressed as multiples of the equivalence bound used in Result~2 of the body of the paper ($\delta_a = \pounds 0.20$, equal to $10\%$ of the maximum punishment of $\pounds 2$).
-
-%\begin{table}[!htbp]
-%\centering
-%\caption{Minimum detectable effects under the preregistered design}
-%\label{tab:power_mde}
-%\input{../tables/power_mde.tex}
-%\end{table}

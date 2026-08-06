@@ -104,12 +104,11 @@ def main() -> None:
     ]
     note = (
         "OLS regression of Player~B's chosen punishment levels. The sample is stacked over the four "
-        "(delegation, outcome) scenarios of the strategy method (4 observations per Player~B). The "
-        "\\textit{Delegated} $\\times$ \\textit{Bad outcome} interaction is the differential effect "
-        "of delegation on punishment in the bad-outcome cell. Column~(1) uses the full "
-        "Punishment-condition sample; Column~(2) restricts to Player~Bs who passed the attention "
+        "(delegation, outcome) scenarios of the strategy method (4 observations per Player~B). "
+        "Column~(1) uses the full "
+        "Punishment-condition sample. Column~(2) restricts to Player~Bs who passed the attention "
         "check on the punishment-elicitation screen. Standard errors clustered at "
-        "the Player~B level. Significance: $^{*}\\,p<0.10$; $^{**}\\,p<0.05$; $^{***}\\,p<0.01$ (two-sided)."
+        "the Player~B level."
     )
     (TABLES / "reg_punishment.tex").write_text(
         render_two_block_table(
@@ -123,7 +122,7 @@ def main() -> None:
             note=note,
             column_spec="@{\\extracolsep{5pt}}lcc",
             stars=True,
-            note_width=0.55,
+            note_width=0.75,
         ),
         encoding="utf-8",
     )

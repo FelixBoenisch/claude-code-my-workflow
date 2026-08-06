@@ -6,11 +6,13 @@ Produces:
 """
 import numpy as np
 import pandas as pd
+import statsmodels.api as sm
 from scipy import stats
 
 from lib.io import load_delegator, load_evaluator
 from lib.paths import TABLES
 from lib.fmt import num
+from lib import manifest
 
 VARS = [
     ("age", "Age", "continuous"),
@@ -52,7 +54,7 @@ def render_tex(rows, label: str, caption: str, table_label: str) -> str:
     lines.extend([
         r"    \end{tabular}",
         r"    \begin{minipage}{0.95\textwidth}\footnotesize",
-        f"    \\textit{{Note:}} Mean values by condition for {label}, with $p$-values from two-sided $t$-tests for continuous variables and Chi-squared tests for binary variables. \\textit{{Socio-economic status}} is self-reported on a $1$--$10$ scale; \\textit{{Went to uni}} indicates a university degree; \\textit{{Technology score}} is constructed from weekly device usage, programming skills, cryptocurrency knowledge, technology use at work, and similar items; \\textit{{Leadership position}} indicates self-reported management or supervisory experience.",
+        f"    \\textit{{Note:}} Mean values by condition for {label}, with $p$-values from two-sided $t$-tests for continuous variables and Chi-squared tests for binary variables. \\textit{{Socio-economic status}} is self-reported on a $1$--$10$ scale. \\textit{{Went to uni}} indicates a university degree. \\textit{{Technology score}} is constructed from weekly device usage, programming skills, cryptocurrency knowledge, technology use at work, and similar items. \\textit{{Leadership position}} indicates self-reported management or supervisory experience.",
         r"    \end{minipage}",
         r"\end{table}",
     ])
@@ -78,6 +80,28 @@ def main() -> None:
     for r in rows_a: print(f"  {r}")
     print("Player B balance:")
     for r in rows_b: print(f"  {r}")
+
+    # Joint significance of observables for treatment (Player A), cited in the
+    # balance appendix: LPM F-test plus a probit likelihood-ratio test.
+    chars = [c for c, _, _ in VARS]
+    sub = d[["treat"] + chars].dropna()
+    y = 1 - sub["treat"]  # Punishment indicator; F/LR invariant to coding
+    X = sm.add_constant(sub[chars].astype(float))
+    lpm = sm.OLS(y.astype(float), X).fit()
+    probit = sm.Probit(y.astype(float), X).fit(disp=False)
+    out = {
+        "balance_joint_n": int(len(sub)),
+        "balance_joint_f": round(float(lpm.fvalue), 2),
+        "balance_joint_f_df1": int(lpm.df_model),
+        "balance_joint_f_df2": int(lpm.df_resid),
+        "balance_joint_f_p": round(float(lpm.f_pvalue), 4),
+        "balance_joint_r2": round(float(lpm.rsquared), 4),
+        "balance_joint_probit_lr": round(float(probit.llr), 2),
+        "balance_joint_probit_lr_p": round(float(probit.llr_pvalue), 4),
+    }
+    manifest.update(out)
+    for k, v in out.items():
+        print(f"  {k}: {v}")
 
 
 if __name__ == "__main__":

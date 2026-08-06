@@ -1,6 +1,10 @@
 """Result 1: chi-squared and Fisher exact on delegation rates by condition.
 
-Also produces figures/delegation_shares.png in the original notebook styling.
+Also produces figures/delegation_shares.png (house style, adopted 2026-08-06):
+conditions in the blue pair (dark = Punishment, light = No-Punishment), shares
+printed in the bars, +-1 SE whiskers, significance-stars bracket (p-value in
+the figure note), and the treatment difference as an accent-colored arrow
+between the bars.
 """
 import matplotlib
 
@@ -49,40 +53,43 @@ def main() -> None:
     for k, v in out.items():
         print(f"  {k}: {v}")
 
-    group_stats = d.groupby("treat")["delegation"].agg(["mean", "sem"]).reset_index()
+    sems = d.groupby("treat")["delegation"].sem().to_dict()
 
-    fig, ax = plt.subplots(figsize=(3.5, 5))
+    BLUE = {0: "#3b6ea8", 1: "#8aacd1"}   # dark = Punishment, light = No-Punishment
+    ACCENT = "#9c3a6a"
 
-    x_positions = [1, 1.05]
-    colors = ["#C4A54F", "#4F6EC4"]
-    ax.bar(
-        x_positions,
-        group_stats["mean"],
-        yerr=group_stats["sem"],
-        capsize=5,
-        width=0.03,
-        color=colors,
-    )
-    fs = 10
-    ax.annotate(
-        "**",
-        xy=(0.5, 0.8),
-        xytext=(0.5, 0.85),
-        xycoords="axes fraction",
-        fontsize=fs * 1.5,
-        ha="center",
-        va="bottom",
-        arrowprops=dict(arrowstyle="-[, widthB=3, lengthB=1", lw=1.0, color="k"),
-    )
+    fig, ax = plt.subplots(figsize=(3.9, 4.6))
+    ax.set_xlim(-0.55, 1.55)
+    ax.set_ylim(0, 1.0)
     ax.set_ylabel("Delegation share")
-    ax.set_ylim(0, 1)
-    ax.set_xlim(0.97, 1.08)
-    ax.set_xticks(x_positions)
-    ax.set_xticklabels(["Punishment", "No-Punishment"])
+    ax.yaxis.set_major_formatter(PercentFormatter(1.0))
     ax.spines["top"].set_visible(False)
     ax.spines["right"].set_visible(False)
-    ax.spines["bottom"].set_visible(False)
-    ax.yaxis.set_major_formatter(PercentFormatter(1.0))
+
+    for t in (0, 1):
+        ax.bar(t, rates[t], width=0.55, color=BLUE[t], yerr=sems[t], capsize=5,
+               error_kw=dict(lw=1.2))
+        ax.text(t, 0.06, f"{rates[t]:.1%}", ha="center", color="white",
+                fontsize=11, fontweight="bold")
+    ax.set_xticks([0, 1])
+    ax.set_xticklabels([f"Punishment\n($n={n[0]}$)", f"No-Punishment\n($n={n[1]}$)"])
+
+    # significance bracket with stars (p-value reported in the figure note)
+    y_br = 0.80
+    ax.plot([0, 0, 1, 1], [y_br, y_br + 0.025, y_br + 0.025, y_br],
+            color="black", lw=1.0)
+    ax.text(0.5, y_br + 0.035, "**", ha="center", fontsize=12)
+
+    # treatment difference: accent arrow between the bars with dashed leaders
+    ax_x = 0.56
+    ax.plot([0.275, ax_x], [rates[0], rates[0]], color=ACCENT, lw=1.0, ls=(0, (3, 2)))
+    ax.plot([0.725, ax_x], [rates[1], rates[1]], color=ACCENT, lw=1.0, ls=(0, (3, 2)))
+    ax.annotate("", xy=(ax_x, rates[1]), xytext=(ax_x, rates[0]),
+                arrowprops=dict(arrowstyle="<->", color=ACCENT, lw=1.4))
+    ax.text(0.50, (rates[0] + rates[1]) / 2, f"+{gap_pp:.1f} pp",
+            ha="right", va="center", fontsize=9, color=ACCENT)
+
+    fig.tight_layout()
     fig.savefig(FIGURES / "delegation_shares.png", bbox_inches="tight", dpi=200)
     plt.close(fig)
 

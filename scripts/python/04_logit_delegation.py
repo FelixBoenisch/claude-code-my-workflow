@@ -36,7 +36,9 @@ def fit_spec(df, regs, restrict_passers=False, fitter=fit_logit):
 
 
 def ame_pp(model):
-    me = model.get_margeff(at="overall", method="dydx")
+    # dummy=True: discrete-change effects for binary regressors, so the
+    # unconditional AME equals the raw difference in delegation shares.
+    me = model.get_margeff(at="overall", method="dydx", dummy=True)
     return float(me.margeff[0]), float(me.pvalues[0])
 
 
@@ -95,13 +97,13 @@ def main() -> None:
 
     note_template = (
         "Coefficients from a {model} regression of the delegation decision on the "
-        "Punishment indicator and the controls listed in each column. "
+        "Punishment indicator and a set of controls. "
         "Robust (HC1) standard errors in parentheses. "
         "Significance: $^{{*}}\\,p<0.10$; $^{{**}}\\,p<0.05$; $^{{***}}\\,p<0.01$ (two-sided). "
-        "Two subjects are dropped in Columns~(2)--(4) due to missing socio-demographic "
-        "data. The \\textit{{AME of Punishment}} row reports the average marginal "
-        "effect of the Punishment indicator on the probability of delegation, in "
-        "percentage points."
+        "Due to missing socio-demographic data, two subjects are dropped in "
+        "Columns~(2)--(5). The \\textit{{AME of Punishment}} reports the average change in "
+        "the predicted probability of delegation from introducing the punishment "
+        "possibility, in percentage points."
     )
 
     # --- Body table -> Probit ----------------------------------------------
