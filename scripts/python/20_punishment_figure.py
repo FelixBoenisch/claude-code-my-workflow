@@ -31,7 +31,7 @@ KEYS = ["punish_del_good", "punish_nodel_good", "punish_del_bad", "punish_nodel_
 TICKS = ["Delegated", "Self-decided", "Delegated", "Self-decided"]
 GREEN = "#5b7553"   # average punishment
 GOLD = "#C4A54F"    # share imposing punishment
-MINT = "#5DB692"    # Player A anticipated punishment (matches Figure 4)
+TERRA = "#bb7843"   # Player A anticipated punishment (matches fig:realized_vs_anticipated)
 X = [0, 1.0, 2.6, 3.6]
 W = 0.345
 
@@ -61,7 +61,7 @@ def draw_figure(df, save_to, annotate=False, beliefs=None, n_bel=None,
         if beliefs is not None:
             ax.bar(x + offs["bel"], beliefs[c.replace("punish", "belief")].mean(),
                    width=w, yerr=beliefs[c.replace("punish", "belief")].sem(),
-                   capsize=3, color=MINT, error_kw=dict(lw=1.0),
+                   capsize=3, color=TERRA, error_kw=dict(lw=1.0),
                    label="Player A anticipated ($n=%d$)" % n_bel if first else None)
         ax.bar(x + offs["avg"], m[c], width=w, yerr=s[c], capsize=3, color=GREEN,
                error_kw=dict(lw=1.1),

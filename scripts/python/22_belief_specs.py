@@ -119,12 +119,16 @@ def main() -> None:
     ]
     note = (
         "Probit estimates with robust (HC1) standard errors in parentheses. "
-        "Significance: $^{*}\\,p<0.10$; $^{**}\\,p<0.05$; $^{***}\\,p<0.01$ (two-sided). "
         "Sample restricted to the \\textit{Punishment} condition throughout. "
         "Belief differences are within-subject \\textit{(no delegation)}~$-$~\\textit{(delegation)} "
         "in expected punishment, so positive coefficients indicate that subjects who expect "
         "to be punished more harshly for not delegating (relative to delegating) are more "
         "likely to delegate. "
+        "Columns~(1)--(3) use the simple average of the good-outcome and the bad-outcome "
+        "belief difference. Column~(4) instead weights the good-outcome difference by "
+        "Player~A's elicited probability of producing the high payoff and the bad-outcome "
+        "difference by the complementary probability. Column~(5) enters the two differences "
+        "separately. "
         "The \\textit{AME} rows report the average marginal effect of the belief measure "
         "entered in the respective column on the probability of delegation, in percentage "
         "points per \\pounds 0.10 increase in the corresponding belief difference."
@@ -141,6 +145,7 @@ def main() -> None:
         note=note,
         column_spec="@{\\extracolsep{5pt}}lcc|ccc",
         stars=True,
+        note_width=0.92,
     )
     (TABLES / "reg_belief_specs.tex").write_text(table, encoding="utf-8")
 

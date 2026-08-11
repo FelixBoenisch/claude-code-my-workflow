@@ -53,13 +53,22 @@ def main() -> None:
         ax.scatter(x, agg["mean"], s=10 + 12 * agg["count"], color=BLUE[t],
                    label=LABEL[t], alpha=0.95, edgecolor="white",
                    linewidth=0.8, zorder=3)
+        # correlation annotation at the right end of each line (stars per
+        # house convention, p-values in the figure note)
+        r, p = st.pearsonr(sub["overall_score"], sub["delegation"])
+        star = "*" * sum(p < c for c in (0.10, 0.05, 0.01))
+        ax.text(x.iloc[-1] + 0.28, agg["mean"].iloc[-1],
+                f"$r = {r:.2f}^{{{star}}}$" if star else f"$r = {r:.2f}$",
+                color=BLUE[t], fontsize=9, va="center")
     ax.set_ylabel("Share delegating")
     ax.set_ylim(-0.06, 1.06)
     ax.spines["top"].set_visible(False)
     ax.spines["right"].set_visible(False)
     plt.setp(ax.get_xticklabels(), visible=False)
+    ns = {t: int((dg["treat"] == t).sum()) for t in (0, 1)}
     ax.legend(handles=[Line2D([], [], marker="o", ls="-", color=BLUE[t],
-                              markersize=9, label=LABEL[t]) for t in (0, 1)],
+                              markersize=9,
+                              label=f"{LABEL[t]} ($n={ns[t]}$)") for t in (0, 1)],
               frameon=False, fontsize=9, loc="upper right")
 
     # --- bottom: boxplots with mean diamonds --------------------------------
@@ -82,7 +91,7 @@ def main() -> None:
                     whiskerprops=dict(color=col), capprops=dict(color=col))
     axb.set_yticks(positions)
     axb.set_yticklabels([lab for _, _, lab in rows], fontsize=8.5)
-    axb.set_xlabel("Correct predictions in first ten rounds (actual) / expected score (perceived)")
+    axb.set_xlabel("Correct predictions in the first ten rounds")
     axb.set_xticks(SCORES)
     axb.set_xlim(-0.7, 10.7)
     axb.spines["top"].set_visible(False)

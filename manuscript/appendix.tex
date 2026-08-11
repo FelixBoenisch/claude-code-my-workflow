@@ -10,11 +10,11 @@
 
 \noindent Complementary to the treatment comparisons of individual observable characteristics in Table~\ref{tab:treatment_balance}, we can test their joint significance by regressing the treatment indicator on all characteristics in a linear probability model. The observables are jointly uninformative about treatment ($F(6,152)=0.36$, $p=0.90$; $R^2=0.01$; $N=159$). A probit specification yields the same conclusion (likelihood-ratio $\chi^2(6)=2.27$, $p=0.89$).
 
-\noindent We do not separately report a balance table for Player~B. Player~B's punishment behavior is identified within-subject across the four scenarios of the strategy method, so balance across conditions is not strictly required for the punishment analysis.
+\noindent We do not separately report a balance table for Player~B. Player~B's punishment behavior is identified within-subject across the four (delegation, outcome) scenarios of the strategy method, so balance across conditions is not strictly required for the punishment analysis.
 
 \subsection{Extensive margin of punishment} \label{appendix:reg_punishment_extensive}
 
-Table~\ref{tab:reg_punishment_extensive} re-estimates the punishment regression on the \textit{extensive} margin, replacing the punishment amount with an indicator for whether Player~B imposed any punishment in a given cell, estimated by probit. The conclusion matches the intensive-margin result in the body. A bad outcome sharply raises the probability of punishment---an average marginal effect of about $18$ percentage points ($p<0.001$)---whereas delegation leaves it essentially unchanged: the average marginal effect of delegation is $-1.8$ percentage points and statistically insignificant ($p=0.46$; $-2.9$ percentage points among attention-check passers, $p=0.29$). Player~A is therefore no less \textit{likely} to be punished when she delegates, just as she is punished no less \textit{harshly}.
+Table~\ref{tab:reg_punishment_extensive} re-estimates the punishment regression on the \textit{extensive} margin, replacing the punishment amount with an indicator for whether Player~B imposed any punishment in a given scenario, estimated by probit. The conclusion matches the intensive-margin result in the body. A bad outcome sharply raises the probability of punishment---an average marginal effect of about $18$ percentage points ($p<0.001$)---whereas delegation leaves it essentially unchanged: the average marginal effect of delegation is $-1.8$ percentage points and statistically insignificant ($p=0.46$; $-2.9$ percentage points among attention-check passers, $p=0.29$). Player~A is therefore no less \textit{likely} to be punished when she delegates, just as she is punished no less \textit{harshly}.
 
 \input{../tables/reg_punishment_extensive.tex}
 
@@ -55,21 +55,14 @@ Table~\ref{tab:reg_punishment_extensive} re-estimates the punishment regression 
     \label{fig:punishment_passers}
     \begin{minipage}{0.85\linewidth}
     \footnotesize
-    \textit{Note:} As in Figure~\ref{fig:punishment}, but restricted to Player~Bs who
-    passed the attention check on the punishment-elicitation screen ($n=67$). The four
-    (delegation, outcome) cells of the strategy method are grouped by outcome. For each
-    cell, the green bars report the average punishment (left $y$-axis, in pounds;
-    whiskers are $\pm 1$ standard error of the mean) and the gold bars the share of
-    Player~Bs imposing non-zero punishment (right $y$-axis, in percent; whiskers are
-    $\pm 1$ standard error of the share). Values are printed at the base of each bar. The left-axis scale matches
-    Figure~\ref{fig:punishment}.
+    \textit{Note:} As in Figure~\ref{fig:punishment}, but restricted to Player~Bs who passed the attention check on the punishment-elicitation screen ($n=67$). The four (delegation, outcome) scenarios of the strategy method are grouped by outcome. For each scenario, the green bars report the average punishment (left $y$-axis, in pounds; whiskers are $\pm 1$ standard error of the mean) and the gold bars the share of Player~Bs imposing non-zero punishment (right $y$-axis, in percent; whiskers are $\pm 1$ standard error of the share). Values are printed at the base of each bar. The left-axis scale matches Figure~\ref{fig:punishment}.
     \end{minipage}
 \end{figure}
 
 \begin{figure}[!htbp]
     \centering
     \caption{Realized vs.\ anticipated punishment, attention-check passers}
-    \includegraphics[width=0.85\linewidth]{figures/realized_vs_anticipated_passers.png}
+    \includegraphics[width=0.75\linewidth]{figures/realized_vs_anticipated_passers.png}
     \label{fig:realized_vs_anticipated_passers}
     \begin{minipage}{0.9\linewidth}
     \footnotesize
@@ -89,17 +82,7 @@ Hypothetical punishment in the \textit{No-Punishment} condition follows the same
     \label{fig:punishment_hypothetical}
     \begin{minipage}{0.85\linewidth}
     \footnotesize
-    \textit{Note:} As in Figure~\ref{fig:punishment}, but for the \textit{No-Punishment}
-    condition (full sample $n=81$, passers $n=68$), in which Player~Bs answered the same
-    punishment questions but could not impose punishment in practice. The four (delegation,
-    outcome) cells are grouped by outcome. For each cell, the dark green bars report the
-    average hypothetical punishment (left $y$-axis, in pounds; whiskers are $\pm 1$
-    standard error of the mean) and the gold bars the share of Player~Bs choosing non-zero
-    punishment (right $y$-axis, in percent; whiskers are $\pm 1$ standard error of the
-    share); the full sample is shown at full opacity and
-    the attention-check passers at lower opacity. In addition, the light green bars report
-    Player~A's anticipated punishment in the \textit{No-Punishment} condition (hypothetical,
-    full sample, $n=81$).
+    \textit{Note:} As in Figure~\ref{fig:punishment}, but for the \textit{No-Punishment} condition (full sample $n=81$, passers $n=68$), in which Player~Bs answered the same punishment questions but could not impose punishment in practice. The four (delegation, outcome) scenarios are grouped by outcome. For each scenario, the green bars report the average hypothetical punishment (left $y$-axis, in pounds; whiskers are $\pm 1$ standard error of the mean) and the gold bars the share of Player~Bs choosing non-zero punishment (right $y$-axis, in percent; whiskers are $\pm 1$ standard error of the share); the full sample is shown at full opacity and the attention-check passers at lower opacity. In addition, the terracotta bars report Player~A's anticipated punishment in the \textit{No-Punishment} condition (hypothetical, full sample, $n=81$).
     \end{minipage}
 \end{figure}
 

@@ -94,7 +94,10 @@ def render_two_block_table(
     out.extend([
         r"\hline",
         r"\hline \\[-1.8ex]",
-        f"\\multicolumn{{{n_cols + 1}}}{{p{{{note_width}\\textwidth}}}}{{\\footnotesize \\textit{{Note:}} {note}}}",
+        # centered minipage so the note sits symmetrically below the table
+        # even when the tabular is wider or narrower than the note block
+        f"\\multicolumn{{{n_cols + 1}}}{{c}}{{\\begin{{minipage}}{{{note_width}\\textwidth}}"
+        f"\\footnotesize \\textit{{Note:}} {note}\\end{{minipage}}}}",
         r"\end{tabular}",
         r"\end{table}",
     ])
