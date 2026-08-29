@@ -1,0 +1,52 @@
+\begin{table}[!htbp]
+\centering
+\scriptsize
+\caption{Delegation and beliefs about punishment}
+\label{tab:reg_belief_specs}
+\begin{tabular}{@{\extracolsep{5pt}}lcc|ccc}
+\\[-1.8ex]\hline
+\hline \\[-1.8ex]
+& \multicolumn{5}{c}{Dependent variable: \textit{Delegation}}\\[0.1cm]
+& \multicolumn{2}{c}{\textit{Full Punishment}} & \multicolumn{3}{c}{\textit{Punishment, passers}} \\
+\\[-1.8ex] & (1) & (2) & (3) & (4) & (5) \\
+\hline \\[-1.8ex]
+ Belief difference, average ($\overline{\Delta}$) & $0.346$ & $0.398$ & $1.661^{**}$ &  &  \\
+  & $(0.407)$ & $(0.448)$ & $(0.700)$ &  &  \\[0.1cm]
+ Belief difference, weighted by $\Pr(\text{good})$ ($\Delta^{w}$) &  &  &  & $1.992^{**}$ &  \\
+  &  &  &  & $(0.794)$ &  \\[0.1cm]
+ Belief difference, bad outcome ($\Delta^{\text{bad}}$) &  &  &  &  & $0.590$ \\
+  &  &  &  &  & $(0.424)$ \\[0.1cm]
+ Belief difference, good outcome ($\Delta^{\text{good}}$) &  &  &  &  & $0.961^{**}$ \\
+  &  &  &  &  & $(0.412)$ \\[0.1cm]
+ Task performance &  & $-0.208^{*}$ & $-0.362^{***}$ & $-0.342^{**}$ & $-0.381^{***}$ \\
+  &  & $(0.111)$ & $(0.136)$ & $(0.142)$ & $(0.138)$ \\[0.1cm]
+ Age &  & $0.023^{*}$ & $0.039^{**}$ & $0.040^{**}$ & $0.039^{**}$ \\
+  &  & $(0.012)$ & $(0.016)$ & $(0.016)$ & $(0.016)$ \\[0.1cm]
+ Female &  & $0.152$ & $0.950^{**}$ & $1.026^{**}$ & $0.845^{*}$ \\
+  &  & $(0.350)$ & $(0.427)$ & $(0.406)$ & $(0.444)$ \\[0.1cm]
+ Socio-economic status &  & $-0.049$ & $-0.006$ & $-0.055$ & $0.001$ \\
+  &  & $(0.111)$ & $(0.131)$ & $(0.133)$ & $(0.126)$ \\[0.1cm]
+ Went to uni &  & $0.071$ & $-0.278$ & $-0.169$ & $-0.275$ \\
+  &  & $(0.363)$ & $(0.412)$ & $(0.408)$ & $(0.409)$ \\[0.1cm]
+ Technology score &  & $-0.061$ & $0.048$ & $0.072$ & $0.033$ \\
+  &  & $(0.138)$ & $(0.170)$ & $(0.173)$ & $(0.167)$ \\[0.1cm]
+ Leadership position &  & $0.302$ & $-0.301$ & $-0.279$ & $-0.245$ \\
+  &  & $(0.312)$ & $(0.408)$ & $(0.408)$ & $(0.411)$ \\[0.1cm]
+ Constant & $-0.198$ & $-0.345$ & $-1.228$ & $-1.281$ & $-1.115$ \\
+  & $(0.142)$ & $(0.826)$ & $(1.155)$ & $(1.147)$ & $(1.165)$ \\[0.1cm]
+\hline \\[-1.8ex]
+ AME of belief measure (pp per \pounds 0.10) & $1.3$ & $1.4$ & $4.7^{**}$ & $5.5^{***}$ &  \\
+  & $(p=0.388)$ & $(p=0.370)$ & $(p=0.011)$ & $(p=0.006)$ &  \\
+ AME: good-outcome difference (pp per \pounds 0.10) &  &  &  &  & $2.7^{**}$ \\
+  &  &  &  &  & $(p=0.010)$ \\
+ AME: bad-outcome difference (pp per \pounds 0.10) &  &  &  &  & $1.7$ \\
+  &  &  &  &  & $(p=0.165)$ \\
+ Controls & $\times$ & \checkmark & \checkmark & \checkmark & \checkmark \\
+ Passers only & $\times$ & $\times$ & \checkmark & \checkmark & \checkmark \\
+ N & $80$ & $78$ & $60$ & $60$ & $60$ \\
+ Pseudo $R^2$ & $0.007$ & $0.098$ & $0.248$ & $0.263$ & $0.252$ \\
+\hline
+\hline \\[-1.8ex]
+\multicolumn{6}{c}{\begin{minipage}{0.92\textwidth}\footnotesize \textit{Note:} Probit estimates with robust (HC1) standard errors in parentheses. Sample restricted to the \textit{Punishment} condition throughout. Belief differences are within-subject \textit{(no delegation)}~$-$~\textit{(delegation)} in expected punishment, so positive coefficients indicate that subjects who expect to be punished more harshly for not delegating (relative to delegating) are more likely to delegate. Columns~(1)--(3) use the simple average of the good-outcome and the bad-outcome belief difference. Column~(4) instead weights the good-outcome difference by Player~A's elicited probability of producing the high payoff and the bad-outcome difference by the complementary probability. Column~(5) enters the two differences separately. The \textit{AME} rows report the average marginal effect of the belief measure entered in the respective column on the probability of delegation, in percentage points per \pounds 0.10 increase in the corresponding belief difference.\end{minipage}}
+\end{tabular}
+\end{table}

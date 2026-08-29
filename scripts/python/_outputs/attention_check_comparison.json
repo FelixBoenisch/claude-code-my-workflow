@@ -1,9 +1,9 @@
 {
   "full_sample": {
     "sample_sizes": {
-      "n_a_total": 161,
+      "n_a_total": 159,
       "n_a_pun": 80,
-      "n_a_nopun": 81,
+      "n_a_nopun": 79,
       "n_b_total": 161,
       "n_b_pun": 80,
       "n_b_nopun": 81
@@ -11,33 +11,33 @@
     "balance_player_a": {
       "age": {
         "mean_pun": 39.026,
-        "mean_nopun": 37.877,
-        "p": 0.5525
+        "mean_nopun": 37.886,
+        "p": 0.5571
       },
       "female": {
         "mean_pun": 0.487,
-        "mean_nopun": 0.494,
-        "p": 1.0
+        "mean_nopun": 0.506,
+        "p": 0.936
       },
       "socio_status": {
         "mean_pun": 5.179,
-        "mean_nopun": 5.321,
-        "p": 0.5642
+        "mean_nopun": 5.329,
+        "p": 0.5424
       },
       "went_to_uni": {
         "mean_pun": 0.575,
-        "mean_nopun": 0.556,
-        "p": 0.9284
+        "mean_nopun": 0.557,
+        "p": 0.9446
       },
       "technology_score": {
         "mean_pun": 2.087,
-        "mean_nopun": 2.284,
-        "p": 0.3225
+        "mean_nopun": 2.266,
+        "p": 0.3664
       },
       "leader": {
         "mean_pun": 0.362,
-        "mean_nopun": 0.333,
-        "p": 0.8235
+        "mean_nopun": 0.329,
+        "p": 0.7827
       }
     },
     "balance_player_b": {
@@ -74,26 +74,26 @@
     },
     "h1_chi_fisher": {
       "rate_pun_pct": 42.5,
-      "rate_nopun_pct": 59.3,
-      "gap_pp": 16.8,
+      "rate_nopun_pct": 60.8,
+      "gap_pp": 18.3,
       "n_pun": 80,
-      "n_nopun": 81,
-      "p_chi2": 0.0334,
-      "p_fisher": 0.0407
+      "n_nopun": 79,
+      "p_chi2": 0.0212,
+      "p_fisher": 0.0264
     },
     "logit_col1": {
-      "n": 161,
-      "treat_coef": 0.677,
-      "treat_se": 0.3198,
-      "treat_p": 0.0343,
-      "pseudo_r2": 0.0204
+      "n": 159,
+      "treat_coef": 0.7395,
+      "treat_se": 0.3229,
+      "treat_p": 0.022,
+      "pseudo_r2": 0.0242
     },
     "logit_col2": {
-      "n": 159,
-      "treat_coef": 0.7574,
-      "treat_se": 0.3341,
-      "treat_p": 0.0234,
-      "pseudo_r2": 0.049
+      "n": 157,
+      "treat_coef": 0.864,
+      "treat_se": 0.3412,
+      "treat_p": 0.0113,
+      "pseudo_r2": 0.0594
     },
     "logit_col3": {
       "n": 78,
@@ -139,27 +139,27 @@
     },
     "mechanism_effort": {
       "n_pun": 46,
-      "n_nopun": 33,
+      "n_nopun": 31,
       "succ_pun_pct": 21.7,
-      "succ_nopun_pct": 45.5,
-      "succ_p": 0.031,
+      "succ_nopun_pct": 48.4,
+      "succ_p": 0.0187,
       "score_pun": 2.98,
-      "score_nopun": 3.12,
-      "score_p": 0.6576
+      "score_nopun": 3.29,
+      "score_p": 0.3162
     },
     "hypo_delegation": {
-      "n_pairs": 81,
-      "actual_pct": 59.3,
-      "hypo_pct": 50.6,
+      "n_pairs": 79,
+      "actual_pct": 60.8,
+      "hypo_pct": 51.9,
       "n_drop": 12,
       "n_rise": 5,
       "p_mcnemar": 0.0896
     },
     "order_effects": {
-      "interaction_coef": -1.0217,
-      "interaction_p": 0.115,
+      "interaction_coef": -1.1468,
+      "interaction_p": 0.0796,
       "pun_chi2_p": 0.0704,
-      "nopun_chi2_p": 0.6742
+      "nopun_chi2_p": 0.4941
     },
     "belief_dist": {
       "belief_del_good": {
@@ -196,11 +196,11 @@
       }
     },
     "b_overestimation": {
-      "true_score_mean": 2.925,
-      "a_wa_confidence_mean": 4.763,
+      "true_score_mean": 2.956,
+      "a_wa_confidence_mean": 4.77,
       "b_wa_difficulty_mean": 4.324,
-      "a_overestimation": 1.837,
-      "b_overestimation": 1.398
+      "a_overestimation": 1.814,
+      "b_overestimation": 1.368
     },
     "b_likert": {
       "responsibility": {
@@ -231,9 +231,9 @@
   },
   "attention_pass": {
     "sample_sizes": {
-      "n_a_total": 131,
+      "n_a_total": 129,
       "n_a_pun": 61,
-      "n_a_nopun": 70,
+      "n_a_nopun": 68,
       "n_b_total": 135,
       "n_b_pun": 67,
       "n_b_nopun": 68
@@ -241,32 +241,32 @@
     "balance_player_a": {
       "age": {
         "mean_pun": 38.35,
-        "mean_nopun": 36.614,
-        "p": 0.4049
+        "mean_nopun": 36.588,
+        "p": 0.3992
       },
       "female": {
         "mean_pun": 0.517,
-        "mean_nopun": 0.486,
-        "p": 0.8603
+        "mean_nopun": 0.5,
+        "p": 0.9912
       },
       "socio_status": {
         "mean_pun": 5.1,
-        "mean_nopun": 5.257,
-        "p": 0.5652
+        "mean_nopun": 5.265,
+        "p": 0.5469
       },
       "went_to_uni": {
         "mean_pun": 0.541,
-        "mean_nopun": 0.614,
-        "p": 0.5025
+        "mean_nopun": 0.618,
+        "p": 0.4824
       },
       "technology_score": {
         "mean_pun": 2.082,
-        "mean_nopun": 2.314,
-        "p": 0.282
+        "mean_nopun": 2.294,
+        "p": 0.3226
       },
       "leader": {
         "mean_pun": 0.328,
-        "mean_nopun": 0.329,
+        "mean_nopun": 0.324,
         "p": 1.0
       }
     },
@@ -304,26 +304,26 @@
     },
     "h1_chi_fisher": {
       "rate_pun_pct": 39.3,
-      "rate_nopun_pct": 57.1,
-      "gap_pp": 17.8,
+      "rate_nopun_pct": 58.8,
+      "gap_pp": 19.5,
       "n_pun": 61,
-      "n_nopun": 70,
-      "p_chi2": 0.0421,
-      "p_fisher": 0.0541
+      "n_nopun": 68,
+      "p_chi2": 0.0272,
+      "p_fisher": 0.0345
     },
     "logit_col1": {
-      "n": 131,
-      "treat_coef": 0.7205,
-      "treat_se": 0.3564,
-      "treat_p": 0.0432,
-      "pseudo_r2": 0.0229
+      "n": 129,
+      "treat_coef": 0.7895,
+      "treat_se": 0.3597,
+      "treat_p": 0.0282,
+      "pseudo_r2": 0.0275
     },
     "logit_col2": {
-      "n": 130,
-      "treat_coef": 0.8344,
-      "treat_se": 0.3758,
-      "treat_p": 0.0264,
-      "pseudo_r2": 0.0634
+      "n": 128,
+      "treat_coef": 0.9537,
+      "treat_se": 0.3855,
+      "treat_p": 0.0134,
+      "pseudo_r2": 0.0769
     },
     "logit_col3": {
       "n": 60,
@@ -369,27 +369,27 @@
     },
     "mechanism_effort": {
       "n_pun": 37,
-      "n_nopun": 30,
+      "n_nopun": 28,
       "succ_pun_pct": 21.6,
-      "succ_nopun_pct": 46.7,
-      "succ_p": 0.0341,
+      "succ_nopun_pct": 50.0,
+      "succ_p": 0.02,
       "score_pun": 3.0,
-      "score_nopun": 3.13,
-      "score_p": 0.7072
+      "score_nopun": 3.32,
+      "score_p": 0.3489
     },
     "hypo_delegation": {
-      "n_pairs": 70,
-      "actual_pct": 57.1,
-      "hypo_pct": 50.0,
+      "n_pairs": 68,
+      "actual_pct": 58.8,
+      "hypo_pct": 51.5,
       "n_drop": 10,
       "n_rise": 5,
       "p_mcnemar": 0.1967
     },
     "order_effects": {
-      "interaction_coef": -0.933,
-      "interaction_p": 0.1957,
+      "interaction_coef": -1.0761,
+      "interaction_p": 0.1394,
       "pun_chi2_p": 0.1166,
-      "nopun_chi2_p": 0.8359
+      "nopun_chi2_p": 0.6222
     },
     "belief_dist": {
       "belief_del_good": {
@@ -426,11 +426,11 @@
       }
     },
     "b_overestimation": {
-      "true_score_mean": 2.908,
-      "a_wa_confidence_mean": 4.891,
+      "true_score_mean": 2.946,
+      "a_wa_confidence_mean": 4.903,
       "b_wa_difficulty_mean": 4.198,
-      "a_overestimation": 1.983,
-      "b_overestimation": 1.29
+      "a_overestimation": 1.957,
+      "b_overestimation": 1.252
     },
     "b_likert": {
       "responsibility": {

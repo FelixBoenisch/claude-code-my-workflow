@@ -59,10 +59,17 @@
 
 \renewcommand*{\therp}{\Alph{rp}}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Numbered, referenceable Results.
+% Usage: \resulthead{res:shortname} \textit{Statement of the result.}
+% Refer to it in text as Result~\ref{res:shortname}.
+\newcounter{result}
+\newcommand{\resulthead}[1]{\refstepcounter{result}\label{#1}%
+\noindent\textbf{Result~\theresult.}}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
-\title{[Titel]}
+\title{Accountability and Algorithmic Delegation: Experimental Evidence}
 \author{Felix B\"{o}nisch\thanks{WZB Berlin Social Science Center. Email: \texttt{boenischfelix@gmail.com}. \hl{[To do: Add acknowledgments]}}}
 \maketitle
 

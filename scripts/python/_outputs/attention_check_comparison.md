@@ -8,9 +8,9 @@ Each analysis below is run twice:
 
 | Metric | Full sample | Attention-pass | Δ |
 |---|---:|---:|---:|
-| N Player A total | 161 | 131 | -30 |
+| N Player A total | 159 | 129 | -30 |
 |   Punishment | 80 | 61 | -19 |
-|   No-Punishment | 81 | 70 | -11 |
+|   No-Punishment | 79 | 68 | -11 |
 | N Player B total | 161 | 135 | -26 |
 |   Punishment | 80 | 67 | -13 |
 |   No-Punishment | 81 | 68 | -13 |
@@ -20,23 +20,23 @@ Each analysis below is run twice:
 | Metric | Full sample | Attention-pass | Δ |
 |---|---:|---:|---:|
 | age mean Pun | 39.026 | 38.35 | -0.676 |
-| age mean No-Pun | 37.877 | 36.614 | -1.263 |
-| age p (treat balance) | 0.5525 | 0.4049 | -0.1476 |
+| age mean No-Pun | 37.886 | 36.588 | -1.298 |
+| age p (treat balance) | 0.5571 | 0.3992 | -0.1579 |
 | female mean Pun | 0.487 | 0.517 | +0.03 |
-| female mean No-Pun | 0.494 | 0.486 | -0.008 |
-| female p (treat balance) | 1 | 0.8603 | -0.1397 |
+| female mean No-Pun | 0.506 | 0.5 | -0.006 |
+| female p (treat balance) | 0.936 | 0.9912 | +0.0552 |
 | socio_status mean Pun | 5.179 | 5.1 | -0.079 |
-| socio_status mean No-Pun | 5.321 | 5.257 | -0.064 |
-| socio_status p (treat balance) | 0.5642 | 0.5652 | +0.001 |
+| socio_status mean No-Pun | 5.329 | 5.265 | -0.064 |
+| socio_status p (treat balance) | 0.5424 | 0.5469 | +0.0045 |
 | went_to_uni mean Pun | 0.575 | 0.541 | -0.034 |
-| went_to_uni mean No-Pun | 0.556 | 0.614 | +0.058 |
-| went_to_uni p (treat balance) | 0.9284 | 0.5025 | -0.4259 |
+| went_to_uni mean No-Pun | 0.557 | 0.618 | +0.061 |
+| went_to_uni p (treat balance) | 0.9446 | 0.4824 | -0.4622 |
 | technology_score mean Pun | 2.087 | 2.082 | -0.005 |
-| technology_score mean No-Pun | 2.284 | 2.314 | +0.03 |
-| technology_score p (treat balance) | 0.3225 | 0.282 | -0.0405 |
+| technology_score mean No-Pun | 2.266 | 2.294 | +0.028 |
+| technology_score p (treat balance) | 0.3664 | 0.3226 | -0.0438 |
 | leader mean Pun | 0.362 | 0.328 | -0.034 |
-| leader mean No-Pun | 0.333 | 0.329 | -0.004 |
-| leader p (treat balance) | 0.8235 | 1 | +0.1765 |
+| leader mean No-Pun | 0.329 | 0.324 | -0.005 |
+| leader p (treat balance) | 0.7827 | 1 | +0.2173 |
 
 ## Balance — Player B
 
@@ -66,32 +66,32 @@ Each analysis below is run twice:
 | Metric | Full sample | Attention-pass | Δ |
 |---|---:|---:|---:|
 | delegation rate Punishment % | 42.5 | 39.3 | -3.2 |
-| delegation rate No-Pun % | 59.3 | 57.1 | -2.2 |
-| gap (pp) | 16.8 | 17.8 | +1 |
+| delegation rate No-Pun % | 60.8 | 58.8 | -2 |
+| gap (pp) | 18.3 | 19.5 | +1.2 |
 | N Punishment | 80 | 61 | -19 |
-| N No-Punishment | 81 | 70 | -11 |
-| p (Pearson chi²) | 0.0334 | 0.0421 | +0.0087 |
-| p (Fisher exact) | 0.0407 | 0.0541 | +0.0134 |
+| N No-Punishment | 79 | 68 | -11 |
+| p (Pearson chi²) | 0.0212 | 0.0272 | +0.006 |
+| p (Fisher exact) | 0.0264 | 0.0345 | +0.0081 |
 
 ## Logit Col 1 (treat only, full sample)
 
 | Metric | Full sample | Attention-pass | Δ |
 |---|---:|---:|---:|
-| N | 161 | 131 | -30 |
-| treat coef | 0.677 | 0.7205 | +0.0435 |
-| treat SE | 0.3198 | 0.3564 | +0.0366 |
-| treat p | 0.0343 | 0.0432 | +0.0089 |
-| Pseudo R² | 0.0204 | 0.0229 | +0.0025 |
+| N | 159 | 129 | -30 |
+| treat coef | 0.7395 | 0.7895 | +0.05 |
+| treat SE | 0.3229 | 0.3597 | +0.0368 |
+| treat p | 0.022 | 0.0282 | +0.0062 |
+| Pseudo R² | 0.0242 | 0.0275 | +0.0033 |
 
 ## Logit Col 2 (treat + score + controls, full sample)
 
 | Metric | Full sample | Attention-pass | Δ |
 |---|---:|---:|---:|
-| N | 159 | 130 | -29 |
-| treat coef | 0.7574 | 0.8344 | +0.077 |
-| treat SE | 0.3341 | 0.3758 | +0.0417 |
-| treat p | 0.0234 | 0.0264 | +0.003 |
-| Pseudo R² | 0.049 | 0.0634 | +0.0144 |
+| N | 157 | 128 | -29 |
+| treat coef | 0.864 | 0.9537 | +0.0897 |
+| treat SE | 0.3412 | 0.3855 | +0.0443 |
+| treat p | 0.0113 | 0.0134 | +0.0021 |
+| Pseudo R² | 0.0594 | 0.0769 | +0.0175 |
 
 ## Logit Col 3 (Punishment-only, belief differences + score + controls)
 
@@ -152,21 +152,21 @@ Each analysis below is run twice:
 | Metric | Full sample | Attention-pass | Δ |
 |---|---:|---:|---:|
 | n non-delegators Punishment | 46 | 37 | -9 |
-| n non-delegators No-Pun | 33 | 30 | -3 |
+| n non-delegators No-Pun | 31 | 28 | -3 |
 | success rate Punishment % | 21.7 | 21.6 | -0.1 |
-| success rate No-Pun % | 45.5 | 46.7 | +1.2 |
-| p (success rate diff) | 0.031 | 0.0341 | +0.0031 |
+| success rate No-Pun % | 48.4 | 50 | +1.6 |
+| p (success rate diff) | 0.0187 | 0.02 | +0.0013 |
 | mean overall_score Pun | 2.98 | 3 | +0.02 |
-| mean overall_score No-Pun | 3.12 | 3.13 | +0.01 |
-| p (score diff) | 0.6576 | 0.7072 | +0.0496 |
+| mean overall_score No-Pun | 3.29 | 3.32 | +0.03 |
+| p (score diff) | 0.3162 | 0.3489 | +0.0327 |
 
 ## Hypothetical delegation (No-Pun within-subject)
 
 | Metric | Full sample | Attention-pass | Δ |
 |---|---:|---:|---:|
-| n pairs | 81 | 70 | -11 |
-| actual delegation % | 59.3 | 57.1 | -2.2 |
-| hypothetical delegation % | 50.6 | 50 | -0.6 |
+| n pairs | 79 | 68 | -11 |
+| actual delegation % | 60.8 | 58.8 | -2 |
+| hypothetical delegation % | 51.9 | 51.5 | -0.4 |
 | n switched: would-stop | 12 | 10 | -2 |
 | n switched: would-start | 5 | 5 | ≈0 |
 | McNemar p | 0.0896 | 0.1967 | +0.1071 |
@@ -175,10 +175,10 @@ Each analysis below is run twice:
 
 | Metric | Full sample | Attention-pass | Δ |
 |---|---:|---:|---:|
-| treat × order coef | -1.0217 | -0.933 | +0.0887 |
-| treat × order p | 0.115 | 0.1957 | +0.0807 |
+| treat × order coef | -1.1468 | -1.0761 | +0.0707 |
+| treat × order p | 0.0796 | 0.1394 | +0.0598 |
 | p (order in Punishment) | 0.0704 | 0.1166 | +0.0462 |
-| p (order in No-Pun) | 0.6742 | 0.8359 | +0.1617 |
+| p (order in No-Pun) | 0.4941 | 0.6222 | +0.1281 |
 
 ## Belief distributions — delegators vs non-delegators (Punishment cond.)
 
@@ -213,11 +213,11 @@ Each analysis below is run twice:
 
 | Metric | Full sample | Attention-pass | Δ |
 |---|---:|---:|---:|
-| true score mean (Player A) | 2.925 | 2.908 | -0.017 |
-| Player A wa_confidence mean | 4.763 | 4.891 | +0.128 |
+| true score mean (Player A) | 2.956 | 2.946 | -0.01 |
+| Player A wa_confidence mean | 4.77 | 4.903 | +0.133 |
 | Player B wa_difficulty mean | 4.324 | 4.198 | -0.126 |
-| A overestimation (pts) | 1.837 | 1.983 | +0.146 |
-| B overestimation (pts) | 1.398 | 1.29 | -0.108 |
+| A overestimation (pts) | 1.814 | 1.957 | +0.143 |
+| B overestimation (pts) | 1.368 | 1.252 | -0.116 |
 
 ## Player B Likert × punishment correlations
 

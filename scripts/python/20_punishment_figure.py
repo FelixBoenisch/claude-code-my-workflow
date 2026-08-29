@@ -36,6 +36,17 @@ X = [0, 1.0, 2.6, 3.6]
 W = 0.345
 
 
+def paired_wilcoxon(a, b) -> float:
+    """Wilcoxon signed-rank p-value, the within-subject non-parametric
+    counterpart to the paired t-test. The preregistration specified MWU and
+    Kolmogorov-Smirnov, both independent-sample tests, which do not apply to
+    strategy-method data. Returns NaN when all differences are zero."""
+    try:
+        return float(stats.wilcoxon(a, b, zero_method="wilcox")[1])
+    except ValueError:
+        return float("nan")
+
+
 def draw_figure(df, save_to, annotate=False, beliefs=None, n_bel=None,
                 passers=None):
     """One punishment panel in the W9 design. `beliefs` adds Player A's
@@ -157,6 +168,17 @@ def main() -> None:
     _, p_hypo_bad = stats.ttest_rel(hypo_full["punish_del_bad"],
                                     hypo_full["punish_nodel_bad"])
 
+    # Non-parametric counterparts for every paired comparison above
+    p_outcome_w = paired_wilcoxon(amt_bad, amt_good)
+    p_good_pair_w = paired_wilcoxon(pun_full["punish_del_good"],
+                                    pun_full["punish_nodel_good"])
+    p_bad_pair_w = paired_wilcoxon(pun_full["punish_del_bad"],
+                                   pun_full["punish_nodel_bad"])
+    p_hypo_good_w = paired_wilcoxon(hypo_full["punish_del_good"],
+                                    hypo_full["punish_nodel_good"])
+    p_hypo_bad_w = paired_wilcoxon(hypo_full["punish_del_bad"],
+                                   hypo_full["punish_nodel_bad"])
+
     out = {}
     for c in KEYS:
         out[f"fig_pun_actual_{c}_mean"] = round(float(m[c]), 4)
@@ -168,12 +190,17 @@ def main() -> None:
         "fig_pun_outcome_diff_paired_p": round(float(p_outcome), 5),
         "fig_pun_good_pair_paired_p": round(float(p_good_pair), 4),
         "fig_pun_bad_pair_paired_p": round(float(p_bad_pair), 4),
+        "fig_pun_outcome_diff_wilcoxon_p": round(p_outcome_w, 5),
+        "fig_pun_good_pair_wilcoxon_p": round(p_good_pair_w, 4),
+        "fig_pun_bad_pair_wilcoxon_p": round(p_bad_pair_w, 4),
     })
     for c in KEYS:
         out[f"fig_pun_hypo_{c}_mean"] = round(float(hypo_full[c].mean()), 4)
     out.update({
         "fig_pun_hypo_good_pair_paired_p": round(float(p_hypo_good), 4),
         "fig_pun_hypo_bad_pair_paired_p": round(float(p_hypo_bad), 4),
+        "fig_pun_hypo_good_pair_wilcoxon_p": round(p_hypo_good_w, 4),
+        "fig_pun_hypo_bad_pair_wilcoxon_p": round(p_hypo_bad_w, 4),
     })
     manifest.update(out)
     for k, v in out.items():
