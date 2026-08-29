@@ -15,6 +15,7 @@ OUTPUTS = ROOT / "scripts" / "python" / "_outputs"
 
 DELEGATOR = CLEAN / "delegator_cleaned.xlsx"
 EVALUATOR = CLEAN / "evaluator_cleaned.xlsx"
+DELEGATOR_PAGETIMES = INTERIM / "03_pagetimes" / "delegator_full_merged.xlsx"
 
 for d in (FIGURES, TABLES, OUTPUTS):
     d.mkdir(parents=True, exist_ok=True)

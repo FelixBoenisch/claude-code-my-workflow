@@ -24,6 +24,7 @@ import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
 import numpy as np
 from scipy import stats as st
+import statsmodels.api as sm
 
 from lib.io import load_delegator
 from lib.paths import FIGURES
@@ -33,6 +34,14 @@ BLUE = {0: "#3b6ea8", 1: "#8aacd1"}       # actual performance: dark = Punishmen
 MAGENTA = {0: "#9c3a6a", 1: "#d191b0"}    # perceived performance: dark = Punishment
 LABEL = {0: "Punishment", 1: "No-Punishment"}
 SCORES = np.arange(0, 11)
+BACKGROUND_CONTROLS = [
+    "age",
+    "female",
+    "socio_status",
+    "went_to_uni",
+    "technology_score",
+    "leader",
+]
 
 
 def main() -> None:
@@ -100,7 +109,7 @@ def main() -> None:
     fig.savefig(FIGURES / "performance_overview.png", bbox_inches="tight", dpi=200)
     plt.close(fig)
 
-    # --- statistics (unchanged) ---------------------------------------------
+    # --- statistics ---------------------------------------------------------
     pearson_pun_df = dg[dg["treat"] == 0][["overall_score", "delegation"]].dropna()
     pearson_pun_r = float(pearson_pun_df.corr().iloc[0, 1])
     pearson_pun_p = float(st.pearsonr(pearson_pun_df["overall_score"], pearson_pun_df["delegation"]).pvalue)
@@ -111,6 +120,25 @@ def main() -> None:
     pearson_nopun_df = dg[dg["treat"] == 1][["overall_score", "delegation"]].dropna()
     pearson_nopun = st.pearsonr(pearson_nopun_df["overall_score"], pearson_nopun_df["delegation"])
 
+    # Directly test whether the performance gradient differs by condition.
+    # ``punish`` is one in the Punishment condition, so the interaction is the
+    # difference between the Punishment and No-Punishment performance slopes.
+    dg = dg.copy()
+    dg["punish"] = 1 - dg["treat"]
+    dg["punish_x_performance"] = dg["punish"] * dg["overall_score"]
+
+    def fit_gradient_interaction(controls):
+        regressors = ["punish", "overall_score", "punish_x_performance"] + controls
+        sub = dg[["delegation"] + regressors].dropna()
+        X = sm.add_constant(sub[regressors].astype(float), has_constant="add")
+        model = sm.Probit(sub["delegation"].astype(float), X).fit(
+            disp=False, cov_type="HC1"
+        )
+        return model, len(sub)
+
+    interaction, interaction_n = fit_gradient_interaction([])
+    interaction_ctrl, interaction_ctrl_n = fit_gradient_interaction(BACKGROUND_CONTROLS)
+
     out = {
         "perf_corr_punishment_r": round(pearson_pun_r, 3),
         "perf_corr_punishment_p": round(pearson_pun_p, 4),
@@ -120,6 +148,20 @@ def main() -> None:
         "perf_n_punishment_passers": int(len(pearson_pun_pas_df)),
         "perf_corr_nopunishment_r": round(float(pearson_nopun.statistic), 3),
         "perf_corr_nopunishment_p": round(float(pearson_nopun.pvalue), 4),
+        "perf_probit_interaction_coef": round(
+            float(interaction.params["punish_x_performance"]), 4
+        ),
+        "perf_probit_interaction_p": round(
+            float(interaction.pvalues["punish_x_performance"]), 4
+        ),
+        "perf_probit_interaction_n": interaction_n,
+        "perf_probit_interaction_ctrl_coef": round(
+            float(interaction_ctrl.params["punish_x_performance"]), 4
+        ),
+        "perf_probit_interaction_ctrl_p": round(
+            float(interaction_ctrl.pvalues["punish_x_performance"]), 4
+        ),
+        "perf_probit_interaction_ctrl_n": interaction_ctrl_n,
     }
     manifest.update(out)
     for k, v in out.items():

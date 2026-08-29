@@ -10,11 +10,13 @@ from lib import manifest
 
 
 def main() -> None:
+    d_recruited = load_delegator(include_unrealistic=True)
     d = load_delegator()
     e = load_evaluator()
 
     n_a = len(d)
     n_b = len(e)
+    n_a_recruited = len(d_recruited)
 
     pass_a_belief = int(d["pass_att2"].sum())
     pass_a_punish = int(d["pass_att1"].sum())
@@ -32,6 +34,13 @@ def main() -> None:
                               d.loc[d["treat"] == 1, "wa_confidence"], equal_var=False)
 
     out = {
+        "n_player_a_recruited": n_a_recruited,
+        "n_player_b_recruited": n_b,
+        "n_total_recruited": n_a_recruited + n_b,
+        "n_player_a_analysis": n_a,
+        "n_player_b_analysis": n_b,
+        "n_total_analysis": n_a + n_b,
+        # Backward-compatible aliases refer to the analytical sample.
         "n_player_a": n_a,
         "n_player_b": n_b,
         "n_total": n_a + n_b,

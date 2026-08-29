@@ -6,6 +6,8 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 
+from lib import manifest
+
 SCRIPTS = [
     "01_sample_summary",
     "02_balance",
@@ -25,11 +27,23 @@ SCRIPTS = [
     "16_power",
     "17_logit_extended",
     "18_punishment_robustness",
+    "19_attention_comparison",
+    "20_punishment_figure",
+    "21_realized_vs_anticipated",
+    "22_belief_specs",
+    "23_beliefs_vs_performance",
+    "24_performance_by_delegation",
     "25_punishment_extensive",
 ]
 
-for name in SCRIPTS:
-    print(f"\n=========== {name} ===========")
-    mod = importlib.import_module(name)
-    mod.main()
-print("\n=== pipeline complete ===")
+def main() -> None:
+    manifest.reset()
+    for name in SCRIPTS:
+        print(f"\n=========== {name} ===========")
+        mod = importlib.import_module(name)
+        mod.main()
+    print("\n=== pipeline complete ===")
+
+
+if __name__ == "__main__":
+    main()

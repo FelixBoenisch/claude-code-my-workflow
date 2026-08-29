@@ -16,6 +16,11 @@ def load() -> dict:
     return {}
 
 
+def reset() -> None:
+    """Start a pipeline run with an empty numbers manifest."""
+    MANIFEST_PATH.write_text("{}\n")
+
+
 def update(values: dict) -> None:
     cur = load()
     cur.update(values)

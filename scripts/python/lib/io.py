@@ -1,15 +1,12 @@
 """Data loaders. Convert xlsx → parquet on first call for speed."""
 from __future__ import annotations
-import os
 import pandas as pd
 from .paths import DELEGATOR, EVALUATOR, CLEAN
 
-# Subjects who never produced a credible weight guess over the ten rounds.
-# A guess is credible if it is non-zero; all non-zero guesses in the data fall
-# in 114-253 lbs, which is a plausible adult body weight throughout.
-# Credible-guess counts are 10 for 158 subjects, then 7, then 2, then 0, so any
-# cutoff between 3 and 7 selects exactly these two.
-INCREDIBLE_GUESSERS = ("d8goj7g9", "pd4bg6c3")
+# Player As who entered zero -- not a credible body-weight prediction -- in at
+# least eight of the ten initial rounds. The non-zero submission counts are 10
+# for 158 subjects, 7 for one subject, 2 for one subject, and 0 for one subject.
+UNREALISTIC_GUESSERS = ("d8goj7g9", "pd4bg6c3")
 
 
 def _load(xlsx_path):
@@ -20,10 +17,14 @@ def _load(xlsx_path):
     return pd.read_parquet(parquet)
 
 
-def load_delegator() -> pd.DataFrame:
+def load_delegator(*, include_unrealistic: bool = False) -> pd.DataFrame:
+    """Load Player-A data, excluding unrealistic guessers by default.
+
+    Set ``include_unrealistic=True`` only for full-raw-sample sensitivity checks.
+    """
     df = _load(DELEGATOR)
-    if os.environ.get("EXCLUDE_INCREDIBLE_GUESSERS") == "1":
-        df = df[~df["code"].isin(INCREDIBLE_GUESSERS)].reset_index(drop=True)
+    if not include_unrealistic:
+        df = df[~df["code"].isin(UNREALISTIC_GUESSERS)].reset_index(drop=True)
     return df
 
 
