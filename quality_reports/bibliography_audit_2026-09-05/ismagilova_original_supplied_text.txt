@@ -1,0 +1,800 @@
+                                                    i An update to this article is included at the end
+
+
+
+
+                                                      Computers in Human Behavior: Arti cial Humans 4 (2025) 100147
+
+
+                                                                   Contents lists available at ScienceDirect
+
+
+                                        Computers in Human Behavior: Artificial Humans
+                              journal homepage: www.journals.elsevier.com/computers-in-human-behavior-artificial-humans
+
+
+Research paper
+
+Ain’t blaming you: Delegation of financial decisions to humans and
+algorithms
+Zilia Ismagilova a , Matteo Ploner b                          ,∗
+a
+    University of Trento, School of Social Sciences, Via Verdi 26, Trento, 38122, Italy
+b
+    University of Trento, Department of Economics and Management, Via Inama 5, Trento, 38123, Italy
+
+
+
+ARTICLE                 INFO                              ABSTRACT
+
+Keywords:                                                 This article investigates the tendency to prioritize outcomes when evaluating decision-making processes,
+Outcome bias                                              particularly in situations where choices are assigned to either a human or an algorithm. In our experiment,
+Algorithms                                                a Principal delegates a risky financial decision to an Agent, who can choose to act independently or to use
+Decision-making
+                                                          an algorithm. The Principal then rewards or penalizes the Agent based on investment performance, while we
+Investment decision
+                                                          manipulate the Principal’s knowledge of the outcome during the evaluation. Our results confirm a significant
+Online experiment
+Delegation decisions
+                                                          outcome bias, indicating that the assessment of decision effectiveness remains heavily influenced by results,
+                                                          whether the decision is made by the Agent or delegated to an algorithm. Furthermore, the Agent’s reliance on
+                                                          the algorithm and the level of investment risk do not change depending on whether rewards or penalties are
+                                                          decided before or after the outcome is known.
+
+
+
+1. Introduction                                                                               of emotional factors in the outcome bias is also confirmed by Ratner
+                                                                                              and Herbst (2005), with people being less likely to choose an option
+    In real-world scenarios where uncertainty plays a prominent role, it                      that is otherwise perceived as favorable after a bad outcome.
+is intricate to establish straightforward cause-and-effect relationships                          The outcome bias is widespread and manifests itself in various
+between actions and results. In such cases, individuals often assess                          domains like human resource management (Bankins et al., 2022),
+decisions retrospectively, considering the decision-making process and                        sport (Lefgren et al., 2015), and medical decision-making (Sacchi &
+the eventual outcome. For example, witnessing Steven Bradbury on the
+                                                                                              Cherubini, 2004). Here, our attention goes to choices having financial
+winner’s platform in short-track speed skating at the Salt Lake City
+                                                                                              content, a domain in which the outcome bias is a well-documented
+Olympics could mislead someone into assuming he was the swiftest
+                                                                                              phenomenon. For example, Pelster and Breitmayer (2019) show that
+skater worldwide. He happened to be trailing behind throughout the
+race, and the preceding four competitors stumbled in the last turn while                      on a social trading platform, the likelihood of obtaining likes or copiers
+vying for the lead. Judging the performance from the outcome would                            increases in the other trader’s past performance and is unaffected by
+have been misleading for a casual observer.                                                   risk-taking. Germann and Weber (2018) provide experimental support
+    Under uncertainty, the quality of the decision-making process should                      to the robustness of the outcome bias in financial decisions, even in
+depend only upon information available to the decision-maker when                             situations in which the contribution of sheer luck is evident. In the
+deciding (ex-ante). Thus, the outcome of the decision should not matter                       experiment by König-Kersting et al. (2021), a Principal could reward an
+when assessing the quality of a decision. However, the tendency to                            Agent who invested resources on their behalf, either before knowing the
+evaluate decisions mainly on their outcome (ex-post) is a pervasive                           outcome or after knowing it. The authors find that rewards given after
+phenomenon affecting the evaluation of decisions in a wide range                              knowing the outcome are generally higher for successful investments
+of contexts (Baron & Hershey, 1988). This biased assessment of the                            than for unsuccessful investments, while rewards given before knowing
+quality of the decision process is known in the literature as outcome bias                    the outcome are in between. Casal et al. (2019) allow a Principal to
+and might lead to confirming the chosen strategy when the outcome,
+                                                                                              communicate the desired investment level to an Agent, who, however,
+defined by chance, is favorable, even if the decision is wrong (Lipshitz,
+                                                                                              gets the maximum reward when investing all the Principal’s resources.
+1989). Agrawal and Maheswaran (2005) study the psychological mech-
+                                                                                              The experiment shows that deviations from the desired investment level
+anisms underlying the outcome bias and show that the outcome bias is
+                                                                                              get punished only when the investment is unsuccessful. Gillenkirch
+largely driven by the desire to preserve one’s self-image. The key role
+
+
+     ∗ Corresponding author.
+       E-mail address: matteo.ploner@unitn.it (M. Ploner).
+
+https://doi.org/10.1016/j.chbah.2025.100147
+Received 12 February 2024; Received in revised form 13 March 2025; Accepted 19 March 2025
+Available online 28 March 2025
+2949-8821/© 2025 The Authors. Published by Elsevier Inc. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-
+nc-nd/4.0/).
+Z. Ismagilova and M. Ploner                                                                             Computers in Human Behavior: Arti cial Humans 4 (2025) 100147
+
+
+and Velthuis (2023) highlight the potentially harmful consequences               promotes better portfolio diversification. In contrast, Asparouhova et al.
+of outcome bias in decision-making for others: as clients’ assessments           (2020) highlight how humans tend to over-rely on autonomous robots,
+become increasingly outcome-driven, decision-makers are more likely              leading to poor trading outcomes.
+to make choices that do not serve their clients’ best interests.                     In our experiment, an Agent has to make a risky financial decision
+    In line with this literature, we adopt a normative stance when               for a Principal. The former can choose how to invest firsthand or
+assessing the outcome bias, assuming that judging actions based on               delegate to an algorithm. The Principal, in turn, rewards or punishes
+their actual outcomes deviates from the moral standard of evaluating             the Agent. The main controlled manipulation in the experiment is the
+them based on their potential outcomes. This perspective is grounded             information available to the Principal when rewarding the Agent: the
+in a consequentialist approach, which characterizes expected utility             Principal chooses the reward either before knowing the outcome of the
+theory—the dominant framework in economics. However, it is im-                   investment (Reward Before) or after (Reward After). Results confirm the
+portant to recognize that alternative normative frameworks may also              presence of outcome bias, with the highest rewards in Reward After
+coexist. For instance, the evaluation of risky choices may arise from            for successful outcomes, followed by Reward Before, and Reward After
+a normative judgment in which people apply an actualist utilitarian              for unsuccessful outcomes. Furthermore, we find that the outcome bias
+approach, assessing the utility of the outcome that ultimately mate-             does not differ when a choice is made personally or delegated to the
+rializes (for an illustration of different utilitarian approaches to risk,       algorithm. Finally, delegation to an algorithm and the level of risky
+see Hansson, 2023). Empirical support for this perspective comes, for            investments do not differ across conditions (Reward Before) and (Reward
+example, from Max and Uhl (2023) who investigate moral luck in                   After).
+investment contexts and found that people consciously perceive unprof-               The evidence collected here contributes to the growing literature on
+itable investments as less moral. Kataria et al. (2014) experimentally           outsourcing investment decisions to automated algorithms and robo-
+study the impact of restricting choice freedom in risky decision-making.         advisors. We demonstrate that the outcome bias is robust and does not
+They find that such restrictions elicit a negative reaction from those           depend on the source of the investment choice. Thus, outcome bias is
+affected when the limitation results in a worse outcome compared to              not mediated by delegation to an algorithm. Previous research found
+a condition without restrictions. Conversely, when the restriction leads         that principals judge the same decision differently despite their exact
+to a better outcome, the reaction is positive.                                   knowledge of the investment strategy (König-Kersting et al., 2021).
+    In the current paper, we present novel evidence about the outcome            In our study, we go further, showing that artificial agents generate
+bias in the context of experimental financial decisions that can be              the same pattern of outcome-based evaluations as humans. We also
+delegated to a human or an algorithm. Specifically, we investigate               contribute to the literature on shifting blame to others (e.g., Bazerman
+whether the outcome bias is more pronounced when investment choices              & Gino, 2012). In our experiment, the Agent does not delegate more
+are made by humans or by an algorithm. The difference may occur due              to the Reward after algorithm than the Reward before algorithm, nor
+to the potential for algorithms to obscure the direct link between Agent         do they change their risk exposure. Thus, differently than what was
+intentions and investment outcomes, which could influence how Prin-              previously found (e.g., Leib et al., 2021), our agents seem to not ‘‘hide
+cipals attribute responsibility. Given the increasing use of algorithms          behind the machine’’.
+in supporting human decision-making, this seems to be a relevant
+question. Furthermore, we investigate whether algorithms are adopted             2. Methods and materials
+strategically to shift responsibility for the investment outcome.
+                                                                                     We present the main components of our pre-registered experimen-
+    An important aspect of our setting is choice delegation, i.e., giving
+                                                                                 tal design and the hypotheses we are testing, with details on the
+up the right to choose and letting another decision-maker make a
+                                                                                 experimental design, hypotheses, and analysis plan.1
+choice that concerns us (e.g., Füllbrunn et al., 2020). Several studies
+highlighted how delegation to other humans is used strategically to
+                                                                                 2.1. Decision setting
+shift responsibility for the outcome of a decision (Chang et al., 2016).
+The literature has mostly focused on delegation to other humans, but
+                                                                                     We adopt a modified version of the investment game as our main
+recently, attention has been paid to delegation to algorithms. For ex-
+                                                                                 decision task (Gneezy & Potters, 1997). In our investment task L, an
+ample, Feier et al. (2022) show that delegation to an algorithm is more
+                                                                                 Agent must decide the share s of their endowment E allocated to a risky
+effective in deflecting potential retaliation by unhappy counterparts
+                                                                                 asset (Asset A) whose return is +250% with probability 1/3 (Success)
+than delegation to a human. Hohenstein and Jung (2020) confirm that
+                                                                                 and −100% with probability 2/3 (Fail). The endowment not allocated
+AI can serve as a ‘‘moral crumple zone’’ and ‘‘absorb’’ some of the
+                                                                                 to Asset A goes automatically into a risk-free Asset B, which delivers
+responsibility of the human decision-maker. Dana et al. (2007) explore
+                                                                                 no return. Given this, the expected return of the investment task L is
+the motivations to delegate to an algorithm and shows that delegation
+                                                                                 𝐸[𝐿] = 3.5   3
+                                                                                                 𝑠𝐸 + (1 − 𝑠)𝐸. The expected return of investing in Asset
+to an algorithm is deliberately adopted to preserve one’s self-image in
+                                                                                 A is thus 16.7%. For example, if s=.5, the expected outcome of the
+case of moral dilemmas.
+                                                                                 investment is 108.3.
+    Delegating decisions to algorithms is a widespread phenomenon in
+                                                                                     The share invested s can be taken as a direct measure of the
+many domains of human activity involving computational tasks (Walsh
+                                                                                 risk propensity of the investor, with extremely risk-averse subjects
+& Anderson, 2009). For example, algorithms are largely employed
+                                                                                 investing none of their endowment into the risky asset (s=0) and risk-
+to support decision-making in healthcare (Grote & Berens, 2020).
+                                                                                 neutral/seeker investing all their endowment (s=1). All 𝑠 in between
+In the financial sector, reliance on robo-advisors is growing, even              capture different degrees of risk-aversion, with larger 𝑠 associated
+though actual undertaking by investors is still scattered (D’Acunto              with lower risk-aversion. To improve comparison across experimen-
+et al., 2019). Holzmeister et al. (2022) in their experiment demon-              tal conditions, we limited the options available and imposed 𝑠 ∈
+strate that humans tend to choose investment algorithms over finance             {0, .25, .50, .75, 1}.
+professionals. At the same time, Germann and Merkle (2022) show                      In our experimental setting (see Fig. 1), two individuals interact in
+that humans exhibit algorithm aversion when they perceive the al-                the task L: one is randomly assigned to the role of Agent (A) and the
+gorithms to be opaque, complex, or have low accuracy. Furthermore,               other to the role of Principal (P). A faces a choice about the investment
+mistakes made by the algorithm are more severely judged than mistakes            of E on behalf of P in task L. Specifically, A can choose between two
+made by humans, representing an impediment to the diffusion of                   alternatives:
+the technology (Dietvorst et al., 2015). As of today, evidence about
+the consequences of algorithms in the financial sector is mixed. For
+                                                                                   1
+example, D’Acunto et al. (2019) show that adopting robo-advisors                       The preregistration is available at https://osf.io/3uf7s.
+
+
+                                                                             2
+Z. Ismagilova and M. Ploner                                                                                Computers in Human Behavior: Arti cial Humans 4 (2025) 100147
+
+
+
+
+                                                      Fig. 1. Interaction between the Principal and the Agent.
+
+
+      • No delegation: A decides how to invest E firsthand;                              • Reward Before: When choosing the punishment/reward (t), the
+      • Delegation: A delegates the investment decision to a pre-progra                    Principal is aware of the investment share (s) and the delegation
+        mmed algorithm.                                                                    choice (D), but does not know the investment outcome 𝜋𝑃 .
+
+     If A chooses No delegation (𝐷 = 0), the share s to be invested in                  The controlled manipulation aims at testing whether the Principal’s
+the risky asset is freely chosen by A, and the payoff of the investment,             knowledge of the investment outcome affects the choice of 𝑡. In the
+which goes to P, is given by the return function above. If A chooses                 Reward Before treatment, the Principal may choose 𝑡 to reward or
+Delegation (𝐷 = 1), the share s is randomly drawn from the distribution              punish the Agent conditional upon the investment level s and the
+of choices made by humans in a previous independent study, that we                   delegation choice D. Differently, in the Reward After treatment, the
+label Preliminary (see Section 2.4 for a description). The agents are told           Principal may choose 𝑡 to reward or punish the Agent based on the
+that ‘‘the algorithm will select an investment level in Asset A according to         investment level s, the delegation choice D, and on the investment
+a programmed method based on Agent choices in a previous independent                 outcome 𝜋𝑃 .
+session.’’ The working of the algorithm is not further specified to mimic
+the opaqueness of real-world algorithms assisting decision-making.                   2.3. Hypotheses
+Thus, although our algorithm is de facto a simple random draw from
+                                                                                         Section 1 highlighted the relevance of the outcome bias for sev-
+a distribution of human-generated choices, participants are unaware of
+                                                                                     eral domains of economic decision-making (Agrawal & Maheswaran,
+its working.
+                                                                                     2005; Ratner & Herbst, 2005), including financial choices (Germann
+     The payoff of the P (𝜋𝑃 ) is given by the return of the investment
+                                                                                     & Weber, 2018; Pelster & Breitmayer, 2019) and decision making for
+task (L), both when A delegates to the algorithm and when they do
+                                                                                     others (König-Kersting et al., 2021). Building on this evidence, we
+not. A’s payoff (𝜋𝐴 ) is fixed. It does not depend on choices made about
+                                                                                     derive our research hypotheses that focus on the interaction between
+delegation and task L.2 Furthermore, P can reward or punish A for their
+                                                                                     the outcome bias and the decision to delegate choices to a human or
+choice of s at no cost to themselves. Specifically, P can attribute points
+                                                                                     an algorithm. We test whether delegation to the algorithm is pursued
+(t ) to A. The points span over a range 𝑡 ∈ {−50, −49, … , 49, 50}, with
+                                                                                     as an effective way to shift blame in case of undesired outcomes (Feier
+negative points subtracted from A’s payoff (punishment) and positive
+                                                                                     et al., 2022).
+points added to A’s payoff (reward).
+                                                                                         Given the evidence emerging from the literature, we pre-registered
+                                                                                     the following hypotheses. Hypotheses 1 and 2 refer to the Principal’s
+2.2. Treatments                                                                      behavior, while Hypotheses 3 and 4 refer to the Agent’s behavior.
+                                                                                         The first hypothesis we test concerns the impact of the Principal’s
+    Our main experimental manipulation concerns the knowledge of                     knowledge of the investment outcome on the choice of 𝑡. We move from
+the investment outcome when the Principal chooses to reward/punish                   the evidence that individuals attach a positive value to good results,
+the Agent. Specifically, when making this choice, the Principal always               irrespective of the process leading to them and of the idiosyncratic risk
+knows the investment level in the risky asset (s) and whether the Agent              preferences of the principal. In principle, rewards should depend on the
+or the algorithm (D) made the investment choice. The Principal may                   Agent’s ability to match the counterpart’s risk preferences and expo-
+not know the investment outcome 𝜋𝑃 . Accordingly, we implement two                   sure. However, Agents are not given access to information about their
+treatments that refer to the Principal’s knowledge of the investment                 counterparts’ risk preferences and thus cannot pursue a tailor-made
+outcome when choosing to reward/punish the Agent:                                    investment strategy.
+
+      • Reward After: When choosing the punishment/reward (t), the                   Hypothesis 1 (Outcome Bias). Given an investment level, Agents obtain
+        Principal is aware of the investment share (s) and the delegation            higher (lower) rewards in Reward After relative to Reward Before for
+        choice (D), and knows the investment outcome 𝜋𝑃 ;                            positive (negative) investment outcomes.
+                                                                                         The second hypothesis we test concerns the shift in responsibility
+  2
+     The Agents learn their reward only at the end of the experiment to avoid        when the Agent delegates the algorithm to invest. The algorithm’s
+possible comparisons between their payoff and the payoff of the Principal.           choice obscures the Agent’s intentions and does not allow the Principal
+Beyond preventing strategic behavior and ensuring unbiased decisions, this           to formulate a causal link between intentions and consequences. This
+will allow for more accurate measurement of preferences in the subsequent            should dampen rewards/punishments in light of success/failure and,
+survey.                                                                              thus, reduce the size of the outcome bias.
+
+                                                                                 3
+Z. Ismagilova and M. Ploner                                                                           Computers in Human Behavior: Arti cial Humans 4 (2025) 100147
+
+Table 1                                                                        Table 2
+Number of participants per condition and role.                                  Investment levels in the two treatments (% of total).
+ Experiment                   Condition          Principal         Agent        Investment                        Reward After                      Reward Before
+ Preliminary                                           50            50         0                                             8                               11.4
+ Main                         Reward After            200           200         25                                           36                               33.3
+ Main                         Reward Before           201           200         50                                           38                               36.8
+                                                                                75                                           11                                9.5
+                                                                                100                                           7                                9.0
+
+
+Hypothesis 2 (Outcome Bias and Delegation). Outcome bias is more
+prominent for Agents’ firsthand choices than for choices made by the
+algorithm.                                                                     computed. All the information provided to participants was truthful,
+                                                                               and the choices were anonymous.
+    When the Agents anticipate the dampening in rewards/punish-                    After completing the main part of the experiment, participants were
+ment associated with delegation, they may exploit delegation to the            asked to complete a survey about satisfaction regarding the outcome
+algorithm to ‘‘hedge’’ the risk associated with firsthand decisions in         of the task results, punishment or reward actions, and trust in the
+condition Reward after. Delegation in this condition seems particularly        Agent. After completing the survey, participants were told that their
+attractive for Agents who are averse to losses and put more weight on          final payment (fixed + bonus) would be communicated on the Prolific
+the punishment after a bad outcome (loss) than on the reward after a           platform. The computation of actual payoffs was performed offline, and
+good outcome (gain) (Tversky & Kahneman, 1992).                                participants were paid via Prolific.
+
+Hypothesis 3 (Delegation). Delegations to the algorithm are more               3. Results
+frequent in Reward After than in Reward Before.
+                                                                                  Here, we present the results of our experiment, following the struc-
+   Finally, we test whether the Principal’s knowledge of the investment        ture of our research hypotheses. For the main results, we present
+outcome affects the risk-taking behavior of the Agent. Given our invest-       descriptive statistics and the results of the statistical tests.
+ment task, higher investment levels entail more risk and rewards. When
+rewards are conditional upon decisions and not outcomes, Agents may            3.1. Outcome bias
+seek rewards based on expected results, given that outcomes are not
+yet accessible.                                                                    Before focusing on the outcome bias, we test whether the two treat-
+                                                                               ments are significantly different in terms of the investments chosen by
+Hypothesis 4 (Portfolio Composition). Agents undertake riskier invest-         the Agent. Table 2 shows the investment levels in the two treatments.
+ment on behalf of the Principal in Reward Before than in Reward                    The average (median) investment level is equal to 43.250 (50) in
+After.                                                                         Reward After and 42.786 (50) in Reward Before. A Wilcoxon rank sum
+                                                                               test shows that the two distributions are not significantly different
+2.4. Procedures and participants                                               (p-value=0.780) in Reward Before and Reward After. The absence of dif-
+                                                                               ferences across the two treatments is also confirmed by the Chi-squared
+                                                                               test results (p-value=0.702). Regarding delegation choices, 50% and
+    The study is an online pre-registered experiment, with English-
+                                                                               51.7% of total choices are delegated to the algorithm in Reward After
+speaking participants recruited via the Prolific platform. The experi-
+                                                                               and Reward Before, respectively. A Chi-squared test confirms that the
+ment was programmed and conducted in oTree (Chen et al., 2016) on
+                                                                               two distributions are not significantly different (p-value=0.803). Given
+a private server and in English. The average duration of the experiment
+                                                                               the absence of differences in delegation and investment profiles across
+was 291 s and 311 s for Agents and Principals, respectively.
+                                                                               treatments, we present here the results of the analysis of the pooled
+    Choices in the experiment were made with tokens, with a conver-
+                                                                               sample of choices in Reward Before and Reward After.
+sion rate of 1 Token = 0.01 GBP. Participants received a fixed payment
+                                                                                   Fig. 2 provides a representation of the distribution of reward choices
+for participation, proportional to the estimated time to complete the
+                                                                               by the Principal in condition Reward Before (central panel) and in
+experiment, and a bonus payment based on choices in the experiment.
+                                                                               conditions Reward After, when a success is registered (upper panel) and
+The fixed payment was 0.70 GBP (8.4/hr for an estimated duration of
+                                                                               when a failure is registered (lower panel).
+5 min). The average bonus payment was 1.10 GBP for Principals and
+                                                                                   The average (median) reward in Reward Before is 20.597 (20).
+0.70 GBP for Agents.                                                           As the figure shows, the distribution of choices is skewed toward
+    In each experimental condition, we recruited a gender-balanced             higher rewards in the case of success and toward lower rewards in
+sample of UK residents fluent in English. The total number of par-             the case of failure. The average (median) reward is 32.407 (30) in
+ticipants who completed the experiment is 901, distributed across              the case of success and 11.438 (10) in the case of failure. The central
+alternative conditions as illustrated by Table 1. The Preliminary exper-       tendency of rewards is statistically different across the three conditions
+iment serves as an input for the algorithm in the Main experiment.             (Kruskal–Wallis rank sum test, 𝑝-value < 0.001). Furthermore, pairwise
+In Preliminary, Agents choose s and cannot delegate the choice to              comparisons show that the average reward statistically differs in all
+the algorithm. The Principal appropriates the investment returns, and          comparisons between the three conditions (Wilcoxon rank sum test,
+the Agents are paid a fixed fee. The algorithm will randomly choose            all p-values < 0.001). This result provides evidence in support of
+one of the Agents’ choices as the investment choice 𝑠 in the Main              Hypothesis 1 (Outcome bias).
+experiment. In the Main experiment, we implement the two controlled                Table 3 reports the results of a linear regression model, where the
+manipulations described in Section 2.2.                                        dependent variable is the reward and the independent variables are the
+    To avoid complications related to interaction in unsupervised online       experimental conditions and the investment levels. Column (1) presents
+experiments, we adopted a ‘‘cold’’ matching procedure between choices          a pooled regression, while column (2) contains the regression controls
+of Agents and Principals over distinct sessions. Specifically, we first        for the investment levels, and column (3) further controls for potential
+collected the Agents’ choices and then matched each choice made by             interactions between the experimental conditions and the investment
+an Agent with a Principal. If a Principal withdrew from the experiment,        outcomes.
+an algorithm re-matched the Agent’s choice with a new Principal. After             The regression outputs in columns (1) and (2) show that individuals
+the Principal choices were collected, participants’ final payoffs were         tend to reward Agents when a positive outcome is obtained (Reward
+
+                                                                           4
+Z. Ismagilova and M. Ploner                                                                                          Computers in Human Behavior: Arti cial Humans 4 (2025) 100147
+
+
+
+
+Fig. 2.   Rewards across experimental conditions. Note: The square dot represents the average of the distribution, and the boxplot illustrates the conventional quartile partition.
+
+
+
+
+Table 3
+Outcome bias.
+                                                               (1)                                             (2)                                             (3)
+ (Intercept)                                                   20.597 (1.728)***                               21.832 (4.034)***                               16.087 (5.059)**
+ Reward After|Success                                          11.810 (3.755)**                                11.462 (3.748)**                                28.913 (13.143)
+ Reward After|Failure                                          −9.159 (2.664)***                               −8.942 (2.661)***                               3.913 (8.640)
+ s=25                                                                                                          −0.562 (4.429)                                  8.092 (5.863)
+ s=50                                                                                                          0.900 (4.394)                                   5.129 (5.792)
+ s=75                                                                                                          −10.000 (5.468)◦                                −2.403 (7.522)
+ s=100                                                                                                         −4.846 (5.820)                                  1.691 (7.635)
+ Reward After|Success × s = 25                                                                                                                                 −28.648 (14.637)◦
+ Reward After|Success × s = 50                                                                                                                                 −16.796 (14.326)
+ Reward After|Success × s = 75                                                                                                                                 −2.597 (18.732)
+ Reward After|Success × s = 100                                                                                                                                −4.191 (18.778)
+ Reward After|Failure × s = 25                                                                                                                                 −16.611 (9.712)◦
+ Reward After|Failure × s = 50                                                                                                                                 −8.783 (9.691)
+ Reward After|Failure × s = 75                                                                                                                                 −20.375 (11.761)◦
+ Reward After|Failure × s = 100                                                                                                                                −20.691 (12.892)
+ R2                                                            0.072                                           0.089                                           0.118
+ Adj. R2                                                       0.067                                           0.075                                           0.086
+ Num. obs.                                                     401                                             401                                             401
+
+Note: Results of a linear regression model. The dependent variable is the reward, and the independent variables are the experimental conditions and the investment levels.
+Significance levels: ***=0.001; **=0.01: *=0.05; ◦ =0.1.
+
+
+After|Success) and to punish them when a negative outcome is observed                        (F-test, p-value=0.075). The interaction terms highlight the negative
+(Reward After|Failure), relative to the baseline condition in which the                      impact of moderate investment levels, both in case of success and
+results are not known when choosing punishment/reward. The diver-                            failure. However, the interaction terms are only marginally statistically
+gence in rewards is also confirmed by the Linear Hypothesis testing                          significant. Overall, the regression estimates of Table 3 show that
+the equality between the two coefficients (Reward After|Success=Reward
+                                                                                             the outcome bias is present, especially concerning rewards concerning
+After|Failure, F-test, p-values<0.001). The regression outputs in column
+                                                                                             successful investments.
+(3) confirm that successful investments encourage higher rewards than
+in the baseline condition. However, unsuccessful investments are not
+punished more than in the baseline condition. Furthermore, a Linear                          Result 1 (Outcome Bias). Successful investments are generally rewarded
+Hypothesis test shows that the coefficient of Reward After|Success is                        more than unsuccessful investments and investments whose outcome is not
+only marginally significantly different from that of Reward After|Failure                    yet known.
+
+                                                                                         5
+Z. Ismagilova and M. Ploner                                                                                         Computers in Human Behavior: Arti cial Humans 4 (2025) 100147
+
+
+
+
+        Fig. 3. Rewards by the Principal. Note: The square dot represents the average of the distribution, and the boxplot illustrates the conventional quartile partition.
+
+
+3.2. Outcome bias and delegation                                                             Result 3 (Delegation).
+                                                                                                Delegations to the algorithm are as likely as firsthand choices and are
+    Fig. 3 provides a representation of the distribution of rewards by                       unaffected by the Principal’s knowledge of the outcomes (Reward Before vs.
+the Principal in condition Reward Before (central panel) and in Reward                       Reward After).
+After, when a success is registered (leftward panel) and when a failure
+is registered (rightward panel). Differently than in Fig. 2, choices made                    3.4. Portfolio composition
+by Agents firsthand and by the Algorithm, because of delegation, are
+kept separate (lower and upper panels, respectively).
+                                                                                                 The size of the investment share 𝑠 defines the risk associated with a
+    The pattern highlighted in Fig. 2 is largely replicated by Fig. 3, with
+                                                                                             given investment. The higher the investment share, the higher the risk.
+higher rewards after success. A significant difference across the three
+                                                                                             Fig. 4 represents the investment distribution in the two experimental
+conditions is confirmed by a Kruskal–Wallis rank sum test, both for
+                                                                                             conditions for the investment made firsthand by the Agents.
+Firsthand choices (p.value < 0.001) and for Algorithm choices (𝑝-value
+< 0.001).                                                                                        The average investment level is nearly identical across conditions:
+    Regarding our research Hypothesis 2, no significant differences are                      41.5 in Reward After and 41.4 in Reward Before. In both cases, the most
+observed between Firsthand and Algorithm choices in each condition                           frequent choice is 25, indicating low-risk exposure among Agents who
+(Wilcoxon rank sum test, all p-values ≥ 0.220). Thus, we find no                             retain control over the decision. Only a few observations align with the
+support for Hypothesis 2. This result is corroborated by the outcomes                        risk-neutral or risk-seeking investment level of 100. A chi-squared test
+of the regression estimate reported in Table 4.                                              fails to reject the null hypothesis of equal frequencies across conditions
+    The regression outputs in column (1) confirm the existence of an                         (𝑝-value = 0.190). Therefore, our data do not support Hypothesis 4:
+outcome bias but no impact of delegation on rewards. Column (2)
+confirms that there is no significant interaction between the result of                      Result 4 (Portfolio Composition). Agents who make firsthand choices do
+the investment in Reward After and the delegation choice. This also                          not condition their investment on the Principal’s knowledge of the outcomes
+holds when controlling for different investment levels in column (3).                        (Reward Before vs. Reward After).
+Thus, we can state that:
+                                                                                             3.5. Final questionnaire
+Result 2 (Outcome Bias and Delegation). Outcome bias is present in choices
+made by the Agent firsthand and in choices delegated to the algorithm.                            After making their investment choice, all participants were asked to
+Delegation to the algorithm does not significantly affect the size of the bias.
+                                                                                             answer a questionnaire. The questionnaire has the same structure for
+                                                                                             the two roles: six questions with a Likert scale from ‘‘Strongly disagree’’
+3.3. Delegation
+                                                                                             to ‘‘Strongly agree’’. However, the content of the questions was different
+    Table 5 reports the frequency of delegation choices in the two                           for the two roles. The questionnaire for the Principal focused on the
+experimental treatments.                                                                     motivations to reward/punish the Agent, while the questionnaire for
+    The frequency of Firsthand choice and delegation to the Algorithm                        the Agent focused on the reasons to delegate to the algorithm and to
+is not different from 50% in both conditions (Proportion test, p-values                      choose a specific investment level. The outcomes of the questionnaire
+≤ 0.621). The lack of differences across conditions is confirmed by a                        for the Principal are reported in Fig. 5, while outcomes for the Agent
+Chi-squared test, which does not reject the null hypothesis of equal                         are reported in Fig. 6.
+frequencies across the two conditions (p-value=0.764). Thus, we can                               From the questionnaire, we can infer that most Principals agree with
+safely state that the data do not support Hypothesis 3.                                      the idea that rewards should be conditional on the outcome of the
+
+                                                                                         6
+Z. Ismagilova and M. Ploner                                                                                           Computers in Human Behavior: Arti cial Humans 4 (2025) 100147
+
+Table 4
+Outcome bias and Delegation.
+                                                                (1)                                             (2)                                            (3)
+ (Intercept)                                                    18.992 (2.091)***                               19.327 (2.405)***                              14.658 (5.430)**
+ Firsthand                                                      3.325 (2.445)                                   2.632 (3.463)                                  2.529 (3.471)
+ Reward After|Failure                                           −9.239 (2.662)***                               −10.299 (3.761)**                              3.672 (8.971)
+ Reward After|Success                                           11.814 (3.751)**                                12.102 (5.223)*                                28.193 (13.723)*
+ Reward After|Success × Firsthand                                                                               −0.599 (7.525)                                 1.770 (7.608)
+ Reward After|Failure × Firsthand                                                                               2.124 (5.337)                                  2.483 (5.374)
+ s=25                                                                                                                                                          8.125 (5.868)
+ s=50                                                                                                                                                          5.568 (5.827)
+ s=75                                                                                                                                                          −2.038 (7.544)
+ s=100                                                                                                                                                         1.715 (7.641)
+ Reward After|Success × s = 25                                                                                                                                 −29.158 (14.667)*
+ Reward After|Success × s = 250                                                                                                                                −16.876 (14.360)
+ Reward After|Success × s = 75                                                                                                                                 −2.962 (18.753)
+ Reward After|Success × s = 100                                                                                                                                −3.141 (18.868)
+ Reward After|Failure × s = 25                                                                                                                                 −18.128 (9.795)◦
+ Reward After|Failure × s = 50                                                                                                                                 −9.864 (9.731)
+ Reward After|Failure × s = 75                                                                                                                                 −21.296 (11.789)◦
+ Reward After|Failure × s = 100                                                                                                                                −21.049 (12.905)
+ R2                                                             0.076                                           0.077                                          0.123
+ Adj. R2                                                        0.069                                           0.065                                          0.084
+ Num. obs.                                                      401                                             401                                            401
+
+Note: Results of a linear regression model: the dependent variable is the reward, and the independent variables are the delegation choice, the experimental conditions, and the
+investment levels. Significance levels: ***=0.001; **=0.01: *=0.05; ◦ =0.1.
+
+
+
+
+Fig. 4. Investment share in firsthand investments.
+Note: The square dot represents the average of the distribution, and the boxplot illustrates the conventional quartile partition.
+
+
+                                                                                                  From the questionnaire, no consensus about the profitability of
+Table 5                                                                                       delegating to the algorithm emerges among the Agents. However,
+Delegation choices.                                                                           most Agents believe that the Principal would reward/punish differently
+ Condition                              Firsthand                          Algorithm          before or after the results are known. This is in line with the outcome
+ Reward After                           96 (48%)                           104 (52%)          bias observed in the data. Only a minority disagrees with the idea
+ Reward Before                          100 (50%)                          100 (50%)
+                                                                                              that the risk of the investment could be higher when outcomes are
+Note: Number of observations per condition with percentage frequencies within                 not known to the Principal when choosing the reward. However, the
+parentheses.
+                                                                                              dominant motivation guiding the decision to invest is to avoid losses,
+                                                                                              as testified by the low investment levels observed in the data.
+
+investment, in line with the outcome bias observed in the data. Fur-                          4. Discussion and conclusion
+thermore, most Principals believe that Agents should feel accountable
+for the investment, even when they delegate to the algorithm. In this                            The recent advent of generative artificial intelligence and large
+sense, the delegation does not seem to provide a ‘‘shield’’ against blame,                    language models poses new challenges to understanding interactions
+following a negative outcome. This could explain why the outcome bias                         between humans and algorithms. Finance seems to occupy a prominent
+is not conditional upon delegation (see Result 2). Finally, there is no                       place, with an increasing diffusion of robo-advising in financial deci-
+consensus among the Principals about the superiority of the algorithm                         sions (Capponi et al., 2022). We focus here on choices in a controlled
+over the human Agent and that a different delegation choice would                             environment, capturing essential elements of fiduciary money manage-
+have led to a different reward.                                                               ment. A Principal delegates an Agent to invest resources on their behalf,
+
+                                                                                          7
+Z. Ismagilova and M. Ploner                                                                         Computers in Human Behavior: Arti cial Humans 4 (2025) 100147
+
+
+
+
+                                                             Fig. 5. Questionnaire Principal.
+
+
+
+
+and the Agent can decide firsthand how to invest or, in turn, delegate          algorithm. On the other hand, adopting the algorithm does not cause
+an algorithm to do it. Within this setting, we investigate outcome bias,        a ‘‘shift of responsibility’’ and, thus, does not provide a shield against
+a well-documented phenomenon in which the quality of the decision-              bad outcomes. This result is especially relevant in a rapidly evolving
+making process is evaluated ex-post mainly by its outcomes and not by           context where algorithms offer significant automation opportunities,
+its ex-ante validity.                                                           like finance and healthcare.
+    Understanding how people perceive the relationship between choices              Throughout our investigation, we portray the asymmetry in rewards
+and outcomes is crucial in situations where results do not follow deter-        for successful and unsuccessful investments as originating in the out-
+ministically from actions. For instance, consider an investor who, by           come bias. However, alternative interpretations may be compatible
+sheer luck, outperforms the market despite having a poorly diversified          with our results. For example, the observed phenomenon may reflect an
+portfolio. If decision quality is judged solely by outcomes, others may         application of an actualist utilitarian approach, in which the outcome,
+be encouraged to imitate this ‘‘successful’’ investor despite the under-        rather than the process or probabilities, serves as the primary determi-
+lying risk. This tendency is evident on social trading platforms, where         nant of value. This perspective challenges the straightforward labeling
+traders who achieve substantial short-term gains often receive high visi-       of the observed behavior as a ‘‘bias’’, which implies an irrational or
+bility, attracting numerous followers (Pelster & Breitmayer, 2019). This        improper deviation from a normative standard. Instead, the princi-
+pattern underscores how individuals are often influenced by positive            pals may have been consciously judging agents based on investment
+outcomes, even when those results arise from luck rather than skill. As         outcomes. Future research should aim to disentangle the influence of
+a result, seemingly successful but high-risk investment strategies may          cognitive biases from conscious normative judgments in this context.
+be replicated, reinforcing a cycle of speculative decision-making among             Our study serves as an initial exploration into understanding the
+followers.                                                                      role of algorithms in fiduciary money management and evaluation
+    Previous experimental works have documented the existence of                of investment outcomes. A limitation of our investigation lies in the
+outcome bias when financial choices are delegated to peers (König-              specific nature of the adopted algorithm. Notably, our procedure lacks
+Kersting et al., 2021). We contribute to this literature by showing that        a generative aspect, and the algorithm’s decisions are directly derived
+bias is also persistent when an algorithm is ‘‘hired’’ to choose, and           from humans’ previous choices. However, it is important to stress that
+this is publicly known. Those entrusting their resources to a fiduciary         participants are unaware of the actual nature of the algorithm and, in
+agent seem to perceive the results obtained by the algorithm as a direct        this sense, face a condition similar to the one in the real world where
+emanation of the agent. On the one hand, agents may thus save on                the algorithm’s inner workings are opaque.
+the cognitive and material cost of deliberately choosing investment                 The extent of autonomy bestowed upon the algorithm may sig-
+strategies and still get rewarded for positive outcomes obtained by an          nificantly influence the relationship between outcomes and rewards.
+
+                                                                            8
+Z. Ismagilova and M. Ploner                                                                                Computers in Human Behavior: Arti cial Humans 4 (2025) 100147
+
+
+
+
+                                                                  Fig. 6. Questionnaire Agent.
+
+
+
+
+In our current approach, the algorithm’s choices remain closely tied                Ethical Statement
+to human decisions. Future research endeavors could examine how
+varying degrees of autonomy might impact this linkage. Specifically,                    As per the guidelines of the Ethical Committee of the University of
+a heightened level of autonomy could introduce a greater separation                 Trento, formal ethics approval was not required as the study involved
+between artificial intelligence and humans overseeing it, potentially               anonymous adult participants who faced no identifiable risk. The ex-
+complicating the assignment of responsibility for choices made by                   periment was hosted on Prolific, where participants were informed
+machines.                                                                           of the study’s nature, duration, and compensation. Participation was
+                                                                                    voluntary, and consent was obtained by virtue of participants opting to
+   While our findings demonstrate that, in our specific context, humans
+                                                                                    begin the study after reviewing the study specific information that was
+do not merely ’’hide behind the machines’’ (e.g., Leib et al., 2021) to
+                                                                                    provided. Participants are free to withdraw at any time.
+avoid potential retaliation, it is essential to recognize the possibility
+that this dynamic might emerge with more sophisticated algorithms.                  Declaration of competing interest
+This consideration prompts the need for continued exploration into the
+nuanced interactions between human decision-makers and increasingly                     We declare no conflict.
+autonomous artificial intelligence systems.
+                                                                                    References
+
+                                                                                    Agrawal, N., & Maheswaran, D. (2005). Motivated reasoning in outcome-bias effects.
+                                                                                        Journal of Consumer Research, 31, 798–805.
+    During the preparation of this work, the authors used GPT-4o to improve
+                                                                                    Asparouhova, E. N., Bossaerts, P., Rotaru, K., Wang, T., Yadav, N., & Yang, W. (2020).
+language and readability. After using this tool/service, the authors reviewed           Humans in charge of trading robots: the first experiment. Available at SSRN
+and edited the content as needed and take full responsibility for the content           3569435.
+of the publication.                                                                 Bankins, S., Formosa, P., Griep, Y., & Richards, D. (2022). Ai decision making with
+                                                                                        dignity? contrasting workers’ justice perceptions of human and ai decision making
+                                                                                        in a human resource management context. Information Systems Frontiers, 1–19.
+                                                                                    Baron, J., & Hershey, J. C. (1988). Outcome bias in decision evaluation. Journal of
+CRediT authorship contribution statement                                                Personality and Social Psychology, 54(569).
+                                                                                    Bazerman, M. H., & Gino, F. (2012). Behavioral ethics: Toward a deeper understanding
+                                                                                        of moral judgment and dishonesty. Annual Review of Law and Social Science.
+    Zilia Ismagilova: Writing – review & editing, Writing – original                Capponi, A., Olafsson, S., & Zariphopoulou, T. (2022). Personalized robo-advising:
+draft, Visualization, Project administration, Formal analysis, Data cu-                 Enhancing investment through client interaction. Management Science, 68,
+                                                                                        2485–2512.
+ration, Conceptualization. Matteo Ploner: Writing – review & editing,
+                                                                                    Casal, S., Ploner, M., & Sproten, A. N. (2019). Fostering the best execution regime:
+Writing – original draft, Visualization, Software, Formal analysis, Data                An experiment about pecuniary sanctions and accountability in fiduciary money
+curation, Conceptualization.                                                            management. Economic Inquiry, 57, 600–616.
+
+
+                                                                                9
+Z. Ismagilova and M. Ploner                                                                                             Computers in Human Behavior: Arti cial Humans 4 (2025) 100147
+
+
+Chang, T. Y., Solomon, D. H., & Westerfield, M. M. (2016). Looking for someone to               Hansson, S. O. (2023). Risk. In E. N. Zalta, & U. Nodelman (Eds.), The Stanford
+     blame: Delegation, cognitive dissonance, and the disposition effect. The Journal of            encyclopedia of philosophy (Summer 2023). Metaphysics Research Lab, Stanford
+     Finance, 71, 267–302.                                                                          University.
+Chen, D. L., Schonger, M., & Wickens, C. (2016). otree—an open-source platform for              Hohenstein, J., & Jung, M. (2020). Ai as a moral crumple zone: The effects of ai-
+     laboratory, online, and field experiments. Journal of Behavioral and Experimental              mediated communication on attribution and trust. Computers in Human Behavior,
+     Finance, 9, 88–97.                                                                             106, Article 106190.
+D’Acunto, F., Prabhala, N., & Rossi, A. G. (2019). The promises and pitfalls of                 Holzmeister, F., Holmén, M., Kirchler, M., Stefan, M., & Wengström, E. (2022).
+     robo-advising. The Review of Financial Studies, 32, 1983–2020.                                 Delegation decisions in finance. Management Science.
+Dana, J., Weber, R. A., & Kuang, J. X. (2007). Exploiting moral wiggle room:                    Kataria, M., Levati, M. V., & Uhl, M. (2014). Paternalism with hindsight: do protégés
+     experiments demonstrating an illusory preference for fairness. Economic Theory,                react consequentialistically to paternalism? Social Choice and Welfare, 43, 731–746.
+     33, 67–80.                                                                                 König-Kersting, C., Pollmann, M., Potters, J., & Trautmann, S. T. (2021). Good decision
+Dietvorst, B. J., Simmons, J. P., & Massey, C. (2015). Algorithm aversion: people erro-             vs. good results: Outcome bias in the evaluation of financial agents. Theory and
+     neously avoid algorithms after seeing them err. Journal of Experimental Psychology:            Decision, 90, 31–61.
+     General, 144(114).                                                                         Lefgren, L., Platt, B., & Price, J. (2015). Sticking with what (barely) worked: A test of
+Feier, T., Gogoll, J., & Uhl, M. (2022). Hiding behind machines: artificial agents may              outcome bias. Management Science, 61, 1121–1136.
+     help to evade punishment. Science and Engineering Ethics, 28, 1–19.                        Leib, M., Köbis, N. C., Rilke, R. M., Hagens, M., & Irlenbusch, B. (2021). The corruptive
+Füllbrunn, S., Luhan, W., & Sanfey, A. (2020). Current issues in decision mak-                      force of ai-generated advice. arXiv preprint arXiv:2102.07536.
+     ing for others. Journal of Economic Psychology, 77, Article 102250. http:                  Lipshitz, R. (1989). Either a medal or a corporal: The effects of success and failure
+     //dx.doi.org/10.1016/j.joep.2020.102250, https://www.sciencedirect.com/science/                on the evaluation of decision making and decision makers. Organizational Behavior
+     article/pii/S0167487020300076.                                                                 and Human Decision Processes, 44, 380–395.
+Germann, M., & Merkle, C. (2022). Algorithm aversion in delegated investing. Journal            Max, R., & Uhl, M. (2023). Moral luck in investment contexts: We consciously find
+     of Business Economics, 1–37.                                                                   unprofitable investments less moral. PloS One, 18, Article e0278677.
+Germann, M., & Weber, M. (2018). Outcome bias in financial decision making.                     Pelster, M., & Breitmayer, B. (2019). Attracting attention from peers: Excitement in
+     Available at SSRN 3247148.                                                                     social trading. Journal of Economic Behavior and Organization, 161, 158–179.
+Gillenkirch, R. M., & Velthuis, L. (2023). Delegated risk-taking, accountability, and           Ratner, R. K., & Herbst, K. C. (2005). When good decisions have bad outcomes: The
+     outcome bias. Journal of Risk and Uncertainty, 67, 137–161.                                    impact of affect on switching behavior. Organizational Behavior and Human Decision
+Gneezy, U., & Potters, J. (1997). An experiment on risk taking and evaluation periods.              Processes, 96, 23–37.
+     The Quarterly Journal of Economics, 112, 631–645.                                          Sacchi, S., & Cherubini, P. (2004). The effect of outcome information on doctors’
+Grote, T., & Berens, P. (2020). On the ethics of algorithmic decision-making in                     evaluations of their own diagnostic decisions. Medical Education, 38, 1028–1034.
+     healthcare. Journal of Medical Ethics, 46, 205–211.                                        Tversky, A., & Kahneman, D. (1992). Advances in prospect theory: Cumulative
+                                                                                                    representation of uncertainty. Journal of Risk and Uncertainty, 5, 297–323.
+                                                                                                Walsh, M. M., & Anderson, J. R. (2009). The strategic nature of changing your mind.
+                                                                                                    Cognitive Psychology, 58, 416–440.
+
+
+
+
+                                                                                           10
+                           Update
+Computers in Human Behavior: Artificial Humans
+                Volume 8, Issue , May 2026, Page
+
+
+       DOI: https://doi.org/10.1016/j.chbah.2026.100317
+                                              Computers in Human Behavior: Arti cial Humans 8 (2026) 100317
+
+
+                                                         Contents lists available at ScienceDirect
+
+
+                               Computers in Human Behavior: Artificial Humans
+                        journal homepage: www.journals.elsevier.com/computers-in-human-behavior-artificial-humans
+
+
+
+
+Erratum regarding corrections related to Ethical approval and informed
+consent in articles published in [Computers in Human Behavior: Artificial
+Humans 4C (2025)]
+
+   Ethical approval and/or informed consent were not included in the             Psychological Society (TransMIT-Zentrum für wissenschaftlich-
+published version of the following articles included in Volume 4C of             psychologische Dienstleistungen) (approval number Rosenthal-Von­
+Computers in Human Behavior: Artificial Humans.                                  DerPüttenAstrid2021-04-25VA).
+   The appropriate Ethical approval and/or informed consent state­
+ment, provided by the respective authors, are included below and have            4. “Quid pro Quo: Information disclosure for AI feedback in Human-AI
+been added to the published version of the articles:                                collaboration” [CHBAH (2025) 3C 100137] https://doi.org/10.10
+                                                                                    16/j.chbah.2025.100137
+1. “What makes children perceive or not perceive minds in generative
+   AI”[CHBAH (2025) 4C: 100135] https://doi.org/10.1016/j.chbah                     Ethical approval.
+   .2025.100135                                                                     The University of Hamburg uses an ethics questionnaire to assess the
+                                                                                 need for ethical review board approval. This study was deemed to be
+    Ethical approval and informed consent.                                       exempt from ethical review. The study was conducted ensuring volun­
+    This study was approved by the Institutional Review Board of the             tary participation, informed consent, and adherence to good ethical
+University of Michigan (approval number HUM00227417). Children                   research practices.
+were recruited from two public libraries in a mid-west city in the U.S.
+between July and January 2024. Children participating in our study               5. “Enhancing emotional support in human-robot interaction: Imple­
+completed two sessions during story co-creation activities. Signed con­             menting emotion regulation mechanisms in a personal drone”
+sent forms were obtained from parents or legal guardians, and verbal                [CHBAH (2025) 4C: 100146] https://doi.org/10.1016/j.chbah.20
+assent was obtained for children older than seven years of age. All                 25.100146
+children consented to participate in the study and were informed that
+they could discontinue at any time.                                                 Ethical approval.
+                                                                                    This study was approved by the institutional review board of the Ben-
+2. “A multinational assessment of AI literacy among university students          Gurion University of the Negev.
+   in Germany, the UK, and the US”[CHBAH (2025) 4C: 100132] http
+   s://doi.org/10.1016/j.chbah.2025.100132                                       6. “Always check important information!” - The role of disclaimers in
+                                                                                    the perception of AI-generated content” [CHBAH, (2025) 4C:
+   Ethical approval and informed consent.                                           100142] https://doi.org/10.1016/j.chbah.2025.100142
+   This study was approved by the ethical committee of the Technical
+University of Munich (approval number 2023-251-S-KH). All included                   Informed consent was added to Section 2.1 Method as given below:
+participants provided informed consent prior to data collection.                     2.1. Method.
+                                                                                     The study was approved by the ethical committee of the LeibnizIn­
+3. “Teaming up with robots: Analysing potential and challenges with              stitut fuer Wissensmedien in Tuebingen (LEK 2021/150). All partici­
+   healthcare workers and defining teamwork” [CHBAH (2025) 4C:                   pants in this study provided informed consent prior to data collection.
+   100136] https://doi.org/10.1016/j.chbah.2025.100136
+                                                                                 7. “Ain't blaming you: Delegation of financial decisions to humans and
+   Ethical approval.                                                                algorithms” [CHBAH (2025) 4C: 100147] https://doi.org/10.1016/j.
+   This study was approved by the ethical committee of the German                   chbah.2025.100147
+
+
+    DOIs of original article: https://doi.org/10.1016/j.chbah.2025.100161, https://doi.org/10.1016/j.chbah.2025.100136, https://doi.org/10.1016/j.chbah.2025.
+100146, https://doi.org/10.1016/j.chbah.2025.100142, https://doi.org/10.1016/j.chbah.2025.100147, https://doi.org/10.1016/j.chbah.2025.100141, https://
+doi.org/10.1016/j.chbah.2025.100148, https://doi.org/10.1016/j.chbah.2025.100163, https://doi.org/10.1016/j.chbah.2025.100132, https://doi.org/10.1016/j.
+chbah.2025.100137, https://doi.org/10.1016/j.chbah.2025.100149, https://doi.org/10.1016/j.chbah.2025.100160, https://doi.org/10.1016/j.chbah.2025.
+100135, https://doi.org/10.1016/j.chbah.2025.100152.
+
+https://doi.org/10.1016/j.chbah.2026.100317
+
+Available online 10 June 2026
+2949-8821/© 2026 Published by Elsevier Inc.
+                                                                                                       Computers in Human Behavior: Arti cial Humans 8 (2026) 100317
+
+
+   Ethical Statement.                                                              on assignment to condition. Participants responded in text boxes via
+   As per the guidelines of the Ethical Committee of the University of             their online survey, and then reported on the quality of the listening they
+Trento, formal ethics approval was not required as the study involved              received.
+anonymous adult participants who faced no identifiable risk. The
+experiment was hosted on Prolific, where participants were informed of             11. “Experimental evaluation of cognitive agents for collaboration in
+the study's nature, duration, and compensation. Participation was                      human-autonomy cyber defense teams” [CHBAH (2025) 4C:
+voluntary, and consent was obtained by virtue of participants opting to                100148] https://doi.org/10.1016/j.chbah.2025.100148
+begin the study after reviewing the study specific information that was
+provided. Participants are free to withdraw at any time.                              Ethical approval.
+                                                                                      This study was approved by the Institutional Review Board of Car­
+8. “Evaluating the efficacy of Amanda: A voice-based large language                negie Mellon University (approval number STUDY2021_00000324).
+   model chatbot for relationship challenges” [CHBAH (2025) 4C:
+   100141] https://doi.org/10.1016/j.chbah.2025.100141                             12. “Promoting online evaluation skills through educational chatbots”
+                                                                                       [CHBAH (2025) 4C: 100160] https://doi.org/10.1016/j.chbah.20
+    Informed consent was added in Section 4.2 Participants as given                    25.100160
+below:
+    4.2. Participants A total of 309 participants started the study. Of                Ethical Declarations.
+these participants, 49 did not complete the survey, 190 were not eligible              No formal ethics committee approval was required for this type of
+due to the potential risk level being too high (e.g., reported suicidal            study under German regulations and under the policies of the institution
+ideation or potential domestic violence) or them not reporting on any              where the research was conducted. The study used an anonymous sur­
+specific relationship issue that they wanted to address (i.e., they selected       vey and interaction data, no collection of sensitive information, and no
+“none” when asked about which issue they would like to address). A                 interventions that would trigger mandatory ethics review under German
+further 13 participants were excluded because they either did not                  university guidelines.
+interact or complete the interaction with the chatbot or had an issue                  All procedures adhered to the Ethical Principles of Psychologists and
+with the chatbot interaction (their microphone was not working or there            Code of Conduct of the American Psychological Association (APA, 2017)
+was too much noise in the background [e.g., participant was watching               and to the ethical guidelines of the Deutsche Gesellschaft für Psycho­
+TV at the same time]). A further three participants did not complete the           logie and the Berufsverband Deutscher Psychologinnen und Psychol­
+follow-up two weeks later (5.3 % dropout rate). Thus, the final sample             ogen (DGPs and BDP, 2022). All participants provided informed consent
+consisted of 54 participants. Most participants were women (n = 34,                prior to participation.
+63.0 %), heterosexual (n = 44, 81.5 %), married (n = 27, 50.0 %), white
+(n = 205, 70.4 %), lived in the UK (n = 29, 53.7 %), and had at least an           13. “Cognitive phantoms in large language models through the lens of
+undergraduate degree (n = 39, 72.2 %). Most participants had also had                  latent variables” [CHBAH (2025) 4C: 100161] https://doi.org/10
+at least some experience with chatbots (n = 46, 85.2 %) and/or virtual                 .1016/j.chbah.2025.100161
+assistants (n = 49, 90.7 %). See Table 1 for the details of demographic
+variables for each group. All participants that were included in the study             Ethics statement.
+provided informed consent before participation.                                        This study, procedure and data collection were approved by the local
+                                                                                   IRB before data collection (reference number TSB_RP1268). Informed
+9. “Socially excluded employees prefer algorithmic evaluation to                   consent was provided by all participants prior to commencement of data
+   human assessment: The moderating role of an interdependent culture              collection.
+   [CHBAH (2025) 4C: 100152] https://doi.org/10.1016/j.chbah.20
+   25.100152                                                                       14. “Becoming dehumanized by a service robot: An empirical exami­
+                                                                                       nation of what happens when non-humans perceive us as less than
+   Ethical approval.                                                                   full humans” [CHBAH (2025) 4C: 100163] https://doi.org/10.10
+   This study was reviewed and approved by the Institutional Review                    16/j.chbah.2025.100163
+Board of Sophia University (Approval No. 2023-133).
+                                                                                       Ethical approval and informed consent.
+10. “Exploring the connecting potential of AI: Integrating human                       This study did not require ethical board review by the Stockholm
+    interpersonal listening and parasocial support into human-                     School of Economics. Participants in this study were recruited through
+    computer interactions” [CHBAH (2025) 4C: 100149] https://doi.                  the Prolific platform. Engagement with the platform and study selection
+    org/10.1016/j.chbah.2025.100149                                                is voluntary. Participants were provided with the study specific infor­
+                                                                                   mation prior to data collection and were free to withdraw at any time.
+    Informed consent was added in the 3.1.2. Procedure as given below:                 The published version of the following articles included in Volume
+    3.1.2. Procedure.                                                              5C of Computers in Human Behavior: Artificial Humans contained text
+    The study received ethical approval from the University of Reading's           that was blinded for peer review and which had not been replaced upon
+School of Psychology and Clinical Language Sciences committee (2023-               publication.
+188-NW). All participants were provided with an information sheet and                  The appropriate text, provided by the respective authors, are
+consent form and informed consent from all participants prior to data              included below and have been added to the published version of the
+collection. Following procedures described in Itzchakov et al. (2020),             articles:
+participants were first asked to describe a time when they felt rejected,
+with the prompt: “Please spend a few moments thinking back to a time               15. “Knowledge cues to human origins facilitate self-disclosure during
+when you felt rejected by someone else or other people in your life.”                  interactions with chatbots” [CHBAH, (2025); 5: 100174] https://
+Then, participants interacted with Conversational Artificial Intelligence              doi.org/10.1016/j.chbah.2025.100174
+(AI) software (ChatGPT; GPT-3.5) in a back-and-forth conversation.
+Across six interaction points, the AI assimilated their responses during              Three corrections where [ANONYMIZED FOR THE PEER REVIEW]
+the conversation and responded as a listener (see coding below) while              text has been replaced with the exact text below:
+conveying either high-quality listening or lower-quality listening, based             3 Methods
+
+                                                                               2
+                                                                                                      Computers in Human Behavior: Arti cial Humans 8 (2026) 100317
+
+
+    The de-identified data sets, stimuli, and analysis code associated with       and the United States Air Force Academy participated in the experiment.
+this study are freely available online at https://osf.io/8vzwp/.                  Participants were recruited through newsletter announcements and
+    3.3 Ethics.                                                                   through the Sona online experimental recruiting software. Three par­
+    The research project received ethical approval from the University            ticipants were discarded due to technical difficulties with the system and
+Ethics Committee (reference number 402210230).                                    12 were removed due to poor eye tracking data quality (see Data Pro­
+    3.4.1 The Chatbots.                                                           cessing – Saccades, Fixations and Blinks below and Supplement A.1). As
+    Before the interaction with Sam, participants were introduced to it           a result, data from 68 participants were used in all analyses. This final
+with the following text: ‘‘You are going to speak with Sam, a research            sample included 31 participants from the University of Colorado,
+assistant at the University of Glasgow.                                           Boulder (Age: M = 24.1 years, SD = 8; Gender: 20 female, 9 male, 1-non-
+                                                                                  binary/third gender, 1 preferred not to respond) and 37 participants
+16. “Gaze-informed signatures of trust and collaboration in human-                from the United States Air Force Academy (Age: M = 19.2 years, SD =
+    autonomy teams” [CHBAH, 2025; 5: 100171] https://doi.org/10                   1.9; Gender: 20 male, 17 female). Before participating, volunteers
+    .1016/j.chbah.2025.100171.                                                    signed an informed consent document approved by the institutional
+                                                                                  review board at the United States Air Force Academy in accordance with
+   The published article contain references to Location 1 and Location 2          the Declaration of Helsinki. Participants at the University of Colorado,
+text, this has been updated as follows:                                           Boulder were reimbursed with a $25 gift card while the United States Air
+   2. Material and methods.                                                       Force Academy participants received extra course credit. All partici­
+   2.1. Participants.                                                             pants had normal vision (20/40 or better) without contact lenses. Three
+   A total of 83 volunteers from the University of Colorado, Boulder,             participants wore eyeglasses.
+
+
+
+
+                                                                              3
+

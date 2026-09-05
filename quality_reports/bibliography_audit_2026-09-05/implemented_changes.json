@@ -1,0 +1,596 @@
+{
+  "date": "2026-09-05",
+  "before_sha256": "45446173e385d351df0168be5ef45dd99968fcc582f68936577e38c66c5b4471",
+  "after_sha256": "50bc741e30a9ddedc77fed6c4c90730a332cad61c7c6d7e44446b34f77a889a5",
+  "modified_existing_entries": 38,
+  "deleted_entries": [
+    "stein_dont_2020"
+  ],
+  "entry_count": 105,
+  "cited_key_count": 54,
+  "citation_keys_preserved": true,
+  "untouched_uncited_identity_questions": [
+    "goldbach_geht_2019",
+    "kurtzberg_attribution_2004",
+    "liu_when_2021"
+  ],
+  "changes": [
+    {
+      "key": "allen_algorithm_2022",
+      "field": "author",
+      "old": "Allen, Ryan and Choudhury, Prithwiraj",
+      "new": "Allen, Ryan T. and Choudhury, Prithwiraj (Raj)",
+      "reason": "Optional author-name completion: match the fuller names printed by publisher; existing abbreviated forms identify the same authors."
+    },
+    {
+      "key": "allen_algorithm_2022",
+      "field": "doi",
+      "old": null,
+      "new": "10.1287/orsc.2021.1554",
+      "reason": "Optional completion: add publisher DOI."
+    },
+    {
+      "key": "arnestad_manual_2024",
+      "field": "pages",
+      "old": null,
+      "new": "105931",
+      "reason": "Completion: add missing final article number; this is not a page range."
+    },
+    {
+      "key": "arnestad_manual_2024",
+      "field": "doi",
+      "old": null,
+      "new": "10.1016/j.cognition.2024.105931",
+      "reason": "Optional completion: add publisher DOI."
+    },
+    {
+      "key": "bartling_shifting_2012",
+      "field": "author",
+      "old": "Bartling, B. and Fischbacher, U.",
+      "new": "Bartling, Bj{\\\"o}rn and Fischbacher, Urs",
+      "reason": "Optional consistency only: expand correct initials using published PDF. No author identity/order error."
+    },
+    {
+      "key": "beckers_drivers_2022",
+      "field": "author",
+      "old": "Beckers, Niek and Cavalcante Siebert, Luciano and Bruijnes, Merijn and Jonker, Catholijn and Abbink, David",
+      "new": "Beckers, Niek and Siebert, Luciano Cavalcante and Bruijnes, Merijn and Jonker, Catholijn and Abbink, David",
+      "reason": "Correction: publisher citation, Crossmark, and university export treat Siebert as the family name and Luciano Cavalcante as given names; current BibTeX comma incorrectly makes Cavalcante part of the surname."
+    },
+    {
+      "key": "beckers_drivers_2022",
+      "field": "number",
+      "old": null,
+      "new": "1",
+      "reason": "Optional completion: issue 1 is recorded by publisher-supplied PubMed metadata and TU Delft."
+    },
+    {
+      "key": "benabou_identity_2011",
+      "field": "journal",
+      "old": "Quarterly Journal of Economics",
+      "new": "The Quarterly Journal of Economics",
+      "reason": "Optional normalization to publisher journal name and the Rogoff entry in the same file.",
+      "category": "optional_style"
+    },
+    {
+      "key": "bigman_algorithmic_2023",
+      "field": "annote",
+      "old": "VERIFY middle author spellings against the APA page",
+      "new": null,
+      "reason": "Cleanup: author spellings/order verified, including Desman Wilson; remove completed VERIFY reminder."
+    },
+    {
+      "key": "blunden_downside_2023",
+      "field": "pages",
+      "old": null,
+      "new": "104251",
+      "reason": "Completion: add missing final article number; this is not a page range."
+    },
+    {
+      "key": "blunden_downside_2023",
+      "field": "doi",
+      "old": null,
+      "new": "10.1016/j.obhdp.2023.104251",
+      "reason": "Optional completion: add publisher DOI."
+    },
+    {
+      "key": "bockstedt_humans_2025",
+      "field": "year",
+      "old": "2025",
+      "new": "2026",
+      "reason": "Use January 2026 issue year consistently with final Management Science 72(1) volume/issue/pages. Publisher also exposes the valid 2025 online-year convention, so this is harmonization rather than an unambiguous metadata error.",
+      "category": "issue_year_harmonization"
+    },
+    {
+      "key": "bogert_humans_2021",
+      "field": "number",
+      "old": null,
+      "new": "1",
+      "reason": "Optional issue completion from publisher-deposited Crossref; Nature recommended citation uses volume and article number without issue."
+    },
+    {
+      "key": "buiten_law_2023",
+      "field": "doi",
+      "old": null,
+      "new": "10.1016/j.clsr.2023.105794",
+      "reason": "Add published journal DOI."
+    },
+    {
+      "key": "buiten_law_2023",
+      "field": "note",
+      "old": "CONFIRM volume and article number before adoption",
+      "new": null,
+      "reason": "Remove resolved CONFIRM volume/article-number instruction from printed reference."
+    },
+    {
+      "key": "dawes_robust_1979",
+      "field": "doi",
+      "old": null,
+      "new": "10.1037/0003-066X.34.7.571",
+      "reason": "Optional completion: DOI identified in Crossref-derived NII record; article metadata matches the published paper."
+    },
+    {
+      "key": "european_commission_liability_2019",
+      "field": "author",
+      "old": "{European Commission}",
+      "new": "{European Commission, Directorate-General for Justice and Consumers}",
+      "reason": "Optional: specify corporate author as listed by EU Publications Office; current parent institution attribution is not a false attribution."
+    },
+    {
+      "key": "european_commission_liability_2019",
+      "field": "isbn",
+      "old": null,
+      "new": "978-92-76-12959-2",
+      "reason": "Optional: add ISBN for PDF edition, matching existing DOI."
+    },
+    {
+      "key": "european_union_ai_act_2024",
+      "field": "howpublished",
+      "old": "Official Journal of the European Union",
+      "new": "Official Journal of the European Union, L, 2024/1689, 12 July",
+      "reason": "Complete official locator. Omit the year from howpublished because aer.bst appends year=2024, yielding 12 July 2024 once.",
+      "rendering_adaptation": true
+    },
+    {
+      "key": "european_union_ai_act_2024",
+      "field": "url",
+      "old": null,
+      "new": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+      "reason": "Add stable official ELI link."
+    },
+    {
+      "key": "european_union_ai_act_2024",
+      "field": "annote",
+      "old": "VERIFY citation form",
+      "new": null,
+      "reason": "Remove resolved citation-form verification flag."
+    },
+    {
+      "key": "fiorina_legislator_1986",
+      "field": "doi",
+      "old": null,
+      "new": "10.1093/oxfordjournals.jleo.a036905",
+      "reason": "Optional missing persistent identifier, verified on OUP article page."
+    },
+    {
+      "key": "freer_friedman_weidenholzer_2024",
+      "field": "entry_type",
+      "old": "unpublished",
+      "new": "article",
+      "reason": "Published journal version replaces working paper."
+    },
+    {
+      "key": "freer_friedman_weidenholzer_2024",
+      "field": "year",
+      "old": "2024",
+      "new": "2026",
+      "reason": "Journal publication year."
+    },
+    {
+      "key": "freer_friedman_weidenholzer_2024",
+      "field": "month",
+      "old": "apr",
+      "new": "sep",
+      "reason": "Volume 159 is September 2026; replaces April 2024 revision date."
+    },
+    {
+      "key": "freer_friedman_weidenholzer_2024",
+      "field": "journal",
+      "old": null,
+      "new": "Games and Economic Behavior",
+      "reason": "Published venue."
+    },
+    {
+      "key": "freer_friedman_weidenholzer_2024",
+      "field": "volume",
+      "old": null,
+      "new": "159",
+      "reason": "Published volume."
+    },
+    {
+      "key": "freer_friedman_weidenholzer_2024",
+      "field": "pages",
+      "old": null,
+      "new": "56--70",
+      "reason": "Published page range."
+    },
+    {
+      "key": "freer_friedman_weidenholzer_2024",
+      "field": "doi",
+      "old": null,
+      "new": "10.1016/j.geb.2026.05.012",
+      "reason": "Journal DOI."
+    },
+    {
+      "key": "freer_friedman_weidenholzer_2024",
+      "field": "url",
+      "old": "https://arxiv.org/abs/2309.03419",
+      "new": "https://doi.org/10.1016/j.geb.2026.05.012",
+      "reason": "Point to version of record."
+    },
+    {
+      "key": "freer_friedman_weidenholzer_2024",
+      "field": "note",
+      "old": "arXiv:2309.03419 [econ.GN], v3 15 April 2024. University of Essex / UCSC.",
+      "new": null,
+      "reason": "Remove obsolete preprint-version and affiliation note. Preserve the preprint link in this audit."
+    },
+    {
+      "key": "freisinger_decoding_2024",
+      "field": "year",
+      "old": "2024",
+      "new": "2025",
+      "reason": "Use December 2025 issue year instead of 2024 online year."
+    },
+    {
+      "key": "freisinger_decoding_2024",
+      "field": "volume",
+      "old": null,
+      "new": "43",
+      "reason": "Published volume."
+    },
+    {
+      "key": "freisinger_decoding_2024",
+      "field": "number",
+      "old": null,
+      "new": "6",
+      "reason": "Published issue."
+    },
+    {
+      "key": "freisinger_decoding_2024",
+      "field": "pages",
+      "old": null,
+      "new": "958--969",
+      "reason": "Published page range; 102087 is not the identifier for this work."
+    },
+    {
+      "key": "freisinger_decoding_2024",
+      "field": "doi",
+      "old": "10.1016/j.emj.2024.102087",
+      "new": "10.1016/j.emj.2024.10.004",
+      "reason": "Correct wrong DOI."
+    },
+    {
+      "key": "freisinger_decoding_2024",
+      "field": "url",
+      "old": "https://doi.org/10.1016/j.emj.2024.102087",
+      "new": "https://doi.org/10.1016/j.emj.2024.10.004",
+      "reason": "Correct wrong DOI URL."
+    },
+    {
+      "key": "freisinger_decoding_2024",
+      "field": "note",
+      "old": "Accepted 18 October 2024; article {102087}",
+      "new": null,
+      "reason": "Remove obsolete acceptance note and erroneous article number 102087."
+    },
+    {
+      "key": "gawn_lying_2019",
+      "field": "doi",
+      "old": null,
+      "new": "10.1016/j.joep.2018.08.005",
+      "reason": "Optional completion: add DOI confirmed by the publisher."
+    },
+    {
+      "key": "heaton_social_2023",
+      "field": "note",
+      "old": null,
+      "new": "Article No. 11.",
+      "reason": "Preserve verified ACM article locator in the aer-supported note field."
+    },
+    {
+      "key": "huck_strategic_2004",
+      "field": "doi",
+      "old": "10.1016/j.ijindorg.2003.11.001",
+      "new": "10.1016/j.ijindorg.2003.10.005",
+      "reason": "Correction: publisher and institutional record give this DOI; existing DOI is wrong."
+    },
+    {
+      "key": "huck_strategic_2004",
+      "field": "annote",
+      "old": "VERIFY doi",
+      "new": null,
+      "reason": "Cleanup: replace VERIFY reminder with the verified DOI."
+    },
+    {
+      "key": "jolly_not_2025",
+      "field": "number",
+      "old": null,
+      "new": "2",
+      "reason": "Final Springer issue is 203(2), January 2026.",
+      "category": "bibliographic_completion"
+    },
+    {
+      "key": "jones_have_1989",
+      "field": "doi",
+      "old": null,
+      "new": "10.1016/0167-2681(89)90011-5",
+      "reason": "Optional completion: publisher identifies this DOI."
+    },
+    {
+      "key": "jones_have_1989",
+      "field": "annote",
+      "old": "VERIFY page range before submission",
+      "new": null,
+      "reason": "Cleanup: page range is confirmed; remove completed VERIFY reminder."
+    },
+    {
+      "key": "jung_towards_2021",
+      "field": "number",
+      "old": null,
+      "new": "4",
+      "reason": "Optional completion: issue 4 is confirmed by Springer issue contents."
+    },
+    {
+      "key": "kandul_do_2018",
+      "field": "doi",
+      "old": null,
+      "new": "10.1016/j.socec.2018.03.006",
+      "reason": "Optional completion: add publisher DOI."
+    },
+    {
+      "key": "killoran_learn_2026",
+      "field": "annote",
+      "old": "VERIFY: author list extracted from web-search summary; PNAS page not directly fetched. Confirm before citing.",
+      "new": null,
+      "reason": "Remove resolved bibliographic verification placeholder; evidence is preserved in this audit.",
+      "category": "resolved_audit_flag"
+    },
+    {
+      "key": "kormylo_till_2025",
+      "field": "year",
+      "old": "2025",
+      "new": "2026",
+      "reason": "Use January 2026 issue year consistently with final Management Science 72(1) volume/issue/pages. Publisher also exposes the valid 2025 online-year convention, so this is harmonization rather than an unambiguous metadata error.",
+      "category": "issue_year_harmonization"
+    },
+    {
+      "key": "kormylo_till_2025",
+      "field": "author",
+      "old": "Kormylo, Cameron and Adjerid, Idris and Ball, Sheryl B. and Dogan, Can",
+      "new": "Kormylo, Cameron and Adjerid, Idris and Ball, Sheryl and Dogan, Can",
+      "reason": "Optional exact-byline alignment: INFORMS prints Sheryl Ball. Sheryl B. Ball is confirmed by the author's institution and is not a factual error.",
+      "category": "optional_byline"
+    },
+    {
+      "key": "lemley_remedies_2019",
+      "field": "note",
+      "old": "CONFIRM page range against the journal listing before adoption. SSRN 3223621",
+      "new": null,
+      "reason": "Remove resolved CONFIRM page-range instruction from printed reference."
+    },
+    {
+      "key": "lemley_remedies_2019",
+      "field": "url",
+      "old": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3223621",
+      "new": "https://lawreview.uchicago.edu/print-archive/remedies-robots",
+      "reason": "Prefer published journal page over preprint landing page."
+    },
+    {
+      "key": "litterscheidt_financial_2020",
+      "field": "author",
+      "old": "Litterscheidt, Roman and Streich, David J.",
+      "new": "Litterscheidt, Rouven and Streich, David J.",
+      "reason": "Necessary correction: first author’s given name is Rouven, not Roman."
+    },
+    {
+      "key": "maximiano_gift_2013",
+      "field": "doi",
+      "old": null,
+      "new": "10.1016/j.geb.2012.07.004",
+      "reason": "Optional completion: add publisher DOI."
+    },
+    {
+      "key": "normann_delegate_2025",
+      "field": "doi",
+      "old": null,
+      "new": "10.48550/arXiv.2510.27636",
+      "reason": "Optional: add repository DOI."
+    },
+    {
+      "key": "pezzo_pezzo_physician_2006",
+      "field": "annote",
+      "old": "VERIFY",
+      "new": null,
+      "reason": "Remove resolved bibliographic verification placeholder; evidence is preserved in this audit.",
+      "category": "resolved_audit_flag"
+    },
+    {
+      "key": "salatino_influence_2025",
+      "field": "volume",
+      "old": null,
+      "new": "15",
+      "reason": "Add assigned volume."
+    },
+    {
+      "key": "salatino_influence_2025",
+      "field": "pages",
+      "old": null,
+      "new": "12329",
+      "reason": "Add article number using existing aer-compatible pages convention."
+    },
+    {
+      "key": "santoni_de_sio_four_2021",
+      "field": "number",
+      "old": null,
+      "new": "4",
+      "reason": "Optional completion: add issue confirmed by publisher contents."
+    },
+    {
+      "key": "schotter_bargaining_2000",
+      "field": "annote",
+      "old": "VERIFY doi",
+      "new": null,
+      "reason": "Cleanup: DOI is confirmed by publisher; remove completed VERIFY reminder."
+    },
+    {
+      "key": "stein_dont_2020",
+      "field": "entry",
+      "old": "@article{stein_dont_2020,\r\n    title = {{[NOT FOUND]} {Don't} {Let} {Me} {Down}: {The} {Role} of {Algorithmic} {Complexity} in {Algorithm} {Aversion}},\r\n    journal = {Working Paper},\r\n    author = {Stein, Jens-Peter and others},\r\n    year = {2020},\r\n    annote = {VERIFY: claim-verifier could not locate this paper in any indexed database. Title and authors may be partially fabricated by an earlier session. Original source unknown. RECOMMEND: drop the citation in literature.tex or replace with a verified algorithm-complexity-aversion reference (e.g., Castelo, Bos \\& Lehmann 2019 on task-dependent algorithm aversion).}\r\n}",
+      "new": null,
+      "reason": "User explicitly approved deletion."
+    },
+    {
+      "key": "sunstein_anatomy_2024",
+      "field": "pages",
+      "old": "290--319",
+      "new": "290--317",
+      "reason": "Definite correction: publisher PDF starts at 290 and ends at 317, not 319."
+    },
+    {
+      "key": "sunstein_anatomy_2024",
+      "field": "number",
+      "old": null,
+      "new": "1",
+      "reason": "Publisher issue."
+    },
+    {
+      "key": "sunstein_anatomy_2024",
+      "field": "doi",
+      "old": null,
+      "new": "10.52214/stlr.v26i1.13339",
+      "reason": "Published journal DOI."
+    },
+    {
+      "key": "sunstein_anatomy_2024",
+      "field": "url",
+      "old": null,
+      "new": "https://journals.library.columbia.edu/index.php/stlr/article/view/13339",
+      "reason": "Add publisher record."
+    },
+    {
+      "key": "sunstein_anatomy_2024",
+      "field": "journal",
+      "old": "Columbia Science and Technology Law Review",
+      "new": "Science and Technology Law Review",
+      "reason": "User chose journal website metadata; use website journal title."
+    },
+    {
+      "key": "sunstein_anatomy_2024",
+      "field": "annote",
+      "old": "VERIFY volume/pages against the published issue",
+      "new": null,
+      "reason": "Replace old VERIFY note with resolved audit and retain the print/online date discrepancy in audit."
+    },
+    {
+      "key": "sunstein_anatomy_2024",
+      "field": "year",
+      "old": "2024",
+      "new": "2025",
+      "reason": "User explicitly chose 2025 from journal website."
+    },
+    {
+      "key": "sunstein_anatomy_2024",
+      "field": "month",
+      "old": null,
+      "new": "jan",
+      "reason": "Journal website gives publication date 31 January 2025."
+    },
+    {
+      "key": "tacconelli_how_2026",
+      "field": "note",
+      "old": null,
+      "new": "Published online 4 June 2026; ahead of print.",
+      "reason": "Optional: expose confirmed online-publication status in the rendered bibliography."
+    },
+    {
+      "key": "tacconelli_how_2026",
+      "field": "annote",
+      "old": "Early online 4 June 2026 (ahead of print); add volume/pages at proof stage. Randomized vignette experiment, N=3,808 (US and German lay evaluators + 248 German physicians): physicians accepting standard-care AI recommendations judged significantly more reasonable than those rejecting them; equivalence for nonstandard recommendations.",
+      "new": "Published online 4 June 2026; ahead of print as checked 5 September 2026. Analyzed N=2,808: 248 German physicians, 1,202 US adults, and 1,358 German adults.",
+      "reason": "Definite internal-note correction: existing N=3,808 is inconsistent with primary abstract counts. Annotation is not printed by aer.bst."
+    },
+    {
+      "key": "tontrup_strategic_2025",
+      "field": "note",
+      "old": "SSRN Working Paper No.\\ 5696827, posted 6 October 2025.",
+      "new": "SSRN Working Paper No.\\ 5696827. Written 6 October 2025; posted 13 November 2025; revised 27 June 2026.",
+      "reason": "The existing note confuses date written with date posted."
+    },
+    {
+      "key": "tontrup_strategic_2025",
+      "field": "doi",
+      "old": null,
+      "new": "10.2139/ssrn.5696827",
+      "reason": "Optional: add repository DOI; it is not evidence of journal publication."
+    },
+    {
+      "key": "tsumura_effects_2026",
+      "field": "volume",
+      "old": null,
+      "new": "16",
+      "reason": "Add assigned volume."
+    },
+    {
+      "key": "tsumura_effects_2026",
+      "field": "pages",
+      "old": null,
+      "new": "2670",
+      "reason": "Add article number using existing aer-compatible pages convention."
+    },
+    {
+      "key": "weitzner_reputational_2024",
+      "field": "note",
+      "old": "arXiv:2402.15418 [econ.GN], v3 31 July 2024. McGill University. Presented at AEA 2025.",
+      "new": "arXiv:2402.15418 [econ.TH], v3 31 July 2024. McGill University. Presented at AEA 2025.",
+      "reason": "Correct arXiv subject class econ.GN to econ.TH."
+    },
+    {
+      "key": "weitzner_reputational_2024",
+      "field": "doi",
+      "old": null,
+      "new": "10.48550/arXiv.2402.15418",
+      "reason": "Optional: add repository DOI."
+    },
+    {
+      "key": "santoni_de_sio_four_2021",
+      "field": "author",
+      "old": "Santoni de Sio, Filippo and Mecacci, Giulio",
+      "new": "{Santoni de Sio}, Filippo and Mecacci, Giulio",
+      "reason": "Visual QA found aer.bst rendered de Sio, Filippo Santoni. Protect the compound surname to render and sort Santoni de Sio correctly.",
+      "source": "https://link.springer.com/article/10.1007/s13347-021-00450-x",
+      "category": "implementation formatting"
+    }
+  ],
+  "field_separator_repairs": [
+    "fiorina_legislator_1986",
+    "bogert_humans_2021",
+    "jolly_not_2025",
+    "tontrup_strategic_2025",
+    "normann_delegate_2025",
+    "weitzner_reputational_2024",
+    "tsumura_effects_2026",
+    "salatino_influence_2025",
+    "freer_friedman_weidenholzer_2024",
+    "freisinger_decoding_2024",
+    "gawn_lying_2019",
+    "kandul_do_2018",
+    "maximiano_gift_2013",
+    "jung_towards_2021",
+    "dawes_robust_1979",
+    "tacconelli_how_2026",
+    "beckers_drivers_2022",
+    "santoni_de_sio_four_2021",
+    "european_commission_liability_2019"
+  ]
+}

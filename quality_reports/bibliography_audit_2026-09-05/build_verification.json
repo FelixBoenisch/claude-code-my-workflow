@@ -1,0 +1,29 @@
+{
+  "steps": [
+    {
+      "step": "latex1",
+      "exit_code": 0
+    },
+    {
+      "step": "bibtex",
+      "exit_code": 0
+    },
+    {
+      "step": "latex2",
+      "exit_code": 0
+    },
+    {
+      "step": "latex3",
+      "exit_code": 0
+    }
+  ],
+  "source_tex_files_unchanged": true,
+  "bibtex_warnings": false,
+  "undefined_citations": false,
+  "pdf_sha256": "64967d8ded96de9eb1a95df30efec3137b40f926ac8c611b2406c7409b55e40c",
+  "pdf_bytes": 1128371,
+  "remaining_latex_warnings": [
+    "Package geometry Warning: The marginal notes overrun the paper.",
+    "Package layouts Warning: Layout scale set to 0.5 on input line 78."
+  ]
+}

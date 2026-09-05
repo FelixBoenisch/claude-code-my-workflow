@@ -1,0 +1,2179 @@
+{
+  "bib_path": "paper\\manuscript\\ProjectAlgorithm.bib",
+  "bib_sha256": "45446173e385d351df0168be5ef45dd99968fcc582f68936577e38c66c5b4471",
+  "manuscript_files": [
+    "C:\\Users\\USER\\Documents\\Test environment\\paper\\manuscript\\abstract.tex",
+    "C:\\Users\\USER\\Documents\\Test environment\\paper\\manuscript\\appendix.tex",
+    "C:\\Users\\USER\\Documents\\Test environment\\paper\\manuscript\\conclusion.tex",
+    "C:\\Users\\USER\\Documents\\Test environment\\paper\\manuscript\\design.tex",
+    "C:\\Users\\USER\\Documents\\Test environment\\paper\\manuscript\\introduction.tex",
+    "C:\\Users\\USER\\Documents\\Test environment\\paper\\manuscript\\literature.tex",
+    "C:\\Users\\USER\\Documents\\Test environment\\paper\\manuscript\\main.tex",
+    "C:\\Users\\USER\\Documents\\Test environment\\paper\\manuscript\\results.tex",
+    "C:\\Users\\USER\\Documents\\Test environment\\paper\\tables\\balance_player_a.tex",
+    "C:\\Users\\USER\\Documents\\Test environment\\paper\\tables\\reg_belief_specs.tex",
+    "C:\\Users\\USER\\Documents\\Test environment\\paper\\tables\\reg_delegation.tex",
+    "C:\\Users\\USER\\Documents\\Test environment\\paper\\tables\\reg_punishment.tex",
+    "C:\\Users\\USER\\Documents\\Test environment\\paper\\tables\\reg_punishment_extensive.tex"
+  ],
+  "cited_keys": [
+    "aghion_formal_1997",
+    "awad_drivers_2020",
+    "bartling_fischbacher_schudy_2015",
+    "bartling_shifting_2012",
+    "beckers_drivers_2022",
+    "bigman_algorithmic_2023",
+    "bigman_people_2018",
+    "bolton_contract_2005",
+    "bonnefon_moral_2024",
+    "buiten_law_2023",
+    "burton_systematic_2020",
+    "chen_otree_2016",
+    "chevrier_algorithm_2024",
+    "chugunova_we_2022",
+    "coffman_intermediation_2011",
+    "dawes_robust_1979",
+    "dietvorst_algorithm_2015",
+    "dietvorst_people_2020",
+    "erat_avoiding_2013",
+    "european_commission_liability_2019",
+    "european_union_ai_act_2024",
+    "feier_hiding_2022",
+    "fershtman_gneezy_2001",
+    "fiorina_legislator_1986",
+    "freer_friedman_weidenholzer_2024",
+    "gawn_lying_2019",
+    "gill_blame_2020",
+    "gogoll_rage_2018",
+    "hamman_self-interest_2010",
+    "hill_does_2015",
+    "holt_risk_2002",
+    "holzmeister_delegation_2023",
+    "hueholt_trusting_2026",
+    "irlenbusch_human_2026",
+    "ismagilova_aint_2025",
+    "jauernig_people_2022",
+    "kandul_do_2018",
+    "kobis_delegation_2025",
+    "lemley_remedies_2019",
+    "logg_algorithm_2019",
+    "mahmud_what_2022",
+    "matthias_responsibility_2004",
+    "meehl_clinical_1954",
+    "oexl_shifting_2013",
+    "qin_ai_2025",
+    "santoni_de_sio_four_2021",
+    "schelling_strategy_1960",
+    "shank_attributions_2019",
+    "steffel_passing_2016",
+    "sunstein_anatomy_2024",
+    "tacconelli_how_2026",
+    "tobia_when_2021",
+    "tontrup_strategic_2025",
+    "weaver_politics_1986"
+  ],
+  "missing_keys": [],
+  "aux_only": [],
+  "source_only": [],
+  "entries": [
+    {
+      "key": "feier_hiding_2022",
+      "type": "article",
+      "line": 2,
+      "fields": {
+        "title": "Hiding {Behind} {Machines}: {Artificial} {Agents} {May} {Help} to {Evade} {Punishment}",
+        "volume": "28",
+        "issn": "1353-3452, 1471-5546",
+        "shorttitle": "Hiding {Behind} {Machines}",
+        "url": "https://link.springer.com/10.1007/s11948-022-00372-7",
+        "doi": "10.1007/s11948-022-00372-7",
+        "abstract": "Abstract\n            The transfer of tasks with sometimes far-reaching implications to autonomous systems raises a number of ethical questions. In addition to fundamental questions about the moral agency of these systems, behavioral issues arise. We investigate the empirically accessible question of whether the imposition of harm by an agent is systematically judged differently when the agent is artificial and not human. The results of a laboratory experiment suggest that decision-makers can actually avoid punishment more easily by delegating to machines than by delegating to other people. Our results imply that the availability of artificial agents could provide stronger incentives for decision-makers to delegate sensitive decisions.",
+        "language": "en",
+        "number": "2",
+        "urldate": "2024-11-09",
+        "journal": "Science and Engineering Ethics",
+        "author": "Feier, Till and Gogoll, Jan and Uhl, Matthias",
+        "month": "apr",
+        "year": "2022",
+        "pages": "19",
+        "file": "Full Text:C\\:\\\\Users\\\\felix\\\\Zotero\\\\storage\\\\HHTLM3I9\\\\Feier et al. - 2022 - Hiding Behind Machines Artificial Agents May Help to Evade Punishment.pdf:application/pdf"
+      },
+      "cited": true,
+      "cited_in": [
+        "design.tex",
+        "introduction.tex",
+        "literature.tex",
+        "results.tex"
+      ]
+    },
+    {
+      "key": "bartling_shifting_2012",
+      "type": "article",
+      "line": 22,
+      "fields": {
+        "title": "Shifting the {Blame}: {On} {Delegation} and {Responsibility}",
+        "volume": "79",
+        "issn": "0034-6527, 1467-937X",
+        "shorttitle": "Shifting the {Blame}",
+        "url": "https://academic.oup.com/restud/article-lookup/doi/10.1093/restud/rdr023",
+        "doi": "10.1093/restud/rdr023",
+        "language": "en",
+        "number": "1",
+        "urldate": "2024-11-09",
+        "journal": "The Review of Economic Studies",
+        "author": "Bartling, B. and Fischbacher, U.",
+        "month": "jan",
+        "year": "2012",
+        "pages": "67--87",
+        "file": "Submitted Version:C\\:\\\\Users\\\\felix\\\\Zotero\\\\storage\\\\VDFX4VGB\\\\Bartling and Fischbacher - 2012 - Shifting the Blame On Delegation and Responsibility.pdf:application/pdf"
+      },
+      "cited": true,
+      "cited_in": [
+        "conclusion.tex",
+        "design.tex",
+        "introduction.tex",
+        "literature.tex",
+        "results.tex"
+      ]
+    },
+    {
+      "key": "coffman_intermediation_2011",
+      "type": "article",
+      "line": 40,
+      "fields": {
+        "title": "Intermediation {Reduces} {Punishment} (and {Reward})",
+        "volume": "3",
+        "issn": "1945-7669, 1945-7685",
+        "url": "https://pubs.aeaweb.org/doi/10.1257/mic.3.4.77",
+        "doi": "10.1257/mic.3.4.77",
+        "abstract": "This paper shows moral decision making is not well predicted by the overall fairness of an act but rather by the fairness of the consequences that follow directly. In laboratory experiments, third-party punishment for keeping money from a poorer player decreases when an intermediary actor is included in the transaction. This is true for completely passive intermediaries, even though intermediation decreases the payout of the poorest player and hurts equity, and because intermediation distances the transgressor from the outcome. A separate study shows rewards of charitable giving decrease when the saliency of an intermediary is increased. (JEL A13, D63, D64)",
+        "language": "en",
+        "number": "4",
+        "urldate": "2024-11-09",
+        "journal": "American Economic Journal: Microeconomics",
+        "author": "Coffman, Lucas C",
+        "month": "nov",
+        "year": "2011",
+        "pages": "77--106",
+        "file": "Submitted Version:C\\:\\\\Users\\\\felix\\\\Zotero\\\\storage\\\\N8P5GT3E\\\\Coffman - 2011 - Intermediation Reduces Punishment (and Reward).pdf:application/pdf"
+      },
+      "cited": true,
+      "cited_in": [
+        "design.tex",
+        "introduction.tex",
+        "literature.tex",
+        "results.tex"
+      ]
+    },
+    {
+      "key": "hamman_self-interest_2010",
+      "type": "article",
+      "line": 58,
+      "fields": {
+        "title": "Self-{Interest} through {Delegation}: {An} {Additional} {Rationale} for the {Principal}-{Agent} {Relationship}",
+        "volume": "100",
+        "issn": "0002-8282",
+        "shorttitle": "Self-{Interest} through {Delegation}",
+        "url": "https://pubs.aeaweb.org/doi/10.1257/aer.100.4.1826",
+        "doi": "10.1257/aer.100.4.1826",
+        "abstract": "Principal-agent relationships are typically assumed to be motivated by efficiency gains from comparative advantage. However, principals may also delegate tasks to avoid taking direct responsibility for selfish or unethical behavior. We report three laboratory experiments in which principals repeatedly either decide how much money to share with a recipient or hire agents to make sharing decisions on their behalf. Across several experimental treatments, recipients receive significantly less, and in many cases close to nothing, when allocation decisions are made by agents. (JEL D82)",
+        "language": "en",
+        "number": "4",
+        "urldate": "2024-11-09",
+        "journal": "American Economic Review",
+        "author": "Hamman, John R and Loewenstein, George and Weber, Roberto A",
+        "month": "sep",
+        "year": "2010",
+        "pages": "1826--1846",
+        "file": "Submitted Version:C\\:\\\\Users\\\\felix\\\\Zotero\\\\storage\\\\ZH9B38MI\\\\Hamman et al. - 2010 - Self-Interest through Delegation An Additional Rationale for the Principal-Agent Relationship.pdf:application/pdf"
+      },
+      "cited": true,
+      "cited_in": [
+        "design.tex",
+        "introduction.tex",
+        "literature.tex",
+        "results.tex"
+      ]
+    },
+    {
+      "key": "oexl_shifting_2013",
+      "type": "article",
+      "line": 77,
+      "fields": {
+        "title": "Shifting the blame to a powerless intermediary",
+        "volume": "16",
+        "copyright": "http://www.springer.com/tdm",
+        "issn": "1386-4157, 1573-6938",
+        "url": "http://link.springer.com/10.1007/s10683-012-9335-7",
+        "doi": "10.1007/s10683-012-9335-7",
+        "language": "en",
+        "number": "3",
+        "urldate": "2024-11-09",
+        "journal": "Experimental Economics",
+        "author": "Oexl, Regine and Grossman, Zachary J.",
+        "month": "sep",
+        "year": "2013",
+        "pages": "306--312"
+      },
+      "cited": true,
+      "cited_in": [
+        "design.tex",
+        "introduction.tex",
+        "literature.tex",
+        "results.tex"
+      ]
+    },
+    {
+      "key": "steffel_passing_2016",
+      "type": "article",
+      "line": 94,
+      "fields": {
+        "title": "Passing the buck: {Delegating} choices to others to avoid responsibility and blame",
+        "volume": "135",
+        "issn": "07495978",
+        "shorttitle": "Passing the buck",
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0749597815300108",
+        "doi": "10.1016/j.obhdp.2016.04.006",
+        "language": "en",
+        "urldate": "2024-11-09",
+        "journal": "Organizational Behavior and Human Decision Processes",
+        "author": "Steffel, Mary and Williams, Elanor F. and Perrmann-Graham, Jaclyn",
+        "month": "jul",
+        "year": "2016",
+        "pages": "32--44"
+      },
+      "cited": true,
+      "cited_in": [
+        "design.tex"
+      ]
+    },
+    {
+      "key": "hill_does_2015",
+      "type": "article",
+      "line": 110,
+      "fields": {
+        "title": "Does {Delegation} {Undermine} {Accountability}? {Experimental} {Evidence} on the {Relationship} {Between} {Blame} {Shifting} and {Control}",
+        "volume": "12",
+        "copyright": "http://onlinelibrary.wiley.com/termsAndConditions\\#vor",
+        "issn": "1740-1453, 1740-1461",
+        "shorttitle": "Does {Delegation} {Undermine} {Accountability}?",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/jels.12074",
+        "doi": "10.1111/jels.12074",
+        "abstract": "A small but growing literature in experimental economics finds that principals can shift responsibility for blameworthy behavior to agents, even when those agents are effectively powerless. Prior work in this field measures blameworthy behavior only indirectly, however. It uses modified dictator games to measure attributions of blame for inequitable allocations of wealth. Yet participants might find inequitable allocations of wealth not blameworthy. Thus, such indirect measures leave open the possibility that prior work is not measuring blame shifting at all. This article corrects for a crucial shortcoming by providing a direct measure of blame‐shifting behavior. It reports and discusses first‐of‐its‐kind experimental evidence that shows that principals can delegate to powerless intermediaries in order to evade blame.",
+        "language": "en",
+        "number": "2",
+        "urldate": "2024-11-09",
+        "journal": "Journal of Empirical Legal Studies",
+        "author": "Hill, Adam",
+        "month": "jun",
+        "year": "2015",
+        "pages": "311--339"
+      },
+      "cited": true,
+      "cited_in": [
+        "design.tex",
+        "literature.tex"
+      ]
+    },
+    {
+      "key": "dietvorst_algorithm_2015",
+      "type": "article",
+      "line": 129,
+      "fields": {
+        "title": "Algorithm aversion: {People} erroneously avoid algorithms after seeing them err.",
+        "volume": "144",
+        "issn": "1939-2222, 0096-3445",
+        "shorttitle": "Algorithm aversion",
+        "url": "https://doi.apa.org/doi/10.1037/xge0000033",
+        "doi": "10.1037/xge0000033",
+        "language": "en",
+        "number": "1",
+        "urldate": "2024-11-09",
+        "journal": "Journal of Experimental Psychology: General",
+        "author": "Dietvorst, Berkeley J. and Simmons, Joseph P. and Massey, Cade",
+        "year": "2015",
+        "pages": "114--126"
+      },
+      "cited": true,
+      "cited_in": [
+        "literature.tex"
+      ]
+    },
+    {
+      "key": "logg_algorithm_2019",
+      "type": "article",
+      "line": 145,
+      "fields": {
+        "title": "Algorithm appreciation: {People} prefer algorithmic to human judgment",
+        "volume": "151",
+        "issn": "07495978",
+        "shorttitle": "Algorithm appreciation",
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0749597818303388",
+        "doi": "10.1016/j.obhdp.2018.12.005",
+        "language": "en",
+        "urldate": "2024-11-09",
+        "journal": "Organizational Behavior and Human Decision Processes",
+        "author": "Logg, Jennifer M. and Minson, Julia A. and Moore, Don A.",
+        "month": "mar",
+        "year": "2019",
+        "pages": "90--103"
+      },
+      "cited": true,
+      "cited_in": [
+        "design.tex",
+        "literature.tex"
+      ]
+    },
+    {
+      "key": "burton_systematic_2020",
+      "type": "article",
+      "line": 161,
+      "fields": {
+        "title": "A systematic review of algorithm aversion in augmented decision making",
+        "volume": "33",
+        "issn": "0894-3257, 1099-0771",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/bdm.2155",
+        "doi": "10.1002/bdm.2155",
+        "abstract": "Abstract\n            Despite abundant literature theorizing societal implications of algorithmic decision making, relatively little is known about the conditions that lead to the acceptance or rejection of algorithmically generated insights by individual users of decision aids. More specifically, recent findings of algorithm aversion—the reluctance of human forecasters to use superior but imperfect algorithms—raise questions about whether joint human‐algorithm decision making is feasible in practice. In this paper, we systematically review the topic of algorithm aversion as it appears in 61 peer‐reviewed articles between 1950 and 2018 and follow its conceptual trail across disciplines. We categorize and report on the proposed causes and solutions of algorithm aversion in five themes: expectations and expertise, decision autonomy, incentivization, cognitive compatibility, and divergent rationalities. Although each of the presented themes addresses distinct features of an algorithmic decision aid, human users of the decision aid, and/or the decision making environment, apparent interdependencies are highlighted. We conclude that resolving algorithm aversion requires an updated research program with an emphasis on theory integration. We provide a number of empirical questions that can be immediately carried forth by the behavioral decision making community.",
+        "language": "en",
+        "number": "2",
+        "urldate": "2024-11-09",
+        "journal": "Journal of Behavioral Decision Making",
+        "author": "Burton, Jason W. and Stein, Mari‐Klara and Jensen, Tina Blegind",
+        "month": "apr",
+        "year": "2020",
+        "pages": "220--239"
+      },
+      "cited": true,
+      "cited_in": [
+        "literature.tex"
+      ]
+    },
+    {
+      "key": "chugunova_we_2022",
+      "type": "article",
+      "line": 179,
+      "fields": {
+        "title": "We and {It}: {An} interdisciplinary review of the experimental evidence on how humans interact with machines",
+        "volume": "99",
+        "issn": "22148043",
+        "shorttitle": "We and {It}",
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2214804322000714",
+        "doi": "10.1016/j.socec.2022.101897",
+        "language": "en",
+        "urldate": "2024-11-09",
+        "journal": "Journal of Behavioral and Experimental Economics",
+        "author": "Chugunova, Marina and Sele, Daniela",
+        "month": "aug",
+        "year": "2022",
+        "pages": "101897"
+      },
+      "cited": true,
+      "cited_in": [
+        "literature.tex"
+      ]
+    },
+    {
+      "key": "mahmud_what_2022",
+      "type": "article",
+      "line": 195,
+      "fields": {
+        "title": "What influences algorithmic decision-making? {A} systematic literature review on algorithm aversion",
+        "volume": "175",
+        "issn": "00401625",
+        "shorttitle": "What influences algorithmic decision-making?",
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0040162521008210",
+        "doi": "10.1016/j.techfore.2021.121390",
+        "language": "en",
+        "urldate": "2024-11-09",
+        "journal": "Technological Forecasting and Social Change",
+        "author": "Mahmud, Hasan and Islam, A.K.M. Najmul and Ahmed, Syed Ishtiaque and Smolander, Kari",
+        "month": "feb",
+        "year": "2022",
+        "pages": "121390"
+      },
+      "cited": true,
+      "cited_in": [
+        "literature.tex"
+      ]
+    },
+    {
+      "key": "trunk_current_2020",
+      "type": "article",
+      "line": 211,
+      "fields": {
+        "title": "On the current state of combining human and artificial intelligence for strategic organizational decision making",
+        "volume": "13",
+        "issn": "2198-3402, 2198-2627",
+        "url": "https://link.springer.com/10.1007/s40685-020-00133-x",
+        "doi": "10.1007/s40685-020-00133-x",
+        "abstract": "Abstract\n            \n              Strategic organizational decision making in today’s complex world is a dynamic process characterized by uncertainty. Therefore, diverse groups of responsible employees deal with the large amount and variety of information, which must be acquired and interpreted correctly to deduce adequate alternatives. The technological potential of artificial intelligence (AI) is expected to offer further support, although research in this regard is still developing. However, as the technology is designed to have capabilities beyond those of traditional machines, the effects on the division of tasks and the definition of roles established in the current human–machine relationship are discussed with increasing awareness. Based on a systematic literature review, combined with content analysis, this article provides an overview of the possibilities that current research identifies for integrating AI into organizational decision making under uncertainty. The findings are summarized in a conceptual model that first explains how humans can use AI for decision making under uncertainty and then identifies the challenges, pre-conditions, and consequences that must be considered. While research on organizational structures, the choice of AI application, and the possibilities of knowledge management is extensive, a clear recommendation for ethical frameworks, despite being defined as a crucial foundation, is missing. In addition, AI\n              ,\n              other than traditional machines, can amplify problems inherent in the decision-making process rather than help to reduce them. As a result, the human responsibility increases, while the capabilities needed to use the technology differ from other machines, thus making education necessary. These findings make the study valuable for both researchers and practitioners.",
+        "language": "en",
+        "number": "3",
+        "urldate": "2024-11-09",
+        "journal": "Business Research",
+        "author": "Trunk, Anna and Birkel, Hendrik and Hartmann, Evi",
+        "month": "nov",
+        "year": "2020",
+        "pages": "875--919",
+        "file": "Full Text:C\\:\\\\Users\\\\felix\\\\Zotero\\\\storage\\\\PSKHHG3I\\\\Trunk et al. - 2020 - On the current state of combining human and artificial intelligence for strategic organizational dec.pdf:application/pdf"
+      },
+      "cited": false,
+      "cited_in": []
+    },
+    {
+      "key": "gogoll_rage_2018",
+      "type": "article",
+      "line": 233,
+      "fields": {
+        "title": "Rage against the machine: {Automation} in the moral domain",
+        "volume": "74",
+        "issn": "22148043",
+        "shorttitle": "Rage against the machine",
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2214804318301666",
+        "doi": "10.1016/j.socec.2018.04.003",
+        "language": "en",
+        "urldate": "2024-11-09",
+        "journal": "Journal of Behavioral and Experimental Economics",
+        "author": "Gogoll, Jan and Uhl, Matthias",
+        "month": "jun",
+        "year": "2018",
+        "pages": "97--103"
+      },
+      "cited": true,
+      "cited_in": [
+        "design.tex",
+        "literature.tex",
+        "results.tex"
+      ]
+    },
+    {
+      "key": "kirchkamp_sharing_2019",
+      "type": "article",
+      "line": 249,
+      "fields": {
+        "title": "Sharing responsibility with a machine",
+        "volume": "80",
+        "issn": "22148043",
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2214804318304361",
+        "doi": "10.1016/j.socec.2019.02.010",
+        "language": "en",
+        "urldate": "2024-11-09",
+        "journal": "Journal of Behavioral and Experimental Economics",
+        "author": "Kirchkamp, Oliver and Strobel, Christina",
+        "month": "jun",
+        "year": "2019",
+        "pages": "25--33",
+        "file": "Submitted Version:C\\:\\\\Users\\\\felix\\\\Zotero\\\\storage\\\\GNYZT244\\\\Kirchkamp and Strobel - 2019 - Sharing responsibility with a machine.pdf:application/pdf"
+      },
+      "cited": false,
+      "cited_in": []
+    },
+    {
+      "key": "maasland_blame_2022",
+      "type": "article",
+      "line": 265,
+      "fields": {
+        "title": "Blame the {Machine}? {Insights} {From} an {Experiment} on {Algorithm} {Aversion} and {Blame} {Avoidance} in {Computer}-{Aided} {Human} {Resource} {Management}",
+        "volume": "13",
+        "issn": "1664-1078",
+        "shorttitle": "Blame the {Machine}?",
+        "url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2022.779028/full",
+        "doi": "10.3389/fpsyg.2022.779028",
+        "abstract": "Algorithms have become increasingly relevant in supporting human resource (HR) management, but their application may entail psychological biases and unintended side effects on employee behavior. This study examines the effect of the type of HR decision (i.e., promoting or dismissing staff) on the likelihood of delegating these HR decisions to an algorithm-based decision support system. Based on prior research on algorithm aversion and blame avoidance, we conducted a quantitative online experiment using a 2×2 randomly controlled design with a sample of\n              N\n               = 288 highly educated young professionals and graduate students in Germany. This study partly replicates and substantially extends the methods and theoretical insights from a 2015 study by Dietvorst and colleagues. While we find that respondents exhibit a tendency of delegating presumably unpleasant HR tasks (i.e., dismissals) to the algorithm—rather than delegating promotions—this effect is highly conditional upon the opportunity to pretest the algorithm, as well as individuals’ level of trust in machine-based and human forecast. Respondents’ aversion to algorithms dominates blame avoidance by delegation. This study is the first to provide empirical evidence that the type of HR decision affects algorithm aversion only to a limited extent. Instead, it reveals the counterintuitive effect of algorithm pretesting and the relevance of confidence in forecast models in the context of algorithm-aided HRM, providing theoretical and practical insights.",
+        "urldate": "2024-11-09",
+        "journal": "Frontiers in Psychology",
+        "author": "Maasland, Christian and Weißmüller, Kristina S.",
+        "month": "may",
+        "year": "2022",
+        "pages": "779028",
+        "file": "Full Text:C\\:\\\\Users\\\\felix\\\\Zotero\\\\storage\\\\J6WH5PRK\\\\Maasland and Weißmüller - 2022 - Blame the Machine Insights From an Experiment on Algorithm Aversion and Blame Avoidance in Computer.pdf:application/pdf"
+      },
+      "cited": false,
+      "cited_in": []
+    },
+    {
+      "key": "heaton_social_2023",
+      "type": "inproceedings",
+      "line": 284,
+      "fields": {
+        "address": "Edinburgh United Kingdom",
+        "title": "The {Social} {Impact} of {Decision}-{Making} {Algorithms}: {Reviewing} the {Influence} of {Agency}, {Responsibility} and {Accountability} on {Trust} and {Blame}",
+        "isbn": "9798400707346",
+        "shorttitle": "The {Social} {Impact} of {Decision}-{Making} {Algorithms}",
+        "url": "https://dl.acm.org/doi/10.1145/3597512.3599706",
+        "doi": "10.1145/3597512.3599706",
+        "language": "en",
+        "urldate": "2024-11-09",
+        "booktitle": "Proceedings of the {First} {International} {Symposium} on {Trustworthy} {Autonomous} {Systems}",
+        "publisher": "ACM",
+        "author": "Heaton, Dan and Clos, Jérémie and Nichele, Elena and Fischer, Joel E.",
+        "month": "jul",
+        "year": "2023",
+        "pages": "1--11",
+        "file": "Full Text:C\\:\\\\Users\\\\felix\\\\Zotero\\\\storage\\\\72HM5VID\\\\Heaton et al. - 2023 - The Social Impact of Decision-Making Algorithms Reviewing the Influence of Agency, Responsibility a.pdf:application/pdf"
+      },
+      "cited": false,
+      "cited_in": []
+    },
+    {
+      "key": "weaver_politics_1986",
+      "type": "article",
+      "line": 307,
+      "fields": {
+        "title": "The {Politics} of {Blame} {Avoidance}",
+        "journal": "Journal of Public Policy",
+        "author": "Weaver, R. Kent",
+        "volume": "6",
+        "number": "4",
+        "pages": "371--398",
+        "year": "1986",
+        "doi": "10.1017/S0143814X00004219"
+      },
+      "cited": true,
+      "cited_in": [
+        "literature.tex"
+      ]
+    },
+    {
+      "key": "fiorina_legislator_1986",
+      "type": "article",
+      "line": 318,
+      "fields": {
+        "title": "Legislator {Uncertainty}, {Legislative} {Control}, and the {Delegation} of {Legislative} {Power}",
+        "journal": "Journal of Law, Economics, \\& Organization",
+        "author": "Fiorina, Morris P.",
+        "volume": "2",
+        "number": "1",
+        "pages": "33--51",
+        "year": "1986"
+      },
+      "cited": true,
+      "cited_in": [
+        "literature.tex"
+      ]
+    },
+    {
+      "key": "berger_watch_2021",
+      "type": "article",
+      "line": 328,
+      "fields": {
+        "title": "Watch {Me} {Improve} --- {Algorithm} {Aversion} and {Demonstrating} the {Ability} to {Learn}",
+        "journal": "Business \\& Information Systems Engineering",
+        "author": "Berger, Benedikt and Adam, Martin and R{\\\"u}hr, Alexander and Benlian, Alexander",
+        "volume": "63",
+        "number": "1",
+        "pages": "55--68",
+        "year": "2021",
+        "doi": "10.1007/s12599-020-00678-5"
+      },
+      "cited": false,
+      "cited_in": []
+    },
+    {
+      "key": "litterscheidt_financial_2020",
+      "type": "article",
+      "line": 339,
+      "fields": {
+        "title": "Financial {Education} and {Digital} {Asset} {Management}: {What}'s in the {Black} {Box}?",
+        "journal": "Journal of Behavioral and Experimental Economics",
+        "author": "Litterscheidt, Roman and Streich, David J.",
+        "volume": "87",
+        "pages": "101573",
+        "year": "2020",
+        "doi": "10.1016/j.socec.2020.101573"
+      },
+      "cited": false,
+      "cited_in": []
+    },
+    {
+      "key": "sharan_dont_2020",
+      "type": "article",
+      "line": 349,
+      "fields": {
+        "title": "The {Effects} of {Personality} and {Locus} of {Control} on {Trust} in {Humans} versus {Artificial} {Intelligence}",
+        "journal": "Heliyon",
+        "author": "Sharan, Navya Nishith and Romano, Daniela Maria",
+        "volume": "6",
+        "number": "8",
+        "pages": "e04572",
+        "year": "2020",
+        "doi": "10.1016/j.heliyon.2020.e04572"
+      },
+      "cited": false,
+      "cited_in": []
+    },
+    {
+      "key": "stein_dont_2020",
+      "type": "article",
+      "line": 360,
+      "fields": {
+        "title": "{[NOT FOUND]} {Don't} {Let} {Me} {Down}: {The} {Role} of {Algorithmic} {Complexity} in {Algorithm} {Aversion}",
+        "journal": "Working Paper",
+        "author": "Stein, Jens-Peter and others",
+        "year": "2020",
+        "annote": "VERIFY: claim-verifier could not locate this paper in any indexed database. Title and authors may be partially fabricated by an earlier session. Original source unknown. RECOMMEND: drop the citation in literature.tex or replace with a verified algorithm-complexity-aversion reference (e.g., Castelo, Bos \\& Lehmann 2019 on task-dependent algorithm aversion)."
+      },
+      "cited": false,
+      "cited_in": []
+    },
+    {
+      "key": "bigman_people_2018",
+      "type": "article",
+      "line": 368,
+      "fields": {
+        "title": "People {Are} {Averse} to {Machines} {Making} {Moral} {Decisions}",
+        "journal": "Cognition",
+        "author": "Bigman, Yochanan E. and Gray, Kurt",
+        "volume": "181",
+        "pages": "21--34",
+        "year": "2018",
+        "doi": "10.1016/j.cognition.2018.08.003"
+      },
+      "cited": true,
+      "cited_in": [
+        "literature.tex",
+        "results.tex"
+      ]
+    },
+    {
+      "key": "jauernig_people_2022",
+      "type": "article",
+      "line": 378,
+      "fields": {
+        "title": "People {Prefer} {Moral} {Discretion} to {Algorithms}: {Algorithm} {Aversion} {Beyond} {Intransparency}",
+        "journal": "Philosophy \\& Technology",
+        "author": "Jauernig, Johanna and Uhl, Matthias and Walkowitz, Gari",
+        "volume": "35",
+        "number": "1",
+        "pages": "2",
+        "year": "2022",
+        "doi": "10.1007/s13347-021-00495-y"
+      },
+      "cited": true,
+      "cited_in": [
+        "literature.tex",
+        "results.tex"
+      ]
+    },
+    {
+      "key": "dietvorst_people_2020",
+      "type": "article",
+      "line": 389,
+      "fields": {
+        "title": "People {Reject} {Algorithms} in {Uncertain} {Decision} {Domains} {Because} {They} {Have} {Diminishing} {Sensitivity} to {Forecasting} {Error}",
+        "journal": "Psychological Science",
+        "author": "Dietvorst, Berkeley J. and Bharti, Soaham",
+        "volume": "31",
+        "number": "10",
+        "pages": "1302--1314",
+        "year": "2020",
+        "doi": "10.1177/0956797620948841"
+      },
+      "cited": true,
+      "cited_in": [
+        "results.tex"
+      ]
+    },
+    {
+      "key": "dietvorst_overcoming_2018",
+      "type": "article",
+      "line": 400,
+      "fields": {
+        "title": "Overcoming {Algorithm} {Aversion}: {People} {Will} {Use} {Imperfect} {Algorithms} {If} {They} {Can} ({Even} {Slightly}) {Modify} {Them}",
+        "journal": "Management Science",
+        "author": "Dietvorst, Berkeley J. and Simmons, Joseph P. and Massey, Cade",
+        "volume": "64",
+        "number": "3",
+        "pages": "1155--1170",
+        "year": "2018",
+        "doi": "10.1287/mnsc.2016.2643"
+      },
+      "cited": false,
+      "cited_in": []
+    },
+    {
+      "key": "castelo_task-dependent_2019",
+      "type": "article",
+      "line": 411,
+      "fields": {
+        "title": "Task-{Dependent} {Algorithm} {Aversion}",
+        "journal": "Journal of Marketing Research",
+        "author": "Castelo, Noah and Bos, Maarten W. and Lehmann, Donald R.",
+        "volume": "56",
+        "number": "5",
+        "pages": "809--825",
+        "year": "2019",
+        "doi": "10.1177/0022243719851788"
+      },
+      "cited": false,
+      "cited_in": []
+    },
+    {
+      "key": "bogert_humans_2021",
+      "type": "article",
+      "line": 422,
+      "fields": {
+        "title": "Humans {Rely} {More} on {Algorithms} than {Social} {Influence} as a {Task} {Becomes} {More} {Difficult}",
+        "journal": "Scientific Reports",
+        "author": "Bogert, Eric and Schecter, Aaron and Watson, Richard T.",
+        "volume": "11",
+        "pages": "8028",
+        "year": "2021",
+        "doi": "10.1038/s41598-021-87480-9"
+      },
+      "cited": false,
+      "cited_in": []
+    },
+    {
+      "key": "goldbach_geht_2019",
+      "type": "article",
+      "line": 432,
+      "fields": {
+        "title": "Transferring decisions to an algorithm: {A} simple route choice experiment",
+        "journal": "Transportation Research Part F: Traffic Psychology and Behaviour",
+        "author": "Goldbach, Carina and Kayar, Deniz and Pitz, Thomas and Sickmann, J\\\"orn",
+        "volume": "65",
+        "pages": "402--417",
+        "year": "2019",
+        "doi": "10.1016/j.trf.2019.08.011",
+        "annote": "VERIFY: claim-verifier could not locate the originally-listed German title (``Geht klassische Moral an die Maschine verloren?''). The 2019 paper by these four authors that IS indexed is the route-choice study above. CONFIRM with Felix that this is the intended source, or supply the original German working paper."
+      },
+      "cited": false,
+      "cited_in": []
+    },
+    {
+      "key": "niszczota_robo-investors_2020",
+      "type": "article",
+      "line": 443,
+      "fields": {
+        "title": "Robo-investment aversion",
+        "journal": "PLoS ONE",
+        "author": "Niszczota, Pawe{\\l} and Kasz{\\'a}s, D{\\'a}niel",
+        "volume": "15",
+        "number": "9",
+        "pages": "e0239277",
+        "year": "2020",
+        "doi": "10.1371/journal.pone.0239277"
+      },
+      "cited": false,
+      "cited_in": []
+    },
+    {
+      "key": "erat_avoiding_2013",
+      "type": "article",
+      "line": 454,
+      "fields": {
+        "title": "Avoiding {Lying}: {The} {Case} of {Delegated} {Deception}",
+        "journal": "Journal of Economic Behavior \\& Organization",
+        "author": "Erat, Sanjiv",
+        "volume": "93",
+        "pages": "273--278",
+        "year": "2013",
+        "doi": "10.1016/j.jebo.2013.03.035"
+      },
+      "cited": true,
+      "cited_in": [
+        "literature.tex"
+      ]
+    },
+    {
+      "key": "kurtzberg_attribution_2004",
+      "type": "article",
+      "line": 464,
+      "fields": {
+        "title": "Human reactions to technological failure: {How} accidents rooted in technology vs. human error influence judgments of organizational accountability",
+        "journal": "Organizational Behavior and Human Decision Processes",
+        "author": "Naquin, Charles E. and Kurtzberg, Terri R.",
+        "volume": "93",
+        "number": "2",
+        "pages": "129--141",
+        "year": "2004",
+        "doi": "10.1016/j.obhdp.2003.12.001",
+        "annote": "VERIFY: original bib listed authors in reverse order (Kurtzberg, Naquin) and a different title. The above is the only 2004 Naquin-Kurtzberg paper on technology and attributions that the verifier could locate. CONFIRM with Felix."
+      },
+      "cited": false,
+      "cited_in": []
+    },
+    {
+      "key": "pezzo_pezzo_physician_2006",
+      "type": "article",
+      "line": 476,
+      "fields": {
+        "title": "Physician {Evaluation} {After} {Medical} {Errors}: {Does} {Having} a {Computer} {Decision} {Aid} {Help} or {Hurt} in {Hindsight}?",
+        "journal": "Medical Decision Making",
+        "author": "Pezzo, Mark V. and Pezzo, Stephanie P.",
+        "doi": "10.1177/0272989X05282644",
+        "volume": "26",
+        "number": "1",
+        "pages": "48--56",
+        "year": "2006",
+        "annote": "VERIFY"
+      },
+      "cited": false,
+      "cited_in": []
+    },
+    {
+      "key": "liu_when_2021",
+      "type": "article",
+      "line": 488,
+      "fields": {
+        "title": "In {AI} we trust? {Effects} of agency locus and transparency on uncertainty reduction in human--{AI} interaction",
+        "journal": "Journal of Computer-Mediated Communication",
+        "author": "Liu, Bingjie",
+        "volume": "26",
+        "number": "6",
+        "pages": "384--402",
+        "year": "2021",
+        "doi": "10.1093/jcmc/zmab013",
+        "annote": "VERIFY: original bib listed Liu \\& Du as authors with a different title. No co-author Du Yu found in any indexed publication. The above is the most likely intended Liu (2021) paper; CONFIRM with Felix."
+      },
+      "cited": false,
+      "cited_in": []
+    },
+    {
+      "key": "shank_attributions_2019",
+      "type": "article",
+      "line": 500,
+      "fields": {
+        "title": "When are {Artificial} {Intelligence} versus human agents faulted for wrongdoing? {Moral} attributions after individual and joint decisions",
+        "journal": "Information, Communication \\& Society",
+        "author": "Shank, Daniel B. and DeSanti, Alyssa and Maninger, Timothy",
+        "volume": "22",
+        "number": "5",
+        "pages": "648--663",
+        "year": "2019",
+        "doi": "10.1080/1369118X.2019.1568515"
+      },
+      "cited": true,
+      "cited_in": [
+        "literature.tex"
+      ]
+    },
+    {
+      "key": "tobia_when_2021",
+      "type": "article",
+      "line": 511,
+      "fields": {
+        "title": "When {Does} {Physician} {Use} of {AI} {Increase} {Liability}?",
+        "journal": "Journal of Nuclear Medicine",
+        "author": "Tobia, Kevin and Nielsen, Aileen and Stremitzer, Alexander",
+        "volume": "62",
+        "number": "1",
+        "pages": "17--21",
+        "year": "2021",
+        "doi": "10.2967/jnumed.120.256032"
+      },
+      "cited": true,
+      "cited_in": [
+        "literature.tex"
+      ]
+    },
+    {
+      "key": "chen_otree_2016",
+      "type": "article",
+      "line": 522,
+      "fields": {
+        "title": "{oTree} --- {An} {Open}-{Source} {Platform} for {Laboratory}, {Online}, and {Field} {Experiments}",
+        "journal": "Journal of Behavioral and Experimental Finance",
+        "author": "Chen, Daniel L. and Schonger, Martin and Wickens, Chris",
+        "volume": "9",
+        "pages": "88--97",
+        "year": "2016",
+        "doi": "10.1016/j.jbef.2015.12.001"
+      },
+      "cited": true,
+      "cited_in": [
+        "design.tex"
+      ]
+    },
+    {
+      "key": "european_union_ai_act_2024",
+      "type": "misc",
+      "line": 532,
+      "fields": {
+        "title": "Regulation ({EU}) 2024/1689 of the {European} {Parliament} and of the {Council} of 13 {June} 2024 {Laying} {Down} {Harmonised} {Rules} on {Artificial} {Intelligence} ({Artificial} {Intelligence} {Act})",
+        "author": "{European Union}",
+        "howpublished": "Official Journal of the European Union",
+        "year": "2024",
+        "annote": "VERIFY citation form"
+      },
+      "cited": true,
+      "cited_in": [
+        "introduction.tex"
+      ]
+    },
+    {
+      "key": "holt_risk_2002",
+      "type": "article",
+      "line": 540,
+      "fields": {
+        "title": "Risk {Aversion} and {Incentive} {Effects}",
+        "author": "Holt, Charles A. and Laury, Susan K.",
+        "journal": "American Economic Review",
+        "volume": "92",
+        "number": "5",
+        "pages": "1644--1655",
+        "year": "2002",
+        "doi": "10.1257/000282802762024700"
+      },
+      "cited": true,
+      "cited_in": [
+        "design.tex"
+      ]
+    },
+    {
+      "key": "de_quidt_measuring_2018",
+      "type": "article",
+      "line": 551,
+      "fields": {
+        "title": "Measuring and {Bounding} {Experimenter} {Demand}",
+        "author": "de Quidt, Jonathan and Haushofer, Johannes and Roth, Christopher",
+        "journal": "American Economic Review",
+        "volume": "108",
+        "number": "11",
+        "pages": "3266--3302",
+        "year": "2018",
+        "doi": "10.1257/aer.20171330"
+      },
+      "cited": false,
+      "cited_in": []
+    },
+    {
+      "key": "benabou_identity_2011",
+      "type": "article",
+      "line": 562,
+      "fields": {
+        "title": "Identity, {Morals}, and {Taboos}: {Beliefs} as {Assets}",
+        "author": "B\\'enabou, Roland and Tirole, Jean",
+        "journal": "Quarterly Journal of Economics",
+        "volume": "126",
+        "number": "2",
+        "pages": "805--855",
+        "year": "2011",
+        "doi": "10.1093/qje/qjr002"
+      },
+      "cited": false,
+      "cited_in": []
+    },
+    {
+      "key": "falk_morals_2013",
+      "type": "article",
+      "line": 573,
+      "fields": {
+        "title": "Morals and {Markets}",
+        "author": "Falk, Armin and Szech, Nora",
+        "journal": "Science",
+        "volume": "340",
+        "number": "6133",
+        "pages": "707--711",
+        "year": "2013",
+        "doi": "10.1126/science.1231566"
+      },
+      "cited": false,
+      "cited_in": []
+    },
+    {
+      "key": "newman_eliminating_2020",
+      "type": "article",
+      "line": 584,
+      "fields": {
+        "title": "When eliminating bias isn't fair: {Algorithmic} reductionism and procedural justice in human resource decisions",
+        "author": "Newman, David T. and Fast, Nathanael J. and Harmon, Derek J.",
+        "journal": "Organizational Behavior and Human Decision Processes",
+        "volume": "160",
+        "pages": "149--167",
+        "year": "2020",
+        "doi": "10.1016/j.obhdp.2020.03.008"
+      },
+      "cited": false,
+      "cited_in": []
+    },
+    {
+      "key": "chevrier_algorithm_2024",
+      "type": "unpublished",
+      "line": 594,
+      "fields": {
+        "title": "Algorithm {Delegation} and {Responsibility}: {Shifting} {Blame} to the {Programmer}?",
+        "author": "Chevrier, Mathieu and Teixeira, Vincent",
+        "year": "2024",
+        "note": "GREDEG Working Paper No.\\ 2024-04, Universit\\'e C\\^ote d'Azur",
+        "url": "https://ideas.repec.org/p/gre/wpaper/2024-04.html"
+      },
+      "cited": true,
+      "cited_in": [
+        "literature.tex"
+      ]
+    },
+    {
+      "key": "kobis_delegation_2025",
+      "type": "article",
+      "line": 602,
+      "fields": {
+        "title": "Delegation to artificial intelligence can increase dishonest behaviour",
+        "author": "K\\\"obis, Nils and Rahwan, Zoe and Rilla, Raluca and Supriyatno, Bramantyo Ibrahim and Bersch, Clara and Ajaj, Tamer and Bonnefon, Jean-Fran\\c{c}ois and Rahwan, Iyad",
+        "journal": "Nature",
+        "volume": "646",
+        "number": "8083",
+        "pages": "126--134",
+        "year": "2025",
+        "doi": "10.1038/s41586-025-09505-x"
+      },
+      "cited": true,
+      "cited_in": [
+        "introduction.tex",
+        "literature.tex"
+      ]
+    },
+    {
+      "key": "bockstedt_humans_2025",
+      "type": "article",
+      "line": 613,
+      "fields": {
+        "title": "Humans' {Use} of {AI} {Assistance}: {The} {Effect} of {Loss} {Aversion} on {Willingness} to {Delegate} {Decisions}",
+        "author": "Bockstedt, Jesse C. and Buckman, Joseph R.",
+        "journal": "Management Science",
+        "volume": "72",
+        "number": "1",
+        "pages": "323--342",
+        "year": "2025",
+        "doi": "10.1287/mnsc.2024.05585"
+      },
+      "cited": false,
+      "cited_in": []
+    },
+    {
+      "key": "ivanova_stenzel_measuring_2024",
+      "type": "article",
+      "line": 624,
+      "fields": {
+        "title": "Measuring preferences for algorithms --- {How} willing are people to cede control to algorithms?",
+        "author": "Ivanova-Stenzel, Radosveta and Tolksdorf, Michel",
+        "journal": "Journal of Behavioral and Experimental Economics",
+        "volume": "112",
+        "pages": "102270",
+        "year": "2024",
+        "doi": "10.1016/j.socec.2024.102270"
+      },
+      "cited": false,
+      "cited_in": []
+    },
+    {
+      "key": "kormylo_till_2025",
+      "type": "article",
+      "line": 640,
+      "fields": {
+        "title": "Till {Tech} {Do} {Us} {Part}: {Betrayal} {Aversion} and {Its} {Role} in {Algorithm} {Use}",
+        "author": "Kormylo, Cameron and Adjerid, Idris and Ball, Sheryl B. and Dogan, Can",
+        "journal": "Management Science",
+        "volume": "72",
+        "number": "1",
+        "pages": "343--367",
+        "year": "2025",
+        "doi": "10.1287/mnsc.2022.03510",
+        "note": "Special Issue on the Human-Algorithm Connection."
+      },
+      "cited": false,
+      "cited_in": []
+    },
+    {
+      "key": "dargnies_aversion_2026",
+      "type": "article",
+      "line": 652,
+      "fields": {
+        "title": "Aversion to {Hiring} {Algorithms}: {Transparency}, {Gender} {Profiling}, and {Self}-{Confidence}",
+        "author": "Dargnies, Marie-Pierre and Hakimov, Rustamdjan and K\\\"ubler, Dorothea",
+        "journal": "Management Science",
+        "volume": "72",
+        "number": "1",
+        "pages": "285--301",
+        "year": "2026",
+        "doi": "10.1287/mnsc.2022.02774",
+        "note": "Special Issue on the Human-Algorithm Connection."
+      },
+      "cited": false,
+      "cited_in": []
+    },
+    {
+      "key": "jolly_not_2025",
+      "type": "article",
+      "line": 664,
+      "fields": {
+        "title": "It's {Not} {My} {Responsibility}: {Working} with {Autonomy}-{Restricting} {Algorithms} {Facilitates} {Unethical} {Behavior} and {Displacement} of {Responsibility}",
+        "author": "Jolly, Anupama A. and Dunlop, Patrick D. and Parker, Sharon K. and Kanse, Lisette",
+        "journal": "Journal of Business Ethics",
+        "volume": "203",
+        "pages": "405--424",
+        "year": "2026",
+        "doi": "10.1007/s10551-025-06034-5",
+        "note": "First online 7 June 2025; journal issue 2026."
+      },
+      "cited": false,
+      "cited_in": []
+    },
+    {
+      "key": "killoran_learn_2026",
+      "type": "article",
+      "line": 675,
+      "fields": {
+        "title": "Learn from the blame game when {AI} causes harm",
+        "author": "Killoran, Jay and Park, Andrew",
+        "journal": "Proceedings of the National Academy of Sciences",
+        "volume": "123",
+        "number": "17",
+        "pages": "e2528408123",
+        "year": "2026",
+        "doi": "10.1073/pnas.2528408123",
+        "annote": "VERIFY: author list extracted from web-search summary; PNAS page not directly fetched. Confirm before citing."
+      },
+      "cited": false,
+      "cited_in": []
+    },
+    {
+      "key": "tontrup_strategic_2025",
+      "type": "unpublished",
+      "line": 687,
+      "fields": {
+        "title": "Strategic {Delegation} of {Moral} {Decisions} to {AI}",
+        "author": "Tontrup, Stephan and Sprigman, Christopher Jon",
+        "year": "2025",
+        "month": "oct",
+        "note": "SSRN Working Paper No.\\ 5696827, posted 6 October 2025.",
+        "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5696827"
+      },
+      "cited": true,
+      "cited_in": [
+        "introduction.tex",
+        "literature.tex"
+      ]
+    },
+    {
+      "key": "ivanova_stenzel_delegating_2025",
+      "type": "unpublished",
+      "line": 696,
+      "fields": {
+        "title": "Delegating in the {Age} of {AI}: {Preferences} for {Decision} {Autonomy}",
+        "author": "Ivanova-Stenzel, Radosveta and Tolksdorf, Michel",
+        "year": "2025",
+        "month": "dec",
+        "note": "Rationality and Competition Discussion Paper No.\\ 558 (CRC TRR 190, LMU Munich / HU Berlin), 22 December 2025. Pre-registered AsPredicted \\#131736 \\& \\#200326.",
+        "url": "https://rationality-and-competition.de/wp-content/uploads/discussion_paper/558.pdf"
+      },
+      "cited": false,
+      "cited_in": []
+    },
+    {
+      "key": "normann_delegate_2025",
+      "type": "unpublished",
+      "line": 705,
+      "fields": {
+        "title": "Delegate {Pricing} {Decisions} to an {Algorithm}? {Experimental} {Evidence}",
+        "author": "Normann, Hans-Theo and Ruli\\'e, Nina and Stypa, Olaf and Werner, Tobias",
+        "year": "2025",
+        "month": "oct",
+        "note": "arXiv:2510.27636 [econ.GN]; also VfS Annual Conference 2025 (Cologne) paper No.\\ 325417.",
+        "url": "https://arxiv.org/abs/2510.27636"
+      },
+      "cited": false,
+      "cited_in": []
+    },
+    {
+      "key": "weitzner_reputational_2024",
+      "type": "unpublished",
+      "line": 714,
+      "fields": {
+        "title": "Reputational {Algorithm} {Aversion}",
+        "author": "Weitzner, Gregory",
+        "year": "2024",
+        "month": "jul",
+        "note": "arXiv:2402.15418 [econ.GN], v3 31 July 2024. McGill University. Presented at AEA 2025.",
+        "url": "https://arxiv.org/abs/2402.15418"
+      },
+      "cited": false,
+      "cited_in": []
+    },
+    {
+      "key": "tsumura_effects_2026",
+      "type": "article",
+      "line": 725,
+      "fields": {
+        "title": "Effects of knowledge and importance on responsibility in human-{AI} decision making",
+        "author": "Tsumura, Takahiro and Yamada, Seiji",
+        "journal": "Scientific Reports",
+        "year": "2026",
+        "doi": "10.1038/s41598-025-32513-w"
+      },
+      "cited": false,
+      "cited_in": []
+    },
+    {
+      "key": "salatino_influence_2025",
+      "type": "article",
+      "line": 733,
+      "fields": {
+        "title": "Influence of {AI} behavior on human moral decisions, agency, and responsibility",
+        "author": "Salatino, Adriana and Pr\\'evel, Arthur and Caspar, Emilie and Lo Bue, Salvatore",
+        "journal": "Scientific Reports",
+        "year": "2025",
+        "doi": "10.1038/s41598-025-95587-6"
+      },
+      "cited": false,
+      "cited_in": []
+    },
+    {
+      "key": "fershtman_gneezy_2001",
+      "type": "article",
+      "line": 746,
+      "fields": {
+        "title": "Strategic Delegation: An Experiment",
+        "author": "Fershtman, Chaim and Gneezy, Uri",
+        "journal": "The RAND Journal of Economics",
+        "volume": "32",
+        "number": "2",
+        "pages": "352--368",
+        "year": "2001",
+        "doi": "10.2307/2696414"
+      },
+      "cited": true,
+      "cited_in": [
+        "literature.tex"
+      ]
+    },
+    {
+      "key": "bartling_fischbacher_schudy_2015",
+      "type": "article",
+      "line": 757,
+      "fields": {
+        "title": "Pivotality and responsibility attribution in sequential voting",
+        "author": "Bartling, Bj\\\"orn and Fischbacher, Urs and Schudy, Simeon",
+        "journal": "Journal of Public Economics",
+        "volume": "128",
+        "pages": "133--139",
+        "year": "2015",
+        "doi": "10.1016/j.jpubeco.2015.03.010"
+      },
+      "cited": true,
+      "cited_in": [
+        "literature.tex"
+      ]
+    },
+    {
+      "key": "argenton_potters_yang_2023",
+      "type": "article",
+      "line": 767,
+      "fields": {
+        "title": "Receiving credit: On delegation and responsibility",
+        "author": "Argenton, C\\'edric and Potters, Jan and Yang, Yadi",
+        "journal": "European Economic Review",
+        "volume": "158",
+        "pages": "104522",
+        "year": "2023",
+        "doi": "10.1016/j.euroecorev.2023.104522"
+      },
+      "cited": false,
+      "cited_in": []
+    },
+    {
+      "key": "freer_friedman_weidenholzer_2024",
+      "type": "unpublished",
+      "line": 777,
+      "fields": {
+        "title": "Motives for Delegating Financial Decisions",
+        "author": "Freer, Mikhail and Friedman, Daniel and Weidenholzer, Simon",
+        "year": "2024",
+        "month": "apr",
+        "note": "arXiv:2309.03419 [econ.GN], v3 15 April 2024. University of Essex / UCSC.",
+        "url": "https://arxiv.org/abs/2309.03419"
+      },
+      "cited": true,
+      "cited_in": [
+        "literature.tex"
+      ]
+    },
+    {
+      "key": "hueholt_trusting_2026",
+      "type": "article",
+      "line": 786,
+      "fields": {
+        "title": "Trusting Machines with Morality -- Delegating Moral Decisions to {AI}",
+        "author": "H{\\\"u}holt, Nicola and Szech, Nora",
+        "journal": "European Economic Review",
+        "volume": "184",
+        "pages": "105255",
+        "year": "2026",
+        "doi": "10.1016/j.euroecorev.2025.105255",
+        "url": "https://doi.org/10.1016/j.euroecorev.2025.105255"
+      },
+      "cited": true,
+      "cited_in": [
+        "literature.tex"
+      ]
+    },
+    {
+      "key": "freisinger_decoding_2024",
+      "type": "article",
+      "line": 797,
+      "fields": {
+        "title": "Decoding decision delegation to artificial intelligence: {A} mixed-methods study on the preferences of decision-makers and decision-affected in surrogate decision contexts",
+        "author": "Freisinger, Elena and Schneider, Sabrina",
+        "journal": "European Management Journal",
+        "year": "2024",
+        "note": "Accepted 18 October 2024; article {102087}",
+        "doi": "10.1016/j.emj.2024.102087",
+        "url": "https://doi.org/10.1016/j.emj.2024.102087"
+      },
+      "cited": false,
+      "cited_in": []
+    },
+    {
+      "key": "qin_ai_2025",
+      "type": "article",
+      "line": 807,
+      "fields": {
+        "title": "{AI} Aversion or Appreciation? {A} Capability--Personalization Framework and a Meta-Analytic Review",
+        "author": "Qin, Xin and Zhou, Xiang and Chen, Chen and Wu, Dongyuan and Zhou, Hansen and Dong, Xiaowei and Cao, Limei and Lu, Jackson G.",
+        "journal": "Psychological Bulletin",
+        "volume": "151",
+        "number": "5",
+        "pages": "580--599",
+        "year": "2025",
+        "doi": "10.1037/bul0000477",
+        "url": "https://doi.org/10.1037/bul0000477"
+      },
+      "cited": true,
+      "cited_in": [
+        "design.tex",
+        "literature.tex"
+      ]
+    },
+    {
+      "key": "bonnefon_moral_2024",
+      "type": "article",
+      "line": 819,
+      "fields": {
+        "title": "The Moral Psychology of Artificial Intelligence",
+        "author": "Bonnefon, Jean-Fran{\\c c}ois and Rahwan, Iyad and Shariff, Azim",
+        "journal": "Annual Review of Psychology",
+        "volume": "75",
+        "pages": "653--675",
+        "year": "2024",
+        "doi": "10.1146/annurev-psych-030123-113559",
+        "url": "https://doi.org/10.1146/annurev-psych-030123-113559"
+      },
+      "cited": true,
+      "cited_in": [
+        "literature.tex",
+        "results.tex"
+      ]
+    },
+    {
+      "key": "bolton_contract_2005",
+      "type": "book",
+      "line": 835,
+      "fields": {
+        "title": "Contract Theory",
+        "author": "Bolton, Patrick and Dewatripont, Mathias",
+        "publisher": "MIT Press",
+        "address": "Cambridge, MA",
+        "year": "2005"
+      },
+      "cited": true,
+      "cited_in": [
+        "literature.tex"
+      ]
+    },
+    {
+      "key": "schelling_strategy_1960",
+      "type": "book",
+      "line": 843,
+      "fields": {
+        "title": "The Strategy of Conflict",
+        "author": "Schelling, Thomas C.",
+        "publisher": "Harvard University Press",
+        "address": "Cambridge, MA",
+        "year": "1960"
+      },
+      "cited": true,
+      "cited_in": [
+        "literature.tex"
+      ]
+    },
+    {
+      "key": "aghion_formal_1997",
+      "type": "article",
+      "line": 851,
+      "fields": {
+        "title": "Formal and Real Authority in Organizations",
+        "author": "Aghion, Philippe and Tirole, Jean",
+        "journal": "Journal of Political Economy",
+        "volume": "105",
+        "number": "1",
+        "pages": "1--29",
+        "year": "1997",
+        "doi": "10.1086/262063"
+      },
+      "cited": true,
+      "cited_in": [
+        "literature.tex"
+      ]
+    },
+    {
+      "key": "vickers_delegation_1985",
+      "type": "article",
+      "line": 862,
+      "fields": {
+        "title": "Delegation and the Theory of the Firm",
+        "author": "Vickers, John",
+        "journal": "The Economic Journal",
+        "volume": "95",
+        "number": "Supplement",
+        "pages": "138--147",
+        "year": "1985",
+        "doi": "10.2307/2232877"
+      },
+      "cited": false,
+      "cited_in": []
+    },
+    {
+      "key": "rogoff_optimal_1985",
+      "type": "article",
+      "line": 873,
+      "fields": {
+        "title": "The Optimal Degree of Commitment to an Intermediate Monetary Target",
+        "author": "Rogoff, Kenneth",
+        "journal": "The Quarterly Journal of Economics",
+        "volume": "100",
+        "number": "4",
+        "pages": "1169--1189",
+        "year": "1985",
+        "doi": "10.2307/1885679"
+      },
+      "cited": false,
+      "cited_in": []
+    },
+    {
+      "key": "jones_have_1989",
+      "type": "article",
+      "line": 884,
+      "fields": {
+        "title": "Have Your Lawyer Call My Lawyer: Bilateral Delegation in Bargaining Situations",
+        "author": "Jones, Stephen R. G.",
+        "journal": "Journal of Economic Behavior \\& Organization",
+        "volume": "11",
+        "number": "2",
+        "pages": "159--174",
+        "year": "1989",
+        "annote": "VERIFY page range before submission"
+      },
+      "cited": false,
+      "cited_in": []
+    },
+    {
+      "key": "schotter_bargaining_2000",
+      "type": "article",
+      "line": 895,
+      "fields": {
+        "title": "Bargaining Through Agents: An Experimental Study of Delegation and Commitment",
+        "author": "Schotter, Andrew and Zheng, Wei and Snyder, Blaine",
+        "journal": "Games and Economic Behavior",
+        "volume": "30",
+        "number": "2",
+        "pages": "248--292",
+        "year": "2000",
+        "doi": "10.1006/game.1999.0728",
+        "annote": "VERIFY doi"
+      },
+      "cited": false,
+      "cited_in": []
+    },
+    {
+      "key": "huck_strategic_2004",
+      "type": "article",
+      "line": 907,
+      "fields": {
+        "title": "Strategic Delegation in Experimental Markets",
+        "author": "Huck, Steffen and M{\\\"u}ller, Wieland and Normann, Hans-Theo",
+        "journal": "International Journal of Industrial Organization",
+        "volume": "22",
+        "number": "4",
+        "pages": "561--574",
+        "year": "2004",
+        "doi": "10.1016/j.ijindorg.2003.11.001",
+        "annote": "VERIFY doi"
+      },
+      "cited": false,
+      "cited_in": []
+    },
+    {
+      "key": "gawn_lying_2019",
+      "type": "article",
+      "line": 921,
+      "fields": {
+        "title": "Lying Through Others: Does Delegation Promote Deception?",
+        "author": "Gawn, Glynis and Innes, Robert",
+        "journal": "Journal of Economic Psychology",
+        "volume": "71",
+        "pages": "59--73",
+        "year": "2019"
+      },
+      "cited": true,
+      "cited_in": [
+        "literature.tex"
+      ]
+    },
+    {
+      "key": "gawn_machiavelli_2021",
+      "type": "article",
+      "line": 930,
+      "fields": {
+        "title": "Machiavelli Preferences Without Blame: Delegating Selfish vs.\\ Generous Decisions in Dictator Games",
+        "author": "Gawn, Glynis and Innes, Robert",
+        "journal": "Journal of Behavioral and Experimental Economics",
+        "volume": "90",
+        "pages": "101615",
+        "year": "2021",
+        "doi": "10.1016/j.socec.2020.101615"
+      },
+      "cited": false,
+      "cited_in": []
+    },
+    {
+      "key": "kandul_do_2018",
+      "type": "article",
+      "line": 940,
+      "fields": {
+        "title": "Do {I} Care If Others Lie? {Current} and Future Effects When Lies Can Be Delegated",
+        "author": "Kandul, Serhiy and Kirchkamp, Oliver",
+        "journal": "Journal of Behavioral and Experimental Economics",
+        "volume": "74",
+        "pages": "70--78",
+        "year": "2018"
+      },
+      "cited": true,
+      "cited_in": [
+        "literature.tex"
+      ]
+    },
+    {
+      "key": "garofalo_shifting_2018",
+      "type": "article",
+      "line": 949,
+      "fields": {
+        "title": "Shifting Blame? {Experimental} Evidence of Delegating Communication",
+        "author": "Garofalo, Orsola and Rott, Christina",
+        "journal": "Management Science",
+        "volume": "64",
+        "number": "8",
+        "pages": "3911--3925",
+        "year": "2018",
+        "doi": "10.1287/mnsc.2017.2782"
+      },
+      "cited": false,
+      "cited_in": []
+    },
+    {
+      "key": "charness_attribution_2004",
+      "type": "article",
+      "line": 960,
+      "fields": {
+        "title": "Attribution and Reciprocity in an Experimental Labor Market",
+        "author": "Charness, Gary",
+        "journal": "Journal of Labor Economics",
+        "volume": "22",
+        "number": "3",
+        "pages": "665--688",
+        "year": "2004",
+        "doi": "10.1086/383111"
+      },
+      "cited": false,
+      "cited_in": []
+    },
+    {
+      "key": "maximiano_gift_2013",
+      "type": "article",
+      "line": 971,
+      "fields": {
+        "title": "Gift Exchange and the Separation of Ownership and Control",
+        "author": "Maximiano, Sandra and Sloof, Randolph and Sonnemans, Joep",
+        "journal": "Games and Economic Behavior",
+        "volume": "77",
+        "number": "1",
+        "pages": "41--60",
+        "year": "2013"
+      },
+      "cited": false,
+      "cited_in": []
+    },
+    {
+      "key": "candrian_rise_2022",
+      "type": "article",
+      "line": 983,
+      "fields": {
+        "title": "Rise of the Machines: Delegating Decisions to Autonomous {AI}",
+        "author": "Candrian, Cindy and Scherer, Anne",
+        "journal": "Computers in Human Behavior",
+        "volume": "134",
+        "pages": "107308",
+        "year": "2022",
+        "doi": "10.1016/j.chb.2022.107308"
+      },
+      "cited": false,
+      "cited_in": []
+    },
+    {
+      "key": "germann_algorithm_2023",
+      "type": "article",
+      "line": 993,
+      "fields": {
+        "title": "Algorithm Aversion in Delegated Investing",
+        "author": "Germann, Maximilian and Merkle, Christoph",
+        "journal": "Journal of Business Economics",
+        "volume": "93",
+        "number": "9",
+        "pages": "1691--1727",
+        "year": "2023",
+        "doi": "10.1007/s11573-022-01121-9"
+      },
+      "cited": false,
+      "cited_in": []
+    },
+    {
+      "key": "holzmeister_delegation_2023",
+      "type": "article",
+      "line": 1004,
+      "fields": {
+        "title": "Delegation Decisions in Finance",
+        "author": "Holzmeister, Felix and Holm{\\'e}n, Martin and Kirchler, Michael and Stefan, Matthias and Wengstr{\\\"o}m, Erik",
+        "journal": "Management Science",
+        "volume": "69",
+        "number": "8",
+        "pages": "4828--4844",
+        "year": "2023",
+        "doi": "10.1287/mnsc.2022.4555"
+      },
+      "cited": true,
+      "cited_in": [
+        "literature.tex"
+      ]
+    },
+    {
+      "key": "filiz_reducing_2021",
+      "type": "article",
+      "line": 1015,
+      "fields": {
+        "title": "Reducing Algorithm Aversion Through Experience",
+        "author": "Filiz, Ibrahim and Judek, Jan Ren{\\'e} and Lorenz, Marco and Spiwoks, Markus",
+        "journal": "Journal of Behavioral and Experimental Finance",
+        "volume": "31",
+        "pages": "100524",
+        "year": "2021",
+        "doi": "10.1016/j.jbef.2021.100524"
+      },
+      "cited": false,
+      "cited_in": []
+    },
+    {
+      "key": "jung_towards_2021",
+      "type": "article",
+      "line": 1025,
+      "fields": {
+        "title": "Towards a Better Understanding on Mitigating Algorithm Aversion in Forecasting: An Experimental Study",
+        "author": "Jung, Markus and Seiter, Mischa",
+        "journal": "Journal of Management Control",
+        "volume": "32",
+        "pages": "495--516",
+        "year": "2021",
+        "doi": "10.1007/s00187-021-00326-3"
+      },
+      "cited": false,
+      "cited_in": []
+    },
+    {
+      "key": "irlenbusch_human_2026",
+      "type": "techreport",
+      "line": 1035,
+      "fields": {
+        "title": "Human Trust in {AI}: Evidence from Experimental Economics",
+        "author": "Irlenbusch, Bernd",
+        "type": "{ECONtribute} Discussion Paper",
+        "number": "417",
+        "institution": "University of Bonn and University of Cologne",
+        "year": "2026",
+        "month": "jun",
+        "url": "https://www.econtribute.de/RePEc/ajk/ajkdps/ECONtribute_417_2026.pdf"
+      },
+      "cited": true,
+      "cited_in": [
+        "literature.tex"
+      ]
+    },
+    {
+      "key": "bigman_algorithmic_2023",
+      "type": "article",
+      "line": 1048,
+      "fields": {
+        "title": "Algorithmic Discrimination Causes Less Moral Outrage Than Human Discrimination",
+        "author": "Bigman, Yochanan E. and Wilson, Desman and Arnestad, Mads N. and Waytz, Adam and Gray, Kurt",
+        "journal": "Journal of Experimental Psychology: General",
+        "volume": "152",
+        "number": "1",
+        "pages": "4--27",
+        "year": "2023",
+        "doi": "10.1037/xge0001250",
+        "annote": "VERIFY middle author spellings against the APA page"
+      },
+      "cited": true,
+      "cited_in": [
+        "literature.tex"
+      ]
+    },
+    {
+      "key": "awad_drivers_2020",
+      "type": "article",
+      "line": 1060,
+      "fields": {
+        "title": "Drivers Are Blamed More Than Their Automated Cars When Both Make Mistakes",
+        "author": "Awad, Edmond and Levine, Sydney and Kleiman-Weiner, Max and Dsouza, Sohan and Tenenbaum, Joshua B. and Shariff, Azim and Bonnefon, Jean-Fran{\\c c}ois and Rahwan, Iyad",
+        "journal": "Nature Human Behaviour",
+        "volume": "4",
+        "number": "2",
+        "pages": "134--143",
+        "year": "2020",
+        "doi": "10.1038/s41562-019-0762-8"
+      },
+      "cited": true,
+      "cited_in": [
+        "literature.tex"
+      ]
+    },
+    {
+      "key": "meehl_clinical_1954",
+      "type": "book",
+      "line": 1073,
+      "fields": {
+        "title": "Clinical versus Statistical Prediction: A Theoretical Analysis and a Review of the Evidence",
+        "author": "Meehl, Paul E.",
+        "publisher": "University of Minnesota Press",
+        "address": "Minneapolis",
+        "year": "1954"
+      },
+      "cited": true,
+      "cited_in": [
+        "literature.tex"
+      ]
+    },
+    {
+      "key": "dawes_robust_1979",
+      "type": "article",
+      "line": 1081,
+      "fields": {
+        "title": "The Robust Beauty of Improper Linear Models in Decision Making",
+        "author": "Dawes, Robyn M.",
+        "journal": "American Psychologist",
+        "volume": "34",
+        "number": "7",
+        "pages": "571--582",
+        "year": "1979"
+      },
+      "cited": true,
+      "cited_in": [
+        "literature.tex"
+      ]
+    },
+    {
+      "key": "sunstein_anatomy_2024",
+      "type": "article",
+      "line": 1094,
+      "fields": {
+        "title": "An Anatomy of Algorithm Aversion",
+        "author": "Sunstein, Cass R. and Gaffe, Jared H.",
+        "journal": "Columbia Science and Technology Law Review",
+        "volume": "26",
+        "pages": "290--319",
+        "year": "2024",
+        "annote": "VERIFY volume/pages against the published issue"
+      },
+      "cited": true,
+      "cited_in": [
+        "literature.tex"
+      ]
+    },
+    {
+      "key": "prolific",
+      "type": "misc",
+      "line": 1107,
+      "fields": {
+        "title": "Prolific",
+        "author": "{Prolific}",
+        "year": "2026",
+        "howpublished": "Online participant recruitment platform, \\url{https://www.prolific.com}",
+        "note": "Accessed June 2026"
+      },
+      "cited": false,
+      "cited_in": []
+    },
+    {
+      "key": "ariely_large_2009",
+      "type": "article",
+      "line": 1115,
+      "fields": {
+        "title": "Large {Stakes} and {Big} {Mistakes}",
+        "volume": "76",
+        "number": "2",
+        "journal": "The Review of Economic Studies",
+        "author": "Ariely, Dan and Gneezy, Uri and Loewenstein, George and Mazar, Nina",
+        "year": "2009",
+        "pages": "451--469",
+        "doi": "10.1111/j.1467-937X.2009.00534.x"
+      },
+      "cited": false,
+      "cited_in": []
+    },
+    {
+      "key": "dohmen_professionals_2008",
+      "type": "article",
+      "line": 1126,
+      "fields": {
+        "title": "Do professionals choke under pressure?",
+        "volume": "65",
+        "number": "3-4",
+        "journal": "Journal of Economic Behavior \\& Organization",
+        "author": "Dohmen, Thomas J.",
+        "year": "2008",
+        "pages": "636--653",
+        "doi": "10.1016/j.jebo.2005.12.004"
+      },
+      "cited": false,
+      "cited_in": []
+    },
+    {
+      "key": "blunden_downside_2023",
+      "type": "article",
+      "line": 1137,
+      "fields": {
+        "title": "The downside of decision delegation: {When} transferring decision responsibility incurs interpersonal costs",
+        "volume": "176",
+        "journal": "Organizational Behavior and Human Decision Processes",
+        "author": "Blunden, Hayley and Steffel, Mary",
+        "year": "2023"
+      },
+      "cited": false,
+      "cited_in": []
+    },
+    {
+      "key": "arnestad_manual_2024",
+      "type": "article",
+      "line": 1145,
+      "fields": {
+        "title": "The existence of manual mode increases human blame for {AI} mistakes",
+        "volume": "252",
+        "journal": "Cognition",
+        "author": "Arnestad, Mads N. and Meyers, Samuel and Gray, Kurt and Bigman, Yochanan E.",
+        "year": "2024"
+      },
+      "cited": false,
+      "cited_in": []
+    },
+    {
+      "key": "allen_algorithm_2022",
+      "type": "article",
+      "line": 1153,
+      "fields": {
+        "title": "Algorithm-{Augmented} {Work} and {Domain} {Experience}: {The} {Countervailing} {Forces} of {Ability} and {Aversion}",
+        "volume": "33",
+        "number": "1",
+        "journal": "Organization Science",
+        "author": "Allen, Ryan and Choudhury, Prithwiraj",
+        "year": "2022",
+        "pages": "149--169"
+      },
+      "cited": false,
+      "cited_in": []
+    },
+    {
+      "key": "tacconelli_how_2026",
+      "type": "article",
+      "line": 1163,
+      "fields": {
+        "title": "How Following Medical Artificial Intelligence Advice Can Mitigate Malpractice Liability: Cross-National Insights from a Randomized Trial",
+        "author": "Tacconelli, Alessandro and Merane, Jakob and Nielsen, Aileen and Tobia, Kevin and Hackanson, Bj{\\\"o}rn and Stremitzer, Alexander",
+        "journal": "Journal of Nuclear Medicine",
+        "year": "2026",
+        "doi": "10.2967/jnumed.126.272292",
+        "annote": "Early online 4 June 2026 (ahead of print); add volume/pages at proof stage. Randomized vignette experiment, N=3,808 (US and German lay evaluators + 248 German physicians): physicians accepting standard-care AI recommendations judged significantly more reasonable than those rejecting them; equivalence for nonstandard recommendations."
+      },
+      "cited": true,
+      "cited_in": [
+        "literature.tex"
+      ]
+    },
+    {
+      "key": "beckers_drivers_2022",
+      "type": "article",
+      "line": 1172,
+      "fields": {
+        "title": "Drivers of Partially Automated Vehicles Are Blamed for Crashes That They Cannot Reasonably Avoid",
+        "author": "Beckers, Niek and Cavalcante Siebert, Luciano and Bruijnes, Merijn and Jonker, Catholijn and Abbink, David",
+        "journal": "Scientific Reports",
+        "volume": "12",
+        "pages": "16193",
+        "year": "2022",
+        "doi": "10.1038/s41598-022-19876-0",
+        "annote": "Vignette experiment: observers assign primary blame to the human driver in partial-automation crashes even when the distracted driver could not reasonably have avoided the crash."
+      },
+      "cited": true,
+      "cited_in": [
+        "literature.tex"
+      ]
+    },
+    {
+      "key": "gill_blame_2020",
+      "type": "article",
+      "line": 1183,
+      "fields": {
+        "title": "Blame It on the Self-Driving Car: How Autonomous Vehicles Can Alter Consumer Morality",
+        "author": "Gill, Tripat",
+        "journal": "Journal of Consumer Research",
+        "volume": "47",
+        "number": "2",
+        "pages": "272--291",
+        "year": "2020",
+        "doi": "10.1093/jcr/ucaa018",
+        "annote": "Vignette studies: harm to a pedestrian judged more permissible when caused by the autonomous vehicle than when caused by the participant driving; shift driven by responsibility attributed to the machine; attenuates for multiple victims or a child."
+      },
+      "cited": true,
+      "cited_in": [
+        "literature.tex"
+      ]
+    },
+    {
+      "key": "ismagilova_aint_2025",
+      "type": "article",
+      "line": 1195,
+      "fields": {
+        "title": "Ain't Blaming You: Delegation of Financial Decisions to Humans and Algorithms",
+        "author": "Ismagilova, Zilia and Ploner, Matteo",
+        "journal": "Computers in Human Behavior: Artificial Humans",
+        "volume": "4",
+        "pages": "100147",
+        "year": "2025",
+        "doi": "10.1016/j.chbah.2025.100147",
+        "annote": "Incentivized delegation experiment (Prolific): agents invest for principals, may delegate to an algorithm; principals reward/punish. Outcome bias equally strong for delegated and self-made decisions."
+      },
+      "cited": true,
+      "cited_in": [
+        "literature.tex"
+      ]
+    },
+    {
+      "key": "matthias_responsibility_2004",
+      "type": "article",
+      "line": 1206,
+      "fields": {
+        "author": "Matthias, Andreas",
+        "title": "The Responsibility Gap: Ascribing Responsibility for the Actions of Learning Automata",
+        "journal": "Ethics and Information Technology",
+        "year": "2004",
+        "volume": "6",
+        "number": "3",
+        "pages": "175--183",
+        "doi": "10.1007/s10676-004-3422-1"
+      },
+      "cited": true,
+      "cited_in": [
+        "introduction.tex"
+      ]
+    },
+    {
+      "key": "santoni_de_sio_four_2021",
+      "type": "article",
+      "line": 1217,
+      "fields": {
+        "author": "Santoni de Sio, Filippo and Mecacci, Giulio",
+        "title": "Four Responsibility Gaps with Artificial Intelligence: Why They Matter and How to Address Them",
+        "journal": "Philosophy \\& Technology",
+        "year": "2021",
+        "volume": "34",
+        "pages": "1057--1084",
+        "doi": "10.1007/s13347-021-00450-x"
+      },
+      "cited": true,
+      "cited_in": [
+        "introduction.tex"
+      ]
+    },
+    {
+      "key": "lemley_remedies_2019",
+      "type": "article",
+      "line": 1227,
+      "fields": {
+        "author": "Lemley, Mark A. and Casey, Bryan",
+        "title": "Remedies for Robots",
+        "journal": "University of Chicago Law Review",
+        "year": "2019",
+        "volume": "86",
+        "number": "5",
+        "pages": "1311--1396",
+        "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3223621",
+        "note": "CONFIRM page range against the journal listing before adoption. SSRN 3223621"
+      },
+      "cited": true,
+      "cited_in": [
+        "introduction.tex"
+      ]
+    },
+    {
+      "key": "buiten_law_2023",
+      "type": "article",
+      "line": 1239,
+      "fields": {
+        "author": "Buiten, Miriam and de Streel, Alexandre and Peitz, Martin",
+        "title": "The Law and Economics of {AI} Liability",
+        "journal": "Computer Law \\& Security Review",
+        "year": "2023",
+        "volume": "48",
+        "pages": "105794",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0267364923000055",
+        "note": "CONFIRM volume and article number before adoption"
+      },
+      "cited": true,
+      "cited_in": [
+        "introduction.tex"
+      ]
+    },
+    {
+      "key": "european_commission_liability_2019",
+      "type": "techreport",
+      "line": 1250,
+      "fields": {
+        "author": "{European Commission}",
+        "title": "Liability for Artificial Intelligence and Other Emerging Digital Technologies",
+        "institution": "European Commission",
+        "year": "2019",
+        "address": "Brussels",
+        "doi": "10.2838/573689",
+        "url": "https://op.europa.eu/en/publication-detail/-/publication/1c5e30be-1197-11ea-8c1f-01aa75ed71a1"
+      },
+      "cited": true,
+      "cited_in": [
+        "introduction.tex"
+      ]
+    }
+  ],
+  "assignments": {
+    "core": [
+      "feier_hiding_2022",
+      "bartling_shifting_2012",
+      "coffman_intermediation_2011",
+      "hamman_self-interest_2010",
+      "oexl_shifting_2013",
+      "steffel_passing_2016",
+      "hill_does_2015",
+      "dietvorst_algorithm_2015",
+      "logg_algorithm_2019",
+      "burton_systematic_2020",
+      "chugunova_we_2022",
+      "mahmud_what_2022",
+      "trunk_current_2020",
+      "gogoll_rage_2018",
+      "kirchkamp_sharing_2019",
+      "maasland_blame_2022",
+      "heaton_social_2023",
+      "weaver_politics_1986",
+      "fiorina_legislator_1986",
+      "berger_watch_2021",
+      "litterscheidt_financial_2020",
+      "sharan_dont_2020",
+      "bigman_people_2018",
+      "jauernig_people_2022",
+      "dietvorst_people_2020",
+      "dietvorst_overcoming_2018",
+      "castelo_task-dependent_2019",
+      "bogert_humans_2021",
+      "goldbach_geht_2019",
+      "niszczota_robo-investors_2020"
+    ],
+    "algorithms": [
+      "erat_avoiding_2013",
+      "kurtzberg_attribution_2004",
+      "pezzo_pezzo_physician_2006",
+      "liu_when_2021",
+      "shank_attributions_2019",
+      "tobia_when_2021",
+      "chen_otree_2016",
+      "holt_risk_2002",
+      "de_quidt_measuring_2018",
+      "benabou_identity_2011",
+      "falk_morals_2013",
+      "newman_eliminating_2020",
+      "kobis_delegation_2025",
+      "bockstedt_humans_2025",
+      "ivanova_stenzel_measuring_2024",
+      "kormylo_till_2025",
+      "dargnies_aversion_2026",
+      "jolly_not_2025",
+      "killoran_learn_2026",
+      "fershtman_gneezy_2001",
+      "bartling_fischbacher_schudy_2015",
+      "argenton_potters_yang_2023",
+      "hueholt_trusting_2026",
+      "qin_ai_2025",
+      "bonnefon_moral_2024",
+      "bolton_contract_2005",
+      "schelling_strategy_1960",
+      "aghion_formal_1997",
+      "vickers_delegation_1985",
+      "rogoff_optimal_1985"
+    ],
+    "additional": [
+      "jones_have_1989",
+      "schotter_bargaining_2000",
+      "huck_strategic_2004",
+      "gawn_lying_2019",
+      "gawn_machiavelli_2021",
+      "kandul_do_2018",
+      "garofalo_shifting_2018",
+      "charness_attribution_2004",
+      "maximiano_gift_2013",
+      "candrian_rise_2022",
+      "germann_algorithm_2023",
+      "holzmeister_delegation_2023",
+      "filiz_reducing_2021",
+      "jung_towards_2021",
+      "bigman_algorithmic_2023",
+      "awad_drivers_2020",
+      "meehl_clinical_1954",
+      "dawes_robust_1979",
+      "ariely_large_2009",
+      "dohmen_professionals_2008",
+      "blunden_downside_2023",
+      "arnestad_manual_2024",
+      "allen_algorithm_2022",
+      "beckers_drivers_2022",
+      "gill_blame_2020",
+      "ismagilova_aint_2025",
+      "matthias_responsibility_2004",
+      "santoni_de_sio_four_2021"
+    ],
+    "root": [
+      "buiten_law_2023",
+      "chevrier_algorithm_2024",
+      "european_commission_liability_2019",
+      "european_union_ai_act_2024",
+      "freer_friedman_weidenholzer_2024",
+      "freisinger_decoding_2024",
+      "irlenbusch_human_2026",
+      "ivanova_stenzel_delegating_2025",
+      "lemley_remedies_2019",
+      "normann_delegate_2025",
+      "prolific",
+      "salatino_influence_2025",
+      "stein_dont_2020",
+      "sunstein_anatomy_2024",
+      "tacconelli_how_2026",
+      "tontrup_strategic_2025",
+      "tsumura_effects_2026",
+      "weitzner_reputational_2024"
+    ]
+  }
+}

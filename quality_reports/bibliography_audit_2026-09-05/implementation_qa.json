@@ -1,0 +1,32 @@
+{
+  "date": "2026-09-05",
+  "status": "pass",
+  "method": "Independent top-level BibTeX parser and reconstruction of reviewed audit changes plus user decisions and rendering adapters; comparison against before snapshot and implementation ledger; targeted final main.bbl checks. Bibliography not modified by QA.",
+  "bibliography_sha256": "50bc741e30a9ddedc77fed6c4c90730a332cad61c7c6d7e44446b34f77a889a5",
+  "entries_before": 106,
+  "entries_after": 105,
+  "modified_existing_entries": 38,
+  "deleted_entries": [
+    "stein_dont_2020"
+  ],
+  "cited_keys_preserved": 54,
+  "untouched_uncited_entries": [
+    "goldbach_geht_2019",
+    "kurtzberg_attribution_2004",
+    "liu_when_2021"
+  ],
+  "approved_metadata_and_rendering_adapters_match": true,
+  "entry_syntax_valid": true,
+  "outside_entry_text_unchanged": true,
+  "rendering_adapters": [
+    "Heaton ACM article number in aer-supported note field.",
+    "Protect Santoni de Sio compound surname with braces.",
+    "EU howpublished omits its trailing year because aer appends year=2024."
+  ],
+  "final_bbl_checks": {
+    "santoni_family_name_correct": true,
+    "santoni_sorted_under_s": true,
+    "eu_publication_date_single_year": true
+  },
+  "errors": []
+}

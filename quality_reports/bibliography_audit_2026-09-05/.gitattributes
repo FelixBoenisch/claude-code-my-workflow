@@ -1,0 +1,5 @@
+# Preserve the exact baseline bytes used by the audit checksum.
+ProjectAlgorithm.bib.before-approved-changes -text
+
+# Store the retrieved publisher notice as a binary document.
+*.pdf binary
