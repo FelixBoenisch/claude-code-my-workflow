@@ -1,0 +1,626 @@
+[
+  {
+    "key": "feier_hiding_2022",
+    "cited": true,
+    "status": "verified_no_change",
+    "verified_citation": "Till Feier; Jan Gogoll; Matthias Uhl (2022). Hiding Behind Machines: Artificial Agents May Help to Evade Punishment. Science and Engineering Ethics, 28(2): Article 19. DOI: 10.1007/s11948-022-00372-7.",
+    "changes": [],
+    "sources": [
+      {
+        "title": "Springer article and citation metadata",
+        "url": "https://link.springer.com/article/10.1007/s11948-022-00372-7"
+      },
+      {
+        "title": "Publisher-deposited Crossref metadata (retrieved 2026-09-05)",
+        "url": "https://api.crossref.org/works/10.1007/s11948-022-00372-7"
+      }
+    ],
+    "limitations": [],
+    "verification_notes": "Published 4 April 2022; 19 is the article number, not a single-page citation. Issue 2 confirmed in publisher-deposited Crossref metadata."
+  },
+  {
+    "key": "bartling_shifting_2012",
+    "cited": true,
+    "status": "verified_optional_enrichment",
+    "verified_citation": "B. Bartling; U. Fischbacher (2012). Shifting the Blame: On Delegation and Responsibility. The Review of Economic Studies, 79(1): 67–87. DOI: 10.1093/restud/rdr023.",
+    "changes": [
+      {
+        "field": "author",
+        "old": "Bartling, B. and Fischbacher, U.",
+        "new": "Bartling, Bj{\\\"o}rn and Fischbacher, Urs",
+        "reason": "Optional consistency only: expand correct initials using published PDF. No author identity/order error."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Published article in institutional archive",
+        "url": "https://doc.rero.ch/record/290015/files/rdr023.pdf"
+      },
+      {
+        "title": "Author institutional publication list",
+        "url": "https://www.econ.uzh.ch/en/people/faculty/bartling/research.html"
+      },
+      {
+        "title": "Publisher-deposited Crossref metadata (retrieved 2026-09-05)",
+        "url": "https://api.crossref.org/works/10.1093/restud/rdr023"
+      }
+    ],
+    "limitations": [],
+    "verification_notes": "Online 8 August 2011; final issue January 2012. Keep year 2012. Publisher metadata uses initials; published PDF supplies full given names."
+  },
+  {
+    "key": "coffman_intermediation_2011",
+    "cited": true,
+    "status": "verified_no_change",
+    "verified_citation": "Lucas C Coffman (2011). Intermediation Reduces Punishment (and Reward). American Economic Journal: Microeconomics, 3(4): 77–106. DOI: 10.1257/mic.3.4.77.",
+    "changes": [],
+    "sources": [
+      {
+        "title": "American Economic Association article",
+        "url": "https://www.aeaweb.org/articles?id=10.1257/mic.3.4.77"
+      },
+      {
+        "title": "Publisher-deposited Crossref metadata (retrieved 2026-09-05)",
+        "url": "https://api.crossref.org/works/10.1257/mic.3.4.77"
+      }
+    ],
+    "limitations": [],
+    "verification_notes": "November 2011 issue. The missing period after middle initial C is typographic normalization only."
+  },
+  {
+    "key": "hamman_self-interest_2010",
+    "cited": true,
+    "status": "verified_no_change",
+    "verified_citation": "John R Hamman; George Loewenstein; Roberto A Weber (2010). Self-Interest through Delegation: An Additional Rationale for the Principal-Agent Relationship. American Economic Review, 100(4): 1826–1846. DOI: 10.1257/aer.100.4.1826.",
+    "changes": [],
+    "sources": [
+      {
+        "title": "American Economic Association article",
+        "url": "https://www.aeaweb.org/articles?id=10.1257/aer.100.4.1826"
+      },
+      {
+        "title": "Publisher-deposited Crossref metadata (retrieved 2026-09-05)",
+        "url": "https://api.crossref.org/works/10.1257/aer.100.4.1826"
+      }
+    ],
+    "limitations": [],
+    "verification_notes": "September 2010 issue. Publisher abbreviates final page as 46; 1826–1846 is the same correct range. Periods after middle initials are optional typography."
+  },
+  {
+    "key": "oexl_shifting_2013",
+    "cited": true,
+    "status": "verified_no_change",
+    "verified_citation": "Regine Oexl; Zachary J. Grossman (2013). Shifting the blame to a powerless intermediary. Experimental Economics, 16(3): 306–312. DOI: 10.1007/s10683-012-9335-7.",
+    "changes": [],
+    "sources": [
+      {
+        "title": "Original Springer article and issue date",
+        "url": "https://link.springer.com/article/10.1007/s10683-012-9335-7"
+      },
+      {
+        "title": "Publisher-deposited Crossref metadata (retrieved 2026-09-05)",
+        "url": "https://api.crossref.org/works/10.1007/s10683-012-9335-7"
+      }
+    ],
+    "limitations": [],
+    "verification_notes": "Original Springer page: online 26 July 2012, issue September 2013. Keep 2013. Crossref online date 14 March 2025 is inconsistent with original publication history and should not replace the original date; it appears associated with later platform hosting."
+  },
+  {
+    "key": "steffel_passing_2016",
+    "cited": true,
+    "status": "verified_no_change",
+    "verified_citation": "Mary Steffel; Elanor F. Williams; Jaclyn Perrmann-Graham (2016). Passing the buck: Delegating choices to others to avoid responsibility and blame. Organizational Behavior and Human Decision Processes, 135: 32–44. DOI: 10.1016/j.obhdp.2016.04.006.",
+    "changes": [],
+    "sources": [
+      {
+        "title": "Elsevier article metadata",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0749597815300108"
+      },
+      {
+        "title": "Publisher-deposited Crossref metadata (retrieved 2026-09-05)",
+        "url": "https://api.crossref.org/works/10.1016/j.obhdp.2016.04.006"
+      }
+    ],
+    "limitations": [],
+    "verification_notes": "July 2016 volume; no issue number in Elsevier/Crossref citation metadata."
+  },
+  {
+    "key": "hill_does_2015",
+    "cited": true,
+    "status": "verified_no_change",
+    "verified_citation": "Adam Hill (2015). Does Delegation Undermine Accountability? Experimental Evidence on the Relationship Between Blame Shifting and Control. Journal of Empirical Legal Studies, 12(2): 311–339. DOI: 10.1111/jels.12074.",
+    "changes": [],
+    "sources": [
+      {
+        "title": "Wiley article metadata",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/jels.12074"
+      },
+      {
+        "title": "Publisher-deposited Crossref metadata (retrieved 2026-09-05)",
+        "url": "https://api.crossref.org/works/10.1111/jels.12074"
+      }
+    ],
+    "limitations": [],
+    "verification_notes": "Online 28 April 2015; June 2015 issue. Both subtitle and all core citation fields confirmed."
+  },
+  {
+    "key": "dietvorst_algorithm_2015",
+    "cited": true,
+    "status": "verified_no_change",
+    "verified_citation": "Berkeley J. Dietvorst; Joseph P. Simmons; Cade Massey (2015). Algorithm aversion: People erroneously avoid algorithms after seeing them err. Journal of Experimental Psychology: General, 144(1): 114–126. DOI: 10.1037/xge0000033.",
+    "changes": [],
+    "sources": [
+      {
+        "title": "Author institutional manuscript",
+        "url": "https://repository.upenn.edu/server/api/core/bitstreams/4d24c079-228b-47bd-ba8c-166eeddee8de/content"
+      },
+      {
+        "title": "Publisher-deposited Crossref metadata (retrieved 2026-09-05)",
+        "url": "https://api.crossref.org/works/10.1037/xge0000033"
+      }
+    ],
+    "limitations": [
+      "Core fields verified from publisher-deposited DOI metadata; direct publisher article retrieval unavailable. This is metadata verification, not an assessment of research claims."
+    ],
+    "verification_notes": "Final 2015 volume 144(1), 114–126 confirmed in APA-deposited Crossref metadata. Institutional early manuscript shows provisional 2014/143/000 metadata, which must not replace final publication details. APA article page blocked direct retrieval."
+  },
+  {
+    "key": "logg_algorithm_2019",
+    "cited": true,
+    "status": "verified_no_change",
+    "verified_citation": "Jennifer M. Logg; Julia A. Minson; Don A. Moore (2019). Algorithm appreciation: People prefer algorithmic to human judgment. Organizational Behavior and Human Decision Processes, 151: 90–103. DOI: 10.1016/j.obhdp.2018.12.005.",
+    "changes": [],
+    "sources": [
+      {
+        "title": "Published article, author-hosted copy",
+        "url": "https://coral-beige-dbda.squarespace.com/s/Algorithm-Appreciation-People-prefer-algorithmic-to-human-judgment.pdf"
+      },
+      {
+        "title": "Publisher-deposited Crossref metadata (retrieved 2026-09-05)",
+        "url": "https://api.crossref.org/works/10.1016/j.obhdp.2018.12.005"
+      }
+    ],
+    "limitations": [],
+    "verification_notes": "Available online 5 February 2019; March 2019 volume. DOI contains 2018 but citation year 2019 is correct."
+  },
+  {
+    "key": "burton_systematic_2020",
+    "cited": true,
+    "status": "verified_no_change",
+    "verified_citation": "Jason W. Burton; Mari‐Klara Stein; Tina Blegind Jensen (2020). A systematic review of algorithm aversion in augmented decision making. Journal of Behavioral Decision Making, 33(2): 220–239. DOI: 10.1002/bdm.2155.",
+    "changes": [],
+    "sources": [
+      {
+        "title": "Wiley article metadata and publication dates",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/bdm.2155"
+      },
+      {
+        "title": "Publisher-deposited Crossref metadata (retrieved 2026-09-05)",
+        "url": "https://api.crossref.org/works/10.1002/bdm.2155"
+      }
+    ],
+    "limitations": [],
+    "verification_notes": "Online 23 October 2019; April 2020 issue. Keep year 2020. Mari‐Klara uses a valid Unicode hyphen in the file; this is not a corrupted author name."
+  },
+  {
+    "key": "chugunova_we_2022",
+    "cited": true,
+    "status": "verified_no_change",
+    "verified_citation": "Marina Chugunova; Daniela Sele (2022). We and It: An interdisciplinary review of the experimental evidence on how humans interact with machines. Journal of Behavioral and Experimental Economics, 99: Article 101897. DOI: 10.1016/j.socec.2022.101897.",
+    "changes": [],
+    "sources": [
+      {
+        "title": "ETH record documenting earlier working paper and link to later version",
+        "url": "https://www.research-collection.ethz.ch/handle/20.500.11850/442053?locale-attribute=en"
+      },
+      {
+        "title": "Publisher-deposited Crossref metadata (retrieved 2026-09-05)",
+        "url": "https://api.crossref.org/works/10.1016/j.socec.2022.101897"
+      }
+    ],
+    "limitations": [
+      "Core fields verified from publisher-deposited DOI metadata; direct publisher article retrieval unavailable. This is metadata verification, not an assessment of research claims."
+    ],
+    "verification_notes": "Earlier working paper exists, but entry already cites final journal article: August 2022, volume 99, article 101897. Final title/authors/DOI/locator independently confirmed in Elsevier-deposited Crossref metadata; direct Elsevier page blocked."
+  },
+  {
+    "key": "mahmud_what_2022",
+    "cited": true,
+    "status": "verified_no_change",
+    "verified_citation": "Hasan Mahmud; A.K.M. Najmul Islam; Syed Ishtiaque Ahmed; Kari Smolander (2022). What influences algorithmic decision-making? A systematic literature review on algorithm aversion. Technological Forecasting and Social Change, 175: Article 121390. DOI: 10.1016/j.techfore.2021.121390.",
+    "changes": [],
+    "sources": [
+      {
+        "title": "Elsevier article",
+        "url": "https://doi.org/10.1016/j.techfore.2021.121390"
+      },
+      {
+        "title": "Author dissertation containing published article",
+        "url": "https://lutpub.lut.fi/bitstream/handle/10024/168356/Hasan%20Mahmud_A4.pdf?isAllowed=y&sequence=1"
+      },
+      {
+        "title": "Publisher-deposited Crossref metadata (retrieved 2026-09-05)",
+        "url": "https://api.crossref.org/works/10.1016/j.techfore.2021.121390"
+      }
+    ],
+    "limitations": [],
+    "verification_notes": "February 2022 volume. DOI/copyright contain 2021, but final citation year 2022 is correct. Article number 121390."
+  },
+  {
+    "key": "trunk_current_2020",
+    "cited": false,
+    "status": "verified_no_change",
+    "verified_citation": "Anna Trunk; Hendrik Birkel; Evi Hartmann (2020). On the current state of combining human and artificial intelligence for strategic organizational decision making. Business Research, 13(3): 875–919. DOI: 10.1007/s40685-020-00133-x.",
+    "changes": [],
+    "sources": [
+      {
+        "title": "Springer article metadata",
+        "url": "https://link.springer.com/article/10.1007/s40685-020-00133-x"
+      },
+      {
+        "title": "Publisher-deposited Crossref metadata (retrieved 2026-09-05)",
+        "url": "https://api.crossref.org/works/10.1007/s40685-020-00133-x"
+      }
+    ],
+    "limitations": [],
+    "verification_notes": "Online 20 November 2020; November 2020 issue 3. Core fields and ISSNs match."
+  },
+  {
+    "key": "gogoll_rage_2018",
+    "cited": true,
+    "status": "verified_no_change",
+    "verified_citation": "Jan Gogoll; Matthias Uhl (2018). Rage against the machine: Automation in the moral domain. Journal of Behavioral and Experimental Economics, 74: 97–103. DOI: 10.1016/j.socec.2018.04.003.",
+    "changes": [],
+    "sources": [
+      {
+        "title": "Author dissertation containing published article",
+        "url": "https://mediatum.ub.tum.de/doc/1449095/document.pdf"
+      },
+      {
+        "title": "Publisher-deposited Crossref metadata (retrieved 2026-09-05)",
+        "url": "https://api.crossref.org/works/10.1016/j.socec.2018.04.003"
+      }
+    ],
+    "limitations": [],
+    "verification_notes": "June 2018 volume; core fields verified from Elsevier-deposited Crossref and the published article reproduced in the author dissertation."
+  },
+  {
+    "key": "kirchkamp_sharing_2019",
+    "cited": false,
+    "status": "verified_no_change",
+    "verified_citation": "Oliver Kirchkamp; Christina Strobel (2019). Sharing responsibility with a machine. Journal of Behavioral and Experimental Economics, 80: 25–33. DOI: 10.1016/j.socec.2019.02.010.",
+    "changes": [],
+    "sources": [
+      {
+        "title": "Author publication list",
+        "url": "https://www.kirchkamp.de/"
+      },
+      {
+        "title": "Author article status page",
+        "url": "https://www.kirchkamp.de/research/shareMachine.html"
+      },
+      {
+        "title": "Publisher-deposited Crossref metadata (retrieved 2026-09-05)",
+        "url": "https://api.crossref.org/works/10.1016/j.socec.2019.02.010"
+      }
+    ],
+    "limitations": [],
+    "verification_notes": "Accepted February 2019 according to author; final June 2019 publication already correctly recorded, 80:25–33."
+  },
+  {
+    "key": "maasland_blame_2022",
+    "cited": false,
+    "status": "verified_no_change",
+    "verified_citation": "Christian Maasland; Kristina S. Weißmüller (2022). Blame the Machine? Insights From an Experiment on Algorithm Aversion and Blame Avoidance in Computer-Aided Human Resource Management. Frontiers in Psychology, 13: Article 779028. DOI: 10.3389/fpsyg.2022.779028.",
+    "changes": [],
+    "sources": [
+      {
+        "title": "Frontiers published article",
+        "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.779028/full"
+      },
+      {
+        "title": "Publisher-deposited Crossref metadata (retrieved 2026-09-05)",
+        "url": "https://api.crossref.org/works/10.3389/fpsyg.2022.779028"
+      }
+    ],
+    "limitations": [],
+    "verification_notes": "Published 25 May 2022. 779028 is an article number; authors, title, volume and DOI match."
+  },
+  {
+    "key": "heaton_social_2023",
+    "cited": false,
+    "status": "verified_optional_enrichment",
+    "verified_citation": "Dan Heaton; Jérémie Clos; Elena Nichele; Joel E. Fischer (2023). The Social Impact of Decision-Making Algorithms: Reviewing the Influence of Agency, Responsibility and Accountability on Trust and Blame. Proceedings of the First International Symposium on Trustworthy Autonomous Systems, ACM, Article 11, pp. 1–11. DOI: 10.1145/3597512.3599706.",
+    "changes": [
+      {
+        "field": "articleno",
+        "old": null,
+        "new": "11",
+        "reason": "Optional ACM proceedings locator completion; existing 1–11 page range is correct. Use only a field supported by bibliography style."
+      }
+    ],
+    "sources": [
+      {
+        "title": "ACM article metadata",
+        "url": "https://doi.org/10.1145/3597512.3599706"
+      },
+      {
+        "title": "Author institutional publication record",
+        "url": "https://highlights.cdt.horizon.ac.uk/students/psxdh7-1"
+      },
+      {
+        "title": "Institutional record for same proceedings ISBN and venue",
+        "url": "https://research.aber.ac.uk/en/publications/a-practical-taxonomy-of-tas-related-usecase-scenarios/"
+      },
+      {
+        "title": "Publisher-deposited Crossref metadata (retrieved 2026-09-05)",
+        "url": "https://api.crossref.org/works/10.1145/3597512.3599706"
+      }
+    ],
+    "limitations": [],
+    "verification_notes": "Published proceedings paper, 11 July 2023; ACM Article No. 11, pages 1–11. ISBN 9798400707346 and Edinburgh conference venue confirmed for these proceedings. Crossref distinguishes publisher location New York, NY, USA from event location Edinburgh United Kingdom. Existing address is the true conference venue; publisher-address normalization is optional."
+  },
+  {
+    "key": "weaver_politics_1986",
+    "cited": true,
+    "status": "verified_no_change",
+    "verified_citation": "R. Kent Weaver (1986). The Politics of Blame Avoidance. Journal of Public Policy, 6(4): 371–398. DOI: 10.1017/s0143814x00004219.",
+    "changes": [],
+    "sources": [
+      {
+        "title": "Publisher-deposited Crossref metadata (retrieved 2026-09-05)",
+        "url": "https://api.crossref.org/works/10.1017/s0143814x00004219"
+      }
+    ],
+    "limitations": [
+      "Core fields verified from publisher-deposited DOI metadata; direct publisher article retrieval unavailable. This is metadata verification, not an assessment of research claims."
+    ],
+    "verification_notes": "Original issue October–December 1986 (Crossref print month October). Later online hosting date 28 November 2008 must not replace 1986. All core fields verified in CUP-deposited Crossref metadata; direct publisher page blocked."
+  },
+  {
+    "key": "fiorina_legislator_1986",
+    "cited": true,
+    "status": "verified_optional_enrichment",
+    "verified_citation": "Morris P. Fiorina (1986). Legislator Uncertainty, Legislative Control, and the Delegation of Legislative Power. The Journal of Law, Economics, and Organization, 2(1): 33–51. DOI: 10.1093/oxfordjournals.jleo.a036905.",
+    "changes": [
+      {
+        "field": "doi",
+        "old": null,
+        "new": "10.1093/oxfordjournals.jleo.a036905",
+        "reason": "Optional missing persistent identifier, verified on OUP article page."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Oxford University Press article metadata",
+        "url": "https://academic.oup.com/jleo/article-abstract/2/1/33/873292"
+      }
+    ],
+    "limitations": [],
+    "verification_notes": "OUP confirms spring 1986, 2(1), 33–51, full author and title. Journal ampersand versus “and” is an accepted name/style variation; no correction needed."
+  },
+  {
+    "key": "berger_watch_2021",
+    "cited": false,
+    "status": "verified_no_change",
+    "verified_citation": "Benedikt Berger; Martin Adam; Alexander Rühr; Alexander Benlian (2021). Watch Me Improve—Algorithm Aversion and Demonstrating the Ability to Learn. Business & Information Systems Engineering, 63(1): 55–68. DOI: 10.1007/s12599-020-00678-5.",
+    "changes": [],
+    "sources": [
+      {
+        "title": "Springer article and issue date",
+        "url": "https://link.springer.com/article/10.1007/s12599-020-00678-5"
+      },
+      {
+        "title": "Publisher-deposited Crossref metadata (retrieved 2026-09-05)",
+        "url": "https://api.crossref.org/works/10.1007/s12599-020-00678-5"
+      }
+    ],
+    "limitations": [],
+    "verification_notes": "Online 4 December 2020; February 2021 issue. Keep 2021. Existing TeX umlaut in Rühr and em-dash title separator correctly represent publisher spelling."
+  },
+  {
+    "key": "litterscheidt_financial_2020",
+    "cited": false,
+    "status": "correction_required",
+    "verified_citation": "Rouven Litterscheidt; David J. Streich (2020). Financial education and digital asset management: What's in the black box?. Journal of Behavioral and Experimental Economics, 87: Article 101573. DOI: 10.1016/j.socec.2020.101573.",
+    "changes": [
+      {
+        "field": "author",
+        "old": "Litterscheidt, Roman and Streich, David J.",
+        "new": "Litterscheidt, Rouven and Streich, David J.",
+        "reason": "Necessary correction: first author’s given name is Rouven, not Roman."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Elsevier published article metadata",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S2214804319304367"
+      },
+      {
+        "title": "Authors original replication data",
+        "url": "https://data.mendeley.com/datasets/zhbzv9jtww/1"
+      },
+      {
+        "title": "Publisher-deposited Crossref metadata (retrieved 2026-09-05)",
+        "url": "https://api.crossref.org/works/10.1016/j.socec.2020.101573"
+      }
+    ],
+    "limitations": [],
+    "verification_notes": "August 2020 volume 87, article 101573. First author is Rouven, not Roman; verified independently by Elsevier page, publisher-deposited Crossref metadata and authors replication data. Other core fields match."
+  },
+  {
+    "key": "sharan_dont_2020",
+    "cited": false,
+    "status": "verified_no_change",
+    "verified_citation": "Navya Nishith Sharan; Daniela Maria Romano (2020). The effects of personality and locus of control on trust in humans versus artificial intelligence. Heliyon, 6(8): Article e04572. DOI: 10.1016/j.heliyon.2020.e04572.",
+    "changes": [],
+    "sources": [
+      {
+        "title": "NLM PubMed article record",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32923706/"
+      },
+      {
+        "title": "Publisher-deposited Crossref metadata (retrieved 2026-09-05)",
+        "url": "https://api.crossref.org/works/10.1016/j.heliyon.2020.e04572"
+      }
+    ],
+    "limitations": [],
+    "verification_notes": "Published 28 August 2020; 6(8), e04572. Both full author names and order match NLM/Elsevier metadata. Citation key does not need to match the final title."
+  },
+  {
+    "key": "bigman_people_2018",
+    "cited": true,
+    "status": "verified_no_change",
+    "verified_citation": "Yochanan E. Bigman; Kurt Gray (2018). People are averse to machines making moral decisions. Cognition, 181: 21–34. DOI: 10.1016/j.cognition.2018.08.003.",
+    "changes": [],
+    "sources": [
+      {
+        "title": "Author institutional research record",
+        "url": "https://cris.iucc.ac.il/en/publications/people-are-averse-to-machines-making-moral-decisions/"
+      },
+      {
+        "title": "Publisher-deposited Crossref metadata (retrieved 2026-09-05)",
+        "url": "https://api.crossref.org/works/10.1016/j.cognition.2018.08.003"
+      }
+    ],
+    "limitations": [],
+    "verification_notes": "Final December 2018 volume 181, 21–34, confirmed by Elsevier-deposited metadata and author institutional record."
+  },
+  {
+    "key": "jauernig_people_2022",
+    "cited": true,
+    "status": "verified_no_change",
+    "verified_citation": "Johanna Jauernig; Matthias Uhl; Gari Walkowitz (2022). People Prefer Moral Discretion to Algorithms: Algorithm Aversion Beyond Intransparency. Philosophy & Technology, 35(1): Article 2. DOI: 10.1007/s13347-021-00495-y.",
+    "changes": [],
+    "sources": [
+      {
+        "title": "Springer article metadata",
+        "url": "https://link.springer.com/article/10.1007/s13347-021-00495-y"
+      },
+      {
+        "title": "Publisher-deposited Crossref metadata (retrieved 2026-09-05)",
+        "url": "https://api.crossref.org/works/10.1007/s13347-021-00495-y"
+      }
+    ],
+    "limitations": [],
+    "verification_notes": "Published online 26 January 2022; March 2022 issue 1. The DOI includes 2021 but citation year 2022 is correct. 2 is the article number."
+  },
+  {
+    "key": "dietvorst_people_2020",
+    "cited": true,
+    "status": "verified_no_change",
+    "verified_citation": "Berkeley J. Dietvorst; Soaham Bharti (2020). People Reject Algorithms in Uncertain Decision Domains Because They Have Diminishing Sensitivity to Forecasting Error. Psychological Science, 31(10): 1302–1314. DOI: 10.1177/0956797620948841.",
+    "changes": [],
+    "sources": [
+      {
+        "title": "SAGE article metadata",
+        "url": "https://journals.sagepub.com/doi/10.1177/0956797620948841"
+      },
+      {
+        "title": "Publisher-deposited Crossref metadata (retrieved 2026-09-05)",
+        "url": "https://api.crossref.org/works/10.1177/0956797620948841"
+      }
+    ],
+    "limitations": [],
+    "verification_notes": "Online 11 September 2020; October 2020 issue. Full title, authors and order, 31(10), 1302–1314 and DOI match SAGE."
+  },
+  {
+    "key": "dietvorst_overcoming_2018",
+    "cited": false,
+    "status": "verified_no_change",
+    "verified_citation": "Berkeley J. Dietvorst; Joseph P. Simmons; Cade Massey (2018). Overcoming Algorithm Aversion: People Will Use Imperfect Algorithms If They Can (Even Slightly) Modify Them. Management Science, 64(3): 1155–1170. DOI: 10.1287/mnsc.2016.2643.",
+    "changes": [],
+    "sources": [
+      {
+        "title": "Published article on author university website",
+        "url": "https://faculty.wharton.upenn.edu/wp-content/uploads/2016/08/Dietvorst-Simmons-Massey-2018.pdf"
+      },
+      {
+        "title": "Publisher-deposited Crossref metadata (retrieved 2026-09-05)",
+        "url": "https://api.crossref.org/works/10.1287/mnsc.2016.2643"
+      }
+    ],
+    "limitations": [],
+    "verification_notes": "Online in Articles in Advance 4 November 2016; final March 2018 issue 64(3), 1155–1170. Keep 2018."
+  },
+  {
+    "key": "castelo_task-dependent_2019",
+    "cited": false,
+    "status": "verified_no_change",
+    "verified_citation": "Noah Castelo; Maarten W. Bos; Donald R. Lehmann (2019). Task-Dependent Algorithm Aversion. Journal of Marketing Research, 56(5): 809–825. DOI: 10.1177/0022243719851788.",
+    "changes": [],
+    "sources": [
+      {
+        "title": "Publisher-deposited Crossref metadata (retrieved 2026-09-05)",
+        "url": "https://api.crossref.org/works/10.1177/0022243719851788"
+      }
+    ],
+    "limitations": [
+      "Core fields verified from publisher-deposited DOI metadata; direct publisher article retrieval unavailable. This is metadata verification, not an assessment of research claims."
+    ],
+    "verification_notes": "Online 15 July 2019; October 2019 issue. All core fields verified in SAGE-deposited Crossref metadata; direct SAGE retrieval blocked."
+  },
+  {
+    "key": "bogert_humans_2021",
+    "cited": false,
+    "status": "verified_optional_enrichment",
+    "verified_citation": "Eric Bogert; Aaron Schecter; Richard T. Watson (2021). Humans rely more on algorithms than social influence as a task becomes more difficult. Scientific Reports, 11(1): Article 8028. DOI: 10.1038/s41598-021-87480-9.",
+    "changes": [
+      {
+        "field": "number",
+        "old": null,
+        "new": "1",
+        "reason": "Optional issue completion from publisher-deposited Crossref; Nature recommended citation uses volume and article number without issue."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Nature published article metadata",
+        "url": "https://www.nature.com/articles/s41598-021-87480-9"
+      },
+      {
+        "title": "Publisher-deposited Crossref metadata (retrieved 2026-09-05)",
+        "url": "https://api.crossref.org/works/10.1038/s41598-021-87480-9"
+      }
+    ],
+    "limitations": [],
+    "verification_notes": "Published 13 April 2021. Article 8028, not page 8028. Crossref supplies issue 1, although Nature recommended citation omits issue; adding it is optional."
+  },
+  {
+    "key": "goldbach_geht_2019",
+    "cited": false,
+    "status": "verified_no_change",
+    "verified_citation": "Carina Goldbach; Deniz Kayar; Thomas Pitz; Jörn Sickmann (2019). Transferring decisions to an algorithm: A simple route choice experiment. Transportation Research Part F: Traffic Psychology and Behaviour, 65: 402–417. DOI: 10.1016/j.trf.2019.08.011.",
+    "changes": [],
+    "sources": [
+      {
+        "title": "Publisher-deposited Crossref metadata (retrieved 2026-09-05)",
+        "url": "https://api.crossref.org/works/10.1016/j.trf.2019.08.011"
+      }
+    ],
+    "limitations": [
+      "Core fields verified from publisher-deposited DOI metadata; direct publisher article retrieval unavailable. This is metadata verification, not an assessment of research claims.",
+      "Intended-source question in existing annote remains unresolved; no bibliography replacement or annotation removal proposed."
+    ],
+    "verification_notes": "Elsevier-deposited Crossref metadata verifies the current English title, all four authors, year, volume, page range and DOI. The existing annotation records a separate unresolved question about whether this paper was the author’s intended source for an earlier German title; bibliographic identity is verified but author intent cannot be inferred. Preserve that intent question until resolved."
+  },
+  {
+    "key": "niszczota_robo-investors_2020",
+    "cited": false,
+    "status": "verified_no_change",
+    "verified_citation": "Paweł Niszczota; Dániel Kaszás (2020). Robo-investment aversion. PLOS ONE, 15(9): e0239277. DOI: 10.1371/journal.pone.0239277.",
+    "changes": [],
+    "sources": [
+      {
+        "title": "PLOS published article and citation",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0239277"
+      },
+      {
+        "title": "Publisher-deposited Crossref metadata (retrieved 2026-09-05)",
+        "url": "https://api.crossref.org/works/10.1371/journal.pone.0239277"
+      }
+    ],
+    "limitations": [],
+    "verification_notes": "Published 17 September 2020. Authors Paweł Niszczota and Dániel Kaszás, 15(9), e0239277 and DOI match. PLoS ONE versus PLOS ONE is capitalization only."
+  }
+]

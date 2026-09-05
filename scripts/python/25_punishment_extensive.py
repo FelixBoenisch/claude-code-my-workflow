@@ -122,20 +122,16 @@ def main() -> None:
         ("Pseudo $R^2$", [f"${num(rf.prsquared, 3)}$", f"${num(rp.prsquared, 3)}$"]),
     ]
     note = (
-        "Probit regression of an indicator for non-zero punishment ($1\\{\\text{punishment}>0\\}$) "
-        "on a delegation indicator, a bad-outcome indicator, their interaction, Player~B's belief "
-        "about Player~A's performance, and socio-demographic controls; the sample is stacked over "
+        "Probit regression of an indicator for non-zero punishment. The sample is stacked over "
         "the four (delegation, outcome) cells of the strategy method (4 observations per Player~B). "
         "Column~(1) uses the full Punishment-condition sample; Column~(2) restricts to attention-check "
         "passers. Standard errors clustered at the Player~B level. The \\textit{AME} rows report "
         "discrete average marginal effects on the probability of imposing any punishment, in "
-        "percentage points (for Delegated, the change from $0\\to1$ with the interaction moved "
-        "consistently; for Bad outcome, likewise), computed by counterfactual prediction with "
-        "p-values from a seeded $400$-replication subject-cluster bootstrap. "
-        "Significance: $^{*}\\,p<0.10$; $^{**}\\,p<0.05$; $^{***}\\,p<0.01$ (two-sided)."
+        "percentage points. AME p-values use a $400$-replication subject-cluster bootstrap. "
+        "Significance: $^{*}\\,p<0.10$; $^{**}\\,p<0.05$; $^{***}\\,p<0.01$."
     )
     table = render_two_block_table(
-        caption="Extensive margin of punishment --- probit for $\\Pr(\\text{punishment}>0)$",
+        caption="Extensive margin of punishment --- Probit",
         label="tab:reg_punishment_extensive",
         col_headers=[r"\textit{Full sample}", r"\textit{Passers}"],
         block_label="Any punishment",
@@ -143,8 +139,12 @@ def main() -> None:
         models=[rf, rp],
         extra_rows=extra,
         note=note,
-        column_spec="@{\\extracolsep{5pt}}lcc",
+        column_spec=(
+            "@{\\extracolsep{5pt}}l"
+            "*{2}{>{\\centering\\arraybackslash}p{2.0cm}}"
+        ),
         stars=True,
+        separate_note=True,
     )
     (TABLES / "reg_punishment_extensive.tex").write_text(table, encoding="utf-8")
 

@@ -43,6 +43,7 @@ def render_two_block_table(
     stars: bool = False,
     col_subheaders: list[str] | None = None,
     note_width: float = 0.85,
+    separate_note: bool = False,
 ) -> str:
     """Render a regression table.
 
@@ -91,14 +92,24 @@ def render_two_block_table(
     if extra_rows:
         for label_text, values in extra_rows:
             out.append(f" {label_text} & " + " & ".join(values) + r" \\")
-    out.extend([
-        r"\hline",
-        r"\hline \\[-1.8ex]",
-        # centered minipage so the note sits symmetrically below the table
-        # even when the tabular is wider or narrower than the note block
-        f"\\multicolumn{{{n_cols + 1}}}{{c}}{{\\begin{{minipage}}{{{note_width}\\textwidth}}"
-        f"\\footnotesize \\textit{{Note:}} {note}\\end{{minipage}}}}",
-        r"\end{tabular}",
-        r"\end{table}",
-    ])
+    out.extend([r"\hline", r"\hline \\[-1.8ex]"])
+    if separate_note:
+        # Keeping the note outside the tabular prevents its wider minipage
+        # from stretching the coefficient columns or creating trailing space.
+        out.extend([
+            r"\end{tabular}",
+            r"\par\smallskip",
+            f"\\begin{{minipage}}{{{note_width}\\textwidth}}"
+            f"\\footnotesize \\textit{{Note:}} {note}\\end{{minipage}}",
+            r"\end{table}",
+        ])
+    else:
+        out.extend([
+            # centered minipage so the note sits symmetrically below the table
+            # even when the tabular is wider or narrower than the note block
+            f"\\multicolumn{{{n_cols + 1}}}{{c}}{{\\begin{{minipage}}{{{note_width}\\textwidth}}"
+            f"\\footnotesize \\textit{{Note:}} {note}\\end{{minipage}}}}",
+            r"\end{tabular}",
+            r"\end{table}",
+        ])
     return "\n".join(out) + "\n"

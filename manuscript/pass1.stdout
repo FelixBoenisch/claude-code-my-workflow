@@ -1,0 +1,1187 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex.fmt)
+ restricted \write18 enabled.
+entering extended mode
+(main.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-03-20>
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo))
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/todonotes\todonotes.sty
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\keyval.tex))))
+ (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def)
+ (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.s
+ty
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty
+
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-
+common.tex)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-
+latex.def)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.c
+ode.tex
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex))
+)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.s
+ty (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cf
+g)))
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.s
+ty
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys
+.code.tex
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.
+code.tex
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeysl
+ibraryfiltered.code.tex))
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cf
+g)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys
+-pdftex.def
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys
+-common-pdf.def)))
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys
+softpath.code.tex)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys
+protocol.code.tex))
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+.code.tex
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.
+tex
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.c
+ode.tex)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser
+.code.tex)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.code.tex)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.basic.code.tex)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.trigonometric.code.tex)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.random.code.tex)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.comparison.code.tex)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.base.code.tex)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.round.code.tex)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.misc.code.tex)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.integerarithmetics.code.tex)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.c
+ode.tex)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.
+code.tex))
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.t
+ex)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+points.code.tex)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+pathconstruct.code.tex)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+pathusage.code.tex)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+scopes.code.tex)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+graphicstate.code.tex)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+transformations.code.tex)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+quick.code.tex)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+objects.code.tex)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+pathprocessing.code.tex)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+arrows.code.tex)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+shade.code.tex)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+image.code.tex)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+external.code.tex)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+layers.code.tex)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+transparency.code.tex)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+patterns.code.tex)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+rdf.code.tex)))
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodules
+hapes.code.tex)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulep
+lot.code.tex)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcom
+p-version-0-65.sty)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcom
+p-version-1-18.sty))
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.sty
+
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.st
+y
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.
+code.tex))
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.
+tex))
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.c
+ode.tex))
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+\tikz.code.tex
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibra
+ryplothandlers.code.tex)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulem
+atrix.code.tex)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibrarytopaths.code.tex)))
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibrarypositioning.code.tex)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty))
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty))
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+For additional information on amsmath, use the `?' option.
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty))
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty))
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty))
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/layouts\layouts.sty)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty))
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nome
+tadata.sty
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty)))
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty)
+
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinek
+eys.sty)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.st
+y (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty)
+
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.
+sty
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.st
+y))) (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+) (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitl
+estring.sty
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty)
+)) (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.st
+y) (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.
+sty)))
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfile
+check.sty
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniqueco
+unter.sty)))
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/eurosym\eurosym.sty)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/comment\comment.sty
+Excluding comment 'comment')
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel-
+english.tex)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.ld
+f))
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdft
+ex.def) (main.aux)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mki
+i
+[Loading MPS to PDF converter (version 2006.09.02).]
+)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-ba
+se.sty
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cf
+g))
+
+Package todonotes Warning: The length marginparwidth is less than 2cm and will 
+most likely cause issues with the appearance of inserted todonotes. The issue c
+an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
+loading the todonotes package. on input line 61.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=483.69687pt
+* \textheight=731.23584pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Package layouts Warning: Layout scale set to 0.5 on input line 61.
+
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd)
+[1{C:/Users/USER/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+(introduction.tex
+
+Package natbib Warning: Citation `feier_hiding_2022' on page 2 undefined on inp
+ut line 9.
+
+[2]
+
+LaTeX Warning: Reference `sec:result1' on page 3 undefined on input line 11.
+
+
+LaTeX Warning: Reference `sec:mechanism' on page 3 undefined on input line 13.
+
+[3]
+
+Package natbib Warning: Citation `bartling_shifting_2012' on page 4 undefined o
+n input line 15.
+
+
+Package natbib Warning: Citation `coffman_intermediation_2011' on page 4 undefi
+ned on input line 15.
+
+
+Package natbib Warning: Citation `oexl_shifting_2013' on page 4 undefined on in
+put line 15.
+
+
+Package natbib Warning: Citation `hamman_self-interest_2010' on page 4 undefine
+d on input line 15.
+
+
+Package natbib Warning: Citation `hill_does_2015' on page 4 undefined on input 
+line 15.
+
+
+Package natbib Warning: Citation `steffel_passing_2016' on page 4 undefined on 
+input line 15.
+
+
+Package natbib Warning: Citation `dietvorst_algorithm_2015' on page 4 undefined
+ on input line 15.
+
+
+Package natbib Warning: Citation `logg_algorithm_2019' on page 4 undefined on i
+nput line 15.
+
+
+Package natbib Warning: Citation `burton_systematic_2020' on page 4 undefined o
+n input line 15.
+
+
+Package natbib Warning: Citation `mahmud_what_2022' on page 4 undefined on inpu
+t line 15.
+
+
+Package natbib Warning: Citation `chugunova_we_2022' on page 4 undefined on inp
+ut line 15.
+
+
+Package natbib Warning: Citation `feier_hiding_2022' on page 4 undefined on inp
+ut line 15.
+
+
+Package natbib Warning: Citation `kirchkamp_sharing_2019' on page 4 undefined o
+n input line 15.
+
+
+Package natbib Warning: Citation `feier_hiding_2022' on page 4 undefined on inp
+ut line 15.
+
+
+Package natbib Warning: Citation `european_union_ai_act_2024' on page 4 undefin
+ed on input line 15.
+
+
+LaTeX Warning: Reference `conclusion' on page 4 undefined on input line 15.
+
+
+LaTeX Warning: Reference `literature' on page 4 undefined on input line 17.
+
+
+LaTeX Warning: Reference `design' on page 4 undefined on input line 17.
+
+
+LaTeX Warning: Reference `results' on page 4 undefined on input line 17.
+
+
+LaTeX Warning: Reference `conclusion' on page 4 undefined on input line 17.
+
+) (literature.tex
+
+Package natbib Warning: Citation `schelling_strategy_1960' on page 4 undefined 
+on input line 9.
+
+
+Package natbib Warning: Citation `fershtman_gneezy_2001' on page 4 undefined on
+ input line 9.
+
+
+Package natbib Warning: Citation `aghion_formal_1997' on page 4 undefined on in
+put line 9.
+
+
+Package natbib Warning: Citation `weaver_politics_1986' on page 4 undefined on 
+input line 9.
+
+
+Package natbib Warning: Citation `fiorina_legislator_1986' on page 4 undefined 
+on input line 9.
+
+[4]
+
+Package natbib Warning: Citation `bartling_shifting_2012' on page 5 undefined o
+n input line 15.
+
+
+Package natbib Warning: Citation `coffman_intermediation_2011' on page 5 undefi
+ned on input line 15.
+
+
+Package natbib Warning: Citation `oexl_shifting_2013' on page 5 undefined on in
+put line 15.
+
+
+Package natbib Warning: Citation `bartling_shifting_2012' on page 5 undefined o
+n input line 15.
+
+
+Package natbib Warning: Citation `oexl_shifting_2013' on page 5 undefined on in
+put line 15.
+
+
+Package natbib Warning: Citation `bartling_shifting_2012' on page 5 undefined o
+n input line 15.
+
+
+Package natbib Warning: Citation `hamman_self-interest_2010' on page 5 undefine
+d on input line 17.
+
+
+Package natbib Warning: Citation `fershtman_gneezy_2001' on page 5 undefined on
+ input line 21.
+
+
+Package natbib Warning: Citation `bartling_fischbacher_schudy_2015' on page 5 u
+ndefined on input line 21.
+
+
+Package natbib Warning: Citation `erat_avoiding_2013' on page 5 undefined on in
+put line 21.
+
+
+Package natbib Warning: Citation `gawn_lying_2019' on page 5 undefined on input
+ line 21.
+
+
+Package natbib Warning: Citation `kandul_do_2018' on page 5 undefined on input 
+line 21.
+
+
+Package natbib Warning: Citation `hill_does_2015' on page 5 undefined on input 
+line 21.
+
+
+Package natbib Warning: Citation `freer_friedman_weidenholzer_2024' on page 5 u
+ndefined on input line 21.
+
+[5]
+
+Package natbib Warning: Citation `dietvorst_algorithm_2015' on page 6 undefined
+ on input line 37.
+
+
+Package natbib Warning: Citation `meehl_clinical_1954' on page 6 undefined on i
+nput line 37.
+
+
+Package natbib Warning: Citation `dawes_robust_1979' on page 6 undefined on inp
+ut line 37.
+
+
+Package natbib Warning: Citation `logg_algorithm_2019' on page 6 undefined on i
+nput line 37.
+
+
+Package natbib Warning: Citation `burton_systematic_2020' on page 6 undefined o
+n input line 37.
+
+
+Package natbib Warning: Citation `mahmud_what_2022' on page 6 undefined on inpu
+t line 37.
+
+
+Package natbib Warning: Citation `chugunova_we_2022' on page 6 undefined on inp
+ut line 37.
+
+
+Package natbib Warning: Citation `qin_ai_2025' on page 6 undefined on input lin
+e 37.
+
+
+Package natbib Warning: Citation `irlenbusch_human_2026' on page 6 undefined on
+ input line 37.
+
+
+Package natbib Warning: Citation `berger_watch_2021' on page 6 undefined on inp
+ut line 39.
+
+
+Package natbib Warning: Citation `litterscheidt_financial_2020' on page 6 undef
+ined on input line 39.
+
+
+Package natbib Warning: Citation `filiz_reducing_2021' on page 6 undefined on i
+nput line 39.
+
+
+Package natbib Warning: Citation `dargnies_aversion_2026' on page 6 undefined o
+n input line 39.
+
+
+Package natbib Warning: Citation `dietvorst_people_2020' on page 6 undefined on
+ input line 39.
+
+
+Package natbib Warning: Citation `castelo_task-dependent_2019' on page 6 undefi
+ned on input line 39.
+
+
+Package natbib Warning: Citation `bogert_humans_2021' on page 6 undefined on in
+put line 39.
+
+
+Package natbib Warning: Citation `jung_towards_2021' on page 6 undefined on inp
+ut line 39.
+
+
+Package natbib Warning: Citation `dietvorst_overcoming_2018' on page 6 undefine
+d on input line 39.
+
+
+Package natbib Warning: Citation `normann_delegate_2025' on page 6 undefined on
+ input line 39.
+
+
+Package natbib Warning: Citation `ivanova_stenzel_delegating_2025' on page 6 un
+defined on input line 39.
+
+
+Package natbib Warning: Citation `ivanova_stenzel_measuring_2024' on page 6 und
+efined on input line 39.
+
+[6]
+
+Package natbib Warning: Citation `gogoll_rage_2018' on page 7 undefined on inpu
+t line 56.
+
+
+Package natbib Warning: Citation `gogoll_rage_2018' on page 7 undefined on inpu
+t line 57.
+
+
+Package natbib Warning: Citation `bigman_people_2018' on page 7 undefined on in
+put line 57.
+
+
+Package natbib Warning: Citation `jauernig_people_2022' on page 7 undefined on 
+input line 57.
+
+
+Package natbib Warning: Citation `bonnefon_moral_2024' on page 7 undefined on i
+nput line 57.
+
+
+Package natbib Warning: Citation `sunstein_anatomy_2024' on page 7 undefined on
+ input line 57.
+
+
+Package natbib Warning: Citation `pezzo_pezzo_physician_2006' on page 7 undefin
+ed on input line 59.
+
+
+Package natbib Warning: Citation `tobia_when_2021' on page 7 undefined on input
+ line 59.
+
+
+Package natbib Warning: Citation `bigman_algorithmic_2023' on page 7 undefined 
+on input line 59.
+
+
+Package natbib Warning: Citation `kurtzberg_attribution_2004' on page 7 undefin
+ed on input line 59.
+
+
+Package natbib Warning: Citation `bigman_people_2018' on page 7 undefined on in
+put line 59.
+
+
+Package natbib Warning: Citation `shank_attributions_2019' on page 7 undefined 
+on input line 59.
+
+
+Package natbib Warning: Citation `kirchkamp_sharing_2019' on page 7 undefined o
+n input line 63.
+
+
+Package natbib Warning: Citation `maasland_blame_2022' on page 7 undefined on i
+nput line 63.
+
+[7]
+
+Package natbib Warning: Citation `chevrier_algorithm_2024' on page 8 undefined 
+on input line 67.
+
+
+Package natbib Warning: Citation `tontrup_strategic_2025' on page 8 undefined o
+n input line 67.
+
+
+Package natbib Warning: Citation `hueholt_trusting_2026' on page 8 undefined on
+ input line 67.
+
+
+Package natbib Warning: Citation `maasland_blame_2022' on page 8 undefined on i
+nput line 67.
+
+
+Package natbib Warning: Citation `feier_hiding_2022' on page 8 undefined on inp
+ut line 71.
+
+
+Package natbib Warning: Citation `feier_hiding_2022' on page 8 undefined on inp
+ut line 73.
+
+[8]) (design.tex
+
+Package natbib Warning: Citation `chen_otree_2016' on page 9 undefined on input
+ line 3.
+
+
+LaTeX Warning: Reference `fig:treatments' on page 9 undefined on input line 5.
+
+
+! Package pgf Error: Unknown arrow tip kind 'Stealth'.
+
+See the pgf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.49     ]
+          
+Missing character: There is no [ in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no @ in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no p in font nullfont!
+[9]
+
+Package natbib Warning: Citation `qin_ai_2025' on page 10 undefined on input li
+ne 82.
+
+
+Package natbib Warning: Citation `logg_algorithm_2019' on page 10 undefined on 
+input line 82.
+
+
+Package natbib Warning: Citation `logg_algorithm_2019' on page 10 undefined on 
+input line 82.
+
+
+Package natbib Warning: Citation `gogoll_rage_2018' on page 10 undefined on inp
+ut line 82.
+
+
+Package natbib Warning: Citation `feier_hiding_2022' on page 10 undefined on in
+put line 82.
+
+[10]
+
+Package natbib Warning: Citation `feier_hiding_2022' on page 11 undefined on in
+put line 88.
+
+
+Package natbib Warning: Citation `bartling_shifting_2012' on page 11 undefined 
+on input line 90.
+
+
+Package natbib Warning: Citation `coffman_intermediation_2011' on page 11 undef
+ined on input line 90.
+
+
+Package natbib Warning: Citation `feier_hiding_2022' on page 11 undefined on in
+put line 90.
+
+[11]
+
+Package natbib Warning: Citation `holt_risk_2002' on page 12 undefined on input
+ line 96.
+
+
+LaTeX Warning: Reference `fig:design_playerA' on page 12 undefined on input lin
+e 96.
+
+
+LaTeX Warning: Reference `appendix:figures' on page 12 undefined on input line 
+96.
+
+
+Package natbib Warning: Citation `bartling_shifting_2012' on page 12 undefined 
+on input line 102.
+
+
+Package natbib Warning: Citation `coffman_intermediation_2011' on page 12 undef
+ined on input line 102.
+
+
+Package natbib Warning: Citation `steffel_passing_2016' on page 12 undefined on
+ input line 102.
+
+
+LaTeX Warning: Reference `fig:design_playerB' on page 12 undefined on input lin
+e 102.
+
+
+LaTeX Warning: Reference `appendix:figures' on page 12 undefined on input line 
+102.
+
+[12]
+
+Package natbib Warning: Citation `bartling_shifting_2012' on page 13 undefined 
+on input line 108.
+
+
+Package natbib Warning: Citation `coffman_intermediation_2011' on page 13 undef
+ined on input line 108.
+
+
+Package natbib Warning: Citation `oexl_shifting_2013' on page 13 undefined on i
+nput line 108.
+
+
+Package natbib Warning: Citation `hamman_self-interest_2010' on page 13 undefin
+ed on input line 108.
+
+
+Package natbib Warning: Citation `hill_does_2015' on page 13 undefined on input
+ line 108.
+
+
+Package natbib Warning: Citation `steffel_passing_2016' on page 13 undefined on
+ input line 108.
+
+
+Package natbib Warning: Citation `feier_hiding_2022' on page 13 undefined on in
+put line 108.
+
+
+Package natbib Warning: Citation `kirchkamp_sharing_2019' on page 13 undefined 
+on input line 108.
+
+
+Package natbib Warning: Citation `gogoll_rage_2018' on page 13 undefined on inp
+ut line 108.
+
+
+Package natbib Warning: Citation `bartling_shifting_2012' on page 13 undefined 
+on input line 114.
+
+
+Package natbib Warning: Citation `feier_hiding_2022' on page 13 undefined on in
+put line 114.
+
+
+Package natbib Warning: Citation `bartling_shifting_2012' on page 13 undefined 
+on input line 120.
+
+
+Package natbib Warning: Citation `feier_hiding_2022' on page 13 undefined on in
+put line 120.
+
+[13]
+
+Package natbib Warning: Citation `gogoll_rage_2018' on page 14 undefined on inp
+ut line 122.
+
+
+LaTeX Warning: Reference `results' on page 14 undefined on input line 122.
+
+) (results.tex
+
+LaTeX Warning: Reference `appendix:pap' on page 14 undefined on input line 3.
+
+
+LaTeX Warning: Reference `appendix:sum_stats' on page 14 undefined on input lin
+e 3.
+
+
+LaTeX Warning: Reference `tab:treatment_balance' on page 14 undefined on input 
+line 3.
+
+[14]
+
+LaTeX Warning: Reference `fig:delegation_shares' on page 15 undefined on input 
+line 7.
+
+
+LaTeX Warning: Reference `tab:del_decision_determinants' on page 15 undefined o
+n input line 24.
+
+
+LaTeX Warning: Reference `sec:mechanism' on page 15 undefined on input line 24.
+
+
+[15] [16 <./figures/delegation_shares.png>] (../tables/reg_delegation.tex)
+
+LaTeX Warning: Reference `fig:punishment' on page 17 undefined on input line 32
+.
+
+
+Package natbib Warning: Citation `coffman_intermediation_2011' on page 17 undef
+ined on input line 32.
+
+[17]
+
+LaTeX Warning: Reference `fig:punishment_hypothetical' on page 18 undefined on 
+input line 41.
+
+
+LaTeX Warning: Reference `tab:reg_punishment' on page 18 undefined on input lin
+e 45.
+
+
+LaTeX Warning: Reference `tab:reg_punishment' on page 18 undefined on input lin
+e 45.
+
+(../tables/reg_punishment.tex [18 <./figures/punishment.png>])
+
+LaTeX Warning: Reference `tab:reg_punishment_extensive' on page 19 undefined on
+ input line 51.
+
+
+LaTeX Warning: Reference `fig:punishment' on page 19 undefined on input line 51
+.
+
+[19]
+
+Package natbib Warning: Citation `bartling_shifting_2012' on page 20 undefined 
+on input line 65.
+
+
+Package natbib Warning: Citation `coffman_intermediation_2011' on page 20 undef
+ined on input line 65.
+
+
+Package natbib Warning: Citation `hamman_self-interest_2010' on page 20 undefin
+ed on input line 65.
+
+
+Package natbib Warning: Citation `oexl_shifting_2013' on page 20 undefined on i
+nput line 65.
+
+[20]
+
+Package natbib Warning: Citation `gogoll_rage_2018' on page 21 undefined on inp
+ut line 71.
+
+
+Package natbib Warning: Citation `bigman_people_2018' on page 21 undefined on i
+nput line 71.
+
+
+Package natbib Warning: Citation `jauernig_people_2022' on page 21 undefined on
+ input line 71.
+
+
+Package natbib Warning: Citation `bonnefon_moral_2024' on page 21 undefined on 
+input line 71.
+
+
+LaTeX Warning: Reference `fig:realized_vs_anticipated' on page 21 undefined on 
+input line 77.
+
+
+LaTeX Warning: Reference `appendix:beliefs_vs_performance' on page 21 undefined
+ on input line 77.
+
+
+LaTeX Warning: Reference `fig:realized_vs_anticipated' on page 21 undefined on 
+input line 77.
+
+
+LaTeX Warning: Reference `tab:reg_belief_specs' on page 21 undefined on input l
+ine 90.
+
+[21] (../tables/reg_belief_specs.tex
+Overfull \hbox (4.01909pt too wide) in paragraph at lines 6--52
+ [][] 
+) [22 <./figures/realized_vs_anticipated.png>] [23]
+
+LaTeX Warning: Reference `appendix:sum_stats' on page 24 undefined on input lin
+e 113.
+
+
+LaTeX Warning: Reference `tab:treatment_balance' on page 24 undefined on input 
+line 113.
+
+
+LaTeX Warning: Reference `fig:performance' on page 24 undefined on input line 1
+13.
+
+
+LaTeX Warning: Reference `tab:del_decision_determinants' on page 24 undefined o
+n input line 113.
+
+
+LaTeX Warning: Reference `tab:del_decision_determinants' on page 24 undefined o
+n input line 126.
+
+
+LaTeX Warning: Reference `fig:performance_delegation_scatter' on page 24 undefi
+ned on input line 126.
+
+
+LaTeX Warning: Reference `fig:performance_by_delegation' on page 24 undefined o
+n input line 126.
+
+[24]
+
+Package natbib Warning: Citation `feier_hiding_2022' on page 25 undefined on in
+put line 150.
+
+
+Package natbib Warning: Citation `dietvorst_people_2020' on page 25 undefined o
+n input line 152.
+
+[25 <./figures/performance.png>] [26 <./figures/performance_delegation_scatter.
+png> <./figures/performance_by_delegation.png>] [27]
+
+Package natbib Warning: Citation `feier_hiding_2022' on page 28 undefined on in
+put line 293.
+
+
+Package natbib Warning: Citation `feier_hiding_2022' on page 28 undefined on in
+put line 295.
+
+
+Package natbib Warning: Citation `feier_hiding_2022' on page 28 undefined on in
+put line 295.
+
+
+Package natbib Warning: Citation `feier_hiding_2022' on page 28 undefined on in
+put line 295.
+
+
+Package natbib Warning: Citation `feier_hiding_2022' on page 28 undefined on in
+put line 295.
+
+
+Package natbib Warning: Citation `feier_hiding_2022' on page 28 undefined on in
+put line 295.
+
+
+Package natbib Warning: Citation `feier_hiding_2022' on page 28 undefined on in
+put line 295.
+
+[28]
+
+Package natbib Warning: Citation `feier_hiding_2022' on page 29 undefined on in
+put line 299.
+
+
+Package natbib Warning: Citation `chevrier_algorithm_2024' on page 29 undefined
+ on input line 299.
+
+
+Package natbib Warning: Citation `kobis_delegation_2025' on page 29 undefined o
+n input line 299.
+
+
+LaTeX Warning: Reference `conclusion' on page 29 undefined on input line 299.
+
+[29] [30]) (conclusion.tex
+
+LaTeX Warning: Reference `sec:mechanism' on page 31 undefined on input line 5.
+
+
+LaTeX Warning: Reference `tab:del_decision_determinants' on page 31 undefined o
+n input line 7.
+
+[31]
+
+Package natbib Warning: Citation `bartling_shifting_2012' on page 32 undefined 
+on input line 9.
+
+
+Package natbib Warning: Citation `coffman_intermediation_2011' on page 32 undef
+ined on input line 9.
+
+
+Package natbib Warning: Citation `oexl_shifting_2013' on page 32 undefined on i
+nput line 9.
+
+
+Package natbib Warning: Citation `european_union_ai_act_2024' on page 32 undefi
+ned on input line 11.
+
+[32]
+
+Package natbib Warning: Citation `de_quidt_measuring_2018' on page 33 undefined
+ on input line 17.
+
+[33]
+
+Package natbib Warning: Citation `feier_hiding_2022' on page 34 undefined on in
+put line 19.
+
+
+Package natbib Warning: Citation `de_quidt_measuring_2018' on page 34 undefined
+ on input line 19.
+
+) [34] (main.bbl) (appendix.tex (../tables/balance_player_a.tex)
+
+LaTeX Warning: Reference `tab:treatment_balance' on page A-1 undefined on input
+ line 12.
+
+(../tables/reg_delegation_full.tex) (../tables/reg_delegation_robustness.tex)
+(../tables/reg_punishment_robustness.tex
+Underfull \hbox (badness 2293) in paragraph at lines 41--41
+[]|\OT1/cmr/m/it/10 Note: \OT1/cmr/m/n/10 Pun-ish-ment re-gres-sion with Player
+ B's be-lief about Player A's per-for-mance
+)
+
+LaTeX Warning: Reference `tab:reg_punishment_extensive' on page A-1 undefined o
+n input line 34.
+
+[1] [2] (../tables/reg_punishment_extensive.tex)
+
+LaTeX Warning: Reference `fig:beliefs_vs_performance' on page A-3 undefined on 
+input line 45.
+
+
+LaTeX Warning: Reference `tab:reg_belief_specs' on page A-3 undefined on input 
+line 45.
+
+[3] [4] [5]
+
+LaTeX Warning: Reference `fig:punishment' on page A-6 undefined on input line 7
+5.
+
+
+LaTeX Warning: Reference `fig:punishment' on page A-6 undefined on input line 8
+2.
+
+[6 <./figures/beliefs_vs_performance.png>] (../tables/power_mde.tex)
+Overfull \hbox (16.091pt too wide) in paragraph at lines 103--104
+\OT1/cmr/m/n/12 The ex-per-i-ment was pre-reg-is-tered at As-Pre-dicted #133980
+, avail-able at [][]as-pre-dicted.org/hs9az8.pdf[][]
+[7 <./figures/punishment_hypothetical.png>]
+
+LaTeX Warning: Reference `sec:mechanism' on page A-8 undefined on input line 10
+5.
+
+
+LaTeX Warning: Reference `sec:mechanism' on page A-8 undefined on input line 10
+5.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--117
+[]|\OT1/cmr/m/n/12 Pearson Chi-squared and
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--117
+\OT1/cmr/m/n/12 Fisher's ex-act, two-sided
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--117
+[]|\OT1/cmr/m/n/12 Test fam-ily sub-sti-tuted
+
+Underfull \hbox (badness 3049) in paragraph at lines 117--117
+\OT1/cmr/m/n/12 (Chi-squared and Fisher's
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--117
+\OT1/cmr/m/n/12 responsibility-avoidance
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
+\OT1/cmr/m/n/12 pun-ish-ment in the bad-
+
+Underfull \hbox (badness 3375) in paragraph at lines 118--118
+\OT1/cmr/m/n/12 outcome cell, del-e-gated vs
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
+\OT1/cmr/m/n/12 non-delegated, attention-
+
+Underfull \hbox (badness 1448) in paragraph at lines 118--118
+[]|\OT1/cmr/m/n/12 Paired $\OML/cmm/m/it/12 t$\OT1/cmr/m/n/12 -test ($\OML/cmm/
+m/it/12 p \OT1/cmr/m/n/12 = 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 153$);
+
+Underfull \hbox (badness 1264) in paragraph at lines 118--118
+\OT1/cmr/m/n/12 Wilcoxon signed-rank ($\OML/cmm/m/it/12 p \OT1/cmr/m/n/12 =
+
+LaTeX Warning: Reference `tab:del_decision_determinants' on page A-8 undefined 
+on input line 119.
+
+
+Underfull \hbox (badness 4060) in paragraph at lines 120--120
+[]|\OT1/cmr/m/n/12 Logit on \OT1/cmr/m/it/12 Pun-ish-ment \OT1/cmr/m/n/12 sub-
+
+Underfull \hbox (badness 4531) in paragraph at lines 120--120
+[]|\OT1/cmr/m/n/12 Specification pre-reg-is-tered;
+
+Underfull \hbox (badness 5622) in paragraph at lines 120--120
+\OT1/cmr/m/n/12 sam-ple re-stric-tion fol-lows
+
+LaTeX Warning: Reference `sec:mechanism' on page A-8 undefined on input line 12
+1.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
+[]|\OT1/cmr/m/n/12 As pre-reg-is-tered (sec-
+
+LaTeX Warning: Reference `sec:mechanism' on page A-8 undefined on input line 12
+2.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--122
+[]|\OT1/cmr/m/n/12 As pre-reg-is-tered (sec-
+
+LaTeX Warning: Reference `sec:mechanism' on page A-8 undefined on input line 12
+3.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
+[]|\OT1/cmr/m/n/12 Mechanism anal-y-ses M1
+
+Overfull \hbox (7.78671pt too wide) in paragraph at lines 113--127
+ [][] 
+
+LaTeX Warning: Reference `appendix:preregistration' on page A-8 undefined on in
+put line 129.
+
+
+LaTeX Warning: Reference `fig:consort' on page A-8 undefined on input line 133.
+
+
+
+Overfull \hbox (141.70679pt too wide) in paragraph at lines 153--154
+ [][] 
+
+LaTeX Warning: Reference `appendix:attrition' on page A-8 undefined on input li
+ne 156.
+
+[8] [9]
+
+LaTeX Warning: Reference `appendix:regs' on page A-10 undefined on input line 1
+58.
+
+)
+
+Package natbib Warning: There were undefined citations.
+
+[10] [11 <./figures/punishment_shares.png>] (main.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )
+(see the transcript file for additional information) <C:\Users\USER\AppData\Loc
+al\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\USER\AppDat
+a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0800.pk> <C:\Users\USER\A
+ppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcti0800.pk> <C:\Users\U
+SER\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0700.pk> <C:\Us
+ers\USER\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C
+:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx1
+0.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmbx12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmbx8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmbxti10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/USER/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/USER/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/USER/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/USER/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/U
+SER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/
+Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.p
+fb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmr6.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmr7.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmr8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/USER/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/USER/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/USER/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/USER/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/USE
+R/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti8.pfb><C:/Us
+ers/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pf
+b><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mtt12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/symbols/msam10.pfb>
+Output written on main.pdf (45 pages, 1231780 bytes).
+Transcript written on main.log.

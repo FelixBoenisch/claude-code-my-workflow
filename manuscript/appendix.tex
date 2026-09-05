@@ -14,13 +14,13 @@
 
 \subsection{Regression analysis of punishment} \label{appendix:reg_punishment}
 
-Table~\ref{tab:reg_punishment} complements the paired comparisons in the main text with a stacked OLS regression of Player~B's chosen punishment on delegation, the outcome, and their interaction. The coefficient on \textit{Delegated} captures the punishment difference between delegated and self-made predictions after a good outcome, while the interaction captures how that difference changes after a bad outcome, and thus any insulation from punishment after bad outcomes. The \textit{Delegated}~$\times$~\textit{Bad outcome} interaction, which captures any insulation from punishment after bad outcomes, amounts to $-0.103$ and is weakly significant ($p=0.08$). The delegation coefficient is close to zero in both samples. The interaction is negative and weakly significant $-0.103$ ($p=0.077$) in the full sample and $-0.078$ ($p=0.138$) among attention-check passers. The regression therefore yields the same qualitative conclusion as the paired comparisons: punishment responds primarily to the realized outcome, while the data provide no statistically significant evidence at the $5\%$ level that delegation insulates Player~A from punishment.
+Table~\ref{tab:reg_punishment} complements the paired comparisons in the main text with a stacked OLS regression of Player~B's chosen punishment on delegation, the outcome, and their interaction. The coefficient on \textit{Delegated} captures the punishment difference between delegated and own predictions after a good outcome, while the interaction captures how that difference changes after a bad outcome, and thus any insulation from punishment after bad outcomes. The delegation coefficient is close to zero in both samples. The interaction is negative and weakly significant $-0.103$ ($p=0.077$) in the full sample and $-0.078$ ($p=0.138$) among attention-check passers. Like the paired comparisons, the regression indicates that punishment responds primarily to the realized outcome and provides no strong evidence that delegation insulates Player~A from punishment.
 
 \input{../tables/reg_punishment.tex}
 
 \subsection{Extensive margin of punishment} \label{appendix:reg_punishment_extensive}
 
-Table~\ref{tab:reg_punishment_extensive} re-estimates the punishment regression on the \textit{extensive} margin, replacing the punishment amount with an indicator for whether Player~B imposed any punishment in a given scenario, estimated by probit. The conclusion matches the intensive-margin result in the body. A bad outcome sharply raises the probability of punishment---an average marginal effect of about $18$ percentage points ($p<0.001$)---whereas delegation leaves it essentially unchanged: the average marginal effect of delegation is $-1.8$ percentage points and statistically insignificant ($p=0.46$; $-2.9$ percentage points among attention-check passers, $p=0.29$). Player~A is therefore no less \textit{likely} to be punished when she delegates, just as she is punished no less \textit{harshly}.
+Table~\ref{tab:reg_punishment_extensive} re-estimates the punishment regression on the \textit{extensive} margin, replacing the punishment amount with an indicator for whether Player~B imposed any punishment in a given scenario (Probit). The conclusion matches the intensive-margin result in the body. A bad outcome sharply raises the probability of punishment, whereas delegation leaves it essentially unchanged. Player~A is therefore no less \textit{likely} to be punished when she delegates, just as she is punished no less \textit{harshly}.
 
 \input{../tables/reg_punishment_extensive.tex}
 
@@ -59,11 +59,11 @@ Table~\ref{tab:reg_punishment_extensive} re-estimates the punishment regression 
 \begin{figure}[!htbp]
     \centering
     \caption{Player~B punishment by delegation and outcome scenario, attention-check passers}
-    \includegraphics[width=0.65\linewidth]{figures/punishment_passers.png}
+    \includegraphics[width=0.75\linewidth]{figures/punishment_passers.png}
     \label{fig:punishment_passers}
     \begin{minipage}{0.85\linewidth}
     \footnotesize
-    \textit{Note:} As in Figure~\ref{fig:punishment}, but restricted to Player~Bs who passed the attention check on the punishment-elicitation screen ($n=67$). The four (delegation, outcome) scenarios of the strategy method are grouped by outcome. For each scenario, the green bars report the average punishment (left $y$-axis, in pounds; whiskers are $\pm 1$ standard error of the mean) and the gold bars the share of Player~Bs imposing non-zero punishment (right $y$-axis, in percent; whiskers are $\pm 1$ standard error of the share). Values are printed at the base of each bar. The left-axis scale matches Figure~\ref{fig:punishment}.
+    \textit{Note:} As in Figure~\ref{fig:punishment}, but restricted to Player~Bs who passed the attention check on the punishment-elicitation screen ($n=67$). The four (delegation, outcome) scenarios of the strategy method are grouped by outcome. For each scenario, the green bars report the average punishment (left $y$-axis, in pounds, whiskers are $\pm 1$ standard error of the mean) and the gold bars the share of Player~Bs imposing non-zero punishment (right $y$-axis, in percent, whiskers are $\pm 1$ standard error of the share). The brackets mark the within-outcome comparisons of average punishment between delegated and Player~A's own predictions. The dashed lines mark the mean of average punishment within each outcome group, and the arrow reports their difference.
     \end{minipage}
 \end{figure}
 
@@ -81,16 +81,16 @@ Table~\ref{tab:reg_punishment_extensive} re-estimates the punishment regression 
 
 \subsection{Hypothetical punishment}
 
-Hypothetical punishment in the \textit{No-Punishment} condition follows the same outcome-driven pattern as actual punishment (Figure~\ref{fig:punishment_hypothetical}). After good outcomes, stated punishment is nearly identical for delegated and self-made decisions ($\pounds 0.23$ versus $\pounds 0.22$; paired $t$-test, $p=0.91$; Wilcoxon signed-rank $p=0.78$). After bad outcomes, the comparison reverses relative to the direction predicted by Hypothesis~2. Player~Bs state that they would punish a delegated decision more than a self-made one ($\pounds 0.53$ versus $\pounds 0.43$; paired $t$-test, $p=0.069$; Wilcoxon signed-rank $p=0.11$), a difference that is weakly significant under the parametric test but not under its non-parametric counterpart. Even in stated terms, delegation thus offers Player~A no insulation from punishment. Player~A's anticipated punishment, shown alongside, overstates hypothetical punishment in every scenario, mirroring the overestimation of actual punishment in the \textit{Punishment} condition (Figure~\ref{fig:realized_vs_anticipated}).
+Hypothetical punishment in the \textit{No-Punishment} condition follows the same outcome-driven pattern as actual punishment (Figure~\ref{fig:punishment_hypothetical}). After good outcomes, stated punishment is nearly identical for delegated and non-delegated decisions ($\pounds 0.23$ versus $\pounds 0.22$; paired $t$-test, $p=0.91$; Wilcoxon signed-rank $p=0.78$). After bad outcomes, the comparison reverses relative to the direction predicted by Hypothesis~\ref{hyp:punishment}. Player~Bs state that they would punish a delegated decision more than a decision made directly by Player~A ($\pounds 0.53$ versus $\pounds 0.43$; paired $t$-test, $p=0.069$; Wilcoxon signed-rank $p=0.11$). Even in stated terms, delegation thus offers Player~A no insulation from punishment. Player~A's anticipated punishment, shown alongside, overstates hypothetical punishment in every scenario, mirroring the overestimation of actual punishment in the \textit{Punishment} condition (Figure~\ref{fig:realized_vs_anticipated}).
 
 \begin{figure}[!htbp]
     \centering
     \caption{Hypothetical punishment by delegation and outcome scenario (\textit{No-Punishment} condition)}
-    \includegraphics[width=0.65\linewidth]{figures/punishment_hypothetical.png}
+    \includegraphics[width=0.93\linewidth]{figures/punishment_hypothetical.png}
     \label{fig:punishment_hypothetical}
     \begin{minipage}{0.85\linewidth}
     \footnotesize
-    \textit{Note:} As in Figure~\ref{fig:punishment}, but for the \textit{No-Punishment} condition (full sample $n=81$, passers $n=68$), in which Player~Bs answered the same punishment questions but could not impose punishment in practice. The four (delegation, outcome) scenarios are grouped by outcome. For each scenario, the green bars report the average hypothetical punishment (left $y$-axis, in pounds; whiskers are $\pm 1$ standard error of the mean) and the gold bars the share of Player~Bs choosing non-zero punishment (right $y$-axis, in percent; whiskers are $\pm 1$ standard error of the share); the full sample is shown at full opacity and the attention-check passers at lower opacity. In addition, the terracotta bars report Player~A's anticipated punishment in the \textit{No-Punishment} condition (hypothetical, full sample, $n=79$).
+    \textit{Note:} As in Figure~\ref{fig:punishment}, but for the \textit{No-Punishment} condition, in which Player~Bs answered the same punishment questions but could not impose punishment in practice. The four (delegation, outcome) scenarios are grouped by outcome. For each scenario, the green bars report the average hypothetical punishment (left $y$-axis, in pounds; whiskers are $\pm 1$ standard error of the mean) and the gold bars the share of Player~Bs choosing non-zero punishment (right $y$-axis, in percent; whiskers are $\pm 1$ standard error of the share). In addition, the terracotta bars report Player~A's hypothetical anticipated punishment in the \textit{No-Punishment} condition. Values are printed at the base of each bar.
     \end{minipage}
 \end{figure}
 

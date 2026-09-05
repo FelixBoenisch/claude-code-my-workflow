@@ -1,9 +1,9 @@
 \begin{table}[!htbp]
 \centering
 \scriptsize
-\caption{Extensive margin of punishment --- probit for $\Pr(\text{punishment}>0)$}
+\caption{Extensive margin of punishment --- Probit}
 \label{tab:reg_punishment_extensive}
-\begin{tabular}{@{\extracolsep{5pt}}lcc}
+\begin{tabular}{@{\extracolsep{5pt}}l*{2}{>{\centering\arraybackslash}p{2.0cm}}}
 \\[-1.8ex]\hline
 \hline \\[-1.8ex]
 & \multicolumn{2}{c}{Dependent variable: \textit{Any punishment}}\\[0.1cm]
@@ -42,6 +42,7 @@
  Pseudo $R^2$ & $0.096$ & $0.081$ \\
 \hline
 \hline \\[-1.8ex]
-\multicolumn{3}{c}{\begin{minipage}{0.85\textwidth}\footnotesize \textit{Note:} Probit regression of an indicator for non-zero punishment ($1\{\text{punishment}>0\}$) on a delegation indicator, a bad-outcome indicator, their interaction, Player~B's belief about Player~A's performance, and socio-demographic controls; the sample is stacked over the four (delegation, outcome) cells of the strategy method (4 observations per Player~B). Column~(1) uses the full Punishment-condition sample; Column~(2) restricts to attention-check passers. Standard errors clustered at the Player~B level. The \textit{AME} rows report discrete average marginal effects on the probability of imposing any punishment, in percentage points (for Delegated, the change from $0\to1$ with the interaction moved consistently; for Bad outcome, likewise), computed by counterfactual prediction with p-values from a seeded $400$-replication subject-cluster bootstrap. Significance: $^{*}\,p<0.10$; $^{**}\,p<0.05$; $^{***}\,p<0.01$ (two-sided).\end{minipage}}
 \end{tabular}
+\par\smallskip
+\begin{minipage}{0.85\textwidth}\footnotesize \textit{Note:} Probit regression of an indicator for non-zero punishment. The sample is stacked over the four (delegation, outcome) cells of the strategy method (4 observations per Player~B). Column~(1) uses the full Punishment-condition sample; Column~(2) restricts to attention-check passers. Standard errors clustered at the Player~B level. The \textit{AME} rows report discrete average marginal effects on the probability of imposing any punishment, in percentage points. AME p-values use a $400$-replication subject-cluster bootstrap. Significance: $^{*}\,p<0.10$; $^{**}\,p<0.05$; $^{***}\,p<0.01$.\end{minipage}
 \end{table}

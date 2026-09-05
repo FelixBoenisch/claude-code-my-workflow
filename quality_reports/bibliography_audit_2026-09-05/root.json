@@ -1,0 +1,577 @@
+[
+  {
+    "key": "freer_friedman_weidenholzer_2024",
+    "cited": true,
+    "status": "published_update",
+    "verified_citation": "Freer, Mikhail; Friedman, Daniel; Weidenholzer, Simon (2026). Motives for delegating financial decisions. Games and Economic Behavior 159: 56–70. DOI 10.1016/j.geb.2026.05.012.",
+    "changes": [
+      {
+        "field": "entry_type",
+        "old": "unpublished",
+        "new": "article",
+        "reason": "Published journal version replaces working paper."
+      },
+      {
+        "field": "year",
+        "old": "2024",
+        "new": "2026",
+        "reason": "Journal publication year."
+      },
+      {
+        "field": "month",
+        "old": "apr",
+        "new": "sep",
+        "reason": "Volume 159 is September 2026; replaces April 2024 revision date."
+      },
+      {
+        "field": "journal",
+        "old": null,
+        "new": "Games and Economic Behavior",
+        "reason": "Published venue."
+      },
+      {
+        "field": "volume",
+        "old": null,
+        "new": "159",
+        "reason": "Published volume."
+      },
+      {
+        "field": "pages",
+        "old": null,
+        "new": "56--70",
+        "reason": "Published page range."
+      },
+      {
+        "field": "doi",
+        "old": null,
+        "new": "10.1016/j.geb.2026.05.012",
+        "reason": "Journal DOI."
+      },
+      {
+        "field": "url",
+        "old": "https://arxiv.org/abs/2309.03419",
+        "new": "https://doi.org/10.1016/j.geb.2026.05.012",
+        "reason": "Point to version of record."
+      },
+      {
+        "field": "note",
+        "old": "arXiv:2309.03419 [econ.GN], v3 15 April 2024. University of Essex / UCSC.",
+        "new": null,
+        "reason": "Remove obsolete preprint-version and affiliation note. Preserve the preprint link in this audit."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Publisher record",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0899825626000898"
+      },
+      {
+        "title": "University of Essex publication record",
+        "url": "https://repository.essex.ac.uk/43353/"
+      }
+    ],
+    "limitations": ""
+  },
+  {
+    "key": "sunstein_anatomy_2024",
+    "cited": true,
+    "status": "correction_with_date_choice",
+    "verified_citation": "Sunstein, Cass R.; Gaffe, Jared H. An Anatomy of Algorithm Aversion. Columbia Science & Technology Law Review 26(1): 290–317. Publisher website gives 2025; PDF is labelled Fall 2024. DOI 10.52214/stlr.v26i1.13339.",
+    "changes": [
+      {
+        "field": "pages",
+        "old": "290--319",
+        "new": "290--317",
+        "reason": "Definite correction: publisher PDF starts at 290 and ends at 317, not 319."
+      },
+      {
+        "field": "number",
+        "old": null,
+        "new": "1",
+        "reason": "Publisher issue."
+      },
+      {
+        "field": "doi",
+        "old": null,
+        "new": "10.52214/stlr.v26i1.13339",
+        "reason": "Published journal DOI."
+      },
+      {
+        "field": "url",
+        "old": null,
+        "new": "https://journals.library.columbia.edu/index.php/stlr/article/view/13339",
+        "reason": "Add publisher record."
+      },
+      {
+        "field": "journal",
+        "old": "Columbia Science and Technology Law Review",
+        "new": "Columbia Science \\& Technology Law Review",
+        "reason": "Optional: normalize journal name to PDF masthead."
+      },
+      {
+        "field": "annote",
+        "old": "VERIFY volume/pages against the published issue",
+        "new": null,
+        "reason": "Replace old VERIFY note with resolved audit and retain the print/online date discrepancy in audit."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Publisher citation and issue date",
+        "url": "https://journals.library.columbia.edu/index.php/stlr/article/view/13339"
+      },
+      {
+        "title": "Publisher PDF, printed pages 290–317",
+        "url": "https://journals.library.columbia.edu/index.php/stlr/article/download/13339/6543/36781"
+      }
+    ],
+    "limitations": "Year is a genuine discrepancy between two primary publisher records. Retain 2024 pending author review, consistent with the Fall 2024 PDF imprint and issue-year convention; alternatively use 2025 following the publisher website issue label and How to Cite (published 31 January 2025). Neither date should be presented as unequivocally false."
+  },
+  {
+    "key": "tontrup_strategic_2025",
+    "cited": true,
+    "status": "working_paper_correction",
+    "verified_citation": "Tontrup, Stephan; Sprigman, Christopher Jon (2025). Strategic Delegation of Moral Decisions to AI. SSRN 5696827; written 6 October 2025, posted 13 November 2025, revised 27 June 2026.",
+    "changes": [
+      {
+        "field": "note",
+        "old": "SSRN Working Paper No.\\ 5696827, posted 6 October 2025.",
+        "new": "SSRN Working Paper No.\\ 5696827. Written 6 October 2025; posted 13 November 2025; revised 27 June 2026.",
+        "reason": "The existing note confuses date written with date posted."
+      },
+      {
+        "field": "doi",
+        "old": null,
+        "new": "10.2139/ssrn.5696827",
+        "reason": "Optional: add repository DOI; it is not evidence of journal publication."
+      }
+    ],
+    "sources": [
+      {
+        "title": "SSRN author-deposited record",
+        "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5696827"
+      }
+    ],
+    "limitations": "No journal publication located. Keep 2025 as SSRN suggested citation year; updated revision does not itself require 2026 in author–year citations."
+  },
+  {
+    "key": "chevrier_algorithm_2024",
+    "cited": true,
+    "status": "working_paper_confirmed",
+    "verified_citation": "Chevrier, Mathieu; Teixeira, Vincent (2024). Algorithm Delegation and Responsibility: Shifting Blame to the Programmer? GREDEG Working Paper 2024-04, revised September 2024.",
+    "changes": [],
+    "sources": [
+      {
+        "title": "GREDEG working-paper index (publisher search record)",
+        "url": "https://gredeg.univ-cotedazur.fr/publications/working-papers"
+      },
+      {
+        "title": "Author institutional research page",
+        "url": "https://univ-cotedazur.fr/mathieu-chevrier-3"
+      },
+      {
+        "title": "RePEc record for revision history",
+        "url": "https://ideas.repec.org/p/gre/wpaper/2024-04.html"
+      }
+    ],
+    "limitations": "No journal version located. Publisher index search record confirms title, authors and series/number; direct index fetch returned 502. September revision date is from series metadata distributed via RePEc. Keep current citation; changing unpublished to techreport is optional, not required."
+  },
+  {
+    "key": "irlenbusch_human_2026",
+    "cited": true,
+    "status": "working_paper_confirmed",
+    "verified_citation": "Irlenbusch, Bernd (2026). Human Trust in AI: Evidence from Experimental Economics. ECONtribute Discussion Paper 417, June 2026. University of Bonn and University of Cologne.",
+    "changes": [],
+    "sources": [
+      {
+        "title": "Official ECONtribute paper",
+        "url": "https://www.econtribute.de/RePEc/ajk/ajkdps/ECONtribute_417_2026.pdf"
+      }
+    ],
+    "limitations": "Official cover confirms author/title/number/month. No journal version located."
+  },
+  {
+    "key": "ivanova_stenzel_delegating_2025",
+    "cited": false,
+    "status": "working_paper_confirmed",
+    "verified_citation": "Ivanova-Stenzel, Radosveta; Tolksdorf, Michel (2025). Delegating in the Age of AI: Preferences for Decision Autonomy. Rationality and Competition Discussion Paper 558, 22 December 2025.",
+    "changes": [],
+    "sources": [
+      {
+        "title": "Official discussion-paper cover",
+        "url": "https://rationality-and-competition.de/wp-content/uploads/discussion_paper/558.pdf"
+      },
+      {
+        "title": "Earlier SSRN version",
+        "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5362996"
+      }
+    ],
+    "limitations": "No journal version located. Keep the existing December 2025 series version; do not replace its date with the earlier SSRN version."
+  },
+  {
+    "key": "normann_delegate_2025",
+    "cited": false,
+    "status": "working_paper_confirmed",
+    "verified_citation": "Normann, Hans-Theo; Rulié, Nina; Stypa, Olaf; Werner, Tobias (2025). Delegate Pricing Decisions to an Algorithm? Experimental Evidence. arXiv:2510.27636, first submitted 31 October 2025.",
+    "changes": [
+      {
+        "field": "doi",
+        "old": null,
+        "new": "10.48550/arXiv.2510.27636",
+        "reason": "Optional: add repository DOI."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Author-deposited arXiv record",
+        "url": "https://arxiv.org/abs/2510.27636"
+      },
+      {
+        "title": "Institutional conference-paper deposit",
+        "url": "https://www.econstor.eu/bitstream/10419/325417.2/1/Normann-etal-2025-delegate-algo.pdf"
+      }
+    ],
+    "limitations": "No journal version located. arXiv has one version, October 2025; EconStor carries a 5 November 2025 revision. Keep the identified arXiv version rather than silently substitute a different version."
+  },
+  {
+    "key": "weitzner_reputational_2024",
+    "cited": false,
+    "status": "working_paper_correction",
+    "verified_citation": "Weitzner, Gregory (2024). Reputational Algorithm Aversion. arXiv:2402.15418 [econ.TH], version 3, 31 July 2024.",
+    "changes": [
+      {
+        "field": "note",
+        "old": "arXiv:2402.15418 [econ.GN], v3 31 July 2024. McGill University. Presented at AEA 2025.",
+        "new": "arXiv:2402.15418 [econ.TH], v3 31 July 2024. McGill University. Presented at AEA 2025.",
+        "reason": "Correct arXiv subject class econ.GN to econ.TH."
+      },
+      {
+        "field": "doi",
+        "old": null,
+        "new": "10.48550/arXiv.2402.15418",
+        "reason": "Optional: add repository DOI."
+      }
+    ],
+    "sources": [
+      {
+        "title": "arXiv version history and subject class",
+        "url": "https://arxiv.org/abs/2402.15418"
+      },
+      {
+        "title": "Author lists work under Working Papers",
+        "url": "https://sites.google.com/site/gregoryweitzner/home/research-overview"
+      },
+      {
+        "title": "AEA 2025 conference paper",
+        "url": "https://www.aeaweb.org/conference/2025/preliminary/paper/YBtyRBBi"
+      }
+    ],
+    "limitations": "Current author page still lists as working paper. Conference copy dated November 2024 is a separate version; existing July arXiv date is valid."
+  },
+  {
+    "key": "tacconelli_how_2026",
+    "cited": true,
+    "status": "ahead_of_print_confirmed_annotation_correction",
+    "verified_citation": "Tacconelli, Alessandro; Merane, Jakob; Nielsen, Aileen; Tobia, Kevin; Hackanson, Björn; Stremitzer, Alexander (2026). How Following Medical Artificial Intelligence Advice Can Mitigate Malpractice Liability: Cross-National Insights from a Randomized Trial. Journal of Nuclear Medicine, online 4 June 2026. DOI 10.2967/jnumed.126.272292.",
+    "changes": [
+      {
+        "field": "note",
+        "old": null,
+        "new": "Published online 4 June 2026; ahead of print.",
+        "reason": "Optional: expose confirmed online-publication status in the rendered bibliography."
+      },
+      {
+        "field": "annote",
+        "old": "Early online 4 June 2026 (ahead of print); add volume/pages at proof stage. Randomized vignette experiment, N=3,808 (US and German lay evaluators + 248 German physicians): physicians accepting standard-care AI recommendations judged significantly more reasonable than those rejecting them; equivalence for nonstandard recommendations.",
+        "new": "Published online 4 June 2026; ahead of print as checked 5 September 2026. Analyzed N=2,808: 248 German physicians, 1,202 US adults, and 1,358 German adults.",
+        "reason": "Definite internal-note correction: existing N=3,808 is inconsistent with primary abstract counts. Annotation is not printed by aer.bst."
+      }
+    ],
+    "sources": [
+      {
+        "title": "PubMed publisher-supplied record",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42242875/"
+      },
+      {
+        "title": "Author-deposited published citation",
+        "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6962005"
+      },
+      {
+        "title": "Journal DOI",
+        "url": "https://doi.org/10.2967/jnumed.126.272292"
+      }
+    ],
+    "limitations": "Journal page fetch returned 403; current PubMed and author deposit confirm ahead-of-print citation. No volume/issue/pages found; leave those fields absent."
+  },
+  {
+    "key": "freisinger_decoding_2024",
+    "cited": false,
+    "status": "correction",
+    "verified_citation": "Freisinger, Elena; Schneider, Sabrina (2025). Decoding decision delegation to artificial intelligence: A mixed-methods study on the preferences of decision-makers and decision-affected in surrogate decision contexts. European Management Journal 43(6): 958–969. DOI 10.1016/j.emj.2024.10.004.",
+    "changes": [
+      {
+        "field": "year",
+        "old": "2024",
+        "new": "2025",
+        "reason": "Use December 2025 issue year instead of 2024 online year."
+      },
+      {
+        "field": "volume",
+        "old": null,
+        "new": "43",
+        "reason": "Published volume."
+      },
+      {
+        "field": "number",
+        "old": null,
+        "new": "6",
+        "reason": "Published issue."
+      },
+      {
+        "field": "pages",
+        "old": null,
+        "new": "958--969",
+        "reason": "Published page range; 102087 is not the identifier for this work."
+      },
+      {
+        "field": "doi",
+        "old": "10.1016/j.emj.2024.102087",
+        "new": "10.1016/j.emj.2024.10.004",
+        "reason": "Correct wrong DOI."
+      },
+      {
+        "field": "url",
+        "old": "https://doi.org/10.1016/j.emj.2024.102087",
+        "new": "https://doi.org/10.1016/j.emj.2024.10.004",
+        "reason": "Correct wrong DOI URL."
+      },
+      {
+        "field": "note",
+        "old": "Accepted 18 October 2024; article {102087}",
+        "new": null,
+        "reason": "Remove obsolete acceptance note and erroneous article number 102087."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Publisher final issue record",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0263237324001312"
+      },
+      {
+        "title": "Author institutional deposit",
+        "url": "https://opus.fhv.at/frontdoor/index/index/docId/5549"
+      }
+    ],
+    "limitations": "Publisher final issue details visible in indexed publisher record; direct page fetch failed. Author deposit confirms author names."
+  },
+  {
+    "key": "tsumura_effects_2026",
+    "cited": false,
+    "status": "metadata_completion",
+    "verified_citation": "Tsumura, Takahiro; Yamada, Seiji (2026). Effects of knowledge and importance on responsibility in human-AI decision making. Scientific Reports 16, article 2670. DOI 10.1038/s41598-025-32513-w.",
+    "changes": [
+      {
+        "field": "volume",
+        "old": null,
+        "new": "16",
+        "reason": "Add assigned volume."
+      },
+      {
+        "field": "pages",
+        "old": null,
+        "new": "2670",
+        "reason": "Add article number using existing aer-compatible pages convention."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Publisher citation record",
+        "url": "https://www.nature.com/articles/s41598-025-32513-w"
+      }
+    ],
+    "limitations": "Keep 2026: publisher Cite this article assigns 2026 and volume 16 despite first online date 23 December 2025."
+  },
+  {
+    "key": "salatino_influence_2025",
+    "cited": false,
+    "status": "metadata_completion",
+    "verified_citation": "Salatino, Adriana; Prével, Arthur; Caspar, Emilie; Lo Bue, Salvatore (2025). Influence of AI behavior on human moral decisions, agency, and responsibility. Scientific Reports 15, article 12329. DOI 10.1038/s41598-025-95587-6.",
+    "changes": [
+      {
+        "field": "volume",
+        "old": null,
+        "new": "15",
+        "reason": "Add assigned volume."
+      },
+      {
+        "field": "pages",
+        "old": null,
+        "new": "12329",
+        "reason": "Add article number using existing aer-compatible pages convention."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Publisher citation and correction history",
+        "url": "https://www.nature.com/articles/s41598-025-95587-6"
+      }
+    ],
+    "limitations": "Publisher correction dated 22 October 2025 concerns indexing of Salvatore Lo Bue. Current BibTeX already has the correct surname Lo Bue; preserve it."
+  },
+  {
+    "key": "lemley_remedies_2019",
+    "cited": true,
+    "status": "verification_note_cleanup",
+    "verified_citation": "Lemley, Mark A.; Casey, Bryan (2019). Remedies for Robots. University of Chicago Law Review 86(5): 1311–1396.",
+    "changes": [
+      {
+        "field": "note",
+        "old": "CONFIRM page range against the journal listing before adoption. SSRN 3223621",
+        "new": null,
+        "reason": "Remove resolved CONFIRM page-range instruction from printed reference."
+      },
+      {
+        "field": "url",
+        "old": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3223621",
+        "new": "https://lawreview.uchicago.edu/print-archive/remedies-robots",
+        "reason": "Prefer published journal page over preprint landing page."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Journal publication record",
+        "url": "https://lawreview.uchicago.edu/print-archive/remedies-robots"
+      },
+      {
+        "title": "Publisher PDF confirming ending page 1396",
+        "url": "https://lawreview.uchicago.edu/sites/default/files/2Lemley%20FINAL.pdf"
+      }
+    ],
+    "limitations": "Existing author/title/year/volume/issue/page data is correct. Do not add the SSRN DOI as though it were a journal DOI."
+  },
+  {
+    "key": "buiten_law_2023",
+    "cited": true,
+    "status": "metadata_completion",
+    "verified_citation": "Buiten, Miriam; de Streel, Alexandre; Peitz, Martin (2023). The law and economics of AI liability. Computer Law & Security Review 48, article 105794. DOI 10.1016/j.clsr.2023.105794.",
+    "changes": [
+      {
+        "field": "doi",
+        "old": null,
+        "new": "10.1016/j.clsr.2023.105794",
+        "reason": "Add published journal DOI."
+      },
+      {
+        "field": "note",
+        "old": "CONFIRM volume and article number before adoption",
+        "new": null,
+        "reason": "Remove resolved CONFIRM volume/article-number instruction from printed reference."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Publisher record",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0267364923000055"
+      },
+      {
+        "title": "Coauthor institution publication record",
+        "url": "https://researchportal.unamur.be/en/publications/the-law-and-economics-of-ai-liability/"
+      },
+      {
+        "title": "Published PDF deposited by coauthor institution (direct fetch blocked)",
+        "url": "https://researchportal.unamur.be/files/75679375/8924.pdf"
+      }
+    ],
+    "limitations": "Publisher page direct fetch blocked; publication metadata and DOI confirmed in coauthor institutional deposit. Institution uses journal legacy title and Buiten middle initial; retain title/byline of published paper in existing BibTeX."
+  },
+  {
+    "key": "european_union_ai_act_2024",
+    "cited": true,
+    "status": "metadata_completion",
+    "verified_citation": "European Union (2024). Regulation (EU) 2024/1689 of the European Parliament and of the Council of 13 June 2024 (Artificial Intelligence Act). Official Journal of the European Union L, 2024/1689, 12 July 2024.",
+    "changes": [
+      {
+        "field": "howpublished",
+        "old": "Official Journal of the European Union",
+        "new": "Official Journal of the European Union, L, 2024/1689, 12 July 2024",
+        "reason": "Complete official publication locator."
+      },
+      {
+        "field": "url",
+        "old": null,
+        "new": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+        "reason": "Add stable official ELI link."
+      },
+      {
+        "field": "annote",
+        "old": "VERIFY citation form",
+        "new": null,
+        "reason": "Remove resolved citation-form verification flag."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Official EUR-Lex original act and publication locator",
+        "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng"
+      }
+    ],
+    "limitations": "Current title is an acceptable abridgment of the much longer legal title. Generic European Union corporate author can remain; more precise European Parliament and Council is optional. EUR-Lex identifies a 27 July 2026 consolidated version; original act remains a valid historical citation and should retain 2024."
+  },
+  {
+    "key": "european_commission_liability_2019",
+    "cited": true,
+    "status": "verified_optional_enrichment",
+    "verified_citation": "European Commission, Directorate-General for Justice and Consumers (2019). Liability for artificial intelligence and other emerging digital technologies. DOI 10.2838/573689; PDF ISBN 978-92-76-12959-2.",
+    "changes": [
+      {
+        "field": "author",
+        "old": "{European Commission}",
+        "new": "{European Commission, Directorate-General for Justice and Consumers}",
+        "reason": "Optional: specify corporate author as listed by EU Publications Office; current parent institution attribution is not a false attribution."
+      },
+      {
+        "field": "isbn",
+        "old": null,
+        "new": "978-92-76-12959-2",
+        "reason": "Optional: add ISBN for PDF edition, matching existing DOI."
+      }
+    ],
+    "sources": [
+      {
+        "title": "EU Publications Office official record",
+        "url": "https://op.europa.eu/en/publication-detail/-/publication/1c5e30be-1197-11ea-8c1f-01aa75ed71a1/language-en"
+      }
+    ],
+    "limitations": "Keep existing DOI 10.2838/573689 for PDF; 10.2838/25362 is a different print-format DOI. Existing Brussels is institutional address, not independently verified publisher location; avoid substituting location without also changing institutional/publisher structure."
+  },
+  {
+    "key": "prolific",
+    "cited": false,
+    "status": "verified",
+    "verified_citation": "Prolific (2026). Prolific [Online participant recruitment platform]. https://www.prolific.com.",
+    "changes": [],
+    "sources": [
+      {
+        "title": "Platform official citation guidance",
+        "url": "https://researcher-help.prolific.com/en/articles/445123-how-do-i-cite-prolific"
+      }
+    ],
+    "limitations": "2026 form matches current official guidance. June 2026 access date records author usage and cannot be externally verified; leave unchanged. This is a platform, not a paper."
+  },
+  {
+    "key": "stein_dont_2020",
+    "cited": false,
+    "status": "unverifiable",
+    "verified_citation": "Unverified: Stein, Jens-Peter and others (2020), [NOT FOUND] Don't Let Me Down: The Role of Algorithmic Complexity in Algorithm Aversion.",
+    "changes": [
+      {
+        "field": "entry",
+        "old": null,
+        "new": "quarantine pending original source",
+        "reason": "Proposal for review: move the uncited, explicitly flagged record out of active bibliography into an archive of unverified references; do not invent replacement metadata."
+      }
+    ],
+    "sources": [],
+    "limitations": "Exact-title and author/title searches found no matching scholarly record. Existing entry itself warns that title/authors may be fabricated. Absence in search is not proof of nonexistence. No primary source can be supplied; source identity remains unresolved."
+  }
+]

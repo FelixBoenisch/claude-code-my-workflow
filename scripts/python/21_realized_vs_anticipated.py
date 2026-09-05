@@ -25,11 +25,12 @@ from lib.paths import FIGURES
 from lib import manifest
 
 KEYS = ["del_good", "nodel_good", "del_bad", "nodel_bad"]
-TICKS = ["Delegated", "Self-decided", "Delegated", "Self-decided"]
+TICKS = ["Delegated", "Own decision", "Delegated", "Own decision"]
 TERRA = "#bb7843"   # Player A anticipated punishment
 GREEN = "#5b7553"   # Player B realized punishment (matches fig:punishment)
 X = [0, 1.0, 2.6, 3.6]
 W = 0.345
+BAR_GAP = 0.04
 YMAX = 1.15
 HEIGHT = 4.2 * YMAX / 0.8  # same pounds-per-inch as fig:punishment
 
@@ -43,17 +44,19 @@ def draw(dg, ev, save_to):
     fig, ax = plt.subplots(figsize=(6.8, HEIGHT))
     for x, c in zip(X, KEYS):
         first = x == 0
-        ax.bar(x - 0.5 * W, pun_m[c], width=W, yerr=pun_s[c], capsize=3,
+        left = x - 0.5 * (W + BAR_GAP)
+        right = x + 0.5 * (W + BAR_GAP)
+        ax.bar(left, pun_m[c], width=W, yerr=pun_s[c], capsize=3,
                color=GREEN, error_kw=dict(lw=1.1),
                label="Player B realized punishment ($n=%d$)" % len(ev)
                if first else None)
-        ax.bar(x + 0.5 * W, bel_m[c], width=W, yerr=bel_s[c], capsize=3,
+        ax.bar(right, bel_m[c], width=W, yerr=bel_s[c], capsize=3,
                color=TERRA, error_kw=dict(lw=1.1),
                label="Player A anticipated punishment ($n=%d$)" % len(dg)
                if first else None)
-        ax.text(x - 0.5 * W, 0.03, f"{pun_m[c]:.2f}", ha="center",
+        ax.text(left, 0.03, f"{pun_m[c]:.2f}", ha="center",
                 color="white", fontsize=8, fontweight="bold")
-        ax.text(x + 0.5 * W, 0.03, f"{bel_m[c]:.2f}", ha="center",
+        ax.text(right, 0.03, f"{bel_m[c]:.2f}", ha="center",
                 color="white", fontsize=8, fontweight="bold")
     ax.set_ylabel("Average punishment (£)")
     ax.set_ylim(0, YMAX)

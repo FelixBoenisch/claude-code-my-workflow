@@ -3,9 +3,9 @@
 Layout: cells grouped by outcome (good pair left, bad pair right), each cell
 showing average punishment (moss green, left axis, +-1 SE whiskers) and the
 share imposing punishment (gold, right axis), values printed on the bars.
-The main figure adds n.s. brackets over each within-outcome pair and the
-good-vs-bad difference in average punishment as a green arrow connecting
-dashed group-mean lines.
+The main figure and attention-check-passers figure add n.s. brackets over
+each within-outcome pair and the good-vs-bad difference in average punishment
+as a green arrow connecting dashed group-mean lines.
 
 Outputs:
   figures/punishment.png              -- Punishment condition, full sample (body)
@@ -28,12 +28,13 @@ from lib.paths import FIGURES
 from lib import manifest
 
 KEYS = ["punish_del_good", "punish_nodel_good", "punish_del_bad", "punish_nodel_bad"]
-TICKS = ["Delegated", "Self-decided", "Delegated", "Self-decided"]
+TICKS = ["Delegated", "Own decision", "Delegated", "Own decision"]
 GREEN = "#5b7553"   # average punishment
 GOLD = "#C4A54F"    # share imposing punishment
 TERRA = "#bb7843"   # Player A anticipated punishment (matches fig:realized_vs_anticipated)
 X = [0, 1.0, 2.6, 3.6]
 W = 0.345
+BAR_GAP = 0.04
 
 
 def paired_wilcoxon(a, b) -> float:
@@ -47,6 +48,17 @@ def paired_wilcoxon(a, b) -> float:
         return float("nan")
 
 
+def significance_stars(p: float) -> str:
+    """Return the manuscript's significance-star convention."""
+    if p < 0.01:
+        return "***"
+    if p < 0.05:
+        return "**"
+    if p < 0.10:
+        return "*"
+    return ""
+
+
 def draw_figure(df, save_to, annotate=False, beliefs=None, n_bel=None,
                 passers=None):
     """One punishment panel in the W9 design. `beliefs` adds Player A's
@@ -58,20 +70,31 @@ def draw_figure(df, save_to, annotate=False, beliefs=None, n_bel=None,
     sh_sem = {c: (df[c] > 0).sem() for c in KEYS}
     n = len(df)
 
-    fig, ax = plt.subplots(figsize=(6.8, 4.2))
+    fig_width = 8.4 if beliefs is not None and passers is None else 6.8
+    fig, ax = plt.subplots(figsize=(fig_width, 4.2))
     ax2 = ax.twinx()
     if beliefs is None:
         w, xs = W, X
-        offs = {"avg": -0.5 * W, "share": 0.5 * W}
+        offs = {"avg": -0.5 * (W + BAR_GAP),
+                "share": 0.5 * (W + BAR_GAP)}
+    elif passers is None:
+        w = W
+        xs = [0, 1.25, 3.0, 4.25]
+        offs = {"bel": -(w + BAR_GAP), "avg": 0,
+                "share": w + BAR_GAP}
     else:
         w = 0.24
         xs = [0, 1.65, 4.0, 5.65]
-        offs = {"bel": -2 * w, "avg": -w, "avg_p": 0, "share": w, "share_p": 2 * w}
+        step = w + BAR_GAP
+        offs = {"bel": -2 * step, "avg": -step, "avg_p": 0,
+                "share": step, "share_p": 2 * step}
     for x, c in zip(xs, KEYS):
         first = x == 0
         if beliefs is not None:
-            ax.bar(x + offs["bel"], beliefs[c.replace("punish", "belief")].mean(),
-                   width=w, yerr=beliefs[c.replace("punish", "belief")].sem(),
+            belief_key = c.replace("punish", "belief")
+            belief_mean = beliefs[belief_key].mean()
+            ax.bar(x + offs["bel"], belief_mean,
+                   width=w, yerr=beliefs[belief_key].sem(),
                    capsize=3, color=TERRA, error_kw=dict(lw=1.0),
                    label="Player A anticipated ($n=%d$)" % n_bel if first else None)
         ax.bar(x + offs["avg"], m[c], width=w, yerr=s[c], capsize=3, color=GREEN,
@@ -98,6 +121,13 @@ def draw_figure(df, save_to, annotate=False, beliefs=None, n_bel=None,
                     color="white", fontsize=8, fontweight="bold")
             ax2.text(x + offs["share"], 3.0, f"{sh[c]:.0%}", ha="center",
                      color="white", fontsize=8, fontweight="bold")
+        elif passers is None:
+            ax.text(x + offs["bel"], 0.028, f"{belief_mean:.2f}", ha="center",
+                    color="white", fontsize=8, fontweight="bold")
+            ax.text(x + offs["avg"], 0.028, f"{m[c]:.2f}", ha="center",
+                    color="white", fontsize=8, fontweight="bold")
+            ax2.text(x + offs["share"], 3.0, f"{sh[c]:.0%}", ha="center",
+                     color="white", fontsize=8, fontweight="bold")
     ax.set_ylabel("Average punishment (£)", color=GREEN)
     ax.tick_params(axis="y", labelcolor=GREEN)
     ax.set_ylim(0, 1.0 if beliefs is not None else 0.8)
@@ -120,6 +150,10 @@ def draw_figure(df, save_to, annotate=False, beliefs=None, n_bel=None,
             ax.text((x1 + x2) / 2, y + 0.028, "n.s.", ha="center", fontsize=8.5)
         g_avg = (m["punish_del_good"] + m["punish_nodel_good"]) / 2
         b_avg = (m["punish_del_bad"] + m["punish_nodel_bad"]) / 2
+        amt_good = (df["punish_del_good"] + df["punish_nodel_good"]) / 2
+        amt_bad = (df["punish_del_bad"] + df["punish_nodel_bad"]) / 2
+        _, p_outcome = stats.ttest_rel(amt_bad, amt_good)
+        stars = significance_stars(float(p_outcome))
         # zorder 0.5 puts the group-mean lines behind the bars
         ax.plot([-0.38, 1.8], [g_avg, g_avg], color=GREEN, lw=1.2,
                 ls=(0, (4, 2)), zorder=0.5)
@@ -127,7 +161,8 @@ def draw_figure(df, save_to, annotate=False, beliefs=None, n_bel=None,
                 ls=(0, (4, 2)), zorder=0.5)
         ax.annotate("", xy=(1.8, b_avg), xytext=(1.8, g_avg),
                     arrowprops=dict(arrowstyle="<->", color=GREEN, lw=1.4))
-        ax.text(1.73, (g_avg + b_avg) / 2, f"+£{b_avg - g_avg:.2f}***",
+        ax.text(1.73, (g_avg + b_avg) / 2,
+                f"+£{b_avg - g_avg:.2f}{stars}",
                 ha="right", va="center", fontsize=9, color=GREEN)
 
     h1, l1 = ax.get_legend_handles_labels()
@@ -145,14 +180,12 @@ def main() -> None:
     pun_full = e[e["treat"] == 0]
     pun_pass = pun_full[pun_full["pass_att2"] == 1]
     hypo_full = e[e["treat"] == 1]
-    hypo_pass = hypo_full[hypo_full["pass_att2"] == 1]
     dg_nop = d[d["treat"] == 1]
 
     m, sh = draw_figure(pun_full, FIGURES / "punishment.png", annotate=True)
-    draw_figure(pun_pass, FIGURES / "punishment_passers.png", annotate=False)
+    draw_figure(pun_pass, FIGURES / "punishment_passers.png", annotate=True)
     draw_figure(hypo_full, FIGURES / "punishment_hypothetical.png",
-                annotate=False, beliefs=dg_nop, n_bel=len(dg_nop),
-                passers=hypo_pass)
+                annotate=False, beliefs=dg_nop, n_bel=len(dg_nop))
 
     # Outcome-difference statistics (paired, subject level)
     amt_good = (pun_full["punish_del_good"] + pun_full["punish_nodel_good"]) / 2

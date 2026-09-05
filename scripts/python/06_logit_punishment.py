@@ -120,9 +120,13 @@ def main() -> None:
             models=[l_full, l_pass],
             extra_rows=extra,
             note=note,
-            column_spec="@{\\extracolsep{5pt}}lcc",
+            column_spec=(
+                "@{\\extracolsep{5pt}}l"
+                "*{2}{>{\\centering\\arraybackslash}p{2.0cm}}"
+            ),
             stars=True,
             note_width=0.75,
+            separate_note=True,
         ),
         encoding="utf-8",
     )

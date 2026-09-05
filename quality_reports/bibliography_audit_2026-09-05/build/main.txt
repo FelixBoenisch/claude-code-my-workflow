@@ -1,0 +1,1635 @@
+Accountability and Algorithmic Delegation: Experimental
+                       Evidence
+
+                                         Felix Bönisch*
+
+                                      September 5, 2026
+
+
+
+                                            Abstract
+
+     Experimental evidence suggests that delegation can shift responsibility for adverse out-
+     comes onto human intermediaries. We ask whether the same motive applies to delegation
+     to algorithms. In a preregistered online experiment with 322 participants, a decision-
+     maker chooses to make a payoff-relevant prediction for a matched recipient or delegate it
+     to an algorithm, calibrated to perform equally well. We vary between subjects whether the
+     recipient can impose punishment. The prospect of punishment reduces delegation by 18.3
+     percentage points, from 60.8% to 42.5%, reversing the direction that the responsibility-
+     shifting account predicts. Delegation, in turn, offers no protection. Recipients condition
+     punishment primarily on the realized outcome, not on whether the prediction was dele-
+     gated. We discuss several candidate mechanisms for this reversal.
+
+
+JEL Classification: C91, D91, O33
+Keywords: algorithms; delegation; responsibility; punishment; experiment
+
+
+
+
+  * WZB Berlin Social Science Center. Email: boenischfelix@gmail.com. [To do: Add acknowledgments]
+
+
+
+                                                 1
+1       Introduction
+
+Algorithms shape a growing share of consequential decisions. Many of these decisions carry
+consequences that fall, at least in part, on others. Physicians rely on diagnostic systems, firms
+let screening software rank job applicants, and financial advisors draw on algorithmic tools.
+In each setting, a human decides whether to rely on the algorithm. Who bears responsibility
+when the resulting decision causes harm is the subject of a lively legal (Lemley and Casey, 2019;
+Buiten et al., 2023), ethical (Matthias, 2004; Santoni de Sio and Mecacci, 2021), and policy
+(European Commission, Directorate-General for Justice and Consumers, 2019; European Union,
+2024) debate. Yet the normative question of where responsibility should lie is distinct from
+the behavioral questions of how responsibility is attributed and how those attributions shape
+behavior. Does delegating a decision to an algorithm change the responsibility that affected
+parties assign to the delegator? And does the prospect of being held responsible affect the
+decision to delegate? We provide experimental evidence on both questions.
+For delegation between humans, the experimental literature points in a clear direction. Delega-
+tion shifts responsibility. Principals who delegate an unpopular decision to a human intermedi-
+ary are punished less for it, feel less responsible for it, and delegate strategically for that reason
+(Bartling and Fischbacher, 2012; Hamman et al., 2010; Coffman, 2011; Oexl and Grossman,
+2013). Recent evidence suggests that algorithms can inherit the intermediary’s role. Delegating
+to an algorithm helps decision-makers escape blame for adverse outcomes (Feier et al., 2022),
+lets them shed moral responsibility for self-serving choices (Tontrup and Sprigman, 2025) and
+makes dishonesty easier by obscuring intent (Köbis et al., 2025). If algorithms provide such
+cover, decision-makers who face potential punishment should be drawn to them, and delega-
+tion should protect the delegator when outcomes turn out badly. Yet no existing study varies
+whether delegators can be punished, leaving untested whether the prospect of punishment in
+fact motivates delegation.
+We address both questions in a preregistered online experiment with 322 participants.1 A
+decision-maker, Player A, first completes ten rounds of a prediction task for her own payoff,
+and then makes an additional prediction that determines the payoff of a matched recipient,
+Player B. Player A can either make the consequential prediction for Player B herself or delegate
+it to an algorithm calibrated to perform equally well at the task. Thus, the environment we
+study, a prediction task with outcome uncertainty performed by a decision-maker with no
+material stake in the affected party’s outcome, resembles the settings in which algorithmic
+delegation typically operates in practice. We then vary between subjects whether Player B
+can reduce Player A’s earnings. In the Punishment condition, we elicit Player B’s punishment
+for every combination of delegation choice and prediction outcome, providing a within-subject
+test of whether delegation insulates Player A from punishment, conditional on the outcome.
+In the No-Punishment condition, no such punishment is possible. With everything except the
+    1
+    The preregistration (AsPredicted #133980) is available at https://aspredicted.org/hs9az8.pdf and
+reproduced in full in Appendix C.
+
+
+                                                  2
+possibility of punishment held fixed, any difference in delegation rates is attributable to that
+possibility, allowing us to test directly whether the prospect of being held responsible moves
+the delegation decision.
+We find that the prospect of punishment reverses the prediction based on the literature. When
+punishment is possible, 42.5 percent of decision-makers delegate to the algorithm. When it is
+not, 60.8 percent do. The possibility of punishment thus reduces delegation by 18.3 percentage
+points. Delegation, in turn, offers no protection against punishment. Conditional on the
+outcome, Player B punishes delegated and Player A’s own decisions similarly, and punishment
+responds almost entirely to the outcome of the prediction rather than to how it was made.
+The possibility of punishment thus affects the decision to delegate, even though delegating draws
+no differential punishment. We examine several explanations to reconcile these findings. The
+first is anticipated punishment. Player A may keep the decision because she expects delegation
+to be punished more harshly. Her elicited beliefs provide no evidence of such an expectation
+and instead match how Player B actually punishes. The second is punishment-induced effort.
+Player A may keep the decision in hopes of outperforming the algorithm in the prediction
+task for Player B, in which case decision-makers should improve on their earlier performance
+precisely when punishment is possible. Instead, improvement concentrates where punishment
+is impossible. Third, by keeping the decision, Player A may aim to signal a willingness to try
+on Player B’s behalf, whereas delegation may appear as shirking. Because performance is noisy,
+the choice to retain control can carry this signal even without a measurable improvement in
+performance. However, the signal carries monetary value only if Player A expects apparent
+shirking to draw harsher punishment, which her beliefs do not indicate. Detached from actual
+punishment, Player A may instead care directly about Player B’s judgment. Because Player B
+can form such a judgment in both conditions, however, this concern can explain the treatment
+difference only if the prospect of punishment activates or strengthens it. Lastly, the data show
+selection in performance. It is disproportionately the better-performing Player As who retain
+the decision. Both an intrinsic preference for producing the good outcome oneself and a distaste
+for delegating uncertain decisions are consistent with this selection, but they operate in both
+conditions alike and cannot on their own generate the treatment difference. Thus, while the
+drop in delegation under punishment is robust, which motive produces it is a question we
+narrow down rather than settle.
+Our contribution is twofold. First, we provide, to our knowledge, the first direct test of whether
+the prospect of punishment encourages delegation to an algorithm, as prior evidence on delega-
+tion to human intermediaries would predict (Bartling and Fischbacher, 2012; Hamman et al.,
+2010; Coffman, 2011; Oexl and Grossman, 2013). Our environment departs from these canon-
+ical designs in three respects. The intermediary is an algorithm rather than a person. The
+decision involves genuine uncertainty, so a bad outcome may reflect bad luck rather than bad
+intent. And its immediate consequences fall entirely on the recipient, so the underlying decision
+involves no tradeoff between the players’ payoffs and there is no self-serving choice to police. In
+
+
+                                                3
+this environment, the effect runs in the opposite direction. The prospect of punishment discour-
+ages rather than encourages delegation, and it does so selectively among the decision-makers
+most likely to succeed. This reversal is the paper’s main empirical result, adding a determi-
+nant of preferences over algorithm use that operates through the decision context rather than
+through algorithm characteristics or the task.
+Second, we use Player B’s punsihment decision to examine how an affected party assigns respon-
+sibility for algorithmic delegation when the delegation choice is uninformative about relative
+ability. The closest precedent is Feier et al. (2022), whose treatments vary whether the in-
+termediary is an algorithm or another participant under a fixed punishment regime, whereas
+we hold the intermediary fixed as an algorithm and vary whether punishment is possible. In
+their environment, decisions delegated to an algorithm are rewarded more generously than
+non-delegated decisions after bad outcomes. However, the same subject both makes a delega-
+tion choice and evaluates the decision, so that evaluations may partly reflect participants’ own
+delegation choices. Moreover, the delegation decision is strongly determined by beliefs about
+relative ability between oneself and the intermediary, inviting punishment of overconfidence
+rather than of delegation itself. Our design is intended to remove both channels by separating
+the delegator and evaluator roles and making delegation uninformative about relative ability.
+Once both channels are closed, the differential disappears, and punishment tracks the realized
+outcome instead.
+The remainder of the paper is organized as follows. Section 2 relates the study to the literature.
+Section 3 presents the experimental design and hypotheses. Section 4 reports the results and
+examines candidate mechanisms. Section 5 concludes.
+
+
+
+2         Related Literature
+
+Delegation has long been studied as an efficiency-enhancing institutional arrangement in which
+principals rely on agents with better information, lower opportunity costs, or specialized skills.2
+Alongside these efficiency motives, the literature has identified a range of strategic motives. Del-
+egation can serve, for instance, as a commitment device that alters the equilibrium (Schelling,
+1960; Fershtman and Gneezy, 2001), as a way to motivate the agent (Aghion and Tirole, 1997),
+or as a means of shifting responsibility for the outcome away from the principal, both in her
+own eyes (felt responsibility) and in the eyes of others (attributed blame).
+Responsibility avoidance through delegation. The political-science and public-choice
+literatures recognized early that delegation can shift blame onto an intermediary (Weaver,
+1986; Fiorina, 1986). Experimental economics has established the same motive in incentivized
+settings, primarily using modified dictator games. Bartling and Fischbacher (2012) provide the
+canonical experimental evidence. In their design, a dictator may either choose between a fair
+and an unfair allocation of an endowment or instead delegate this choice to another person whose
+    2
+        For an early overview of the principal–agent literature see, e.g., Bolton and Dewatripont (2005).
+
+
+                                                          4
+monetary incentives are aligned with the dictator’s. A recipient, who is adversely affected by
+the unfair allocation, may then assign costly punishment to the dictator and the intermediary.
+They find that delegation effectively shifts punishment from the dictator to the intermediary,
+and the prospect of avoiding punishment constitutes a strong motive for the delegation decision
+itself. Complementary experiments suggest that the reduction in the principal’s punishment
+stems from the absence of direct interaction with the affected party rather than from a pure
+transfer of blame to a deciding intermediary. The principal escapes punishment even when
+the intermediary remains completely passive, but not when the principal continues to interact
+with the recipient directly (Coffman, 2011). The blame the intermediary absorbs, by contrast,
+attaches to the act of choosing rather than to any contribution to the outcome. Punishment
+lands on the intermediary even when delegation itself has eliminated the fair option, leaving him
+only the choice between two unfair allocations (Oexl and Grossman, 2013). Consistent with
+blame attaching to the act of choosing, randomization devices provide the principal weaker
+cover than deciding humans (Bartling and Fischbacher, 2012; Oexl and Grossman, 2013) and
+attract correspondingly less delegation (Bartling and Fischbacher, 2012). The responsibility-
+shifting motive does not require a punishment stage. Hamman et al. (2010) find that principals’
+transfers to recipients fall sharply under delegation even without any punishment opportunity,
+and that principals report feeling less responsible for the resulting allocations, indicating that
+responsibility shifting also operates through felt responsibility and moral wiggle room.
+Beyond the canonical dictator-game setting, the responsibility-shifting motive, and the strategic
+use of delegation it gives rise to, have been documented across a range of domains. Voters
+strategically avoid being pivotal, and non-pivotal voters are indeed punished less for the same
+group outcome (Bartling et al., 2015). Principals pay agents to lie on their behalf and deceive
+more readily through a delegate than directly (Erat, 2013; Kandul and Kirchkamp, 2018; Gawn
+and Innes, 2019). Observers rate delegating legislatures as less blameworthy, and do so even
+when the delegate is powerless to change the outcome (Hill, 2015). In financial decision-making,
+investors delegate financial decisions partly to shift blame (Holzmeister et al., 2023; Freer et
+al., 2026).
+In sum, the literature documents that, in settings with self-interested choice, delegation reduces
+both the principal’s punishment and her felt responsibility, in turn motivating delegation. Our
+setting departs from this canonical design along three dimensions. First, the intermediary is
+algorithmic rather than human. Second, the outcome falls entirely on a passive recipient rather
+than partly on the principal herself. Third, the underlying decision involves genuine predictive
+uncertainty rather than a known fair–unfair choice, removing the transparent self-serving intent
+that punishment sanctions. Whether the responsibility-shifting motive retains its force under
+these conditions is the question we take up.
+Delegation to algorithms. A large empirical literature studies when and why people are will-
+ing to use algorithmic decision aids. Dietvorst et al. (2015) coin the term algorithm aversion
+for the finding that people prefer their own or other humans’ judgment over algorithmic predic-
+
+
+                                                5
+tions, even after observing that algorithms outperform human decision-makers.3 In contrast,
+Logg et al. (2019) document conditions under which subjects show appreciation of algorithmic
+advice over human advice. The picture that emerges is therefore one of substantial hetero-
+geneity in algorithm preferences across tasks, contexts, and elicitation methods. Burton et al.
+(2020), Mahmud et al. (2022), Chugunova and Sele (2022), Qin et al. (2025) and Irlenbusch
+(2026) provide systematic reviews of this literature and document a large array of moderators
+for when and why algorithms are used in decision-making. Yet in our design, preferences for
+or against algorithms as such should merely produce level effects on delegation rates. Our
+between-subject treatment comparison holds the algorithm, the task, and the decision context
+fixed and varies only whether punishment is possible, so that such level effects difference out.
+Responsibility perceptions of decisions involving algorithms. Within this body of
+work, a smaller subset focuses on algorithm use preferences in settings whose consequences fall
+partly or wholly on someone other than the decision-maker, sometimes called the moral domain
+(Gogoll and Uhl, 2018). Much of this work concludes that aversion to algorithms is amplified
+once third-party welfare is at stake. Gogoll and Uhl (2018) document this in an incentivized
+calculation task with performance uncertainty, Bigman and Gray (2018) in vignettes across
+high-stakes moral domains (driving, legal, medical, military), and Jauernig et al. (2022) identify
+moral discretion as the human capacity that people are most reluctant to hand over in such
+contexts.4
+Once decisions affect others, the responsibility-shifting motive established for delegation to
+humans may become relevant also for algorithmic delegation, and with it the question of how
+observers apportion blame when an algorithm is involved in the decision. A first strand of
+evidence, predominantly vignette-based and unincentivized, finds leniency toward the human
+decision-maker. Physicians who follow standard-of-care AI recommendations are judged less
+harshly, and face lower legal exposure, than physicians who reject them, among lay and expert
+evaluators alike (Tobia et al., 2021; Tacconelli et al., 2026). Algorithmic discrimination in
+hiring triggers less moral outrage than identical human discrimination (Bigman et al., 2023).
+In autonomous driving, blame tracks the allocation of control. The same harm is judged more
+leniently when an autonomous vehicle rather than a human driver causes it (Gill, 2020), whereas
+under shared control drivers receive more blame than their vehicles, even for crashes they could
+not reasonably avoid (Awad et al., 2020; Beckers et al., 2022). The link between control and
+blame extends beyond driving, with humans who merely monitor an algorithm blamed less
+than humans who decide alone (Shank et al., 2019).
+A second strand uses incentivized experiments. Much of it finds that algorithmic intermediaries
+can serve as moral cover. Extending the canonical dictator game of Bartling and Fischbacher
+(2012), Chevrier and Teixeira (2024) find that delegation to an algorithm lowers expected
+   3
+     Interest in the comparison between human and statistical judgment is long-standing. See Meehl (1954) and
+Dawes (1979) for the classic demonstrations that simple statistical rules outperform clinical judgment and are
+resisted nonetheless.
+   4
+     For recent surveys of this area, see Bonnefon et al. (2024) and, with a legal-policy focus, Sunstein and Gaffe
+(2025).
+
+
+                                                        6
+punishment relative to choosing the same inegalitarian allocation directly. Compared with
+delegation to a human intermediary, recipients punish less often following algorithmic delegation
+but impose more punishment on the delegator when they do. In a similar setting, Tontrup and
+Sprigman (2025) let dictators hand the execution of a transfer they chose to a large language
+model. Transfers fall when this option is available, and dictators as well as outside observers
+attribute part of the responsibility to the machine. Köbis et al. (2025) find that delegation to
+algorithms increases dishonest behavior. In a consequential donation choice with real moral
+stakes, Hüholt and Szech (2026) find that subjects delegate more often when an AI rather
+than a human is available and that delegation is associated with lower reported responsibility.
+However, not all studies find evidence of such cover. Ismagilova and Ploner (2025) study an
+investment task in which agents either choose investments on behalf of principals themselves or
+delegate the choice to an algorithm. Principals’ decisions to reward or punish agents depend on
+the realized return, but this outcome dependence does not differ significantly between delegated
+and non-delegated decisions.
+The study closest to ours is Feier et al. (2022). In their design, a subject determines the
+payoff of another participant either through her own performance in a Raven-style logic task
+or, depending on the treatment, through delegation to another human or to an algorithm. The
+affected participant can reward or punish the subject for the decision and its result. They
+find that after good outcomes delegated and self-made decisions are rewarded similarly in
+both treatments. After bad outcomes, decisions delegated to the algorithm, but not decisions
+delegated to another human, are rewarded more generously than self-made ones. Delegation
+rates do not differ significantly across treatments.
+Our design departs from theirs in three respects. First, their algorithm is calibrated at the ses-
+sion level, so the delegation decision signals the subject’s beliefs about her own ability relative
+to the session performance distribution. As a result, punishment may partly sanction perceived
+overconfidence, outweighing any downstream punishment as a measure of responsibility shift-
+ing.5 We calibrate the algorithm at the individual level, which removes the relative-performance
+signal from the delegation decision by construction. Second, in their design the same subject
+acts as both delegator and evaluator, which can import motives of self-justification or hypocrisy
+aversion into the punishment decision.6 We separate the two roles across disjoint subject pools.
+Third, their design holds the punishment possibility fixed across treatments, so it cannot iden-
+tify whether the prospect of punishment motivates delegation in the first place. Any difference
+in delegation rates in their design may thus be due to general preferences for algorithm use. We
+vary the punishment possibility directly. Our experiment therefore provides, to our knowledge,
+the first direct test of how the prospect of punishment by an affected party influences delegation
+to an algorithm.
+   5
+     Their own analysis shows that the propensity to delegate is driven primarily by beliefs about task perfor-
+mance, not by the type of delegate.
+   6
+     In their data, for example, evaluators who themselves delegated evaluate delegated decisions more favorably
+than self-made ones after good outcomes, whereas non-delegating evaluators favor self-made decisions (r =
+−0.34, p = 0.004, machine treatment; own computations from their published data).
+
+
+                                                       7
+3       Experimental Design
+
+We ran an online experiment via the British platform Prolific (https://www.prolific.com) with
+UK participants. The experiment was programmed in oTree (Chen et al., 2016) and eligibility
+followed Prolific’s standard quality screens, a minimum 95% prior approval rate, a fluent-English
+filter, and a desktop-only restriction (no mobile or tablet) that kept the screen layout consistent
+across subjects.
+The design combines a between-subject manipulation of whether costly punishment is possible
+with a within-subject elicitation of conditional punishment behavior. Within each condition,
+participants assumed one of two roles. Player A decides whether to make a payoff-relevant pre-
+diction for Player B herself, or to delegate the prediction to an algorithm calibrated to match
+her own measured performance. Player B is the matched recipient whose payoff is fully deter-
+mined by the outcome of the prediction, whether Player A makes it herself or delegates it to
+the algorithm. In the Punishment condition Player B may subsequently punish Player A, con-
+ditional on both the delegation decision and the realized outcome, while in the No-Punishment
+condition no punishment is possible. Figure 1 summarizes the basic setup.
+
+                         Figure 1: Overview of the experimental conditions
+                             not delegate
+                                                 Own prediction
+                                                                         Determines Player B’s
+                                                                           payoff (£5 / £1)
+        Player A                                                                                  Player B
+
+
+                                                    Algorithm
+                               delegate
+
+
+
+
+                       Punishment condition: Player B may reduce Player A’s payoff by up to £2,
+                                             conditional on delegation choice and outcome
+                    No-Punishment condition: No punishment option
+
+
+
+
+Procedure
+
+Player A
+
+After providing informed consent, Player A completed ten incentivized rounds of a visual pre-
+diction task. Specifically, in each round, she predicted a person’s weight from a facial image and
+the person’s height. She could enter predictions via a slider or type them directly in kilograms,
+pounds, or stones-and-pounds.7 No feedback was provided between rounds. At the end of the
+experiment, one of the ten rounds was randomly selected for payment. Player A earned £4
+if her prediction in that round was within 10 lbs of the true weight and £2 otherwise. These
+    7
+    All individuals depicted in the images had explicitly consented to the use of their photographs for research
+purposes.
+
+
+                                                        8
+initial rounds served three purposes simultaneously: First, they established a stake from which
+any later punishment could be deducted. Second, they familiarized Player A with the task.
+Third, they generated the performance data needed to calibrate the algorithm.
+The choice of a visual prediction task is not incidental. Algorithm preferences may depend
+sensitively on the algorithm’s perceived relative competence (Qin et al., 2025; Logg et al.,
+2019). Our design neutralizes this concern by calibrating the algorithm to match each subject’s
+individual performance. The visual nature of the task lends credibility to this equal-performance
+claim, as people have everyday familiarity with judging others’ build and appearance, and
+algorithmic error is plausible.8 In contrast, subjects may be skeptical that an algorithm could
+ever fail in purely mathematical tasks (Gogoll and Uhl, 2018; Feier et al., 2022). Finally, we
+chose a prediction task involving genuine uncertainty rather than a setting with an obvious
+self-serving motive (as in classic dictator-game variations). This reflects the nature of many
+real-world applications of algorithms, in which outcomes are inherently uncertain, the decision-
+maker has no direct material interest in the affected party’s outcome, and performance is
+evaluated ex post.
+After the ten rounds, we randomly paired Player A with another participant, Player B, who
+had not completed the prediction task himself. We informed Player A that her final prediction
+would not affect her own payoff but would almost entirely determine Player B’s. A prediction
+within 10 lbs of the true weight would give Player B a high payoff (£5), and any less accurate
+prediction a low payoff (£1).9 Player A then learned that she could either make the prediction
+herself or delegate it to an algorithm. She was also told that, based on her first ten predictions,
+the algorithm would have performed equally well.
+We calibrated the algorithm to mimic Player A’s own performance over the first ten rounds.
+Concretely, if Player A delegated the final prediction to the algorithm, the algorithm was
+equivalent to drawing a Bernoulli outcome with success probability equal to Player A’s empirical
+accuracy rate over her first ten rounds. For example, a subject who scored 3 out of 10 in the
+initial rounds thus delegates to an algorithm that produces the high payoff for Player B with
+30% probability.
+Fixing the algorithm’s success probability to each subject’s own accuracy makes the equal-
+performance claim hold subject by subject, not merely on average across a pool of participants.
+This matters because beliefs about relative performance are otherwise likely a dominant driver
+of delegation.10 For example, under the session-level calibration of Feier et al. (2022), the
+delegation choice is largely driven by each subject’s sense of her ability relative to the algorithm.
+Matching the algorithm to each subject neutralizes this motive, and making this performance
+   8
+     Predicting body weight from an image has been used in earlier experiments (Logg et al., 2019).
+   9
+     Since the final prediction determines only Player B’s payoff, Player A has no financial interest in Player B re-
+ceiving the low payoff. As long as a better outcome for Player B weakly reduces Player A’s expected punishment
+in the Punishment condition, the incentives of the two players can be considered aligned.
+  10
+     This motive would not inherently bias the treatment-effect comparison, since it should be balanced across
+the Punishment and No-Punishment conditions, but it might otherwise dominate the delegation decision and
+may obscure the responsibility-shifting motive of interest.
+
+
+                                                         9
+parity common knowledge should limit Player B from reading delegation as a signal of Player A’s
+believed relative competence. This makes any difference in punishment easier to interpret as a
+response to delegation itself rather than to perceived overconfidence.
+In the Punishment condition, we further informed Player A that Player B could impose (costly)
+punishment of up to £2, and could condition punishment on both her delegation decision and
+the realized outcome. In the No-Punishment condition, Player B had no such punishment
+option. The two delegation options (own decision / algorithm) appeared in random order
+across subjects. Following prior work, we attach no monetary cost to delegation (Bartling and
+Fischbacher, 2012; Coffman, 2011; Feier et al., 2022).11 If Player A chose to make the prediction
+herself, she entered her final prediction on the next screen. If she delegated instead, this screen
+was skipped.
+We then asked Player A to report her beliefs about Player B’s punishment in each of the four
+scenarios resulting from the combination of delegation decision (yes/no) and prediction outcome
+(high/low payoff for Player B). We elicited beliefs on the same scale as actual punishment for
+Player B (£0–£2 in £0.10 increments) and presented the four scenarios in block-wise random
+order. We chose not to incentivize belief elicitation for three reasons. First, only two of the
+four scenarios remain payoff-relevant after the delegation decision, making the others purely
+hypothetical. Second, an incentivized mechanism could induce hedging. Third, an incentive-
+compatible scoring rule across four scenarios would have substantially increased task complexity.
+Because we are nonetheless interested in comparing punishment beliefs to actual punishment,
+we included an attention check on the belief-elicitation screen. In the No-Punishment condition,
+where no actual punishment was possible, we elicited beliefs about hypothetical punishment to
+keep the experimental flow identical across conditions.
+We then asked Player A to assess her own performance in the first ten rounds by assigning a
+probability mass (summing to 100%) to each possible score from 0 to 10.12 We elicited this
+belief after the delegation decision, and after Player A had been told that the algorithm would
+perform equally well. While learning about relative algorithm performance may lead her to
+revise her beliefs about her own performance, it is precisely this post-update belief that is the
+analytically relevant input for any subsequent behavior. We also asked Player A to estimate
+the distribution of scores in the population, assigning to each score from 0 to 10 the share of
+participants she expected to have achieved it. Combined with her belief about her own score,
+this locates where she places herself in the distribution and yields a measure of perceived ability
+relative to other participants. One score was drawn at random at the end of the experiment,
+and Player A earned £0.30 if her estimate for it fell within five percentage points of the realized
+  11
+     This allows the delegation decision in the No-Punishment condition to more closely reflect Player A’s
+intrinsic preference over delegation. Moreover, if delegation carried a positive cost, any responsibility-shifting
+motive would first have to outweigh that cost.
+  12
+     The elicitation was incentivized. Player A earned an additional £0.30 with the probability she had assigned
+to her actual score. While this linear scoring rule is not proper as its payoff-maximizing report places all mass
+on the single most likely score, irrespective of risk attitude, in practice most subjects spread probability mass
+across several scores.
+
+
+
+                                                       10
+population share.
+Finally, we elicited risk preferences using an incentivized multiple price list in the style of Holt
+and Laury (2002) and administered a short questionnaire on socio-demographic characteristics
+and technology affinity, before presenting Player A with her preliminary payoff.
+
+
+Player B
+
+After providing informed consent, Player B learned that he had been randomly matched with a
+Player A, and introduced to the task Player A had completed. He learned that his own payoff
+would be determined by the outcome of Player A’s final prediction – £5 if it fell within 10 lbs of
+the true weight and £1 otherwise – while Player A’s payoff depended solely on her performance
+in the initial ten rounds. Crucially, we also told Player B that Player A had the option to
+delegate the final prediction to an algorithm that performs as well as Player A had performed
+in the earlier rounds, and that Player A was aware of this, making it common knowledge.
+In the Punishment condition, Player B could choose to reduce Player A’s payoff by up to £2
+in £0.10 increments. We focus on punishment rather than reward because the responsibility-
+attribution literature has predominantly operationalized blame through punishment (Bartling
+and Fischbacher, 2012; Coffman, 2011; Steffel et al., 2016). Imposing strictly positive pun-
+ishment required Player B to forgo £0.10 of his own earnings, ensuring that punishment was
+costly to the punisher. We elicited punishment decisions for all four combinations of dele-
+gation (yes/no) and outcome (high/low payoff for Player B), implementing only the decision
+matching the realized combination. Because the punishment decision is the central outcome
+variable for Player B, we included an attention check on the punishment-elicitation screen. In
+the No-Punishment condition, where actual punishment was not possible, we elicited hypothet-
+ical punishment decisions on the same scale. Player B’s perceptions of task difficulty, his risk
+preferences, and a short questionnaire followed, before we presented him with his final payoff.
+After Player B’s decisions were recorded, we calculated Player A’s final payoff and paid all
+participants on the day of participation.
+
+
+Hypotheses and identification
+
+Our design tests two main hypotheses, both grounded in the literature on responsibility avoid-
+ance through delegation to human intermediaries (Bartling and Fischbacher, 2012; Coffman,
+2011; Oexl and Grossman, 2013; Hamman et al., 2010; Hill, 2015; Steffel et al., 2016) and on
+responsibility attributions to algorithmic decision-makers (Feier et al., 2022; Gogoll and Uhl,
+2018). These strands of the literature mostly focus on what Gogoll and Uhl (2018) have coined
+the moral domain. Although the underlying prediction task is not itself moral, Player A’s choice
+imposes monetary consequences on a matched recipient, and a poor prediction causes real mone-
+tary harm. In this respect, our setting shares the defining feature of the settings this literature
+
+
+                                                11
+studies. The responsibility-shifting account predicts that delegation protects Player A from
+punishment following an adverse outcome. If Player A anticipates this protection and does not
+expect it to be offset by greater punishment for delegation following a favorable outcome, the
+possibility of punishment should make delegation more attractive. Accordingly, we formulate
+Hypothesis 1.
+
+Hypothesis 1 (Delegation). The introduction of potential punishment increases the likelihood
+that Player A delegates the final prediction to the algorithm.
+
+Hypothesis 1 is grounded in empirical evidence that responsibility avoidance shapes delegation
+decisions involving human intermediaries. Bartling and Fischbacher (2012) also show that
+subjects are more likely to delegate morally consequential decisions even to a die roll, an early
+form of delegation to a non-intentional decision mechanism, suggesting that the motive of
+responsibility avoidance persists when the intermediary lacks intentionality. Whether the same
+logic extends to algorithmic delegates, to decisions under genuine uncertainty, and to settings in
+which the outcome falls entirely on the recipient is less explored. Feier et al. (2022) report that
+delegation rates are similar for human and algorithmic intermediaries, suggesting that the kind
+of intermediary may matter less than the mere availability of one. Their design, however, does
+not compare delegation rates across punishment regimes, leaving open the question Hypothesis 1
+addresses. Hypothesis 1 is identified by the between-subject comparison of Player A’s delegation
+rate across the Punishment and No-Punishment conditions, which exploits the punishment
+manipulation as the only between-subject difference and holds fixed every other feature of the
+decision environment.
+The delegation response predicted by Hypothesis 1 rests on Player A anticipating protection
+from punishment following an adverse outcome. This gives rise to our second hypothesis.
+
+Hypothesis 2 (Punishment). Conditional on a low-payoff outcome, delegation reduces
+Player B’s punishment of Player A.
+
+Evidence for Hypothesis 2 comes from Bartling and Fischbacher (2012), who find that delegation
+to a randomization device allows decision-makers to avoid some punishment following an unfair
+outcome, although less so than delegation to another human. Similarly, Feier et al. (2022)
+find that decision-makers receive more favorable evaluations following bad outcomes when they
+delegated to an algorithm than when they relied on their own performance.
+Existing evidence also offers some support for the absence of an offsetting punishment premium
+for delegation following favorable outcomes. Feier et al. (2022) find no significant difference
+between evaluations of delegated and own decisions following good outcomes, and in the dictator
+game settings with human intermediaries, Bartling and Fischbacher (2012) and Coffman (2011)
+find no significant increase in punishment for intermediation when the resulting allocation is
+fair. Moreover, although Coffman (2011) show in a separate experiment that intermediation
+can reduce the reward assigned to prosocial behavior, receiving less credit need not translate
+into punishment when there is no adverse consequence to sanction.
+
+                                                12
+Hypothesis 2 is identified by the within-subject comparison between delegated and own pre-
+dictions following a low-payoff outcome. The corresponding comparison following a high-payoff
+outcome provides evidence on whether delegation itself attracts additional punishment, inde-
+pendent of the outcome. Both comparisons isolate the effect of delegation on punishment while
+holding fixed both the realized consequences for Player B and all between-subject heterogeneity
+in Player B’s punishment proclivity.
+
+
+
+4      Results
+
+Data collection took place between February and June 2023 through the British online platform
+Prolific, with participation restricted to UK residents. A total of 322 subjects were recruited
+(161 assigned to Player A, 161 to Player B).13 On average, Player A spent 12 minutes com-
+pleting the experiment and earned £3.62, while Player B spent approximately 8 minutes and
+earned £2.40. The treatment groups are balanced on the background characteristics reported
+in Appendix A.1, Table 3.
+In the following, we first test the two main hypotheses derived from our preregistered research
+questions (Results 1-2). The subsequent analyses serve to understand the mechanism behind
+these results (Results 3-5). They are exploratory in nature, though several of them were outlined
+as secondary analyses in the preregistration.14
+
+
+Player A – Delegation behavior
+
+We begin by examining the delegation behavior of Player A. In the Punishment condition,
+where Player B can punish, 42.5% of Player As delegated the final prediction to the algorithm.
+In the No-Punishment condition, where punishment is impossible, 60.8% delegated. The intro-
+duction of potential punishment thus significantly reduces delegation by 18.3 percentage points,
+opposing the direction posited by Hypothesis 1.15 Figure 2 illustrates the difference. Delegation
+  13
+      We preregistered the collection of data from 320 participants (80 subjects per role per treatment). Due
+to attrition and subsequent re-matching we recruited an extra pair in the No-Punishment condition. For the
+Player A analyses, we exclude two subjects in the No-Punishment condition because they entered a prediction
+of 0 lbs. in at least eight of the ten initial rounds.
+   14
+      Unless stated otherwise, all tests are two-sided. We describe results as significant if p < 0.05 and as
+weakly significant if 0.05 ≤ p < 0.10. Because the delegation decision is a binary outcome compared between
+conditions, delegation shares are tested using Pearson Chi-squared tests, with Fisher’s exact tests yielding the
+same conclusions throughout. Because punishment is elicited within-subject through the strategy method,
+punishment comparisons use paired t-tests, with Wilcoxon signed-rank tests as non-parametric counterparts.
+Regressions report robust (HC1) standard errors. The preregistration and any deviations from the preregistered
+analyses are described in Appendix C.
+   15
+      A within-subject corroborator points in the same direction. Player As in the No-Punishment condition were
+asked, after their actual delegation decision, the hypothetical question of whether they would have delegated had
+punishment been possible. Among the 79 respondents, 12 would have stopped delegating under hypothetical
+punishment (25% of delegators) while only 5 would have started (16.1% of non-delegators), constituting weakly
+significant switching behavior towards making the prediction oneself with punishment possible (within-subject
+McNemar’s test p = 0.090), and yielding a hypothetical delegation rate of 51.9%.
+
+
+
+                                                       13
+shares around 50% are consistent with subjects, on average, finding the claim of equal relative
+performance between themselves and the algorithm credible. Their behavior reflects neither
+systematic preference for one’s own prediction nor systematic deference to the algorithm.
+
+Result 1. The possibility of punishment significantly reduces the likelihood that Player A
+delegates the final prediction to the algorithm.
+
+
+                                Figure 2: Delegation shares by condition
+
+
+
+
+                      Note: Bars show the share of Player As who delegated the final
+                      prediction to the algorithm in each condition. Whiskers are ±1
+                      standard error of the mean. The treatment difference is significant
+                      at the 5% level (Pearson Chi-squared test, p = 0.021).
+
+
+We next examine the robustness of the observed treatment difference in delegation shares.
+Table 1 presents Probit estimates of the delegation decision. Column (1) reports the uncondi-
+tional treatment effect. Column (2) adds socio-demographic and other background character-
+istics. Columns (3) and (4) add Player A’s actual performance (number of correct predictions
+in the first ten rounds) and her belief about her own performance, respectively. Column (5)
+restricts the sample to subjects who passed the attention check.16 The treatment effect is
+robust across all five specifications. Average marginal effects indicate that introducing the
+punishment possibility reduces the probability of delegation by 18.3 to 21.8 percentage points.
+Actual performance is negatively and significantly associated with delegation, whereas the re-
+lationship with perceived performance is weaker. We return to this pattern when discussing
+the mechanisms.
+  16
+    While the attention check was included on another screen, it may still correlate with who took the delegation
+decision seriously.
+
+
+
+                                                       14
+                        Table 1: Determinants of the delegation decision
+                                                       Dependent variable: Delegation
+                                                     Full sample                           Passers
+                                 (1)           (2)                 (3)          (4)           (5)
+Punishment indicator         −0.462∗∗      −0.473∗∗           −0.537∗∗       −0.489∗∗     −0.589∗∗
+                              (0.201)       (0.206)            (0.209)        (0.207)      (0.235)
+Task performance                                              −0.160∗∗                    −0.203∗∗
+                                                               (0.081)                     (0.089)
+Perceived performance                                                         −0.075
+                                                                              (0.057)
+Age                                          −0.003            −0.002         −0.002         0.002
+                                             (0.009)           (0.009)        (0.009)       (0.011)
+Female                                        0.141             0.194          0.181         0.372
+                                             (0.228)           (0.230)        (0.231)       (0.257)
+Socio-economic status                        −0.044            −0.042         −0.036        −0.086
+                                             (0.071)           (0.073)        (0.072)       (0.081)
+Went to uni                                   0.032             0.062          0.020         0.118
+                                             (0.228)           (0.226)        (0.227)       (0.248)
+Technology score                             −0.065            −0.036         −0.056         0.024
+                                             (0.093)           (0.096)        (0.093)       (0.109)
+Leadership position                          0.415∗            0.444∗         0.411∗         0.278
+                                             (0.226)           (0.228)        (0.226)       (0.256)
+Constant                       0.273∗         0.533             0.908          0.801         0.851
+                               (0.143)       (0.557)           (0.593)        (0.606)       (0.673)
+
+AME of Punishment (pp)         −18.3∗∗       −18.3∗∗          −20.3∗∗∗        −18.7∗∗      −21.8∗∗∗
+                             (p = 0.019)   (p = 0.019)       (p = 0.008)    (p = 0.016)   (p = 0.009)
+N                                159           157               157            157           128
+Pseudo R2                       0.024         0.042             0.060          0.051         0.077
+ Note: Coefficients from a Probit regression of the delegation decision on the Punishment in-
+ dicator and a set of controls. Robust (HC1) standard errors in parentheses. Significance:
+ ∗
+   p < 0.10; ∗∗ p < 0.05; ∗∗∗ p < 0.01. Due to missing socio-demographic data, two subjects
+ are dropped in Columns (2)–(5). The AME of Punishment reports the average change in the
+ predicted probability of delegation from introducing the punishment possibility, in percentage
+ points.
+
+
+
+
+                                                       15
+Player B – Punishment behavior
+
+We now turn to Player B’s punishment behavior in the Punishment condition, in which punish-
+ment was payoff-relevant. Punishment is substantial in all four (delegation, outcome) scenarios
+of the strategy method, with average punishment between £0.30 and £0.55 (Figure 3, left axis).
+Punishment responds strongly to the outcome. Player Bs punish bad outcomes significantly
+more than good outcomes, by £0.20 on average, indicating that measured punishment carries
+real informational content rather than being random. The substantial punishment after good
+outcomes need not reflect noise either. Player Bs can hold views about how the final prediction
+should have been made, independently of the realized outcome, and can punish accordingly.17
+
+              Figure 3: Player B punishment by delegation and outcome scenario
+
+
+
+
+  Note: For each (delegation, outcome) scenario, the green bars report the average punishment chosen by
+  Player B (left y-axis, in pounds) and the gold bars the share of Player Bs imposing non-zero punishment
+  (right y-axis, in percent), in the Punishment condition. Whiskers are ±1 standard error of the mean. The
+  brackets mark the within-outcome comparisons of average punishment between delegated and Player A’s
+  own predictions. The dashed lines mark the mean of average punishment within each outcome group.
+  The subsample of attention-check passers is shown in Appendix Figure 6. Hypothetical punishment in the
+  No-Punishment condition is reported in Appendix Figure 8.
+
+
+Holding the outcome fixed, Player B punishes delegated and own decisions no differently. After
+a good outcome, average punishment is £0.33 for delegated and £0.30 for own decisions (paired
+t-test, p = 0.53; Wilcoxon signed-rank p = 0.27). After a bad outcome, £0.48 versus £0.55.
+The punishment gap for bad outcomes thus runs in the direction predicted by Hypothesis 2
+but is small and statistically insignificant (£0.07; paired t-test p = 0.13; Wilcoxon signed-rank
+p = 0.54).
+
+Result 2. Conditional on a low-payoff outcome, Player B does not punish delegated decisions
+significantly less than Player A’s own decisions.
+  17
+   For example, Coffman (2011) likewise documents non-trivial punishment in settings where the decision-
+maker’s action could not have been improved upon.
+
+
+
+                                                    16
+Regression analysis in Appendix A.2 Table 4 confirms this pattern. Punishment loads over-
+whelmingly on the outcome, while the effect of delegation is essentially zero.18 The same
+pattern holds on the extensive margin (Appendix A.3 Table 5). For each outcome, the share of
+Player Bs imposing any punishment is indistinguishable between delegated and own decisions
+(Figure 3, right axis). Punishment is also far from universal. Nearly half of Player Bs (45.0%)
+impose no punishment in any of the four scenarios. Within each scenario, average punishment
+therefore reflects a punishing minority rather than light, diffuse sanctioning.
+In sum, Player B punishes delegated decisions neither less harshly nor less frequently than
+Player A’s own decisions. In our setting, Player A can therefore not escape punishment by
+delegating the final prediction to the algorithm, but she also pays no punishment premium
+for doing so. Punishment responds almost entirely to the realized outcome.19 This result also
+bears on Result 1 as any treatment difference in delegation frequencies driven by punishment
+avoidance would be inconsistent with Player B’s observed punishment behavior.
+
+
+Mechanisms
+
+Result 1 does not merely fail to support Hypothesis 1, but the effect is statistically significant
+in the opposite direction. The possibility of punishment discourages, rather than encourages,
+delegation to the algorithm. Thus, the prospect of punishment alters Player A’s delegation
+decision, even though we detect no punishment penalty for delegating. In the remainder of this
+section, we examine the data more closely and weigh candidate explanations with the goal of
+reconciling the two main results.
+
+
+Departures from canonical settings. Hypothesis 1 drew on evidence from settings that
+differ from ours in ways that plausibly matter. In the modified dictator games of Bartling
+and Fischbacher (2012); Coffman (2011); Hamman et al. (2010); Oexl and Grossman (2013),
+the decision-maker chooses between a fair and an unfair allocation. Her intent is therefore
+transparent, the chosen allocation is implemented with certainty, and the unfair option benefits
+her directly at the recipient’s expense. Punishment in these settings sanctions a deliberate, self-
+serving act, and delegation is attractive precisely because it blurs the link between the principal
+and that act. Our prediction task departs from these settings. The outcome is uncertain,
+so a bad outcome may reflect bad luck rather than bad intent, and neither option affects
+Player A’s own monetary payoff, leaving no self-serving choice to police. With little intent
+  18
+      In the regression, because punishment for the four scenarios is elicited within-subject, any stable character-
+istic of Player B is differenced out and cannot, by construction, confound the within-subject comparison. Thus,
+the control variables merely capture the between-subject association with Player B’s average punishment level.
+We find no striking relationship between Player B’s average punishment level and either their socio-demographic
+characteristics or their beliefs about Player A’s absolute performance.
+   19
+      Hypothetical punishment choices elicited from Player Bs in the No-Punishment condition corroborate this
+conclusion (Appendix Figure 8). If anything, these Player Bs state that they would punish a delegated decision
+more than a decision made directly by Player A after a bad outcome (£0.53 versus £0.43; paired t-test,
+p = 0.069; Wilcoxon signed-rank p = 0.11).
+
+
+
+                                                        17
+worth sanctioning, any intention-based punishment motive may lose its bite, and with it does
+the value to Player A of placing an algorithm between herself and the outcome. We nevertheless
+chose this task deliberately since prediction under genuine uncertainty, by a decision-maker
+with no direct material stake in the affected party’s outcome, is the environment in which
+real-world algorithmic delegation typically operates. These departures, however, may explain
+the absence of the predicted effect, not its reversal. A reversal requires a motive that weighs
+against delegation when punishment is possible.
+
+
+Anticipated differential punishment. The most natural candidate explanation is antici-
+pation of differential punishment. Player A may expect a delegated decision to be punished
+more harshly than an own decision, and delegate less in response. Such an expectation would,
+for example, be consistent with previous evidence that observers view the delegation of morally
+consequential decisions to machines relatively critically (e.g., Gogoll and Uhl, 2018; Bigman
+and Gray, 2018; Jauernig et al., 2022; Bonnefon et al., 2024).
+After the delegation decision but before learning the outcome, we elicited Player A’s beliefs
+about Player B’s punishment in each of the four (delegation, outcome) scenarios. Anticipated
+punishment can affect behavior only where punishment is possible. We therefore focus the
+analysis of punishment beliefs on the Punishment condition. Two patterns emerge (Figure 4).
+First, Player As, on average, substantially overestimate punishment in every scenario. Second,
+Player As expect essentially the same punishment for delegated and own decisions, conditional
+on the outcome, correctly anticipating the pattern in Player B’s actual punishment behavior
+(Result 2). Thus, elicited beliefs provide no support for a punishment anticipation mechanism
+for Result 1.20
+Player As, however, are not unanimous in the punishment penalty they expect. We therefore
+ask whether these individual differences predict delegation. Table 2 reports Probit regressions
+of the delegation decision on Player A’s belief difference in expected punishment (no delega-
+tion − delegation), so that higher values correspond to a larger expected punishment penalty for
+deciding herself. All specifications are restricted to the Punishment condition. Columns (1)–(3)
+use the simple average of the belief differences for good and bad outcomes, Column (4) replaces
+the simple average with a weighted average, using Player A’s elicited probability of producing
+the high payoff as the weight, and Column (5) enters the two differences separately.
+Expected differential punishment does not predict delegation in the full sample (Columns (1)–
+(2)). Among subjects who passed the attention check on the belief-elicitation screen, the
+relationship sharpens. A £0.10 larger expected punishment penalty for deciding herself is
+associated with a 4.7 percentage-point higher probability of delegation (Column (3)), and with
+5.5 percentage points under the weighted specification (Column (4)).21
+  20
+     The same holds for the fully hypothetical beliefs elicited in the No-Punishment condition, which closely
+track those in the Punishment condition (Appendix Figure 8). The treatment manipulation itself therefore
+appears not to have changed what subjects expected punishment to be.
+  21
+     In the decomposition of Column (5), the good-outcome belief difference carries the relationship (2.7 per-
+
+
+                                                     18
+               Figure 4: Realized vs. anticipated punishment, by scenario
+
+
+
+
+Note: Player B’s realized punishment (green bars) and Player A’s anticipated punishment (terracotta
+bars), in pounds, across the four (delegation, outcome) scenarios in the Punishment condition (full
+sample). Whiskers denote ±1 standard error of the mean. The subsample of attention-check passers
+is shown in Appendix Figure 7.
+
+
+
+
+                                                19
+                            Table 2: Delegation and beliefs about punishment
+                                                                     Dependent variable: Delegation
+                                                    Full Punishment                        Punishment, passers
+                                                    (1)              (2)           (3)             (4)             (5)
+Belief difference, average (∆)                     0.346            0.398       1.661∗∗
+                                                  (0.407)          (0.448)       (0.700)
+Belief difference, weighted by Pr(good) (∆w )                                                    1.992∗∗
+                                                                                                 (0.794)
+Belief difference, bad outcome (∆bad )                                                                            0.590
+                                                                                                                 (0.424)
+Belief difference, good outcome (∆good )                                                                         0.961∗∗
+                                                                                                                 (0.412)
+Task performance                                                  −0.208∗      −0.362∗∗∗        −0.342∗∗     −0.381∗∗∗
+                                                                  (0.111)       (0.136)          (0.142)      (0.138)
+Age                                                                0.023∗       0.039∗∗          0.040∗∗         0.039∗∗
+                                                                   (0.012)      (0.016)          (0.016)         (0.016)
+Female                                                              0.152       0.950∗∗          1.026∗∗         0.845∗
+                                                                   (0.350)      (0.427)          (0.406)         (0.444)
+Socio-economic status                                              −0.049        −0.006          −0.055           0.001
+                                                                   (0.111)       (0.131)         (0.133)         (0.126)
+Went to uni                                                         0.071        −0.278          −0.169          −0.275
+                                                                   (0.363)       (0.412)         (0.408)         (0.409)
+Technology score                                                   −0.061         0.048           0.072           0.033
+                                                                   (0.138)       (0.170)         (0.173)         (0.167)
+Leadership position                                                 0.302        −0.301          −0.279          −0.245
+                                                                   (0.312)       (0.408)         (0.408)         (0.411)
+Constant                                          −0.198           −0.345        −1.228          −1.281          −1.115
+                                                  (0.142)          (0.826)       (1.155)         (1.147)         (1.165)
+
+AME of belief measure (pp per £0.10)                1.3              1.4          4.7∗∗           5.5∗∗∗
+                                                (p = 0.388)      (p = 0.370)   (p = 0.011)     (p = 0.006)
+AME: good-outcome difference (pp per £0.10)                                                                     2.7∗∗
+                                                                                                             (p = 0.010)
+AME: bad-outcome difference (pp per £0.10)                                                                       1.7
+                                                                                                             (p = 0.165)
+Controls                                            ×                ✓             ✓                ✓             ✓
+Passers only                                        ×                ×             ✓                ✓             ✓
+N                                                   80              78            60                60           60
+Pseudo R2                                         0.007            0.098         0.248            0.263         0.252
+
+  Note: Probit estimates with robust (HC1) standard errors in parentheses. Sample restricted to the
+  Punishment condition throughout. Belief differences are within-subject (no delegation) − (delegation)
+  in expected punishment, so positive coefficients indicate that subjects who expect to be punished more
+  harshly for not delegating (relative to delegating) are more likely to delegate. Columns (1)–(3) use
+  the simple average of the good-outcome and the bad-outcome belief difference. Column (4) instead
+  weights the good-outcome difference by Player A’s elicited probability of producing the high payoff and
+  the bad-outcome difference by the complementary probability. Column (5) enters the two differences
+  separately. The AME rows report the average marginal effect of the belief measure entered in the
+  respective column on the probability of delegation, in percentage points per £0.10 increase in the
+  corresponding belief difference.
+
+
+
+
+                                                            20
+Taken together, the belief evidence does not support anticipated differential punishment as the
+mechanism behind Result 1. For anticipation of punishment to generate an 18.3 percentage-
+point delegation gap between conditions, Player As would need to expect systematically harsher
+punishment for delegated decisions. The measured beliefs show no such expectation, and such
+an expectation would not have been correct, as Player B’s realized punishment exhibits no
+delegation penalty either (Result 2). What the belief evidence does show is heterogeneity.
+Within the Punishment condition, Player As whose beliefs embody a larger penalty for deciding
+themselves are more likely to delegate. Anticipated punishment is thus a dimension along which
+subjects differ, but it provides no aggregate push toward less delegation under punishment.22
+We nonetheless read the belief evidence with caution. First, hypotheticality may introduce noise
+as only two of the four scenarios could still materialize after Player A’s delegation decision in
+the Punishment condition.23 Second, the elicitation of beliefs was unincentivized and took
+place after the delegation decision, so reports may reflect post-hoc rationalization rather than
+the beliefs that drove the choice.
+
+Result 3. On average, Player A expects no differential punishment for delegation, mirroring
+Player B’s actual punishment behavior.
+
+
+Sample composition. Result 1 is not an artifact of sample composition either. Treatment
+randomization produced balance across socio-demographic and other background character-
+istics (Appendix A.1, Table 3). Initial task performance, however, is weakly higher in the
+No-Punishment condition. Player As averaged 2.76 versus 3.15 correct predictions out of ten
+in the Punishment and No-Punishment conditions, respectively (t-test, p = 0.059; Figure 5).
+However, this difference works against Result 1. As we have seen, lower-performing Player As
+are more likely to delegate, so that the lower average performance in the Punishment condi-
+tion should raise delegation there and therefore attenuate, rather than generate, the observed
+treatment difference. Player As in both conditions report similar perceived performance (4.65
+versus 4.89, respectively).24 Finally, the treatment effect is robust to controlling for actual and
+perceived performance (Table 1, Columns (3)–(5)).
+
+
+Performance and delegation. In the Probit specifications, task performance is negatively
+and significantly associated with delegation (Table 1, Columns (3) and (5)). Descriptively,
+centage points per £0.10, p = 0.010), while the bad-outcome difference is positive but noisier (1.7 percentage
+points, p = 0.165). The two differences are nearly orthogonal in this sample, so we read their coefficients as ad-
+ditive partial slopes rather than competitors for the same variance. Under expected-utility reasoning, however,
+only their probability-weighted sum should enter the decision rule. We therefore treat Column (5) merely as a
+descriptive decomposition.
+  22
+     A mean expected penalty of zero need not rule out an effect on delegation if Player As react more strongly
+when they expect a penalty for delegating than when they expect one for deciding themselves. We find no such
+asymmetry.
+  23
+     In the No-Punishment condition all four scenarios were purely hypothetical.
+  24
+     Perceived performance is measured by the weighted-average belief about own performance. This overconfi-
+dence may partly reflect the information that the algorithm performs equally well.
+
+
+                                                       21
+this relationship is stronger in the Punishment condition than in the No-Punishment condition
+(Figure 5), although the difference between the two relationships is not statistically significant.
+For perceived performance, a directionally similar but weaker relationship emerges in both
+conditions. Thus, actual performance separates delegators from non-delegators and because
+the relationship is slightly stronger in the Punishment condition the delegation gap between
+conditions widens with performance. Player As who delegated in the Punishment condition
+scored on average 2.47 out of 10 in the first ten rounds, compared with 3.06 for delegators in
+the No-Punishment condition (t-test, p = 0.039). It is precisely the better performers who,
+particularly when punishment is on the table, keep the decision for themselves.
+
+Result 4. Better-performing Player As are less likely to delegate.
+
+
+                Figure 5: Delegation, performance, and confidence by condition
+
+
+
+
+    Note: The top panel shows the delegation share of Player A at each score, by treatment. Dot size
+    is proportional to the number of subjects at that score. The bottom panel shows the distributions
+    of actual and perceived (the weighted-average belief about own performance) scores, by condition.
+    Boxes span the interquartile range, the white line marks the median, and the white diamond the
+    mean.
+
+Our individual-level calibration is designed to remove the natural explanation for this relation-
+ship, namely that worse performers delegate because they believe the algorithm outperforms
+them. For example, in Feier et al. (2022), the algorithm’s performance distribution is matched
+to the distribution of human performance at the population level. A high-performing subject
+who recognizes her position in that distribution therefore rationally expects to outperform the
+algorithm, and a low-performing subject rationally expects the reverse. Delegation that de-
+clines with performance is then exactly what expected-payoff maximization predicts. In our
+experiment, by contrast, performance is equalized between the algorithm and each individual
+subject, and this equality of performance is common knowledge. The negative relationship
+
+                                                   22
+between performance and delegation therefore points to something other than beliefs about
+relative ability.
+Two mechanisms may account for the negative association between performance and delegation.
+The first is a preference over process ownership. Player As with a higher probability of producing
+the high payoff may prefer to bring it about themselves rather than have the algorithm do so,
+making delegation less attractive as performance rises. A symmetric version of this preference,
+under which Player As also wish to avoid personally producing a low payoff, yields the same
+negative relationship. Relatedly, subjects’ preferences may depend on outcome uncertainty.
+Dietvorst and Bharti (2020) document that the preference for algorithms declines as outcome
+uncertainty rises. In our setting, uncertainty is arguably greatest when the probability of
+success is near one half. Because most subjects score below 5 out of 10, better performance
+moves that probability toward this point. A reluctance to delegate more uncertain decisions
+could therefore likewise make better-performing Player As less likely to delegate.
+Both readings describe motives that should operate similarly in both conditions. They can
+therefore account for the performance-delegation relationship, but not on their own for the
+treatment difference in delegation. Indeed, evaluated against this negative relationship, the
+slightly lower average performance in the Punishment condition would, if anything, imply more
+delegation. It is nevertheless conceivable that the prospect of punishment makes these concerns
+more salient. For example, even with equal expected punishment, being punished for a decision
+one gave away may feel different from being punished for a decision one made oneself. Or
+relinquishing control over an uncertain outcome may trouble Player A only once that outcome
+carries indirect consequences for Player A. The descriptively stronger performance–delegation
+relationship under punishment is consistent with such a treatment dependence in the salience
+of these motives. However, the treatment-specific relationships do not differ statistically. More-
+over, greater salience alone does not determine the aggregate effect. For example, a stronger
+symmetric preference over process ownership would tend to encourage delegation among the
+predominantly low-performing Player As, whereas an asymmetric desire to produce the good
+outcome oneself or a heightened reluctance to delegate uncertain decisions could discourage
+it. We therefore regard these motives merely as possible explanations for the performance-
+delegation relationship, but not as established explanations for the treatment difference.
+
+
+Effort to outperform the algorithm. Lastly, the prospect of punishment could motivate
+Player A to exert additional effort when making the final prediction for Player B. Although
+the algorithm’s chance of success is fixed by Player A’s past performance, the final prediction
+itself has yet to be made. Player A may thus believe that, by trying especially hard, she can
+outperform the algorithm and thereby give Player B a better chance of the high payoff. To the
+extent that she expects milder punishment after a good outcome, the prospect of punishment
+would then push her toward making the prediction herself. This story yields a testable predic-
+tion. Relative to the first ten rounds, non-delegators should improve their performance more
+in the Punishment condition than in the No-Punishment condition. Similar improvement in
+
+                                               23
+both conditions would instead indicate a punishment-independent motive, for instance altruism
+toward Player B, which cannot explain Result 1.
+The data do not support this story. Measuring improvement as the difference between a sub-
+ject’s average absolute prediction error over the first ten rounds and her absolute error on
+the final prediction, non-delegators in the No-Punishment condition improve, whereas non-
+delegators in the Punishment condition do not.25 Because all Player As faced the same images
+in the first ten rounds and on the final prediction, this contrast cannot reflect variation in image
+difficulty. Realized outcomes tell the same story. 48.4% of non-delegators in the No-Punishment
+condition earn the high payoff for Player B, compared with 21.7% in the Punishment condition,
+even though the two groups’ performance over the first ten rounds is statistically indistinguish-
+able (3.29 vs. 2.98 correct predictions; t-test, p = 0.316).26 If anything, performance on the
+final prediction is higher where punishment is unavailable, the opposite of what a punishment-
+motivated effort account predicts.27 Effort itself remains unobserved, however, and absolute
+prediction errors, realized outcomes as well as time spent on the decision screen are only im-
+perfect measures of it, so we cannot rule the channel out conclusively.28
+
+Result 5. The prospect of punishment does not induce additional effort.
+
+
+The signaling value of not delegating. Although the prospect of punishment does not
+appear to induce additional effort (Result 5), the delegation choice itself may communicate
+effort. By keeping the decision, Player A may want to convey to Player B that she takes
+the task seriously and intends to try hard on his behalf. Delegating, by contrast, could be
+perceived as shirking. The signal lies in the choice itself rather than in any effort that follows,
+so Result 5 does not speak against this account. Result 3, however, seems to. The signal
+has monetary value only if Player A expects delegation, as apparent shirking, to draw harsher
+punishment, whereas in the No-Punishment condition, Player A could shirk without monetary
+consequences. Result 3 indicates that Player As in the Punishment condition, on average, hold
+no such expectation, which leaves little monetary gain from sending the signal.29
+Two considerations keep this channel open. First, Player A may care about sending this signal,
+  25
+      Non-delegators in the No-Punishment condition reduce their prediction error by 8.11 lbs on average, com-
+pared with only 0.51 lbs in the Punishment condition (Welch t-test, p = 0.027; Mann–Whitney test, p = 0.014).
+Their average initial absolute errors are virtually identical (22.69 versus 22.47 lbs, respectively; Welch t-test,
+p = 0.857)
+   26
+      Balance among non-delegators across conditions coexists with the selection pattern rather than contradicting
+it. Non-delegators in the Punishment condition are drawn from a slightly weaker pool but are more strongly
+positively selected within it, so the two forces partly offset, whereas among delegators they compound.
+   27
+      Employing screen time as a measure for effort points in the same direction. In the Punishment condition
+Player As spend less time on the final prediction screen than in the No-Punishment condition (medians 16
+vs. 23 seconds). The same holds within subject, as non-delegators in both conditions spend more time on the
+final prediction than on an average initial round, but the increase is smaller under punishment (+5.0 vs. +8.0
+seconds).
+   28
+      For instance, if the prospect of punishment raised effort while the accompanying pressure depressed perfor-
+mance, additional effort would be present, yet masked.
+   29
+      At the individual level, this channel is consistent with the belief heterogeneity documented in Result 3,
+though a mean expected penalty of zero implies no aggregate push toward less delegation.
+
+
+                                                       24
+beyond any punishment attached to it. For this concern to explain the treatment difference,
+however, it would again have to be activated by the prospect of punishment itself. In our
+environment, where no self-serving option exists and outcomes are noisy, the delegation choice
+is the only deliberate act on which Player B can condition punishment, and thus the natural
+focus of any judgment he forms. Second, as discussed earlier, our punishment belief measure
+was unincentivized and elicited only after the delegation decision, so it may capture the beliefs
+behind that decision imperfectly and understate the penalty Player A anticipated for delegating.
+Either way, a concern about being perceived as shirking would weigh against delegation precisely
+when punishment is possible.
+
+
+Taking stock. The treatment difference in delegation shares (Result 1) is robust, but its
+mechanism remains unresolved. It is not a composition artifact, since the conditions are
+balanced in background characteristics, while the weak imbalance in task performance works
+against the treatment effect. Belief evidence suggests that anticipated differential punishment
+cannot explain the reversal either (Result 3). On average, Player A expects no punishment
+penalty for delegation, mirroring Player B’s realized punishment (Result 2), although Player As
+who expect a larger penalty for deciding themselves are more likely to delegate. Nor do we find
+evidence that punishment-induced effort can explain the reversal. Even though actual effort
+remains unobserved, non-delegators spend less time on the prediction for Player B and improve
+less under punishment, not more (Result 5). What the data do show is selection. It is the
+better-performing Player As who retain the decision (Result 4) . Preferences over process own-
+ership or outcome uncertainty are consistent with this selection but operate in both conditions
+alike. The signaling value of not delegating requires no actual additional effort (Result 5), how-
+ever, to explain the treatment effect it rests on being activated by the prospect of punishment
+itself.
+
+
+
+5    Conclusion
+
+As algorithms take over decisions that affect other people, who should answer for the results
+has become the subject of a lively legal, ethical, and policy debate. This paper examines the
+behavioral side of this debate. We ask whether the prospect of being held responsible shapes
+the decision to put an algorithm in charge, and whether putting an algorithm in charge shapes
+the responsibility assignment of those affected by the outcome. We take both questions to
+a preregistered online experiment in which a decision-maker either makes a payoff-relevant
+prediction for a recipient herself or delegates it to an algorithm calibrated, subject by subject,
+to match her own performance. Between subjects, we vary whether the recipient can reduce
+the decision-maker’s earnings. We elicit punishment for every combination of delegation choice
+and prediction outcome, so we observe directly whether delegation shields the delegator from
+punishment, conditional on the outcome. Because the two conditions differ only in whether
+
+
+                                               25
+punishment is possible, the comparison of delegation rates identifies the effect of the prospect
+of punishment on the decision to delegate.
+Both answers depart from the canonical account of delegation as a means of responsibility shift-
+ing. The prospect of punishment does not push decision-makers toward the algorithm but away
+from it, a reversal of the prediction imported from settings with human intermediaries (e.g.,
+Bartling and Fischbacher, 2012). Delegation, in turn, offers no protection against punishment.
+Recipients punish delegated and Player A’s own predictions alike, conditioning their sanctions
+almost entirely on the realized outcome rather than on how the prediction was made. The
+punishment result offers an explanation for why the canonical prediction fails, yet not for its
+reversal.
+We examine several explanations to reconcile these findings. Beliefs show no punishment pre-
+mium attached to delegation. Prediction outcomes and screen times do not indicate punishment-
+induced additional effort, whereby the decision-maker would retain the decision in the hope of
+outperforming the algorithm. Merely signaling to exert additional effort by retaining the de-
+cision would require no measurable effort at all, but move delegation only if the prospect of
+punishment gave the signal value. Belief evidence speaks against such a monetary value, leaving
+only a non-monetary value in which the prospect of punishment makes the recipient’s judgment
+salient in itself. However, both measures are imperfect. The belief elicitation was unincentivized
+and came only after the delegation decision, so it may capture post-hoc rationalization rather
+than the beliefs that drove the choice, while actual effort is unobserved, with prediction out-
+comes and screen times serving only as proxies. The measures may therefore simply fail to
+detect a decision-maker who fears that delegating will be read as shirking and draw harsher
+punishment, or who retains the decision to try to outperform the algorithm, a motive that
+would at least be consistent with recipients punishing bad outcomes more heavily. These limits
+leave the mechanism narrowed rather than settled.
+Nevertheless, we contribute by providing the first direct test of whether the prospect of pun-
+ishment motivates delegation to an algorithm, and show that in an environment with inherent
+task uncertainty and no self-serving choice to police, accountability disciplines algorithm use
+rather than fueling it. We also show that delegation cannot shift blame when the algorithm
+performs no better or worse than the decision-maker, with recipients conditioning their sanc-
+tions on the outcome rather than on how the prediction was made. More broadly, our findings
+add a determinant of algorithm use to those documented in the aversion literature, one that
+operates not through the algorithm or the task but through what delegating may convey about
+the person who chooses it.
+
+
+
+
+                                               26
+References
+Aghion, Philippe and Jean Tirole, “Formal and Real Authority in Organizations,” Journal
+ of Political Economy, 1997, 105 (1), 1–29.
+
+Awad, Edmond, Sydney Levine, Max Kleiman-Weiner, Sohan Dsouza, Joshua B.
+ Tenenbaum, Azim Shariff, Jean-François Bonnefon, and Iyad Rahwan, “Drivers
+ Are Blamed More Than Their Automated Cars When Both Make Mistakes,” Nature Human
+ Behaviour, 2020, 4 (2), 134–143.
+
+Bartling, Björn and Urs Fischbacher, “Shifting the Blame: On Delegation and Responsi-
+ bility,” The Review of Economic Studies, January 2012, 79 (1), 67–87.
+
+Bartling, Björn, Urs Fischbacher, and Simeon Schudy, “Pivotality and responsibility
+ attribution in sequential voting,” Journal of Public Economics, 2015, 128, 133–139.
+
+Beckers, Niek, Luciano Cavalcante Siebert, Merijn Bruijnes, Catholijn Jonker, and
+ David Abbink, “Drivers of Partially Automated Vehicles Are Blamed for Crashes That
+ They Cannot Reasonably Avoid,” Scientific Reports, 2022, 12 (1), 16193.
+
+Bigman, Yochanan E. and Kurt Gray, “People Are Averse to Machines Making Moral
+  Decisions,” Cognition, 2018, 181, 21–34.
+
+  , Desman Wilson, Mads N. Arnestad, Adam Waytz, and Kurt Gray, “Algorith-
+  mic Discrimination Causes Less Moral Outrage Than Human Discrimination,” Journal of
+  Experimental Psychology: General, 2023, 152 (1), 4–27.
+
+Bolton, Patrick and Mathias Dewatripont, Contract Theory, Cambridge, MA: MIT Press,
+ 2005.
+
+Bonnefon, Jean-François, Iyad Rahwan, and Azim Shariff, “The Moral Psychology of
+ Artificial Intelligence,” Annual Review of Psychology, 2024, 75, 653–675.
+
+Buiten, Miriam, Alexandre de Streel, and Martin Peitz, “The Law and Economics of
+ AI Liability,” Computer Law & Security Review, 2023, 48, 105794.
+
+Burton, Jason W., Mari-Klara Stein, and Tina Blegind Jensen, “A systematic review
+ of algorithm aversion in augmented decision making,” Journal of Behavioral Decision Making,
+ April 2020, 33 (2), 220–239.
+
+Chen, Daniel L., Martin Schonger, and Chris Wickens, “oTree — An Open-Source
+ Platform for Laboratory, Online, and Field Experiments,” Journal of Behavioral and Exper-
+ imental Finance, 2016, 9, 88–97.
+
+Chevrier, Mathieu and Vincent Teixeira, “Algorithm Delegation and Responsibility:
+ Shifting Blame to the Programmer?,” 2024. GREDEG Working Paper No. 2024-04, Uni-
+ versité Côte d’Azur.
+
+                                            27
+Chugunova, Marina and Daniela Sele, “We and It: An interdisciplinary review of the
+ experimental evidence on how humans interact with machines,” Journal of Behavioral and
+ Experimental Economics, August 2022, 99, 101897.
+
+Coffman, Lucas C, “Intermediation Reduces Punishment (and Reward),” American Eco-
+ nomic Journal: Microeconomics, November 2011, 3 (4), 77–106.
+
+Dawes, Robyn M., “The Robust Beauty of Improper Linear Models in Decision Making,”
+ American Psychologist, 1979, 34 (7), 571–582.
+
+Dietvorst, Berkeley J. and Soaham Bharti, “People Reject Algorithms in Uncertain
+ Decision Domains Because They Have Diminishing Sensitivity to Forecasting Error,” Psy-
+ chological Science, 2020, 31 (10), 1302–1314.
+
+  , Joseph P. Simmons, and Cade Massey, “Algorithm aversion: People erroneously avoid
+  algorithms after seeing them err.,” Journal of Experimental Psychology: General, 2015, 144
+  (1), 114–126.
+
+Erat, Sanjiv, “Avoiding Lying: The Case of Delegated Deception,” Journal of Economic
+  Behavior & Organization, 2013, 93, 273–278.
+
+European Commission, Directorate-General for Justice and Consumers, “Liability
+ for Artificial Intelligence and Other Emerging Digital Technologies,” Technical Report, Eu-
+ ropean Commission, Brussels 2019.
+
+European Union, “Regulation (EU) 2024/1689 of the European Parliament and of the Council
+ of 13 June 2024 Laying Down Harmonised Rules on Artificial Intelligence (Artificial Intelli-
+ gence Act),” Official Journal of the European Union, L, 2024/1689, 12 July 2024.
+
+Feier, Till, Jan Gogoll, and Matthias Uhl, “Hiding Behind Machines: Artificial Agents
+  May Help to Evade Punishment,” Science and Engineering Ethics, April 2022, 28 (2), 19.
+
+Fershtman, Chaim and Uri Gneezy, “Strategic Delegation: An Experiment,” The RAND
+  Journal of Economics, 2001, 32 (2), 352–368.
+
+Fiorina, Morris P., “Legislator Uncertainty, Legislative Control, and the Delegation of Leg-
+  islative Power,” Journal of Law, Economics, & Organization, 1986, 2 (1), 33–51.
+
+Freer, Mikhail, Daniel Friedman, and Simon Weidenholzer, “Motives for Delegating
+  Financial Decisions,” Games and Economic Behavior, September 2026, 159, 56–70.
+
+Gawn, Glynis and Robert Innes, “Lying Through Others: Does Delegation Promote De-
+ ception?,” Journal of Economic Psychology, 2019, 71, 59–73.
+
+Gill, Tripat, “Blame It on the Self-Driving Car: How Autonomous Vehicles Can Alter Con-
+ sumer Morality,” Journal of Consumer Research, 2020, 47 (2), 272–291.
+
+
+                                             28
+Gogoll, Jan and Matthias Uhl, “Rage against the machine: Automation in the moral
+ domain,” Journal of Behavioral and Experimental Economics, June 2018, 74, 97–103.
+
+Hamman, John R, George Loewenstein, and Roberto A Weber, “Self-Interest through
+ Delegation: An Additional Rationale for the Principal-Agent Relationship,” American Eco-
+ nomic Review, September 2010, 100 (4), 1826–1846.
+
+Hill, Adam, “Does Delegation Undermine Accountability? Experimental Evidence on the
+ Relationship Between Blame Shifting and Control,” Journal of Empirical Legal Studies, June
+ 2015, 12 (2), 311–339.
+
+Holt, Charles A. and Susan K. Laury, “Risk Aversion and Incentive Effects,” American
+ Economic Review, 2002, 92 (5), 1644–1655.
+
+Holzmeister, Felix, Martin Holmén, Michael Kirchler, Matthias Stefan, and Erik
+ Wengström, “Delegation Decisions in Finance,” Management Science, 2023, 69 (8), 4828–
+ 4844.
+
+Hüholt, Nicola and Nora Szech, “Trusting Machines with Morality – Delegating Moral
+ Decisions to AI,” European Economic Review, 2026, 184, 105255.
+
+Irlenbusch, Bernd, “Human Trust in AI: Evidence from Experimental Economics,” ECON-
+  tribute Discussion Paper 417, University of Bonn and University of Cologne June 2026.
+
+Ismagilova, Zilia and Matteo Ploner, “Ain’t Blaming You: Delegation of Financial Deci-
+  sions to Humans and Algorithms,” Computers in Human Behavior: Artificial Humans, 2025,
+  4, 100147.
+
+Jauernig, Johanna, Matthias Uhl, and Gari Walkowitz, “People Prefer Moral Discretion
+  to Algorithms: Algorithm Aversion Beyond Intransparency,” Philosophy & Technology, 2022,
+  35 (1), 2.
+
+Kandul, Serhiy and Oliver Kirchkamp, “Do I Care If Others Lie? Current and Future
+ Effects When Lies Can Be Delegated,” Journal of Behavioral and Experimental Economics,
+ 2018, 74, 70–78.
+
+Köbis, Nils, Zoe Rahwan, Raluca Rilla, Bramantyo Ibrahim Supriyatno, Clara
+ Bersch, Tamer Ajaj, Jean-François Bonnefon, and Iyad Rahwan, “Delegation to
+ artificial intelligence can increase dishonest behaviour,” Nature, 2025, 646 (8083), 126–134.
+
+Lemley, Mark A. and Bryan Casey, “Remedies for Robots,” University of Chicago Law
+  Review, 2019, 86 (5), 1311–1396.
+
+Logg, Jennifer M., Julia A. Minson, and Don A. Moore, “Algorithm appreciation: Peo-
+  ple prefer algorithmic to human judgment,” Organizational Behavior and Human Decision
+  Processes, March 2019, 151, 90–103.
+
+                                             29
+Mahmud, Hasan, A.K.M. Najmul Islam, Syed Ishtiaque Ahmed, and Kari Smolan-
+ der, “What influences algorithmic decision-making? A systematic literature review on algo-
+ rithm aversion,” Technological Forecasting and Social Change, February 2022, 175, 121390.
+
+Matthias, Andreas, “The Responsibility Gap: Ascribing Responsibility for the Actions of
+ Learning Automata,” Ethics and Information Technology, 2004, 6 (3), 175–183.
+
+Meehl, Paul E., Clinical versus Statistical Prediction: A Theoretical Analysis and a Review
+ of the Evidence, Minneapolis: University of Minnesota Press, 1954.
+
+Oexl, Regine and Zachary J. Grossman, “Shifting the blame to a powerless intermediary,”
+ Experimental Economics, September 2013, 16 (3), 306–312.
+
+Qin, Xin, Xiang Zhou, Chen Chen, Dongyuan Wu, Hansen Zhou, Xiaowei Dong,
+ Limei Cao, and Jackson G. Lu, “AI Aversion or Appreciation? A Capability–
+ Personalization Framework and a Meta-Analytic Review,” Psychological Bulletin, 2025, 151
+ (5), 580–599.
+
+Santoni de Sio, Filippo and Giulio Mecacci, “Four Responsibility Gaps with Artificial
+  Intelligence: Why They Matter and How to Address Them,” Philosophy & Technology, 2021,
+  34 (4), 1057–1084.
+
+Schelling, Thomas C., The Strategy of Conflict, Cambridge, MA: Harvard University Press,
+  1960.
+
+Shank, Daniel B., Alyssa DeSanti, and Timothy Maninger, “When are Artificial In-
+  telligence versus human agents faulted for wrongdoing? Moral attributions after individual
+  and joint decisions,” Information, Communication & Society, 2019, 22 (5), 648–663.
+
+Steffel, Mary, Elanor F. Williams, and Jaclyn Perrmann-Graham, “Passing the buck:
+  Delegating choices to others to avoid responsibility and blame,” Organizational Behavior and
+  Human Decision Processes, July 2016, 135, 32–44.
+
+Sunstein, Cass R. and Jared H. Gaffe, “An Anatomy of Algorithm Aversion,” Science
+  and Technology Law Review, January 2025, 26 (1), 290–317.
+
+Tacconelli, Alessandro, Jakob Merane, Aileen Nielsen, Kevin Tobia, Björn Hack-
+  anson, and Alexander Stremitzer, “How Following Medical Artificial Intelligence Advice
+  Can Mitigate Malpractice Liability: Cross-National Insights from a Randomized Trial,” Jour-
+  nal of Nuclear Medicine, 2026. Published online 4 June 2026; ahead of print.
+
+Tobia, Kevin, Aileen Nielsen, and Alexander Stremitzer, “When Does Physician Use
+  of AI Increase Liability?,” Journal of Nuclear Medicine, 2021, 62 (1), 17–21.
+
+Tontrup, Stephan and Christopher Jon Sprigman, “Strategic Delegation of Moral De-
+  cisions to AI,” October 2025. SSRN Working Paper No. 5696827. Written 6 October 2025;
+  posted 13 November 2025; revised 27 June 2026.
+
+                                             30
+Weaver, R. Kent, “The Politics of Blame Avoidance,” Journal of Public Policy, 1986, 6 (4),
+ 371–398.
+
+
+
+
+                                           31
+Appendix
+
+A      Additional Tables
+
+A.1     Condition balance — Player A
+
+                            Table 3: Condition balance — Player A
+                 Variable              Punishment No-Punishment p-value
+                 Age                         39.026           37.886 0.557
+                 Female                       0.487            0.506 0.936
+                 Socio-economic status        5.179            5.329 0.542
+                 Went to uni                  0.575            0.557 0.945
+                 Technology score             2.087            2.266 0.366
+                 Leadership position          0.362            0.329 0.783
+  Note: Mean values by condition for Player A, with p-values from two-sided t-tests for continuous variables
+  and Chi-squared tests for binary variables. Socio-economic status is self-reported on a 1–10 scale. Went to
+  uni indicates a university degree. Technology score is constructed from weekly device usage, programming
+  skills, cryptocurrency knowledge, technology use at work, and similar items. Leadership position indicates
+  self-reported management or supervisory experience.
+
+
+Complementary to the treatment comparisons of individual observable characteristics in Ta-
+ble 3, we can test their joint significance by regressing the treatment indicator on all character-
+istics in a linear probability model. The observables are jointly uninformative about treatment
+(F (6, 150) = 0.37, p = 0.90; R2 = 0.01; N = 157). A probit specification yields the same
+conclusion (likelihood-ratio χ2 (6) = 2.30, p = 0.89).
+We do not separately report a balance table for Player B. Player B’s punishment behavior is
+identified within-subject across the four (delegation, outcome) scenarios of the strategy method,
+so balance across conditions is not strictly required for the punishment analysis.
+
+
+A.2     Regression analysis of punishment
+
+Table 4 complements the paired comparisons in the main text with a stacked OLS regression of
+Player B’s chosen punishment on delegation, the outcome, and their interaction. The coefficient
+on Delegated captures the punishment difference between delegated and own predictions after a
+good outcome, while the interaction captures how that difference changes after a bad outcome,
+and thus any insulation from punishment after bad outcomes. The delegation coefficient is
+close to zero in both samples. The interaction is negative and weakly significant −0.103 (p =
+0.077) in the full sample and −0.078 (p = 0.138) among attention-check passers. Like the
+paired comparisons, the regression indicates that punishment responds primarily to the realized
+outcome and provides no strong evidence that delegation insulates Player A from punishment.
+
+
+
+
+                                                     A-1
+        Table 4: Determinants of Player B’s chosen punishment
+                                                                                £
+                                                Dependent variable: Punishment ( )
+                                                    Full sample      Passers
+                                                        (1)            (2)
+       Delegated                                       0.032          0.001
+                                                      (0.052)        (0.054)
+       Bad outcome                                   0.256∗∗∗        0.260∗∗∗
+                                                      (0.071)         (0.080)
+       Delegated × Bad outcome                       −0.103∗         −0.078
+                                                     (0.058)         (0.052)
+       Player B belief about Player A perf.           −0.020          0.001
+                                                      (0.032)        (0.037)
+       Age                                             0.002         −0.001
+                                                      (0.005)        (0.006)
+       Female                                         −0.100         −0.064
+                                                      (0.128)        (0.140)
+       Socio-economic status                          0.083∗          0.072
+                                                      (0.047)        (0.049)
+       Went to uni                                    −0.196         −0.098
+                                                      (0.140)        (0.142)
+       Technology score                                0.073          0.030
+                                                      (0.053)        (0.059)
+       Leadership position                             0.083          0.061
+                                                      (0.142)        (0.164)
+       Constant                                       −0.077          0.020
+                                                      (0.328)        (0.374)
+
+       Observations                                     320            268
+       Subjects                                          80             67
+       Adj. R2                                         0.077          0.030
+
+Note: OLS regression of Player B’s chosen punishment levels. The sample is stacked
+over the four (delegation, outcome) scenarios of the strategy method (4 observations
+per Player B). Column (1) uses the full Punishment-condition sample. Column (2)
+restricts to Player Bs who passed the attention check on the punishment-elicitation
+screen. Standard errors clustered at the Player B level.
+
+
+
+
+                                              A-2
+A.3     Extensive margin of punishment
+
+Table 5 re-estimates the punishment regression on the extensive margin, replacing the pun-
+ishment amount with an indicator for whether Player B imposed any punishment in a given
+scenario (Probit). The conclusion matches the intensive-margin result in the body. A bad
+outcome sharply raises the probability of punishment, whereas delegation leaves it essentially
+unchanged. Player A is therefore no less likely to be punished when she delegates, just as she
+is punished no less harshly.
+
+                          Table 5: Extensive margin of punishment — Probit
+                                                            Dependent variable: Any punishment
+                                                                 Full sample     Passers
+                                                                     (1)           (2)
+                    Delegated                                       0.002        −0.042
+                                                                   (0.077)       (0.078)
+                    Bad outcome                                   0.556∗∗∗       0.563∗∗∗
+                                                                   (0.139)        (0.153)
+                    Delegated × Bad outcome                        −0.099        −0.072
+                                                                   (0.095)       (0.103)
+                    Player B belief about Player A perf.           −0.083        −0.030
+                                                                   (0.075)       (0.082)
+                    Age                                            −0.006        −0.013
+                                                                   (0.013)       (0.015)
+                    Female                                          0.115         0.230
+                                                                   (0.272)       (0.291)
+                    Socio-economic status                           0.160         0.140
+                                                                   (0.126)       (0.129)
+                    Went to uni                                  −0.827∗∗∗      −0.706∗∗
+                                                                  (0.320)        (0.349)
+                    Technology score                                0.062        −0.023
+                                                                   (0.118)       (0.131)
+                    Leadership position                             0.062        −0.071
+                                                                   (0.293)       (0.321)
+                    Constant                                       −0.382        −0.182
+                                                                   (0.807)       (0.864)
+
+                    AME of Delegated (pp)                           −1.8          −2.9
+                                                                 (p = 0.462)   (p = 0.285)
+                    AME of Bad outcome (pp)                        18.1∗∗∗       19.4∗∗∗
+                                                                 (p < 0.001)   (p < 0.001)
+                    Observations                                     320           268
+                    Subjects                                          80           67
+                    Pseudo R2                                       0.096         0.081
+
+       Note: Probit regression of an indicator for non-zero punishment. The sample is stacked over
+       the four (delegation, outcome) cells of the strategy method (4 observations per Player B).
+       Column (1) uses the full Punishment-condition sample; Column (2) restricts to attention-check
+       passers. Standard errors clustered at the Player B level. The AME rows report discrete average
+       marginal effects on the probability of imposing any punishment, in percentage points. AME
+       p-values use a 400-replication subject-cluster bootstrap. Significance: ∗ p < 0.10; ∗∗ p < 0.05;
+       ∗∗∗
+           p < 0.01.
+
+
+
+
+                                                           A-3
+B     Additional figures
+
+B.1     Punishment among attention-check passers
+
+ Figure 6: Player B punishment by delegation and outcome scenario, attention-check passers
+
+
+
+
+       Note: As in Figure 3, but restricted to Player Bs who passed the attention check on the
+       punishment-elicitation screen (n = 67). The four (delegation, outcome) scenarios of the strat-
+       egy method are grouped by outcome. For each scenario, the green bars report the average
+       punishment (left y-axis, in pounds, whiskers are ±1 standard error of the mean) and the gold
+       bars the share of Player Bs imposing non-zero punishment (right y-axis, in percent, whiskers
+       are ±1 standard error of the share). The brackets mark the within-outcome comparisons of
+       average punishment between delegated and Player A’s own predictions. The dashed lines mark
+       the mean of average punishment within each outcome group, and the arrow reports their dif-
+       ference.
+
+
+
+
+B.2     Hypothetical punishment
+
+Hypothetical punishment in the No-Punishment condition follows the same outcome-driven
+pattern as actual punishment (Figure 8). After good outcomes, stated punishment is nearly
+identical for delegated and non-delegated decisions (£0.23 versus £0.22; paired t-test, p = 0.91;
+Wilcoxon signed-rank p = 0.78). After bad outcomes, the comparison reverses relative to the
+direction predicted by Hypothesis 2. Player Bs state that they would punish a delegated decision
+more than a decision made directly by Player A (£0.53 versus £0.43; paired t-test, p = 0.069;
+Wilcoxon signed-rank p = 0.11). Even in stated terms, delegation thus offers Player A no
+insulation from punishment. Player A’s anticipated punishment, shown alongside, overstates
+hypothetical punishment in every scenario, mirroring the overestimation of actual punishment
+in the Punishment condition (Figure 4).
+
+
+
+
+                                                   A-4
+            Figure 7: Realized vs. anticipated punishment, attention-check passers
+
+
+
+
+    Note: As in Figure 4, but restricted to attention-check passers (Player A n = 61, Player B n = 67).
+
+
+Figure 8: Hypothetical punishment by delegation and outcome scenario (No-Punishment con-
+dition)
+
+
+
+
+      Note: As in Figure 3, but for the No-Punishment condition, in which Player Bs answered the
+      same punishment questions but could not impose punishment in practice. The four (delegation,
+      outcome) scenarios are grouped by outcome. For each scenario, the green bars report the
+      average hypothetical punishment (left y-axis, in pounds; whiskers are ±1 standard error of the
+      mean) and the gold bars the share of Player Bs choosing non-zero punishment (right y-axis, in
+      percent; whiskers are ±1 standard error of the share). In addition, the terracotta bars report
+      Player A’s hypothetical anticipated punishment in the No-Punishment condition. Values are
+      printed at the base of each bar.
+
+
+                                                   A-5
+C     Preregistration
+
+The study was preregistered on AsPredicted under the title “Algorithms and Responsibility”
+(#133980) on May 30, 2023, after the collection of a pilot sample and before the collection of
+the main sample.
+The analyses in the paper deviate from the preregistration in three respects. First, we re-
+cruited 322 participants instead of the planned 320. Attrition during the experiment required
+re-matching and produced one additional pair in the No-Punishment condition. Throughout
+the analysis, we exclude two Player As, because they submitted a prediction of 0 lbs. in at least
+eight of the ten initial rounds. Second, we compare delegation rates across conditions using
+a Pearson chi-squared test and Fisher’s exact test rather than the preregistered t-test. The
+delegation decision is binary, so these tests are the appropriate choice, and the conclusion is
+unchanged under either procedure. Third, the preregistration specifies Mann-Whitney U- and
+Kolmogorov-Smirnov tests for the punishment comparisons. Both are tests for independent
+samples, whereas punishment is elicited within-subject via the strategy method. We there-
+fore report the Wilcoxon signed-rank test as the within-subject non-parametric counterpart
+alongside the parametric tests. Beyond these deviations, the preregistration left open whether
+participants who failed the attention checks would be excluded. We present the analysis for
+both samples.
+
+
+
+
+                                              A-6
+                                         Algorithms and Responsibility (#133980)
+Author(s)                                                                                                                        Pre-registered on:
+This pre-registration is currently anonymous to enable blind peer-review.                                                       2023/05/30 16:27 (PT)
+It has one author.
+
+1) Have any data been collected for this study already?
+It's complicated. We have already collected some data but explain in Question 8 why readers may consider this a valid pre-registration nevertheless.
+
+2) What's the main question being asked or hypothesis being tested in this study?
+We test whether:
+RQ 1. punishment for a decision can be avoided if it is delegated to an algorithm (conditional on performance)
+RQ 2. a punishment motive enters the delegation decision.
+
+3) Describe the key dependent variable(s) specifying how they will be measured.
+The experiment features a delegator and an evaluator. The delegator has to make a decision that is payoﬀ-relevant only to the evaluator. The
+delegator may decide herself or delegate the decision to an algorithm, which is calibrated to match the delegators performance. Depending on the
+treatment, the evaluator may punish the delegator conditional on the outcome of the decision and the delegation decision (strategy method).
+For RQ 1, we will look at evaluator punishment behavior and compare the amount and frequency of punishment between a delegated and non-
+delegated decision conditional on the outcome.
+For RQ 2, we will look at the delegation frequency between the treatments (punishment possible vs punishment not possible).
+
+4) How many and which conditions will participants be assigned to?
+There are two conditions (punishment possible/no punishment possible) and two roles in each condition (delegator/evaluator).
+
+5) Specify exactly which analyses you will conduct to examine the main question/hypothesis.
+I will run parametric (t-test) and non-parametric (MWU, Kolmogorov-Smirnov) tests between punishment (amount and frequency) for delegated and
+non-delegated outcomes, conditional on the outcome. Similarly, I will run linear regressions with punishment behavior as the dependent variable and
+explore whether expected performance or any socio-demographic characteristics are predictive of diﬀerential punishment.
+For delegators, I will again, run parametric (t-test) tests on delegation choices between treatments. Moreover, I will employ Probit regressions with
+the dependent variable being the delegation decision and a set of explanatory variables including treatment, beliefs about performance and socio-
+demographic characteristics.
+
+6) Describe exactly how outliers will be deﬁned and handled, and your precise rule(s) for excluding observations.
+I will exclude people that access the experiment via mobile device. Moreover, I may exclude participants that failed the attention checks.
+
+7) How many observations will be collected or what will determine sample size? No need to justify decision, but be precise about
+exactly how the number will be determined.
+I will recruit subjects via Proliﬁc. I plan to recruit 320 participants, 160 per treatment, 80 per role per treatment.
+
+8) Anything else you would like to pre-register? (e.g., secondary analyses, variables collected for exploratory purposes, unusual
+analyses planned?)
+I already ran a pilot with 25 observations in the punishment treatment. I plan to include the data in the analysis.
+
+Secondary analysis will include an investigation on how performance and beliefs about performance impact results. Moreover, I will look at the
+delegator's beliefs about expected punishment and their consistency with the delegation decision.
+
+At this point, I already want to state that I may run another treatment in which the delegator may either delegate to another participant or an
+algorithm.
+
+
+
+
+Version of AsPredicted Questions: 2.00
+PDF generated: 2026/05/04 01:44 (PT)                  Available at https://aspredicted.org/hs9az8.pdf                                             1/1
+
+
+
+
+                                                                        A-7
+

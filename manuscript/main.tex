@@ -66,6 +66,13 @@
 \newcommand{\resulthead}[1]{\refstepcounter{result}\label{#1}%
 \noindent\textbf{Result~\theresult.}}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Numbered, referenceable Hypotheses.
+% Usage: \hypothesishead{hyp:shortname}{Descriptor} \textit{Statement of the hypothesis.}
+% Refer to it in text as Hypothesis~\ref{hyp:shortname}.
+\newcounter{hypothesis}
+\newcommand{\hypothesishead}[2]{\refstepcounter{hypothesis}\label{#1}%
+\noindent\textbf{Hypothesis~\thehypothesis\ (#2).}}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
