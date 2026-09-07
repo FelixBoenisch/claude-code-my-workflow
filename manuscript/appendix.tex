@@ -8,19 +8,19 @@
 
 \input{../tables/balance_player_a.tex}
 
-\noindent Complementary to the treatment comparisons of individual observable characteristics in Table~\ref{tab:treatment_balance}, we can test their joint significance by regressing the treatment indicator on all characteristics in a linear probability model. The observables are jointly uninformative about treatment ($F(6,150)=0.37$, $p=0.90$; $R^2=0.01$; $N=157$). A probit specification yields the same conclusion (likelihood-ratio $\chi^2(6)=2.30$, $p=0.89$).
+To complement the treatment comparisons of individual observable characteristics in Table~\ref{tab:treatment_balance}, we test their joint significance by regressing the treatment indicator on all characteristics in a linear probability model. The observables are jointly uninformative about treatment assignment ($F(6,150)=0.37$, $p=0.90$; $R^2=0.01$; $N=157$). A probit specification yields the same conclusion (likelihood-ratio $\chi^2(6)=2.30$, $p=0.89$).
 
-\noindent We do not separately report a balance table for Player~B. Player~B's punishment behavior is identified within-subject across the four (delegation, outcome) scenarios of the strategy method, so balance across conditions is not strictly required for the punishment analysis.
+We do not report a separate balance table for Player~B. Player~B's punishment behavior is identified through within-subject comparisons across the four (delegation, outcome) scenarios of the strategy method, so balance across conditions is not strictly required for the punishment analysis.
 
 \subsection{Regression analysis of punishment} \label{appendix:reg_punishment}
 
-Table~\ref{tab:reg_punishment} complements the paired comparisons in the main text with a stacked OLS regression of Player~B's chosen punishment on delegation, the outcome, and their interaction. The coefficient on \textit{Delegated} captures the punishment difference between delegated and own predictions after a good outcome, while the interaction captures how that difference changes after a bad outcome, and thus any insulation from punishment after bad outcomes. The delegation coefficient is close to zero in both samples. The interaction is negative and weakly significant $-0.103$ ($p=0.077$) in the full sample and $-0.078$ ($p=0.138$) among attention-check passers. Like the paired comparisons, the regression indicates that punishment responds primarily to the realized outcome and provides no strong evidence that delegation insulates Player~A from punishment.
+Table~\ref{tab:reg_punishment} complements the paired comparisons in the main text with a stacked OLS regression of Player~B's chosen punishment on delegation, the outcome, and their interaction. The coefficient on \textit{Delegated} captures the punishment difference between delegated and own predictions after a good outcome. The interaction captures how that difference changes after a bad outcome, and thus any insulation from punishment after bad outcomes. The delegation coefficient is close to zero in both samples. The interaction is negative, with a weakly significant coefficient of $-0.103$ ($p=0.077$) in the full sample and a coefficient of $-0.078$ ($p=0.138$) among attention-check passers. Like the paired comparisons, the regression indicates that punishment responds primarily to the realized outcome and provides no strong evidence that delegation insulates Player~A from punishment.
 
 \input{../tables/reg_punishment.tex}
 
 \subsection{Extensive margin of punishment} \label{appendix:reg_punishment_extensive}
 
-Table~\ref{tab:reg_punishment_extensive} re-estimates the punishment regression on the \textit{extensive} margin, replacing the punishment amount with an indicator for whether Player~B imposed any punishment in a given scenario (Probit). The conclusion matches the intensive-margin result in the body. A bad outcome sharply raises the probability of punishment, whereas delegation leaves it essentially unchanged. Player~A is therefore no less \textit{likely} to be punished when she delegates, just as she is punished no less \textit{harshly}.
+Table~\ref{tab:reg_punishment_extensive} re-estimates the punishment regression on the \textit{extensive} margin using a Probit model, replacing the punishment amount with an indicator for whether Player~B imposed any punishment in a given scenario. The conclusion matches the intensive-margin result in the main text. A bad outcome sharply raises the probability of punishment, whereas delegation leaves it essentially unchanged. Player~A is therefore no less \textit{likely} to be punished when she delegates, nor is she punished any less \textit{harshly}.
 
 \input{../tables/reg_punishment_extensive.tex}
 
@@ -52,7 +52,7 @@ Table~\ref{tab:reg_punishment_extensive} re-estimates the punishment regression 
 
 \pagebreak
 
-\section{Additional figures} \label{appendix:figures}
+\section{Additional Figures} \label{appendix:figures}
 
 \subsection{Punishment among attention-check passers}
 
@@ -81,7 +81,7 @@ Table~\ref{tab:reg_punishment_extensive} re-estimates the punishment regression 
 
 \subsection{Hypothetical punishment}
 
-Hypothetical punishment in the \textit{No-Punishment} condition follows the same outcome-driven pattern as actual punishment (Figure~\ref{fig:punishment_hypothetical}). After good outcomes, stated punishment is nearly identical for delegated and non-delegated decisions ($\pounds 0.23$ versus $\pounds 0.22$; paired $t$-test, $p=0.91$; Wilcoxon signed-rank $p=0.78$). After bad outcomes, the comparison reverses relative to the direction predicted by Hypothesis~\ref{hyp:punishment}. Player~Bs state that they would punish a delegated decision more than a decision made directly by Player~A ($\pounds 0.53$ versus $\pounds 0.43$; paired $t$-test, $p=0.069$; Wilcoxon signed-rank $p=0.11$). Even in stated terms, delegation thus offers Player~A no insulation from punishment. Player~A's anticipated punishment, shown alongside, overstates hypothetical punishment in every scenario, mirroring the overestimation of actual punishment in the \textit{Punishment} condition (Figure~\ref{fig:realized_vs_anticipated}).
+Hypothetical punishment in the \textit{No-Punishment} condition follows the same outcome-driven pattern as actual punishment (Figure~\ref{fig:punishment_hypothetical}). After good outcomes, stated punishment is nearly identical for delegated and non-delegated decisions ($\pounds 0.23$ versus $\pounds 0.22$; paired $t$-test, $p=0.91$; Wilcoxon signed-rank test, $p=0.78$). After bad outcomes, the difference runs in the opposite direction to that predicted by Hypothesis~\ref{hyp:punishment}. Player~Bs state that they would punish a delegated decision more than a decision made directly by Player~A ($\pounds 0.53$ versus $\pounds 0.43$; paired $t$-test, $p=0.069$; Wilcoxon signed-rank test, $p=0.11$). Even in these hypothetical scenarios, delegation thus offers Player~A no insulation from punishment. Player~A's anticipated punishment, shown in the same figure, exceeds hypothetical punishment in every scenario, mirroring the overestimation of actual punishment in the \textit{Punishment} condition (Figure~\ref{fig:realized_vs_anticipated}).
 
 \begin{figure}[!htbp]
     \centering
@@ -111,8 +111,8 @@ Hypothetical punishment in the \textit{No-Punishment} condition follows the same
 
 \section{Preregistration} \label{appendix:prereg}
 
-The study was preregistered on AsPredicted under the title ``Algorithms and Responsibility'' (\#133980) on May~30, 2023, after the collection of a pilot sample and before the collection of the main sample.
+The study was preregistered on AsPredicted under the title ``Algorithms and Responsibility'' (\#133980) on May~30, 2023, after we collected the pilot sample and before we collected the main sample.
 
-The analyses in the paper deviate from the preregistration in three respects. First, we recruited 322 participants instead of the planned 320. Attrition during the experiment required re-matching and produced one additional pair in the \textit{No-Punishment} condition. Throughout the analysis, we exclude two Player~As, because they submitted a prediction of 0 lbs. in at least eight of the ten initial rounds. Second, we compare delegation rates across conditions using a Pearson chi-squared test and Fisher's exact test rather than the preregistered $t$-test. The delegation decision is binary, so these tests are the appropriate choice, and the conclusion is unchanged under either procedure. Third, the preregistration specifies Mann-Whitney U- and Kolmogorov-Smirnov tests for the punishment comparisons. Both are tests for independent samples, whereas punishment is elicited within-subject via the strategy method. We therefore report the Wilcoxon signed-rank test as the within-subject non-parametric counterpart alongside the parametric tests. Beyond these deviations, the preregistration left open whether participants who failed the attention checks would be excluded. We present the analysis for both samples.
+The analyses in the paper deviate from the preregistration in three respects. First, we recruited 322 participants instead of the planned 320. Attrition during the experiment required re-matching and resulted in one additional pair in the \textit{No-Punishment} condition. Throughout the analysis, we exclude two Player~As, because they submitted a prediction of 0 lbs. in at least eight of the ten initial rounds. Second, we compare delegation rates across conditions using a Pearson chi-squared test and Fisher's exact test rather than the preregistered $t$-test. The delegation decision is binary, so these tests are the appropriate choice. The conclusion is unchanged under either procedure. Third, the preregistration specifies Mann-Whitney U- and Kolmogorov-Smirnov tests for the punishment comparisons. Both are tests for independent samples, whereas punishment is elicited within-subject via the strategy method. We therefore report the Wilcoxon signed-rank test alongside the parametric tests as their within-subject non-parametric counterpart. Beyond these deviations, the preregistration left open whether participants who failed the attention checks would be excluded. We present the analysis for both samples.
 
 \includepdf[pages=-, frame, scale=0.85, pagecommand={}]{prereg_aspredicted_133980.pdf}
