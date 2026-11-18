@@ -1,101 +1,143 @@
 # Seven-Pass Review: Accountability and Algorithmic Delegation
 
-**Date:** 2026-08-21
-**Path:** `manuscript/main.tex`
-**Branch:** `restructure/results-section`
-**Scope:** the seven files `main.tex` compiles (`abstract`, `introduction`, `literature`, `design`, `results`, `conclusion`, `appendix`). The orphans `literature_revised.tex` and `results_pre_restructure_2026-05-06.tex` were excluded.
+**Updated:** 2026-09-07. **Previous synthesis:** 2026-08-21.
+**Manuscript:** `manuscript/main.tex`, on `restructure/results-section`.
+**Snapshot:** HEAD `d4f48b6` plus the uncommitted manuscript edits present during this review.
+**Scope:** the seven included sections (`abstract`, `introduction`, `literature`, `design`, `results`, `conclusion`, `appendix`), their currently included exhibits, and the actual bibliography `manuscript/ProjectAlgorithm.bib`. Commented passages and the two orphan section drafts are excluded from active claims.
 
 ## Executive verdict
 
-**Overall state: REVISE-MAJOR**
+**Overall state: REVISE-MAJOR.** The manuscript has improved materially, particularly in bibliography accuracy, reporting of the effort comparison, and qualification of the performance-gradient comparison. The headline delegation result reconciles across the current manuscript and exhibits and survives inclusion of the two excluded participants.
 
-173 findings (17 CRITICAL, 68 MAJOR, 88 MINOR). The paper is numerically sound at its core. Every headline number in the abstract reconciles against the body, delegation shares and Ns tie out across prose, tables, figures, and conclusion, and the anchor citation (`feier_hiding_2022`, 21 uses) was verified correct on all eight distinct characterizations.
+The principal remaining work concerns **interpretation and transparent reporting**: the paper still presents a nonsignificant punishment contrast as no protection; its numbered effort result exceeds the evidence from selected non-delegators and imperfect proxies; and its introduction claims selective treatment effects and a causal explanation of cross-study differences that the design does not establish.
 
-The problem is not the data. It is that **the results restructure on this branch dropped supporting tables from the build while the claims that depended on them stayed in the text.** Four lenses found this independently, from four different directions. Everything in the CRITICAL table below is verified against source files or `scripts/python/_outputs/numbers.json`, not taken on a reviewer agent's word.
+**No current finding is classified CRITICAL.** Consequential inferential and reporting issues are classified MAJOR; this does not mean the manuscript is ready for submission. The old claims of fabricated references shipping in the bibliography, suppressed Player B balance failures, and a missing performance interaction should not remain on the revision checklist. Some were resolved by revisions; others were overstatements by the previous review.
 
-Nothing here requires new data collection. The two most severe items are fixed by re-analysis and re-wording.
+The old headline of “173 findings” is not a reliable denominator: several lens totals did not match their enumerated findings, and citation IDs were duplicated. Current per-lens counts below are newly enumerated, overlap across lenses, and must not be read as a deduplicated measure of scientific defects or a mechanical improvement score.
 
-## Cross-lens CRITICAL issues
+## What changed since the previous review
 
-| # | Lens(es) | Issue | Recommendation |
-|---|---|---|---|
-| C1 | 1, 3, 4, 5, 6 | **Equivalence asserted without an equivalence test.** The abstract says recipients "punish delegated and self-made predictions alike"; `conclusion.tex:10` says "delegation cannot shift blame". No power, MDE, or TOST appears anywhere in the compiled paper. The TOST was run: it **fails** at ±£0.10 (p=0.332) and passes only at ±£0.20 (p=0.012) — a bound as large as the paper's own headline effect. Observed £0.077 against an MDE of £0.149. | Either report the TOST with its bound stated honestly, or retreat to Result 2's own wording ("does not punish significantly less"). Do not keep "alike" / "cannot". |
-| C2 | 1, 3, 4, 5 | **Three tables were dropped from the build and the claims resting on them were not.** Current `main.log` loads five tables. The July logs (`pass1.stdout`) additionally loaded `power_mde.tex` and `reg_delegation_robustness.tex`; `balance_player_b.tex` has never been referenced. `power_mde.tex`'s own note refers to "the equivalence bound used in Result 2 in the body" — a bound no longer present. | Decide per table: re-`\input` it, or remove the claim it supported. C1, C3, and C4 are all downstream of this one. |
-| C3 | 3, 4 | **The H2 interaction is mislabelled and carries the wrong p-value.** `results.tex:54` calls the `Delegated × Bad outcome` coefficient (−0.103, p=0.08) the one "which captures any insulation from punishment after bad outcomes". It is the difference-in-differences. Insulation is the linear combination 0.032 − 0.103 = −0.071, i.e. the £0.07 at p=0.13 already reported at `results.tex:48`. The paper therefore calls the same quantity "statistically insignificant" at line 48 and "weakly significant" at line 54. | Report the linear combination with its own SE. Relabel the interaction as the DiD. Resolve the six-line self-contradiction. |
-| C4 | 3, 5 | **A Player B balance table exists, fails on two of six covariates, and is not reported.** `tables/balance_player_b.tex` shows age 37.1 vs 42.4 (p=0.011) and university degree 68.8% vs 48.1% (p=0.013). `appendix.tex:13` declines to report it because punishment "is identified within-subject, so balance across conditions is not strictly required". That is correct for the within-subject H2 test and false for the between-condition Player B comparisons the appendix itself runs. | Report the table. Narrow the justification to the within-subject analysis, and address imbalance where between-condition comparisons are actually made. |
-| C5 | 3, 4 | **The mechanism section's central claim is never tested.** "The performance/delegation relationship is stronger under punishment" carries the mechanism argument, but no treatment × performance interaction appears in any table. Separately, `results.tex:110` reports perceived-performance *levels* (4.65 vs 4.87) as "similar overconfidence", while overconfidence is 1.89 vs 1.78 and `reg_delegation_robustness.tex` defines the construct correctly. Manuscript and table code disagree. | Run and report the interaction. Fix the overconfidence figures to match the code's definition. |
-| C6 | 1, 2 | **The intro asserts a causal cross-study attribution the body explicitly disclaims.** `introduction.tex:18`: "Once both channels are closed, the differential disappears". `results.tex:70` concedes the departures "may explain the absence of the predicted effect, not its reversal", and a commented passage at `results.tex:171` says which feature is responsible "cannot be resolved without an experiment that varies relative-performance calibration directly, which we do not do here". `design.tex:102` also names a third difference (the task) that the intro drops. | Downgrade to association. Smallest edit on this list, highest referee risk. |
-| C7 | 7 | **The bibliography has never been validated, and a fabrication-flagged entry ships in it.** `stein_dont_2020` has `{[NOT FOUND]}` in its title field and an `annote` recording that it "may be partially fabricated by an earlier session". 13 `VERIFY` flags remain, 5 on cited entries. Root cause: `CLAUDE.md:31` names `Bibliography_base.bib` as the single-source bibliography and points `/validate-bib` at it, but that file holds **two dummy entries** (`Example2024_book`, `Example2025_article`). The real 106-entry `ProjectAlgorithm.bib` has never been checked by the repo's own tooling. | Delete `stein_dont_2020`. Resolve the 5 cited `VERIFY` flags. Repoint `/validate-bib` and `CLAUDE.md` at `ProjectAlgorithm.bib`. |
-| C8 | 6 | **A placeholder renders in every compiled PDF.** `main.tex:73` carries an uncommented `\hl{[To do: Add acknowledgments]}` in the author footnote, highlighted on page 1 of the current `main.pdf`. | One-line fix. Do before any circulation. |
+| Area | Current assessment |
+|---|---|
+| Headline delegation result | Two No-Punishment Player As are excluded for entering zero in at least eight initial predictions. The current comparison is **34/80 versus 48/79**, or **42.5% versus 60.8%**, a reduction of **18.3 pp** (Pearson p=0.0212; Fisher p=0.0264). Current abstract, results, table and figure agree. |
+| Sensitivity to those exclusions | All 161 Player As give **16.8 pp**, Pearson p=0.0334 and Fisher p=0.0407. Exclusions do not create H1 significance. This sensitivity is not yet shown in the active manuscript. The descriptive pooled performance association is more sensitive to the exclusions. |
+| Effort comparison | The paper now reports **8.11 versus 0.51 lbs** error reduction, Welch p=0.027 and Mann–Whitney p=0.014, with initial absolute errors **22.69 versus 22.47 lbs**, p=0.857. The old “no magnitudes/tests” criticism is resolved. The new causal wording of Result 5 remains problematic. |
+| Performance selection | A pooled treatment × performance test now exists, and the body explicitly acknowledges its nonsignificance. P-values 0.548/0.487 are only in a source comment. Result 4 now states the pooled association. The introduction's “selectively” claim has not caught up. |
+| Perceived performance | The former 4.65/4.87-as-overconfidence units error is substantially corrected: the current text calls 4.65/4.89 perceived-performance levels. A residual footnote and formal definition could be clearer. |
+| Punishment regression | The appendix discusses both full and attention-passer samples and correctly begins by defining the interaction as a change across outcomes. A subsequent clause still conflates it with the entire bad-outcome delegation contrast. |
+| Beliefs and mechanisms | Full-sample null versus passer association, exploratory status, post-decision belief measurement, and proxy limitations are now clearer. Some summaries and numbered statements still outrun those qualifications. |
+| Bibliography | The September audit repaired cited metadata/verification flags, removed Stein, and supplied full Bartling author names. Current checks find **54 live cited keys, zero missing keys, and no unresolved cited verification flags**. Stronger full-text checks also overturn some old semantic accusations. |
+| Build | The current source compiles in an isolated copy: **37 pages**, no undefined references/citations or BibTeX warnings. One small 1.299 pt overfull box remains in the conclusion; the title-page acknowledgment placeholder still renders. |
 
-## MAJOR issues (second-round)
+## Prioritized substantive findings
 
-| # | Lens(es) | Issue |
+All findings here are MAJOR. The list is deduplicated by revision task; lens totals count their own overlapping perspectives. Paths are relative to `paper/` and refer to the reviewed snapshot.
+
+| Priority | Evidence and issue | Recommended revision |
 |---|---|---|
-| M1 | 4, 5 | Mechanism results run on attention-check passers only, where pass rates are differential by condition for Player A (23.8% vs 13.6%) — a no-longer-randomized subsample. Belief–delegation is null in the full sample (p=0.388), significant among 60 passers (p=0.011), p=0.125 in the uncompiled robustness table. Pass rates are never reported. |
-| M2 | 3, 5 | A 20.0 pp order effect within *Punishment* (p=0.070) versus −4.6 pp under *No-Punishment* (p=0.674) was drafted and commented out at `results.tex:167`. See the contradictions section — this is unreported, not fatal. |
-| M3 | 5 | Zero multiple-testing acknowledgment against 34 p-values in `results.tex`. |
-| M4 | 1 | The abstract has no contribution sentence. It closes on "We discuss several candidate mechanisms for this reversal." The novelty claim exists in publishable form at `introduction.tex:16`, `conclusion.tex:10`, and `literature.tex:36`, and reaches the abstract in none of them. |
-| M5 | 1 | Result 4 (better performers keep the decision under punishment) is absent from the abstract though `introduction.tex:16` bills it as part of the main result. It is the only positive mechanism-side finding. |
-| M6 | 2 | The intro's two headline questions are ordered attribution-first; the abstract, H1/H2, results order, and conclusion all run delegation-first. The intro is the sole outlier. |
-| M7 | 2 | The contribution sits behind a 330-word inconclusive mechanism paragraph ending on "a question we narrow rather than settle". |
-| M8 | 4 | `results.tex:81` claims the treatment did not change punishment beliefs; Appendix Figure A3 shows £0.60 vs £0.40 (Welch p=0.038) on the exact variable Result 3 says "carries the relationship". |
-| M9 | 4 | Result 5 (effort channel) has no magnitude, test, table, or figure. Reconstructed: +0.51 lbs vs +10.94 lbs, between-condition p=0.007. The claim is correct and simply unreported. |
-| M10 | 5 | Incentivized Holt–Laury risk preferences and a purpose-built perceived-*relative*-ability measure are elicited (`design.tex:76,78`) and analyzed nowhere. The latter is the direct test of the paper's central identifying claim, currently defended with an absolute-ability measure. |
-| M11 | 3 | The manipulation confounds social accountability with Player A having money at stake, which undercuts the conclusion's headline reading. |
-| M12 | 7 | `steffel_passing_2016` is miscited at `design.tex:84` (it has no punishment stage) and its real finding — people delegate to other people but not to inanimate objects — anticipates this paper's own reversal while being listed as grounding the rejected H1. |
-| M13 | 7 | `literature.tex:17` presents genuine empirical tension between `litterscheidt_financial_2020` and `dargnies_aversion_2026` as refinement via a bare "whereas". Both citations are individually faithful. |
-| M14 | 4 | `results.tex:5` claims all regressions use HC1; the two punishment tables cluster at Player B level. |
-| M15 | 4 | `reg_punishment.tex` and `reg_belief_specs.tex` print significance stars with no legend (and AEA style omits stars entirely). |
-| M16 | 6 | Two sentences do not parse: `results.tex:70` ("and with it does the value") and `conclusion.tex:8` ("Merely signaling to exert additional effort… but move"). |
-| M17 | 7 | Four in-bib, uncited works bear on the novelty claim — `kirchkamp_sharing_2019` (with a live TODO at `literature.tex:24`, and its null on felt responsibility *supports* Result 2), `maasland_blame_2022`, `blunden_downside_2023`, `weitzner_reputational_2024`. |
-| M18 | 6 | 88 sentences exceed 30 words; terminology drifts ("self-decided"/"self-made", "condition"/"treatment"); number formatting is inconsistent. |
+| **1. Punishment uncertainty and estimand** | `manuscript/abstract.tex:2`, `introduction.tex:11`, `results.tex:49,55,57`, `appendix.tex:17,23`, `conclusion.tex:6,11`. “No protection,” “alike,” and “cannot shift blame” exceed non-rejection. For 80 Player Bs, delegated minus own bad-outcome punishment is **−£0.0713**, paired p=0.1308, **95% CI [−£0.1641, £0.0216]**. The −0.103 interaction is the change in the delegation contrast across outcomes, not the bad-outcome contrast itself. | Use consistent qualified language, report the gap/CI, and show the linear combination of delegation and interaction coefficients with its own uncertainty. Report an equivalence analysis only with a justified bound and explicit sample. |
+| **2. Effort and mechanism limits** | `manuscript/results.tex:100,143,146,150,155`. “Does not induce additional effort” conflicts with the paragraph's proxy caveat; final effort proxies are observed only for **46 versus 31 selected non-delegators**. A zero mean reported belief penalty also does not establish a zero aggregate behavioral response. The behavioral-asymmetry footnote lacks a reported model/test. | State the observable selected-sample pattern, preserve selection and measurement limitations, and remove causal exclusion of the channel. Identify/report the response-asymmetry analysis or remove its empirical assertion. |
+| **3. Introduction/body alignment and cross-study inference** | `manuscript/introduction.tex:20,22` versus `results.tex:109,113,132`. “Selectively among … most likely to succeed” implies established treatment heterogeneity; “Once both channels are closed, the differential disappears” implies an identified cross-study explanation. Neither follows from the current evidence. | State the average treatment effect and pooled performance association separately. Present design differences as possible explanations, with the inability to distinguish their causal roles explicit. |
+| **4. Exclusions, pilot, assignment and order** | `manuscript/results.tex:3,28,174`; `appendix.tex:114–116`; `design.tex:73`. The new exclusion is disclosed but its decision timing/status and unrestricted sensitivity are missing. Assignment, pilot and recruitment flow need fuller documentation. Order results are commented out and their old p-values are stale. | Show the all-completer sensitivity and affected performance findings; distinguish preregistered choices from subsequent decisions; document assignment/re-matching and pilot inclusion. Report order cells and interaction uncertainty as exploratory robustness. |
+| **5. Belief scope and sample flow** | `manuscript/results.tex:77,97,100,155`; current belief table. The full-sample association is null (p=0.388/0.370), while passer AMEs are 4.7/5.5 pp per £0.10 (p=0.011/0.006; N=60). Later summaries omit that restriction. The treatment-invariance footnote lacks adequate support. | Keep the passer qualifier, report role/arm sample flow and missing-covariate losses, and describe beliefs as exploratory post-decision associations. State how unadjusted exploratory p-values are interpreted; avoid a blanket multiplicity rule for every printed test. |
+| **6. Calibration and material incentives** | `manuscript/design.tex:67,69,71,85`; `results.tex:10,65,127`. Calibration matches **past measured accuracy**. It does not establish subjective parity or equal accuracy on a future prediction with different effort. Statements that the final choice cannot affect A's payoff ignore punishment-adjusted earnings. | Distinguish design calibration from subjects' beliefs and prospective performance. Distinguish base earnings from final earnings. Attribute H1 to the prospect of punishment, whose monetary and social components are not separately randomized. |
+| **7. Inference reporting and dormant power output** | `manuscript/results.tex:5`; table notes; `scripts/python/16_power.py:33`; `scripts/python/_outputs/numbers.json:245`. HC1 wording conflicts with Player-B clustering; central notes omit coding/definitions/legends. The unused numbered power routine doubles an already back-transformed H1 probability difference, storing **42.9 pp** instead of approximately **21.4 pp** under its assumptions. | Correct reporting and provide headline uncertainty. Before using dormant power material, fix/reconcile its generator and sample labels; the separate unused table says about 21.5 pp. An off-paper power error does not change the current H1 estimate. |
+| **8. Remaining citation precision** | `manuscript/design.tex:87,93,102`; `literature.tex:9,32`. Steffel does not operationalize blame through monetary punishment. Bartling's die treatment has no matched no-punishment die comparator. Chevrier distinguishes AI from a rule-based algorithm. | Remove/reframe Steffel in the punishment-measure citation group; separate observed die use from a causal punishment effect; attribute Chevrier's distinctive punishment pattern specifically to its AI treatment. See [Lens 7](lens_7_citations.md) for primary-text evidence. |
 
-## MINOR polish
+## Numerical details that should not be copied from the old review
 
-- JEL codes: O33 is a weak fit (no diffusion content); D81 (uncertainty) and D83 (belief elicitation) are missing. Suggested set C91, D81, D83, D91.
-- Keywords omit "accountability", the title's own lead term.
-- Condition names render three different ways inside the four numbered Result statements (nested `\textit` renders upright at lines 107 and 142; no markup at 115).
-- `results.tex:137` labels a paragraph "Lastly" with two mechanism paragraphs following; the intro uses "Lastly" for a different mechanism.
-- Five colon / em-dash house-style violations: `appendix.tex:17`, `design.tex:62`, `design.tex:82` (single hyphens as parenthetical dashes will look like a typesetting error).
-- `bartling_shifting_2012`, the second most-cited work, has an initials-only author field while all 65 other entries print full first names.
-- Figure notes at `appendix.tex:87` (62 words) and `literature.tex:17` (57 words) are the longest sentences in the paper.
-- Intro opens with four sentences of AI-ubiquity setup plus a six-citation normative block before the question appears.
+**Punishment equivalence:** the old synthesis quoted passer TOST results beside the full-sample gap. Fresh tests give:
+
+| Own minus delegated punishment after bad outcomes | Full Punishment sample | Attention passers |
+|---|---:|---:|
+| N | 80 | 67 |
+| Mean insulation | £0.0713 | £0.0769 |
+| Paired-t 95% CI | [−£0.0216, £0.1641] | [−£0.0292, £0.1829] |
+| TOST at ±£0.10 | p=0.2698 | p=0.3323 |
+| TOST at ±£0.20 | p=0.0036 | p=0.0118 |
+
+A ±£0.20 test is a valid equivalence test at that bound; the old review was wrong to dismiss it as no equivalence test at all. Its economic informativeness remains a separate question. An MDE is not a confidence bound, and an observed effect below an 80%-power MDE is not itself invalid.
+
+**Order:** in the current sample, own-decision-first delegation is 13/40 versus 27/42 (**32.5% versus 64.3%**); algorithm-first is 21/40 versus 21/37 (**52.5% versus 56.8%**). The specified logit interaction has p=**0.0796**, replacing 0.115. These descriptive differences warrant reporting; they do not prove an order artifact or invalidate the pooled randomized comparison.
+
+**Beliefs and attention:** the own/good expected-punishment comparison is £0.604 versus £0.404, unadjusted Welch p=**0.046**, replacing 0.038. One nominal result among four comparisons is not decisive evidence of a treatment effect; the comparisons also do not establish invariance. Player A passers are **61/80 versus 68/79**, with attention-rate comparison p=0.113. Do not use complete-case regression Ns as pass-rate denominators.
+
+**Hypothetical switching:** 12 versus 5 discordant pairs produces asymptotic uncorrected McNemar p≈0.090 but exact two-sided p=**0.143**. This changes the strength of the supplementary footnote, not H1.
+
+## Disposition of the previous synthesis
+
+Every lens also maps its individual historical findings. These tables cover every old cross-lens priority ID, so the former checklist can be retired safely.
+
+| Old critical ID | Disposition |
+|---|---|
+| **C1 — equivalence** | **OPEN, reclassified MAJOR.** Categorical claims persist; corrected full-sample/passers evidence above. |
+| **C2 — dropped tables as root cause** | **PARTIAL / REFRAMED.** Five tables are currently included. Power, Player B balance and separate robustness tables remain off-paper, but their omission is not a single proven root cause or an obligation to restore every file. Report the needed evidence and fix stale auxiliary output first. |
+| **C3 — H2 interaction** | **PARTIAL.** Main-text contradiction removed; appendix still conflates the interaction with bad-outcome insulation. |
+| **C4 — hidden Player B imbalance** | **SUPERSEDED.** Omission is explicit. Both actual and hypothetical within-arm paired contrasts remain valid without between-arm demographic balance. A B table is useful transparency; the old suppression/failure accusation was unsupported. |
+| **C5 — untested mechanism / overconfidence** | **LARGELY RESOLVED.** Interaction implemented and nonsignificance acknowledged; levels relabelled. Intro heterogeneity wording and exact interaction reporting remain. |
+| **C6 — causal cross-study claim** | **OPEN, reclassified MAJOR.** Current intro:22 still overattributes the contrast. The old three-difference design paragraph is now commented out. |
+| **C7 — bibliography** | **RESOLVED for manuscript.** Stein removed, cited flags repaired, actual citation resolution clean. Root bibliography instructions still need maintenance, but do not make the compiled references invalid. |
+| **C8 — acknowledgment placeholder** | **OPEN, reclassified MINOR.** Still visible on page 1 at `manuscript/main.tex:80`; remove before circulation. |
+
+| Old major ID | Disposition |
+|---|---|
+| **M1 — selective belief sample** | **PARTIAL.** Full-sample null and exploratory status now explicit; sample flow and generalized summaries remain. |
+| **M2 — order** | **OPEN; updated values.** Current interaction p=0.0796; no proven order artifact. |
+| **M3 — multiple testing** | **PARTIAL / REFRAMED.** Exploratory label added; test-family/status interpretation still needed. Blanket adjustment of 34 p-values withdrawn. |
+| **M4 — abstract contribution** | **OPEN, MINOR.** The reversal conveys novelty; closing contribution sentence could be sharper. |
+| **M5 — selection absent from abstract** | **SUPERSEDED.** Do not add the former unsupported treatment-specific claim. Omission of an exploratory pooled association is not a major defect. |
+| **M6 — question order** | **OPEN, MINOR.** Intro still attribution-first, remainder delegation-first. |
+| **M7 — long mechanism preview** | **PARTIAL, MINOR.** Revised/shorter; placement remains an editorial choice. |
+| **M8 — unchanged punishment beliefs** | **OPEN / CORRECTED.** Invariance unsupported; old claim of decisive contradiction from one p-value withdrawn. |
+| **M9 — unquantified effort** | **RESOLVED.** Current magnitudes/tests included. New Result 5 overclaim is separate. |
+| **M10 — unused elicited measures** | **OPEN, MINOR / REFRAMED.** Explain their use or omission. Relative rank among humans is not a direct algorithm-parity manipulation check. |
+| **M11 — accountability versus money** | **OPEN / NARROWED.** H1 identifies punishment availability; monetary exposure and social judgment are not isolated. This does not invalidate H1. |
+| **M12 — Steffel** | **OPEN.** Measure citation and boundary condition need correction; Steffel does not itself establish the current negative treatment effect. |
+| **M13 — Litterscheidt/Dargnies** | **RESOLVED for the active manuscript.** The paragraph is now wholly commented out at `manuscript/literature.tex:19`; the old live-text tension is absent. |
+| **M14 — HC1 claim** | **OPEN.** Distinguish HC1 delegation models and clustered punishment models. |
+| **M15 — stars without legends** | **OPEN.** Missing legends remain; unverified journal-policy assertions withdrawn. |
+| **M16 — two malformed sentences** | **RESOLVED.** Results mechanism sentence and conclusion signaling sentence rewritten. Other current prose issues are assessed in Lens 6. |
+| **M17 — omitted competing works** | **MINOR / REFRAMED.** Targeted engagement would help; absence does not disprove the narrow novelty claim. |
+| **M18 — long sentences / terminology** | **PARTIAL / REFRAMED.** Assess actual ambiguity and redundancy, not a mechanical 30-word violation count. |
+
+## Minor polish
+
+Remove the acknowledgment placeholder; define figure stars/correlations; add Ns/dispersion to the balance table; clarify the belief-table header and missing-covariate counts; label exact versus asymptotic supplementary tests; address the small conclusion overflow. Consider a sharper abstract ending, adding “accountability” to keywords, and a shorter mechanism preview. JEL choices, sentence length and punctuation preferences are not independent major defects without a relevant target-journal or house requirement.
+
+Study documentation should also identify the applicable ethics approval/exemption, supporting instructions and data/code availability. Missing reporting is not evidence that approval or consent was absent; consent is described in the manuscript.
 
 ## Per-lens scorecard
 
+Scores are qualitative editorial judgments, not a validated grading scale. Counts include only each lens's current numbered findings and are not deduplicated across lenses.
+
 | Lens | Critical | Major | Minor | Score/10 |
-|---|---|---|---|---|
-| 1. Abstract | 0 | 5 | 8 | 6.0 |
-| 2. Intro | 0 | 4 | 8 | 7.0 |
-| 3. Methods | 6 | 11 | 7 | 5.0 |
-| 4. Results | 3 | 12 | 12 | 6.0 |
-| 5. Robustness | 3 | 8 | 4 | 3.0 |
-| 6. Prose | 3 | 19 | 36 | 7.5 |
-| 7. Citations | 2 | 9 | 13 | 6.5 |
-| **Overall** | **17** | **68** | **88** | **5.5** |
+|---|---:|---:|---:|---:|
+| [1. Abstract](lens_1_abstract.md) | 0 | 1 | 4 | 7.0 |
+| [2. Introduction](lens_2_intro.md) | 0 | 3 | 4 | 7.0 |
+| [3. Methods](lens_3_methods.md) | 0 | 8 | 8 | 6.0 |
+| [4. Results](lens_4_results.md) | 0 | 8 | 10 | 6.5 |
+| [5. Robustness](lens_5_robustness.md) | 0 | 7 | 3 | 5.0 |
+| [6. Prose](lens_6_prose.md) | 0 | 5 | 6 | 7.5 |
+| [7. Citations](lens_7_citations.md) | 0 | 3 | 8 | 8.0 |
+| **Total lens findings / mean score** | **0** | **35** | **43** | **6.7** |
 
-## Revision plan (in recommended order)
+## Reconciliation between lenses
 
-1. **Reinstate or retire the dropped tables (C2).** This is the root cause and it gates C1, C3, C4, C5. For each of `power_mde.tex`, `balance_player_b.tex`, `reg_delegation_robustness.tex`, decide: back into the build, or the dependent claim comes out.
-2. **Fix the equivalence claim (C1).** Report the TOST with its ±£0.20 bound stated plainly, or drop "alike" and "cannot shift blame" for Result 2's own wording. This is the sentence a referee will quote.
-3. **Correct the H2 interaction (C3).** Report the linear combination, relabel the DiD, resolve the line-48 / line-54 contradiction.
-4. **Report Player B balance and narrow the justification (C4).**
-5. **Test the mechanism claim (C5)** — treatment × performance interaction — and fix the overconfidence numbers to match the code definition.
-6. **Downgrade the causal cross-study language in the intro (C6).** Smallest edit, high referee risk.
-7. **Clean the bibliography (C7)** and repoint `/validate-bib` at the file the manuscript actually uses. Delete `stein_dont_2020`.
-8. **Remove the `\hl` placeholder (C8)**, then the prose MAJORs (M16, M18) and the abstract's missing contribution and selection result (M4, M5).
+- **Severity:** The recurring punishment overclaim is consistently MAJOR. It is consequential and needs correction, but does not establish invalid estimates. Front-matter placeholders are MINOR. This replaces the older inflated CRITICAL classification.
+- **Performance:** The body has repaired the old untested-gradient problem; the introduction still overstates selective treatment effects. Both findings can be true. A significant coefficient in one condition and not another is not itself a significant difference between coefficients.
+- **Effort:** Added statistics resolve the reporting omission. They do not resolve selected-sample identification or measurement limitations; the new numbered statement must reflect that distinction.
+- **Balance:** B's omission is a transparency choice, not proof of failed H2 identification. Any causal comparison of real versus hypothetical punishment across arms needs its own justification.
+- **Belief asymmetry:** The old commented test of good-versus-bad mean penalties is not the behavioral sign-response test now asserted in a footnote. Do not reinstate it as if it answered that question.
+- **Citations:** Full-paper checks overrule unsupported adverse claims based on abstracts. Tontrup has an observer condition and treatment comparisons; Chevrier reports the decomposition, with treatment specificity still needing correction. Root bibliography-tool instructions are separated from actual manuscript reference validity.
 
-## Contradictions between lenses
+## Verification and limits
 
-- **Lens 5 vs the author's own analysis on order effects.** Lens 5 characterized the commented-out order effect as showing "the reversal is largely confined to one order arm", derived by back-calculating cell shares. The commented paragraph itself reports the treatment × order interaction at p=0.115, non-significant, which `numbers.json` confirms (`order_logit_interaction_p = 0.115`). The defensible finding is that a real order effect went unreported, **not** that the headline result is an order artifact. Recorded here so the stronger claim does not propagate.
-- **Lens 3 vs Lens 6 on how much work remains.** Lens 6 judges that fixing its criticals reaches ~9/10 "without touching substance"; Lens 3 finds the identification claims outrun the design. Both are right within scope. The prose is in better shape than the inference.
-- **Lens 2 vs Lens 1 on the mechanism paragraph.** Lens 2 wants it moved after the contributions, not cut; Lens 1 wants a contribution sentence added to the abstract. These are compatible.
-- **No M3 over-commitment found.** Lens 5 examined the mechanisms section specifically and reports it is even-handed and explicitly demotes process ownership. The existing skepticism about M3 appears already reflected in the draft.
+Seven reviewer agents covered the seven lenses in waves within the concurrency limit; the coordinator drafted Results and synthesized the reports, with an independent Results check. No runtime/token estimate is claimed.
 
-## Notes on this run
+Read-only recomputations from the cleaned XLSX files verified selected H1/H2 tests, CIs/TOST, exclusions, order cells, attention counts, belief means and effort statistics. Regression values were also checked against current tables, code and the manifest. This was **not** a full raw-data-to-paper replication or a rerun of the entire analysis pipeline.
 
-- `domain-reviewer.md` still carries its `AUTO-DETECT-TEMPLATE-MARKER` and is written for lecture slides. Lens 3 used an experimental-economics adaptation, not the shipped template. Customizing that agent would make future runs of this skill and `/review-paper --peer` materially better.
-- `proofreader.md` is likewise slide-oriented; Lens 6 used an adapted manuscript version.
-- Scholar Gateway and Consensus connectors were unauthorized in this session, so Lens 7 verified via general web search and flagged what it could not confirm.
-- All CRITICAL findings in this synthesis were independently verified against source files or `numbers.json` before being recorded.
+An isolated source copy passed pdflatex → BibTeX → pdflatex → pdflatex. The current build includes exactly `reg_delegation`, `reg_belief_specs`, `balance_player_a`, `reg_punishment` and `reg_punishment_extensive`. The final log has no undefined references/citations or BibTeX warnings, one 1.299 pt overfull box in `conclusion.tex:8–10`, and geometry/layout package warnings. The title page and selected native figures were visually inspected; no claim is made to exhaustive page-by-page visual QA. Build evidence is in the workspace's `tmp/seven_pass_2026-09-07/`.
+
+Citation work combined supplied full papers, the completed 5 September metadata audit and targeted primary-source web checks. Blocked endpoints and unverified suggestions are identified in Lens 7; the update is not a fresh online audit of all 105 bibliography entries or an exhaustive literature search.
+
+The author's manuscript sources, bibliography, data, production exhibits and existing PDF were preserved. The updated review covers the working tree, not merely committed HEAD. Historical reports remain available in Git; each lens contains its own old-to-current finding map.

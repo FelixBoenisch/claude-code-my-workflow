@@ -1,177 +1,117 @@
-# Lens 2 — Introduction Structure
+﻿# Lens 2 — Introduction Structure
 
 **Manuscript:** Accountability and Algorithmic Delegation: Experimental Evidence
-**File under review:** `manuscript/introduction.tex` (checked against `abstract.tex`, `literature.tex`, `design.tex`, `results.tex`, `conclusion.tex`, `main.tex`)
-**Framework:** Cochrane / Varian
-**Date:** 2026-08-20
 
----
+**Reviewed:** 2026-09-07; current working tree, including uncommitted edits, at HEAD `d4f48b6`
 
-## Summary of counts
+**Sources:** `manuscript/introduction.tex`, checked against `abstract.tex`, `literature.tex`, `design.tex`, `results.tex`, `conclusion.tex`, and `main.tex`
+
+**Framework:** Cochrane / Varian; local `.claude/skills/seven-pass-review/SKILL.md`
+
+**Scope:** Introduction structure and fidelity to the current paper. Commented source is distinguished from published prose. Citation verification and detailed identification checks belong to the other lenses.
+
+## Current assessment
 
 | Severity | Count |
-|---|---|
+|---|---:|
 | CRITICAL | 0 |
-| MAJOR | 4 |
-| MINOR | 8 |
+| MAJOR | 3 |
+| MINOR | 4 |
 
-**Score: 7 / 10**
-
-Rubric items 3 (enumerated contribution) and 5 (roadmap accuracy) pass cleanly. Item 4 passes for the headline result only. Items 1, 2, and 6 carry the four MAJOR findings.
-
----
+**Score: 7 / 10.** The two contributions and main treatment contrast are clear. The headline magnitudes now agree across sections: punishment reduces delegation from 60.8% to 42.5%, a difference of 18.3 percentage points. The main remaining problems concern claims of no protection from punishment, treatment-specific selection by performance, and a causal explanation of the contrast with Feier et al. Opening and ordering preferences are editorial issues and are downgraded from their earlier MAJOR ratings.
 
 ## Rubric scorecard
 
-| # | Item | Verdict |
-|---|---|---|
-| 1 | Opens with the research question, not AI throat-clearing | **Partial** — question arrives at sentence 7 of 9 (MAJOR-1) |
-| 2 | hook → context → contribution → roadmap; literature after the hook | **Partial** — economics literature is correctly placed after the hook, but a normative-debate citation block precedes it (MAJOR-1); contribution is buried behind the mechanism paragraph (MAJOR-3) |
-| 3 | Contribution explicitly counted and enumerated | **Pass** — "Our contribution is twofold. First… Second…" |
-| 4 | Findings previewed with magnitudes | **Partial** — delegation result carries numbers; punishment and selection results do not (MINOR-1) |
-| 5 | Roadmap matches `main.tex` `\input` order | **Pass** — literature → design → results → conclusion, exactly as inputted |
-| 6 | Intro framing consistent with what the body delivers | **Fail on two counts** (MAJOR-2, MAJOR-4) |
-
----
+| Item | Current verdict |
+|---|---|
+| Opens with the research question | Partial: both questions appear in the opening paragraph, after scene-setting and citations (`introduction.tex:5`). |
+| Hook → context → contribution → roadmap; literature after hook | Partial: economics context follows the question, but normative citations precede it; contribution follows an extended mechanism paragraph (`:7`, `:16`, `:20`). |
+| Contribution counted and enumerated | Pass: “Our contribution is twofold. First…” and “Second…” remain explicit (`:20`, `:22`). |
+| Findings previewed with magnitudes | Partial: delegation effect fully and consistently quantified; punishment comparison has neither its estimated gap nor uncertainty (`:11`). |
+| Roadmap matches manuscript | Pass: literature, design, results/mechanisms, conclusion match `main.tex:100`, `:102`, `:104`, `:106`. Preregistration appendix already linked at `introduction.tex:9`. |
+| Preview faithful to evidence | Partial: pooled performance description at `:16` improves on earlier version, but three substantive claims still exceed the evidence. |
 
 ## MAJOR findings
 
-### MAJOR-1 — The question is buried four sentences deep behind an AI-ubiquity opening and a normative-debate citation cluster
-`manuscript/introduction.tex:3`
+### I-M1 — Cross-study comparison still claims a channel explanation the design does not identify
 
-> "Algorithms take part in a growing share of consequential decisions. Many of these decisions carry consequences that fall, at least in part, on others. Physicians rely on diagnostic systems, firms let screening software rank job applicants, and financial advisors draw on algorithmic tools. In each of these settings, a human decides whether to put the algorithm in charge. Who bears responsibility when an algorithm's decision causes harm is the subject of a lively legal \citep{lemley_remedies_2019, buiten_law_2023}, ethical \citep{matthias_responsibility_2004, santoni_de_sio_four_2021}, and policy \citep{european_commission_liability_2019,european_union_ai_act_2024} debate."
+**Evidence:** `manuscript/introduction.tex:22`; `literature.tex:35` and `:37`.
 
-Four sentences of scene-setting, then a six-citation drop, and only then the tension ("While the debate concerns where responsibility should lie, behavior is another matter") and the two questions. Cochrane's rule is that the first paragraph earns its keep by posing the question; here the first four sentences are interchangeable with the opening of any AI paper and none of them is specific to delegation-plus-accountability. The citation block is also literature placed *before* the hook — the rubric's item 2 failure mode — even though it is normative literature rather than the economics strand.
+The revised paragraph more clearly explains the different treatment contrasts, the reward-versus-punishment distinction, and the separation of roles. It nevertheless ends: “Once both channels are closed, the differential disappears, and punishment tracks the realized outcome instead.”
 
-The material worth keeping is sentence 4 ("a human decides whether to put the algorithm in charge") and the tension sentence. The three worked examples and the citation cluster can move down into paragraph 2 or into `literature.tex`, which already covers the policy strand.
+This presents the absence of a statistically detectable differential as the consequence of removing two channels. Neither channel is varied experimentally within this study. The current literature section describes differences in evaluation instrument, calibration, role assignment, and punishment manipulation; it does not establish which explains the contrasting results. Even granting the intended role of calibration, that cross-study attribution does not follow. The earlier report's reliance on a live three-item paragraph in `design.tex` is stale: that paragraph is now commented out at `design.tex:131` and is not a published contradiction.
 
-**Fix direction:** open on the tension. Something in the shape of "When an algorithm makes a decision that harms someone, a human chose to put it in charge. Whether that choice changes who answers for the harm, and whether the prospect of answering for it changes the choice, are behavioral questions that the legal and ethical debate over algorithmic responsibility does not settle." Examples and normative citations follow.
+**Revision direction:** separate the design contrast from the observation. For example: “In our design, with separate roles and individual-level calibration, we detect no significant punishment reduction from delegation. The comparison does not identify which design difference accounts for the contrast with their findings.” Do not describe the differential as having been experimentally made to disappear.
 
----
+### I-M2 — “Offers no protection” turns a nonsignificant estimate into an established absence
 
-### MAJOR-2 — The intro asserts a causal cross-study attribution that the body explicitly declines to make
-`manuscript/introduction.tex:18`
+**Evidence:** `manuscript/introduction.tex:11` and `:16`; `results.tex:49` and `:52`; also `abstract.tex:2` and `conclusion.tex:6`.
 
-> "However, the same subject both delegates and evaluates, and the delegation decision is strongly determined by beliefs about relative ability, inviting punishment of overconfidence rather than of delegation itself. **Once both channels are closed, the differential disappears, and punishment tracks the realized outcome instead.**"
+The preview says delegation “offers no protection against punishment,” and the mechanism paragraph starts from “no differential punishment.” Current numbered Result 2 is appropriately narrower: delegation does not reduce punishment **significantly** after a low-payoff outcome. The body reports £0.48 for delegated versus £0.55 for own decisions after bad outcomes, with paired-test `p = 0.13`. The estimate is in the hypothesized protection direction; failure to reject zero does not establish equivalence or rule out protection.
 
-This sentence tells the reader that closing two specific design channels is *what caused* Feier et al.'s punishment differential to vanish in this paper. The body never establishes that, and in two places says the opposite:
+The review's independent numerical check gives a delegated-minus-own estimate of −£0.07125 (80 recipients; paired-test `p = 0.1308`), consistent with those levels. This finding does not depend on requiring a significance test in the introduction: the issue is the strength of the verbal conclusion. Its recurrence elsewhere does not make the preview accurate.
 
-- `manuscript/design.tex:102` lists **three** differences from Feier et al. and puts the task first: "Our study differs from theirs in three respects. **First, the task differs.** Second, the roles of Player~A and Player~B are separated across disjoint subject pools. Third, their design does not control for relative performance at the individual level." The task difference is a live third channel that the intro sentence silently drops.
-- `manuscript/results.tex:70` concedes that the whole class of design departures "may explain the absence of the predicted effect, not its reversal."
-- The now-commented passage at `manuscript/results.tex:171` states the point flatly: "the question of which design feature is causally responsible for the sign reversal cannot be resolved without an experiment that varies relative-performance calibration directly, which we do not do here." That caution was correct and the intro contradicts it.
+**Revision direction:** use “We find no statistically significant reduction in punishment from delegation,” optionally followed by the bad-outcome levels or gap. This also addresses the earlier request to quantify the second contribution. An equivalence claim would require an explicit substantively meaningful bound and supporting precision analysis.
 
-At AER/QJE, a two-study comparison presented as a channel-shutdown experiment is exactly the sentence a referee circles. The design difference set is not orthogonal, the samples differ, and Feier et al. measure reward while this paper measures punishment.
+### I-M3 — Contribution still asserts selective treatment effects after the body narrowed the selection result
 
-**Fix direction:** state the co-occurrence, not the mechanism. E.g. "In our design, where neither channel is present, no such differential appears. Punishment tracks the realized outcome instead." That keeps the contrast and drops the causal claim. (Note it also requires reconciling the enumeration — see MINOR-5.)
+**Evidence:** `manuscript/introduction.tex:20`; contrast with `introduction.tex:16`, `results.tex:109`, `:113`, and `:132`.
 
----
+The contribution says punishment discourages delegation “selectively among the decision-makers most likely to succeed.” This links the randomized punishment effect to ability and reads as established treatment heterogeneity. The body now explicitly states that the performance–delegation relationships do not differ statistically between conditions (`results.tex:109`, `:132`), and Result 4 has been narrowed to “Better-performing Player~As are less likely to delegate” (`:113`). The introduction's mechanism paragraph already uses this pooled formulation (`:16`).
 
-### MAJOR-3 — The contribution is buried behind a 330-word inconclusive mechanism paragraph
-`manuscript/introduction.tex:14`, contribution at `:16`
+The descriptive slope difference and the comparison of delegators' mean scores across conditions (`results.tex:110`) do not establish that the treatment effect concentrates among stronger performers. This is a substantive inconsistency, not merely an issue with “most likely to succeed.” The old objection that relative wording was inappropriate because absolute success rates were low was too strong: relative rankings remain meaningful at low success probabilities.
 
-The intro's longest paragraph runs through four candidate mechanisms (anticipated punishment, punishment-induced effort, selection on performance, signaling) and lands on:
-
-> "Thus, while the drop in delegation under punishment is robust, which motive produces it is a question we narrow rather than settle."
-
-The reader then meets "Our contribution is twofold" at line 16. The structural consequence is that the last thing a skimming reader absorbs before the contribution statement is the paper's weakest material — a list of things the data cannot distinguish. This is a Varian ordering failure independent of length: the contribution should be adjacent to the findings, with mechanism narrowing either compressed or moved after it.
-
-I am reading this against the mid-draft verbosity tolerance and still flagging it, because the damage is ordering, not word count. Two options, either acceptable:
-
-1. Compress to roughly four sentences that name the candidates and state the verdict, keeping the position.
-2. Keep the length but move it *after* the two contribution paragraphs, so the intro reads findings → contribution → what we could not pin down → roadmap.
-
-Option 2 is the safer edit at this stage since it preserves all the content (consistent with the standing preference for keeping material at mid-draft).
-
----
-
-### MAJOR-4 — The two headline questions are stated in the opposite order from every other part of the paper
-`manuscript/introduction.tex:3`
-
-> "**Does delegating a decision to an algorithm change the responsibility that those affected assign to the delegator?** And does the prospect of being held responsible move the delegation decision itself?"
-
-Attribution first, delegation second. Everything downstream runs the other way:
-
-| Location | Order |
-|---|---|
-| `abstract.tex:1` | delegation reversal first, then "Delegation offers no protection in return" |
-| `introduction.tex:9` (findings) | delegation first |
-| `introduction.tex:16` / `:18` (contribution) | delegation is First, attribution is Second |
-| `design.tex:93` / `:99` | Hypothesis 1 = delegation, Hypothesis 2 = punishment |
-| `results.tex:7` / `:33` | Player A delegation, then Player B punishment |
-| `conclusion.tex:4` | "whether the prospect of being held responsible shapes the decision to put an algorithm in charge, **and** whether putting an algorithm in charge shapes the responsibility assignment" — delegation first |
-
-The intro is the single outlier, and it is the place where the reader forms the mapping. It forces a re-index at the findings paragraph six lines later. Swapping the two questions is a one-line fix with no downstream consequences, and it makes the conclusion's opening a clean echo of the intro's.
-
----
+**Revision direction:** conclude the first contribution with the average treatment effect. If selection remains here, state it separately: “Across conditions, better-performing decision-makers are less likely to delegate.” Label any treatment difference in this relationship descriptive, with the lack of statistical evidence for heterogeneity clear.
 
 ## MINOR findings
 
-### MINOR-1 — Magnitudes are given for one of three previewed results
-`manuscript/introduction.tex:9`, `:14`
+### I-m1 — Opening delays the behavioral question
 
-The delegation result is fully quantified ("$42.5$ percent", "$59.3$ percent", "roughly $17$~percentage points"). The other two previewed results are qualitative only:
+**Evidence:** `manuscript/introduction.tex:5`.
 
-- Punishment (`:9`): "Player~B punishes delegated and self-made decisions alike" — no numbers, though `results.tex:48` has them ($\pounds 0.48$ vs $\pounds 0.55$ after bad outcomes; $\pounds 0.33$ vs $\pounds 0.30$ after good).
-- Selection (`:14`): "it is disproportionately the better-performing Player~As who keep the decision" — no numbers, though `results.tex:112` has $2.47$ vs $3.06$ correct predictions among delegators across conditions.
+The first three sentences establish widespread algorithm use and give examples; the fourth introduces the normative citations; the sixth asks the first behavioral question. The opening has been compressed since the previous review, but the question still follows broad scene-setting. Moving the behavioral tension to the first or second sentence would sharpen the hook. This is an editorial improvement, not a major defect: both questions are clear within the opening paragraph, and the economics literature follows them at `:7`.
 
-Since the punishment null is the paper's *second enumerated contribution*, giving it a magnitude in the intro strengthens it. A null with numbers reads as a measurement; a null without reads as a failure to find. Adding levels is not statistical hedging and does not touch the lean-intro rule.
+### I-m2 — Extended mechanism preview separates findings from contribution
 
-### MINOR-2 — Effect size rounds inconsistently against the abstract
-`manuscript/introduction.tex:9` says "roughly $17$~percentage points"; `abstract.tex:1` says "$16.8$ percentage points"; `results.tex:9` says "$16.8$~percentage points". `results.tex:104` also uses "$17$~percentage-point". Pick one. The abstract and Result 1 both use 16.8, so the intro should match.
+**Evidence:** `manuscript/introduction.tex:16`, followed by contributions at `:20` and `:22`.
 
-### MINOR-3 — "match how Player~B actually punishes" overstates belief accuracy
-`manuscript/introduction.tex:14`
+The live mechanism paragraph is approximately 293 whitespace-delimited words, down from the earlier version. It still takes the reader through anticipated punishment, effort, signaling, and performance selection before the counted contribution arrives. Its admission that mechanisms remain unresolved is appropriate. Consider placing the contributions immediately after the findings, then compressing or repositioning the mechanism discussion. The issue is reading order, not a requirement to remove qualifications or substantive material.
 
-> "Her elicited beliefs show no such expectation, and instead match how Player~B actually punishes."
+### I-m3 — Opening questions and subsequent presentation use opposite orders
 
-`results.tex:81` reports two patterns, and the first one contradicts a plain reading of "match": "Player~As, on average, substantially overestimate punishment in every scenario." Beliefs match the *absence of a delegation penalty*, not the level of punishment, and Figure~\ref{fig:realized_vs_anticipated} makes the level gap visually obvious. The sentence is defensible in context but a referee comparing it to the figure will read it as a misstatement.
+**Evidence:** `manuscript/introduction.tex:5` versus `:11`, `:20`, `:22`; `design.tex:99` and `:109`; `results.tex:7` and `:33`; `conclusion.tex:4`.
 
-**Fix direction:** "and instead reproduce the absence of any delegation penalty in Player~B's actual punishment."
+The introduction asks attribution first and delegation second, whereas findings, contributions, hypotheses, results, and conclusion present delegation first. Swapping the opening questions would give readers a consistent mapping. The earlier MAJOR rating overstated the cost of this minor organizational mismatch.
 
-### MINOR-4 — "322 participants" names the recruitment total, not the unit of either test
-`manuscript/introduction.tex:7`
+### I-m4 — Stale alternatives remain in the introduction source
 
-The delegation comparison rests on 161 Player As, and the punishment elicitation on the Player Bs in the *Punishment* condition. "322 participants" is accurate as a recruitment figure but flatters the design in the sentence that introduces it. A purely descriptive fix carries no statistical hedging: "with $161$ decision-makers and $161$ matched recipients."
+**Evidence:** `manuscript/introduction.tex:3`, `:13`, `:14`, `:18`, `:26`, and `:28`.
 
-### MINOR-5 — Three different enumerations of "how we differ" circulate, and two of them disagree
-- `introduction.tex:16` — departs from the human-intermediary canon "in three respects": algorithmic intermediary, genuine uncertainty, consequences fall entirely on the recipient. This matches `literature.tex:11` exactly. **Consistent, good.**
-- `introduction.tex:18` — departs from Feier et al. via **two** channels: dual delegator/evaluator role, and relative-ability signalling.
-- `literature.tex:34` — departs from Feier et al. in **three** respects: individual-level calibration, separated roles, varied punishment regime.
-- `design.tex:102` — departs from Feier et al. in **three** respects: **the task differs**, separated roles, relative performance not controlled.
+The file retains an old opening, multiple mechanism versions, a superseded design-contribution paragraph, and an obsolete three-strand contribution paragraph. These comments do not appear in the compiled paper and are not counted as live claim inconsistencies. They can still confuse source-level collaboration, and the local single-source-of-truth rule asks for stale comments to be removed before sharing. Archive useful alternatives outside the manuscript when preparing a clean draft.
 
-`literature.tex:34` and `design.tex:102` name different third items, and the intro names only two. A reader who reads all three sections cannot tell how many differences there are. The intro should state the same count as `literature.tex`, or state two and say plainly that it is naming the two that bear on the punishment result. (This is entangled with MAJOR-2 — fixing that sentence is the natural moment to fix the count.)
+## Disposition of every previous finding
 
-### MINOR-6 — "the decision-makers most likely to succeed" overreaches for this sample
-`manuscript/introduction.tex:16`
+Previous IDs refer to the replaced report, whose own date was 2026-08-20. Current findings use the `I-` prefix to make the mapping unambiguous. Counts above include only current findings.
 
-> "Accountability disciplines algorithm use rather than fueling it, and it does so selectively among the decision-makers most likely to succeed."
+| Previous ID | Status | Current disposition |
+|---|---|---|
+| MAJOR-1 — buried question / citations | Partial | Opening compressed; question still delayed. Downgraded to I-m1. |
+| MAJOR-2 — causal cross-study attribution | Open | I-M1. Comparison paragraph clearer, but “Once both channels are closed…” remains. Old live-design-paragraph evidence retired because it is now commented out. |
+| MAJOR-3 — mechanism paragraph before contribution | Partial | Paragraph revised and shorter; ordering remains. Downgraded to I-m2. |
+| MAJOR-4 — question order | Open | I-m3; downgraded to MINOR. |
+| MINOR-1 — only one previewed result quantified | Partial | Delegation magnitude current and correct; punishment unquantified. Subsumed under I-M2 because inferential wording is the material issue. Quantifying exploratory selection is optional, not a separate defect. |
+| MINOR-2 — 16.8 versus roughly 17 points | Resolved | `introduction.tex:11`, `abstract.tex:2`, and `results.tex:9` consistently give 18.3 points, using 60.8% versus 42.5%. |
+| MINOR-3 — beliefs “match” actual levels | Resolved | `introduction.tex:16` now says “actual punishment pattern,” following the specific claim about differential punishment. This distinguishes the pattern from level overestimation in `results.tex:76`. |
+| MINOR-4 — recruitment total presented as sample | Superseded | 322 accurately describes recruitment; `results.tex:3` explains roles and two Player A exclusions. Main Player A sample is 159, not the old review's 161. Role-specific analytic Ns could be added, but recruitment N in this introductory overview is not itself misleading. |
+| MINOR-5 — conflicting counts of design differences | Resolved | `literature.tex:37` says “various respects”; `introduction.tex:22` distinguishes comparison dimensions; old design enumeration commented out at `design.tex:131`. Remaining causal language is I-M1, not an enumeration inconsistency. |
+| MINOR-6 — “most likely to succeed” | Superseded | I-M3 identifies unsupported treatment-specific selection. Low absolute success rates alone do not invalidate a relative performance description. |
+| MINOR-7 — stale comments | Open | I-m4, with current locations; comments are not treated as published prose. |
+| MINOR-8 — roadmap omits appendix | Superseded | No requirement to enumerate all appendix material. Roadmap accurately covers main sections; `introduction.tex:9` already directs readers to the preregistration appendix. |
 
-Mean performance is $2.76$ and $3.09$ correct out of ten (`results.tex:110`), and the delegator contrast driving Result 3 is $2.47$ vs $3.06$ (`results.tex:112`). "Most likely to succeed" describes subjects whose success probability is roughly $25$–$30$ percent. `results.tex:133` even notes that better performance moves subjects *toward* maximal outcome uncertainty in this sample. "the better-performing decision-makers" is both accurate and no weaker rhetorically.
+## Revision priority
 
-### MINOR-7 — Dead commented-out prose inside the section body
-`manuscript/introduction.tex:11-12` holds a `%old` near-duplicate of the live mechanism paragraph; `:24-26` holds two long stale blocks, one of which frames the paper as contributing to "three strands of literature" and asserts a regulatory-lever claim that the current conclusion no longer makes. The repo's own single-source-of-truth rule asks for no commented-out stale content before a draft is shared, and the `:26` block will actively mislead a co-author skimming the source. Move both to `quality_reports/section_diffs/` or delete.
+1. Align the contribution and headline preview with the identified average effect and uncertainty in punishment and heterogeneity results (I-M2, I-M3).
+2. Remove causal channel attribution from the cross-study comparison (I-M1).
+3. Adjust the hook and ordering if helpful, then archive stale alternatives (I-m1–I-m4).
 
-### MINOR-8 — Roadmap omits the appendix
-`manuscript/introduction.tex:20` covers Sections 2–5 accurately but not `appendix.tex`, which `main.tex:110` inputs and which carries the preregistration, balance table, and several referenced figures (`appendix:prereg`, `appendix:sum_stats`, `fig:punishment_passers`, `fig:punishment_hypothetical`). One trailing clause noting that the appendix contains the preregistration and supplementary analyses is standard at the target journals.
-
----
-
-## What the introduction does well
-
-- **Contribution is counted and enumerated.** "Our contribution is twofold. First… Second…" is exactly what the rubric asks for, and each contribution is a distinct claim rather than a restatement of the other.
-- **The headline finding is previewed with real numbers** and with the direction stated against the prediction it overturns ("reverses the canonical prediction"), which is the strongest sentence in the intro.
-- **The roadmap is accurate.** Section order and content descriptions match `main.tex` and the section files line for line, including the fact that mechanisms live inside Results rather than in a separate section.
-- **The economics literature is correctly placed after the hook** (paragraph 2, `:5`), and it is used to set up a prediction the paper then overturns rather than as a survey.
-- **Design description at `:7` is faithful to `design.tex`** on every checkable detail: ten rounds for own payoff, one consequential prediction, individual-level calibration, between-subject punishment manipulation, strategy-method elicitation over all four (delegation, outcome) cells.
-- **Departures paragraph stays on the human-intermediary strand**, as it should.
-
----
-
-## Priority order for revision
-
-1. MAJOR-2 (causal cross-study claim) — highest referee risk, smallest edit.
-2. MAJOR-4 (question order) — one-line swap, removes a needless reader stumble.
-3. MAJOR-3 (contribution buried) — reorder rather than cut.
-4. MAJOR-1 (opening) — largest rewrite, but the intro is publishable without it and unignorable with it.
-5. MINOR-1, -3, -5 — substantive accuracy.
-6. MINOR-2, -4, -6, -7, -8 — housekeeping.
+Preserve the counted contributions, clear randomized treatment contrast, matching headline magnitudes, explicit unresolved-mechanism conclusion, and accurate main-text roadmap. The findings call for targeted revisions, not a wholesale introduction rewrite.
